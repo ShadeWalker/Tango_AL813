@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- AudioProfile Settings start -->
+   <string name="ring_summary">着信音</string>
+  <string name="ring_vibrate_summary">着信音とバイブレーション</string>
+  <string name="silent_summary">無音声のみ</string>
+  <string name="meeting_summary">バイブレーションのみ</string>
+  <string name="outdoor_summary">最大音量の着信音とバイブレーション</string>
+  <string name="audio_profile_reset">"リセット"</string>
+  <string name="audio_profile_add">"追加"</string>
+  <string name="audio_profile_enable">"有効にする"</string>
+  <string name="audio_profile_rename">"名前を変更"</string>
+  <string name="audio_profile_delete">"削除"</string>
+  <string name="audio_profile_message_reset">全ての音声プロフィール設定はデフォルトにリセットされます</string>
+  <string name="audio_profile_message_rename">新プロフィール名を入力してください</string>
+  <string name="audio_profile_message_name_error">入力された名前は既に存在します</string>
+  <string name="audio_profile_message_name_length_wrong">名前には文字が最低1つ必要です。</string>
+  <string name="audio_profile_message_delete">プロフィール <xliff:g id="profile">%s</xliff:g> は削除されます</string>
+  <string name="audio_profile_message_overflow">カスタムプロフィールは最大6個までしか追加できません</string>
+  <string name="audio_profile_category_custom_title">ユーザー定義のプロフィール</string>
+  <string name="audio_profile_category_predefine_title">プリセットされたプロフィール</string>
+  <string name="audio_profile_error">"エラー"</string>
+  <string name="audio_profile_others">通知＆その他</string>
+  <string name="general_settings_title">"全般"</string>
+  <string name="silent_settings_title">"マナーモード"</string>
+  <string name="meeting_settings_title">会議</string>
+  <string name="outdoor_settings_title">屋外</string>
+  <string name="sound_category_feedback_title">"システム"</string>
+  <string name="sound_category_calls_title">"着信"</string>
+  <string name="voice_call_title">音声通話着信音</string>
+  <string name="voice_call_summary">"デフォルトの音声通話着信音を設定してください"</string>
+  <string name="video_call_title">ビデオ通話着信音</string>
+  <string name="video_call_summary">デフォルトのビデオ通話着信音を設定してください</string>
+  <string name="sip_call_title">SIP通話着信音</string>
+  <string name="sip_call_summary">デフォルトのSIP通話着信音を設定してください</string>
+  <string name="Phone_vibrate_summary">通話着信用のバイブレーションデバイス</string>
+  <string name="vibrate_title">"バイブレーション"</string>
+  <string name="audio_profile_settings_title">音声プロフィール</string>
+  <string name="audio_profile_bes_loudness_summary">スピーカーのボリュームブースター</string>
+  <string name="sound_enhancement_title">音声強化</string>
+  <string name="music_plus_summary">イヤホン用の音声強化機能</string>
+  <string name="lossless_title">ロスレスBTモード</string>
+  <string name="lossless_summary">高品質BTオーディオ</string>
+  <string name="lossless_connect_summary">ロスレスBTモードをオンにすると、Wifiが影響を受けます。有効にしますか？</string>
+  <string name="lossless_on">ロスレスBTモードオン</string>
+  <string name="lossless_playing">ロスレス音楽再生</string>
+  <string name="lossless_toastmessage">システム音は電話のスピーカーから再生されます。</string>
+  <string name="lossless_volume_max">システムボリュームを最大にしたままにしてください</string>
+  <string name="lossless_cannot_found_device">ロスレスBTデバイスが見つかりませんでした</string>
+  <string name="audio_profile_bes_surround_title">BesSurround</string>
+  <string name="audio_profile_bes_surround_summary">オーディオサラウンド</string>
+  <string name="audio_profile_bes_surround_mode_movie">動画モード</string>
+  <string name="audio_profile_bes_surround_mode_music">音楽モード</string>
+  <string name="zen_mode_option_title_novoice" msgid="6680706009915204785">"通知の受信時"</string>
+  <!-- AudioProfile Settings end -->
+ 
+  <!-- MTK Wi-Fi settings start -->
+   <string name="wifi_no_cert_for_wapi">現在接続しているAPの認証が見つかりません</string>
+  <string name="sim_slot">SIMスロット</string>
+  <string name="eap_sim_slot_0">SIMスロット1</string>
+  <string name="eap_sim_slot_1">SIMスロット2</string>
+  <string name="eap_sim_aka_airplanemode">EAP-SIM/AKAを使用する場合は機内モードをOFFにしてください</string>
+  <string name="eap_sim_aka_no_sim_error">EAP-SIM/AKAを使用する場合はSIMカードを挿入する必要があります</string>
+  <string name="eap_sim_aka_no_sim_slot_selected">EAP-SIM/AKAを使用する場合はSIMスロットを利用する必要があります</string>
+  <string name="wifi_security_wapi_certificate">WAPI証明書</string>
+  <string name="wapi_user_certificate">"ユーザー証明書"</string>
+  <string name="wapi_as_certificate">ASE証明書</string>
+  <string name="wifi_hex_password">16進数のパスワードです。</string>
+  <string name="wifi_WEP_transmit_key">転送キー</string>
+  <string name="wifi_WEP_secury_key">セキュリティキー</string>
+  <string name="wifi_tether_auto_disable_title">ポータブルWi-Fiアクセスを保持する</string>
+  <string name="wifi_tether_auto_channel_text">"自動"</string>
+  <string name="wifi_tether_auto_channel_width_text">自動20/40 MHz</string>
+  <string name="wifi_channel">お気に入りのチャンネル</string>
+  <string name="wifi_channel_width">チャンネル幅</string>
+  <string name="wifi_advanced_ipv4_address_title">IPv4アドレス</string>
+  <string name="wifi_advanced_ipv6_address_title">IPv6アドレス</string>
+  <string name="wifi_ipv4_address">IPv4アドレス</string>
+  <string name="wifi_ipv6_address">IPv6アドレス</string>
+  <string name="wifi_ap_auto_join_available">自動参加</string>
+  <string name="wifi_ap_auto_join_available_summary">接続されたときには、Wi-Fiネットワークのスキャン中に自動的に状態の良いネットワークを選択して参加する</string>
+  <!-- MTK Wi-Fi settings end -->
+ 
+  <!-- Wi-Fi hotspot client start -->
+   <string name="wifi_tether_setting_title">基本設定</string>
+  <string name="wifi_tether_wps_connect_title">WPS接続</string>
+  <string name="wifi_tether_wps_connect_summary">選択されたWi-Fiは設定モードが保護されています</string>
+  <string name="wifi_tether_wps_pin_error">無効なPIN</string>
+  <string name="wifi_tethering_title">Wi-Fiアクセスポイント</string>
+  <string name="wifi_ap_wps_dialog_title">WPS接続</string>
+  <string name="wifi_ap_wps_mode_title">WPSモード</string>
+  <string name="wifi_ap_wps_pin_title">クライアントからのPINを入力する</string>
+  <string name="wifi_ap_reset_OOB_title">ネットワークSSID、セキュリティ、パスワードをデフォルトにリセットします（WPSの出荷設定）</string>
+  <string name="wifi_ap_reset_OOB">OOBをリセットする</string>
+  <string name="wifi_ap_max_connection_title">最大接続数</string>
+  <string name="wifi_ap_connected_title">接続済みユーザー</string>
+  <string name="wifi_ap_blocked_title">ブロック済みユーザー</string>
+  <string name="wifi_ap_client_block_title">"ブロック"</string>
+  <string name="wifi_ap_client_unblock_title">ブロック解除する</string>
+  <string name="wifi_ap_client_details_title">"詳細情報"</string>
+  <string name="wifi_ap_client_mac_label">MACアドレス：</string>
+  <string name="wifi_ap_client_ip_label">IPアドレス：</string>
+  <string name="wifi_ap_bandwidth_title">帯域幅利用率</string>
+  <string name="wifi_ap_bandwidth_enable">帯域制限を有効にする</string>
+  <string name="wifi_ap_bandwidth_chart_title">リアルタイムデータ速度</string>
+  <string name="wifi_ap_bandwidth_chart_summary">"測定する携帯端末に応じて、通信事業者'のデータ速度は異なる場合があります。"</string>
+  <string name="wifi_wps_fail_error">Wi-Fi保護された設定に失敗しました。再度お試しください。</string>
+  <string name="wifi_ap_title">統計</string>
+  <string name="wifi_ap_time_duration">持続時間：<xliff:g id="time">%1$s</xliff:g></string>
+  <string name="wifi_ap_total_data">使用データ：<xliff:g id="time">%1$s</xliff:g></string>
+  <string name="wifi_ap_no_connected">接続済みユーザーは0です</string>
+  <string name="wifi_ap_no_blocked">ブロック済みユーザーは0です</string>
+  <!-- Wi-Fi hotspot client end -->
+ 
+  <!-- MTK Beam plus start -->
+   <string name="beam_mgmt_tab_download_title">サービス読込み（SL）メッセージを受信すると自動的に起動します</string>
+  <string name="beam_mgmt_tab_upload_title">"現在の端末の状態に関する情報が収集され、その内容がメールで送信されます。バグレポートが開始してから送信可能な状態となるまでには多少の時間がかかりますのでご了承ください。"</string>
+  <string name="beam_share_mgmt_notification_ticker">共有履歴を送信する</string>
+  <string name="beam_share_mgmt_notification_title">共有履歴を送信する</string>
+  <string name="beam_share_mgmt_notification_message">"選択して共有履歴を送信する"</string>
+  <string name="beam_share_mgmt_tab_menu_clear">"通知をすべて消去。"</string>
+  <string name="beam_share_open_file_dialog_title">ファイルを開けません\</string>
+  <string name="beam_share_open_file_unsupported_message">ファイル形式はサポートされていません。</string>
+  <string name="beam_share_open_file_not_found_message">ファイルが見つかりません： "<xliff:g id="file_name">%1$s</xliff:g></string>
+  <string name="beam_share_transfer_fail_dialog_title">"送信できません"</string>
+  <string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g>は送信されていません。"</string>
+  <string name="beam_share_resend_dialog_ok_button">"再試行"</string>
+  <string name="beam_share_show_received_files_menu">"受信済みファイルを表示"</string>
+  <string name="beam_share_history_title">共有履歴を送信する</string>
+  <string name="beam_share_clear_confirm_dialog_title">"すべて消去"</string>
+  <string name="beam_share_clear_confirm_dialog_message">検索を消去しますか？</string>
+  <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g>は受信されていません。"</string>
+  <string name="beam_share_clear_item_dailog_title">"削除"</string>
+  <string name="beam_share_clear_item_dailog_message">このアイテムは削除されます。</string>
+  <!-- MTK Beam plus end -->
+ 
+  <!-- MTK NFC settings start -->
+   <string name="nfc_p2p_mode">P2Pモード</string>
+  <string name="nfc_p2p_mode_summary">アプリ内容を送信するか受信する</string>
+  <string name="nfc_tag_mode_category">タグモード</string>
+  <string name="nfc_rw_tag_title">タグ読込み＆書込み</string>
+  <string name="nfc_rw_tag_summary">タグから読み込むかタグへ書き込む</string>
+  <string name="nfc_card_emulation_category_title">カードエミュレーションモード</string>
+  <string name="nfc_card_emulation">カードエミュレーション</string>
+  <string name="card_emulation_settings_category_title">利用可能なセキュリティ要素</string>
+  <string name="card_emulation_settings_no_element_found">利用可能なセキュリティ要素がありません。</string>
+  <string name="card_emulation_settings_off_text">利用可能なセキュリティ要素を見る場合は、カードエミュレーションをONにしてください。</string>
+  <string name="card_emulation_turning_off_text">カードエミュレーションをOFFにしています…</string>
+  <string name="card_emulation_turning_on_text">カードエミュレーションをONにしています…</string>
+  <string name="card_emulation_switch_error_title">"エラー"</string>
+  <string name="card_emulation_switch_error_message"><xliff:g id="card_mode">%1$s</xliff:g>に切り替えられません。</string>
+  <string name="card_emulation_sim_not_supported_message"><xliff:g id="sim_description">%1$s</xliff:g>はNFCカードエミュレーション機能をサポートしません。</string>
+  <string name="card_emulation_two_sim_not_supported_message">SIM1、SIM2はNFCカードエミュレーション機能をサポートしていません。</string>
+  <string name="nfc_hce_pay_summary">Googleウォレット、クレジットカードなどとしてデバイスを使用してタップ＆ペイします。</string>
+  <!-- MTK NFC settings end -->
+ 
+  <!-- MTK WIFI Passpoint start -->
+   <string name="passpoint_summary">Passpoint対応APに自動接続</string>
+  <string name="passpoint_append_summary">(Passpoint経由)</string>
+  <string name="passpoint_config_credential_type">資格情報の種類</string>
+  <string name="passpoint_config_eap_method">"EAP方式"</string>
+  <string name="passpoint_supported">サポート済み</string>
+  <string name="passpoint_username_pw">ユーザー名/パスワード</string>
+  <string name="passpoint_certificate">証明書</string>
+  <!-- MTK WIFI Passpoint end -->
+ 
+  <!-- MTK WFD start -->
+   <string name="wfd_change_resolution_menu_title">解像度の変更</string>
+  <string name="wfd_sink_summary">他の人が見つけることができます</string>
+  <string name="wfd_device_category">デバイス一覧</string>
+  <string name="wfd_sink_toast_enjoy">他の機器からのスクリーンキャストをお楽しみください。</string>
+  <string name="wfd_sink_toast_disconnect">キャストスクリーンが切断されました</string>
+  <string name="wfd_sink_disconnecting">切断中...</string>
+  <string name="wfd_sink_guide_btn">入手する</string>
+  <string name="wfd_sink_guide_title">終了方法</string>
+  <string name="wfd_sink_guide_content">別のデバイスの表示を終了するには、画面を<xliff:g id="seconds">%s</xliff:g>秒間長押しします。</string>
+  <!-- MTK WFD end -->
+ 
+  <!-- MTK Storage Settings start -->
+   <string name="mtp_transfer_unmount_error_text">ファイル転送中はSDカードを取外せません</string>
+  <string name="mtp_transfer_erase_error_text">ファイル転送中はSDカード内容を消去できません</string>
+  <string name="launch_error">"アプリを起動できません。\"</string>
+  <string name="dlg_confirm_unmount_usb_title" product="default">USBストレージマウント解除?</string>
+  <string name="dlg_confirm_unmount_usb_text" product="default">USBストレージのマウントを解除すると、使用中のアプリの一部が停止し、USBストレージを再マウントするまで使用できなくなる場合があります。</string>
+  <string name="dlg_error_unmount_usb_text" product="default">USBストレージを取外せませんでした。\しばらくしてからもう一度お試しください。</string>
+  <string name="unmount_usb_inform_text" product="default">USBストレージのマウントが解除されます。</string>
+  <string name="sd_eject_usbstorage" product="default">"USBストレージのマウント解除"</string>
+  <string name="sd_eject_usbstorage_summary" product="default">SDカードのマウント解除（安全な取り外し）</string>
+  <string name="sd_mount_usbstorage" product="default">"USBストレージをマウント"</string>
+  <string name="sd_insert_usb_summary" product="default">"マウントするUSBストレージを挿入"</string>
+  <string name="usb_ums_title">"USBストレージ"</string>
+  <string name="usb_ums_summary">"XPが推奨されています。パソコンとAndroidデバイス間でファイルの転送が行えます。"</string>
+  <string name="usb_charge_title">充電のみ</string>
+  <string name="usb_connect_as_cdrom_category">"CD-ROMとして接続する"</string>
+  <string name="usb_charge_summary">全てのUSB機能を停止します。USB充電を高速化し、消費電力を下げます。</string>
+  <string name="akp_installer_settings_title">APKインストーラー</string>
+  <string name="akp_installer_settings_summary">携帯端末内のメモリーとSDカードからAPKをインストールしてください。</string>
+  <string name="usb_bicr_title">内蔵CD-ROM</string>
+  <string name="usb_bicr_summary">便利なソフトウェアを搭載した仮想CD-ROMを表示します。</string>
+  <string name="select_memory">デフォルト書込みディスク</string>
+  <string name="dlg_mount_external_sd_title" product="default">SDカードをマウントしますか？</string>
+  <string name="dlg_mount_external_sd_summary" product="default">SDカードをマウントすると、使用中のアプリには停止するものもあります。</string>
+  <!-- MTK Storage Settings end -->
+ 
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">HDMI設定</string>
+  <string name="hdmi_settings_summary">クリックしてHDMIを設定</string>
+  <string name="hdmi_audio_toggler">"音声"</string>
+  <string name="hdmi_video_toggler">"動画"</string>
+  <string name="hdmi_video_resolution">動画解像度</string>
+  <string name="hdmi_auto">"自動"</string>
+  <string name="hdmi_scale_control">ビデオスケール設定</string>
+  <string name="hdmi_scale_no_scale">スケーリングなし</string>
+  <string name="hdmi_scale_scale_down">スケールダウン<xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">音声出力</string>
+  <string name="hdmi_audio_output_stereo">ステレオ</string>
+  <string name="hdmi_audio_output_multi_channel">マルチチャンネル</string>
+  <!-- MTK HDMI end -->
+ 
+  <!-- MTK Display Settings start -->
+   <string name="landscape_launcher_title">ランドスケープランチャー</string>
+  <string name="landscape_launcher_none">"なし"</string>
+  <string name="display_settings_scences_title">シーン</string>
+  <string name="default_name">"デフォルト"</string>
+  <string name="custom_theme_name">新 [%1$s]</string>
+  <string name="loading">読み込み中…</string>
+  <string name="auto_backlight_title">省電力バックライト</string>
+  <string name="auto_backlight_summary">電力を節約するために、バックライトを自動的に調整します</string>
+  <string name="display_personalize">パーソナル化</string>
+  <string name="display_default">"ディスプレイ"</string>
+  <string name="clear_motion_summary">ビデオの滑らかさエンハンサー</string>
+  <string name="on_text">"ON"</string>
+  <string name="off_text">"OFF"</string>
+  <string name="mira_vision_summary">最高の視覚効果を提供</string>
+  <!-- MTK Display Settings end -->
+ 
+  <!--MTK Security Settings start -->
+   <string name="voice_unlock_backup_info_summary">ボイスアンロックができない場合、ロックをどのように解除しますか？</string>
+  <string name="unlock_set_unlock_mode_voice_weak">ボイスロック解除</string>
+  <string name="mtk_lock_screen_notifications_title">画面ロック通知</string>
+  <string name="lock_screen_notifications_summary">ロック画面に通知を表示</string>
+  <string name="lock_screen_style_title">画面ロックスタイル</string>
+  <string name="current_suffix">"（現在）"</string>
+  <string name="lockscreen_style_default_desc">"ロック画面にてアプリに素早くアクセスする"</string>
+  <string name="security_not_set">セキュリティが設定されていません</string>
+  <string name="voice_ui_title">ボイス制御</string>
+  <!--MTK Security Settings end -->
+ 
+  <!-- MTK Wireless settings start -->
+   <string name="pch_toggle_title">GPRS転送優先モード</string>
+  <string name="pch_data_prefer_summary_off">優先データ</string>
+  <string name="pch_call_prefer_summary_on">優先通話</string>
+  <string name="pch_warning_message">データ転送レートは低下します。</string>
+  <string name="tethered_ipv6_title">アクセスポイント＆テザリング設定</string>
+  <string name="tethered_ipv4v6">（IPv6利用可能）</string>
+  <string name="tethered_ipv6">（IPv6のみ利用可能）</string>
+  <string name="tethered_ipv4">（IPv6利用不可能）</string>
+  <string name="tethering_apn_settings_title">APN設定</string>
+  <string name="tethering_apn_settings_summary">テザリング用にAPNを設定する</string>
+  <string name="usb_tether_type_title">USBテザリングタイプ</string>
+  <string name="usb_tethering_select_version">パソコンシステムバージョンを選択する</string>
+  <string name="apn_port_warning">ポート値は1-65535の範囲に収めてください。</string>
+  <string name="apn_predefine_change_dialog_notice">保存しますか？デフォルトAPNを変更すると接続に問題が発生する可能性があります。</string>
+  <string name="lockdown_vpn_already_connected">接続用に、VPN接続の常時ONが有効になっています。</string>
+  <!-- MTK Wireless settings end -->
+ 
+  <!-- MTK Feature MISC start -->
+   <string name="schedule_power_on_off_settings_title">電源ON／OFFのスケジュール設定</string>
+  <string name="ipo_title">高速起動</string>
+  <string name="ipo_summary_on">高速起動を無効にする</string>
+  <string name="ipo_summary_off">高速起動を有効にする</string>
+  <string name="hotknot_explained_description">画面が別のデバイスにタッチするときに、データの交換を可能にする</string>
+  <string name="mouse_primary_button_title">主ボタンと副ボタンを切り替え</string>
+  <string name="mouse_primary_button_dialog_title">主ボタンを切り替え</string>
+  <string name="double_click_title">ダブルクリック速度</string>
+  <string name="test_area">テストエリア：</string>
+  <string name="double_click_tip">ここをダブルクリック</string>
+  <!-- MTK Feature MISC end -->
+ 
+  <!-- MTK Bluetooth Settings start -->
+   <string name="bluetooth_advanced_settings">"詳細設定"</string>
+  <string name="bluetooth_profile_ftp">"ファイル転送"</string>
+  <string name="bluetooth_ftp_profile_summary_use_for">ファイル転送に使用</string>
+  <string name="bluetooth_ftp_profile_summary_connected">"ファイル転送サーバーに接続しました"</string>
+  <!-- MTK Bluetooth Settings end -->
+ 
+  <!--MTK DateTime start-->
+   <string name="gps_time_sync_attention_gps_on">GPS測位を得るまでに最大1分かかります。また、環境信号が弱いとGPSは時間情報を得られないことがあります。\n\nGPSから時間情報を得ますか？</string>
+  <string name="gps_time_sync_attention_gps_off">GPS時間情報を得る場合は、先にGPSを有効にしてください。GPS測位を得るまでに最大1分かかります。また、環境信号が弱いとGPSは時間情報を得られないことがあります。\n\nGPSを有効にしてGPSから時間情報を得られるまで待ちますか？</string>
+  <!--MTK DateTime end-->
+ 
+  <!--MTK DRM settings start -->
+   <string name="drm_settings_title">DRMリセット</string>
+  <string name="drm_settings_summary">DRMライセンスを全て削除します</string>
+  <string name="drm_reset_dialog_msg">このデバイス内のライセンスを全て削除します。続行しますか？</string>
+  <string name="drm_reset_toast_msg">ライセンスを削除しました。</string>
+  <!--MTK DRM settings end -->
+ 
+  <!-- MTK APPS settings start -->
+   <string name="launch_main_label">アプリを起動する</string>
+  <string name="launch_main">メインの作業からアプリを起動する</string>
+  <string name="launch_activitie">起動</string>
+  <string name="move_app_to_where">以下へ移動する： <xliff:g id="location">%s</xliff:g></string>
+  <!-- MTK APPS settings end -->
+ 
+  <!-- MTK Battery MISC start -->
+   <string name="bg_power_saving_title">バックグラウンドインテリジェントパワーセーブ</string>
+  <!-- MTK Battery MISC end -->
+ 
+  <!-- MTK  Datausage  start -->
+   <string name="mtk_datausage_overview_tab">概要</string>
+  <string name="mtk_datausage_overview_wifi_today">"今日"</string>
+  <string name="mtk_datausage_overview_wifi_total">"合計"</string>
+  <string name="mtk_datausage_overview_mobile_title">"携帯"</string>
+  <string name="mtk_datausage_overview_mobile_usage"><xliff:g id="actual">%s</xliff:g> / <xliff:g id="limit">%s</xliff:g></string>
+  <string name="mtk_datausage_overview_mobile_usage_warning">制限超過<xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%s</xliff:g></string>
+  <string name="data_saving_title">データの保存</string>
+  <!-- MTK  Dtausage  end -->
+ 
+  <!-- MTK About phone start -->
+   <string name="status_imei_slot1">IMEI（スロット1）</string>
+  <string name="status_imei_slot2">IMEI（スロット2）</string>
+  <string name="custom_build_version">カスタムビルドバージョン</string>
+  <string name="mota_system_update_summary">"サーバー上でシステム更新をチェックする"</string>
+  <string name="software_updates_more_title">ソフトウェア更新</string>
+  <string name="software_updates_more_summary">ソフトウェアの新バージョンをチェックする</string>
+  <!-- MTK About phone end -->
+ 
+  <!-- MTK sim cards start -->
+   <string name="sim_cards_celluar_data_dialog_title">携帯電話データで使用するSIMを選択してください</string>
+  <string name="sim_cards_data_sms_dialog_title">SMSメッセージに使用するSIMを選択してください</string>
+  <string name="sim_cards_calls_dialog_title">通話に使用するアカウントを選択してください</string>
+  <string name="sim_cards_other_calls_dialog_title">他のアカウントを選択してください</string>
+  <string name="sim_cards_other_calls_item_title">他のアカウント</string>
+  <string name="data_connection_progress_message">SIMカードの交換作業は約10秒かかります。お待ちください...</string>
+  <string name="gemini_sim_mode_progress_activating_message">有効にしています\u2026</string>
+  <string name="gemini_sim_mode_progress_deactivating_message">無効にしています\u2026</string>
+  <string name="simui_intenet_call">"インターネット通話"</string>
+  <!-- MTK sim cards end -->
+ 
+  <!-- MTK SIM Status start -->
+   <string name="imei_information_title">"IMEI情報"</string>
+  <string name="imei_information_summary">"IMEI関連情報"</string>
+  <string name="slot_number">"（スロット<xliff:g id="SLOT_NUM">%1$d</xliff:g>）"</string>
+  <string name="sim_info_editor_color">"背景色"</string>
+  <string name="sim_cards_notify_title">"SIMカードが変更されています"</string>
+  <string name="sim_cards_notify_summary">タップして環境設定を行います。</string>
+  <string name="no_sim_cards_notify_title">SIMカードが挿入されていません</string>
+  <string name="cellular_data_notify_title">"モバイルデータがありません"</string>
+  <string name="cellular_data_notify_summary">タップしてデータSIMを設定します。</string>
+  <!-- MTK SIM Status end -->
+ 
+  <!-- IMS/SMS Settings start -->
+   <string name="ims_toggle_summary">IPマルチメディアサブシステムサービスの提供</string>
+  <string name="sms_vibrate_summary">SMSでデバイスを振動させる</string>
+  <!-- IMS/SMS Settings end -->
+    <string name="default_data_switch_err_msg1">通話中は携帯電話のデータ用の優先SIMを切り替えることはできません。</string>
+  <string name="two_cdma_dialog_msg">スロット1とスロット2はCDMAを同時にサポートできません。</string>
+ <string name="hetcom_setting_title">ターボダウンロード</string>
+</resources>

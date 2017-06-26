@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="3909945612939668554" name="english_ime_input_options">"Indstillinger for input"</string>
+    <string msgid="5374120998125353898" name="use_contacts_for_spellchecking_option_title">"Slå kontaktnavne op"</string>
+    <string msgid="8754413382543307713" name="use_contacts_for_spellchecking_option_summary">"Stavekontrollen bruger poster fra listen over kontaktpersoner"</string>
+    <string msgid="5258079494276955460" name="vibrate_on_keypress">"Vibration ved tastetryk"</string>
+    <string msgid="6093592297198243644" name="sound_on_keypress">"Lyd ved tastetryk"</string>
+    <string msgid="123894815723512944" name="popup_on_keypress">"Pop op ved tastetryk"</string>
+    <string msgid="2696713156722014624" name="settings_screen_preferences">"Præferencer"</string>
+    <string msgid="9153102634339912029" name="settings_screen_appearance">"Udseende og layouts"</string>
+    <string msgid="1391301621464509659" name="settings_screen_multilingual">"Indstillinger for flere sprog"</string>
+    <string msgid="8826372746901183556" name="settings_screen_gesture">"Glidende indtastning"</string>
+    <string msgid="1616818407747682955" name="settings_screen_correction">"Tekstkorrigering"</string>
+    <string msgid="7472408607625972994" name="settings_screen_advanced">"Avanceret"</string>
+    <string msgid="2137262503543943871" name="settings_screen_theme">"Tema"</string>
+    <string msgid="4533689960308565519" name="include_other_imes_in_language_switch_list">"Skift inputmetode"</string>
+    <string msgid="840637129103317635" name="include_other_imes_in_language_switch_list_summary">"Tasten til sprogskift gælder også for andre inputmetoder"</string>
+    <string msgid="5915478828318774384" name="show_language_switch_key">"Tast til sprogskift"</string>
+    <string msgid="7343403647474265713" name="show_language_switch_key_summary">"Vis, når der er aktiveret flere inputsprog"</string>
+    <string msgid="6213164897443068248" name="key_preview_popup_dismiss_delay">"Forsink. afvis. af taste-pop op"</string>
+    <string msgid="2096123151571458064" name="key_preview_popup_dismiss_no_delay">"Ingen forsink."</string>
+    <string msgid="2166964333903906734" name="key_preview_popup_dismiss_default_delay">"Standard"</string>
+    <string msgid="8700286094028323363" name="abbreviation_unit_milliseconds">" 
+        <xliff:g id="MILLISECONDS">%s</xliff:g> ms"
+    </string>
+    <string msgid="6268225104743331821" name="settings_system_default">"Systemstandard"</string>
+    <string msgid="4435317977804180815" name="use_contacts_dict">"Foreslå navne på kontakter"</string>
+    <string msgid="6599983334507879959" name="use_contacts_dict_summary">"Brug navne fra Kontaktpersoner til forslag og rettelser"</string>
+    <string msgid="5167396352105467626" name="use_personalized_dicts">"Tilpassede forslag"</string>
+    <string msgid="5506372337118822837" name="enable_metrics_logging">"Gør <xliff:g id="APPLICATION_NAME">%s</xliff:g> bedre"</string>
+    <string msgid="8781529969425082860" name="use_double_space_period">"To mellemrum for punktum"</string>
+    <string msgid="6532892187247952799" name="use_double_space_period_summary">"To tryk på mellemrumstasten indsætter et punktum og et mellemrum"</string>
+    <string msgid="1719746674854628252" name="auto_cap">"Skriv aut. med stort"</string>
+    <string msgid="7934452761022946874" name="auto_cap_summary">"Skriv det første ord i hver sætning med stort"</string>
+    <string msgid="3996910038952940420" name="edit_personal_dictionary">"Personlig ordbog"</string>
+    <string msgid="4238652338556902049" name="configure_dictionaries_title">"Tillægsordbøger"</string>
+    <string msgid="4798763781818361168" name="main_dictionary">"Hovedordbog"</string>
+    <string msgid="8026799663445531637" name="prefs_show_suggestions">"Vis rettelsesforslag"</string>
+    <string msgid="1583132279498502825" name="prefs_show_suggestions_summary">"Vis ordforslag under indtastning"</string>
+    <string msgid="5078480071057408934" name="prefs_block_potentially_offensive_title">"Bloker stødende ord"</string>
+    <string msgid="2371835479734991364" name="prefs_block_potentially_offensive_summary">"Foreslå ikke potentielt stødende ord"</string>
+    <string msgid="7630720885194996950" name="auto_correction">"Automatisk rettelse"</string>
+    <string msgid="5625751551134658006" name="auto_correction_summary">"Mellemrumstast og tegnsætning retter automatisk forkerte ord"</string>
+    <string msgid="8470882665417944026" name="auto_correction_threshold_mode_off">"Fra"</string>
+    <string msgid="8788366690620799097" name="auto_correction_threshold_mode_modest">"Moderat"</string>
+    <string msgid="7319007299148899623" name="auto_correction_threshold_mode_aggressive">"Aggressiv"</string>
+    <string msgid="1853309024129480416" name="auto_correction_threshold_mode_very_aggressive">"Meget aggressiv"</string>
+    <string msgid="1084449187723948550" name="bigram_prediction">"Forslag til næste ord"</string>
+    <string msgid="3896362682751109677" name="bigram_prediction_summary">"Brug det forrige ord til at give forslag"</string>
+    <string msgid="826951152254563827" name="gesture_input">"Aktivér skrivning med berøring"</string>
+    <string msgid="9180350639305731231" name="gesture_input_summary">"Skriv et ord ved at glide mellem bogstaverne"</string>
+    <string msgid="3802333369335722221" name="gesture_preview_trail">"Vis spor af berøring"</string>
+    <string msgid="4443240334739381053" name="gesture_floating_preview_text">"Dynamisk flydende eks.visning"</string>
+    <string msgid="4472696213996203533" name="gesture_floating_preview_text_summary">"Se det foreslåede ord, mens berøringer udføres"</string>
+    <string msgid="2078291600664682496" name="gesture_space_aware">"Glidende mellemrum"</string>
+    <string msgid="4371385818348528538" name="gesture_space_aware_summary">"Tilføj mellemrum ved at glide til mellemrumstasten"</string>
+    <string msgid="3583258583521397548" name="voice_input">"Nøgle til stemmeinput"</string>
+    <string msgid="8141750303464726129" name="voice_input_disabled_summary">"Der er ingen aktiverede indtalingsmetoder. Kontrollér Indstillinger for sprog og input."</string>
+    <string msgid="373356270290742459" name="configure_input_method">"Konfigurer inputmetoder"</string>
+    <string msgid="3666971864764478269" name="language_selection_title">"Sprog"</string>
+    <string msgid="5328219371839879161" name="help_and_feedback">"Hjælp og feedback"</string>
+    <string msgid="5709487854987078367" name="select_language">"Sprog"</string>
+    <string msgid="573678656946085380" name="hint_add_to_dictionary">"Tryk igen for at gemme"</string>
+    <string msgid="3040385779511255101" name="hint_add_to_dictionary_without_word">"Klik her for at gemme"</string>
+    <string msgid="6071847973466625007" name="has_dictionary">"Ordbog er tilgængelig"</string>
+    <string msgid="8451164783510487501" name="keyboard_layout">"Tastaturtema"</string>
+    <string msgid="88170601942311355" name="subtype_en_GB">"Engelsk (Storbritannien)"</string>
+    <string msgid="6160452336634534239" name="subtype_en_US">"Engelsk (USA)"</string>
+    <string msgid="5583145191430180200" name="subtype_es_US">"Spansk (USA)"</string>
+    <string msgid="1931018968641592304" name="subtype_with_layout_en_GB">"Engelsk (UK) (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string msgid="8809311287529805422" name="subtype_with_layout_en_US">"Engelsk (USA) (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string msgid="510930471167541338" name="subtype_with_layout_es_US">"Spansk (USA) (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string msgid="8584594350973800586" name="subtype_generic_traditional">"<xliff:g id="LANGUAGE_NAME">%s</xliff:g> (traditionelt)"</string>
+    <string msgid="7486451947618138947" name="subtype_generic_cyrillic">"<xliff:g id="LANGUAGE_NAME">%s</xliff:g> (kyrillisk)"</string>
+    <string msgid="9128716486310604145" name="subtype_generic_latin">"<xliff:g id="LANGUAGE_NAME">%s</xliff:g> (latin)"</string>
+    <string msgid="7137390094240139495" name="subtype_no_language">"Intet sprog (Alfabet)"</string>
+    <string msgid="244337630616742604" name="subtype_no_language_qwerty">"Alfabet (QWERTY)"</string>
+    <string msgid="443066912507547976" name="subtype_no_language_qwertz">"Alfabet (QWERTZ)"</string>
+    <string msgid="8144348527575640087" name="subtype_no_language_azerty">"Alfabet (AZERTY)"</string>
+    <string msgid="1564494667584718094" name="subtype_no_language_dvorak">"Alfabet (Dvorak)"</string>
+    <string msgid="5837418400010302623" name="subtype_no_language_colemak">"Alfabet (Colemak)"</string>
+    <string msgid="5354918232046200018" name="subtype_no_language_pcqwerty">"Alfabet (PC)"</string>
+    <string msgid="7483586578074549196" name="subtype_emoji">"Emoji"</string>
+    <string msgid="4909551808526178852" name="keyboard_theme">"Tastaturtema"</string>
+    <string msgid="8429952441821251512" name="custom_input_styles_title">"Tilpasset inputtypografi"</string>
+    <string msgid="6163126614514489951" name="add_style">"Tilføj typografi"</string>
+    <string msgid="8299699805688017798" name="add">"Tilføj"</string>
+    <string msgid="4486081658752944606" name="remove">"Fjern"</string>
+    <string msgid="7646738597196767214" name="save">"Gem"</string>
+    <string msgid="8576443440738143764" name="subtype_locale">"Sprog"</string>
+    <string msgid="4309233698194565609" name="keyboard_layout_set">"Layout"</string>
+    <string msgid="8826731320846363423" name="custom_input_style_note_message">"Din tilpassede indtastningsmetode skal være aktiveret, før du begynder at bruge den. Vil du gøre det nu?"</string>
+    <string msgid="5031294444630523247" name="enable">"Aktivér"</string>
+    <string msgid="6172462888202790482" name="not_now">"Ikke nu"</string>
+    <string msgid="8008728952215449707" name="custom_input_style_already_exists">"Denne inputstil findes allerede: <xliff:g id="INPUT_STYLE_NAME">%s</xliff:g>"</string>
+    <string msgid="7918341459947439226" name="prefs_keypress_vibration_duration_settings">"Vibrationstid ved tastetryk"</string>
+    <string msgid="6027007337036891623" name="prefs_keypress_sound_volume_settings">"Lydstyrke ved tastetryk"</string>
+    <string msgid="3988017840431881491" name="button_default">"Standard"</string>
+    <string msgid="6112821709832031715" name="setup_welcome_title">"Velkommen til <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string msgid="8150252008545768953" name="setup_welcome_additional_description">"med Berøringsinput"</string>
+    <string msgid="8936036460897347708" name="setup_start_action">"Kom godt i gang"</string>
+    <string msgid="371821437915144603" name="setup_next_action">"Næste trin"</string>
+    <string msgid="6400373034871816182" name="setup_steps_title">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> konfigureres"</string>
+    <string msgid="3147967630253462315" name="setup_step1_title">"Aktivér <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string msgid="2578631936624637241" name="setup_step1_instruction">"Markér \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" i Sprog og inputindstillinger. Dermed får appen tilladelse til at køre på din enhed."</string>
+    <string msgid="10761482004957994" name="setup_step1_finished_instruction">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> er allerede aktiveret i indstillingerne for dit sprog og dine input, så dette skridt er udført. Videre til det næste!"</string>
+    <string msgid="4366513534999901728" name="setup_step1_action">"Aktivér i Indstillinger"</string>
+    <string msgid="6860725447906690594" name="setup_step2_title">"Skift til <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string msgid="9141481964870023336" name="setup_step2_instruction">"Dernæst skal du vælge \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" som din aktive sms-indtastningsmetode."</string>
+    <string msgid="1660330307159824337" name="setup_step2_action">"Skift indtastningsmetode"</string>
+    <string msgid="3154757183631490281" name="setup_step3_title">"Så er du klar."</string>
+    <string msgid="8025981829605426000" name="setup_step3_instruction">"Nu kan du skrive i alle dine favoritapps med <xliff:g id="APPLICATION_NAME">%s</xliff:g>."</string>
+    <string msgid="600879797256942259" name="setup_step3_action">"Konfigurer flere sprog"</string>
+    <string msgid="276559243409465389" name="setup_finish_action">"Afslut"</string>
+    <string msgid="5008028590593710830" name="show_setup_wizard_icon">"Vis appikon"</string>
+    <string msgid="4119998322536880213" name="show_setup_wizard_icon_summary">"Vis appikon på applisten"</string>
+    <string msgid="6320102637491234792" name="app_name">"Dictionary Provider"</string>
+    <string msgid="3027315045397363079" name="dictionary_provider_name">"Dictionary Provider"</string>
+    <string msgid="6237472350693511448" name="dictionary_service_name">"Ordbogstjeneste"</string>
+    <string msgid="6014835283119198591" name="download_description">"Opdateringsoplysninger for ordbøger"</string>
+    <string msgid="8091417676045693313" name="dictionary_settings_title">"Tillægsordbøger"</string>
+    <string msgid="3587517870006332980" name="dictionary_install_over_metered_network_prompt">"Ordbog er tilgængelig"</string>
+    <string msgid="5305694987799824349" name="dictionary_settings_summary">"Indstillinger for ordbøger"</string>
+    <string msgid="3582332055892252845" name="user_dictionaries">"Brugerordbøger"</string>
+    <string msgid="1625055720489280530" name="default_user_dict_pref_name">"Brugerordbog"</string>
+    <string msgid="4728975345815214218" name="dictionary_available">"Ordbog er tilgængelig"</string>
+    <string msgid="2982650524622620983" name="dictionary_downloading">"Downloader i øjeblikket"</string>
+    <string msgid="8081558343559342962" name="dictionary_installed">"Installeret"</string>
+    <string msgid="8950383219564621762" name="dictionary_disabled">"Installeret, deaktiveret"</string>
+    <string msgid="9216933695765732398" name="cannot_connect_to_dict_service">"Ingen ordbogstjeneste"</string>
+    <string msgid="8039920716566132611" name="no_dictionaries_available">"Ingen tilg. ordbøger"</string>
+    <string msgid="8087688440916388581" name="check_for_updates_now">"Opdater"</string>
+    <string msgid="730467549913588780" name="last_update">"Sidst opdateret"</string>
+    <string msgid="4457761393932375219" name="message_updating">"Søger efter opdateringer"</string>
+    <string msgid="5638680861387748936" name="message_loading">"Indlæser…"</string>
+    <string msgid="3072821352793492143" name="main_dict_description">"Hovedordbog"</string>
+    <string msgid="6830980399865683324" name="cancel">"Annuller"</string>
+    <string msgid="3876892339342569259" name="go_to_settings">"Indstillinger"</string>
+    <string msgid="180852772562189365" name="install_dict">"Installer"</string>
+    <string msgid="7843340278507019303" name="cancel_download_dict">"Annuller"</string>
+    <string msgid="756853268088330054" name="delete_dict">"Slet"</string>
+    <string msgid="1583881200688185508" name="should_download_over_metered_prompt">"Det valgte sprog på din mobilenhed har en tilgængelig ordbog.&lt;br/&gt; Vi anbefaler, at du &lt;b&gt;downloader&lt;/b&gt; <xliff:g id="LANGUAGE_NAME">%1$s</xliff:g>-ordbogen for at forbedre din skriveoplevelse.&lt;br/&gt; &lt;br/&gt; Downloaden kan tage 1-2 minutter via 3G. Der bliver muligvis opkrævet et gebyr, hvis du ikke har et &lt;b&gt;ubegrænset dataabonnement&lt;/b&gt;.&lt;br/&gt;. Hvis du ikke er sikker på, hvilket dataabonnement du har, anbefaler vi, at du finder en Wi-Fi-forbindelse for at starte automatisk download.&lt;br/&gt; &lt;br/&gt;Tip! Du kan downloade og fjerne ordbøger ved at gå til &lt;b&gt;Sprog og input &lt;/b&gt; i menuen &lt;b&gt;Indstillinger&lt;/b&gt; på din mobilenhed."</string>
+    <string msgid="1643065851159409546" name="download_over_metered">"Download nu ( 
+        <xliff:g id="SIZE_IN_MEGABYTES">%1$.1f</xliff:g> MB)"
+    </string>
+    <string msgid="2176209579313941583" name="do_not_download_over_metered">"Download via Wi-Fi"</string>
+    <string msgid="4583842811218581658" name="dict_available_notification_title">"Der er en ordbog tilgængelig for <xliff:g id="LANGUAGE_NAME">%1$s</xliff:g>"</string>
+    <string msgid="1075194169443163487" name="dict_available_notification_description">"Tryk for at gennemgå og downloade"</string>
+    <string msgid="6128155879830851739" name="toast_downloading_suggestions">"Downloader: Der vil snart være forslag klar på <xliff:g id="LANGUAGE_NAME">%1$s</xliff:g>."</string>
+    <string msgid="2715354215568469385" name="version_text">"Version 
+        <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"
+    </string>
+    <string msgid="1254195365689387076" name="user_dict_settings_add_menu_title">"Tilføj"</string>
+    <string msgid="4096700390211748168" name="user_dict_settings_add_dialog_title">"Føj til ordbog"</string>
+    <string msgid="5818914331629278758" name="user_dict_settings_add_screen_title">"Sætning"</string>
+    <string msgid="5671682004887093112" name="user_dict_settings_add_dialog_more_options">"Flere muligheder"</string>
+    <string msgid="2716586567241724126" name="user_dict_settings_add_dialog_less_options">"Færre muligh."</string>
+    <string msgid="4703129507388332950" name="user_dict_settings_add_dialog_confirm">"OK"</string>
+    <string msgid="6665558053408962865" name="user_dict_settings_add_word_option_name">"Ord:"</string>
+    <string msgid="3094731590655523777" name="user_dict_settings_add_shortcut_option_name">"Genvej:"</string>
+    <string msgid="4738643440987277705" name="user_dict_settings_add_locale_option_name">"Sprog:"</string>
+    <string msgid="4902434148985906707" name="user_dict_settings_add_word_hint">"Skriv et ord"</string>
+    <string msgid="2265453012555060178" name="user_dict_settings_add_shortcut_hint">"Valgfri genvej"</string>
+    <string msgid="3765774633869590352" name="user_dict_settings_edit_dialog_title">"Rediger ord"</string>
+    <string msgid="6812255903472456302" name="user_dict_settings_context_menu_edit_title">"Rediger"</string>
+    <string msgid="8142932447689461181" name="user_dict_settings_context_menu_delete_title">"Slet"</string>
+    <string msgid="558499587532668203" name="user_dict_settings_empty_text">"Du har ikke nogen ord i brugerordbogen. Du kan tilføje et ord ved at trykke på knappen Tilføj (+)."</string>
+    <string msgid="8276126583216298886" name="user_dict_settings_all_languages">"For alle sprog"</string>
+    <string msgid="7131268499685180461" name="user_dict_settings_more_languages">"Flere sprog..."</string>
+    <string msgid="110413335187193859" name="user_dict_settings_delete">"Slet"</string>
+    <string msgid="5431919401558285473" name="user_dict_fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+</resources>

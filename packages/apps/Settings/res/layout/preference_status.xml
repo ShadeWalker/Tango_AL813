@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/preference_item_min_height"
+    android:paddingEnd="@dimen/preference_item_padding_end"
+    android:paddingStart="@dimen/preference_item_padding_start"
+    android:shrinkColumns="1"
+    android:stretchColumns="0" >
+
+    <TableRow>
+
+        <TextView
+            android:id="@android:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="@dimen/preference_item_padding_bottom"
+            android:layout_marginTop="@dimen/preference_item_padding_top"
+            android:layout_weight="3"
+            android:ellipsize="end"
+            android:maxWidth="@dimen/preference_title_max_width"
+            android:minWidth="@dimen/preference_title_min_width"
+            android:paddingEnd="@dimen/preference_item_margin_end"
+            android:singleLine="true"
+           
+            android:textSize="@dimen/preference_item_title_size" />
+
+        <TextView
+            android:id="@android:id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:fontFamily="chnfzxh"
+            android:gravity="end"
+            android:maxLines="2"
+            android:minWidth="@dimen/preference_summary_min_width"
+            
+            android:textSize="@dimen/preference_item_summary_end_size" />
+
+        <LinearLayout
+            android:id="@android:id/widget_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="end"
+            android:gravity="center_vertical"
+            android:orientation="vertical" />
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="camera_error_title">"Ֆոտոխցիկի սխալ"</string>
+    <string name="cannot_connect_camera">Հնարավոր չեղավ կապակցվել խցիկին:</string>
+    <string name="camera_disabled">"Ֆոտոխցիկն անջատված է՝ անվտանգության քաղաքականության նկատառումներից ելնելով:"</string>
+    <string name="camera_label">"Ֆոտոխցիկ"</string>
+    <string name="video_camera_label">"Տեսախցիկ"</string>
+    <string name="gallery_camera_bucket_name">"Ֆոտոխցիկի լուսանկարներ"</string>
+    <string name="gallery_camera_videos_bucket_name">"Տեսախցիկի նյութեր"</string>
+    <string name="wait">Խնդրում ենք սպասել\u2026</string>
+    <string name="no_storage" product="nosdcard">"Տեսախցիկն օգտագործելուց առաջ նրան միացրեք USB պահոց:"</string>
+    <string name="no_storage" product="default">"Տեսախցիկն օգտագործելուց առաջ տեղադրեք SD քարտ:"</string>
+    <string name="not_enough_space" product="nosdcard">Ձեր USB հիշողությունը լցված է:</string>
+    <string name="not_enough_space" product="default">"Ձեր SD քարտը լցված է:"</string>
+    <string name="preparing_sd" product="nosdcard">"Պատրաստվում է USB պահոցը..."</string>
+    <string name="preparing_sd" product="default">"Պատրաստվում է SD քարտը..."</string>
+    <string name="access_sd_fail" product="nosdcard">Հնարավոր չեղավ մատչել USB պահոցին:</string>
+    <string name="access_sd_fail" product="default">Հնարավոր չեղավ մատչել SD քարտին:</string>
+    <string name="confirm_restore_message">Ցանկանու՞մ եք վերականգնել խցիկի սկզբնադիր կարգավորումները:</string>
+    <string name="review_play">"Նվագարկել"</string>
+    <string name="review_cancel">"Չեղարկել"</string>
+    <string name="review_ok">"Կատարված է"</string>
+    <string name="review_retake">ԿՐԿՆԵԼ</string>
+    <string name="camera_gallery_photos_text">"Պատկերասրահ"</string>
+    <string name="time_lapse_title">"Ժամանակի սպառումով տեսագրություն"</string>
+    <string name="pref_camera_id_title">"Ընտրել տեսախցիկը"</string>
+    <string name="pref_camera_id_entry_back">"Հետ"</string>
+    <string name="pref_camera_id_entry_front">"Դիմացի"</string>
+    <string name="pref_camera_recordlocation_title">GPS տեղադրության տեղեկություններ</string>
+    <string name="pref_camera_recordlocation_entry_off">"անջատված է"</string>
+    <string name="pref_camera_recordlocation_entry_on">"միացված"</string>
+    <string name="pref_video_quality_title">"Տեսանյութի որակը"</string>
+    <string name="pref_video_time_lapse_frame_interval_title">Արագացված տեսագրման ժամամիջոց</string>
+    <string name="pref_camera_settings_category">"Տեսախցիկի կարգավորումներ"</string>
+    <string name="pref_camcorder_settings_category">"Տեսախցիկի կարգավորումներ"</string>
+    <string name="pref_camera_picturesize_title">"Նկարի չափը"</string>
+    <string name="pref_camera_picturesize_entry_2592x1936">"5Մ պիքսել"</string>
+    <string name="pref_camera_picturesize_entry_2048x1536">"3Մ պիքսել"</string>
+    <string name="pref_camera_picturesize_entry_1600x1200">"2Մ պիքսել"</string>
+    <string name="pref_camera_picturesize_entry_1280x960">"1.3Մ պիքսել"</string>
+    <string name="pref_camera_picturesize_entry_1024x768">"1Մ պիքսել"</string>
+    <string name="pref_camera_picturesize_entry_640x480">"VGA"</string>
+    <string name="pref_camera_picturesize_entry_320x240">"QVGA"</string>
+    <string name="pref_camera_focusmode_title">"Կենտրոնացման ռեժիմ"</string>
+    <string name="pref_camera_focusmode_entry_auto">"ինքնաշխատ"</string>
+    <string name="pref_camera_focusmode_entry_infinity">"Անսահման"</string>
+    <string name="pref_camera_focusmode_entry_macro">"Մակրո"</string>
+    <string name="pref_camera_flashmode_title">"Լուսաթարթման ռեժիմ"</string>
+    <string name="pref_camera_flashmode_entry_auto">"ինքնաշխատ"</string>
+    <string name="pref_camera_flashmode_entry_on">"միացված"</string>
+    <string name="pref_camera_flashmode_entry_off">"անջատված է"</string>
+    <string name="pref_camera_whitebalance_title">"Սպիտակի կշիռ"</string>
+    <string name="pref_camera_whitebalance_entry_auto">"ինքնաշխատ"</string>
+    <string name="pref_camera_whitebalance_entry_incandescent">"Շիկացած"</string>
+    <string name="pref_camera_whitebalance_entry_daylight">"Ցերեկային լույս"</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent">"Ցերեկային լուսավորություն"</string>
+    <string name="pref_camera_whitebalance_entry_cloudy">"Ամպամած"</string>
+    <string name="pref_camera_scenemode_title">"Տեսարանային ռեժիմ"</string>
+    <string name="pref_camera_scenemode_entry_auto">"ինքնաշխատ"</string>
+    <string name="pref_camera_scenemode_entry_action">"Գործողություն"</string>
+    <string name="pref_camera_scenemode_entry_night">"Գիշեր"</string>
+    <string name="pref_camera_scenemode_entry_sunset">"Մայրամուտ"</string>
+    <string name="pref_camera_scenemode_entry_party">"Երեկույթ"</string>
+    <string name="not_selectable_in_scene_mode">"Անհնար է ընտրել, երբ գտնվում է տեսարանային ռեժիմում:"</string>
+    <string name="pref_restore_title">"Տեսախցիկի կարգավորումներ"</string>
+    <string name="pref_restore_detail">"Վերականգնել լռելյայն կարգավորումները"</string>
+    <string name="pref_exposure_title">"Լուսավորություն"</string>
+    <string name="dialog_ok">"Լավ"</string>
+    <string name="spaceIsLow_content" product="nosdcard">"Ձեր USB պահոցի ազատ տարածքը սպառվում է: Փոխեք որակի կարգավորումները կամ ջնջեք որոշ նկարներ կամ ֆայլեր:"</string>
+    <string name="spaceIsLow_content" product="default">"Ձեր SD քարտի ազատ տարածքը սպառվում է: Փոխեք որակի կարգավորումները կամ ջնջեք որոշ նկարներ կամ ֆայլեր:"</string>
+    <string name="video_reach_size_limit">"Սահմանափակման չափը սպառված է:"</string>
+    <string name="share_picture_via">"Տարածել նկարը՝ գործածելով"</string>
+    <string name="share_video_via">"Տարածել տեսանյութը՝ գործածելով"</string>
+    <string name="no_picture_to_share">Չկան նկարներ համօգտագործման համար:</string>
+    <string name="no_video_to_share">Չկան վիդեոներ համօգտագործման համար:</string>
+    <string name="pano_too_fast_prompt">"Շատ արագ"</string>
+    <string name="pano_dialog_prepare_preview">"Պատրաստվում է համայնապատկեր"</string>
+    <string name="pano_dialog_panorama_failed">Համայնապատկերը չհաջողվեց պահել:</string>
+    <string name="pano_dialog_title">"Համայնապատկեր"</string>
+    <string name="pano_capture_indication">"Համայնապատկերի լուսանկարում"</string>
+    <string name="pano_dialog_waiting_previous">"Սպասում ենք նախորդ համայնապատկերին"</string>
+    <string name="pano_review_saving_indication_str">"Պատկերը պահվում է..."</string>
+    <string name="tap_to_focus">"Հպեք՝ կենտրոնացնելու համար:"</string>
+    <string name="pref_video_effect_title">"Էֆեկտներ"</string>
+    <string name="effect_none">"Ոչ մեկը"</string>
+    <string name="effect_goofy_face_squeeze">"Ճզմում"</string>
+    <string name="effect_goofy_face_big_eyes">"Մեծ աչքեր"</string>
+    <string name="effect_goofy_face_big_mouth">"Մեծ բերան"</string>
+    <string name="effect_goofy_face_small_mouth">"Փոքր բերան"</string>
+    <string name="effect_goofy_face_big_nose">"Մեծ քիթ"</string>
+    <string name="effect_goofy_face_small_eyes">"Փոքր աչքեր"</string>
+    <string name="effect_backdropper_space">"Տիեզերքում"</string>
+    <string name="effect_backdropper_sunset">"Մայրամուտ"</string>
+    <string name="effect_backdropper_gallery">"Ձեր տեսանյութը"</string>
+    <string name="not_selectable_in_effect">Ենթակա չէ ընտրման, երբ միացված է էֆեկտը:</string>
+    <string name="video_snapshot_hint">"Դիպչեք՝ տեսագրության ընթացքում լուսանկարելու համար:"</string>
+    <string name="disable_video_snapshot_hint">"Տեսանյութի ճեպապատկերումն անջատված է, երբ առկա են հատուկ էֆեկտներ:"</string>
+    <string name="clear_effects">"Մաքրել էֆեկտները"</string>
+    <string name="effect_silly_faces">"Հիմար դեմքեր"</string>
+    <string name="effect_background">"Հետնաշերտ"</string>
+    <string name="accessibility_shutter_button">"Փականի կոճակ"</string>
+    <string name="accessibility_review_thumbnail">"Ամենավերջին լուսանկարը"</string>
+    <string name="accessibility_camera_picker">"Առջևի ու ետևի տեսախցիկի փոխարկում"</string>
+    <string name="accessibility_mode_picker">"Ֆոտոխցիկի, տեսախցիկի կամ համայնապատկերի ընտրիչ"</string>
+    <string name="accessibility_second_level_indicators">"Ավելի շատ կարգավորիչներ"</string>
+    <string name="accessibility_back_to_first_level">"Փակել կարգավորիչները"</string>
+    <string name="accessibility_zoom_control">"Խոշորացման կարգավորիչ"</string>
+    <string name="accessibility_decrement">"Նվազում %1$s"</string>
+    <string name="accessibility_increment">"Մեծացնել %1$s"</string>
+    <string name="accessibility_switch">%1$s անցում</string>
+</resources>

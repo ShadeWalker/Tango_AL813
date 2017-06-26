@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">노이즈 감쇠</string>
+    <string name="dual_mic_summary">통화 도중 배경 소음을 차단</string>
+    <string name="anc_title">활성 노이즈 감소</string>
+    <string name="anc_on">ANC 켜기</string>
+    <string name="anc_off">ANC 끄기</string>
+    <string name="ip_prefix_setting">IP 접두어 번호</string>
+    <string name="ip_prefix_setting_lable">IP 접두어 번호 (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">IP 접두어 번호 설정</string>
+    <string name="enter_ip_prefix_number">접두어 번호 입력</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">먼저 음성 통화 설정에서 IP 접두어 번호를 입력하십시오.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">IP 다이얼 기능은 인터넷 통화에서 사용할 수 없습니다.</string>
+    <string name="ip_prefix_edit_default_sum">IP 다이얼의 접두어 번호 입력</string>
+    <string name="lable_call_barring">"착발신 제한"</string>
+    <string name="title_call_barring">착발신 제한 (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">모든 발신 통화</string>
+    <string name="lable_all_outgoing_international">국제 발신 통화</string>
+    <string name="lable_all_out_except">가정 PLMN을 제외한 국제 발신 통화</string>
+    <string name="lable_all_incoming">모든 수신 통화</string>
+    <string name="lable_incoming_calls_except">로밍 중 수신 통화</string>
+    <string name="deactivate_all">모두 취소</string>
+    <string name="change_password">착발신 제한 비밀번호 변경</string>
+    <string name="call_barring_sum">음성 통화 착발신 제한 설정</string>
+    <string name="lable_disable">사용 안함</string>
+    <string name="lable_enable">"사용"</string>
+    <string name="old_password_label">이전 비밀번호(4자리 숫자)</string>
+    <string name="new_password_label">새 비밀번호(4자리 숫자)</string>
+    <string name="invalid_password">비밀번호를 4자리 숫자로 입력하세요.</string>
+    <string name="confirm_password_label">새 비밀번호 확인</string>
+    <string name="mismatch_password">입력한 비밀번호가 일치하지 않습니다. 다시 시도하세요.</string>
+    <string name="password_changed">비밀번호가 성공적으로 변경되었습니다</string>
+    <string name="enter_callbarring_password">착발신 제한 비밀번호 입력(4자리 숫자)</string>
+    <string name="wrong_password">비밀번호 오류</string>
+    <string name="error_title">"오류"</string>
+    <string name="cell_broadcast">셀 브로드캐스트</string>
+    <string name="cell_broadcast_settings">셀 브로드캐스트 설정</string>
+    <string name="cb_menu_language">"언어"</string>
+    <string name="cb_menu_add_channel">채널 추가</string>
+    <string name="cb_menu_channel_list">채널 목록</string>
+    <string name="cb_dialog_title_language_choice">언어 선택</string>
+    <string name="cb_channel_dialog_channel_name">채널 이름(0-10개의 문자)</string>
+    <string name="cb_channel_dialog_channel_number">채널 번호(0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">채널 사용 설정</string>
+    <string name="cb_channel_dialog_edit_channel">주파수 편집</string>
+    <string name="cb_menu_edit">"수정"</string>
+    <string name="cb_menu_delete">"삭제"</string>
+    <string name="cb_error_channel_num">채널 번호를 입력하세요(0-65534).</string>
+    <string name="cb_error_channel_name">채널 이름의 길이가 잘못되었습니다(1-10개의 문자).</string>
+    <string name="cb_error_language_select">최소 1개의 언어를 선택하세요.</string>
+    <string name="cb_error_channel_id_exist">채널 ID가 존재합니다.</string>
+    <string name="cb_all_languages">"모든 언어"</string>
+    <string name="cb_default_new_channel_name">새 주파수</string>
+    <string name="fdn_errorcode_unknown_info">실패했습니다. 알 수 없는 오류. 나중에 다시 시도하세요.</string>
+    <string name="fdn_errorcode_number_info">실패했습니다. 연락처 번호의 길이가 너무 깁니다.</string>
+    <string name="fdn_errorcode_name_info">실패했습니다. 연락처 이름의 길이가 너무 깁니다.</string>
+    <string name="fdn_errorcode_storage_info">실패했습니다. 저장 공간이 가득 찼습니다.</string>
+    <string name="fdn_errorcode_phb_info">실패했습니다. 지금 전화번호부가 준비되지 않았습니다. 나중에 다시 시도하세요.</string>
+    <string name="fdn_errorcode_pin2_info">실패했습니다. 잘못된 PIN2입니다.</string>
+    <string name="net_or_simcard_busy">네트워크 또는 SIM 카드가 사용 중입니다. 나중에 시도하세요.</string>
+    <string name="plmn_list_setting_title">환경 설정</string>
+    <string name="network_id">네트워크 ID</string>
+    <string name="plmn_list_setting_add_plmn">새 PLMN 추가</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">검색…</string>
+    <string name="sum_search_femtocell_networks">temtocell 수동 선택</string>
+    <string name="register_femtocell_point_wait_tip">
+<xliff:g id="femto_cell_info">%s</xliff:g> 등록 중…</string>
+    <string name="register_femtocell_point_result_fail_tip">지금 이 네트워크에 연결할 수 없습니다. 나중에 시도하십시오.</string>
+    <string name="network_type">네트워크 유형</string>
+    <string name="gsm_umts_network_preferences_title">"네트워크 모드"</string>
+    <string name="gsm_umts_network_preferneces_summary">아직 구현되지 않음!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"네트워크 모드"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G (자동 모드)</item>
+        <item>3G 전용</item>
+        <item>2G 전용</item>
+    </string-array>
+    <string name="notification_voicemail_text">선택 시 음성 메일을 볼 수 있음</string>
+    <string name="notification_network_selection_without_operator">선택한 네트워크를 사용할 수 없음</string>
+    <string name="network_setting_all_forbidden_dialog">사용 가능한 네트워크가 없습니다.</string>
+    <string name="network_forbidden">금지됨</string>
+    <string name="fdn_contact_number_invalid">잘못된 연락처 번호.</string>
+    <string name="fdn_puk_need_tips">PIN2가 차단되었습니다. PIN2를 변경하고 다시 시도하십시오!</string>
+    <string name="fdn_phone_book_busy">현재 전화번호부가 사용 중입니다. 나중에 시도하십시오.</string>
+    <string name="one_retry_left">1회의 재시도가 남음</string>
+    <string name="retries_left"> <xliff:g id="number">%d</xliff:g>회의 재시도 남음 </string>
+    <string name="pin_length_indicate">(4-8 자릿수)</string>
+    <string name="puk_length_indicate">(8 자릿수)</string>
+    <string name="unblock_pin2">PIN2 차단 해제</string>
+    <string name="sim_permanently_locked">잘못된 PUK2 코드를 10회 이상 입력했습니다. SIM 카드가 영구적으로 잠가졌습니다.</string>
+    <string name="magi_conference_title">MagiConference</string>
+    <string name="magi_conference_summary">여러 명의 사용자가 동시에 통화 시 음성 품질을 개선합니다.</string>
+    <string name="volte_is_adding_participants">컨퍼런스 구성원을 추가하는 중입니다. 기다려 주십시오…</string>
+    <string name="volte_fail_to_invit_participants">컨퍼런스에 모든 구성원을 추가하는 데 실패했습니다.</string>
+    <string name="voicemail_lable">음성사서함 (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">작업을 완료하려면, <xliff:g id="sub_name">%s</xliff:g>의 데이터 연결을 열어야 합니다.</string>
+    <string name="cdma_labelCFU">"항상 착신전환"</string>
+    <string name="cdma_labelCFB">"통화 중일 경우"</string>
+    <string name="cdma_labelCFNRy">"받지 않은 경우"</string>
+    <string name="cdma_labelCFNRc">"받을 수 없는 경우"</string>
+    <string name="cdma_labelCFC">모든 착신 전환 취소</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">발신자 번호 식별 제한 사용 안 함</string> 
+    <string name="cdma_cnir_turnon">발신자 번호 식별 제한 사용</string>
+    <string name="lte_data_only_prompt">4G 데이터 전용 모드이기 때문에 이 기능을 사용할 수 없습니다. 4G 데이터 전용 모드를 종료하시겠습니까?</string>
+    <string name="lte_data_only_timeout">현재 위치에서는 4G 데이터 전용 네트워크를 사용할 수 없습니다. 종료 후 다른 네트워크를 검색하시겠습니까?</string>
+    <string name="lte_only_dialog_button_yes">"예"</string>
+    <string name="lte_only_dialog_button_no">"아니요"</string>
+    <string name="lte_only_dialog_title_prompt">프롬프트</string>
+    <string name="enable_4G_data">4G 데이터 사용</string>
+    <string name="enable_4G_data_summary">4G는 고품질 인터넷에 더 빠르게 액세스할 수 있습니다</string>
+    <string name="only_use_LTE_data">LTD 데이터 전용</string>
+    <string name="only_use_LTE_data_summary">단일 데이터 전용을 활성화하면, 이 기능에서 전화 통화와 문자 메시지를 사용할 수 없습니다.</string>
+    <string name="network_available">"사용 가능"</string>
+    <string name="network_current">등록</string>
+    <string name="dlg_internal_in_use_message_emotion">현재 내장 저장소를 사용 중입니다. 기본 저장 위치를 SD 카드로 전환하려면 전화기를 다시 시작해야 합니다. 계속하시겠습니까?</string>
+    <string name="dlg_external_in_use_message_emotion">현재 SD 카드를 사용 중입니다. 기본 저장 위치를 내장 저장소로 전환하려면 전화기를 다시 시작해야 합니다. 계속하시겠습니까?</string>
+    <string name="gsm_network">GSM 네트워크</string>
+    <string name="cdma_network">CDMA 네트워크</string>
+    <string name="no_sim_card">SIM 카드 없음</string>
+    <string name="no_sim_card_cdma">UIM 카드가 없습니다.</string>
+    <string name="airplane_mode_on">비행기 모드가 켜져 있습니다.</string>
+    <string name="wifi_off_summary">Wi-Fi가 꺼졌습니다.</string>
+    <string name="wfc_unknown_error_summary">알 수 없는 오류</string>
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="2738748390251381682" name="app_name">"Programa de instalação do pacote"</string>
+    <string msgid="3057143178373252333" name="next">"Seguinte"</string>
+    <string msgid="5896438203900042068" name="install">"Instalar"</string>
+    <string msgid="3889387558374211719" name="done">"Concluído"</string>
+    <string msgid="2706691034244052604" name="security_settings_desc">"Permitir que esta aplicação:"</string>
+    <string msgid="8360346460165114585" name="cancel">"Cancelar"</string>
+    <string msgid="4742479012767208045" name="unknown">"Desconhecido"</string>
+    <string msgid="8613631001631998372" name="installing">"A instalar..."</string>
+    <string msgid="3682715442154357097" name="install_done">"Aplicação instalada."</string>
+    <string msgid="7295206719219043890" name="install_confirm_question">"Pretende instalar esta aplicação? Terá acesso a:"</string>
+    <string msgid="5918305641302873520" name="install_confirm_question_no_perms">"Pretende instalar esta aplicação? Não requer qualquer acesso especial."</string>
+    <string msgid="4624159567361487964" name="install_confirm_question_update">"Pretende instalar uma atualização para a aplicação existente? Os dados existentes não serão perdidos. A aplicação atualizada terá acesso a:"</string>
+    <string msgid="1302330093676416336" name="install_confirm_question_update_system">"Pretende instalar uma atualização para a aplicação existente? Os dados existentes não serão perdidos. A aplicação atualizada terá acesso a:"</string>
+    <string msgid="4885928136844618944" name="install_confirm_question_update_no_perms">"Pretende instalar uma atualização para a aplicação existente? Os dados existentes não serão perdidos. Não é necessário um acesso específico."</string>
+    <string msgid="7676593512694724374" name="install_confirm_question_update_system_no_perms">"Pretende instalar uma atualização para a aplicação integrada? Os dados existentes não serão perdidos. Não é necessário um acesso específico."</string>
+    <string msgid="6579998651498970899" name="install_failed">"Aplicação não instalada."</string>
+    <string msgid="1287935707565682604" name="install_failed_invalid_apk">"O pacote parece estar danificado."</string>
+    <string msgid="1517751954440692054" name="install_failed_inconsistent_certificates">"Já está instalado um pacote com o mesmo nome e com uma assinatura em conflito."</string>
+    <string msgid="7947925824732917665" name="install_failed_older_sdk">"O pacote só funciona em versões mais recentes do Android."</string>
+    <string msgid="7098684468842750800" name="install_failed_cpu_abi_incompatible" product="tablet">"Esta aplicação não é compatível com o tablet."</string>
+    <string msgid="1309625657882930450" name="install_failed_cpu_abi_incompatible" product="tv">"Esta aplicação não é compatível com a sua TV."</string>
+    <string msgid="4433316303249711331" name="install_failed_cpu_abi_incompatible" product="default">"Esta aplicação não é compatível com o telemóvel."</string>
+    <string msgid="1958430133396322619" name="install_failed_file_not_found">"O pacote especificado foi eliminado antes da instalação poder ser concluída."</string>
+    <string msgid="5567372439890440205" name="install_failed_verify_failed">"O pacote não passou na verificação e não pode ser instalado."</string>
+    <string msgid="7083090219270140373" name="install_failed_verify_timeout">"O tempo limite foi excedido ao tentar confirmar este pacote. Tente instalá-lo novamente mais tarde."</string>
+    <string msgid="8368835262605608787" name="install_failed_msg" product="tablet">"Não foi possível instalar <xliff:g id="APP_NAME">%1$s</xliff:g> no tablet."</string>
+    <string msgid="3990457938384021566" name="install_failed_msg" product="tv">"Não foi possível instalar o <xliff:g id="APP_NAME">%1$s</xliff:g> na sua TV."</string>
+    <string msgid="8554909560982962052" name="install_failed_msg" product="default">"Não foi possível instalar <xliff:g id="APP_NAME">%1$s</xliff:g> no telemóvel."</string>
+    <string msgid="4826921505917605463" name="launch">"Abrir"</string>
+    <string msgid="2855558586206583032" name="unknown_apps_dlg_title">"Instalação bloqueada"</string>
+    <string msgid="7504186369474734767" name="unknown_apps_dlg_text" product="tablet">"Por segurança, o tablet está definido para bloquear a inst. de aplicações obtidas de fontes desconhecidas."</string>
+    <string msgid="7195713985140602351" name="unknown_apps_dlg_text" product="tv">"Por segurança, a TV está def. para bloquear a instal. de aplic. obtidas a partir de fontes desconh."</string>
+    <string msgid="133213135679009316" name="unknown_apps_dlg_text" product="default">"Por segurança, o telemóvel está definido para bloquear a inst. de aplicações obtidas de fontes desconhecidas."</string>
+    <string msgid="1189146324736698462" name="unknown_apps_admin_dlg_text">"O administrador não permite a instalação de aplicações obtidas de origens desconhecidas."</string>
+    <string msgid="3468756155452870475" name="ok">"OK"</string>
+    <string msgid="6743583734099755409" name="settings">"Definições"</string>
+    <string msgid="7568985073502399415" name="allow_source_dlg_title">"Nova fonte para aplicações"</string>
+    <string msgid="3927580956764099076" name="allow_source_dlg_text">"O <xliff:g id="APP_NAME">%1$s</xliff:g> pretende instalar outras aplicações.\n\nPermitir a operação agora e no futuro?"</string>
+    <string msgid="4033876279091996596" name="manage_applications">"Gerir aplicações"</string>
+    <string msgid="1232230739563820951" name="dlg_app_replacement_title">"Substituir aplicação?"</string>
+    <string msgid="2992911899989907492" name="dlg_app_replacement_statement">"A aplicação que está a instalar substituirá outra aplicação. \n \nTodos os seus dados de utilizador anteriores serão guardados."</string>
+    <string msgid="1900046590819605929" name="dlg_sys_app_replacement_statement">"Este é uma aplicação do sistema. \n \nTodos os seus dados de utilizador anteriores serão guardados."</string>
+    <string msgid="7843674437613797326" name="out_of_space_dlg_title">"Sem espaço"</string>
+    <string msgid="4774775404294282216" name="out_of_space_dlg_text">"Não foi possível instalar <xliff:g id="APP_NAME">%1$s</xliff:g>. Liberte algum espaço e tente novamente."</string>
+    <string msgid="6944357727705699232" name="dlg_ok">"OK"</string>
+    <string msgid="2692335460569505484" name="app_not_found_dlg_title">"Aplicação não encontrada"</string>
+    <string msgid="6107465056055095930" name="app_not_found_dlg_text">"A aplicação não foi encontrada na lista de aplicações instaladas."</string>
+    <string msgid="1860074100811653963" name="uninstall_application_title">"Desinstalar a aplicação"</string>
+    <string msgid="4146940097553335390" name="uninstall_update_title">"Desinstalar atualização"</string>
+    <string msgid="6680688689803932550" name="uninstall_activity_text">"<xliff:g id="ACTIVITY_NAME">%1$s</xliff:g> faz parte da seguinte aplicação:"</string>
+    <string msgid="6691975835951187030" name="uninstall_application_text">"Pretende desinstalar esta aplicação?"</string>
+    <string msgid="5574704453233525222" name="uninstall_application_text_all_users">"Pretende desinstalar esta aplicação para "<b>"todos"</b>" os utilizadores? A aplicação e os respetivos dados serão removidos de "<b>"todos"</b>" os utilizadores do dispositivo."</string>
+    <string msgid="8766882355635485733" name="uninstall_application_text_user">"Pretende desinstalar esta aplicação para o utilizador <xliff:g id="USERNAME">%1$s</xliff:g>?"</string>
+    <string msgid="2056387942084605027" name="uninstall_update_text">"Pretende substituir esta aplicação pela versão de fábrica?"</string>
+    <string msgid="5556217435895938250" name="uninstalling">"A desinstalar..."</string>
+    <string msgid="3792487853420281888" name="uninstall_done">"Desinstalação concluída."</string>
+    <string msgid="631122574306299512" name="uninstall_failed">"Desinstalação sem êxito."</string>
+    <string msgid="3493789239037852035" name="uninstall_failed_device_policy_manager">"Não é possível desinstalar porque este pacote é um admin. de aparelho ativo."</string>
+    <string msgid="5006234166226562439" name="uninstall_blocked_profile_owner">"Esta aplicação é necessária para o seu perfil <xliff:g id="USERNAME">%1$s</xliff:g> e não pode ser desinstalada."</string>
+    <string msgid="7074175526413453063" name="uninstall_blocked_device_owner">"Esta aplic. é exigida pelo administrador do disp. e não pode ser desinstalada."</string>
+    <string msgid="891392489300312370" name="manage_device_administrators">"Gerir administradores de aparelhos"</string>
+    <string msgid="8969754702803951175" name="uninstall_failed_msg">"Não foi possível desinstalar <xliff:g id="APP_NAME">%1$s</xliff:g>."</string>
+    <string msgid="6079580916889596257" name="Parse_error_dlg_title">"Erro de análise"</string>
+    <string msgid="7623286983621067011" name="Parse_error_dlg_text">"Ocorreu um problema ao analisar o pacote."</string>
+    <string msgid="6039428254474104210" name="newPerms">"Novas"</string>
+    <string msgid="1024385515840703981" name="allPerms">"Todas"</string>
+    <string msgid="1850527049572617" name="privacyPerms">"Privacidade"</string>
+    <string msgid="6733560207731294504" name="devicePerms">"Acesso ao Dispositivo"</string>
+    <string msgid="6657813692169565975" name="no_new_perms">"Esta atualização não requer novas permissões."</string>
+    <string msgid="4690289297029223742" name="grant_confirm_question">"Pretende conceder as seguintes permissões? Permitirão acesso a:"</string>
+    <string name="delete_apps_text">O pacote de instalação de <xliff:g id="apps_name">%1$s</xliff:g> tem <xliff:g id="apps_size">%2$1.2f</xliff:g> MB. Eliminar?</string>
+    <string name="delete_apps_title" msgid="8360346460165114585">Eliminar pacote de instalação</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dm_lock">DM-gesperrt</string>
+    <string name="dm_unlock">DM-Freigabe</string>
+    <string name="start_record">Aufnahme starten</string>
+    <string name="stop_record">"Aufzeichnung beenden"</string>
+    <string name="str_db_playlist_name">"Meine Aufzeichnungen"</string>
+    <string name="alert_device_error">Fehler an Audiogerät aufgetreten</string>
+    <string name="ext_media_badremoval_notification_title">"SD-Karte unerwartet entfernt"</string>
+    <string name="error_sdcard_access">"Kein Zugriff auf SD-Karte möglich."</string>
+    <string name="confirm_device_info_full">SD-Karte voll, die Aufzeichnung wurde gespeichert.</string>
+    <string name="confirm_save_info_saved">Die Aufzeichnung wurde gespeichert</string>
+    <string name="confirm_save_info_saved_to">Die Aufnahme sind gespeichert</string>
+    <string name="recording_saved_sd_full">SD-Karte voll, die Aufzeichnung wurde gespeichert.</string>
+    <string name="sd_not_enough">Speicherplatz der SD-Karte nahezu erschöpft</string>
+    <string name="alert_dialog_dismiss">"Verwerfen"</string>
+    <string name="change_my_pic">Ändern</string>
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">Alle Anrufe beenden</string>
+    <string name="onscreenHangupHolding">Gehaltenen Anruf beenden</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Aktiven Anruf beenden anklopfenden Anruf annehmen</string>
+    <string name="menu_ect">Übertragen</string>
+    <string name="respond_via_sms_confirmation_format">"Nachricht an 
+        <xliff:g id="PHONE_NUMBER">%s</xliff:g> gesendet"
+    </string>
+    <string name="volte_add_conference_member_title">Zur Konferenz zufügen</string>
+    <string name="add_member_msg">Nummer oder Namen eingeben</string>
+    <string name="card_title_incoming_conference">Konferenzeinladung</string>
+    <string name="addConferenceMemeberText">Mitglied zufügen</string>
+    <string name="add_conference_member_limit">Nummern können nur einzeln hinzugefügt werden.</string>
+    <string name="conference_member_join">
+<xliff:g id="member_name">%s</xliff:g> ist der Konferenz beigetreten.</string>
+    <string name="conference_member_leave">
+<xliff:g id="member_name">%s</xliff:g> hat die Konferenz verlassen.</string>
+    <string name="conference_member_adding">
+<xliff:g id="member_name">%s</xliff:g> zufügen...</string>
+    <string name="conference_member_add_fail">
+<xliff:g id="member_name">%s</xliff:g> konnte nicht zugefügt werden.</string>
+    <string name="removeMember">"Entfernen"</string>
+    <string name="memberStatus">"Status"</string>
+    <string name="volte_call_waiting_indication_text">Die Gegenstelle ist im Gespräch; Moment, bitte…</string>
+    <string name="volte_conf_member_reach_max">Die Konferenz hat bereits die maximale Anzahl Mitglieder erreicht.</string>
+    <string name="add_multi_conference_member_limit">Kann aktuell maximal <xliff:g id="max_number">%s</xliff:g> Mitglied(er) hinzufügen.</string>
+    <string name="multi_conference_member_adding">Mitglied(er) wird/werden hinzugefügt…</string>
+<string name="ok">"OK"</string>
+<string name="two_incoming_calls">Zwei eingehende Anrufe</string>
+<string name="wifi_title">WLAN-Anruf und Minuten </string>
+<string name="call_drop">Ihr Anruf wird möglicherweise getrennt</string>
+<string name="call_drop_message">Sie verlassen bald den WLAN-Abdeckungsbereich.</string>
+<string name="view_networks">Netzwerke anzeigen</string>
+<string name="wfc_wifi_call_drop_summary">Tut uns leid! Sie müssen Ihr WLAN-Netzwerk während eines Anrufs verlassen haben.\n\nErneut Verbindung mit Ihrem WLAN-Netzwerk aufbauen, um Ihren Anruf zu beenden?</string>
+</resources>

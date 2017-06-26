@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/launcher_mode" >
+
+    <com.android.settings.location.RadioButtonPreference
+        android:key="nomalUiMode"
+        android:persistent="true"
+        android:title="@string/nomalUi" />
+    <com.android.settings.location.RadioButtonPreference
+        android:key="simpleUiMode"
+        android:persistent="false"
+        android:title="@string/simpleUi" />
+
+</PreferenceScreen>

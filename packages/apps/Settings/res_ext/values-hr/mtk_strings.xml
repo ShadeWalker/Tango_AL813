@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- AudioProfile Settings start -->
+   <string name="ring_summary">Zvono</string>
+  <string name="ring_vibrate_summary">Zvono i vibracija</string>
+  <string name="silent_summary">Samo nečujno</string>
+  <string name="meeting_summary">Samo vibracija</string>
+  <string name="outdoor_summary">Najglasnije zvono i vibracija</string>
+  <string name="audio_profile_reset">"Ponovo postavi"</string>
+  <string name="audio_profile_add">"Dodavanje"</string>
+  <string name="audio_profile_enable">"Omogući"</string>
+  <string name="audio_profile_rename">"PREIMENOVANJE"</string>
+  <string name="audio_profile_delete">"Izbriši"</string>
+  <string name="audio_profile_message_reset">Sve postavke audio profila resetirat će se na zadane vrijednosti</string>
+  <string name="audio_profile_message_rename">Unesite novi naziv profila</string>
+  <string name="audio_profile_message_name_error">Taj unos za naziv već postoji</string>
+  <string name="audio_profile_message_name_length_wrong">Naziv mora sadržavati barem jedan znak</string>
+  <string name="audio_profile_message_delete">Profil <xliff:g id="profile">%s</xliff:g> će biti izbrisan</string>
+  <string name="audio_profile_message_overflow">Dozvoljeno je dodavanje samo 6 korisničkih profila</string>
+  <string name="audio_profile_category_custom_title">Korisnički zadani profili</string>
+  <string name="audio_profile_category_predefine_title">Unaprijed zadani profili</string>
+  <string name="audio_profile_error">"Pogreška"</string>
+  <string name="audio_profile_others">Obavijest i drugo</string>
+  <string name="general_settings_title">"Općenito"</string>
+  <string name="silent_settings_title">"Bešumno"</string>
+  <string name="meeting_settings_title">Sastanak</string>
+  <string name="outdoor_settings_title">Vani</string>
+  <string name="sound_category_feedback_title">"Sustav"</string>
+  <string name="sound_category_calls_title">Dolazni pozivi</string>
+  <string name="voice_call_title">Melodija zvona glasovnog poziva</string>
+  <string name="voice_call_summary">"Postavite svoju zadanu melodiju zvona glasovnog poziva"</string>
+  <string name="video_call_title">Melodija zvona video poziva</string>
+  <string name="video_call_summary">Postavite svoju zadanu melodiju zvona video poziva</string>
+  <string name="sip_call_title">Melodija zvona SIP poziva</string>
+  <string name="sip_call_summary">Postavite svoju zadanu melodiju zvona SIP poziva</string>
+  <string name="Phone_vibrate_summary">Vibriranje uređaja pri dolaznim pozivima</string>
+  <string name="vibrate_title">"Vibriranje"</string>
+  <string name="audio_profile_settings_title">Audio profili</string>
+  <string name="audio_profile_bes_loudness_summary">Volume booster za zvučnik</string>
+  <string name="sound_enhancement_title">Poboljšanje zvuka</string>
+  <string name="music_plus_summary">Poboljšanje zvuka za slušalice</string>
+  <string name="lossless_title">BT način rada bez gubitka</string>
+  <string name="lossless_summary">BT zvuk visoke kvalitete</string>
+  <string name="lossless_connect_summary">Wi-Fi će biti zahvaćen uključivanjem BT načina rada bez gubitka. Jeste li sigurni da želite omogućiti?</string>
+  <string name="lossless_on">Način rada BT bez gubitaka UKLJUČEN</string>
+  <string name="lossless_playing">Izvođenje glazbe bez gubitka</string>
+  <string name="lossless_toastmessage">Zvukovi sustava izvodit će se preko zvučnika telefona</string>
+  <string name="lossless_volume_max">Održavajte prostor sustava na maksimumu</string>
+  <string name="lossless_cannot_found_device">Ne može se naći BT uređaj bez gubitaka</string>
+  <string name="audio_profile_bes_surround_title">BesSurround</string>
+  <string name="audio_profile_bes_surround_summary">Prostorni zvuk</string>
+  <string name="audio_profile_bes_surround_mode_movie">Filmski način rada</string>
+  <string name="audio_profile_bes_surround_mode_music">Način rada za glazbu</string>
+  <string msgid="6680706009915204785" name="zen_mode_option_title_novoice">"Kad stignu obavijesti"</string>
+  <!-- AudioProfile Settings end -->
+ 
+  <!-- MTK Wi-Fi settings start -->
+   <string name="wifi_no_cert_for_wapi">Ne može se pronaći certifikacija za trenutno povezujući AP</string>
+  <string name="sim_slot">SIM utor</string>
+  <string name="eap_sim_slot_0">Sim utor 1</string>
+  <string name="eap_sim_slot_1">Sim utor 2</string>
+  <string name="eap_sim_aka_airplanemode">Isključite zrakoplovni način da biste koristili EAP-SIM/AKA</string>
+  <string name="eap_sim_aka_no_sim_error">Morate umetnuti sim karticu da biste koristili EAP-SIM/AKA</string>
+  <string name="eap_sim_aka_no_sim_slot_selected">Morate odabrali sim utor da biste koristili EAP-SIM/AKA</string>
+  <string name="wifi_security_wapi_certificate">WAPI certifikat</string>
+  <string name="wapi_user_certificate">"Korisnički certifikat"</string>
+  <string name="wapi_as_certificate">ASE certifikat</string>
+  <string name="wifi_hex_password">Heksadecimalna lozinka.</string>
+  <string name="wifi_WEP_transmit_key">Ključ za prijenos</string>
+  <string name="wifi_WEP_secury_key">Sigurnosni ključ</string>
+  <string name="wifi_tether_auto_disable_title">Zadrži Wi-Fi pristupnu točku uključenom</string>
+  <string name="wifi_tether_auto_channel_text">"automatski"</string>
+  <string name="wifi_tether_auto_channel_width_text">Automatski 20/40 MHz</string>
+  <string name="wifi_channel">Željeni kanal</string>
+  <string name="wifi_channel_width">Širina kanala</string>
+  <string name="wifi_advanced_ipv4_address_title">IPv4 adresa</string>
+  <string name="wifi_advanced_ipv6_address_title">IPv6 adresa</string>
+  <string name="wifi_ipv4_address">IPv4 adresa</string>
+  <string name="wifi_ipv6_address">IPv6 adresa</string>
+  <string name="wifi_ap_auto_join_available">Automatsko pridruživanje</string>
+  <string name="wifi_ap_auto_join_available_summary">Automatski odabir  bolje Wi-Fi mreže za vrijeme skeniranja radi pridruživanja kada ste spojeni</string>
+  <!-- MTK Wi-Fi settings end -->
+ 
+  <!-- Wi-Fi hotspot client start -->
+   <string name="wifi_tether_setting_title">Osnovne postavke</string>
+  <string name="wifi_tether_wps_connect_title">WPS spajanje</string>
+  <string name="wifi_tether_wps_connect_summary">Odabrani Wi-Fi zaštićeni način postavljanja za nastavak</string>
+  <string name="wifi_tether_wps_pin_error">Neispravan PIN</string>
+  <string name="wifi_tethering_title">Wi-Fi pristupna točka</string>
+  <string name="wifi_ap_wps_dialog_title">WPS spajanje</string>
+  <string name="wifi_ap_wps_mode_title">WPS način</string>
+  <string name="wifi_ap_wps_pin_title">Unos PIN-a iz klijenta</string>
+  <string name="wifi_ap_reset_OOB_title">Resetirajte SSID mreže, sigurnosne postavke i lozinku na zadane vrijednosti (tvornička konfiguracija za WPS )</string>
+  <string name="wifi_ap_reset_OOB">Resetiraj OOB</string>
+  <string name="wifi_ap_max_connection_title">Maksimalni broj veza</string>
+  <string name="wifi_ap_connected_title">Spojeni korisnici</string>
+  <string name="wifi_ap_blocked_title">Blokirani korisnici</string>
+  <string name="wifi_ap_client_block_title">Blokiraj</string>
+  <string name="wifi_ap_client_unblock_title">Deblokiraj</string>
+  <string name="wifi_ap_client_details_title">Detalji</string>
+  <string name="wifi_ap_client_mac_label">MAC adresa:</string>
+  <string name="wifi_ap_client_ip_label">IP adresa:</string>
+  <string name="wifi_ap_bandwidth_title">Iskorištenost širine pojasa</string>
+  <string name="wifi_ap_bandwidth_enable">Omogući ograničenje širine pojasa</string>
+  <string name="wifi_ap_bandwidth_chart_title">Brzina protoka podataka u stvarnom vremenu</string>
+  <string name="wifi_ap_bandwidth_chart_summary">Prema mjerenju na telefonu, računanje brzine protoka podataka vašeg operatera može se razlikovati.</string>
+  <string name="wifi_wps_fail_error">Wi-Fi zaštićeno postavljanje nije uspjelo, pokušajte ponovno.</string>
+  <string name="wifi_ap_title">Statistički podaci</string>
+  <string name="wifi_ap_time_duration">Vrijeme trajanja:<xliff:g id="time">%1$s</xliff:g>
+</string>
+  <string name="wifi_ap_total_data">Ukupni promet podataka:<xliff:g id="time">%1$s</xliff:g>
+</string>
+  <string name="wifi_ap_no_connected">0 spojenih korisnika</string>
+  <string name="wifi_ap_no_blocked">0 blokiranih korisnika</string>
+  <!-- Wi-Fi hotspot client end -->
+ 
+  <!-- MTK Beam plus start -->
+   <string name="beam_mgmt_tab_download_title">Prosljeđivanje provjere primljene SS poruke</string>
+  <string name="beam_mgmt_tab_upload_title">"Time će se prikupiti podaci o trenutačnom stanju vašeg uređaja koje ćete nam poslati u e-poruci. Za pripremu izvješća o bugu potrebno je nešto vremena pa vas molimo za strpljenje."</string>
+  <string name="beam_share_mgmt_notification_ticker">Povijest zajedničkog emitiranja</string>
+  <string name="beam_share_mgmt_notification_title">Povijest zajedničkog emitiranja</string>
+  <string name="beam_share_mgmt_notification_message">"Odaberite za prikaz povijesti zajedničkog emitiranja."</string>
+  <string name="beam_share_mgmt_tab_menu_clear">Očisti svu povijest?</string>
+  <string name="beam_share_open_file_dialog_title">Datoteku nije moguće otvoriti</string>
+  <string name="beam_share_open_file_unsupported_message">Taj format datoteke nije podržan.</string>
+  <string name="beam_share_open_file_not_found_message">"Datoteka nije pronađena: <xliff:g id="file_name">%1$s</xliff:g>
+</string>
+  <string name="beam_share_transfer_fail_dialog_title">"Emitiranje neuspjelo"</string>
+  <string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> nije uspješno poslana."</string>
+  <string name="beam_share_resend_dialog_ok_button">"Pokušajte ponovo"</string>
+  <string name="beam_share_show_received_files_menu">"Prikaži primljene datoteke"</string>
+  <string name="beam_share_history_title">Povijest zajedničkog emitiranja</string>
+  <string name="beam_share_clear_confirm_dialog_title">Očisti sve</string>
+  <string name="beam_share_clear_confirm_dialog_message">Očisti svu povijest?</string>
+  <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> nije uspješno primljena."</string>
+  <string name="beam_share_clear_item_dailog_title">"Izbriši"</string>
+  <string name="beam_share_clear_item_dailog_message">Ova stavka će biti izbrisana.</string>
+  <!-- MTK Beam plus end -->
+ 
+  <!-- MTK NFC settings start -->
+   <string name="nfc_p2p_mode">P2P način</string>
+  <string name="nfc_p2p_mode_summary">Slanje ili primanje sadržaja aplikacije</string>
+  <string name="nfc_tag_mode_category">Način oznake</string>
+  <string name="nfc_rw_tag_title">Čitanje i upisivanje oznake</string>
+  <string name="nfc_rw_tag_summary">Očitavanje oznake ili upisivanje u nju</string>
+  <string name="nfc_card_emulation_category_title">način emuliranja kartice</string>
+  <string name="nfc_card_emulation">Emuliranje kartice</string>
+  <string name="card_emulation_settings_category_title">dostupan sigurnosni element</string>
+  <string name="card_emulation_settings_no_element_found">Nema dostupnog sigurnosnog elementa</string>
+  <string name="card_emulation_settings_off_text">Za pregled dostupnih sigurnosnih elemenata, uključite emulaciju kartice.</string>
+  <string name="card_emulation_turning_off_text">Isključivanje emulacije kartice...</string>
+  <string name="card_emulation_turning_on_text">Uključivanje emulacije kartice...</string>
+  <string name="card_emulation_switch_error_title">"Pogreška"</string>
+  <string name="card_emulation_switch_error_message">Nije uspjelo prebacivanje u <xliff:g id="card_mode">%1$s</xliff:g>.</string>
+  <string name="card_emulation_sim_not_supported_message">
+<xliff:g id="sim_description">%1$s</xliff:g> ne podržava funkciju emulacije NFC kartice.</string>
+  <string name="card_emulation_two_sim_not_supported_message">SIM1,SIM2 do not support NFC Card emulation function.</string>
+  <string name="nfc_hce_pay_summary">Upotreba uređaja za DODIRNI I PLATI kao Google novčanika, kreditne kartice itd.</string>
+  <!-- MTK NFC settings end -->
+ 
+  <!-- MTK WIFI Passpoint start -->
+   <string name="passpoint_summary">Automatsko povezivanje na AP s omogućenom lozinkom</string>
+  <string name="passpoint_append_summary">(preko Passpoint)</string>
+  <string name="passpoint_config_credential_type">Vrsta akreditiva</string>
+  <string name="passpoint_config_eap_method">"EAP metoda"</string>
+  <string name="passpoint_supported">Podržano</string>
+  <string name="passpoint_username_pw">Korisničko ime/Lozinka</string>
+  <string name="passpoint_certificate">Certifikat</string>
+  <!-- MTK WIFI Passpoint end -->
+ 
+  <!-- MTK WFD start -->
+   <string name="wfd_change_resolution_menu_title">Promijeni razlučivost</string>
+  <string name="wfd_sink_summary">Vidljiv drugima</string>
+  <string name="wfd_device_category">POPIS UREĐAJA</string>
+  <string name="wfd_sink_toast_enjoy">Uživajte u projekciji zaslona s drugog uređaja</string>
+  <string name="wfd_sink_toast_disconnect">Projekcija zaslona odspojena</string>
+  <string name="wfd_sink_disconnecting">Odspajanje...</string>
+  <string name="wfd_sink_guide_btn">Nabavite ga</string>
+  <string name="wfd_sink_guide_title">Kako se zatvara?</string>
+  <string name="wfd_sink_guide_content">Dugo pritisnite zaslon na <xliff:g id="seconds">%s</xliff:g> sekundi kako biste zatvorili prikaz zaslona drugog uređaja.</string>
+  <!-- MTK WFD end -->
+ 
+  <!-- MTK Storage Settings start -->
+   <string name="mtp_transfer_unmount_error_text">SD kartica ne može se isključiti za vrijeme prijenosa datoteka</string>
+  <string name="mtp_transfer_erase_error_text">SD kartica ne može se izbrisati za vrijeme prijenosa datoteka</string>
+  <string name="launch_error">"Ne može se pokrenuti aplikacija!"</string>
+  <string name="dlg_confirm_unmount_usb_title" product="default">Isključiti USB pohranu?</string>
+  <string name="dlg_confirm_unmount_usb_text" product="default">Ako isključite USB pohranu, neke aplikacije koje upotrebljavate zaustavit će se i mogu biti nedostupne dok ponovo ne uključite USB pohranu.</string>
+  <string name="dlg_error_unmount_usb_text" product="default">"USB pohrana ne može se isključiti. Pokušajte ponovo kasnije."</string>
+  <string name="unmount_usb_inform_text" product="default">USB pohrana bit će isključena.</string>
+  <string name="sd_eject_usbstorage" product="default">"Isključi USB memoriju"</string>
+  <string name="sd_eject_usbstorage_summary" product="default">Isključite USB pohranu kako biste je mogli sigurno ukloniti</string>
+  <string name="sd_mount_usbstorage" product="default">"Uključi memoriju USB"</string>
+  <string name="sd_insert_usb_summary" product="default">"Umetni USB mem. za uklj."</string>
+  <string name="usb_ums_title">"Memorija USB"</string>
+  <string name="usb_ums_summary">"XP se preporučuje. Omogućava prijenos datoteka između računala i Android uređaja."</string>
+  <string name="usb_charge_title">Samo punjenje</string>
+  <string name="usb_connect_as_cdrom_category">"Poveži kao CD-ROM"</string>
+  <string name="usb_charge_summary">Zaustavlja sve USB funkcije. Omogućava ubrzavanje USB punjenja i smanjenje utroška energije.</string>
+  <string name="akp_installer_settings_title">APK instalacijski program</string>
+  <string name="akp_installer_settings_summary">Instalirajte APK iz prostora za pohranu telefona i SD kartice</string>
+  <string name="usb_bicr_title">Ugrađeni CD-ROM</string>
+  <string name="usb_bicr_summary">Prikaži virtualni CD-ROM koji sadrži koristan softver.</string>
+  <string name="select_memory">Zadani disk za upis</string>
+  <string name="dlg_mount_external_sd_title" product="default">Priključiti SD karticu?</string>
+  <string name="dlg_mount_external_sd_summary" product="default">Ako priključite SD karticu, neke korištene aplikacije će prestati s radom.</string>
+  <!-- MTK Storage Settings end -->
+ 
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">HDMI postavke</string>
+  <string name="hdmi_settings_summary">Kliknite za konfiguraciju HDMI-a</string>
+  <string name="hdmi_audio_toggler">Audio</string>
+  <string name="hdmi_video_toggler">"Videozapis"</string>
+  <string name="hdmi_video_resolution">Razlučivost videozapisa</string>
+  <string name="hdmi_auto">"automatski"</string>
+  <string name="hdmi_scale_control">Podešavanje veličine videozapisa</string>
+  <string name="hdmi_scale_no_scale">Bez skaliranja</string>
+  <string name="hdmi_scale_scale_down">Smanjivanje <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">Audioizlaz</string>
+  <string name="hdmi_audio_output_stereo">Stereo</string>
+  <string name="hdmi_audio_output_multi_channel">Više kanala</string>
+  <!-- MTK HDMI end -->
+ 
+  <!-- MTK Display Settings start -->
+   <string name="landscape_launcher_title">Program za pokretanja pejzažnog prikaza</string>
+  <string name="landscape_launcher_none">"Ništa"</string>
+  <string name="display_settings_scences_title">Prizori</string>
+  <string name="default_name">"Zadano"</string>
+  <string name="custom_theme_name">Novi [%1$s]</string>
+  <string name="loading">Učitavanje...</string>
+  <string name="auto_backlight_title">Ekonomično pozadinsko svjetlo</string>
+  <string name="auto_backlight_summary">Automatski prilagodi pozadinsko svjetlo radi štednje energije</string>
+  <string name="display_personalize">Personaliziraj</string>
+  <string name="display_default">"Prikaz"</string>
+  <string name="clear_motion_summary">Poboljšanje protočnosti videozapisa</string>
+  <string name="on_text">"uključeno"</string>
+  <string name="off_text">"isključena"</string>
+  <string name="mira_vision_summary">Omogućuje najbolje vizualne efekte</string>
+  <!-- MTK Display Settings end -->
+ 
+  <!--MTK Security Settings start -->
+   <string name="voice_unlock_backup_info_summary">Kada vas funkcija Otključavanje glasom ne može prepoznati, kako želite otključati?</string>
+  <string name="unlock_set_unlock_mode_voice_weak">Glasovno otključavanje</string>
+  <string name="mtk_lock_screen_notifications_title">Obavijesti na zaključanom zaslonu</string>
+  <string name="lock_screen_notifications_summary">Prikaži obavijesti na zaključanom zaslonu</string>
+  <string name="lock_screen_style_title">Stil zaključanog zaslona</string>
+  <string name="current_suffix">"(trenutni)"</string>
+  <string name="lockscreen_style_default_desc">"Brzi pristup aplikacijama na zaključanom zaslonu"</string>
+  <string name="security_not_set">Sigurnost nije postavljena</string>
+  <string name="voice_ui_title">"Glasovno upravljanje"</string>
+  <!--MTK Security Settings end -->
+ 
+  <!-- MTK Wireless settings start -->
+   <string name="pch_toggle_title">Način prednosti GPRS prijenosa</string>
+  <string name="pch_data_prefer_summary_off">Prednost podacima</string>
+  <string name="pch_call_prefer_summary_on">Prednost pozivu</string>
+  <string name="pch_warning_message">Brzina prijenosa podataka će se smanjiti.</string>
+  <string name="tethered_ipv6_title">Postavke pristupne točke i dijeljenja veze</string>
+  <string name="tethered_ipv4v6">(IPv6 dostupno)</string>
+  <string name="tethered_ipv6">(Dostupno samo IPv6)</string>
+  <string name="tethered_ipv4">(IPv6 nedostupno)</string>
+  <string name="tethering_apn_settings_title">Postavke APN-a</string>
+  <string name="tethering_apn_settings_summary">Konfiguriraj APN za tetering</string>
+  <string name="usb_tether_type_title">Vrsta USB teteringa</string>
+  <string name="usb_tethering_select_version">Odaberite verziju računalnog sustava</string>
+  <string name="apn_port_warning">Vrijednost ulaza mora biti 1-65535!</string>
+  <string name="apn_predefine_change_dialog_notice">Želite li stvarno spremiti? Izmjene u zadanim APN-ovima mogu dovesti do problema s vezom!"</string>
+  <string name="lockdown_vpn_already_connected">Značajka Uvijek na VPN-u već je omogućena za ovu vezu.</string>
+  <!-- MTK Wireless settings end -->
+ 
+  <!-- MTK Feature MISC start -->
+   <string name="schedule_power_on_off_settings_title">Planirano uključivanje i isključivanje</string>
+  <string name="ipo_title">Brzo pokretanje</string>
+  <string name="ipo_summary_on">Onemogući brzo pokretanje</string>
+  <string name="ipo_summary_off">Omogući brzo pokretanje</string>
+  <string name="hotknot_explained_description">Dopusti razmjenu podataka kada zaslon dodirne drugi uređaj</string>
+  <string name="mouse_primary_button_title">Zamjena primarnih i sekundarnih gumba</string>
+  <string name="mouse_primary_button_dialog_title">Zamijeni primarni gumb</string>
+  <string name="double_click_title">Brzina dvostrukog klika</string>
+  <string name="test_area">PODRUČJE ISPITIVANJA:</string>
+  <string name="double_click_tip">Ovdje dvaput kliknite</string>
+  <!-- MTK Feature MISC end -->
+ 
+  <!-- MTK Bluetooth Settings start -->
+   <string name="bluetooth_advanced_settings">"Napredne postavke"</string>
+  <string name="bluetooth_profile_ftp">"Prijenos datoteke"</string>
+  <string name="bluetooth_ftp_profile_summary_use_for">Koristi za prijenos datoteke</string>
+  <string name="bluetooth_ftp_profile_summary_connected">"Povezano s prijenosom datoteka"</string>
+  <!-- MTK Bluetooth Settings end -->
+ 
+  <!--MTK DateTime start-->
+   <string name="gps_time_sync_attention_gps_on">Za dohvat GPS fixa, potrebna je najviše 1 minuta. Osim toga, GPS može neuspješno isporučiti vrijeme zbog slabog signala u okolini.\n\nJeste li sigurni da želite koristiti GPS vrijeme?</string>
+  <string name="gps_time_sync_attention_gps_off">Za korištenje GPS vremena potrebno je ranije omogućiti GPS. Da bi se dohvatio GPS fix, potrebna je najviše 1 minuta. Osim toga, GPS može neuspješno isporučiti vrijeme zbog slabog signala u okolini. \n\nJeste li sigurni da želite sada omogućiti GPS i čekati da GPS isporuči vrijeme?</string>
+  <!--MTK DateTime end-->
+ 
+  <!--MTK DRM settings start -->
+   <string name="drm_settings_title">DRM resetiranje</string>
+  <string name="drm_settings_summary">Briše sve DRM licence</string>
+  <string name="drm_reset_dialog_msg">Ovom radnjom će se izbrisati sve licence na ovim uređajima. Nastaviti?</string>
+  <string name="drm_reset_toast_msg">Licence su uspješno izbrisane.</string>
+  <!--MTK DRM settings end -->
+ 
+  <!-- MTK APPS settings start -->
+   <string name="launch_main_label">Pokrenite aplikaciju</string>
+  <string name="launch_main">Pokrenite aplikaciju pomoću glavne aktivnosti</string>
+  <string name="launch_activitie">Pokreni</string>
+  <string name="move_app_to_where">Premjesti u <xliff:g id="location">%s</xliff:g>
+</string>
+  <!-- MTK APPS settings end -->
+ 
+  <!-- MTK Battery MISC start -->
+   <string name="bg_power_saving_title">Pametna ušteda energije na čekanju</string>
+  <!-- MTK Battery MISC end -->
+ 
+  <!-- MTK  Datausage  start -->
+   <string name="mtk_datausage_overview_tab">Pregled</string>
+  <string name="mtk_datausage_overview_wifi_today">"Danas"</string>
+  <string name="mtk_datausage_overview_wifi_total">Ukupno</string>
+  <string name="mtk_datausage_overview_mobile_title">"Mobilni"</string>
+  <string name="mtk_datausage_overview_mobile_usage">
+<xliff:g id="actual">%s</xliff:g> od <xliff:g id="limit">%s</xliff:g>
+</string>
+  <string name="mtk_datausage_overview_mobile_usage_warning">Preko ograničenja <xliff:g>%s</xliff:g>
+</string>
+  <string name="data_saving_title">Spremanje podataka</string>
+  <!-- MTK  Dtausage  end -->
+ 
+  <!-- MTK About phone start -->
+   <string name="status_imei_slot1">IMEI (utor 1)</string>
+  <string name="status_imei_slot2">IMEI (utor 2)</string>
+  <string name="custom_build_version">Korisnička međuverzija</string>
+  <string name="mota_system_update_summary">"Potraži ažuriranje sustava na poslužitelju"</string>
+  <string name="software_updates_more_title">Ažuriranja softvera</string>
+  <string name="software_updates_more_summary">Potraži nove verzije softvera</string>
+  <!-- MTK About phone end -->
+ 
+  <!-- MTK sim cards start -->
+   <string name="sim_cards_celluar_data_dialog_title">Odaberite SIM za upotrebu s mobilnim podacima</string>
+  <string name="sim_cards_data_sms_dialog_title">Odaberite SIM za upotrebu za SMS poruke</string>
+  <string name="sim_cards_calls_dialog_title">Odaberite račun koji ćete koristiti za telefonske pozive</string>
+  <string name="sim_cards_other_calls_dialog_title">Odaberite drugi račun</string>
+  <string name="sim_cards_other_calls_item_title">Drugi račun</string>
+  <string name="data_connection_progress_message">Zamjena SIM kartice trajat će oko 10 sekundi. Pričekajte...</string>
+  <string name="gemini_sim_mode_progress_activating_message">Aktivira se\u2026</string>
+  <string name="gemini_sim_mode_progress_deactivating_message">Deaktivira se\u2026</string>
+  <string name="simui_intenet_call">Internetski poziv</string>
+  <!-- MTK sim cards end -->
+ 
+  <!-- MTK SIM Status start -->
+   <string name="imei_information_title">"Informacije IMEI-ja"</string>
+  <string name="imei_information_summary">"Relativne informacije IMEI-ja"</string>
+  <string name="slot_number">"(Utor <xliff:g id="SLOT_NUM">%1$d</xliff:g>)"</string>
+  <string name="sim_info_editor_color">"Boja pozadine"</string>
+  <string name="sim_cards_notify_title">"SIM kartice su se promijenile"</string>
+  <string name="sim_cards_notify_summary">Dodirnite za podešavanje željenih postavki.</string>
+  <string name="no_sim_cards_notify_title">Nije utaknuta SIM kartica</string>
+  <string name="cellular_data_notify_title">"Mobilni podaci nisu dostupni"</string>
+  <string name="cellular_data_notify_summary">Dodirnite za postavljanje podatkovne SIM kartice.</string>
+  <!-- MTK SIM Status end -->
+ 
+  <!-- IMS/SMS Settings start -->
+   <string name="ims_toggle_summary">Pruža usluge IP multimedijskog podsustava</string>
+  <string name="sms_vibrate_summary">vibriraj uređaj za sms</string>
+  <!-- IMS/SMS Settings end -->
+    <string name="default_data_switch_err_msg1">Ne može se prebaciti na željeni SIM za mobilne podatke dok je u tijeku poziv.</string>
+  <string name="two_cdma_dialog_msg">Utor 1 i utor 2 ne mogu istodobno podržavati CDMA.</string>
+  <string name="hetcom_setting_title">Brzo preuzimanje</string>
+<string name="voice_call_sim2_title">Melodija zvona za glasovni poziv za SIM 2</string>
+<string name="ringtone_sim2_title">Melodija zvona tel. za SIM 2</string>
+<string name="wfc_quick_toggle_title">Wi-Fi poziv</string>
+<string name="Help">Pomoć</string>
+<string name="Tutorials">Teme pomoći</string>
+<string name="Top_questions">Glavna pitanja</string>
+<string name="Wifi_wfc_dialog_title">Wi-Fi poziv</string>
+<string name="Wifi_wfc_dialog_top_wording">Sada ste povezani s WLAN mrežom</string>
+<string name="Wifi_wfc_dialog_bottom_wording">Ovaj znak na vrhu zaslona znači da ste povezani s Wi-Fi mrežom. Možete upućivati pozive i slati poruke putem Wi-Fi mreže.</string>
+<string name="Skip">Presk.</string>
+<string name="Learn_more">Saznajte više</string>
+<string name="Next">Dalje</string>
+<string name="Switch_not_in_use_string">Prekidač je privremeno nedostupan. Pokušajte ponovo kasnije.</string>
+<string name="Done">Gotovo</string>
+<string name="Wfc_questions">Pomoć za pozivanje putem Wi-Fi</string>
+<string name="Wfc_off_summary">Onemogućeno</string>
+<string name="wfc_on_summary">Poziv putem Wi-Fi mreže je uključen</string>
+<string name="connection_preference">Preference za uspostavu veze</string>
+<string name="WiFi_preferred">Wi-Fi preferirani</string>
+<string name="Cellular_network_preferred">Preferirana mobilna mreža</string>
+<string name="Never_use_cellular_network">Nikad ne koristi mobilnu mrežu</string>
+<string name="WiFi_preferred_summary">Koristi Wi-Fi za pozive. Ako je Wi-Fi mreža nedostupna, koristi mobilnu mrežu (zadana postavka).</string>
+<string name="Cellular_network_preferred_summary">Koristi mobilnu mrežu za pozive. Koristi Wi-Fi ako je mobilna mreža nedostupna.</string>
+<string name="Never_use_cellular_network_summary">Za pozive koristi jedino Wi-Fi. Ne koristi mobilnu mrežu, čak i ako je dostupna.</string>
+<string name="no_sim_present_error">Nema prisutne SIM kartice</string>
+<string name="inavlid_sim_error">Pogreška 05: SIM kartica nije valjana</string>
+<string name="airplane_mode_on">Uključen je zrako. način</string>
+<string name="cellular_prefered_summary">Mobilna mreža je vaš preferirani način povezivanja</string>
+<string name="wifi_off_summary">Wi-Fi je isključen</string>
+<string name="not_connected_to_wifi_summary">Nije povezano s Wi-Fi</string>
+<string name="poor_wifi_signal_summary">Slab Wi-Fi signal</string>
+<string name="wfc_enabling_summary">Omogućivanje...</string>
+<string name="wfc_disabling_summary">Onemogućivanje...</string>
+<string name="wfc_ready_for_calls_summary">Spremno za pozive</string>
+<string name="wfc_unknown_error_summary">Nepoznata greška</string>
+<string name="wfc_tutorial_heading">Saznaj sve o Wi-Fi pozivu</string>
+<string name="wfc_tutorial_content_second_page_part1">Kad na statusnoj traci vidite ikonu za Wi-Fi poziv, vaš je telefon spreman za Wi-Fi poziv.</string>
+<string name="wfc_tutorial_content_second_page_part2">Da biste ostali na Wi-Fi pozivu, ostanite u dometu Wi-Fi mreže. Kad se poziv prekine, začut ćete glasan zvučni signal i dobiti poruku na zaslonu jer ste se pomaknuli izvan dometa.</string>
+<string name="wfc_incorrect_sim_alert_title">Pogreška 05: SIM kartica nije valjana</string>
+<string name="wfc_invalid_sim_alert_message">Važna obavijest\nSIM karticu potrebno je ažurirati kako bi bila kompatibilna s uslugom pozivanja uz pomoć Wi-Fi. Posjetite prodajno mjesto operatera T-Mobile ili birajte 611 na svom telefonu kako biste dobili službu za korisnike.</string>
+<string name="ok_string">U redu</string>
+<string name="wifi_ap_help_title">Pomoć</string>
+<string name="help_document">1. Vaš se uređaj može rabiti kao zamjenska internetska pristupna točka putem značajke Wi-Fi točke. Vanjski se uređaji mogu povezati s vašim uređajem i pristupati internetu putem vaše mobilne podatkovne veze.\n2. Prije uporabe značajke prijenosne Wi-Fi točke omogućite mobilne podatke. Mogu se primijeniti troškovi prometa podataka.\n3. Uporabom značajke prijenosne Wi-Fi točke trošit će se više energije.</string>
+<string name="bg_power_percent_title">Pokaži postotak napunjenosti baterije</string>
+<string name="bg_power_percent_summary">Prikaži preostali postotak napunjenosti baterije na statusnoj traci</string>
+<string name="wfc_tutorial_content_first_page">Wi-Fi pozivanje omogućuje vam da se riješite problema s nepostojanom pokrivenošću signalom. S Wi-Fi pozivanjem možete slati i primati pozive i poruke putem Wi-Fi mreže preko vaše postojeće T-Mobile pretplate. ZA Wi-Fi pozivanje nije potrebno posebno postavljanje uređaja. U izborniku postavki prijeđite na opciju Bežično i mreže te se za početak povežite s Wi-Fi mrežom.</string>
+<string name="storage_internal_storage_title">Unutarnja memorija</string>
+<string name="storage_cleaner_preference_title">Čistač memorije</string>
+    <string name="mira_vision_title" translatable="false">Efekti prikaza</string>
+</resources>

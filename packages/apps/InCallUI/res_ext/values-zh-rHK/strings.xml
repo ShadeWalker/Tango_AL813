@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dm_lock">DM 鎖定</string>
+    <string name="dm_unlock">DM 解鎖</string>
+    <string name="start_record">開始錄音</string>
+    <string name="stop_record">停止錄音</string>
+    <string name="str_db_playlist_name">我的錄音</string>
+    <string name="alert_device_error">音訊裝置上出現的錯誤</string>
+    <string name="ext_media_badremoval_notification_title">"SD 卡突然遭移除"</string>
+    <string name="error_sdcard_access">無法訪問 SD卡</string>
+    <string name="confirm_device_info_full">SD卡空間不足，已保存錄音。</string>
+    <string name="confirm_save_info_saved">已保存錄音</string>
+    <string name="confirm_save_info_saved_to">錄音已儲存至：</string>
+    <string name="recording_saved_sd_full">SD卡空間不足，已保存錄音。</string>
+    <string name="sd_not_enough">SD 卡空間\n不足</string>
+    <string name="alert_dialog_dismiss">剔除</string>
+    <string name="change_my_pic">變化</string>
+    <string name="onscreenHangupAll">掛斷所有</string>
+    <string name="onscreenHangupHolding">掛斷持有</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">掛斷當前電話，接聽來電</string>
+    <string name="menu_ect">轉換</string>
+    <string name="respond_via_sms_confirmation_format">"訊息已傳送至 <xliff:g id="PHONE_NUMBER">%s</xliff:g>。"</string>
+    <string name="volte_add_conference_member_title">添加到會議</string>
+    <string name="add_member_msg">輸入號碼或名字</string>
+    <string name="card_title_incoming_conference">會議邀請</string>
+    <string name="addConferenceMemeberText">新增成員</string>
+    <string name="add_conference_member_limit">每次只能新增一個號碼。</string>
+    <string name="conference_member_join">
+<xliff:g id="member_name">%s</xliff:g> 加入了會議。</string>
+    <string name="conference_member_leave">
+<xliff:g id="member_name">%s</xliff:g> 離開了會議。</string>
+    <string name="conference_member_adding">正在添加<xliff:g id="member_name">%s</xliff:g> …</string>
+    <string name="conference_member_add_fail">未能添加 <xliff:g id="member_name">%s</xliff:g> 。</string>
+    <string name="removeMember">"移除"</string>
+    <string name="memberStatus">"狀態"</string>
+    <string name="volte_call_waiting_indication_text">對方正在通話中，請稍等…</string>
+    <string name="volte_conf_member_reach_max">會議已達到人數上限。</string>
+    <string name="add_multi_conference_member_limit">暫時只可增添 <xliff:g id="max_number">%s</xliff:g>名成員。</string>
+    <string name="multi_conference_member_adding">正在增添成員...</string>
+    <!-- CTA request, for notification -->
+    <string name="two_incoming_calls">2通來電</string>
+<string name="wifi_title">Wi-Fi 通話和分鐘 </string>
+<string name="call_drop">您的通話可能已中斷連線</string>
+<string name="call_drop_message">您快將離開 Wi-Fi 的覆蓋範圍</string>
+<string name="view_networks">檢視網絡</string>
+<string name="wfc_wifi_call_drop_summary">糟糕！您必定是在通話期間移至 Wi-Fi 網絡覆蓋範圍以外的地方。\n\n重新連線至 Wi-Fi 網絡以完成通話？</string>
+</resources>

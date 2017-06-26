@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">Müravähendus</string>
+    <string name="dual_mic_summary">Summuta kõne ajaks taustamüra</string>
+    <string name="anc_title">Active Noise Reduction</string>
+    <string name="anc_on">ANC sees</string>
+    <string name="anc_off">ANC väljas</string>
+    <string name="ip_prefix_setting">IP prefiksi number</string>
+    <string name="ip_prefix_setting_lable">IP prefiksi number (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">IP prefiksi numbri seaded</string>
+    <string name="enter_ip_prefix_number">Sisesta prefiksi number</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Sisesta kõigepealt IP prefiksi number häälkõne seadetes.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">IP-valimise funktsioon ei ole Interneti-helistamisel rakendatav.</string>
+    <string name="ip_prefix_edit_default_sum">Sisesta prefiksi number IP-valimiseks</string>
+    <string name="lable_call_barring">"Kõnepiirang"</string>
+    <string name="title_call_barring">Kõnepiirang (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">Kõik väljuvad kõned</string>
+    <string name="lable_all_outgoing_international">Rahvusvahelised väljuvad kõned</string>
+    <string name="lable_all_out_except">Rahvusvahelised väljuvad kõned, v.a kõned kodupiirkonna PLMN-i</string>
+    <string name="lable_all_incoming">Kõik sisenevad kõned</string>
+    <string name="lable_incoming_calls_except">Sisenevad kõned rände korral</string>
+    <string name="deactivate_all">Tühista kõik</string>
+    <string name="change_password">Muuda piirangu parooli</string>
+    <string name="call_barring_sum">Häälkõne piirangu seaded</string>
+    <string name="lable_disable">Keelatud</string>
+    <string name="lable_enable">"Lubatud"</string>
+    <string name="old_password_label">Vana parool (4 numbrit)</string>
+    <string name="new_password_label">Uus parool (4 numbrit)</string>
+    <string name="invalid_password">Sisesta parool, mis sisaldab 4 numbrit.</string>
+    <string name="confirm_password_label">Kinnita uus parool</string>
+    <string name="mismatch_password">Sisestatud parool ei sobi. Proovi uuesti.</string>
+    <string name="password_changed">Parool edukalt muudetud</string>
+    <string name="enter_callbarring_password">Sisesta kõnepiirangu parool (4 numbrit).</string>
+    <string name="wrong_password">Parooli viga</string>
+    <string name="error_title">"Viga"</string>
+    <string name="cell_broadcast">Kärjeteade</string>
+    <string name="cell_broadcast_settings">Kärjeteate seaded</string>
+    <string name="cb_menu_language">"Keel"</string>
+    <string name="cb_menu_add_channel">Lisa kanal</string>
+    <string name="cb_menu_channel_list">Kanalite loend</string>
+    <string name="cb_dialog_title_language_choice">Vali keel</string>
+    <string name="cb_channel_dialog_channel_name">Kanali nimi (0–10 märki)</string>
+    <string name="cb_channel_dialog_channel_number">Kanali number (0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">Luba kanal</string>
+    <string name="cb_channel_dialog_edit_channel">Redigeeri kanalit</string>
+    <string name="cb_menu_edit">"Muuda"</string>
+    <string name="cb_menu_delete">"Kustuta"</string>
+    <string name="cb_error_channel_num">Sisesta kanali number (0-65534).</string>
+    <string name="cb_error_channel_name">Kanali nimi on liiga pikk (1-10 märki).</string>
+    <string name="cb_error_language_select">Vali vähemalt üks keel.</string>
+    <string name="cb_error_channel_id_exist">Kanali ID on olemas.</string>
+    <string name="cb_all_languages">Kõik keeled</string>
+    <string name="cb_default_new_channel_name">Uus kanal</string>
+    <string name="fdn_errorcode_unknown_info">Ebaõnnestus, ilmnes tundmatu tõrge, proovi hiljem uuesti.</string>
+    <string name="fdn_errorcode_number_info">Ebaõnnestus, kontakti number on liiga pikk.</string>
+    <string name="fdn_errorcode_name_info">Ebaõnnestus, kontakti nimi on liiga pikk.</string>
+    <string name="fdn_errorcode_storage_info">Ebaõnnestus, mälu on täis.</string>
+    <string name="fdn_errorcode_phb_info">Ebaõnnestus, telefoniraamat ei ole praegu valmis, proovi hiljem uuesti.</string>
+    <string name="fdn_errorcode_pin2_info">Ebaõnnestus, vale PIN2 kood.</string>
+    <string name="net_or_simcard_busy">Võrk või SIM kaart on hõivatud, proovi hiljem uuesti.</string>
+    <string name="plmn_list_setting_title">Eelistatud võrgud</string>
+    <string name="network_id">Võrgu ID</string>
+    <string name="plmn_list_setting_add_plmn">Uus PLMN</string>
+    <string name="femtocell_point_list_title">Femtokärjed</string>
+    <string name="in_search_femtocell_networks_wait_tip">Otsing...</string>
+    <string name="sum_search_femtocell_networks">Vali femtokärg käsitsi</string>
+    <string name="register_femtocell_point_wait_tip"><xliff:g id="femto_cell_info">%s</xliff:g> registreerimine...</string>
+    <string name="register_femtocell_point_result_fail_tip">Selle võrguga ei saa praegu ühendust luua. Proovige hiljem uuesti.</string>
+    <string name="network_type">Võrgu tüüp</string>
+    <string name="gsm_umts_network_preferences_title">"Võrgurežiim"</string>
+    <string name="gsm_umts_network_preferneces_summary">Ei ole veel rakendatud!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"Võrgurežiim"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G (automaatne)</item>
+        <item>Ainult 3G</item>
+        <item>Ainult 2G</item>
+    </string-array>
+    <string name="notification_voicemail_text">Valige, et kuvada kõnepost</string>
+    <string name="notification_network_selection_without_operator">Valitud võrk ei ole kättesaadav</string>
+    <string name="network_setting_all_forbidden_dialog">Ühtki võrku pole saadaval.</string>
+    <string name="network_forbidden">keelatud</string>
+    <string name="fdn_contact_number_invalid">Vigane kontakti number.</string>
+    <string name="fdn_puk_need_tips">PIN2 blokeeritud. Muuda PIN2 koodi ja proovi uuesti!</string>
+    <string name="fdn_phone_book_busy">Telefoniraamat on praegu hõivatud, proovi hiljem uuesti.</string>
+    <string name="one_retry_left">1 katse jäänud</string>
+    <string name="retries_left"><xliff:g id="number">%d</xliff:g> katset jäänud</string>
+    <string name="pin_length_indicate">(4-8 numbrit)</string>
+    <string name="puk_length_indicate">(8 numbrit)</string>
+    <string name="unblock_pin2">Eemalda PIN2 koodi blokeering</string>
+    <string name="sim_permanently_locked">PUK2 kood sisestati valesti rohkem kui 10 korda, SIM-kaart on püsivalt lukustatud</string>
+    <string name="magi_conference_title">MaagilineKonverents</string>
+    <string name="magi_conference_summary">Paranda häälkõne kvaliteeti, kui mitu inimest kasutavad telefoni teise poolega rääkimiseks.</string>
+    <string name="volte_is_adding_participants">Liikme(te) lisamine konverentsile, palun oodake…</string>
+    <string name="volte_fail_to_invit_participants">Liikme(te) lisamine konverentsile ebaõnnestus.</string>
+    <string name="voicemail_lable">Kõnepost (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">Toimingu lõpetamiseks peate te avama <xliff:g id="sub_name">%s</xliff:g> andmeühenduse.</string>
+    <string name="cdma_labelCFU">"Suuna alati"</string>
+    <string name="cdma_labelCFB">"Suuna, kui on hõivatud"</string>
+    <string name="cdma_labelCFNRy">"Suuna, kui ei vasta"</string>
+    <string name="cdma_labelCFNRc">"Suuna, kui pole kättesaadav"</string>
+    <string name="cdma_labelCFC">Tühista kõik suunamised</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">Deaktiveeri numbrinäidu keeld</string> 
+    <string name="cdma_cnir_turnon">Aktiveeri numbrinäidu keeld</string>
+    <string name="lte_data_only_prompt">Ei saa seda funktsiooni kasutada režiimi 4G data only (Ainult 4G andmeside) tõttu. Kas soovite väljuda režiimist 4G data only (Ainult 4G andmeside)?</string>
+    <string name="lte_data_only_timeout">Teie praeguses asukohas pole saadaval ühtegi 4G data only (Ainult 4G andmeside) võrku. Kas soovite väljuda ja otsida teisi võrke?</string>
+    <string name="lte_only_dialog_button_yes">"JAH"</string>
+    <string name="lte_only_dialog_button_no">"EI"</string>
+    <string name="lte_only_dialog_title_prompt">Viip</string>
+    <string name="enable_4G_data">Luba 4G andmeside</string>
+    <string name="enable_4G_data_summary">4G võib pakkuda paremat ja kiiremat Interneti-juurdepääsu</string>
+    <string name="only_use_LTE_data">Kasuta ainult LTE andmesidet</string>
+    <string name="only_use_LTE_data_summary">Funktsiooni Only use single data (Kasuta ainult andmesidet) lubamisel ei saa telefoniga helistada ega tekstisõnumeid edastada.</string>
+ <!-- HQ_fengsimin add for HQ00055994 start -->
+     <string name="network_current">Registreeri</string>
+      <string name="network_unkown">Tundmatu</string>
+       <string name="network_available">Saadaval</string>
+ <!-- HQ_fengsimin add for HQ00055994 end -->
+</resources>

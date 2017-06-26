@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="3477737022166975496" name="telecommAppLabel" product="default">"Телефон"</string>
+    <string msgid="6878797917991465859" name="unknown">"Белгісіз"</string>
+    <string msgid="7554385905572364535" name="notification_missedCallTitle">"Қабылданбаған қоңырау"</string>
+    <string msgid="1361677948941502522" name="notification_missedCallsTitle">"Қабылданбаған қоңыраулар"</string>
+    <string msgid="4575787816055205600" name="notification_missedCallsMsg">"<xliff:g id="NUM_MISSED_CALLS">%s</xliff:g> қабылданбаған қоңыраулар"</string>
+    <string msgid="504686252427747209" name="notification_missedCallTicker">"<xliff:g id="MISSED_CALL_FROM">%s</xliff:g> қоңырауы қабылданбаған"</string>
+    <string msgid="2684890353590890187" name="notification_missedCall_call_back">"Кері қоңырау шалу"</string>
+    <string msgid="3049928912736917988" name="notification_missedCall_message">"Хабар"</string>
+    <string msgid="2776111226185342220" name="accessibility_call_muted">"Қоңырау үнсіздендірілген."</string>
+    <string msgid="1988512040421036359" name="accessibility_speakerphone_enabled">"Үндеткішті телефон қосылды."</string>
+    <string msgid="2461606462788380215" name="respond_via_sms_canned_response_1">"Қазір сөйлесе алмаймын. Не болды?"</string>
+    <string msgid="4074450431532859214" name="respond_via_sms_canned_response_2">"Сізге кері қоңырау шаламын."</string>
+    <string msgid="3496079065723960450" name="respond_via_sms_canned_response_3">"Сізге кейінірек қоңырау шаламын."</string>
+    <string msgid="1698989243040062190" name="respond_via_sms_canned_response_4">"Қазір сөйлесе алмаймын. Кейінірек?"</string>
+    <string msgid="3754000371039709383" name="respond_via_sms_setting_title">"Жылдам жауаптар"</string>
+    <string msgid="6104662227299493906" name="respond_via_sms_setting_title_2">"Жылдам жауаптарды жөндеу"</string>
+    <string msgid="9150281183930613065" name="respond_via_sms_setting_summary"/>
+    <string msgid="20379890418289778" name="respond_via_sms_edittext_dialog_title">"Жылдам жауап"</string>
+    <string msgid="7229149977515784269" name="respond_via_sms_confirmation_format">"Хабар <xliff:g id="PHONE_NUMBER">%s</xliff:g> нөміріне жіберілді."</string>
+    <string msgid="1435394568102165287" name="outgoing_call_not_allowed">"Құрылғы иесі тек жедел қоңырауларға рұқсат еткен"</string>
+    <string msgid="1940125199802007505" name="outgoing_call_error_no_phone_number_supplied">"Қоңырау шалу үшін жарамды нөмірді енгізіңіз."</string>
+    <string msgid="3749211605014548386" name="duplicate_video_call_not_allowed">"Қоңырауды қазіргі уақытта қосу мүмкін емес."</string>
+    <string msgid="4164780423805688336" name="no_vm_number">"Дауыс хабарының нөмірі жоқ"</string>
+    <string msgid="1300729501030053828" name="no_vm_number_msg">"SIM картасында ешқандай дауыс хабарының нөмірі сақталмаған."</string>
+    <string msgid="4676479471644687453" name="add_vm_number_str">"Нөмір қосу"</string>
+    <string name="outgoing_call_error_limit_exceeded">Қоңырау жіберілмеді, шегінен асты.</string>
+    <string name="handle_restricted">"шектеулі"</string>
+    <string name="incall_error_supp_service_unknown">Қызметке қолдау көрсетілмейді.</string>
+    <string name="incall_error_supp_service_switch">Қоңырауларды қосу мүмкін емес.</string>
+    <string name="incall_error_supp_service_separate">Қоңырауларды бөлу мүмкін емес.</string>
+    <string name="incall_error_supp_service_transfer">Қоңырауды ауыстыру мүмкін емес.</string>
+    <string name="incall_error_supp_service_conference">Конференциялық қоңырауларды шалу мүмкін емес.</string>
+    <string name="incall_error_supp_service_reject">Қоңыраудан бас тарту мүмкін емес.</string>
+    <string name="incall_error_supp_service_hangup">Қоңырау(лар)ды ажырату мүмкін емес.</string>
+    <string name="mo_code_unconditional_cf_active">Қоңыраудың бағытын өзгерту\nшартсыз белсендірілген</string>
+    <string name="mo_code_some_cf_active">Қоңыраудың бағытын өзгерту\nшартты </string>
+    <string name="mo_code_call_forwarded">Қоңыраудың бағыты өзгертілді</string>
+    <string name="mo_code_call_is_waiting">Күтудегі қоңырау</string>
+    <string name="mo_code_cug_call">Жабық пайдаланушы тобы</string>
+    <string name="mo_code_outgoing_calls_barred">Шығыс қоңырауына тыйым салынған</string>
+    <string name="mo_code_incoming_calls_barred">Кіріс қоңырауына басқа жағында тыйым салынған</string>
+    <string name="mo_code_clir_suppression_rejected">Қоңырау шалушының идентификаторын жіберу қызметін тексеру</string>
+    <string name="mo_code_call_deflected">Қоңырау тасымалданды</string>
+    <string name="mt_code_forwarded_call">Бұл - бағыты өзгертілген қоңырау</string>
+    <string name="mt_code_cug_call">Жабық пайдаланушы тобы</string>
+    <string name="mt_code_call_on_hold">Қоңырау ұсталды</string>
+    <string name="mt_code_call_retrieved">Терілген нөмір бос емес. Ұстап тұрыңыз.</string>
+    <string name="mt_code_multi_party_call">Конференция қоңырауы</string>
+    <string name="mt_code_on_hold_call_released">Ұсталған қоңырау босатылды</string>
+    <string name="mt_code_forward_check_received">Бағыт өзгертуді тексерудің SS хабары қабылданды</string>
+    <string name="mt_code_call_connecting_ect">Қоңырауды тасымалдау</string>
+    <string name="mt_code_call_connected_ect">Қоңырауды тасымалдау белсенді</string>
+    <string name="mt_code_deflected_call">Бұл - бас тартылған қоңырау</string>
+    <string name="mt_code_additional_call_forwarded">Қосымша кіріс қоңырауының бағыты өзгертілді</string>
+    <string name="mt_code_forwarded_cf">Қоңыраудың бағыты өзгертілді</string>
+    <string name="mt_code_forwarded_cf_uncond">Қоңыраудың бағытын өзгерту күйі шартсыз</string>
+    <string name="mt_code_forwarded_cf_cond">Қоңыраудың бағытын өзгерту күйі шартты</string>
+    <string name="mt_code_forwarded_cf_busy">Бос емес қоңырауының бағыты өзгертілді </string>
+    <string name="mt_code_forwarded_cf_no_reply">Бағыты өзгертілген қоңырауға жауап берілмейді</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Бағыты өзгертілген қоңырау қолжетімсіз</string>
+</resources>

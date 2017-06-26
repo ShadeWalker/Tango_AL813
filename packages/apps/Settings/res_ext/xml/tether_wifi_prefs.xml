@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!--add by wanghui for al812-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <PreferenceCategory
+        android:title="@string/wifi_tether_setting_title"
+        android:persistent="false"/>
+
+    <ListPreference
+        android:key="wifi_auto_disable"
+        android:title="@string/wifi_tether_auto_disable_title"
+        android:persistent="false"
+        android:entries="@array/wifi_hotspot_disable_policy_entries"
+        android:entryValues="@array/wifi_hotspot_disable_policy_values"
+        android:widgetLayout="@layout/arrow_img_layout"/>
+
+    <Preference
+        android:key="wifi_ap_ssid_and_security"
+        android:title="@string/wifi_tether_configure_ap_text"
+        android:persistent="false"
+        android:widgetLayout="@layout/arrow_img_layout" />
+
+    <Preference
+        android:key="wps_connect"
+        android:title="@string/wifi_tether_wps_connect_title"
+        android:summary="@string/wifi_tether_wps_connect_summary"
+        android:persistent="false"
+        android:widgetLayout="@layout/arrow_img_layout" />
+
+    <Preference
+        android:key="bandwidth_usage"
+        android:title="@string/wifi_ap_bandwidth_title"
+        android:fragment="com.mediatek.wifi.hotspot.BandwidthUsage"
+        android:persistent="false"
+        android:widgetLayout="@layout/arrow_img_layout" />
+
+    <PreferenceCategory
+        android:key="connected_category"
+        android:title="@string/wifi_ap_connected_title"
+        android:persistent="false"/>
+
+    <PreferenceCategory
+        android:key="blocked_category"
+        android:title="@string/wifi_ap_blocked_title"
+        android:persistent="false"/>
+    <PreferenceCategory
+        android:key="wlan_hotspot_help"
+        android:title="@string/wifi_ap_help_title"
+        android:persistent="false"/>
+</PreferenceScreen>

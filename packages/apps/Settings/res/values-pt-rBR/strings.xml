@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="yes">"Sim"</string>
+<string name="no">"Não"</string>
+<string name="create">"Criar"</string>
+<string name="allow">"Permitir"</string>
+<string name="deny">"Recusar"</string>
+<string name="device_info_default">"Desconhecido"</string>
+<plurals name="show_dev_countdown">
+<item quantity="one">"Falta <xliff:g id="STEP_COUNT">%1$d</xliff:g> etapa para você se tornar um desenvolvedor."</item>
+<item quantity="other">"Faltam <xliff:g id="STEP_COUNT">%1$d</xliff:g> etapas para você se tornar um desenvolvedor."</item>
+</plurals>
+<string name="show_dev_on">"Você agora é um desenvolvedor!"</string>
+<string name="show_dev_already">"Não é necessário. Você já é um desenvolvedor."</string>
+<string name="header_category_wireless_networks">"Redes sem fio e outras"</string>
+<string name="header_category_connections">"Conexões"</string>
+<string name="header_category_device">"Dispositivo"</string>
+<string name="header_category_personal">"Pessoais"</string>
+<string name="header_category_access">"Acesso"</string>
+<string name="header_category_system">"Sistema"</string>
+<string name="turn_on_radio">"Ativar o rádio"</string>
+<string name="turn_off_radio">"Desativar o rádio"</string>
+<string name="sms_over_ims_on">"Ligar SMS sobre IMS"</string>
+<string name="sms_over_ims_off">"Desligar SMS sobre IMS"</string>
+<string name="ims_reg_required_on">"É obrigatório ligar o registro IMS"</string>
+<string name="ims_reg_required_off">"É obrigatório desligar o registro IMS"</string>
+<string name="lte_ram_dump_on">"Ativar descarga de ram do lte"</string>
+<string name="lte_ram_dump_off">"Desativar descarga de ram do lte"</string>
+<string name="radioInfo_menu_viewADN">"Visualizar o catálogo de endereços do SIM"</string>
+<string name="radioInfo_menu_viewFDN">"Visualizar números de chamada fixa"</string>
+<string name="radioInfo_menu_viewSDN">"Visualizar números de chamada de serviço"</string>
+<string name="radioInfo_menu_getPDP">"Obter a lista PDP"</string>
+<string name="radioInfo_service_in">"Em serviço"</string>
+<string name="radioInfo_service_out">"Fora de serviço"</string>
+<string name="radioInfo_service_emergency">"Só chamadas de emergência"</string>
+<string name="radioInfo_service_off">"Rádio desativado"</string>
+<string name="radioInfo_roaming_in">"Roaming"</string>
+<string name="radioInfo_roaming_not">"Não está em roaming"</string>
+<string name="radioInfo_phone_idle">"Ocioso"</string>
+<string name="radioInfo_phone_ringing">"Tocando"</string>
+<string name="radioInfo_phone_offhook">"Chamada em andamento"</string>
+<string name="radioInfo_data_disconnected">"Desconectado"</string>
+<string name="radioInfo_data_connecting">"Conectando"</string>
+<string name="radioInfo_data_connected">"Conectado"</string>
+<string name="radioInfo_data_suspended">"Suspenso"</string>
+<string name="radioInfo_unknown">"desconhecido"</string>
+<string name="radioInfo_display_packets">"pkts"</string>
+<string name="radioInfo_display_bytes">"bytes"</string>
+<string name="radioInfo_display_dbm">"dBm"</string>
+<string name="radioInfo_display_asu">"asu"</string>
+<string name="radioInfo_lac">"LAC"</string>
+<string name="radioInfo_cid">"CID"</string>
+<string name="sdcard_unmount" product="nosdcard">"Desconectar armaz. USB"</string>
+<string name="sdcard_unmount" product="default">"Desmontar cartão SD"</string>
+<string name="sdcard_format" product="nosdcard">"Apagar armazenamento USB"</string>
+<string name="sdcard_format" product="default">"Apagar cartão SD"</string>
+<string name="small_font">"Pequeno"</string>
+<string name="medium_font">"Médio"</string>
+<string name="large_font">"Grande"</string>
+<string name="font_size_save">"OK"</string>
+<string name="sdcard_setting" product="nosdcard">"Armaz. USB"</string>
+<string name="sdcard_setting" product="default">"Cartão SD"</string>
+<string name="battery_info_status_label">"Status da bateria:"</string>
+<string name="battery_info_power_label">"Tomada de alimentação:"</string>
+<string name="battery_info_scale_label">"Escala da bateria:"</string>
+<string name="battery_info_level_label">"Nível da bateria:"</string>
+<string name="battery_info_health_label">"Integridade da bateria:"</string>
+<string name="battery_info_technology_label">"Tecnologia da bateria:"</string>
+<string name="battery_info_voltage_label">"Voltagem da bateria:"</string>
+<string name="battery_info_voltage_units">"mV"</string>
+<string name="battery_info_temperature_label">"Temperatura da bateria:"</string>
+<string name="battery_info_temperature_units">"°C"</string>
+<string name="battery_info_uptime">"Tempo desde a inicialização:"</string>
+<string name="battery_info_awake_battery">"Tempo ativo da bateria:"</string>
+<string name="battery_info_awake_plugged">"Tempo ativo ao carregar:"</string>
+<string name="battery_info_screen_on">"Tempo ativo da tela:"</string>
+<string name="battery_info_status_unknown">"Desconhecido"</string>
+<string name="battery_info_status_charging">"Carregando"</string>
+<string name="battery_info_status_charging_ac">"Carregamento CA"</string>
+<string name="battery_info_status_charging_usb">"Carregamento via USB"</string>
+<string name="battery_info_status_charging_wireless">"Carregamento sem fio"</string>
+<string name="battery_info_status_discharging">"Não está carregando"</string>
+<string name="battery_info_status_not_charging">"Não está carregando"</string>
+<string name="battery_info_status_full">"Cheio"</string>
+<string name="battery_info_power_unplugged">"Desconectado"</string>
+<string name="battery_info_power_ac">"CA"</string>
+<string name="battery_info_power_usb">"USB"</string>
+<string name="battery_info_power_wireless">"sem fio"</string>
+<string name="battery_info_power_ac_usb">"CA+USB"</string>
+<string name="battery_info_power_unknown">"Desconhecido"</string>
+<string name="battery_info_health_unknown">"Desconhecido"</string>
+<string name="battery_info_health_good">"Bom"</string>
+<string name="battery_info_health_overheat">"Superaquecimento"</string>
+<string name="battery_info_health_dead">"Descarregada"</string>
+<string name="battery_info_health_over_voltage">"Sobretensão"</string>
+<string name="battery_info_health_unspecified_failure">"Erro desconhecido"</string>
+<string name="battery_info_health_cold">"Menos vistos"</string>
+<string name="bluetooth">"Bluetooth"</string>
+<string name="bluetooth_is_discoverable">"Visível para todos os disp. Bluetooth próx. (<xliff:g id="DISCOVERABLE_TIME_PERIOD">%1$s</xliff:g>)"</string>
+<string name="bluetooth_is_discoverable_always">"Visível para todos os dispos. Bluetooth próximos"</string>
+<string name="bluetooth_not_visible_to_other_devices">"Não visível para outros dispositivos Bluetooth"</string>
+<string name="bluetooth_only_visible_to_paired_devices">"Visível somente para dispositivos pareados"</string>
+<string name="bluetooth_visibility_timeout">"Tempo limite de visibilidade"</string>
+<string name="bluetooth_lock_voice_dialing">"Bloquear discagem por voz"</string>
+<string name="bluetooth_lock_voice_dialing_summary">"Impedir o uso do discador Bluetooth quando a tela estiver bloqueada."</string>
+<string name="bluetooth_devices">"Dispositivos Bluetooth"</string>
+<string name="bluetooth_device_name">"Nome do dispositivo"</string>
+<string name="bluetooth_device_details">"Configurações do dispositivo"</string>
+<string name="bluetooth_profile_details">"Configurações do perfil"</string>
+<string name="bluetooth_name_not_set">"Não há nenhum nome definido. Usando o nome da conta."</string>
+<string name="bluetooth_scan_for_devices">"Procurar dispositivos"</string>
+<string name="bluetooth_rename_device">"Renomear o dispositivo"</string>
+<string name="bluetooth_rename_button">"Renomear"</string>
+<string name="bluetooth_disconnect_title">"Desconectar?"</string>
+<string name="bluetooth_disconnect_all_profiles">"Isso encerrará sua conexão com:&lt;br&gt;<b>
+<xliff:g id="DEVICE_NAME">%1$s</xliff:g>
+</b>"</string>
+<string name="bluetooth_empty_list_user_restricted">"Você não tem permissão para alterar as configurações de Bluetooth."</string>
+<string name="bluetooth_is_visible_message">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> está visível para dispositivos próximos enquanto as configurações de Bluetooth estão abertas abertas."</string>
+<string name="bluetooth_is_disconnect_question">"Desconectar <xliff:g id="DEVICE_NAME">%1$s</xliff:g>?"</string>
+<string name="bluetooth_broadcasting">"Transmissão"</string>
+<string name="bluetooth_disable_profile_title">"Desativar perfil?"</string>
+<string name="bluetooth_disable_profile_message">"Essa ação desativará o <xliff:g id="PROFILE_NAME">%1$s</xliff:g> do <xliff:g id="DEVICE_NAME">%2$s</xliff:g>"</string>
+<string name="bluetooth_connected">"Conectado"</string>
+<string name="bluetooth_connected_no_headset">"Conectado (sem telefone)"</string>
+<string name="bluetooth_connected_no_a2dp">"Conectado (sem mídia)"</string>
+<string name="bluetooth_connected_no_map">"Conectado (sem acesso a mensagens)"</string>
+<string name="bluetooth_connected_no_headset_no_a2dp">"Conectado (sem telefone ou mídia)"</string>
+<string name="bluetooth_disconnected">"Desconectado"</string>
+<string name="bluetooth_disconnecting">"Desconectando…"</string>
+<string name="bluetooth_connecting">"Conectando..."</string>
+<string name="bluetooth_pairing">"Pareando…"</string>
+<string name="bluetooth_device">"Dispositivo Bluetooth sem nome"</string>
+<string name="progress_scanning">"Pesquisar"</string>
+<string name="bluetooth_no_devices_found">"Nenhum dispositivo Bluetooth encontrado."</string>
+<string name="bluetooth_notif_ticker">"Solicitação de pareamento Bluetooth"</string>
+<string name="bluetooth_notif_title">"Solicitação de pareamento"</string>
+<string name="bluetooth_notif_message">"Toque para parear com <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
+<string name="bluetooth_show_received_files">"Mostrar arquivos recebidos"</string>
+<string name="device_picker">"Escolher dispositivo Bluetooth"</string>
+<string name="bluetooth_permission_request">"Solicitação de permissão para Bluetooth"</string>
+<string name="bluetooth_ask_enablement">"Um app quer ativar o Bluetooth."</string>
+<string name="bluetooth_ask_discovery" product="tablet">"Um app quer tornar seu tablet visível para outros dispositivos Bluetooth por <xliff:g id="TIMEOUT">%1$d</xliff:g> segundos."</string>
+<string name="bluetooth_ask_discovery" product="default">"Um app quer tornar seu telefone visível para outros dispositivos Bluetooth por <xliff:g id="TIMEOUT">%1$d</xliff:g> segundos."</string>
+<string name="bluetooth_ask_lasting_discovery" product="tablet">"Um app quer tornar seu tablet visível para outros dispositivos Bluetooth. Você pode alterar esta opção a qualquer momento nas configurações do Bluetooth."</string>
+<string name="bluetooth_ask_lasting_discovery" product="default">"Um app quer tornar seu telefone visível para outros dispositivos Bluetooth. Você pode alterar esta opção a qualquer momento nas configurações do Bluetooth."</string>
+<string name="bluetooth_ask_start_broadcast" product="default">"<xliff:g id="APP_NAME">%1$s</xliff:g> deseja ativar a transmissão via Bluetooth para se comunicar com outros dispositivos próximos. Será possível alterar esta opção posteriormente nas configurações do Bluetooth."</string>
+<string name="bluetooth_ask_enablement_and_start_broadcast" product="default">"<xliff:g id="APP_NAME">%1$s</xliff:g> deseja ativar o Bluetooth e a transmissão via Bluetooth para se comunicar com outros dispositivos próximos. Será possível alterar esta opção posteriormente nas configurações do Bluetooth."</string>
+<string name="bluetooth_broadcasting_explaination" product="default">"Quando este recurso é ativado, o telefone pode se comunicar com outros dispositivos próximos.\n\nA transmissão usa sinais de Bluetooth de baixo consumo."</string>
+<string name="bluetooth_ask_enablement_and_discovery" product="tablet">"Um app quer ativar o Bluetooth e tornar seu tablet visível para outros dispositivos por <xliff:g id="TIMEOUT">%1$d</xliff:g> segundos."</string>
+<string name="bluetooth_ask_enablement_and_discovery" product="default">"Um app quer ativar o Bluetooth e tornar seu telefone visível para outros dispositivos por <xliff:g id="TIMEOUT">%1$d</xliff:g> segundos."</string>
+<string name="bluetooth_ask_enablement_and_lasting_discovery" product="tablet">"Um app quer ativar o Bluetooth e tornar seu tablet visível para outros dispositivos. Você pode alterar esta opção a qualquer momento nas configurações do Bluetooth."</string>
+<string name="bluetooth_ask_enablement_and_lasting_discovery" product="default">"Um app quer ativar o Bluetooth e tornar seu telefone visível para outros dispositivos. Você pode alterar esta opção a qualquer momento nas configurações do Bluetooth."</string>
+<string name="bluetooth_turning_on">"Ativando Bluetooth..."</string>
+<string name="bluetooth_turning_off">"Desligar o Bluetooth…"</string>
+<string name="bluetooth_auto_connect">"Conexão automática"</string>
+<string name="bluetooth_connection_permission_request">"Solicitação de conexão Bluetooth"</string>
+<string name="bluetooth_connection_notif_message">"Toque para conectar-se a \"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>\"."</string>
+<string name="bluetooth_connection_dialog_text">"Deseja conectar-se ao \"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>\"?"</string>
+<string name="bluetooth_phonebook_request">"Solicitação de acesso à agenda telefônica"</string>
+<string name="bluetooth_pb_acceptance_dialog_text">"%1$s deseja acessar seus contatos e o histórico de chamadas. Conceder acesso a %2$s?"</string>
+<string name="bluetooth_remember_choice">"Não perguntar novamente"</string>
+<string name="bluetooth_pb_remember_choice">"Não perguntar novamente"</string>
+<string name="bluetooth_map_request">"Solicitação de acesso a mensagens"</string>
+<string name="bluetooth_map_acceptance_dialog_text">"%1$s deseja acessar suas mensagens. Conceder acesso a %2$s?"</string>
+<string name="date_and_time">"Data e hora"</string>
+<string name="choose_timezone">"Selecione o fuso horário"</string>
+<string name="display_preview_label">"Visualizar:"</string>
+<string name="display_font_size_label">"Tamanho da fonte:"</string>
+<string name="intent_sender_sendbroadcast_text">"Enviar<xliff:g id="BROADCAST">broadcast</xliff:g>"</string>
+<string name="intent_sender_action_label">"<xliff:g id="ACTION">Action</xliff:g>:"</string>
+<string name="intent_sender_startactivity_text">"Iniciar <xliff:g id="ACTIVITY">activity</xliff:g>"</string>
+<string name="intent_sender_resource_label">"<xliff:g id="RESOURCE">Resource</xliff:g>:"</string>
+<string name="intent_sender_account_label">"Conta:"</string>
+<string name="proxy_settings_title">"Proxy"</string>
+<string name="proxy_clear_text">"Limpar"</string>
+<string name="proxy_port_label">"Porta do proxy"</string>
+<string name="proxy_exclusionlist_label">"Evitar proxy para"</string>
+<string name="proxy_exclusionlist_hint">"example.com,mycomp.test.com,localhost"</string>
+<string name="proxy_defaultView_text">"Restaurar padrões"</string>
+<string name="proxy_action_text">"Concluído"</string>
+<string name="proxy_hostname_label">"Hostname do proxy"</string>
+<string name="proxy_hostname_hint">"proxy.example.com"</string>
+<string name="proxy_error">"Atenção"</string>
+<string name="proxy_error_dismiss">"OK"</string>
+<string name="proxy_error_invalid_host">"O nome de host digitado não é válido."</string>
+<string name="proxy_error_invalid_exclusion_list">"A lista de exclusão digitada não está formatada corretamente. Insira uma lista dos domínios excluídos separados por vírgula."</string>
+<string name="proxy_error_empty_port">"É necessário preencher o campo da porta."</string>
+<string name="proxy_error_empty_host_set_port">"O campo da porta deverá estar vazio se o campo do host estiver vazio."</string>
+<string name="proxy_error_invalid_port">"A porta digitada não é válida."</string>
+<string name="proxy_warning_limited_support">"O proxy HTTP é usado pelo navegador, mas não pode ser usado por outros apps."</string>
+<string name="proxy_url_title">"URL do PAC: "</string>
+<string name="radio_info_signal_location_label">"Localização:"</string>
+<string name="radio_info_neighboring_location_label">"CID vizinho:"</string>
+<string name="radio_info_cellinfo_label">"CellInfo:"</string>
+<string name="radio_info_dcrtinfo_label">"DcRtInfo:"</string>
+<string name="radio_info_data_attempts_label">"Tentativas de dados:"</string>
+<string name="radio_info_gprs_service_label">"Serviço GPRS:"</string>
+<string name="radio_info_roaming_label">"Roaming:"</string>
+<string name="radio_info_imei_label">"IMEI:"</string>
+<string name="radio_info_call_redirect_label">"Redirecionamento da chamada:"</string>
+<string name="radio_info_ppp_resets_label">"Número de redefinições PPP desde a inicialização:"</string>
+<string name="radio_info_gsm_disconnects_label">"Desconexões GSM:"</string>
+<string name="radio_info_current_network_label">"Rede atual:"</string>
+<string name="radio_info_data_successes_label">"Êxito dos dados:"</string>
+<string name="radio_info_ppp_received_label">"PPP recebido:"</string>
+<string name="radio_info_gsm_service_label">"Serviço GSM:"</string>
+<string name="radio_info_signal_strength_label">"Potência do sinal:"</string>
+<string name="radio_info_call_status_label">"Status da chamada:"</string>
+<string name="radio_info_ppp_sent_label">"PPP enviado:"</string>
+<string name="radio_info_radio_resets_label">"Redefinições de rádio:"</string>
+<string name="radio_info_message_waiting_label">"Mensagem em espera:"</string>
+<string name="radio_info_phone_number_label">"Número de telefone:"</string>
+<string name="radio_info_band_mode_label">"Selecionar frequência de rádio"</string>
+<string name="radio_info_network_type_label">"Tipo de rede:"</string>
+<string name="radio_info_set_perferred_label">"Definir tipo de rede preferido:"</string>
+<string name="radio_info_ping_ipaddr">"Aplicar ping em IpAddr:"</string>
+<string name="radio_info_ping_hostname">"Aplicar ping no nome do host (www.google.com):"</string>
+<string name="radio_info_http_client_test">"Teste do Cliente HTTP:"</string>
+<string name="ping_test_label">"Executar teste de ping"</string>
+<string name="radio_info_smsc_label">"SMSC:"</string>
+<string name="radio_info_smsc_update_label">"Atualizar"</string>
+<string name="radio_info_smsc_refresh_label">"Atualizar"</string>
+<string name="radio_info_toggle_dns_check_label">"Ativar/desativar verificação de DNS"</string>
+<string name="oem_radio_info_label">"Informações/configurações específicas de OEM"</string>
+<string name="band_mode_title">"Definir frequência GSM/UMTS"</string>
+<string name="band_mode_loading">"Carregando a lista de frequências…"</string>
+<string name="band_mode_set">"Definir"</string>
+<string name="band_mode_failed">"Falha"</string>
+<string name="band_mode_succeeded">"Feito"</string>
+<string name="sdcard_changes_instructions">"As alterações são aplicadas quando o cabo USB é reconectado."</string>
+<string name="sdcard_settings_screen_mass_storage_text">"Ativar o armazenamento USB em massa"</string>
+<string name="sdcard_settings_total_bytes_label">"Total de bytes:"</string>
+<string name="sdcard_settings_not_present_status" product="nosdcard">"Armazenam. USB não conectado."</string>
+<string name="sdcard_settings_not_present_status" product="default">"Sem cartão SD."</string>
+<string name="sdcard_settings_available_bytes_label">"Bytes disponíveis:"</string>
+<string name="sdcard_settings_mass_storage_status" product="nosdcard">"Armaz. USB usado como armaz. em massa."</string>
+<string name="sdcard_settings_mass_storage_status" product="default">"O cartão SD está sendo usado como dispositivo de armazenamento em massa."</string>
+<string name="sdcard_settings_unmounted_status" product="nosdcard">"Armazen. USB pode ser removido"</string>
+<string name="sdcard_settings_unmounted_status" product="default">"O cartão SD já pode ser removido com segurança."</string>
+<string name="sdcard_settings_bad_removal_status" product="nosdcard">"Armaz. USB removido em uso!"</string>
+<string name="sdcard_settings_bad_removal_status" product="default">"O cartão SD foi removido enquanto ainda estava em uso!"</string>
+<string name="sdcard_settings_used_bytes_label">"Bytes usados:"</string>
+<string name="sdcard_settings_scanning_status" product="nosdcard">"Procurando arquivos na USB..."</string>
+<string name="sdcard_settings_scanning_status" product="default">"Procurando mídia no cartão SD…"</string>
+<string name="sdcard_settings_read_only_status" product="nosdcard">"Armaz. USB somente leitura."</string>
+<string name="sdcard_settings_read_only_status" product="default">"Cartão SD conectado como somente leitura."</string>
+<string name="skip_label">"Pular"</string>
+<string name="next_label">"Avançar"</string>
+<string name="language_picker_title">"Idioma"</string>
+<string name="activity_picker_label">"Selecione a atividade"</string>
+<string name="device_info_label">"Informações do dispositivo"</string>
+<string name="battery_info_label">"Informações da bateria"</string>
+<string name="display_label">"Tela"</string>
+<string name="phone_info_label" product="tablet">"Informações do tablet"</string>
+<string name="phone_info_label" product="default">"Informações do telefone"</string>
+<string name="sd_card_settings_label" product="nosdcard">"Armaz. USB"</string>
+<string name="sd_card_settings_label" product="default">"Cartão SD"</string>
+<string name="proxy_settings_label">"Configurações de proxy"</string>
+<string name="cancel">"Cancelar"</string>
+<string name="cancel_all_caps">"CANCELAR"</string>
+<string name="continue_all_caps">"CONTINUAR"</string>
+<string name="okay">"Ok"</string>
+<string name="yes_all_caps">"SIM"</string>
+<string name="no_all_caps">"NÃO"</string>
+<string name="forget">"ESQUECER"</string>
+<string name="settings_label">"Configurações"</string>
+<string name="settings_label_launcher">"Configurar"</string>
+<string name="settings_shortcut">"Atalho para as configurações"</string>
+<string name="airplane_mode">"Modo avião"</string>
+<string name="radio_controls_title">"Mais"</string>
+<string name="wireless_networks_settings_title">"Redes sem fio e outras"</string>
+<string name="radio_controls_summary">"Gerenciar Wi-Fi, Bluetooth, modo avião, redes celulares e VPNs"</string>
+<string name="cellular_data_title">"Dados da rede celular"</string>
+<string name="calls_title">"Chamadas"</string>
+<string name="sms_messages_title">"Mensagens SMS"</string>
+<string name="cellular_data_summary">"Permitir uso de dados pela rede celular"</string>
+<string name="allow_data_usage_title">"Permitir usar dados em roaming"</string>
+<string name="roaming">"Roaming de dados"</string>
+<string name="roaming_enable">"Conectar aos serviços de dados quando estiver em roaming"</string>
+<string name="roaming_disable">"Conectar aos serviços de dados quando estiver em roaming"</string>
+<string name="roaming_reenable_message">"Você perdeu a conectividade de dados porque deixou o roaming de dados da sua rede doméstica desativado."</string>
+<string name="roaming_turn_it_on_button">"Ativar"</string>
+<string name="roaming_warning">"Quando você permite o roaming de dados, poderão ser cobradas taxas significativas de roaming!"</string>
+<string name="roaming_warning_multiuser" product="tablet">"Ao permitir o roaming de dados, você poderá receber cobranças significativas de roaming.\n\nEsta configuração afeta todos os usuários do tablet."</string>
+<string name="roaming_warning_multiuser" product="default">"Ao permitir o roaming de dados, você poderá receber cobranças significativas de roaming.\n\nEsta configuração afeta todos os usuários do telefone."</string>
+<string name="roaming_reenable_title">"Permitir roaming de dados?"</string>
+<string name="networks">"Seleção de operador"</string>
+<string name="sum_carrier_select">"Selecione um operador de rede"</string>
+<string name="date_and_time_settings_title">"Data e hora"</string>
+<string name="date_and_time_settings_title_setup_wizard">"Configurar data e hora"</string>
+<string name="date_and_time_settings_summary">"Definir data, hora, fuso horário e formatos"</string>
+<string name="date_time_auto">"Data e hora automáticas"</string>
+<string name="date_time_auto_summaryOn">"Usar horário fornecido pela rede"</string>
+<string name="date_time_auto_summaryOff">"Usar horário fornecido pela rede"</string>
+<string name="zone_auto">"Fuso horário automático"</string>
+<string name="zone_auto_summaryOn">"Usar fuso horário fornecido pela rede"</string>
+<string name="zone_auto_summaryOff">"Usar fuso horário fornecido pela rede"</string>
+<string name="date_time_24hour_title">"Formato de 24 horas"</string>
+<string name="date_time_24hour">"Formato de 24 horas"</string>
+<string name="date_time_set_time_title">"Horário"</string>
+<string name="date_time_set_time">"Definir hora"</string>
+<string name="date_time_set_timezone_title">"Fuso horário"</string>
+<string name="date_time_set_timezone">"Selecionar fuso horário"</string>
+<string name="date_time_set_date_title">"Data"</string>
+<string name="date_time_set_date">"Definir data"</string>
+<string name="zone_list_menu_sort_alphabetically">"Classificar em ordem alfabética"</string>
+<string name="zone_list_menu_sort_by_timezone">"Classificar por fuso horário"</string>
+<string name="date_picker_title">"Data"</string>
+<string name="time_picker_title">"Hora"</string>
+<string name="biometric_weak_improve_matching_title">"Melhorar a correspondência de rosto"</string>
+<string name="biometric_weak_liveliness_title">"Verificação de presença viva"</string>
+<string name="biometric_weak_liveliness_summary">"Exigir piscar de olhos ao desbloquear"</string>
+<string name="lock_after_timeout">"Bloquear automaticamente"</string>
+<string name="lock_after_timeout_summary">"<xliff:g id="TIMEOUT_STRING">%1$s</xliff:g> após modo de espera"</string>
+<string name="lock_after_timeout_summary_with_exception">"<xliff:g id="TIMEOUT_STRING">%1$s</xliff:g> após suspensão, exceto quando mantido desbloqueado por <xliff:g id="TRUST_AGENT_NAME">%2$s</xliff:g>"</string>
+<string name="show_owner_info_on_lockscreen_label">"Mostrar informações do proprietário na tela de bloqueio"</string>
+<string name="owner_info_settings_title">"Info do proprietário"</string>
+<string name="security_enable_widgets_title">"Ativar widgets"</string>
+<string name="security_enable_widgets_disabled_summary">"Desativado pelo administrador"</string>
+<string name="owner_info_settings_edit_text_hint">"Digite o texto a ser exibido na tela de bloqueio"</string>
+<string name="show_user_info_on_lockscreen_label">"Mostrar informações do usuário ao bloquear a tela"</string>
+<string name="user_info_settings_title">"Dados do usuário"</string>
+<string name="show_profile_info_on_lockscreen_label">"Mostrar informações do perfil na tela de bloqueio"</string>
+<string name="profile_info_settings_title">"Informação do perfil"</string>
+<string name="Accounts_settings_title">"Contas"</string>
+<string name="location_settings_title">"Localização"</string>
+<string name="account_settings_title">"Contas"</string>
+<string name="security_settings_title">"Segurança"</string>
+<string name="security_settings_summary">"Definir Meu local, desbloqueio de tela, bloqueio do SIM e do armazenamento de credenciais"</string>
+<string name="cdma_security_settings_summary">"Definir o Meu local, o desbloqueio de tela, o bloqueio do armazenamento de credenciais"</string>
+<string name="security_passwords_title">"Senhas"</string>
+<string name="crypt_keeper_settings_title">"Criptografia"</string>
+<string name="crypt_keeper_encrypt_title" product="tablet">"Criptografar tablet"</string>
+<string name="crypt_keeper_encrypt_title" product="default">"Criptografar telefone"</string>
+<string name="crypt_keeper_encrypted_summary">"Criptografado"</string>
+<string name="crypt_keeper_desc" product="tablet">"Você pode criptografar suas contas, configurações, apps transferidos e seus dados, mídia e outros arquivos. Após criptografar seu tablet, supondo que um bloqueio de tela tenha sido configurado (ou seja, um padrão, PIN numérico ou senha), será necessário desbloquear a tela para descriptografar o smartphone sempre que você ligá-lo. A única outra maneira de descriptografar é por meio de uma redefinição para configuração original, apagando todos os seus dados.\n\nA criptografia leva um hora ou mais. Você deve iniciar com a bateria carregada e manter seu tablet conectado até que a criptografia seja concluída. Se você interromper o processo de criptografia, perderá alguns ou todos os seus dados."</string>
+<string name="crypt_keeper_desc" product="default">"Você pode criptografar suas contas, configurações, apps transferidos e seus dados, mídia e outros arquivos. Após criptografar seu smartphone, supondo que um bloqueio de tela tenha sido configurado (ou seja, um padrão, PIN numérico ou senha), será necessário desbloquear a tela para descriptografar o smartphone sempre que você ligá-lo. A única outra maneira de descriptografar é por meio de uma redefinição para configuração original, apagando todos os seus dados.\n\nA criptografia leva um hora ou mais. Você deve iniciar com a bateria carregada e manter seu smartphone conectado até que a criptografia seja concluída. Se você interromper o processo de criptografia, perderá alguns ou todos os seus dados."</string>
+<string name="crypt_keeper_button_text" product="tablet">"Criptografar tablet"</string>
+<string name="crypt_keeper_button_text" product="default">"Criptografar telefone"</string>
+<string name="crypt_keeper_low_charge_text">"Carregue sua bateria e tente novamente."</string>
+<string name="crypt_keeper_unplugged_text">"Conecte seu carregador e tente novamente."</string>
+<string name="crypt_keeper_dialog_need_password_title">"Não há PIN ou senha da tela de bloqueio"</string>
+<string name="crypt_keeper_dialog_need_password_message">"É necessário definir um PIN ou uma senha para a tela de bloqueio antes de iniciar a criptografia."</string>
+<string name="crypt_keeper_confirm_encrypt">"Você precisa desenhar o seu padrão de desbloqueio para confirmar a criptografia do dispositivo."</string>
+<string name="crypt_keeper_confirm_title">"Criptografar?"</string>
+<string name="crypt_keeper_final_desc" product="tablet">"A operação de criptografia é irreversível e, se for interrompida, você perderá seus dados. A criptografia leva cerca de uma hora ou mais, e nesse período o tablet será reiniciado várias vezes."</string>
+<string name="crypt_keeper_final_desc" product="default">"A operação de criptografia é irreversível e, se for interrompida, você perderá seus dados. A criptografia leva uma hora ou mais, e nesse período o telefone será reiniciado várias vezes."</string>
+<string name="crypt_keeper_setup_title">"Criptografando"</string>
+<string name="crypt_keeper_setup_description" product="tablet">"Aguarde enquanto seu tablet está sendo criptografado. <xliff:g id="PERCENT">^1</xliff:g>% concluído."</string>
+<string name="crypt_keeper_setup_description" product="default">"Aguarde enquanto seu telefone está sendo criptografado. <xliff:g id="PERCENT">^1</xliff:g>% concluído."</string>
+<string name="crypt_keeper_setup_time_remaining" product="tablet">"Aguarde enquanto seu tablet é criptografado. Tempo restante: <xliff:g id="DURATION">^1</xliff:g>"</string>
+<string name="crypt_keeper_setup_time_remaining" product="default">"Aguarde enquanto seu telefone é criptografado. Tempo restante: <xliff:g id="DURATION">^1</xliff:g>"</string>
+<string name="crypt_keeper_force_power_cycle" product="tablet">"Para desbloquear seu tablet, desligue-o e ligue-o novamente."</string>
+<string name="crypt_keeper_force_power_cycle" product="default">"Para desbloquear seu smartphone, desligue-o e ligue-o novamente."</string>
+<string name="crypt_keeper_warn_wipe">"Aviso: o dispositivo será apagado após mais <xliff:g id="COUNT">^1</xliff:g> tentativas fracassadas de ser desbloqueado!"</string>
+<string name="crypt_keeper_enter_password">"Digite sua senha"</string>
+<string name="crypt_keeper_failed_title">"Falha na criptografia"</string>
+<string name="crypt_keeper_failed_summary" product="tablet">"A criptografia foi interrompida e não pode ser concluída. Por esse motivo, os dados em seu tablet não podem ser acessados. \n\n Para continuar usando seu tablet, é necessário restaurar as configurações originais. Quando você configurar seu tablet após a restauração, poderá recuperar todos os dados que foram salvos em backup em sua Conta do Google."</string>
+<string name="crypt_keeper_failed_summary" product="default">"A criptografia foi interrompida e não pode ser concluída. Por esse motivo, os dados em seu telefone não podem mais ser acessados. \n\nPara continuar usando seu telefone, é necessário restaurar as configurações originais. Quando você configurar seu telefone após a restauração, poderá recuperar todos os dados que foram salvos em backup em sua Conta do Google."</string>
+<string name="crypt_keeper_data_corrupt_title">"Falha na descriptografia"</string>
+<string name="crypt_keeper_data_corrupt_summary" product="tablet">"A senha digitada está correta, mas os dados estão corrompidos. \n\nPara continuar usando seu tablet, é necessário redefinir para as configurações originais. Quando você configurar seu tablet após a redefinição, poderá restaurar todos os dados que foram salvos em backup em sua Conta do Google."</string>
+<string name="crypt_keeper_data_corrupt_summary" product="default">"A senha digitada está correta, mas os dados estão corrompidos. \n\nPara continuar usando seu smartphone, é necessário redefinir para as configurações originais. Quando você configurar seu smartphone após a redefinição, poderá restaurar todos os dados que foram salvos em backup em sua Conta do Google."</string>
+<string name="crypt_keeper_switch_input_method">"Alterar o método de entrada"</string>
+<string name="lock_settings_picker_title">"Escolher bloq. de tela"</string>
+<string name="backup_lock_settings_picker_title">"Selec. o bloq. de backup"</string>
+<string name="unlock_set_unlock_launch_picker_title">"Bloqueio de tela"</string>
+<string name="unlock_set_unlock_launch_picker_change_title">"Alterar tela bloqueio"</string>
+<string name="unlock_set_unlock_launch_picker_change_summary">"Alterar ou desativar o padrão, o PIN ou a segurança da senha"</string>
+<string name="unlock_set_unlock_launch_picker_enable_summary">"Escolha um método para bloquear a tela"</string>
+<string name="unlock_backup_info_summary">"Quando o Desbloqueio facial não puder identificar você, como deseja desbloquear?"</string>
+<string name="unlock_set_unlock_off_title">"Nenhuma"</string>
+<string name="unlock_set_unlock_none_title">"Deslizar"</string>
+<string name="unlock_set_unlock_none_summary">"Sem segurança"</string>
+<string name="unlock_set_unlock_biometric_weak_title">"Desbloqueio facial"</string>
+<string name="unlock_set_unlock_biometric_weak_summary">"De baixa segurança, experimental"</string>
+<string name="unlock_set_unlock_pattern_title">"Padrão"</string>
+<string name="unlock_set_unlock_pattern_summary">"Segurança média"</string>
+<string name="unlock_set_unlock_pin_title">"PIN"</string>
+<string name="unlock_set_unlock_pin_summary">"Segurança média a alta"</string>
+<string name="unlock_set_unlock_password_title">"Senha"</string>
+<string name="unlock_set_unlock_password_summary">"Alta segurança"</string>
+<string name="unlock_disable_frp_warning_content">"Os recursos de proteção de dispositivos não funcionarão mais."</string>
+<string name="unlock_set_unlock_disabled_summary">"Des. pelo adm., pol. de cript. ou armaz. de cred."</string>
+<string name="unlock_set_unlock_mode_off">"Nenhuma"</string>
+<string name="unlock_set_unlock_mode_none">"Deslizar"</string>
+<string name="unlock_set_unlock_mode_biometric_weak">"Desbloqueio facial"</string>
+<string name="unlock_set_unlock_mode_pattern">"Padrão"</string>
+<string name="unlock_set_unlock_mode_pin">"PIN"</string>
+<string name="unlock_set_unlock_mode_password">"Senha"</string>
+<string name="unlock_disable_lock_title">"Desativar bloqueio da tela"</string>
+<string name="unlock_disable_lock_pattern_summary">"Remover padrão de desbloqueio"</string>
+<string name="unlock_disable_lock_pin_summary">"Remover PIN de desbloqueio"</string>
+<string name="unlock_disable_lock_password_summary">"Remover senha de desbloqueio"</string>
+<string name="unlock_disable_lock_unknown_summary">"Remover bloqueio de tela"</string>
+<string name="unlock_change_lock_pattern_title">"Mudar padrão de desbloqueio"</string>
+<string name="unlock_change_lock_pin_title">"Mudar PIN de desbloqueio"</string>
+<string name="unlock_change_lock_password_title">"Mudar senha de desbloqueio"</string>
+<string name="lockpassword_password_too_short">"A senha deve ter no mínimo %d caracteres"</string>
+<string name="lockpassword_pin_too_short">"O PIN deve ter no mínimo %d caracteres"</string>
+<string name="lockpassword_press_continue">"Toque em Continuar quando terminar"</string>
+<string name="lockpassword_continue_label">"Continuar"</string>
+<string name="lockpassword_password_too_long">"A senha deve ter menos de <xliff:g id="NUMBER">%d</xliff:g> caracteres."</string>
+<string name="lockpassword_pin_too_long">"O PIN deve ter menos de <xliff:g id="NUMBER">%d</xliff:g> dígitos."</string>
+<string name="lockpassword_pin_contains_non_digits">"O PIN deve conter apenas dígitos de 0 a 9."</string>
+<string name="lockpassword_pin_recently_used">"O administrador do dispositivo não permite usar um PIN recente."</string>
+<string name="lockpassword_illegal_character">"A senha contém um caractere incorreto."</string>
+<string name="lockpassword_password_requires_alpha">"A senha deve conter no mínimo uma letra."</string>
+<string name="lockpassword_password_requires_digit">"A senha deve conter no mínimo um dígito."</string>
+<string name="lockpassword_password_requires_symbol">"A senha deve conter no mínimo um símbolo."</string>
+<plurals name="lockpassword_password_requires_letters">
+<item quantity="one">"A senha deve conter pelo menos uma letra."</item>
+<item quantity="other">"A senha deve conter pelo menos %d letras."</item>
+</plurals>
+<plurals name="lockpassword_password_requires_lowercase">
+<item quantity="one">"A senha deve conter pelo menos uma letra minúscula."</item>
+<item quantity="other">"A senha deve conter pelo menos %d letras minúsculas."</item>
+</plurals>
+<plurals name="lockpassword_password_requires_uppercase">
+<item quantity="one">"A senha deve conter pelo menos uma letra maiúscula."</item>
+<item quantity="other">"A senha deve conter pelo menos %d letras maiúsculas."</item>
+</plurals>
+<plurals name="lockpassword_password_requires_numeric">
+<item quantity="one">"A senha deve conter pelo menos um dígito numérico."</item>
+<item quantity="other">"A senha deve conter pelo menos %d dígitos numéricos."</item>
+</plurals>
+<plurals name="lockpassword_password_requires_symbols">
+<item quantity="one">"A senha deve conter pelo menos um símbolo especial."</item>
+<item quantity="other">"A senha deve conter pelo menos %d símbolos especiais."</item>
+</plurals>
+<plurals name="lockpassword_password_requires_nonletter">
+<item quantity="one">"A senha deve conter pelo menos um caractere que não seja letra."</item>
+<item quantity="other">"A senha deve conter pelo menos %d caracteres que não sejam letras."</item>
+</plurals>
+<string name="lockpassword_password_recently_used">"O administrador do dispositivo não permite usar uma senha recente."</string>
+<string name="lockpassword_pin_no_sequential_digits">"Não é permitido usar uma sequência de dígitos em ordem crescente, decrescente ou repetidos"</string>
+<string name="lockpassword_ok_label">"OK"</string>
+<string name="lockpassword_cancel_label">"Cancelar"</string>
+<string name="lockpattern_tutorial_cancel_label">"Cancelar"</string>
+<string name="lockpattern_tutorial_continue_label">"Avançar"</string>
+<string name="lock_setup">"A configuração foi concluída."</string>
+<string name="device_admin_title">"Administração do dispositivo"</string>
+<string name="manage_device_admin">"Administradores do dispositivo"</string>
+<string name="manage_device_admin_summary">"Visualizar ou desativar administradores do dispositivo"</string>
+<string name="manage_trust_agents">"Agentes de confiança"</string>
+<string name="disabled_because_no_backup_security">"Para usar, primeiro defina um bloqueio de tela"</string>
+<string name="manage_trust_agents_summary">"Ver ou desativar agentes de confiança"</string>
+<string name="fingerprint_settings_title">"ID de impressão digital"</string>
+<string name="fingerprint_function_title">"Funções de impressão digital"</string>
+<string name="fingerprint_manage_main">"Gerenc. de impr digital"</string>
+<string name="managing_setting_fingerprint">"Ger. e config funções relac. a impr. digital"</string>
+<string name="touch_manage_title">"Gerenciamento do controle de toque"</string>
+<string name="recieve_phone_calls">"Chamadas atendidas"</string>
+<string name="recieve_phnoecalls_by_fingerprint">"Toque no sensor de impressão digital e mantenha pressionado para atender uma chamada"</string>
+<string name="take_pictures">Fotos/vídeos</string>
+<string name="take_pictures_by_fingerprint">"Da tela do visor da câmera, toque e mantenha o sensor de impressão digital para tirar uma foto"</string>
+<string name="fingerprint_note">"Observação: estes gestos de controle de toque podem ser realizados com qualquer dedo e não requerem verificação de impressão digital."</string>
+<string name="enter_password_title">"Digite a senha"</string>
+<string name="enter_unlock_password">"Insira a senha de desbloqueio"</string>
+<string name="enter_unlock_password_wrong">"Tente novamente:"</string>
+<string name="switch_unlock_style_title">"Alterar método de bloqueio de tela"</string>
+<string name="fingerprint_password_explain">"Para proteger sua privacidade, a função de impressão digital só pode ser usada com os métodos de bloqueio de senha e de PIN."</string>
+<string name="fingerprint_number_password">"FIXAR"</string>
+<string name="enter_number_password">"Digite seu PIN"</string>
+<string name="fingerprint_complex_password">"Senha"</string>
+<string name="enter_complex_password">"Insira sua senha"</string>
+<string name="number_password_demand">"O PIN deve ter pelo menos 4 dígitos"</string>
+<string name="complex_password_demand">"A senha deve ter pelo menos 4 caracteres"</string>
+<string name="click_continue">"Toque em Continuar quando finalizar"</string>
+<string name="confirm_password">"Confirmar a senha"</string>
+<string name="password_not_match">"As senhas não coincidem"</string>
+<string name="bluetooth_quick_toggle_title">"Bluetooth"</string>
+<string name="bluetooth_quick_toggle_summary">"Ativar Bluetooth"</string>
+<string name="bluetooth_settings">"Bluetooth"</string>
+<string name="bluetooth_settings_title">"Bluetooth"</string>
+<string name="bluetooth_settings_summary">"Gerenciar conexões, definir o nome e detecção do dispositivo"</string>
+<string name="bluetooth_pairing_request">"Solicitação de pareamento Bluetooth"</string>
+<string name="bluetooth_enter_pin_msg">"Dispositivo"</string>
+<string name="bluetooth_pairing_key_msg">"Código de pareamento"</string>
+<string name="bluetooth_enter_passkey_msg">"Digite o código de pareamento e pressione \"Return\" ou \"Enter\""</string>
+<string name="bluetooth_enable_alphanumeric_pin">"O PIN contém letras ou símbolos"</string>
+<string name="bluetooth_pin_values_hint">"Geralmente, 0000 ou 1234"</string>
+<string name="bluetooth_enter_pin_other_device">"Talvez seja necessário digitar este PIN no outro dispositivo."</string>
+<string name="bluetooth_enter_passkey_other_device">"Talvez seja necessário digitar esta senha no outro dispositivo."</string>
+<string name="bluetooth_confirm_passkey_msg">"Para parear com:&lt;br&gt;<b>
+<xliff:g id="DEVICE_NAME">%1$s</xliff:g>
+</b>&lt;br&gt;&lt;br&gt;Verifique se ele está mostrando a seguinte senha:&lt;br&gt;<b>
+<xliff:g id="PASSKEY">%2$s</xliff:g>
+</b>"</string>
+<string name="bluetooth_incoming_pairing_msg">"De:&lt;br&gt;<b>
+<xliff:g id="DEVICE_NAME">%1$s</xliff:g>
+</b>&lt;br&gt;&lt;br&gt;Parear com este dispositivo?"</string>
+<string name="bluetooth_display_passkey_pin_msg">"Para parear com:<xliff:g id="BOLD1_0">&lt;br&gt;&lt;b&gt;</xliff:g>
+<xliff:g id="DEVICE_NAME">%1$s</xliff:g>
+<xliff:g id="END_BOLD1">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g>Digite no dispositivo:<xliff:g id="BOLD2_1">&lt;br&gt;&lt;b&gt;</xliff:g>
+<xliff:g id="PASSKEY">%2$s</xliff:g>
+<xliff:g id="END_BOLD2">&lt;/b&gt;</xliff:g>. Em seguida, pressione Voltar ou Entrar."</string>
+    <string name="settings_huawei_privacy_title">Polít. Privac Huawei</string>
+    <string name="settings_huawei_license_title">Acordo de Licença de Uso de Software Huawei</string>
+    <string name="settings_huawei_privacy_activity_title">Polít. Privac Huawei</string>
+    <string name="settings_huawei_license_activity_title">Acordo de Licença de Uso de Software Huawei</string>
+<string name="normal_date_format">Normal ("<xliff:g example="12-31-2009" id="date">"%s"</xliff:g>")</string>
+<string name="date_time_date_format_title">Formato de data</string>
+<string name="date_time_date_format">Escolher formato de data</string>
+<string name="off_alarmclock">Parar alarme</string>
+<string name="wifi_secured_first_item">Protegido por <xliff:g id="wifi_security_short">%1$s</xliff:g>
+</string>
+<string name="wifi_secured_second_item">", protegido por"<xliff:g id="wifi_security_short">"%1$s"</xliff:g>
+</string>
+<string name="display_operatorname_title">Exibir nome da operadora</string>
+<string name="display_operatorname_summary">O lado esquerdo da barra de status exibe informações da operadora</string>
+<string name="screensaver_settings_dream_sleep_start">Iniciar ao carregar</string>
+<string name="screensaver_settings_dream_set_successfully">Daydream definido. Será iniciado <xliff:g id="STATE_TO_START">%1$s</xliff:g>
+</string>
+<string name="title_font_style">Estilo da fonte</string>
+<string name="hw_build_version">Versão de hardware</string>
+<string name="emotion_ui_version">Versão Emotion UI</string>
+<string name="emotion_ui_version_value">EMUI 3.1 Lite</string>
+<string name="cpu_title">CPU</string>
+<string name="eight_core">8 núcleos, 1,5 GHz</string>
+<string name="memory_value">2,0 GB</string>
+<string name="phone_storage">Armazenamento interno</string>
+<string name="phone_storage_value">%1$s no total</string>
+<string name="resolution_title">Resolução</string>
+<string name="allow_install">Remover restrição</string>
+<string name="settings_huawei_privacy_activity_loading">Carregando\u2026</string>
+<string name="settings_huawei_privacy_activity_unavailable">Os arquivos não puderam ser carregados.</string>
+<string name="settings_huawei_license_activity_unavailable">Os arquivos não puderam ser carregados.</string>
+<string name="settings_huawei_license_activity_loading">Carregando\u2026</string>
+<string name="hw_rom_info_title">Armaz telef.</string>
+<string name="hw_rom_info_summary">Tamanho total:</string>
+<string name="memory_size_total">Tamanho total </string>
+<string name="emui_version_title">Versão EMUI</string>
+<string name="keylock_gestures_title">Gestos com a tela desligada</string>
+<string name="keylock_gestures_summary">Desenhe diferentes padrões quando a tela está desligada para abrir aplicativos específicos diretamente</string>
+<string name="gestures_c_title">Letra c</string>
+<string name="gestures_e_title">Letra e</string>
+<string name="gestures_w_title">Letra w</string>
+<string name="gestures_m_title">Letra m</string>
+<string name="gestures_doubleclick_title">Toque duas vezes</string>
+<string name="gesture_c_summary">Desenhe a letra "c" quando a tela está desligada para abrir a câmera</string>
+<string name="gesture_e_summary">Desenhe a letra "e" na tela desligada para abrir a caixa de e-mail</string>
+<string name="gesture_w_summary">Desenhe a letra "w" na tela desligada para abrir o navegador</string>
+<string name="gesture_m_summary">Desenhe a letra "m" na tela desligada para abrir o mapa</string>
+<string name="gesture_doubleclick_summary">Toque duas vezes na tela desligada para ativá-la</string>
+<string name="common_settings_title">Configurações gerais</string>
+<string name="all_settings_title">Todas as configurações</string>
+<string name="battery_saving_title">Economia de energia</string>
+<string name="all_backup_title">Fazer backup total</string>
+<string name="all_backup_summary">Fazer backup dos meus dados para a nuvem</string>
+<string name="backup_to_cloud_title">Fazer cópia de segurança</string>
+<string name="gesture_settings_title">Gestos</string>
+<string name="notification_center_title">Centro de notificações</string>
+<string name="startup_settings_title">Gerenciador de início</string>
+<string name="permission_manager_title">Gerenciador de permissões</string>
+<string name="quick_settings_brightness_dialog_title">Brilho</string>
+<string name="status_bar_settings_auto_brightness_label">Autom. </string>
+<string name="accessibility_brightness">Brilho da tela</string>
+<string name="net_app_title">Aplicativos em rede</string>
+<string name="empty_app">Vazio</string>
+<string name="user_space">Espaço do usuário:</string>
+<string name="total_space">Total:</string>
+<string name="wifi_is_disconnect">Desconectado do Wi-Fi</string>
+<string name="wifi_disconnect_reminder">Wi-Fi indisponível. Alternar para conexão de transferência de dados? Podem ocorrer cobranças de dados.</string>
+<string name="open_confirm">Alternar</string>
+<string name="cancle_confirm">Cancelar</string>
+<string name="not_to_remind">Não lembrar novamente</string>
+<string name="avai_wifi_title">Redes Wi-Fi disponíveis</string>
+<string name="hw_cloud_service_title">Huawei Cloud+</string>
+<string name="gesture_enabler_title">Gestos com a tela apagada</string>
+<string name="gesture_double_click_category">Tocar duas vezes</string>
+<string name="gesture_draw_letter_category">Desenhar letras</string>
+<string name="title_preferred_list_settings">Config. Padrão aplic.</string>
+<string name="app_default_summary">Padrão</string>
+<string name="Virtual_Key_title">Barra de navegação</string>
+<string name="Virtual_Key_Hide">Esconder barra de navegação</string>
+<string name="virtual_key_combination">Selecionar combinação da barra de navegação virtual</string>
+<string name="sim_master_slot_select_text">Slot do cartão de 4G/3G</string>
+<string name="enable_adb_summary_text">Ative o modo de depuração quando o USB estiver conectado</string>
+<string name="flip_phone_title">Girar para silenciar chamadas recebidas</string>
+<string name="flip_phone_list_title">Em chamada</string>
+<string-array name="flip_phone_items">
+<item>Mudo</item>
+<item>Rejeitar</item>
+</string-array>
+<string name="poweron_ringtone">"Toque de início"</string>
+<string name="wifi_dont_use_wifi_childmode_on">Este recurso está restrito no modo criança. Para remover a restrição, altere as config. do modo criança.</string>
+<string name="ChildMode_settings_title">Modo criança</string>
+<string name="child_mode">Modo criança</string>
+<string name="password_category_title">Senha</string>
+<string name="modify_password">Alterar senha</string>
+<string name="modify_password_summary">Toque para alterar a senha (usado apenas nas configurações do modo criança)</string>
+<string name="application_restrictions_title">Restrições do aplicativo</string>
+<string name="application_restrictions_blacklist">Lista de bloqueio de aplicativos</string>
+<string name="application_restrictions_blacklist_summary">Adicionar aplicativos à lista de bloqueio</string>
+<string name="shut_out_settings_title">Configurar antivício</string>
+<string name="website_access_restrictions_title">Restrições de acesso a sites</string>
+<string name="website_access_restrictions_summary">Definir sites permitidos</string>
+<string name="internet_time_settings_title">Configurações do tempo de conexão com a Internet</string>
+<string name="internet_time_settings_summary">A conexão com a Internet será encerrada em %s min</string>
+<string name="internet_traffic_limits_title">Restrições de tráfego de dados pela Internet</string>
+<string name="internet_traffic_limits_summary">Definir limite de tráfego de dados para o cartão SIM atual</string>
+<string name="touch_proof_settings_title">Configurações de toque acidental</string>
+<string name="prohibit_send_smsmms_title">Bloquear envio de SMS/MMS</string>
+<string name="prohibit_send_smsmms_summary">SMS/MMS podem ser recebidos, mas não enviados</string>
+<string name="prohibit_call_title">Bloquear chamadas</string>
+<string name="prohibit_call_summary">Chamadas podem ser respondidas, mas não efetuadas</string>
+<string name="prohibit_data_services_title">Bloquear serviços de dados</string>
+<string name="prohibit_data_services_summary">Encerramento forçado do serviço de dados</string>
+<string name="prohibit_wlan_title">Proibir Wi-Fi</string>
+<string name="prohibit_wlan_summary">Desativar Wi-Fi à força</string>
+<string name="prohibit_delete_smsmms_title">Exclusão de SMS/MMS bloqueada</string>
+<string name="prohibit_delete_smsmms_summary">Não permite apagar SMS/MMS</string>
+<string name="prohibit_install_application_title">Bloquear instalação de aplicativo</string>
+<string name="prohibit_install_application_summary">Não permite instalações</string>
+<string name="prohibit_delete_application_title">Bloquear exclusão de aplicativo</string>
+<string name="prohibit_delete_application_summary">Não permite excluir aplicativos</string>
+<string name="childmode_help">Ajuda do modo criança</string>
+<string name="addNew">Adicionar</string>
+<string name="text_delete">Excl</string>
+<string name="website_select_all">Selec. todos</string>
+<string name="child_mode_password_tip_header">Lembrete de senha</string>
+<string name="child_mode_confirm_your_pin_header">Confirmar o PIN</string>
+<string name="child_mode_choose_your_pattern_header">Escolha o padrão de desbloqueio (somente para o modo criança)</string>
+<string name="child_mode_confirm_pins_dont_match">Os PINs não coincidem</string>
+<string name="child_mode_choose_your_pin_header">Escolha seu PIN (apenas no modo para crianças)</string>
+<string name="child_mode_pin_too_short">O PIN deve ter pelo menos %d dígitos</string>
+<string name="child_mode_pin_too_long">O PIN deve ter menos de <xliff:g example="17" id="number">%d</xliff:g> dígitos.</string>
+<string name="child_mode_pin_contains_non_digits">O PIN deve conter apenas dígitos (0 a 9).</string>
+<string name="addNew_website_dialog_title">Site novo</string>
+<string name="child_mode_open_title">Modo criança</string>
+<string name="child_mode_open_message">Algumas funções não podem ser usadas no modo criança. Deseja ativar o modo criança?</string>
+<string name="apps_disabled">
+<xliff:g id="NUMBER">%d</xliff:g> aplicativos bloqueados </string>
+<string name="apps_enabled">
+<xliff:g id="NUMBER">%d</xliff:g> aplicativos recuperados</string>
+<string name="tranfic">MB</string>
+<string name="finish_button_childmode">Toque para acessar o modo criança</string>
+<string name="text_edit">Editar</string>
+<string name="website_name">Nome</string>
+<string name="website_address">Site</string>
+<string name="minute">Minutos</string>
+<string name="child_mode_pattern_tip_header">Lembrete do padrão</string>
+<string name="child_mode_password_tip_hint_pattern">Para ajudar você a lembrar do padrão</string>
+<string name="child_mode_password_tip_hint_password">Para ajudar você a lembrar da senha</string>
+<string name="reserve_number_lock_message">Defina um PIN de segurança para desbloquear o dispositivo caso esqueça do padrão de desbloqueio</string>
+<string name="input_hint">Insira a senha (cinco tentativas)</string>
+<string name="input_hint_error_info">Tente novamente em %s segundos</string>
+<string name="btn_reset">Rest.</string>
+<string name="ok">OK</string>
+<string name="input_hint_error">Senha incorreta (tentativas restantes: %s)</string>
+<string name="input_password">Digite uma senha</string>
+<string name="reserve_number_lock_header">Digite seu PIN de segurança</string>
+<string name="reserve_number_too_short">"O PIN deve ter pelo menos %d dígitos"</string>
+<string name="reserve_number_too_long">"O PIN deve ter menos de <xliff:g example="17" id="number">%d</xliff:g> dígitos."</string>
+<string name="reserve_number_confirm_your_pin_header">Confirme o PIN</string>
+<string name="child_mode_set_unlock_off_title">Nenhum</string>
+<string name="child_mode_set_unlock_pattern_title">Padrão</string>
+<string name="child_mode_set_unlock_pin_title">FIXAR</string>
+<string name="network_time_limit_alert">O tempo de conexão com a Internet do modo criança acabou. Rede desconectada.</string>
+<string name="network_traffic_limit_alert">O tráfego de dados do modo criança foi totalmente consumido. Rede desconectada.</string>
+<string name="childmode_disable_app_alert">"Este aplicativo está bloqueado no modo criança."</string>
+<string name="childmode_network_forbid_alert">"O serviço de dados está bloqueado no modo criança."</string>
+<string name="childmode_network_time_limit_disable_alert">O tempo de conexão com a Internet do modo criança acabou. Serviços de dados bloqueados</string>
+<string name="childmode_network_traffic_limit_disable_alert">O tráfego de dados do modo criança foi totalmente consumido. Serviços de dados bloqueados.</string>
+<string name="network_alert_tip">Observ</string>
+<string name="network_alert_ok">OK</string>
+<string name="website_limit_disable_app_tips">Acesso a sites restrito no modo criança. Este aplicativo foi restringido. Use o navegador instalado previamente no celular.</string>
+<string name="confirm_remove_from_blacklist">Confirme a exclusão do aplicativo da lista de bloqueio</string>
+<string name="delete_cancel">Cancelar</string>
+<string name="remove_from_blacklist">Remover da lista de bloqueio</string>
+<string name="delete_confirm">OK</string>
+<string name="add_app_title">Adicionar aplicativo</string>
+<string name="app_disabled">Este aplicativo está bloqueado no modo criança</string>
+<string name="app_black_list_title">Lista de aplicativos permitidos</string>
+<string name="delete_app">Excluir aplicativo</string>
+<string name="add_app">Adicionar aplicativo</string>
+<string name="child_mode_choose_lock_generic_header">Desbloquear método para o modo criança</string>
+<string name="edit_url_whitelist">Sites com acesso permitido</string>
+<string name="add_url_dialog_title">Adicionar site</string>
+<string name="from_bookmark">Adicionar de favoritos</string>
+<string name="from_history">Adicionar do histórico</string>
+<string name="from_customer">adicionar personalizado</string>
+<string name="edit_website_dialog_title">Editar site</string>
+<string name="website_bookmark_empty">Favoritos vazios</string>
+<string name="website_history_empty">Histórico vazio</string>
+<string name="select_add_url_whitelist">Selecionar sites permitidos</string>
+<string name="website_select_count">Itens selecionados: %1$s </string>
+<string name="website_bookmark_dialog_title">Confirmar favoritos selecionados</string>
+<string name="website_history_dialog_title">Confirmar histórico selecionado</string>
+<string name="content_empty">Não há conteúdo selecionado. Não salve os dados.</string>
+<string name="app_name">Ajuste de temperatura de cor</string>
+<string name="action_settings">Config.</string>
+<string name="app_label">Modo criança</string>
+<string name="led_light_title">Luz tricolor</string>
+<string name="led_light_summary">Lembrete de luz piscante para notificações ou conteúdo não lido</string>
+<string name="lockscreen_password_title">Bloqueio de tela e senhas</string>
+<string name="title_font">Fonte</string>
+<string name="empty">Aplicativo não configurado</string>
+<string name="pref_reset_lowbattery">Não é possível restaurar o telefone às configurações de fábrica quando o nível da bateria estiver inferior a 50%.</string>
+<string name="header_category_smart_assistance">Assistência inteligente</string>
+<string name="suspended_button">Botão de suspensão</string>
+<string name="suspend_button_tutorial_text">Ative o botão suspender em Configurações e ele será exibido na maioria das telas. O botão suspender pode ser arrastado para as bordas esquerda ou direita para facilitar o acesso. Toque nele para expandi-lo e acessar rapidamente as funções Voltar, Início, Tarefas recentes, Bloqueio de tela e Otimização com um toque.</string>
+<string name="suspend_button_title">Botão suspenso</string>
+<string name="suspend_button_tutorial_action">Toque para expandir</string>
+<string name="eu3_su_lf_displaysettings_displaynetworkspeed">Mostrar velocidade dos dados na barra de status</string>
+<string name="eu3_su_ls_displaysetting_displaynetworkspeeddetails">Mostrar velocidade dos dados na barra de status</string>
+<string name="category_accounts">Contas</string>
+<string name="category_apps">Aplicativos</string>
+<string name="dual_card_manager">Gerenciam. de cartão duplo</string>
+<string name="no_disturbing_settings">Não perturbe</string>
+<string name="protected_apps_title">Aplicativos protegidos</string>
+<string name="smart_earphone_control_title">Contr. fones ouv. inteligente</string>
+<string name="launcher_mode">Estilo da tela inicial</string>
+<string name="mixed_lockpassword_choose_your_pin_header">Digite sua senha alternativa</string>
+<string name="mixed_lockpassword_choose_your_password_header">Configurar senha alternativa</string>
+<string name="mixed_lockpassword_choose_your_password_summary">Caso você esqueça o padrão de desbloqueio, digite esta senha alternativa para desbloquear o telefone.</string>
+<string name="mixed_lockpassword_pin_too_short">A senha deve ter pelo menos %d dígitos</string>
+<string name="mixed_lockpassword_confirm_your_pin_header">Confirme sua senha</string>
+<string name="mixed_lockpassword_confirm_pins_dont_match">As senhas não correspondência.</string>
+<string name="mixed_lockpassword_choose_your_pin_setting_header">Configurar senha alternativa</string>
+<string name="show_password_directly_title">Mostrar tela de bloqueio de senha diretamente</string>
+<string name="show_password_directly_summary">Não usar outros estilos de tela de bloqueio e digitar diretamente a tela de bloqueio de senha</string>
+<string name="double_clock_prefs_title">Relógio duplo</string>
+<string name="double_clock_prefs_switch_title">Relógio duplo</string>
+<string name="double_clock_prefs_city_list_title">Configurar cidade local</string>
+<string name="double_clock_title">Relógio duplo</string>
+<string name="double_clock_summary">Mostrar relógio duplo na tela de bloqueio em roaming</string>
+<string name="drop_down_notification_bar_title">Painel de notificação</string>
+<string name="drop_down_notification_bar_summary">Permitir que o painel de notificação seja aberto na tela de bloqueio quando não houver senha configurada</string>
+<string name="huawei_id">Huawei ID</string>
+<string name="digital_switch">Botão digital</string>
+<string name="digital_switch_summaryOn">123456789</string>
+<string name="digital_switch_summaryOff">123456789</string>
+<string name="smart_earphone_control_tutorial_text">Se o controle de fone de ouvido inteligente estiver ativado, mais funções estarão disponíveis durante a reprodução de som usando Música. Por exemplo, você pode adicionar uma música a seus favoritos e baixar ou compartilhar uma música usando o controle de fones de ouvido.</string>
+<string name="brightness_auto_checkbox">Brilho automático</string>
+<string name="brightness_cancel_button">Cancelar</string>
+<string name="brightness_sure_button">OK</string>
+<string name="trust_agents_default_title">Não há agentes confiáveis</string>
+<string name="double_colck_default_summary">Beijing (GMT+08:00)</string>
+<string name="silent_mode_title">Modo silencioso</string>
+<string name="vibirate_when_silent_title">Vibração no modo silencioso</string>
+<string name="ringtone_sim1_title">Toque de telefone do cartão 1</string>
+<string name="vibrate_when_ringing_sim1_title">Vibrar ao tocar para SIM 1</string>
+<string name="vibrate_when_ringing_sim2_title">Vibrar ao tocar para SIM 2</string>
+<string name="sound_category_singsing_title">Karaokê</string>
+<string name="singsing_effects_title">Efeito de karaokê</string>
+<string name="singsing_effects_summary">Conecte o fone de ouvido ou conecte a um alto-falante na tela de gravação do aplicativo de karaokê para desfrutar a experiência completa do karaokê</string>
+<string name="haptic_feedback_enable_summary">Vibrar ao acessar a barra de navegação e desbloquear o telefone</string>
+<string name="dts_mode_enable_title">Modo DTS fones de ouvido</string>
+<string name="volume_voice_description">Chamada de voz</string>
+<string name="phone_settings">Chamar</string>
+<string name="volumn_dlg_dismiss">Fechar</string>
+<string name="not_set_ringtone">Nenhum</string>
+<string name="audio_profile_bes_surround_title">Sistema surround</string>
+<string name="lossless_title">Modo BT Sem Perdas</string>
+<string name="music_plus_summary">Melhorador de áudio para fone de ouvido</string>
+<string name="audio_profile_bes_loudness_summary">Aumentador de volume para autofalante</string>
+<string name="audio_profile_bes_surround_summary">Áudio Surrounding</string>
+<string name="lossless_summary">Áudio BT de alta qualidade</string>
+<string name="no_default_ringtone">Silencioso</string>
+<string name="nomalUi">IU padrão</string>
+<string name="simpleUi">IU simples</string>
+<string name="search_settings_hint">Procurando opções…</string>
+<string name="hint_to_open_applock">Ative o bloqueio do aplicativo antes de associar à sua impressão digital</string>
+<string name="backup_data_button_text">Fazer backup de dados</string>
+<string name="credentials_install_default">Instalar do cartão SD</string>
+<string name="credentials_install_summary_default">Instalar certificados do cartão SD</string>
+<string name="airline_ok">Ativar</string>
+<string name="airline_cancle">Cancelar</string>
+<string name="openairplane">Ativar modo avião?</string>
+<string name="notify_applock_title">Ativar bloqueio de aplicativos</string>
+<string name="notify_applock_msg">O bloqueio de aplicativos do Gerenciador do telefone deve ser ativado para que você associe sua impressão digital. Ativá-lo agora?</string>
+<string name="notify_security_title">Ativar cofre</string>
+<string name="notify_security_msg">O cofre de arquivos deve ser ativado para você associar a impressão digital. Ativá-lo agora?</string>
+<string name="enable">Ativar</string>
+<string name="slot_1">SIM 1</string>
+<string name="slot_2">SIM 2</string>
+<string name="switch_dual_card_slots_summary_emui">Este slot é compatível com mais estações e tem recepção de sinal melhor</string>
+<string name="dualcard_switch_alert_title_emui">Selecione o slot 4G/3G</string>
+<string name="dualcard_switch_alert_message">Esta operação pode desativar sua transf. de dados e outras funções básicas do telefone. Continuar mesmo assim?</string>
+<string name="default_call_message_summary">Selecionar SIM de chamada padrão para aplicativos de terceiros</string>
+<string name="default_sms_message_summary">Selecionar SIM de mensagens padrão para aplicativos de terceiros</string>
+<string name="cardstatus1">2G/3G/4G</string>
+<string name="cardstatus2">2G</string>
+<string name="switch_dual_card_slots_with_data">Slot 4G/3G padrão e de transf. de dados</string>
+<string name="default_call">Chamada padrão</string>
+<string name="default_message">Mensagens padrão</string>
+<string name="popup_default_id">Isso altera o status do seu SIM. Continuar?</string>
+<string name="toast_in_call">Não é possível alterar status do SIM quando você está em uma chamada.</string>
+<string name="space_text">%1$s, livres: %2$s</string>
+<string name="search_empty">Nenhuma correspondência</string>
+<string name="default_sms">Mensagens</string>
+<string name="certification">Certificação</string>
+<string name="sim_card_popup_illegal_title">Cartão SIM removido</string>
+<string name="sim_card_popup_illegal_msg">A rede móvel está indisponível. O telefone será reiniciado em %d segundos.</string>
+<string name="sim_card_popup_illegal_restart">Reiniciar agora</string>
+<string name="settings_application_preferred_dialog_title">Dica</string>
+<string name="settings_application_preferred_dialog_msg">Alterar o aplicativo padrão pode consumir mais bateria, incorrer em uso de dados ou aumentar riscos à segurança. Recomenda-se continuar a usar o aplicativo padrão no sistema.</string>
+<string name="settings_application_preferred_dialog_negtext">Cancelar</string>
+<string name="settings_application_preferred_dialog_positext">Alterar</string>
+    <string name="screen_lock_enable_title" translatable="false">Bloqueio de tela</string>
+    <string name="screenlock_password_others_settings_title" translatable="false">Outros</string>
+    <string name="data_usage_disable_mobile">Desativar dados da rede celular?</string>
+<string name="show_detailed_notifications_title">Mostrar informações de notificação detalhadas</string>
+<string name="show_detailed_notifications_summary">Mostrar detalhes da mensagem e remetente da notificação na tela de bloqueio</string>
+    <string name="music_plus_title">Aprimoramento de som dos fones de ouvido</string>
+    <string name="screenlock_password_settings_title" translatable="false">Bloqueio de tela e senhas</string>
+    <string name="screen_lock_enable_summary" translatable="false">Exigir que o telefone seja desbloq. antes de usá-lo</string>
+    <string name="screen_lock_style_title" translatable="false">Estilo de bloqueio de tela</string>
+    <string name="notification_turn_on_screen_title" translatable="false">Notificações ligam a tela</string>
+    <string name="notification_turn_on_screen_summary" translatable="false">Liga a tela ao receber notificações</string>
+     <string name="use_password_lock_only_title" translatable="false">Usar só bloqueio por senha</string>
+     <string name="use_password_lock_only_summary" translatable="false">Mostrar tela de entrada de senha diretamente.</string>
+    <string name="wifi_p2p_device">Meu dispositivo</string>
+    <string name="wifi_setup_wizard_header_title_select">Selecionar Wi-Fi</string>
+    <string name="wifi_setup_wizard_header_title">Wi-Fi Definições</string>
+    <string name="wifi_setup_wizard_header_switch_title">Wi-Fi</string>
+    <string name="title_font_size">Selecionar o tamanho da fonte</string>
+    <string name="screensaver_settings_title">Daydream</string>
+    <string name="credentials_install_summary" product="default">Instalar certificados do cartão SD</string>
+    <string name="credentials_install" product="default">Instalar do cartão SD</string>
+    <string name="wifi_and_mobile_skipped_message" product="tablet">"Se ignorar o Wi‑Fi:\n\nO seu tablet não terá uma ligação à Internet.\n\nNão receberá atualizações de software até se ligar à Internet.\n\nNeste momento, não pode activar as funcionalidades de proteção do dispositivo."</string>
+    <string name="wifi_and_mobile_skipped_message" product="device">"Se ignorar o Wi‑Fi:\n\nO seu dispositivo não terá uma ligação à Internet.\n\nNão receberá atualizações de software até se ligar à Internet.\n\nNeste momento, não pode activar as funcionalidades de proteção do dispositivo."</string>
+    <string name="wifi_and_mobile_skipped_message" product="default">"Se ignorar o Wi‑Fi:\n\nO seu telemóvel não terá uma ligação à Internet.\n\nNão receberá atualizações de software até se ligar à Internet.\n\nNeste momento, não pode activar as funcionalidades de proteção do dispositivo."</string>
+    <string name="home_style_normal_description">Aproveite uma tela inicial completa e diversificada, com layout padrão de aplicativos e widgets.</string>
+    <string name="home_style_simple_description">Aproveite uma tela inicial minimalista e limpa, com um layout simples e ícones grandes.</string>
+    <string name="menu_apply">Aplicar</string>
+    <string name="launcher_mode_menu_applied">Atual</string>
+    <string name="audio_profile_bes_loudness_title" translatable="false">Aumentar som do alto-falante</string>
+    <string name="sim_change_data_title">Alterar SIM de dados?</string>
+    <string name="sim_change_data_message">"Usar <xliff:g id="NEW_SIM">%1$s</xliff:g> em vez de <xliff:g id="OLD_SIM">%2$s</xliff:g> para os dados da rede celular?"</string>
+    <string name="smart_touch_proof_settings_title">Modo de desativação de toque</string>
+	<string name="viewer_title_cb">Transmissão Celular</string><!--add by wangjing3 for HQ01823169 20160324--><!--modify by liujia5 for HQ01823169 20160426-->
+</resources>

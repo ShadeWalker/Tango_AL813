@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">Зменшення шумів</string>
+    <string name="dual_mic_summary">Зменшіть сторонній шум під час викликів</string>
+    <string name="anc_title">Активне зменшення шумів</string>
+    <string name="anc_on">Увімк. АЗШ</string>
+    <string name="anc_off">Вимк. АЗШ</string>
+    <string name="ip_prefix_setting">Префікс ІР</string>
+    <string name="ip_prefix_setting_lable">Префікс ІР (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">Налаштування префікса ІР</string>
+    <string name="enter_ip_prefix_number">Введіть префікс</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Будь ласка, спочатку введіть префікс ІР у налаштування голосових викликів.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">Функція набору ІР недійсна в Інтернет-виклику.</string>
+    <string name="ip_prefix_edit_default_sum">Введіть префікс для ІР-набору</string>
+    <string name="lable_call_barring">"Заборона викл."</string>
+    <string name="title_call_barring">Заборона викл (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">Всі вихідні виклики</string>
+    <string name="lable_all_outgoing_international">Міжнародні вихідні виклики</string>
+    <string name="lable_all_out_except">Міжнародні вихідні виклики, крім внутрішніх наземних мобільних мереж</string>
+    <string name="lable_all_incoming">Всі вхідні виклики</string>
+    <string name="lable_incoming_calls_except">Вхідні виклики у роумінгу</string>
+    <string name="deactivate_all">Скасувати всі</string>
+    <string name="change_password">Змінити пароль заборони</string>
+    <string name="call_barring_sum">Налаштування заборони голосових викликів</string>
+    <string name="lable_disable">"Вимкнено"</string>
+    <string name="lable_enable">"Увімкнено"</string>
+    <string name="old_password_label">Старий пароль (4 цифри)</string>
+    <string name="new_password_label">Новий пароль (4 цифри)</string>
+    <string name="invalid_password">Наберіть пароль з 4 цифр.</string>
+    <string name="confirm_password_label">Підтвердіть новий пароль</string>
+    <string name="mismatch_password">Введений вами пароль не співпадає. Будь ласка, повторіть спробу.</string>
+    <string name="password_changed">Успішно змінено пароль</string>
+    <string name="enter_callbarring_password">Введіть пароль заборони викликів (4 цифри)</string>
+    <string name="wrong_password">Помилка паролю</string>
+    <string name="error_title">"Помилка"</string>
+    <string name="cell_broadcast">Стільникова трансляція</string>
+    <string name="cell_broadcast_settings">Налаштування стільникової трансляції</string>
+    <string name="cb_menu_language">"Мова"</string>
+    <string name="cb_menu_add_channel">Додати канал</string>
+    <string name="cb_menu_channel_list">Список каналів</string>
+    <string name="cb_dialog_title_language_choice">Виберіть мову</string>
+    <string name="cb_channel_dialog_channel_name">Назва каналу (0-10 символів)</string>
+    <string name="cb_channel_dialog_channel_number">Номер каналу (0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">Активувати канал</string>
+    <string name="cb_channel_dialog_edit_channel">Редагувати канал</string>
+    <string name="cb_menu_edit">"Редаг."</string>
+    <string name="cb_menu_delete">"Видалити"</string>
+    <string name="cb_error_channel_num">Будь ласка, введіть номер каналу (0-65534).</string>
+    <string name="cb_error_channel_name">Неправильна довжина назви каналу (1-10 символів).</string>
+    <string name="cb_error_language_select">Будь ласка, виберіть хоч одну мову.</string>
+    <string name="cb_error_channel_id_exist">Існує ID каналу</string>
+    <string name="cb_all_languages">"Усі мови"</string>
+    <string name="cb_default_new_channel_name">Новий канал</string>
+    <string name="fdn_errorcode_unknown_info">Не виконано. Невідома помилка. Будь ласка, повторіть спробу пізніше.</string>
+    <string name="fdn_errorcode_number_info">Не виконано. Номер контакта задовгий.</string>
+    <string name="fdn_errorcode_name_info">"Не виконано. Ім'я контакту задовге."</string>
+    <string name="fdn_errorcode_storage_info">"Помилка. Пам'ять заповнена."</string>
+    <string name="fdn_errorcode_phb_info">Помилка. Телефонна книга не готова, будь ласка, спробуйте пізніше.</string>
+    <string name="fdn_errorcode_pin2_info">Помилка. Недійсний PIN2.</string>
+    <string name="net_or_simcard_busy">Мережа або SIM-карта зайняті, будь ласка, спробуйте пізніше.</string>
+    <string name="plmn_list_setting_title">Бажані мережі</string>
+    <string name="network_id">ID мережі</string>
+    <string name="plmn_list_setting_add_plmn">Нова наземна стільникова мережа</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">"Пошук..."</string>
+    <string name="sum_search_femtocell_networks">Виберіть femtocell вручну</string>
+    <string name="register_femtocell_point_wait_tip">Реєстрація <xliff:g id="femto_cell_info">%s</xliff:g> …</string>
+    <string name="register_femtocell_point_result_fail_tip">Неможливо підключитися до цієї мережі зараз. Повторіть спробу пізніше.</string>
+    <string name="network_type">Тип мережі</string>
+    <string name="gsm_umts_network_preferences_title">"Режим мережі"</string>
+    <string name="gsm_umts_network_preferneces_summary">Ще не вповаджено!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"Режим мережі"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G (авто)</item>
+        <item>лише 3G</item>
+        <item>лише 2G</item>
+    </string-array>
+    <string name="notification_voicemail_text">Виберіть, щоб переглянути голосову пошту</string>
+    <string name="notification_network_selection_without_operator">Вибрана мережа недоступна</string>
+    <string name="network_setting_all_forbidden_dialog">Нема доступних мереж.</string>
+    <string name="network_forbidden">заборонено</string>
+    <string name="fdn_contact_number_invalid">Недійсний номер контакта.</string>
+    <string name="fdn_puk_need_tips">PIN 2 заблоковано. Будь ласка, змініть PIN 2 і повторіть спробу.</string>
+    <string name="fdn_phone_book_busy">Телефонна книга зайнята, будь ласка, повторіть спробу пізніше.</string>
+    <string name="one_retry_left">лишилася 1 спроба</string>
+    <string name="retries_left"><xliff:g id="number">%d</xliff:g> спроб лишилося</string>
+    <string name="pin_length_indicate">(4-8 цифр)</string>
+    <string name="puk_length_indicate">(8 цифр)</string>
+    <string name="unblock_pin2">Розблокувати PIN2</string>
+    <string name="sim_permanently_locked">Більше 10 раз введено неправильний PUK2, SIM-карту назавжди заблоковано</string>
+    <string name="magi_conference_title">МагіКонференція</string>
+    <string name="magi_conference_summary">Вдосконалюйте якість голосу, коли багато чоловік з одного боку одночасно говорять по телефону.</string>
+    <string name="volte_is_adding_participants">Додаються учасники конференції, будь ласка, почекайте...</string>
+    <string name="volte_fail_to_invit_participants">Не додано учасників до конференції.</string>
+    <string name="voicemail_lable">Голосова пошта (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">"Щоб виконати операцію, слід відкрити зв'язок даних <xliff:g id="sub_name">%s</xliff:g>."</string>
+    <string name="cdma_labelCFU">"Завжди пересилати"</string>
+    <string name="cdma_labelCFB">"Пересил., коли зайн."</string>
+    <string name="cdma_labelCFNRy">"Пересилати, якщо не відпов."</string>
+    <string name="cdma_labelCFNRc">"Пересилати, коли недоступ."</string>
+    <string name="cdma_labelCFC">Скасувати всі перенаправлення</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">Відключити обмеження ідентифікації номера абонента</string> 
+    <string name="cdma_cnir_turnon">Активувати обмеження ідентифікації номера абонента</string>
+    <string name="lte_data_only_prompt">Неможливо користуватися цією функцією у режимі лише 4G. Бажаєте вийти з режиму лише 4G?</string>
+    <string name="lte_data_only_timeout">У вашому поточному розташуванні недоступні мережі лише 4G. Бажаєте вийти і шукати інші мережі?</string>
+    <string name="lte_only_dialog_button_yes">"ТАК"</string>
+    <string name="lte_only_dialog_button_no">"НІ"</string>
+    <string name="lte_only_dialog_title_prompt">Підказка</string>
+    <string name="enable_4G_data">Активувати дані 4G</string>
+    <string name="enable_4G_data_summary">4G надає кращий і швидший доступ до Інтернет</string>
+    <string name="only_use_LTE_data">Користуватися лише даними LTE</string>
+    <string name="only_use_LTE_data_summary">Щоб активувати лише єдині дані, функція не зможе застосовувати виклики Телефону та SMS.</string>
+    <string name="network_available">"Доступний"</string>
+    <string name="network_current">Реєстрація</string>
+    <string name="gsm_network">Мережа GSM</string>
+    <string name="cdma_network">МЕРЕЖА CDMA</string>
+    <string name="no_sim_card">Відсутня SIM-картка</string>
+    <string name="no_sim_card_cdma">Немає UIM-картки</string>
+    <string name="airplane_mode_on">Режим "У літаку" ввімкнено</string>
+    <string name="wifi_off_summary">Wi-Fi вимкнено.</string>
+    <string name="wfc_unknown_error_summary">Невідома помилка</string>
+</resources>

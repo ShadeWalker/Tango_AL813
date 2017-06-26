@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="1195501551939178807" name="all_images">"همه عکس‌ها"</string>
+    <string msgid="3380966619230896013" name="all_videos">"همه ویدئوها"</string>
+    <string msgid="6346560772074764302" name="camera_label">"دوربین"</string>
+    <string msgid="3080425245006492787" name="gallery_picker_label">"گالری"</string>
+    <string msgid="7119609703856708011" name="gallery_label">"گالری"</string>
+    <string msgid="2924618424339240831" name="gallery_camera_bucket_name">"عکس‌های دوربین"</string>
+    <string msgid="3369151581398551623" name="gallery_camera_videos_bucket_name">"ویدئوهای دوربین"</string>
+    <string msgid="5560926838411387511" name="gallery_camera_media_bucket_name">"رسانه دوربین"</string>
+    <string msgid="521114301871349328" name="crop_label">"برش تصویر"</string>
+    <string msgid="4450531507947335704" name="view_label">"مشاهده تصویر"</string>
+    <string msgid="5955678162525051163" name="preferences_label">"تنظیمات دوربین"</string>
+    <string msgid="8600187532323801552" name="wait">"لطفاً منتظر بمانید…"</string>
+    <string msgid="4006727786803418058" name="no_storage" product="nosdcard">"قبل از استفاده از دوربین لازم است حافظه  به اشتراک گذاشته شده را نصب کنید."</string>
+    <string msgid="6680362958795677723" name="no_storage" product="default">"‏قبل از استفاده از دوربین، باید کارت SD را در دستگاه بگذارید."</string>
+    <string msgid="7966388882416357252" name="not_enough_space" product="nosdcard">"حافظه مشترک شما پر است."</string>
+    <string msgid="6655334407957844653" name="not_enough_space" product="default">"‏کارت SD شما پر است."</string>
+    <string msgid="183917364005592061" name="preparing_sd" product="nosdcard">"آماده سازی حافظه مشترک..."</string>
+    <string msgid="2914969119574812666" name="preparing_sd" product="default">در حال آماده کردن کارت SD</string>
+    <string msgid="140165383777262070" name="wallpaper">"تنظیم تصویر زمینه..."</string>
+    <string msgid="3051745378545909260" name="savingImage">"در حال ذخیره عکس..."</string>
+    <string msgid="2293932204708167704" name="runningFaceDetection">"لطفاً منتظر بمانید…"</string>
+    <string msgid="6277795271119411881" name="view">"مشاهده"</string>
+    <string msgid="8415120088556445230" name="details">"جزئیات"</string>
+    <string msgid="441725587731006228" name="show_on_map">"‏نمایش در Maps"</string>
+    <string msgid="460017689320955494" name="rotate">"چرخش"</string>
+    <string msgid="5888273317282539839" name="rotate_left">"چرخش به چپ"</string>
+    <string msgid="6776325835923384839" name="rotate_right">"چرخش به راست"</string>
+    <string msgid="1965192737233824143" name="slide_show">"نمایش اسلاید"</string>
+    <string msgid="4761682939945434146" name="multiselect">"چندین انتخاب"</string>
+    <string msgid="4114265595549284643" name="capture_picture">"عکسبرداری"</string>
+    <string msgid="4047046282358697155" name="capture_video">"فیلم برداری"</string>
+    <string msgid="8140440041190264400" name="crop_save_text">"ذخیره"</string>
+    <string msgid="5303657888280340603" name="crop_discard_text">"صرف‌نظر"</string>
+    <string msgid="263478358046514887" name="confirm_delete_title">"حذف"</string>
+    <string msgid="2141726810668595858" name="confirm_delete_message">"این تصویر حذف شود؟"</string>
+    <string msgid="800016540763376529" name="confirm_delete_video_message">"این ویدئو حذف شود؟"</string>
+    <string msgid="5184550162588396436" name="confirm_delete_multiple_message">"این فایل‌های رسانه حذف شوند؟"</string>
+    <string msgid="3781186798552460833" name="camera_toss">"حذف"</string>
+    <string msgid="8207701858325694182" name="camera_share">"اشتراک‌گذاری"</string>
+    <string msgid="3422192914806971182" name="camera_set">"تنظیم به‌عنوان"</string>
+    <string msgid="8248000517869959980" name="camera_play">"پخش"</string>
+    <string msgid="4048659554893435232" name="camera_attach">"پیوست"</string>
+    <string msgid="8203341746672085747" name="camera_cancel">"لغو"</string>
+    <string msgid="5584000454518174632" name="camera_crop">"برش"</string>
+    <string msgid="7980215622010396797" name="no_way_to_share_image">"هیچ برنامه‌ای برای اشتراک‌گذاری تصویر در دسترس نیست."</string>
+    <string msgid="4506167265329982928" name="no_way_to_share_video">"برنامه‌ای برای اشتراک‌گذاری ویدئو در دسترس نیست."</string>
+    <string msgid="5276805314940059662" name="no_way_to_share">"برنامه‌ای برای اشتراک‌گذاری فایل(های) رسانه در دسترس نیست."</string>
+    <string msgid="5287787282508002895" name="video_play">"پخش"</string>
+    <string msgid="7026385960511811641" name="camera_pick_wallpaper">"تصاویر"</string>
+    <string msgid="797463183863414289" name="camera_setas_wallpaper">"تصویر زمینه"</string>
+    <string msgid="5826488887237959433" name="pref_gallery_category">"تنظیمات عمومی"</string>
+    <string msgid="9097962086335681667" name="pref_slideshow_category">"تنظیمات نمایش اسلاید"</string>
+    <string msgid="1363406603879434418" name="pref_gallery_size_title">"اندازه نمایش"</string>
+    <string msgid="7365675768755956361" name="pref_gallery_size_summary">"انتخاب اندازه نمایش عکس‌ها و ویدئوها"</string>
+    <string msgid="757380558320647503" name="pref_gallery_size_dialogtitle">"اندازه تصویر"</string>
+  <string-array name="pref_gallery_size_choices">
+    <item msgid="7157691836846678936">"بزرگ"</item>
+    <item msgid="1033164600689216410">"کوچک"</item>
+  </string-array>
+    <string msgid="7447949250045443386" name="pref_gallery_sort_title">"ترتیب مرتب سازی"</string>
+    <string msgid="4406174975925645225" name="pref_gallery_sort_summary">"ترتیب تصاویر و ویدئوها را انتخاب کنید"</string>
+    <string msgid="5787417105532562739" name="pref_gallery_sort_dialogtitle">"مرتب سازی تصویر"</string>
+  <string-array name="pref_gallery_sort_choices">
+    <item msgid="5546009539334018063">"جدیدترین مورد در ابتدا"</item>
+    <item msgid="7931283047572866748">"جدیدترین مورد در انتها"</item>
+  </string-array>
+    <string msgid="6534904787962619832" name="pref_gallery_slideshow_interval_title">"فاصله نمایش اسلاید"</string>
+    <string msgid="25973922639324614" name="pref_gallery_slideshow_interval_summary">"انتخاب کنید که هر اسلاید چه مدت نمایش داده شود"</string>
+    <string msgid="6775543119826248900" name="pref_gallery_slideshow_interval_dialogtitle">"فاصله نمایش اسلاید"</string>
+  <string-array name="pref_gallery_slideshow_interval_choices">
+    <item msgid="3089037742117543119">"۲ ثانیه"</item>
+    <item msgid="738579316565625730">"۳ ثانیه"</item>
+    <item msgid="5670078787463530498">"۴ ثانیه"</item>
+  </string-array>
+    <string msgid="3235158556228218846" name="pref_gallery_slideshow_transition_title">"جلوه انتقالی نمایش اسلاید"</string>
+    <string msgid="8294295294239125591" name="pref_gallery_slideshow_transition_summary">"جلوه‌ای را برای استفاده هنگام انتقال از یک اسلاید به اسلاید بعدی انتخاب کنید"</string>
+    <string msgid="5483406447721500371" name="pref_gallery_slideshow_transition_dialogtitle">"جلوه انتقالی نمایش اسلاید"</string>
+  <string-array name="pref_gallery_slideshow_transition_choices">
+    <item msgid="2825716730899894863">"ظاهر شدن و محو شدن تدریجی"</item>
+    <item msgid="403116336404005687">"اسلاید چپ - راست"</item>
+    <item msgid="4901733079450971731">"اسلاید بالا - پایین"</item>
+    <item msgid="9006732482485375438">"انتخاب تصادفی"</item>
+  </string-array>
+    <string msgid="6512135022461429738" name="pref_gallery_slideshow_repeat_title">"تکرار نمایش اسلاید"</string>
+    <string msgid="8289230397431855268" name="pref_gallery_slideshow_repeat_summary">"پخش نمایش اسلاید بیش از یک بار"</string>
+    <string msgid="3677508579783015598" name="pref_gallery_slideshow_shuffle_title">"ترتیب تصادفی اسلایدها"</string>
+    <string msgid="8566948749149325715" name="pref_gallery_slideshow_shuffle_summary">"نمایش تصاویر به ترتیب تصادفی"</string>
+    <string msgid="2433519618178453928" name="camerasettings">"تنظیمات"</string>
+    <string msgid="409595259802877447" name="image_gallery_NoImageView_text">"رسانه‌ای یافت نشد."</string>
+    <string msgid="642429032687845907" name="pref_gallery_confirm_delete_title">"تأیید حذف ها"</string>
+    <string msgid="5253456492765525245" name="pref_gallery_confirm_delete_summary">"نمایش پیکربندی قبل از حذف یک تصویر یا ویدئو"</string>
+    <string msgid="8907867717568887559" name="no_location_image">"هیچ اطلاعات محل ذخیره شده‌ای در این تصویر وجود ندارد."</string>
+    <string msgid="4753347516759338122" name="details_panel_title">"جزئیات"</string>
+    <string msgid="2468878774843246797" name="details_file_size">"اندازه فایل:"</string>
+    <string msgid="8773315928100529437" name="details_image_resolution">"وضوح:"</string>
+    <string msgid="2888477930210903540" name="details_image_make">"سازنده:"</string>
+    <string msgid="3608007849933924336" name="details_image_model">"مدل:"</string>
+    <string msgid="4412514247882436065" name="details_image_whitebalance">"توازن سفیدی:"</string>
+    <string msgid="58222150203989546" name="details_image_latitude">"‏عرض جغرافیایی GPS:"</string>
+    <string msgid="3792725587390654278" name="details_image_longitude">"‏طول جغرافیایی GPS:"</string>
+    <string msgid="6460201074393148978" name="details_image_location">"موقعیت مکانی:"</string>
+    <string msgid="1028116471387901402" name="details_duration">"طول مدت:"</string>
+    <string msgid="348356840586463178" name="details_date_taken">"تاریخ گرفتن:"</string>
+    <string msgid="122397836963498191" name="details_frame_rate">"نرخ فریم:"</string>
+    <string msgid="5632311789455402186" name="details_bit_rate">"نرخ بیت:"</string>
+    <string msgid="5580300450432398126" name="details_codec">"کدک:"</string>
+    <string msgid="3700860266600796363" name="details_format">"قالب:"</string>
+    <string msgid="4923037334136168978" name="details_dimension_x">"<xliff:g id="WIDTH">%1$d</xliff:g> x <xliff:g id="HEIGHT">%2$d</xliff:g>"</string>
+    <string msgid="7574063760642857397" name="details_ms">"<xliff:g id="MINUTES">%1$02d</xliff:g>:<xliff:g id="SECONDS">%2$02d</xliff:g>"</string>
+    <string msgid="772340067838331166" name="details_hms">"<xliff:g id="HOURS">%1$d</xliff:g>:<xliff:g id="MINUTES">%2$02d</xliff:g>:<xliff:g id="SECONDS">%3$02d</xliff:g>"</string>
+    <string msgid="5450871169477340537" name="details_fps">"<xliff:g id="FRAMES">%1$d</xliff:g> کادر در ثانیه"</string>
+    <string msgid="1515369011744784592" name="details_kbps">"<xliff:g id="SPEED">%1$d</xliff:g> کیلوبیت در ثانیه"</string>
+    <string msgid="3291428849607323284" name="details_mbps">"<xliff:g id="SPEED">%1$g</xliff:g> مگابیت در ثانیه"</string>
+    <string msgid="6848594369924424312" name="details_ok">"تأیید"</string>
+    <string msgid="1185348426222302182" name="context_menu_header">"گزینه‌های تصویر"</string>
+    <string msgid="7318971116949475029" name="video_context_menu_header">"گزینه‌های ویدئو"</string>
+    <string msgid="2554690102655855657" name="multiface_crop_help">"برای شروع یک چهره را لمس کنید."</string>
+    <string msgid="6914406246471015448" name="photos_gallery_title">"گالری"</string>
+    <string msgid="8356086704733473321" name="pick_photos_gallery_title">"انتخاب تصویر"</string>
+    <string msgid="6150354029982749479" name="videos_gallery_title">"گالری"</string>
+    <string msgid="568436323607491495" name="pick_videos_gallery_title">"انتخاب ویدئو"</string>
+    <string msgid="7279510542799399570" name="sendImage">"اشتراک‌گذاری تصویر از طریق"</string>
+    <string msgid="7246975856983303047" name="setImage">"تنظیم تصویر به‌عنوان"</string>
+    <string msgid="3598567735831863073" name="sendVideo">"اشتراک‌گذاری ویدئو از طریق"</string>
+    <string msgid="8201083279723850611" name="send_media_files">"اشتراک‌گذاری فایل‌های رسانه از طریق"</string>
+    <string msgid="7363495772706775465" name="movieviewlabel">ویدئوها</string>
+    <string msgid="4013492720121891585" name="loading_video">"در حال بارگیری ویدئو..."</string>
+    <string msgid="8996677350649355013" name="resume_playing_title">"از سرگیری ویدئو"</string>
+    <string msgid="8480340146814638566" name="resume_playing_message">"پخش ویدئو از <xliff:g id="DURATION">%s</xliff:g> از سرگرفته شود؟"</string>
+    <string msgid="3847915469173852416" name="resume_playing_resume">"از سرگیری پخش"</string>
+    <string msgid="5471008499835769292" name="resume_playing_restart">"شروع مجدد"</string>
+    <string msgid="259405922673466798" name="gadget_title">"قاب عکس"</string>
+    <string msgid="1628963357466012538" name="file_info_title">"اطلاعات فایل:"</string>
+    <string msgid="3835075281230780010" name="video_exceed_mms_limit">"‏ویدئویی که شما ضبط کردید برای ارسال از طریق MMS خیلی بزرگ است. یک کلیپ کوچکتر ضبط کنید."</string>
+    <string msgid="5261644537749253581" name="multiselect_share">"اشتراک‌گذاری"</string>
+    <string msgid="9113461994546744603" name="multiselect_delete">"حذف"</string>
+    <string msgid="5969428692864002165" name="multiselect_cancel">"لغو"</string>
+    <string msgid="2332683687700452577" name="delete_images_message">"در حال حذف تصاویر..."</string>
+</resources>

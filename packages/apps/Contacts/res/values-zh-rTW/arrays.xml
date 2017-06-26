@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2012 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dialer_item_0">貼上</string>
+    <string name="dialer_item_1">刪除通話記錄</string>
+    <string name="dialer_item_2">檢視依據</string>
+    <string name="dialer_item_3">快速撥號設定</string>
+    <string name="dialer_item_4">騷擾過濾器</string>
+    <string name="dialer_item_5">通話設定</string>
+
+    <string-array name="items_menu">
+        <item>"粘貼"</item>
+        <item>"刪除通話記錄"</item>
+        <item>"查看通話類型"</item>
+        <item>"騷擾攔截"</item>
+        <item>"通話設置"</item>
+    </string-array>
+
+    <string-array name="items_menu2">
+        <item>"刪除通話記錄"</item>
+        <item>"查看通話類型"</item>
+        <item>"騷擾攔截"</item>
+        <item>"通話設置"</item>
+    </string-array>
+
+    <string-array name="items_menu3">
+        <item>"粘貼"</item>
+        <item>"查看通話類型"</item>
+        <item>"騷擾攔截"</item>
+        <item>"通話設置"</item>
+    </string-array>
+
+    <string-array name="items_menu4">
+        <item>"查看通話類型"</item>
+        <item>"騷擾攔截"</item>
+        <item>"通話設置"</item>
+    </string-array>
+
+    <string-array name="items_call_type_menu">
+        <item>"全部通話"</item>
+        <item>"未接來電"</item>
+        <item>"已撥電話"</item>
+        <item>"已接電話"</item>
+    </string-array>
+    <string-array name="menuItems">
+        <item>要顯示的聯繫人</item>
+        <item>導入/導出</item>
+        <item>賬戶</item>
+        <item>刪除</item>
+        <item>設定</item>
+    </string-array>
+</resources>

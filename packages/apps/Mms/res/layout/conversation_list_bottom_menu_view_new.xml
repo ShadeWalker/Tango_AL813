@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:id="@+id/menu_bottom_view"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/fabs_height"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/boder"
+	android:orientation="vertical">
+
+	<View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e3e3e3" />
+
+	<LinearLayout 
+	  	android:id="@+id/menu_action_mode"
+		android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+		android:visibility="gone">
+
+            <Space
+                android:layout_width="@dimen/menu_space_width"
+                android:layout_height="match_parent" />
+		        
+            <RelativeLayout
+                android:id="@+id/select_all"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" 
+                android:gravity="center">
+				
+                <ImageView
+                    android:id="@+id/select_all_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_menu_select_all" />
+
+                <TextView
+                    android:id="@+id/select_all_msg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/select_all_img"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/menu_slect_all"
+                    android:textSize="@dimen/menu_text_size" 
+                    android:textColor="@color/menu_text_color" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/delete_threads"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" 
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/delete_threads_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_menu_trash_holo_dark" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/delete_threads_img"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/delete"
+                    android:textSize="@dimen/menu_text_size" 
+                    android:textColor="@color/menu_text_color" />
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="@dimen/menu_space_width"
+                android:layout_height="match_parent" />
+   </LinearLayout>  
+	
+	<LinearLayout 
+	  	android:id="@+id/menu_bottom"
+		android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+            <Space
+                android:layout_width="@dimen/menu_space_width"
+                android:layout_height="match_parent" />
+
+		    <RelativeLayout
+		        android:id="@+id/new_mms_view"
+		        android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" 
+                android:gravity="center" >
+		        <ImageView
+		            android:id="@+id/new_msg_img"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+		            android:src="@drawable/ic_menu_msg_compose_holo_dark" />
+
+		        <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_below="@id/new_msg_img"
+		            android:layout_centerHorizontal="true"
+		            android:text="@string/new_message"
+		            android:textSize="@dimen/menu_text_size"
+                            android:singleLine="true" 
+                            android:ellipsize="marquee" 
+                    android:textColor="@color/menu_text_color" />
+		    </RelativeLayout>
+
+		    <RelativeLayout
+		        android:id="@+id/search_mms_view"
+		        android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" 
+                android:gravity="center" >
+
+		        <ImageView
+		            android:id="@+id/search_img"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+		            android:src="@drawable/ic_menu_search_holo_dark" />
+
+		        <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_below="@+id/search_img"
+		            android:layout_centerHorizontal="true"
+		            android:text="@string/menu_search"
+		            android:textSize="@dimen/menu_text_size"
+                            android:singleLine="true" 
+                            android:ellipsize="marquee" 
+                    android:textColor="@color/menu_text_color" />
+		    </RelativeLayout>
+
+		    <RelativeLayout
+		        android:id="@+id/more_menu_item"
+		        android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" 
+                android:gravity="center" >
+
+		        <ImageView
+		            android:id="@+id/more_menu_img"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+		            android:src="@drawable/ic_menu_more" />
+
+		        <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_below="@id/more_menu_img"
+		            android:layout_centerHorizontal="true"
+		            android:text="@string/more_menu"
+		            android:textSize="@dimen/menu_text_size" 
+                            android:singleLine="true" 
+                            android:ellipsize="marquee"
+                    android:textColor="@color/menu_text_color" />
+		    </RelativeLayout>
+
+		    <Space
+                android:layout_width="@dimen/menu_space_width"
+                android:layout_height="match_parent" />
+	  </LinearLayout>  
+
+</LinearLayout>  
+

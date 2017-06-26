@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- AudioProfile Settings start -->
+  <string name="music_plus_title" translatable="false">Lydforbedring for hodesett</string>
+  <string name="audio_profile_bes_surround_title">Surround-lyd</string>
+  <string name="audio_profile_bes_loudness_title" translatable="false">Volumforsterker for høyttaler</string>
+  <string name="mira_vision_title" translatable="false">Vis effekt</string>
+   <string name="ring_summary">"Ring"</string>
+  <string name="ring_vibrate_summary">"Ringelyd og vibrering"</string>
+  <string name="silent_summary">"Bare lydløs"</string>
+  <string name="meeting_summary">"Bare vibrering"</string>
+  <string name="outdoor_summary">"Høyeste ringelyd og vibrering"</string>
+  <string name="audio_profile_reset">"Tilbakestill"</string>
+  <string name="audio_profile_add">"Legg til"</string>
+  <string name="audio_profile_enable">"Aktiver"</string>
+  <string name="audio_profile_rename">"Gi nytt navn"</string>
+  <string name="audio_profile_delete">"Slett"</string>
+  <string name="audio_profile_message_reset">Alle lydprofilinnstillinger vil bli tilbakestilt til standard</string>
+  <string name="audio_profile_message_rename">Legg inn det nye profilnavnet</string>
+  <string name="audio_profile_message_name_error">Navnet eksisterer allerede</string>
+  <string name="audio_profile_message_name_length_wrong">Navnet må inneholde minst ett tegn</string>
+  <string name="audio_profile_message_delete">Profilen 
+        <xliff:g id="profile">%s</xliff:g> vil bli slettet
+    </string>
+  <string name="audio_profile_message_overflow">Du kan kun legge til seks egendefinerte profiler</string>
+  <string name="audio_profile_category_custom_title">Brukerdefinerte profiler</string>
+  <string name="audio_profile_category_predefine_title">Forhåndsdefinerte profiler</string>
+  <string name="audio_profile_error">Feil</string>
+  <string name="audio_profile_others">Varsling og annet</string>
+  <string name="general_settings_title">"Generelt"</string>
+  <string name="silent_settings_title">"Lydløs"</string>
+  <string name="meeting_settings_title">"Møte"</string>
+  <string name="outdoor_settings_title">"Utendørs"</string>
+  <string name="sound_category_feedback_title">"System"</string>
+  <string name="sound_category_calls_title">"Innkommende samtaler"</string>
+  <string name="voice_call_title">"Ringetone for taleanrop"</string>
+  <string name="voice_call_summary">"Angi standard ringetone for taleanrop"</string>
+  <string name="video_call_title">"Ringetone for videoanrop"</string>
+  <string name="video_call_summary">"Angi standard ringetone for videoanrop"</string>
+  <string name="sip_call_title">Ringetone for SIP-samtale</string>
+  <string name="sip_call_summary">Sett standard ringetone for SIP-samtaler</string>
+  <string name="Phone_vibrate_summary">Vibrer enheten ved innkommende samtaler</string>
+  <string name="vibrate_title">"Vibrering"</string>
+  <string name="audio_profile_settings_title">"Lydprofiler"</string>
+  <string name="audio_profile_bes_loudness_summary">Volume booster for høyttaler</string>
+  <string name="sound_enhancement_title">"Lydforbedring"</string>
+  <string name="music_plus_summary">Lydforbedring for øretelefon</string>
+  <string name="lossless_title">BT-modus uten datatap</string>
+  <string name="lossless_summary">Høykvalitets BT-lyd</string>
+  <string name="lossless_connect_summary">Wi-Fi vil bli påvirket av å slå på BT-modus uten datatap. Er du sikker på at du vil aktivere?</string>
+  <string name="lossless_on">BT-modus uten datatap PÅ</string>
+  <string name="lossless_playing">Spille av musikk uten datatap</string>
+  <string name="lossless_toastmessage">Systemlyder vil bli spilt via telefonhøyttaleren</string>
+  <string name="lossless_volume_max">Sett systemlydstyrken til maksimum</string>
+  <string name="lossless_cannot_found_device">Finner ikke enhet for BT uten datadap</string>
+  <string name="audio_profile_bes_surround_title">BesSurround</string>
+  <string name="audio_profile_bes_surround_summary">Surroundlyd</string>
+  <string name="audio_profile_bes_surround_mode_movie">Filmmodus</string>
+  <string name="audio_profile_bes_surround_mode_music">Musikkmodus</string>
+  <string msgid="6680706009915204785" name="zen_mode_option_title_novoice">"Ved innkommende varsler"</string>
+  <!-- AudioProfile Settings end -->
+ 
+  <!-- MTK Wi-Fi settings start -->
+   <string name="wifi_no_cert_for_wapi">Kunne ikke finne sertifisering for gjeldende tilkoblings-AP</string>
+  <string name="sim_slot">SIM-spor</string>
+  <string name="eap_sim_slot_0">"SIM-kortspor 1"</string>
+  <string name="eap_sim_slot_1">SIM-spor 2</string>
+  <string name="eap_sim_aka_airplanemode">Slå av flymodus for å bruke EAP-SIM/AKA</string>
+  <string name="eap_sim_aka_no_sim_error">Du må sette inn et SIM-kort for å bruke EAP-SIM/AKA</string>
+  <string name="eap_sim_aka_no_sim_slot_selected">Du må velge et SIM-kortspor for å bruke EAP-SIM/AKA</string>
+  <string name="wifi_security_wapi_certificate">"WAPI-sertifikat"</string>
+  <string name="wapi_user_certificate">"Brukersertifikat"</string>
+  <string name="wapi_as_certificate">ASE-sertifikat</string>
+  <string name="wifi_hex_password">Heksadesimalt passord.</string>
+  <string name="wifi_WEP_transmit_key">"Overfør nøkkel"</string>
+  <string name="wifi_WEP_secury_key">"Sikkerhetsnøkkel"</string>
+  <string name="wifi_tether_auto_disable_title">Hold Wi-Fi-hotspot på</string>
+  <string name="wifi_tether_auto_channel_text">Automatisk</string>
+  <string name="wifi_tether_auto_channel_width_text">"Automatisk 20/40 MHz"</string>
+  <string name="wifi_channel">"Foretrukket kanal"</string>
+  <string name="wifi_channel_width">"Kanalbredde"</string>
+  <string name="wifi_advanced_ipv4_address_title">"IPv4-adresse"</string>
+  <string name="wifi_advanced_ipv6_address_title">"IPv6-adresse"</string>
+  <string name="wifi_ipv4_address">"IPv4-adresse"</string>
+  <string name="wifi_ipv6_address">"IPv6-adresse"</string>
+  <string name="wifi_ap_auto_join_available">Automatisk tilkobling</string>
+  <string name="wifi_ap_auto_join_available_summary">Velg automatisk et bedre Wi-Fi-nettverk under skanning som skal tilkobles når enheten allere er tilkoblet</string>
+  <!-- MTK Wi-Fi settings end -->
+ 
+  <!-- Wi-Fi hotspot client start -->
+   <string name="wifi_tether_setting_title">"Grunnleggende innstillinger"</string>
+  <string name="wifi_tether_wps_connect_title">WPS-tilkobling</string>
+  <string name="wifi_tether_wps_connect_summary">Velg Wi-Fi Protected Setup-modus for å fortsette</string>
+  <string name="wifi_tether_wps_pin_error">Ugyldig PIN-kode</string>
+  <string name="wifi_tethering_title">Wi-Fi Hotspot</string>
+  <string name="wifi_ap_wps_dialog_title">WPS-tilkobling</string>
+  <string name="wifi_ap_wps_mode_title">"WPS-modus"</string>
+  <string name="wifi_ap_wps_pin_title">Skriv inn PIN-kode fra klient</string>
+  <string name="wifi_ap_reset_OOB_title">Tilbakestill nettverks-SSID, sikkerhet og passord til standard (standardkonfigurasjon for WPS)</string>
+  <string name="wifi_ap_reset_OOB">Tilbakestill OOB</string>
+  <string name="wifi_ap_max_connection_title">"Maks. antall tilkoblinger"</string>
+  <string name="wifi_ap_connected_title">"Tilkoblede brukere"</string>
+  <string name="wifi_ap_blocked_title">"Blokkerte brukere"</string>
+  <string name="wifi_ap_client_block_title">"Blokker"</string>
+  <string name="wifi_ap_client_unblock_title">"Fjern blokk."</string>
+  <string name="wifi_ap_client_details_title">"Detaljer"</string>
+  <string name="wifi_ap_client_mac_label">"MAC-adresse:"</string>
+  <string name="wifi_ap_client_ip_label">"IP-adresse:"</string>
+  <string name="wifi_ap_bandwidth_title">"Bruk av båndbredde"</string>
+  <string name="wifi_ap_bandwidth_enable">"Aktiver båndbredderegulering"</string>
+  <string name="wifi_ap_bandwidth_chart_title">Datahastighet i sanntid</string>
+  <string name="wifi_ap_bandwidth_chart_summary">Hastigheten som måles på telefonen kan være forskjellig fra operatørens regnemetode.</string>
+  <string name="wifi_wps_fail_error">Wi-Fi Protected Setup mislyktes. Prøv på nytt.</string>
+  <string name="wifi_ap_title">"Statistikk"</string>
+  <string name="wifi_ap_time_duration">Varighet: 
+        <xliff:g id="time">%1$s</xliff:g> 
+    </string>
+  <string name="wifi_ap_total_data">Totalt brukte data:<xliff:g id="time">%1$s</xliff:g>
+</string>
+  <string name="wifi_ap_no_connected">0 tilkoblet bruker</string>
+  <string name="wifi_ap_no_blocked">0 blokkert bruker</string>
+  <!-- Wi-Fi hotspot client end -->
+ 
+  <!-- MTK Beam plus start -->
+   <string name="beam_mgmt_tab_download_title">"MOTTATT"</string>
+  <string name="beam_mgmt_tab_upload_title">"SENDT"</string>
+  <string name="beam_share_mgmt_notification_ticker">Logg over trådløs deling</string>
+  <string name="beam_share_mgmt_notification_title">Logg over trådløs deling</string>
+  <string name="beam_share_mgmt_notification_message">"Velg for å vise logg over trådløs deling"</string>
+  <string name="beam_share_mgmt_tab_menu_clear">"Fjern alle"</string>
+  <string name="beam_share_open_file_dialog_title">"Kan ikke åpne filen"</string>
+  <string name="beam_share_open_file_unsupported_message">"Filformatet støttes ikke."</string>
+  <string name="beam_share_open_file_not_found_message">"Fil ikke funnet: 
+        <xliff:g id="file_name">%1$s</xliff:g> 
+    </string>
+  <string name="beam_share_transfer_fail_dialog_title">"Beam failed"</string>
+  <string name="beam_share_resend_dialog_message">" 
+        <xliff:g id="file_name">%1$s</xliff:g> ble ikke sendt."
+    </string>
+  <string name="beam_share_resend_dialog_ok_button">"Prøv på nytt"</string>
+  <string name="beam_share_show_received_files_menu">"Vis mottatte filer"</string>
+  <string name="beam_share_history_title">"Beam share history"</string>
+  <string name="beam_share_clear_confirm_dialog_title">"Tøm alle"</string>
+  <string name="beam_share_clear_confirm_dialog_message">"Slette all historikk?"</string>
+  <string name="beam_share_receive_fail_dialog_message">" 
+        <xliff:g id="file_name">%1$s</xliff:g> ble ikke mottatt."
+    </string>
+  <string name="beam_share_clear_item_dailog_title">"Slett"</string>
+  <string name="beam_share_clear_item_dailog_message">"Elementet vil bli slettet."</string>
+  <!-- MTK Beam plus end -->
+ 
+  <!-- MTK NFC settings start -->
+   <string name="nfc_p2p_mode">"P2P-modus"</string>
+  <string name="nfc_p2p_mode_summary">"Sende eller motta app-innhold"</string>
+  <string name="nfc_tag_mode_category">"Tag mode"</string>
+  <string name="nfc_rw_tag_title">"Lesing og skriving av tagger"</string>
+  <string name="nfc_rw_tag_summary">"Lese fra eller skrive til en tag"</string>
+  <string name="nfc_card_emulation_category_title">kortemuleringsmodus</string>
+  <string name="nfc_card_emulation">Kortemulering</string>
+  <string name="card_emulation_settings_category_title">tilgjengelig sikkerhetselement</string>
+  <string name="card_emulation_settings_no_element_found">Ingen tilgjengelige sikkerhetselementer.</string>
+  <string name="card_emulation_settings_off_text">Du kan se tilgjengelige sikkerhetselementer ved å slå kortemulering på.</string>
+  <string name="card_emulation_turning_off_text">Slår av kortemulering …</string>
+  <string name="card_emulation_turning_on_text">Slår på kortemulering …</string>
+  <string name="card_emulation_switch_error_title">"Feil"</string>
+  <string name="card_emulation_switch_error_message">Klarte ikke å bytte til 
+        <xliff:g id="card_mode">%1$s</xliff:g>.
+    </string>
+  <string name="card_emulation_sim_not_supported_message">
+<xliff:g id="sim_description">%1$s</xliff:g> støtter ikke NFC-kortemuleringsfunksjonen.</string>
+  <string name="card_emulation_two_sim_not_supported_message">SIM1, SIM2 støtter ikke NFC-kortemuleringsfunksjonen.</string>
+  <string name="nfc_hce_pay_summary">Bruke enheten til å trykke og betale med Google lommebok, kredittkort osv.</string>
+  <!-- MTK NFC settings end -->
+ 
+  <!-- MTK WIFI Passpoint start -->
+   <string name="passpoint_summary">Automatisk koble til Passpoint-aktiverte tilgangspunkt</string>
+  <string name="passpoint_append_summary">(via Passpoint)</string>
+  <string name="passpoint_config_credential_type">Legitimasjonstype</string>
+  <string name="passpoint_config_eap_method">"EAP-metode"</string>
+  <string name="passpoint_supported">Støttes</string>
+  <string name="passpoint_username_pw">Brukernavn/passord</string>
+  <string name="passpoint_certificate">Sertifikat</string>
+  <!-- MTK WIFI Passpoint end -->
+ 
+  <!-- MTK WFD start -->
+   <string name="wfd_change_resolution_menu_title">Endre oppløsning</string>
+  <string name="wfd_sink_summary">Synlig for andre</string>
+  <string name="wfd_device_category">ENHETSLISTE</string>
+  <string name="wfd_sink_toast_enjoy">Dra nytte av visning av skjerm fra den andre enheten</string>
+  <string name="wfd_sink_toast_disconnect">Visning av skjerm frakoblet</string>
+  <string name="wfd_sink_disconnecting">Kobler fra …</string>
+  <string name="wfd_sink_guide_btn">Få det</string>
+  <string name="wfd_sink_guide_title">Hvordan avslutte?</string>
+  <string name="wfd_sink_guide_content">Trykk i <xliff:g id="seconds">%s</xliff:g> sekunder på skjermen for å avslutte visningen av en annen enhet.</string>
+  <!-- MTK WFD end -->
+ 
+  <!-- MTK Storage Settings start -->
+   <string name="mtp_transfer_unmount_error_text">SD-kortet kan ikke demonteres under filoverføring</string>
+  <string name="mtp_transfer_erase_error_text">SD-kortet kan ikke slettes under filoverføring</string>
+  <string name="launch_error">"Kunne ikke starte programmet!"</string>
+  <string name="dlg_confirm_unmount_usb_title" product="default">Demontere USB-lagring?</string>
+  <string name="dlg_confirm_unmount_usb_text" product="default">Hvis du demonterer fra USB-lagring, virker ikke lenger alle appene slik de skal, og de kan være utilgjengelige inntil du monterer USB-lagring på nytt.</string>
+  <string name="dlg_error_unmount_usb_text" product="default">"Kan ikke koble fra USB-lagring. Prøv på nytt senere."</string>
+  <string name="unmount_usb_inform_text" product="default">USB-lagring vil demonteres.</string>
+  <string name="sd_eject_usbstorage" product="default">"Koble fra USB-lagring"</string>
+  <string name="sd_eject_usbstorage_summary" product="default">Demonter USB-lagring slik at du kan fjerne det sikkert</string>
+  <string name="sd_mount_usbstorage" product="default">"Koble til USB-lagring"</string>
+  <string name="sd_insert_usb_summary" product="default">"Sett inn USB-lagring"</string>
+  <string name="usb_ums_title">"USB-lagring"</string>
+  <string name="usb_ums_summary">"XP anbefales. Lar deg overføre filer mellom datamaskinen og Android-enheten din."</string>
+  <string name="usb_charge_title">"Bare opplading"</string>
+  <string name="usb_connect_as_cdrom_category">"Koble til som CD-ROM"</string>
+  <string name="usb_charge_summary">Stopp alle USB-funksjoner. Gjør at du kan øke hastigheten for USB-lading og redusere strømforbruket.</string>
+  <string name="akp_installer_settings_title">"APK-installasjonsprogram"</string>
+  <string name="akp_installer_settings_summary">Installer APK fra telefonlagring og SD-kort</string>
+  <string name="usb_bicr_title">Innebygd CD-ROM</string>
+  <string name="usb_bicr_summary">Vis en virtuell CD-ROM som inneholder en del nyttig programvare.</string>
+  <string name="select_memory">Standard skrivedisk</string>
+  <string name="dlg_mount_external_sd_title" product="default">Montere SD-kort?</string>
+  <string name="dlg_mount_external_sd_summary" product="default">Hvis du monterer SD-kort, vil noen programmer du bruker stoppe.</string>
+  <!-- MTK Storage Settings end -->
+ 
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">"HDMI-innstillinger"</string>
+  <string name="hdmi_settings_summary">"Klikk for å konfigurere HDMI"</string>
+  <string name="hdmi_audio_toggler">Lyd</string>
+  <string name="hdmi_video_toggler">"Video"</string>
+  <string name="hdmi_video_resolution">"Videooppløsning"</string>
+  <string name="hdmi_auto">"automatisk"</string>
+  <string name="hdmi_scale_control">Innstillinger for videoskalering</string>
+  <string name="hdmi_scale_no_scale">Ingen skalering</string>
+  <string name="hdmi_scale_scale_down">Skaler ned <xliff:g id="scale_percent">%s</xliff:g> %%</string>
+  <string name="hdmi_audio_output">Lydutgang</string>
+  <string name="hdmi_audio_output_stereo">Stereo</string>
+  <string name="hdmi_audio_output_multi_channel">Flerkanal</string>
+  <!-- MTK HDMI end -->
+ 
+  <!-- MTK Display Settings start -->
+   <string name="landscape_launcher_title">Liggende programvelger</string>
+  <string name="landscape_launcher_none">"Ingen"</string>
+  <string name="display_settings_scences_title">Scener</string>
+  <string name="default_name">"Standard"</string>
+  <string name="custom_theme_name">"Ny [%1$s]"</string>
+  <string name="loading">"Laster inn ..."</string>
+  <string name="auto_backlight_title">Økonomisk bakgrunnsbelysning</string>
+  <string name="auto_backlight_summary">Tilpass bakgrunnsbelysningen automatisk for å spare slå av</string>
+  <string name="display_personalize">"Tilpass"</string>
+  <string name="display_default">"Skjerm"</string>
+  <string name="clear_motion_summary">Videoflytforbedrer</string>
+  <string name="on_text">"på"</string>
+  <string name="off_text">"av"</string>
+  <string name="mira_vision_summary">Leverer de beste visuelle effektene</string>
+  <!-- MTK Display Settings end -->
+ 
+  <!--MTK Security Settings start -->
+   <string name="voice_unlock_backup_info_summary">"Hvordan vil du låse opp når talegjenkjenning ikke kjenner deg igjen?"</string>
+  <string name="unlock_set_unlock_mode_voice_weak">"Lås opp med tale"</string>
+  <string name="mtk_lock_screen_notifications_title">Låseskjermvarsler</string>
+  <string name="lock_screen_notifications_summary">Vis varsler på låseskjermen</string>
+  <string name="lock_screen_style_title">"Låseskjermstil"</string>
+  <string name="current_suffix">"(Gjeldende)"</string>
+  <string name="lockscreen_style_default_desc">"Rask tilgang til programmer på låseskjermen"</string>
+  <string name="security_not_set">Sikkerhet er ikke satt</string>
+  <string name="voice_ui_title">"Talekontroll"</string>
+  <!--MTK Security Settings end -->
+ 
+  <!-- MTK Wireless settings start -->
+   <string name="pch_toggle_title">Foretrukket GPRS-overføringsmodus</string>
+  <string name="pch_data_prefer_summary_off">Data foretrukket</string>
+  <string name="pch_call_prefer_summary_on">Anrop foretrukket</string>
+  <string name="pch_warning_message">Dataoverføringshastighet vil avta.</string>
+  <string name="tethered_ipv6_title">"Hotspot- og tilknytningsinnstillinger"</string>
+  <string name="tethered_ipv4v6">"(IPv6 tilgjengelig)"</string>
+  <string name="tethered_ipv6">"(bare IPv6 er tilgjengelig)"</string>
+  <string name="tethered_ipv4">"(IPv6 er ikke tilgjengelig)"</string>
+  <string name="tethering_apn_settings_title">APN-innstillinger</string>
+  <string name="tethering_apn_settings_summary">Konfigurer APN for tilknytning</string>
+  <string name="usb_tether_type_title">"USB-tilknytningstype"</string>
+  <string name="usb_tethering_select_version">Velg PC-systemversjon</string>
+  <string name="apn_port_warning">Portverdien må være 1–65535!</string>
+  <string name="apn_predefine_change_dialog_notice">Er du sikker på at du vil lagre? Endringer til standard APN kan føre til problemer!"</string>
+  <string name="lockdown_vpn_already_connected">Alltid på VPN har allerede blitt aktivert for tilkobling.</string>
+  <!-- MTK Wireless settings end -->
+ 
+  <!-- MTK Feature MISC start -->
+   <string name="schedule_power_on_off_settings_title">"Tidsplan for slå av på/av"</string>
+  <string name="ipo_title">"Hurtigstart"</string>
+  <string name="ipo_summary_on">Deaktiver hurtig oppstart</string>
+  <string name="ipo_summary_off">"Aktiver hurtigstart"</string>
+  <string name="hotknot_explained_description">Tillat datautveksling når skjermen berører en annen enhet</string>
+  <string name="mouse_primary_button_title">Bytt om primær- og sekundærknapper</string>
+  <string name="mouse_primary_button_dialog_title">Bytt primærknapp</string>
+  <string name="double_click_title">Dobbeltklikkhastighet</string>
+  <string name="test_area">TESTOMRÅDE:</string>
+  <string name="double_click_tip">Dobbeltklikk her</string>
+  <!-- MTK Feature MISC end -->
+ 
+  <!-- MTK Bluetooth Settings start -->
+   <string name="bluetooth_advanced_settings">"Avanserte innstillinger"</string>
+  <string name="bluetooth_profile_ftp">"Filoverføring"</string>
+  <string name="bluetooth_ftp_profile_summary_use_for">"Bruk til filoverføring"</string>
+  <string name="bluetooth_ftp_profile_summary_connected">"Koblet til filoverføring"</string>
+  <!-- MTK Bluetooth Settings end -->
+ 
+  <!--MTK DateTime start-->
+   <string name="gps_time_sync_attention_gps_on">Det vil ta maksimalt ett minutt for å få GPS-peiling. Dessuten kan GPS kanskje ikke oppgi tidspunkt på grunn av svakt signal.\n\nEr du sikker på at du vil bruke tidspunkt fra GPS?</string>
+  <string name="gps_time_sync_attention_gps_off">For å bruke tid fra GPS må du først aktivere GPS. Det tar opp til 1 minutt å få GPS-peiling. Dessuten kan GPS kanskje ikke oppgi tidspunkt på grunn av svakt signal. \n\nEr du sikker på at du vil aktivere GPS nå og vente på tid fra GPS-en?</string>
+  <!--MTK DateTime end-->
+ 
+  <!--MTK DRM settings start -->
+   <string name="drm_settings_title">"Tilbakestilling av DRM"</string>
+  <string name="drm_settings_summary">"Sletter alle DRM-lisenser"</string>
+  <string name="drm_reset_dialog_msg">"Denne operasjonen vil slette alle lisenser på denne enheten. Vil du fortsette?"</string>
+  <string name="drm_reset_toast_msg">"Sletting av lisensene var vellykket."</string>
+  <!--MTK DRM settings end -->
+ 
+  <!-- MTK APPS settings start -->
+   <string name="launch_main_label">"Start program"</string>
+  <string name="launch_main">Start programmet etter hovedaktivitet</string>
+  <string name="launch_activitie">"Start"</string>
+  <string name="move_app_to_where">Flytt til 
+        <xliff:g id="location">%s</xliff:g> 
+    </string>
+  <!-- MTK APPS settings end -->
+ 
+  <!-- MTK Battery MISC start -->
+   <string name="bg_power_saving_title">Intelligent strømsparing i ventemodus</string>
+  <!-- MTK Battery MISC end -->
+ 
+  <!-- MTK  Datausage  start -->
+   <string name="mtk_datausage_overview_tab">"OVERSIKT"</string>
+  <string name="mtk_datausage_overview_wifi_today">"I dag"</string>
+  <string name="mtk_datausage_overview_wifi_total">"Totalt"</string>
+  <string name="mtk_datausage_overview_mobile_title">"Mobil"</string>
+  <string name="mtk_datausage_overview_mobile_usage"> 
+        <xliff:g id="actual">%s</xliff:g> ut av 
+        <xliff:g id="limit">%s</xliff:g> 
+    </string>
+  <string name="mtk_datausage_overview_mobile_usage_warning">Utenfor grensen 
+        <xliff:g>%s</xliff:g> 
+    </string>
+  <string name="data_saving_title">Datalagring</string>
+  <!-- MTK  Dtausage  end -->
+ 
+  <!-- MTK About phone start -->
+   <string name="status_imei_slot1">IMEI (Spor1)</string>
+  <string name="status_imei_slot2">"IMEI (Spor 2)"</string>
+  <string name="custom_build_version">"Kundetilpasset versjon"</string>
+  <string name="mota_system_update_summary">"Sjekk systemoppdatering på serveren"</string>
+  <string name="software_updates_more_title">"Programvareoppdateringer"</string>
+  <string name="software_updates_more_summary">"Se etter nye versjoner av programvaren"</string>
+  <!-- MTK About phone end -->
+ 
+  <!-- MTK sim cards start -->
+   <string name="sim_cards_celluar_data_dialog_title">Velg SIM-kort for mobildata</string>
+  <string name="sim_cards_data_sms_dialog_title">Velg SIM-kort for SMS-meldinger</string>
+  <string name="sim_cards_calls_dialog_title">Velg kontoen for telefonsamtaler</string>
+  <string name="sim_cards_other_calls_dialog_title">Velg annen konto</string>
+  <string name="sim_cards_other_calls_item_title">Annen konto</string>
+  <string name="data_connection_progress_message">Bytte av SIM-kort vil ta rundt 10 sekunder å fullføre. Vent litt …</string>
+  <string name="gemini_sim_mode_progress_activating_message">"Aktiverer\u2026"</string>
+  <string name="gemini_sim_mode_progress_deactivating_message">"Deaktiverer\u2026"</string>
+  <string name="simui_intenet_call">Internettanrop</string>
+  <!-- MTK sim cards end -->
+ 
+  <!-- MTK SIM Status start -->
+   <string name="imei_information_title">"IMEI-informasjon"</string>
+  <string name="imei_information_summary">"IMEI-relatert informasjon"</string>
+  <string name="slot_number">"(Spor <xliff:g id="SLOT_NUM">%1$d</xliff:g>)"</string>
+  <string name="sim_info_editor_color">"Bakgrunnsfarge"</string>
+  <string name="sim_cards_notify_title">"SIM-kort er endret"</string>
+  <string name="sim_cards_notify_summary">Trykk for å angi innstillinger.</string>
+  <string name="no_sim_cards_notify_title">SIM-kort er ikke satt inn</string>
+  <string name="cellular_data_notify_title">"Mobildata er ikke tilgjengelig"</string>
+  <string name="cellular_data_notify_summary">Trykk for å velge SIM-kort for data.</string>
+  <!-- MTK SIM Status end -->
+ 
+  <!-- IMS/SMS Settings start -->
+   <string name="ims_toggle_summary">Gir IP-multimedieundersystemtjenester</string>
+  <string name="sms_vibrate_summary">vibrer enheter ved sms</string>
+  <!-- IMS/SMS Settings end -->
+    <string name="default_data_switch_err_msg1">Kan ikke bytte foretrukket SIM-kort for mobildata under et anrop.</string>
+  <string name="two_cdma_dialog_msg">Spor 1 og spor 2 støtter ikke CDMA samtidig.</string>
+  <string name="hetcom_setting_title">Turbo-nedlasting</string>
+<string name="voice_call_sim2_title">Ringetone ved taleanrop med SIM-kort 2</string>
+<string name="ringtone_sim2_title">SIM-kort 2 – ringetone</string>
+<string name="wfc_quick_toggle_title">Wi-Fi-anrop</string>
+<string name="Help">Hjelp</string>
+<string name="Tutorials">Opplæring</string>
+<string name="Top_questions">Vanlige spørsmål</string>
+<string name="Wifi_wfc_dialog_title">Wi-Fi-anrop</string>
+<string name="Wifi_wfc_dialog_top_wording">Du er nå koblet til WLAN-nettverket</string>
+<string name="Wifi_wfc_dialog_bottom_wording">Dette symbolet øverst på skjermen angir at du er koblet til Wi-Fi-nettverket. Du kan ringe og sende meldinger via Wi-Fi.</string>
+<string name="Skip">Utelat</string>
+<string name="Learn_more">Les mer</string>
+<string name="Next">Neste</string>
+<string name="Switch_not_in_use_string">Bryteren for øyeblikket utilgjengelig. Prøv igjen senere.</string>
+<string name="Done">Fullført</string>
+<string name="Wfc_questions">Hjelp for Wi-Fi-anrop</string>
+<string name="Wfc_off_summary">Deaktivert</string>
+<string name="wfc_on_summary">Wi-Fi-anrop aktivert</string>
+<string name="connection_preference">Tilkoblingsinnstillinger</string>
+<string name="WiFi_preferred">Wi-Fi foretrekkes</string>
+<string name="Cellular_network_preferred">Mobilnett foretrekkes</string>
+<string name="Never_use_cellular_network">Aldri bruk mobilnett</string>
+<string name="WiFi_preferred_summary">Bruk Wi-Fi ved anrop. Bruk mobilnett hvis Wi-Fi ikke er tilgjengelig (standard).</string>
+<string name="Cellular_network_preferred_summary">Bruk mobilnett ved anrop. Bruk Wi-Fi hvis mobilnett ikke er tilgjengelig.</string>
+<string name="Never_use_cellular_network_summary">Bruk bare Wi-Fi ved anrop. Ikke bruk mobilnett selv om det er tilgjengelig.</string>
+<string name="no_sim_present_error">SIM-kort mangler</string>
+<string name="inavlid_sim_error">Feil 05: ugyldig SIM-kort</string>
+<string name="airplane_mode_on">Flymodus er på</string>
+<string name="cellular_prefered_summary">Du har valgt mobilnett som foretrukket tilkoblingsmodus</string>
+<string name="wifi_off_summary">Wi-Fi er slått av</string>
+<string name="not_connected_to_wifi_summary">Ikke koblet til Wi-Fi</string>
+<string name="poor_wifi_signal_summary">Dårlig Wi-Fi-signal</string>
+<string name="wfc_enabling_summary">Aktiverer...</string>
+<string name="wfc_disabling_summary">Deaktiverer...</string>
+<string name="wfc_ready_for_calls_summary">Klart for anrop</string>
+<string name="wfc_unknown_error_summary">Ukjent feil</string>
+<string name="wfc_tutorial_heading">Les mer om Wi-Fi-anrop</string>
+<string name="wfc_tutorial_content_second_page_part1">Når det blir vist et Wi-Fi-anropsikon i statuslinjen, kan du utføre Wi-Fi-anrop på telefonen.</string>
+<string name="wfc_tutorial_content_second_page_part2">Hold deg innenfor Wi-Fi-dekningsområdet under et anrop for å unngå at samtalen blir brutt. Hvis du forlater dekningsområdet, høres en varsellyd, og det kommer opp en melding på skjermen om at samtalen ble brutt.</string>
+<string name="wfc_incorrect_sim_alert_title">Feil 05: ugyldig SIM-kort</string>
+<string name="wfc_invalid_sim_alert_message">Viktig informasjon\nSIM-kortet ditt må oppdateres for å støtte Wi-Fi-anropstjenesten. Besøk en T-Mobile-forhandler, eller ring 611 på telefonen for å kontakte kundeservice.</string>
+<string name="ok_string">OK</string>
+<string name="wifi_ap_help_title">Hjelp</string>
+<string name="help_document">1. Enheten kan brukes som Internett-tilgangspunkt gjennom funksjonen for mobilt Wi-Fi-tilgangspkt. Eksterne enheter kan koble til enheten og få tilgang til Internett via mobildataforbindelsen din.\n2. Aktiver mobildata før du bruker funksjonen for mobilt Wi-Fi-tilgangspkt. Datakostnader kan påløpe.\n3. Funksjonen for mobilt Wi-Fi-tilgangspkt. gir økt strømforbruk.</string>
+<string name="bg_power_percent_title">Vis batteriprosent</string>
+<string name="bg_power_percent_summary">Vis gjenværende batteriprosent i statuslinjen</string>
+<string name="wfc_tutorial_content_first_page">Når du bruker Wi-Fi-ringefunksjonen, slipper du problemet med ujevn dekning. Med Wi-Fi-ringefunksjonen kan du sende og motta anrop og meldinger via et Wi-Fi-nettverk ved bruk av den eksisterende T-Mobile-planen din. Wi-Fi-ringefunksjonen krever ikke noe spesialoppsett. Gå til Trådløs og nettverk i Innstillinger-menyen, og koble til et Wi-Fi-nettverk for å komme i gang.</string>
+<string name="storage_internal_storage_title">Internt minne</string>
+<string name="storage_cleaner_preference_title">Lageropprydding</string>
+</resources>

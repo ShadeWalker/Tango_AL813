@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">Pengurangan Hingar</string>
+    <string name="dual_mic_summary">Sekat hingar latar belakang anda semasa panggilan</string>
+    <string name="anc_title">Pengurangan Hingar Aktif</string>
+    <string name="anc_on">ANC hidup</string>
+    <string name="anc_off">ANC mati</string>
+    <string name="ip_prefix_setting">Nombor awalan IP</string>
+    <string name="ip_prefix_setting_lable">Nombor awalan IP (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">Tetapan nombor awalan IP</string>
+    <string name="enter_ip_prefix_number">Masukkan nombor awalan</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Sila masukkan nombor awalan IP dahulu dalam tetapan panggilan Suara.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">Fungsi dial IP tidak boleh digunakan untuk Mulakan pangilan</string>
+    <string name="ip_prefix_edit_default_sum">Masukkan nombor awalan untuk dailan IP</string>
+    <string name="lable_call_barring">"Sekatan panggilan"</string>
+    <string name="title_call_barring">Sekatan panggilan (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">Semua panggilan keluar</string>
+    <string name="lable_all_outgoing_international">Panggilan keluar antarabangsa</string>
+    <string name="lable_all_out_except">Panggilan keluar antarabangsa kecuali ke PLMN rumah</string>
+    <string name="lable_all_incoming">Semua panggilan masuk</string>
+    <string name="lable_incoming_calls_except">Panggilan masuk semasa mod perayauan</string>
+    <string name="deactivate_all">Batal semua</string>
+    <string name="change_password">Tukar kata laluan sekatan</string>
+    <string name="call_barring_sum">Tetapan membar panggilan suara</string>
+    <string name="lable_disable">Dinyahdayakan</string>
+    <string name="lable_enable">"Didayakan"</string>
+    <string name="old_password_label">Kata laluan lama (4 nombor)</string>
+    <string name="new_password_label">Kata laluan baru (4 nombor)</string>
+    <string name="invalid_password">Taip kata laluan yang mempunyai 4 nombor.</string>
+    <string name="confirm_password_label">Sahkan kata laluan baru</string>
+    <string name="mismatch_password">Kata laluan yang anda masukkan tidak padan. Sila cuba lagi.</string>
+    <string name="password_changed">Kata laluan berjaya ditukar</string>
+    <string name="enter_callbarring_password">Masukkan kata laluan sekatan panggilan (4 nombor)</string>
+    <string name="wrong_password">Ralat kata laluan</string>
+    <string name="error_title">"Ralat"</string>
+    <string name="cell_broadcast">Siaran sel</string>
+    <string name="cell_broadcast_settings">Tetapan siaran sel</string>
+    <string name="cb_menu_language">"Bahasa"</string>
+    <string name="cb_menu_add_channel">Tambah Saluran</string>
+    <string name="cb_menu_channel_list">Senarai saluran</string>
+    <string name="cb_dialog_title_language_choice">Pilih bahasa</string>
+    <string name="cb_channel_dialog_channel_name">Nama saluran (0-10 aksara)</string>
+    <string name="cb_channel_dialog_channel_number">Nombor saluran (0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">Dayakan saluran</string>
+    <string name="cb_channel_dialog_edit_channel">Edit Saluran</string>
+    <string name="cb_menu_edit">"Edit"</string>
+    <string name="cb_menu_delete">"Padam"</string>
+    <string name="cb_error_channel_num">Sila masukkan nombor saluran (0-65534).</string>
+    <string name="cb_error_channel_name">Panjang nama Saluran tidak betul (1-10 aksara).</string>
+    <string name="cb_error_language_select">Sila pilih sekurang-kurangnya satu bahasa.</string>
+    <string name="cb_error_channel_id_exist">Saluran wujud.</string>
+    <string name="cb_all_languages">Semua Bahasa</string>
+    <string name="cb_default_new_channel_name">Saluran Baru</string>
+    <string name="fdn_errorcode_unknown_info">Gagal, ralat tidak diketahui berlaku, sila cuba lagi nanti.</string>
+    <string name="fdn_errorcode_number_info">Gagal, panjang nombor kenalan terlalu panjang.</string>
+    <string name="fdn_errorcode_name_info">Gagal, panjang nama kenalan terlalu panjang.</string>
+    <string name="fdn_errorcode_storage_info">Gagal, storan penuh.</string>
+    <string name="fdn_errorcode_phb_info">Gagal, buku telefon belum sedia sekarang, sila cuba lagi nanti.</string>
+    <string name="fdn_errorcode_pin2_info">Gagal, PIN2 tidak sah.</string>
+    <string name="net_or_simcard_busy">Rangkaian atau kad SIM sibuk, sila cuba lagi nanti.</string>
+    <string name="plmn_list_setting_title">Keutamaan</string>
+    <string name="network_id">ID rangkaian</string>
+    <string name="plmn_list_setting_add_plmn">Tambahkan PLMN baru</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">Cari...</string>
+    <string name="sum_search_femtocell_networks">Pilih femtocell secara manual</string>
+    <string name="register_femtocell_point_wait_tip">Mendaftar <xliff:g id="femto_cell_info">%s</xliff:g> ...</string>
+    <string name="register_femtocell_point_result_fail_tip">Tidak dapat menyambung ke rangkaian ini sekarang. Cuba sebentar lagi.</string>
+    <string name="network_type">Jenis rangkaian</string>
+    <string name="gsm_umts_network_preferences_title">"Mod Rangkaian"</string>
+    <string name="gsm_umts_network_preferneces_summary">Belum lagi dilaksanakan!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"Mod Rangkaian"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>"2G/3G (mod auto)"</item>
+        <item>3G sahaja</item>
+        <item>2G sahaja</item>
+    </string-array>
+    <string name="notification_voicemail_text">Pilih untuk melihat mel suara</string>
+    <string name="notification_network_selection_without_operator">Rangkaian yang dipilih tidak tersedia</string>
+    <string name="network_setting_all_forbidden_dialog">Tiada rangkaian tersedia.</string>
+    <string name="network_forbidden">Nyahdayakan</string>
+    <string name="fdn_contact_number_invalid">Nombor kenalan tidak sah.</string>
+    <string name="fdn_puk_need_tips">PIN2 Disekat. Sila tukar PIN2 dan cuba lagi!</string>
+    <string name="fdn_phone_book_busy">Buku telefon sibuk sekarang, sila cuba lagi nanti.</string>
+    <string name="one_retry_left">Tinggal 1 cubaan semula</string>
+    <string name="retries_left">tinggal <xliff:g id="number">%d</xliff:g> cubaan semula</string>
+    <string name="pin_length_indicate">(4-8 digit)</string>
+    <string name="puk_length_indicate">(8 digit)</string>
+    <string name="unblock_pin2">Nyahsekat PIN2</string>
+    <string name="sim_permanently_locked">Memasukkan kod PUK yang salah lebih daripada 10 kali, kad SIM telah dikunci secara kekal</string>
+    <string name="magi_conference_title">Persidangan Ajaib</string>
+    <string name="magi_conference_summary">Tingkatkan kualiti suara apabila berbilang individu menggunakan telefon untuk bercakap dengan pihak lain.</string>
+    <string name="volte_is_adding_participants">Menambahkan ahli persidangan, sila tunggu…</string>
+    <string name="volte_fail_to_invit_participants">Gagal menambahkan semua ahli pada persidangan.</string>
+    <string name="voicemail_lable">Mel suara (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">Untuk melengkapkan operasi ini, anda perlu membuka sambungan data <xliff:g id="sub_name">%s</xliff:g>.</string>
+    <string name="cdma_labelCFU">"Sentiasa majukan"</string>
+    <string name="cdma_labelCFB">"Majukan apabila sibuk"</string>
+    <string name="cdma_labelCFNRy">"Majukan apabila tidak dijawab"</string>
+    <string name="cdma_labelCFNRc">"Majukan apabila tidak dapat dihubungi"</string>
+    <string name="cdma_labelCFC">Batalkan semua  pemajuan</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">Nyahdayakan sekatan pengenalan nombor pemanggil</string> 
+    <string name="cdma_cnir_turnon">Dayakan sekatan pengenalan nombor pemanggil</string>
+    <string name="lte_data_only_prompt">Tidak boleh menggunakan ciri ini disebabkan mod data 4G sahaja. Adakah anda ingin keluar daripada mod data 4G sahaja?</string>
+    <string name="lte_data_only_timeout">Tiada rangkaian data 4G sahaja yang tersedia di lokasi semasa anda. Adakah anda ingin keluar dan mencari rangkaian lain?</string>
+    <string name="lte_only_dialog_button_yes">"YA"</string>
+    <string name="lte_only_dialog_button_no">"TIDAK"</string>
+    <string name="lte_only_dialog_title_prompt">Prom</string>
+    <string name="enable_4G_data">Dayakan data 4G</string>
+    <string name="enable_4G_data_summary">4G boleh memberikan akses Internet yang lebih baik dan lebih pantas</string>
+    <string name="only_use_LTE_data">Gunakan Data LTE sahaja</string>
+    <string name="only_use_LTE_data_summary">Untuk mendayakan gunakan satu data sahaja, fungsi ini tidak akan dapat menggunakan Panggilan telefon dan mesej teks.</string>
+      <string name="network_current">Daftar</string>
+      <string name="network_available">Ada</string>
+    <string name="sim_card_settings">Tetapan kad SIM</string>
+</resources>

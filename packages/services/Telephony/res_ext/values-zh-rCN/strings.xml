@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">"降噪"</string>
+    <string name="dual_mic_summary">通话过程中降低您的背景噪音</string>
+    <string name="anc_title">主动式消噪</string>
+    <string name="anc_on">ANC 开启</string>
+    <string name="anc_off">ANC 关闭</string>
+<!-- added by guofeiyao for HQ01307563 -->
+    <string name="ip_switch">IP拨号开关</string>
+    <string name="ip_prefix_null">IP号码前缀未设置！</string>
+    <!-- end -->
+    <string name="ip_prefix_setting">IP拨号</string>
+    <string name="ip_prefix_setting_lable">IP号码前缀 (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">IP号码前缀设置</string>
+    <string name="enter_ip_prefix_number">IP号码前缀</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">请在“语音电话设置”中输入IP前缀号码</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">"拨打网络电话时，不能使用IP拨号功能。"</string>
+    <string name="ip_prefix_edit_default_sum">输入IP拨号前缀</string>
+    <string name="lable_call_barring">"呼叫限制设置"</string>
+    <string name="title_call_barring">呼叫限制 (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">禁拨所有电话</string>
+    <string name="lable_all_outgoing_international">禁拨国际电话</string>
+    <string name="lable_all_out_except">禁拨本国外的国际电话</string>
+    <string name="lable_all_incoming">拒接所有来电</string>
+    <string name="lable_incoming_calls_except">漫游时拒接来电</string>
+    <string name="deactivate_all">取消所有限制</string>
+    <string name="change_password">更改呼叫限制密码</string>
+    <string name="call_barring_sum">呼叫限制设置</string>
+    <string name="lable_disable">已禁用</string>
+    <string name="lable_enable">"已启用"</string>
+    <string name="old_password_label">旧密码 (4 位数字)</string>
+    <string name="new_password_label">新密码 (4 位数字)</string>
+    <string name="invalid_password">密码需要 4 位数字。</string>
+    <string name="confirm_password_label">确认新密码</string>
+    <string name="mismatch_password">两次输入的新密码不相同，请重新输入。</string>
+    <string name="password_changed">密码改变成功</string>
+    <string name="enter_callbarring_password">输入呼叫限制密码 (4 位数字)</string>
+    <string name="wrong_password">密码错误。</string>
+    <string name="error_title">"错误"</string>
+    <string name="cell_broadcast">小区广播</string>
+    <string name="cell_broadcast_settings">小区广播设置</string>
+    <string name="cb_menu_language">"语言"</string>
+    <string name="cb_menu_add_channel">添加频道</string>
+    <string name="cb_menu_channel_list">"频道列表"</string>
+    <string name="cb_dialog_title_language_choice">设置语言</string>
+    <string name="cb_channel_dialog_channel_name">频道名称 (0-10 个字符)</string>
+    <string name="cb_channel_dialog_channel_number">频道编号(0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">启用频道</string>
+    <string name="cb_channel_dialog_edit_channel">编辑频道</string>
+    <string name="cb_menu_edit">"修改"</string>
+    <string name="cb_menu_delete">删除</string>
+    <string name="cb_error_channel_num">请输入频道编号,0-65534 之间.</string>
+    <string name="cb_error_channel_name">频道名称在 10 个字以内.</string>
+    <string name="cb_error_language_select">请至少选择一种语言.</string>
+    <string name="cb_error_channel_id_exist">频道编号已经存在.</string>
+    <string name="cb_all_languages">"所有语言"</string>
+    <string name="cb_default_new_channel_name">新频道</string>
+    <string name="fdn_errorcode_unknown_info">操作失败，发生了未知错误，请稍候再试。</string>
+    <string name="fdn_errorcode_number_info">操作失败，联系人号码太长。</string>
+    <string name="fdn_errorcode_name_info">操作失败，联系人姓名太长。</string>
+    <string name="fdn_errorcode_storage_info">操作失败，存储空间已满。</string>
+    <string name="fdn_errorcode_phb_info">操作失败，联系人忙碌中，请稍候再试。</string>
+    <string name="fdn_errorcode_pin2_info">操作失败，无效的 PIN2 码。</string>
+    <string name="net_or_simcard_busy">网络或 SIM 卡忙碌中，请稍候再试。</string>
+    <string name="plmn_list_setting_title">偏好设置</string>
+    <string name="network_id">网络 ID</string>
+    <string name="plmn_list_setting_add_plmn">新增 PLMN</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">搜索…</string>
+    <string name="sum_search_femtocell_networks">手动选择femtocell</string>
+    <string name="register_femtocell_point_wait_tip">正在<xliff:g id="femto_cell_info">%s</xliff:g>上注册...</string>
+    <string name="register_femtocell_point_result_fail_tip">目前无法连接到此网络,请稍后重试.</string>
+    <string name="network_type">网络类型</string>
+    <string name="gsm_umts_network_preferences_title">"网络模式"</string>
+    <string name="gsm_umts_network_preferneces_summary">"尚未实现！"</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"网络模式"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G(自动)</item>
+        <item>仅3G</item>
+        <item>仅2G</item>
+    </string-array>
+    <string name="notification_voicemail_text">选择查看语音信箱</string>
+    <string name="notification_network_selection_without_operator">所选网络无法使用</string>
+    <!-- Network operator -->
+    <string name="network_setting_all_forbidden_dialog">没有可用的网络。</string>
+    <string name="network_forbidden">禁用</string>
+    <string name="network_current">注册</string>
+    <string name="network_unkown">未知</string>
+    <string name="network_available">可用</string>
+
+    <!-- Add For FDN -->
+    <string name="fdn_contact_number_invalid">联系人号码无效。</string>
+    <string name="fdn_phone_book_busy">"联系人忙碌中，请稍候再试。"</string>
+    <string name="fdn_puk_need_tips">PIN2码已被锁定。请更改PIN2码并重试！</string>
+    <string name="one_retry_left">"剩余 1 次"</string>
+    <string name="retries_left">"剩余"<xliff:g id="number">%d</xliff:g>"次"</string>
+    <string name="pin_length_indicate">"(4-8 位数字)"</string>
+    <string name="puk_length_indicate">"(8 位数字)"</string>
+    <string name="unblock_pin2">"解锁 PIN2 码"</string>
+    <string name="sim_permanently_locked">"PUK2 码已输错 10 次，SIM 卡已永久锁定"</string>
+    <!-- [MTK_Enhanced4GLTE] -->
+    <string name="can_not_switch_enhanced_4g_lte_mode_tips">开关暂不可用，请稍后再试。</string>
+    <!-- Add for [VoLTE_SS] -->
+    <string name="volte_ss_not_available_tips">请打开<xliff:g id="sub_nacme">%s</xliff:g>的数据连接以完成操作.</string>
+    <!-- Add for [MagiConference] -->
+    <string name="magi_conference_title">多人通话增强</string>
+    <string name="magi_conference_summary">当本地有多人使用该手机与对端通话时，打开该功能可以提升语音质量。</string>
+    <!-- Add for [VoLTE_conference] -->
+    <string name="volte_is_adding_participants">正在添加会议成员，请稍候...</string>
+    <string name="volte_fail_to_invit_participants">部分成员加入会议失败.</string>
+
+    <!-- support for C2K Call Settings -->
+    <string name="cdma_labelCFU">"无条件呼叫转移"</string>
+    <string name="cdma_labelCFB">"遇忙呼叫转移"</string>
+    <string name="cdma_labelCFNRy">"无应答呼叫转移"</string>
+    <string name="cdma_labelCFNRc">"隐含呼叫转移"</string>
+    <string name="cdma_labelCFC">取消所有呼叫转移</string>
+    <string name="cdma_cnir_title">主叫号码识别限制</string>
+    <string name="cdma_cnir_turnoff">关闭主叫号码识别限制</string>
+    <string name="cdma_cnir_turnon">开启主叫号码识别限制</string>
+    <string name="voicemail_lable">语音信箱 (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <!-- Add Strings used for tdd data only mode start -->
+    <string name="lte_data_only_prompt">当前您处于4G单数据模式，无法提供该功能，是否退出4G单数据模式？</string>
+    <string name="lte_data_only_timeout">当前您所在的位置未检测到可用4G单数据网络，是否退出4G单数据模式并搜索其它网络？</string>
+    <string name="lte_only_dialog_button_yes">是</string>
+    <string name="lte_only_dialog_button_no">否</string>
+    <string name="lte_only_dialog_title_prompt">提示</string>
+    <!-- Add Strings used for tdd data only mode end -->
+
+    <string name="only_use_LTE_data">启用4G单数据</string>
+    <string name="only_use_LTE_data_summary">启用4G单数据时，语音和短信功能将不能使用。</string>
+    <string name="enable_4G_data">启用4G</string>
+    <string name="enable_4G_data_summary">4G可提供更快更好的上网服务</string>
+
+    <!-- C2K solution 2 tips for change calling account -->
+    <string name="change_cdma_capability_dialog"><xliff:g id="last_default_sim">%s</xliff:g>将暂时无法通讯。原本默认设置为<xliff:g id="last_default_sim">%s</xliff:g>的通话、短信、数据网络设置也将切换为<xliff:g id="new_default_sim">%s</xliff:g>。</string>
+    <string name="default_call_switch_err_msg1">通话中无法切换默认通话账户</string>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/undo_edit_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dip"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_delete_editor" />
+
+    <TextView
+        android:id="@+id/edit_contact_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="#f0f0f0"
+        android:textSize="16sp" /> <!-- add by wangmingyue for HQ01347676 -->
+
+    <ImageView
+        android:id="@+id/confirm_edit_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dip"
+        android:src="@drawable/ic_confirm_editor" />
+
+</RelativeLayout>

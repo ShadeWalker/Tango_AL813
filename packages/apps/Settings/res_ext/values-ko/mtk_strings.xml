@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- AudioProfile Settings start -->
+   <string name="ring_summary">벨소리</string>
+  <string name="ring_vibrate_summary">벨소리 및 진동</string>
+  <string name="silent_summary">무음만</string>
+  <string name="meeting_summary">진동만</string>
+  <string name="outdoor_summary">최대 벨소리 및 진동</string>
+  <string name="audio_profile_reset">재설정</string>
+  <string name="audio_profile_add">추가</string>
+  <string name="audio_profile_enable">사용</string>
+  <string name="audio_profile_rename">이름 바꾸기</string>
+  <string name="audio_profile_delete">삭제</string>
+  <string name="audio_profile_message_reset">모든 오디오 프로필 설정이 기본값으로 재설정됨</string>
+  <string name="audio_profile_message_rename">새 프로필 이름을 입력하십시오</string>
+  <string name="audio_profile_message_name_error">입력한 이름이 이미 존재함</string>
+  <string name="audio_profile_message_name_length_wrong">이름에 최소 1개의 문자가 포함되어야 함</string>
+  <string name="audio_profile_message_delete">프로필 
+        <xliff:g id="profile">%s</xliff:g>이(가) 삭제됨</string>
+  <string name="audio_profile_message_overflow">6개의 사용자 지정 프로필만 추가할 수 있음</string>
+  <string name="audio_profile_category_custom_title">사용자 정의 프로필</string>
+  <string name="audio_profile_category_predefine_title">사전 정의된 프로필</string>
+  <string name="audio_profile_error">오류</string>
+  <string name="audio_profile_others">알림 및 기타</string>
+  <string name="general_settings_title">"일반"</string>
+  <string name="silent_settings_title">무음</string>
+  <string name="meeting_settings_title">회의</string>
+  <string name="outdoor_settings_title">옥외</string>
+  <string name="sound_category_feedback_title">시스템</string>
+  <string name="sound_category_calls_title">수신 통화</string>
+  <string name="voice_call_title">음성 통화 벨소리</string>
+  <string name="voice_call_summary">"기본 음성 통화 벨소리 설정"</string>
+  <string name="video_call_title">음성 통화 벨소리</string>
+  <string name="video_call_summary">기본 음성 통화 벨소리 설정</string>
+  <string name="sip_call_title">SIP 전화 벨소리</string>
+  <string name="sip_call_summary">기본 SIP 전화 벨소리 설정</string>
+  <string name="Phone_vibrate_summary">통화 수신 시 장치 진동</string>
+  <string name="vibrate_title">진동</string>
+  <string name="audio_profile_settings_title">오디오 프로필</string>
+  <string name="audio_profile_bes_loudness_summary">스피커 볼륨 부스터</string>
+  <string name="sound_enhancement_title">사운드 개선</string>
+  <string name="music_plus_summary">이어폰용 오디오 인핸서</string>
+  <string name="lossless_title">무손실 BT 모드</string>
+  <string name="lossless_summary">고음질 BT 오디오</string>
+  <string name="lossless_connect_summary">무손실 BT 모드를 켜면 Wi-Fi가 영향을 받습니다. 켜시겠습니까?</string>
+  <string name="lossless_on">무손실 BT 모드 켜짐</string>
+  <string name="lossless_playing">무손실 음악 재생</string>
+  <string name="lossless_toastmessage">폰 스피커를 통해 시스템 소리가 재생됩니다</string>
+  <string name="lossless_volume_max">시스템 볼륨을 최대로 유지하세요.</string>
+  <string name="lossless_cannot_found_device">losslessBT 장치를 찾을 수 없습니다</string>
+  <string name="audio_profile_bes_surround_title">BesSurround</string>
+  <string name="audio_profile_bes_surround_summary">오디오 서라운딩</string>
+  <string name="audio_profile_bes_surround_mode_movie">영화 모드</string>
+  <string name="audio_profile_bes_surround_mode_music">음악 모드</string>
+  <string msgid="6680706009915204785" name="zen_mode_option_title_novoice">"알림 수신 시"</string>
+  <!-- AudioProfile Settings end -->
+ 
+  <!-- MTK Wi-Fi settings start -->
+   <string name="wifi_no_cert_for_wapi">현재 연결 AP에 대한 인증을 찾을 수 없음</string>
+  <string name="sim_slot">SIM 슬롯</string>
+  <string name="eap_sim_slot_0">SIM 슬롯 1</string>
+  <string name="eap_sim_slot_1">SIM 슬롯 2</string>
+  <string name="eap_sim_aka_airplanemode">EAP-SIM/AKA를 사용하려면 비행기 모드를 끄십시오</string>
+  <string name="eap_sim_aka_no_sim_error">EAP-SIM/AKA를 사용하려면 sim 카드를 삽입해야 합니다</string>
+  <string name="eap_sim_aka_no_sim_slot_selected">EAP-SIM/AKA를 사용하려면 sim 슬롯을 선택해야 합니다</string>
+  <string name="wifi_security_wapi_certificate">WAPI 인증서</string>
+  <string name="wapi_user_certificate">사용자 인증서</string>
+  <string name="wapi_as_certificate">ASE 인증서</string>
+  <string name="wifi_hex_password">16진수 비밀번호.</string>
+  <string name="wifi_WEP_transmit_key">송신 키</string>
+  <string name="wifi_WEP_secury_key">보안 키</string>
+  <string name="wifi_tether_auto_disable_title">Wi-Fi 핫스팟 켠 상태로 유지</string>
+  <string name="wifi_tether_auto_channel_text">자동</string>
+  <string name="wifi_tether_auto_channel_width_text">자동 20/40 MHz</string>
+  <string name="wifi_channel">기본 채널</string>
+  <string name="wifi_channel_width">채널 폭</string>
+  <string name="wifi_advanced_ipv4_address_title">IPv4 주소</string>
+  <string name="wifi_advanced_ipv6_address_title">IPv6 주소</string>
+  <string name="wifi_ipv4_address">IPv4 주소</string>
+  <string name="wifi_ipv6_address">IPv6 주소</string>
+  <string name="wifi_ap_auto_join_available">자동 조인</string>
+  <string name="wifi_ap_auto_join_available_summary">연결 시 조인을 위해 스캔하는 동안 신호 강도가 가장 높은 Wi-Fi 네트워크를 자동 선택합니다</string>
+  <!-- MTK Wi-Fi settings end -->
+ 
+  <!-- Wi-Fi hotspot client start -->
+   <string name="wifi_tether_setting_title">기본 설정</string>
+  <string name="wifi_tether_wps_connect_title">WPS 연결</string>
+  <string name="wifi_tether_wps_connect_summary">계속하기 위해 선택한 Wi-Fi 보호 설정 모드</string>
+  <string name="wifi_tether_wps_pin_error">잘못된 PIN</string>
+  <string name="wifi_tethering_title">Wi-Fi 핫스팟</string>
+  <string name="wifi_ap_wps_dialog_title">WPS 연결</string>
+  <string name="wifi_ap_wps_mode_title">WPS 모드</string>
+  <string name="wifi_ap_wps_pin_title">클라이언트의 PIN 입력</string>
+  <string name="wifi_ap_reset_OOB_title">네트워크 SSID, 보안 및 암호를 기본값으로 재설정 (WPS용 Out-of-Box 구성)</string>
+  <string name="wifi_ap_reset_OOB">OOB 재설정</string>
+  <string name="wifi_ap_max_connection_title">최대 연결 수</string>
+  <string name="wifi_ap_connected_title">연결된 사용자</string>
+  <string name="wifi_ap_blocked_title">차단된 사용자</string>
+  <string name="wifi_ap_client_block_title">"차단"</string>
+  <string name="wifi_ap_client_unblock_title">차단 해제</string>
+  <string name="wifi_ap_client_details_title">세부사항</string>
+  <string name="wifi_ap_client_mac_label">MAC 주소:</string>
+  <string name="wifi_ap_client_ip_label">IP 주소:</string>
+  <string name="wifi_ap_bandwidth_title">대역폭 사용</string>
+  <string name="wifi_ap_bandwidth_enable">대역폭 스로틀링 활성화</string>
+  <string name="wifi_ap_bandwidth_chart_title">실시간 데이터 속도</string>
+  <string name="wifi_ap_bandwidth_chart_summary">전화기로 측정한 통신사 데이터 속도 계산은 차이가 있을 수 있습니다.</string>
+  <string name="wifi_wps_fail_error">Wi-Fi 보호 설정이 실패했습니다. 다시 시도하십시오.</string>
+  <string name="wifi_ap_title">통계</string>
+  <string name="wifi_ap_time_duration">지속 시간: 
+        <xliff:g id="time">%1$s</xliff:g>
+</string>
+  <string name="wifi_ap_total_data">총 사용된 데이터:
+        <xliff:g id="time">%1$s</xliff:g>
+</string>
+  <string name="wifi_ap_no_connected">0 연결된 사용자</string>
+  <string name="wifi_ap_no_blocked">0 차단된 사용자</string>
+  <!-- Wi-Fi hotspot client end -->
+ 
+  <!-- MTK Beam plus start -->
+   <string name="beam_mgmt_tab_download_title">수신 통화</string>
+  <string name="beam_mgmt_tab_upload_title">"3. 공유 탭을 클릭하고,  '다른 네트워크 사용자가 이 컴퓨터의 인터넷 연결을 통해 연결하도록 허용'('홈 네트워킹 연결이' 표시된 경우 USB 인터넷을 나타내는 새로 추가된 네트워크 선택)을 선택합니다."</string>
+  <string name="beam_share_mgmt_notification_ticker">빔 공유 기록</string>
+  <string name="beam_share_mgmt_notification_title">빔 공유 기록</string>
+  <string name="beam_share_mgmt_notification_message">"빔 공유 기록을 보려면 선택합니다."</string>
+  <string name="beam_share_mgmt_tab_menu_clear">"웹사이트 설정을 모두 지우시겠습니까?"</string>
+  <string name="beam_share_open_file_dialog_title">파일을 열 수 없습니다</string>
+  <string name="beam_share_open_file_unsupported_message">파일 형식이 지원되지 않습니다.</string>
+  <string name="beam_share_open_file_not_found_message">"파일을 찾을 수 없습니다: <xliff:g id="file_name">%1$s</xliff:g>
+</string>
+  <string name="beam_share_transfer_fail_dialog_title">"빔 실패"</string>
+  <string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> 이(가) 성공적으로 보내지지 않았습니다."</string>
+  <string name="beam_share_resend_dialog_ok_button">"다시 시도"</string>
+  <string name="beam_share_show_received_files_menu">"받은 파일 보기"</string>
+  <string name="beam_share_history_title">빔 공유 기록</string>
+  <string name="beam_share_clear_confirm_dialog_title">"모두 지우기"</string>
+  <string name="beam_share_clear_confirm_dialog_message">모든 기록을 지우시겠습니까?</string>
+  <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> 이(가) 성공적으로 수신되지 않았습니다."</string>
+  <string name="beam_share_clear_item_dailog_title">"삭제"</string>
+  <string name="beam_share_clear_item_dailog_message">항목이 삭제됩니다.</string>
+  <!-- MTK Beam plus end -->
+ 
+  <!-- MTK NFC settings start -->
+   <string name="nfc_p2p_mode">P2P 모드</string>
+  <string name="nfc_p2p_mode_summary">앱 콘테트 보내기 또는 받기</string>
+  <string name="nfc_tag_mode_category">태그 모드</string>
+  <string name="nfc_rw_tag_title">태그 읽기 및 쓰기</string>
+  <string name="nfc_rw_tag_summary">태그를 읽거나 씁니다.</string>
+  <string name="nfc_card_emulation_category_title">카드 에뮬레이션 모드</string>
+  <string name="nfc_card_emulation">카드 에뮬레이션</string>
+  <string name="card_emulation_settings_category_title">사용 가능한 보안 요소</string>
+  <string name="card_emulation_settings_no_element_found">사용 가능하지 않은 보안 요소</string>
+  <string name="card_emulation_settings_off_text">사용 가능한 보안 요소를 보려면, 카드 에뮬레이션을 켜십시오.</string>
+  <string name="card_emulation_turning_off_text">카드 에뮬레이션을 끄는 중…</string>
+  <string name="card_emulation_turning_on_text">카드 에뮬레이션을 켜는 중…</string>
+  <string name="card_emulation_switch_error_title">오류</string>
+  <string name="card_emulation_switch_error_message">
+<xliff:g id="card_mode">%1$s</xliff:g> 로 전환하는 데 실패했습니다.</string>
+  <string name="card_emulation_sim_not_supported_message">
+<xliff:g id="sim_description">%1$s</xliff:g> 이(가) NFC 카드 에뮬레이션 기능을 지원하지 않습니다.</string>
+  <string name="card_emulation_two_sim_not_supported_message">SIM1, SIM2는 NFC 카드 에뮬레이션 기능을 지원하지 않습니다.</string>
+  <string name="nfc_hce_pay_summary">Google 월렛, 신용카드 등을 탭핑하여 결제하기 위한 장치로서 사용</string>
+  <!-- MTK NFC settings end -->
+ 
+  <!-- MTK WIFI Passpoint start -->
+   <string name="passpoint_summary">Passpoint 사용가능 AP에 자동 연결</string>
+  <string name="passpoint_append_summary">(패스Passpoint를 통해)</string>
+  <string name="passpoint_config_credential_type">자격증명 종류</string>
+  <string name="passpoint_config_eap_method">"EAP 방식"</string>
+  <string name="passpoint_supported">지원됨</string>
+  <string name="passpoint_username_pw">사용자 이름/비밀번호</string>
+  <string name="passpoint_certificate">인증서</string>
+  <!-- MTK WIFI Passpoint end -->
+ 
+  <!-- MTK WFD start -->
+   <string name="wfd_change_resolution_menu_title">해상도 변경</string>
+  <string name="wfd_sink_summary">다른 사용자가 검색할 수 있음</string>
+  <string name="wfd_device_category">장치 목록</string>
+  <string name="wfd_sink_toast_enjoy">다른 장치에서 화면 캐스팅을 즐기세요.</string>
+  <string name="wfd_sink_toast_disconnect">화면 캐스트 연결이 끊김</string>
+  <string name="wfd_sink_disconnecting">분리하는 중...</string>
+  <string name="wfd_sink_guide_btn">알겠습니다.</string>
+  <string name="wfd_sink_guide_title">종료 방법</string>
+  <string name="wfd_sink_guide_content">화면에서 <xliff:g id="seconds">%s</xliff:g> 초 동안 길게 누르면 다른 장치의 디스플레이가 종료됩니다.</string>
+  <!-- MTK WFD end -->
+ 
+  <!-- MTK Storage Settings start -->
+   <string name="mtp_transfer_unmount_error_text">파일 전송 중 SD 카드를 탑재 해제할 수 없음</string>
+  <string name="mtp_transfer_erase_error_text">파일 전송 중 SD 카드를 지울 수 없음</string>
+  <string name="launch_error">"애플리케이션을 시작할 수 없습니다!"</string>
+  <string name="dlg_confirm_unmount_usb_title" product="default">USB 저장장치를 탑재 해제하시겠습니까?</string>
+  <string name="dlg_confirm_unmount_usb_text" product="default">USB 저장장치를 탑재 해제할 경우 사용 중인 일부 앱이 정지하고 USB 저장장치를 다시 장착할 때까지 사용할 수 없습니다.</string>
+  <string name="dlg_error_unmount_usb_text" product="default">USB 저장장치를 탑재 해제할 수 없습니다. 나중에 다시 시도하십시오.</string>
+  <string name="unmount_usb_inform_text" product="default">USB 저장장치를 탑재 해제합니다.</string>
+  <string name="sd_eject_usbstorage" product="default">USB 저장장치 탑재 해제</string>
+  <string name="sd_eject_usbstorage_summary" product="default">안전하게 제거할 수 있도록 USB 저장장치 탑재 해제</string>
+  <string name="sd_mount_usbstorage" product="default">USB 저장장치 탑재</string>
+  <string name="sd_insert_usb_summary" product="default">탑재를 위해 USB 저장장치 삽입</string>
+  <string name="usb_ums_title">USB 저장장치</string>
+  <string name="usb_ums_summary">"XP 권장. 컴퓨터와 안드로이드 USB 저장장치 간에 파일을 전송하십시오."</string>
+  <string name="usb_charge_title">충전만</string>
+  <string name="usb_connect_as_cdrom_category">"다음으로 연결 CD-ROM"</string>
+  <string name="usb_charge_summary">모든 USB 기능을 정지하십시오. USB 충전 속도를 높이고 전원 소비량을 줄이십시오.</string>
+  <string name="akp_installer_settings_title">APK 설치 프로그램</string>
+  <string name="akp_installer_settings_summary">전화기 저장장치와 SD 카드에서 APK 설치</string>
+  <string name="usb_bicr_title">내장 CD-ROM</string>
+  <string name="usb_bicr_summary">몇 가지 유용한 소프트웨어가 들어 있는 가상 CD-ROM을 표시합니다.</string>
+  <string name="select_memory">기본 쓰기 디스크</string>
+  <string name="dlg_mount_external_sd_title" product="default">SD 카드를 탑재하시겠습니까?</string>
+  <string name="dlg_mount_external_sd_summary" product="default">sd 카드를 탑재할 경우, 사용 중인 일부 앱이 정지합니다.</string>
+  <!-- MTK Storage Settings end -->
+ 
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">HDMI 설정</string>
+  <string name="hdmi_settings_summary">클릭하여 HDMI 구성</string>
+  <string name="hdmi_audio_toggler">오디오</string>
+  <string name="hdmi_video_toggler">동영상</string>
+  <string name="hdmi_video_resolution">동영상 해상도</string>
+  <string name="hdmi_auto">자동</string>
+  <string name="hdmi_scale_control">비디오 배율 설정</string>
+  <string name="hdmi_scale_no_scale">배율 없음</string>
+  <string name="hdmi_scale_scale_down">배율 축소 <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">오디오 출력</string>
+  <string name="hdmi_audio_output_stereo">스테레오</string>
+  <string name="hdmi_audio_output_multi_channel">멀티 채널</string>
+  <!-- MTK HDMI end -->
+ 
+  <!-- MTK Display Settings start -->
+   <string name="landscape_launcher_title">풍경 시작 프로그램</string>
+  <string name="landscape_launcher_none">없음</string>
+  <string name="display_settings_scences_title">장면</string>
+  <string name="default_name">기본값</string>
+  <string name="custom_theme_name">새 [%1$s]</string>
+  <string name="loading">로드하는 중...</string>
+  <string name="auto_backlight_title">절전형 백라이트</string>
+  <string name="auto_backlight_summary">절전을 위해 백라이트를 자동으로 적응시킵니다</string>
+  <string name="display_personalize">개인 설정</string>
+  <string name="display_default">"디스플레이"</string>
+  <string name="clear_motion_summary">비디오 유창 향상제</string>
+  <string name="on_text">"켜짐"</string>
+  <string name="off_text">"최저 밝기"</string>
+  <string name="mira_vision_summary">최상의 시각 효과를 제공합니다.</string>
+  <!-- MTK Display Settings end -->
+ 
+  <!--MTK Security Settings start -->
+   <string name="voice_unlock_backup_info_summary">음성 잠금해제가 귀하를 인식하지 못할 경우, 어떻게 잠금해제하시겠습니까?</string>
+  <string name="unlock_set_unlock_mode_voice_weak">음성 잠금해제</string>
+  <string name="mtk_lock_screen_notifications_title">화면 잠금 알림</string>
+  <string name="lock_screen_notifications_summary">화면 잠금에 대한 알림 표시</string>
+  <string name="lock_screen_style_title">화면 잠금 스타일</string>
+  <string name="current_suffix">"(현재)"</string>
+  <string name="lockscreen_style_default_desc">"잠금 화면에서 애플리케이션에 빠른 액세스"</string>
+  <string name="security_not_set">보안이 설정되지 않았습니다</string>
+  <string name="voice_ui_title">음성 제어</string>
+  <!--MTK Security Settings end -->
+ 
+  <!-- MTK Wireless settings start -->
+   <string name="pch_toggle_title">GPRS 전송 기본 모드</string>
+  <string name="pch_data_prefer_summary_off">데이터 우선</string>
+  <string name="pch_call_prefer_summary_on">통화 우선</string>
+  <string name="pch_warning_message">데이터 전송 속도가 떨어집니다.</string>
+  <string name="tethered_ipv6_title">핫스팟 및 테더링 설정</string>
+  <string name="tethered_ipv4v6">(IPv6 사용 가능)</string>
+  <string name="tethered_ipv6">(IPv6만 사용 가능)</string>
+  <string name="tethered_ipv4">(IPv6 사용 불가)</string>
+  <string name="tethering_apn_settings_title">APN  설정</string>
+  <string name="tethering_apn_settings_summary">테더링할  APN 구성</string>
+  <string name="usb_tether_type_title">USB 테더링유형</string>
+  <string name="usb_tethering_select_version">PC 시스템 버전 선택</string>
+  <string name="apn_port_warning">포트 값은 1-65535 범위의 수여야 합니다!</string>
+  <string name="apn_predefine_change_dialog_notice">저장하시겠습니까? 기본 APN을 수정하면 연결 문제가 발생할 수 있습니다!"</string>
+  <string name="lockdown_vpn_already_connected">연결을 위해 항상 VPN에이 이미 활성화되었습니다.</string>
+  <!-- MTK Wireless settings end -->
+ 
+  <!-- MTK Feature MISC start -->
+   <string name="schedule_power_on_off_settings_title">전원 켜기/끄기 예약</string>
+  <string name="ipo_title">빠른 부팅</string>
+  <string name="ipo_summary_on">빠른 부팅 사용 안함</string>
+  <string name="ipo_summary_off">빠른 부팅 사용</string>
+  <string name="hotknot_explained_description">화면이 다른 장치를 건드리면 데이터를 교환할 수 있습니다.</string>
+  <string name="mouse_primary_button_title">일차 및 이차 버튼 전환</string>
+  <string name="mouse_primary_button_dialog_title">일차 버튼 전환</string>
+  <string name="double_click_title">속도를 두 번 클릭하십시오.</string>
+  <string name="test_area">테스트 영역:</string>
+  <string name="double_click_tip">여기를 두 번 클릭하십시오.</string>
+  <!-- MTK Feature MISC end -->
+ 
+  <!-- MTK Bluetooth Settings start -->
+   <string name="bluetooth_advanced_settings">고급 설정</string>
+  <string name="bluetooth_profile_ftp">파일 전송</string>
+  <string name="bluetooth_ftp_profile_summary_use_for">파일 전송에 사용</string>
+  <string name="bluetooth_ftp_profile_summary_connected">"파일 전송에 연결됨"</string>
+  <!-- MTK Bluetooth Settings end -->
+ 
+  <!--MTK DateTime start-->
+   <string name="gps_time_sync_attention_gps_on">GPS 픽스를 획득하는 데 길어야 1분이 걸립니다. 이 밖에 환경 신호가 약해 GPS가 시간을 제공하지 못할 수 있습니다.\n\nGPS 제공 시간을 사용하시겠습니까?</string>
+  <string name="gps_time_sync_attention_gps_off">GPS 제공 시간을 사용하려면 먼저 GPS를 사용으로 설정해야 합니다. 이 경우 GPS 픽스를 획득하는 데 길어야 1분이 걸립니다. 이 밖에 환경 신호가 약해 GPS가 시간을 제공하지 못할 수 있습니다. \n\n지금 GPS를 사용으로 설정하고 GPS 제공 시간을 기다리시겠습니까?</string>
+  <!--MTK DateTime end-->
+ 
+  <!--MTK DRM settings start -->
+   <string name="drm_settings_title">DRM 재설정</string>
+  <string name="drm_settings_summary">모든 DRM 라이센스 삭제</string>
+  <string name="drm_reset_dialog_msg">이 작업은 이 장치의 모든 라이센스를 삭제합니다. 계속하시겠습니까?</string>
+  <string name="drm_reset_toast_msg">라이센스가 성공적으로 삭제되었습니다.</string>
+  <!--MTK DRM settings end -->
+ 
+  <!-- MTK APPS settings start -->
+   <string name="launch_main_label">애플리케이션 시작</string>
+  <string name="launch_main">주 활동으로 애플리케이션 시작</string>
+  <string name="launch_activitie">시작</string>
+  <string name="move_app_to_where">
+<xliff:g id="location">%s</xliff:g>(으)로 이동</string>
+  <!-- MTK APPS settings end -->
+ 
+  <!-- MTK Battery MISC start -->
+   <string name="bg_power_saving_title">대기 지능형 절전</string>
+  <!-- MTK Battery MISC end -->
+ 
+  <!-- MTK  Datausage  start -->
+   <string name="mtk_datausage_overview_tab">개요</string>
+  <string name="mtk_datausage_overview_wifi_today">오늘</string>
+  <string name="mtk_datausage_overview_wifi_total">"총 사용량"</string>
+  <string name="mtk_datausage_overview_mobile_title">모바일</string>
+  <string name="mtk_datausage_overview_mobile_usage">
+<xliff:g id="actual">%s</xliff:g> 나가는 
+        <xliff:g id="limit">%s</xliff:g>
+</string>
+  <string name="mtk_datausage_overview_mobile_usage_warning">한계 <xliff:g>%s</xliff:g>을(를) 벗어남</string>
+  <string name="data_saving_title">데이터 저장</string>
+  <!-- MTK  Dtausage  end -->
+ 
+  <!-- MTK About phone start -->
+   <string name="status_imei_slot1">IMEI(슬롯 1)</string>
+  <string name="status_imei_slot2">IMEI(슬롯 2)</string>
+  <string name="custom_build_version">사용자 지정 빌드 버전</string>
+  <string name="mota_system_update_summary">"서버에서 시스템 업데이트 확인"</string>
+  <string name="software_updates_more_title">소프트웨어 업데이트</string>
+  <string name="software_updates_more_summary">새 버전의 소프트웨어 확인</string>
+  <!-- MTK About phone end -->
+ 
+  <!-- MTK sim cards start -->
+   <string name="sim_cards_celluar_data_dialog_title">셀룰러 데이터용으로 사용할 SIM 선택</string>
+  <string name="sim_cards_data_sms_dialog_title">SMS 메시지용으로 사용할 SIM 선택</string>
+  <string name="sim_cards_calls_dialog_title">전화 통화용으로 사용할 계정 선택</string>
+  <string name="sim_cards_other_calls_dialog_title">기타 계정 선택</string>
+  <string name="sim_cards_other_calls_item_title">기타 계정</string>
+  <string name="data_connection_progress_message">SIM 전환을 완료하는 데 약 10초가 걸립니다. 기다리십시오…</string>
+  <string name="gemini_sim_mode_progress_activating_message">활성화하는 중\u2026</string>
+  <string name="gemini_sim_mode_progress_deactivating_message">비활성화하는 중\u2026</string>
+  <string name="simui_intenet_call">인터넷 통화</string>
+  <!-- MTK sim cards end -->
+ 
+  <!-- MTK SIM Status start -->
+   <string name="imei_information_title">"IMEI 정보"</string>
+  <string name="imei_information_summary">"IMEI 상대 정보"</string>
+  <string name="slot_number">"(슬롯 <xliff:g id="SLOT_NUM">%1$d</xliff:g>개)"</string>
+  <string name="sim_info_editor_color">"배경 색상"</string>
+  <string name="sim_cards_notify_title">"SIM 카드가 변경되었습니다."</string>
+  <string name="sim_cards_notify_summary">기본 설정을 설정하려면 태핑합니다.</string>
+  <string name="no_sim_cards_notify_title">연결된 SIM 카드가 없음</string>
+  <string name="cellular_data_notify_title">"셀룰러 데이터를 사용할 수 없습니다."</string>
+  <string name="cellular_data_notify_summary">데이터 SIM을 설정하려면 태핑합니다.</string>
+  <!-- MTK SIM Status end -->
+ 
+  <!-- IMS/SMS Settings start -->
+   <string name="ims_toggle_summary">IP 멀티미디어 하위시스템 서비스 제공</string>
+  <string name="sms_vibrate_summary">sms용 장치 진동</string>
+  <!-- IMS/SMS Settings end -->
+    <string name="default_data_switch_err_msg1">통화 중에는 셀룰러 데이터에 대한 기본 설정 SIM을 전환할 수 없습니다.</string>
+  <string name="two_cdma_dialog_msg">슬롯 1과 슬롯 2는 CDMA를 동시에 지원할 수 없습니다.</string>
+  <string name="hetcom_setting_title">터보 다운로드</string>
+<string name="voice_call_sim2_title">SIM 2 통화 벨소리</string>
+<string name="ringtone_sim2_title">SIM 2 통화 벨소리</string>
+<string name="wfc_quick_toggle_title">Wi-Fi 통화</string>
+<string name="Help">도움말</string>
+<string name="Tutorials">설명서</string>
+<string name="Top_questions">많이 하는 질문</string>
+<string name="Wifi_wfc_dialog_title">Wi-Fi 통화</string>
+<string name="Wifi_wfc_dialog_top_wording">이제 WLAN 네트워크에 연결되었습니다.</string>
+<string name="Wifi_wfc_dialog_bottom_wording">화면 상단의 이 기호는 Wi-Fi 네트워크에 연결되어 있음을 나타냅니다. Wi-Fi를 통해 전화를 걸거나 메시지를 보낼 수 있습니다.</string>
+<string name="Skip">건너뛰기</string>
+<string name="Learn_more">자세히 알아보기</string>
+<string name="Next">다음</string>
+<string name="Switch_not_in_use_string">스위치를 잠시 사용할 수 없습니다. 나중에 다시 시도하세요.</string>
+<string name="Done">완료</string>
+<string name="Wfc_questions">Wi-Fi 통화 도움말</string>
+<string name="Wfc_off_summary">비활성화됨</string>
+<string name="wfc_on_summary">Wi-Fi 통화</string>
+<string name="connection_preference">연결 환경 설정</string>
+<string name="WiFi_preferred">Wi-Fi 선호</string>
+<string name="Cellular_network_preferred">셀룰러 네트워크 선호</string>
+<string name="Never_use_cellular_network">셀룰러 네트워크 사용 안 함</string>
+<string name="WiFi_preferred_summary">전화 걸 때 Wi-Fi를 사용합니다. Wi-Fi를 사용할 수 없으면 셀룰러 네트워크를 사용합니다(기본값).</string>
+<string name="Cellular_network_preferred_summary">전화 걸 때 셀룰러 네트워크를 사용합니다. 셀룰러 네트워크를 사용할 수 없으면 Wi-Fi를 사용합니다.</string>
+<string name="Never_use_cellular_network_summary">전화 걸 때 Wi-Fi만 사용합니다. 사용할 수 있는 경우에도 셀룰러 네트워크를 사용하지 않습니다.</string>
+<string name="no_sim_present_error">SIM 없음</string>
+<string name="inavlid_sim_error">오류 05: 잘못된 SIM</string>
+<string name="airplane_mode_on">비행기 모드가 켜져 있습니다.</string>
+<string name="cellular_prefered_summary">기본 연결 모드가 셀룰러입니다.</string>
+<string name="wifi_off_summary">Wi-Fi 꺼짐</string>
+<string name="not_connected_to_wifi_summary">Wi-Fi에 연결되지 않음</string>
+<string name="poor_wifi_signal_summary">Wi-Fi 신호 불량</string>
+<string name="wfc_enabling_summary">활성화 중…</string>
+<string name="wfc_disabling_summary">비활성화 중…</string>
+<string name="wfc_ready_for_calls_summary">통화 준비</string>
+<string name="wfc_unknown_error_summary">알 수 없는 오류</string>
+<string name="wfc_tutorial_heading">Wi-Fi 통화에 관해 더 보기</string>
+<string name="wfc_tutorial_content_second_page_part1">상태 표시줄에 Wi-Fi 통화 아이콘이 표시되면 Wi-Fi 통화를 이용할 준비가 된 것입니다.</string>
+<string name="wfc_tutorial_content_second_page_part2">Wi-Fi 통화를 지속하려면 Wi-Fi 네트워크 범위 밖으로 벗어나지 마십시오. 통화권을 이탈하여 통화가 끊어진 경우 이를 알리는 신호음이 울리고 화면 메시지가 표시됩니다.</string>
+<string name="wfc_incorrect_sim_alert_title">오류 05: 잘못된 SIM 카드</string>
+<string name="wfc_invalid_sim_alert_message">중요 정보\nWi-Fi 통화 서비스 호환성을 위해 SIM 카드를 업데이트해야 합니다. T-모바일 스토어를 방문하거나 휴대전화에서 611번으로 전화를 걸어 고객 관리 센터에 문의하세요.</string>
+<string name="ok_string">확인</string>
+<string name="wifi_ap_help_title">도움말</string>
+<string name="help_document">1. 이동식 Wi-Fi 핫스팟 기능을 사용해 휴대전화를 인터넷 액세스 포인트로 설정할 수 있습니다. 주변 장치를 휴대전화에 연결하면 모바일 데이터 연결을 통한 인터넷 접속이 가능합니다.\n2. 이동식 Wi-Fi 핫스팟 기능을 사용하기 전에 모바일 데이터를 활성화해야 합니다. 해당되는 데이터 요금이 부과될 수 있습니다.\n3. 이동식 Wi-Fi 핫스팟 기능을 사용하면 배터리 전원 소비량이 많아집니다.</string>
+<string name="bg_power_percent_title">배터리 % 표시</string>
+<string name="bg_power_percent_summary">상태 표시줄에 배터리 잔량을 %로 표시합니다.</string>
+<string name="wfc_tutorial_content_first_page">Wi-Fi 통화 기능을 사용해 통화 품질을 개선할 수 있습니다. Wi-Fi 통화 기능을 설정하면 기존의 T-Mobile 요금제를 사용한 Wi-Fi 네트워크로 통화 및 메시지 송수신이 가능합니다. Wi-Fi 통화 기능을 위한 별도의 설치 과정은 필요하지 않습니다. 설정 메뉴에서 무선 및 네트워크를 선택한 후 Wi-Fi 네트워크를 연결하면 기능이 활성화됩니다.</string>
+<string name="storage_internal_storage_title">내부 저장 공간</string>
+<string name="storage_cleaner_preference_title">저장소 클리너</string>
+<string name="mira_vision_title">디스플레이 효과</string>
+</resources>

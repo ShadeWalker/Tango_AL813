@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory>
+        <SwitchPreference 
+            android:key="identify_switch"
+            android:defaultValue="true"
+            android:title="@string/unknow_number_identify"
+            android:summaryOn="@string/identify_tip_enable"
+            android:summaryOff="@string/identify_tip_disable"
+            />  
+       <PreferenceScreen 
+            android:key="offline_number_database"  
+            android:title="@string/offline_database"  
+           />
+    </PreferenceCategory>  
+
+</PreferenceScreen>

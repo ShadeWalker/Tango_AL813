@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="searchFrame_title">Zur Suche nach Kontakten antippen</string>
+
+    <!-- M: add for DialPad speed dial -->
+    <string name="call_speed_dial">Wählen mit Kurzwahltasten</string>
+    <string name="dialog_no_speed_dial_number_message">Keine Zielwahlnummer gesetzt?</string>
+    <string name="add_speed_dial">Antippen um Zielwahl hinzuzufügen</string>
+    <string name="speed_dial_added"><xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) zu Zielwahl <xliff:g id="key">%3$s</xliff:g> hinzugefügt.</string>
+    <string name="speed_dial_added2"><xliff:g id="contact_name">%1$s</xliff:g> zu Zielwahl <xliff:g id="key">%2$s</xliff:g> hinzugefügt</string>
+    <string name="sd_add">Hinzufügen</string>
+    <string name="reselect_number">Die Nummer wurde bereits einer Zielwahl zugeordnet. Wählen Sie eine andere Nummer.</string>
+    <string name="remove_speed_dial">Entfernen</string>
+    <string name="remove_sd_confirm_1">Wollen Sie <xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) wirklich aus der Zielwahl <xliff:g id="key">%3$s</xliff:g> entfernen?</string>
+    <string name="remove_sd_confirm_2">Wollen Sie <xliff:g id="contact_name">%1$s</xliff:g> wirklich aus der Zielwahl <xliff:g id="key">%2$s</xliff:g> entfernen?</string>
+</resources>

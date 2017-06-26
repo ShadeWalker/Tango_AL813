@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topLayout"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <!-- takes up all space above button bar at bottom -->
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView android:id="@+id/headerText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="2"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <View
+             android:background="@*android:drawable/code_lock_top"
+             android:layout_width="match_parent"
+             android:layout_height="2dip"
+             android:visibility="gone" />
+
+        <com.android.internal.widget.LockPatternView android:id="@+id/lockPattern"
+             android:layout_width="350dp"
+             android:layout_height="320dp"
+             android:layout_gravity="center_horizontal" />
+
+        <!-- bottom line looks bad when button bar is their too, omit in this case -->
+        <!--View
+             android:background="@*android:drawable/code_lock_bottom"
+             android:layout_width="match_parent"
+             android:layout_height="8dip" /-->
+
+        <TextView android:id="@+id/footerText"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:gravity="center"
+            android:textSize="14sp"/>
+
+        <!-- header text ('Password tip') -->
+        <TextView android:id="@+id/tipHeaderText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="2"
+            android:text="@string/child_mode_pattern_tip_header"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <!-- spacer above text entry field -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@android:drawable/divider_horizontal_dark"
+        />
+
+        <!-- Password tip entry field -->
+        <EditText android:id="@+id/password_tip_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:inputType="text"
+            android:imeOptions="actionNext"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dip"
+            android:layout_marginEnd="30dip"
+            android:hint="@string/child_mode_password_tip_hint_pattern"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:maxLength="17"
+        />
+    </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        style="@style/SecurityPreferenceButtonContainerLite"
+        android:orientation="horizontal">
+
+        <!-- left : cancel, or re-try -->
+        <Button android:id="@+id/footerLeftButtonLite"
+            style="@style/SecurityPreferenceButton"
+            android:text="@string/lockpattern_tutorial_cancel_label"/>
+
+        <!-- right : confirm or ok -->
+        <Button android:id="@+id/footerRightButtonLite"
+            style="@style/SecurityPreferenceButton"
+            android:text="@string/lockpattern_tutorial_continue_label"/>
+
+    </LinearLayout>
+
+</com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient>

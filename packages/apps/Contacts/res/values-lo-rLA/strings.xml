@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+      <string name="delete_group_dialog_title">ລຶບກຸ່ມ</string>
+   <string name="menu_actionbar_not_selected_items">ບໍ່ໄດ້ເລືອກໄວ້</string>
+     
+<string name="no_contact_to_display">ບໍ່​ມີລາຍ​ຊື່​ທີ່​ຊ້ຳກັນ​</string>
+     <string msgid="3906689777043645443" name="applicationLabel">"ລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="6497230399032392417" name="launcherActivityLabel">"ລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="8661624236494819731" name="contactsList">"ລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string name="profile_display_name">"ຕັ້ງຄ່າໂປຣໄຟລ໌ຂອງຂ້ອຍ"</string>
+     <string name="set_up_my_profile">"ຕັ້ງຄ່າໂປຣໄຟລ໌ຂອງຂ້ອຍ"</string>
+      <string name="contacts_setting_Advanced">"ຂັ້ນສູງ"</string>
+       <string name="mem_status">ສະຖານະຄວາມຈໍາ</string>
+    <string name="phone_local">"ໂທລະສັບ"</string>
+  <string name="howManyContacts"> ລາຍຊື່</string>
+    <string name="merge_duplicate_contacts">ລວມລາຍ​ຊື່​ທີ່ຊ້ຳກັນເຂົ້າ​ກັນ​</string>
+    <string-array name="phone_contact_menu">
+        <item>ໂທ</item>
+        <item>ສົ່ງຂໍ້ຄວາມ</item>
+        <item>ສົ່ງອີເມວ</item>
+        <item>"ແກ້ໄຂ"</item>
+        <item>ລຶບ</item>
+        <item>"ແບ່ງ​ປັນ​ສະ​ມຸດ​ໂທ​ລະ​ສັບ​ບໍ?"</item>
+        <item>"ລາຍການທີ່ມັກ"</item>
+        <item>ເພີ່ມໃສ່ບັນຊີດໍາ</item>
+        <item>"ວາງໃສ່ໜ້າຈໍຫຼັກ"</item>  
+    </string-array>
+    <string-array name="sim_contact_menu">
+        <item>ໂທ</item>
+        <item>ສົ່ງຂໍ້ຄວາມ</item>
+        <item>ແກ້ໄຂ</item>
+        <item>ລຶບ</item>
+        <item>ແບ່ງ​ປັນ​ສະ​ມຸດ​ໂທ​ລະ​ສັບ​ບໍ?</item>
+        <item>ເພີ່ມໃສ່ບັນຊີດໍາ</item>
+        <item>ວາງໃສ່ໜ້າຈໍຫຼັກ</item>
+    </string-array>
+    <string name="strequentList">ລາຍການທີ່ມັກ</string>
+    <string name="hq_sim_slot_position_1">SIM 1</string>
+    <string name="hq_sim_slot_position_2">SIM 2</string>
+    <string name="send_message" msgid="8938418965550543196">"ສົ່ງຂໍ້ຄວາມ"</string>
+    
+    <string msgid="749243779392912958" name="shortcutContact">"ລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="746622101599186779" name="shortcutDialContact">"ໂທຫາໂດຍກົງ"</string>
+    <string msgid="2460337253595976198" name="shortcutMessageContact">"ສົ່ງຂໍ້ຄວາມຫາໂດຍກົງ"</string>
+    <string msgid="6642877210643565436" name="shortcutActivityTitle">"ເລືອກທາງລັດລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="6065749861423648991" name="callShortcutActivityTitle">"ເລືອກໝາຍເລກເພື່ອໂທ"</string>
+    <string msgid="3084542316620335911" name="messageShortcutActivityTitle">"ເລືອກເບີເພື່ອສົ່ງຂໍ້ຄວາມ"</string>
+    <string msgid="6527505405325862674" name="contactInsertOrEditActivityTitle">"ເພີ່ມໃສ່​ລາຍຊື່​ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="4301062192337417640" name="contactPickerActivityTitle">"ເລືອກລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="2436981165830115659" name="header_entry_contact_list_adapter_header_title">"ສ້າງລາຍຊື່ຜູ່ຕິດຕໍ່ໃໝ່"</string>
+    <string msgid="4817256136413959463" name="starredList">"ໝາຍດາວແລ້ວ"</string>
+    <string msgid="7154768136473953056" name="frequentList">"ເລື້ອຍໆ"</string>
+    <string msgid="5640192862059373511" name="strequentList">"ລາຍການທີ່ມັກ"</string>
+    <string msgid="7989394521836644384" name="viewContactTitle">"ລາຍລະອຽດລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="2947202828256214947" name="editContactDescription">"ແກ້ໄຂລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="4709878105452681987" name="insertContactDescription">"ສ້າງລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="6321161304201540561" name="editGroupDescription">"ແກ້ໄຂກຸ່ມ"</string>
+    <string msgid="5658512271662210139" name="insertGroupDescription">"ສ້າງກຸ່ມ"</string>
+    <string msgid="5430408883907061400" name="contactDetailAbout">"ກ່ຽວ​ກັບ"</string>
+    <string msgid="3780588624763446941" name="contactDetailUpdates">"ອັບເດດ"</string>
+    <string msgid="8482945356247760701" name="searchHint">"ຊອກຫາລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="2795575601596468581" name="menu_viewContact">"ເບິ່ງລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="2908478235715404876" name="menu_addStar">"ເພີ່ມເປັນລາຍການທີ່ມັກ"</string>
+    <string msgid="5844227078364227030" name="menu_removeStar">"ລຶບອອກຈາກລາຍການທີ່ມັກ"</string>
+    <string msgid="4699640108012265178" name="description_action_menu_remove_star">"​ລຶບ​ອອກ​ຈາກ​ລາຍ​ການ​ທີ່​ມັກ​ແລ້ວ"</string>
+    <string msgid="3327186327234177456" name="description_action_menu_add_star">"​ເພີ່ມ​ໃສ່​ລາຍ​ການ​ທີ່​ມັກ"</string>
+    <string msgid="9042415603857662633" name="menu_editContact">"ແກ້ໄຂ"</string>
+    <string msgid="6788644058868189393" name="menu_deleteContact">"ລຶບ"</string>
+    <string msgid="1217971915748509640" name="menu_create_contact_shortcut">"ວາງໃສ່ໜ້າຈໍຫຼັກ"</string>
+    <string msgid="3992595586042260618" name="menu_call">"ໂທຫາລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="5535886767547006515" name="menu_sendSMS">"ສົ່ງຂໍ້ຄວາມຫາລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="8368636463748691868" name="menu_splitAggregate">"ແຍກຂໍ້ມູນ"</string>
+    <string msgid="5062005185370983720" name="menu_editGroup">"ແກ້ໄຂ"</string>
+    <string msgid="3486380004411482874" name="menu_deleteGroup">"ລຶບ"</string>
+    <string msgid="7263362129442119188" name="menu_new_contact_action_bar">"ເພີ່ມເປັນລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="3520232877587377175" name="menu_new_group_action_bar">"ເພີ່ມກຸ່ມ"</string>
+    <string msgid="633640935430370530" name="splitConfirmation_title">"ແຍກລາຍຊື່ຜູ່ຕິດຕໍ່?"</string>
+    <string msgid="740190210499587175" name="splitConfirmation">"ລາຍຊື່ຜູ່ຕິດຕໍ່ຈະຖືກແຍກເປັນຫຼາຍລາຍຊື່ຜູ່ຕິດຕໍ່."</string>
+    <string msgid="5027981918265667970" name="menu_joinAggregate">"ຮວມ"</string>
+    <string msgid="7684875775798635354" name="titleJoinContactDataWith">"ຮວມລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="8736488417422708236" name="blurbJoinContactDataWith">"ເລືອກລາຍຊື່ຜູ່ຕິດຕໍ່ ທີ່ທ່ານຕ້ອງການຮວມກັບ <xliff:g id="NAME">%s</xliff:g>:"</string>
+    <string msgid="2189695051430392383" name="showAllContactsJoinItem">"ສະແດງລາຍຊື່ຜູ່ຕິດຕໍ່ທັງໝົດ"</string>
+    <string msgid="2831414448851313345" name="separatorJoinAggregateSuggestions">"ລາຍຊື່ຜູ່ຕິດຕໍ່ທີ່ແນະນຳ"</string>
+    <string msgid="7939932265026181043" name="separatorJoinAggregateAll">"ລາຍຊື່ຜູ່ຕິດຕໍ່ທັງໝົດ"</string>
+    <string msgid="7208148163607047389" name="contactsJoinedMessage">"ຮວມລາຍຊື່ຜູ່ຕິດຕໍ່ແລ້ວ"</string>
+    <string msgid="8728345772068064946" name="menu_set_ring_tone">"ຕັ້ງສຽງຣິງໂທນ"</string>
+    <string msgid="4181789196416396656" name="menu_redirect_calls_to_vm">"ໂອນທຸກສາຍໄປຂໍ້ຄວາມສຽງ"</string>
+    <string msgid="7808825687289848259" name="readOnlyContactWarning">"ທ່ານບໍ່ສາມາດລຶບລາຍຊື່ຜູ່ຕິດຕໍ່ຈາກບັນຊີທີ່ອ່ານໄດ້ເທົ່ານັ້ນ ແຕ່ທ່ານສາມາດເຊື່ອງມັນໄວ້ໃນລາຍຊື່ຜູ່ຕິດຕໍ່ຂອງທ່ານ."</string>
+    <string msgid="2137170726670196909" name="readOnlyContactDeleteConfirmation">"ລາຍຊື່ຜູ່ຕິດຕໍ່ນີ້ມີຂໍ້ມູນຈາກຫຼາຍບັນຊີ. ຂໍ້ມູນຈາກບັນຊີທີ່ອ່ານໄດ້ເທົ່ານັ້ນ ຈະຖືກເຊື່ອງໄວ້ໃນລາຍຊື່ຂອງທ່ານ ແຕ່ບໍ່ຖືກລຶບອອກ."</string>
+    <string msgid="938900978442960800" name="multipleContactDeleteConfirmation">"ການລຶບລາຍຊື່ຜູ່ຕິດຕໍ່ນີ້ຈະລຶບຂໍ້ມູນຈາກຫຼາຍບັນຊີ."</string>
+    <string msgid="811706994761610640" name="deleteConfirmation">"ລາຍຊື່ຜູ່ຕິດຕໍ່ນີ້ຈະຖືກລຶບອອກ."</string>
+    <string msgid="6854657936970228164" name="menu_discard">"ຍົກເລີກການແກ້ໄຂ"</string>
+    <string msgid="8215051456181842274" name="invalidContactMessage">"ບໍ່ມີລາຍຊື່ຜູ່ຕິດຕໍ່."</string>
+    <string msgid="7874133287558150877" name="createContactShortcutSuccessful">"ເພີ່ມວິດເຈັດລາຍຊື່ຜູ່ຕິດຕໍ່ໃສ່ໜ້າຈໍຫຼັກແລ້ວ."</string>
+    <string msgid="7750705279843568147" name="pickerNewContactHeader">"ສ້າງລາຍຊື່ຜູ່ຕິດຕໍ່ໃໝ່"</string>
+    <string msgid="6166997164401048211" name="pickerNewContactText">"ສ້າງລາຍຊື່ຜູ່ຕິດຕໍ່ໃໝ່"</string>
+  <string-array name="otherLabels">
+    <item msgid="8287841928119937597">"ອົງກອນ"</item>
+    <item msgid="7196592230748086755">"ໝາຍເຫດ"</item>
+  </string-array>
+    <string msgid="6247290728908599701" name="photoPickerNotFoundText" product="tablet">"ບໍ່ມີຮູບໃນແທັບເລັດທີ່ສາມາດໃຊ້ໄດ້."</string>
+    <string msgid="431331662154342581" name="photoPickerNotFoundText" product="default">"ບໍ່ມີຮູບທີ່ສາມາດໃຊ້ໄດ້ໃນໂທລະສັບ."</string>
+    <string msgid="5599827035558557169" name="attach_photo_dialog_title">"ຮູບລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="1081475101983255212" name="customLabelPickerTitle">"ປ້າຍກຳກັບຊື່ກຳນົດເອງ"</string>
+    <string msgid="9001686764070676353" name="send_to_voicemail_checkbox">"ສົ່ງການໂທອອກໄປຫາຂໍ້ຄວາມສຽງໂດຍກົງ"</string>
+    <string msgid="4898105274130284565" name="removePhoto">"ລຶບຮູບພາບ"</string>
+    <string msgid="8579310973261953559" name="noContacts">"ບໍ່ມີລາຍຊື່ຜູ່ຕິດຕໍ່."</string>
+    <string msgid="8614664663561385253" name="noGroups">"ບໍ່ມີກຸ່ມ."</string>
+    <string msgid="7768267764545265909" name="noAccounts">"ເພື່ອສ້າງກຸ່ມ ທ່ານຈະຕ້ອງມີບັນຊີກ່ອນ."</string>
+    <string msgid="7502116218697177370" name="emptyGroup">"ບໍ່ມີຄົນໃນກຸ່ມນີ້."</string>
+    <string msgid="7879585947222263516" name="addPeopleToGroup">"ເພື່ອເພີ່ມລາຍຊື່, ກະລຸນາແກ້ໄຂກຸ່ມ."</string>
+    <string msgid="4075751076741924939" name="savingContact">"ກຳລັງບັນທຶກລາຍຊື່ຜູ່ຕິດຕໍ່..."</string>
+    <string msgid="7152589189385441091" name="contactSavedToast">"ບັນທຶກລາຍຊື່ຜູ່ຕິດຕໍ່ແລ້ວ."</string>
+    <string msgid="3207250533172944892" name="contactSavedErrorToast">"ບໍ່ສາມາດບັນທຶກການແກ້ໄຂລາຍຊື່ຜູ່ຕິດຕໍ່ໄດ້."</string>
+    <string msgid="1168756874239833756" name="groupSavedToast">"ບັນທຶກກຸ່ມແລ້ວ."</string>
+    <string msgid="7984466936615304740" name="groupSavedErrorToast">"ບໍ່ສາມາດບັນທຶກການແກ້ໄຂກຸ່ມໄດ້."</string>
+  <plurals name="listTotalPhoneContacts">
+    <item msgid="3015357862286673986" quantity="one">"1 ລາຍຊື່ຜູ່ຕິດຕໍ່ທີ່ມີເບີໂທລະສັບ"</item>
+    <item msgid="3299954047880968205" quantity="other">"<xliff:g id="COUNT">%d</xliff:g> ລາຍຊື່ຜູ່ຕິດຕໍ່ທີ່ມີເບີໂທລະສັບ"</item>
+  </plurals>
+    <string msgid="6968813857632984319" name="listTotalPhoneContactsZero">"ບໍ່ມີລາຍຊື່ທີ່ມີເບີໂທລະສັບ"</string>
+  <plurals name="listFoundAllContacts">
+    <item msgid="5517063038754171134" quantity="one">"ພົບ 1"</item>
+    <item msgid="3852668542926965042" quantity="other">"ພົບ <xliff:g id="COUNT">%d</xliff:g>"</item>
+  </plurals>
+    <string msgid="922980883593159444" name="listFoundAllContactsZero">"ບໍ່ມີລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+  <plurals name="searchFoundContacts">
+    <item msgid="4826918429708286628" quantity="one">"ພົບ 1 ລາຍຊື່"</item>
+    <item msgid="7988132539476575389" quantity="other">"ພົບ <xliff:g id="COUNT">%d</xliff:g>"</item>
+  </plurals>
+    <string msgid="6250372293594147703" name="all_contacts_tab_label">"ລາຍ​ຊື່​ຜູ່​ຕິດ​ຕໍ່​ທັງ​ໝົດ"</string>
+    <string msgid="1524869648904016414" name="favorites_tab_label">"​ລາຍ​ການ​ທີ່​ມັກ"</string>
+    <string msgid="5498224409038809224" name="callBack">"ໂທກັບ"</string>
+    <string msgid="3197312117049874778" name="callAgain">"ໂທອີກເທື່ອນຶ່ງ"</string>
+    <string msgid="8171961914203617813" name="returnCall">"ໂທກັບ"</string>
+    <string msgid="7986472669444326576" name="add_contact_dlg_message_fmt">"ເພີ່ມ \"<xliff:g id="EMAIL">%s</xliff:g>\" ໃສ່ລາຍຊື່ຜູ່ຕິດຕໍ່?"</string>
+    <string msgid="3387458082667894062" name="description_contact_photo">"ຮູບພາບລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="515164827856229880" name="description_plus_button">"ບວກ"</string>
+    <string msgid="560522409559101193" name="exporting_contact_list_progress">"ລາຍຊື່ຜູ່ຕິດຕໍ່ <xliff:g id="CURRENT_NUMBER">%s</xliff:g> ຈາກທັງໝົດ  <xliff:g id="TOTAL_NUMBER">%s</xliff:g> ລາຍຊື່"</string>
+    <string msgid="2675223022992445813" name="search_settings_description">"ຊື່ຂອງລາຍຊື່ຜູ່ຕິດຕໍ່ຂອງທ່ານ"</string>
+    <string msgid="358168575340921552" name="quickcontact_missing_app">"ບໍ່ພົບແອັບຯທີ່ໃຊ້ເພື່ອດຳເນີນການ."</string>
+    <string msgid="987959416759562455" name="quickcontact_transparent_view_description">"ຄລິກ​ເພື່ອ​ກັບ​ໄປ​ທີ່​ໜ້າຈໍ​ກ່ອນ​ໜ້າ​ນີ້"</string>
+    <string msgid="731665835910658965" name="quickcontact_add_phone_number">"ເພີ່ມ​ເບີ​ໂທ​ລະ​ສັບ"</string>
+    <string msgid="739298028384348482" name="quickcontact_add_email">"ເພີ່ມອີເມວ"</string>
+    <string msgid="1466111003546611387" name="missing_app">"ບໍ່ພົບແອັບຯທີ່ໃຊ້ເພື່ອດຳເນີນການ."</string>
+    <string msgid="943789700636542260" name="menu_share">"ແບ່ງປັນ"</string>
+    <string msgid="3198704337220892684" name="menu_add_contact">"​ເພີ່ມ​ໃນ​ລາຍ​ຊື່​ຜູ່​ຕິດ​ຕໍ່"</string>
+    <string msgid="563121028023030093" name="share_via">"ແບ່ງປັນລາຍຊື່ຜູ່ຕິດຕໍ່ຜ່ານທາງ"</string>
+    <string msgid="2318032089273496830" name="dialog_new_group_account">"ສ້າງກຸ່ມພາຍໃຕ້ບັນຊີ"</string>
+    <string msgid="2535716629358298691" name="audio_chat">"ການສົນທະນາດ້ວຍສຽງ"</string>
+    <string msgid="1872255818640336072" name="video_chat">"ການສົນທະນາດ້ວຍວິດີໂອ"</string>
+    <string msgid="8098440723172028350" name="connections">"ການເຊື່ອມຕໍ່"</string>
+    <string msgid="4861308615789601727" name="add_connection_button">"ເພີ່ມການເຊື່ອມຕໍ່"</string>
+    <string msgid="2659189233141493004" name="recent">"ເມື່ອບໍ່ດົນມານີ້"</string>
+    <string msgid="4267258535615860710" name="recent_updates">"ອັບເດດເມື່ອໄວໆນີ້"</string>
+    <string msgid="718948015590343010" name="account_type_format">"<xliff:g id="SOURCE">%1$s</xliff:g> ລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <!-- no translation found for from_account_format (4469138575127580203) -->
+    <skip/>
+    <string msgid="7421346527289472273" name="contact_read_only">"ບໍ່ສາມາດແກ້ໄຂໄດ້ຈາກແອັບຯນີ້."</string>
+    <string msgid="1061762906115697637" name="group_read_only">"ບໍ່ສາມາດແກ້ໄຂໄດ້ໃນອຸປະກອນນີ້."</string>
+    <string msgid="7496128293167402354" name="take_photo">"ຖ່າຍ​ຮູບ"</string>
+    <string msgid="7341354729436576304" name="take_new_photo">"ຖ່າຍຮູບໃໝ່"</string>
+    <string msgid="2129509985223564942" name="pick_photo">"ເລືອກ​ຮູບ"</string>
+    <string msgid="9122450996263688237" name="pick_new_photo">"ເລືອກຮູບໃໝ່"</string>
+    <string msgid="7583992153091537467" name="locale_change_in_progress">"ລາຍຊື່ຜູ່ຕິດຕໍ່ກຳລັງຖືກອັບເດດຕາມການປ່ຽນແປງຂອງພາສາ."</string>
+    <string msgid="474511436863451061" name="upgrade_in_progress">"ລາຍການລາຍຊື່ຜູ່ຕິດຕໍ່ກຳລັງຖືກອັບເດດ."</string>
+    <string msgid="1209994418877625940" name="upgrade_out_of_memory">"ລາຍຊື່ຜູ່ຕິດຕໍ່ກຳລັງຢູ່ໃນລະຫວ່າງການອັບເກຣດ. \n\nຂັ້ນຕອນການອັບເກຣດ ຈະໃຊ້ບ່ອນຈັດເກັບຂໍ້ມູນພາຍໃນ <xliff:g id="SIZE_IN_MEGABYTES">%s</xliff:g> MB.\n\nກະລຸນາເລືອກໂຕເລືອກໃດນຶ່ງຕໍ່ໄປນີ້:"</string>
+    <string msgid="1721798828992091432" name="upgrade_out_of_memory_uninstall">"ຖອນການຕິດຕັ້ງບາງແອັບພລິເຄຊັນອອກ"</string>
+    <string msgid="8431289830472724609" name="upgrade_out_of_memory_retry">"ລອງອັບເກຣດອີກຄັ້ງ"</string>
+    <string msgid="3984833028938569930" name="search_results_searching">"ກຳລັງຊອກຫາ..."</string>
+    <string msgid="6470001164297969034" name="menu_display_selected">"ສະແດງສິ່ງທີ່ເລືອກ"</string>
+    <string msgid="8887488642609786198" name="menu_display_all">"ສະແດງທັງໝົດ"</string>
+    <string msgid="621719255150713545" name="menu_select_all">"ເລືອກທັງໝົດ"</string>
+    <string msgid="7093222469852132345" name="menu_select_none">"ບໍ່ເລືອກທັງໝົດ"</string>
+    <string msgid="5223080690667565044" name="add_new_entry_for_section">"ເພີ່ມໃໝ່"</string>
+    <string msgid="7311893231158291197" name="add_organization">"ເພີ່ມອົງກອນ"</string>
+    <string msgid="5794424930242630477" name="event_edit_field_hint_text">"ວັນທີ"</string>
+    <string msgid="3966441850870457808" name="group_edit_field_hint_text">"ຊື່ກຸ່ມ"</string>
+    <string msgid="8530597935483526383" name="change_photo">"ປ່ຽນແປງ"</string>
+    <string msgid="8517942231868516999" name="primary_photo">"ຮູບ​ຖ່າຍ​ຕົ້ນ​ຕໍ"</string>
+    <string msgid="2605854427360036550" name="description_star">"ໝາຍດາວ"</string>
+    <string msgid="7529281274005689512" name="edit_contact">"ແກ້ໄຂລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+  <plurals name="merge_info">
+    <item msgid="148365587896371969" quantity="one">"ຍັງບໍ່ຮວມເທື່ອ"</item>
+    <item msgid="425683718017380845" quantity="other">"ຮວມມາຈາກ <xliff:g id="COUNT">%0$d</xliff:g> ແຫລ່ງຂໍ້ມູນ"</item>
+  </plurals>
+    <string msgid="3842757977671434836" name="aggregation_suggestion_join_dialog_message">"ຮວມລາຍຊື່ຜູ່ຕິດຕໍ່ນີ້ ກັບລາຍຊື່ຜູ່ຕິດຕໍ່ທີ່ເລືອກ?"</string>
+    <string msgid="6549585283910518095" name="aggregation_suggestion_edit_dialog_message">"ສະລັບໄປທີ່ການແກ້ໄຂລາຍຊື່ຜູ່ຕິດຕໍ່ທີ່ເລືອກ? ຂໍ້ມູນທີ່ທ່ານຂຽນມາຈະຖືກສຳເນົາໄວ້."</string>
+    <string msgid="1573960845106822639" name="menu_copyContact">"ສຳເນົາໃສ່ລາຍຊື່ຜູ່ຕິດຕໍ່ຂອງຂ້ອຍ"</string>
+    <string msgid="1068274916793627723" name="add_to_my_contacts">"ເພີ່ມໃສ່ລາຍຊື່ຜູ່ຕິດຕໍ່ຂອງຂ້ອຍ"</string>
+    <string msgid="683398073603909119" name="contact_directory_description">"ໄດເຣັກທໍຣີ <xliff:g id="TYPE">%1$s</xliff:g>"</string>
+    <string msgid="8910173055702057002" name="list_filter_custom">"ກຳນົດເອງ"</string>
+    <string msgid="5464130076132770781" name="activity_title_settings">"ການຕັ້ງຄ່າ"</string>
+    <string msgid="377929915873428211" name="menu_settings">"ການຕັ້ງຄ່າ"</string>
+    <string msgid="5123887102216637725" name="menu_help">"ຊ່ວຍເຫຼືອ"</string>
+    <string msgid="1341720270148252393" name="preference_displayOptions">"ໂຕເລືອກການສະແດງຜົນ"</string>
+    <string msgid="6718207751363732025" name="organization_company_and_title">"<xliff:g id="COMPANY_0">%2$s</xliff:g>, <xliff:g id="COMPANY_1">%1$s</xliff:g>"</string>
+    <string msgid="1541655052330027380" name="non_phone_caption">"ເບີໂທລະສັບ"</string>
+    <string msgid="6590985286250471169" name="non_phone_add_to_contacts">"ເພີ່ມໃສ່ລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="4065089866210730616" name="activity_title_confirm_add_detail">"ເພີ່ມໃສ່ລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="7608506439725515667" name="non_phone_close">"ປິດ"</string>
+    <string msgid="8739586586600099979" name="widget_name_and_phonetic">"<xliff:g id="DISPLAY_NAME">%1$s</xliff:g> (<xliff:g id="PHONETIC_NAME">%2$s</xliff:g>)"</string>
+    <string msgid="7356532842767854606" name="date_year_toggle">"ລະບຸປີ"</string>
+    <string msgid="6378905543028924592" name="social_widget_label">"ລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="5327336597364074608" name="social_widget_loading">"ກຳລັງໂຫລດ..."</string>
+    <string msgid="7014525713871959208" name="contacts_unavailable_create_contact">"ສ້າງລາຍຊື່ຜູ່ຕິດຕໍ່ໃໝ່"</string>
+    <string msgid="7911101713860139754" name="contacts_unavailable_add_account">"ເຂົ້າສູ່ລະບົບບັນຊີ"</string>
+    <string msgid="4957393255392437529" name="contacts_unavailable_import_contacts">"ນຳເຂົ້າລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="6874527142828424475" name="create_group_dialog_title">"ສ້າງ​ກຸ່ມ​ໃໝ່"</string>
+    <string msgid="4411981763169654825" name="create_group_item_label">"ສ້າງ​ກຸ່ມ​ໃໝ່"</string>
+  <plurals name="num_groups_in_account">
+    <item msgid="2944819210288517794" quantity="one">"1 ກຸ່ມ"</item>
+    <item msgid="1276758425904917367" quantity="other">"<xliff:g id="COUNT">%0$d</xliff:g> ກຸ່ມ"</item>
+  </plurals>
+    <string msgid="7586856514337560529" name="delete_group_dialog_message">"ລຶບກຸ່ມ \"<xliff:g id="GROUP_LABEL">%1$s</xliff:g>\"? (ລາຍຊື່ຜູ່ຕິດຕໍ່ຈະບໍ່ຖືກລຶບອອກ.)"</string>
+  <plurals name="num_contacts_in_group">
+    <item msgid="1352418549951013448" quantity="one">"<xliff:g id="COUNT_0">%1$d</xliff:g> ຄົນຈາກ <xliff:g id="ACCOUNT_TYPE">%2$s</xliff:g>"</item>
+    <item msgid="8146027769011086349" quantity="other">"<xliff:g id="COUNT_0">%1$d</xliff:g> ຄົນຈາກ <xliff:g id="ACCOUNT_TYPE">%2$s</xliff:g>"</item>
+  </plurals>
+  <plurals name="group_list_num_contacts_in_group">
+    <item msgid="3323065321661972446" quantity="one">"<xliff:g id="COUNT">%1$d</xliff:g> ຄົນ"</item>
+    <item msgid="6251996206137048525" quantity="other">"<xliff:g id="COUNT">%1$d</xliff:g> ຄົນ"</item>
+  </plurals>
+    <string msgid="2238581529864542985" name="toast_join_with_empty_contact">"ພິມຊື່ຂອງລາຍຊື່ຜູ່ຕິດຕໍ່ກ່ອນການຮວມກັບລາຍຊື່ອື່ນ."</string>
+    <string msgid="3257145021583508761" name="copy_text">"ສຳເນົາໃສ່ຄລິບບອດ"</string>
+    <string msgid="4417505153468300351" name="set_default">"ຕັ້ງຄ່າເລີ່ມຕົ້ນ"</string>
+    <string msgid="7193185801596678067" name="clear_default">"ລຶບຄ່າເລີ່ມຕົ້ນ"</string>
+    <string msgid="5143776250008541719" name="toast_text_copied">"ສຳເນົາຂໍ້ຄວາມແລ້ວ"</string>
+    <string msgid="5885724679874403115" name="cancel_confirmation_dialog_message">"ຍົກເລີກການແກ້ໄຂຂອງທ່ານ?"</string>
+    <string msgid="747163730039311423" name="call_type_and_date">"<xliff:g id="CALL_TYPE">%1$s</xliff:g> <xliff:g id="CALL_SHORT_DATE">%2$s</xliff:g>"</string>
+    <string msgid="4127389543625918771" name="profile_display_name">"ຕັ້ງຄ່າໂປຣໄຟລ໌ຂອງຂ້ອຍ"</string>
+    <string msgid="1738391320566349924" name="enter_contact_name">"ພິມຊື່ຄົນ"</string>
+    <string msgid="238359485263401293" name="group_name_hint">"ຊື່ກຸ່ມ"</string>
+    <string msgid="2021416826991393684" name="local_profile_title">"ໂປຣໄຟລ໌ໃນອຸປະກອນຂອງຂ້ອຍ"</string>
+    <string msgid="8034998767621359438" name="external_profile_title">"ໂປຣໄຟລ໌ <xliff:g id="EXTERNAL_SOURCE">%1$s</xliff:g> ຂອງຂ້ອຍ"</string>
+    <string msgid="2737388783898593875" name="toast_displaying_all_contacts">"ສະແດງລາຍຊື່ຜູ່ຕິດຕໍ່ທັງໝົດ"</string>
+    <string msgid="6424883302325061025" name="no_account_prompt">"ລາຍຊື່ຜູ່ຕິດຕໍ່​ຈະ​ເຮັດ​ວຽກ​ໄດ້​ດີ​ຂຶ້ນ​ເມື່ອ​ໃຊ້​ຮ່ວມ​ກັບ​ບັນ​ຊີ Google.\n\n• ເຂົ້າ​ເຖິງ​ໄດ້​ຈາກ​ທຸກ​ໂປຣແກຣມ​ທ່ອງ​ເວັບ.\n• ສຳຮອງ​ຂໍ້ມູນ​ລາຍຊື່ຜູ່ຕິດຕໍ່​ຂອງ​ທ່ານ​ໄວ້​ຢ່າງ​ປອດ​ໄພ."</string>
+    <string msgid="7218827704367325460" name="generic_no_account_prompt">"ເກັບຮັກສາລາຍຊື່ຜູ່ຕິດຕໍ່ຂອງທ່ານໄວ້ຢ່າງປອດໄພ ເຖິງແມ່ນວ່າໂທລະສັບຂອງທ່ານຈະເສຍກໍຕາມ ດ້ວຍການຊິ້ງຂໍ້ມູນກັບບໍລິການອອນລາຍ."</string>
+    <string msgid="753783911899054860" name="generic_no_account_prompt_title">"ເພີ່ມບັນຊີ"</string>
+    <string msgid="1785345895691886499" name="contact_editor_prompt_zero_accounts">"ລາຍຊື່ຜູ່ຕິດຕໍ່ໃໝ່ຂອງທ່ານຈະບໍ່ຖືກສຳຮອງຂໍ້ມູນ. ທ່ານຕ້ອງການເພີ່ມບັນຊີ ທີ່ສາມາດສຳຮອງຂໍ້ມູນອອນລາຍໄດ້ຫຼືບໍ່?"</string>
+    <string msgid="8669032699767375976" name="contact_editor_prompt_one_account">"ລາຍຊື່ຜູ່ຕິດຕໍ່ໃໝ່ຂອງທ່ານຈະຖືກຊິ້ງຂໍ້ມູນກັບ <xliff:g id="ACCOUNT_NAME">%1$s</xliff:g>."</string>
+    <string msgid="611828200100438242" name="contact_editor_prompt_multiple_accounts">"ທ່ານສາມາດຊິ້ງຂໍ້ມູນລາຍຊື່ຜູ່ຕິດຕໍ່ໃໝ່ຂອງທ່ານ ກັບບັນຊີຕໍ່ໄປນີ້ໄດ້. ທ່ານຕ້ອງການໃຊ້ບັນຊີໃດ?"</string>
+    <string msgid="7192223018128934940" name="contact_editor_title_new_contact">"​ເພີ່ມ​ລາຍ​ຊື່​ຜູ່​ຕິດ​ຕໍ່​ໃໝ່"</string>
+    <string msgid="4898475703683187798" name="contact_editor_title_existing_contact">"ແກ້ໄຂລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="1258761699192993322" name="keep_local">"ຈັດເກັບໃນເຄື່ອງ"</string>
+    <string msgid="8201790677994503186" name="add_account">"ເພີ່ມບັນຊີ"</string>
+    <string msgid="5748627740680940264" name="add_new_account">"ເພີ່ມບັນຊີໃໝ່"</string>
+    <string msgid="2659719297530170820" name="menu_export_database">"ສົ່ງອອກໄຟລ໌ຖານຂໍ້ມູນ"</string>
+    <string msgid="3180222523336380017" name="action_menu_add_new_contact_button">"ເພີ່ມ​ລາຍຊື່​ຜູ່​ຕິດຕໍ່"</string>
+    <string msgid="3779194067124758079" name="expanding_entry_card_view_see_more">"​ເບິ່ງ​ເພີ່ມ​ເຕີມ"</string>
+    <string msgid="5344160551629714168" name="expanding_entry_card_view_see_less">"​​ເບິ່ງ​ໜ້ອຍ​ລົງ"</string>
+    <string msgid="3845258737661412627" name="expanding_entry_card_view_see_all">"ເບິ່ງ​ທັງ​ໝົດ"</string>
+    <string msgid="8982782042698001695" name="recent_card_title">"ບໍ່ດົນມານີ້"</string>
+    <string msgid="2920942314212825637" name="about_card_title">"ກ່ຽວກັບ"</string>
+    <string msgid="8938418965550543196" name="send_message">"ສົ່ງຂໍ້ຄວາມ"</string>
+    <string msgid="6137651078366797938" name="toast_making_personal_copy">"ກຳລັງ​ສ້າງ​ສຳເນົາ​ສ່ວນບຸກຄົນ..."</string>
+    <string msgid="6840858548955018569" name="yesterday">"ມື້​ວານ​ນີ້"</string>
+    <string msgid="6241969467795308581" name="tomorrow">"ມື້ອື່ນ"</string>
+    <string msgid="8041090779381781781" name="today">"ມື້ນີ້"</string>
+    <string msgid="605665249491030460" name="today_at_time_fmt">"ມື້ນີ້ໃນເວລາ <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string msgid="4856497969617819421" name="tomorrow_at_time_fmt">"ມື້ອື່ນໃນເວລາ <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string msgid="5053178726906863812" name="date_time_fmt">"<xliff:g id="DATE">%s</xliff:g>, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string msgid="3484859385405939366" name="untitled_event">"(ນັດ​ໝາຍບໍ່​ມີ​ຊື່)"</string>
+    <string msgid="4761419824439606690" name="date_time_set">"ຕົກລົງ"</string>
+    <string msgid="3581720979640225615" name="header_im_entry">"IM"</string>
+    <string msgid="8515394955666265406" name="header_organization_entry">"ອົງກອນ"</string>
+    <string msgid="6743561883967451485" name="header_nickname_entry">"ຊື່ຫຼິ້ນ"</string>
+    <string msgid="4320190426480612344" name="header_note_entry">"ບັນທຶກ"</string>
+    <string msgid="1411467850000824745" name="header_website_entry">"ເວັບໄຊ"</string>
+    <string msgid="6738250422744401460" name="header_event_entry">"ການນັດໝາຍ"</string>
+    <string msgid="1520292958088146460" name="header_relation_entry">"ຄວາມສຳພັນ"</string>
+    <string msgid="2684318506427891827" name="header_account_entry">"ບັນຊີ"</string>
+    <string msgid="1592791008096288306" name="header_name_entry">"ຊື່"</string>
+    <string msgid="8666093061171624478" name="header_email_entry">"ອີເມວ"</string>
+    <string msgid="8450980572274173570" name="header_phone_entry">"ໂທລະສັບ"</string>
+    <string msgid="4438023151411853238" name="header_photo_entry">"ຮູບພາບ"</string>
+    <string msgid="1111381475901897470" name="content_description_expand_editor">"ຄ​ລິກ​ເພື່ອ​ຂະ​ຫຍາຍເຄື່ອງກວດ​ແກ້​ລາຍ​ຊື່​ຕິດ​ຕໍ່."</string>
+    <string msgid="7598061318022977825" name="content_description_collapse_editor">"ຄ​ລິກ​ເພື່ອ​ຫຍໍ້​ເຄື່ອງກວດ​ແກ້​ລາຍ​ຊື່​ຕິດ​ຕໍ່."</string>
+    <string msgid="2686791825798189335" name="content_description_directions">"​ເສັ້ນ​ທາງ​ໄປ​ຫາ​ສະ​ຖານ​ທີ່"</string>
+    <string msgid="1666389577263317445" name="content_description_recent_sms">"SMS ຫຼ້າ​ສຸດ. <xliff:g id="MESSAGE_BODY">%s</xliff:g>. <xliff:g id="PHONE_NUMBER">%s</xliff:g>. <xliff:g id="DATE">%s</xliff:g>. ຄລິກ​ເພື່ອ​ຕອບ​ກັບ"</string>
+    <string msgid="5210739096863511410" name="content_description_recent_call_type_incoming">"ສາຍ​ໂທ​ເຂົ້າ"</string>
+    <string msgid="5156553338985232744" name="content_description_recent_call_type_outgoing">"ສາຍ​ໂທ​ອອກ"</string>
+    <string msgid="7371810920196048204" name="content_description_recent_call_type_missed">"ບໍ່​ໄດ້​ຮັບ"</string>
+    <string msgid="5183800406316723676" name="content_description_recent_call">"ການ​ໂທຫຼ້າ​ສຸດ. <xliff:g id="CALL_TYPE">%s</xliff:g>. <xliff:g id="PHONE_NUMBER">%s</xliff:g>. <xliff:g id="DATE">%s</xliff:g>. ຄລິກ​ເພື່ອ​ໂທ​ກັບ"</string>
+    <string msgid="7180706529908434482" name="message_from_you_prefix">"​ທ່ານ: <xliff:g id="SMS_BODY">%s</xliff:g>"</string>
+    <string msgid="114855385615225735" name="contact_editor_hangouts_im_alert">"Hangouts ເຮັດ​ວຽກ​ໄດ້​ດີ​ຂຶ້ນ ເມື່ອ​ທ່ານ​ປ້ອນ​ຕົວ​ລະ​ບຸ​ Hangouts ຂອງ​ບຸກ​ຄົນ​ໃສ່​ບ່ອນ​ໃສ່ອີເມວ ຫຼື​ບ່ອນ​ໃສ່​ໂທ​ລະ​ສັບ​ຂອງ​ທ່ານ."</string>
+<string name="dial_tab_label">ກົດເບີໂທ</string>
+<string name="launcherActivityLabelForPhone">ກົດເບີໂທ</string>
+<string name="join_same_name">ລວມລາຍຊື່ຕິດຕໍ່​ເຂົ້າ​ກັນ</string>
+<string name="same_name_join_hint">&lt;li&gt;ສຳ​ຜັດ​ເລີ່ມ​ຕົ້ນ ເພື່ອ​ລວມ​​ລາຍ​ຊື່​ຕິດ​ຕໍ່​ເຂົ້າ​ກັນ​ດ້ວຍ​ຊື່​ດຽວ​ກັນ.&lt;/li&gt;\n&lt;li&gt;ສຳ​ຜັດຍົກ​ເລີກເພື່ອຢຸດ​ການ​ລວມ​ເຂົ້າ​ກັນ.&lt;/li&gt;\n&lt;li&gt;ຂະ​ບວນ​ການນີ້ຈະໃຊ້ເວລາໜ້ອຍ​ໜຶ່ງ.&lt;/li&gt;</string>
+<string name="join_action_start">ເລີ່ມຕົ້ນ</string>
+<string name="join_title_total">ທັງໝົດ</string>
+<string name="join_title_single">ປະຈຸບັນ</string>
+<string name="join_status_unstarted">ພ້ອມ​ແລ້ວ</string>
+<string name="join_status_waiting">ກຳ​ລັງລໍຖ້າ…</string>
+<string name="join_status_checking">ກຳ​ລັງກວດ​ເບິ່ງ… ກ​ະ​ລຸ​ນາ​ລໍ​ຖ້າ</string>
+<string name="join_status_join_start">ກຳ​ລັງລວມເຂົ້າກັນ…</string>
+<string name="join_status_join_progress">ກຸ່ມ​ຕ່າງໆ​ຖືກ​ລວມ​ເຂົ້າ​ກັນ​ແລ້ວ: %1$s. ກຸ່ມ​ທັງ​ໝົດ: %2$s </string>
+<string name="join_status_joining">ກຳ​ລັງລວມເຂົ້າກັນ\n</string>
+<string name="join_status_single_joining">ກຳ​ລັງລວມເຂົ້າກັນ: %1$s\n ທັງ​ໝົດ​ດ້ວຍ​ຊື່​ຄື​ກັນ: %2$s </string>
+<string name="join_status_canceled">ຍົກເລີກແລ້ວ</string>
+<string name="join_cancel_confirm_msg">ຢຸດ​ລວມ​ເຂົ້າ​ກັນ</string>
+<string name="menu_done">ສໍາເລັດ</string>
+<string name="cancel">ຍົກເລີກແລ້ວ</string>
+<string name="ok">ຕົກລົງ</string>
+<string name="dial_keypad">ກົດເບີໂທ</string>
+<string name="dial_menu">ເມນູ</string>
+<string name="dial_delete">ລຶບ</string>
+<string name="dataservice_title">ການ​ບໍ​ລິ​ການຂໍ້​ມູນ</string>
+<string name="open_dataservice_confirm">"ການ​ເຊື່​ອມ​ຕໍ່​ຂໍ້​ມູນ​ສຳ​ລັບ​ອຸ​ປະ​ກອນ​ຂອງ​ທ່ານ​ຖືກ​ປິດໄປ. ເພື່ອ​ໃຫ້​ໄດ້​ຜົນ​ດີ​ຂຶ້ນ, ພວກ​ເຮົາ​ແນະ​ນຳ​ໃຫ້​ທ່ານ​ເປີດ​ການ​ເຊື່ອມ​ຕໍ່​ຂໍ້​ມູນ.\n\nເມື່ອ​ການ​ເຊື່ອມ​ຕໍ່​ຂໍ້​ມູນ​ເປີດ​ແລ້ວ, ທ່ານ​ສາ​ມາດ​ໃຊ້ແຜ່ນ SIM ຂອງ​ທ່ານ​​ສຳ​ລັບ​ການ​ເຂົ້າ​ຫາ​ອິນ​ເຕີ​ເນັດໄດ້. ເປີດການ​ເຊື່ອ​ມ​ຕໍ່​ຂໍ້​ມູນບໍ?"</string>
+<string name="open_confirm">ເປີດ</string>
+<string name="open_cancel">ຍົກເລີກ</string>
+<string name="mms_tab_label">"ຂໍ້ຄວາມ"</string><!--modify by wangjing3 for HQ01823167 20160325-->
+<string name="dial_emergency">ໂທສຸກເສີນ</string>
+<string name="emergency_only">ໂທສຸກເສີນເທົ່າ​ນັ້ນ</string>
+<string name="flight_mode_turned_on">ໂໝດເຄື່ອງບິນຖືກເປີດ</string>
+<string name="no_service">ບໍ່ມີການບໍລິການ</string>
+<string name="hour_hw">ຊຊ</string>
+<string name="minute_hw">ມມ</string>
+<string name="seconds_hw">ວວ</string>
+<string name="call_type_hw">ເບິ່ງປະເພດການໂທ</string>
+<string name="cancel_hw">ຍົກເລີກ</string>
+<string name="confirm_hw">ຕົກລົງ</string>
+<string name="black_list_manager_exception">ບໍ່ພົບຕົວຈັດການໂທລະສັບ. ກະລຸນາຕິດຕັ້ງມັນກ່ອນນຳໃຊ້ຄຸນສົມບັດນີ້.</string>
+<string name="sim_log_hw">ບັນທຶກ SIM</string>
+<string name="sim_all_hw">SIM 1 ແລະ SIM 2</string>
+<string name="sim_one_hw">SIM 1</string>
+<string name="sim_two_hw">SIM 2</string>
+<string name="call_type">ປະ​ເພດ​ການ​ໂທ</string>
+<string name="all_call_hw">ທຸກສາຍ​ໂທ</string>
+<string name="miss_call_hw">ສາຍບໍ່ໄດ້ຮັບ</string>
+<string name="answer_call_hw">ສາຍທີ່ໄດ້ຮັບແລ້ວ</string>
+<string name="dialer_call_hw">ສາຍກົດ​ໂທ</string>
+<string name="date_format_year">ປີ</string>
+<string name="date_format_month">ເດືອນ</string>
+<string name="outgoing_calltype">ສາຍໂທອອກ</string>
+<string name="incoming_type">ສາຍ​ໂທ​ເຂົ້າ</string>
+<string name="send_sms">ສົ່ງຂໍ້ຄວາມ</string>
+<string name="am_time">ເຊົ້າ</string>
+<string name="pm_time">ແລງ</string>
+<string name="chubaoMessage">1. ການລະບຸອັດສະລິຍະ ແລະການບໍລິການໜ້າເຫຼືອງອາດຕ້ອງການການເຂົ້າເຖິງອິນເຕີເນັດ ແລະ ອາດມີການນຳໃຊ້ຂໍ້ມູນຕາມທີ່ເໝາະສົມ.\n2. ການບໍລິການນີ້ຖືກສະເໜີໃຫ້ໂດຍ TouchPal Contacts, ແລະ ພວກເຂົາຈະຮັບຜິດຊອບສຳລັບຄວາມຖືກຕ້ອງ ແລະ ຄວາມໄວ້ວາງໃຈໄດ້ຂອງຂໍ້ມູນທີ່ກ່ຽວຂ້ອງທັງໝົດ. \n3. ຂໍ້ມູນທີ່ກ່ຽວຂ້ອງກັບໝາຍເລກທີ່ທ່ານໝາຍຈະຖືກອັບໂຫຼດຂຶ້ນເຊີເວີ.\n4. ການບໍລິການນີ້ຈະເຂົ້າເຖິງຂໍ້ມູນທີ່ຕັ້ງຂອງທ່ານ.\nTouching Agree ໝາຍຄວາມວ່າທ່ານຍອມຮັບຂໍ້ມູນຂ້າງເທິງນີ້, ແຕ່ຖ້າແຕະ ຍົກເລີກ ໝາຍຄວາມວ່າການບໍລິການນີ້ຈະບໍ່ໄດ້ຮັບການເຂົ້າເຖິງອິນເຕີເນັດ ຫຼື ໄດ້ຂໍ້ມູນທີ່ຕັ້ງຂອງທ່ານມາ.</string>
+<string name="user_aggreement">ຂໍ້ຕົກລົງຜູ້ໃຊ້ງານ</string>
+<string name="menu_add_to_black_list">ເພີ່ມໃສ່ບັນຊີດໍາ</string>
+<string name="add_to_black_list">ໄດ້ເພີ່ມເຂົ້າບັນຊີດຳແລ້ວ</string>
+<string name="menu_remove_from_black_list">ເອົາອອກຈາກບັນຊີດໍາ</string>
+<string name="remove_from_black_list">ໄດ້ເອົາອອກຈາກບັນຊີດຳແລ້ວ</string>
+<string name="menu_send_number">ສົ່ງເບີ</string>
+<string name="menu_delete_call_log">ລຶບ​ການ​ປ້ອນ​ບັນ​ທຶກ​ການ​ໂທ​</string>
+<string name="hotline_name">ສາຍດ່ວນ</string>
+<string name="hotline_phone">4008308300</string>
+<string name="hotline_email">mobile@huawei.com</string>
+<string name="hq_sim_slot_position_1">SIM 1</string>
+<string name="hq_sim_slot_position_2">SIM 2</string>
+<string name="menu_copy_number">ອັດ​ສຳ​ເນົາ​ໝາຍ​ເລກ</string>
+<string name="cootek_dlg_no_show_again">ຢ່າ​ເຕືອນ​ອີກ</string>
+<string name="discard_change_contacts">ຍົກເລີກການ</string>
+    <string name="stared_contacts">ລາຍການທີ່ມັກ</string>
+     <string name="save_change_contacts">ບັນທຶກ</string>
+<string name="phone_local">ໂທລະສັບ</string>
+<string name="menu_copyContactsToCard1">ອັດ​ສຳ​ເນົາລາຍ​ຊື່ໄປ​ໃສ່​ແຜ່ນ 1</string>
+<string name="menu_copyContactsToCard2">ອັດ​ສຳ​ເນົາລາຍ​ຊື່ໄປ​ໃສ່​ແຜ່ນ 2</string>
+<string name="menu_copyContactsToPhone">ອັດ​ສຳ​ເນົາ​ລາຍ​ຊື່ໃສ່ໂທລະສັບ</string>
+<string name="contact_editor_account_selection_title">ເລືອກບັນ​ຊີ</string>
+<string name="menu_copyContactsToSIM">ບັນ​ທຶກຂໍ້​ຄວາມ​ໃສ່​ແຜ່ນ SIM</string>
+</resources>

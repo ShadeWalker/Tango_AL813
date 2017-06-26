@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="telecommAppLabel" product="default">ဖုန္း</string>
+    <string name="unknown">မသိေသာ</string>
+    <string name="notification_missedCallTitle">လြတ္သြားေသာ ေခၚဆိုမႈ</string>
+    <string name="notification_missedCallsTitle">မေျဖဆိုထားေသာ ဖုန္းမ်ား</string>
+    <string name="notification_missedCallsMsg">ေျဖဆိုထားေသာဖုန္း  <xliff:g id="num_missed_calls">%s</xliff:g> ခု </string>
+    <string name="notification_missedCallTicker">  <xliff:g id="missed_call_from">%s</xliff:g> ထံမွ မေျဖဆိုထားေသာဖုန္း </string>
+    <string name="notification_missedCall_call_back">ျပန္လည္ေခၚဆိုပါ</string>
+    <string name="notification_missedCall_message">မက္ေဆ့ခ်္</string>
+    <string name="accessibility_call_muted">ဖုန္းေခၚဆိုမႈအား အသံေဖ်ာက္ထားျပီး။</string>
+    <string name="accessibility_speakerphone_enabled">စပီကာဖုန္း ဖြင့္ထားျပီးျဖစ္သည္။</string>
+    <string name="respond_via_sms_canned_response_1">ယခု မေျပာႏိုင္ပါ။ ဘာအေၾကာင္းအရာလဲ။</string>
+    <string name="respond_via_sms_canned_response_2">ကၽြႏ္ုပ္ သင့္အား ယခု ျပန္ေခၚမည္။</string>
+    <string name="respond_via_sms_canned_response_3">သင့္အား ေနာက္မွ ျပန္ေခၚမည္။</string>
+    <string name="respond_via_sms_canned_response_4">ယခုမေျပာႏိုင္။ ေနာက္မွျပန္ေခၚမလား။</string>
+    <string name="respond_via_sms_setting_title">အျမန္ျပန္ၾကားခ်က္မ်ား</string>
+    <string name="respond_via_sms_setting_title_2">အျမန္ ျပန္ၾကားခ်က္မ်ားကို တည္းျဖတ္ပါ</string>
+    <string name="respond_via_sms_setting_summary"></string>
+    <string name="respond_via_sms_edittext_dialog_title">အျမန္ျပန္ၾကားခ်က္မ်ား</string>
+    <string name="respond_via_sms_menu_reset_default_activity">မူလအေျခအေနမ်ားသို႔ ျပန္ထားသည္</string>
+    <string name="respond_via_sms_confirmation_format">  <xliff:g id="phone_number">%s</xliff:g> သို႔ မက္ေဆ့ခ်္ေပးပို႔ျပီး။ </string>
+    <string name="phone_account_preferences_title">ဖုန္းအေကာင့္ဆက္တင္မ်ား</string>
+    <string name="default_outgoing_account_title">ပံုေသ အထြက္အေကာင့္</string>
+    <string name="sim_call_manager_account">Wi-Fi ေခၚဆိုျခင္း အေကာင့္</string>
+    <string name="account_ask_every_time">အျမဲတမ္း ေမးပါ</string>
+    <string name="do_not_use_sim_call_manager">Wi-Fi ေခၚဆိုျခင္းကို အသံုးမျပဳပါႏွင့္</string>
+    <string name="outgoing_call_not_allowed">ဤအသံုးျပဳသူကို အေရးေပၚမဟုတ္ေသာ ဖုန္းေခၚဆိုမႈမ်ား ျပဳလုပ္ခြင့္မျပဳပါ။</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">ဖုန္းမေခၚဆိုပါ၊ မမွန္ေသာ နံပါတ္ ထည့္သြင္းထားသည္။</string>
+    <string name="duplicate_video_call_not_allowed">ေခၚဆိုမႈကို ဤအခ်ိန္တြင္ မထည့္ႏိုင္ပါ။</string>
+    <string name="no_vm_number">အသံေမးလ္နံပါတ္မရွိပါ</string>
+    <string name="no_vm_number_msg">မည္သည့္ အသံေမးလ္နံပါတ္မွ SIM ကဒ္တြင္ မသိမ္းထားပါ။</string>
+    <string name="add_vm_number_str">နံပါတ္ထည့္ပါ</string>
+    <string name="outgoing_call_error_limit_exceeded">ေခၚဆိုမႈ မပို႔ခဲ့ပါ၊ ကန္႔သတ္မႈ ေက်ာ္ေနၿပီ။</string>
+    <string name="handle_restricted">ကန္႔သတ္ထားၿပီး</string>
+    <string name="incall_error_supp_service_unknown">အေထာက္အပံ့ မေပးသည့္ ဝန္ေဆာင္မႈ။</string>
+    
+    <string name="incall_error_supp_service_switch">ဖုန္းေခၚဆိုမႈမ်ား ေျပာင္း၍ မရပါ။</string>
+    
+    <string name="incall_error_supp_service_separate">ဖုန္းေခၚဆိုမႈကို ခြဲျခား၍ မရပါ။</string>
+    
+    <string name="incall_error_supp_service_transfer">ဖုန္းေခၚဆိုမႈကို လႊဲေျပာင္း၍ မရပါ။</string>
+    
+    <string name="incall_error_supp_service_conference">ကြန္ဖရင့္ ဖုန္းေခၚဆိုမႈ ျပဳလုပ္၍ မရပါ။</string>
+    
+    <string name="incall_error_supp_service_reject">ဖုန္းေခၚဆိုမႈကို ပယ္ခ်၍ မရပါ။</string>
+    
+    <string name="incall_error_supp_service_hangup">ဖုန္းေခၚဆိုမႈ(မ်ား) မရႏိုင္ပါ။</string>
+    <string name="mo_code_unconditional_cf_active">ဖုန္းေခၚဆိုမႈလိုင္းလႊဲျခင္း\nမည္သည့္ အေျခအေနတြင္မဆို လုပ္ေဆာင္ခ်က္ ဖြင့္ထားျပီး</string>
+    <string name="mo_code_some_cf_active">ဖုန္းေခၚဆိုမႈလိုင္းလႊဲျခင္း\nအေျခအေနေပၚမူတည္၍</string>
+    <string name="mo_code_call_forwarded">ဖုန္းေခၚဆိုမႈလိုင္းလႊဲျပီး</string>
+    <string name="mo_code_call_is_waiting">ေစာင့္ဆိုင္းထားသည့္ ဖုန္းေခၚဆိုမႈ</string>
+    <string name="mo_code_cug_call">ပိတ္ထားသည့္ အသံုးျပဳသူအုပ္စု</string>
+    <string name="mo_code_outgoing_calls_barred">အထြက္ဖုန္းေခၚဆိုမႈ တားျမစ္ျပီး</string>
+    <string name="mo_code_incoming_calls_barred">တစ္ဖက္တြင္ အဝင္ေခၚဆိုမႈအား တားျမစ္ထား</string>
+    <string name="mo_code_clir_suppression_rejected">ေခၚဆိုသူ ID ေပးပို႔သည့္ ဝန္ေဆာင္မႈကို စစ္ေဆးပါ</string>
+    <string name="mo_code_call_deflected">လႊဲေျပာင္းထားသည့္ ဖုန္းေခၚဆိုမႈအား ေခၚဆိုပါ</string>
+    
+    <string name="mt_code_forwarded_call">ယင္းမွာ လိုင္းလႊဲထားသည့္ ဖုန္းေခၚဆိုမႈျဖစ္သည္</string>
+    <string name="mt_code_cug_call">ပိတ္ထားသည့္ အသံုးျပဳသူအုပ္စု</string>
+    <string name="mt_code_call_on_hold">ဖုန္းကိုင္ထားျပီး</string>
+    <string name="mt_code_call_retrieved">သင္ေခၚဆိုေနေသာနံပါတ္ မအားေသးပါ၊ ေက်းဇူးျပဳ၍ ကိုင္ထားပါ။</string>
+    <string name="mt_code_multi_party_call">ကြန္ဖရင့္ ဖုန္းေခၚဆိုမႈ</string>
+    <string name="mt_code_on_hold_call_released">ဖုန္းကိုင္ထားျခင္းအား လႊတ္လိုက္ျပီး</string>
+    <string name="mt_code_forward_check_received">SS မက္ေဆ့ခ်္ လက္ခံရရွိျပီးေၾကာင္း ႀကိဳတင္စစ္ေဆးပါ</string>
+    <string name="mt_code_call_connecting_ect">ဖုန္းေခၚဆိုမႈ လႊဲေျပာင္းျခင္း</string>
+    <string name="mt_code_call_connected_ect">ဖုန္းေခၚဆိုမႈ လႊဲေျပာင္းျခင္းဆိုင္ရာ လုပ္ေဆာင္ခ်က္ စတင္ျပီး</string>
+    <string name="mt_code_deflected_call">၎မွာ မေျဖဆိုဘဲ လႊဲေျပာင္းထားသည့္ ဖုန္းေခၚဆိုမႈျဖစ္သည္</string>
+    <string name="mt_code_additional_call_forwarded">ေနာက္ထပ္ အဝင္ဖုန္း ေခၚဆိုမႈမ်ားကို လိုင္းလႊဲၿပီး</string>
+    <string name="mt_code_forwarded_cf">ဖုန္းေခၚဆိုမႈလိုင္းလႊဲၿပီး</string>
+    <string name="mt_code_forwarded_cf_uncond">မည္သည့္ အေျခအေနတြင္မဆို ဖုန္းေခၚဆိုမႈလိုင္းလႊဲပါ</string>
+    <string name="mt_code_forwarded_cf_cond">အေျခအေနေပၚ မူတည္၍ ဖုန္းေခၚဆိုမႈလိုင္းလႊဲပါ</string>
+    <string name="mt_code_forwarded_cf_busy">ဖုန္းေခၚဆိုမႈ မအားလွ်င္ ဖုန္းလိုင္းလႊဲၿပီး</string>
+    <string name="mt_code_forwarded_cf_no_reply">ျပန္မေျဖၾကားပါက ဖုန္းေခၚဆိုမႈလိုင္းလႊဲၿပီး</string>
+    <string name="mt_code_forwarded_cf_not_reachable">မေရာက္ရွိႏိုင္ပါက ဖုန္းေခၚဆိုမႈလိုင္းလႊဲၿပီး</string>
+    <string name="respond_via_sms_setting_title_summary">အဝင္ဖုန္းေခၚဆိုျခင္းမ်ား ျငင္းပယ္ရန္သုံးေသာ စိတ္ႀကိဳက္မက္ေဆ့ခ်္မ်ား</string>
+</resources>

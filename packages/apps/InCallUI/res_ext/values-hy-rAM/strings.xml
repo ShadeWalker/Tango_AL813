@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="dm_lock">DM-ը կողպված է</string>
+    <string name="dm_unlock">DM-ի ապակողպում</string>
+    <string name="start_record">Մեկնարկել տեսաձայնագրումը</string>
+    <string name="stop_record">Դադարեցնել տեսաձայնագրումը</string>
+    <string name="str_db_playlist_name">Իմ ձայնագրումները</string>
+    <string name="alert_device_error">Ձայնասարքի վրա սխալ տեղի ունեցավ</string>
+    <string name="ext_media_badremoval_notification_title">"SD քարտը անսպասելիորեն հեռացվել է"</string>
+    <string name="error_sdcard_access">Անհնար է մատչել SD քարտին</string>
+    <string name="confirm_device_info_full">SD քարտի վրայի ազատ տարածքը սպառվել է, տեսաձայնագրումը պահվեց:</string>
+    <string name="confirm_save_info_saved">Ձայնագրումը պահվել է</string>
+    <string name="confirm_save_info_saved_to">Ձայնագրությունը պահվեց առ</string>
+    <string name="recording_saved_sd_full">SD քարտի վրայի ազատ տարածքը սպառվել է, տեսաձայնագրումը պահվեց:</string>
+    <string name="sd_not_enough">SD քարտի տարողությունն\n սպառվում է:</string>
+    <string name="alert_dialog_dismiss">Անտեսել</string>
+    <string name="change_my_pic">Փոխել</string>
+    <string name="onscreenHangupAll">Խզել բոլորը</string>
+    <string name="onscreenHangupHolding">Խզումը սպասեցվում է</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Խզումը գործուն է, պատասխանը գտնվում է սպասման ռեժիմում</string>
+    <string name="menu_ect">Փոխանցել</string>
+    <string name="respond_via_sms_confirmation_format">"Հաղորդագրությունն ուղարկվել է <xliff:g id="PHONE_NUMBER">%s</xliff:g>-ին:"</string>
+    <string name="volte_add_conference_member_title">Ավելացնել կոնֆերանսին</string>
+    <string name="add_member_msg">Ներմուծել համար կամ անուն</string>
+    <string name="card_title_incoming_conference">Կոնֆերանսի հրավեր</string>
+    <string name="addConferenceMemeberText">Ավելացնել մասնակից</string>
+    <string name="add_conference_member_limit">Միաժամանակ կարող է ավելացվել միայն մեկ համար:</string>
+    <string name="conference_member_join"><xliff:g id="member_name">%s</xliff:g> -ը միացավ կոնֆերանսին:</string>
+    <string name="conference_member_leave"><xliff:g id="member_name">%s</xliff:g> -ը դուրս եկավ կոնֆերանսից:</string>
+    <string name="conference_member_adding">Ավելացվում է <xliff:g id="member_name">%s</xliff:g> ...</string>
+    <string name="conference_member_add_fail">Չհաջողվեց ավելացնել <xliff:g id="member_name">%s</xliff:g> :</string>
+    <string name="removeMember">"Հեռացնել"</string>
+    <string name="memberStatus">"Կարգավիճակ"</string>
+    <string name="volte_call_waiting_indication_text">Մյուս կողմը զբաղված է, խնդրում ենք սպասել... </string>
+    <string name="volte_conf_member_reach_max">Կոնֆերանսի մասնակիցների առավելագույն թիվը լրացել է:</string>
+    <string name="add_multi_conference_member_limit">Այժմ հնարավոր է ավելացնել միայն առավելագույնը <xliff:g id="max_number">%s</xliff:g> անդամ(ներ):</string>
+    <string name="multi_conference_member_adding">Ավելացվում են անդամ(ներ)...</string>
+</resources>

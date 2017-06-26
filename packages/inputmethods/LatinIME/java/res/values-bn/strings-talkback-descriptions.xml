@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2014, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="spoken_use_headphones">"উচ্চস্বরে বলা পাসওয়ার্ড কি শোনার জন্য হেডসেট প্লাগইন করুন"</string>
+    <string name="spoken_current_text_is">"বর্তমান টেক্সট  %s "</string>
+    <string name="spoken_no_text_entered">"কোনো শব্দ প্রবেশ করানো হয়নি"</string>
+    <string name="spoken_auto_correct"><xliff:g id="KEY_NAME" example="Space">%1$s</xliff:g> <xliff:g id="ORIGINAL_WORD">%2$s</xliff:g> সংশোধন করে <xliff:g id="CORRECTED_WORD">%3$s</xliff:g></string>
+    <string name="spoken_auto_correct_obscured"><xliff:g id="KEY_NAME" example="Space">%1$s</xliff:g> স্বয়ংক্রিয় সংশোধন সম্পন্ন করুন</string>
+    <string name="spoken_description_unknown">অচেনা ক্যারেক্টার</string>
+    <string name="spoken_description_shift">"Shift"</string>
+    <string name="spoken_description_symbols_shift">আরো প্রতীক</string>
+    <string name="spoken_description_shift_shifted">"Shift"</string>
+    <string name="spoken_description_symbols_shift_shifted">"প্রতীক"</string>
+    <string name="spoken_description_caps_lock">"Shift"</string>
+    <string name="spoken_description_delete">"মুছে ফেলুন"</string>
+    <string name="spoken_description_to_symbol">"প্রতীক"</string>
+    <string name="spoken_description_to_alpha">"অক্ষর"</string>
+    <string name="spoken_description_to_numeric">"সংখ্যা"</string>
+    <string name="spoken_description_settings">সেটিং</string>
+    <string name="spoken_description_tab">"ট্যাব"</string>
+    <string name="spoken_description_space">স্পেস</string>
+    <string name="spoken_description_mic">"ভয়েস ইনপুট"</string>
+    <string name="spoken_description_emoji">ইমোজি</string>
+    <string name="spoken_description_return">"ফেরত যান"</string>
+    <string name="spoken_description_search">অনুসন্ধান করুন</string>
+    <string name="spoken_description_dot">"বিন্দু"</string>
+    <string name="spoken_description_language_switch">ভাষা পরিবর্তন করুন</string>
+    <string name="spoken_description_action_next">পরবর্তী</string>
+    <string name="spoken_description_action_previous">পূর্ববর্তী</string>
+    <string name="spoken_description_shiftmode_on">"শিফ্ট সক্রিয়"</string>
+    <string name="spoken_description_shiftmode_locked">"ক্যাপস লক সক্রিয়"</string>
+    <string name="spoken_description_mode_symbol">"সিম্বল মোড"</string>
+    <string name="spoken_description_mode_symbol_shift">আরো প্রতীকের মোড</string>
+    <string name="spoken_description_mode_alpha">"লেটার মোড"</string>
+    <string name="spoken_description_mode_phone">"ফোন মোড"</string>
+    <string name="spoken_description_mode_phone_shift">"ফোন সিম্বল মোড"</string>
+    <string name="announce_keyboard_hidden">কিবোর্ড লুকায়িত</string>
+    <string name="announce_keyboard_mode"><xliff:g id="KEYBOARD_MODE" example="email">%s</xliff:g> কিবোর্ড দেখাচ্ছে</string>
+    <string name="keyboard_mode_date">তারিখ</string>
+    <string name="keyboard_mode_date_time">তারিখ এবং সময়</string>
+    <string name="keyboard_mode_email">ইমেইল</string>
+    <string name="keyboard_mode_im">বার্তা আদান-প্রদান</string>
+    <string name="keyboard_mode_number">নম্বর</string>
+    <string name="keyboard_mode_phone">ফোন</string>
+    <string name="keyboard_mode_text">বার্তা</string>
+    <string name="keyboard_mode_time">সময়</string>
+    <string name="keyboard_mode_url">ইউআরএল</string>
+    <string name="spoken_descrption_emoji_category_recents">সাম্প্রতিক </string>
+    <string name="spoken_descrption_emoji_category_people">মানুষ</string>
+    <string name="spoken_descrption_emoji_category_objects">বস্তু</string>
+    <string name="spoken_descrption_emoji_category_nature">প্রকৃতি</string>
+    <string name="spoken_descrption_emoji_category_places">স্থান</string>
+    <string name="spoken_descrption_emoji_category_symbols">"প্রতীক"</string>
+    <string name="spoken_descrption_emoji_category_emoticons">ইমোটিকন্স</string>
+    <string name="spoken_description_upper_case">বড় হাতের অক্ষর <xliff:g id="LOWER_LETTER" example="A,E,ligature">%s</xliff:g></string>
+    <string name="spoken_letter_0049">বড় হাতের অক্ষর ১</string>
+    <string name="spoken_letter_0130">বড় হাতের অক্ষর ১</string>
+    <string name="spoken_symbol_unknown">অজানা প্রতীক</string>
+    <string name="spoken_emoji_unknown">অজানা ইমোজি</string>
+    <string name="spoken_open_more_keys_keyboard">বিকল্প ক্যারেক্টার আছে</string>
+    <string name="spoken_close_more_keys_keyboard">বিকল্প ক্যারেক্টার বাতিল করা হয়েছে</string>
+    <string name="spoken_open_more_suggestions">বিকল্প পরামর্শ আছে</string>
+    <string name="spoken_close_more_suggestions">বিকল্প পরামর্শ বাতিল করা হয়েছে</string>
+</resources>

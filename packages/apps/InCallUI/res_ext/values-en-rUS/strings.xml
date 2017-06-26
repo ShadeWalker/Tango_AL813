@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="dm_lock">DM Locked</string>
+    <string name="dm_unlock">DM Unlock</string>
+    <string name="start_record">Start recording</string>
+    <string name="stop_record">Stop recording</string>
+    <string name="str_db_playlist_name">My recordings</string>
+    <string name="alert_device_error">Error occurred on audio device</string>
+    <string name="ext_media_badremoval_notification_title">SD card unexpectedly removed</string>
+    <string name="error_sdcard_access">Unable to access SD card</string>
+    <string name="confirm_device_info_full">SD card is out of space, the recording has been saved.</string>
+    <string name="confirm_save_info_saved">The recording has been saved</string>
+    <string name="confirm_save_info_saved_to">The recording has been saved to</string>
+    <string name="recording_saved_sd_full">SD card is out of space, the recording has been saved.</string>
+    <string name="sd_not_enough">SD card is running\nout of space</string>
+    <string name="alert_dialog_dismiss">Dismiss</string>
+    <string name="change_my_pic">Change</string>
+    <string name="onscreenHangupAll">Hangup all</string>
+    <string name="onscreenHangupHolding">Hangup holding</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Hangup active, answer waiting</string>
+    <string name="menu_ect">Transfer</string>
+    <string name="volte_add_conference_member_title">Add to conference</string>
+    <string name="add_member_msg">Type number or name</string>
+    <string name="card_title_incoming_conference">Conference invitation</string>
+    <string name="addConferenceMemeberText">Add member</string>
+    <string name="add_conference_member_limit">Can only add one number at a time.</string>
+    <string name="conference_member_join"><xliff:g id="member_name">%s</xliff:g> joined the conference.</string>
+    <string name="conference_member_leave"><xliff:g id="member_name">%s</xliff:g> left the conference.</string>
+    <string name="conference_member_adding">Adding <xliff:g id="member_name">%s</xliff:g> ...</string>
+    <string name="conference_member_add_fail">Failed to add <xliff:g id="member_name">%s</xliff:g> .</string>
+    <string name="removeMember">Remove</string>
+    <string name="memberStatus">Status</string>
+    <string name="volte_call_waiting_indication_text">The other side is in call, please wait...</string>
+    <string name="respond_via_sms_confirmation_format">Message sent to <xliff:g id="phone_number">%s</xliff:g>.</string>
+    <string name="volte_conf_member_reach_max">The conference already reached maximum members.</string>
+    <string name="add_multi_conference_member_limit">Can only add <xliff:g id="max_number">%s</xliff:g> member(s) at most for now.</string>
+    <string name="multi_conference_member_adding">Adding member(s)...</string>
+</resources>

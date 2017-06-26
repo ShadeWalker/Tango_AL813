@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dm_lock">DM zaključano</string>
+    <string name="dm_unlock">DM otključaj</string>
+    <string name="start_record">Počni snimanje</string>
+    <string name="stop_record">Zaustavi snimanje</string>
+    <string name="str_db_playlist_name">Moji snimci</string>
+    <string name="alert_device_error">"Došlo je do greške na audio uređaju"</string>
+    <string name="ext_media_badremoval_notification_title">"SD kartica je iznenada uklonjena"</string>
+    <string name="error_sdcard_access">"Nije moguće pristupiti SD kartici"</string>
+    <string name="confirm_device_info_full">Nema više prostora na SD kartici, snimak je sačuvan.</string>
+    <string name="confirm_save_info_saved">Snimak je sačuvan</string>
+    <string name="confirm_save_info_saved_to">Snimak je sačuvan na</string>
+    <string name="recording_saved_sd_full">Нема више простора на SD картици, снимак је сачуван.</string>
+    <string name="sd_not_enough">На SD картици понестаје\n простора</string>
+    <string name="alert_dialog_dismiss">"Isključi"</string>
+    <string name="change_my_pic">Промени</string>
+    <string name="onscreenHangupAll">Prekini sve</string>
+    <string name="onscreenHangupHolding">Prekini na čekanju</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Prekini aktivni poziv, odgovori na poziv na čekanju</string>
+    <string name="menu_ect">Пренеси</string>
+    <string name="respond_via_sms_confirmation_format">"Poruka je poslata na broj <xliff:g id="PHONE_NUMBER">%s</xliff:g>."</string>
+    <string name="volte_add_conference_member_title">Додај конференцијском позиву</string>
+    <string name="add_member_msg">Укуцајте број или име</string>
+    <string name="card_title_incoming_conference">Позивница за конференцијски позив</string>
+    <string name="addConferenceMemeberText">Додај члана</string>
+    <string name="add_conference_member_limit">Може се додати само један по један број.</string>
+    <string name="conference_member_join">
+<xliff:g id="member_name">%s</xliff:g> се придружио/ла конференцијском позиву.</string>
+    <string name="conference_member_leave">
+<xliff:g id="member_name">%s</xliff:g> је напустио/ла конференцијски позив.</string>
+    <string name="conference_member_adding">Додавање <xliff:g id="member_name">%s</xliff:g> ...</string>
+    <string name="conference_member_add_fail">Није успело додавање <xliff:g id="member_name">%s</xliff:g> .</string>
+    <string name="removeMember">"Уклони"</string>
+    <string name="memberStatus">"Статус"</string>
+    <string name="volte_call_waiting_indication_text">Друга страна има позив, сачекајте…</string>
+    <string name="volte_conf_member_reach_max">Конференцијски позив је већ достигао максимални број учесника.</string>
+    <string name="add_multi_conference_member_limit">За сада је могуће додати највише <xliff:g id="max_number">%s</xliff:g> учесника.</string>
+    <string name="multi_conference_member_adding">Додавање учесника...</string>
+<string name="ok">"U redu"</string>
+<string name="two_incoming_calls">Dva dolazna poziva</string>
+<string name="wifi_title">Wi-Fi poziv i minuti </string>
+<string name="call_drop">Vaš poziv će možda biti prekinut</string>
+<string name="call_drop_message">Vi ste skoro van dometa Wi-Fi pokrivanja</string>
+<string name="view_networks">Prikaži mreže</string>
+<string name="wfc_wifi_call_drop_summary">O, ne! Verovatno ste se pomerili van dometa Wi-Fi mreže u toku poziva.\n \nPonovo se povezati na vašu Wi-Fi mrežu da biste završili poziv?</string>
+</resources>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2013 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  --><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_voice_mail">Govorna pošta</string>
+    <string name="voicemail_call_dialog_number_for_display">Govorna pošta</string>
+    <string name="emergency_call_dialog_number_for_display">Broj za hitne slučaj.</string>
+<string name="waitingDialogTitle">Poziv u toku</string>
+<string name="waitingDialogContextFirst">Stavite trenutni poziv na čekanje i odgovorite</string>
+<string name="waitingDialogContextSecond">Završite trenutni poziv i odgovorite</string>
+<string name="phoneAppLabel" product="default">Telefon</string>
+<string name="onHold">Na čekanju</string>
+<string name="unknown">Nepoznat broj</string>
+<string name="private_num">Privatni broj</string>
+<string name="payphone">Govornica</string>
+<string name="confCall">Konferencijski poziv</string>
+<string name="call_lost">Poziv prekinut</string>
+<string name="audio_mode_speaker">Zvučnik</string>
+<string name="audio_mode_earpiece">Slušalica telefona</string>
+<string name="audio_mode_wired_headset">Žična slušalica</string>
+<string name="audio_mode_bluetooth">Bluetooth</string>
+<string name="wait_prompt_str">Poslati sljedeće tonove?\n</string>
+<string name="pause_prompt_str">Slanje tonova\n</string>
+<string name="send_button">"Pošalji"</string>
+<string name="pause_prompt_yes">Da</string>
+<string name="pause_prompt_no">Ne</string>
+<string name="wild_prompt_str">Zamijeni zamjenski znak sa</string>
+<string name="caller_manage_header">Konferencijski poziv <xliff:g id="conf_call_time">%s</xliff:g>
+</string>
+<string name="voicemail_settings_number_label">Broj govorne pošte</string>
+<string name="card_title_dialing">Biranje</string>
+<string name="card_title_redialing">Ponovno biranje</string>
+<string name="card_title_conf_call">Konferencijski poziv</string>
+<string name="card_title_call_ended">Poziv je završen</string>
+<string name="card_title_on_hold">Na čekanju</string>
+<string name="card_title_hanging_up">Prekidanje veze</string>
+<string name="card_title_in_call">U pozivu</string>
+<string name="card_title_my_phone_number">Moj broj je <xliff:g id="my_phone_number">%s</xliff:g>
+</string>
+<string name="card_title_video_call_connecting">Povezivanje videa</string>
+<string name="card_title_video_call">Video poziv</string>
+<string name="card_title_video_call_requesting">Zahtjev za videom</string>
+<string name="card_title_video_call_error">Nije moguće povezati video poziv</string>
+<string name="card_title_callback_number">Vaš broj za uzvratni poziv\n
+        <xliff:g id="dark_number">%1$s</xliff:g>
+    </string>
+<string name="card_title_callback_number_emergency">Vaš broj za uzvratni poziv u hitnim situacijama\n
+        <xliff:g id="dark_number">%1$s</xliff:g>
+    </string>
+<string name="notification_dialing">Biranje</string>
+<string name="notification_missedCallTitle">Propušteni poziv</string>
+<string name="notification_missedCallsTitle">Propušteni pozivi</string>
+<string name="notification_missedCallsMsg">
+<xliff:g id="num_missed_calls">%s</xliff:g> propuštenih poziva</string>
+<string name="notification_missedCallTicker">Propušteni poziv od <xliff:g id="missed_call_from">%s</xliff:g>
+</string>
+<string name="notification_ongoing_call">Poziv u toku</string>
+<string name="notification_on_hold">Na čekanju</string>
+<string name="notification_incoming_call">Dolazni poziv</string>
+<string name="notification_incoming_video_call">Dolazni video poziv</string>
+<string name="notification_requesting_video_call">Zahtjev za dolazni video</string>
+<string name="notification_voicemail_title">Nova govorna pošta</string>
+<string name="notification_voicemail_title_count">Nova govorna pošta (<xliff:g id="count">%d</xliff:g>)</string>
+<string name="notification_voicemail_text_format">Birajte <xliff:g id="voicemail_number">%s</xliff:g>
+</string>
+<string name="notification_voicemail_no_vm_number">Broj govorne pošte je nepoznat</string>
+<string name="notification_network_selection_title">Nema usluge</string>
+<string name="notification_network_selection_text">Odabrana mreža (<xliff:g id="operator_name">%s</xliff:g>) je nedostupna</string>
+<string name="notification_action_answer">Odgovori</string>
+<string name="notification_action_end_call">Prekini vezu</string>
+<string name="notification_action_answer_video">Videozapis</string>
+<string name="notification_action_answer_voice">Govor</string>
+<string name="notification_action_accept">Prihvati</string>
+<string name="notification_action_dismiss">Odbaci</string>
+<string name="notification_missedCall_call_back">Uzvrati poziv</string>
+<string name="notification_missedCall_message">Poruka</string>
+<string name="incall_error_power_off">Da biste uputili poziv, prvo isključite Način za let.</string>
+<string name="incall_error_emergency_only">Nije registrirano na mreži.</string>
+<string name="incall_error_out_of_service">Mobilna mreža nedostupna.</string>
+<string name="incall_error_no_phone_number_supplied">Za upućivanje poziva unesite važeći broj.</string>
+<string name="incall_error_call_failed">Nije moguće pozvati.</string>
+<string name="incall_status_dialed_mmi">Započinjanje MMI sekvence\u2026</string>
+<string name="incall_error_supp_service_unknown">SIM kartica nije pronađena.</string>
+<string name="incall_error_supp_service_switch">Ne mogu zamijeniti pozive.</string>
+<string name="incall_error_supp_service_separate">Nije moguće odvojiti poziv.</string>
+<string name="incall_error_supp_service_transfer">Ne mogu prenijeti poziv.</string>
+<string name="incall_error_supp_service_conference">Ne mogu uspostaviti konferencijski poziv.</string>
+<string name="incall_error_supp_service_reject">Nije moguće odbiti poziv.</string>
+<string name="incall_error_supp_service_hangup">Nije moguće završiti poziv(e).</string>
+<string name="incall_call_type_label_sip">SIP poziv</string>
+<string name="emergency_enable_radio_dialog_title">Hitni poziv</string>
+<string name="emergency_enable_radio_dialog_message">Uključivanje radija\u2026</string>
+<string name="emergency_enable_radio_dialog_retry">Nema usluge. Pokušavam ponovno\u2026</string>
+<string name="dial_emergency_error">Nije moguće pozvati. <xliff:g id="non_emergency_number">%s</xliff:g> nije broj za hitne situacije.</string>
+<string name="dial_emergency_empty_error">Nije moguće pozvati. Uputite poziv za hitnu situaciju.</string>
+<string name="dialerKeyboardHintText">Koristi tastaturu za biranje</string>
+<string name="overflowHoldMenuItemText">Stavi poziv na čekanje</string>
+<string name="overflowResumeMenuItemText">Nastavi poziv</string>
+<string name="overflowAddMenuItemText">Dodaj poziv</string>
+<string name="overflowMergeMenuItemText">Spoji pozive</string>
+<string name="overflowSwapMenuItemText">Zamijeni pozive</string>
+<string name="onscreenHoldText">Ček.</string>
+<string name="onscreenEndCallText">Kraj</string>
+<string name="onscreenShowDialpadText">Ekr. tast.</string>
+<string name="onscreenMuteText">Utišaj</string>
+<string name="onscreenAddCallText">Dodaj poziv</string>
+<string name="onscreenMergeCallsText">Spoji pozive</string>
+<string name="onscreenSwapCallsText">Zamijeni</string>
+<string name="onscreenManageCallsText">Upravljaj pozivima</string>
+<string name="onscreenManageConferenceText">Upravljanje konferencijskim pozivom</string>
+<string name="onscreenAudioText">Zvuk</string>
+<string name="onscreenVideoCallText">Video poziv</string>
+<string name="onscreenChangeToVoiceText">Pređi na govorni poziv</string>
+<string name="onscreenSwitchCameraText">Prebaci na fotoaparat</string>
+<string name="onscreenPauseVideoText">Pauziraj video</string>
+<string name="onscreenOverflowText">Više opcija</string>
+<string name="voicemail_provider">Usluga</string>
+<string name="voicemail_settings">Postavljanje</string>
+<string name="voicemail_number_not_set">&lt;Nije postavljeno&gt;</string>
+<string name="other_settings">Ostale postavke poziva</string>
+<string name="calling_via_template">Poziv putem <xliff:g id="provider_name">%s</xliff:g>
+</string>
+<string name="contactPhoto">fotografija kontakta</string>
+<string name="goPrivate">idi na privatno</string>
+<string name="selectContact">odaberi kontakt</string>
+<string name="respond_via_sms_custom_message">Prilagođena poruka</string>
+<string name="custom_message_cancel">Otkaži</string>
+<string name="custom_message_send">"Pošalji"</string>
+<string name="description_target_answer">Odgovori</string>
+<string name="description_target_send_sms">Pošalji SMS</string>
+<string name="description_target_decline">Odbij</string>
+<string name="description_target_answer_video_call">Odgovori na videopoziv</string>
+<string name="description_target_answer_audio_call">Odgovori kao da se radi o govornom pozivu</string>
+<string name="description_target_accept_upgrade_to_video_request">Prihvati zahtjev za videopoziv</string>
+<string name="description_target_decline_upgrade_to_video_request">Odbij zahtjev za videopoziv</string>
+<string name="description_direction_up">Kliznite prema gore za <xliff:g example="Unlock" id="target_description">%s</xliff:g>.</string>
+<string name="description_direction_left">"Kliznite prema lijevo za <xliff:g example="Unlock" id="target_description">%s</xliff:g>.</string>
+<string name="description_direction_right">Kliznite prema desno za <xliff:g example="Unlock" id="target_description">%s</xliff:g>.</string>
+<string name="description_direction_down">Kliznite prema dolje za <xliff:g example="Unlock" id="target_description">%s</xliff:g>.</string>
+<string name="voicemail_notification_vibrate_when_title">Vibriraj</string>
+<string name="voicemail_notification_vibarte_when_dialog_title">Vibriraj</string>
+<string name="voicemail_notification_ringtone_title">Postavke zvuka</string>
+<string name="default_notification_description">Zadani zvuk (<xliff:g id="default_sound_title">%1$s</xliff:g>)</string>
+<string name="ringtone_title">Zvuk zvona telefona</string>
+<string name="vibrate_on_ring_title">Vibriraj pri pozivu</string>
+<string name="dial_pad_autocomplete">Automatsko dovršavanje na tastaturi za biranje</string>
+<string name="preference_category_ringtone">Ton zvona i vibracija</string>
+<string name="manageConferenceLabel">Upravljanje konferencijskim pozivom</string>
+<string name="accept_incoming_and_disconnect_current">Prihvatanjem ovog poziva završit će se trenutni poziv.</string>
+<string name="call_status_online">Na mreži</string>
+<string name="call_status_onhold">Na čekanju</string>
+<string name="call_status_dialing">Biranje</string>
+<string name="call_status_disconnecting">Prekidanje veze...</string>
+<string name="call_status_disconnected">Poziv završen</string>
+<string name="strange_number">Nepoznat broj</string>
+<string name="onscreenMoreMenuText">Više</string>
+<string name="recording_time_text">Snimanje</string>
+<string name="card_title_communicate">Pozivanje</string>
+<string name="record_hw">Snimi</string>
+<string name="hold_hw">Ček.</string>
+<string name="note_hw">Bilježnica</string>
+<string name="addcall_hw">Dodaj poziv</string>
+<string name="merge_hw">Spoji pozive</string>
+<string name="mute_hw">Utišaj</string>
+<string name="contact_hw">Kontakti</string>
+<string name="swap_hw">Zamijeni pozive</string>
+<string name="only_call_ecc">Samo hitni pozivi</string>
+<string name="strange_operator">Nepoznato</string>
+<string name="locator_province">Pokrajina</string>
+<string name="locator_city">Grad</string>
+<string name="calendar_hw">Kalendar</string>
+<string name="call_special_name">Broj korisničke službe</string>
+<string name="call_special_name_at">Broj korisničke službe</string>
+<string name="multiparty_call">Poziv sa više učesnika</string>
+<string name="emergency_call_dialog_number_for_display_734">Hitni slučaj 412</string>
+</resources>

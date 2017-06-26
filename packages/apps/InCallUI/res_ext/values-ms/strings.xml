@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="dm_lock">DM Dikunci</string>
+    <string name="dm_unlock">DM Dibuka Kunci</string>
+    <string name="start_record">Mula merakam</string>
+    <string name="stop_record">Henti rakaman</string>
+    <string name="str_db_playlist_name">Rakaman saya</string>
+    <string name="alert_device_error">Ralat berlaku pada peranti audio</string>
+    <string name="ext_media_badremoval_notification_title">"Kad SD dikeluarkan tanpa dijangka"</string>
+    <string name="error_sdcard_access">"Tidak dapat mengakses kad SD"</string>
+    <string name="confirm_device_info_full">Tiada ruang pada kad SD, rakaman telah disimpan.</string>
+    <string name="confirm_save_info_saved">Rakaman telah disimpan.</string>
+    <string name="confirm_save_info_saved_to">Rakaman telah disimpan pada</string>
+    <string name="recording_saved_sd_full">Tiada ruang pada kad SD, rakaman telah disimpan.</string>
+    <string name="sd_not_enough">Kad SD kehabisan ruang</string>
+    <string name="alert_dialog_dismiss">Buang</string>
+    <string name="change_my_pic">Ubah</string>
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">Tamatkan semua</string>
+    <string name="onscreenHangupHolding">Tamatkan panggilan ditahan</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Tamatkan panggilan aktif, jawab panggilan menunggu</string>
+    <string name="menu_ect">Pindahkan</string>
+    <string name="volte_add_conference_member_title">Tambahkan pada persidangan</string>
+    <string name="add_member_msg">Taipkan nombor atau nama</string>
+    <string name="card_title_incoming_conference">Jemputan persidangan</string>
+    <string name="addConferenceMemeberText">Tambah ahli</string>
+    <string name="add_conference_member_limit">Hanya boleh menambahkan satu nombor pada satu masa.</string>
+    <string name="conference_member_join"><xliff:g id="member_name">%s</xliff:g> menyertai persidangan.</string>
+    <string name="conference_member_leave"><xliff:g id="member_name">%s</xliff:g> meninggalkan persidangan.</string>
+    <string name="conference_member_adding">Menambahkan <xliff:g id="member_name">%s</xliff:g> ...</string>
+    <string name="conference_member_add_fail">Gagal menambahkan <xliff:g id="member_name">%s</xliff:g> .</string>
+    <string name="removeMember">"Alih keluar"</string>
+    <string name="memberStatus">"Status"</string>
+    <string name="volte_call_waiting_indication_text">Orang yang dihubungi sedang dalam panggilan, sila tunggu...</string>
+    <string name="respond_via_sms_confirmation_format">"Mesej dihantar ke <xliff:g id="PHONE_NUMBER">%s</xliff:g>."</string>
+    <string name="volte_conf_member_reach_max">Persidangan sudah mencapai bilangan ahli maksimum.</string>
+    <string name="add_multi_conference_member_limit">Hanya boleh menambahkan <xliff:g id="max_number">%s</xliff:g> ahli paling ramai buat masa ini.</string>
+    <string name="multi_conference_member_adding">Menambahkan ahli…</string>
+</resources>

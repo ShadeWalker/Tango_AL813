@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="onesong">1 pjesma</string>
+<plurals name="Nsongs">
+<item quantity="other">
+<xliff:g id="count">%d</xliff:g> pjesama</item>
+</plurals>
+<plurals name="Nsongscomp">
+<item quantity="other">
+<xliff:g id="count_for_artist">%2$d</xliff:g> od <xliff:g id="total_count">%1$d</xliff:g> pjesama</item>
+</plurals>
+<plurals name="Nalbums">
+<item quantity="one">1 album</item>
+<item quantity="other">
+<xliff:g id="count">%d</xliff:g> albuma</item>
+</plurals>
+<string name="goto_start">Biblioteka</string>
+<string name="party_shuffle">Mix za zabavu</string>
+<string name="party_shuffle_off">Mix za zabavu isključen</string>
+<string name="delete_item">Izbriši</string>
+<string name="shuffle_all">Izmiješaj sve</string>
+<string name="play_all">Repr. sve</string>
+<string name="delete_artist_desc">Sve pjesme od <xliff:g id="artist">%s</xliff:g> će biti izbrisane.</string>
+<string name="delete_artist_desc_nosdcard">Trajno izbrisati sve pjesme od <xliff:g id="artist">%s</xliff:g> iz USB pohrane?</string>
+<string name="delete_album_desc">Cijeli album \"<xliff:g id="album">%s</xliff:g>\" će biti izbrisan.</string>
+<string name="delete_album_desc_nosdcard">Trajno izbrisati cijeli album \"<xliff:g id="album">%s</xliff:g>\" iz USB pohrane?</string>
+<string name="delete_song_desc">\"<xliff:g id="song">%s</xliff:g>\" će biti izbrisan.</string>
+<string name="delete_song_desc_nosdcard">Trajno izbrisati \"<xliff:g id="song">%s</xliff:g>\" iz USB pohrane?</string>
+<string name="delete_confirm_button_text">OK</string>
+<plurals name="NNNtracksdeleted">
+<item quantity="one">1 pjesma je izbrisana.</item>
+<item quantity="other">
+<xliff:g id="songs_to_delete">%d</xliff:g> pjesama je izbrisano.</item>
+</plurals>
+<string name="scanning">Pretraživanje SD kartice\u2026</string>
+<string name="scanning_nosdcard">Pretraživanje USB pohrane\u2026</string>
+<string name="nowplaying_title">Sada se reproducira</string>
+<string name="partyshuffle_title">Mix za zabavu</string>
+<string name="artists_title">Izvođači</string>
+<string name="albums_menu">Albumi</string>
+<string name="albums_title">Albumi</string>
+<string name="tracks_menu">Pjesme</string>
+<string name="tracks_title">Pjesme</string>
+<string name="playlists_menu">plejliste</string>
+<string name="playlists_title">Plejliste</string>
+<string name="videos_title">Video zapisi</string>
+<string name="all_title">Svi mediji</string>
+<string name="browse_menu">Izvođači</string>
+<string name="search_title">Pretraži</string>
+<string name="no_tracks_title">Nema pjesama</string>
+<string name="no_videos_title">Nema videozapisa</string>
+<string name="no_playlists_title">Nema listi izvođenja</string>
+<string name="delete_playlist_menu">Izbriši</string>
+<string name="edit_playlist_menu">Uredi</string>
+<string name="rename_playlist_menu">Preimenuj</string>
+<string name="playlist_deleted_message">Lista izvođenja je izbrisana.</string>
+<string name="playlist_renamed_message">Lista izvođenja je preimenovana.</string>
+<string name="recentlyadded">Nedavno dodano</string>
+<string name="recentlyadded_title">Nedavno dodano</string>
+<string name="podcasts_listitem">Podkasti</string>
+<string name="podcasts_title">Podkasti</string>
+<string name="sdcard_missing_title">Nema SD kartice</string>
+<string name="sdcard_missing_title_nosdcard">Nema USB pohrane</string>
+<string name="sdcard_missing_message">SD kartica nije umetnuta u vaš telefon.</string>
+<string name="sdcard_missing_message_nosdcard">Vaš telefon nema USB pohranu.</string>
+<string name="sdcard_busy_title">SD kartica nije dostupna</string>
+<string name="sdcard_busy_title_nosdcard">USB pohrana nije dostupna</string>
+<string name="sdcard_busy_message">Vaša pohrana za medije je zauzeta.</string>
+<string name="sdcard_busy_message_nosdcard">Vaša USB pohrana je zauzeta.</string>
+<string name="sdcard_error_title">Greška na SD kartici</string>
+<string name="sdcard_error_title_nosdcard">Greška na USB pohrani</string>
+<string name="sdcard_error_message">Došlo je do greške na SD kartici.</string>
+<string name="sdcard_error_message_nosdcard">Došlo je do greške na USB pohrani.</string>
+<string name="unknown_artist_name">Nepoznat izvođač</string>
+<string name="unknown_album_name">Nepoznat album</string>
+<string name="shuffle_on_notif">Miješanje je uključeno.</string>
+<string name="shuffle_off_notif">Miješanje je isključeno.</string>
+<string name="repeat_off_notif">Ponavljanje je isključeno.</string>
+<string name="repeat_current_notif">Ponavljanje trenutne pjesme.</string>
+<string name="repeat_all_notif">Ponavljanje svih pjesama.</string>
+<string name="ringtone_menu">Koristi kao ton zvona telefona</string>
+<string name="ringtone_menu_short">Koristi kao ton zvona</string>
+<string name="ringtone_set">\"<xliff:g example="Alarm Bell" id="name">%s</xliff:g>\" postavljeno kao ton zvona telefona.</string>
+<string name="play_selection">Reproduciraj</string>
+<string name="add_to_playlist">Dodaj u listu izvođenja</string>
+<string name="queue">Trenutna lista izvođenja</string>
+<string name="new_playlist">Nova</string>
+<string name="new_playlist_name_template">Nova lista izvođenja <xliff:g id="number">%d</xliff:g>
+</string>
+<plurals name="NNNtrackstoplaylist">
+<item quantity="one">1 pjesma dodana na listu izvođenja.</item>
+<item quantity="other">
+<xliff:g example="27" id="number">%d</xliff:g> pjesama dodano na listu izvođenja.</item>
+</plurals>
+<string name="emptyplaylist">Odabrana lista izvođenja je prazna.</string>
+<string name="create_playlist_create_text">Spremi</string>
+<string name="create_playlist_overwrite_text">Prepiš.prek.</string>
+<string name="service_start_error_title">Problem sa reprodukcijom</string>
+<string name="service_start_error_msg">Pjesmu nije moguće reproducirati.</string>
+<string name="service_start_error_button">OK</string>
+<string-array name="weeklist">
+<item>"1 sedmica"</item>
+<item>"2 sedmice"</item>
+<item>"3 sedmice"</item>
+<item>"4 sedmice"</item>
+<item>"5 sedmica"</item>
+<item>"6 sedmica"</item>
+<item>"7 sedmica"</item>
+<item>"8 sedmica"</item>
+<item>"9 sedmica"</item>
+<item>"10 sedmica"</item>
+<item>"11 sedmica"</item>
+<item>"12 sedmica"</item>
+</string-array>
+<string name="weekpicker_set">Završeno</string>
+<string name="weekpicker_title">Postavi vrijeme</string>
+<string name="save_as_playlist">Sačuvaj kao listu izvođenja</string>
+<string name="clear_playlist">Obriši listu izvođenja</string>
+<string name="musicbrowserlabel">Muzika</string>
+<string name="musicshortcutlabel">Lista izvođenja muzike</string>
+<string name="mediaplaybacklabel">Muzika</string>
+<string name="videobrowserlabel">Video zapisi</string>
+<string name="mediapickerlabel">Muzika</string>
+<string name="playback_failed">Žao nam je, otvaranje datoteke nije uspjelo.</string>
+<string name="cancel">Otkaži</string>
+<string name="remove_from_playlist">Ukloni sa liste izvođenja</string>
+<string name="streamloadingtext">Povezivanje na <xliff:g id="host">%s</xliff:g>\u2026</string>
+<string name="mediasearch">Potraži <xliff:g example="Beethoven" id="term">%s</xliff:g> koristeći:</string>
+<string name="working_artists">Izvođači\u2026</string>
+<string name="working_albums">Albumi\u2026</string>
+<string name="working_songs">Pjesme\u2026</string>
+<string name="working_playlists">Liste izvođenja\u2026</string>
+<string name="loading">Učitavanje\u2026</string>
+<string name="sort_by_track">Pjesme</string>
+<string name="sort_by_album">Albumi</string>
+<string name="sort_by_artist">Izvođači</string>
+<string name="music_picker_title">Odaberite numeru</string>
+<string name="search_settings_description">Izvođači, albumi i pjesme</string>
+<string name="search_hint">Pretraga muzike</string>
+<string name="fast_scroll_alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+<string name="widget_initial_text">Dodirni za odabir muzike.</string>
+<string name="effectspanel">Zvučni efekti</string>
+</resources>

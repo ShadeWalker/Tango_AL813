@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="description_ip_call_action">IP 通話 <xliff:g example="John Smith" id="nameOrNumber">%1$s</xliff:g>
+</string>
+    <string name="select_account">"選取帳戶"</string>
+    <string name="all_accounts">"所有帳戶"</string>
+    <string name="imei_invalid">無效</string>
+    <string name="conf_call_member_list">會員名冊</string>
+    <string name="conf_call_participant_answered">已回覆</string>
+    <string name="conf_call_participant_missed">"未接來電"</string>
+<string name="calls_over_wifi">將透過 Wi-Fi 進行通話</string>
+<string name="connect_to_wifi">連線到 Wi-Fi 撥打電話</string>
+<string name="wfc_notification_summary">輕觸這裡存取偏好設定</string>
+<string name="wfc_notification_summary_fail">輕觸這裡檢視可用的網路</string>
+	 <!-- M: CTA location permission -->
+    <string name="location_permission_title" translatable="false">安全警告</string>
+    <string name="location_permission_summary" translatable="false">撥號正在嘗試獲取您當前的位置。\n
+        ( <xliff:g id="time_sec">%1$s</xliff:g> 秒后自動拒絕。)
+    </string>
+    <string name="location_permission_allow" translatable="false">允許</string>
+    <string name="location_permission_deny" translatable="false">拒絕</string>
+    <!-- @} -->
+<string name="can_not_switch_account_during_call">無法在通話時切換偏好的 SIM 卡以接打電話。</string>
+<string name="can_not_switch_account_temporarily">暫時無法切換偏好的 SIM 卡以接打電話。</string>
+</resources>

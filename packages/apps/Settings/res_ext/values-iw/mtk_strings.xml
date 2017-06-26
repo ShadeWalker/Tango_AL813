@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- AudioProfile Settings start -->
+   <string name="ring_summary">צלצול</string>
+  <string name="ring_vibrate_summary">צלצול ורטט</string>
+  <string name="silent_summary">שקט בלבד</string>
+  <string name="meeting_summary">רטט בלבד</string>
+  <string name="outdoor_summary">הצלצול החזק ביותר ורטט</string>
+  <string name="audio_profile_reset">איפוס</string>
+  <string name="audio_profile_add">הוסף</string>
+  <string name="audio_profile_enable">הפוך לזמין</string>
+  <string name="audio_profile_rename">שנה שם</string>
+  <string name="audio_profile_delete">מחק</string>
+  <string name="audio_profile_message_reset">כל הגדרות פרופילי השמע יאופסו לברירת המחדל</string>
+  <string name="audio_profile_message_rename">הזן שם פרופיל חדש</string>
+  <string name="audio_profile_message_name_error">השם שהוזן כבר קיים</string>
+  <string name="audio_profile_message_name_length_wrong">על השם להכיל לפחות תו אחד</string>
+  <string name="audio_profile_message_delete">הפרופיל 
+        <xliff:g id="profile">%s</xliff:g> יימחק</string>
+  <string name="audio_profile_message_overflow">באפשרותך להוסיף רק 6 פרופילים מותאמים אישית</string>
+  <string name="audio_profile_category_custom_title">פרופילים שהוגדרו על ידי המשתמש</string>
+  <string name="audio_profile_category_predefine_title">פרופילים שהוגדרו מראש</string>
+  <string name="audio_profile_error">שגיאה</string>
+  <string name="audio_profile_others">הודעות ושונות</string>
+  <string name="general_settings_title">"כללי"</string>
+  <string name="silent_settings_title">שקט</string>
+  <string name="meeting_settings_title">פגישה</string>
+  <string name="outdoor_settings_title">בחוץ</string>
+  <string name="sound_category_feedback_title">מערכת</string>
+  <string name="sound_category_calls_title">שיחות נכנסות</string>
+  <string name="voice_call_title">רינגטון של שיחה קולית</string>
+  <string name="voice_call_summary">"הגדר את הרינגטון של ברירת המחדל לשיחות קוליות"</string>
+  <string name="video_call_title">רינגטון של שיחת וידאו</string>
+  <string name="video_call_summary">הגדר את הרינגטון של ברירת המחדל לשיחות וידאו</string>
+  <string name="sip_call_title">צלצול של שיחת SIP</string>
+  <string name="sip_call_summary">הגדר את צלצול ברירת המחדל של שיחת SIP</string>
+  <string name="Phone_vibrate_summary">רטט בהתקנים עבור שיחות נכנסות</string>
+  <string name="vibrate_title">רטט</string>
+  <string name="audio_profile_settings_title">פרופילי שמע</string>
+  <string name="audio_profile_bes_loudness_summary">מגביר עוצמה לרמקול</string>
+  <string name="sound_enhancement_title">שיפור צליל</string>
+  <string name="music_plus_summary">משפר שמע לאוזניות</string>
+  <string name="lossless_title">מצב BT ללא אובדן</string>
+  <string name="lossless_summary">שמע BT באיכות גבוהה</string>
+  <string name="lossless_connect_summary">הפעלת מצב BT ללא אובדן תשפיע על ה-Wi-Fi. האם אתה בטוח שברצונך להפעיל?</string>
+  <string name="lossless_on">מצב BT ללא הפרעות פועל</string>
+  <string name="lossless_playing">השמעת מוזיקה ללא אובדן</string>
+  <string name="lossless_toastmessage">צלילי המערכת יושמעו דרך הרמקול בטלפון</string>
+  <string name="lossless_volume_max">שמור את עוצמת השמע של המערכת ברמה המרבית</string>
+  <string name="lossless_cannot_found_device">מכשיר losslessBT לא נמצא</string>
+  <string name="audio_profile_bes_surround_title">BesSurround</string>
+  <string name="audio_profile_bes_surround_summary">סראונד</string>
+  <string name="audio_profile_bes_surround_mode_movie">מצב סרט</string>
+  <string name="audio_profile_bes_surround_mode_music">מצב מוסיקה</string>
+  <string msgid="6680706009915204785" name="zen_mode_option_title_novoice">"כשנכנסות הודעות"</string>
+  <!-- AudioProfile Settings end -->
+ 
+  <!-- MTK Wi-Fi settings start -->
+   <string name="wifi_no_cert_for_wapi">לא ניתן למצוא את האישור ל-AP המתחבר הנוכחי</string>
+  <string name="sim_slot">חריץ SIM</string>
+  <string name="eap_sim_slot_0">חריץ SIM 1</string>
+  <string name="eap_sim_slot_1">חריץ SIM 2</string>
+  <string name="eap_sim_aka_airplanemode">כבה את מצב הטיסה כדי להשתמש ב-EAP-SIM/AKA</string>
+  <string name="eap_sim_aka_no_sim_error">עליך להכניס כרטיס SIM כדי להשתמש ב-EAP-SIM/AKA</string>
+  <string name="eap_sim_aka_no_sim_slot_selected">עליך לבחור חריץ SIM כדי להשתמש ב-EAP-SIM/AKA</string>
+  <string name="wifi_security_wapi_certificate">אישור WAPI</string>
+  <string name="wapi_user_certificate">אישור משתמש</string>
+  <string name="wapi_as_certificate">אישור ASE</string>
+  <string name="wifi_hex_password">סיסמה הקסדצימלית.</string>
+  <string name="wifi_WEP_transmit_key">שדר מפתח</string>
+  <string name="wifi_WEP_secury_key">מפתח אבטחה</string>
+  <string name="wifi_tether_auto_disable_title">השאר את הנקודה החמה של Wi-Fi פועלת</string>
+  <string name="wifi_tether_auto_channel_text">אוטומטי</string>
+  <string name="wifi_tether_auto_channel_width_text">אוטומטי 20/40MHz</string>
+  <string name="wifi_channel">תחנה מועדפת</string>
+  <string name="wifi_channel_width">רוחב תחנה</string>
+  <string name="wifi_advanced_ipv4_address_title">כתובת IPv4</string>
+  <string name="wifi_advanced_ipv6_address_title">כתובת IPv6</string>
+  <string name="wifi_ipv4_address">כתובת IPv4</string>
+  <string name="wifi_ipv6_address">כתובת IPv6</string>
+  <string name="wifi_ap_auto_join_available">הצטרף אוטומטית</string>
+  <string name="wifi_ap_auto_join_available_summary">בחר והצטרף אוטומטית לרשת Wi-Fi טובה יותר בזמן הסריקה</string>
+  <!-- MTK Wi-Fi settings end -->
+ 
+  <!-- Wi-Fi hotspot client start -->
+   <string name="wifi_tether_setting_title">הגדרות בסיסיות</string>
+  <string name="wifi_tether_wps_connect_title">חיבור WPS</string>
+  <string name="wifi_tether_wps_connect_summary">מצב הגדרה מוגנת של Wi-Fi נבחר כדי להמשיך</string>
+  <string name="wifi_tether_wps_pin_error">PIN לא חוקי</string>
+  <string name="wifi_tethering_title">נקודה חמה של Wi-Fi</string>
+  <string name="wifi_ap_wps_dialog_title">חיבור WPS</string>
+  <string name="wifi_ap_wps_mode_title">מצב WPS</string>
+  <string name="wifi_ap_wps_pin_title">הקלד PIN מלקוח</string>
+  <string name="wifi_ap_reset_OOB_title">איפוס SSID, אבטחה וסיסמה של הרשת לברירת המחדל (תצורת WPS שהוגדרה על ידי היצרן)</string>
+  <string name="wifi_ap_reset_OOB">איפוס OOB</string>
+  <string name="wifi_ap_max_connection_title">מספר מרבי של חיבורים</string>
+  <string name="wifi_ap_connected_title">משתמשים מחוברים</string>
+  <string name="wifi_ap_blocked_title">משתמשים חסומים</string>
+  <string name="wifi_ap_client_block_title">"חסום"</string>
+  <string name="wifi_ap_client_unblock_title">בטל חסימה</string>
+  <string name="wifi_ap_client_details_title">פרטים</string>
+  <string name="wifi_ap_client_mac_label">כתובת MAC:</string>
+  <string name="wifi_ap_client_ip_label">כתובת IP:</string>
+  <string name="wifi_ap_bandwidth_title">שימוש ברוחב פס</string>
+  <string name="wifi_ap_bandwidth_enable">אפשר ויסות של רוחב פס</string>
+  <string name="wifi_ap_bandwidth_chart_title">מהירות נתונים בזמן אמת</string>
+  <string name="wifi_ap_bandwidth_chart_summary">נמדד על ידי הטלפון שלך - חישוב מהירות הנתונים של הספק שלך עשוי להיות שונה.</string>
+  <string name="wifi_wps_fail_error">הגדרה מוגנת של Wi-Fi נכשלה, נסה שוב.</string>
+  <string name="wifi_ap_title">סטטיסטיקה</string>
+  <string name="wifi_ap_time_duration">משך זמן: 
+        <xliff:g id="time">%1$s</xliff:g>
+</string>
+  <string name="wifi_ap_total_data">סה"כ שימוש בנתונים:
+        <xliff:g id="time">%1$s</xliff:g>
+</string>
+  <string name="wifi_ap_no_connected">0 משתמשים מחוברים</string>
+  <string name="wifi_ap_no_blocked">0 משתמשים חסומים</string>
+  <!-- Wi-Fi hotspot client end -->
+ 
+  <!-- MTK Beam plus start -->
+   <string name="beam_mgmt_tab_download_title">שיחות שהתקבלו</string>
+  <string name="beam_mgmt_tab_upload_title">"3. לחץ על הכרטיסייה שיתוף, ובחר באפשרות 'אפשר למשתמשים אחרים ברשת להתחבר באמצעות החיבור לאינטרנט של מחשב זה' (בחר ברשת החדשה שהוספת המייצגת את האינטרנט דרך USB אם ההודעה 'חיבור רשת ביתית' מופיעה)."</string>
+  <string name="beam_share_mgmt_notification_ticker">היסטוריית שיתוף של שידור</string>
+  <string name="beam_share_mgmt_notification_title">היסטוריית שיתוף של שידור</string>
+  <string name="beam_share_mgmt_notification_message">"בחר כדי להציג היסטוריית שיתוף של שידור."</string>
+  <string name="beam_share_mgmt_tab_menu_clear">"לנקות את כל הגדרות האתר?"</string>
+  <string name="beam_share_open_file_dialog_title">לא ניתן לפתוח את הקובץ</string>
+  <string name="beam_share_open_file_unsupported_message">אין תמיכה בתבנית הקובץ.</string>
+  <string name="beam_share_open_file_not_found_message">"הקובץ לא נמצא: <xliff:g id="file_name">%1$s</xliff:g>
+</string>
+  <string name="beam_share_transfer_fail_dialog_title">"השידור נכשל"</string>
+  <string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> לא נשלח בהצלחה."</string>
+  <string name="beam_share_resend_dialog_ok_button">"נסה שוב"</string>
+  <string name="beam_share_show_received_files_menu">"הצג קבצים שהתקבלו"</string>
+  <string name="beam_share_history_title">היסטוריית שיתוף של שידור</string>
+  <string name="beam_share_clear_confirm_dialog_title">"נקה הכל"</string>
+  <string name="beam_share_clear_confirm_dialog_message">לנקות את כל ההיסטוריה?</string>
+  <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> לא נשלח בהצלחה."</string>
+  <string name="beam_share_clear_item_dailog_title">"מחק"</string>
+  <string name="beam_share_clear_item_dailog_message">הפריט יימחק.</string>
+  <!-- MTK Beam plus end -->
+ 
+  <!-- MTK NFC settings start -->
+   <string name="nfc_p2p_mode">מצב P2P</string>
+  <string name="nfc_p2p_mode_summary">שלח או קבל תוכן של יישומים</string>
+  <string name="nfc_tag_mode_category">מצב תיוג</string>
+  <string name="nfc_rw_tag_title">תייג קריאה וכתיבה</string>
+  <string name="nfc_rw_tag_summary">קרא או כתוב לתגית</string>
+  <string name="nfc_card_emulation_category_title">מצב אמולציית כרטיס</string>
+  <string name="nfc_card_emulation">אמולציית כרטיס</string>
+  <string name="card_emulation_settings_category_title">אלמנט אבטחה זמין</string>
+  <string name="card_emulation_settings_no_element_found">אין אלמנט אבטחה זמין</string>
+  <string name="card_emulation_settings_off_text">לצפייה באלמנטי אבטחה זמינים, הפעל אמולציית כרטיס.</string>
+  <string name="card_emulation_turning_off_text">מבטל אמולציית כרטיס...</string>
+  <string name="card_emulation_turning_on_text">מפעיל אמולציית כרטיס...</string>
+  <string name="card_emulation_switch_error_title">שגיאה</string>
+  <string name="card_emulation_switch_error_message">שגיאה במעבר אל <xliff:g id="card_mode">%1$s</xliff:g>.</string>
+  <string name="card_emulation_sim_not_supported_message">
+<xliff:g id="sim_description">%1$s</xliff:g> אינו תומך באמולציית כרטיס NFC.</string>
+  <string name="card_emulation_two_sim_not_supported_message">SIM1, ‏SIM2 לא תומכים בפונקציית האמולציה של כרטיס ה-NFC.</string>
+  <string name="nfc_hce_pay_summary">שימוש במכשיר לצורך הקשה ותשלום כארנק Google, כרטיס אשראי ועוד.</string>
+  <!-- MTK NFC settings end -->
+ 
+  <!-- MTK WIFI Passpoint start -->
+   <string name="passpoint_summary">התחבר אוטומטית לנקודות גישה בעלות Passpoint</string>
+  <string name="passpoint_append_summary">(באמצעות Passpoint)</string>
+  <string name="passpoint_config_credential_type">סוג אישור</string>
+  <string name="passpoint_config_eap_method">"שיטת EAP"</string>
+  <string name="passpoint_supported">נתמך</string>
+  <string name="passpoint_username_pw">שם משתמש/סיסמה</string>
+  <string name="passpoint_certificate">אישור</string>
+  <!-- MTK WIFI Passpoint end -->
+ 
+  <!-- MTK WFD start -->
+   <string name="wfd_change_resolution_menu_title">שנה רזולוציה</string>
+  <string name="wfd_sink_summary">ניתן לגילוי על ידי מכשירים אחרים</string>
+  <string name="wfd_device_category">רשימת מכשירים</string>
+  <string name="wfd_sink_toast_enjoy">נצל את העברת המסך מהמכשיר האחר</string>
+  <string name="wfd_sink_toast_disconnect">העברת המסך נותקה</string>
+  <string name="wfd_sink_disconnecting">מתנתק...</string>
+  <string name="wfd_sink_guide_btn">קבל את זה</string>
+  <string name="wfd_sink_guide_title">כיצד לצאת?</string>
+  <string name="wfd_sink_guide_content">לחץ לחיצה ארוכה למשך <xliff:g id="seconds">%s</xliff:g> שניות במסך כדי לצאת מתצוגה של מסך אחר.</string>
+  <!-- MTK WFD end -->
+ 
+  <!-- MTK Storage Settings start -->
+   <string name="mtp_transfer_unmount_error_text">לא ניתן לבטל את טעינת כרטיס ה-SD בעת העברת קבצים</string>
+  <string name="mtp_transfer_erase_error_text">לא ניתן למחוק כרטיס SD בעת העברת קבצים</string>
+  <string name="launch_error">"לא ניתן להפעיל את היישום!"</string>
+  <string name="dlg_confirm_unmount_usb_title" product="default">לבטל את טעינת התקן ה-USB?</string>
+  <string name="dlg_confirm_unmount_usb_text" product="default">אם תבטל את טעינת התקן ה-USB, חלק מהיישומים שאתה משתמש בהם יופסקו ועשויים שלא להיות זמינים עד שתכניס בחזרה את התקן ה-USB.</string>
+  <string name="dlg_error_unmount_usb_text" product="default">לא ניתן לבטל את טעינת התקן ה-USB. נסה שוב מאוחר יותר.</string>
+  <string name="unmount_usb_inform_text" product="default">טעינת התקן ה-USB תבוטל.</string>
+  <string name="sd_eject_usbstorage" product="default">בטל את טעינת התקן ה-USB</string>
+  <string name="sd_eject_usbstorage_summary" product="default">בטל את טעינת התקן ה-USB כדי שתוכל להוציאו בצורה בטיחותית</string>
+  <string name="sd_mount_usbstorage" product="default">טען התקן USB</string>
+  <string name="sd_insert_usb_summary" product="default">הכנס התקן USB לטעינה</string>
+  <string name="usb_ums_title">התקן USB</string>
+  <string name="usb_ums_summary">"מומלץ ל-XP. מאפשר להעביר קבצים בין המחשב להתקן ה-USB ‏Android."</string>
+  <string name="usb_charge_title">טעינה בלבד</string>
+  <string name="usb_connect_as_cdrom_category">"חבר בתור CD-ROM"</string>
+  <string name="usb_charge_summary">מפסיק את כל פונקציות ה-USB. מאפשר להאיץ את טעינת התקן ה-USB ולהקטין את צריכת החשמל.</string>
+  <string name="akp_installer_settings_title">מתקין APK</string>
+  <string name="akp_installer_settings_summary">התקן את ה-APK מהזיכרון של הטלפון וכרטיס ה-SD</string>
+  <string name="usb_bicr_title">כונן תקליטורים מובנה</string>
+  <string name="usb_bicr_summary">הצג כונן תקליטורים וירטואלי המכיל תוכנות שימושיות.</string>
+  <string name="select_memory">כתיבה לתקליטור של ברירת מחדל</string>
+  <string name="dlg_mount_external_sd_title" product="default">לטעון כרטיס SD?</string>
+  <string name="dlg_mount_external_sd_summary" product="default">אם תטען את כרטיס ה-SD, חלק מהיישומים שאתה מפעיל יפסיקו לפעול.</string>
+  <!-- MTK Storage Settings end -->
+ 
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">הגדרות HDMI</string>
+  <string name="hdmi_settings_summary">לחץ כדי לקבוע תצורת HDMI</string>
+  <string name="hdmi_audio_toggler">שמע</string>
+  <string name="hdmi_video_toggler">וידאו</string>
+  <string name="hdmi_video_resolution">רזולוציית וידאו</string>
+  <string name="hdmi_auto">אוטומטי</string>
+  <string name="hdmi_scale_control">הגדרות קנה מידה וידאו</string>
+  <string name="hdmi_scale_no_scale">אין קנה מידה</string>
+  <string name="hdmi_scale_scale_down">לקצץ <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">פלט שמע</string>
+  <string name="hdmi_audio_output_stereo">סטריאו</string>
+  <string name="hdmi_audio_output_multi_channel">רב ערוצי</string>
+  <!-- MTK HDMI end -->
+ 
+  <!-- MTK Display Settings start -->
+   <string name="landscape_launcher_title">מפעיל נוף</string>
+  <string name="landscape_launcher_none">ללא</string>
+  <string name="display_settings_scences_title">סצנות</string>
+  <string name="default_name">ברירת מחדל</string>
+  <string name="custom_theme_name">[%1$s] חדש</string>
+  <string name="loading">טוען...</string>
+  <string name="auto_backlight_title">תאורה אחורית חסכונית</string>
+  <string name="auto_backlight_summary">התאם אוטומטית את התאורה האחורית כדי לחסוך בחשמל</string>
+  <string name="display_personalize">התאמה אישית</string>
+  <string name="display_default">"תצוגה"</string>
+  <string name="clear_motion_summary">משפר זרימת הווידאו</string>
+  <string name="on_text">"פועל"</string>
+  <string name="off_text">"כבוי"</string>
+  <string name="mira_vision_summary">מספק את האפקט הוויזואלי הטוב ביותר</string>
+  <!-- MTK Display Settings end -->
+ 
+  <!--MTK Security Settings start -->
+   <string name="voice_unlock_backup_info_summary">אם ביטול הנעילה הקולי לא מזהה אותך, כיצד ברצונך לבטל את הנעילה?</string>
+  <string name="unlock_set_unlock_mode_voice_weak">ביטול נעילה קולי</string>
+  <string name="mtk_lock_screen_notifications_title">נעילת מסך התראות</string>
+  <string name="lock_screen_notifications_summary">צג התראות במסך נעילה</string>
+  <string name="lock_screen_style_title">נעילת מסך בסגנון</string>
+  <string name="current_suffix">"(נוכחי")</string>
+  <string name="lockscreen_style_default_desc">"גישה מהירה ליישומים במסך הנעילה"</string>
+  <string name="security_not_set">לא הוגדרה אבטחה</string>
+  <string name="voice_ui_title">שליטה קולית</string>
+  <!--MTK Security Settings end -->
+ 
+  <!-- MTK Wireless settings start -->
+   <string name="pch_toggle_title">מצב העדפה של העברת GPRS</string>
+  <string name="pch_data_prefer_summary_off">העדפת נתונים</string>
+  <string name="pch_call_prefer_summary_on">העדפת שיחה</string>
+  <string name="pch_warning_message">קצב שידור הנתונים ירד.</string>
+  <string name="tethered_ipv6_title">"קשירה ונקודה חמה ניידת"</string>
+  <string name="tethered_ipv4v6">(IPv6 זמין)</string>
+  <string name="tethered_ipv6">(רק IPv6 זמין)</string>
+  <string name="tethered_ipv4">(IPv6 לא זמין)</string>
+  <string name="tethering_apn_settings_title">הגדרות APN</string>
+  <string name="tethering_apn_settings_summary">מגדיר את תצורת APN עבור שיתוף אינטרנט</string>
+  <string name="usb_tether_type_title">סוג שיתוף אינטרנט ב-USB</string>
+  <string name="usb_tethering_select_version">בחר את גרסת מערכת ההפעלה של המחשב</string>
+  <string name="apn_port_warning">ערך היציאה חייב להיות 65535-1!</string>
+  <string name="apn_predefine_change_dialog_notice">האם אתה בטוח שברצונך לשמור? שינויים ב-APN של ברירת מחדל עלולים לגרום לבעיות בחיבור!"</string>
+  <string name="lockdown_vpn_already_connected">האפשרות תמיד ב-VPN כבר זמינה עבור חיבור זה.</string>
+  <!-- MTK Wireless settings end -->
+ 
+  <!-- MTK Feature MISC start -->
+   <string name="schedule_power_on_off_settings_title">הפעלה/כיבוי מתוזמנים</string>
+  <string name="ipo_title">אתחול מהיר</string>
+  <string name="ipo_summary_on">הפוך אתחול מהיר ללא זמין</string>
+  <string name="ipo_summary_off">הפוך אתחול מהיר לזמין</string>
+  <string name="hotknot_explained_description">אפשר החלפת נתונים כשהמסך נוגע במכשיר אחר</string>
+  <string name="mouse_primary_button_title">החלף בין הלחצן הראשי והמשני</string>
+  <string name="mouse_primary_button_dialog_title">החלף את הלחצן הראשי</string>
+  <string name="double_click_title">מהירות לחיצה כפולה</string>
+  <string name="test_area">אזור בדיקה:</string>
+  <string name="double_click_tip">לחץ פעמיים כאן</string>
+  <!-- MTK Feature MISC end -->
+ 
+  <!-- MTK Bluetooth Settings start -->
+   <string name="bluetooth_advanced_settings">הגדרות מתקדמות</string>
+  <string name="bluetooth_profile_ftp">העברת קבצים</string>
+  <string name="bluetooth_ftp_profile_summary_use_for">השתמש להעברת קבצים</string>
+  <string name="bluetooth_ftp_profile_summary_connected">"מחובר להעברת קבצים"</string>
+  <!-- MTK Bluetooth Settings end -->
+ 
+  <!--MTK DateTime start-->
+   <string name="gps_time_sync_attention_gps_on">תידרש דקה אחת לכל היותר כדי להשיג מיקום GPS. בנוסף, ה-GPS עלול להיכשל במתן השעה בשל אות סביבתי חלש.\n\nהאם אתה בטוח שברצונך להשתמש ב-GPS כדי לספק את השעה?</string>
+  <string name="gps_time_sync_attention_gps_off">כדי להשתמש בשעה שמספק ה-GPS, ראשית עליך להפוך אותו לזמין. לאחר מכן תידרש דקה אחת לכל היותר כדי להשיג מיקום GPS. בנוסף, ה-GPS עלול להיכשל במתן השעה בשל אות סביבתי חלש. \n\nהאם אתה בטוח שברצונך להפוך את ה-GPS לזמין ולהמתין לשעה שהוא מספק?</string>
+  <!--MTK DateTime end-->
+ 
+  <!--MTK DRM settings start -->
+   <string name="drm_settings_title">איפוס DRM</string>
+  <string name="drm_settings_summary">מחיקת כל רישיונות ה-DRM</string>
+  <string name="drm_reset_dialog_msg">פעולה זו תמחק את כל הרישיונות בהתקן זה. להמשיך?</string>
+  <string name="drm_reset_toast_msg">הרישיונות נמחקו בהצלחה.</string>
+  <!--MTK DRM settings end -->
+ 
+  <!-- MTK APPS settings start -->
+   <string name="launch_main_label">הפעל יישום</string>
+  <string name="launch_main">הפעל את היישום לפי הפעילות הראשית</string>
+  <string name="launch_activitie">הפעל</string>
+  <string name="move_app_to_where">העבר אל 
+        <xliff:g id="location">%s</xliff:g>
+</string>
+  <!-- MTK APPS settings end -->
+ 
+  <!-- MTK Battery MISC start -->
+   <string name="bg_power_saving_title">חיסכון חכם בחשמל בהמתנה</string>
+  <!-- MTK Battery MISC end -->
+ 
+  <!-- MTK  Datausage  start -->
+   <string name="mtk_datausage_overview_tab">סקירה כללית</string>
+  <string name="mtk_datausage_overview_wifi_today">היום</string>
+  <string name="mtk_datausage_overview_wifi_total">"סה\"כ"</string>
+  <string name="mtk_datausage_overview_mobile_title">נייד</string>
+  <string name="mtk_datausage_overview_mobile_usage">
+<xliff:g id="actual">%s</xliff:g> מתוך 
+        <xliff:g id="limit">%s</xliff:g>
+</string>
+  <string name="mtk_datausage_overview_mobile_usage_warning">מעבר למגבלה <xliff:g>%s</xliff:g>
+</string>
+  <string name="data_saving_title">שמירת נתונים</string>
+  <!-- MTK  Dtausage  end -->
+ 
+  <!-- MTK About phone start -->
+   <string name="status_imei_slot1">‎IMEI(חריץ1)‎</string>
+  <string name="status_imei_slot2">IMEI(חריץ2)‎</string>
+  <string name="custom_build_version">גרסה שנבנתה בהתאמה אישית</string>
+  <string name="mota_system_update_summary">"בדוק עדכוני המערכת בשרת"</string>
+  <string name="software_updates_more_title">עדכוני תוכנה</string>
+  <string name="software_updates_more_summary">חפש אחר תוכנה בגרסה חדשה</string>
+  <!-- MTK About phone end -->
+ 
+  <!-- MTK sim cards start -->
+   <string name="sim_cards_celluar_data_dialog_title">בחר SIM לשימוש עבור נתונים סלולריים</string>
+  <string name="sim_cards_data_sms_dialog_title">בחר SIM לשימוש עבור הודעות SMS</string>
+  <string name="sim_cards_calls_dialog_title">בחר חשבון לשימוש עבור שיחות טלפון</string>
+  <string name="sim_cards_other_calls_dialog_title">בחר חשבון אחר</string>
+  <string name="sim_cards_other_calls_item_title">חשבון אחר</string>
+  <string name="data_connection_progress_message">השלמת החלפת ה-SIM תימשך כ-‏10 שניות. נא להמתין...</string>
+  <string name="gemini_sim_mode_progress_activating_message">מפעיל\u2026</string>
+  <string name="gemini_sim_mode_progress_deactivating_message">משבית\u2026</string>
+  <string name="simui_intenet_call">שיחת אינטרנט</string>
+  <!-- MTK sim cards end -->
+ 
+  <!-- MTK SIM Status start -->
+   <string name="imei_information_title">"‏פרטי IMEI"</string>
+  <string name="imei_information_summary">"‏מידע הקשור ל-IMEI"</string>
+  <string name="slot_number">"(חריץ <xliff:g id="SLOT_NUM">%1$d</xliff:g>)"</string>
+  <string name="sim_info_editor_color">"צבע רקע"</string>
+  <string name="sim_cards_notify_title">"‏כרטיסי SIM השתנו"</string>
+  <string name="sim_cards_notify_summary">הקש כדי להגדיר את ההעדפות.</string>
+  <string name="no_sim_cards_notify_title">אף כרטיס SIM אינו מחובר</string>
+  <string name="cellular_data_notify_title">"נתונים סלולריים אינם זמינים"</string>
+  <string name="cellular_data_notify_summary">הקש כדי להגדיר את נתוני כרטיס ה-SIM.</string>
+  <!-- MTK SIM Status end -->
+ 
+  <!-- IMS/SMS Settings start -->
+   <string name="ims_toggle_summary">מספק שירותי מערכת משנה של מולטימדיה ב-IP</string>
+  <string name="sms_vibrate_summary">הפעל רטט במכשירים עבור SMS</string>
+  <!-- IMS/SMS Settings end -->
+    <string name="default_data_switch_err_msg1">לא ניתן לעבור ל-SIM המועדף עבור תקשורת נתונים סלולרית במהלך שיחה.</string>
+  <string name="two_cdma_dialog_msg">חריץ 1 וחריץ 2 לא תומכים בו-זמנית ב-CDMA.</string>
+   <string name="hetcom_setting_title">הורדת טורבו</string>
+<string name="voice_call_sim2_title">רינגטון לשיחה קולית ב-SIM 2</string>
+<string name="ringtone_sim2_title">רינגטון טלפון SIM 2</string>
+<string name="wfc_quick_toggle_title">שיחת Wi-Fi</string>
+<string name="Help">עזרה</string>
+<string name="Tutorials">ערכת לימוד</string>
+<string name="Top_questions">שאלות מובילות</string>
+<string name="Wifi_wfc_dialog_title">שיחת Wi-Fi</string>
+<string name="Wifi_wfc_dialog_top_wording">אתה מחובר לרשת WLAN</string>
+<string name="Wifi_wfc_dialog_bottom_wording">סמל זה בראש המסך מציין חיבור לרשת Wi-Fi. תוכל לבצע שיחות ולשלוח הודעות דרך Wi-Fi.</string>
+<string name="Skip">דלג</string>
+<string name="Learn_more">מידע נוסף</string>
+<string name="Next">הבא</string>
+<string name="Switch_not_in_use_string">המתג לא זמין באופן זמני. נסה שוב מאוחר יותר.</string>
+<string name="Done">בוצע</string>
+<string name="Wfc_questions">עזרה לשיחות Wi-Fi</string>
+<string name="Wfc_off_summary">מושבת</string>
+<string name="wfc_on_summary">שיחת Wi-Fi פועלת</string>
+<string name="connection_preference">העדפות חיבור</string>
+<string name="WiFi_preferred">Wi-Fi מועדף</string>
+<string name="Cellular_network_preferred">רשת סלולרית מועדפת</string>
+<string name="Never_use_cellular_network">לעולם אל תשתמש ברשת סלולרית</string>
+<string name="WiFi_preferred_summary">השתמש ב-Wi-Fi לשיחות. אם Wi-Fi לא זמין, השתמש ברשת הסלולרית (ברירת מחדל).</string>
+<string name="Cellular_network_preferred_summary">השתמש ברשת הסלולרית לשיחות. השתמש ב-Wi-Fi אם הרשת הסלולרית לא זמינה.</string>
+<string name="Never_use_cellular_network_summary">השתמש ב-Wi-Fi בלבד לשיחות. אל תשתמש ברשת הסלולרית גם אם היא זמינה.</string>
+<string name="no_sim_present_error">אין כרטיס SIM</string>
+<string name="inavlid_sim_error">שגיאה 05: SIM לא חוקי</string>
+<string name="airplane_mode_on">מצב טיסה מופעל</string>
+<string name="cellular_prefered_summary">שיטת החיבור המועדפת היא סלולרי</string>
+<string name="wifi_off_summary">Wi-Fi כובה</string>
+<string name="not_connected_to_wifi_summary">לא מחובר ל-Wi-Fi</string>
+<string name="poor_wifi_signal_summary">אות Wi-Fi חלש</string>
+<string name="wfc_enabling_summary">מאפשר...</string>
+<string name="wfc_disabling_summary">מבטל...</string>
+<string name="wfc_ready_for_calls_summary">מוכן לשיחות</string>
+<string name="wfc_unknown_error_summary">שגיאה לא ידועה</string>
+<string name="wfc_tutorial_heading">למד הכל על שיחת Wi-Fi</string>
+<string name="wfc_tutorial_content_second_page_part1">כאשר מוצג סמל שיחת Wi-Fi בסרגל המצב, הטלפון מוכן לשיחת Wi-Fi.</string>
+<string name="wfc_tutorial_content_second_page_part2">כדי להישאר בשיחת Wi-Fi, הישאר בטווח רשת ה-Wi-Fi. תשמע צליל ותוצג הודעה על המסך כאשר שיחה נותקה בגלל שיצאת מהטווח.</string>
+<string name="wfc_incorrect_sim_alert_title">שגיאה 05: כרטיס SIM לא חוקי</string>
+<string name="wfc_invalid_sim_alert_message">הודעה חשובה‪‎\n‬עליך לעדכן את כרטיס ה-SIM לתאימות עם שירות שיחות ב-Wi-Fi. בקר בחנות T-Mobile או חייג 611 מהטלפון לשירות לקוחות.</string>
+<string name="ok_string">אישור</string>
+<string name="wifi_ap_help_title">עזרה</string>
+<string name="help_document">1. המכשיר יכול לשמש כנקודת גישה לאינטרנט באמצעות התכונה ‪‎\'‬נקודה חמה ניידת לרשת Wi-Fi‪‎\'‬. ציוד היקפי יכול להתחבר למכשיר שלך ולגשת לאינטרנט דרך חיבור הנתונים הסלולריים שלך.‪‎\n‬‫‏‬2. לפני השימוש בתכונה נקודה חמה ניידת לרשת Wi-Fi, הפעל את הנתונים הסלולריים. עלולים להיות חיובים על שימוש בנתונים.‪‎\n‬‫‏‬3. שימוש בתכונה נקודה חמה ניידת לרשת Wi-Fi יצרוך יותר חשמל.</string>
+<string name="bg_power_percent_title">הצג אחוזי סוללה</string>
+<string name="bg_power_percent_summary">הצג את אחוזי טעינת הסוללה בסרגל המצב</string>
+<string name="wfc_tutorial_content_first_page">שיחות ברשת Wi-Fi מאפשרות להיפרד מבעיות קליטה לא יציבה. עם שיחות ברשת Wi-Fi אפשר לבצע ולקבל שיחות והודעות על פני רשת Wi-Fi תוך שימוש בתכנית הנתונים הקיימת של T-Mobile. לא נדרשות הגדרות מיוחדות לשיחות ברשת Wi-Fi. מתפריט ‪‎\'‬הגדרות‪‎\'‬, עבור אל ‪‎\'‬אלחוט ורשתות‪‎\'‬ והתחבר לרשת Wi-Fi כדי להתחיל.</string>
+<string name="storage_internal_storage_title">אחסון פנימי</string>
+<string name="storage_cleaner_preference_title">מנקה נפח אחסון</string>
+</resources>

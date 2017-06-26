@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/Advanced"
+        android:layout_width="match_parent"
+        android:layout_height="25dip"
+        android:background="#EAEAEA"
+        android:paddingLeft="14sp"
+        android:paddingRight="14sp"
+        android:paddingTop="5dp"
+        android:text="@string/contacts_setting_Advanced"
+        android:textSize="13sp" />
+
+    <RelativeLayout
+        android:id="@+id/MergerContacts"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/headview_bg"
+        android:paddingStart="14sp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="@string/merge_duplicate_contacts"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/leftclick" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:src="@drawable/linegray" />
+
+    <RelativeLayout
+        android:id="@+id/SetMyProfile"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/headview_bg"
+        android:paddingStart="14sp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="@string/set_up_my_profile"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/leftclick" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/Memory_status"
+        android:layout_width="match_parent"
+        android:layout_height="25dip"
+        android:background="#EAEAEA"
+        android:paddingLeft="14sp"
+        android:paddingRight="14sp"
+        android:paddingTop="5dp"
+        android:text="@string/mem_status"
+        android:textSize="13sp" />
+
+    <ListView
+        android:id="@+id/mem_status_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:src="@drawable/linegray" />
+
+</LinearLayout>

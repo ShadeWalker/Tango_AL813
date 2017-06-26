@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+            
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0">
+        <ListView
+                android:id="@+id/list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+    </FrameLayout>
+    <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@+id/buttons"
+           
+            android:layoutAnimation="@anim/v5_bottom_bar_layout_anim"
+            android:layout_width="fill_parent"
+            android:layout_height="78.0dip"
+            android:visibility="gone">
+        <Button android:textSize="11.0sp"
+                android:textColor="@color/button_text_color"
+                android:gravity="top|center"
+                android:id="@+id/del"
+             
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_delete"
+                android:singleLine="true"
+                android:drawableTop="@drawable/bottom_bar_delete" />
+    </LinearLayout>
+</LinearLayout>

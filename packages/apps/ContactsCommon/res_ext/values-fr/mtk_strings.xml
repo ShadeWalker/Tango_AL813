@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
+    <string msgid="1418215926447642260" name="deleteConfirmation_title">"Supprimer le contact?"</string>
+    <string msgid="2896685845822146494" name="add_contact_dlg_title">Ajouter contact</string>
+    <string msgid="8543619259870877473" name="no_sdcard_title" product="nosdcard">"Mémoire non disponible"</string>
+    <string msgid="5911758680339949273" name="no_sdcard_title" product="default">"Aucune carte SD trouvée"</string>
+    <string msgid="4970508055399376813" name="searching_vcard_title">"Recherche des données VCard"</string>
+    <string msgid="4944932641334764942" name="scanning_sdcard_failed_title" product="nosdcard">"Impossible d\'analyser la carte SD"</string>
+    <string msgid="6664940444476572612" name="scanning_sdcard_failed_title" product="default">Couldn\'t scan SD card</string>
+    <string msgid="5578683596010294836" name="cancel_import_confirmation_title">"Annulation importation fichier vCard"</string>
+    <string msgid="6516467140276768528" name="cancel_export_confirmation_title">"Annulation exportation fichier vCard"</string>
+    <string msgid="5101735431586050711" name="menu_all_contacts">"Tous les contacts"</string>
+    <string msgid="1012756309632856553" name="search_bar_hint">"Rechercher..."</string>
+    <string msgid="5276699501316246253" name="aggregation_suggestion_join_dialog_title">"Joindre les contacts"</string>
+    <string msgid="1064042382692091314" name="aggregation_suggestion_edit_dialog_title">"Modifier les contacts sélectionnés"</string>
+    <string msgid="3950463632415908534" name="cancel_confirmation_dialog_title">"Supprimer les modifications"</string>
+
+  <string name="menu_print">"Impr."</string>
+  <string name="printContact">"Imprimer le fichier via"</string>
+  <string name="no_way_to_print">"Pas d’application disponible pour imprimer le/les fichier(s)"</string>
+  
+  <!--The following lines are provided and maintained by Mediatek Inc.  -->
+    <!-- The title for multiple selection call log activity -->
+    <string name="selected_item_count">  <xliff:g id="count">%d</xliff:g> sélect.</string>
+    <!-- Menu item used to start call log multiple selection activity -->
+    <string name="recentCalls_delete">Supprimer</string>
+    <string name="menu_selectAll">"Tout sélectionner"</string>
+    <string name="menu_clearAll">"Désélectionner tout"</string>
+        <!-- Text used to show the dual sim info -->
+    <string name="sim1">SIM1</string>
+    <string name="sim2">SIM2</string>
+    <string name="all_resources">"Les deux cartes SIM"</string>
+    <string name="choose_resources_header">Selectionner SIM</string>
+    <string name="all_tab_label1">Tout</string>
+    <string name="call_log_item_count">(<xliff:g id="count">%1$d</xliff:g>)</string>
+
+    <!-- below strings are used by dialpad -->
+    <string name="call_indicator_3g">3G</string>
+    <string name="call_sipcall">Appel Internet</string>
+    <string name="call_pin_dialog_title">Sélectionner la carte SIM</string>
+    <string name="call_people">Personnes</string>
+    <string name="call_ip_dial">Numérotation IP</string>
+    <string name="call_speed_dial">Numérotation abrégée</string>
+    <string name="call_video_call">Appel vidéo</string>
+    <string name="add_speed_dial">Touchez pour ajouter une numérotation abrégée</string>
+    <string name="speed_dial_added">
+<xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) ajouté à la numérotation abrégée <xliff:g id="key">%3$s</xliff:g>
+</string>
+    <string name="remove_speed_dial">Retirer</string>
+    <string name="remove_sd_confirm_1">Etes-vous sûr de vouloir retirer <xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) de la numérotation abrégée <xliff:g id="key">%3$s</xliff:g>?</string>
+    <string name="emergencycall">Appel d\'urgence</string>
+    <string name="imei_invalid">Invalid</string>
+    <!-- Speed Dial phase II -->
+    <string name="sd_add">Ajouter</string>
+    <string name="reselect_number">Ce numéro a déjà été attribué à une touche de numérotation rapide, veuillez sélectionner un autre numéro.</string>
+    <!-- strings are used by dialpad end -->
+    <string name="calllog_today">"Aujourd\'hui"</string>
+    <string name="calllog_yesterday">Hier</string>
+    
+    <!-- strings are used by contact detail -->
+    <string name="menu_association">"SIM associée"</string>
+    <string name="menu_remove_association">"Supprimer l\'association SIM"</string>
+    <string name="remove_association_message">"Etes-vous sûr de vouloir retirer l\'association SIM de ce numéro?"</string>
+    <string name="remove_number_title">Retirer</string>  
+    <string name="warning_detail">"L\'association Sim importera le contact dans le téléphone. Continuer l\'association Sim?"</string>
+    <string name="block_incoming_call">Bloquer appel entrant </string>
+    <string name="block_video_incoming_call">Bloquer directement les appels vidéo entrants</string>
+
+    <!-- Contacts multi-choice string -->
+    <string name="menu_actionbar_selected_items">
+<xliff:g id="name">%s</xliff:g> sélect.</string>
+
+       <!-- MTK for edit SIM/USIM contact -->
+    <string name="has_double_phone_number">Impossible de sauvegarder deux fois le même numéro, veuillez vérifier.</string>
+    <string name="phone_book_busy">"Le répertoire téléphonique est occupé pour l\'instant, veuillez essayer plus tard."</string>
+    <string name="sim_invalid">"Impossible d\'enregistrer contact si carte SIM est invalide."</string>
+    <string name="cannot_insert_null_number">"Impossible d\'enregistrer les contacts dont le numéro est vide."</string>
+    <string name="AirPlane_mode_on">"Impossible d\'enregistrer les contacts lorsque le mode Avion est actif."</string>
+    <string name="FDNEnabled">"Impossible d\'enregistrer contact si FDN activé."</string>
+    <string name="sim_invalid_number">"Impossible d\'enregistrer numéro invalide."</string>
+    <string name="email_invalid">Impossible de sauvegarder un email invalide</string>
+    <string name="email_2g_invalid">"Impossible de sauvegarder l\'email sur la carte SIM 2G; veuillez sélectionner la carte SIM 3G pour sauvegarder."</string>
+    <string name="sim_invalid_fix_number">"Impossible d\'enregistrer un numéro fixe invalide."</string>
+    <string name="msg_loading_sim_contacts_toast">"Chargement des contacts SIM en arrière-plan, veuillez patienter quelques instants."</string>
+    <string name="fix_number_too_long">"Le numéro fixe est trop long."</string>
+    <string name="name_too_long">"Le nom est trop long."</string>
+    <string name="storage_full">"L\'espace de stockage est plein."</string>
+    <string name="number_too_long">"Le nombre est trop long."</string>
+    <string name="generic_failure">Panne générique.</string>
+
+    <string name="send_groupsms_no_number_more">"%1$s et %2$s autres contacts ne disposent pas d\'un numéro de téléphone valide."</string>
+    <string name="send_groupsms_no_number_1">"%1$s ne dispose pas d\'un numéro de téléphone valide."</string>
+    <string name="send_groupsms_no_number_2">"%1$s et %2$s ne disposent pas d\'un numéro de téléphone valide."</string>    
+
+    <!-- Feature Fix by Mediatek Begin -->
+
+    <!-- The local account type to be added, it used to manage SIM contacts. -->
+    <string name="account_type_sim" product="tablet">Compte SIM</string>
+    <!-- The local account type to be added, it used to manage SIM contacts. -->
+    <string name="account_type_sim" product="default">SIM Account</string>
+
+    <!-- The local account type to be added, it used to manage USIM contacts. -->
+    <string name="account_type_usim" product="tablet">Compte USIM</string>
+    <!-- The local account type to be added, it used to manage USIM contacts. -->
+    <string name="account_type_usim" product="default">USIM Account</string>
+
+    <!-- The local account type to be added, it used to manage Phone contacts. -->
+    <string name="account_type_local_phone" product="tablet">Téléphone compte local</string>
+    <!-- The local account type to be added, it used to manage Phone contacts. -->
+    <string name="account_type_local_phone" product="default">Téléphone compte local</string>
+
+
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts. -->
+    <string name="local_account_type" product="tablet">Compte local</string>
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts. -->
+    <string name="local_account_type" product="default">Local Account</string>
+
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts settings. -->
+    <string name="local_account_label" product="tablet">Compte local</string>
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts settings -->
+    <string name="local_account_label" product="default">Local Account</string>
+
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the SIM Card
+         and will not be synced. -->
+    <string name="account_type_sim_label" product="tablet">SIM uniquement, non synchronisé</string>
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the SIM Card
+         and will not be synced. -->
+    <string name="account_type_sim_label" product="default">SIM-only, unsynced</string>
+
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the USIM Card
+         and will not be synced. -->
+    <string name="account_type_usim_label" product="tablet">USIM uniquement, non synchronisé</string>
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the USIM Card
+         and will not be synced. -->
+    <string name="account_type_usim_label" product="default">USIM-only, unsynced</string>
+
+    <!-- below strings are used by contacts group -->
+    <string name="please_wait">"Veuillez patienter..."</string>
+    <string name="move_contacts_to">Déplacer les contacts vers</string>
+    <string name="menu_move_group">"Déplacer membres du groupe"</string> 
+    <string name="menu_message_group">"Envoyer message groupé"</string>
+    <string name="menu_email_group">"Envoyer email groupé"</string>    
+    <string name="moving_group_members">"Déplacement des membres du groupe\u2026"</string>
+    <string name="removing_group_members_sucess">"Retrait des membres du groupe réussi"</string>
+    <string name="moving_group_members_sucess">"Déplacement des membres du groupe réussi"</string>
+    <string name="moving_group_members_fail">"Echec du déplacement des membres du groupe"</string>
+    <string name="no_valid_number_in_group">Ce groupe ne contient aucun contact avec un numéro de téléphone valide.</string>
+    <string name="no_valid_email_in_group">Ce groupe ne contient aucun contact avec une adresse email.</string>
+    <string name="email_error">Vous devez installer l\'application de messagerie, ou configurer votre compte !</string>
+    <string name="usim_group_name_exceed_limit">"Nom de groupe trop long pour stockage."</string>
+    <string name="usim_group_count_exceed_limit">"Impossible d'ajouter de nouveaux groupes au stockage."</string>
+    <!-- below strings are used by contacts import/export -->
+    <string name="import_export_title">"Importer/Exporter"</string>
+    <string name="next">Suivant</string>
+    <string name="imexport_bridge_sd_card">Carte SD</string>
+    <string name="tips_source">Copier des contacts de</string>    
+    <string name="tips_target">COPIER LES CONTACTS SUR</string>
+    <string name="back">Retour</string>
+    <string name="imexport_title">Importer/Exporter contacts</string>
+    <!-- Feature Fix by Mediatek End -->
+
+
+    <!-- Title when popup ContactEditorAccountsChangedActivity's dialog -->
+    <string name="store_contact_to">Sauvegarder le contact dans</string>
+
+    <!-- strings are used by people activity -->
+    <string name="notifier_finish_delete_title">Suppression des contacts réussie</string>  
+    <string name="notifier_finish_delete_content">Suppression de  <xliff:g id="total">%d</xliff:g> contact(s) </string>  
+    <string name="notifier_finish_copy_title">Copie des contacts réussie</string>  
+    <string name="notifier_finish_copy_content">Copie de  <xliff:g id="total">%d</xliff:g> contact(s) </string>  
+    <string name="notifier_multichoice_process_report">Achevé:  <xliff:g id="items">%d</xliff:g>\nInachevé:  <xliff:g id="items">%d</xliff:g>  </string>  
+    <string name="notifier_failure_by_sim_full">Erreur provoquée par stockage SIM plein\nAchevé:  <xliff:g id="items">%d</xliff:g>\nInachevé:  <xliff:g id="items">%d</xliff:g>  </string>  
+    <string name="notifier_failure_sim_notready">Erreur provoquée par SIM non prête\nAchevé:  <xliff:g id="items">%d</xliff:g>\nInachevé:  <xliff:g id="items">%d</xliff:g>  </string>  
+    <string name="notifier_cancel_delete_title">Suppression du/des contact(s) annulée</string>  
+    <string name="notifier_fail_delete_title">Echec de suppression du/des contact(s)</string>  
+    <string name="notifier_cancel_copy_title">Copie du/des contact(s) annulée</string>  
+    <string name="notifier_fail_copy_title">Echec de copie du/des contact(s)</string>  
+    <string name="notifier_progress_delete_message">Suppression de 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g>: 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> 
+    </string>  
+    <string name="notifier_progress_delete_description">Suppression de 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> 
+    </string>  
+    <string name="notifier_progress_copy_message">Copie de 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g>: 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> 
+    </string>  
+    <string name="notifier_progress_copy_description">Copie de 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> 
+    </string>  
+    <string name="multichoice_confirmation_title_delete">Annulation de la suppression du/des contact(s)</string>  
+    <string name="multichoice_confirmation_message_delete">Annuler la suppression du/des contact(s)?</string>  
+    <string name="multichoice_confirmation_title_copy">Annuler la copie du/des contact(s)?</string>  
+    <string name="multichoice_confirmation_message_copy">Annuler la copie du/des contact(s)?</string>  
+     
+    <!-- The toast title when storage is full -->
+    <string name="phone_storage_full_create">"Le stockage du téléphone est plein, vous ne pouvez pas créer de nouveau contact."</string>
+    <string name="phone_storage_full_edit">"Le stockage du téléphone est plein, vous ne pouvez pas éditer de contact."</string>
+    <!-- Displayed at the top of the call log search, showing the total number of call logs found in call log search result page -->
+    <plurals name="searchFoundCalllogs">
+        <item quantity="one">1 journal des appels</item>
+        <item quantity="other">
+<xliff:g id="count">%d</xliff:g> journaux des appels</item>
+    </plurals>
+        
+    <string name="search_results_for">Résultats de recherche pour : <xliff:g id="QUERY">%s</xliff:g>
+</string>
+    <string name="listFoundAllCalllogZero">Journal des appels introuvable</string>
+    
+    <string name="calllogList">Historique des appels</string>
+    <string name="calllogHint">Rechercher dans les journaux des appels</string>
+    <string name="calllog_description">Appels entrants, sortants et en absence</string>
+    <string name="noMatchingCalllogs">Aucun journal des appels correspondant trouvé.</string>
+
+    <string name="menu_videocallNumber">Appel vidéo <xliff:g id="NAME">%s</xliff:g>
+</string>
+    <string name="menu_ipcallNumber">Appel IP  <xliff:g id="name">%s</xliff:g>  </string>
+    
+    <string name="deleting_call_log">Suppression du journal des appels…</string>
+
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+    
+    <!-- missing voicemail number -->
+    <!-- Title of the "Missing voicemail number" dialog -->
+    <string name="no_vm_number">Numéro de messagerie vocale manquant</string>
+    <!-- Body text of the "Missing voicemail number" dialog -->
+    <string name="no_vm_number_msg">Aucun numéro de messagerie vocale n\'est enregistré sur la carte SIM.</string>
+    <!-- Button label on the "Missing voicemail number" dialog -->
+    <string name="add_vm_number_str">Ajouter un numéro</string>
+    
+    <string name="reminder">Rappel</string>
+    <string name="enable_sip_dialog_message">Les appels Internet sont désactivés, souhaitez-vous les activer?</string>
+
+    <!-- The toast title for add SIP No. to SIM/USIM contact -->
+    <string name="add_SIP_to_sim">"Impossible d\'ajouter numéro SIP au contact SIM/USIM."</string>
+    <!-- The toast title fot if there has SIP No. can't add new -->
+    <string name="already_has_SIP">"Impossible d\'ajouter deux numéros SIP au contact; pour continuer, veuillez d\'abord supprimer l\'ancien numéro SIP."</string>
+
+    <string name="multichoice_no_select_alert">"Aucun élément sélectionné."</string>
+    <string name="multichoice_delete_confirm_message">"Voulez-vous vraiment supprimer l\'élément(s) de contact sélectionné?"</string>
+    <string name="multichoice_delete_confirm_title">"Suppression de l\'élément(s) de contact"</string>
+
+    <string name="name_needed">Un nom est requis</string>
+    <string name="save_group_fail">"Echec d\'enregistrement du groupe."</string>
+    <string name="group_name_exists">Ce nom de groupe existe déjà.</string>
+  <string name="sum_search_networks">"Chercher tous les réseaux disponibles"</string>
+    <string name="notifier_progress__delete_will_start_message">Le ou les contacts seront supprimés sous peu.</string>  
+    <string name="notifier_progress__copy_will_start_message">Le ou les contacts seront copiés sous peu.</string>
+    
+    <string name="remove_sd_confirm_2">Confirmer la suppression de  <xliff:g id="contact_name">%1$s</xliff:g> de la numérotation rapide  <xliff:g id="key">%2$s</xliff:g>? </string>  
+    <string name="callFailed_simError">Aucune carte SIM, erreur SIM</string>  
+    <string name="group_discard_member">Rejeter</string>  
+    <string name="group_discard_member_reason">"Les modifications seront annulées car le nom du groupe n\'est pas valide."</string>  
+    <string name="share_contacts_limit">"La sélection pour le partage des contacts ne peut dépasser les "<xliff:g id="count">%d</xliff:g>""</string>  
+    <string name="contact_delete_all_tips">"Une suppression de contact est déjà en cours en arrière-plan. Pour lancer une nouvelle suppression, annuler d\'abord celle en cours."</string>
+    
+    <string name="turn_on_3g_service_message">"Service 3G désactivé, souhaitez-vous l\'activer?"</string>
+    <string name="associate_sim_missing_message">"La carte SIM %1$s est indisponible. Souhaitez-vous passer l\'appel via %2$s"</string>
+    <string name="associate_sim_missing_other">"Appeler"</string>
+    <string name="sim_manage_call_via">Appeler via</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Veuillez tout d\'abord saisir un préfixe IP depuis les réglages des appels vocaux.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">La fonction numérotation IP n\'est pas applicable aux appels d\'intention.</string>
+    <string name="email_too_long">"L\'email trop long"</string> 
+    <string name="deleteCallLogConfirmation_title">"Supprimer le(s) historique(s) d\'appels?"</string>  
+    <string name="deleteCallLogConfirmation_message">"Confirmer la suppression du/des historique(s) d\'appels sélectionné(s)?"</string>
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+    <!--The following lines are provided and maintained by Mediatek Inc. 2012-5-16-->  
+    <string name="delete_group_failure">Echec de la suppression du groupe.</string>  
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+    
+      <string name="from_account_format"> 
+        <xliff:g example="user@gmail.com" id="source">%1$s</xliff:g> 
+    </string>
+  <string name="speed_dial_added2">  <xliff:g id="contact_name">%1$s</xliff:g> ajouté à la numérotation rapide  <xliff:g id="key">%2$s</xliff:g>  </string>
+  <string name="call_log_filter_all_resources">"Les deux cartes SIM"</string>
+  <string name="AirPlane_mode_on_edit">"Impossible d\'éditer un contact lorsque le mode avion est activé."</string>
+  <string name="multichoice_contacts_limit">"Les contacts sélectionnés ne peuvent pas dépasser "<xliff:g id="count">%d</xliff:g>""</string>
+  <string name="file_already_on_sd_card">Ce fichier existe déjà sur la carte SD.</string>
+  <string name="send_file_sms_error">Partage du fichier impossible via SMS, veuillez utiliser MMS.</string>
+    <string name="error_save_usim_contact_email_lost">"Echec de la sauvegarde de l'adresse email car le stockage email est plein."</string>
+    <string name="error_import_usim_contact_email_lost">"Echec de l'importation de certains contacts\adresses email car le stockage email est plein.\nTerminés: <xliff:g id="items">%d</xliff:g>\nNon-terminés: </string>
+  <string name="user_profile_cannot_sd_card">Partage du contenu impossible avec cette méthode.</string>
+  <string name="call_sms">SMS</string>
+  <string name="menu_delete_contact">"Supprimer le contact"</string>
+  <string name="menu_conference_call">"Conférence téléphonique"</string> 
+  <string name="contact_group_list_title">"Sélectionnez le groupe cible"</string> 
+    <string name="import_no_vcard_dialog_text">Aucun fichier vCard trouvé dans  <xliff:g id="storage_name">%s</xliff:g> </string> 
+  <string name="send_groupemail_no_number_more">"%1$s et %2$s autres contacts n\'ont pas d\'adresse email valide."</string>
+  <string name="send_groupemail_no_number_1">"%1$s n\'a pas d\'adresse email valide."</string>
+  <string name="send_groupemail_no_number_2">"%1$s et %2$s n\'ont pas d\'adresse email valide."</string>
+  <string name="createContactShortcutSuccessful">"Widget de contact ajouté à l'écran d'accueil."</string>
+  <string name="send_message">Envoyer message</string>
+  <string name="type_ip_outgoing">IP appel sortant (  <xliff:g id="name">%s</xliff:g>) </string>
+  <string name="call_log_auto_rejected_label">Appels auto-rejetés</string>
+  <string name="look_simstorage">Afficher capacité carte SIM</string>
+  <string name="dlg_simstorage_content">la capacité de stockage de contacts téléphoniques 
+        <xliff:g id="items">%d</xliff:g>, a été atteinte 
+        <xliff:g id="items">%d</xliff:g>.
+    </string>
+  <string msgid="7368429698398624427" name="delete_group_dialog_title">"Supprimer le groupe"</string>
+  <string msgid="2111395432187079579" name="dialog_phone_call_prohibited_title">"Appel non effectué"</string>
+  <string msgid="7258109862329777060" name="dialog_voicemail_not_ready_title">"Messagerie vocale indisponible"</string>
+
+    <string name="nickname_too_long">"Pseudo trop long."</string>
+    <string name="pick_new_photo_from_gallery">"Sélect. nouvelle photo"</string>  
+    <string name="copy_text_to_dialer">Copier vers numéroteur</string> 
+    <string name="account_phone_only" product="tablet">"Tablette"</string>  
+    <string name="account_phone_only" product="default">"Téléphone"</string>  
+
+    <string name="international_dialing_title">Aide à la numérotation internationale</string>
+    <string name="international_dialing_select_country">"L\'appareil a détecté un appel international. Veuillez choisir votre destination."</string>
+    <string name="international_dialing_add_country_code">"L\'appareil a détecté un numéro d\'appel vers <xliff:g id="country_name">%s</xliff:g> . Souhaitez-vous ajouter l\'indicatif du pays (+<xliff:g id="country_code">%s</xliff:g>)?"</string>
+    <string name="international_dialing_add_country_code_and_area_code">"L\'appareil a détecté un numéro d\'appel depuis <xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g>. Souhaitez-vous ajouter l\'indicatif du pays et le préfixe de la région  (+<xliff:g id="prefix">%3$s</xliff:g>)?"</string> 
+    <string name="international_dialing_change_country_prefix">"L\'appareil a détecté que vous appelez depuis <xliff:g id="country_name">%s</xliff:g>. Modifiez l\'indicatif international en  \\'+\\'?"</string>
+    <string name="international_dialing_add_country_code_input_area_code">"L\'appareil a détecté un numéro d\'appel vers<xliff:g id="country_name">%s</xliff:g>.  Veuillez saisir le préfixe de la région."</string>   
+    <string name="international_dialing_add_country_code_default_input_area_code">"L\'appareil a détecté un numéro d\'appel vers <xliff:g id="country_name">%s</xliff:g>. Si la ville que vous appelez n\'est pas<xliff:g id="area_name">%s</xliff:g>, veuillez saisir le préfixe de la région."</string>
+    <string name="international_dialing_need_area_code">Un préfixe de région est nécessaire pour passer cet appel.</string>
+    <string name="international_dialing_input_area_code">Saisissez le préfixe de la région ici</string>
+    <string name="international_dialing_dialed_number">Numéro composé :</string>
+    <string name="international_dialing_confirm_area_code">"Si la ville de destination n\'est pas <xliff:g id="area_name">%s</xliff:g>, veuillez saisir le préfixe de la région de la ville de destination ci-dessous."</string>
+    <string name="international_dialing_click_below_button">"Cliquez sur le bouton ci-dessous pour modifier l\'indicatif du pays."</string>
+    <string name="international_dialing_yes">Oui. Utiliser le numéro suivant :</string>
+    <string name="international_dialing_no">"Non. Utiliser le numéro d\'origine :"</string>
+    <string name="international_dialing_call_button">"Appeler"</string>
+    <string name="international_dialing_area_code">préfixe région</string>
+    <string name="international_dialing_invalid_number">"Ce numéro est invalide. Composer quoi qu\'il en soit ?"</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">"Souhaitez-vous ajouter l\'indicatif pays et le préfixe région ?"</string>
+    <string name="no_search_result">Aucun résultat de recherche</string>
+
+    <string name="share_too_large">Les données totales dépassent la limite; veuillez désélectionner certains éléments et réessayer.</string>
+
+
+      <string name="xport_error_one_account">"Veuillez insérer une carte SIM ou une carte SD pour importer/exporter les contacts."</string>
+      <string name="account_type_uim_label" product="tablet">UIM uniquement, non synchro</string>
+      <string name="account_type_uim_label" product="default">UIM-only, unsynced</string>
+      <string name="contact_detail_group_list_title">"Groupes"</string>
+      <string name="contact_detail_group_not_assigned">Non assigné</string>
+      <string name="contact_detail_group_list_nogroups">"Aucun groupe existant. Souhaitez-vous créer un nouveau groupe?"</string>
+      <string name="recents">Récents</string>
+      <string name="contact_no_recents">Aucun récent</string>
+      <string name="contact_detail_detail">Détail</string>
+      <string name="contact_detail_update">"Mettre à jour"</string>
+      <string name="contact_detail_history">"Historique"</string>
+      <string name="contact_detail_ip_call">Appel IP</string>
+      <string name="contact_detail_history_mms_received_time">"Heure de réception %1$s"</string>
+      <string name="contact_detail_history_mms_received_from">"Reçu de %1$s"</string>
+      <string name="contact_detail_history_mms_sent_time">"Heure d\'envoi %1$s"</string>
+      <string name="contact_detail_history_mms_sent_to">"Envoyé à %1$s"</string>
+      <string name="contact_detail_history_calllog">Historique des appels</string>
+      <string name="contact_detail_history_mms">Messages</string>
+      <string name="contact_detail_history_duration">"Durée :"</string>
+      <string name="contact_detail_history_ismms">"Récupérer un message multimédia"</string>
+      <string name="contact_detail_history_empty_calllog">"L\'historique des appels est vide"</string>
+      <string name="contact_detail_history_empty_message">Aucun message</string>
+      <string name="contact_detail_history_empty">"Aucun historique pour message d\'appel"</string>
+      <string name="contact_recent_number_limit">"Seulement %1$s contacts disponibles"</string>
+      <string name="contact_recent_group_label">"Groupes"</string>
+      <string name="call_pin_dialog_title_ct">Sélection carte UIM/SIM</string>
+      <string name="callFailed_simError_ct">Aucune carte UIM/SIM, ou erreur UIM/SIM</string>
+      <string name="msg_loading_sim_contacts_toast_ct">"Chargement des contacts UIM/SIM en arrière-plan, veuillez patienter."</string>
+      <string name="xport_error_one_account_ct">"Veuillez insérer une carte UIM/SIM ou une carte SD pour importer/exporter vos contacts."</string>
+      <string name="notifier_failure_by_sim_full_ct">Echec dû à un stockage UIM/SIM plein\nTerminé: <xliff:g id="items">%d</xliff:g>\nNon terminé: <xliff:g id="items">%d</xliff:g>
+</string>
+      <string name="notifier_failure_sim_notready_ct">Echec dû à carte UIM/SIM non prête\nTerminé: <xliff:g id="items">%d</xliff:g>\nNon terminé: <xliff:g id="items">%d</xliff:g>
+</string>
+      <string name="look_simstorage_ct">Afficher la capacité de la carte UIM/SIM</string>
+      <string name="callFailed_cdma_notEmergency">"Services d\'urgence uniquement"</string>
+      <string name="no_match_call_log">"Aucun élément correspondant"</string>
+      <string name="no_call_log">"Aucun journal d\'appels"</string>
+      <string name="err_icc_no_phone_book">Le %1$s ne peut pas enregistrer le contact</string>
+      <string name="titleJoinContactDataWith">"Joindre les contacts"</string>
+      <string name="menu_select_all">Sélectionner tout</string>
+      <string name="list_filter_custom">"Personnalisé"</string>
+      <string name="add_contact_dlg_message_fmt">"Ajouter \"<xliff:g id="EMAIL">%s</xliff:g>\" aux contacts ?"</string>
+      <string name="locale_change_in_progress">"Mise à jour de la liste des contacts en cours suite au changement de langue."</string>
+      <string name="noFavoritesHelpText">"Vous ne disposez d\'aucun favoris."\n\n"Pour ajouter un contact à la liste de favoris :"\n\n"        "<li>"Appuyez sur l\'onglet "<b>"Contacts"</b>"."\n</li>" "\n<li>"Appuyez sur le contact à ajouter à vos favoris."\n</li>" "\n<li>"Appuyez sur l\'étoile en regard du nom du contact."\n</li>
+</string>
+      <string name="non_phone_caption">"Numéro de téléphone"</string>
+      <string name="menu_select_none">"Désélectionner tout"</string>
+      <string name="mtk_contact_list_loading">Chargement\u2026</string>
+      <string name="vcard_import_failed_v2">Importation impossible</string>
+      <string name="quickcontact_missing_app">"Aucune application pouvant gérer cette action n\'a été trouvée."</string>
+      <string name="find_call_logs">"Trouver les journaux d\'appels"</string>
+      <string name="imsCallLabelsGroup">Appel IMS</string>
+      <string name="sip_url">url SIP</string>
+      <string name="ims_call_disabled">Appel IMS indisponible</string>
+      <string name="vcs_menu_voice_contacts_search" product="default">Recherche vocale des contacts</string>
+      <string name="vcs_msg_no_voice_contacts">Oups, aucun contact trouvé.</string>
+      <string name="call_log_via_sim_name_notice">"JOURNAUX D\'APPELS VIA \"<xliff:g id="sim_name">%s</xliff:g>\""</string>
+<string name="call_speed_dial_title">Numérotation abrégée</string>
+    <string name="dialog_no_speed_dial_number_message">Aucun numéro de composition rapide, le confirmer maintenant?</string>
+    <string name="icc_phone_book_invalid">"L'annuaire est actuellement indisponible, veuillez réessayer ultérieurement."</string>
+    <string name="error_edit_join_group">Ceci est un contact joint. Vous pouvez éditer les informations du groupe en mode édition.</string>
+    <string name="local_phone_account" product="tablet">"Tablette"</string>
+    <string name="local_phone_account" product="default">Téléphone</string>
+     <string name="contact_import_export_tips">Importation/exportation des contacts, veuillez réessayer ultérieurement</string>
+<string name="can_not_switch_account_during_call">Vous ne pouvez pas changer la carte SIM préférée pour les appels pendant un appel.</string>
+<string name="can_not_switch_account_temporarily">Vous ne pouvez pas changer la carte SIM préférée pour les appels temporairement.</string>
+<string name="location_permission_title">Avertissement de sécurité</string>
+<string name="location_permission_summary">L\'application Contacts essaie d\'obtenir votre position actuelle.\n(Refuser automatiquement après <xliff:g id="time_sec">%1$s</xliff:g> secondes)</string>
+<string name="location_permission_allow">AUTORISER</string>
+<string name="location_permission_deny">REFUSER</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:id="@+id/frame"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:gravity="center_vertical"
+        android:background="?android:activatedBackgroundIndicator"
+        android:paddingRight="?android:scrollbarSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="?android:attr/scrollbarSize"
+        android:minHeight="48.0dip">
+
+    <LinearLayout android:layout_width="@dimen/header_icon_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="21dip"
+        android:layout_marginRight="0dip">
+
+        <ImageView android:layout_gravity="center"
+            android:id="@*android:id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="6.0dip"
+        android:layout_marginRight="6.0dip"
+        android:layout_marginBottom="6.0dip"
+        android:layout_weight="1.0">
+
+        <TextView android:textAppearance="?android:textAppearanceMedium"
+            android:ellipsize="marquee"
+            android:id="@*android:id/title"
+            android:fadingEdge="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+
+        <TextView android:textAppearance="?android:textAppearanceSmall"
+            android:ellipsize="end"
+            android:id="@*android:id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:layout_below="@*android:id/title"
+            android:layout_alignLeft="@*android:id/title" />
+    </RelativeLayout>
+       <TextView android:id="@+id/pref_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.Small"
+            android:textColor="?android:attr/textColorSecondary"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            />
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_alignParentRight="true"
+            android:clickable="false"
+            android:focusable="false"
+            android:background="@drawable/ic_arrow"/>
+</LinearLayout>

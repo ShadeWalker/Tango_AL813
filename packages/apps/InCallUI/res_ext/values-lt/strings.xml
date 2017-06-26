@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dm_lock">DM užrakintas</string>
+    <string name="dm_unlock">DM atrakintas</string>
+    <string name="start_record">Pradėti įrašymą</string>
+    <string name="stop_record">Sustabdyti įrašymą</string>
+    <string name="str_db_playlist_name">"Mano įrašai"</string>
+    <string name="alert_device_error">"Garso įrenginyje įvyko klaida"</string>
+    <string name="ext_media_badremoval_notification_title">"SD kortelė netikėtai pašalinta"</string>
+    <string name="error_sdcard_access">"Neįmanoma pasiekti SD kortelės"</string>
+    <string name="confirm_device_info_full">SD kortelėje neliko vietos; įrašas išsaugotas.</string>
+    <string name="confirm_save_info_saved">Įrašas išsaugotas</string>
+    <string name="confirm_save_info_saved_to">Įrašas išsaugotas</string>
+    <string name="recording_saved_sd_full">SD kortelėje neliko vietos; įrašas išsaugotas.</string>
+    <string name="sd_not_enough">SD kortelėje liko\nmažai vietos</string>
+    <string name="alert_dialog_dismiss">"Atsisakyti"</string>
+    <string name="change_my_pic">Keisti</string>
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">Baigti visus</string>
+    <string name="onscreenHangupHolding">Baigti sulaikytąjį</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Baigti aktyvųjį, atsiliepti į laukiantįjį</string>
+    <string name="menu_ect">Persiųsti</string>
+    <string name="respond_via_sms_confirmation_format">"Pranešimas išsiųstas numeriu 
+        <xliff:g id="PHONE_NUMBER">%s</xliff:g>."
+    </string>
+    <string name="volte_add_conference_member_title">Įtraukti į konferenciją</string>
+    <string name="add_member_msg">Įrašykite numerį arba vardą</string>
+    <string name="card_title_incoming_conference">Pakvietimas į konferenciją</string>
+    <string name="addConferenceMemeberText">Pridėti narį</string>
+    <string name="add_conference_member_limit">Vienu metu galima pridėti tik vieną numerį.</string>
+    <string name="conference_member_join">
+<xliff:g id="member_name">%s</xliff:g> prisijungė prie konferencijos.</string>
+    <string name="conference_member_leave">
+<xliff:g id="member_name">%s</xliff:g> atsijungė nuo konferencijos.</string>
+    <string name="conference_member_adding">Pridedamas <xliff:g id="member_name">%s</xliff:g> ...</string>
+    <string name="conference_member_add_fail">Nepavyko pridėti <xliff:g id="member_name">%s</xliff:g> .</string>
+    <string name="removeMember">"Pašalinti"</string>
+    <string name="memberStatus">"Būsena"</string>
+    <string name="volte_call_waiting_indication_text">Adresatas kalbasi telefonu, palaukite...</string>
+    <string name="volte_conf_member_reach_max">Konferencijoje jau dalyvauja maksimalus narių skaičius.</string>
+    <string name="add_multi_conference_member_limit">Kol kas galite pridėti daugiausiai <xliff:g id="max_number">%s</xliff:g> narį (-ius, -ių).</string>
+    <string name="multi_conference_member_adding">Pridedamas (-a, -i) narys (-ių, -iai)...</string>
+<string name="ok">"Gerai"</string>
+<string name="two_incoming_calls">Du įeinantys skambučiai</string>
+<string name="wifi_title">„Wi-Fi“ pokalbis ir minutės </string>
+<string name="call_drop">Jūsų pokalbis gali būti atjungtas</string>
+<string name="call_drop_message">Esate ties „Wi-Fi“ veikimo zonos riba</string>
+<string name="view_networks">Peržiūrėti tinklus</string>
+<string name="wfc_wifi_call_drop_summary">Atsiprašome! Greičiausiai pokalbio metu išėjote iš savo „Wi-Fi“ tinklo veikimo zonos.\n \nAr vėl prisijungti prie jūsų „Wi-Fi“ tinklo ir užbaigti pokalbį?</string>
+</resources>

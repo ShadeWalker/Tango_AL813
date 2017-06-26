@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- button in conferenceManagerFragment to add volte conference member. -->
+    <item
+        android:state_enabled="true"
+        android:state_active="false"
+        android:state_focused="false">
+        <layer-list>
+            <item>
+                <bitmap
+                    android:src="@drawable/mtk_volte_ic_conference_add_member_bkg"
+                    android:tint="@color/mtk_volte_conference_add_member_button_bkg" />
+            </item>
+            <item>
+                <bitmap
+                    android:gravity="center"
+                    android:src="@drawable/mtk_volte_ic_conference_add_member" />
+            </item>
+        </layer-list>
+    </item>
+
+</selector>

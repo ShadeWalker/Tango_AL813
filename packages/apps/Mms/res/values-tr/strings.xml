@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- 
+/*
+ * Copyright (C) 2007-2008 Esmertec AG.
+ * Copyright (C) 2007-2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- add by liujia5 for mms 7bit menu -->
+    <string name="sms_seven_bit">"7-bit optimizasyonu"</string>
+    <string name="sms_seven_bit_summary">"Tek bir mesajın 160 adete kadar karakter içerebilmesi için 7-bit kodlamaya dönüştürün"</string>
+    <!-- add by liujia5 for mms 7bit menu -->
+    <string msgid="1503967887341230795" name="app_label">"Mesajlaşma"</string>
+    <string msgid="1530369762346003973" name="new_message">"Yeni ileti"</string>
+    <string msgid="7538482331117914146" name="menu_call_back">"Ara: <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string msgid="671366308915241664" name="menu_send_email">"<xliff:g id="NAME">%s</xliff:g> kişisine e-posta gönder"</string>
+    <string msgid="3763437973691046238" name="menu_compose_new">"Oluştur"</string>
+    <string msgid="4693148116114749414" name="menu_preferences">"Ayarlar"</string>
+    <string msgid="8013282802147375764" name="menu_add_address_to_contacts">"Kişilere ekle: <xliff:g id="CONTACTEMAILORNUMBER">%s</xliff:g>"</string>
+    <string msgid="7124740686325942375" name="storage_warning_title">"Telefonunuzun depolama alanı dolu"</string>
+    <string msgid="1100367816649962354" name="storage_warning_content">"Yeni SMS/MMS mesajlarını almayacaksınız"</string>
+    <string msgid="3395185162973061099" name="label_mms_send_outbox_msg">"MMS Uyandırma"</string>
+    <string msgid="1837156781311437148" name="desc_mms_send_outbox_msg">"Giden kutusundaki tüm MMS\'leri ağa gönderir"</string>
+    <string msgid="6685337318181265136" name="sending_disabled_not_default_app">"Gönderme işlevi devre dışı"</string>
+    <string msgid="1838175321052707875" name="compose_disabled_toast">"Oluşturulamıyor. Varsayılan SMS uygulaması değil."</string>
+    <string msgid="510014388581481569" name="banner_sms_promo_title_initial">"Mesajlaşma, SMS uygulamanız değil"</string>
+    <string msgid="8123569785369713254" name="banner_sms_promo_title_application">"<xliff:g id="APPNAME">%s</xliff:g>, SMS uygulamanızdır"</string>
+    <string msgid="3536714414252763826" name="banner_sms_promo_message">"Bunu Ayarlar\'da değiştirebilirsiniz."</string>
+    <string msgid="5877123227307074690" name="menu_call">"Ara"</string>
+    <string msgid="2289469305728821360" name="menu_search">"Ara"</string>
+    <string msgid="808729454898114735" name="menu_delete_all">"Tüm ileti dizilerini sil"</string>
+    <string msgid="1851666911396479006" name="menu_delete">"İleti dizisini sil"</string>
+    <string msgid="7448852683948080108" name="menu_view">"İleti dizisini görüntüle"</string>
+    <string msgid="6855869130206549643" name="menu_debug_dump">"HATA AYIKLA"</string>
+    <string msgid="987335057871404222" name="refreshing">"Yenileniyor..."</string>
+    <string msgid="5646161375983084660" name="menu_cell_broadcasts">"Hücre yayınları"</string>
+    <string msgid="2487465595514636160" name="has_draft">"Taslak"</string>
+    <string msgid="7795086723069563537" name="no_subject_view">"(Konu yok)"</string>
+    <string msgid="3579016854116401602" name="messagelist_sender_self">"Ben"</string>
+    <string msgid="4990460971211388453" name="view_slideshow">"Slayt gösterisini görüntüle"</string>
+    <string msgid="7613457646645796831" name="view_message_details">"Ayrıntıları görüntüle"</string>
+    <string msgid="8219095994071575215" name="view_delivery_report">"Raporu görüntüle"</string>
+    <string msgid="6442394955910357234" name="delete_message">"Sil"</string>
+    <string msgid="4436268382742593921" name="expire_on">"Sona erme tarihi: <xliff:g id="DATE">%s</xliff:g>"</string>
+    <string msgid="534782148965716631" name="kilobyte">"KB"</string>
+    <string msgid="7479433403599785755" name="undelivered_msg_dialog_title">"Teslim edilmemiş ileti"</string>
+    <string msgid="4789268239627694551" name="undelivered_msg_dialog_body">"Bu mesaj gönderilemedi.\nSon deneme zamanı: <xliff:g id="MESSAGE">%s</xliff:g>."</string>
+    <string msgid="6755818550013032420" name="undelivered_sms_dialog_body">"Bu ileti gönderilemiyor."</string>
+    <string msgid="757258847736632791" name="delete_thread">"İleti dizisini sil"</string>
+    <string msgid="9026858380050046756" name="menu_forward">"Yönlendir"</string>
+    <string msgid="4488877642230207631" name="download">"İndir"</string>
+    <string msgid="1779557575565350637" name="downloading">"İndiriliyor"</string>
+    <string msgid="4057621785274119260" name="inline_subject">&lt;Konu: <xliff:g id="SUBJECT">%s</xliff:g>&gt;</string>
+    <string msgid="1396394157870730742" name="drm_protected_text">"* DRM korumalı metin *"</string>
+    <string msgid="6989074725969164383" name="insufficient_drm_rights">"Yetersiz DRM hakları tespit edildi."</string>
+    <string msgid="4296252229544252834" name="copy_message_text">"Metni kopyala"</string>
+    <string msgid="6838806653341967550" name="message_options">"İleti seçenekleri"</string>
+    <string msgid="3501759384739796431" name="slideshow_options">"Slayt gösterisi seçenekleri"</string>
+    <string msgid="7307578107431739359" name="move_up">"Yukarı taşı"</string>
+    <string msgid="6356509518429479053" name="move_down">"Aşağı taşı"</string>
+    <string msgid="2225604354024914900" name="remove_slide">"Slaydı kaldır"</string>
+    <string msgid="9140721399423564187" name="add_slide">"Slayt ekle"</string>
+    <string msgid="563319570849475501" name="add_slide_hint">"Yeni slayt oluşturmak için seçin."</string>
+    <string msgid="5054239124146413609" name="discard_slideshow">"Slayt gösterisini sil"</string>
+    <string msgid="5077675385448696846" name="slide_show_part">"Bölüm <xliff:g id="PART">%1$s</xliff:g>/<xliff:g id="TOTAL">%2$s</xliff:g>"</string>
+    <string msgid="2164068850029476539" name="remove_text">"Metni kaldır"</string>
+    <string msgid="7819574884962571479" name="add_picture">"Resim ekle"</string>
+    <string msgid="6378701749074289096" name="remove_picture">"Resmi kaldır"</string>
+    <string msgid="3827442822987116233" name="add_music">"Müzik ekle"</string>
+    <string msgid="858889733416015223" name="remove_music">"Müziği kaldır"</string>
+    <string msgid="7816866867806595144" name="add_video">"Video ekle"</string>
+    <string msgid="5258603891528497799" name="remove_video">"Videoyu kaldır"</string>
+    <string msgid="224029549150332986" name="to_hint">"Alıcı"</string>
+    <string msgid="4296714962311604126" name="subject_hint">Konu</string>
+    <string msgid="7103751293360532684" name="add_attachment">"Ekle"</string>
+    <string msgid="7616134948428265870" name="add_subject">"Konu ekle"</string>
+    <string msgid="1624800293064498479" name="discard">"Sil"</string>
+    <string msgid="7929667761715467136" name="view">"Görünüm"</string>
+    <string msgid="7587904998114459388" name="replace">"Değiştir"</string>
+    <string msgid="4625444913256213175" name="remove">"Kaldır"</string>
+    <string msgid="4589898724889248486" name="send">"Gönder"</string>
+    <string msgid="1587631213714914559" name="mms">"MMS"</string>
+    <string msgid="2933162044872550662" name="send_mms">"MMS gönder"</string>
+    <string msgid="2663426830306307194" name="all_threads">"Tüm ileti dizileri"</string>
+    <string msgid="3539985471008581265" name="type_to_compose_text_enter_to_send">"Mesaj yazın"</string>
+    <string msgid="7860109685511253191" name="open_keyboard_to_compose_message">"Mesajı yazmak için klavyeyi açın"</string>
+    <string msgid="1961357529661045180" name="compressing">"Resim çok büyük. Sıkıştırılıyor..."</string>
+    <string msgid="5037111178813903722" name="unsupported_media_format">"Desteklenmeyen <xliff:g id="NAME">%1$s</xliff:g> biçimi"</string>
+    <string msgid="7573116916321879964" name="select_different_media">"Lütfen başka bir <xliff:g id="NAME">%1$s</xliff:g> seçin."</string>
+    <string msgid="6027753647094742437" name="exceed_message_size_limitation">"İleti boyutu sınırına ulaşıldı."</string>
+    <string msgid="2639367545165352543" name="message_too_big_for_video">"İleti, video eklenemeyecek kadar büyük."</string>
+    <string msgid="8272471485019037446" name="failed_to_add_media">"Maalesef, <xliff:g id="NAME">%1$s</xliff:g> öğesini iletinize ekleyemezsiniz."</string>
+    <string msgid="5608354151631833669" name="failed_to_resize_image">"Resim yeniden boyutlandırılmadı."</string>
+    <string msgid="4897031754321114959" name="resize_image_error_information">"Maalesef, yeniden boyutlandırılsa bile bu resim gönderilemeyecek kadar büyük."</string>
+    <string msgid="276280492803486464" name="forward_prefix">"Fwd: "</string>
+    <string msgid="6078326880056142781" name="discard_message">"Sil"</string>
+    <string msgid="2667664943003796133" name="discard_message_reason">"İletiniz geçerli alıcısı olmadığı için silinecek."</string>
+    <string msgid="1485388396900997383" name="has_invalid_recipient">&lt;<xliff:g id="NAME">%1$s</xliff:g>&gt;</string>
+    <string msgid="4573835601024786416" name="invalid_destination">"Geçersiz hedef adresi"</string>
+    <string msgid="9178218144019626176" name="service_not_activated">"Ağ üzerinde hizmet etkin değil."</string>
+    <string msgid="1908877102600048515" name="service_message_not_found">"Mesajın süresi doldu veya kullanılamıyor."</string>
+    <string msgid="5418984934499160536" name="service_network_problem">"Hata: ağ sorunu"</string>
+    <string msgid="7315539322634238519" name="invalid_recipient_message">"Lütfen alıcıları düzeltin, aksi takdirde iletiyi almayacaklar."</string>
+    <string msgid="3918913277571649400" name="cannot_send_message">"Bu ileti gönderilemiyor"</string>
+    <string msgid="8745080126044054343" name="cannot_send_message_reason">"İletinizin geçerli alıcısı yok."</string>
+    <string msgid="84606990079390099" name="cannot_forward_drm_obj">"İletideki DRM nesnesi yönlendirilemiyor."</string>
+    <string msgid="2980023239017588627" name="converting_to_picture_message">"Multimedya iletisine dönüştürülüyor..."</string>
+    <string msgid="6374423235426015422" name="converting_to_text_message">"Kısa mesaja dönüştürülüyor..."</string>
+    <string msgid="8437666385579890987" name="cannot_add_slide_anymore">"Daha fazla slayt eklenemiyor."</string>
+    <string msgid="4721981351130823908" name="cannot_add_picture_and_video">"Bir slayta video ve resim eklenemiyor."</string>
+    <string msgid="5026354972915392301" name="cannot_save_message">"İleti kaydedilemiyor."</string>
+    <string msgid="2503018972659880692" name="message_saved_as_draft">"İleti taslak olarak kaydedildi."</string>
+    <string msgid="4239709214735078881" name="too_many_recipients">"Bu iletinin çok fazla alıcısı var (<xliff:g id="CURRENTCOUNT">%1$s</xliff:g>). En fazla <xliff:g id="MAXLIMIT">%2$s</xliff:g> alıcı olabilir."</string>
+    <string msgid="3774037894899750070" name="too_many_attachments">"Ek sayısı en çok <xliff:g id="MAXLIMIT">%1$s</xliff:g> olabilir. Yalnızca ilk <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> öğe eklenecektir."</string>
+    <string msgid="2034535554212405529" name="adding_attachments_title">"Ekler ekleniyor"</string>
+    <string msgid="2423616900586221924" name="adding_attachments">"Lütfen öğeler slayt gösterisine eklenirken bekleyin."</string>
+    <string msgid="575086601128003093" name="cannot_play_audio">"Ses yürütülemiyor."</string>
+    <string msgid="5438149136136446756" name="preview">"Önizleme"</string>
+    <string msgid="6824095909448728427" name="preview_slideshow">"Önizleme"</string>
+    <string msgid="3171240952601443619" name="replace_image">"Resmi değiştir"</string>
+    <string msgid="6617032324007824096" name="duration_sec">"Süre (<xliff:g id="DURATION">%s</xliff:g> sn)"</string>
+    <string msgid="5981097971537625852" name="duration_selector_title">"Slayt süresi "</string>
+    <string msgid="7344600117972450771" name="layout_selector_title">"Slayt gösterisi düzeni "</string>
+    <string msgid="6811021650398972346" name="layout_top">"Düzen (üst)"</string>
+    <string msgid="5822765871095491843" name="layout_bottom">"Düzen (alt)"</string>
+    <string msgid="7769792471457574059" name="type_to_compose_text_or_leave_blank">"Mesajı yazın veya boş bırakın"</string>
+    <string msgid="8005480904677546322" name="duration_not_a_number">"Süre bir sayı olmalıdır"</string>
+    <string msgid="109945354056393575" name="duration_zero">"Süre, sıfır saniyeden daha büyük olmalıdır"</string>
+    <string msgid="6886003523109967972" name="secs">"saniye"</string>
+  <string-array name="select_dialog_items">
+    <item msgid="4840183714016984112">"1 saniye"</item>
+    <item msgid="3734955613666864447">"2 saniye"</item>
+    <item msgid="6032232473048379828">"3 saniye"</item>
+    <item msgid="5978471781525927827">"4 saniye"</item>
+    <item msgid="4888440297621208402">"5 saniye"</item>
+    <item msgid="6047246213264166841">"6 saniye"</item>
+    <item msgid="2327501250056533797">"7 saniye"</item>
+    <item msgid="3400770414689795703">"8 saniye"</item>
+    <item msgid="4358760614161107970">"9 saniye"</item>
+    <item msgid="2618179407176906471">"10 saniye"</item>
+    <item msgid="6238597861937337981">"Diğer..."</item>
+  </string-array>
+    <string msgid="1414670584423909451" name="menu_view_contact">"Kişiyi görüntüle"</string>
+    <string msgid="2978074583938544513" name="menu_add_to_contacts">"Kişilere Ekle"</string>
+    <string msgid="2776075636669924968" name="hidden_sender_address">"Gizli gönderen adresi"</string>
+    <string msgid="3246158147503160811" name="yes">Tamam</string>
+    <string msgid="4289742508556913860" name="no">"İptal"</string>
+    <string msgid="4642365398263275979" name="set">"Ayarla"</string>
+    <string msgid="1888432400937785115" name="play">"Yürüt"</string>
+    <string msgid="5912118407791492696" name="edit">"Düzenle"</string>
+    <string msgid="1996751738286080976" name="try_to_send">"Göndermeyi dene"</string>
+    <string msgid="6650089610332670157" name="preferences_title">"Ayarlar"</string>
+    <string msgid="7165341506551155053" name="restore_default">"Varsayılan ayarları geri yükle"</string>
+    <string msgid="4860726154770053004" name="pref_notification_settings_title">"Bildirim ayarları"</string>
+    <string msgid="2573616208360684392" name="pref_mms_settings_title">"Multimedya iletisi (MMS) ayarları"</string>
+    <string msgid="9088516111717417514" name="pref_sms_settings_title">"Kısa mesaj (SMS) ayarları"</string>
+    <string msgid="2531726671883516470" name="pref_sms_storage_title">"Depolama ayarları"</string>
+    <string msgid="1441894740130104326" name="pref_title_sms_disabled">"SMS Devre Dışı"</string>
+    <string msgid="8975773722051230744" name="pref_summary_sms_disabled">"Mesajlaşma\'yı varsayılan SMS uygulamanız yapmak için dokunun"</string>
+    <string msgid="1857849790200375277" name="pref_title_sms_enabled">"SMS Etkin"</string>
+    <string msgid="2106125420361911250" name="pref_summary_sms_enabled">"Varsayılan SMS uygulamanızı değiştirmek için dokunun"</string>
+    <string msgid="4141349892597640864" name="pref_summary_manage_sim_messages">"SIM kartınızda depolanan iletileri yönetin"</string>
+    <string msgid="4874657984217756112" name="pref_summary_mms_delivery_reports">"Gönderdiğiniz her ileti için bir iletim raporu iste"</string>
+    <string msgid="2748323864008907440" name="pref_summary_mms_read_reports">"Gönderdiğiniz her ileti için bir okundu raporu iste"</string>
+    <string msgid="5852207702358546129" name="pref_summary_sms_delivery_reports">"Gönderdiğiniz her ileti için bir iletim raporu iste"</string>
+    <string msgid="7719538116486177613" name="pref_summary_auto_delete">"Sınıra ulaşıldığında eski iletileri silin"</string>
+    <string msgid="597128041393045216" name="pref_summary_delete_limit">"Her bir ileti dizisi için <xliff:g id="COUNT">%1$s</xliff:g> ileti"</string>
+    <string msgid="2266928687440696745" name="pref_summary_mms_group_mms">"Birden fazla alıcı olduğunda tek bir mesajı göndermek için MMS kullan"</string>
+    <string msgid="7820895261757881177" name="pref_title_manage_sim_messages">"SIM kart iletilerini yönet"</string>
+    <string msgid="6666857926679451910" name="pref_title_mms_delivery_reports">"Teslim raporu iste"</string>
+    <string msgid="1251698526583908432" name="pref_title_mms_group_mms">"Grup mesajlaşma"</string>
+    <string msgid="4882179829495828541" name="pref_title_mms_read_reports">"Okundu raporu iste"</string>
+    <string msgid="876064208254451038" name="pref_title_sms_delivery_reports">"Teslim raporu iste"</string>
+    <string msgid="7227835692631701134" name="pref_title_auto_delete">"Eski iletileri sil"</string>
+    <string msgid="6890538316799296878" name="pref_title_sms_delete">"Kısa mesaj sınırı"</string>
+    <string msgid="7265878070847351664" name="pref_title_mms_delete">"Multimedya iletisi sınırı"</string>
+    <string msgid="9118792213953729414" name="pref_title_notification_enabled">"Bildirimler"</string>
+    <string msgid="4251208067092761057" name="pref_title_notification_vibrateWhen">"Titreşim"</string>
+    <string msgid="8667533917574559659" name="pref_title_notification_ringtone">"Ses"</string>
+    <string msgid="3202539743892934926" name="pref_messages_to_save">"Kaydedilecek iletilerin sayısını ayarla"</string>
+    <string msgid="7981237991326592780" name="silent_ringtone">"Sessiz"</string>
+    <string msgid="4021878285474431355" name="pref_title_mms_auto_retrieval">"Otomatik al"</string>
+    <string msgid="925163257363757048" name="pref_summary_mms_auto_retrieval">"İletileri otomatik olarak al"</string>
+    <string msgid="6016227402731817804" name="pref_title_mms_retrieval_during_roaming">"Dolaşımda otomatik al"</string>
+    <string msgid="2427892806582531020" name="pref_summary_mms_retrieval_during_roaming">"Dolaşırken iletileri otomatik olarak al"</string>
+    <string msgid="5810813994465120375" name="confirm_dialog_title">"Sil"</string>
+    <string msgid="8179085718150932242" name="confirm_dialog_locked_title">"Kilitli ileti silinsin mi?"</string>
+  <plurals name="confirm_delete_conversation">
+    <item msgid="350118636090800360" quantity="one">"Bir ileti dizisi silinecek"</item>
+    <item msgid="6918094955792544014" quantity="other">"<xliff:g id="NUMBER">%1$s</xliff:g> ileti dizisi silinecek"</item>
+  </plurals>
+    <string msgid="6115966687389279855" name="confirm_delete_conversation">"İleti dizisinin tamamı silinecek."</string>
+    <string msgid="9036166685235092757" name="confirm_delete_all_conversations">"Tüm ileti dizileri silinecek."</string>
+    <string msgid="9121480656609809591" name="confirm_delete_message">"İleti silinecek."</string>
+    <string msgid="5863578342246077057" name="confirm_delete_locked_message">"Bu kilitli iletiyi silmek istediğinizden emin misiniz?"</string>
+    <string msgid="65701806463341097" name="confirm_delete_all_SIM_messages">"SIM karttaki tüm iletiler silinecek."</string>
+    <string msgid="767624259182679915" name="confirm_delete_SIM_message">"SIM kart üzerindeki bu ileti silinecek."</string>
+    <string msgid="7545321606698162261" name="delete_unlocked">"Kilitli iletileri sil"</string>
+    <string msgid="1409973060081564612" name="delete">"Sil"</string>
+    <string msgid="7816517565640002844" name="select_conversations">"Mesaj dizisi seçin"</string>
+    <string msgid="6773767655149258445" name="no_conversations">"Mesaj dizisi yok."</string>
+    <string msgid="5510430408235967094" name="loading_conversations">"İleti dizileri yükleniyor."</string>
+    <string msgid="850292987983026806" name="cannot_get_details">"Ayrıntılar alınamıyor."</string>
+    <string msgid="9223295113731634528" name="message_details_title">"İleti ayrıntıları"</string>
+    <string msgid="7975373966795945566" name="message_type_label">"Tür: "</string>
+    <string msgid="8196464345251877972" name="text_message">"Kısa mesaj"</string>
+    <string msgid="1512644521083533071" name="multimedia_message">"Multimedya iletisi"</string>
+    <string msgid="4124031788554972308" name="multimedia_notification">"Multimedya iletisi bildirimi"</string>
+    <string msgid="2055117571548171397" name="from_label">"Gönderen: "</string>
+    <string msgid="5837363600471845801" name="to_address_label">"Alıcı: "</string>
+    <string msgid="530867161453958774" name="bcc_label">"Bcc: "</string>
+    <string msgid="2722190650145251584" name="sent_label">"Gönderildi: "</string>
+    <string msgid="8618029024731693906" name="received_label">"Alındı: "</string>
+    <string msgid="4183160415593488207" name="saved_label">"Kaydedildi: "</string>
+    <string msgid="8721241914144101631" name="subject_label">"Konu: "</string>
+    <string msgid="4698016210013319786" name="message_size_label">"İleti boyutu: "</string>
+    <string msgid="7397600367853359607" name="priority_label">"Öncelik: "</string>
+    <string msgid="5627897207952009214" name="priority_high">"Yüksek"</string>
+    <string msgid="5715227727384683550" name="priority_normal">"Normal"</string>
+    <string msgid="8928782666023373987" name="priority_low">"Düşük"</string>
+    <string msgid="5115748690481550562" name="message_class_label">"İleti sınıfı: "</string>
+    <string msgid="5810068247647058769" name="error_code_label">"Hata kodu: "</string>
+    <string msgid="3056513240155967777" name="menu_edit">"Düzenle"</string>
+    <string msgid="2610286783513247420" name="menu_delete_messages">"İletileri sil"</string>
+    <string msgid="7603793126077557472" name="menu_lock">"Kilitle"</string>
+    <string msgid="6662865558677424039" name="menu_unlock">"Kilidi aç"</string>
+    <string msgid="3721000641648594602" name="sim_copy_to_phone_memory" product="tablet">"Tabletin belleğine kopyala"</string>
+    <string msgid="5895767417844881971" name="sim_copy_to_phone_memory" product="default">"Telefon hafızasına kopyala"</string>
+    <string msgid="610790510655316922" name="sim_delete">"Sil"</string>
+    <string msgid="3989147182100584333" name="sim_manage_messages_title">"SIM karttaki kısa mesajlar"</string>
+    <string msgid="1997173541766393706" name="sim_view">"Görünüm"</string>
+    <string msgid="1763174398613486328" name="sim_empty">"SIM kartta hiçbir ileti yok."</string>
+    <string msgid="5361719578869045764" name="delivery_header_title">"Rapor"</string>
+    <string msgid="8253075950774894961" name="status_none">"(Yok)"</string>
+    <string msgid="2739860824607984892" name="status_pending">"Beklemede"</string>
+    <string msgid="7576195253780627332" name="status_read">"Oku"</string>
+    <string msgid="7264334589461906965" name="status_received">"Alındı"</string>
+    <string msgid="1998776666856593544" name="status_failed">"Başarısız"</string>
+    <string msgid="8555305495998700198" name="status_unread">"Okunmamış"</string>
+    <string msgid="2613641949065942678" name="status_rejected">"Reddedildi"</string>
+    <string msgid="3922667485312634446" name="recipient_label">"Alıcı: "</string>
+    <string msgid="7283375460919181660" name="status_label">"Durum: "</string>
+    <string msgid="3514011729156932928" name="delivered_label">"Yayınlandı: "</string>
+    <string msgid="6439985727687107742" name="attach_image">"Resimler"</string>
+    <string msgid="4280601313184373837" name="attach_take_photo">"Resim çek"</string>
+    <string msgid="4264272693501538294" name="attach_video">"Videolar"</string>
+    <string msgid="3099814114743078615" name="attach_record_video">"Video çek"</string>
+    <string msgid="3149325985970669609" name="attach_sound">"Ses"</string>
+    <string msgid="6011431304469858929" name="attach_record_sound">"Ses kaydet"</string>
+    <string msgid="3497422151091037063" name="attach_slideshow">"Slayt Gösterisi"</string>
+    <string msgid="4201966447623311931" name="select_bottom_text">"Metin altta"</string>
+    <string msgid="6734183477539197815" name="select_top_text">"Metin üstte"</string>
+    <string msgid="4478305651728684364" name="delivery_toast_body">"Mesaj %s tarafından alındı"</string>
+    <string msgid="7684007285202109490" name="notification_multiple">"<xliff:g id="COUNT">%s</xliff:g> okunmamış ileti."</string>
+    <string msgid="332602028959557541" name="notification_multiple_title">"Yeni iletiler"</string>
+    <string msgid="4081781748475686236" name="notification_failed_multiple">"<xliff:g id="COUNT">%s</xliff:g> ileti gönderilemedi."</string>
+    <string msgid="1112032024904397126" name="notification_failed_multiple_title">"İletiler gönderilmedi"</string>
+    <string msgid="1809829051697702810" name="sim_full_title">"SIM kart dolu"</string>
+    <string msgid="6241664980790322925" name="sim_full_body">"Daha fazla yer açmak için bazı iletileri silin."</string>
+    <string msgid="6041287140125011854" name="sms_full_title">"Kısa mesaj belleği dolu"</string>
+    <string msgid="7757490997215434514" name="sms_full_body">"Gelen ileti, belleğin dolu olması nedeniyle reddedildi. Lütfen eski iletilerinizi silin."</string>
+    <string msgid="8548394922491529811" name="sms_rejected_title">"Kısa mesaj reddedildi"</string>
+    <string msgid="7187754586609631934" name="sms_rejected_body">"Gelen ileti bilinmeyen bir nedenle reddedildi."</string>
+    <string msgid="3842064092332309756" name="type_audio">"Ses"</string>
+    <string msgid="4091928975383609443" name="type_picture">"Resim"</string>
+    <string msgid="8521556159545168441" name="type_video">"Video"</string>
+    <string msgid="3155110885840591914" name="confirm">"Doğrula"</string>
+    <string msgid="6997117678914261250" name="message_send_read_report">"Okundu raporu gönderilecek."</string>
+    <string msgid="8869479754825264671" name="message_queued">"Şu an için iletiniz gönderilemiyor. Hizmet kullanılabilir olduğunda gönderilecektir."</string>
+    <string msgid="7880740763778173551" name="fdn_check_failure">"Sadece sabit arama numaralarınıza mesaj gönderebilirsiniz."</string>
+    <string msgid="4168963736134552285" name="no_subject">"(Konu yok)"</string>
+    <string msgid="4929330613278853635" name="unknown_sender">"Bilinmeyen gönderen"</string>
+    <string msgid="2457080452886498701" name="dl_failure_notification">"<xliff:g id="FROM">%2$s</xliff:g> adlı gönderenden gelen <xliff:g id="SUBJECT">%1$s</xliff:g> konulu ileti indirilemedi."</string>
+    <string msgid="1347801608211628177" name="rate_limit_surpassed">"Doğrula"</string>
+    <string msgid="234228299751243067" name="confirm_rate_limit">"Çok sayıda multimedya iletisi gönderiliyor. Onaylıyor musunuz?"</string>
+    <string msgid="5722226064394767921" name="message_download_failed_title">"İleti indirilmedi"</string>
+    <string msgid="3469894907399046372" name="message_send_failed_title">"İleti gönderilmedi"</string>
+    <string msgid="2740907094762116644" name="message_failed_body">"İletiyi incelemek üzere seçin ve tekrar deneyin."</string>
+    <string msgid="4486286146421650880" name="download_later">"Şu an için indirilemiyor. Lütfen daha sonra tekrar deneyin."</string>
+    <string msgid="505932916503312015" name="no_apn">"Cihazda APN belirtilmedi."</string>
+    <string msgid="3120822451872772124" name="select_audio">"Sesi seç"</string>
+    <string msgid="757028609638184856" name="copy_to_sdcard">"Eki kaydet"</string>
+    <string msgid="6940309183311068648" name="copy_to_sdcard_success">"Ek kaydedildi"</string>
+    <string msgid="4209780336940754675" name="copy_to_sdcard_fail">"Ek kaydedilemedi"</string>
+    <string msgid="2310157075045201051" name="save_ringtone">"Zil sesi olarak kaydet"</string>
+    <string msgid="6616730290861857836" name="saved_ringtone">"Zil sesi kaydedildi"</string>
+    <string msgid="5447210504935083544" name="saved_ringtone_fail">"Zil sesi kaydedilemedi"</string>
+    <string msgid="4964504393061025071" name="menu_insert_smiley">"İfade ekle"</string>
+    <string msgid="4288356090262299071" name="menu_group_participants">"Grup katılımcıları"</string>
+    <string msgid="600168208731216059" name="select_link_title">"İşlemi seçin"</string>
+    <string msgid="1923958526266726635" name="slide_number">"Slayt <xliff:g id="NUMBER">%s</xliff:g>"</string>
+  <plurals name="slide_duration">
+    <item msgid="1654101988340583935" quantity="one">"<xliff:g id="NUMBER">%s</xliff:g> saniye"</item>
+    <item msgid="7887190171856293871" quantity="few">"<xliff:g id="NUMBER">%s</xliff:g> saniye"</item>
+    <item msgid="3736425355579939863" quantity="other">"<xliff:g id="NUMBER">%s</xliff:g> saniye"</item>
+  </plurals>
+    <string msgid="2957463094232916364" name="delivery_report_activity">"İletim raporu"</string>
+    <string msgid="8810530813311077716" name="storage_limits_activity">"Depolama sınırları"</string>
+    <string msgid="7048606979485031693" name="change_duration_activity">"Süreyi değiştir"</string>
+    <string msgid="8751493388760050529" name="edit_slideshow_activity">"Slayt gösterisini düzenle"</string>
+    <string msgid="1254938236543727019" name="recipient_list_activity">"Grup katılımcıları"</string>
+    <string msgid="8752829671778696983" name="edit_slide_activity">"Slaydı düzenle"</string>
+    <string msgid="5658249461317434432" name="slideshow_activity">"Slayt Gösterisi"</string>
+    <string msgid="8474176218999130627" name="class_0_message_activity">"Sınıf 0 İletisi"</string>
+    <string msgid="6042598929386174964" name="search_label">"Mesajlaşma"</string>
+    <string msgid="7183732852849365466" name="search_hint">"Mesajlaşma Ara"</string>
+    <string msgid="7560238620274735199" name="search">"Mesajlaşma"</string>
+    <string msgid="4104004595086437572" name="search_setting_description">"Mesajlarınızdaki metin"</string>
+    <string msgid="645052646985297065" name="search_empty">"Eşleşme yok"</string>
+  <plurals name="search_results_title">
+    <item msgid="4657073733087431350" quantity="one">"\"<xliff:g id="SEARCH">%2$s</xliff:g>\" için <xliff:g id="NUMBER">%1$s</xliff:g> sonuç"</item>
+    <item msgid="6196382287749539209" quantity="other">"\"<xliff:g id="SEARCH">%2$s</xliff:g>\" için <xliff:g id="NUMBER">%1$s</xliff:g> sonuç"</item>
+  </plurals>
+    <string msgid="4127805495662693154" name="search_history">"\"<xliff:g id="SEARCH">%2$s</xliff:g>\" için <xliff:g id="COUNT">%1$s</xliff:g> sonuç"</string>
+    <string msgid="8510295993632032904" name="confirm_clear_search_title">"Temizle"</string>
+    <string msgid="8731877031837077478" name="confirm_clear_search_text">"Arama geçmişi temizlenecek."</string>
+    <string msgid="6159758850628148164" name="pref_mms_clear_search_history_title">"Arama geçmişini temizle"</string>
+    <string msgid="7960005384066460035" name="pref_mms_clear_search_history_summary">"Önceki Mesajlaşma aramalarını, Arama kutusunda gösterilmeyecek biçimde temizleyin"</string>
+    <string msgid="6847069284991531310" name="save">"Kaydet"</string>
+    <string msgid="7074684882530693016" name="storage_limits_title">"İletileri sınırla"</string>
+    <string msgid="8729608389698270388" name="storage_limits_message">"İleti dizisi başına kaydettiğiniz iletilerin sayısını sınırlandırmak istiyor musunuz?"</string>
+    <string msgid="4952781049308537373" name="storage_limits_setting">"Sınırları ayarla"</string>
+    <string msgid="1433841310158458034" name="storage_limits_setting_dismiss">"Sınır yok"</string>
+    <string msgid="8005932837414848242" name="too_many_unsent_mms">"İleti şu anda gönderilemiyor. Gönderilmemiş çok fazla multimedya iletisi var."</string>
+    <string msgid="2054406576361149715" name="sending_message">"GÖNDERİLİYOR..."</string>
+    <string msgid="650087588867628044" name="pick_too_many_recipients">"Çok fazla alıcı"</string>
+    <string msgid="2962810172527532357" name="adding_recipients">"Alıcılar ekleniyor…"</string>
+    <string msgid="5402575086540243019" name="draft_separator">", "</string>
+    <string msgid="4434763220590778012" name="message_count_format">" <xliff:g id="NUMBER">%1$s</xliff:g>"</string>
+    <string msgid="3629968600032690007" name="message_count_notification">"<xliff:g id="NUMBER">%1$s</xliff:g> yeni mesaj"</string>
+  <plurals name="message_count_notification_overflow">
+    <item msgid="3340591167508150806" quantity="one">"+<xliff:g id="NUMBER">%1$s</xliff:g> diğer mesaj"</item>
+    <item msgid="1393002799298501480" quantity="other">"+<xliff:g id="NUMBER">%1$s</xliff:g> diğer mesaj"</item>
+  </plurals>
+    <string msgid="5177386717626893507" name="error_state">"Tutarsız durum"</string>
+    <string msgid="7918866106335387710" name="error_state_text">"İleti zincirleri ve alıcıların durumu tutarsız. Lütfen bir hata raporu alın ve http://go/droidanizer üzerinden bildirin"</string>
+  <plurals name="recipient_count">
+    <item msgid="7338580381574463136" quantity="other">"<xliff:g id="NUMBER">%1$s</xliff:g> kişi"</item>
+  </plurals>
+    <string msgid="7275920132410734671" name="view_more_conversations">"Diğer ileti dizilerini görüntüle"</string>
+    <string msgid="2867960243300539143" name="attachment_audio">"Ses"</string>
+    <string msgid="5867689101881763318" name="attachment_slideshow">"Slayt Gösterisi"</string>
+    <string msgid="4252062022156694591" name="attachment_video">"Video"</string>
+    <string msgid="3709286281567284296" name="attachment_picture">"Resim"</string>
+    <string msgid="2334673105226536422" name="notification_separator">"  "</string>
+    <string msgid="213598026698964628" name="enumeration_comma">", "</string>
+    <string msgid="4188999027493614617" name="message_timestamp_format">"<xliff:g id="STRING_0">%1$s</xliff:g> - <xliff:g id="STRING_1">%2$s</xliff:g>"</string>
+    <string name="building_slideshow_title">Slayt Gösterisi Oluşturma</string>
+    <plurals name="notification_multiple">
+        <item quantity="one">%d okunmamış mesaj.</item>
+        <item quantity="other">%d okunmamış mesaj.</item>
+    </plurals>
+    <string name="save_attachment">"Eki kaydet"</string>
+      <string name="file_attachment_common_name">Çoklu dosya (<xliff:g id="text">%s</xliff:g>)</string>
+      <string name="file_attachment_contains">içerir</string>
+      <string name="file_attachment_files">dosya</string>
+      <string name="save_multi_attachment_notes">Çoklu dosya birkaç dosya içeriyor. İşaretlenip kaydedilsinler mi?</string>
+      <string name="save_single_attachment_notes">Bu desteklenmeyen bir MMS dosya biçimi. Dosya Yöneticisi\'ne kaydedilsin mi?</string>
+      <string name="multi_files">Çoklu dosya</string>
+      <string name="save_single_supportformat_attachment_notes">Dosya Yöneticisi\'ne kaydedilsin mi?</string>
+<string name="prefDialogTitle_vibrateWhen">Titret</string>
+    <string name="menu_delete_all_messages">Tüm mesajları sil</string>
+    <string name="cell_broadcast">Şebeke Yayını</string><!--add by wangjing3 for HQ01823169 20160324-->
+    <string name="cell_broadcast_title">SIM kart hücre yayını</string>
+    <string name="cell_broadcast_settings">SIM kart hücre yayını</string>
+    <string name="menu_insert_quick_text">Hızlı metin gir</string>
+    <string name="select_quick_text">Hızlı metin seç</string>
+    <string name="add">"Ekle"</string>
+    <string name="quick_text_editor">Hızlı metni düzenle</string>
+    <string name="modify_successful">Başarıyla değiştir</string>
+    <string name="modify_unsuccessful">Değiştirilemedi!</string>
+    <string name="delete_successful">Başarıyla sil</string>
+    <string name="delete_unsuccessful">Silinemedi!</string>
+    <string name="add_quick_text_successful">Başarıyla hızlı metin ekle</string>
+    <string name="already_have_quick_text">Bu hızlı metin zaten var!</string>
+    <string name="exceed_editor_size_limitation">Metin sınırına ulaşıldı.</string>
+    <string name="add_top_slide">Üste slayt ekle</string>
+    <string name="add_bottom_slide">Alta slayt ekle</string>
+    <string name="send_empty_message_title">mesaj gönder</string>
+    <string name="send_empty_message_alert">Bir boş mesaj gönder?</string> 
+    <string name="send_empty_message_yes">Onayla</string>  
+    <string name="send_empty_message_no">İptal</string> 
+    <string name="pref_sms_signature">İmza</string>
+<string name="pref_sms_enable_signature">İmzayı etkinleştir</string>
+<string name="pref_sms_enable_signature_summary">Mesajlarınıza kişisel imzanızı ekleyin</string>
+<string name="pref_sms_personal_signature">İmzayı düzenle</string>
+<string name="pref_sms_personal_signature_summary">İmza içeriği</string>
+<string name="dialog_signatrue_title">Lütfen imzanızı girin</string>
+<string name="default_signature">Huawei\'dan gönderildi</string>
+<string name="menu_resend">Tekrar gönder</string>
+<string name="menu_slect_all">Tümünü seç</string>
+<string name="sim_no_service">Servis yok</string>
+<string name="Prohibit_Send">Mesaj gönderimi, çocuk modunda sınırlandırılmıştır</string>
+<string name="Prohibit_delete">Mesajların silinmesi, çocuk modunda sınırlandırılmıştır</string>
+<string name="mms_deliver_failed">Multimedya mesajı gönderilemedi. Lütfen ağ ayarlarınızı veya alıcının numarasını kontrol edin</string>
+<string name="menu_blacklist">Taciz filtresi</string>
+<string name="black_list_manager_exception">Telefon Yöneticisi bulunamadı. Bu özelliği kullanmadan önce lütfen onu yükleyin.</string>
+<string name="more_menu">Menü</string>
+<string name="vcard_text">Metin</string>
+<string name="vcard_mms">MMS vCard</string>
+<string name="attach_subjects">Konu</string>
+<string name="attach_common_phrases">Genel ifadeler</string>
+<string name="btn_call">Çağrı</string>
+<string name="menu_add_to_black_list">Kara listeye ekle</string>
+<string name="add_to_black_list">Kara listeye eklendi</string>
+<string name="menu_remove_from_black_list">Kara listeden kaldır</string>
+<string name="remove_from_black_list">Kara listeden kaldırıldı</string>
+<string name="system_notification_tone">Sistem bildirim tonu</string>
+<string name="signatrue_limit_toast">Metin limitine ulaşıldı.</string>
+<string name="invalid_recipient">"Geçersiz alıcı:&lt;<xliff:g id="NAME">%1$s</xliff:g>&gt;"</string>
+</resources>

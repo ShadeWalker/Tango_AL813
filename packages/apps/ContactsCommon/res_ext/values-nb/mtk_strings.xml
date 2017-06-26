@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
+    
+    <string name="menu_print">Skriv ut</string>
+    <string name="printContact">Skriv ut kontakt via</string>
+    <string name="no_way_to_print">Ingen programmer til å skrive ut kontakten(e).</string>
+    
+    <string name="no_sdcard_title" product="nosdcard">Lagring utilgjengelig</string>
+    
+    <string name="no_sdcard_title" product="default">Mangler minnekort</string>
+    
+    
+    <string name="selected_item_count">
+<xliff:g id="count">%d</xliff:g> valgt</string>
+    
+    <string name="recentCalls_delete">Slett</string>
+    <string name="menu_selectAll">"Velg alle"</string>
+    <string name="menu_clearAll">"Fjern all merking"</string>
+        
+    
+    
+    <string name="all_resources">Alle ressurser</string>
+    <string name="choose_resources_header">Velg ressurser</string>
+    
+    <string name="all_tab_label1">ALLE</string>
+    <string name="call_log_item_count">(<xliff:g id="count">%1$d</xliff:g>)</string>
+
+    
+    
+    <string name="call_sipcall">"Internett-anrop"</string>
+    <string name="call_pin_dialog_title">Velg SIM-kort</string>
+    <string name="call_people">Kontakter</string>
+    <string name="call_ip_dial">IP-ringing</string>
+    <string name="call_speed_dial">Hurtigoppringing</string>
+    <string name="send_message">Send melding</string>
+    <string name="call_video_call">"Videosamtale"</string>
+    <string name="add_speed_dial">Klikk for å legge til hurtigoppringing</string>
+    <string name="speed_dial_added"> 
+        <xliff:g id="contact_name">%1$s</xliff:g> ( 
+        <xliff:g id="phone_label">%2$s</xliff:g>) lagt til i hurtigoppringing <xliff:g id="key">%3$s</xliff:g> 
+    </string>
+    <string name="speed_dial_added2"> 
+        <xliff:g id="contact_name">%1$s</xliff:g> ble lagt til speed dial 
+        <xliff:g id="key">%2$s</xliff:g> 
+    </string>
+    <string name="remove_speed_dial">"Fjern"</string>
+    <string name="remove_sd_confirm_1">Er du sikker på at du vil fjerne 
+        <xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) fra hurtigoppringing 
+        <xliff:g id="key">%3$s</xliff:g>?
+    </string>
+    <string name="remove_sd_confirm_2">Er du sikker på at du vil fjerne 
+        <xliff:g id="contact_name">%1$s</xliff:g> fra hurtigoppringing 
+        <xliff:g id="key">%2$s</xliff:g>?
+    </string>
+    <string name="emergencycall">"Nødanrop"</string>
+    <string name="imei_invalid">Ugyldig</string>
+    <string name="call_log_filter_all_resources">Alle ressurser</string>
+    <string name="turn_on_3g_service_message">"3G-tjenesten er nå av. Vil du slå den på?"</string>
+    <string name="associate_sim_missing_message">"%1$s er utilgjengelig. Vil du ringe via %2$s?"</string>
+    <string name="associate_sim_missing_other">"Annet"</string>
+    <string name="sim_manage_call_via">"Anrop via"</string>
+    <string name="callFailed_simError">"Mangler SIM-kort, eller SIM-feil"</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">"Angi IP-prefiksnummer først i innstillinger for taleoppringing."</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">"IP-ringefunksjonen gjelder ikke Internett-anrop."</string>
+
+    
+    <string name="sd_add">"Legg til"</string>
+    <string name="reselect_number">Antallet har allerede blitt tildelt en hurtigoppringingstast. Velg et annet nummer.</string>
+    
+    <string name="calllog_today">"I dag"</string>
+    <string name="calllog_yesterday">I går</string>
+    
+    
+    <string name="menu_association">Knytt til kort</string>
+    <string name="menu_remove_association">Fjern korttilknytning</string>
+    <string name="remove_association_message">Er du sikker på at du vil fjerne korttilknytning til dette nummeret?</string>
+    <string name="remove_number_title">"Fjern"</string>  
+    <string name="warning_detail">Korttilknytning vil importere kontakten til telefonen. Vil du fortsette korttilknytning?</string>
+    <string name="block_incoming_call">Blokker innkommende anrop</string>
+    <string name="block_video_incoming_call">Blokkere innkommende videoanrop direkte</string>
+
+    
+    <string name="menu_actionbar_selected_items">
+<xliff:g id="name">%s</xliff:g> valgt</string>
+
+       
+    <string name="has_double_phone_number">Kan ikke lagre samme type nummer to ganger. Sjekk på nytt.</string>
+    <string name="phone_book_busy">Telefonboken er opptatt nå. Prøv på nytt senere.</string>
+    <string name="sim_invalid">Kan ikke lagre kontakt når kortet er ugyldig.</string>
+    <string name="cannot_insert_null_number">Kan ikke lagre kontakt hvis nummeret er tomt.</string>
+    <string name="AirPlane_mode_on">Kan ikke lagre kontakt når flymodus er på.</string>
+    <string name="FDNEnabled">Kan ikke lagre kontakt når FDN er aktivert.</string>
+    <string name="sim_invalid_number">Kan ikke lagre ugyldig nummer.</string>
+    <string name="email_invalid">Kan ikke lagre ugyldig e-post.</string>
+    <string name="email_2g_invalid">Kan ikke lagre e-post til 2G-SIM-kort. Velg 3G-SIM-kort for å lagre.</string>
+    <string name="sim_invalid_fix_number">Kan ikke lagre ugyldig festenummer.</string>
+    <string name="AirPlane_mode_on_edit">Kan ikke redigere kontakt når flymodus er på.</string>
+    <string name="msg_loading_sim_contacts_toast">"Laster SIM-kontakter i bakgrunnen. Vent et øyeblikk."</string>
+    <string name="fix_number_too_long">"Festenummeret er for langt."</string>
+    <string name="name_too_long">"Navnet er for langt."</string>
+    <string name="storage_full">"Lagringsplassen er full."</string>
+    <string name="number_too_long">"Telefonnummeret er for langt."</string>
+    <string name="generic_failure">"Generisk feil."</string>
+    <string name="email_too_long">E-post er for lang</string>
+
+    <string name="send_groupsms_no_number_more">"%1$s og %2$s andre kontakter har ingen gyldige telefonnumre."</string>
+    <string name="send_groupsms_no_number_1">"%1$s har intet gyldig telefonnummer."</string>
+    <string name="send_groupsms_no_number_2">"%1$s og %2$s har ingen gyldige telefonnumre."</string>    
+
+    
+
+    
+    <string name="account_type_sim" product="tablet">SIM-konto</string>
+    
+    <string name="account_type_sim" product="default">SIM Account</string>
+
+    
+    <string name="account_type_usim" product="tablet">USIM-konto</string>
+    
+    <string name="account_type_usim" product="default">USIM Account</string>
+
+    
+    <string name="account_type_local_phone" product="tablet">Telefon lokal konto</string>
+    
+    <string name="account_type_local_phone" product="default">Phone Local Account</string>
+
+
+    
+    <string name="local_account_type" product="tablet">Lokal konto</string>
+    
+    <string name="local_account_type" product="default">Local Account</string>
+
+    
+    <string name="local_account_label" product="tablet">Lokal konto</string>
+    
+    <string name="local_account_label" product="default">Local Account</string>
+
+    
+    <string name="account_type_sim_label" product="tablet">Kun SIM, usynkronisert</string>
+    
+    <string name="account_type_sim_label" product="default">SIM-only, unsynced</string>
+
+    
+    <string name="account_type_usim_label" product="tablet">Kun USIM, usynkronisert</string>
+    
+    <string name="account_type_usim_label" product="default">USIM-only, unsynced</string>
+
+    
+    <string name="please_wait">"Vent litt"</string>
+    <string name="move_contacts_to">Flytt kontakter til</string>
+    <string name="menu_move_group">"Flytt gruppemedlemmer"</string> 
+    <string name="menu_message_group">"Send gruppemelding"</string>
+    <string name="menu_email_group">"Send gruppe-e-post"</string>    
+    <string name="moving_group_members">"Moving gruppemedlemmer \u2026"</string>
+    <string name="removing_group_members_sucess">"Fjernet gruppemedlemmer"</string>
+    <string name="moving_group_members_sucess">"Flyttet gruppemedlemmer"</string>
+    <string name="moving_group_members_fail">"Kunne ikke lytte gruppemedlemmer"</string>
+    <string name="no_valid_number_in_group">Denne gruppen har ingen kontakter med gyldig telefonnummer.</string>
+    <string name="no_valid_email_in_group">Denne gruppen har ingen kontakter med e-post.</string>
+    <string name="email_error">Du bør installere e-postprogram eller konfigurere kontoen din!</string>
+    <string name="usim_group_name_exceed_limit">"Gruppenavnet er for langt for lagringsområdet."</string>
+    <string name="usim_group_count_exceed_limit">"Ingen flere nye grupper kan legges til lagringsområdet."</string>
+    <string name="name_needed">Navn kreves</string>
+    <string name="save_group_fail">Kunne ikke lagre gruppe.</string>
+    <string name="group_name_exists">Gruppenavnet finnes allerede.</string>
+    <string name="group_discard_member">Forkast</string>
+    <string name="group_discard_member_reason">Endringene vil bli forkastet fordi gruppenavnet er ugyldig.</string>
+
+    
+    <string name="import_export_title">"Importering og eksportering"</string>
+    <string name="next">"Neste"</string>
+    <string name="imexport_bridge_sd_card">SD-kort</string>
+    <string name="tips_source">"Kopier kontakter fra"</string>
+    <string name="tips_target">Kopier kontakter til</string>
+    <string name="back">"Tilbake"</string>
+    <string name="imexport_title">Importer/eksporter kontakter</string>
+    <string name="xport_error_one_account">"Sett inn et SIM-kort eller SD-kort for å importere/eksportere kontakter."</string>
+    
+
+
+    
+    <string name="store_contact_to">Lagre kontakten til</string>
+
+    
+    <string name="menu_delete_contact">Slett kontakt</string>
+
+    <string name="menu_conference_call">Telefonmøte</string>
+
+    <string name="notifier_finish_delete_title">Slettet kontakter</string>
+    <string name="notifier_finish_delete_content">Slettet 
+        <xliff:g id="total">%d</xliff:g> kontakt(er)
+    </string>
+
+    <string name="notifier_finish_copy_title">Kopierte kontakter</string>
+    <string name="notifier_finish_copy_content">Kopierte 
+        <xliff:g id="total">%d</xliff:g> kontakt(er)
+    </string>
+
+    <string name="notifier_multichoice_process_report">Fullført: 
+        <xliff:g id="items">%d</xliff:g>\nIkke fullført: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+
+    <string name="notifier_failure_by_sim_full">Feil: SIM-kortet er fullt.\nFullført: 
+        <xliff:g id="items">%d</xliff:g>\nIkke fullført: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+    <string name="notifier_failure_sim_notready">Feil: SIM-kort ikke klart.\nFullført: 
+        <xliff:g id="items">%d</xliff:g>\nIkke fullført: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+
+    <string name="notifier_cancel_delete_title">Sletting av kontakt(er) avbrutt</string>
+    <string name="notifier_fail_delete_title">Kunne ikke slette kontakt(er)</string>
+
+    <string name="notifier_cancel_copy_title">Kopiering av kontakter avbrutt</string>
+    <string name="notifier_fail_copy_title">Kunne ikke kopiere kontakt(er)</string>
+
+    <string name="notifier_progress__delete_will_start_message">Kontakt(er) blir slettet snart.</string>
+    <string name="notifier_progress_delete_message">Sletter 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g>: 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> 
+    </string>
+    <string name="notifier_progress_delete_description">Sletter 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> 
+    </string>
+
+    <string name="notifier_progress__copy_will_start_message">Kontakt(er) blir kopiert snart.</string>
+    <string name="notifier_progress_copy_message">Kopierer 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g>: 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> 
+    </string>
+    <string name="notifier_progress_copy_description">Kopierer 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> 
+    </string>
+
+    <string name="multichoice_confirmation_title_delete">Avbryter sletting av kontakt(er)</string>
+    <string name="multichoice_confirmation_message_delete">Avbryte sletting av kontakt(er)?</string>
+
+    <string name="multichoice_confirmation_title_copy">Avbryter kopiering av kontakt(er)</string>
+    <string name="multichoice_confirmation_message_copy">Avbryte kopiering av kontakt(er)?</string>
+    
+    <string name="multichoice_no_select_alert">"Ingen elementer er valgt."</string>
+    <string name="multichoice_delete_confirm_message">"Er du sikker på at du vil slette de valgte kontaktene?"</string>
+    <string name="multichoice_delete_confirm_title">Slette kontakt(er)?</string>
+    <string name="multichoice_contacts_limit">"Du kan ikke velge mer enn "<xliff:g id="count">%d</xliff:g>" kontakter "</string>
+
+    
+    <string name="phone_storage_full_create">Telefonens lagringsområde er fullt. Du kan ikke opprette en ny kontakt.</string>
+    <string name="phone_storage_full_edit">Telefonens lagringsområde er fullt. Du kan ikke redigere kontakten.</string>
+
+	
+	<string name="add_SIP_to_sim">Kan ikke legge SIP-nummer til kortkontakten.</string>
+	
+	<string name="already_has_SIP">Kan ikke legge til to SIP-nummer for kontakten. Du må slette det gamle SIP-nummeret først.</string>
+        
+
+    
+       
+    <plurals name="searchFoundCalllogs">
+        <item quantity="one">1 anropslogg</item>
+        <item quantity="other">
+<xliff:g id="count">%d</xliff:g> anropslogger</item>
+    </plurals>
+        
+    <string name="search_results_for">Søkeresultater for: 
+        <xliff:g id="query">%s</xliff:g> 
+    </string>
+    <string name="listFoundAllCalllogZero">Anropslogg ikke funnet</string>
+    
+    <string name="calllogList">"Anropslogg"</string>
+    <string name="calllogHint">Søk anropslogger</string>
+    <string name="calllog_description">Innkommende, utgående og tapte anrop</string>
+    <string name="noMatchingCalllogs">Ingen samsvarende anropslogg funnet.</string>
+    
+    <string name="menu_videocallNumber">Videoanrop 
+        <xliff:g id="name">%s</xliff:g> 
+    </string>
+    <string name="menu_ipcallNumber">IP-anrop 
+        <xliff:g id="name">%s</xliff:g> 
+    </string>
+    
+    <string name="deleting_call_log">Sletter anropslogg …</string>
+    
+    
+    
+    
+    <string name="no_vm_number">"Mangler nummer til telefonsvarer"</string>
+    
+    <string name="no_vm_number_msg">"Det er ikke lagret noe telefonsvarernummer på SIM-kortet."</string>
+    
+    <string name="add_vm_number_str">"Legg til nummer"</string>
+    
+    <string name="reminder">"Påminnelse"</string>
+    <string name="enable_sip_dialog_message">"Internett-anrop er deaktivert. Vil du aktivere det?"</string>
+    <string name="share_contacts_limit">"Du kan ikke velge å dele mer enn 1000 kontakter"</string>
+    
+    <string name="contact_delete_all_tips">"Kontakter blir slettet. Kan ikke utføre operasjonen."</string>
+    <string name="sum_search_networks">"Søk etter alle tilgjengelige nettverk"</string>
+
+    
+    <string name="deleteCallLogConfirmation_title">Slette anropslogg(er)?</string>
+
+    
+    <string name="deleteCallLogConfirmation_message">Er du sikker på at du vil slette de valgte anropsloggene?</string>
+    
+    <string name="file_already_on_sd_card">"Filen er allerede på SD-kortet."</string>
+    <string name="send_file_sms_error">Kan ikke dele filen via SMS. Du må bruke MMS.</string>
+    <string name="user_profile_cannot_sd_card">"Kan ikke dele innholdet på denne måten."</string>
+    
+    <string name="error_save_usim_contact_email_lost">"Kunne ikke lagre e-postadresse fordi lagringsplassen for e-post er full."</string>
+    <string name="error_import_usim_contact_email_lost">"Kunne ikke importere noen kontakters e-postadresser fordi lagringsplassen for e-post er full.\nFullført: <xliff:g id="items">%d</xliff:g>\nIkke fullført: <xliff:g id="items">%d</xliff:g>"</string>
+    <string name="type_ip_outgoing">Utgående IP-anrop ( 
+        <xliff:g id="name">%s</xliff:g>)
+    </string>
+    
+    <string name="call_sms">"Tekstmelding"</string>
+    
+    
+    <string name="delete_group_failure">Kunne ikke slette gruppe.</string>
+    
+    <string name="account_type_uim_label" product="tablet">Kun UIM, usynkronisert</string>
+    
+    <string name="account_type_uim_label" product="default">UIM-only, unsynced</string>
+    <string name="call_log_auto_rejected_label">Automatisk avviste anrop</string>
+    <string name="import_no_vcard_dialog_text">Ingen vCard-fil funnet på 
+        <xliff:g id="storage_name">%s</xliff:g> 
+    </string>
+    <string name="look_simstorage">Vis SIM-kortkapasitet</string>
+    <string name="dlg_simstorage_content">Phone number book Storage Capacity 
+        <xliff:g id="items">%d</xliff:g>，has been used 
+        <xliff:g id="items">%d</xliff:g>.
+    </string>
+
+    
+
+    <string name="contact_group_list_title">"Velg målgruppe"</string>
+    
+    
+    <string name="send_groupemail_no_number_more">"%1$s og %2$s flere kontakter har ingen gyldig e-post."</string>
+    <string name="send_groupemail_no_number_1">" %1$s har ingen gyldig e-post."</string>
+    <string name="send_groupemail_no_number_2">"%1$s og %2$s har ingen gyldig e-post."</string>
+    
+    
+    <string name="add_contact_dlg_title">Legg til kontakt</string>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+    <string name="deleteConfirmation_title">Slette kontakt?</string>
+    
+    <string msgid="4313552620858880999" name="dialog_phone_call_prohibited_title">Anrop ikke sendt</string>
+    
+    <string name="dialog_voicemail_not_ready_title">Talemeldingnummer utilgjengelig</string>
+    
+    
+    <string name="scanning_sdcard_failed_title" product="nosdcard">Kunne ikke søke SD-kort</string>
+    
+    <string name="scanning_sdcard_failed_title" product="default">Couldn\'t scan SD card</string>
+    
+    
+
+    
+    <string name="nickname_too_long">"Kallenavnet er for langt."</string>
+    
+    <string name="pick_new_photo_from_gallery">Velg nytt bilde</string>
+    <string name="copy_text_to_dialer">Kopier til ringeprogram</string>
+    
+    
+    <string name="contact_detail_group_list_title">"Grupper"</string>
+    <string name="contact_detail_group_not_assigned">Ikke tilordnet</string>
+    <string name="contact_detail_group_list_nogroups">"Ingen eksisterende grupper. Vil du opprette en ny gruppe?"</string>
+    <string name="recents">Nylige</string>
+    <string name="contact_no_recents">Ingen nylige</string>
+    <string name="contact_detail_ip_call">IP-anrop</string>
+    <string name="contact_detail_history_mms_received_time">"Mottatt tidspunkt %1$s"</string>
+    <string name="contact_detail_history_mms_received_from">"Mottatt fra %1$s"</string>
+    <string name="contact_detail_history_mms_sent_time">"Sendt tidspunkt %1$s"</string>
+    <string name="contact_detail_history_mms_sent_to">"Sendt til %1$s"</string>
+    
+    <string name="contact_detail_history_calllog">"Anropslogg"</string>
+    
+    <string name="contact_detail_history_mms">Meldinger</string>
+    <string name="contact_detail_history_duration">"Varighet:"</string>
+    <string name="contact_detail_history_ismms">Multimediemelding</string>
+    <string name="contact_detail_history_empty_calllog">"Anropsloggen er tom"</string>
+    <string name="contact_detail_history_empty_message">Ingen melding</string>
+    <string name="contact_detail_history_empty">"Ingen logg for anrop, melding"</string>
+    <string name="contact_recent_number_limit">"Kun %1$s kontakter tilgjengelige"</string>
+    <string name="contact_recent_group_label">"Gruppe"</string>
+        
+    
+    <string name="call_pin_dialog_title_ct">Velg UIM-/SIM-kort</string>
+    <string name="callFailed_simError_ct">Mangler UIM/SIM, eller feil med UIM/SIM</string>
+    <string name="msg_loading_sim_contacts_toast_ct">"Laster UIM-/SIM-kontakter i bakgrunnen. Vent et øyeblikk."</string>
+    <string name="xport_error_one_account_ct">"Sett inn en UIM-/SIM-kort eller SD-kort for å importere/eksportere kontakter."</string>
+    <string name="notifier_failure_by_sim_full_ct">Feil: UIM-/SIM-kortet er fullt.\nFullført: 
+        <xliff:g id="items">%d</xliff:g>\nIkke fullført: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+    <string name="notifier_failure_sim_notready_ct">Feil: UIM-/SIM-kort ikke klart.\nFullført: 
+        <xliff:g id="items">%d</xliff:g>\nIkke fullført: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+    <string name="look_simstorage_ct">Vis UIM-/SIM-kortkapasitet</string>
+
+    <string name="callFailed_cdma_notEmergency">"Kun nødsamtaler er mulig."</string>
+
+    
+    <string name="international_dialing_title">"Hjelp til internasjonal oppringing"</string>
+    <string name="international_dialing_select_country">"Det er registrert at du ringer til utlandet. Velg destinasjon."</string>
+    <string name="international_dialing_add_country_code">Det ser ut til at du ringer et nummer i 
+        <xliff:g id="country_name">%s</xliff:g>. Vil du legge til landskoden (+ 
+        <xliff:g id="country_code">%s</xliff:g>)?
+    </string>
+    <string name="international_dialing_add_country_code_and_area_code">Det ser ut til at du ringer et nummer i 
+        <xliff:g id="area_name">%1$s</xliff:g> ( 
+        <xliff:g id="country_name">%2$s</xliff:g>). Vil du legge til landskoden og retningsnummeret (+ 
+        <xliff:g id="prefix">%3$s</xliff:g>)?
+    </string>
+    <string name="international_dialing_change_country_prefix">Det ser ut til at du ringer fra 
+        <xliff:g id="country_name">%s</xliff:g>. Endre prefiks for internasjonale anrop til \"+\"?
+    </string>
+    <string name="international_dialing_add_country_code_input_area_code">Det ser ut til at du ringer et nummer i 
+        <xliff:g id="country_name">%s</xliff:g>. Hvis det stemmer, taster du inn retningsnummer.
+    </string>
+    <string name="international_dialing_add_country_code_default_input_area_code">Det ser ut til at du ringer et nummer i 
+        <xliff:g id="country_name">%s</xliff:g>. Hvis byen du ringer ikke er 
+        <xliff:g id="area_name">%s</xliff:g>, skriver du inn retningsnummer.
+    </string>
+    <string name="international_dialing_need_area_code">"Du må angi retningsnummeret for destinasjonsstedet for å ringe."</string>
+    <string name="international_dialing_input_area_code">"Skriv inn retningsnummeret her"</string>
+    <string name="international_dialing_dialed_number">"Nummeret det skal ringes til:"</string>
+    <string name="international_dialing_confirm_area_code">Hvis byen du ringer ikke er 
+        <xliff:g id="area_name">%s</xliff:g>, legger du inn retningsnummeret til byen nedenfor.
+    </string>
+    <string name="international_dialing_click_below_button">"Klikk på knappen under for å endre landskoden."</string>
+    <string name="international_dialing_yes">"Ja. Bruk nummeret under:"</string>
+    <string name="international_dialing_no">"Nei. Bruk det opprinnelige nummeret:"</string>
+    <string name="international_dialing_call_button">"Ring"</string>
+    <string name="international_dialing_area_code">"retningsnummer"</string>
+    <string name="international_dialing_invalid_number">"Nummeret er ugyldig. Vil du fortsette å ringe likevel?"</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">"Vil du legge til landskoden og retningsnummeret?"</string>
+    <string name="no_search_result">"Ingen søkeresultater"</string>
+
+    <string name="account_phone_only" product="tablet">"Nettbrett"</string>
+    <string name="account_phone_only" product="default">"Telefonkontakter"</string>
+    
+    
+    
+    <string name="no_match_call_log">"Ingen elementer"</string>
+    <string name="no_call_log">"Ingen anropslogger"</string>
+    <string name="share_too_large">Totale data overskrider øvre grense. Fjern valget av noen elementer, og prøv på nytt.</string>
+
+    
+    
+
+    <string name="err_icc_no_phone_book">%1$s kan ikke lagre kontakt</string>
+
+    
+    
+    <string name="titleJoinContactDataWith">"Slå sammen kontakter"</string>
+
+    
+    <string name="menu_select_all">"Marker alle"</string>
+
+    
+    <string name="list_filter_custom">"Egendefinert"</string>
+
+    
+    <string name="add_contact_dlg_message_fmt">"Legg til «<xliff:g id="EMAIL">%s</xliff:g>» som kontakt?"</string>
+
+    
+    <string name="locale_change_in_progress">"Kontaktlisten er oppdatert med nytt språk."</string>
+
+    
+    <string name="noFavoritesHelpText">"Du har ikke noen favoritter.\n\n Slik legger du en kontakt til i listen over favoritter:\n 
+        <li>Trykk på kategorien 
+            <b>Kontakter</b>\n
+        </li> \n 
+        <li>Trykk på kontakten du vil legge til i dine favoritter\n</li> \n 
+        <li>Trykk på stjernen ved siden av kontaktens navn\n</li>"
+    </string>
+
+    
+    <string name="non_phone_caption">"Telefonnummer"</string>
+
+    
+    <string name="menu_select_none">"Fjern alle markeringer"</string>
+
+    <string name="find_call_logs">Finn anropslogger</string>
+    <string name="call_log_via_sim_name_notice">ANROPSLOGGER VIA \" 
+        <xliff:g id="sim_name">%s</xliff:g>\"
+    </string>
+    
+
+    
+    <string name="mtk_contact_list_loading">Laster inn \u2026</string>
+    <string name="vcard_import_failed_v2">Kunne ikke importere</string>
+    <string name="quickcontact_missing_app">"Det ble ikke funnet noen app som kan håndtere denne handlingen."</string>
+    
+    
+    <string name="call_speed_dial_title">Hurtigoppringing</string>
+    <string name="dialog_no_speed_dial_number_message">Ingen kortnummer er satt.</string>
+    <string name="icc_phone_book_invalid">Telefonboken er ikke tilgjengelig nå. Prøv på nytt senere.</string>
+    <string name="error_edit_join_group">Dette er en tilsluttet kontakt. Du kan redigere gruppeinformasjon i redigeringsmodus.</string>
+    
+    <string name="local_phone_account" product="tablet">"Nettbrett"</string>
+    <string name="local_phone_account" product="default">"Telefon"</string>
+    <string name="imsCallLabelsGroup">IMS-anrop</string>
+    <string name="sip_url">SIP-URL</string>
+    <string name="ims_call_disabled">IMS-anrop er ikke tilgjengelig</string>
+    <string name="vcs_menu_voice_contacts_search" product="default">Kontaktsøk med tale</string>
+    <string name="vcs_msg_no_voice_contacts">Ups. Kontakt ikke funnet.</string>
+    <string name="contact_import_export_tips">Importerer/eksporterer kontakter. Prøv på nytt senere</string>
+<string name="can_not_switch_account_during_call">Ønsket SIM-kort for anrop kan ikke endres under et anrop.</string>
+<string name="can_not_switch_account_temporarily">Det er ikke mulig å endre ønsket SIM-kort for anrop akkurat nå.</string>
+<string name="location_permission_title">Sikkerhetsadvarsel</string>
+<string name="location_permission_summary">Kontakter forsøker å hente posisjonsinformasjonen din.\n(Avslå automatisk etter <xliff:g id="time_sec">%1$s</xliff:g> sekunder)</string>
+<string name="location_permission_allow">Tillat</string>
+<string name="location_permission_deny">Avslå</string>
+</resources>

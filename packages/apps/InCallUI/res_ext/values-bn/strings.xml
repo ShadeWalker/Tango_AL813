@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="dm_lock">ডিএম লক করা</string>
+    <string name="dm_unlock">ডিএম আনলক করা</string>
+    <string name="start_record">রেকর্ডিং শুরু করুন</string>
+    <string name="stop_record">রেকর্ড করা বন্ধ করুন</string>
+    <string name="str_db_playlist_name">আমার রেকডিং</string>
+    <string name="alert_device_error">অডিও ডিভাইসে ত্রুটি হয়েছে</string>
+    <string name="ext_media_badremoval_notification_title">এসডি কার্ড অপ্রত্যাশিতভাবে সরিয়ে ফেলা হয়েছে</string>
+    <string name="error_sdcard_access">এসডি কার্ডে প্রবেশ করতে অক্ষম</string>
+    <string name="confirm_device_info_full">এসডি কার্ডে জায়গা নেই,রেকর্ড সংরক্ষণ করা হয়েছে।</string>
+    <string name="confirm_save_info_saved">রেকর্ড করা বিষয় সংরক্ষণ করা হয়েছে</string>
+    <string name="confirm_save_info_saved_to">রেকর্ডিং সংরক্ষণ করা হয়েছে</string>
+    <string name="recording_saved_sd_full">এসডি কার্ডে জায়গা নেই,রেকর্ড সংরক্ষণ করা হয়েছে।</string>
+    <string name="sd_not_enough"> এসডি কার্ডের\nজায়গা ফুরিয়ে আসছে</string>
+    <string name="alert_dialog_dismiss">বাতিল করুন</string>
+    <string name="change_my_pic">পরিবর্তন করুন</string>
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">সব কল শেষ করুন</string>
+    <string name="onscreenHangupHolding">হ্যাঙ্গ-আপ স্থগিত</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">হ্যাঙ্গ-আপ সক্রিয়, অপেক্ষামানে উত্তর দিন</string>
+    <string name="menu_ect">স্থানান্তর করুন</string>
+    <string name="respond_via_sms_confirmation_format">বার্তা পাঠানো হয়েছে <xliff:g id="phone_number">%s</xliff:g>।</string>
+    <string name="volte_add_conference_member_title">কনফারেন্সে যোগ করুন</string>
+    <string name="add_member_msg">নাম বা নম্বর লিখুন</string>
+    <string name="card_title_incoming_conference">কনফারেন্স করুন</string>
+    <string name="addConferenceMemeberText">সদস্য যোগ করুন</string>
+    <string name="add_conference_member_limit">একই সময়ে কেবল একটি নম্বর যোগ করতে পারবেন।</string>
+    <string name="conference_member_join"><xliff:g id="member_name">%s</xliff:g> কনফারেন্সে যোগদান করেছে।</string>
+    <string name="conference_member_leave"><xliff:g id="member_name">%s</xliff:g> কনফারেন্স ত্যাগ করুন।</string>
+    <string name="conference_member_adding">যোগ করা হচ্ছে <xliff:g id="member_name">%s</xliff:g>...</string>
+    <string name="conference_member_add_fail"><xliff:g id="member_name">%s</xliff:g> যোগ করতে ব্যর্থ হয়েছে।</string>
+    <string name="removeMember">"সরিয়ে ফেলুন"</string>
+    <string name="memberStatus">অবস্থা</string>
+    <string name="volte_call_waiting_indication_text">অন্য পাশে কল চলছে, অপেক্ষা করুন...</string>
+    <string name="volte_conf_member_reach_max">কনফারেন্সের সদস্য সংখ্যা ইতিমধ্যেই সর্বোচ্চে পৌঁছেছে।</string>
+    <string name="add_multi_conference_member_limit">এখনকার মত সর্বোচ্চ কেবল<xliff:g id="max_number">%s</xliff:g> সদস্য যোগ করতে পারবে।</string>
+    <string name="multi_conference_member_adding">সদস্য যোগ করা হচ্ছে...</string>
+</resources>

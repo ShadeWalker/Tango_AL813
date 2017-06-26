@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="app_label">Download-Manager</string>
+
+    
+    <string name="permlab_downloadManager">Auf den Download-Manager zugreifen.</string>
+    
+    <string name="permdesc_downloadManager">Erlauben Sie den Apps auf den Download-Manager zuzugreifen und ihn zum Herunterladen von Dateien zu verwenden. Bösartige Apps können diesen Vorgang nutzen, um Downloads zu stören und auf private Informationen zuzugreifen.</string>
+
+    
+    <string name="permlab_downloadManagerAdvanced">Erweiterte Funktionen des Download-Managers</string>
+    
+    <string name="permdesc_downloadManagerAdvanced">Erlauben Sie den Apps auf die erweiterten Funktionen des Download-Managers zuzugreifen. Bösartige Apps können diesen Vorgang nutzen, um Downloads zu stören und auf private Informationen zuzugreifen.</string>
+
+    <string name="permlab_downloadCompletedIntent">Download-Benachrichtigungen senden</string>
+    
+    <string name="permdesc_downloadCompletedIntent">Erlauben Sie Apps Benachrichtigungen über beendete Downloads zu senden. Bösartige Apps können diesen Vorgang nutzen, um andere Apps, die Dateien herunterladen, zu stören.</string>
+
+    
+    <string name="permlab_seeAllExternal" product="nosdcard">Alle Downloads in den USB-Speicher anzeigen</string>
+    
+    <string name="permlab_seeAllExternal" product="default">Alle Downloads auf die SD-Karte anzeigen</string>
+    
+    <string name="permdesc_seeAllExternal">Erlaubt Apps alle Downloads auf die SD-Karte zu sehen, unabhängig davon, welche App die Dateien heruntergeladen hat.</string>
+
+    
+    <string name="permlab_downloadCacheNonPurgeable">Platz im Download-Cache reservieren</string>
+    
+    <string name="permdesc_downloadCacheNonPurgeable">Erlaubt Apps Dateien in den Download-Cache zu laden, der nicht automatisch gelöscht werden kann, wenn der Download-Manager Platz benötigt.</string>
+
+    
+    <string name="permlab_downloadWithoutNotification">Dateien ohne Benachrichtigung herunterladen</string>
+
+    
+    <string name="permdesc_downloadWithoutNotification">Erlauben Sie den Apps Dateien über den Download-Manager ohne Nachricht an den Benutzer herunterzuladen.</string>
+
+    
+    <string name="permlab_accessAllDownloads">Auf alle System-Downloads zugreifen</string>
+
+    
+    <string name="permdesc_accessAllDownloads">Erlaubt es der App auf alle Downloads jeder App auf dem System zuzugreifen und diese zu modifizieren.</string>
+
+
+    
+    <string name="download_unknown_title">&lt;Untitled&gt;</string>
+
+    
+    <string name="notification_download_complete">Herunterladen beendet</string>
+
+    
+    <string name="notification_download_failed">Herunterladen fehlgeschlagen</string>
+
+    
+    <string name="notification_need_wifi_for_size">Größe des Downloads erfordert eine Wi-Fi-Verbindung.</string>
+
+    
+    <string name="notification_paused_in_background">Im Hintergrund angehalten</string>
+
+    
+    <string name="wifi_required_title">Download für Betreibernetzwerk zu groß</string>
+
+    
+    <string name="wifi_required_body">Sie benötigen Wi-Fi, um diese Datei <xliff:g id="size" example="12.3KB">%s </xliff:g> herunterladen zu können. \n\nTippen Sie auf <xliff:g id="queue_text" example="Queue">%s </xliff:g>, um diesen Download, wenn Sie das nächste Mal mit einem Wi-Fi-Netzwerk verbunden sind, herunterzuladen.</string>
+
+    
+    <string name="wifi_recommended_title">In Warteschlange zum späteren Herunterladen einfügen</string>
+
+    
+    <string name="wifi_recommended_body">Wenn Sie diesen <xliff:g id="size" example="12.3KB">%s </xliff:g> Download jetzt starten, kann es zu einer starken Belastung Ihrer Batterie und/oder zu einer hohen Nutzung Ihrer Datenverbindung und je nach Vertrag zu hohen Kosten Durch Ihren Betreiber kommen.\n\n Tippen Sie auf <xliff:g id="queue_text" example="Queue">%s</xliff:g>, um die Datei bei der nächsten Verbindung mit einem Wi-Fi-Netzwerk herunterzuladen.</string>
+
+
+    
+    <string name="button_queue_for_wifi">Warteschlange</string>
+
+    
+    <string name="button_cancel_download">Abbrechen</string>
+
+    
+    <string name="button_start_now">Jetzt starten</string>
+
+    
+    <string name="download_percent"><xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+
+    
+    <plurals name="notif_summary_active">
+        <item quantity="one">1 Datei wird heruntergeladen</item>
+        <item quantity="other"><xliff:g id="number">%d</xliff:g> Dateien werden heruntergeladen</item>
+    </plurals>
+
+    
+    <plurals name="notif_summary_waiting">
+        <item quantity="one">1 Datei wartet</item>
+        <item quantity="other"><xliff:g id="number">%d</xliff:g> Dateien Warten</item>
+    </plurals>
+
+    
+    <string name="download_remaining"><xliff:g id="duration" example="3minutes">%s</xliff:g> verbleiben</string>
+
+    
+    <string name="download_no_application_title">Kann Datei nicht öffnen.</string>
+
+    
+    <string name="root_downloads">Downloads</string>
+
+    
+    <string name="download_queued">In Warteschlange</string>
+    
+    <string name="download_running">In Verarbeitung</string>
+    
+    <string name="download_error">Erfolglos</string>
+
+    <string name="download_running_percent">"In Verarbeitung, <xliff:g id="PERCENTAGE">%s</xliff:g>"</string>
+
+</resources>

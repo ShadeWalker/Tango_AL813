@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="mtk_notification_string">Premeu per veure els detalls de la configuració</string>
+    <string name="mtk_beam_cancel_title">Cancel·la la transferència</string>    
+    <string name="mtk_beam_cancel">Segur que voleu cancel·lar la transferència entrant?</string>
+    <string name="mtk_yes">"Sí"</string>
+    <string name="mtk_no">"No"</string>
+    <string name="mtk_se_sim1">SIM1</string>
+    <string name="mtk_se_sim2">SIM2</string>
+    <string name="mtk_se_ssd">Targeta SD intel·ligent</string>
+    <string name="mtk_se_ese">SE integrat</string>
+    <string name="mtk_se_na">"Elements de seguretat no disponibles, la emulació de la targeta NFC s'apagarà."</string>
+    <string name="mtk_se_alt">" no està disponible. Voleu passar a "</string>
+    <string name="mtk_nfc_card_emulation">emulació de la targeta NFC</string>
+    <string name="mtk_disallow_in_wfd">Aquesta operació no es pot fer a la pantalla sense fil</string>
+    <string name="mtk_disallow_in_wfd_KK">"Aquesta operació no es pot fer a la pantalla d'inici"</string>    
+    <string name="mtk_landing_wps_connect_AP_confirm_title">"Connecta\'t a la xarxa"</string>
+    <string name="mtk_landing_wps_connect_AP_confirm_context">Esteu provant de connectar-vos a:</string>
+    <string name="mtk_landing_wps_connect_AP_confirm_default_network">"Xarxa"</string>
+    <string name="mtk_landing_wps_connect_AP_confirm_positive">"Connecta"</string>
+    <string name="mtk_landing_wps_connect_AP_confirm_negative">"Cancel·la"</string>
+    <string name="mtk_landing_wps_connect_AP_confirm_already_connected">Ja us heu connectat a\n<xliff:g id="connected">%1$s</xliff:g></string>
+    <string name="mtk_landing_wfa_p2p_turn_wifi_on">Activant la Wi-Fi...</string>  
+    <string name="mtk_landing_HotSpot_exclusive">No disponible perquè la zona Wi-Fi està activada.</string>      
+    <string name="mtk_wfa_activity_title">"Enviament en primer pla d'NFC WFA"</string>
+    <string name="mtk_wfa_user_indication">"Col·loca el dispositiu a prop d'una etiqueta NDEF/dispositiu P2P"</string>
+    <string name="mtk_wfa_sigma_activity_title">"Enviament en primer pla d'NFC Sigma"</string>
+    <string name="mtk_wfa_sigma_user_indication">"Col·loca el dispositiu a prop d'una etiqueta NDEF"</string>    
+</resources>

@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- 
+/*
+ * Copyright (C) 2007-2008 Esmertec AG.
+ * Copyright (C) 2007-2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- add by liujia5 for mms 7bit menu -->
+    <string name="sms_seven_bit">"Otimização 7 bites"</string>
+    <string name="sms_seven_bit_summary">"Converter para a codificação de 7 bites de forma que uma única mensagem contenha 160 caracteres"</string>
+    <!-- add by liujia5 for mms 7bit menu -->
+    <string msgid="1503967887341230795" name="app_label">"Mensagens"</string>
+     <string name="subject_hint">Assunto</string>
+    <string msgid="1530369762346003973" name="new_message">"Nova mensagem"</string>
+    <string msgid="7538482331117914146" name="menu_call_back">"Ligar a 
+        <xliff:g id="NAME">%s</xliff:g>"
+    </string>
+    <string msgid="671366308915241664" name="menu_send_email">"Enviar e-mail a 
+        <xliff:g id="NAME">%s</xliff:g>"
+    </string>
+    <string msgid="3763437973691046238" name="menu_compose_new">"Redigir"</string>
+    <string msgid="4693148116114749414" name="menu_preferences">"Definições"</string>
+    <string msgid="8013282802147375764" name="menu_add_address_to_contacts">"Adicionar 
+        <xliff:g id="CONTACTEMAILORNUMBER">%s</xliff:g> aos Contactos"
+    </string>
+    <string msgid="5877123227307074690" name="menu_call">"Chamada"</string>
+    <string msgid="2289469305728821360" name="menu_search">"Pesquisar"</string>
+    <string msgid="808729454898114735" name="menu_delete_all">"Eliminar todos os tópicos"</string>
+    <string msgid="1851666911396479006" name="menu_delete">"Eliminar tópico"</string>
+    <string msgid="7448852683948080108" name="menu_view">"Ver tópico"</string>
+    <string msgid="6855869130206549643" name="menu_debug_dump">"DEBUG DUMP"</string>
+    <string msgid="987335057871404222" name="refreshing">"A atualizar..."</string>
+    <string msgid="5646161375983084660" name="menu_cell_broadcasts">"Transmissões celulares"</string>
+    <string msgid="2487465595514636160" name="has_draft">"Rascunho"</string>
+    <string msgid="7795086723069563537" name="no_subject_view">"(Sem assunto)"</string>
+    <string msgid="3579016854116401602" name="messagelist_sender_self">"Eu"</string>
+    <string msgid="4990460971211388453" name="view_slideshow">"Ver apresentação de diapositivos"</string>
+    <string msgid="7613457646645796831" name="view_message_details">"Ver detalhes"</string>
+    <string msgid="8219095994071575215" name="view_delivery_report">"Ver relatório"</string>
+    <string msgid="6442394955910357234" name="delete_message">"Eliminar"</string>
+    <string msgid="4436268382742593921" name="expire_on">"Expira: 
+        <xliff:g id="DATE">%s</xliff:g>"
+    </string>
+    <string msgid="534782148965716631" name="kilobyte">"KB"</string>
+    <string msgid="7479433403599785755" name="undelivered_msg_dialog_title">"Mensagem não entregue"</string>
+    <string msgid="4789268239627694551" name="undelivered_msg_dialog_body">"Não foi possível enviar esta mensagem.\nTentativa efetuada: 
+        <xliff:g id="MESSAGE">%s</xliff:g>."
+    </string>
+    <string msgid="4203703285563450868" name="undelivered_sms_dialog_body">"Não é possível enviar esta mensagem."</string>
+    <string msgid="757258847736632791" name="delete_thread">"Eliminar tópico"</string>
+    <string msgid="9026858380050046756" name="menu_forward">"Reencaminhar"</string>
+    <string msgid="4488877642230207631" name="download">"Transferir"</string>
+    <string msgid="1779557575565350637" name="downloading">"A transferir"</string>
+    <string msgid="4057621785274119260" name="inline_subject">&lt;Assunto: <xliff:g id="SUBJECT">%s</xliff:g>&gt;</string>
+    <string msgid="1396394157870730742" name="drm_protected_text">"* Texto protegido por DRM *"</string>
+    <string msgid="6989074725969164383" name="insufficient_drm_rights">"Foram detectados direitos de DRM insuficientes."</string>
+    <string msgid="4296252229544252834" name="copy_message_text">"Copiar texto"</string>
+    <string msgid="6838806653341967550" name="message_options">"Opções de mensagem"</string>
+    <string msgid="3501759384739796431" name="slideshow_options">"Opções de apresentação de diapositivos"</string>
+    <string msgid="7307578107431739359" name="move_up">"Mover para cima"</string>
+    <string msgid="6356509518429479053" name="move_down">"Mover para baixo"</string>
+    <string msgid="2225604354024914900" name="remove_slide">"Remover diapositivo"</string>
+    <string msgid="9140721399423564187" name="add_slide">"Adicionar diapositivo"</string>
+    <string msgid="563319570849475501" name="add_slide_hint">"Seleccione para criar um novo diapositivo."</string>
+    <string msgid="5054239124146413609" name="discard_slideshow">"Rejeitar apresentação de diapositivos"</string>
+    <string msgid="5077675385448696846" name="slide_show_part">"Parte 
+        <xliff:g id="PART">%1$s</xliff:g>/ 
+        <xliff:g id="TOTAL">%2$s</xliff:g>"
+    </string>
+    <string msgid="2164068850029476539" name="remove_text">"Remover texto"</string>
+    <string msgid="7819574884962571479" name="add_picture">"Adicionar imagem"</string>
+    <string msgid="6378701749074289096" name="remove_picture">"Remover imagem"</string>
+    <string msgid="3827442822987116233" name="add_music">"Adicionar música"</string>
+    <string msgid="858889733416015223" name="remove_music">"Remover música"</string>
+    <string msgid="7816866867806595144" name="add_video">"Adicionar vídeo"</string>
+    <string msgid="5258603891528497799" name="remove_video">"Remover vídeo"</string>
+    <string msgid="224029549150332986" name="to_hint">"Para"</string>
+    <string msgid="4296714962311604126" name="subject_hint">Assunto</string>
+    <string msgid="7103751293360532684" name="add_attachment">"Anexar"</string>
+    <string msgid="7616134948428265870" name="add_subject">"Adicionar assunto"</string>
+    <string msgid="1624800293064498479" name="discard">"Rejeitar"</string>
+    <string msgid="7929667761715467136" name="view">"Ver"</string>
+    <string msgid="7587904998114459388" name="replace">"Substituir"</string>
+    <string msgid="4625444913256213175" name="remove">"Remover"</string>
+    <string msgid="4589898724889248486" name="send">"Enviar"</string>
+    <string msgid="1587631213714914559" name="mms">"MMS"</string>
+    <string msgid="2933162044872550662" name="send_mms">"Enviar MMS"</string>
+    <string msgid="2663426830306307194" name="all_threads">"Todos os tópicos"</string>
+    <string msgid="3539985471008581265" name="type_to_compose_text_enter_to_send">"Escrever mensagem"</string>
+    <string msgid="7860109685511253191" name="open_keyboard_to_compose_message">"Abrir teclado para escrever mensagem"</string>
+    <string msgid="6685337318181265136" name="sending_disabled_not_default_app">"Envio desativado"</string>
+    <string msgid="1838175321052707875" name="compose_disabled_toast">"Não é possível compor. Nenhuma aplicação de SMS predefinida."</string>
+    <string msgid="1961357529661045180" name="compressing">"Imagem demasiado grande. A comprimir..."</string>
+    <string msgid="5037111178813903722" name="unsupported_media_format">"Formato 
+        <xliff:g id="NAME">%1$s</xliff:g> não suportado"
+    </string>
+    <string msgid="7573116916321879964" name="select_different_media">"Seleccione um 
+        <xliff:g id="NAME">%1$s</xliff:g> diferente."
+    </string>
+    <string msgid="6027753647094742437" name="exceed_message_size_limitation">"O limite de tamanho da mensagem foi atingido."</string>
+    <string msgid="2639367545165352543" name="message_too_big_for_video">"Esta mensagem é demasiado grande para anexar um vídeo."</string>
+    <string msgid="8272471485019037446" name="failed_to_add_media">"Lamentamos, mas não é possível adicionar 
+        <xliff:g id="NAME">%1$s</xliff:g> à mensagem."
+    </string>
+    <string msgid="5608354151631833669" name="failed_to_resize_image">"Imagem não redimensionada."</string>
+    <string msgid="4897031754321114959" name="resize_image_error_information">"Lamentamos, mas mesmo redimensionada, esta imagem é demasiado grande para ser enviada."</string>
+    <string msgid="276280492803486464" name="forward_prefix">"Fwd: "</string>
+    <string msgid="6078326880056142781" name="discard_message">"Rejeitar"</string>
+    <string msgid="2667664943003796133" name="discard_message_reason">"A mensagem será rejeitada porque não tem destinatários válidos."</string>
+    <string msgid="1485388396900997383" name="has_invalid_recipient">&lt;<xliff:g id="NAME">%1$s</xliff:g>&gt;</string>
+    <string msgid="4573835601024786416" name="invalid_destination">"Endereço de destino inválido."</string>
+    <string msgid="9178218144019626176" name="service_not_activated">"Serviço não ativado na rede."</string>
+    <string msgid="1908877102600048515" name="service_message_not_found">"Mensagem expirada ou não disponível."</string>
+    <string msgid="5418984934499160536" name="service_network_problem">"Problema de erro de rede."</string>
+    <string msgid="7315539322634238519" name="invalid_recipient_message">"Corrija o(s) destinatário(s) para que a mensagem possa ser recebida."</string>
+    <string msgid="3918913277571649400" name="cannot_send_message">"Não é possível enviar esta mensagem"</string>
+    <string msgid="8745080126044054343" name="cannot_send_message_reason">"A mensagem não tem destinatários válidos."</string>
+    <string msgid="84606990079390099" name="cannot_forward_drm_obj">"Não é possível reencaminhar o objecto de DRM incluído na mensagem."</string>
+    <string msgid="2980023239017588627" name="converting_to_picture_message">"A converter para mensagem multimédia..."</string>
+    <string msgid="6374423235426015422" name="converting_to_text_message">"A converter para mensagem de texto..."</string>
+    <string msgid="8437666385579890987" name="cannot_add_slide_anymore">"Não é possível adicionar mais diapositivos."</string>
+    <string msgid="4721981351130823908" name="cannot_add_picture_and_video">"Não é possível adicionar vídeo e imagem a um diapositivo."</string>
+    <string msgid="5026354972915392301" name="cannot_save_message">"Não é possível guardar a mensagem."</string>
+    <string msgid="2503018972659880692" name="message_saved_as_draft">"Mensagem guardada como rascunho."</string>
+    <string msgid="4239709214735078881" name="too_many_recipients">"Esta mensagem tem demasiados destinatários ( 
+        <xliff:g id="CURRENTCOUNT">%1$s</xliff:g>). O número máximo de destinatários é de 
+        <xliff:g id="MAXLIMIT">%2$s</xliff:g>."
+    </string>
+    <string msgid="3774037894899750070" name="too_many_attachments">"Existe um limite de 
+        <xliff:g id="MAXLIMIT">%1$s</xliff:g> anexos. Apenas os primeiros 
+        <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> serão adicionados."
+    </string>
+    <string msgid="2034535554212405529" name="adding_attachments_title">"A adicionar anexos"</string>
+    <string msgid="5871373105122355632" name="adding_attachments">"Aguarde enquanto os itens são adicionados à apresentação de diapositivos."</string>
+    <string msgid="1232338692400726385" name="building_slideshow_title">"Construir apresentação de diapositivos"</string>
+    <string msgid="253920977253666735" name="cannot_play_audio">"Não é possível reproduzir áudio."</string>
+    <string msgid="5438149136136446756" name="preview">"Pré-visualização"</string>
+    <string msgid="6824095909448728427" name="preview_slideshow">"Pré-visualização"</string>
+    <string msgid="3171240952601443619" name="replace_image">"Substituir imagem"</string>
+    <string msgid="6617032324007824096" name="duration_sec">"Duração ( 
+        <xliff:g id="DURATION">%s</xliff:g> seg)"
+    </string>
+    <string msgid="5981097971537625852" name="duration_selector_title">"Duração do diapositivo "</string>
+    <string msgid="7344600117972450771" name="layout_selector_title">"Esquema da apresentação de diapositivos "</string>
+    <string msgid="6811021650398972346" name="layout_top">"Esquema (parte superior)"</string>
+    <string msgid="5822765871095491843" name="layout_bottom">"Esquema (parte inferior)"</string>
+    <string msgid="7769792471457574059" name="type_to_compose_text_or_leave_blank">"Escreva uma mensagem ou deixe em branco"</string>
+    <string msgid="8005480904677546322" name="duration_not_a_number">"A duração tem de ser um algarismo"</string>
+    <string msgid="109945354056393575" name="duration_zero">"A duração tem de ser maior que zero segundos"</string>
+    <string msgid="6886003523109967972" name="secs">"seg"</string>
+  <string-array name="select_dialog_items">
+    <item msgid="4840183714016984112">"1 segundo"</item>
+    <item msgid="3734955613666864447">"2 segundos"</item>
+    <item msgid="6032232473048379828">"3 segundos"</item>
+    <item msgid="5978471781525927827">"4 segundos"</item>
+    <item msgid="4888440297621208402">"5 segundos"</item>
+    <item msgid="6047246213264166841">"6 segundos"</item>
+    <item msgid="2327501250056533797">"7 segundos"</item>
+    <item msgid="3400770414689795703">"8 segundos"</item>
+    <item msgid="4358760614161107970">"9 segundos"</item>
+    <item msgid="2618179407176906471">"10 segundos"</item>
+    <item msgid="6238597861937337981">"Outro…"</item>
+  </string-array>
+    <string msgid="1414670584423909451" name="menu_view_contact">"Visualizar contacto"</string>
+    <string msgid="2978074583938544513" name="menu_add_to_contacts">"Adicionar aos Contactos"</string>
+    <string msgid="2776075636669924968" name="hidden_sender_address">"Endereço de remetente oculto"</string>
+    <string msgid="3246158147503160811" name="yes">OK</string>
+    <string msgid="4289742508556913860" name="no">"Cancelar"</string>
+    <string msgid="4642365398263275979" name="set">"Definir"</string>
+    <string msgid="1888432400937785115" name="play">"Reproduzir"</string>
+    <string msgid="5912118407791492696" name="edit">"Editar"</string>
+    <string msgid="1996751738286080976" name="try_to_send">"Tentar enviar"</string>
+    <string msgid="6650089610332670157" name="preferences_title">"Definições"</string>
+    <string msgid="7165341506551155053" name="restore_default">"Restaurar predefinições"</string>
+    <string msgid="4860726154770053004" name="pref_notification_settings_title">"Definições de notificação"</string>
+    <string msgid="2573616208360684392" name="pref_mms_settings_title">"Definições de mensagem multimédia (MMS)"</string>
+    <string msgid="9088516111717417514" name="pref_sms_settings_title">"Definições de mensagem de texto (SMS)"</string>
+    <string msgid="2531726671883516470" name="pref_sms_storage_title">"Definições de armazenamento"</string>
+    <string msgid="1441894740130104326" name="pref_title_sms_disabled">"SMS desativados"</string>
+    <string msgid="8975773722051230744" name="pref_summary_sms_disabled">"Toque para tornar as Mensagens a aplicação de SMS predefinida"</string>
+    <string msgid="1857849790200375277" name="pref_title_sms_enabled">"SMS ativados"</string>
+    <string msgid="2106125420361911250" name="pref_summary_sms_enabled">"Toque para alterar a aplicação de SMS predefinida"</string>
+    <string msgid="4141349892597640864" name="pref_summary_manage_sim_messages">"Gerir as mensagens armazenadas no cartão SIM"</string>
+    <string msgid="4874657984217756112" name="pref_summary_mms_delivery_reports">"Pedir um relatório de entrega para cada mensagem enviada"</string>
+    <string msgid="2748323864008907440" name="pref_summary_mms_read_reports">"Pedir um relatório de leitura para cada mensagem enviada"</string>
+    <string msgid="5852207702358546129" name="pref_summary_sms_delivery_reports">"Pedir um relatório de entrega para cada mensagem enviada"</string>
+    <string msgid="7719538116486177613" name="pref_summary_auto_delete">"Eliminar mensagens antigas quando os limites são atingidos"</string>
+    <string msgid="597128041393045216" name="pref_summary_delete_limit">" 
+        <xliff:g id="COUNT">%1$s</xliff:g> mensagens por conversa"
+    </string>
+    <string msgid="2266928687440696745" name="pref_summary_mms_group_mms">"Utilizar MMS para enviar uma única mensagem quando houver vários destinatários"</string>
+    <string msgid="7820895261757881177" name="pref_title_manage_sim_messages">"Gerir as mensagens do cartão SIM"</string>
+    <string msgid="6666857926679451910" name="pref_title_mms_delivery_reports">"Pedir relatório de entrega"</string>
+    <string msgid="1251698526583908432" name="pref_title_mms_group_mms">"Mensagens de grupo"</string>
+    <string msgid="4882179829495828541" name="pref_title_mms_read_reports">"Pedir relatório de leitura"</string>
+    <string msgid="876064208254451038" name="pref_title_sms_delivery_reports">"Pedir relatório de entrega"</string>
+    <string msgid="7227835692631701134" name="pref_title_auto_delete">"Eliminar mensagens antigas"</string>
+    <string msgid="6890538316799296878" name="pref_title_sms_delete">"Limite de mensagens de texto"</string>
+    <string msgid="7265878070847351664" name="pref_title_mms_delete">"Limite mens. multimédia"</string>
+    <string msgid="9118792213953729414" name="pref_title_notification_enabled">"Notificações"</string>
+    <string msgid="4251208067092761057" name="pref_title_notification_vibrateWhen">"Vibrar"</string>
+    <string msgid="8667533917574559659" name="pref_title_notification_ringtone">"Som"</string>
+    <string msgid="3202539743892934926" name="pref_messages_to_save">"Definir o número de mensagens a guardar"</string>
+    <string msgid="7981237991326592780" name="silent_ringtone">"Silencioso"</string>
+    <string msgid="4021878285474431355" name="pref_title_mms_auto_retrieval">"Retoma automática"</string>
+    <string msgid="925163257363757048" name="pref_summary_mms_auto_retrieval">"Retomar mensagens automaticamente"</string>
+    <string msgid="6016227402731817804" name="pref_title_mms_retrieval_during_roaming">"Recuper. em roaming"</string>
+    <string msgid="2427892806582531020" name="pref_summary_mms_retrieval_during_roaming">"Retomar mensagens automaticamente em roaming"</string>
+    <string msgid="5810813994465120375" name="confirm_dialog_title">"Eliminar"</string>
+    <string msgid="8179085718150932242" name="confirm_dialog_locked_title">"Eliminar mensagem bloqueada?"</string>
+  <plurals name="confirm_delete_conversation">
+    <item msgid="350118636090800360" quantity="one">"Será eliminada uma conversa"</item>
+    <item msgid="6918094955792544014" quantity="other">"Serão eliminadas 
+            <xliff:g id="NUMBER">%1$s</xliff:g> conversas"
+        </item>
+  </plurals>
+    <string msgid="6115966687389279855" name="confirm_delete_conversation">"O tópico completo será eliminado."</string>
+    <string msgid="9036166685235092757" name="confirm_delete_all_conversations">"Todos os tópicos serão eliminados."</string>
+    <string msgid="9121480656609809591" name="confirm_delete_message">"A mensagem será eliminada."</string>
+    <string msgid="5863578342246077057" name="confirm_delete_locked_message">"Tem a certeza de que pretende eliminar esta mensagem bloqueada?"</string>
+    <string msgid="65701806463341097" name="confirm_delete_all_SIM_messages">"Todas as mensagens do cartão SIM serão eliminadas."</string>
+    <string msgid="767624259182679915" name="confirm_delete_SIM_message">"Esta mensagem do cartão SIM será eliminada."</string>
+    <string msgid="7545321606698162261" name="delete_unlocked">"Eliminar mensagens bloqueadas"</string>
+    <string msgid="1409973060081564612" name="delete">"Eliminar"</string>
+    <string msgid="7816517565640002844" name="select_conversations">"Selecionado"</string>
+    <string msgid="6773767655149258445" name="no_conversations">"Sem conversas."</string>
+    <string msgid="5510430408235967094" name="loading_conversations">"A carregar conversas."</string>
+    <string msgid="850292987983026806" name="cannot_get_details">"Não é possível obter detalhes."</string>
+    <string msgid="9223295113731634528" name="message_details_title">"Detalhes da mensagem"</string>
+    <string msgid="7975373966795945566" name="message_type_label">"Tipo: "</string>
+    <string msgid="8196464345251877972" name="text_message">"Mensagem de texto"</string>
+    <string msgid="1512644521083533071" name="multimedia_message">"Mensagem multimédia"</string>
+    <string msgid="4124031788554972308" name="multimedia_notification">"Notificação de mensagem multimédia"</string>
+    <string msgid="2055117571548171397" name="from_label">"De: "</string>
+    <string msgid="5837363600471845801" name="to_address_label">"Para: "</string>
+    <string msgid="530867161453958774" name="bcc_label">"Bcc: "</string>
+    <string msgid="2722190650145251584" name="sent_label">"Enviadas: "</string>
+    <string msgid="8618029024731693906" name="received_label">"Recebida: "</string>
+    <string msgid="4183160415593488207" name="saved_label">"Guardada: "</string>
+    <string msgid="8721241914144101631" name="subject_label">"Assunto: "</string>
+    <string msgid="4698016210013319786" name="message_size_label">"Tamanho da mensagem: "</string>
+    <string msgid="7397600367853359607" name="priority_label">"Prioridade: "</string>
+    <string msgid="5627897207952009214" name="priority_high">"Alta"</string>
+    <string msgid="5715227727384683550" name="priority_normal">"Normal"</string>
+    <string msgid="8928782666023373987" name="priority_low">"Baixa"</string>
+    <string msgid="5115748690481550562" name="message_class_label">"Classe da mensagem: "</string>
+    <string msgid="5810068247647058769" name="error_code_label">"Código de erro: "</string>
+    <string msgid="3056513240155967777" name="menu_edit">"Editar"</string>
+    <string msgid="2610286783513247420" name="menu_delete_messages">"Eliminar mensagens"</string>
+    <string msgid="7603793126077557472" name="menu_lock">"Bloquear"</string>
+    <string msgid="6662865558677424039" name="menu_unlock">"Desbloquear"</string>
+    <string msgid="3721000641648594602" name="sim_copy_to_phone_memory" product="tablet">"Copiar para a memória do tablet"</string>
+    <string msgid="5895767417844881971" name="sim_copy_to_phone_memory" product="default">"Copiar para a memória do telefone"</string>
+    <string msgid="610790510655316922" name="sim_delete">"Eliminar"</string>
+    <string msgid="3989147182100584333" name="sim_manage_messages_title">"Mensagens de texto no cartão SIM"</string>
+    <string msgid="1997173541766393706" name="sim_view">"Ver"</string>
+    <string msgid="1763174398613486328" name="sim_empty">"Sem mensagens no cartão SIM."</string>
+    <string msgid="5361719578869045764" name="delivery_header_title">"Relatório"</string>
+    <string msgid="8253075950774894961" name="status_none">"(Nenhum)"</string>
+    <string msgid="2739860824607984892" name="status_pending">"Pendente"</string>
+    <string msgid="7576195253780627332" name="status_read">"Ler"</string>
+    <string msgid="7264334589461906965" name="status_received">"Recebido"</string>
+    <string msgid="1998776666856593544" name="status_failed">"Mal sucedido"</string>
+    <string msgid="8555305495998700198" name="status_unread">"Não lida"</string>
+    <string msgid="2613641949065942678" name="status_rejected">"Rejeitado"</string>
+    <string msgid="3922667485312634446" name="recipient_label">"Destinatário: "</string>
+    <string msgid="7283375460919181660" name="status_label">"Estado: "</string>
+    <string msgid="6439985727687107742" name="attach_image">"Imagens"</string>
+    <string msgid="4280601313184373837" name="attach_take_photo">"Capturar imagem"</string>
+    <string msgid="4264272693501538294" name="attach_video">"Vídeos"</string>
+    <string msgid="3099814114743078615" name="attach_record_video">"Capturar vídeo"</string>
+    <string msgid="3149325985970669609" name="attach_sound">"Áudio"</string>
+    <string msgid="6011431304469858929" name="attach_record_sound">"Gravar áudio"</string>
+    <string msgid="3497422151091037063" name="attach_slideshow">"Apresentação de Diapositivos"</string>
+    <string msgid="4201966447623311931" name="select_bottom_text">"Texto na parte inferior"</string>
+    <string msgid="6734183477539197815" name="select_top_text">"Texto na parte superior"</string>
+    <string msgid="4478305651728684364" name="delivery_toast_body">"Mensagem recebida por %s"</string>
+    <string msgid="7684007285202109490" name="notification_multiple">"<xliff:g id="COUNT">%s</xliff:g> mensagens não lidas."</string>
+    <string msgid="332602028959557541" name="notification_multiple_title">"Novas mensagens"</string>
+    <string msgid="4081781748475686236" name="notification_failed_multiple">"Não foi possível enviar 
+        <xliff:g id="COUNT">%s</xliff:g> mensagens."
+    </string>
+    <string msgid="1112032024904397126" name="notification_failed_multiple_title">"Mensagens não enviadas"</string>
+    <string msgid="1809829051697702810" name="sim_full_title">"Cartão SIM sem espaço"</string>
+    <string msgid="6241664980790322925" name="sim_full_body">"Elimine algumas mensagens para dar espaço a outras."</string>
+    <string msgid="6041287140125011854" name="sms_full_title">"Memória de mensagens de texto cheia"</string>
+    <string msgid="7757490997215434514" name="sms_full_body">"A mensagem a receber foi rejeitada porque a memória está cheia. Elimine mensagens antigas."</string>
+    <string msgid="8548394922491529811" name="sms_rejected_title">"Mensagem de texto rejeitada"</string>
+    <string msgid="7187754586609631934" name="sms_rejected_body">"A mensagem a receber foi rejeitada por uma razão desconhecida."</string>
+    <string msgid="3842064092332309756" name="type_audio">"Áudio"</string>
+    <string msgid="4091928975383609443" name="type_picture">"Imagem"</string>
+    <string msgid="8521556159545168441" name="type_video">"Vídeo"</string>
+    <string msgid="3155110885840591914" name="confirm">"Confirmar"</string>
+    <string msgid="6997117678914261250" name="message_send_read_report">"Será enviado um relatório de leitura."</string>
+    <string msgid="8869479754825264671" name="message_queued">"De momento não é possível enviar a mensagem. Esta será enviada quando o serviço estiver disponível."</string>
+    <string msgid="7880740763778173551" name="fdn_check_failure">"Só pode enviar mensagens para os números fixos autorizados."</string>
+    <string msgid="4168963736134552285" name="no_subject">"(Sem assunto)"</string>
+    <string msgid="4929330613278853635" name="unknown_sender">"Remetente desconhecido"</string>
+    <string msgid="2457080452886498701" name="dl_failure_notification">"Falha·ao·transferir·a·mensagem 
+        <xliff:g id="SUBJECT">%1$s</xliff:g> de 
+        <xliff:g id="FROM">%2$s</xliff:g>."
+    </string>
+    <string msgid="1347801608211628177" name="rate_limit_surpassed">"Confirmar"</string>
+    <string msgid="234228299751243067" name="confirm_rate_limit">"Está a ser enviado um grande número de mensagens multimédia. Está de acordo?"</string>
+    <string msgid="5722226064394767921" name="message_download_failed_title">"Mensagem não transferida"</string>
+    <string msgid="3469894907399046372" name="message_send_failed_title">"Mensagem não enviada"</string>
+    <string msgid="2740907094762116644" name="message_failed_body">"Seleccione para rever a mensagem e tente novamente."</string>
+    <string msgid="4486286146421650880" name="download_later">"De momento não é possível transferir as mensagens. Tente novamente mais tarde."</string>
+    <string msgid="505932916503312015" name="no_apn">"Não existe um APN especificado no dispositivo."</string>
+    <string msgid="3120822451872772124" name="select_audio">"Seleccionar áudio"</string>
+    <string msgid="757028609638184856" name="copy_to_sdcard">"Guardar anexo"</string>
+    <string msgid="6940309183311068648" name="copy_to_sdcard_success">"Anexo guardado"</string>
+    <string msgid="4209780336940754675" name="copy_to_sdcard_fail">"Não é possível guardar anexo"</string>
+    <string msgid="2310157075045201051" name="save_ringtone">"Guardar como toque"</string>
+    <string msgid="6616730290861857836" name="saved_ringtone">"Toque guardado"</string>
+    <string msgid="5447210504935083544" name="saved_ringtone_fail">"Falha ao guardar o toque"</string>
+    <string msgid="4964504393061025071" name="menu_insert_smiley">"Inserir sorriso"</string>
+    <string msgid="4288356090262299071" name="menu_group_participants">"Participantes do grupo"</string>
+    <string msgid="600168208731216059" name="select_link_title">"Seleccionar acção"</string>
+    <string msgid="1923958526266726635" name="slide_number">"Diapositivo 
+        <xliff:g id="NUMBER">%s</xliff:g>"
+    </string>
+  <plurals name="slide_duration">
+    <item msgid="1654101988340583935" quantity="one">" 
+            <xliff:g id="NUMBER">%s</xliff:g> seg"
+        </item>
+    <item msgid="7887190171856293871" quantity="few">" 
+            <xliff:g id="NUMBER">%s</xliff:g> seg"
+        </item>
+    <item msgid="3736425355579939863" quantity="other">" 
+            <xliff:g id="NUMBER">%s</xliff:g> seg"
+        </item>
+  </plurals>
+    <string msgid="2957463094232916364" name="delivery_report_activity">"Relatório de entrega"</string>
+    <string msgid="8810530813311077716" name="storage_limits_activity">"Limites de armazenamento"</string>
+    <string msgid="7048606979485031693" name="change_duration_activity">"Alterar a duração"</string>
+    <string msgid="8751493388760050529" name="edit_slideshow_activity">"Editar apresentação de diapositivos"</string>
+    <string msgid="1254938236543727019" name="recipient_list_activity">"Participantes do grupo"</string>
+    <string msgid="8752829671778696983" name="edit_slide_activity">"Editar diapositivo"</string>
+    <string msgid="5658249461317434432" name="slideshow_activity">"Apresentação de diapositivos"</string>
+    <string msgid="8474176218999130627" name="class_0_message_activity">"Mensagem de classe 0"</string>
+    <string msgid="6042598929386174964" name="search_label">"Mensagens"</string>
+    <string msgid="7183732852849365466" name="search_hint">"Pesquisar mensagens"</string>
+    <string msgid="7560238620274735199" name="search">"Mensagens"</string>
+    <string msgid="4104004595086437572" name="search_setting_description">"Texto nas mensagens"</string>
+    <string msgid="645052646985297065" name="search_empty">"Sem correspondência"</string>
+  <plurals name="search_results_title">
+    <item msgid="4657073733087431350" quantity="one">" 
+            <xliff:g id="NUMBER">%1$s</xliff:g> resultado(s) para \" 
+            <xliff:g id="SEARCH">%2$s</xliff:g>\""
+        </item>
+    <item msgid="6196382287749539209" quantity="other">" 
+            <xliff:g id="NUMBER">%1$s</xliff:g> resultados para \" 
+            <xliff:g id="SEARCH">%2$s</xliff:g>\""
+        </item>
+  </plurals>
+    <string msgid="4127805495662693154" name="search_history">" 
+        <xliff:g id="COUNT">%1$s</xliff:g> resultados para \" 
+        <xliff:g id="SEARCH">%2$s</xliff:g>\""
+    </string>
+    <string msgid="8510295993632032904" name="confirm_clear_search_title">"Limpar"</string>
+    <string msgid="8731877031837077478" name="confirm_clear_search_text">"O histórico de pesquisas será limpo."</string>
+    <string msgid="6159758850628148164" name="pref_mms_clear_search_history_title">"Limpar histórico de pesquisas"</string>
+    <string msgid="7960005384066460035" name="pref_mms_clear_search_history_summary">"Limpar pesquisas de Mensagens anteriores para não aparecerem na caixa de Pesquisa"</string>
+    <string msgid="6847069284991531310" name="save">"Guardar"</string>
+    <string msgid="7074684882530693016" name="storage_limits_title">"Limitar mensagens"</string>
+    <string msgid="8729608389698270388" name="storage_limits_message">"Pretende limitar o número de mensagens a guardar por conversa?"</string>
+    <string msgid="4952781049308537373" name="storage_limits_setting">"Definir limites"</string>
+    <string msgid="1433841310158458034" name="storage_limits_setting_dismiss">"Sem limites"</string>
+    <string msgid="8005932837414848242" name="too_many_unsent_mms">"Não é possível enviar a mensagem neste momento. Existem demasiadas mensagens multimédia por enviar."</string>
+    <string msgid="2054406576361149715" name="sending_message">"A ENVIAR..."</string>
+    <string msgid="650087588867628044" name="pick_too_many_recipients">"Demasiados destinatários"</string>
+    <string msgid="2962810172527532357" name="adding_recipients">"A adicionar destinatários..."</string>
+    <string msgid="5402575086540243019" name="draft_separator">", "</string>
+    <string msgid="4434763220590778012" name="message_count_format">"  
+        <xliff:g id="NUMBER">%1$s</xliff:g>"
+    </string>
+    <string msgid="3629968600032690007" name="message_count_notification">" 
+        <xliff:g id="NUMBER">%1$s</xliff:g> novas mensagens"
+    </string>
+  <plurals name="message_count_notification_overflow">
+    <item msgid="3340591167508150806" quantity="one">"+ 
+            <xliff:g id="NUMBER">%1$s</xliff:g> outra mensagem"
+        </item>
+    <item msgid="1393002799298501480" quantity="other">"+ 
+            <xliff:g id="NUMBER">%1$s</xliff:g> outras mensagens"
+        </item>
+  </plurals>
+    <string msgid="5177386717626893507" name="error_state">"Estado inconsistente"</string>
+    <string msgid="7918866106335387710" name="error_state_text">"O estado dos tópicos e dos destinatários é inconsistente. Capture um relatório de erros e comunique-o através de http://go/droidanizer"</string>
+  <plurals name="recipient_count">
+    <item msgid="7338580381574463136" quantity="other">"<xliff:g id="NUMBER">%1$s</xliff:g> pessoas"</item>
+  </plurals>
+    <string msgid="7275920132410734671" name="view_more_conversations">"Ver mais conversas"</string>
+    <string msgid="2867960243300539143" name="attachment_audio">"Áudio"</string>
+    <string msgid="5867689101881763318" name="attachment_slideshow">"Apresentação de Diapositivos"</string>
+    <string msgid="4252062022156694591" name="attachment_video">"Vídeo"</string>
+    <string msgid="3709286281567284296" name="attachment_picture">"Imagem"</string>
+    <string msgid="2334673105226536422" name="notification_separator">" "</string>
+    <string msgid="213598026698964628" name="enumeration_comma">", "</string>
+    <string msgid="4188999027493614617" name="message_timestamp_format">" 
+        <xliff:g id="STRING_0">%1$s</xliff:g> - 
+        <xliff:g id="STRING_1">%2$s</xliff:g>"
+    </string>
+    <string name="delivered_label">Entregue:\u0020</string>
+
+    <plurals name="notification_multiple">
+        <item quantity="one">%d mensagem não lida.</item>
+        <item quantity="other">%d mensagens não lidas.</item>
+    </plurals>
+    <string msgid="7124740686325942375" name="storage_warning_title">"A memória do seu telemóvel está cheia"</string>
+    <string msgid="1100367816649962354" name="storage_warning_content">"Não vai receber mensagens SMS/MMS novas"</string>
+    <string msgid="3395185162973061099" name="label_mms_send_outbox_msg">"Ativação de MMS"</string>
+    <string msgid="1837156781311437148" name="desc_mms_send_outbox_msg">"Envia todas as MMSs da caixa de saída para a rede"</string>
+    <string msgid="510014388581481569" name="banner_sms_promo_title_initial">"Mensagens não é a sua aplicação de SMS"</string>
+    <string msgid="8123569785369713254" name="banner_sms_promo_title_application">" 
+        <xliff:g id="APPNAME">%s</xliff:g> é a sua aplicação de SMS"
+    </string>
+    <string msgid="3536714414252763826" name="banner_sms_promo_message">"Pode alterar esta opção nas Definições"</string>
+    <string msgid="113810998029698558" name="banner_sms_promo_decline">"Não, obrigado"</string>
+    <string msgid="713438608462912462" name="banner_sms_promo_accept">"Sim!"</string>
+    <string name="save_attachment">"Guardar anexo"</string>
+    <string name="file_attachment_common_name">Ficheiro múltiplo ( 
+        <xliff:g id="text">%s</xliff:g>)
+    </string>
+    <string name="file_attachment_contains">contém</string>
+    <string name="file_attachment_files">ficheiros</string>
+    <string name="save_multi_attachment_notes">Este ficheiros múltiplo contém vários ficheiros. Verificar e guardar os ficheiros?</string>
+    <string name="save_single_attachment_notes">O formato do ficheiro na MMS não é suportado. Guardar no Filemanager?</string>
+    <string name="multi_files">Ficheiros múltiplos</string>
+    <string name="save_single_supportformat_attachment_notes">Guardar no Filemanager?</string>
+
+<string name="prefDialogTitle_vibrateWhen">Vibrar</string>
+    <string name="menu_delete_all_messages">Eliminar todas as mensagens</string>
+    <string name="cell_broadcast">Difusão celular</string><!--add by wangjing3 for HQ01823169 20160403--><!--modify by liujia5 for HQ01823169 20160427-->
+    <string name="cell_broadcast_title">Definições de difusão celular do cartão SIM</string>
+    <string name="cell_broadcast_settings">Definições de difusão celular do cartão SIM</string>
+    <string name="menu_insert_quick_text">Inserir texto rápido</string>
+    <string name="select_quick_text">Selecionar texto rápido</string>
+    <string name="add">"Adicionar"</string>
+    <string name="quick_text_editor">Editar texto rápido</string>
+    <string name="modify_successful">Modificado com êxito</string>
+    <string name="modify_unsuccessful">Modificação sem sucesso!</string>
+    <string name="delete_successful">Eliminar com êxito</string>
+    <string name="delete_unsuccessful">Eliminação sem sucesso!</string>
+    <string name="add_quick_text_successful">Texto rápido adicionado com êxito</string>
+    <string name="already_have_quick_text">Você já possui este texto rápido!</string>
+    <string name="exceed_editor_size_limitation">Limite de texto atingido.</string>
+    <string name="add_top_slide">Adicionar para topo</string>
+    <string name="add_bottom_slide">Adicionar para fundo</string>
+    <string name="pref_sms_signature">Assinatura</string>
+<string name="pref_sms_enable_signature">Activar assinatura</string>
+<string name="pref_sms_enable_signature_summary">Adicionar uma assinatura personalizada às mensagens</string>
+<string name="pref_sms_personal_signature">Editar assinatura</string>
+<string name="pref_sms_personal_signature_summary">Conteúdo da assinatura</string>
+<string name="dialog_signatrue_title">Introduzir assinatura</string>
+<string name="default_signature">Enviado do meu Huawei</string>
+<string name="menu_resend">Reenviar</string>
+<string name="menu_slect_all">Selecionar tudo</string>
+<string name="sim_no_service">Sem serviço</string>
+    <string name="send_empty_message_title">Enviar mensagem </string>
+    <string name="send_empty_message_alert">Enviar uma mensagem de vazio?</string> 
+    <string name="send_empty_message_yes">Confirme</string>  
+    <string name="send_empty_message_no">cancelar</string> 
+    <string name="Prohibit_Send">O envio de mensagens é limitado no modo criança</string>
+<string name="Prohibit_delete">A eliminação de mensagens é limitada no modo criança</string>
+<string name="mms_deliver_failed">Falha ao enviar mensagem multimédia. Verifique as suas definições de rede ou número de destinatário</string>
+<string name="menu_blacklist">Filtro de assédio</string>
+<string name="black_list_manager_exception">Gestor do Telefone não encontrado. Instale-o antes de utilizar esta funcionalidade.</string>
+<string name="more_menu">Menu</string>
+<string name="vcard_text">Texto</string>
+<string name="vcard_mms">Frases comuns</string>
+<string name="attach_subjects">Assunto</string>
+<string name="attach_common_phrases">Frases</string>
+<string name="btn_call">Ligar</string>
+<string name="menu_add_to_black_list">Adicionar a lista de Bloqueio</string>
+<string name="add_to_black_list">Adicionado a números bloqueados</string>
+<string name="menu_remove_from_black_list">Remover das aplicações bloqueados</string>
+<string name="remove_from_black_list">Removido dos números bloqueados</string>
+<string name="system_notification_tone">Toque de notificações do sistema</string>
+<string name="signatrue_limit_toast">Limite de texto atingido.</string>
+<string name="message_has_sent_success">"Enviada"</string>
+    <string name="message_has_been_received">"Entregue"</string>
+     <string name="invalid_recipient">"Destinat. inválido:&lt;<xliff:g id="NAME">%1$s</xliff:g>&gt;"</string>
+</resources>

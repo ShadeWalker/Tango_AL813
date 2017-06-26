@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title"> شورمیں کمی</string>
+    <string name="dual_mic_summary">کال کے دوران اپنے پس منظر کے شور کو دبائیں</string>
+    <string name="anc_title">آواز میں کمی کو فعال کریں</string>
+    <string name="anc_on">ANC آن</string>
+    <string name="anc_off">ANC آف</string>
+    <string name="ip_prefix_setting">IP سابفے کا نمبر</string>
+    <string name="ip_prefix_setting_lable">IP سابفے کا نمبر (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">IP سابقے کے نمبر کی ترتیبات</string>
+    <string name="enter_ip_prefix_number">سابقے کا نمبر درج کریں</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">برائے مہربانی وائس کال ترتیبات میں IP سابقے کا نمبر پہلے درج کریں۔</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">مطلوبہ کال کے لئے IP ڈائل کا فنکشن قابل اطلاق نہيں</string>
+    <string name="ip_prefix_edit_default_sum">IP ڈائل کرنے کے لئے سابقے کا نمبر درج کریں</string>
+    <string name="lable_call_barring">"کال میں رکاوٹ"</string>
+    <string name="title_call_barring">کال میں رکاوٹ (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">تمام باہر جانے والی کالیں</string>
+    <string name="lable_all_outgoing_international">بین الاقوامی باہر جانے والی کاليں</string>
+    <string name="lable_all_out_except">ہوم PLMN کے علاوہ بین الاقوامی باہر جانے والی کالیں</string>
+    <string name="lable_all_incoming">تمام آنے والی کالیں</string>
+    <string name="lable_incoming_calls_except">گشت کے دوران آنے والی کاليں</string>
+    <string name="deactivate_all">تمام منسوخ کریں</string>
+    <string name="change_password">بندش کا پاس ورڈ تبدیل کریں</string>
+    <string name="call_barring_sum">وائس کال بندش کی ترتیبات</string>
+    <string name="lable_disable">غیرفعال</string>
+    <string name="lable_enable">فعال</string>
+    <string name="old_password_label">پرانا پاس ورڈ (4 نمبر)</string>
+    <string name="new_password_label">نیا پاس ورڈ (4 نمبر)</string>
+    <string name="invalid_password">ایک ایسا پاس ورڈ لکھیں جو 4 ہندسوں کا ہو۔</string>
+    <string name="confirm_password_label">نئے پاس ورڈ کی تشکیل کریں</string>
+    <string name="mismatch_password">آپ کا درج کردہ پاسورڈ میل نہیں کھا رہا۔ براہ کرم دوبارہ کوشش کریں۔</string>
+    <string name="password_changed">پاس ورڈ کامیاب طور پر تبدیل کیا گيا</string>
+    <string name="enter_callbarring_password">کال بندش کا پاس ورڈ درج کریں (4 نمبر)</string>
+    <string name="wrong_password">پاس ورڈ کی غلطی</string>
+    <string name="error_title">"خرابی"</string>
+    <string name="cell_broadcast">سیل کی نشریات</string>
+    <string name="cell_broadcast_settings">سیل براڈکاسٹ کی ترتیبات</string>
+    <string name="cb_menu_language">"زبان"</string>
+    <string name="cb_menu_add_channel">چینل کا اضافہ کریں</string>
+    <string name="cb_menu_channel_list">چینل کی فہرست</string>
+    <string name="cb_dialog_title_language_choice">زبان منتخب کریں</string>
+    <string name="cb_channel_dialog_channel_name">چینل کا نام (0 سے 10 حروف)</string>
+    <string name="cb_channel_dialog_channel_number">چینل نمبر (0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">چینل فعال کریں</string>
+    <string name="cb_channel_dialog_edit_channel">چینل میں ترمیم کریں</string>
+    <string name="cb_menu_edit">"ترمیم کریں"</string>
+    <string name="cb_menu_delete">"حذف کریں"</string>
+    <string name="cb_error_channel_num">براہ کرم چینل نمبر درج کریں(0-65534)۔</string>
+    <string name="cb_error_channel_name">چینل کے نام کی لمبائی صحیح نہيں ہے (1- 10 کریکٹر)۔</string>
+    <string name="cb_error_language_select">برائے مہربانی کم از کم ایک زبان منتخب کریں۔</string>
+    <string name="cb_error_channel_id_exist">چینل کی id موجود ہے۔</string>
+    <string name="cb_all_languages">تمام زبانیں</string>
+    <string name="cb_default_new_channel_name">نیا چینل</string>
+    <string name="fdn_errorcode_unknown_info">ناکام، نامعلوم غلطی واقع ہوئی، برائے مہربانی بعد میں کوشش کریں۔</string>
+    <string name="fdn_errorcode_number_info">ناکام، رابطے کے نمبر کی لمبائی بہت زيادہ ہے۔</string>
+    <string name="fdn_errorcode_name_info">ناکام، رابطے کے نام کی لمبائی بہت زيادہ ہے۔</string>
+    <string name="fdn_errorcode_storage_info">ناکام، ذخيرہ بھر گيا ہے۔</string>
+    <string name="fdn_errorcode_phb_info">ناکام، فون بک اس وقت تیار نہيں ہے، برائے مہربانی بعد میں کوشش کریں۔</string>
+    <string name="fdn_errorcode_pin2_info">ناکام، ناجائز PIN2۔</string>
+    <string name="net_or_simcard_busy">نیٹورک یا SIM کارڈ مصروف ہے، برائے مہربانی بعد میں کوشش کریں۔</string>
+    <string name="plmn_list_setting_title">ترجیحی نیٹ ورکس</string>
+    <string name="network_id">نیٹ ورک کی شناخت</string>
+    <string name="plmn_list_setting_add_plmn">نیا PLMN</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">تلاش…</string>
+    <string name="sum_search_femtocell_networks"> femtocell کو دستی طور پر منتخب کریں</string>
+    <string name="register_femtocell_point_wait_tip"><xliff:g id="femto_cell_info">%s</xliff:g> کو رجسٹر کررہا ہے…</string>
+    <string name="register_femtocell_point_result_fail_tip">ابھی اس نیٹ ورک سے نہیں جڑ سکتا۔ بعد میں دوبارہ کوشش کریں۔</string>
+    <string name="network_type">نیٹورک کی قسم</string>
+    <string name="gsm_umts_network_preferences_title">نیٹورک وضع</string>
+    <string name="gsm_umts_network_preferneces_summary">اب تک عملدرآمد نہیں!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">نیٹورک وضع</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G (خودکار وضع)</item>
+        <item>3G صرف</item>
+        <item>2G صرف</item>
+    </string-array>
+    <string name="notification_voicemail_text">صوتی میلز دیکھنے کے لیے منتخب کریں</string>
+    <string name="notification_network_selection_without_operator">منتخب نیٹ ورک دستیاب نہیں ہے</string>
+    <string name="network_setting_all_forbidden_dialog">کوئی نیٹ ورک دستیاب نہیں ہے</string>
+    <string name="network_forbidden">غیرفعال کریں</string>
+    <string name="fdn_contact_number_invalid">غلط رابطے کا نمبر۔</string>
+    <string name="fdn_puk_need_tips">PIN2 مسدود ہوگیا۔ براہ کرم PIN2 تبدیل کریں اورپھر کوشش کریں!</string>
+    <string name="fdn_phone_book_busy">فون بک اس وقت مصروف ہے، بعد میں کوشش کریں۔</string>
+    <string name="one_retry_left">1 کوشش باقی ہے</string>
+    <string name="retries_left"><xliff:g id="number">%d</xliff:g> کوششیں باقی</string>
+    <string name="pin_length_indicate">(4-8 عدد)</string>
+    <string name="puk_length_indicate">(8 عدد)</string>
+    <string name="unblock_pin2">PIN2 ان بلاک کرنا</string>
+    <string name="sim_permanently_locked">غلط PUK2 کوڈ 10 سے زيادہ دفعہ درج کیا گیا ہے۔ SIM کارڈ کو مستقل طور پر مقفل کیا گيا ہے</string>
+    <string name="magi_conference_title">میجک کانفرنس</string>
+    <string name="magi_conference_summary">جب دوسری جانب سے متعدد لوگ بات کرنے کے لیے فون استعمال کرتے ہیں تو یہ آواز کی کوالٹی کو بہتربناتا ہے۔</string>
+    <string name="volte_is_adding_participants">کانفرنس ممبر (ممبران) کو شامل کرنا، براہ کرم انتظار کریں…</string>
+    <string name="volte_fail_to_invit_participants">سبھی ممبران کو کانفرنس میں شامل کرنے میں ناکام۔</string>
+    <string name="voicemail_lable">صوتی میل (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">عمل کو مکمل کرنے کے لیے، آپ کو<xliff:g id="sub_name">%s</xliff:g> کا ڈیٹا کنکشن کھولنا ہوگا۔</string>
+    <string name="cdma_labelCFU">ہمیشہ آگے بڑھائيں</string>
+    <string name="cdma_labelCFB">مصروف ہونے پر آگے بڑھایا ہے</string>
+    <string name="cdma_labelCFNRy">جواب نہ ملنے پر آگے بڑھائيں</string>
+    <string name="cdma_labelCFNRc">رابطہ نہ ہونے پر آگے بڑھائيں</string>
+    <string name="cdma_labelCFC">آگے کو سبھی منتقلی منسوح کریں</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">کال کنندہ کے نمبر کی شناخت کی پابندی غیر فعال کریں</string> 
+    <string name="cdma_cnir_turnon">کال کنندہ کے نمبر کی شناخت کی پابندی فعال کریں</string>
+    <string name="lte_data_only_prompt">صرف 4G ڈیٹا موڈ کے سبب اس خصوصیت کو استعمال نہیں کیا جاسکتا۔ کیا آپ صرف 4G ڈیٹا والے موڈ سے نکلنا چاہتے ہیں؟</string>
+    <string name="lte_data_only_timeout">آپ کے موجودہ مقام پر کوئی صرف 4G ڈیٹا نیٹ ورک دستیاب نہیں ہے، کیا آپ باہر نکلنا اور دوسرے نیٹ ورکس کی تلاش کرنا چاہتے ہیں؟</string>
+    <string name="lte_only_dialog_button_yes">"ہاں"</string>
+    <string name="lte_only_dialog_button_no">"نہیں"</string>
+    <string name="lte_only_dialog_title_prompt">پوچھیں</string>
+    <string name="enable_4G_data"> 4G ڈیٹا فعال کریں</string>
+    <string name="enable_4G_data_summary">4G بہتر اور تیز ترین انٹرنیٹ رسائی فراہم کرسکتا ہے</string>
+    <string name="only_use_LTE_data">صرف LTE ڈیٹا استعمال کریں</string>
+    <string name="only_use_LTE_data_summary">صرف واحد ڈیٹا کا استعمال اہل کرنے کے لیے، فنکشن فون کال اور متنی پیغامات استعمال کرنے کے قابل نہیں ہوگا۔</string>
+</resources>

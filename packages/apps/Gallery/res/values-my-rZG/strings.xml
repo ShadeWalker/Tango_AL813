@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="all_images">ပံုမ်ားအားလံုး</string>
+    <string name="all_videos">ဗီြဒီယိုမ်ားအားလံုး</string>
+    <string name="camera_label">ကင္မရာ</string>
+    <string name="gallery_picker_label">စကားေျပာထားသည့္ မွတ္တမ္း အားလံုးအား ဤစကားေျပာခန္းမွ ရွင္းလင္းမည္</string>
+    <string name="gallery_label">စကားေျပာထားသည့္ မွတ္တမ္း အားလံုးအား ဤစကားေျပာခန္းမွ ရွင္းလင္းမည္</string>
+    <string name="gallery_camera_bucket_name">ကင္မရာ႐ုပ္ပံုမ်ား</string>
+    <string name="gallery_camera_videos_bucket_name">ကင္မရာဗီဒီယိုမ်ား</string>
+    <string name="gallery_camera_media_bucket_name">ကင္မရာမီဒီယာ</string>
+    <string name="crop_label">႐ုပ္ပံုကို ျဖတ္ေတာက္ပါ</string>
+    <string name="view_label">႐ုပ္ပံုၾကည့္ပါ</string>
+    <string name="preferences_label">ကင္မရာ အဆင္အျပင္မ်ား</string>
+    <string name="wait">ေစာင့္ဆိုင္းပါ\u2026</string>
+    <string name="no_storage" product="nosdcard">ကင္မရာကို အသံုးမျပဳမီ ေဝမွ်ထားေသာ သိုေလွာင္ေနရာကို တင္ရန္ လိုအပ္သည္။</string>
+    <string name="no_storage" product="default">ကင္မရာကို အသံုးမျပဳမီ SD ကဒ္တစ္ခုကို ထည့္ရန္ လိုအပ္သည္။</string>
+    <string name="not_enough_space" product="nosdcard">သင္၏ေဝမွ်ထားေသာ သိုေလွာင္ေနရာ ျပည့္ေနၿပီ။</string>
+    <string name="not_enough_space" product="default">သင္၏ SD ကတ္ သိုေလွာင္ျခင္း ျပည့္ေနသည္။</string>
+    <string name="preparing_sd" product="nosdcard">ေဝမွ်ထားေသာ သိုေလွာင္ေနရာကို ျပင္ဆင္ေနသည္\u2026</string>
+    <string name="preparing_sd" product="default">SD ကဒ္ ျပင္ဆင္ေနဆဲ\u2026</string>
+    <string name="wallpaper">ေဝါလ္ေပပါထားရွိဆဲ\u2026</string>
+    <string name="savingImage">႐ုပ္ပံုကို သိမ္းဆည္းေနဆဲ\u2026</string>
+    <string name="runningFaceDetection">ေစာင့္ဆိုင္းပါ\u2026</string>
+    <string name="view">ၾကည့္ပါ</string>
+    <string name="details">အေသးစိတ္</string>
+    <string name="show_on_map">ေျမပံုမ်ားေပၚတြင္ ျပပါ</string>
+    <string name="rotate">လွည့္ပါ</string>
+    <string name="rotate_left">ဘယ္ဘက္သို႔လွည့္ပါ</string>
+    <string name="rotate_right">ညာဘက္သို႔လွည့္ပါ</string>
+    <string name="slide_show">ဆလိုက္႐ိႈး</string>
+    <string name="multiselect">မ်ဳိးစံုေရြးခ်ယ္မႈ</string>
+    <string name="capture_picture">ဓာတ္ပံု႐ိုက္ပါ</string>
+    <string name="capture_video">ဗီဒီယို႐ိုက္ပါ</string>
+    <string name="crop_save_text">သိမ္းဆည္းပါ</string>
+    <string name="crop_discard_text">ျဖဳတ္ခ်ပါ</string>
+    <string name="confirm_delete_title">ဖ်က္ပါ</string>
+    <string name="confirm_delete_message">ဤပံုကုိ ဖ်က္မလား။</string>
+    <string name="confirm_delete_video_message">ဤဗီြဒီယိုကုိ ဖ်က္မလား။</string>
+    <string name="confirm_delete_multiple_message">ဤမီဒီယာဖိုင္မ်ားကုိ ဖ်က္မလား။</string>
+    <string name="camera_toss">ဖ်က္ပါ</string>
+    <string name="camera_share">ေဝမွ်ပါ</string>
+    <string name="camera_set">အျဖစ္ထားရွိပါ</string>
+    <string name="camera_play">ဖြင့္သည္</string>
+    <string name="camera_attach">ပူးတြဲပါ</string>
+    <string name="camera_cancel">မလုပ္ပါ</string>
+    <string name="camera_crop">ျဖတ္ေတာက္ပါ</string>
+    <string name="no_way_to_share_image">ပံုကို ေဝမွ်ရန္ ပ႐ိုဂရမ္ မရရွိႏိုင္ပါ။</string>
+    <string name="no_way_to_share_video">ဗီြဒီယိုကို ေဝမွ်ရန္ ပ႐ိုဂရမ္ မရရွိႏိုင္ပါ။</string>
+    <string name="no_way_to_share">မီဒီယာဖိုင္(မ်ား)ကို ေဝမွ်ရန္ ပ႐ိုဂရမ္ မရရွိႏိုင္ပါ။</string>
+    <string name="video_play">ဖြင့္သည္</string>
+    <string name="camera_pick_wallpaper">႐ုပ္ပံုမ်ား</string>
+    <string name="camera_setas_wallpaper">ေဝါလ္ေပပါ</string>
+    <string name="pref_gallery_category">စကားေျပာထားသည့္ မွတ္တမ္း အားလံုးအား ဤစကားေျပာခန္းမွ ရွင္းလင္းမည္</string>
+    <string name="pref_slideshow_category">ဆလိုဒ္႐ိႈး အဆင္အျပင္မ်ား</string>
+    <string name="pref_gallery_size_title">ျပသမႈအရြယ္အစား</string>
+    <string name="pref_gallery_size_summary">ပံုမ်ားႏွင့္ ဗီြဒီယိုမ်ား၏ ျပသမည့္အရြယ္အစားကို ေရြးပါ</string>
+    <string name="pref_gallery_size_dialogtitle">႐ုပ္ပံုအရြယ္အစား</string>
+    <string-array name="pref_gallery_size_choices">
+        <item>ႀကီး</item>
+        <item>ေသးငယ္</item>
+    </string-array>
+    <string name="pref_gallery_sort_title">စီမည့္အစီအစဥ္</string>
+    <string name="pref_gallery_sort_summary">ပံုမ်ားႏွင့္ ဗီြဒီယိုမ်ား၏ စီမည့္ အစီအစဥ္ကို ေရြးပါ</string>
+    <string name="pref_gallery_sort_dialogtitle">ပံုမ်ားကို စီျခင္း</string>
+    <string-array name="pref_gallery_sort_choices">
+        <item>အသစ္ဆံုးထဲမွ ပထမဆံုး</item>
+        <item>အသစ္ဆံုးထဲမွ ေနာက္ဆံုး</item>
+    </string-array>
+    <string name="pref_gallery_slideshow_interval_title">ဆလိုဒ္႐ိႈးျပသမည့္ ၾကာခ်ိန္</string>
+    <string name="pref_gallery_slideshow_interval_summary">ဆလိုဒ္တစ္ခုစီကို အခ်ိန္မည္မွ်ၾကာ ျပသမည္ကို ေရြးပါ</string>
+    <string name="pref_gallery_slideshow_interval_dialogtitle">ဆလိုဒ္႐ိႈးျပသမည့္ ၾကာခ်ိန္</string>
+    <string-array name="pref_gallery_slideshow_interval_choices">
+        <item>၂ စကၠန္႔</item>
+        <item>၃ စကၠန္႔</item>
+        <item>၄ စကၠန္႔</item>
+    </string-array>
+    <string name="pref_gallery_slideshow_transition_title">ဆလိုဒ္႐ိႈးတစ္ခုမွတစ္ခုသို႔ကူးေျပာင္းျခင္း</string>
+    <string name="pref_gallery_slideshow_transition_summary">ဆလိုဒ္တစ္ခုမွ အျခားတစ္ခုသို႔ ေရြ႕လ်ားေသာအခါ အသံုးျပဳမည့္သက္ေရာက္မႈကို ေရြးပါ</string>
+    <string name="pref_gallery_slideshow_transition_dialogtitle">ဆလိုဒ္႐ိႈးတစ္ခုမွတစ္ခုသို႔ကူးေျပာင္းျခင္း</string>
+    <string-array name="pref_gallery_slideshow_transition_choices">
+        <item>မိွန္ေနရာမွလင္းလာျခင္း</item>
+        <item>ဘယ္မွ ညာသို႔ ေရြ႕သြားပါ</item>
+        <item>အေပၚမွ ေအာက္သို႔ ေရြ႕သြားပါ</item>
+        <item>က်ပမ္းေရြးခ်ယ္မႈ</item>
+    </string-array>
+    <string name="pref_gallery_slideshow_repeat_title">ဆလုိဒ္႐ိႈးကို ထပ္ဖြင့္ပါ</string>
+    <string name="pref_gallery_slideshow_repeat_summary">ဆလုိဒ္႐ိႈး တစ္ခုထက္မက ဖြင့္ပါ</string>
+    <string name="pref_gallery_slideshow_shuffle_title">ဆလိုဒ္မ်ားကို ဖလွယ္ပါ</string>
+    <string name="pref_gallery_slideshow_shuffle_summary">ပံုမ်ားကို က်ပမ္းအစီအစဥ္ျဖင့္ ျပပါ</string>
+    <string name="camerasettings">အျပင္အဆင္မ်ား</string>
+    <string name="image_gallery_NoImageView_text">မီဒီယာ မေတြ႕ပါ။</string>
+    <string name="pref_gallery_confirm_delete_title">ဖ်က္ထားသည္မ်ားကို အတည္ျပဳပါ</string>
+    <string name="pref_gallery_confirm_delete_summary">ပံု သို႔မဟုတ္ ဗြီဒီယိုတစ္ခုကို မဖ်က္မီ အတည္ျပဳခ်က္ကို ျပပါ</string>
+    <string name="no_location_image">ဤပံုကို သိမ္းဆည္းထားေသာ တည္ေနရာ သတင္းအခ်က္အလက္ မရွိပါ။</string>
+    <string name="details_panel_title">အေသးစိတ္</string>
+    <string name="details_file_size">ဖိုင္အရြယ္အစား -</string>
+    <string name="details_image_resolution">ပံုရိပ္ျပတ္သားမႈ-</string>
+    <string name="details_image_make">ထုတ္လုပ္သူ</string>
+    <string name="details_image_model">ေမာ္ဒယ္ -</string>
+    <string name="details_image_whitebalance">WhiteBalance-</string>
+    <string name="details_image_latitude">GPS လတၱီက်ဳ-</string>
+    <string name="details_image_longitude">GPS ေလာင္ဂ်ီက်ဳ-</string>
+    <string name="details_image_location">တည္ေနရာ -</string>
+    <string name="details_duration">ၾကာခ်ိန္ -</string>
+    <string name="details_date_taken">႐ိုက္ယူခဲ့ေသာရက္စြဲ-</string>
+    <string name="details_frame_rate">ဖရိမ္ ႏႈန္း -</string>
+    <string name="details_bit_rate">ဘစ္ ႏႈန္း-</string>
+    <string name="details_codec">ကိုဒက္-</string>
+    <string name="details_format">ပံုစံ-</string>
+    <string name="details_dimension_x"><xliff:g id="width" example="640">%1$d</xliff:g> x <xliff:g id="height" example="480">%2$d</xliff:g></string>
+    <string name="details_ms"><xliff:g id="minutes" example="1">%1$02d</xliff:g>:<xliff:g id="seconds" example="23">%2$02d</xliff:g></string>
+    <string name="details_hms"><xliff:g id="hours" example="1">%1$d</xliff:g>:<xliff:g id="minutes" example="43">%2$02d</xliff:g>:<xliff:g id="seconds" example="33">%3$02d</xliff:g></string>
+        <string name="details_fps"><xliff:g id="frames" example="30">%1$d</xliff:g> fps</string>
+    <string name="details_kbps"><xliff:g id="speed" example="192">%1$d</xliff:g> Kbps</string>
+    <string name="details_mbps"><xliff:g id="speed" example="2.3">%1$g</xliff:g> Mbps</string>
+    <string name="details_ok">အိုေက</string>
+    <string name="context_menu_header">ပံု ေရြးခ်ယ္စရာမ်ား</string>
+    <string name="video_context_menu_header">ဗြီဒီယို ေရြးခ်ယ္စရာမ်ား</string>
+    <string name="multiface_crop_help">စတင္ရန္ မ်က္ႏွာကို ထိပါ</string>
+    <string name="photos_gallery_title">စကားေျပာထားသည့္ မွတ္တမ္း အားလံုးအား ဤစကားေျပာခန္းမွ ရွင္းလင္းမည္</string>
+    <string name="pick_photos_gallery_title">ပံုကို ေရြးပါ</string>
+    <string name="videos_gallery_title">စကားေျပာထားသည့္ မွတ္တမ္း အားလံုးအား ဤစကားေျပာခန္းမွ ရွင္းလင္းမည္</string>
+    <string name="pick_videos_gallery_title">ဗီြဒီယိုကို ေရြးပါ</string>
+    <string name="sendImage">မွတစ္ဆင့္ ႐ုပ္ပံုေဝမွ်မည္</string>
+    <string name="setImage">အျဖစ္ ႐ုပ္ပံုကိုထားရွိပါ</string>
+    <string name="sendVideo">မွတစ္ဆင့္ ဗီဒီယိုေဝမွ်မည္</string>
+    <string name="send_media_files">မွတဆင့္ မီဒီယာဖိုင္မ်ားကို ေဝမွ်ပါ</string>
+    <string name="movieviewlabel">႐ုပ္ရွင္မ်ား</string>
+    <string name="loading_video">ဗီဒီယိုဖြင့္ေနဆဲ\u2026</string>
+    <string name="resume_playing_title">ဗီဒီယိုေရာက္ရွိသည့္ေနရာမွဖြင့္ပါ</string>
+    <string name="resume_playing_message"><xliff:g id="duration" example="5:30">%s</xliff:g> မွ ဗီြဒီယိုဖြင့္ေနျခင္းကို ျပန္စမလား။</string>
+    <string name="resume_playing_resume">ျပန္ဖြင့္ျခင္း</string>
+    <string name="resume_playing_restart">အစမွျပန္စပါ</string>
+    <string name="gadget_title">႐ုပ္ပံုေဘာင္</string>
+    <string name="file_info_title">ဖိုင္ သတင္း အခ်က္အလက္ -</string>
+    <string name="video_exceed_mms_limit">သင္႐ိုက္ကူးထားေသာ ဗီြဒီယိုသည္ MMS မွတဆင့္ ပို႔ရန္ အရမ္းႀကီးေနသည္။ ႐ိုက္ကူးထားျခင္္းကို ပိုတိုေသာဗီြဒီယိုအပိုင္းတစ္ခုျဖစ္ေအာင္ ႀကိဳးစားပါ။</string>
+    <string name="multiselect_share">ေဝမွ်ပါ</string>
+    <string name="multiselect_delete">ဖ်က္ပါ</string>
+    <string name="multiselect_cancel">မလုပ္ပါ</string>
+    <string name="delete_images_message">ပံုမ်ားကို ဖ်က္ေနသည္\u2026</string>
+</resources>

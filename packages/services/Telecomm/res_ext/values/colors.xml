@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Settings screen should use the same colors as the Dialer -->
+    <color name="quick_response_settings_background_color">#f5f5f5</color>
+    <color name="dialer_theme_color">#0288d1</color>
+    <color name="dialer_theme_color_dark">#0277bd</color>
+    <!-- Background color of action bars.  Ensure this stays in sync with Dialer actionbar_background_color. -->
+    <color name="actionbar_background_color">@color/dialer_theme_color</color>
+    <!-- Action bar text color.  Ensure this stays in sync with Dialer actionbar_text_color. -->
+    <color name="quick_response_settings_actionbar_text_color">#FFFFFF</color>
+    <!-- Dark variant of the action bar color.  Ensure this stays in sync with Dialer version. -->
+    <color name="actionbar_background_color_dark">@color/dialer_theme_color_dark</color>
+    <!-- Color for icons in the actionbar. Ensure this stays in sync with Dialer version. -->
+    <color name="actionbar_icon_color">#ffffff</color>
+</resources>

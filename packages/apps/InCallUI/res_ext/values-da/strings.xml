@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dm_lock">DM låst</string>
+    <string name="dm_unlock">DM låst op</string>
+    <string name="start_record">Start optagelse</string>
+    <string name="stop_record">Stands optagelse</string>
+    <string name="str_db_playlist_name">"Mine optagelser"</string>
+    <string name="alert_device_error">"Der opstod en fejl på lydenhed"</string>
+    <string name="ext_media_badremoval_notification_title">"SD-kortet blev fjernet uventet"</string>
+    <string name="error_sdcard_access">"SD-kortet er ikke tilgængeligt"</string>
+    <string name="confirm_device_info_full">SD-kortet løber tør for plads. Optagelsen er gemt.</string>
+    <string name="confirm_save_info_saved">Optagelsen er gemt</string>
+    <string name="confirm_save_info_saved_to">Optagelsen er gemt på</string>
+    <string name="recording_saved_sd_full">SD-kortet løber tør for plads. Optagelsen er gemt.</string>
+    <string name="sd_not_enough">SD-kort er ved at være fyldt</string>
+    <string name="alert_dialog_dismiss">"Annuller"</string>
+    <string name="change_my_pic">Skift</string>
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">Læg alle på</string>
+    <string name="onscreenHangupHolding">Læg ventende på</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Læg på aktiv, besvar ventende</string>
+    <string name="menu_ect">Overfør</string>
+    <string name="respond_via_sms_confirmation_format">"Meddelelsen er sendt til 
+        <xliff:g id="PHONE_NUMBER">%s</xliff:g>."
+    </string>
+    <string name="volte_add_conference_member_title">Føj til konference</string>
+    <string name="add_member_msg">Indtast nummer eller navn</string>
+    <string name="card_title_incoming_conference">Konferenceinvitation</string>
+    <string name="addConferenceMemeberText">Tilføj medlem</string>
+    <string name="add_conference_member_limit">Kan kun tilføje ét nummer ad gangen.</string>
+    <string name="conference_member_join">
+<xliff:g id="member_name">%s</xliff:g> deltager i konferencen.</string>
+    <string name="conference_member_leave">
+<xliff:g id="member_name">%s</xliff:g> forlod konferencen.</string>
+    <string name="conference_member_adding">Tilføjer <xliff:g id="member_name">%s</xliff:g> ...</string>
+    <string name="conference_member_add_fail">Kunne ikke tilføje <xliff:g id="member_name">%s</xliff:g> .</string>
+    <string name="removeMember">"Fjern"</string>
+    <string name="memberStatus">"Status"</string>
+    <string name="volte_call_waiting_indication_text">Den anden er i et opkald. Vent...</string>
+    <string name="volte_conf_member_reach_max">Konferencen har allerede det maksimale antal medlemmer.</string>
+    <string name="add_multi_conference_member_limit">Kan kun tilføje <xliff:g id="max_number">%s</xliff:g> medlemmer på nuværende tidspunkt.</string>
+    <string name="multi_conference_member_adding">Tilføjer medlemmer...</string>
+<string name="ok">"OK"</string>
+<string name="two_incoming_calls">To indgående opkald</string>
+<string name="wifi_title">Wi-Fi-opkald og -minutter </string>
+<string name="call_drop">Dit opkald vil muligvis blive afbrudt</string>
+<string name="call_drop_message">Du er næsten uden for Wi-Fi-dækningens område</string>
+<string name="view_networks">Vis netværk</string>
+<string name="wfc_wifi_call_drop_summary">Ups! Du må have bevæget dig uden for dit Wi-Fi-netværk under et opkald.\n \nOpret forbindelse til dit Wi-Fi-netværk igen for at afslutte dit opkald?</string>
+</resources>

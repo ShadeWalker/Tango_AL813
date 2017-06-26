@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--&lt;!&ndash; All the style names modifications are made by guofeiyao &ndash;&gt;-->
+    <!-- -->
+    <!--&lt;!&ndash; Style for the call settings action bar.  Should be kept in sync with Dialer. &ndash;&gt;-->
+    <!--<style name="DialtactsActionBarStyle_hq" parent="android:Widget.Material.ActionBar">-->
+        <!--<item name="android:background">@color/actionbar_background_color</item>-->
+        <!--<item name="android:titleTextStyle">@style/DialtactsActionBarTitleText_hq</item>-->
+        <!--<item name="android:height">@dimen/action_bar_height</item>-->
+        <!--&lt;!&ndash; Empty icon &ndash;&gt;-->
+        <!--<item name="android:icon">@android:color/transparent</item>-->
+        <!--&lt;!&ndash; Shift the title text to the right &ndash;&gt;-->
+        <!--<item name="android:contentInsetStart">@dimen/actionbar_contentInsetStart</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; Action bar overflow menu icon. &ndash;&gt;-->
+    <!--<style name="DialtactsActionBarOverflow_hq"-->
+        <!--parent="@android:style/Widget.Holo.ActionButton.Overflow">-->
+        <!--<item name="android:src">@drawable/overflow_menu</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; Text in the action bar at the top of the screen.  Should be kept in sync with Dialer. &ndash;&gt;-->
+    <!--<style name="DialtactsActionBarTitleText_hq"-->
+        <!--parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">-->
+        <!--<item name="android:textColor">@color/phone_settings_actionbar_text_color</item>-->
+    <!--</style>-->
+
+    <style name="SettingsLight" parent="android:Theme.Material.Light">
+
+    </style>
+
+
+
+</resources>

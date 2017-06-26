@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">Reducere zgomot</string>
+    <string name="dual_mic_summary">Suprimaţi zgomotul de fundal pe durata apelurilor</string>
+    <string name="anc_title">Reducere activă a zgomotelor</string>
+    <string name="anc_on">Funcţie ANC activată</string>
+    <string name="anc_off">Funcţie ANC dezactivată</string>
+    <string name="ip_prefix_setting">Număr prefix IP</string>
+    <string name="ip_prefix_setting_lable">Număr prefix IP (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">Setări număr prefix IP</string>
+    <string name="enter_ip_prefix_number">Introducere număr prefix</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Introduceţi mai întâi numărul de prefix IP în setările de apel vocal.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">Funcţia de apelare IP nu se aplică la apelul prin Internet.</string>
+    <string name="ip_prefix_edit_default_sum">Introduceţi numărul de prefix pentru apelarea IP</string>
+    <string name="lable_call_barring">"Blocarea apelurilor"</string>
+    <string name="title_call_barring">Blocarea apelurilor (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">Toate apelurile efectuate</string>
+    <string name="lable_all_outgoing_international">Apeluri internaţionale efectuate</string>
+    <string name="lable_all_out_except">Apeluri internaţionale efectuate exceptând cele către reţeaua PLMN de domiciliu</string>
+    <string name="lable_all_incoming">Toate apelurile primite</string>
+    <string name="lable_incoming_calls_except">Apeluri primite în roaming</string>
+    <string name="deactivate_all">Revocare totală</string>
+    <string name="change_password">Modificare parolă de barare</string>
+    <string name="call_barring_sum">Setări barare apeluri vocale</string>
+    <string name="lable_disable">Dezactivat</string>
+    <string name="lable_enable">"Activat"</string>
+    <string name="old_password_label">Parolă veche (4 cifre)</string>
+    <string name="new_password_label">Parolă nouă (4 cifre)</string>
+    <string name="invalid_password">Tastaţi o parolă care are 4 cifre.</string>
+    <string name="confirm_password_label">Confirmare parolă nouă</string>
+    <string name="mismatch_password">Parola introdusă nu se potriveşte. Încercaţi din nou.</string>
+    <string name="password_changed">Parolă modificată cu succes</string>
+    <string name="enter_callbarring_password">Introducere parolă de barare apeluri (4 cifre)</string>
+    <string name="wrong_password">Eroare parolă</string>
+    <string name="error_title">"Eroare"</string>
+    <string name="cell_broadcast">Difuzare celulă</string>
+    <string name="cell_broadcast_settings">Setări transmisie celulară</string>
+    <string name="cb_menu_language">"Limba"</string>
+    <string name="cb_menu_add_channel">Adăugare canal</string>
+    <string name="cb_menu_channel_list">Listă canale</string>
+    <string name="cb_dialog_title_language_choice">Selectare limbă</string>
+    <string name="cb_channel_dialog_channel_name">Nume canal (0-10 caractere)</string>
+    <string name="cb_channel_dialog_channel_number">Număr canal (0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">Activaţi canalul</string>
+    <string name="cb_channel_dialog_edit_channel">Editare canal</string>
+    <string name="cb_menu_edit">"Modificaţi"</string>
+    <string name="cb_menu_delete">"Ștergeţi"</string>
+    <string name="cb_error_channel_num">Introduceţi numărul canalului (0-65534).</string>
+    <string name="cb_error_channel_name">Lungimea numelui canalului nu este corectă (1-10 caractere).</string>
+    <string name="cb_error_language_select">Selectaţi cel puţin o limbă.</string>
+    <string name="cb_error_channel_id_exist">ID-ul canalului există.</string>
+    <string name="cb_all_languages">Toate limbile</string>
+    <string name="cb_default_new_channel_name">Canal nou</string>
+    <string name="fdn_errorcode_unknown_info">Nereuşită, s-a produs o eroare necunoscută, încercaţi mai târziu.</string>
+    <string name="fdn_errorcode_number_info">Nereuşită, lungimea numărului persoanei de contact este prea mare.</string>
+    <string name="fdn_errorcode_name_info">Nereuşită, lungimea numelui persoanei de contact este prea mare.</string>
+    <string name="fdn_errorcode_storage_info">Nereuşită, spaţiul de stocare este plin.</string>
+    <string name="fdn_errorcode_phb_info">Nereuşită, agenda telefonică nu este pregătită acum, încercaţi mai târziu.</string>
+    <string name="fdn_errorcode_pin2_info">Nereuşită, PIN2 nevalid.</string>
+    <string name="net_or_simcard_busy">Reţeaua sau cartela SIM este ocupată, încercaţi mai târziu.</string>
+    <string name="plmn_list_setting_title">Preferinţe</string>
+    <string name="network_id">ID reţea</string>
+    <string name="plmn_list_setting_add_plmn">Adăugare reţea PLMN nouă</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">Căutare...</string>
+    <string name="sum_search_femtocell_networks">Selectare manuală femtocell</string>
+    <string name="register_femtocell_point_wait_tip">Se înregistrează <xliff:g id="femto_cell_info">%s</xliff:g> ...</string>
+    <string name="register_femtocell_point_result_fail_tip">Nu se poate realiza conectarea la această reţea momentan. Încercaţi din nou mai târziu.</string>
+    <string name="network_type">Tip de reţea</string>
+    <string name="gsm_umts_network_preferences_title">"Mod reţea"</string>
+    <string name="gsm_umts_network_preferneces_summary">Neimplementat!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"Mod reţea"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>"2G/3G (mod automat)"</item>
+        <item>Numai 3G</item>
+        <item>Numai 2G</item>
+    </string-array>
+    <string name="notification_voicemail_text">Selectaţi pentru a vizualiza mesajele de poştă vocală</string>
+    <string name="notification_network_selection_without_operator">Reţeaua selectată este indisponibilă</string>
+    <string name="network_setting_all_forbidden_dialog">Nu există reţele disponibile.</string>
+    <string name="network_forbidden">interzisă</string>
+    <string name="fdn_contact_number_invalid">Număr persoană de contact nevalid.</string>
+    <string name="fdn_puk_need_tips">Cod PIN2 blocat. Schimbaţi codul PIN2 şi reîncercaţi!</string>
+    <string name="fdn_phone_book_busy">Agenda este ocupată acum, încercați mai târziu.</string>
+    <string name="one_retry_left">1 reîncercare rămasă</string>
+    <string name="retries_left"><xliff:g id="number">%d</xliff:g> reîncercări rămase</string>
+    <string name="pin_length_indicate">(4-8 cifre)</string>
+    <string name="puk_length_indicate">(8 cifre)</string>
+    <string name="unblock_pin2">Deblocare PIN2</string>
+    <string name="sim_permanently_locked">Întrucât aţi introdus un cod PUK2 incorect de mai mult de 10 ori, cartela SIM a fost blocată definitiv</string>
+    <string name="magi_conference_title">MagiConferinţă</string>
+    <string name="magi_conference_summary">Îmbunătăţiţi calitatea vocii în situaţiile în care mai multe persoane utilizează telefonul pentru a vorbi cu persoana de la celălalt capăt al firului.</string>
+    <string name="volte_is_adding_participants">Se adaugă membrii la conferinţă. Aşteptaţi...</string>
+    <string name="volte_fail_to_invit_participants">Nu s-a reuşit adăugarea tuturor membrilor la conferinţă.</string>
+    <string name="voicemail_lable">Mesaj vocal (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">Pentru a finaliza operaţia, trebuie să activaţi conexiunea de date a <xliff:g id="sub_name">%s</xliff:g>.</string>
+    <string name="cdma_labelCFU">"Redirecţionaţi întotdeauna"</string>
+    <string name="cdma_labelCFB">"Redirecţionaţi când este ocupat"</string>
+    <string name="cdma_labelCFNRy">"Redirecţionaţi când nu se răspunde"</string>
+    <string name="cdma_labelCFNRc">"Redirecţionaţi dacă telefonul nu este accesibil"</string>
+    <string name="cdma_labelCFC">Se revocă toate redirecţionările</string>
+    <string name="cdma_cnir_title">CNR</string> 
+    <string name="cdma_cnir_turnoff">Dezactivare restricţie identificare număr apelant</string> 
+    <string name="cdma_cnir_turnon">Activare restricţie identificare număr apelant</string>
+    <string name="lte_data_only_prompt">Nu se poate utiliza această funcţie deoarece vă aflaţi în modul exclusiv 4G. Doriţi să ieşiţi din modul exclusiv 4G?</string>
+    <string name="lte_data_only_timeout">În locaţia dvs. nu există nicio reţea de date pentru modul exclusiv 4G. Doriţi să ieşiţi din acest mod şi să căutaţi alte reţele?</string>
+    <string name="lte_only_dialog_button_yes">"DA"</string>
+    <string name="lte_only_dialog_button_no">"NU"</string>
+    <string name="lte_only_dialog_title_prompt">Mesaj</string>
+    <string name="enable_4G_data">Activare date 4G</string>
+    <string name="enable_4G_data_summary">Reţele 4G pot oferi un acces mai fiabil şi mai rapid la internet</string>
+    <string name="only_use_LTE_data">Se utilizează numai date LTE</string>
+    <string name="only_use_LTE_data_summary">Dacă activaţi modul de utilizate exclusivă a datelor, nu veţi mai putea utiliza funcţiile de apelare şi de transmitere a mesajelor text.</string>
+    <string name="network_current">Înregistrare</string>
+    <string name="network_unkown">necunoscută</string>
+    <string name="network_available">disponibil</string>
+</resources>

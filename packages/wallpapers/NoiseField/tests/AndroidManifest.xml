@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.android.noisefield.test">
+    <uses-permission android:name="android.permission.INJECT_EVENTS"/>
+
+    <!-- The Test Runner is for FPS auto performance check for NoiseField Wallpaper-->
+    <instrumentation android:name="com.android.noisefield.test.NoiseFieldFpsTestRunner"
+                     android:targetPackage="com.android.noisefield"
+                     android:label="NoiseField Wallpaper FPS TestRunner"/>
+    <!--
+    <instrumentation android:name="NoiseFieldTestRunner"
+        android:targetPackage="com.android.noisefield" 
+        android:label="NoiseFiled wallpaper Test">
+    </instrumentation>
+    -->
+    <instrumentation android:name="com.zutubi.android.junitreport.JUnitReportTestRunner"
+        android:targetPackage="com.android.noisefield" 
+        android:label="NoiseFiled wallpaper Test">
+    </instrumentation>
+
+    <instrumentation android:name="com.android.noisefield.test.NoiseFieldLaunchPerformance"
+        android:targetPackage="com.android.noisefield"
+        android:label="NoiseField Wallpaper Launch Performance">
+    </instrumentation>
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <!-- used for testcase to make sure the LiveWallpapers could be launched  -->
+    <activity
+        android:name=".PreviewStubActivity"
+        android:theme="@style/Preview"
+        android:configChanges="orientation|screenSize">
+    </activity>
+       
+</manifest>

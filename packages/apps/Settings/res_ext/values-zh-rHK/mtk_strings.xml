@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- AudioProfile Settings start -->
+   <string name="ring_summary">鈴聲</string>
+  <string name="ring_vibrate_summary">鈴聲與震動</string>
+  <string name="silent_summary">僅靜音</string>
+  <string name="meeting_summary">僅震動</string>
+  <string name="outdoor_summary">最大鈴聲與震動</string>
+  <string name="audio_profile_reset">"重設"</string>
+  <string name="audio_profile_add">"新增"</string>
+  <string name="audio_profile_enable">"啟用"</string>
+  <string name="audio_profile_rename">"重新命名"</string>
+  <string name="audio_profile_delete">"刪除"</string>
+  <string name="audio_profile_message_reset">所有的音頻設定檔設定將會被重置為預設值</string>
+  <string name="audio_profile_message_rename">請輸入新的設定黨名稱</string>
+  <string name="audio_profile_message_name_error">輸入名稱已存在</string>
+  <string name="audio_profile_message_name_length_wrong">名稱必須至少含有一個英文字</string>
+  <string name="audio_profile_message_delete">預設檔 <xliff:g id="profile">%s</xliff:g> 將被刪除</string>
+  <string name="audio_profile_message_overflow">你被允許增加6個慣用的設定檔</string>
+  <string name="audio_profile_category_custom_title">使用者已定義的檔案資料</string>
+  <string name="audio_profile_category_predefine_title">預先確定的檔案資料</string>
+  <string name="audio_profile_error">"錯誤"</string>
+  <string name="audio_profile_others">通知與其他</string>
+  <string name="general_settings_title">"標凖"</string>
+  <string name="silent_settings_title">"靜音"</string>
+  <string name="meeting_settings_title">會議</string>
+  <string name="outdoor_settings_title">戶外</string>
+  <string name="sound_category_feedback_title">"系統"</string>
+  <string name="sound_category_calls_title">"來電"</string>
+  <string name="voice_call_title">來電鈴聲</string>
+  <string name="voice_call_summary">"設定你的內定來電鈴聲"</string>
+  <string name="video_call_title">視訊電話鈴聲</string>
+  <string name="video_call_summary">設定你的內定視訊電話鈴聲</string>
+  <string name="sip_call_title">SIP 鈴聲</string>
+  <string name="sip_call_summary">設定你的預設SIP鈴聲</string>
+  <string name="Phone_vibrate_summary">來電鈴聲的震動裝置</string>
+  <string name="vibrate_title">震動</string>
+  <string name="audio_profile_settings_title">音訊概要</string>
+  <string name="audio_profile_bes_loudness_summary">喇叭的聲音增強器</string>
+  <string name="sound_enhancement_title">聲音增大</string>
+  <string name="music_plus_summary">耳機音量增大</string>
+  <string name="lossless_title">無損BT模式</string>
+  <string name="lossless_summary">高品質BT音檔</string>
+  <string name="lossless_connect_summary">Wi-Fi會因為打開無損BT模式。你確定要啟用嗎？</string>
+  <string name="lossless_on">無損BT模式啟動</string>
+  <string name="lossless_playing">無損BT模式啟動</string>
+  <string name="lossless_toastmessage">系統音效會透過電話喇叭播放</string>
+  <string name="lossless_volume_max">請保持最高的系統音量</string>
+  <string name="lossless_cannot_found_device">未能尋找無損BT裝置</string>
+  <string name="audio_profile_bes_surround_title">BesSurround</string>
+  <string name="audio_profile_bes_surround_summary">環迴音效</string>
+  <string name="audio_profile_bes_surround_mode_movie">電影模式</string>
+  <string name="audio_profile_bes_surround_mode_music">音樂模式</string>
+  <string msgid="6680706009915204785" name="zen_mode_option_title_novoice">"當收到通知時"</string>
+  <!-- AudioProfile Settings end -->
+ 
+  <!-- MTK WLAN settings start -->
+   <string name="wifi_no_cert_for_wapi">無法在當前的AP連結找到認證</string>
+  <string name="sim_slot">SIM 插槽</string>
+  <string name="eap_sim_slot_0">SIM 插槽 1</string>
+  <string name="eap_sim_slot_1">SIM 插槽 2</string>
+  <string name="eap_sim_aka_airplanemode">請關閉飛航模式以使用 EAP-SIM/AKA</string>
+  <string name="eap_sim_aka_no_sim_error">你必須插進SIM卡以使用EAP-SIM/AKA</string>
+  <string name="eap_sim_aka_no_sim_slot_selected">你必須選擇一個SIM插槽以使用 EAP-SIM/AKA</string>
+  <string name="wifi_security_wapi_certificate">WAPI驗證</string>
+  <string name="wapi_user_certificate">使用者認證</string>
+  <string name="wapi_as_certificate">ASE 證明</string>
+  <string name="wifi_hex_password">十六進制的密碼</string>
+  <string name="wifi_WEP_transmit_key">發送密鑰</string>
+  <string name="wifi_WEP_secury_key">安全密鑰</string>
+  <string name="wifi_tether_auto_disable_title">持續Wi-Fi 熱點開啟</string>
+  <string name="wifi_tether_auto_channel_text">"自動"</string>
+  <string name="wifi_tether_auto_channel_width_text">自動 20/40 MHz</string>
+  <string name="wifi_channel">喜愛的頻道</string>
+  <string name="wifi_channel_width">頻道寬度</string>
+  <string name="wifi_advanced_ipv4_address_title">IPv4 位址</string>
+  <string name="wifi_advanced_ipv6_address_title">IPv6位址</string>
+  <string name="wifi_ipv4_address">IPv4 位址</string>
+  <string name="wifi_ipv6_address">IPv6位址</string>
+  <string name="wifi_ap_auto_join_available">自動加入</string>
+  <string name="wifi_ap_auto_join_available_summary">已連線情況下搜索Wi-Fi網絡時，自動選擇更好的網絡</string>
+  <!-- MTK WLAN settings end -->
+ 
+  <!-- WLAN hotspot client start -->
+   <string name="wifi_tether_setting_title">基本設定</string>
+  <string name="wifi_tether_wps_connect_title">WPS 連結</string>
+  <string name="wifi_tether_wps_connect_summary">選擇Wi-Fi保護設定模式來進行</string>
+  <string name="wifi_tether_wps_pin_error">無效的PIN</string>
+  <string name="wifi_tethering_title">便攜式 Wi-Fi 熱點</string>
+  <string name="wifi_ap_wps_dialog_title">WPS 連結</string>
+  <string name="wifi_ap_wps_mode_title">WPS 模式</string>
+  <string name="wifi_ap_wps_pin_title">在客戶PIN中打字</string>
+  <string name="wifi_ap_reset_OOB_title">重置網絡的SSID，安全性和密碼以做為預設（WPS全新的配置）</string>
+  <string name="wifi_ap_reset_OOB">重置 OOB</string>
+  <string name="wifi_ap_max_connection_title">最大化連接</string>
+  <string name="wifi_ap_connected_title">已連線使用戶</string>
+  <string name="wifi_ap_blocked_title">黑名單用戶</string>
+  <string name="wifi_ap_client_block_title">"封鎖"</string>
+  <string name="wifi_ap_client_unblock_title">解鎖</string>
+  <string name="wifi_ap_client_details_title">"詳細資料"</string>
+  <string name="wifi_ap_client_mac_label">MAC 位址：</string>
+  <string name="wifi_ap_client_ip_label">IP 位址：</string>
+  <string name="wifi_ap_bandwidth_title">用戶流量使用情況</string>
+  <string name="wifi_ap_bandwidth_enable">能用頻寬使用節流設定</string>
+  <string name="wifi_ap_bandwidth_chart_title">及時數據速度</string>
+  <string name="wifi_ap_bandwidth_chart_summary">以你的手機來測量，你傳遞的數據速度核算可能會不同。</string>
+  <string name="wifi_wps_fail_error">Wi-Fi的防護設定失敗，再試一次。</string>
+  <string name="wifi_ap_title">統計</string>
+  <string name="wifi_ap_time_duration">持續時間:<xliff:g id="time">%1$s</xliff:g>
+</string>
+  <string name="wifi_ap_total_data">全部已使用數據:<xliff:g id="time">%1$s</xliff:g>
+</string>
+  <string name="wifi_ap_no_connected">0 位已連線使用者</string>
+  <string name="wifi_ap_no_blocked">0 位被封鎖使用者</string>
+  <!-- WLAN hotspot client end -->
+ 
+  <!-- MTK Beam plus start -->
+   <string name="beam_mgmt_tab_download_title">"收到的"</string>
+  <string name="beam_mgmt_tab_upload_title">"已發送的"</string>
+  <string name="beam_share_mgmt_notification_ticker">Beam分享歷史</string>
+  <string name="beam_share_mgmt_notification_title">Beam分享歷史</string>
+  <string name="beam_share_mgmt_notification_message">"選擇以瀏覽Beam分享歷史."</string>
+  <string name="beam_share_mgmt_tab_menu_clear">"清除所有"</string>
+  <string name="beam_share_open_file_dialog_title">無法打開文件</string>
+  <string name="beam_share_open_file_unsupported_message">檔案格式不被支援。</string>
+  <string name="beam_share_open_file_not_found_message">"找不到檔案: <xliff:g id="file_name">%1$s</xliff:g>
+</string>
+  <string name="beam_share_transfer_fail_dialog_title">" Beam失敗"</string>
+  <string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> 未寄出成功。"</string>
+  <string name="beam_share_resend_dialog_ok_button">"重試"</string>
+  <string name="beam_share_show_received_files_menu">"顯示已接收的檔案"</string>
+  <string name="beam_share_history_title">Beam分享歷史</string>
+  <string name="beam_share_clear_confirm_dialog_title">"全部清除"</string>
+  <string name="beam_share_clear_confirm_dialog_message">清除所有歷史紀錄嗎?</string>
+  <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> 未成功地接收。"</string>
+  <string name="beam_share_clear_item_dailog_title">"刪除"</string>
+  <string name="beam_share_clear_item_dailog_message">項目將被刪除。</string>
+  <!-- MTK Beam plus end -->
+ 
+  <!-- MTK NFC settings start -->
+   <string name="nfc_p2p_mode">P2P 模式</string>
+  <string name="nfc_p2p_mode_summary">寄出或接收應用程式內容</string>
+  <string name="nfc_tag_mode_category">標籤模式</string>
+  <string name="nfc_rw_tag_title">標籤讀取與書寫</string>
+  <string name="nfc_rw_tag_summary">從標籤以讀取或書寫</string>
+  <string name="nfc_card_emulation_category_title">卡片仿真方式</string>
+  <string name="nfc_card_emulation">卡片模仿</string>
+  <string name="card_emulation_settings_category_title">可用的安全元件</string>
+  <string name="card_emulation_settings_no_element_found">無可用的安全元件。</string>
+  <string name="card_emulation_settings_off_text">為了見到可用的安全元件,開啟卡片模擬模式。</string>
+  <string name="card_emulation_turning_off_text">關閉卡片模擬模式...</string>
+  <string name="card_emulation_turning_on_text">開啟卡片模擬模式...</string>
+  <string name="card_emulation_switch_error_title">"錯誤"</string>
+  <string name="card_emulation_switch_error_message">轉換失敗 <xliff:g id="card_mode">%1$s</xliff:g>.</string>
+  <string name="card_emulation_sim_not_supported_message">
+<xliff:g id="SIM_description">%1$s</xliff:g> 不支援NFC卡片模擬模式功能。</string>
+  <string name="card_emulation_two_sim_not_supported_message">SIM1，SIM2 並不支援模擬NFC卡功能。</string>
+  <string name="nfc_hce_pay_summary">利用裝置觸碰以使用像Google Wallet，信用卡等等方式來付款。</string>
+  <!-- MTK NFC settings end -->
+ 
+  <!-- MTK WIFI Passpoint start -->
+   <string name="passpoint_summary">自動連接到可用Passpoint的基地台</string>
+  <string name="passpoint_append_summary">（經由Passpoint）</string>
+  <string name="passpoint_config_credential_type">身份證明的類別</string>
+  <string name="passpoint_config_eap_method">"EAP 方法"</string>
+  <string name="passpoint_supported">可支援</string>
+  <string name="passpoint_username_pw">使用名稱/密碼</string>
+  <string name="passpoint_certificate">證書</string>
+  <!-- MTK WIFI Passpoint end -->
+ 
+  <!-- MTK WFD start -->
+   <string name="wfd_change_resolution_menu_title">轉換解析度</string>
+  <string name="wfd_sink_summary">可被其他搜索</string>
+  <string name="wfd_device_category">裝置清單</string>
+  <string name="wfd_sink_toast_enjoy">享受來自其他裝置的影像投射。</string>
+  <string name="wfd_sink_toast_disconnect">投射畫面已中斷</string>
+  <string name="wfd_sink_disconnecting">正在中斷連線...</string>
+  <string name="wfd_sink_guide_btn">取得</string>
+  <string name="wfd_sink_guide_title">如何終止?</string>
+  <string name="wfd_sink_guide_content">在熒幕上按住 <xliff:g id="seconds">%s</xliff:g> 秒來終止其他裝置的顯示。</string>
+  <!-- MTK WFD end -->
+ 
+  <!-- MTK Storage Settings start -->
+   <string name="mtp_transfer_unmount_error_text">SD卡在檔案轉移期間未安裝好</string>
+  <string name="mtp_transfer_erase_error_text">SD卡在轉移檔案期間不能被刪除</string>
+  <string name="launch_error">"無法發送此申請!"</string>
+  <string name="dlg_confirm_unmount_usb_title" product="default">取消安裝 USB槽?</string>
+  <string name="dlg_confirm_unmount_usb_text" product="default">若你取消安裝USB儲存槽，部分應用程式將會停止且不能使用，除非你再裝上USB儲存槽。</string>
+  <string name="dlg_error_unmount_usb_text" product="default">無法取消安裝USB儲存槽。等等再試一次。</string>
+  <string name="unmount_usb_inform_text" product="default">USB儲存槽將被取消。</string>
+  <string name="sd_eject_usbstorage" product="default">"卸載 USB 儲存裝置"</string>
+  <string name="sd_eject_usbstorage_summary" product="default">取消USB儲存槽，所以你可安全地移除。</string>
+  <string name="sd_mount_usbstorage" product="default">"裝上 USB 儲存裝置"</string>
+  <string name="sd_insert_usb_summary" product="default">"插入用於掛接的 USB 儲存裝置"</string>
+  <string name="usb_ums_title">"USB 儲存裝置"</string>
+  <string name="usb_ums_summary">"建議使用XP系統讓你在你的電腦與安卓裝置之間轉移檔案。"</string>
+  <string name="usb_charge_title">充電限定</string>
+  <string name="usb_connect_as_cdrom_category">"與CD-ROM連接"</string>
+  <string name="usb_charge_summary">停止所有USB功能，讓你加速USB充電速度且增加電池用電量。</string>
+  <string name="akp_installer_settings_title">APK 安裝程式</string>
+  <string name="akp_installer_settings_summary">從手機與SD卡儲存槽安裝你的APK</string>
+  <string name="usb_bicr_title">內置光碟機</string>
+  <string name="usb_bicr_summary">顯示包含數種實用軟件的虛擬CD-ROM。</string>
+  <string name="select_memory">預設寫入磁碟</string>
+  <string name="dlg_mount_external_sd_title" product="default">安裝 SD卡?</string>
+  <string name="dlg_mount_external_sd_summary" product="default">如果你安裝sd卡，部分你正在使用的應用程式將停止。</string>
+  <!-- MTK Storage Settings end -->
+ 
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">高清晰度多媒體介面設定</string>
+  <string name="hdmi_settings_summary">點擊以裝配高清晰度多媒體介面</string>
+  <string name="hdmi_audio_toggler">"音效設定"</string>
+  <string name="hdmi_video_toggler">影片</string>
+  <string name="hdmi_video_resolution">影片清晰度</string>
+  <string name="hdmi_auto">"自動"</string>
+  <string name="hdmi_scale_control">影響縮放設定</string>
+  <string name="hdmi_scale_no_scale">無縮放</string>
+  <string name="hdmi_scale_scale_down">縮小 <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">音響輸出</string>
+  <string name="hdmi_audio_output_stereo">立體音</string>
+  <string name="hdmi_audio_output_multi_channel">多聲道</string>
+  <!-- MTK HDMI end -->
+ 
+  <!-- MTK Display Settings start -->
+   <string name="landscape_launcher_title">水平顯示捷徑工具</string>
+  <string name="landscape_launcher_none">"無"</string>
+  <string name="display_settings_scences_title">景色</string>
+  <string name="default_name">"預設"</string>
+  <string name="custom_theme_name">新 [%1$s]</string>
+  <string name="loading">載入中...</string>
+  <string name="auto_backlight_title">省電背景亮度</string>
+  <string name="auto_backlight_summary">自動改變背景光以節省電量</string>
+  <string name="display_personalize">個人化</string>
+  <string name="display_default">"顯示"</string>
+  <string name="clear_motion_summary">影像流暢強化器</string>
+  <string name="on_text">"開啟"</string>
+  <string name="off_text">"關閉"</string>
+  <string name="mira_vision_title" translatable="false">顯示效果</string>
+  <string name="mira_vision_summary">最佳視覺效果提供者</string>
+  <!-- MTK Display Settings end -->
+ 
+  <!--MTK Security Settings start -->
+   <string name="voice_unlock_backup_info_summary">當語音解鎖無法辨識你的聲音，你怎麼會想解鎖?</string>
+  <string name="unlock_set_unlock_mode_voice_weak">語音解鎖</string>
+  <string name="mtk_lock_screen_notifications_title">鎖屏通知</string>
+  <string name="lock_screen_notifications_summary">在鎖屏上顯示通知</string>
+  <string name="lock_screen_style_title">鎖屏風格</string>
+  <string name="current_suffix">"（當下的）"</string>
+  <string name="lockscreen_style_default_desc">"快速進行鎖屏申請"</string>
+  <string name="security_not_set">安全性未設定</string>
+  <string name="voice_ui_title">語音控制</string>
+  <!--MTK Security Settings end -->
+ 
+  <!-- MTK Wireless settings start -->
+   <string name="pch_toggle_title">GPRS 轉換偏好模式</string>
+  <string name="pch_data_prefer_summary_off">數據偏好</string>
+  <string name="pch_call_prefer_summary_on">通話偏好</string>
+  <string name="pch_warning_message">數據傳送率將會下降</string>
+  <string name="tethered_ipv6_title">熱點與數據連線設定</string>
+  <string name="tethered_ipv4v6">（IPv6 可使用）</string>
+  <string name="tethered_ipv6">（只有 IPv6 可使用）</string>
+  <string name="tethered_ipv4">（IPv6不可使用）</string>
+  <string name="tethering_apn_settings_title">APN 設定</string>
+  <string name="tethering_apn_settings_summary">為了數據連線安裝APN</string>
+  <string name="usb_tether_type_title">USB數據連線類型</string>
+  <string name="usb_tethering_select_version">選擇個人電腦系統版本</string>
+  <string name="apn_port_warning">埠值必須是 1-65535!</string>
+  <string name="apn_predefine_change_dialog_notice">你確定儲存嗎? 修改內定蘋果推送伺服器可能會導致連結問題!"</string>
+  <string name="lockdown_vpn_already_connected">VPN通常已經能連結.</string>
+  <!-- MTK Wireless settings end -->
+ 
+  <!-- MTK Feature MISC start -->
+   <string name="schedule_power_on_off_settings_title">定時開關機</string>
+  <string name="ipo_title">快速啟動</string>
+  <string name="ipo_summary_on">不能快速啟動</string>
+  <string name="ipo_summary_off">能夠快速啟動</string>
+  <string name="hotknot_explained_description">熒幕觸碰其他裝置時讓資料傳送</string>
+  <string name="mouse_primary_button_title">調換主副按鈕</string>
+  <string name="mouse_primary_button_dialog_title">調換主按鈕</string>
+  <string name="double_click_title">雙點擊速度</string>
+  <string name="test_area">測試範圍：</string>
+  <string name="double_click_tip">雙點擊這裡</string>
+  <!-- MTK Feature MISC end -->
+ 
+  <!-- MTK Bluetooth Settings start -->
+   <string name="bluetooth_advanced_settings">"進階設定"</string>
+  <string name="bluetooth_profile_ftp">"檔案傳輸"</string>
+  <string name="bluetooth_ftp_profile_summary_use_for">供檔案轉移使用</string>
+  <string name="bluetooth_ftp_profile_summary_connected">"已連接至檔案轉移"</string>
+  <!-- MTK Bluetooth Settings end -->
+ 
+  <!--MTK DateTime start-->
+   <string name="gps_time_sync_attention_gps_on">這將會花最多一分鐘以獲得全球衛星定位系統的修正。除此之外，全球衛星定位系統可能會因為薄弱的環境信號而無法顯示時間。 \n\n你確定使用全球衛星定位系統的顯示時間嗎?</string>
+  <string name="gps_time_sync_attention_gps_off">使用全球衛星定位系統的顯示時間，首先你必須能使用全球衛星定位系統。這會花最多1分鐘以獲得全球衛星定位系統修正。除此之外，全球衛星定位系統可能會因為薄弱的環境信號而無法顯示時間。 \n\n你確定使用全球衛星定位系統的顯示時間嗎?</string>
+  <!--MTK DateTime end-->
+ 
+  <!--MTK DRM settings start -->
+   <string name="drm_settings_title">重置DRM</string>
+  <string name="drm_settings_summary">刪除所有 DRM的許可</string>
+  <string name="drm_reset_dialog_msg">此運作將會刪除所有再裝置上的許可。要繼續嗎?</string>
+  <string name="drm_reset_toast_msg">許可已成功的刪除。</string>
+  <!--MTK DRM settings end -->
+ 
+  <!-- MTK APPS settings start -->
+   <string name="launch_main_label">啟動應用程序</string>
+  <string name="launch_main">藉由主動作來啟動應用程序</string>
+  <string name="launch_activitie">啟動</string>
+  <string name="move_app_to_where">移動至 <xliff:g id="location">%s</xliff:g>
+</string>
+  <!-- MTK APPS settings end -->
+ 
+  <!-- MTK Battery MISC start -->
+   <string name="bg_power_saving_title">背景智能省電</string>
+      <string name="bg_power_percent_title">顯示剩餘電量百分比</string>
+   <string name="bg_power_percent_summary">在通知欄中顯示剩餘電量的百分比</string>
+  <!-- MTK Battery MISC end -->
+ 
+  <!-- MTK  Datausage  start -->
+   <string name="mtk_datausage_overview_tab">概述</string>
+  <string name="mtk_datausage_overview_wifi_today">"今天"</string>
+  <string name="mtk_datausage_overview_wifi_total">"總計"</string>
+  <string name="mtk_datausage_overview_mobile_title">"流動電郵"</string>
+  <string name="mtk_datausage_overview_mobile_usage">
+<xliff:g id="actual">%s</xliff:g> 已使用,共 <xliff:g id="limit">%s</xliff:g>
+</string>
+  <string name="mtk_datausage_overview_mobile_usage_warning">超出限制 <xliff:g>%s</xliff:g>
+</string>
+  <string name="data_saving_title">流量節省模式</string>
+  <!-- MTK  Dtausage  end -->
+ 
+  <!-- MTK About phone start -->
+   <string name="status_imei_slot1">IMEI（插槽1）</string>
+  <string name="status_imei_slot2">IMEI（插槽2）</string>
+  <string name="custom_build_version">習慣建立的版本</string>
+  <string name="mota_system_update_summary">"確認系統在伺服器上更新"</string>
+  <string name="software_updates_more_title">軟體更新</string>
+  <string name="software_updates_more_summary">確認軟體新版本</string>
+  <!-- MTK About phone end -->
+ 
+  <!-- MTK sim cards start -->
+   <string name="sim_cards_celluar_data_dialog_title">選擇使用數據的SIM卡</string>
+  <string name="sim_cards_data_sms_dialog_title">選擇發送信息的SIM卡</string>
+  <string name="sim_cards_calls_dialog_title">選擇撥打電話的賬號</string>
+  <string name="sim_cards_other_calls_dialog_title">選擇其他賬號</string>
+  <string name="sim_cards_other_calls_item_title">其他賬號</string>
+  <string name="data_connection_progress_message">切換SIM卡將需要大約10秒左右才能完成，請稍候...</string>
+  <string name="gemini_sim_mode_progress_activating_message">啟動\u2026</string>
+  <string name="gemini_sim_mode_progress_deactivating_message">無效\u2026</string>
+  <string name="simui_intenet_call">"網絡電話"</string>
+  <!-- MTK sim cards end -->
+ 
+  <!-- MTK SIM Status start -->
+   <string name="imei_information_title">"IMEI 資料"</string>
+  <string name="imei_information_summary">"IMEI 相對資料"</string>
+  <string name="slot_number">"(插槽 <xliff:g id="SLOT_NUM">%1$d</xliff:g>)"</string>
+  <string name="sim_info_editor_color">"背景顏色"</string>
+  <string name="sim_cards_notify_title">"已更換 SIM 卡"</string>
+  <string name="sim_cards_notify_summary">點擊以設定喜好。</string>
+  <string name="no_sim_cards_notify_title">未插入SIM卡</string>
+  <string name="cellular_data_notify_title">"流動數據無法使用"</string>
+  <string name="cellular_data_notify_summary">點擊以設定數據SIM。</string>
+  <!-- MTK SIM Status end -->
+ 
+  <string name="sms_vibrate_summary">接收短信震動裝置</string>
+  <!-- add by wanghui for al812 help menu -->
+  <string name="wifi_ap_help_title">"說明"</string>
+  <string name="help_document">1.您可使用便攜式 Wi-Fi 熱點裝置作為互聯網存取點。週邊設備可通過 Wi-Fi 連線至您的裝備，而已連線的裝置將通過流動網絡存取互聯網。\n2.使用便攜式 Wi-Fi 熱點將需要啟用的流動網絡數據，並將耗用流動數據流量。\n3.使用便攜式 Wi-Fi 熱點可能縮短電池備用時間。</string>
+
+  <string name="default_data_switch_err_msg1">通話時不能更換建議使用的網絡數據SIM卡。</string>
+  <string name="two_cdma_dialog_msg">﻿檢測到兩張CDMA卡，僅卡槽一可以使用CDMA。</string>
+  <string name="hetcom_setting_title">涡轮下載</string>
+  <!-- HQ_xupeixin at 2015-09-17 modified settings->storage page likes p8 begin -->
+  <string name="storage_internal_storage_title">內部存儲</string>
+  <string name="storage_cleaner_preference_title">空間清理</string>
+  <!-- HQ_xupeixin at 2015-09-17 modified end -->
+<string name="voice_call_sim2_title">SIM 2 語音通話鈴聲</string>
+<string name="ringtone_sim2_title">SIM 2 電話鈴聲</string>
+<string name="wfc_quick_toggle_title">Wi-Fi 通話</string>
+<string name="Help">說明</string>
+<string name="Tutorials">教學課程</string>
+<string name="Top_questions">最常見問題</string>
+<string name="Wifi_wfc_dialog_title">Wi-Fi 通話</string>
+<string name="Wifi_wfc_dialog_top_wording">您現已連線至 Wi-Fi 網絡</string>
+<string name="Wifi_wfc_dialog_bottom_wording">這個位於屏幕頂部的符號表示您已連線至 Wi-Fi 網絡，您可以通過 Wi-Fi 進行通話和傳送訊息。</string>
+<string name="Skip">略過</string>
+<string name="Learn_more">了解更多</string>
+<string name="Next">下一步</string>
+<string name="Switch_not_in_use_string">開關暫時無法使用，請稍後再試。</string>
+<string name="Done">完成</string>
+<string name="Wfc_questions">Wi-Fi 通話說明</string>
+<string name="Wfc_off_summary">已停用</string>
+<string name="wfc_on_summary">Wi-Fi 通話開啟</string>
+<string name="connection_preference">連接偏好設定</string>
+<string name="WiFi_preferred">Wi-Fi 優先</string>
+<string name="Cellular_network_preferred">流動網絡優先</string>
+<string name="Never_use_cellular_network">永不使用流動網絡</string>
+<string name="WiFi_preferred_summary">使用 Wi-Fi 進行通話。如果 Wi-Fi 無法使用，使用預設流動網絡。</string>
+<string name="Cellular_network_preferred_summary">使用流動網絡進行通話。如果流動網絡無法使用，使用 Wi-Fi。</string>
+<string name="Never_use_cellular_network_summary">僅使用 Wi-Fi 進行通話，即使流動網絡可用亦請勿使用。</string>
+<string name="no_sim_present_error">未插入 SIM 卡</string>
+<string name="inavlid_sim_error">錯誤 05：無效的 SIM 卡</string>
+<string name="airplane_mode_on">飛行模式開啟</string>
+<string name="cellular_prefered_summary">首選連接模式為流動網絡</string>
+<string name="wifi_off_summary">Wi-Fi 已關閉</string>
+<string name="not_connected_to_wifi_summary">未連線至 Wi-Fi</string>
+<string name="poor_wifi_signal_summary">Wi-Fi 信號欠佳</string>
+<string name="wfc_enabling_summary">啟用中…</string>
+<string name="wfc_disabling_summary">停用中…</string>
+<string name="wfc_ready_for_calls_summary">準備就緒進行通話</string>
+<string name="wfc_unknown_error_summary">未知的錯誤</string>
+<string name="wfc_tutorial_heading">了解關於 Wi-Fi 通話的所有詳情</string>
+<string name="wfc_tutorial_content_second_page_part1">當您於狀態列看見 Wi-Fi 通話圖標，代表您的手機可使用 Wi-Fi 通話。</string>
+<string name="wfc_tutorial_content_second_page_part2">若要保持進行中的 Wi-Fi 通話，請留在 Wi-Fi 網絡的覆蓋範圍，如您移動至覆蓋範圍以外的位置，您將聽到嗶一聲並收到屏幕訊息，讓您知道通話已中斷。</string>
+<string name="wfc_incorrect_sim_alert_title">錯誤 05：無效的 SIM 卡</string>
+<string name="wfc_invalid_sim_alert_message">重要事項\n您的 SIM 卡需要更新以獲得 Wi-Fi 通話服務相容性，請前往 T-Mobile 商店或從您的手機撥號 611 聯絡客戶服務代表。</string>
+<string name="ok_string">確定</string>
+  <string name="two_cdma_dialog_msg">﻿不支持雙卡同時使用 CDMA。</string>
+  <string name="hetcom_setting_title">涡轮下載</string>
+  <string name="c2k_cdma_card_competion_message">
+<xliff:g id="current_sim">%1$s</xliff:g> 將暫時無法通訊。原本默認設置為 <xliff:g id="now_sim">%2$s</xliff:g> 的通話、短信、數據網絡設置也將切換為 <xliff:g id="target_sim">%3$s</xliff:g>
+</string>
+  <string name="c2k_gsm_cdma_sim_message">點擊“是”將4G同時切至<xliff:g id="sim1">%1$s</xliff:g>，這將導致<xliff:g id="sim2">%2$s</xliff:g>無法通訊，原本默認設置為<xliff:g id="sim3">%3$s</xliff:g>的通話、短信也將切換為<xliff:g id="sim4">%4$s</xliff:g>。點擊“否”則只切換移動數據</string>
+<string name="wfc_tutorial_content_first_page">Wi-Fi 通話讓您可以告別不穩定的網絡覆蓋。透過 Wi-Fi 通話，您可以使用您現有的 T-Mobile 服務計劃，通過 Wi-Fi 網絡發送及接收通話和訊息，更無需為 Wi-Fi 通話功能作特別設定。從設定功能表中，前往無線及網絡然後連線至 Wi-Fi 網絡。</string>
+</resources>

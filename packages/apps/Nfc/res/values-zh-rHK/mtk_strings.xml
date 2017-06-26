@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="mtk_notification_string">輕觸以查看詳細設定</string>
+    <string name="mtk_beam_cancel_title">取消傳輸</string>    
+    <string name="mtk_beam_cancel">確定要取消向內傳輸嗎？</string>
+    <string name="mtk_yes">"是"</string>
+    <string name="mtk_no">"否"</string>
+    <string name="mtk_se_sim1">SIM1</string>
+    <string name="mtk_se_sim2">SIM2</string>
+    <string name="mtk_se_ssd">智能 SD 卡</string>
+    <string name="mtk_se_ese">內嵌式保安元素</string>
+    <string name="mtk_se_na">"沒有可用的保安元素。將會關閉 NFC 卡模式"</string>
+    <string name="mtk_se_alt">" 現時不可使用。您要轉至"</string>
+    <string name="mtk_nfc_card_emulation">NFC 卡模式</string>
+    <string name="mtk_disallow_in_wfd">這項操作在無線顯示模式期間無法完成</string>
+    <string name="mtk_disallow_in_wfd_KK">這項操作在配置螢幕模式期間無法完成</string>    
+    <string name="mtk_landing_wps_connect_AP_confirm_title">"連線至網絡"</string>
+    <string name="mtk_landing_wps_connect_AP_confirm_context">你正在嘗試連接到：</string>
+    <string name="mtk_landing_wps_connect_AP_confirm_default_network">"網絡"</string>
+    <string name="mtk_landing_wps_connect_AP_confirm_positive">"連線"</string>
+    <string name="mtk_landing_wps_connect_AP_confirm_negative">"取消"</string>
+    <string name="mtk_landing_wps_connect_AP_confirm_already_connected">你已經連接到\n<xliff:g id="connected">%1$s</xliff:g></string>
+    <string name="mtk_landing_wfa_p2p_turn_wifi_on">正在打開Wi-Fi...</string>  
+    <string name="mtk_landing_HotSpot_exclusive">未能使用，因為Wi-Fi熱點已經啟用。</string>      
+    <string name="mtk_wfa_activity_title">NFC WFA 前景調控</string>
+    <string name="mtk_wfa_user_indication">將這裝置放在NDEF標籤/P2P裝置附近</string>
+    <string name="mtk_wfa_sigma_activity_title">NFC Sigma 前景調控</string>
+    <string name="mtk_wfa_sigma_user_indication">將這裝置放在NDEF標籤附近</string>    
+</resources>

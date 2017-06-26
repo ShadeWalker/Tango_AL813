@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="telecommAppLabel" product="default" msgid="3477737022166975496">"Telefonas"</string>
+    <string name="unknown" msgid="6878797917991465859">"Nežinomas"</string>
+    <string name="notification_missedCallTitle" msgid="7554385905572364535">"Praleistas skambutis"</string>
+    <string name="notification_missedCallsTitle" msgid="1361677948941502522">"Praleisti skambučiai"</string>
+    <string name="notification_missedCallsMsg" msgid="4575787816055205600">"<xliff:g id="NUM_MISSED_CALLS">%s</xliff:g> praleisti (-ų) skambučiai (-ų)"</string>
+    <string name="notification_missedCallTicker" msgid="504686252427747209">"praleistas skambutis nuo <xliff:g id="MISSED_CALL_FROM">%s</xliff:g>"</string>
+    <string name="notification_missedCall_call_back" msgid="2684890353590890187">"Perskambinti"</string>
+    <string name="notification_missedCall_message" msgid="3049928912736917988">"Pranešimas"</string>
+    <string name="accessibility_call_muted" msgid="2776111226185342220">"Skambutis nutildytas."</string>
+    <string name="accessibility_speakerphone_enabled" msgid="1988512040421036359">"Garsiakalbis įgalintas."</string>
+    <string name="respond_via_sms_canned_response_1" msgid="2461606462788380215">"Dabar negaliu kalbėti. Kas nutiko?"</string>
+    <string name="respond_via_sms_canned_response_2" msgid="4074450431532859214">"Netrukus perskambinsiu."</string>
+    <string name="respond_via_sms_canned_response_3" msgid="3496079065723960450">"Paskambinsiu vėliau."</string>
+    <string name="respond_via_sms_canned_response_4" msgid="1698989243040062190">"Dabar negaliu kalb. Pask. vėliau."</string>
+    <string name="respond_via_sms_setting_title" msgid="3754000371039709383">"Greiti atsakai"</string>
+    <string name="respond_via_sms_setting_title_2" msgid="6104662227299493906">"Redaguoti greitus atsakus"</string>
+    <string name="respond_via_sms_setting_summary" msgid="9150281183930613065"></string>
+    <string name="respond_via_sms_edittext_dialog_title" msgid="20379890418289778">"Greitas atsakas"</string>
+    <string name="respond_via_sms_confirmation_format" msgid="7229149977515784269">"Pranešimas išsiųstas numeriu <xliff:g id="PHONE_NUMBER">%s</xliff:g>."</string>
+    <string name="outgoing_call_not_allowed" msgid="1435394568102165287">"Įrenginio savininkas leidžia skambinti tik pagalbos numeriais"</string>
+    <string name="outgoing_call_error_no_phone_number_supplied" msgid="1940125199802007505">"Kad galėtumėte paskambinti, įveskite tinkamą numerį."</string>
+    <string name="duplicate_video_call_not_allowed" msgid="3749211605014548386">"Šiuo metu dar vieno skambučio atlikti negalima."</string>
+    <string name="no_vm_number" msgid="4164780423805688336">"Trūksta balso pašto numerio"</string>
+    <string name="no_vm_number_msg" msgid="1300729501030053828">"SIM kortelėje nėra išsaugoto balso pašto numerio."</string>
+    <string name="add_vm_number_str" msgid="4676479471644687453">"Pridėti numerį"</string>
+    <string name="outgoing_call_error_limit_exceeded">Skambutis neišsiųstas, viršytas limitas.</string>
+    <string name="handle_restricted">"ribotas"</string>
+    <string name="incall_error_supp_service_unknown" msgid="2991054870745666038">"Nepalaikoma paslauga."</string>
+    <string name="incall_error_supp_service_switch" msgid="3503552565745872241">"Neįmanoma perjungti skambučių."</string>
+    <string name="incall_error_supp_service_separate" msgid="914362338192301746">"Neįmanoma atskirti skambučio."</string>
+    <string name="incall_error_supp_service_transfer" msgid="2509871374644921632">"Neįmanoma perkelti skambučio."</string>
+    <string name="incall_error_supp_service_conference" msgid="2505727299596357312">"Neįmanoma atlikti konferencinių skambučių."</string>
+    <string name="incall_error_supp_service_reject" msgid="7055164130563826216">"Neįmanoma atmesti skambučio."</string>
+    <string name="incall_error_supp_service_hangup" msgid="7417583238334762737">"Neleisti atšaukti skambučių."</string>
+    <string name="mo_code_unconditional_cf_active">Skambučio persiuntimas\nbesąlygiškai suaktyvintas</string>
+    <string name="mo_code_some_cf_active">Skambučio persiuntimas\nsąlyginis</string>
+    <string name="mo_code_call_forwarded">Skambutis persiųstas</string>
+    <string name="mo_code_call_is_waiting">Laukiantis skambutis</string>
+    <string name="mo_code_cug_call">Uždaroji vartotojų grupė</string>
+    <string name="mo_code_outgoing_calls_barred">Skambinti uždrausta</string>
+    <string name="mo_code_incoming_calls_barred">Įeinantis skambutis uždraustas kitoje pusėje</string>
+    <string name="mo_code_clir_suppression_rejected">Patikrinti skambinančiojo ID siuntimo paslaugą</string>
+    <string name="mo_code_call_deflected">Persiųstas skambutis</string>
+    
+    <string name="mt_code_forwarded_call">Tai persiųstas skambutis</string>
+    <string name="mt_code_cug_call">Uždaroji vartotojų grupė</string>
+    <string name="mt_code_call_on_hold">Skambutis sulaikytas</string>
+    <string name="mt_code_call_retrieved">Skambutis sugrąžintas</string>
+    <string name="mt_code_multi_party_call">Konferencinis skambutis</string>
+    <string name="mt_code_on_hold_call_released">Sulaikytas skambutis atlaisvintas</string>
+    <string name="mt_code_forward_check_received">Persiuntimo tikrinimo SS pranešimas gautas</string>
+    <string name="mt_code_call_connecting_ect">Skambutis persiunčiamas</string>
+    <string name="mt_code_call_connected_ect">Skambučio persiuntimas suaktyvintas</string>
+    <string name="mt_code_deflected_call">Tai atmestas skambutis</string>
+    <string name="mt_code_additional_call_forwarded">Persiųstas papildomas įeinantis skambutis</string>
+    <string name="mt_code_forwarded_cf">Skambutis persiųstas</string>
+    <string name="mt_code_forwarded_cf_uncond">Skambutis persiųstas besąlygiškai</string>
+    <string name="mt_code_forwarded_cf_cond">Skambutis persiųstas lygtinai</string>
+    <string name="mt_code_forwarded_cf_busy">Skambutis persiųstas</string>
+    <string name="mt_code_forwarded_cf_no_reply">Skambutis persiųstas, nes abonentas neatsiliepia</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Skambutis persiųstas, nes abonentas nepasiekiamas</string>
+</resources>

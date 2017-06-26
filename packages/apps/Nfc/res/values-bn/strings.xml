@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">এনএফসি সেবা</string>
+    <string name="nfcUserLabel">এনএফসি</string>
+    <string name="inbound_me_profile_title">এনএফসি-তে পরিচিতজন পেয়েছে</string>
+    <string name="inbound_me_profile_text">এই ব্যক্তিকে পরিচিতজন হিসেবে যোগ করতে স্পর্শ করুন। </string>
+    <string name="outbound_me_profile_title">এনএফসি আন্তঃক্রিয়া সম্পন্ন</string>
+    <string name="outbound_me_profile_text">আপনার সাথে যোগাযোগের তথ্য এই ব্যক্তিকে প্রদান করতে স্পর্শ করুন।</string>
+    <string name="accessibility_nfc_enabled">এনএফসি সক্রিয়।</string>
+    <string name="touch">বিমের জন্য স্পর্শ করুন</string>
+    <string name="beam_progress">ইনকামিং বিম...</string>
+    <string name="beam_outgoing">বিম হচ্ছে...</string>
+    <string name="beam_complete">বিম সম্পন্ন</string>
+    <string name="beam_failed">বিম সম্পন্ন হয়নি</string>
+    <string name="beam_canceled">বিম বাতিল করা হয়েছে</string>
+    <string name="cancel">"বাতিল করুন"</string>
+    <string name="beam_touch_to_view">দেখার জন্য স্পর্শ করুন</string>
+    <string name="beam_handover_not_supported">প্রাপকের ডিভাইস বিমের মাধ্যমে বড় ফাইল স্থানান্তর সমর্থন করে না।</string>
+    <string name="beam_try_again">আবার ডিভাইসগুলো একসাথে করুন</string>
+    <string name="beam_busy">বিম বর্তমানে ব্যস্ত। আগের ট্রান্সফার সম্পন্ন হওয়া পর্যন্ত আবার চেষ্টা করুন।</string>
+    <string name="device">  <xliff:g id="bold"/>   <xliff:g id="device_name">%1$s</xliff:g>   <xliff:g id="end_bold"/>সাথে জোড়া তৈরি করতে ডিভাইসের আবশ্যকীয় পিন টাইপ করুন: </string>
+    <string name="connecting_peripheral">সংযুক্ত হচ্ছে</string>
+    <string name="connected_peripheral">সংযুক্ত</string>
+    <string name="connect_peripheral_failed">সংযুক্ত করতে পারছে না</string>
+    <string name="disconnecting_peripheral">বিচ্ছিন্ন করা হচ্ছে</string>
+    <string name="disconnected_peripheral">বিচ্ছিন্ন</string>
+    <string name="pairing_peripheral">  <xliff:g id="device_name">%1$s</xliff:g> কর্তৃক জোড়া তৈরি প্রত্যাখাত হয়েছে। </string>
+    <string name="pairing_peripheral_failed">জোড়া তৈরি করতে পারেনি</string>
+    <string name="failed_to_enable_bt">ব্লুটুথ সক্রিয় করতে পারেনি</string>
+    <string name="confirm_pairing">আপনি কি নিশ্চিত আপনি ব্লুটুথ ডিভাইসের সাথে জোড়া তৈরি করতে চান<xliff:g id="device_name">%1$s</xliff:g>?</string>
+    <string name="pair_yes">হ্যা</string>
+    <string name="pair_no">না </string>
+    <string name="tap_again_to_pay"><xliff:g id="app">%1$s</xliff:g>-এর মাধ্যমে পরিশোধ করতে আবার ট্যাপ করুন</string>
+    <string name="tap_again_to_complete"><xliff:g id="app">%1$s</xliff:g>-এর মাধ্যমে সম্পন্ন করতে আবার ট্যাপ করুন</string>
+    <string name="transaction_failure"> <xliff:g id="app">%1$s</xliff:g>-এর মাধ্যমে এই লেনদেন সম্পন্ন হয়নি।</string>
+    <string name="could_not_use_app"><xliff:g id="app">%1$s</xliff:g> ব্যবহার করতে পারেনি।</string>
+    <string name="pay_with">পরিশোধ করুন</string>
+    <string name="complete_with">সম্পন্ন করুন</string>
+    <string name="default_pay_app_removed">"ট্যাপ এন্ড পে'র জন্য আপনার পছন্দের সেবা দূর করা হয়েছে। অন্যটি বাছাই করবেন?""</string>
+    <string name="ask_nfc_tap">শেষ করার জন্য অন্য আরেকটি ডিভাইসে টোকা দিন</string>
+    <string name="wifi_connect">সংযুক্ত করুন</string>
+    <string name="status_unable_to_connect">নেটওয়ার্কের সাথে সংযুক্ত করতে অক্ষম</string>
+    <string name="status_wifi_connected">সংযুক্ত</string>
+    <string name="title_connect_to_network">নেটওয়ার্কের সাথে সংযোগ দিন</string>
+    <string name="prompt_connect_to_network"><xliff:g id="network_ssid">%1$s</xliff:g> নেটওয়ার্ক করতে সংযুক্ত হবেন?</string>
+    <string name="beam_requires_nfc_enabled">অ্যানড্রয়েড বিমের জন্য এনএফসি সক্রিয় করা আবশ্যক। আপনি কি এটি সক্রিয় করতে চান?</string>
+    <string name="android_beam">অ্যানড্রয়িড বিম</string>
+</resources>

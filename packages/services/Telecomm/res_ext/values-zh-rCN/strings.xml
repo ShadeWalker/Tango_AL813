@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <!-- voice recorder -->
+    <string name="str_db_playlist_name">我的录音</string>
+    <string name="alert_device_error">录音出错</string>
+    <string name="ext_media_badremoval_notification_title">"SD 卡非正常移除"</string>
+    <string name="error_sdcard_access">"无法访问 SD 卡"</string>
+    <string name="confirm_device_info_full">存储卡内容已满，录音已经保存</string>
+    <string name="confirm_save_info_saved">录音已经保存</string>
+    <string name="confirm_save_info_saved_to">录音已经保存到</string>
+    <!-- select account -->
+    <string name="select_account_dialog_title">选择帐户</string>
+    <!-- volte ims call -->
+    <string name="reminder">提示</string>
+    <string name="enable_ims_dialog_message">"IMS通话功能已停用，是否启用？"</string>
+    <string name="outgoing_call_failed">"拨号失败。"</string>
+    <string name="ip_dial_error_for_sip_call">拨打网络电话时，不能使用IP拨号功能。</string>
+    <!-- call duration -->
+    <string name="call_duration_title">通话结束</string>
+    <string name="call_duration_format">"<xliff:g id="HOURS">%1$s</xliff:g> 时 <xliff:g id="MINUTES">%2$s</xliff:g> 分 <xliff:g id="SECONDS">%3$s</xliff:g> 秒"</string>
+    <!-- Add for [VoLTE_SS] -->
+    <string name="volte_ss_not_available_tips">请打开<xliff:g id="sub_nacme">%s</xliff:g>的数据连接以完成操作.</string>
+    <string name="call_waiting_indication">对方正在通话中,请稍候...</string>
+    <!--add by huangshuo for HQ01266365-->
+    <string name="call_waiting_indication_east">您所拨打的号码正在通话中，请稍候。</string>
+</resources>

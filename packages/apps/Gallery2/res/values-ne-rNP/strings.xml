@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="1928079047368929634" name="app_name">"ग्यालेरी"</string>
+    <string msgid="259405922673466798" name="gadget_title">"तस्बिर - फ्रेम"</string>
+    <string msgid="940634969189855292" name="details_ms">"%1$02d:%2$02d"</string>
+    <string msgid="3215779248094151255" name="details_hms">"%1$d:%2$02d:%3$02d"</string>
+    <string msgid="3526526872644898229" name="movie_view_label">"भिडियो प्लेयर"</string>
+    <string msgid="4013492720121891585" name="loading_video">"वीडियो लोड हुँदै ..."</string>
+    <string msgid="1200894415793838191" name="loading_image">"तस्बिर लोड हुँदैछ..."</string>
+    <string msgid="928195413034552034" name="loading_account">"खाता लोड हुँदै ..."</string>
+    <string msgid="8996677350649355013" name="resume_playing_title">"भिडियो पुनःसुरु गर्नुहोस्"</string>
+    <string msgid="5184414518126703481" name="resume_playing_message">"%s बाट खेल पुनःसुरु गर्ने?"</string>
+    <string msgid="3847915469173852416" name="resume_playing_resume">"चलाउन जारी राख्नुहोस्"</string>
+    <string msgid="7038208555304563571" name="loading">"लोड हुँदै..."</string>
+    <string msgid="8394392853646664505" name="fail_to_load">"लोड गर्न सकेन"</string>
+    <string msgid="6155388718549782425" name="fail_to_load_image">"तस्बिर लोड गर्न सकेन"</string>
+    <string msgid="284723185546429750" name="no_thumbnail">"कुनै थम्बनेल छैन"</string>
+    <string msgid="5471008499835769292" name="resume_playing_restart">"सुरु गर्नुहोस्"</string>
+    <string msgid="152200178986698300" name="crop_save_text">"ठिक छ"</string>
+    <string msgid="5296833083983263293" name="ok">"ठिक छ"</string>
+    <string msgid="2554690102655855657" name="multiface_crop_help">"सुरु गर्नका लागि एउटा अनुहार छुनुहोस्।"</string>
+    <string msgid="7270334453636349407" name="saving_image">"तस्बिर बचत गरिँदै..."</string>
+    <string msgid="6659463980581993016" name="filtershow_saving_image">"<xliff:g id="ALBUM_NAME">%1$s</xliff:g> मा तस्बिर बचत गर्दै ..."</string>
+    <string msgid="6857408774183654970" name="save_error">"क्रप गरिएको तस्बिर बचत गर्न सकेन ।"</string>
+    <string msgid="521114301871349328" name="crop_label">"तस्बिर काट्नुहोस्"</string>
+    <string msgid="274203231381209979" name="trim_label">"भिडियो छाँट्नुहोस्"</string>
+    <string msgid="7841406150484742140" name="select_image">"तस्बिर छान्नुहोस्"</string>
+    <string msgid="4859510992798615076" name="select_video">"भिडियो छान्नुहोस्"</string>
+    <string msgid="2816923896202086390" name="select_item">"वस्तु छान्नुहोस्"</string>
+    <string msgid="1557063764849434077" name="select_album">"एल्बम चयन गर्नुहोस्"</string>
+    <string msgid="6744208543323307114" name="select_group">"समूह छान्नुहोस्"</string>
+    <string msgid="2331476809308010401" name="set_image">"को रूपमा तस्बिरलाई मिलाउनुहोस्"</string>
+    <string msgid="8491121226190175017" name="set_wallpaper">"वलपेपर मिलाउनुहोस्"</string>
+    <string msgid="140165383777262070" name="wallpaper">"वालपेपर जडान गरिँदै..."</string>
+    <string msgid="797463183863414289" name="camera_setas_wallpaper">"वालपेपर"</string>
+    <string msgid="2839695998251824487" name="delete">"मेट्नुहोस्"</string>
+  <plurals name="delete_selection">
+    <item msgid="6453379735401083732" quantity="one">"चयन गरिएकालाई हटाउने हो?"</item>
+    <item msgid="5874316486520635333" quantity="other">"छानिएका आइटमहरू हटाउने हो ?"</item>
+  </plurals>
+    <string msgid="8646870096527848520" name="confirm">"निश्चित गर्नुहोस्"</string>
+    <string msgid="3637516880917356226" name="cancel">"रद्द गर्नुहोस्"</string>
+    <string msgid="3619042788254195341" name="share">"साझेदारी गर्नुहोस्"</string>
+    <string msgid="2569029972820978718" name="share_panorama">"दृश्य साझेदारी गर्नुहोस्"</string>
+    <string msgid="8959225188897026149" name="share_as_photo">"तस्बिरको रूपमा साझेदारी गर्नुहोस्"</string>
+    <string msgid="6795433049119073871" name="deleted">"मेटाइयो"</string>
+    <string msgid="2930873956446586313" name="undo">"रद्द गर्नुहोस्"</string>
+    <string msgid="3403283025220282175" name="select_all">"सबैलाई चयन गर्नुहोस्"</string>
+    <string msgid="5758897506061723684" name="deselect_all">"सबै अचयन गर्नुहोस्"</string>
+    <string msgid="4355906903247112975" name="slideshow">"स्लाइड प्रदर्शन"</string>
+    <string msgid="8415120088556445230" name="details">"विवरणहरू"</string>
+    <!-- format error in translation for details_title (2611396603977441273) -->
+    <string msgid="5585646033158453043" name="close">"बन्द गर्नुहोस्"</string>
+    <string msgid="7280111806675169992" name="switch_to_camera">"क्यामेरामा स्विच गर्नुहोस्"</string>
+    <!-- String.format failed for translation -->
+    <!-- no translation found for number_of_items_selected:zero (2142579311530586258) -->
+    <!-- String.format failed for translation -->
+    <!-- no translation found for number_of_items_selected:one (2478365152745637768) -->
+    <!-- String.format failed for translation -->
+    <!-- no translation found for number_of_albums_selected:one (6184377003099987825) -->
+    <!-- String.format failed for translation -->
+    <!-- no translation found for number_of_groups_selected:zero (3466388370310869238) -->
+    <!-- String.format failed for translation -->
+    <!-- no translation found for number_of_groups_selected:other (3512041363942842738) -->
+    <string msgid="6157544221201750980" name="show_on_map">"नक्सामा देखाउनुहोस्"</string>
+    <string msgid="5888273317282539839" name="rotate_left">"बायाँ घुमाउनुहोस्"</string>
+    <string msgid="6776325835923384839" name="rotate_right">"दायाँ घुमाउनुहोस्"</string>
+    <string msgid="5315144556325243400" name="no_such_item">"आइटम पाइएन।"</string>
+    <string msgid="1502273844748580847" name="edit">"सम्पादन गर्नुहोस्"</string>
+    <string msgid="2792835918347498211" name="simple_edit">"सरल सम्पादन"</string>
+    <string msgid="8722939570307386071" name="process_caching_requests">"केसिङ अनुरोधहरूलाई प्रशोधन गरिँदै"</string>
+    <string msgid="4521059045896269095" name="caching_label">"क्यासिङ ..."</string>
+    <string msgid="3427470284074377001" name="crop_action">"कोतर्नुहोस्"</string>
+    <string msgid="703098114452883524" name="trim_action">"छाँट्नुहोस्"</string>
+    <string msgid="5296241754753306251" name="mute_action">"आवाज बन्द गर्नुहोस्"</string>
+    <string msgid="3636764710790507868" name="set_as">"को रूपमा सेट गर्नुहोस्"</string>
+    <string msgid="6392457611270600908" name="video_mute_err">"भिडियोको आवाज बन्द गर्न सकेन"</string>
+    <string msgid="7003051631792271009" name="video_err">"भिडियो चलाउन सकेन।"</string>
+    <string msgid="316641628989023253" name="group_by_location">"स्थानबाट"</string>
+    <string msgid="9046168567717963573" name="group_by_time">"समयद्वारा"</string>
+    <string msgid="3568731317210676160" name="group_by_tags">"ट्यागबाट"</string>
+    <string msgid="1566351636227274906" name="group_by_faces">"मानिसहरूद्वारा"</string>
+    <string msgid="1532818636053818958" name="group_by_album">"एल्बमद्वारा"</string>
+    <string msgid="153766174950394155" name="group_by_size">"आकारले"</string>
+    <string msgid="7281481064509590402" name="untagged">"ट्याग नगरिएको"</string>
+    <string msgid="4043624857489331676" name="no_location">"कुनै स्थान छैन"</string>
+    <string msgid="7164037617297293668" name="no_connectivity">"नेटवर्क समस्याका कारण केही स्थानहरू पहिचान गर्न सकिएन।"</string>
+    <string msgid="1020688062900977530" name="sync_album_error">"यो एल्बममा भएका फोटाहरू डाउनलोड गर्न सकेन। पछि पुनः प्रयास गर्नुहोस।"</string>
+    <string msgid="7263218480867672653" name="show_images_only">"तस्बिरहरू मात्र"</string>
+    <string msgid="3850394623678871697" name="show_videos_only">"भिडियो मात्र"</string>
+    <string msgid="6963292714584735149" name="show_all">"तस्बिरहरू र भिडियोहरू"</string>
+    <string msgid="6410561146863700411" name="appwidget_title">"फोटो ग्यालरी"</string>
+    <string msgid="1228925628357366957" name="appwidget_empty_text">"तस्बिरहरू छैन।"</string>
+    <string msgid="1595985909779105158" name="crop_saved">"काटिएको तस्बिरहरुलाई <xliff:g id="FOLDER_NAME">%s</xliff:g>मा बचत गरिएको छ।"</string>
+    <string msgid="4111744447491690896" name="no_albums_alert">"कुनै एल्बमहरू उपलब्ध छैनन्।"</string>
+    <string msgid="4542880442593595494" name="empty_album">"O तस्बिरहरू/भिडियोहरू उपलब्ध छन।"</string>
+    <string msgid="1497721615718760613" name="picasa_posts">"डाकहरू"</string>
+    <string msgid="5157950985488297112" name="make_available_offline">"अफलाइन उपलब्ध गराउनुहोस्"</string>
+    <string msgid="8522572542111169872" name="sync_picasa_albums">"ताजकिकरण गर्नुहोस्"</string>
+    <string msgid="217672440064436595" name="done">"भयो"</string>
+    <string msgid="7235465319919457488" name="sequence_in_set">"%2$d मध्ये %1$d वस्तुहरू:"</string>
+    <string msgid="7622928349908052569" name="title">"शीर्षक"</string>
+    <string msgid="3016729318096557520" name="description">"वर्णन"</string>
+    <string msgid="1367953006052876956" name="time">"समय"</string>
+    <string msgid="3432705876921618314" name="location">"स्थान"</string>
+    <string msgid="4725740395885105824" name="path">"बाटो"</string>
+    <string msgid="9215847239714321097" name="width">"चौडाइ"</string>
+    <string msgid="3648885449443787772" name="height">"उचाइ"</string>
+    <string msgid="4958327983165245513" name="orientation">"अभिविन्यास"</string>
+    <string msgid="8160058911218541616" name="duration">"अवधि:"</string>
+    <string msgid="8024168704337990470" name="mimetype">"MIME प्रकार"</string>
+    <string msgid="8486169301588318915" name="file_size">"फाइल आकार:"</string>
+    <string msgid="7921835498034236197" name="maker">"निर्माता"</string>
+    <string msgid="8240207064064337366" name="model">"मोडेल"</string>
+    <string msgid="2816779031261147723" name="flash">"फ्ल्यास"</string>
+    <string msgid="5920657630303915195" name="aperture">"प्वाल:"</string>
+    <string msgid="1291383769749877010" name="focal_length">"फोकल लम्बाइ:"</string>
+    <string msgid="1582509289994216078" name="white_balance">"श्वेत सन्तुलन"</string>
+    <string msgid="3990163680281058826" name="exposure_time">"एक्सपोजर समय"</string>
+    <string msgid="5028296664327335940" name="iso">"ISO"</string>
+    <string msgid="1125768433254329136" name="unit_mm">"मिलिमिटर"</string>
+    <string msgid="6608905477477607865" name="manual">"हातैले"</string>
+    <string msgid="4296941368722892821" name="auto">"स्वतः"</string>
+    <string msgid="7891556231891837284" name="flash_on">"फ्ल्यास चलाइयो"</string>
+    <string msgid="1445443413822680010" name="flash_off">"फ्ल्यास छैन"</string>
+    <string msgid="3506693015896912952" name="unknown">"अज्ञात"</string>
+    <string msgid="372686331501281474" name="ffx_original">"मूल"</string>
+    <string msgid="8348759951363844780" name="ffx_vintage">"भिन्टेज"</string>
+    <string msgid="726968618715691987" name="ffx_instant">"तत्काल"</string>
+    <string msgid="8946700451603478453" name="ffx_bleach">"सफा गर्नुहोस्"</string>
+    <string msgid="6034283412305561226" name="ffx_blue_crush">"नीलो"</string>
+    <string msgid="517988490066217206" name="ffx_bw_contrast">"B/W"</string>
+    <string msgid="1343475517872562639" name="ffx_punch">"मुक्का"</string>
+    <string msgid="4779398678661811765" name="ffx_x_process">"x प्रक्रिया"</string>
+    <string msgid="4594160692176642735" name="ffx_washout">"लाट्टे"</string>
+    <string msgid="8034075742195795219" name="ffx_washout_color">"लिथो"</string>
+  <plurals name="make_albums_available_offline">
+    <item msgid="2171596356101611086" quantity="one">"एल्बम बनाउनलाई अफलाइन उपलब्ध छ।"</item>
+    <item msgid="4948604338155959389" quantity="other">"एल्बमहरू अफलाइन उपलब्ध गराइँदैं"</item>
+  </plurals>
+    <string msgid="2184754031896160755" name="try_to_set_local_album_available_offline">"यो वस्तु स्थानिय रूपमा भन्डारण गरिएको छ र अफलाइन उपलब्ध छ।"</string>
+    <string msgid="4581863582996336783" name="set_label_all_albums">"सबै एल्बमहरू"</string>
+    <string msgid="6698133661656266702" name="set_label_local_albums">"स्थानीय एल्बमहरू"</string>
+    <string msgid="1283513183744896368" name="set_label_mtp_devices">"MTP उपकरणहरू"</string>
+    <string msgid="5356258354953935895" name="set_label_picasa_albums">"पिकासा एल्बमहरू"</string>
+    <string msgid="8766337315709161215" name="free_space_format">"<xliff:g id="BYTES">%s</xliff:g> निःशुल्क"</string>
+    <string msgid="2074956730721942260" name="size_below">"<xliff:g id="SIZE">%1$s</xliff:g> वा कम"</string>
+    <string msgid="5324398253474104087" name="size_above">"<xliff:g id="SIZE">%1$s</xliff:g> वा माथि"</string>
+    <string msgid="8779660840898917208" name="size_between">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> देखि <xliff:g id="MAX_SIZE">%2$s</xliff:g> सम्म"</string>
+    <string msgid="3985447518557474672" name="Import">"आयात गर्नुहोस्"</string>
+    <string msgid="3875040287486199999" name="import_complete">"आयात पुरा भयो"</string>
+    <string msgid="8497942380703298808" name="import_fail">"आयात असफल"</string>
+    <string msgid="916021826223448591" name="camera_connected">"क्यामेरासँग जोडियो।"</string>
+    <string msgid="2100559901676329496" name="camera_disconnected">"क्यामेरालाई अलग गरियो।"</string>
+    <string msgid="6407959065464291972" name="click_import">"आयात गर्नका लागि यहाँ स्पर्श गर्नुहोस्"</string>
+    <string msgid="6013045393140135468" name="widget_type_album">"एउटा एल्बम छान्नुहोस्"</string>
+    <string msgid="8594622705019763768" name="widget_type_shuffle">"सबै तस्बिरहरू मिसाउनुहोस्"</string>
+    <string msgid="6267065337367795355" name="widget_type_photo">"एउटा एल्बम छान्नुहोस्"</string>
+    <string msgid="1364653978966343448" name="widget_type">"तस्बिरहरू छान्नुहोस्"</string>
+    <string msgid="6915963319933437083" name="slideshow_dream_name">"स्लाइड प्रदर्शन"</string>
+    <string msgid="7320787705180057947" name="albums">"एल्बमहरू"</string>
+    <string msgid="2023033894889499219" name="times">"पटक"</string>
+    <string msgid="6649297994083130305" name="locations">"स्थानहरू"</string>
+    <string msgid="4114003823747292747" name="people">"मानिसहरू"</string>
+    <string msgid="5539648765482935955" name="tags">"ट्यागहरू"</string>
+    <string msgid="4308299657902209357" name="group_by">"द्वारा समूह"</string>
+    <string msgid="1534847740615665736" name="settings">"सेटिङहरू"</string>
+    <string msgid="4271217504968243974" name="add_account">"खाता थप्नुहोस्"</string>
+    <string msgid="4714658994809533480" name="folder_camera">"क्यामेरा"</string>
+    <string msgid="7186215137642323932" name="folder_download">"डाउनलोड"</string>
+    <string msgid="6278215510236800181" name="folder_edited_online_photos">"सम्पादित अनलाइन तस्बिरहरू"</string>
+    <string msgid="2773581395524747099" name="folder_imported">"आयातित"</string>
+    <string msgid="7200396565864213450" name="folder_screenshot">"स्क्रिनसट"</string>
+    <string msgid="7368960711153618354" name="help">"मद्दत"</string>
+    <string msgid="2408933644249734569" name="no_external_storage_title">"कुनै भण्डारण छैन"</string>
+    <string msgid="95726173164068417" name="no_external_storage">"बाहिरी भन्डारण उपलब्ध छैन"</string>
+    <string msgid="8227883354281661548" name="switch_photo_filmstrip">"फिल्मस्ट्राइप हेर्नुहोस्"</string>
+    <string msgid="3681299459107925725" name="switch_photo_grid">"ग्रिड दृश्य"</string>
+    <string msgid="8360489096099127071" name="switch_photo_fullscreen">"पूरा स्क्रिन दृश्य"</string>
+    <string msgid="9122385768369143997" name="trimming">"छाँटिँदै"</string>
+    <string msgid="5094925919589915324" name="muting">"म्युट गरिँदै"</string>
+    <string msgid="7296066089146487366" name="please_wait">"कृपया प्रतीक्षा गर्नुहोस् ..."</string>
+    <string msgid="9155488424829609229" name="save_into">"<xliff:g id="ALBUM_NAME">%1$s</xliff:g> मा भिडियो बचत गर्दै ..."</string>
+    <string msgid="751593965620665326" name="trim_too_short">"छाँट्न सकिँदैन: लक्ष्य भिडियो एकदम छोटो छ"</string>
+    <string msgid="1586851614586678464" name="pano_progress_text">"दृश्य प्रतिपादन"</string>
+    <string msgid="613976532235060516" name="save">"बचत गर्नुहोस्"</string>
+    <string msgid="1062957108473988971" name="ingest_scanning">"सामग्री स्क्यान हुदै..."</string>
+  <plurals name="ingest_number_of_items_scanned">
+    <item msgid="2623289390474007396" quantity="zero">"%1$d वस्तुहरू स्कयान गरिएका"</item>
+    <item msgid="4340019444460561648" quantity="one">"%1$d वस्तु स्कयान गरिएको"</item>
+    <item msgid="3138021473860555499" quantity="other">"%1$d आइटमहरू स्क्यान गरियो"</item>
+  </plurals>
+    <string msgid="1028652103472581918" name="ingest_sorting">"क्रमबद्ध गर्दै..."</string>
+    <string msgid="8911916277034483430" name="ingest_scanning_done">"स्क्यान गरियो"</string>
+    <string msgid="7456633398378527611" name="ingest_importing">"आयात गर्दै..."</string>
+    <string msgid="2010470482779872622" name="ingest_empty_device">"यो उपकरणमा आयात गर्नका लागि केही सामाग्री उपलब्ध छैन।"</string>
+    <string msgid="3054128223131382122" name="ingest_no_device">"कुनै MTP उपकरण जोडिएको छैन"</string>
+    <string msgid="6484667504938477337" name="camera_error_title">"क्यामेरा त्रुटि"</string>
+    <string msgid="955440687597185163" name="cannot_connect_camera">"क्यामेरासँग जडान गर्न सकेन"</string>
+    <string msgid="8923911090533439312" name="camera_disabled">"सुरक्षा नीतिका कारण क्यामरा निष्क्रिय गरिएको छ।"</string>
+    <string msgid="6346560772074764302" name="camera_label">"क्यामेरा"</string>
+    <string msgid="8600187532323801552" name="wait">"कृपया प्रतीक्षा गर्नुहोस्..."</string>
+    <string msgid="7335975356349008814" name="no_storage" product="nosdcard">"क्यामरा प्रयोग गर्नुभन्दा पहिले USB भण्डारण माउन्ट गर्नुहोस्।"</string>
+    <string msgid="5137703033746873624" name="no_storage" product="default">"क्यामेराको उपयोग गर्नु अघि SD कार्ड भित्र राख्नुहोस्।"</string>
+    <string msgid="6104019983528341353" name="preparing_sd" product="nosdcard">"USB भन्डारण तैयार गरिँदै..."</string>
+    <string msgid="2914969119574812666" name="preparing_sd" product="default">"SD कार्ड तैयार गरिँदै..."</string>
+    <string msgid="8147993984037859354" name="access_sd_fail" product="nosdcard">"USB भण्डारण प्रयोग गर्न सकेन।"</string>
+    <string msgid="1584968646870054352" name="access_sd_fail" product="default">"SD कार्ड प्रयोग गर्न सकेन।"</string>
+    <string msgid="8188009385853399254" name="review_cancel">"रद्द गर्नुहोस्"</string>
+    <string msgid="1156261588693116433" name="review_ok">"भयो"</string>
+    <string msgid="4360632427760662691" name="time_lapse_title">"समय गल्ती रिकर्डिङ"</string>
+    <string msgid="4040791582294635851" name="pref_camera_id_title">"क्यामेरा चयन गर्नुहोस्"</string>
+    <string msgid="5142699735103692485" name="pref_camera_id_entry_back">"पछाडि"</string>
+    <string msgid="5668958706828733669" name="pref_camera_id_entry_front">"अगाडि"</string>
+    <string msgid="371208839215448917" name="pref_camera_recordlocation_title">"भन्डार स्थान"</string>
+    <string msgid="2254270920298609161" name="pref_camera_location_label">"स्थान:"</string>
+    <string msgid="3105232208281893389" name="pref_camera_timer_title">"उल्टा गन्ने घडी"</string>
+  <plurals name="pref_camera_timer_entry">
+    <item msgid="1654523400981245448" quantity="one">"१ सेकेन्ड"</item>
+    <item msgid="6455381617076792481" quantity="other">"%d सेकन्ड"</item>
+  </plurals>
+    <!-- no translation found for pref_camera_timer_sound_default (7066624532144402253) -->
+    <skip/>
+    <string msgid="2469008631966169105" name="pref_camera_timer_sound_title">"उल्टा गर्ने क्रममा बिप"</string>
+    <string msgid="4480039384202951946" name="setting_off">"बन्द"</string>
+    <string msgid="8602246224465348901" name="setting_on">"खुला"</string>
+    <string msgid="8245379279801096922" name="pref_video_quality_title">"भिडियो गुणस्तर"</string>
+    <string msgid="8664038216234805914" name="pref_video_quality_entry_high">"उच्च"</string>
+    <string msgid="7258507152393173784" name="pref_video_quality_entry_low">"कम"</string>
+    <string msgid="6245716906744079302" name="pref_video_time_lapse_frame_interval_title">"समय गल्ती"</string>
+    <string msgid="2576236450859613120" name="pref_camera_settings_category">"क्यामरा सेटिङहरू"</string>
+    <string msgid="460313486231965141" name="pref_camcorder_settings_category">"क्यामकोडर सेटिङहरू"</string>
+    <string msgid="4333724936665883006" name="pref_camera_picturesize_title">"चित्र आकार"</string>
+    <string msgid="675309554194481780" name="pref_camera_picturesize_entry_13mp">"13M पिक्सेल"</string>
+    <string msgid="259953780932849079" name="pref_camera_picturesize_entry_8mp">"8M पिक्सल"</string>
+    <string msgid="2882928212030661159" name="pref_camera_picturesize_entry_5mp">"5M पिक्सेल"</string>
+    <string msgid="933242108272469142" name="pref_camera_picturesize_entry_4mp">"4M पिक्सेल"</string>
+    <string msgid="741415860337400696" name="pref_camera_picturesize_entry_3mp">"३ मेगा पिक्सेल"</string>
+    <string msgid="1753709802245460393" name="pref_camera_picturesize_entry_2mp">"२ मेगा पिक्सेल"</string>
+    <string msgid="5359490802026616612" name="pref_camera_picturesize_entry_2mp_wide">"2M पिक्सेल (16:9)"</string>
+    <string msgid="829109608140747258" name="pref_camera_picturesize_entry_1_3mp">"1.3M पिक्सेल"</string>
+    <string msgid="1669725616780375066" name="pref_camera_picturesize_entry_1mp">"१ मेगा पिक्सेल"</string>
+    <string msgid="806934254162981919" name="pref_camera_picturesize_entry_vga">"VGA"</string>
+    <string msgid="8576186463069770133" name="pref_camera_picturesize_entry_qvga">"QVGA"</string>
+    <string msgid="2877248921829329127" name="pref_camera_focusmode_title">"फोकस मोड"</string>
+    <string msgid="7374820710300362457" name="pref_camera_focusmode_entry_auto">"स्वत:"</string>
+    <string msgid="3413922419264967552" name="pref_camera_focusmode_entry_infinity">"अनन्तता"</string>
+    <string msgid="4424489110551866161" name="pref_camera_focusmode_entry_macro">"बृहद्"</string>
+    <string msgid="8547956917516317183" name="pref_camera_focusmode_label_auto">"स्वत:"</string>
+    <string msgid="4272904160062531778" name="pref_camera_focusmode_label_infinity">"अनन्तता"</string>
+    <string msgid="8749317592620908054" name="pref_camera_focusmode_label_macro">"बृहद्"</string>
+    <string msgid="2287362477238791017" name="pref_camera_flashmode_title">"फ्ल्यास मोड"</string>
+    <string msgid="7546741624882856171" name="pref_camera_flashmode_label">"फल्यास मोड"</string>
+    <string msgid="7288383434237457709" name="pref_camera_flashmode_entry_auto">"स्वत:"</string>
+    <string msgid="5330043918845197616" name="pref_camera_flashmode_entry_on">"चालु"</string>
+    <string msgid="867242186958805761" name="pref_camera_flashmode_entry_off">"बन्द"</string>
+    <string msgid="8854671890619026197" name="pref_camera_flashmode_label_auto">"फ्ल्यास अटो"</string>
+    <string msgid="7347504762794840140" name="pref_camera_flashmode_label_on">"फ्ल्यास खुला"</string>
+    <string msgid="3541596735596053416" name="pref_camera_flashmode_label_off">"फ्ल्यास बन्द"</string>
+    <string msgid="677420930596673340" name="pref_camera_whitebalance_title">"ह्वाइटब्यालेन्स"</string>
+    <string msgid="7467403405883190920" name="pref_camera_whitebalance_label">"स्वेत सन्तुलन"</string>
+    <string msgid="6580665476983469293" name="pref_camera_whitebalance_entry_auto">"स्वतः"</string>
+    <string msgid="8856667786449549938" name="pref_camera_whitebalance_entry_incandescent">"चम्कने"</string>
+    <string msgid="2534757270149561027" name="pref_camera_whitebalance_entry_daylight">"दिनको प्रकाश"</string>
+    <string msgid="2435332872847454032" name="pref_camera_whitebalance_entry_fluorescent">"फ्लोरेसेन्ट"</string>
+    <string msgid="3531996716997959326" name="pref_camera_whitebalance_entry_cloudy">"बादलु"</string>
+    <string msgid="1479694362310491429" name="pref_camera_whitebalance_label_auto">"स्वत:"</string>
+    <string msgid="7427628260209908900" name="pref_camera_whitebalance_label_incandescent">"चम्कने"</string>
+    <string msgid="1859710806141461399" name="pref_camera_whitebalance_label_daylight">"दिनको प्रकाश"</string>
+    <string msgid="5173251749161337707" name="pref_camera_whitebalance_label_fluorescent">"फ्लोरेसेन्ट"</string>
+    <string msgid="8230173517179285320" name="pref_camera_whitebalance_label_cloudy">"बादलु"</string>
+    <string msgid="1420535844292504016" name="pref_camera_scenemode_title">"दृश्य मोड"</string>
+    <string msgid="7113995286836658648" name="pref_camera_scenemode_entry_auto">"स्वत:"</string>
+    <string msgid="2923388802899511784" name="pref_camera_scenemode_entry_hdr">"HDR"</string>
+    <string msgid="616748587566110484" name="pref_camera_scenemode_entry_action">"कार्य"</string>
+    <string msgid="7606898503102476329" name="pref_camera_scenemode_entry_night">"राती"</string>
+    <string msgid="181661154611507212" name="pref_camera_scenemode_entry_sunset">"सूर्यास्त"</string>
+    <string msgid="907053529286788253" name="pref_camera_scenemode_entry_party">"भोज"</string>
+    <string msgid="4475096836397300237" name="pref_camera_scenemode_label_auto">"कुनै पनि होइन"</string>
+    <string msgid="964748409622151496" name="pref_camera_scenemode_label_action">"कार्य"</string>
+    <string msgid="1269871886845854574" name="pref_camera_scenemode_label_night">"राती"</string>
+    <string msgid="2802732082948866877" name="pref_camera_scenemode_label_sunset">"सूर्यास्त"</string>
+    <string msgid="1409459091844374828" name="pref_camera_scenemode_label_party">"भोज"</string>
+    <string msgid="7592784692450586126" name="pref_camera_countdown_label">"उल्टो गन्ने घडी"</string>
+    <string msgid="4987856883590176585" name="pref_camera_countdown_label_off">"घडी बन्द"</string>
+    <string msgid="1101814103087928898" name="pref_camera_countdown_label_one">"१ सेकेन्ड"</string>
+    <string msgid="1047399297342955649" name="pref_camera_countdown_label_three">"३ सेकेन्ड"</string>
+    <string msgid="6274681535347260279" name="pref_camera_countdown_label_ten">"१० सेकेन्ड"</string>
+    <string msgid="4544824246687597089" name="pref_camera_countdown_label_fifteen">"१५ सेकेन्ड"</string>
+    <string msgid="2970291701448555126" name="not_selectable_in_scene_mode">"दृश्य मोडमा यो चयनयोग्य हुँदैन।"</string>
+    <string msgid="1229093066434614811" name="pref_exposure_title">"एक्सपोजर"</string>
+    <string msgid="552624394642497940" name="pref_exposure_label">"खुल्ला"</string>
+    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
+    <skip/>
+    <string msgid="7217211253357027510" name="pref_camera_hdr_label">"HDR"</string>
+    <string msgid="8745553500400332333" name="pref_camera_id_label_back">"अगाडिको क्यामेरा"</string>
+    <string msgid="8699439330056996709" name="pref_camera_id_label_front">"पछाडिको क्यामेरा"</string>
+    <string msgid="6263301364153382152" name="dialog_ok">"ठिक छ"</string>
+    <string msgid="4401325203349203177" name="spaceIsLow_content" product="nosdcard">"तपाईँको USB भण्डारणको स्पेस सकिँदै छ। गुणस्तर सेटिङ परिवर्तन गर्नुहोस् अथवा केही तस्बिर वा अरू नै कुनै फाइलहरू मेट्नुहोस्।"</string>
+    <string msgid="1732882643101247179" name="spaceIsLow_content" product="default">"तपाईँको SD कार्डको स्पेस सकिँदै छ। गुणस्तर सेटिङ परिवर्तन गर्नुहोस् अथवा केही तस्बिर वा अरू नै केही मेट्नुहोस्।"</string>
+    <string msgid="6179877322015552390" name="video_reach_size_limit">"आकार सीमा पुग्यो।"</string>
+    <string msgid="2823839093291374709" name="pano_too_fast_prompt">"अति छिटो"</string>
+    <string msgid="4788441554128083543" name="pano_dialog_prepare_preview">"दृश्य तैयार गरिँदै"</string>
+    <string msgid="2155692796549642116" name="pano_dialog_panorama_failed">"दृश्य बचत गर्न सकेन।"</string>
+    <string msgid="5755531234434437697" name="pano_dialog_title">"दृश्य"</string>
+    <string msgid="8248825828264374507" name="pano_capture_indication">"दृश्य खिच्दै"</string>
+    <string msgid="7800325815031423516" name="pano_dialog_waiting_previous">"अघिल्लो दृश्यको प्रतिक्षा गर्दै।"</string>
+    <string msgid="2054886016665130188" name="pano_review_saving_indication_str">"बचत गर्दै...."</string>
+    <string msgid="2887552964129301902" name="pano_review_rendering">"दृश्य प्रतिपादन"</string>
+    <string msgid="8863427645591903760" name="tap_to_focus">"फोकस गर्न छुनुहोस्।"</string>
+    <string msgid="8243182968457289488" name="pref_video_effect_title">"प्रभावहरू"</string>
+    <string msgid="3601545724573307541" name="effect_none">"कुनै पनि होइन"</string>
+    <string msgid="1207235692524289171" name="effect_goofy_face_squeeze">"निचोर्नुहोस्"</string>
+    <string msgid="3945182409691408412" name="effect_goofy_face_big_eyes">"ठूला आँखा"</string>
+    <string msgid="7528748779754643144" name="effect_goofy_face_big_mouth">"ठूलो मुख"</string>
+    <string msgid="3848209817806932565" name="effect_goofy_face_small_mouth">"सानो मुख"</string>
+    <string msgid="5180533098740577137" name="effect_goofy_face_big_nose">"ठूलो नाक"</string>
+    <string msgid="1070355596290331271" name="effect_goofy_face_small_eyes">"साना आँखाहरू"</string>
+    <string msgid="7935661090723068402" name="effect_backdropper_space">"अन्तरिक्षमा"</string>
+    <string msgid="45198943771777870" name="effect_backdropper_sunset">"सूर्यास्त"</string>
+    <string msgid="959158844620991906" name="effect_backdropper_gallery">"तपाईँको भिडियो"</string>
+    <string msgid="9184270738916564608" name="bg_replacement_message">"तपाईँको उपकरणलाई सेट गर्नुहोस्। \n एक छिनको लागि दृश्यबाट बाहिर निस्कनुहोस्।"</string>
+    <string msgid="18833576851372483" name="video_snapshot_hint">"खिचिरहेको बेला तस्बिर लिनको लागि छुनुहोस्।"</string>
+    <string msgid="4132915454417193503" name="video_recording_started">"भिडियो खिच्न सुरु भएको छ।"</string>
+    <string msgid="5086919511555808580" name="video_recording_stopped">"भिडियो खिच्न रोकिएको छ।"</string>
+    <string msgid="4957723267826476079" name="disable_video_snapshot_hint">"विशेष प्रभावहरू सक्षम भएको बेला भिडीयो स्न्यापसट असक्षम गरिएको हुन्छ।"</string>
+    <string msgid="5485339175014139481" name="clear_effects">"स्पष्ट प्रभावहरू"</string>
+    <string msgid="8107732405347155777" name="effect_silly_faces">"मूर्ख अनुहारहरू"</string>
+    <string msgid="6579360207378171022" name="effect_background">"पृष्ठभूमि"</string>
+    <string msgid="2664037763232556307" name="accessibility_shutter_button">"सटर बटन"</string>
+    <string msgid="7140794046259897328" name="accessibility_menu_button">"मेनु बटन"</string>
+    <string msgid="8961275263537513017" name="accessibility_review_thumbnail">"सबभन्दा नयाँ तस्बिर"</string>
+    <string msgid="8807945470215734566" name="accessibility_camera_picker">"अगाडि र पछाडि क्यामरा स्विच"</string>
+    <string msgid="3278002189966833100" name="accessibility_mode_picker">"क्यामेरा, भिडियो वा दृश्य चयनकर्ता"</string>
+    <string msgid="3855951632917627620" name="accessibility_second_level_indicators">"अधिक सेटिङ नियन्त्रणहरू"</string>
+    <string msgid="5234411571109877131" name="accessibility_back_to_first_level">"सेटिङ नियन्त्रणहरू बन्द गर्नुहोस्"</string>
+    <string msgid="1339909363226825709" name="accessibility_zoom_control">"जुम नियन्त्रण"</string>
+    <string msgid="1411194318538035666" name="accessibility_decrement">"%1$s घटाउनुहोस्"</string>
+    <string msgid="8447850530444401135" name="accessibility_increment">"%1$s बढाउनुहोस्"</string>
+    <!-- String.format failed for translation -->
+    <!-- no translation found for accessibility_check_box (7317447218256584181) -->
+    <skip/>
+    <string msgid="5951340774212969461" name="accessibility_switch_to_camera">"फोटामा स्विच गर्नुहोस्"</string>
+    <string msgid="4991396355234561505" name="accessibility_switch_to_video">"भिडियोमा स्विच गर्नुहोस्"</string>
+    <string msgid="604756878371875836" name="accessibility_switch_to_panorama">"दृश्यमा स्विच गर्नुहोस्"</string>
+    <string msgid="8116783308051524188" name="accessibility_switch_to_new_panorama">"नयाँ दृश्यमा स्विच गर्नुहोस्"</string>
+    <string msgid="4539294619557299903" name="accessibility_switch_to_refocus">"पुनः केन्द्रितमा स्विच गर्नुहोस्"</string>
+    <string msgid="9070531914908644686" name="accessibility_review_cancel">"समीक्षा रद्द गर्नुहोस्"</string>
+    <string msgid="7793302834271343168" name="accessibility_review_ok">"समीक्षा गरियो"</string>
+    <string msgid="659300290054705484" name="accessibility_review_retake">"समीक्षा पुनः लिनुहोस्"</string>
+    <string msgid="7596298365794810207" name="accessibility_play_video">"भिडियो चलाउनुहोस्"</string>
+    <string msgid="6526344477133046653" name="accessibility_pause_video">"भिडियो रोक्नुहोस्"</string>
+    <string msgid="3250335917598607232" name="accessibility_reload_video">"भिडियो पुनः लोड गर्नुहोस्"</string>
+    <string msgid="1414029843602604531" name="accessibility_time_bar">"भिडियो प्लेयर समय पट्टी"</string>
+    <string msgid="5491353494964003567" name="capital_on">"चालु"</string>
+    <string msgid="7231052688467970897" name="capital_off">"बन्द गर्नुहोस्"</string>
+    <string msgid="3490489191038309496" name="pref_video_time_lapse_frame_interval_off">"बन्द गर्नुहोस्"</string>
+    <string msgid="2949719376111679816" name="pref_video_time_lapse_frame_interval_500">"०.५ सेकेन्ड"</string>
+    <string msgid="1672458758823855874" name="pref_video_time_lapse_frame_interval_1000">"१ सेकेन्ड"</string>
+    <string msgid="3415071702490624802" name="pref_video_time_lapse_frame_interval_1500">"१.५ सेकेन्ड"</string>
+    <string msgid="827813989647794389" name="pref_video_time_lapse_frame_interval_2000">"२ सेकेन्ड"</string>
+    <string msgid="5750464143606788153" name="pref_video_time_lapse_frame_interval_2500">"२.५ सेकेन्ड"</string>
+    <string msgid="2664846627499751396" name="pref_video_time_lapse_frame_interval_3000">"३ सेकेन्ड"</string>
+    <string msgid="7303255804306382651" name="pref_video_time_lapse_frame_interval_4000">"४ सेकेन्ड"</string>
+    <string msgid="6800566761690741841" name="pref_video_time_lapse_frame_interval_5000">"५ सेकेन्ड"</string>
+    <string msgid="8545447466540319539" name="pref_video_time_lapse_frame_interval_6000">"६ सेकेन्ड"</string>
+    <string msgid="3105568489694909852" name="pref_video_time_lapse_frame_interval_10000">"१० सेकेन्ड"</string>
+    <string msgid="6055574367392821047" name="pref_video_time_lapse_frame_interval_12000">"१२ सेकेन्ड"</string>
+    <string msgid="2656164845371833761" name="pref_video_time_lapse_frame_interval_15000">"१५ सेकेन्ड"</string>
+    <string msgid="2192628967233421512" name="pref_video_time_lapse_frame_interval_24000">"२४ सेकेन्ड"</string>
+    <string msgid="5923393773260634461" name="pref_video_time_lapse_frame_interval_30000">"0.५ मिनेट"</string>
+    <string msgid="4678581247918524850" name="pref_video_time_lapse_frame_interval_60000">"१ मिनेट"</string>
+    <string msgid="1187029705069674152" name="pref_video_time_lapse_frame_interval_90000">"१.५ मिनेट"</string>
+    <string msgid="145301938098991278" name="pref_video_time_lapse_frame_interval_120000">"१२ मिनेट"</string>
+    <string msgid="793707078196731912" name="pref_video_time_lapse_frame_interval_150000">"२.५ मिनेट"</string>
+    <string msgid="1785467676466542095" name="pref_video_time_lapse_frame_interval_180000">"३ मिनेट"</string>
+    <string msgid="3734507766184666356" name="pref_video_time_lapse_frame_interval_240000">"४ मिनेट"</string>
+    <string msgid="7442765761995328639" name="pref_video_time_lapse_frame_interval_300000">"५ मिनेट"</string>
+    <string msgid="6724596937972563920" name="pref_video_time_lapse_frame_interval_360000">"६ मिनेट"</string>
+    <string msgid="6563665954471001352" name="pref_video_time_lapse_frame_interval_600000">"१० मिनेट"</string>
+    <string msgid="8969801372893266408" name="pref_video_time_lapse_frame_interval_720000">"१२ मिनेट"</string>
+    <string msgid="5803172407245902896" name="pref_video_time_lapse_frame_interval_900000">"१५ मिनेट"</string>
+    <string msgid="6286246349698492186" name="pref_video_time_lapse_frame_interval_1440000">"२४ मिनेट"</string>
+    <string msgid="5042628461448570758" name="pref_video_time_lapse_frame_interval_1800000">"०.५ घन्टा"</string>
+    <string msgid="6366071632666482636" name="pref_video_time_lapse_frame_interval_3600000">"१ घन्टा"</string>
+    <string msgid="536117788694519019" name="pref_video_time_lapse_frame_interval_5400000">"१.५ घन्टा"</string>
+    <string msgid="6846617415182608533" name="pref_video_time_lapse_frame_interval_7200000">"२ घन्टा"</string>
+    <string msgid="4242839574025261419" name="pref_video_time_lapse_frame_interval_9000000">"२.५ घन्टा"</string>
+    <string msgid="2766886102170605302" name="pref_video_time_lapse_frame_interval_10800000">"३ घन्टा"</string>
+    <string msgid="7497934659667867582" name="pref_video_time_lapse_frame_interval_14400000">"४ घन्टा"</string>
+    <string msgid="8783643014853837140" name="pref_video_time_lapse_frame_interval_18000000">"५ घन्टा"</string>
+    <string msgid="5005078879234015432" name="pref_video_time_lapse_frame_interval_21600000">"६ घन्टा"</string>
+    <string msgid="69942198321578519" name="pref_video_time_lapse_frame_interval_36000000">"१० घन्टा"</string>
+    <string msgid="285992046818504906" name="pref_video_time_lapse_frame_interval_43200000">"१२ घन्टा"</string>
+    <string msgid="5740227373848829515" name="pref_video_time_lapse_frame_interval_54000000">"१५ घन्टा"</string>
+    <string msgid="9040201678470052298" name="pref_video_time_lapse_frame_interval_86400000">"२४ घन्टा"</string>
+    <string msgid="2105521458391118041" name="time_lapse_seconds">"सेकेन्ड"</string>
+    <string msgid="7738520349259013762" name="time_lapse_minutes">"मिनेट"</string>
+    <string msgid="1776453661704997476" name="time_lapse_hours">"घन्टा"</string>
+    <string msgid="2486386210951700943" name="time_lapse_interval_set">"भयो"</string>
+    <string msgid="2970567717633813771" name="set_time_interval">"समय मध्यान्तर सेट गर्नुहोस्"</string>
+    <string msgid="6665849510484821483" name="set_time_interval_help">"समय चूक सुविधा बन्द छ। समय मध्यान्तर मिलाउन खोल्नुहोस्।"</string>
+    <string msgid="5007708849404589472" name="set_timer_help">"उल्टो गन्ने घडी बन्द छ। फोटो लिनु अगाडि गन्न खोल्नुहोस्।"</string>
+    <string msgid="5578035312407161304" name="set_duration">"सेकेन्डमा अवधि निर्धारित गर्नुहोस्"</string>
+    <string msgid="4976386810910453266" name="count_down_title_text">"एउटा तस्बिर लिनका लागि उल्टा गन्दै"</string>
+    <string msgid="9060472929006917810" name="remember_location_title">"फोटो स्थानहरू याद गर्नुहोस?"</string>
+    <string msgid="724592331305808098" name="remember_location_prompt">"जहाँ लिइएको हो त्यस ठाँउका साथ आफ्ना फोटा र भिडियोहरू ट्याग गर्नुहोस्। \n \n तपाईँले बचत  गरेको तस्बिरहरूका साथै अरू अनुप्रयोगहरूले यी जानकारीहरू उपयोग गर्न सक्छन्।"</string>
+    <string msgid="7541394381714894896" name="remember_location_no">"धन्यावाद पर्दैन"</string>
+    <string msgid="862884269285964180" name="remember_location_yes">"हो"</string>
+    <string msgid="3476709832879398998" name="menu_camera">"क्यामेरा"</string>
+    <string msgid="7580008232297437190" name="menu_search">"खोज्नुहोस्"</string>
+    <string msgid="9110813680630313419" name="tab_photos">"तस्बिरहरू"</string>
+    <string msgid="8079449907770685691" name="tab_albums">"एल्बमहरू"</string>
+    <string msgid="6868642182125198710" name="camera_menu_more_label">"अरू विकल्पहरू"</string>
+    <string msgid="875454962069404723" name="camera_menu_settings_label">"सेटिङहरू"</string>
+  <plurals name="number_of_photos">
+    <item msgid="6949174783125614798" quantity="one">"%1$d तस्बिर"</item>
+    <item msgid="3813306834113858135" quantity="other">"%1$d तस्बिरहरू"</item>
+  </plurals>
+<string name="details_title">%2$d को১ %1$d वस्तुहरू:</string>
+<plurals name="number_of_items_selected">
+<item quantity="zero">%1$d चयन गरियो</item>
+<item quantity="one">%1$d चयन गरियो</item>
+<item quantity="other">%1$d चयन गरियो</item>
+</plurals>
+<plurals name="number_of_albums_selected">
+<item quantity="zero">%1$d चयन गरियो</item>
+<item quantity="one">%1$d चयन गरियो</item>
+<item quantity="other">%1$d चयन गरियो</item>
+</plurals>
+<plurals name="number_of_groups_selected">
+<item quantity="zero">%1$d चयन गरियो</item>
+<item quantity="one">%1$d चयन गरियो</item>
+<item quantity="other">%1$d चयन गरियो</item>
+</plurals>
+<string name="accessibility_check_box">%1$s जाँच बाकस</string>
+</resources>

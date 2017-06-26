@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">Zajcsökkentés</string>
+    <string name="dual_mic_summary">A háttérzaj elnyomása hívás közben</string>
+    <string name="anc_title">Aktív zajcsökkentés</string>
+    <string name="anc_on">ANC be</string>
+    <string name="anc_off">ANC ki</string>
+    <string name="ip_prefix_setting">IP előhívószám</string>
+    <string name="ip_prefix_setting_lable">IP előhívószám (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">IP előhívószám beállítások</string>
+    <string name="enter_ip_prefix_number">Előhívószám megadása</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Előbb adja meg az IP-előhívót a beszédhívás beállításokban.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">Az IP-tárcsázás funkció nem érvényes internethívásra.</string>
+    <string name="ip_prefix_edit_default_sum">Előhívószám megadása IP-tárcsázáshoz</string>
+    <string name="lable_call_barring">"Hívásletiltás"</string>
+    <string name="title_call_barring">Hívásletiltás (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">Minden kimenő hívás</string>
+    <string name="lable_all_outgoing_international">Nemzetközi kimenő hívások</string>
+    <string name="lable_all_out_except">Nemzetközi kimenő hívások, kivéve otthoni PLMN</string>
+    <string name="lable_all_incoming">Minden bejövő hívás</string>
+    <string name="lable_incoming_calls_except">Bejövő hívások barangolás közben</string>
+    <string name="deactivate_all">Összes visszavonása</string>
+    <string name="change_password">Tiltási jelszó módosítása</string>
+    <string name="call_barring_sum">Beszédhívás tiltási beállítások</string>
+    <string name="lable_disable">Letiltva</string>
+    <string name="lable_enable">"Engedélyezve"</string>
+    <string name="old_password_label">Régi jelszó(4 számjegy)</string>
+    <string name="new_password_label">Új jelszó(4 számjegy)</string>
+    <string name="invalid_password">4 számjegyű jelszót adjon meg.</string>
+    <string name="confirm_password_label">Új jelszó megerősítése</string>
+    <string name="mismatch_password">A beírt jelszavak nem egyeznek. Próbálja újra.</string>
+    <string name="password_changed">A jelszó módosítása sikerült</string>
+    <string name="enter_callbarring_password">Adja meg a hívástiltás jelszót(4 számjegy)</string>
+    <string name="wrong_password">Jelszó hiba</string>
+    <string name="error_title">"Hiba"</string>
+    <string name="cell_broadcast">Híváskörzet információ</string>
+    <string name="cell_broadcast_settings">Híváskörzet beállítások</string>
+    <string name="cb_menu_language">"Nyelv"</string>
+    <string name="cb_menu_add_channel">Csatorna hozzáadása</string>
+    <string name="cb_menu_channel_list">Csatornalista</string>
+    <string name="cb_dialog_title_language_choice">Nyelvválasztás</string>
+    <string name="cb_channel_dialog_channel_name">Csatornanév (0-10 karakter)</string>
+    <string name="cb_channel_dialog_channel_number">Csatornaszám (0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">Csatorna engedélyezése</string>
+    <string name="cb_channel_dialog_edit_channel">Csatorna szerkesztése</string>
+    <string name="cb_menu_edit">"Szerkesztés"</string>
+    <string name="cb_menu_delete">"Törlés"</string>
+    <string name="cb_error_channel_num">Adja meg a csatornaszámot(0-65534).</string>
+    <string name="cb_error_channel_name">A csatornanév hossza nem megfelelő(1-10 karakter).</string>
+    <string name="cb_error_language_select">Válasszon legalább egy nyelvet.</string>
+    <string name="cb_error_channel_id_exist">Létező csatornaazonosító.</string>
+    <string name="cb_all_languages">Összes nyelv</string>
+    <string name="cb_default_new_channel_name">Új csatorna</string>
+    <string name="fdn_errorcode_unknown_info">Sikertelen. Ismeretlen hiba történt. Próbálja újra később.</string>
+    <string name="fdn_errorcode_number_info">Sikertelen. A partner száma túl hosszú.</string>
+    <string name="fdn_errorcode_name_info">Sikertelen. A partner neve túl hosszú.</string>
+    <string name="fdn_errorcode_storage_info">Sikertelen. A tároló megtelt.</string>
+    <string name="fdn_errorcode_phb_info">Sikertelen. A telefonkönyv pillanatnyilag foglalt. Próbálja meg később.</string>
+    <string name="fdn_errorcode_pin2_info">Sikertelen. Érvénytelen PIN2.</string>
+    <string name="net_or_simcard_busy">A hálózat vagy SIM-kártya elfoglalt. Próbálja meg később.</string>
+    <string name="plmn_list_setting_title">Saját beállítások</string>
+    <string name="network_id">hálózati azonosító</string>
+    <string name="plmn_list_setting_add_plmn">Új PLMN hozzáadása</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">Keresés…</string>
+    <string name="sum_search_femtocell_networks">Femtocell kézi választása</string>
+    <string name="register_femtocell_point_wait_tip"><xliff:g id="femto_cell_info">%s</xliff:g> regisztrálása…</string>
+    <string name="register_femtocell_point_result_fail_tip">Most nem lehet csatlakozni ehhez a hálózathoz. Próbálja meg később.</string>
+    <string name="network_type">Hálózat típusa</string>
+    <string name="gsm_umts_network_preferences_title">"Hálózati mód"</string>
+    <string name="gsm_umts_network_preferneces_summary">Még nincs megvalósítva!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"Hálózati mód"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>"2G/3G (automatikus mód)"</item>
+        <item>Csak 2G</item>
+        <item>Csak 3G</item>
+    </string-array>
+    <string name="notification_voicemail_text">Jelölje ki hangposta üzenetek megtekintéséhez</string>
+    <string name="notification_network_selection_without_operator">A kijelölt hálózat nem elérhető</string>
+    <string name="network_setting_all_forbidden_dialog">Nincs elérhető hálózat.</string>
+    <string name="network_forbidden">tiltott</string>
+    <string name="fdn_contact_number_invalid">Érvénytelen partnerszám.</string>
+    <string name="fdn_puk_need_tips">PIN2 blokkolva. Módosítsa a PIN2-t, majd próbálja újra!</string>
+    <string name="fdn_phone_book_busy">A telefonkönyv pillanatnyilag foglalt. Próbálja meg később.</string>
+    <string name="one_retry_left">1 kísérlet maradt</string>
+    <string name="retries_left"><xliff:g id="szám">%d</xliff:g> kísérlet maradt</string>
+    <string name="pin_length_indicate">(4-8 számjegy)</string>
+    <string name="puk_length_indicate">(8 számjegy)</string>
+    <string name="unblock_pin2">PIN2 feloldása</string>
+    <string name="sim_permanently_locked">Több mint 10-szer adta meg hibásan a PUK2-kódot. Ezzel a SIM-kártya véglegesen blokkolásra kerül.</string>
+    <string name="magi_conference_title">VarázsKonferencia</string>
+    <string name="magi_conference_summary">Javítja a beszédhang minőségét, ha egyszerre több mint egy személy beszél a hívott féllel.</string>
+    <string name="volte_is_adding_participants">Konferenciatag(ok) hozzáadása. Kérjük, várjon...</string>
+    <string name="volte_fail_to_invit_participants">Nem sikerült hozzáadni az összes tagot a konferenciához.</string>
+    <string name="voicemail_lable">Hangposta (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">A művelet befejezéséhez nyissa meg a(z) <xliff:g id="sub_name">%s</xliff:g> adatkapcsolatát.</string>
+    <string name="cdma_labelCFU">"Mindig legyen átirányítás"</string>
+    <string name="cdma_labelCFB">"Átirányítás, ha foglalt"</string>
+    <string name="cdma_labelCFNRy">"Átirányítás, ha nem válaszol"</string>
+    <string name="cdma_labelCFNRc">"Átirányítás, ha nem érhető el"</string>
+    <string name="cdma_labelCFC">Minden továbbítás visszavonása</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">Hívófél-azonosítás korlátozás letiltása</string> 
+    <string name="cdma_cnir_turnon">Hívófél-azonosítás korlátozás engedélyezése</string>
+    <string name="lte_data_only_prompt">Ez a funkció a csak 4G-adatok mód miatt nem használható. Szeretné bezárni a csak 4G-adatok módot?</string>
+    <string name="lte_data_only_timeout">Az Ön aktuális tartózkodási helyén nem áll rendelkezésre olyan hálózat, amely csak 4G-adatokat használ. Szeretne kilépni és más hálózatokat keresni?</string>
+    <string name="lte_only_dialog_button_yes">"IGEN"</string>
+    <string name="lte_only_dialog_button_no">"NEM"</string>
+    <string name="lte_only_dialog_title_prompt">Rákérdezés</string>
+    <string name="enable_4G_data">4G-adatok engedélyezése</string>
+    <string name="enable_4G_data_summary">A 4G jobb és gyorsabb internet-hozzáférést biztosít.</string>
+    <string name="only_use_LTE_data">Csak LTE-adatok használata</string>
+    <string name="only_use_LTE_data_summary">A kizárólag egyetlen adat használatának engedélyezéséhez nem lehet használni a telefonhívást és az SMS-küldést ennél a funkciónál.</string>
+</resources>

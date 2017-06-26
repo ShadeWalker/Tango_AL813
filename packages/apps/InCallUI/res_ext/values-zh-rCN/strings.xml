@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- dm lock -->
+    <string name="dm_lock">设备已被运营商锁定</string>
+    <string name="dm_unlock">设备已被运营商解锁</string>
+    <!-- voice recorder -->
+    <string name="start_record">"开始录音"</string>
+    <string name="stop_record">"停止录音"</string>
+    <string name="str_db_playlist_name">我的录音</string>
+    <string name="alert_device_error">录音出错</string>
+    <string name="ext_media_badremoval_notification_title">"SD 卡非正常移除"</string>
+    <string name="error_sdcard_access">"无法访问 SD 卡"</string>
+    <string name="confirm_device_info_full">存储卡内容已满，录音已经保存</string>
+    <string name="confirm_save_info_saved">录音已经保存</string>
+    <string name="confirm_save_info_saved_to">录音已经保存到</string>
+    <string name="recording_saved_sd_full">存储卡内容已满，录制文件已经保存。</string>
+    <string name="sd_not_enough">SD 卡空间不足</string>
+    <string name="alert_dialog_dismiss">"关闭"</string>
+    <string name="change_my_pic">"变更设定"</string>
+    <!-- Add for VoLTE conference Call  -->
+    <string name="volte_add_conference_member_title">添加到会议</string>
+    <string name="volte_conf_member_reach_max">会议已经满员</string>
+    <string name="add_member_msg">输入名字或号码</string>
+    <string name="card_title_incoming_conference">电话会议邀请</string>
+    <string name="addConferenceMemeberText">添加成员</string>
+    <string name="add_conference_member_limit">一次只能添加一个号码.</string>
+    <string name="add_multi_conference_member_limit">当前最多添加 <xliff:g id="PHONE_NUMBER">%s</xliff:g> 个成员.</string>
+    <string name="conference_member_join"><xliff:g id="member_name">%s</xliff:g> 已经加入会议.</string>
+    <string name="conference_member_leave"><xliff:g id="member_name">%s</xliff:g> 离开了会议.</string>
+    <string name="conference_member_adding">添加 <xliff:g id="member_name">%s</xliff:g> ...</string>
+    <string name="multi_conference_member_adding">正在添加成员...</string>
+    <string name="conference_member_add_fail">添加 <xliff:g id="member_name">%s</xliff:g> 失败.</string>
+    <!-- Text for VoLTE conference "remove conference member" button -->
+    <string name="removeMember">"删除"</string>
+    <!-- Text for VoLTE conference "status" indication -->
+    <string name="memberStatus">"状态"</string>
+    <!-- Add for VoLTE SS Indication -->
+    <string name="volte_call_waiting_indication_text">对方正在通话中,请稍候...</string>
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">挂断所有电话</string>
+    <string name="onscreenHangupHolding">挂断保持</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">挂断当前电话，接听来电</string>
+    <string name="menu_ect">转接</string>
+    <string name="respond_via_sms_confirmation_format">"讯息已发送至 <xliff:g id="PHONE_NUMBER">%s</xliff:g>。"</string>
+    <!-- CTA request, for notification -->
+    <string name="two_incoming_calls">2个来电</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.magicsmoke.test">
+    <uses-permission android:name = "android.permission.INJECT_EVENTS"/>
+    <uses-permission android:name="android.permission.RUN_INSTRUMENTATION"/>
+
+    <!-- The Test Runner is for FPS auto performance check for MagicSmoke Wallpaper-->
+    <instrumentation android:name="com.android.magicsmoke.test.MagicSmokeWallpaperFpsTestRunner"
+                     android:targetPackage="com.android.magicsmoke"
+                     android:label="MagicSmoke Wallpaper FPS TestRunner"/>
+
+    <!--
+    <instrumentation android:targetPackage="com.android.magicsmoke"
+        android:name="com.android.magicsmoke.test.MagicSmokeInstrumentationTestRunner" 
+        android:label="MagicSmoke Wallpaper Instrumentation Test Runner"/>
+    -->
+    <instrumentation android:targetPackage="com.android.magicsmoke"
+        android:name="com.zutubi.android.junitreport.JUnitReportTestRunner" 
+        android:label="MagicSmoke Wallpaper Instrumentation Test Runner"/>
+
+    <instrumentation android:name="com.android.magicsmoke.test.MagicSmokeLaunchPerformance"
+        android:targetPackage="com.android.magicsmoke"
+        android:label="MagicSmoke Wallpaper Launch Performance">
+    </instrumentation>
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <uses-library android:name="android.test.runner" />
+    </application>
+</manifest>

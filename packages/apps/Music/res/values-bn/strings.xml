@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2007, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    
+    <string name="onesong">১টি গান</string>
+    
+    <plurals name="Nsongs">
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> গান</item>
+    </plurals>
+
+    
+    <plurals name="Nsongscomp">
+        <item quantity="other"><xliff:g id="count_for_artist">%2$d</xliff:g> of <xliff:g id="total_count">%1$d</xliff:g>গান</item>
+    </plurals>
+
+    
+    <plurals name="Nalbums">
+        
+        <item quantity="one">১টি অ্যালবাম</item>
+        
+        <item quantity="other"><xliff:g id="count">%d</xliff:g>অ্যালবাম</item>
+    </plurals>
+
+    
+    <skip/>
+    
+    
+    
+    
+
+    
+    <string name="goto_start">লাইব্রেরি</string>
+    
+    <string name="party_shuffle">পার্টি অদলবদল করা</string>
+    
+    <string name="party_shuffle_off">পার্টি অদলবদল বন্ধ</string>
+    
+    <string name="delete_item">মুছে ফেলুন</string>
+    
+    <string name="shuffle_all">সব অদলবদল করুন</string>
+    
+    <string name="play_all">সব বাজান</string>
+
+    
+    <string name="delete_artist_desc"> <xliff:g id="artist">%s</xliff:g> এর সব গান মুছে ফেলা হবে।</string>
+    
+    <string name="delete_artist_desc_nosdcard">ইউএসবি স্টোরেজ থেকে <xliff:g id="artist">%s</xliff:g> এর সব গান স্থায়ীভাবে মুছে ফেলবেন?</string>
+
+    
+    <string name="delete_album_desc">সমগ্র অ্যালবাম \"<xliff:g id="album">%s</xliff:g>\" মুছে ফেলা হবে।</string>
+    
+    <string name="delete_album_desc_nosdcard">ইউএসবি স্টোরেজ থেকে \"<xliff:g id="album">%s</xliff:g>\" এর পুরো অ্যালবাম স্থায়ীভাবে মুছে ফেলবেন?</string>
+
+    
+    <string name="delete_song_desc">\"<xliff:g id="song">%s</xliff:g>\" মুছে ফেলা হবে ।</string>
+    
+    <string name="delete_song_desc_nosdcard">ইউএসবি স্টোরেজ থেকে \"<xliff:g id="song">%s</xliff:g>\" স্থায়ীভাবে মুছে ফেলবেন?</string>
+
+    
+    <string name="delete_confirm_button_text">ঠিক আছে</string>
+    
+    <plurals name="NNNtracksdeleted">
+        
+        <item quantity="one">একটি গান মুছে ফেলা হয়েছিল।</item>
+        
+        <item quantity="other"><xliff:g id="songs_to_delete">%d</xliff:g> গান মুছে ফেলা হয়েছিল।</item>
+    </plurals>
+
+    
+    <string name="scanning">স্ক্যান হচ্ছে\u2026</string>
+    
+    <string name="scanning_nosdcard"> ইউএসবি স্টোরেজ স্ক্যান করা হচ্ছে\u2026</string>
+
+    
+    <string name="nowplaying_title">এখন বাজানো হচ্ছে</string>
+    
+    <string name="partyshuffle_title">পার্টি অদলবদল করা</string>
+    
+    <string name="artists_title">শিল্পী</string>
+    
+    <string name="albums_menu">অ্যালবাম</string>
+    
+    <string name="albums_title">অ্যালবাম</string>
+    
+    <string name="tracks_menu">গান</string>
+    
+    <string name="tracks_title">গান</string>
+    
+    <string name="playlists_menu">প্লেলিস্ট</string>
+    
+    <string name="playlists_title">প্লেলিস্ট</string>
+    
+    <string name="videos_title">ভিডিও</string>
+    
+    <string name="all_title">সব মিডিয়া</string>
+    
+    <string name="browse_menu">শিল্পী</string>
+    
+    <string name="search_title">খোঁজ করুন</string>
+    
+    <string name="no_tracks_title">কোন গান নেই</string>
+    
+    <string name="no_videos_title">কোন ভিডিও নেই</string>
+    
+    <string name="no_playlists_title">কোন প্লেলিস্ট নেই</string>
+    
+    <string name="delete_playlist_menu">মুছে ফেলুন</string>
+    
+    <string name="edit_playlist_menu">সম্পাদনা করুন</string>
+    
+    <string name="rename_playlist_menu">পুনরায় নামকরণ করুন</string>
+    
+    <string name="playlist_deleted_message">প্লেলিস্ট মুছে ফেলা হয়েছে।</string>
+    
+    <string name="playlist_renamed_message">প্লেলিস্ট পুনরায় নামকরণ করা হয়েছে।</string>
+    
+    <string name="recentlyadded">সম্প্রতি যোগ করা হয়েছে</string>
+    
+    <string name="recentlyadded_title">সম্প্রতি যোগ করা হয়েছে</string>
+    
+    <string name="podcasts_listitem">পডকাস্ট</string>
+    
+    <string name="podcasts_title">পডকাস্ট</string>
+    
+    <string name="sdcard_missing_title">এসডি কার্ড নেই</string>
+    
+    <string name="sdcard_missing_title_nosdcard">ইউএসবি স্টোরেজ নেই</string>
+    
+    <string name="sdcard_missing_message">আপনার ফোনে কোন এসডি কার্ড ঢুকানো নেই।</string>
+    
+    <string name="sdcard_missing_message_nosdcard">আপনার ফোনের ইউএসবি স্টোরেজ নেই।</string>
+    
+    <string name="sdcard_busy_title">এসডি কার্ড নেই</string>
+    
+    <string name="sdcard_busy_title_nosdcard">ইউএসবি স্টোরেজ নেই</string>
+    
+    <string name="sdcard_busy_message">আপনার মিডিয়া সংরক্ষণাগারটি ব্যস্ত।</string>
+    
+    <string name="sdcard_busy_message_nosdcard">আপনার ইউএসবি স্টোরেজ ব্যস্ত।</string>
+    
+    <string name="sdcard_error_title">এসডি কার্ড ত্রুটি</string>
+    
+    <string name="sdcard_error_title_nosdcard">ইউএসবি স্টোরেজে ত্রুটি</string>
+    
+    <string name="sdcard_error_message">আপনার এসডি কার্ডে একটি ত্রুটি ঘটেছে।</string>
+    
+    <string name="sdcard_error_message_nosdcard">আপনার ইউএসবি স্টোরেজে ত্রুটি দেখা দিয়েছে।</string>
+    
+    <string name="unknown_artist_name">অপরিচিত শিল্পী</string>
+    
+    <string name="unknown_album_name">অজানা অ্যালবাম</string>
+    
+    <string name="shuffle_on_notif">অদলবদল চালু আছে।</string>
+    
+    <string name="shuffle_off_notif">অদলবদল বন্ধ আছে।</string>
+    
+    <string name="repeat_off_notif">পুনরাবৃত্তি বন্ধ আছে।</string>
+    
+    <string name="repeat_current_notif">বর্তমান গানটি পুনরাবৃত্তি করা।</string>
+    
+    <string name="repeat_all_notif">সবগুলো গান পুনরাবৃত্তি করা।</string>
+    
+    <string name="ringtone_menu">ফোনের রিংটোন হিসেবে ব্যবহার করুন</string>
+    
+    <string name="ringtone_menu_short">রিংটোন হিসেবে ব্যবহার করুন</string>
+    
+    <string name="ringtone_set">\"<xliff:g id="name" example="AlarmBell">%s</xliff:g>\" ফোনের রিংটোন হিসেবে সেট করুন।</string>
+    
+    <string name="play_selection">প্লে করুন</string>
+    
+    <string name="add_to_playlist">প্লেলিস্টে যোগ করুন</string>
+    
+    <string name="queue">বর্তমান প্লেলিস্ট</string>
+    
+    <string name="new_playlist">নতুন</string>
+    
+    <string name="new_playlist_name_template">নতুন প্লেলিস্ট <xliff:g id="number">%d</xliff:g></string>
+    
+    <plurals name="NNNtrackstoplaylist">
+        
+        <item quantity="one">১টি গান প্লেলিস্টে যোগ করা হয়েছে।</item>
+        
+        <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> গানগুলো প্লেলিস্টে যোগ করা হয়েছে।</item>
+    </plurals>
+    
+    <string name="emptyplaylist">নির্বাচিত প্লেলিস্ট খালি।</string>
+    
+    <string name="create_playlist_create_text">সংরক্ষণ করুন</string>
+    
+    <string name="create_playlist_overwrite_text">ওভাররাইট করুন</string>
+    
+    <string name="service_start_error_title">প্লেব্যাকের সমস্যা</string>
+    
+    <string name="service_start_error_msg">গানটি বাজানো যায়নি</string>
+    
+    <string name="service_start_error_button">ঠিক আছে</string>
+    
+    
+    <string-array name="weeklist">
+        <item>"১ সপ্তাহ"</item>
+        <item>"২ সপ্তাহ"</item>
+        <item>"৩ সপ্তাহ"</item>
+        <item>"৪ সপ্তাহ"</item>
+        <item>"৫ সপ্তাহ"</item>
+        <item>"৬ সপ্তাহ"</item>
+        <item>"৭ সপ্তাহ"</item>
+        <item>"৮ সপ্তাহ"</item>
+        <item>"৯ সপ্তাহ"</item>
+        <item>"১০ সপ্তাহ"</item>
+        <item>"১১ সপ্তাহ"</item>
+        <item>"১২ সপ্তাহ"</item>
+    </string-array>
+    
+    <string name="weekpicker_set">সম্পন্ন হয়েছে</string>
+    
+    <string name="weekpicker_title">সময় সেট করুন</string>
+    
+    <color name="dragndrop_background">#e0103010</color>
+    
+    <color name="expanding_child_background">#ff404040</color>
+
+    
+    <string name="save_as_playlist">প্লেলিস্ট হিসেবে সংরক্ষণ করুন</string>
+    
+    <string name="clear_playlist">প্লেলিস্ট মুছে ফেলুন</string>
+
+    
+    <string name="musicbrowserlabel">মিউজিক</string>
+    
+    <string name="musicshortcutlabel">মিউজিক প্লেলিস্ট</string>
+    
+    <string name="mediaplaybacklabel">মিউজিক</string>
+    
+    <string name="videobrowserlabel">ভিডিও</string>
+    
+    <string name="mediapickerlabel">মিউজিক</string>
+
+    
+    <string name="playback_failed">দুঃক্ষিত, ফাইল খুলতে ব্যর্থ হয়েছে।</string>
+
+    
+    <string name="cancel">বাতিল করুন</string>
+
+    
+    <string name="remove_from_playlist">প্লেলিস্ট থেকে সরিয়ে ফেলুন</string>
+
+    
+    <string name="streamloadingtext">সংযুক্ত হচ্ছে <xliff:g id="host">%s</xliff:g>\u2026</string>
+
+    
+    <string name="mediasearch"><xliff:g id="term" example="Beethoven">%s</xliff:g>ব্যবহারের জন্য অনুসন্ধান: </string>
+
+    
+    <string name="working_artists">শিল্পী\u2026</string>
+    
+    <string name="working_albums">অ্যালবাম\u2026</string>
+    
+    <string name="working_songs">গান\u2026</string>
+    
+    <string name="working_playlists">প্লেলিস্ট\u2026</string>
+
+    
+    <string name="loading">লোড হচ্ছে\u2026</string>
+    
+    <string name="sort_by_track">ট্র্যাক</string>
+    
+    <string name="sort_by_album">অ্যালবাম</string>
+    
+    <string name="sort_by_artist">শিল্পী</string>
+    
+    <string name="music_picker_title">গানের ট্র্যাক বাছাই করুন</string>
+
+    
+    <string name="search_settings_description">শিল্প,অ্যালবাম এবং ট্র্যাক</string>
+
+    
+    <string name="search_hint">মিউজিক অনুসন্ধান করুন</string>
+
+    
+    <string name="fast_scroll_alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    
+    <string name="widget_initial_text">গান বাছাই করতে স্পর্শ করুন।</string>
+
+    
+    <string name="effectspanel">সাউন্ট ইফেক্ট</string>
+</resources>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="onesong">1 песна</string>
+<plurals name="Nsongs">
+<item quantity="other">
+<xliff:g id="count">%d</xliff:g> песни</item>
+</plurals>
+<plurals name="Nsongscomp">
+<item quantity="other">
+<xliff:g id="count_for_artist">%2$d</xliff:g> од <xliff:g id="total_count">%1$d</xliff:g> песни</item>
+</plurals>
+<plurals name="Nalbums">
+<item quantity="one">1 албум</item>
+<item quantity="other">
+<xliff:g id="count">%d</xliff:g> албуми</item>
+</plurals>
+<string name="goto_start">Библиотека</string>
+<string name="party_shuffle">Измешано за забава</string>
+<string name="party_shuffle_off">Исклучено е измешано за забава</string>
+<string name="delete_item">Избриши</string>
+<string name="shuffle_all">Измешај ги сите</string>
+<string name="play_all">Репродуцирај ги сите</string>
+<string name="delete_artist_desc">Да се избришат сите песни од <xliff:g id="artist">%s</xliff:g>?</string>
+<string name="delete_artist_desc_nosdcard">Трајно да се избришат сите песни од <xliff:g id="artist">%s</xliff:g> од USB-меморијата?</string>
+<string name="delete_album_desc">Да се избрише целиот албум „<xliff:g id="album">%s</xliff:g>“?</string>
+<string name="delete_album_desc_nosdcard">Трајно да се избрише целиот албум „<xliff:g id="album">%s</xliff:g>“ од USB-меморијата?</string>
+<string name="delete_song_desc">Да се избрише „<xliff:g id="song">%s</xliff:g>“?</string>
+<string name="delete_song_desc_nosdcard">Трајно да се избрише „<xliff:g id="song">%s</xliff:g>“ од USB-меморијата?</string>
+<string name="delete_confirm_button_text">OK</string>
+<plurals name="NNNtracksdeleted">
+<item quantity="one">1 песна е избришана.</item>
+<item quantity="other">
+<xliff:g id="songs_to_delete">%d</xliff:g> песни се избришани.</item>
+</plurals>
+<string name="scanning">Скенирање на SD-картичката\u2026</string>
+<string name="scanning_nosdcard">Скенирање на USB-меморијата\u2026</string>
+<string name="nowplaying_title">Се репродуцира сега</string>
+<string name="partyshuffle_title">Измешано за забава</string>
+<string name="artists_title">Изведувачи</string>
+<string name="albums_menu">Албуми</string>
+<string name="albums_title">Албуми</string>
+<string name="tracks_menu">Песни</string>
+<string name="tracks_title">Песни</string>
+<string name="playlists_menu">Музички листи</string>
+<string name="playlists_title">Музички листи</string>
+<string name="videos_title">Видеа</string>
+<string name="all_title">Сите медиуми</string>
+<string name="browse_menu">Изведувачи</string>
+<string name="search_title">Пребарај</string>
+<string name="no_tracks_title">Нема песни</string>
+<string name="no_videos_title">Нема видеа</string>
+<string name="no_playlists_title">Нема музички листи</string>
+<string name="delete_playlist_menu">Избриши</string>
+<string name="edit_playlist_menu">Уреди</string>
+<string name="rename_playlist_menu">Преименувај</string>
+<string name="playlist_deleted_message">Музичката листа е избришана.</string>
+<string name="playlist_renamed_message">Музичката листа е преименувана.</string>
+<string name="recentlyadded">Неодамна додадено</string>
+<string name="recentlyadded_title">Неодамна додадено</string>
+<string name="podcasts_listitem">Поткасти</string>
+<string name="podcasts_title">Поткасти</string>
+<string name="sdcard_missing_title">Нема SD-картичка</string>
+<string name="sdcard_missing_title_nosdcard">Нема меморија USB</string>
+<string name="sdcard_missing_message">Во вашиот телефон не е вметната SD-картичка.</string>
+<string name="sdcard_missing_message_nosdcard">Вашиот телефон нема USB-меморија.</string>
+<string name="sdcard_busy_title">Нема SD-картичка</string>
+<string name="sdcard_busy_title_nosdcard">Не е достапна меморија USB</string>
+<string name="sdcard_busy_message">Меморијата за медиуми е зафатена.</string>
+<string name="sdcard_busy_message_nosdcard">USB-меморијата е зафатена.</string>
+<string name="sdcard_error_title">Грешка на SD-картичката</string>
+<string name="sdcard_error_title_nosdcard">Грешка на USB-меморијата</string>
+<string name="sdcard_error_message">Се појави грешка на SD-картичката.</string>
+<string name="sdcard_error_message_nosdcard">Се појави грешка на USB-меморијата.</string>
+<string name="unknown_artist_name">Непознат изведувач</string>
+<string name="unknown_album_name">Непознат албум</string>
+<string name="shuffle_on_notif">Мешањето е вклучено.</string>
+<string name="shuffle_off_notif">Мешањето е исклучено.</string>
+<string name="repeat_off_notif">Повторувањето е исклучено.</string>
+<string name="repeat_current_notif">Повторување на тековната песна.</string>
+<string name="repeat_all_notif">Повторување на сите песни.</string>
+<string name="ringtone_menu">Користи како тон за ѕвонење на телефонот</string>
+<string name="ringtone_menu_short">Користи како тон за ѕвонење</string>
+<string name="ringtone_set">„<xliff:g example="Alarm Bell" id="name">%s</xliff:g>“ е поставено како тон за ѕвонење на телефонот.</string>
+<string name="play_selection">Пушти</string>
+<string name="add_to_playlist">Додај во музичка листа</string>
+<string name="queue">Тековна музичка листа</string>
+<string name="new_playlist">Ново</string>
+<string name="new_playlist_name_template">Нова музичка листа <xliff:g id="number">%d</xliff:g>
+</string>
+<plurals name="NNNtrackstoplaylist">
+<item quantity="one">1 песна е додадена во музичката листа.</item>
+<item quantity="other">
+<xliff:g example="27" id="number">%d</xliff:g> песни се додадени во музичката листа.</item>
+</plurals>
+<string name="emptyplaylist">Избраната музичка листа е празна.</string>
+<string name="create_playlist_create_text">Зачувај</string>
+<string name="create_playlist_overwrite_text">Препиши</string>
+<string name="service_start_error_title">Проблем со репродукција</string>
+<string name="service_start_error_msg">Песната не може да се пушти.</string>
+<string name="service_start_error_button">OK</string>
+<string-array name="weeklist">
+<item>1 седмица</item>
+<item>2 седмици</item>
+<item>3 седмици</item>
+<item>4 седмици</item>
+<item>5 седмици</item>
+<item>6 седмици</item>
+<item>7 седмици</item>
+<item>8 седмици</item>
+<item>9 седмици</item>
+<item>10 седмици</item>
+<item>11 седмици</item>
+<item>12 седмици</item>
+</string-array>
+<string name="weekpicker_set">Готово</string>
+<string name="weekpicker_title">Постави време</string>
+<string name="save_as_playlist">Зачувај како музичка листа</string>
+<string name="clear_playlist">Исчисти музичка листа</string>
+<string name="musicbrowserlabel">Музика</string>
+<string name="musicshortcutlabel">Музичка листа</string>
+<string name="mediaplaybacklabel">Музика</string>
+<string name="videobrowserlabel">Видеа</string>
+<string name="mediapickerlabel">Музика</string>
+<string name="playback_failed">Извинете, не успеа да се отвори датотеката.</string>
+<string name="cancel">Откажи</string>
+<string name="remove_from_playlist">Отстрани од музичка листа</string>
+<string name="streamloadingtext">Се поврзува со <xliff:g id="host">%s</xliff:g>\u2026</string>
+<string name="mediasearch">Пребарај за <xliff:g example="Beethoven" id="term">%s</xliff:g> со користење на:</string>
+<string name="working_artists">Изведувачи\u2026</string>
+<string name="working_albums">Албуми\u2026</string>
+<string name="working_songs">Песни\u2026</string>
+<string name="working_playlists">Музички листи\u2026</string>
+<string name="loading">Се вчитува\u2026</string>
+<string name="sort_by_track">Нумери</string>
+<string name="sort_by_album">Албуми</string>
+<string name="sort_by_artist">Изведувачи</string>
+<string name="music_picker_title">Избери музичка нумера</string>
+<string name="search_settings_description">Изведувачи, албуми и нумери</string>
+<string name="search_hint">Пребарај музика</string>
+<string name="fast_scroll_alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+<string name="widget_initial_text">Допрете за да изберете музика.</string>
+<string name="effectspanel">Звучни ефекти</string>
+</resources>

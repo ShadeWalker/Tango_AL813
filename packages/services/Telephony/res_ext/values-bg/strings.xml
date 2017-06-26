@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">Заглушаване на шума</string>
+    <string name="dual_mic_summary">Подтискане на фоновия шум по време на разговор</string>
+    <string name="anc_title">Активно заглушаване на шума</string>
+    <string name="anc_on">заглушител Вкл</string>
+    <string name="anc_off">заглушител Изкл</string>
+    <string name="ip_prefix_setting">Номер на ІР префикс</string>
+    <string name="ip_prefix_setting_lable">Номер на ІР префикс (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">Настройки номер на ІР префикс</string>
+    <string name="enter_ip_prefix_number">Въведете номера на префикса</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Въведете първо номера на ІР префикса при настройките на гласово повикване.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">Функцията за ІР набиране не се прилага за интернет повикване.</string>
+    <string name="ip_prefix_edit_default_sum">Въведете номера на префикса за ІР набиране</string>
+    <string name="lable_call_barring">"Забрана за повиквания"</string>
+    <string name="title_call_barring">Забрана за повиквания (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">Всички изходящи повиквания</string>
+    <string name="lable_all_outgoing_international">Международни изходящи повиквания</string>
+    <string name="lable_all_out_except">Международни изходящи повиквания с изключение до местни PLMN (стационарни мрежи)</string>
+    <string name="lable_all_incoming">Всички входящи повиквания</string>
+    <string name="lable_incoming_calls_except">Входящи повиквания при роуминг</string>
+    <string name="deactivate_all">Отказ от всички</string>
+    <string name="change_password">Смяна на паролата за забрана</string>
+    <string name="call_barring_sum">Настройки забрана на гласови повиквания</string>
+    <string name="lable_disable">"Деактивирано"</string>
+    <string name="lable_enable">"Активирано"</string>
+    <string name="old_password_label">Стара парола (4 цифри)</string>
+    <string name="new_password_label">Нова парола (4 цифри)</string>
+    <string name="invalid_password">Въведете парола с 4 цифри.</string>
+    <string name="confirm_password_label">Потвърдете новата парола</string>
+    <string name="mismatch_password">Въведената парола не съвпада. Опитайте пак.</string>
+    <string name="password_changed">Успешна смяна на парола</string>
+    <string name="enter_callbarring_password">Въведете парола за забрана (4 цифри).</string>
+    <string name="wrong_password">Грешка в паролата</string>
+    <string name="error_title">"Грешка"</string>
+    <string name="cell_broadcast">Циркулярни съобщения</string>
+    <string name="cell_broadcast_settings">Настройки за циркулярни съобщения</string>
+    <string name="cb_menu_language">"Език"</string>
+    <string name="cb_menu_add_channel">Добавяне на канал</string>
+    <string name="cb_menu_channel_list">Списък канали</string>
+    <string name="cb_dialog_title_language_choice">Избор на език</string>
+    <string name="cb_channel_dialog_channel_name">Име на канал (0-10 символа)</string>
+    <string name="cb_channel_dialog_channel_number">Номер на канала (0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">Разрешаване на канал</string>
+    <string name="cb_channel_dialog_edit_channel">Редактиране канал</string>
+    <string name="cb_menu_edit">"Редактиране"</string>
+    <string name="cb_menu_delete">"Изтриване"</string>
+    <string name="cb_error_channel_num">Въведете номера на канала (0-65534).</string>
+    <string name="cb_error_channel_name">Неточна дължина на името на канала (1-10 символа).</string>
+    <string name="cb_error_language_select">Изберете поне един език.</string>
+    <string name="cb_error_channel_id_exist">ИД на канала съществува.</string>
+    <string name="cb_all_languages">"Всички езици"</string>
+    <string name="cb_default_new_channel_name">Нов канал</string>
+    <string name="fdn_errorcode_unknown_info">Неуспешно. Неизвестна грешка. Опитайте по-късно.</string>
+    <string name="fdn_errorcode_number_info">Неуспешно. Твърде дълъг номер на контакта.</string>
+    <string name="fdn_errorcode_name_info">Неуспешно. Твърде дълго име на контакта.</string>
+    <string name="fdn_errorcode_storage_info">Неуспешно. Паметта е пълна.</string>
+    <string name="fdn_errorcode_phb_info">Неуспешно. Указателят не е готов. Опитайте по-късно.</string>
+    <string name="fdn_errorcode_pin2_info">Неуспешно. Невалиден ПИН2.</string>
+    <string name="net_or_simcard_busy">Мрежата или SIM картата е заета. Опитайте по-късно.</string>
+    <string name="plmn_list_setting_title">Предпочитани мрежи</string>
+    <string name="network_id">ИД на мрежата</string>
+    <string name="plmn_list_setting_add_plmn">Нова наземна мрежа PLMN</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">"Търсене..."</string>
+    <string name="sum_search_femtocell_networks">Изберете ръчно femtocell</string>
+    <string name="register_femtocell_point_wait_tip">Регистриране на <xliff:g id="femto_cell_info">%s</xliff:g> …</string>
+    <string name="register_femtocell_point_result_fail_tip">Сега не мога да се свържа с тази мрежа. Опитайте по-късно.</string>
+    <string name="network_type">Вид мрежа</string>
+    <string name="gsm_umts_network_preferences_title">"Режим на мрежата"</string>
+    <string name="gsm_umts_network_preferneces_summary">Още не е внедрен!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"Режим на мрежата"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G (автом.)</item>
+        <item>Само 3G</item>
+        <item>Само 2G</item>
+    </string-array>
+    <string name="notification_voicemail_text">Изберете за преглед на гласови съобщения</string>
+    <string name="notification_network_selection_without_operator">Избраната мрежа не е достъпна</string>
+    <string name="network_setting_all_forbidden_dialog">Няма достъпни мрежи.</string>
+    <string name="network_forbidden">забранена</string>
+    <string name="fdn_contact_number_invalid">Невалиден номер на контакт.</string>
+    <string name="fdn_puk_need_tips">ПИН2 е блокиран. Сменете ПИН2 и опитайте пак!</string>
+    <string name="fdn_phone_book_busy">Указателят е зает, опитайте по-късно.</string>
+    <string name="one_retry_left">Остава 1 опит</string>
+    <string name="retries_left">Остават <xliff:g id="number">%d</xliff:g> опита</string>
+    <string name="pin_length_indicate">(4-8 цифри)</string>
+    <string name="puk_length_indicate">(8 цифри)</string>
+    <string name="unblock_pin2">Деблокирайте ПИН2</string>
+    <string name="sim_permanently_locked">Въведен неправилен код ПУК2 повече от 10 пъти. SIM картата е блокирана за постоянно</string>
+    <string name="magi_conference_title">МагиКонферентен</string>
+    <string name="magi_conference_summary">Подобрено качество на гласа за конферентен разговор на много хора с другата страна.</string>
+    <string name="volte_is_adding_participants">Добавяне членове за конференцията, изчакайте…</string>
+    <string name="volte_fail_to_invit_participants">Неуспешно добавяне на всички членове към конференцията.</string>
+    <string name="voicemail_lable">Гласова поща (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">За завършване на операцията трябва да отворите връзката за данни на <xliff:g id="sub_name">%s</xliff:g>.</string>
+    <string name="cdma_labelCFU">"Да се пренасочва винаги"</string>
+    <string name="cdma_labelCFB">"Пренасочване при заета линия"</string>
+    <string name="cdma_labelCFNRy">"Пренасочване, когато няма отговор"</string>
+    <string name="cdma_labelCFNRc">"Пренасочване, когато няма връзка"</string>
+    <string name="cdma_labelCFC">Отказ от всички препращания</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">Забрана на ограничението за разкриване номера на повикващия</string> 
+    <string name="cdma_cnir_turnon">Разрешено ограничение за разкриване номера на повикващия</string>
+    <string name="lte_data_only_prompt">Тази функция е недостъпна поради режима само данни 4G. Ще излезете ли от режим само данни 4G?</string>
+    <string name="lte_data_only_timeout">Няма достъпна мрежа само данни 4G в текущото Ви положени. Искате ли да излезете и да потърсите други мрежи?</string>
+    <string name="lte_only_dialog_button_yes">"ДА"</string>
+    <string name="lte_only_dialog_button_no">"НЕ"</string>
+    <string name="lte_only_dialog_title_prompt">Напомняне</string>
+    <string name="enable_4G_data">Разрешени данни 4G</string>
+    <string name="enable_4G_data_summary">4G осигурява по-добър и по-бърз достъп до интернет.</string>
+    <string name="only_use_LTE_data">Използвайте само данни LTE</string>
+    <string name="only_use_LTE_data_summary">За разрешаване ползването само на единични данни функцията не може да използва телефонни повиквания и текстови съобщения.</string>
+</resources>

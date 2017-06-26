@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">Աղմուկի նվազեցում</string>
+    <string name="dual_mic_summary">Ճնշել ետին պլանի աղմուկը զանգերի ժամանակ</string>
+    <string name="anc_title">Ընթացիկ աղմուկի նվազեցում</string>
+    <string name="anc_on">ANC-ն միացված է</string>
+    <string name="anc_off">ANC-ն անջատված է</string>
+    <string name="ip_prefix_setting">IP նախածանց համար</string>
+    <string name="ip_prefix_setting_lable">IP նախածանց համար (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">IP նախածանց համարի կարգավորումներ</string>
+    <string name="enter_ip_prefix_number">Մուտքագրել նախածանց համարը</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Խնդրում ենք մուտքագրել IP նախածանցի համարը առաջին հերթին ձայնականչի կարգավորումներում:</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">IP համարհավաքման գործառույթը կիրառելի չէ համացանցային կանչի համար:</string>
+    <string name="ip_prefix_edit_default_sum">Մուտքագրել նախածանց համարը IP համարհավաքման համար</string>
+    <string name="lable_call_barring">"Զանգի արգելափակում"</string>
+    <string name="title_call_barring">Զանգի արգելափակում (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">Բոլոր ելից կանչերը</string>
+    <string name="lable_all_outgoing_international">Միջազգային ելից կանչերը</string>
+    <string name="lable_all_out_except">Միջազգային ելից կանչերը՝  բացառությամբ դեպի տեղական PLMN ցանց կատարվողները</string>
+    <string name="lable_all_incoming">Բոլոր մտից կանչերը</string>
+    <string name="lable_incoming_calls_except">Մտից կանչերը ռոումինգում գտնվելիս</string>
+    <string name="deactivate_all">Չեղարկել բոլորը</string>
+    <string name="change_password">Փոխել արգելափակման գաղտնաբառը</string>
+    <string name="call_barring_sum">Ձայնականչի արգելափակման կարգավորումները</string>
+    <string name="lable_disable">Անջատված է</string>
+    <string name="lable_enable">"Միացված է"</string>
+    <string name="old_password_label">Հին գաղտնաբառ(4 թիվ)</string>
+    <string name="new_password_label">Նոր գաղտնաբառ(4 թիվ)</string>
+    <string name="invalid_password">Տպեք գաղտնաբառը, որ բաղկացած է 4 թվերից:</string>
+    <string name="confirm_password_label">Հաստատել նոր գաղտնաբառը</string>
+    <string name="mismatch_password">Ձեր մուտքագրած գաղտնաբառը չի համընկնում: Խնդրում ենք կրկին փորձել:</string>
+    <string name="password_changed">Գաղտնաբառը հաջող փոխվեց</string>
+    <string name="enter_callbarring_password">Մուտքագրել կանչերի արգելափակման գաղտնաբառը(4 թիվ)</string>
+    <string name="wrong_password">Գաղտնաբառի սխալ</string>
+    <string name="error_title">"Սխալ"</string>
+    <string name="cell_broadcast">Բջջային հեռարձակում</string>
+    <string name="cell_broadcast_settings">Բջջային հեռարձակման կարգավորումներ</string>
+    <string name="cb_menu_language">"Լեզու"</string>
+    <string name="cb_menu_add_channel">Հավելել ալիք</string>
+    <string name="cb_menu_channel_list">Կապուղիների ցանկ</string>
+    <string name="cb_dialog_title_language_choice">Ընտրել լեզուն</string>
+    <string name="cb_channel_dialog_channel_name">Կապուղու անուն (0-10 գրանիշեր)</string>
+    <string name="cb_channel_dialog_channel_number">Կապուղու համար (0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">Միացնել կապուղին</string>
+    <string name="cb_channel_dialog_edit_channel">Խմբագրել կապուղին</string>
+    <string name="cb_menu_edit">"Խմբագրել"</string>
+    <string name="cb_menu_delete">"Ջնջել"</string>
+    <string name="cb_error_channel_num">Խնդրում ենք ներածել կապուղու համարը(0-65534)</string>
+    <string name="cb_error_channel_name">Կապուղու անվան երկարությունը ճիշտ չէ(1-10գրանշան):</string>
+    <string name="cb_error_language_select">Խնդրում ենք ընտրել առնվազն մեկ լեզու:</string>
+    <string name="cb_error_channel_id_exist">Կապուղու id-ն առկա չէ:</string>
+    <string name="cb_all_languages">Բոլոր լեզուները</string>
+    <string name="cb_default_new_channel_name">Նոր կապուղի</string>
+    <string name="fdn_errorcode_unknown_info">Ձախողվեց, տեղի է ունեցել անհայտ սխալ, խնդրում ենք փորձել ավելի ուշ:</string>
+    <string name="fdn_errorcode_number_info">Ձախողվեց, կոնտակտային համարի երկարությունը չափազանց երկար է:</string>
+    <string name="fdn_errorcode_name_info">Ձախողվեց, կոնտակտային անվան երկարությունը չափազանց երկար է:</string>
+    <string name="fdn_errorcode_storage_info">Ձախողվեց, հիշողությունը լցված է:</string>
+    <string name="fdn_errorcode_phb_info">Ձախողվեց, հեռախոսագիրքը այժմ պատրաստ չէ, խնդրում ենք փորձել ավելի ուշ:</string>
+    <string name="fdn_errorcode_pin2_info">Ձախողվեց, անվավեր PIN2:</string>
+    <string name="net_or_simcard_busy">Ցանցը կամ SIM քարտը զբաղված են, խնդրում ենք փորձել ավելի ուշ:</string>
+    <string name="plmn_list_setting_title">Նախընտրելի ցանցեր</string>
+    <string name="network_id">Ցանցի ID</string>
+    <string name="plmn_list_setting_add_plmn">Նոր PLMN ցանց</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">Որոնում...</string>
+    <string name="sum_search_femtocell_networks">Ընտրել femtocell ձեռքով</string>
+    <string name="register_femtocell_point_wait_tip">Գրանցվում է <xliff:g id="femto_cell_info">%s</xliff:g> ...</string>
+    <string name="register_femtocell_point_result_fail_tip">Հնարավոր չ\է կապակցվել այս ցանցին հիմա: Կրկին փորձեք մի փոքր ուշ:</string>
+    <string name="network_type">Ցանցի տեսակ</string>
+    <string name="gsm_umts_network_preferences_title">"Ցանցի ռեժիմը"</string>
+    <string name="gsm_umts_network_preferneces_summary">Դեռևս իրականացված չէ՛:</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"Ցանցի ռեժիմը"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G (ավտոմատ)</item>
+        <item>միայն 3G</item>
+        <item>միայն 2G</item>
+    </string-array>
+    <string name="notification_voicemail_text">Ընտրեք` դիտելու համար ձայնային փոստերը</string>
+    <string name="notification_network_selection_without_operator">Ընտրված ցանցը մատչելի չէ</string>
+    <string name="network_setting_all_forbidden_dialog">Չկան մատչելի ցանցեր:</string>
+    <string name="network_forbidden">արգելված է</string>
+    <string name="fdn_contact_number_invalid">Անվավեր կոնտակտային համար:</string>
+    <string name="fdn_puk_need_tips">PIN2-ն արգելափակվեց: Փոխեք PIN2-ը և փորձեք կրկին:</string>
+    <string name="fdn_phone_book_busy">Հեռախոսագիրքն այժմ զբաղված է, խնդրում ենք փորձել ավելի ուշ:</string>
+    <string name="one_retry_left">մնացել է 1 փորձ</string>
+    <string name="retries_left"><xliff:g id="number">%d</xliff:g> վերափորձում է դեպի ձախ</string>
+    <string name="pin_length_indicate">(4-8 թիվ)</string>
+    <string name="puk_length_indicate">(8 թիվ)</string>
+    <string name="unblock_pin2">Արգելաբացել PIN2-ը</string>
+    <string name="sim_permanently_locked">PUK2 կոդը սխալ է մուտքագրվել 10 անգամից ավել: SIM քարտը մշտապես կողպվել է</string>
+    <string name="magi_conference_title">«Magic» Կոնֆերանս զանգ</string>
+    <string name="magi_conference_summary">Բարելավում է ձայնի որակն այն ժամանակ, երբ հեռախոսից օգտվում են մի քանի անձինք` մյուս կողմի հետ խոսելու համար:</string>
+    <string name="volte_is_adding_participants">Ավելացվում են կոնֆերանսի անդամ(ներ), խնդրում ենք սպասել...</string>
+    <string name="volte_fail_to_invit_participants">Չհաջողվեց կոնֆերանսին ավելացնել բոլոր անդամներին:</string>
+    <string name="voicemail_lable">Ձայնային փոստ (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">Գործողությունն ավարտելու համար պետք է բացեք <xliff:g id="sub_name">%s</xliff:g>-ի տվյալների կապակցումը:</string>
+    <string name="cdma_labelCFU">"Միշտ փոխանցել"</string>
+    <string name="cdma_labelCFB">"Փոխանցել, երբ զբաղված է"</string>
+    <string name="cdma_labelCFNRy">"Վերահասցեավորել, երբ անպատասխան է"</string>
+    <string name="cdma_labelCFNRc">"Փոխանցել, երբ անհասանելի է"</string>
+    <string name="cdma_labelCFC">Չեղարկել բոլոր փոխանցումները</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">Անջատել զանգողի համարի նույնականացման սահմանափակումը</string> 
+    <string name="cdma_cnir_turnon">Միացնել զանգողի համարի նույնականացման սահմանափակումը</string>
+    <string name="lte_data_only_prompt">Անհնար է օգտագործել այս յուրահատկությունը` միայն 4G տվյալների ռեժիմի պատճառով: Ցանկանո՞ւմ եք դուրս գալ միայն 4G տվյալների ռեժիմից:</string>
+    <string name="lte_data_only_timeout">Ձեր ներկա տեղադրությունում միայն 4G տվյալների ցանց չկա: Ցանկանո՞ւմ եք դուրս գալ և որոնել այլ ցանցեր:</string>
+    <string name="lte_only_dialog_button_yes">"ԱՅՈ"</string>
+    <string name="lte_only_dialog_button_no">"ՈՉ"</string>
+    <string name="lte_only_dialog_title_prompt">Հուշում</string>
+    <string name="enable_4G_data">Միացնել 4G տվյալները</string>
+    <string name="enable_4G_data_summary">4G-ն կարող է ապահովել ավելի լավ և արագ համացանցի մուտք</string>
+    <string name="only_use_LTE_data">Օգտագործել միայն LTE տվյալներ</string>
+    <string name="only_use_LTE_data_summary">Մի տեսակի տվյալներն ակտիվացնելու հետևանքով գործառույթը չի կարողանա օգտագործել Հեռախոսազանգը և տեքստային հաղորդագրությունները:</string>
+</resources>

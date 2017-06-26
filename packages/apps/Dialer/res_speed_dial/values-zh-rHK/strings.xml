@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="reselect_number">這號碼已作為快速撥號鍵，請選擇另一個號碼。</string>
+<string name="call_speed_dial">快速撥號鍵</string>
+<string name="dialog_no_speed_dial_number_message">沒有可用的快速撥號號碼，立即設定？</string>
+<string name="add_speed_dial">點擊可添加快速撥號</string>
+<string name="speed_dial_added">
+<xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) 已新增到快速撥號 <xliff:g id="key">%3$s</xliff:g>
+</string>
+<string name="speed_dial_added2">
+<xliff:g id="contact_name">%1$s</xliff:g> 已新增到快速撥號 <xliff:g id="key">%2$s</xliff:g>
+</string>
+<string name="remove_sd_confirm_1">將 <xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) 從快速撥號 <xliff:g id="key">%3$s</xliff:g> 移除？</string>
+<string name="remove_sd_confirm_2">將 <xliff:g id="contact_name">%1$s</xliff:g> 從快速撥號 <xliff:g id="key">%2$s</xliff:g> 移除？</string>
+ <!-- HQ_fengsimin add for HQ00055994 start -->
+<string name="sd_add">添加</string>
+<string name="voicemail">"語音信箱"</string>
+<string name="remove_speed_dial">移除</string>
+<string name="contact_list_loading">正在載入</string>
+ <!-- HQ_fengsimin add for HQ00055994 end -->
+</resources>

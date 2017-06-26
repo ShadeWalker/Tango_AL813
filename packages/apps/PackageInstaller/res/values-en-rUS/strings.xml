@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Package installer</string>
+    <string name="next">Next</string>
+    <string name="install">Install</string>
+    <string name="done">Done</string>
+    
+    <string name="security_settings_desc">Allow this app to:</string>
+    <string name="cancel">Cancel</string>
+    <string name="unknown">Unknown</string>
+    <string name="installing">Installing\u2026</string>
+    <string name="install_done">App installed.</string>
+    
+    <string name="install_confirm_question">Do you want to install this application? It will get access to:</string>
+    
+    <string name="install_confirm_question_no_perms">Do you want to install this application? It does not require any special access.</string>
+    
+    <string name="install_confirm_question_update">Do you want to install an update to this existing application?  Your existing data will not be lost.  The updated application will get access to:</string>
+    
+    <string name="install_confirm_question_update_system">Do you want to install an update to this built-in application?  Your existing data will not be lost.  The updated application will get access to:</string>
+    
+    <string name="install_confirm_question_update_no_perms">Do you want to install an update to this existing application?  Your existing data will not be lost.  It does not require any special access.</string>
+    
+    <string name="install_confirm_question_update_system_no_perms">Do you want to install an update to this built-in application?  Your existing data will not be lost.  It does not require any special access.</string>
+    <string name="install_failed">App not installed.</string>
+    
+    <string name="install_failed_invalid_apk">The package appears to be corrupt.</string>
+    
+    <string name="install_failed_inconsistent_certificates">An existing package by the same name with a conflicting signature is already installed.</string>
+    
+    <string name="install_failed_older_sdk">The package only works on newer versions of Android.</string>
+    
+    <string name="install_failed_cpu_abi_incompatible" product="tablet">This app isn\'t compatible with your tablet.</string>
+    
+    <string name="install_failed_cpu_abi_incompatible" product="default">This app isn\'t compatible with your phone.</string>
+    
+    <string name="install_failed_file_not_found">The package specified was deleted before installation could be completed.</string>
+    
+    <string name="install_failed_verify_failed">The package did not pass verification and cannot be installed.</string>
+    
+    <string name="install_failed_verify_timeout">A timeout occurred while trying to verify this package. Try to install it again later.</string>
+    
+    <string name="install_failed_msg" product="tablet"><xliff:g id="app_name">%1$s</xliff:g> couldn\'t be installed on your tablet.</string>
+    
+    <string name="install_failed_msg" product="default"><xliff:g id="app_name">%1$s</xliff:g> couldn\'t be installed on your phone.</string>
+    <string name="launch">Open</string>
+    <string name="unknown_apps_dlg_title">Install blocked</string>
+    
+    <string name="unknown_apps_dlg_text" product="tablet">For security, your tablet is set to block installation of apps obtained from unknown sources.</string>
+    
+    <string name="unknown_apps_dlg_text" product="default">For security, your phone is set to block installation of apps obtained from unknown sources.</string>
+    <string name="ok">OK</string>
+    <string name="settings">Unblock</string>
+    
+    <string name="allow_source_dlg_title">New source for apps</string>
+    
+    <string name="allow_source_dlg_text"><xliff:g id="app_name">%1$s</xliff:g> wants to install other apps.\n\nAllow this now and in the future?</string>
+    <string name="manage_applications">Manage apps</string>
+    <string name="dlg_app_replacement_title">Replace app?</string>
+    <string name="dlg_app_replacement_statement">The app you\'re installing will replace another app.\n\nAll your previous user data will be saved.</string>
+    
+    <string name="dlg_sys_app_replacement_statement">This is a system app.\n\nAll your previous user data will be saved.</string>
+    <string name="out_of_space_dlg_title">Out of space</string>
+    <string name="out_of_space_dlg_text"><xliff:g id="app_name">%1$s</xliff:g> couldn\'t be installed. Free up some space and try again.</string>
+    
+    <string name="dlg_ok">OK</string>
+    <string name="app_not_found_dlg_title">App not found</string>
+    <string name="app_not_found_dlg_text">The app wasn\'t found in the list of installed apps.</string>
+    <string name="uninstall_application_title">Uninstall app</string>
+    <string name="uninstall_update_title">Uninstall update</string>
+    <string name="uninstall_activity_text"><xliff:g id="activity_name">%1$s</xliff:g> is part of the following app:</string>
+    <string name="uninstall_application_text">Do you want to uninstall this app?</string>
+    <string name="uninstall_application_text_all_users">Do you want to uninstall this app for <b>all</b> users?  The application and its data will be removed from <b>all</b> users on the device.</string>
+    <string name="uninstall_update_text">Do you want to replace this app with the factory version?</string>
+    <string name="uninstalling">Uninstalling\u2026</string>
+    <string name="uninstall_done">Uninstall finished.</string>
+    <string name="uninstall_failed">Uninstall unsuccessful.</string>
+    
+    <string name="uninstall_failed_device_policy_manager">Can\'t uninstall because this package is an active device administrator.</string>
+    
+    <string name="manage_device_administrators">Manage device administrators</string>
+    <string name="uninstall_failed_msg"><xliff:g id="app_name">%1$s</xliff:g> couldn\'t be uninstalled.</string>
+
+    
+    <string name="Parse_error_dlg_title">Parse error</string>
+    <string name="Parse_error_dlg_text">There was a problem parsing the package.</string>
+
+    
+    <string name="newPerms">New</string>
+    
+    <string name="allPerms">All</string>
+    
+    <string name="privacyPerms">Privacy</string>
+    
+    <string name="devicePerms">Device Access</string>
+
+    
+    <string name="no_new_perms">This update requires no new permissions.</string>
+
+    <string name="grant_confirm_question">Do you want to grant the following permissions? It will get access to:</string>
+
+</resources>

@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
+    
+    <string name="menu_print">Ispis</string>
+    <string name="printContact">Ispiši kontakt putem</string>
+    <string name="no_way_to_print">Nema dostupne aplikacije za ispis kontakta.</string>
+    
+    <string name="no_sdcard_title" product="nosdcard">Pohrana nedostupna</string>
+    
+    <string name="no_sdcard_title" product="default">"Nema SD kartice"</string>
+    
+    
+    <string name="selected_item_count"> 
+        <xliff:g id="count">%d</xliff:g> odabrano
+    </string>
+    
+    <string name="recentCalls_delete">Izbriši</string>
+    <string name="menu_selectAll">"Odaberi sve"</string>
+    <string name="menu_clearAll">"Poništi sve"</string>
+        
+    
+    
+    <string name="all_resources">Svi resursi</string>
+    <string name="choose_resources_header">Odaberi resurse</string>
+    
+    <string name="all_tab_label1">SVE</string>
+    <string name="call_log_item_count">(<xliff:g id="count">%1$d</xliff:g>)</string>
+
+    
+    
+    <string name="call_sipcall">"Internetski poziv"</string>
+    <string name="call_pin_dialog_title">Odaberite SIM karticu</string>
+    <string name="call_people">Osobe</string>
+    <string name="call_ip_dial">IP biranje</string>
+    <string name="call_speed_dial">Brzo biranje</string>
+    <string name="send_message">Pošalji poruku</string>
+    <string name="call_video_call">"Videopoziv"</string>
+    <string name="add_speed_dial">Kucnite za dodavanje brzog biranja</string>
+    <string name="speed_dial_added"> 
+        <xliff:g id="contact_name">%1$s</xliff:g> ( 
+        <xliff:g id="phone_label">%2$s</xliff:g>) dodano za brzo biranje 
+        <xliff:g id="key">%3$s</xliff:g> 
+    </string>
+    <string name="speed_dial_added2"> 
+        <xliff:g id="contact_name">%1$s</xliff:g> dodano za brzo biranje 
+        <xliff:g id="key">%2$s</xliff:g> 
+    </string>
+    <string name="remove_speed_dial">"Ukloni"</string>
+    <string name="remove_sd_confirm_1">Jeste li sigurni da želite ukloniti 
+        <xliff:g id="contact_name">%1$s</xliff:g> ( 
+        <xliff:g id="phone_label">%2$s</xliff:g>) iz brzog biranja 
+        <xliff:g id="key">%3$s</xliff:g>?
+    </string>
+    <string name="remove_sd_confirm_2">Jeste li sigurni da želite ukloniti 
+        <xliff:g id="contact_name">%1$s</xliff:g> iz brzog biranja 
+        <xliff:g id="key">%2$s</xliff:g>?
+    </string>
+    <string name="emergencycall">"Hitan poziv"</string>
+    <string name="imei_invalid">Neispravno</string>
+    <string name="call_log_filter_all_resources">Svi resursi</string>
+    <string name="turn_on_3g_service_message">"3G usluga sada je isključena, želite li je uključiti?"</string>
+    <string name="associate_sim_missing_message">"%1$s je nedostupno. Želite li uspostaviti poziv putem %2$s"</string>
+    <string name="associate_sim_missing_other">"Ostalo"</string>
+    <string name="sim_manage_call_via">"Zovi preko"</string>
+    <string name="callFailed_simError">"Nema SIM-a ili SIM ima pogrešku"</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">"U postavke glasovnih poziva unesite broj IP prefiksa."</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">"Funkcija upućivanja IP poziva ne može se primijeniti na internetske pozive."</string>
+
+    
+    <string name="sd_add">"Dodavanje"</string>
+    <string name="reselect_number">Taj broj već je dodijeljen tipki za brzo biranje, odaberite drugi broj.</string>
+    
+    <string name="calllog_today">"Danas"</string>
+    <string name="calllog_yesterday">Jučer</string>
+    
+    
+    <string name="menu_association">Pridruži karticu</string>
+    <string name="menu_remove_association">Ukloni povezanost kartice</string>
+    <string name="remove_association_message">Jeste li sigurni da želite ukloniti povezanost kartice s ovim brojem?</string>
+    <string name="remove_number_title">"Ukloni"</string>  
+    <string name="warning_detail">Zbog povezanosti kartice, uvest će se kontakt u telefon. Želite li nastaviti povezanost kartice?</string>
+    <string name="block_incoming_call">Blokiraj dolazne pozive</string>
+    <string name="block_video_incoming_call">Izravno blokiraj dolazne video pozive</string>
+
+    
+    <string name="menu_actionbar_selected_items">
+<xliff:g id="name">%s</xliff:g> odabranih</string>
+
+       
+    <string name="has_double_phone_number">Ne može se dvaput spremiti isti tip broja, provjerite.</string>
+    <string name="phone_book_busy">Telefonski imenik je sada zauzet, pokušajte kasnije.</string>
+    <string name="sim_invalid">Ne može se spremiti kontakt kada je kartica neispravna.</string>
+    <string name="cannot_insert_null_number">Ne može se spremiti kontakt čiji broj je prazan.</string>
+    <string name="AirPlane_mode_on">Ne može se spremiti kontakt kada je uključen zrakoplovni način rada.</string>
+    <string name="FDNEnabled">Ne može se spremiti kontakt kada je omogućena značajka FDN.</string>
+    <string name="sim_invalid_number">Ne može se spremiti neispravan broj.</string>
+    <string name="email_invalid">Ne može se spremiti neispravna adresa e-pošte.</string>
+    <string name="email_2g_invalid">Ne može se spremiti poruka e-pošte na 2G SIM, odaberite 3G SIM za spremanje.</string>
+    <string name="sim_invalid_fix_number">Ne može se spremiti neispravan fiksni broj.</string>
+    <string name="AirPlane_mode_on_edit">Ne može se uređivati kontakt kada je uključen zrakoplovni način rada.</string>
+    <string name="msg_loading_sim_contacts_toast">"U pozadini se učitavaju kontakti sa SIM kartice, pričekajte trenutak."</string>
+    <string name="fix_number_too_long">"Fiksni broj je predug."</string>
+    <string name="name_too_long">"Ime je predugo."</string>
+    <string name="storage_full">"Spremnik je pun."</string>
+    <string name="number_too_long">"Broj je predug."</string>
+    <string name="generic_failure">"Generička pogreška."</string>
+    <string name="email_too_long">Adresa e-pošte je preduga</string>
+
+    <string name="send_groupsms_no_number_more">"%1$s i %2$s više kontakata nemaju ispravan telefonski broj."</string>
+    <string name="send_groupsms_no_number_1">"%1$s nema ispravan telefonski broj."</string>
+    <string name="send_groupsms_no_number_2">"%1$s i %2$s nemaju ispravan telefonski broj."</string>    
+
+    
+
+    
+    <string name="account_type_sim" product="tablet">SIM račun</string>
+    
+    <string name="account_type_sim" product="default">SIM račun</string>
+
+    
+    <string name="account_type_usim" product="tablet">USIM račun</string>
+    
+    <string name="account_type_usim" product="default">USIM račun</string>
+
+    
+    <string name="account_type_local_phone" product="tablet">Lokalni telefonski račun</string>
+    
+    <string name="account_type_local_phone" product="default">Lokalni telefonski račun</string>
+
+
+    
+    <string name="local_account_type" product="tablet">Lokalni račun</string>
+    
+    <string name="local_account_type" product="default">Lokalni račun</string>
+
+    
+    <string name="local_account_label" product="tablet">Lokalni račun</string>
+    
+    <string name="local_account_label" product="default">Lokalni račun</string>
+
+    
+    <string name="account_type_sim_label" product="tablet">Samo SIM, nesinkroniziran</string>
+    
+    <string name="account_type_sim_label" product="default">Samo SIM, nesinkroniziran</string>
+
+    
+    <string name="account_type_usim_label" product="tablet">Samo USIM, nesinkroniziran</string>
+    
+    <string name="account_type_usim_label" product="default">Samo USIM, nesinkroniziran</string>
+
+    
+    <string name="please_wait">"Pričekajte"</string>
+    <string name="move_contacts_to">Premjesti kontakte na</string>
+    <string name="menu_move_group">"Premjesti članove grupe"</string> 
+    <string name="menu_message_group">"Pošalji grupnu poruku"</string>
+    <string name="menu_email_group">"Pošalji grupnu poruku e-pošte"</string>    
+    <string name="moving_group_members">"Premještanje članova grupe\u2026"</string>
+    <string name="removing_group_members_sucess">"Uklanjanje članove grupe uspješno"</string>
+    <string name="moving_group_members_sucess">"Premještanje članova grupe uspješno"</string>
+    <string name="moving_group_members_fail">"Premještanje članove grupe neuspješno"</string>
+    <string name="no_valid_number_in_group">Ova grupa nema kontakt s ispravnim telefonskim brojem.</string>
+    <string name="no_valid_email_in_group">Ova grupa nema kontakt s adresom e-pošte.</string>
+    <string name="email_error">Instalirajte aplikaciju e-pošte ili konfigurirajte svoj račun!</string>
+    <string name="usim_group_name_exceed_limit">"Grupni naziv je predug za pohranjivanje."</string>
+    <string name="usim_group_count_exceed_limit">"U memoriju se ne može dodati više novih grupa."</string>
+    <string name="name_needed">Potreban je naziv</string>
+    <string name="save_group_fail">Spremanje grupe nije uspjelo.</string>
+    <string name="group_name_exists">Taj naziv grupe već postoji.</string>
+    <string name="group_discard_member">Odbaci</string>
+    <string name="group_discard_member_reason">Izmjene će biti odbačene jer je naziv grupe neispravan.</string>
+
+    
+    <string name="import_export_title">"Uvoz/izvoz"</string>
+    <string name="next">"Sljedeća"</string>
+    <string name="imexport_bridge_sd_card">SD kartica</string>
+    <string name="tips_source">"Kopiraj kontakte iz"</string>
+    <string name="tips_target">Kopiraj kontakte na</string>
+    <string name="back">"Natrag"</string>
+    <string name="imexport_title">Uvoz/izvoz kontakata</string>
+    <string name="xport_error_one_account">"Umetnite SIM karticu ili SD karticu za uvoz/izvoz kontakata."</string>
+    
+
+
+    
+    <string name="store_contact_to">Pohrani kontakt na</string>
+
+    
+    <string name="menu_delete_contact">Izbriši kontakt</string>
+
+    <string name="menu_conference_call">"Konferencijski poziv"</string>
+
+    <string name="notifier_finish_delete_title">Brisanje kontakata uspješno</string>
+    <string name="notifier_finish_delete_content">Izbrisan(o) 
+        <xliff:g id="total">%d</xliff:g> kontak(a)t(a)
+    </string>
+
+    <string name="notifier_finish_copy_title">Kopiranje kontakata uspješno</string>
+    <string name="notifier_finish_copy_content">Kopiran(o) 
+        <xliff:g id="total">%d</xliff:g> kontak(a)t(a)
+    </string>
+
+    <string name="notifier_multichoice_process_report">Dovršeno: 
+        <xliff:g id="items">%d</xliff:g>\nNedovršeno: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+
+    <string name="notifier_failure_by_sim_full">Greška nastala zbog pune SIM pohrane\nDovršeno: 
+        <xliff:g id="items">%d</xliff:g>\nNedovršeno: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+    <string name="notifier_failure_sim_notready">Greška nastala jer SIM nije spremna\nDovršeno: 
+        <xliff:g id="items">%d</xliff:g>\nNedovršeno: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+
+    <string name="notifier_cancel_delete_title">Brisanje kontak(a)ta otkazano</string>
+    <string name="notifier_fail_delete_title">Brisanje kontak(a)ta nije uspjelo</string>
+
+    <string name="notifier_cancel_copy_title">Kopiranje kontak(a)ta otkazano</string>
+    <string name="notifier_fail_copy_title">Kopiranje kontak(a)ta nije uspjelo</string>
+
+    <string name="notifier_progress__delete_will_start_message">Kontakt(i) će se uskoro izbrisati.</string>
+    <string name="notifier_progress_delete_message">Briše se 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g>: 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> 
+    </string>
+    <string name="notifier_progress_delete_description">Briše se 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> 
+    </string>
+
+    <string name="notifier_progress__copy_will_start_message">Kontakt(i) će se uskoro kopirati.</string>
+    <string name="notifier_progress_copy_message">Kopira se 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g>: 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> 
+    </string>
+    <string name="notifier_progress_copy_description">Kopira se 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> 
+    </string>
+
+    <string name="multichoice_confirmation_title_delete">Otkazivanje brisanja kontak(a)ta</string>
+    <string name="multichoice_confirmation_message_delete">Otkazati brisanje kontak(a)ta?</string>
+
+    <string name="multichoice_confirmation_title_copy">Otkazivanje kopiranja kontak(a)ta</string>
+    <string name="multichoice_confirmation_message_copy">Otkazati kopiranje kontak(a)ta?</string>
+    
+    <string name="multichoice_no_select_alert">"Nema odabrane stavke."</string>
+    <string name="multichoice_delete_confirm_message">"Jeste li sigurni da želite izbrisati odabrani/e kontakt(e)?"</string>
+    <string name="multichoice_delete_confirm_title">Izbrisati kontakt(e)?</string>
+    <string name="multichoice_contacts_limit">"Ne može biti više od "<xliff:g id="count">%d</xliff:g>" odabranih kontakata "</string>
+
+    
+    <string name="phone_storage_full_create">Prostor za pohranu telefona je pun, ne možete izraditi novi kontakt.</string>
+    <string name="phone_storage_full_edit">Prostor za pohranu telefona je pun, ne možete urediti kontakt.</string>
+
+	
+	<string name="add_SIP_to_sim">Ne može se dodati SIP broj u kontakt na kartici.</string>
+	
+	<string name="already_has_SIP">Ne mogu se dodati dva SIP broj u kontakt, ako želite nastaviti. Najprije izbrišite stari SIP broj.</string>
+        
+
+    
+       
+    <plurals name="searchFoundCalllogs">
+        <item quantity="one">1 dnevnik poziva</item>
+        <item quantity="other">
+<xliff:g id="count">%d</xliff:g> dnevnika poziva</item>
+    </plurals>
+        
+    <string name="search_results_for">Traži rezultate za: 
+        <xliff:g id="query">%s</xliff:g> 
+    </string>
+    <string name="listFoundAllCalllogZero">Dnevnik poziva nije pronađen</string>
+    
+    <string name="calllogList">"Povijest poziva"</string>
+    <string name="calllogHint">Traži dnevnike poziva</string>
+    <string name="calllog_description">Dolazni, odlazni i propušteni pozivi</string>
+    <string name="noMatchingCalllogs">Nisu pronađeni odgovarajući dnevnici poziva.</string>
+    
+    <string name="menu_videocallNumber">Video poziv 
+        <xliff:g id="name">%s</xliff:g> 
+    </string>
+    <string name="menu_ipcallNumber">IP poziv 
+        <xliff:g id="name">%s</xliff:g> 
+    </string>
+    
+    <string name="deleting_call_log">Briše se dnevnik poziva...</string>
+    
+    
+    
+    
+    <string name="no_vm_number">"Nedostaje broj govorne pošte"</string>
+    
+    <string name="no_vm_number_msg">"Na SIM kartici nije spremljen broj govorne pošte."</string>
+    
+    <string name="add_vm_number_str">"Dodaj broj"</string>
+    
+    <string name="reminder">"Podsjetnik"</string>
+    <string name="enable_sip_dialog_message">"Internetski pozivi onemogućeni su, želite li ih omogućiti?"</string>
+    <string name="share_contacts_limit">"Ne može biti više od 1000 kontakata odabranih za dijeljenje "</string>
+    
+    <string name="contact_delete_all_tips">"U tijeku je brisanje kontakata, ne može se izvršiti radnja."</string>
+    <string name="sum_search_networks">"Pretraži sve dostupne mreže"</string>
+
+    
+    <string name="deleteCallLogConfirmation_title">Izbrisati dnevnike poziva?</string>
+
+    
+    <string name="deleteCallLogConfirmation_message">Jeste li sigurni da želite izbrisati odabrane dnevnike poziva?"</string>
+    
+    <string name="file_already_on_sd_card">"Datoteka je već na SD kartici."</string>
+    <string name="send_file_sms_error">Ne može se dijeliti datoteka putem SMS-a, koristite MMS.</string>
+    <string name="user_profile_cannot_sd_card">"Sadržaj nije moguće dijeliti na ovaj način."</string>
+    
+    <string name="error_save_usim_contact_email_lost">"Adresa e-pošte nije spremljena jer je memorija za e-poštu puna."</string>
+    <string name="error_import_usim_contact_email_lost">"Neki kontakti\' adrese e-pošte nisu uvezeni jer je memorija za e-poštu puna.\nDovršeno: <xliff:g id="items">%d</xliff:g>\nNedovršeno: <xliff:g id="items">%d</xliff:g>"</string>
+    <string name="type_ip_outgoing">IP odlazni poziv ( 
+        <xliff:g id="name">%s</xliff:g>)
+    </string>
+    
+    <string name="call_sms">"SMS"</string>
+    
+    
+    <string name="delete_group_failure">Nije uspjelo brisanje grupe.</string>
+    
+    <string name="account_type_uim_label" product="tablet">Samo USIM, nesinkronizirano</string>
+    
+    <string name="account_type_uim_label" product="default">Samo USIM, nesinkronizirano</string>
+    <string name="call_log_auto_rejected_label">Automatski odbačeni pozivi</string>
+    <string name="import_no_vcard_dialog_text">Nema pronađete vCard datoteke u 
+        <xliff:g id="storage_name">%s</xliff:g> 
+    </string>
+    <string name="look_simstorage">Prikaži kapacitet SIM kartice</string>
+    <string name="dlg_simstorage_content">Kapacitet pohrane telefonskog imenika 
+        <xliff:g id="items">%d</xliff:g>, iskorišteno je 
+        <xliff:g id="items">%d</xliff:g>.
+    </string>
+
+    
+
+    <string name="contact_group_list_title">"Odaberite ciljnu grupu"</string>
+    
+    
+    <string name="send_groupemail_no_number_more">"%1$s i %2$s više kontakata nema ispravnu adresu e-pošte."</string>
+    <string name="send_groupemail_no_number_1">"%1$s nema ispravnu adresu e-pošte."</string>
+    <string name="send_groupemail_no_number_2">"%1$s i %2$s nemaju ispravnu adresu e-pošte."</string>
+    
+    
+    <string name="add_contact_dlg_title">Dodaj kontakt</string>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+    <string name="deleteConfirmation_title">Izbrisati kontakt?</string>
+    
+    <string msgid="4313552620858880999" name="dialog_phone_call_prohibited_title">Poziv nije poslan</string>
+    
+    <string name="dialog_voicemail_not_ready_title">Broj glasovne pošte je nedostupan</string>
+    
+    
+    <string name="scanning_sdcard_failed_title" product="nosdcard">Ne može se skenirati SD kartica</string>
+    
+    <string name="scanning_sdcard_failed_title" product="default">Ne može se skenirati SD kartica</string>
+    
+    
+
+    
+    <string name="nickname_too_long">"Nadimak je predug."</string>
+    
+    <string name="pick_new_photo_from_gallery">Odaberite novu fotografiju</string>
+    <string name="copy_text_to_dialer">Kopiraj u birač</string>
+    
+    
+    <string name="contact_detail_group_list_title">"Grupe"</string>
+    <string name="contact_detail_group_not_assigned">Nije dodijeljeno</string>
+    <string name="contact_detail_group_list_nogroups">"Nema postojećih grupa. Želite li izraditi novu grupu?"</string>
+    <string name="recents">Nedavni</string>
+    <string name="contact_no_recents">Nema nedavnih</string>
+    <string name="contact_detail_ip_call">IP poziv</string>
+    <string name="contact_detail_history_mms_received_time">"Vrijeme primitka %1$s"</string>
+    <string name="contact_detail_history_mms_received_from">"Primljeno od %1$s"</string>
+    <string name="contact_detail_history_mms_sent_time">"Vrijeme slanja %1$s"</string>
+    <string name="contact_detail_history_mms_sent_to">"Poslano %1$s"</string>
+    
+    <string name="contact_detail_history_calllog">"Povijest poziva"</string>
+    
+    <string name="contact_detail_history_mms">Poruke</string>
+    <string name="contact_detail_history_duration">"Trajanje:"</string>
+    <string name="contact_detail_history_ismms">Multimedijska poruka</string>
+    <string name="contact_detail_history_empty_calllog">"Povijest poziva je prazna"</string>
+    <string name="contact_detail_history_empty_message">Nema poruke</string>
+    <string name="contact_detail_history_empty">"Nema povijesti za poziv, poruku"</string>
+    <string name="contact_recent_number_limit">"Dostupno je samo %1$s kontakata"</string>
+    <string name="contact_recent_group_label">"Grupa"</string>
+        
+    
+    <string name="call_pin_dialog_title_ct">Odaberi UIM/SIM karticu</string>
+    <string name="callFailed_simError_ct">Nema UIM/SIM ili postoji greška na UIM/SIM</string>
+    <string name="msg_loading_sim_contacts_toast_ct">"U pozadini se učitavaju kontakti sa UIM/SIM kartice, pričekajte trenutak."</string>
+    <string name="xport_error_one_account_ct">"Umetnite UIM/SIM karticu ili SD karticu za uvoz/izvoz kontakata."</string>
+    <string name="notifier_failure_by_sim_full_ct">Greška nastala zbog pune UIM/SIM pohrane\nDovršeno: 
+        <xliff:g id="items">%d</xliff:g>\nNedovršeno: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+    <string name="notifier_failure_sim_notready_ct">Greška nastala jer UIM/SIM nije spremna\nDovršeno: 
+        <xliff:g id="items">%d</xliff:g>\nNedovršeno: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+    <string name="look_simstorage_ct">Prikaži kapacitet UIM/SIM kartice</string>
+
+    <string name="callFailed_cdma_notEmergency">"Mogući su samo hitni pozivi."</string>
+
+    
+    <string name="international_dialing_title">"Pomoć za biranje međunarodnih brojeva"</string>
+    <string name="international_dialing_select_country">"Otkriveno je da uspostavljate međunarodni poziv. Odaberite odredište."</string>
+    <string name="international_dialing_add_country_code">Otkriveno je da ste birali 
+        <xliff:g id="country_name">%s</xliff:g> broj. Želite li dodati pozivni broj zemlje (+ 
+        <xliff:g id="country_code">%s</xliff:g>)?
+    </string>
+    <string name="international_dialing_add_country_code_and_area_code">Otkriveno je da ste birali broj u 
+        <xliff:g id="area_name">%1$s</xliff:g>, 
+        <xliff:g id="country_name">%2$s</xliff:g>. Želite li dodati pozivni broj zemlje i područni pozivni broj (+ 
+        <xliff:g id="prefix">%3$s</xliff:g>)?
+    </string>
+    <string name="international_dialing_change_country_prefix">Otkriveno je da birate iz 
+        <xliff:g id="country_name">%s</xliff:g>. Promijeniti predbroj za međudržavne pozive u\'+\'?
+    </string>
+    <string name="international_dialing_add_country_code_input_area_code">Otkriveno je da ste birali broj u 
+        <xliff:g id="country_name">%s</xliff:g>. Ako je tako, unesite područni pozivni broj.
+    </string>
+    <string name="international_dialing_add_country_code_default_input_area_code">Otkriveno je da ste birali broj u 
+        <xliff:g id="country_name">%s</xliff:g>. Ako vaš odredišni grad nije 
+        <xliff:g id="area_name">%s</xliff:g>, unesite područni pozivni broj.
+    </string>
+    <string name="international_dialing_need_area_code">"Za uspostavu poziva potreban je pozivni broj grada odredišta poziva."</string>
+    <string name="international_dialing_input_area_code">"Ovdje unesite pozivni broj"</string>
+    <string name="international_dialing_dialed_number">"Birani broj:"</string>
+    <string name="international_dialing_confirm_area_code">Ako vaš odredišni grad nije 
+        <xliff:g id="area_name">%s</xliff:g>, u nastavku unesite područni pozivni broj vašeg odredišnog grada.
+    </string>
+    <string name="international_dialing_click_below_button">"Kliknite gumb dolje kako biste promijenili kod države."</string>
+    <string name="international_dialing_yes">"Da. Rabi broj dolje:"</string>
+    <string name="international_dialing_no">"Ne. Rabi originalni broj:"</string>
+    <string name="international_dialing_call_button">"Poziv"</string>
+    <string name="international_dialing_area_code">"pozivni broj"</string>
+    <string name="international_dialing_invalid_number">"Broj telefona nije valjan. Želite li svejedno nastaviti birati?"</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">"Želite li dodati kod države i pozivni broj?"</string>
+    <string name="no_search_result">"Nema rezultata pretraživanja"</string>
+
+    <string name="account_phone_only" product="tablet">"Tabletni uređaj"</string>
+    <string name="account_phone_only" product="default">Telefonski kontakt</string>
+    
+    
+    
+    <string name="no_match_call_log">"Nema stavki koje odgovaraju"</string>
+    <string name="no_call_log">"Nema dnevnika poziva"</string>
+    <string name="share_too_large">Ukupna količina podataka prekoračuje gornju granicu, odznačite neke stavke i pokušajte ponovno.</string>
+
+    
+    
+
+    <string name="err_icc_no_phone_book">%1$s ne može pohraniti kontakt</string>
+
+    
+    
+    <string name="titleJoinContactDataWith">"Pridruži kontakte"</string>
+
+    
+    <string name="menu_select_all">"Odaberi sve"</string>
+
+    
+    <string name="list_filter_custom">"Prilagođeno"</string>
+
+    
+    <string name="add_contact_dlg_message_fmt">"Dodati \" 
+        <xliff:g id="EMAIL">%s</xliff:g>\" kontaktima?"
+    </string>
+
+    
+    <string name="locale_change_in_progress">"Popis kontakata ažurira se da bi se pokazala promjena jezika."</string>
+
+    
+    <string name="noFavoritesHelpText">"Nemate favorita.\n\nZa dodavanje kontakta na popis favorita:\n 
+        <li>Kucnite karticu 
+            <b>Kontakti</b> tab\n
+        </li> \n 
+        <li>Kucnite kontakt koji želite dodati u favorite\n</li> \n 
+        <li>Kucnite zvjezdicu pored imena kontakta\n</li>"
+    </string>
+
+    
+    <string name="non_phone_caption">"Broj telefona"</string>
+
+    
+    <string name="menu_select_none">"Poništi odabir svega"</string>
+
+    <string name="find_call_logs">Pronađi dnevnike poziva</string>
+    <string name="call_log_via_sim_name_notice">DNEVNICI POZIVA PUTEM \" 
+        <xliff:g id="sim_name">%s</xliff:g>\"
+    </string>
+    
+
+    
+    <string name="mtk_contact_list_loading">Učitava se\u2026</string>
+    <string name="vcard_import_failed_v2">Nije moguć uvoz</string>
+    <string name="quickcontact_missing_app">"Nije pronađena nijedna aplikacija koja može provesti ovu radnju."</string>
+    
+    
+    <string name="call_speed_dial_title">Brzo biranje</string>
+    <string name="dialog_no_speed_dial_number_message">Nema broja za brzo biranje, želite postaviti sada?</string>
+    <string name="icc_phone_book_invalid">Telefonski imenik sada nije dostupan, pokušajte kasnije.</string>
+    <string name="error_edit_join_group">Ovo je pridruženi kontakt. Informacije o grupi možete uređivati u načinu za uređivanje.</string>
+    
+    <string name="local_phone_account" product="tablet">"Tablet"</string>
+    <string name="local_phone_account" product="default">"Telefon"</string>
+    <string name="imsCallLabelsGroup">IMS poziv</string>
+    <string name="sip_url">SIP url</string>
+    <string name="ims_call_disabled">IMS poziv nije dostupan</string>
+    <string name="vcs_menu_voice_contacts_search" product="default">Traženje glasovnih kontakata</string>
+    <string name="vcs_msg_no_voice_contacts">Ajooj, kontakt nije nađen.</string>
+    <string name="contact_import_export_tips">U tijeku je uvoz/izvoz kontakata, pokušajte kasnije</string>
+<string name="can_not_switch_account_during_call">Nije moguće promijeniti željenu SIM karticu za pozive tijekom poziva.</string>
+<string name="can_not_switch_account_temporarily">Nije moguće privremeno promijeniti željenu SIM karticu za pozive.</string>
+<string name="location_permission_title">Upozorenje o sigurnosti</string>
+<string name="location_permission_summary">Kontakti pokušavaju pribaviti vašu trenutačnu lokaciju.\n(Odbij automatski nakon <xliff:g id="time_sec">%1$s</xliff:g> sekundi)</string>
+<string name="location_permission_allow">Dopusti</string>
+<string name="location_permission_deny">Odbij</string>
+</resources>

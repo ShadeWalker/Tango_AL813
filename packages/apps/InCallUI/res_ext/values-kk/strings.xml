@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="dm_lock">DM құлыпталған</string>
+    <string name="dm_unlock">DM құлыптан босату</string>
+    <string name="start_record">Жазуды бастау</string>
+    <string name="stop_record">Жазуды тоқтату</string>
+    <string name="str_db_playlist_name">Менің жазбалары</string>
+    <string name="alert_device_error">Аудио құрылғысында қате орын алды</string>
+    <string name="ext_media_badremoval_notification_title">SD картасы кенеттен шығарылды</string>
+    <string name="error_sdcard_access">SD картасына қатынасу мүмкін емес</string>
+    <string name="confirm_device_info_full">SD картасында бос орын жоқ, жазба сақталды.</string>
+    <string name="confirm_save_info_saved">Жазба сақталды</string>
+    <string name="confirm_save_info_saved_to">Жазбалар мыналардың ішінде сақталған</string>
+    <string name="recording_saved_sd_full">SD картасында бос орын жоқ, жазба сақталды.</string>
+    <string name="sd_not_enough">SD-картада\nорын жеткіліксіз</string>
+    <string name="alert_dialog_dismiss">Қабылдамау</string>
+    <string name="change_my_pic">Өзгерту</string>
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">Барлық қоңырауларды ажырату</string>
+    <string name="onscreenHangupHolding">Ұсталудағы қоңырауды ажырату</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Белсенді қоңырауды ажырату, күтудегі қоңырауға жауап беру</string>
+    <string name="menu_ect">Тасымалдау</string>
+    <string name="volte_add_conference_member_title">Конференцияға қосу</string>
+    <string name="add_member_msg">Нөмір немесе атауды теру</string>
+    <string name="card_title_incoming_conference">Конференцияға шақыру</string>
+    <string name="addConferenceMemeberText">Мүше қосу</string>
+    <string name="add_conference_member_limit">Бір ретте тек бір нөмірді қосуға болады.</string>
+    <string name="conference_member_join"><xliff:g id="member_name">%s</xliff:g> конференцияға қосылды.</string>
+    <string name="conference_member_leave"><xliff:g id="member_name">%s</xliff:g> конференциядан шықты.</string>
+    <string name="conference_member_adding"><xliff:g id="member_name">%s</xliff:g>  қосылуда...</string>
+    <string name="conference_member_add_fail"><xliff:g id="member_name">%s</xliff:g>  қосу мүмкін болмады.</string>
+    <string name="removeMember">"Алып тастау"</string>
+    <string name="memberStatus">"Күйі"</string>
+    <string name="volte_call_waiting_indication_text">Басқа тарап қоңырау шалуда, күте тұрыңыз...</string>
+    <string name="respond_via_sms_confirmation_format">Хабар <xliff:g id="phone_number">%s</xliff:g> нөміріне жіберілді.</string>
+    <string name="volte_conf_member_reach_max">Конференция максималды мүшелер санына бұрыннан жетті.</string>
+    <string name="add_multi_conference_member_limit">Қазіргі уақытта ең көбі <xliff:g id="max_number">%s</xliff:g> мүшені қосу мүмкін.</string>
+    <string name="multi_conference_member_adding">Мүшелерді қосу...</string>
+</resources>

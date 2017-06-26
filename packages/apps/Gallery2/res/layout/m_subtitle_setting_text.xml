@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->   
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/textsetting" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TableLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="10dip"
+		android:stretchColumns="1"
+		android:shrinkColumns="1">
+		<TableRow>
+			<TextView android:text="@string/subtitle_text_encoding"
+				android:gravity="left" 
+				android:padding="10dip" 
+				android:textSize="20dip" />
+			<Spinner android:id="@+id/encoding_type"
+				android:layout_width="match_parent" 
+				android:layout_height="wrap_content"
+				android:drawSelectorOnTop="true" 
+				android:padding="10dip" />
+		</TableRow>
+
+		<TableRow>
+			<TextView android:text="@string/subtitle_text_font"
+				android:gravity="left" 
+				android:padding="10dip" 
+				android:textSize="20dip" />
+			<Spinner android:id="@+id/font_type" 
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" 
+				android:drawSelectorOnTop="true"
+				android:padding="10dip" />
+		</TableRow>
+
+		<TableRow>
+			<TextView android:text="@string/subtitle_text_color"
+				android:gravity="left" 
+				android:padding="10dip" 
+				android:textSize="20dip" />
+			<Spinner android:id="@+id/color_type" 
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" 
+				android:drawSelectorOnTop="true"
+				android:padding="10dip" />
+		</TableRow>
+
+		<TableRow>
+			<TextView android:text="@string/subtitle_text_size"
+				android:gravity="left" 
+				android:padding="10dip" 
+				android:textSize="20dip" />
+			<SeekBar android:id="@+id/text_size_seek"
+				android:layout_width="match_parent" 
+				android:layout_height="wrap_content"
+				android:padding="10dip" 
+				android:max="60" 
+				android:progress="25" />
+			<TextView android:id="@+id/text_size_disp_num"
+			    android:layout_width="50dip"
+				android:gravity="left" 
+				android:padding="10dip" 
+				android:textSize="20dip" />
+		</TableRow>
+	</TableLayout>
+</FrameLayout>

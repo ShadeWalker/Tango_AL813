@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_app_name">সেটিং</string>
+    <string name="launcher_settings_app_name">সেটিং</string>
+    <string name="launcher_network_app_name">নেটওয়ার্ক</string>
+    <string name="launcher_restricted_profile_app_name">সংরক্ষিত প্রোফাইল</string>
+    <skip/>
+    <string name="header_category_device">  <xliff:g id="bold"/>   <xliff:g id="device_name">%1$s</xliff:g>   <xliff:g id="end_bold"/>সাথে জোড়া তৈরি করতে ডিভাইসের আবশ্যকীয় পিন টাইপ করুন: </string>
+    <string name="header_category_preferences">অগ্রাধিকার</string>
+    <string name="header_category_accessories">রিমোট ও আনুসঙ্গিক সরঞ্জাম</string>
+    <string name="header_category_personal">ব্যক্তিগত</string>
+    <skip/>
+    <string name="add_account">একাউন্ট যোগ করুন</string>
+    <string name="account_header_sync">সিঙ্ক সেটিং</string>
+    <string name="account_header_remove_account">একাউন্ট সরিয়ে ফেলুন</string>
+    <string name="search_title">অনুসন্ধান করুন</string>
+    <string name="account_sync">সিঙ্ক হওয়া অ্যাপ বাছাই করুন</string>
+    <string name="sync_now">এখনই সিঙ্ক. করুন</string>
+    <string name="sync_cancel">সিঙ্ক বাতিল করুন</string>
+    <string name="sync_in_progress">এখন সিঙ্ক হচ্ছে\u2026</string>
+    <string name="last_synced">সর্বশেষ সিঙ্ক হয়েছে <xliff:g id="time">%1s</xliff:g></string>
+    <string name="sync_disabled">নিষ্ক্রিয় করুন</string>
+    <string name="sync_is_failing">সিঙ্ক এ মুহূর্তে কাজ করছে না। এটি শীঘ্রই আবার কাজ করবে।</string>
+    <string name="account_remove">একাউন্ট সরিয়ে ফেলুন</string>
+    <string name="account_remove_failed">একাউন্ট সরাতে পারেনি</string>
+    <string-array name="account_detail_settings">
+        <item>নাম</item>
+        <item>ছবি</item>
+        <item>নিরাপত্তা</item>
+        <item>গুগল ওয়ালেট</item>
+        <item>ক্রয়ের ইতিহাস</item>
+        <item>একাউন্ট সরিয়ে ফেলুন</item>
+    </string-array>
+    <skip/>
+    <string name="connectivity_network">নেটওয়ার্ক</string>
+    <string name="connectivity_wifi">ওয়াই-ফাই</string>
+    <string name="connectivity_ethernet">ইথারনেট</string>
+    <skip/>
+    <string name="device_daydream">ক্যান্ডি স্ক্রিন</string>
+    <string name="device_display">দেখান</string>
+    <string name="device_sound_effects">সিস্টেম সাউন্ড</string>
+    <string name="device_apps">অ্যাপ</string>
+    <string name="device_storage_reset">স্টোরেজ ও পুনরায় সেট করা</string>
+    <string name="device_storage">স্টোরেজ</string>
+    <string name="device_backup_restore">ব্যাকআপ এবং পুনঃস্থাপন</string>
+    <string name="device_reset">ফ্যাক্টরি ডাটা রিসেট</string>
+    <string name="device_calibration">ক্যালিব্রেশন</string>
+    <string name="apps_downloaded">ডাউনলোড করা অ্যাপ</string>
+    <string name="apps_system">সিস্টেম অ্যাপস</string>
+    <string name="apps_running">চলমান অ্যাপ</string>
+    <skip/>
+    <string name="accessories_remote">রিমোট</string>
+    <string name="accessories_camera">ক্যামেরা</string>
+    <string name="accessories_add">আনুসঙ্কিক সরঞ্জাম যোগ করুন</string>11:28 2014/11/3
+    <string name="accessories_wifi_display">ওয়াই ফাই প্রদর্শন</string>
+    <string name="accessory_state_pairing">জোড়া তৈরি হচ্ছে\u2026</string>
+    <string name="accessory_state_connecting">সংযুক্ত হচ্ছে\u2026</string>
+    <string name="accessory_state_error">জোড়া তৈরি করতে পারেনি</string>
+    <string name="accessory_state_canceled">বাতিল করা হয়েছে</string>
+    <string name="accessory_state_paired">জোড়া তৈরি করা হয়েছে</string>
+    <string name="accessory_options">আনুসঙ্গিক সরঞ্জাম</string>
+    <string name="accessory_rename">পুনরায় নামকরণ করুন</string>
+    <string name="accessory_unpair">জোড়া তৈরি না করা</string>
+
+    <string name="accessory_connected">সংযুক্ত</string>
+    <skip/>
+
+    <string name="accessories_add_bluetooth_inst"> আপনার ব্লুটুথ ডিভাইসগুলোর জোড়া তৈরি করার পূর্বে, তারা জোড়া তৈরির মোডে রয়েছে তা নিশ্চিত করুন</string>
+    <string name="accessories_autopair_msg">একটি ডিভাইস পাওয়া গিয়েছে এবং <xliff:g id="countdown">%1$s</xliff:g>  সেকেন্ডের মধ্যে স্বয়ংক্রিয়ভাবে জোড়া তৈরি হয়ে যাবে।</string>
+    <string name="accessories_add_title_multiple">একাধিক ডিভাইস পাওয়া গেছে</string>
+    <string name="accessories_add_multiple">ভিন্ন একটি ডিভাইস বাছাই করতে, এই ডিভাইসের জোড়া তৈরির বাটনে চাপ দিন</string>
+
+    <string name="error_action_not_supported">এই কার্যক্রম সমর্থনীয় নয়</string>
+    <string name="bluetooth_pairing_request">ব্লুটুথ জোড়া তৈরির অনুরোধ</string>
+    <string name="bluetooth_confirm_passkey_msg"><b><xliff:g id="device_name">%1$s</xliff:g></b> সাথে জোড়া তৈরি করার সময়, এটি যাতে এই পাসকি <b><xliff:g id="passkey">%2$s</xliff:g></b> প্রদর্শন করে তা নিশ্চিত করুন</string>
+    <string name="bluetooth_incoming_pairing_msg">থেকে:<b><xliff:g id="device_name">%1$s</xliff:g></b>&lt;br&gt; এই ডিভাইসের সাথে জোড়া তৈরি করবেন? </string>
+    <string name="bluetooth_display_passkey_pin_msg">"জোড়া তৈরি করতে:<b><xliff:g id="device_name">%1$s</xliff:g></b><br/> সাথে এতে টাইপ করুন:<b><xliff:g id="passkey">%2$s</xliff:g></b>, তারপর 'ফেরত যান' বা 'প্রবেশ করান'-এ চাপ দিন।"</string>
+    <string name="bluetooth_enter_pin_msg"><b><xliff:g id="device_name">%1$s</xliff:g></b>, &lt;br&gt; সাথে জোড়া তৈরি করতে ডিভাইসের আবশ্যিক পাসওয়ার্ড টাইপ করুন:</string>
+    <string name="bluetooth_enter_passkey_msg"><b><xliff:g id="device_name">%1$s</xliff:g></b>, &lt;br&gt;সাথে জোড়া তৈরি করতে ডিভাইসের আবশ্যিক পাসকি টাইপ করুন:</string>
+    <string name="bluetooth_pin_values_hint">সাধারণত ০০০০ বা ১২৩৪</string>
+    <string name="bluetooth_pair">জোড়া</string>
+    <string name="bluetooth_cancel">বাতিল করুন</string>
+    <skip/>
+    <string name="system_cast">গুগল কাস্ট</string>
+    <string name="system_date_time">তারিখ ও সময়</string>
+    <string name="system_language">"ভাষা"</string>
+    <string name="system_keyboard">কিবোর্ড</string>
+    <string name="system_search">অনুসন্ধান করুন</string>
+    <string name="system_security">নিরাপত্তা ও বিধিনিষেধ</string>
+    <string name="system_speech">বক্তব্য</string>
+    <string name="system_inputs">ইনপুট</string>
+    <string name="system_accessibility">প্রবেশযোগ্যতা</string>
+    <string name="system_developer_options">ডেভেলপার অপশন</string>
+    <string name="accessibility_none">কোনটি নয়</string>
+    <skip/>
+    <string name="about_system_update">সিস্টেম আপডেট করুন</string>
+    <string name="about_preference">সম্পর্কে</string>
+    <string name="device_name">ডিভাইসের নাম</string>
+    <string name="about_legal_info">আইনগত তথ্য</string>
+    <string name="about_warranty">ওয়ারেন্টি</string>
+    <string name="about_legal_license">অপেন সোর্স লাইসেন্স</string>
+    <string name="about_terms_of_service">সেবার শর্তাবলি দেখুন</string>
+    <string name="about_privacy_policy">গোপনীয়তার নীতি দেখুন</string>
+    <string name="about_additional_terms">অতিরিক্ত শর্তাবলি দেখুন</string>
+    <string name="about_license_activity_unavailable">লাইসেন্সের ডাটা নেই</string>
+    <string name="about_model">মডেল</string>
+    <string name="about_version">সংস্করণ</string>
+    <string name="about_serial">ক্রমিং নম্বর</string>
+    <string name="about_build">তৈরি করুন</string>
+    <plurals name="show_dev_countdown">
+        <item quantity="one">আপনি বর্তমানে একজন ডেভেলপার হওয়া থেকে <xliff:g id="step_count">%1$d</xliff:g> ধাপ দূরে।</item>
+        <item quantity="other">আপনি বর্তমানে একজন ডেভেলপার হওয়া থেকে <xliff:g id="step_count">%1$d</xliff:g> ধাপ দূরে।</item>
+    </plurals>
+    <string name="about_ads">অ্যাড</string>
+    <string name="show_dev_on">আপনি এখন একজন ডেভেলপার!</string>
+    <string name="show_dev_already">কোন প্রয়োজন নেই, আপনি ইতিমধ্যেই একজন ডেভেলপার</string>
+    <skip/>
+
+    <string name="wifi_security_none">কোনটি নয়</string>
+
+    <string name="wifi_remembered">সংরক্ষিত</string>
+    <string name="wifi_disabled_generic">নিষ্ক্রিয় করুন</string>
+    <string name="wifi_disabled_network_failure">এড়িয়ে যাওয়া দুর্বল ইন্টারনেট সংযোগ</string>
+    <string name="wifi_disabled_password_failure">সত্যপ্রতিপাদনে সমস্যা</string>
+    <string name="wifi_not_in_range">রেঞ্জের মধ্যে নেই</string>
+    <string name="wifi_wps_available_first_item">সুরক্ষিত নেটওয়ার্ক রয়েছে</string>
+    <string name="wifi_wps_available_second_item">\u0020 (সুরক্ষিত নেটওয়ার্ক রয়েছে)</string>
+    <string name="wifi_secured_first_item">  <xliff:g id="wifi_security_short">%1$s</xliff:g>দ্বারা সুরক্ষিত </string>
+    <string name="wifi_secured_second_item">  <xliff:g id="wifi_security_short">%1$s</xliff:g>দ্বারা সুরক্ষিত </string>
+    <string-array name="wifi_signal_strength">
+        <item>খারাপ</item>
+        <item>মোটামুটি</item>
+        <item>ভালো</item>
+        <item>অসফল</item>
+    </string-array>
+    <string name="title_mac_address">এমএসি ঠিকানা</string>
+    <string name="title_signal_strength">সিগন্যালের শক্তি</string>
+    <string name="title_ip_address">আইপি ঠিকানা</string>
+    <string name="title_ssid">ওয়াই-ফাই নেটওয়ার্কের নাম প্রবেশ করান</string>
+    <string name="title_internet_connection">ইন্টারনেট সংযোগ</string>
+    <string name="connected">সংযুক্ত</string>
+    <string name="not_connected">সংযুক্ত নয়</string>
+    <string name="wifi_setting_header_available_networks">ওয়াই-ফাই</string>
+    <string name="wifi_setting_header_other_options">"অন্যান্য অপশন"</string>
+    <string name="wifi_setting_see_all">সব দেখুন</string>
+    <string name="wifi_setting_available_networks">লভ্য নেটওয়ার্ক</string>
+    <string name="wifi_setting_other_options_wps">ডাব্লিউপিএস-এর মাধ্যমে সংযুক্ত করুন</string>
+    <string name="wifi_setting_other_options_add_network">নতুন নেটওয়ার্ক যোগ করুন</string>
+    <string name="add_network">নেটওয়ার্ক যোগ করুন</string>
+    <string name="network_ssid">নেটওয়ার্ক এসএসআইডি</string>
+    <string name="security_type">নিরাপত্তার ধরন</string>
+    <string name="password">পাসওয়ার্ড</string>
+    <string name="wps_network">ডাব্লিউপিএস-এর মাধ্যমে সংযুক্ত করুন</string>
+    <string name="other_network">অন্যান্য নেটওয়ার্ক\u2026</string>
+    <string name="skip_network">এড়িয়ে যান</string>
+    <string name="wifi_security_type_none">কোনটি নয়</string>
+    <string name="wifi_security_type_wep">ডাব্লিউইপি</string>
+    <string name="wifi_security_type_wpa">WPA/WPA2 PSK</string>
+    <string name="wifi_security_type_eap">802.1x EAP</string>
+    <string name="title_wifi_no_networks_available">স্ক্যান হচ্ছে\u2026</string>
+    <string name="title_wifi_could_not_save"><xliff:g id="ssid">%1$s</xliff:g> জন্য কনফিগারেশন সংরক্ষণ করতে পারেনি</string>
+    <string name="title_wifi_could_not_connect"><xliff:g id="ssid">%1$s</xliff:g> সাথে সংযুক্ত হতে পারেনি</string>
+    <string name="title_wifi_could_not_connect_timeout"><xliff:g id="ssid">%1$s</xliff:g> পায়নি</string>
+    <string name="title_wifi_could_not_connect_authentication_failure">ওয়াই-ফাই পাসওয়ার্ড বৈধ নয়</string>
+    <string name="title_wifi_could_not_connect_ap_reject">ওয়াই-ফাই নেটওয়ার্ক সংযোগ গ্রহণ করেনি</string>
+    <string name="title_wifi_advanced_options"><xliff:g id="ssid">%1$s</xliff:g> প্রক্সি এবং আইপি সেটিং কনফিগার করবেন?</string>
+    <string name="title_wifi_proxy_settings">প্রক্সি সেটিং</string>
+    <string name="title_wifi_proxy_hostname">প্রক্সি হোস্টনেম:</string>
+    <string name="title_wifi_proxy_port">প্রক্সি পোর্ট:</string>
+    <string name="title_wifi_proxy_bypass">প্রক্সি এড়িয়ে করুন:</string>
+    <string name="title_wifi_ip_settings">আইপি সেটিং</string>
+    <string name="title_wifi_ip_address">আইপি ঠিকানা:</string>
+    <string name="title_wifi_gateway">গেটওয়ে:</string>
+    <string name="title_wifi_network_prefix_length">নেটওয়ার্ক প্রেফিক্সের দৈর্ঘ্য:</string>
+    <string name="title_wifi_dns1">ডিএনএস ১:</string>
+    <string name="title_wifi_dns2">ডিএনএস ২:</string>
+    <string name="title_wifi_proxy_settings_invalid">প্রক্সি সেটিং বৈধ নয়</string>
+    <string name="title_wifi_ip_settings_invalid">আইপি সেটিং বৈধ নয়</string>
+    <string name="title_wifi_known_network"><xliff:g id="ssid">%1$s</xliff:g> একটি সংরক্ষিত নেটওয়ার্ক</string>
+    <string name="wifi_action_try_again">আবার চেষ্টা করুন</string>
+    <string name="wifi_action_view_available_networks">যেসব নেটওয়ার্ক রয়েছে তা দেখুন</string>
+    <string name="wifi_connecting">সংযুক্ত হচ্ছে <xliff:g id="ssid">%1$s</xliff:g></string>
+    <string name="wifi_saving"><xliff:g id="ssid">%1$s</xliff:g> জন্য কনফিগারেশন সংরক্ষণ করছে।</string>
+    <string name="wifi_connect">সংযুক্ত করুন</string>
+    <string name="wifi_forget_network">নেটওয়ার্ক ভুলে যান</string>
+    <string name="wifi_forget_network_description">এটি এই নেটওয়ার্কে, পাসওয়ার্ডসহ, সংযুক্ত হতে ব্যবহৃত তথ্য মুছে দেয়</string>
+    <string name="wifi_action_ok">ঠিক আছে</string>
+    <string name="wifi_action_change_network">পরিবর্তন করুন</string>
+    <string name="wifi_action_dont_change_network">পরিবর্তন করবেন না</string>
+    <string name="wifi_action_advanced_yes">ঠিক আছে</string>
+    <string name="wifi_action_advanced_no">না (পরামর্শ দেওয়া হচ্ছে)</string>
+    <string name="wifi_action_proxy_none">কোনটি নয়</string>
+    <string name="wifi_action_proxy_manual">ম্যানুয়েল</string>
+    <string name="wifi_action_dhcp">ডিএইচসিপি</string>
+    <string name="wifi_action_save">সংরক্ষণ করুন</string>
+    <string name="wifi_action_static">স্থির</string>
+    <string name="wifi_action_status_info">স্ট্যাটাসের তথ্য</string>
+    <string name="wifi_action_advanced_options_title">উন্নতর বিকল্প দেখান</string>
+    <string name="wifi_action_advanced_options_description"><xliff:g id="proxy_settings_summary">%1$s</xliff:g>, <xliff:g id="ip_settings_summary">%2$s</xliff:g></string>
+    <string name="wifi_ip_settings_invalid_ip_address">বৈধ আইপি ঠিকানা প্রবেশ করান</string>
+    <string name="wifi_ip_settings_invalid_gateway">বৈধ গেটওয়ে ঠিকানা প্রবেশ করান</string>
+    <string name="wifi_ip_settings_invalid_dns">বৈধ ডিএনএস ঠিকানা প্রবেশ করান</string>
+    <string name="wifi_ip_settings_invalid_network_prefix_length">০ ও ৩২-এর ভেতর নেটওয়ার্ক প্রিফিক্সের দৈর্ঘ্য রাখুন</string>
+    <string name="wifi_ip_address_hint">বৈধ আইপি ঠিকানা প্রবেশ করান।\nউদাহরণ: 192.168.1.128</string>
+    <string name="wifi_dns1_hint">বৈধ আইপি ঠিকানা প্রবেশ করান বা খালি রাখুন।\nউদাহরণ: 8.8.8.8</string>
+    <string name="wifi_dns2_hint">বৈধ আইপি ঠিকানা প্রবেশ করান বা খালি রাখুন।\nউদাহরণ: 8.8.4.4</string>
+    <string name="wifi_gateway_hint">বৈধ আইপি ঠিকানা প্রবেশ করান বা খালি রাখুন।\nউদাহরণ:  192.168.1.1</string>
+    <string name="wifi_network_prefix_length_hint">বৈধ নেটওয়ার্ক প্রিফিক্সের দৈর্ঘ্য প্রবেশ করান।\nউদাহরণ:24</string>
+    <string name="proxy_error_invalid_host">হোস্টের নাম বৈধ নয়</string>
+
+    <string name="proxy_error_empty_port">পোর্ট ফিল্ড খালি থাকতে পারবে না</string>
+    <string name="proxy_error_empty_host_set_port">হোস্টের ফিল্ড যদি খালি হয় তাহলে পোর্টের ফিল্ডও খালি রাখুন</string>
+    <string name="proxy_error_invalid_port">পোর্ট বৈধ নয়</string>
+    <string name="proxy_warning_limited_support">এইচটিটিপি প্রোক্সি অন্য ব্রাউজার কর্তৃক ব্যবহৃত কিন্তু অন্য অ্যাপ কর্তৃক ব্যবহৃত নাও হতে পারে</string>
+    <string name="proxy_port_hint">বৈধ পোর্ট প্রবেশ করান।\nউদাহরণ: 8080</string>
+    <string name="proxy_exclusionlist_hint">বাদ দেওয়া ডোমেইনের কমা দ্বারা পৃথককৃত তালিকা প্রবেশ করান।\nউদাহরণ: example.com,mycomp.test.com,localhost</string>
+    <string name="proxy_hostname_hint">বৈধ হোস্টের নাম প্রবেশ করান।\nউদাহরণ: proxy.example.com</string>
+    <string name="wifi_summary_title_connected">নেটওয়ার্ক সংযুক্ত</string>
+    <string name="wifi_summary_title_not_connected">নেটওয়ার্ক সংযুক্ত নয়</string>
+    <string name="wifi_summary_description_connected_to_wifi_network"><xliff:g id="ssid">%1$s</xliff:g> ইতিমধ্যে সংযুক্ত। ভিন্ন নেটওয়ার্কে সংযুক্ত হবেন?</string>
+    <string name="wifi_summary_unknown_network">অজানা নেটওয়ার্ক</string>
+    <string name="connectivity_advanced_options">উন্নতর বিকল্প দেখান</string>
+    <string name="connectivity_advanced_options_description"><xliff:g id="ssid">%1$s</xliff:g>, <xliff:g id="ssid">%2$s</xliff:g></string>
+    <string name="title_ip_settings">আইপি সেটিং</string>
+    <string name="title_test_connection">সংযোগ পরীক্ষা করুন</string>
+    <string name="dhcp">ডিএইচসিপি</string>
+    <string name="title_static">স্থির</string>
+    <string name="gateway">গেটওয়ে</string>
+    <string name="title_network_prefix_length">নেটওয়ার্ক প্রেফিক্সের দৈর্ঘ্য</string>
+    <string name="title_dns_1">ডিএনএস ১</string>
+    <string name="title_dns_2">ডিএনএস ২</string>
+    <string name="title_ok">ঠিক আছে</string>
+    <string name="title_cancel">বাতিল করুন</string>
+    <string name="rename_device">ডিভাইসের পুনরায় নামকরণ করুন</string>
+    <string name="storage_title">স্টোরেজ</string>
+    <string name="storage_available">পাওয়া যাচ্ছে</string>
+    <string name="storage_size">মোট স্পেস: <xliff:g id="total_space">%1$s</xliff:g></string>
+    <string name="storage_calculating_size">হিসাব করা হচ্ছে...</string>
+    <string name="storage_apps_usage">অ্যাপ</string>
+    <string name="storage_downloads_usage">ডাউনলোড</string>
+    <string name="storage_dcim_usage">ছবি ও ভিডিও</string>
+    <string name="storage_music_usage">অডিও</string>
+    <string name="storage_media_misc_usage">বিধি।</string>
+    <string name="storage_media_cache_usage">ক্যাশ ডাটা</string>
+    <string name="wifi_wps_cancel_scan">বাতিল করুন</string>
+    <string name="wifi_wps_retry_scan">পুনরায় চেষ্টা করুন</string>
+    <string name="wifi_wps_title">ডব্লিউপিএস রাউটার অনুসন্ধান করছে\u2026</string>
+    <string name="wifi_wps_instructions">আপনার রাউটারের ওয়াই-ফাই সুরক্ষিত সেটআপ বাটন চাপুন। \nএটিকে \"ডব্লিউপিএস"\ বলা হতে পারে বা বামে চিহ্ন থাকতে পারে।</string>
+    <string name="wifi_wps_onstart_pin">আপনার ওয়াই-ফাই রাউটারের উপর পিন <xliff:g id="number">%1$s</xliff:g> প্রবেশ করান</string>
+    <string name="wifi_wps_onstart_pin_description">আপনি পিন প্রবেশ করানোর পর সেটআপ শেষ হতে ২ মিনিটের মত লাগতে পারে</string>
+    <string name="wifi_wps_in_progress">ডব্লিউপিএস ইতিমধ্যে চলছে এবং শেষ হতে ২ মিনিটের মত সময় লাগতে পারে</string>
+    <string name="wifi_wps_failed_generic">ওয়াই-ফাই রাউটার খুঁজে পাচ্ছে না</string>
+    <string name="wifi_wps_failed_wep">ওয়াই-ফাই রাউটার নিরাপত্তা সেটিং (ডব্লিউইপি) সমর্থন করছে না</string>
+    <string name="wifi_wps_failed_tkip">ওয়াই-ফাই রাউটার নিরাপত্তা সেটিং (টিকেআইপি) সমর্থন করছে না</string>
+    <string name="wifi_wps_failed_overlap">অন্য ডব্লিউপিএস সেশন চলছে। কয়েক মিনিটের মধ্যে আবার চেষ্টা করুন।</string>
+    <string name="system_date">তারিখ</string>
+    <string name="system_time">সময়</string>
+    <string name="system_set_date">তারিখ সেট করুন</string>
+    <string name="system_choose_date_format">তারিখ ফরম্যাট নির্বাচন করুন</string>
+    <string name="system_set_time">সময় সেট করুন</string>
+    <string name="system_set_time_zone">সময় অঞ্চল নির্ধারণ করা</string>
+    <string name="system_set_time_format">২৪-ঘন্টা ফরম্যাট ব্যবহার করুন</string>
+    <string name="system_auto_date_time">স্বয়ংক্রিয় তারিখ ও সময়</string>
+    <string name="desc_auto_date_time">নেটওয়ার্ক-প্রদত্ত সময় ব্যবহার করুন</string>
+    <string name="system_location">অবস্থানে প্রবেশাধিকার</string>
+    <string name="system_desc_location">আপনার অবস্থানের তথ্য ব্যবহারের জন্য যে অ্যাপ আপনার অনুমতি চেয়েছে তাকে অনুমতি দিন</string>
+    <string name="system_network_location">ওয়াই-ফাই নেটওয়ার্কের অবস্থান</string>
+    <string name="system_desc_network_location">গুগলকে অ্যাপকে সাহায্য করতে দিনে যেন তা অবস্থান নির্ধারণ করতে পারে। এর অর্থ হলো গুগলকে বেনামী অবস্থানের ডাটা পাঠানো, এমনকি যখন কোনো অ্যাপ চলছে না।</string>
+    <string name="system_network_location_confirm">অবস্থানের সম্মতি</string>
+    <string name="system_desc_network_location_confirm">বেনামী অবস্থানের ডাটা সংগ্রহ করতে গুগলের অবস্থান সেবার অনুমতি দিন। কিছু ডাটা আপনার ডিভাইসে মজুদ থাকতে পারে। যখন কোনো অ্যাপ চলছে না তখনও সংগ্রহ হতে পারে।</string>
+    <string name="location_title">আমার লোকেশন</string>
+    <string name="header_category_system">ফিডব্যাক</string>
+    <string name="location_mode_title">মোড</string>
+    <string name="location_category_recent_location_requests">সাম্প্রতিক অবস্থান সংক্রান্ত অনুরোধ</string>
+    <string name="location_no_recent_apps">সম্প্রতি কোন অ্যাপ অবস্থানের ব্যাপারে অনুরোধ জানায়নি</string>
+    <string name="location_high_battery_use">উচ্চ ব্যাটারি ব্যবহার</string>
+    <string name="location_low_battery_use">নিম্ন ব্যাটারি ব্যবহার</string>
+    <string name="location_mode_wifi_description">অবস্থান অনুমান করতে ওয়াই\u2011ফাই ব্যবহার করুন</string>
+    <string name="location_status">অবস্থানের স্ট্যাটাস</string>
+    <string name="location_services">লোকেশন সেবা</string>
+    <string name="on">চালু করুন</string>
+    <string name="off">বন্ধ করুন</string>
+    <string name="google_location_services_title">গুগলের অবস্থান সেবা</string>
+    <string name="third_party_location_services_title">৩য় পক্ষের অবস্থান সেবা</string>
+    <string name="location_reporting">অবস্থান রিপোর্ট করা</string>
+    <string name="location_history">অবস্থানের ইতিহাস</string>
+    <string name="location_reporting_desc">গুগল নাও এবং গুগল ম্যাপসের মত পণ্যগুলোতে গুগল এই ফিচার ব্যবহার করে। অবস্থানের রিপোর্ট করা চালু করলে গুগলের যে পণ্য এই ফিচার ব্যবহার করে সেগুলো আপনার গুগল একাউন্টের সাথে সংযুক্ত আপনার ডিভাইসের সর্বসাম্প্রতিক অবস্থানের তথ্য মজুদ ও ব্যবহার করতে পারবে।</string>
+    <string name="location_history_desc">যখন অবস্থানের ইতিহাস এই একাউন্টের জন্য চালু হয়, গুগল আপনার অ্যাপ কর্তৃক ব্যবহারের জন্য আপনার ডিভাইসের অবস্থান মজুদ করতে পারবে। \n\n উদাহরণস্বরূপ, গুগল ম্যাপস আপনাকে দিকনির্দেশনা দিতে পারবে, এবং গুগল নাও আপনাকে গণপরিবহন সম্পর্কে তথ্য দিতে পারবে। \n\nআপনি যে কোনো সময় অবস্থানের ইতিহাস বন্ধ করতে পারবেন, কিন্তু সেটা কররে এটি মুছে যাবে না, দেখুন maps.google.com/locationhistory </string>
+    <string name="delete_location_history_title">অবস্থানের ইতিহাস মুছুন</string>
+    <string name="delete_location_history_desc">এটি এই গুগল একাউন্টের জন্য এই ডিভাইসে অবস্থানের ইতিহাস কর্তৃক সব মুছে ফেলবে। আপনি এটি বাতিল করতে পারবেন না। কিছু অ্যাপস, গুগল নাওসহ, কাজ করা বন্ধ করে দেবে।</string>
+    <string name="system_services">সেবা</string>
+    <string name="accessibility_service_settings">সেবা সেটিং</string>
+    <string name="accessibility_captions">ক্যাপশন</string>
+    <string name="accessibility_captions_description">ভিডিওতে বন্ধ ক্যাপশনিং টেক্সটের জন্য সেটিং</string>
+    <string name="captions_display">দেখান</string>
+    <string name="captions_display_on">চালু করুন</string>
+    <string name="captions_display_off">বন্ধ করুন</string>
+    <string name="display_options">প্রদর্শনের অপশন</string>
+    <string name="captions_configure">কনফিগার করুন</string>
+    <string name="captions_lanaguage">"ভাষা"</string>
+    <string name="captions_textsize">টেক্সট সাইজ</string>
+    <string name="captions_captionstyle">ক্যাপশনের ধরন</string>
+    <string name="captions_customoptions">কাস্টম অপশন</string>
+    <string name="captions_fontfamily">ফন্ট পরিবার</string>
+    <string name="captions_textcolor">লেখার রং</string>
+    <string name="captions_edgetype">প্রান্তের ধরন</string>
+    <string name="captions_edgecolor">প্রান্তের রং</string>
+    <string name="captions_backgroundcolor">ব্যাকগ্রাউন্ডের রং</string>
+    <string name="captions_backgroundopacity">ব্যাকগ্রাউন্ডের অস্বচ্ছতা </string>
+    <string name="captioning_preview_text">ক্যাপশনগুলো দেখতে এরকম হবে</string>
+    <string name="captions_textopacity">টেক্সটের অস্বচ্ছতা</string>
+    <string name="captions_windowcolor">উইন্ডোর রং</string>
+    <string name="captions_windowopacity">উইন্ডোর স্বচ্ছতা</string>
+    <string name="color_none">কোনটি নয়</string>
+    <string name="color_white">সাদা</string>
+    <string name="color_gray">ধূসর</string>
+    <string name="color_black">কালো</string>
+    <string name="color_red">লাল</string>
+    <string name="color_green">সবুজ</string>
+    <string name="color_blue">নীল</string>
+    <string name="color_cyan">সাইয়ান</string>
+    <string name="color_yellow">হলুদ</string>
+    <string name="color_magenta">"ম্যাজেন্টা"</string>
+    <string name="system_accessibility_status">স্টেট</string>
+    <string name="system_accessibility_config">কনফিগারেশন</string>
+    <string name="system_accessibility_service_on_confirm_title">  <xliff:g id="service" example="TalkBack">%1$s</xliff:g> ব্যবহার করবেন? </string>
+    <string name="system_accessibility_service_on_confirm_desc"><xliff:g id="service" example="TalkBack">%1$s</xliff:g> পাসওয়ার্ড ছাড়া আপনার টাইপকৃত সব টেক্সট সংগ্রহ করতে পারে। এতে আছে ক্রেডিট কার্ড নম্বরসহ ব্যক্তিগত ডাটা।</string>
+    <string name="system_accessibility_service_off_confirm_title">  <xliff:g id="service" example="TalkBack">%1$s</xliff:g> বন্ধ করবেন? </string>
+    <string name="system_accessibility_service_off_confirm_desc">ঠিক আছে নির্বাচন করলে <xliff:g id="service" example="TalkBack">%1$s</xliff:g> বন্ধ করবে।</string>
+    <string name="system_accessibility_tts_output">টেক্সট থেকে কথা</string>
+    <string name="system_speak_passwords">পাসওয়ার্ড বলুন</string>
+    <string name="system_preferred_engine">পছন্দসই ইঞ্জিন</string>
+    <string name="system_speech_rate">বক্তব্যের হার</string>
+    <string name="system_play_sample">নমুনা চালান</string>
+    <string name="system_install_voice_data">কন্ঠ ডাটা ইনস্টল করুন</string>
+    <string name="system_general">সাধারণ</string>
+    <string name="system_debugging">ডিবাগিং</string>
+    <string name="system_input">ইনপুট দিন</string>
+    <string name="system_drawing">অংকন</string>
+    <string name="system_monitoring">পরিবীক্ষণ</string>
+    <string name="system_apps">অ্যাপ</string>
+    <string name="system_take_bug_report">বাগ রিপোর্ট নিন</string>
+    <string name="system_backup_password">ব্যাকআপ পাসওয়ার্ড</string>
+    <string name="system_stay_awake">জাগ্রত থাকুন</string>
+    <string name="system_hdcp_checking">এইচডিসিপি চেকিং</string>
+    <string name="system_hdmi_optimization">এইচডিএমআই অপটিমাইজেশন</string>
+    <string name="system_reboot_confirm">এখন রিস্টার্ট করবেন?</string>
+    <string name="system_desc_reboot_confirm">এই সেটিং আপডেট করতে আপনার ডিভাইস রিস্টার্ট করতে হবে</string>
+    <string name="system_never_check">কখনো চেক করবেন না</string>
+    <string name="system_check_for_drm_content_only">কেবল ডিআরএম বিষয়বস্তুর জন্য চেক করুন</string>
+    <string name="system_always_check">সবসময় চেক করুন</string>
+    <string name="system_bt_hci_log">ব্লুটুথ এইচসিআই লগিং</string>
+    <string name="system_email_address">ইমেইল ঠিকানা</string>
+    <string name="system_usb_debugging">ইউএসবি ডিবাগ করা</string>
+    <string name="system_allow_mock_locations">মক লোকেশনের অনুমতি দিন</string>
+    <string name="system_select_debug_app">ডিবাগ অ্যাপ নির্বাচন করুন</string>
+    <string name="system_wait_for_debugger">ডিভাগের জন্য অপেক্ষা করুন</string>
+    <string name="system_verify_apps_over_usb">ইউএসবিতে অ্যাপসের সত্যতা যাচাই করুন</string>
+    <string name="system_desc_verify_apps_over_usb">ক্ষতিকর আচরণের জন্য এডিবি/এডিটির মাধ্যমে ইনস্টলকৃত অ্যাপ চেক করুন</string>
+    <string name="system_wifi_verbose_logging">ওয়াইফাই ভার্বোস লগিং</string>
+    <string name="system_desc_wifi_verbose_logging">ওয়াইফাই ভার্বোস লগিং সক্রিয় করুন</string>
+    <string name="system_show_touches">স্পর্শ দেখান</string>
+    <string name="system_pointer_location">পয়েন্টার লোকেশন</string>
+    <string name="system_show_layout_bounds">লেআউট বাউন্ড দেখান</string>
+    <string name="system_show_gpu_view_updates">জিপিইউ ভিউ আপডেট দেখান</string>
+    <string name="system_show_hardware_layer">হার্ডওয়্যার লেয়ার দেখান</string>
+    <string name="system_show_gpu_overdraw">জিপিইউ ওভারড্র দেখাচ্ছে</string>
+    <string name="system_show_surface_updates">স্ক্রিন আপডেট দেখান</string>
+    <string name="system_window_animation_scale">উন্ডো অ্যানিমেশন স্কেল</string>
+    <string name="system_transition_animation_scale">ট্রানজিশন অ্যানিমেশন স্কেল</string>
+    <string name="system_animator_duration_scale">অ্যানিমেটরের স্থায়িত্বকালের স্কেল</string>
+    <string name="system_strict_mode_enabled">কঠোর মোড সক্রিয়</string>
+    <string name="system_show_cpu_usage">সিপিইউ ব্যবহার দেখান</string>
+    <string name="system_profile_gpu_rendering">জিপিইউ রেন্ডারিং প্রোফাইল</string>
+    <string name="system_enable_traces">ট্রেস সক্রিয় করুন</string>
+    <string name="system_dont_keep_activities">কর্মকাণ্ড রাখবেন না</string>
+    <string name="system_background_process_limit">ব্যাকগ্রাউন্ড প্রক্রিয়া সীমা</string>
+    <string name="system_show_all_anrs">সব এএনআর দেখান</string>
+    <string name="system_desc_take_bug_report">ইমেইল ঠিকানায় রিপোর্ট পাঠান</string>
+    <string name="system_desc_backup_password">ডেস্কটপ পূর্ণাঙ্গ ব্যাকআপ সংরক্ষণ করুন</string>
+    <string name="system_desc_stay_awake">স্লিপ নিষ্ক্রিয় করুন</string>
+    <string name="system_desc_hdcp_checking">কেবল ডিআরএম কনটেন্টের জন্য ব্যবহার করুন</string>
+    <string name="system_desc_hdmi_optimization">সর্বোচ্চ রেজ্যুলুশন বা সর্বোচ্চ ফ্রেমরেটের জন্য ডিসপ্লে অপটিমাইজ করুন। এটি কেবল আল্ট্রা এইচডি ডিসপ্লেকে প্রভাবিত করে। এই সেটিং পরিবর্তন করলে আপনার ডিভাইস রিস্টার্ট হবে।</string>
+    <string name="system_desc_bt_hci_log">ব্লুটুথ এইচসিআই স্নুপ লগিং সক্রিয় করুন</string>
+    <string name="system_desc_usb_debugging">ইউএসবি সংযুক্ত হওয়ার সময় ডিবাগ মোড</string>
+    <string name="system_desc_wait_for_debugger">প্রয়োগের আগে ডিবাগকৃত অ্যাপ্লিকেশন সংযুক্ত করতে ডিবাগারের জন্য অপেক্ষা করে</string>
+    <string name="system_desc_show_layout_bounds">ক্লিপ বাউন্ড, মার্জিন, ইত্যাদি দেখান।</string>
+    <string name="system_desc_show_gpu_view_updates">জিপিইউ দিয়ে আঁকার সময় উইন্ডোর ভেতর ভিউ জ্বলজ্বল করে।</string>
+    <string name="system_desc_show_hardware_layer">আপডেট চলা অবস্থায় ফ্লাশ হার্ডওয়্যার লেয়ার সবুজ হবে</string>
+    <string name="system_desc_show_gpu_overdraw">সবচেয়ে ভাল হতে খারাপ: নীল, সবুজ, হালকা লাল, লাল</string>
+    <string name="system_desc_show_surface_updates">আপডেটের সময় স্ক্রিনের এলাকাগুলো জ্বলজ্বল করে</string>
+    <string name="system_desc_strict_mode_enabled">যখন মেইন থ্রেডে অ্যাপ দীর্ঘ কার্যক্রম চালায় তখন স্ক্রিন জ্বলজ্বল করবে</string>
+    <string name="system_desc_show_cpu_usage">স্ক্রিন ওভারলে বর্তমান সিপিইউ ব্যবহার দেখাচ্ছে</string>
+    <string name="system_desc_profile_gpu_rendering">adb shell dumpsys gfxinfo-এ রেন্ডারিং সময় পরিমাপ করা</string>
+    <string name="normal_date_format">সাধারণ (  <xliff:g id="date" example="12-31-2009">%s</xliff:g>) </string>
+    <skip/>
+    <string name="action_on_title">চালু করুন</string>
+    <string name="action_off_title">বন্ধ করুন</string>
+    <string name="action_on_description">চালু করুন</string>
+    <string name="action_off_description">বন্ধ করুন</string>
+    <string name="agree">সম্মত</string>
+    <string name="disagree">সম্মত নয়</string>
+    <skip/>
+    <string name="security_unknown_sources_title">অজানা উৎ স</string>
+    <string name="security_unknown_sources_desc">প্লেস্টোর ছাড়া অন্য সোর্স থেকে অ্যাপের ইনস্টলেশনের অনুমতি দিন</string>
+    <string name="security_unknown_sources_confirm_desc">আপনার ডিভাইস ও ব্যক্তিগত ডাটা অজানা উৎসের অ্যাপ কর্তৃক আক্রান্ত হওয়ার ঝুঁকি বেশি। আপনি সম্মত আছেন যে এসব অ্যাপ ব্যবহার করার ফলে আপনার ডিভাইসের ক্ষতি বা ডাটা হারানোর জন্য আপনি এককভাবে দায়ী।</string>
+    <string name="security_verify_apps_title">অ্যাপের সত্যতা যাচাই করুন</string>
+    <string name="security_verify_apps_desc">যেসব অ্যাপ ক্ষতি করতে পারে সেগুলো ইনস্টল করার পূর্বে অনুমতি প্রদান করবেন না বা সতর্ক করবেন</string>
+    <string-array name="hdcp_checking_summaries">
+        <item>কখনও না</item>
+        <item>ডিআরএম কনটেন্টের জন্য</item>
+        <item>সবসময়</item>
+    </string-array>
+    <string name="no_application">কোনটাই নয়</string>
+    <string-array name="enable_opengl_traces_entries">
+        <item>কোনটি নয়</item>
+        <item>লগকেট</item>
+        <item>সিসট্রেস (গ্রাফিক্সস)</item>
+        <item>কল স্ট্যাক অন glত্রুটি পেল</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>অ্যানিমেশন বন্ধ</item>
+        <item>এনিমেশনের স্কেল ০.৫x</item>
+        <item>অ্যানিমেশন স্কেল 1x</item>
+        <item>এনিমেশনের স্কেল ১.৫x</item>
+        <item>অ্যানিমেশন স্কেল 2x</item>
+        <item>এনিমেশনের স্কেল ৫x</item>
+        <item>অ্যানিমেশন স্কেল 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>অ্যানিমেশন বন্ধ</item>
+        <item>এনিমেশনের স্কেল ০.৫x</item>
+        <item>অ্যানিমেশন স্কেল 1x</item>
+        <item>এনিমেশনের স্কেল ১.৫x</item>
+        <item>অ্যানিমেশন স্কেল 2x</item>
+        <item>এনিমেশনের স্কেল ৫x</item>
+        <item>অ্যানিমেশন স্কেল 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>অ্যানিমেশন বন্ধ</item>
+        <item>এনিমেশনের স্কেল ০.৫x</item>
+        <item>অ্যানিমেশন স্কেল 1x</item>
+        <item>এনিমেশনের স্কেল ১.৫x</item>
+        <item>অ্যানিমেশন স্কেল 2x</item>
+        <item>এনিমেশনের স্কেল ৫x</item>
+        <item>অ্যানিমেশন স্কেল 10x</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>বন্ধ করুন</item>
+        <item>বার অনুসারে স্ক্রিনে</item>
+        <item>মধ্যে adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>আদর্শ সীমা</item>
+        <item>কোন ব্যাকগ্রাউন্ড প্রক্রিয়া নেই</item>
+        <item>খুব বেশি হলে ১টি প্রক্রিয়া</item>
+        <item>বেশি হলে ২টি প্রক্রিয়া</item>
+        <item>খুব বেশি হলে ৩টি প্রক্রিয়া</item>
+        <item>বেশি হলে ৪টি প্রক্রিয়া</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>অত্যন্ত ধীরে</item>
+        <item>ধীরে</item>
+        <item>স্বাভাবিক</item>
+        <item>দ্রুত</item>
+        <item>খুব দ্রুত</item>
+    </string-array>
+    <string name="choose_account_type_title">একাউন্টের ধরন বাছাই করুন</string>
+    <string name="choose_account_title">একটি একাউন্ট বাছাই করুন</string>
+    <string name="add_account_button_label">নতুন একাউন্ট যোগ করুন</string>
+    <string name="title_current_keyboard">ডিফল্ট</string>
+    <string name="title_configure">কনফিগার করুন</string>
+    <string name="desc_configure_keyboard">কিবোর্ড অপশন</string>
+    <string name="computing_size">গণনা করা হচ্ছে\u2026</string>
+    <string name="title_select_wifi_network">আপনার ওয়াই-ফাই নেটওয়ার্ক নির্বাচন করুন</string>
+    <string name="accessories_wifi_display_rename_device">পুনরায় নামকরণ করুন</string>
+    <string name="accessories_wifi_display_enable">ওয়াই ফাই প্রদর্শন</string>
+    <string name="accessories_wifi_display_pin_required">পিন আবশ্যক</string>
+    <string name="accessories_remote_list_title">রিমোট তথ্য: <xliff:g id="serialnumber">%1$s</xliff:g></string>
+    <skip/>
+    <string name="system_collecting_bug_report">বাগ রিপোর্ট সংগ্রহ!\nরিপোর্ট একবার প্রস্তুত হয়ে গেলে আমরা আপনার কাছে আরো তথ্য চাইব। </string>
+    <string name="system_collecting_bug_report_error">বাগ রিপোর্ট সংগ্রহ করতে পারেনি!\nপরে আবার চেষ্টা করুন।</string>
+    <string name="whichApplication">ব্যবহার করে কাজ সম্পন্ন করুন</string>
+    <string name="alwaysUseQuestion">এই কাজের জন্য সবসময় এই অপশন ব্যবহার করবেন?</string>
+    <string name="alwaysUseOption">সবসময় ব্যবহার করুন</string>
+    <string name="justOnceOption">শুধুমাত্র একবার</string>
+    <string name="noApplications">কোনো অ্যাপ এই একশন দেখাতে পারবে না।</string>
+    <string name="noAppsGoBack">পেছনে</string>
+    <string name="inputs_inputs">ইনপুট</string>
+    <string name="inputs_header_cec">কনস্যুমার ইলেক্ট্রনিক কন্ট্রোল (সিইসি)</string>
+    <string name="inputs_cec_settings">ডিভাইস নিয়ন্ত্রণ সেটিং</string>
+    <string name="inputs_blu_ray">ব্লু-রে</string>
+    <string name="inputs_cable">ক্যাবল</string>
+    <string name="inputs_dvd">ডিভিডি</string>
+    <string name="inputs_game">গেইম কনসোল</string>
+    <string name="inputs_aux">অক্স</string>
+    <string name="inputs_custom_name">কাস্টম নাম</string>
+    <string name="inputs_hide">লুকায়িত</string>
+    <string name="inputs_hide_desc">ইনপুট সুইচ করার সময় দেখা যায় না</string>
+    <string name="inputs_custom_title">কাস্টম নাম:</string>
+    <string name="inputs_hdmi_control">এইচডিএমআই নিয়ন্ত্রণ</string>
+    <string name="inputs_hdmi_control_desc">এইচডিএমআই ডিভাইস নিয়ন্ত্রণ করতে টিভিকে অনুমতি দিন</string>
+    <string name="inputs_device_auto_off">ডিভাইস স্বয়ংক্রিয় পাওয়ার বন্ধ</string>
+    <string name="inputs_device_auto_off_desc">টিভির সাথে এইচডিএমআই ডিভাইস পাওয়ার বন্ধ</string>
+    <string name="inputs_tv_auto_on">টিভি স্বয়ংক্রিয় পাওয়ার চালু</string>
+    <string name="inputs_tv_auto_on_desc">এইচডিএমআই ডিভাইসসহ টিভি চালু</string>
+    <plurals name="inputs_header_connected_input">
+        <item quantity="one">সংযুক্ত ইনপুট</item>
+        <item quantity="other">সংযুক্ত ইনপুট</item>
+    </plurals>
+    <plurals name="inputs_header_standby_input">
+        <item quantity="one">স্ট্যান্ডবাই ইনপুট</item>
+        <item quantity="other">স্ট্যান্ডবাই ইনপুট</item>
+    </plurals>
+    <plurals name="inputs_header_disconnected_input">
+        <item quantity="one">অসংযুক্ত ইনপুট</item>
+        <item quantity="other">অসংযুক্ত ইনপুট</item>
+    </plurals>
+    <string name="inputs_state_connected">সংযুক্ত</string>
+    <string name="inputs_state_connected_standby">স্ট্যান্ডবাই </string>
+    <string name="inputs_state_disconnected">বিচ্ছিন্ন</string>
+    <string name="user_add_profile_item_summary">আপনার একাউন্টে অ্যাপ ও অন্যান্য কনটেন্টে প্রবেশাধিকার বিধিবদ্ধ করুন</string>
+    <string name="user_new_profile_name">সংরক্ষিত প্রোফাইল</string>
+    <string name="user_restrictions_title">অ্যাপ্লিকেশন এবং বিষয়বস্তুর বিধিনিষেধ</string>
+    <string name="user_restrictions_controlled_by"><xliff:g id="app">%1$s</xliff:g> দ্বারা নিয়ন্ত্রিত</string>
+    <string name="app_not_supported_in_limited">সংরক্ষিত প্রোফাইলে এই অ্যাপ সমর্থিত নয়।</string>
+    <string name="app_sees_restricted_accounts">এই অ্যাপ আপনার একাউন্টে প্রবেশ করতে পারে।</string>
+    <string name="restriction_location_enable_title">অবস্থানে প্রবেশাধিকার</string>
+    <string name="restriction_location_enable_summary">অ্যাপকে আপনার অবস্থানের তথ্য ব্যবহার করতে দিন।</string>
+    <string name="restricted_profile_create">বিধিবদ্ধ ব্যবহারকারী তৈরি করুন</string>
+    <string name="restricted_profile_switch_to">বিধ্বিদ্ধ প্রোফাইলে প্রবেশ করুন</string>
+    <string name="restricted_profile_switch_out">বিধিবদ্ধ প্রোফাইল থেকে বের হোন</string>
+    <string name="restricted_profile_delete_title">বিধিবদ্ধ প্রোফাইল মুছুন</string>
+    <string name="restricted_profile_configure_title">সেটিং</string>
+    <string name="restricted_profile_configure_apps_title">অনুমতিপ্রাপ্ত অ্যাপ</string>
+    <plurals name="restricted_profile_configure_apps_description">
+        <item quantity="one">১ অ্যাপ অনুমতিপ্রাপ্ত</item>
+        <item quantity="other">%d অ্যাপ অনুমতিপ্রাপ্ত</item>
+    </plurals>
+    <string name="restricted_profile_allowed">অনুমোদিত</string>
+    <string name="restricted_profile_not_allowed">অনুমোদিত নয়</string>
+    <string name="restricted_profile_customize_restrictions">বিধিনিষেধ কাস্টমাইজ করুন</string>
+    <string name="restricted_profile_configure_apps_description_loading">এক মুহূর্ত\u2026</string>
+    <string name="restricted_profile_change_password_title">পিন পরিবর্তন করুন</string>
+    <string name="restricted_profile_set_password">বিধিবদ্ধ প্রোফাইল থেকে বের হতে ব্যবহৃত নতুন পিন কোড সেট করুন</string>
+    <string name="restricted_profile_confirm_password">বিধিবদ্ধ প্রোফাইল থেকে বের হতে ব্যবহৃত পিন কোড নিশ্চিত করুন</string>
+    <string name="restricted_profile_enter_password">বিধিবদ্ধ প্রোফাইল থেকে বের হতে পিন কোড প্রবেশ করান</string>
+    <string name="restricted_profile_delete_dialog_title">বিধিবদ্ধ ব্যবহারকারী সরাবেন?</string>
+    <string name="restriction_description"><xliff:g id="description">%1$s</xliff:g>\n<xliff:g id="value">%2$s</xliff:g></string>
+    <eat-comment/>
+    <string name="pin_enter_unlock_channel">এই চ্যানেল দেখতে পিন প্রবেশ করান</string>
+    <string name="pin_enter_unlock_program">এই প্রোগ্রাম দেখতে পিন প্রবেশ করান</string>
+    <string name="pin_enter_pin">"PIN লিখুন"</string>
+    <string name="pin_enter_new_pin">নতুন পিন সেট করুন</string>
+    <string name="pin_enter_again">নতুন পিন পুনরায় প্রবেশ করান</string>
+    <string name="pin_enter_old_pin">পুরোনো পিন প্রবেশ করান</string>
+    <string name="pin_enter_wrong">আপনি ৫বার ভুল পিন প্রবেশ করিয়েছেন।\nআবার চেষ্টা করুন <xliff:g id="relative_time_span" example="in60seconds">%1$s</xliff:g>।</string>
+    <string name="pin_button_done">সম্পন্ন</string>
+    <string name="pin_button_cancel">বাতিল করুন</string>
+    <string name="pin_toast_wrong">ভুল পিন, আবার চেষ্টা করুন</string>
+    <string name="pin_toast_not_match">আবার চেষ্টা করুন, পিন মিলছে না</string>
+    <string name="accessory_unpairing">ডিভাইস জোড়ামুক্ত করা হচ্ছে...</string>
+    <string name="accessories_add_title">আনুষঙ্গিক জিনিসের জন্য অনুসন্ধান করা হচ্ছে…</string>
+    <string name="accessories_add_multiple_select">নির্বাচিত ডিভাইসের সাথে জোড়া তৈরি করতে, এই ডিভাইসের জোড়া তৈরির বাটন ৫ সেকেন্ড চাপ দিয়ে ধরে রাখুন</string>
+    <string name="proxy_error_invalid_exclusion_list">বাতিলের এই তালিকা কার্যকরী নয়। কমা দিয়ে পৃথক করা বাতিলকৃত ডোমেইনের তালিকা প্রবেশ করান। </string>
+</resources>

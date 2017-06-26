@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="InlinedApi">
+        <ignore path="src/com/android/contacts/activities/ContactEditorActivity.java" />
+        <ignore path="src/com/mediatek/contacts/simcontact/BootCmpReceiver.java" />
+    </issue>
+    <issue id="NewApi" severity="ignore">
+        <ignore path="res/layout/custom_action_bar.xml" />
+    </issue>
+</lint>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- 
+  ~ Copyright (C) 2012 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+   --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="8490255569343340580" name="applicationLabel">"Dialer"</string>
+    <string msgid="1129729740601172692" name="launcherActivityLabel">"الهاتف"</string>
+    <string msgid="6500826552823403796" name="dialerIconLabel">"الهاتف"</string>
+    <string msgid="2639489159797075507" name="recentCallsIconLabel">"سجل المكالمات"</string>
+    <string msgid="8682056943960339239" name="menu_sendTextMessage">"‏إرسال رسائل قصيرة SMS"</string>
+    <string msgid="1756372533999226126" name="recentCalls_callNumber">"الاتصال بـ 
+        <xliff:g id="NAME">%s</xliff:g>"
+    </string>
+    <string msgid="7756171675833267857" name="recentCalls_editNumberBeforeCall">"تعديل الرقم قبل الاتصال"</string>
+    <string msgid="1429899535546487008" name="recentCalls_addToContact">"إضافة إلى جهات الاتصال"</string>
+    <string msgid="5551148439199439404" name="recentCalls_removeFromRecentList">"حذف من سجل المكالمات"</string>
+    <string msgid="5157887960461979812" name="recentCalls_deleteAll">"محو سجل المكالمات"</string>
+    <string msgid="7604696960787435655" name="recentCalls_trashVoicemail">"حذف بريد صوتي"</string>
+    <string msgid="1416112847592942840" name="recentCalls_shareVoicemail">"مشاركة البريد الصوتي"</string>
+    <string msgid="8555115547405030734" name="recentCalls_empty">"لا توجد مكالمات"</string>
+    <string msgid="801753155679372984" name="clearCallLogConfirmation_title">"هل تريد محو سجل المكالمات؟"</string>
+    <string msgid="7899552396101432827" name="clearCallLogConfirmation">"سيؤدي ذلك إلى حذف جميع المكالمات من السجل"</string>
+    <string msgid="3372471156216306132" name="clearCallLogProgress_title">"جارٍ محو سجل المكالمات…"</string>
+  <plurals name="notification_voicemail_title">
+    <item msgid="1746619685488504230" quantity="one">"البريد الصوتي"</item>
+    <item msgid="5513481419205061254" quantity="other">" 
+            <xliff:g id="COUNT">%1$d</xliff:g> من رسائل البريد الصوتي"
+        </item>
+  </plurals>
+    <string msgid="6113133136977996863" name="notification_action_voicemail_play">"تشغيل"</string>
+    <string msgid="1153954809339404149" name="notification_voicemail_callers_list">" 
+        <xliff:g id="NEWER_CALLERS">%1$s</xliff:g>، 
+        <xliff:g id="OLDER_CALLER">%2$s</xliff:g>"
+    </string>
+    <string msgid="895342132049452081" name="notification_new_voicemail_ticker">"بريد صوتي جديد من 
+        <xliff:g id="CALLER">%1$s</xliff:g>"
+    </string>
+    <string msgid="3356071912353297599" name="voicemail_playback_error">"تعذر تشغيل البريد الصوتي"</string>
+    <string msgid="738287747618697097" name="voicemail_buffering">"جارٍ التخزين مؤقتًا..."</string>
+    <string msgid="1287895365599580842" name="voicemail_fetching_content">"جارٍ تحميل البريد الصوتي…"</string>
+    <string msgid="3959428065511972176" name="voicemail_fetching_timout">"تعذر تحميل البريد الصوتي"</string>
+    <string msgid="3945407886667089173" name="call_log_voicemail_header">"المكالمات التي تشتمل على بريد صوتي فقط"</string>
+    <string msgid="2787722299753674684" name="call_log_incoming_header">"المكالمات الواردة فقط"</string>
+    <string msgid="761009180766735769" name="call_log_outgoing_header">"المكالمات الصادرة فقط"</string>
+    <string msgid="8017148056610855956" name="call_log_missed_header">"المكالمات الفائتة فقط"</string>
+    <string msgid="5222480147701456390" name="voicemail_status_voicemail_not_available">"تحديثات البريد الصوتي غير متاحة"</string>
+    <string msgid="6329544650250068650" name="voicemail_status_messages_waiting">"ليس هناك بريد صوتي قيد الانتظار. لا يمكن التحميل في الوقت الحالي."</string>
+    <string msgid="8300808991932816153" name="voicemail_status_configure_voicemail">"إعداد البريد الصوتي"</string>
+    <string msgid="2449801102560158082" name="voicemail_status_audio_not_available">"الصوت غير متاح"</string>
+    <string msgid="8671796489912239589" name="voicemail_status_action_configure">"إعداد"</string>
+    <string msgid="1824816252288551794" name="voicemail_status_action_call_server">"اتصال ببريد صوتي..."</string>
+    <string msgid="1733460666177707312" name="voicemail_speed_slowest">"أبطأ سرعة"</string>
+    <string msgid="1508601287347216244" name="voicemail_speed_slower">"سرعة بطيئة"</string>
+    <string msgid="9033988544627228892" name="voicemail_speed_normal">"سرعة عادية"</string>
+    <string msgid="2019965121475935488" name="voicemail_speed_faster">"سرعة عالية"</string>
+    <string msgid="5758712343491183292" name="voicemail_speed_fastest">"أعلى سرعة"</string>
+    <string msgid="7641933305703520787" name="call_log_item_count_and_date">"( 
+        <xliff:g id="COUNT">%1$d</xliff:g>) 
+        <xliff:g id="DATE">%2$s</xliff:g>"
+    </string>
+    <string msgid="5846266399240630846" name="sms_disambig_title">"اختيار رقم"</string>
+    <string msgid="4392886850104795739" name="call_disambig_title">"اختيار رقم"</string>
+    <string msgid="5829291915305113983" name="make_primary">"تذكر هذا الاختيار"</string>
+    <string msgid="3660807558587384889" name="description_search_button">"بحث"</string>
+    <string msgid="1274091017188142646" name="description_dial_button">"طلب"</string>
+    <string msgid="8760207516497016437" name="description_digits_edittext">"الرقم الذي سيتم طلبه"</string>
+    <string msgid="5060732345522492292" name="description_playback_start_stop">"بدء التشغيل أو إيقافه"</string>
+    <string msgid="6008323900245707504" name="description_playback_speakerphone">"تشغيل مكبر الصوت أو تعطيله"</string>
+    <string msgid="4509404274968530055" name="description_playback_seek">"طلب موضع تشغيل"</string>
+    <string msgid="3161652589401708284" name="description_rate_decrease">"خفض معدل التشغيل"</string>
+    <string msgid="6324606574127052385" name="description_rate_increase">"زيادة معدل التشغيل"</string>
+    <string msgid="9018442816219748968" name="action_menu_call_history_description">"سجل المكالمات"</string>
+    <string msgid="2303272250613084574" name="action_menu_overflow_description">"مزيد من الخيارات"</string>
+    <string msgid="1425910318049008136" name="action_menu_dialpad_button">"لوحة الطلب"</string>
+    <string msgid="6108677035381940698" name="menu_copy">"نسخ"</string>
+    <string msgid="1965570298133301970" name="menu_show_outgoing_only">"عرض الصادر فقط"</string>
+    <string msgid="7534206815238877417" name="menu_show_incoming_only">"عرض الوارد فقط"</string>
+    <string msgid="154473166059743996" name="menu_show_missed_only">"عرض الفائت فقط"</string>
+    <string msgid="1898421289561435703" name="menu_show_voicemails_only">"إظهار رسائل البريد الصوتي فقط"</string>
+    <string msgid="7560347482073345885" name="menu_show_all_calls">"عرض جميع المكالمات"</string>
+    <string msgid="4579643070374941999" name="add_contact">"إضافة إلى جهات الاتصال"</string>
+    <string msgid="9214012315201040129" name="add_2sec_pause">"إضافة إيقاف مؤقت مدته ثانيتان"</string>
+    <string msgid="3360818652790319634" name="add_wait">"إضافة انتظار"</string>
+    <string msgid="4305043242594150479" name="dialer_settings_label">"الإعدادات"</string>
+    <string msgid="1209922412763274638" name="menu_newContact">"جهة اتصال جديدة"</string>
+    <string msgid="6948308384034051670" name="menu_allContacts">"جميع جهات الاتصال"</string>
+    <string msgid="5340227785196217938" name="callDetailTitle">"تفاصيل المكالمة"</string>
+    <string msgid="6947041258280380832" name="toast_call_detail_error">"التفاصيل غير متاحة"</string>
+    <string msgid="1707548397435075040" name="dialer_useDtmfDialpad">"استخدام لوحة مفاتيح نغمات باللمس"</string>
+    <string msgid="3719386377550913067" name="dialer_returnToInCallScreen">"عودة إلى المكالمة الجارية"</string>
+    <string msgid="4205688819890074468" name="dialer_addAnotherCall">"إضافة مكالمة"</string>
+    <string msgid="6502076603836088532" name="type_incoming">"مكالمة واردة"</string>
+    <string msgid="343108709599392641" name="type_outgoing">"مكالمة صادرة"</string>
+    <string msgid="2720502601640509542" name="type_missed">"مكالمة فائتة"</string>
+    <string msgid="82323391702796181" name="type_incoming_video">"مكالمة فيديو واردة"</string>
+    <string msgid="2858140021680755266" name="type_outgoing_video">"مكالمة فيديو صادرة"</string>
+    <string msgid="954396897034220545" name="type_missed_video">"مكالمة فيديو فائتة"</string>
+    <string msgid="5153139450668549908" name="type_voicemail">"البريد الصوتي"</string>
+    <string msgid="6028930669817038600" name="actionIncomingCall">"المكالمات الواردة"</string>
+    <string msgid="651182125650429846" name="description_call_log_play_button">"تشغيل البريد الصوتي"</string>
+    <string msgid="5205669345700598415" name="description_view_contact">"عرض جهة الاتصال 
+        <xliff:g id="NAME">%1$s</xliff:g>"
+    </string>
+    <string msgid="3443678121983852666" name="description_call">"الاتصال بـ 
+        <xliff:g id="NAME">%1$s</xliff:g>"
+    </string>
+    <string msgid="51229793651342809" name="description_contact_details">"تفاصيل جهة الاتصال بـ <xliff:g id="NAMEORNUMBER">%1$s</xliff:g>"</string>
+    <string msgid="2133792360865517746" name="description_new_voicemail">"بريد صوتي جديد"</string>
+    <string msgid="1601505153694540074" name="description_num_calls">"<xliff:g id="NUMBEROFCALLS">%1$s</xliff:g> من المكالمات."</string>
+    <string msgid="2933838090743214204" name="description_video_call">"مكالمة فيديو."</string>
+    <string msgid="3118485319691414221" name="description_send_text_message">"‏إرسال رسالة قصيرة SMS إلى <xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <string msgid="118101684236996786" name="description_call_log_unheard_voicemail">"البريد الصوتي غير المسموع"</string>
+    <string msgid="520539488194946012" name="description_start_voice_search">"بدء البحث الصوتي"</string>
+    <string msgid="997146291983360266" name="menu_callNumber">"الاتصال بالرقم 
+        <xliff:g id="NUMBER">%s</xliff:g>"
+    </string>
+    <string msgid="740067747858270469" name="unknown">"غير معروف"</string>
+    <string msgid="3851469869202611441" name="voicemail">"البريد الصوتي"</string>
+    <string msgid="6374339738119166953" name="private_num">"رقم خاص"</string>
+    <string msgid="7726415831153618726" name="payphone">"هاتف يعمل بالعملة"</string>
+    <string msgid="6061406028764382234" name="callDetailsDurationFormat">"<xliff:g id="MINUTES">%s</xliff:g> دقيقة <xliff:g id="SECONDS">%s</xliff:g> ثانية"</string>
+    <string msgid="5730565540182492608" name="dialog_phone_call_prohibited_message">"لا يمكن الاتصال بهذا الرقم"</string>
+    <string msgid="4384716252789515378" name="dialog_voicemail_not_ready_message">"‏لإعداد البريد الصوتي، انتقل إلى القائمة &gt; الإعدادات."</string>
+    <string msgid="530922773669546093" name="dialog_voicemail_airplane_mode_message">"للاتصال بالبريد الصوتي، يجب أولاً إيقاف وضع الطائرة."</string>
+    <string msgid="5488620820563977329" name="contact_list_loading">"جارٍ التحميل..."</string>
+    <string msgid="3045126336951684285" name="imei">"IMEI"</string>
+    <string msgid="6210568493746275750" name="meid">"MEID"</string>
+    <string msgid="6700035985448642408" name="simContacts_emptyLoading">"‏جارٍ التحميل من بطاقة SIM…"</string>
+    <string msgid="27341688347689769" name="simContacts_title">"‏بطاقة SIM وجهات الاتصال"</string>
+    <string msgid="5547311613368004859" name="add_contact_not_available">"لا يتوفر تطبيق لجهات الاتصال"</string>
+    <string msgid="2977719040254285301" name="voice_search_not_available">"البحث الصوتي غير متاح"</string>
+    <string msgid="8941576511946492225" name="call_not_available">"يتعذر إجراء مكالمة هاتفية نظرًا لأنه تم تعطيل تطبيق الهاتف."</string>
+    <string msgid="2287665636817987623" name="activity_not_available">"لا يوجد تطبيق لإجراء ذلك على هذا الجهاز"</string>
+    <string msgid="1012544667033887519" name="dialer_hint_find_contact">"أدخل اسمًا أو رقم هاتف"</string>
+    <string msgid="4901789420356796156" name="recentMissed_empty">"لا توجد مكالمات"</string>
+    <string msgid="8582424947259156664" name="recentVoicemails_empty">"ليست هناك رسائل بريد صوتي حديثة"</string>
+    <string msgid="5520072531022614595" name="show_favorites_only">"عرض المفضلة فقط"</string>
+    <string msgid="4612824396355272023" name="call_log_activity_title">"السجل"</string>
+    <string msgid="3566738938889333307" name="call_log_all_title">"الكل"</string>
+    <string msgid="4541142293870638971" name="call_log_missed_title">"فائتة"</string>
+    <string msgid="940422274047025948" name="call_log_voicemail_title">"البريد الصوتي"</string>
+    <string msgid="7552166276545648893" name="tab_speed_dial">"اتصال سريع"</string>
+    <string msgid="929949073851377206" name="tab_recents">"الحديثة"</string>
+    <string msgid="1410922767166533690" name="tab_all_contacts">"جهات الاتصال"</string>
+    <string msgid="5011234945140912047" name="favorite_hidden">"تمت إزالة جهة الاتصال من المفضلة"</string>
+    <string msgid="2508998611039406474" name="favorite_hidden_undo">"تراجع"</string>
+    <string msgid="7277194656832895870" name="search_shortcut_call_number">"الاتصال بالرقم 
+        <xliff:g id="NUMBER">%s</xliff:g>"
+    </string>
+    <string msgid="1853716708655789069" name="search_shortcut_add_to_contacts">"إضافة إلى جهات الاتصال"</string>
+    <string msgid="1265971685034465166" name="search_shortcut_make_video_call">"إجراء مكالمة فيديو"</string>
+    <string msgid="7315554578957453359" name="recents_footer_text">"عرض سجل المكالمات بالكامل"</string>
+    <string msgid="8081736535604293886" name="num_missed_calls">" 
+        <xliff:g id="NUMBER">%s</xliff:g> من المكالمات الجديدة الفائتة"
+    </string>
+    <string msgid="1931474498966072849" name="speed_dial_empty">"إن الاتصال السريع هو اتصال بلمسة واحدة للأرقام المفضلة لديك والتي تتصل بها بكثرة"</string>
+    <string msgid="2299508125100209367" name="all_contacts_empty">"لا توجد جهات اتصال"</string>
+    <string msgid="2019777545923635266" name="contact_tooltip">"المس الصورة للاطلاع على جميع الأرقام أو المس مع الاستمرار لإعادة الترتيب"</string>
+    <string msgid="2146276780562549643" name="description_dismiss">"تجاهل"</string>
+    <string msgid="1080555335283662961" name="remove_contact">"إزالة"</string>
+    <string msgid="992506284449891186" name="favorites_menu_all_contacts">"جميع جهات الاتصال"</string>
+    <string msgid="4944463006859852473" name="call_log_action_call_back">"معاودة الاتصال"</string>
+    <string msgid="8187991828921352552" name="call_log_action_call">"الاتصال"</string>
+    <string msgid="8159106862639797417" name="call_log_action_redial">"إعادة الاتصال"</string>
+    <string msgid="3818588654537490948" name="call_log_action_video_call">"مكالمة فيديو"</string>
+    <string msgid="4978620572562925654" name="call_log_action_voicemail">"استماع"</string>
+    <string msgid="6252596497021563115" name="call_log_action_details">"التفاصيل"</string>
+    <string msgid="2381085098795943627" name="description_incoming_missed_call">"مكالمة لم يرد عليها من <xliff:g id="NAMEORNUMBER">^1</xliff:g>، <xliff:g id="TYPEORLOCATION">^2</xliff:g>، <xliff:g id="TIMEOFCALL">^3</xliff:g>، <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string msgid="7117665748428816544" name="description_incoming_answered_call">"تم الرد على مكالمة من <xliff:g id="NAMEORNUMBER">^1</xliff:g>، <xliff:g id="TYPEORLOCATION">^2</xliff:g>، <xliff:g id="TIMEOFCALL">^3</xliff:g>، <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string msgid="6386364390619734734" name="description_outgoing_call">"اتصال بـ <xliff:g id="NAMEORNUMBER">^1</xliff:g>، <xliff:g id="TYPEORLOCATION">^2</xliff:g>، <xliff:g id="TIMEOFCALL">^3</xliff:g>، <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string msgid="1767072759541443861" name="description_phone_account">"من <xliff:g id="PHONEACCOUNT">^1</xliff:g>"</string>
+    <string msgid="3012837380108884260" name="description_call_back_action">"معاودة الاتصال بـ <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <string msgid="4303952636480252389" name="description_video_call_action">"مكالمة فيديو مع <xliff:g id="NAMEORNUMBER">^1</xliff:g>."</string>
+    <string msgid="8054891873788903063" name="description_voicemail_action">"استماع إلى بريد صوتي من <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <string msgid="2433827152749491785" name="description_details_action">"تفاصيل الاتصال لـ <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <string msgid="8010830299576311534" name="toast_entry_removed">"تم الحذف من سجل المكالمات"</string>
+    <string msgid="2240847358945525483" name="toast_caller_id_reported">"‏تم إبلاغ Google بالرقم"</string>
+    <string msgid="561229827189128879" name="call_log_action_report">"إبلاغ"</string>
+    <string msgid="3225248682434212981" name="call_log_header_today">"اليوم"</string>
+    <string msgid="9139172458834033092" name="call_log_header_yesterday">"أمس"</string>
+    <string msgid="5769921959940709084" name="call_log_header_other">"أقدم"</string>
+    <string msgid="3752717059699600861" name="call_detail_list_header">"قائمة المكالمات"</string>
+    <string msgid="209154030283487068" name="voicemail_speaker_on">"تشغيل مكبر الصوت."</string>
+    <string msgid="7390530056413093958" name="voicemail_speaker_off">"تعطيل مكبر الصوت."</string>
+    <string msgid="3444751008615323006" name="voicemail_play_faster">"تشغيل أسرع."</string>
+    <string msgid="4544796503902818832" name="voicemail_play_slower">"تشغيل أقل سرعة."</string>
+    <string msgid="3687447935787768983" name="voicemail_play_start_pause">"بدء التشغيل أو إيقافه مؤقتًا."</string>
+    <string msgid="4571593167738725100" name="list_delimeter">"، "</string>
+    <string msgid="5748319557716674189" name="general_settings_label">عام</string>
+    <string msgid="5719485933817512769" name="contact_display_options_category_title">"خيارات عرض جهات الاتصال"</string>
+    <string msgid="7589787045192519254" name="sounds_and_vibrate_category_title">"الأصوات والاهتزاز"</string>
+    <string msgid="760362035635084653" name="ringtone_title">"نغمة رنين الهاتف"</string>
+    <string msgid="3362916460327555241" name="vibrate_on_ring_title">"الاهتزاز أيضًا مع المكالمات"</string>
+    <string msgid="6571449695997521615" name="dtmf_tone_enable_title">"نغمات لوحة الاتصال"</string>
+    <string msgid="7976283601445863248" name="other_settings_title">"غير ذلك"</string>
+    <string msgid="1318281521087951580" name="respond_via_sms_setting_title">"الردود السريعة"</string>
+    <string msgid="313434211353070209" name="call_settings_label">"المكالمات"</string>
+    <string msgid="5864322009841175294" name="phone_account_settings_label">"حسابات الاتصال"</string>
+<string name="hq_recovery">تنبيه</string>
+<string name="hq_recovery_msg">تحذير: سيؤدي النقر على \"موافق\" إلى استعادة إعدادات المصنع الافتراضية ومسح جميع بيانات المستخدم.</string>
+<string name="hq_recovery_no">لا</string>
+<string name="hq_recovery_ok">نعم</string>
+<string name="hw_sim_dialog">اتصال</string>
+<string name="hw_sim_one">بطاقة SIM 1</string>
+<string name="hw_sim_two">بطاقة SIM 2</string>
+<string name="hw_ecc">رقم الطوارئ</string>
+<string name="version_display_title">معلومات الإصدار</string>
+<string name="version_display_SW_version">إصدار البرنامج:</string>
+<string name="version_display_android_version">إصدار Android:</string>
+<string name="version_display_baseband_version">إصدار النطاق الأساسي:</string>
+<string name="version_display_model_number">الطراز:</string>
+<string name="version_display_kernel_version">إصدار Kernel:</string>
+<string name="version_display_build_number">رقم البنية:</string>
+<string name="version_display_HW_version">إصدار الأجهزة:</string>
+<string name="copied_to_clip">تم النسخ إلى الحافظة.</string>
+<string-array name="ctx_menu">
+<item>"إرسال رسالة"</item>
+<item>"إنشاء جهة اتصال جديدة"</item>
+<item>تحرير قبل الاتصال</item>
+<item>حذف سجل المكالمة</item>
+<item>إرسال رقم</item>
+<item>نسخ الرقم</item>
+<item>إضافة إلى القائمة السوداء</item>
+</string-array>
+<string-array name="ctx_menu_blocked">
+<item>"إرسال رسالة"</item>
+<item>"إنشاء جهة اتصال جديدة"</item>
+<item>تحرير قبل الاتصال</item>
+<item>حذف سجل المكالمة</item>
+<item>إرسال رقم</item>
+<item>نسخ الرقم</item>
+<item>إزالة من القائمة السوداء</item>
+</string-array>
+<string-array name="ctx_menu_saved">
+<item>"إرسال رسالة"</item>
+<item>"عرض جهة الاتصال"</item>
+<item>تحرير قبل الاتصال</item>
+<item>حذف سجل المكالمة</item>
+<item>إرسال رقم</item>
+<item>نسخ الرقم</item>
+<item>إضافة إلى القائمة السوداء</item>
+</string-array>
+<string-array name="ctx_menu_saved_blocked">
+<item>"إرسال رسالة"</item>
+<item>"عرض جهة الاتصال"</item>
+<item>تحرير قبل الاتصال</item>
+<item>حذف سجل المكالمة</item>
+<item>إرسال رقم</item>
+<item>نسخ الرقم</item>
+<item>إزالة من القائمة السوداء</item>
+</string-array>
+<string name="add_to_black_list">تم الإضافة إلى القائمة السوداء</string>
+<string name="remove_from_black_list">تمت الإزالة من القائمة السوداء</string>
+    <string name="unknow_number">رقم غير معروف</string>
+<!--add by zhaizhanfeng for HQ01541532 at 151201-->
+</resources>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="onscreenHangupAll">ဖုန္းအားလံုးကို ခ်ပါ</string>
+    <string name="onscreenHangupHolding">ဖုန္းကိုင္ထားျခင္းကို ခ်ပါ</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">ဖုန္းခ်ျခင္း လုပ္ေဆာင္ႏိုင္သည္၊ အေျဖေစာင့္ဆိုင္းေနဆဲ</string>
+    <string name="onscreenECT">ေပးပို႔ပါ</string>
+    <string name="dm_lock">DM ေသာ့ခတ္ျပီး</string>
+    <string name="dm_unlock">DM ေသာ့ဖြင့္ျခင္း</string>
+    <string name="start_record">အသံဖမ္းယူျခင္းစတင္ပါ</string>
+    <string name="stop_record">အသံဖမ္းယူျခင္းရပ္ပါ</string>
+    <string name="str_db_playlist_name">မိမိအသံဖမ္းယူျခင္းမ်ား</string>
+    <string name="alert_device_error">အသံဆိုင္ရာပစၥည္းတြင္အမွားျဖစ္ေပၚသြားသည္</string>
+    <string name="ext_media_badremoval_notification_title">SD ကတ္အား မေမွ်ာ္လင့္ဘဲ ဖယ္ရွားျပီးျဖစ္သည္</string>
+    <string name="error_sdcard_access">SD ကတ္သို႔ ဝင္ေရာက္၍ မရႏိုင္ပါ</string>
+    <string name="confirm_device_info_full">SD ကတ္ေနရာလြတ္ မရွိပါ၊ အသံဖမ္းယူျခင္းအား သိမ္းဆည္းျပီး ျဖစ္သည္။</string>
+    <string name="confirm_save_info_saved">အသံဖမ္းယူျခင္းအား သိမ္းဆည္းျပီးျဖစ္သည္</string>
+    <string name="confirm_save_info_saved_to">သို႔မွတ္တမ္းတင္ျခင္းကို သိမ္းျပီးျပီ</string>
+	<string name="sim_toolkit">SIM ပစၥည္းကိရိယာ</string>
+    <string name="activity_not_found">ပ႐ိုဂရမ္အား သင့္ဖုန္းတြင္ မသြင္းထားပါ။</string>
+    <string name="no_sim_card_inserted" product="default">SIM တူးလ္ကစ္တ္ စတင္ရန္ SIM ကိုထည့္ပါ။</string>
+    <string name="airplane_mode_on" product="default">ေလယာဥ္ပ်ံမုဒ္ကို ဖြင့္ထားစဥ္ကတည္းက SIM တူးလ္ကစ္တ္ မစတင္ႏိုင္ပါ။</string>
+    <string name="lable_sim_not_ready" product="default"> SIM တူးလ္ကစ္တ္ အဆင္သင့္မျဖစ္ေသးပါ (သို႔) မေထာက္ပံ့ႏိုင္ပါ</string>
+    <string name="gemini_3g_indic">3G</string>
+    <string name="callFailed_dsac_vt_incompatible_destination">ဗီဒီယိုဖုန္းေခၚဆိုမႈ အဆင္အျပင္ထားရွိ၍ မရပါ။ သင္ေခၚဆိုသည့္ ဖုန္းတြင္ ဗီဒီယိုဖုန္းေခၚဆိုမႈကို အေထာက္အပံ့မေပးပါ၊ အသံဖုန္းေခၚဆိုမႈ ျပဳလုပ္မလား။</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">ဗီဒီယိုဖုန္းေခၚဆိုမႈ အဆင္အျပင္ထားရွိ၍ မရပါ။ သင္ေခၚဆိုထားေသာ ဖုန္းမွာ 3G ဆားဗစ္ဧရိယာျပင္ပတြင္ ေရာက္ရွိေနသည္၊ အသံဖုန္းေခၚဆိုမႈ ျပဳလုပ္မလား</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">ဗီဒီယိုဖုန္းေခၚဆိုမႈ အဆင္အျပင္ထားရွိ၍ မရပါ။ အသံဖုန္းေခၚဆိုမႈ ျပဳလုပ္မလား။</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">သင့္ဖုန္းမွာ 3G ဆားဗစ္ဧရိယာျပင္ပတြင္ ေရာက္ရွိေနသည္၊ အသံဖုန္းေခၚဆိုမႈ ျပဳလုပ္မလား။</string>
+    <string name="callFailed_dsac_vt_bear_not_authorized">ဗီဒီယိုေခၚဆိုမႈ အဆင္အျပင္ထားရွိ၍ မရပါ။ ဗီဒီယိုဖုန္း ဝန္ေဆာင္မႈအား ဤ SIM ကတ္တြင္ ဖြင့္၍မရပါ၊ အသံေခၚဆိုမႈျဖင့္ ေခၚဆိုမလား။</string>
+    <string name="notification_voicemail">အသံေမးလ္</string>
+    <string name="turn_on_3g_service_message">3G ဆားဗစ္ပိတ္ထားသည္၊ သင္ဖြင့္လိုပါသလား။</string>
+    <string name="associate_sim_missing_message">"%1$s SIM မွာ မရရွိႏိုင္ပါ။ %2$s မွတစ္ဆင့္ ဖုန္းေခၚဆိုလိုပါသလား။"</string>
+    <string name="associate_sim_missing_other">အျခား</string>
+    <string name="vt_incoming_call">အဝင္ဗီဒီယိုဖုန္းေခၚဆိုမႈ</string>
+    <string name="vt_settings">ဗီဒီယိုအဆင္အျပင္မ်ား</string>
+    <string name="vt_local_video_zoom">ဖုန္းတြင္းဗီဒီယိုခ်ဲ႕စက္</string>
+    <string name="vt_local_video_brightness">ဖုန္းတြင္းဗီဒီယို ေတာက္ပမႈ</string>
+    <string name="vt_local_video_effect">ဖုန္းတြင္းဗီဒီယို သက္ေရာက္မႈ</string>
+    <string name="vt_local_video_nightmode">ဖုန္းတြင္းဗီဒီယိုညပံုစံ</string>
+    <string name="vt_peer_video_quality">တစ္ဖက္လူႏွင့္ ခ်ိတ္ဆက္ေျပာဆိုမည့္ ဗီဒီယိုအရည္အေသြး</string>
+    <string name="vt_enable_back_camera">ေနာက္ဘက္ ကင္မရာဖြင့္ပါ</string>
+    <string name="vt_enable_back_camera_description">ဖြင့္ထားပါက ကင္မရာမ်ား ေျပာင္းႏိုင္သည္</string>
+    <string name="vt_peer_video_bigger">တစ္ဖက္လူႏွင့္ ခ်ိတ္ဆက္ေျပာဆိုမည့္ ပိုႀကီးမားေသာ  ဗီဒီယို</string>
+    <string name="vt_peer_video_bigger_description">တစ္ဖက္လူႏွင့္ ခ်ိတ္ဆက္ေျပာဆိုမည့္ ဗီဒီယိုအား ဖုန္းတြင္းဗီဒီယိုထက္ ပိုႀကီးေအာင္ျပဳလုပ္ရန္ ဖြင့္ပါ</string>
+    <string name="vt_outgoing_call">အထြက္ဗီဒီယိုဖုန္း ေခၚဆိုမႈ</string>
+    <string name="vt_outgoing_call_description">ဗီဒီယိုဖုန္းေခၚဆိုမႈ ျပဳလုပ္သည့္အခါ ဖုန္းတြင္းဗီဒီယိုျပသပါ</string>
+    <string name="vt_incoming_call_description">အဝင္ဗီဒီယိုဖုန္းေခၚဆိုမႈလက္ခံသည့္အခါ ဖုန္းတြင္းဗီဒီယိုျပသပါ</string>
+    <string name="vt_incoming_showme_always">အျမဲတမ္း</string>
+    <string name="vt_incoming_showme_ask">ေမးပါ</string>
+    <string name="vt_incoming_showme_disable">ပိတ္ပါ</string>
+    <string name="vt_pic_replace_local_default">မူလ႐ုပ္ပံု</string>
+    <string name="vt_pic_replace_local_freezeme">မိမိကို ရပ္ထားပါ</string>
+    <string name="vt_pic_replace_local_mypic">မိမိ႐ုပ္ပံု</string>
+    <string name="vt_local_video_display">ဖုန္းတြင္းဗီဒီယိုျပသခ်က္</string>
+    <string name="vt_sd_null">SD ကဒ္မွာ \nမရရွိႏိုင္ပါ</string>
+    <string name="vt_sd_not_enough">SD ကဒ္မွာ \nေနရာကုန္ခါနီးျပီ</string>
+    <string name="vt_peer_video_quality_normal">ပံုမွန္</string>
+    <string name="vt_peer_video_quality_sharp">ျပတ္ျပတ္သားသား</string>
+    <string name="vt_ask_show_local">ဖုန္းတြင္းဗီဒီယိုအား တစ္ဖက္လူႏွင့္ ခ်ိတ္ဆက္ေျပာဆိုမည့္ ပံုစံသို႔ ျပသမလား။</string>
+    <string name="vt_ask_show_local_yes">ဟုတ္ပါသည္</string>
+    <string name="vt_ask_show_local_no">မဟုတ္ပါ</string>
+    <string name="vt_change_my_pic">ေျပာင္းပါ</string>
+    <string name="vt_pic_saved_to_sd">SD ကတ္သို႔ လွ်ပ္တစ္ျပက္ ႐ိုက္ကူးခ်က္အား သိမ္းဆည္းျပီးျဖစ္သည္</string>
+    <string name="vt_pic_saved_to_sd_fail">လွ်ပ္တစ္ျပက္ ႐ိုက္ကူးခ်က္အား သိမ္းဆည္းရန္ မေအာင္ျမင္ပါ</string>
+    <string name="vt_error_network">ကြန္ရက္သို႔ မေရာက္ရွိႏိုင္ပါ။ ဗီဒီယိုဖုန္းေခၚဆိုမႈအား ခ်ိတ္ဆက္ထားမႈ ျဖတ္ေတာက္မည္။</string>
+    <string name="vt_error_media">ဗီဒီယိုအား ေကာင္းမြန္စြာ မျပသႏိုင္ပါ။ ဗီဒီယိုဖုန္းေခၚဆိုမႈအား ခ်ိတ္ဆက္ထားမႈ ျဖတ္ေတာက္မည္။</string>
+    <string name="vt_swap_video">ဗီဒီယိုမ်ားလဲပါ</string>
+    <string name="vt_local_video_contrast">ဖုန္းတြင္းဗီဒီယို၏ အလင္းေရာင္ ေတာက္ပမႈျခားနားခ်က္</string>
+    <string name="vt_menu_switch">ကင္မရာေျပာင္းပါ</string>
+    <string name="vt_menu_hide_me">ဖုန္းတြင္းဗီဒီယိုကို ေဖ်ာက္ထားပါ</string>
+    <string name="vt_menu_show_me">ဖုန္းတြင္းဗီဒီယိုကို ျပသပါ</string>
+    <string name="vt_menu_snapshot">တစ္ဖက္လူႏွင့္ ခ်ိတ္ဆက္ေျပာဆိုမည့္ လွ်ပ္တစ္ျပက္ ႐ိုက္ကူးခ်က္</string>
+    <string name="vt_dis_peer_rep">တစ္ဖက္လူႏွင့္ ခ်ိတ္ဆက္ေျပာဆိုမည့္ ဗီဒီယို အစားထိုးျခင္း</string>
+    <string name="vt_dis_peer_rep_des">တစ္ဖက္လူႏွင့္ ခ်ိတ္ဆက္ေျပာဆိုမည့္ ဗီဒီယို မရရွိႏိုင္ပါက ၎ေနရာတြင္ အစားထိုးရန္ ႐ုပ္ပံုကို ျပသပါ</string>
+    <string name="vt_peer_video_rep">တစ္ဖက္လူႏွင့္ ခ်ိတ္ဆက္ေျပာဆိုမည့္ ဗီဒီယို အစားထိုးျခင္း</string>
+    <string name="vt_peer_video_rep_des">တစ္ဖက္လူႏွင့္ ခ်ိတ္ဆက္ေျပာဆိုမည့္ ဗီဒီယို မရရွိႏိုင္ပါက ျပသရန္ ႐ုပ္ပံုကို ထားရွိပါ</string>
+    <string name="vt_vocie_answer">အသံျဖင့္ေျဖဆိုျခင္း</string>
+    <string name="vt_wait_voice">အသံဖုန္းေခၚဆိုမႈခ်ိတ္ဆက္ျခင္းကို ေစာင့္ဆိုင္းဆဲ</string>
+    <string name="vt_voice_connecting">အသံဖုန္းေခၚဆိုမႈခ်ိတ္ဆက္ျခင္း</string>
+    <string name="vt_auto_dropback">အလိုအေလ်ာက္လႊဲပါ</string>
+    <string name="vt_auto_dropback_des">အလိုအေလ်ာက္ အသံဖုန္းေခၚဆိုမႈခ်ိတ္ဆက္ျခင္းသို႔ လႊဲပါ</string>
+    <string name="vt_cannot_support_setting">လက္ရွိကင္မရာက ဤအဆင္အျပင္အား အေထာက္အပံ့မေပးပါ</string>
+    <string name="vt_network_unreachable">ကြန္ရက္သို႔ မေရာက္ရွိႏိုင္ပါ။</string>
+    <string name="vt_iot_error_01">ဗီဒီယိုဖုန္းေခၚဆိုမႈအား အဆင္အျပင္ထားရွိ၍ မရပါ</string>
+    <string name="vt_iot_error_02">ဖုန္းမအားပါ</string>
+    <string name="vt_iot_error_03">ေျဖဆိုမႈမရွိပါ</string>
+    <string name="vt_iot_error_04">ကြန္ရက္မွာ ခ်ိတ္ဆက္ေနဆဲ ျဖစ္သည္</string>
+    <string name="pref_camera_coloreffect_entry_none">အသံတိတ္</string>
+    <string name="pref_camera_coloreffect_entry_mono">မိုႏို</string>
+    <string name="pref_camera_coloreffect_entry_sepia">အညိဳေရာင္</string>
+    <string name="pref_camera_coloreffect_entry_negative">ေလွ်ာ့ခ်ခ်က္</string>
+    <string name="pref_camera_coloreffect_entry_solarize">အလင္းေရာင္ အရမ္းမ်ားေစမည္</string>
+    <string name="pref_camera_coloreffect_entry_posterize">အေရာင္အဆင့္ဆင့္ ေျပာင္းေစမည္</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">အျဖဴေရာင္ေနာက္ခံ</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">အမည္းေရာင္ေနာက္ခံ</string>
+    <string name="pref_camera_coloreffect_entry_aqua">စိမ္းျပာေရာင္</string>
+    <string name="pref_camera_coloreffect_entry_pastel">အေရာင္ႏုေရာင္စံု</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">မွန္စီေရႊခ်</string>
+    <string name="pref_camera_coloreffect_entry_redtint">အနီေရာင္</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">အျပာေရာင္</string>
+    <string name="pref_camera_coloreffect_entry_greentint">အစိမ္းေရာင္</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">ညိဳျပာေရာင္</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">စိမ္းညိဳေရာင္</string>
+    <string name="vt_peer_camera_open">အေဝးကင္မရာ ဖြင့္ထားသည္</string>
+    <string name="vt_peer_camera_close">အေဝးကင္မရာ ပိတ္ထားသည္</string>
+    <string name="vt_recorder_start">အသံဖမ္းယူျခင္းစတင္ပါ</string>
+    <string name="vt_recorder_voice_and_peer_video">အသံႏွင့္အရည္အေသြး ေကာင္းမြန္သည့္ဗီဒီယို</string>
+    <string name="vt_recorder_only_voice">အသံသာ</string>
+    <string name="vt_recorder_only_peer_video">တစ္ဖက္လူႏွင့္ ခ်ိတ္ဆက္ေျပာဆိုမည့္ ဗီဒီယိုသာ</string>
+    <string name="vt_recording_saved">အသံဖမ္းယူျခင္းအား သိမ္းဆည္းျပီးျဖစ္သည္။</string>
+    <string name="vt_recording_saved_sd_full">SD ကတ္ေနရာလြတ္ မရွိပါ၊ အသံဖမ္းယူျခင္းအား သိမ္းဆည္းျပီး ျဖစ္သည္။</string>
+    <string name="vt_recording_error">အသံဖမ္းယူျခင္း သိမ္းဆည္းခ်က္ မေအာင္ျမင္ပါ။</string>
+    <string name="start_record_vt">အသံဖမ္းယူျခင္းစတင္ပါ</string>
+    <string name="stop_record_vt">အသံဖမ္းယူျခင္းရပ္ပါ</string>
+    <string name="cannot_answered_Video_Call">အသံဖုန္းေခၚဆိုမႈ ျပဳလုပ္ထားျပီးျဖစ္၍ ဗီဒီယိုဖုန္းေခၚဆိုမႈအား မေျဖဆိုႏိုင္ပါ</string>
+    <string name="cannot_answered_Voice_Call">ဗီဒီယိုဖုန္းေခၚဆိုမႈ ျပဳလုပ္ထားျပီးျဖစ္၍ အသံဖုန္းေခၚဆိုမႈအား မေျဖဆိုႏိုင္ပါ</string>
+    <string name="callDurationFormat"> <xliff:g id="minutes" example="42">%1$s</xliff:g> မိနစ္ <xliff:g id="seconds" example="28">%2$s</xliff:g> စကၠန္႔ </string>
+    <string name="reminder">ျပန္လည္သတိေပးခ်က္</string>
+    <string name="vt_media_occupied">ကင္မရာမရရွိႏိုင္သျဖင့္ ဗီဒီယိုဖုန္းေခၚဆိုမႈသို႔ မခ်ိတ္ဆက္ႏိုင္ပါ။ အျခားကင္မရာ အသံုးျပဳသည့္ ပ႐ိုဂရမ္ကို စစ္ေဆးၾကည့္ပါ။</string>
+    <string name="vt_media_video_fail">ဗီဒီယိုအား ေကာင္းမြန္စြာ မျပသႏိုင္ပါ။ ဗီဒီယိုဖုန္းေခၚဆိုမႈ ခ်ိတ္ဆက္မႈအား ျဖတ္ေတာက္ထားျပီး ျဖစ္သည္</string>
+    <string name="incall_toast_unhold">ဖုန္းကိုင္ထားျခင္းကို ခ်ပါ</string>
+    <string name="dualtalk_tip_accept_disconnect_current" tools:ignore="MissingTranslation">ဤေခၚဆိုမႈကို လက္ခံပါက လက္ရွိေခၚဆိုမႈ ျပီးဆံုးသြားမည္။</string>
+    <string name="dualtalk_tip_accept_disconnect_outgoing" tools:ignore="MissingTranslation">ဤေခၚဆိုမႈကို လက္ခံပါက အထြက္ေခၚဆိုမႈ ျပီးဆံုးသြားမည္။</string>
+    <string name="dualtalk_tip_accept_disconnect_incoming" tools:ignore="MissingTranslation">ဤေခၚဆိုမႈကို လက္ခံပါက အျခား အဝင္ေခၚဆိုမႈ ျပီးဆံုးသြားမည္။</string>
+    <string name="dualtalk_tip_accept_disconnect_voice">ဤေခၚဆိုမႈကို လက္ခံပါက အသံေခၚဆိုမႈ(မ်ား) ျပီးဆံုးသြားမည္။</string>
+    <string name="dualtalk_tip_accept_disconnect_outgoing_reject_incoming">ဤေခၚဆိုမႈကို လက္ခံပါက အထြက္ေခၚဆိုမႈ ျပီးဆံုးသြားျပီး အျခားအဝင္ေခၚဆိုမႈကို ျငင္းပယ္မည္။</string>
+    <string name="dualtalk_tip_accept_disconnect_current_reject_incoming">ဤေခၚဆိုမႈကို လက္ခံပါက လက္ရွိေခၚဆိုမႈ ျပီးဆံုးသြားျပီး အျခားအဝင္ေခၚဆိုမႈကို ျငင္းပယ္မည္။</string>
+    <string name="end_call_because_can_not_hold">လက္ရွိဖုန္းေခၚဆိုမႈကို မကိုင္ထားႏိုင္သျဖင့္ ျပီးဆံုးေစမည္။</string>
+    <string name="ring_only_once_title">တစ္ၾကိမ္သာျမည္ပါ</string>
+    <string name="ring_only_once_summary">ဗီဒီယိုဖုန္းေခၚဆိုမႈ ပံုစံတြင္ ဗီဒီယိုဖုန္းေခၚဆိုမႈကို လက္ခံရန္ ေရြးခ်ယ္ပါက တစ္ႀကိမ္သာျမည္ပါ</string>
+    <string name="fdn_contact_name_number_invalid">တစ္ႀကိမ္တည္းတြင္ အမည္ႏွင့္နံပါတ္ ဗလာျဖစ္ေန၍မရပါ။</string>
+    <string name="fdn_contact_number_invalid">မမွန္သည့္ အဆက္အသြယ္နံပါတ္။</string>
+    <string name="fdn_phone_book_busy">ဖုန္းစာအုပ္မွာ ယခုမအားပါ၊ ေနာက္မွ ျပန္ႀကိဳးစားၾကည့္ပါ။</string>
+    <string name="cdma_not_support">CDMA က ဤအဆင္အျပင္ကို အေထာက္အပံ့မေပးပါ</string>
+    <string name="cdma_cfu_title">China Telecom</string>
+    <string name="labelCFC">ဖုန္းလိုင္းလႊဲခ်က္ အားလံုးကို ပယ္ဖ်က္ပါ</string>
+    <string name="cdma_cfu_dialog_sum">ဤနံပါတ္ကို အျမဲအသံုးျပဳပါ</string>
+    <string name="dual_mic_title">ဆူညံသံေလွ်ာ့ခ်ခ်က္</string>
+    <string name="dual_mic_summary">ဖုန္းေခၚစဥ္ ေနာက္ခံဆူညံသံကို ေလွ်ာ့ခ်ပါ</string>
+    <string name="minutereminder_title">မိနစ္သတိေပးခ်က္</string>
+    <string name="minutereminder_summary">မိနစ္တိုင္း၏ ၅၀စကၠန္႔တြင္ သတိေပးပါ</string>
+    <string name="voice_call_settings">အသံဖုန္းေခၚဆိုမႈ အဆင္အျပင္မ်ား</string>
+    <string name="enable_sip_dialog_message">အင္တာနက္ေခၚဆိုမႈကို ပိတ္ထားျပီးျဖစ္သည္၊ သင္၎ကို ဖြင့္လိုပါသလား။</string>
+    <string name="ip_prefix_setting">IP ေရွ႕တြင္ ထားရွိခ်က္နံပါတ္</string>
+    <string name="ip_prefix_setting_sum">IP ေရွ႕တြင္ ထားရွိခ်က္နံပါတ္ အဆင္အျပင္မ်ား</string>
+    <string name="enter_ip_prefix_number">ေရွ႕တြင္ ထားရွိခ်က္နံပါတ္ကို ထည့္သြင္းပါ</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">အသံဖုန္းေခၚဆိုမႈ အဆင္အျပင္မ်ား၌ ေရွ႕တြင္ ထားရွိခ်က္နံပါတ္ကို အရင္ထည့္သြင္းပါ။</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">IP ေခၚဆိုမႈ လုပ္ေဆာင္ခ်က္မွာ အင္တာနက္ျဖင့္ ဖုန္းေခၚဆိုျခင္းသို႔ မလုပ္ေဆာင္ႏိုင္ပါ။</string>
+    <string name="ip_prefix_edit_default_sum">IP ေခၚဆိုခ်က္အတြက္ ေရွ႕တြင္ ထားရွိခ်က္နံပါတ္ကို ထည့္သြင္းပါ</string>
+    <string name="vt_cf_call_description">ဗီဒီယိုဖုန္းေခၚဆိုမႈ လိုင္းလႊဲျခင္းဆိုင္ရာ အဆင္အျပင္မ်ား</string>
+    <string name="vt_cb_call_description">ဗီဒီယိုဖုန္းေခၚဆိုမႈ တားျမစ္ျခင္းဆိုင္ရာ အဆင္အျပင္မ်ား</string>
+    <string name="vt_addtional_call_description">အျခား</string>
+    <string name="others">အျခားအဆင္အျပင္မ်ား</string>
+    <string name="confirm_3g_switch">ဤ SIM သို႔ 3G ဝန္ေဆာင္မႈ ထားရွိလိုျခင္းမွာ ေသခ်ာပါသလား။ ယင္းက ဤ SIM ထံ ဗီဒီယိုဖုန္း ေခၚဆိုမႈအတြက္ မူလ SIM ပံုစံကို အလိုအေလ်ာက္ ထားရွိလိမ့္မည္။</string>
+    <string name="modem_switching">SIM ကို လဲလွယ္ျခင္းက ျပီးဆံုးရန္ 10 စကၠန္႔ခန္႔ ၾကာလိမ့္မည္။ ေစာင့္ဆိုင္းပါ…</string>
+    <string name="confirm_3g_switch_to_off">3G ဝန္ေဆာင္မႈကို ပိတ္လိုသည္မွာ ေသခ်ာပါသလား။ ယင္းက ဗီဒီယိုဖုန္းေခၚဆိုမႈ ဝန္ေဆာင္မႈအား အလိုအေလ်ာက္ ပိတ္လိမ့္မည္။</string>
+    <string name="service_3g_off">ပိတ္သည္</string>
+    <string name="enable_3G_service">3G ဖြင့္ပါ</string>
+    <string name="setting_for_3G_service">3G ဝန္ေဆာင္မႈ</string>
+    <string name="network_forbidden">တားျမစ္ထားေသာ</string>
+    <string name="voice_mail_dialog_text"><xliff:g id="voicemail_sim_display_name">%s</xliff:g> ထံမွ အသံေမးလ္အသစ္ ရရွိသည္။ ၎င္းတို႔ကို ယခုရယူမလား။ </string>
+    <string name="lable_call_barring">ဖုန္းေခၚဆိုမႈ တားျမစ္ျခင္း</string>
+    <string name="lable_all_outgoing">အထြက္ဖုန္းေခၚဆိုမႈ အားလံုး</string>
+    <string name="lable_all_outgoing_international">ျပည္ပအထြက္ ဖုန္းေခၚဆိုမႈအားလံုး</string>
+    <string name="lable_all_out_except">ပင္မအမ်ားျပည္သူသံုး မိုဘိုင္းဆက္သြယ္ေရး ကြန္ရက္မွလြဲ၍ ျပည္ပအထြက္ဖုန္းေခၚဆိုမႈအားလံုး</string>
+    <string name="lable_all_incoming">အဝင္ဖုန္းေခၚဆိုမႈ အားလံုး</string>
+    <string name="lable_incoming_calls_except">ျပင္ပကြန္ရက္သို႔ ဝင္ေရာက္စဥ္ အဝင္ဖုန္းေခၚဆိုမႈ အားလံုး</string>
+    <string name="deactivate_all">အားလံုးကို ပယ္ဖ်က္ပါ</string>
+    <string name="change_password">ဖုန္းေခၚဆိုမႈ တားျမစ္ျခင္းဆိုင္ရာ စကားဝွက္ကို ေျပာင္းပါ</string>
+    <string name="call_barring_sum">အသံဖုန္းေခၚဆိုမႈ တားျမစ္ျခင္းဆိုင္ရာ အဆင္အျပင္မ်ား</string>
+    <string name="lable_disable">ပိတ္ထားျပီး</string>
+    <string name="lable_enable">ဖြင့္ထားျပီး</string>
+    <string name="old_password_label">စကားဝွက္အေဟာင္း (နံပါတ္ 4 လံုး)</string>
+    <string name="new_password_label">စကားဝွက္အသစ္ (နံပါတ္ 4 လံုး)</string>
+    <string name="invalid_password">နံပါတ္ 4 လံုးရွိေသာ စကားဝွက္ကို ႐ိုက္ပါ။</string>
+    <string name="confirm_password_label">စကားဝွက္အသစ္ကို အတည္ျပဳပါ</string>
+    <string name="mismatch_password">သင္ထည့္သြင္း ထားသည့္ စကားဝွက္မွာ မတူညီပါ။ ျပန္ထည့္သြင္းပါ။</string>
+    <string name="password_changed">စကားဝွက္ ေအာင္ျမင္စြာ ေျပာင္းလဲျပီးျဖစ္သည္</string>
+    <string name="enter_callbarring_password">ဖုန္းေခၚဆိုမႈ တားျမစ္ျခင္းဆိုင္ရာ စကားဝွက္ (နံပါတ္ 4 လံုး) ကို ထည့္သြင္းပါ</string>
+    <string name="wrong_password">စကားဝွက္အမွား ျပေနသည္</string>
+    <string name="error_title">အမွား</string>
+    <string name="cell_broadcast">အသံုးျပဳသူ အေျမာက္အျမားထံသို႔ တစ္ၿပိဳင္နက္ မက္ေဆ့ခ်္ေပးပို႔ျခင္း</string>
+    <string name="cell_broadcast_settings">အသံုးျပဳသူ အေျမာက္အျမားထံသို႔ တစ္ၿပိဳင္နက္ မက္ေဆ့ခ်္ေပးပို႔ျခင္း ဆိုင္ရာ အဆင္အျပင္မ်ား</string>
+    <string name="cb_menu_language">ဘာသာစကား</string>
+    <string name="cb_menu_add_channel">လိုင္းထည့္ပါ</string>
+    <string name="cb_menu_channel_list">ခ်န္နယ္ စာရင္း</string>
+    <string name="cb_dialog_title_language_choice">ဘာသာစကား ေရြးခ်ယ္ပါ</string>
+    <string name="cb_channel_dialog_channel_name">လိုင္းအမည္ (စကားလံုး 0-10 လံုး)</string>
+    <string name="cb_channel_dialog_channel_number">လိုင္းနံပါတ္ (0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">လိုင္းဖြင့္ပါ</string>
+    <string name="cb_channel_dialog_edit_channel">ခ်န္နယ္ကို တည္းျဖတ္ပါ</string>
+    <string name="cb_menu_edit">တည္းျဖတ္ပါ</string>
+    <string name="cb_menu_delete">ဖ်က္ပါ</string>
+    <string name="cb_error_channel_num">လိုင္းနံပါတ္ (0-65534) ထည့္ပါ။</string>
+    <string name="cb_error_channel_name">လိုင္းအမည္အရွည္မွာ မမွန္ကန္ပါ (စကားလံုး 1-10)။</string>
+    <string name="cb_error_language_select">အနည္းဆံုး ဘာသာစကားတစ္မ်ဳိး ေရြးခ်ယ္ပါ။</string>
+    <string name="cb_error_channel_id_exist">ခ်န္နယ္အိုင္ဒီမွာ ရွိျပီးျဖစ္သည္။</string>
+    <string name="cb_all_languages">ဘာသာစကားအားလံုး</string>
+    <string name="cb_default_new_channel_name">ခ်န္နယ္အသစ္</string>
+    <string name="fdn_errorcode_unknown_info">မေအာင္ျမင္ပါ၊ အမည္မသိအမွား ျဖစ္ေပၚေနသည္၊ ေနာက္မွ ျပန္ႀကိဳးစားၾကည့္ပါ။</string>
+    <string name="fdn_errorcode_number_info">မေအာင္ျမင္ပါ၊ လိပ္စာနံပါတ္အရွည္မွာ ရွည္လြန္းေနသည္။</string>
+    <string name="fdn_errorcode_name_info">မေအာင္ျမင္ပါ၊ လိပ္စာအမည္အရွည္မွာ ရွည္လြန္းေနသည္။</string>
+    <string name="fdn_errorcode_storage_info">မေအာင္ျမင္ပါ၊ သိမ္းဆည္းမႈျပည့္ေနျပီ။</string>
+    <string name="fdn_errorcode_phb_info">မေအာင္ျမင္ပါ၊ ဖုန္းစာအုပ္မွာ ယခုအဆင္သင့္ မျဖစ္ေသးပါ၊ ေနာက္မွ ျပန္ႀကိဳးစားၾကည့္ပါ။</string>
+    <string name="fdn_errorcode_pin2_info">မေအာင္ျမင္ပါ၊ မမွန္ေသာ PIN2။</string>
+    <string name="net_or_simcard_busy">ကြန္ရက္ သို႔မဟုတ္ SIM ကတ္ မအားပါ၊ ေနာက္မွ ျပန္ႀကိဳးစားၾကည့္ပါ။</string>
+    <string name="gsm_umts_network_preferences_title">ကြန္ရက္ပံုစံ</string>
+    <string name="gsm_umts_network_preferneces_summary">မလုပ္ေဆာင္ရေသးပါ။</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">ကြန္ရက္ပံုစံ</string>
+    <string name="umts_preferred_network_mode_dialogtitle">ကြန္ရက္ပံုစံ</string>
+    <string name="voice_call">အသံဖုန္းေခၚဆိုမႈ</string>
+    <string name="video_call">ဗီဒီယိုဖုန္း</string>
+    <string name="internet_call">အင္တာနက္ ေခၚဆိုမႈ</string>
+    <string name="sum_voice_call">အသံဖုန္းေခၚဆိုမႈ ဆိုင္ရာ အဆင္အျပင္မ်ား</string>
+    <string name="sum_video_call">ဗီဒီယိုဖုန္းေခၚဆိုမႈ ဆိုင္ရာအဆင္အျပင္မ်ား</string>
+    <string name="sum_internet_call">အင္တာနက္ျဖင့္ ဖုန္းေခၚဆိုမႈဆိုင္ရာ အဆင္အျပင္မ်ား</string>
+    <string name="voice_mail">အသံေမးလ္</string>
+    <string name="sum_voice_mail">အသံေမးလ္ဆားဗစ္ႏွင့္ နံပါတ္</string>
+    <string name="sum_cell_broadcast_control_on">အသံုးျပဳသူ အေျမာက္အျမားထံသို႔ တစ္ျပိဳင္နက္ မက္ေဆ့ခ်္ေပးပို႔ျခင္းကို ဖြင့္ပါ</string>
+    <string name="sum_cell_broadcast_control_off">အသံုးျပဳသူ အေျမာက္အျမားထံသို႔ တစ္ျပိဳင္နက္ မက္ေဆ့ခ်္ေပးပို႔ျခင္းကို ပိတ္ပါ</string>
+    <string name="sum_cell_broadcast_setting">အသံုးျပဳသူ အေျမာက္အျမားထံသို႔ တစ္ျပိဳင္နက္ မက္ေဆ့ခ်္ေပးပို႔ျခင္း ဆိုင္ရာ ဘာသာစကားႏွင့္ လိုင္းအဆင္အျပင္မ်ား</string>
+    <string name="call_additional_sum">အျခား</string>
+    <string name="vt_call_settings">ဗီဒီယိုဖုန္းေခၚဆိုမႈ အဆင္အျပင္မ်ား</string>
+    <string name="vt_local_video_rep">ဖုန္းတြင္းဗီဒီယို အစားထိုးျခင္း</string>
+    <string name="vt_pic_replace_local_description">ကင္မရာပိတ္ထားခ်က္အသံုးျပဳစဥ္ျပသရန္ ႐ုပ္ပံုထားရွိပါ</string>
+    <string name="mo_code_unconditional_cf_active">ဖုန္းေခၚဆိုမႈလိုင္းလႊဲျခင္း\nမည္သည့္ အေျခအေနတြင္မဆို လုပ္ေဆာင္ခ်က္ ဖြင့္ထားျပီး</string>
+    <string name="mo_code_some_cf_active">ဖုန္းေခၚဆိုမႈလိုင္းလႊဲျခင္း\nအေျခအေနေပၚမူတည္၍</string>
+    <string name="mo_code_call_forwarded">ဖုန္းေခၚဆိုမႈလိုင္းလႊဲၿပီး</string>
+    <string name="mo_code_call_is_waiting">ေစာင့္ဆိုင္းထားသည့္ ဖုန္းေခၚဆိုမႈ</string>
+    <string name="mo_code_cug_call">ပိတ္ထားသည့္ အသံုးျပဳသူအုပ္စု</string>
+    <string name="mo_code_outgoing_calls_barred">အထြက္ဖုန္းေခၚဆိုမႈ တားျမစ္ျပီး</string>
+    <string name="mo_code_incoming_calls_barred">တစ္ဖက္တြင္ အဝင္ေခၚဆိုမႈအား တားျမစ္ထား</string>
+    <string name="mo_code_clir_suppression_rejected">ေခၚဆိုသူ ID ေပးပို႔သည့္ ဝန္ေဆာင္မႈကို စစ္ေဆးပါ</string>
+    <string name="mo_code_call_deflected">လႊဲေျပာင္းထားသည့္ ဖုန္းေခၚဆိုမႈအား ေခၚဆိုပါ</string>
+    <string name="mt_code_forwarded_call">ယင္းမွာ လိုင္းလႊဲထားသည့္ ဖုန္းေခၚဆိုမႈျဖစ္သည္</string>
+    <string name="mt_code_cug_call">ပိတ္ထားသည့္ အသံုးျပဳသူအုပ္စု</string>
+    <string name="mt_code_call_on_hold">ဖုန္းကိုင္ထားျပီး</string>
+    <string name="mt_code_call_retrieved">ဖုန္းျပန္လည္ရယူျပီး</string>
+    <string name="mt_code_multi_party_call">ကြန္ဖရင့္ ဖုန္းေခၚဆိုမႈ</string>
+    <string name="mt_code_on_hold_call_released">ဖုန္းကိုင္ထားျခင္းအား လႊတ္လိုက္ျပီး</string>
+    <string name="mt_code_forward_check_received">SS မက္ေဆ့ခ်္ လက္ခံရရွိျပီးေၾကာင္း ႀကိဳတင္စစ္ေဆးပါ</string>
+    <string name="mt_code_call_connecting_ect">ဖုန္းေခၚဆိုမႈ လႊဲေျပာင္းျခင္း</string>
+    <string name="mt_code_call_connected_ect">ဖုန္းေခၚဆိုမႈ လႊဲေျပာင္းျခင္းဆိုင္ရာ လုပ္ေဆာင္ခ်က္ စတင္ျပီး</string>
+    <string name="mt_code_deflected_call">၎မွာ မေျဖဆိုဘဲ လႊဲေျပာင္းထားသည့္ ဖုန္းေခၚဆိုမႈျဖစ္သည္</string>
+    <string name="mt_code_additional_call_forwarded">ေနာက္ထပ္ အဝင္ဖုန္း ေခၚဆိုမႈမ်ားကို လိုင္းလႊဲၿပီး</string>
+    <string name="mt_code_forwarded_cf">ဖုန္းေခၚဆိုမႈလိုင္းလႊဲၿပီး</string>
+    <string name="mt_code_forwarded_cf_uncond">မည္သည့္ အေျခအေနတြင္မဆို ဖုန္းေခၚဆိုမႈလိုင္းလႊဲပါ</string>
+    <string name="mt_code_forwarded_cf_cond">အေျခအေနေပၚ မူတည္၍ ဖုန္းေခၚဆိုမႈလိုင္းလႊဲပါ</string>
+    <string name="mt_code_forwarded_cf_busy">ဖုန္းေခၚဆိုမႈ မအားလွ်င္ ဖုန္းလိုင္းလႊဲၿပီး</string>
+    <string name="mt_code_forwarded_cf_no_reply">ျပန္မေျဖၾကားပါက ဖုန္းေခၚဆိုမႈလိုင္းလႊဲၿပီး</string>
+    <string name="mt_code_forwarded_cf_not_reachable">မေရာက္ရွိႏိုင္ပါက ဖုန္းေခၚဆိုမႈလိုင္းလႊဲၿပီး</string>
+    <string name="sim_manage_sipcall">အင္တာနက္ ေခၚဆိုမႈ</string>
+    <string name="sim_manage_call_via">မွတဆင့္ ေခၚဆိုျခင္း</string>
+    <string name="manual_select_title">ကိုယ္တိုင္ ေရြးရန္</string>    
+	<string name="manual_select_dialog_msg">ကိုယ္တိုင္ေရြးရသည့္ ပံုစံတြင္ မိုဘိုင္းဖုန္းသည္ သင့္အတြက္ အျခား ေအာ္ပေရတာမ်ားကို ေရြးမည္မဟုတ္ပါ။ တစ္ခါတစ္ရံတြင္ ေရြးခ်ယ္ထားေသာ ေအာ္ပေရတာ၏ ဝန္ေဆာင္မႈ ေပ်ာက္ဆံုးသြားပါက ကိုယ္တိုင္ ေရြးခ်ယ္ျခင္းကို သင္ထပ္မံလုပ္ရပါမည္ သို႔မဟုတ္ အလိုအေလ်ာက္ ေရြးခ်ယ္သည့္ ပံုစံသို႔ျပန္လည္ေျပာင္းပါ။ \"အလိုအေလ်ာက္ ေရြးခ်ယ္ရန္\"အား သင္အသံုးျပဳရန္ တိုက္တြန္းပါသည္။ ကြန္ရက္ကို သင္ကုိယ္တိုင္ ေရြးခ်ယ္လိုပါသလား။</string>    
+	<string name="no_service_msg_gemini">လက္ရွိတြင္ \" <xliff:g id="operator">%s</xliff:g>\"SIM ကတ္အတြက္ ေရြးခ်ယ္ထားေသာ ေအာ္ပေရတာထံမွ မည္သည့္ဝန္ေဆာင္မႈမွ မရွိပါ။\n \"အလိုအေလ်ာက္ ေရြးခ်ယ္ရန္\"ကို သင္အသံုးျပဳရန္ တိုက္တြန္းပါသည္ သို႔မဟုတ္ အျခား ေအာ္ပေရတာတစ္ခုကို ကိုယ္တုိင္ သင္ေရြးခ်ယ္ႏိုင္ပါသည္။</string>    
+	<string name="no_service_msg">လက္ရွိတြင္ ေရြးခ်ယ္ထားေသာ ေအာ္ပေရတာထံမွ မည္သည့္ဝန္ေဆာင္မႈမွ မရွိပါ။\n \"အလိုအေလ်ာက္ ေရြးခ်ယ္ရန္\"ကို သင္အသံုးျပဳရန္ တိုက္တြန္းပါသည္ သို႔မဟုတ္ အျခား ေအာ္ပေရတာတစ္ခုကို ကိုယ္တိုင္ သင္ေရြးခ်ယ္ႏိုင္ပါသည္။</string>    
+	<string name="show_always_title">ကြ်န္ပ္အား ေနာက္ထပ္ သတိမေပးပါႏွင့္</string>    
+	<string name="no_service_msg_title_gemini">\" <xliff:g id="operator">%s</xliff:g>\" အတြက္ဝန္ေဆာင္မႈ မရွိပါ </string>    
+	<string name="no_service_msg_title">ဝန္ေဆာင္မႈမရွိ။</string>    
+    <string name="gemini_data_connection">ေဒတာ ခ်ိတ္ဆက္ျခင္း</string>
+    <string name="plmn_list_setting_title">ႏွစ္သက္ရာ ကြန္ရက္မ်ား</string>
+    <string name="network_id">ကြန္ရက္ ID</string>
+    <string name="dialog_network_priority_title">ဦးစားေပးခ်က္</string>
+    <string name="plmn_list_setting_add_plmn">PLMN အမ်ားျပည္သူသံုး မိုဘိုင္းဆက္သြယ္ေရး ကြန္ရက္အသစ္ ထည့္ပါ</string>
+    <string name="international_dialing_title">ျပည္ပဖုန္းေခၚဆိုမႈ အေထာက္အပံ့ပါရွိ</string>
+    <string name="international_dialing_select_country">သင္ႏိုင္ငံတကာ ဖုန္းေခၚဆိုေနေၾကာင္း စမ္းသပ္ေတြ႕ရွိသည္။ သင့္ဦးတည္ခ်က္ကို ေရြးခ်ယ္ပါ။</string>
+    <string name="international_dialing_add_country_code">သင္ <xliff:g id="country_name">%s</xliff:g> နံပါတ္သို႔ ေခၚဆိုေနေၾကာင္း စမ္းသပ္ေတြ႕ရွိသည္။ သင္ႏိုင္ငံကုဒ္ (+<xliff:g id="country_code">%s</xliff:g>)အား ထည့္လိုပါသလား။</string>
+    <string name="international_dialing_add_country_code_and_area_code">သင္ <xliff:g id="area_name">%1$s</xliff:g>၊ <xliff:g id="country_name">%2$s</xliff:g>ျဖင့္ နံပါတ္သို႔ ေခၚဆိုေနေၾကာင္း စမ္းသပ္ေတြ႕ရွိသည္။ သင္ႏိုင္ငံကုဒ္ႏွင့္ ဧရိယာကုဒ္(+<xliff:g id="prefix">%3$s</xliff:g>)အား ထည့္လိုပါသလား။</string>
+    <string name="international_dialing_change_country_prefix">"သင္ <xliff:g id="country_name">%s</xliff:g> မွ ေခၚဆိုေနေၾကာင္း စမ္းသပ္ေတြ႕ရွိသည္။ ႏိုင္ငံတကာ ဖုန္းေခၚဆိုမႈအစဂဏန္းမ်ားကို '+' သို႔ ေျပာင္းမလား။"</string>
+    <string name="international_dialing_add_country_code_input_area_code">သင္သည္ <xliff:g id="country_name">%s</xliff:g> တြင္ ဖုန္းေခၚေနေၾကာင္း စမ္းသပ္ေတြ႕ရွိသည္။ မွန္ကန္ပါက ဧရိယာကုဒ္ကို ထည့္သြင္းပါ။</string>
+    <string name="international_dialing_add_country_code_default_input_area_code">သင္သည္ <xliff:g id="country_name">%s</xliff:g> တြင္ ဖုန္းေခၚေနေၾကာင္း စမ္းသပ္ေတြ႕ရွိသည္။ သင့္ဦးတည္ခ်က္ၿမိဳ႕သည္ <xliff:g id="area_name">%s</xliff:g> မဟုတ္ပါ။ ဧရိယာကုဒ္ကို ထည့္သြင္းပါ။</string>
+    <string name="international_dialing_need_area_code">သင့္ဦးတည္ခ်က္ၿမိဳ႕ ဧရိယာကုဒ္အား ေခၚဆိုမႈအတြက္ လိုအပ္သည္။ </string>
+    <string name="international_dialing_input_area_code">ဧရိယာကုဒ္ကို ဤေနရာတြင္ ထည့္ပါ</string>
+    <string name="international_dialing_dialed_number">ေခၚဆိုသည့္နံပါတ္-</string>
+    <string name="international_dialing_confirm_area_code">သင့္ဦးတည္ခ်က္ ၿမိဳ႕သည္ <xliff:g id="area_name">%s</xliff:g> မဟုတ္ပါက ေအာက္ပါ သင့္ဦးတည္ခ်က္ၿမိဳ႕၏ ဧရိယာကုဒ္ကို ထည့္သြင္းပါ။ </string>
+    <string name="international_dialing_click_below_button">ႏိုင္ငံကုဒ္နံပါတ္အား ေျပာင္းရန္ ေအာက္ရွိခလုတ္ကို ကလစ္ႏွိပ္ပါ။</string>
+    <string name="international_dialing_yes">ဟုတ္ပါသည္။ ေအာက္ရွိနံပါတ္ကို အသံုးျပဳပါ:</string>
+    <string name="international_dialing_no">မဟုတ္ပါ။ မူလနံပါတ္ကို အသံုးျပဳပါ:</string>
+    <string name="international_dialing_call_button">ေခၚဆိုပါ</string>
+    <string name="international_dialing_area_code">ဧရိယာကုဒ္</string>
+    <string name="international_dialing_invalid_number">နံပါတ္မွာ အသံုးမရွိပါ။ မည္သို႔ပင္ျဖစ္ေစ ေခၚဆိုမႈကို ဆက္လုပ္လိုပါသလား။</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">ႏိုင္ငံကုဒ္ႏွင့္ ဧရိယာကုဒ္အား ထည့္လိုပါသလား။</string>
+    <string name="no_search_result">ရွာမေတြ႕ပါ</string>
+    <string name="which_call_to_activate">မည္သည့္ဖုန္းေခၚဆိုမႈ၏ အသံုးဖြင့္မည္နည္း။</string>
+    <string name="gemini_3g_disable_warning_case0">"ဤ SIM အတြက္ ေဒတာလွည့္လည္ျခင္းကို ဦးစြာ လုပ္ေဆာင္ေစရမည္။ ယင္းသည္ သိသာေသာ ႏိုင္ငံတကာလွည့္လည္မႈ အဖိုးအခကို က်သင့္ေစႏိုင္သည္။ ေဒတာလွည့္လည္ျခင္းကို လုပ္ေဆာင္ေစၿပီး ဤ SIM ကို ေရြးခ်ယ္ရန္ ေသခ်ာပါသလား။"</string>
+    <string name="gemini_3g_disable_warning_case1">"ေရြးခ်ယ္လိုက္ေသာ ဤ SIM တြင္ 3G ဝန္ေဆာင္မႈကို မရႏိုင္ပါ။ ေဒတာကို ေႏွးေကြးစြာ တင္လိမ့္မည္။ 3G ဝန္ေဆာင္မႈ ဆက္တင္ကို ဆက္တင္မ်ား&gt; ဝါယာလက္စ္ ႏွင့္ ကြန္ရက္မ်ား &gt; မိုဘိုင္း ကြန္ရက္မ်ား ေအာက္တြင္ သင္ေျပာင္းလဲႏိုင္သည္။ ဤ SIM ကို ေရြးခ်ယ္ရန္ ေသခ်ာပါသလား။"</string>
+    <string name="gemini_3g_disable_warning_case2">ဤ SIM အတြက္ ျဖန္႔က်က္ျခင္း အဖိုးအခ သိသိသာသာ မ်ားႏိုင္ေသာ ေဒတာျဖန္႔က်က္ျခင္းကို ဦးစြာ လုပ္ေဆာင္ေစရမည္။ ထို႔ျပင္ ဤ SIM တြင္ 3G ဝန္ေဆာင္မႈ မရႏိုင္ပါ။ ယင္းသည္ ေဒတာတင္မႈကို ေႏွးေစႏိုင္သည္။ ယင္းကို ဆက္တင္မ်ား &gt; ဝါယာလက္စ္ႏွင့္ ကြန္ရက္မ်ား &gt; မိုဘိုင္းကြန္ရက္မ်ား ေအာက္တြင္ ေျပာင္းလဲႏိုင္သည္။ ေဒတာျဖန္႔က်က္ျခင္းကို လုပ္ေဆာင္ေစရန္ႏွင့္ ဤ SIM ကို ေရြးခ်ယ္ရန္ ေသခ်ာပါသလား။</string>
+    <string name="disable_data_connection_msg">ရရွိႏိုင္ေသာ ကြန္ရက္မ်ား အားလံုးကို ရွာျခင္းျဖင့္ အသံုးျပဳေနေသာ ေဒတာခ်ိတ္ဆက္မႈကို ျဖဳတ္မည္။ သင္ဆက္လုပ္ လိုပါသလား။</string>
+    <string name="voice_command_notification_ticker">အဝင္ေခၚတာကို \"<xliff:g id="first_voice">%s</xliff:g>\" သို႔မဟုတ္ \"<xliff:g id="second_voice">%s</xliff:g>\" ေျပာျပီး ေျဖဆို သို႔မဟုတ္ မေျဖဘဲ ေနႏိုင္သည္</string>
+    <string name="voice_command_notification_title">အသံ ထိန္းခ်ဳပ္မႈ</string>
+    <string name="voice_command_notification_message">ဖုန္းတြင္ အသံအတိုးအခ်ဲ႕ လုပ္ႏိုင္သည္ </string>
+    <string name="callFailed_simError_cdma">UIM/SIM (သို႔) UIM/SIM အမွားမဟုတ္</string>
+    <string name="callFailed_simError_slotNumber">SIM မရွိပါ သို႔မဟုတ္ အေပါက္  <xliff:g id="slotNumber">%s</xliff:g> တြင္ SIM အမွားျပေနသည္။ </string>
+    <string name="callFailed_cdma_notEmergency">အေရးေပၚဖုန္းမ်ားသာ ေခၚဆိုႏိုင္သည္။</string>
+    <string name="buttonTxtContinue">ဆက္လုပ္ရန္</string>
+    <string name="fdn_only_error">သင့္ဖုန္းပ႐ိုဂရမ္၏ ပံုေသေခၚဆိုမႈနံပါတ္မ်ားထားရွိခ်က္ကို ဖြင့္ထားျပီးျဖစ္သည္။ ယင္းက ဖုန္းေခၚဆိုမႈႏွင့္ သက္ဆိုင္သည့္ အခ်ဳိ႕ အစီအစဥ္မ်ားကို အသံုးျပဳ၍မရဘဲ ျဖစ္ေစလိမ့္မည္။</string>
+    <string name="network_setting_all_forbidden_dialog">မရရွိႏိုင္ေသာ ကြန္ရက္မ်ား။ 3G ဝန္ေဆာင္မႈသို႔ ေျပာင္းရန္ ႀကိဳးစားပါ (သို႔) လူကိုယ္တိုင္ မွတ္ပံုတင္ရန္ တားျမစ္ထားေသာ ကြန္ရက္တစ္ခု ကိုႏွိပ္ပါ။</string>
+    <string name="reset_data_usage">အခ်က္အလက္ ပမာဏကို ျပန္လည္ထားရွိပါ</string>
+    <string name="simContacts_emptyLoading_ex">%s မွ လိပ္စာမ်ားကို ဖတ္ေနဆဲ\u2026</string>
+    <string name="one_retry_left">ေနာက္ထပ္ႀကိဳးစားရန္ ၁ ခါက်န္သည္</string>
+    <string name="retries_left">ျပန္လည္ႀကိဳးစားရန္  <xliff:g id="number">%d</xliff:g> ႀကိမ္ က်န္ရွိ </string>
+    <string name="pin2_unblocked">PIN2 ပိတ္ဆို႔ထားျခင္းကို ျဖဳတ္ျခင္းေအာင္ျမင္</string>
+    <string name="unblock_pin2">PIN2 ပိတ္ဆို႔ထားျခင္းကို ျဖဳတ္ပါ</string>
+    <string name="sim_permanently_locked">မမွန္ကန္ေသာ PUK2 ကုဒ္အား 10 ႀကိမ္ထက္ပို၍ သြင္းထားျခင္းေၾကာင့္ SIM ကတ္မွာ အျပီးအပိုင္ ေသာ့ခတ္သြားျပီး ျဖစ္သည္</string>
+    <string name="pin_length_indicate">(ဂဏန္း ၄-၈ လံုး)</string>
+    <string name="puk_length_indicate">(ဂဏန္း ၈ လံုး)</string>
+    <string name="caller_manage_manage_done_text">ဖုန္းေခၚဆိုမႈသို႔ ျပန္သြားပါ</string>
+    <string name="card_title_incoming_vt_call">အဝင္ဗီဒီယိုဖုန္းေခၚဆိုမႈ</string>
+    <string name="voicemail_settings_for"><xliff:g id="provider_name">%s</xliff:g>အတြက္ အဆင္အျပင္မ်ား</string>
+    <string name="sip_call_options_title_single_sim">အင္တာနက္ဖုန္း ေခၚဆိုမႈဆိုင္ရာ ေရြးခ်ယ္မႈမ်ား</string>
+    <string name="description_search_button">ရွာေဖြပါ</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G (အလိုအေလ်ာက္ပံုစံ)</item>
+        <item>3G သာ</item>
+        <item>2G သာ</item>
+    </string-array>
+    <string-array name="umts_network_preferences_choices">
+        <item>2G/3G (အလိုအေလ်ာက္ပံုစံ)</item>
+        <item>3G သာ</item>
+    </string-array>
+    <string-array name="lte_usim_prefer_network_mode_choices">
+        <item>4G/3G/2G (အလိုအေလ်ာက္ပံုစံ)</item>
+        <item>3G/2G (အလိုအေလ်ာက္ပံုစံ)</item>
+        <item>2G သာ</item>
+    </string-array>
+    <string-array name="lte_sim_prefer_network_mode_choices">
+        <item>3G/2G (အလိုအေလ်ာက္ပံုစံ)</item>
+        <item>2G သာ</item>
+    </string-array>
+    <string name="cipher_indication_notification_title">အသံဝွက္ျခင္းမရွိ</string>
+    <string name="cipher_indication_notification_message">ကြန္ရက္မွ အသံဝွက္ျခင္းကို ပိတ္သည္</string>
+    <string name="network_type">ကြန္ရက္အမ်ဳိးအစား</string>
+    <string name="cancel">မလုပ္ပါ</string>
+    <string name="volte_add_conference_member_title">ကြန္ဖရင့္စ္သို႔ ထပ္ထည့္ပါ</string>
+    <string name="add_member_msg">နံပါတ္ သို႔မဟုတ္ အမည္ကို ႐ိုက္ထည့္ပါ။</string>
+    <string name="card_title_incoming_conference">ကြန္ဖရင့္စ္ ဖိတ္ၾကားျခင္း</string>
+    <string name="addConferenceMemeberText">အဖြဲ႕ဝင္ကို ထပ္ထည့္ပါ</string>
+    <string name="add_conference_member_limit">တစ္ႀကိမ္တြင္ နံပါတ္တစ္ခုသာ ထည့္ႏိုင္သည္။</string>
+    <string name="conference_member_join"><xliff:g id="member_name">%s</xliff:g> သည္ ကြန္ဖရင့္စ္ကို ပူးေပါင္းခဲ့သည္။</string>
+    <string name="conference_member_leave"><xliff:g id="member_name">%s</xliff:g> သည္ ကြန္ဖရင့္စ္မွ ထြက္သြားၿပီ။</string>
+    <string name="conference_member_adding"><xliff:g id="member_name">%s</xliff:g> ကို ထပ္ထည့္ေနသည္…</string>
+    <string name="conference_member_add_fail"><xliff:g id="member_name">%s</xliff:g> ကို ထပ္ထည့္ရန္ မေအာင္ျမင္ပါ။</string>
+    <string name="removeMember">ဖယ္ရွားပါ</string>
+    <string name="memberStatus">အေျခအေန</string>
+    <string name="volte_call_waiting_indication_text">အျခားဘက္တြင္ ေခၚဆိုမႈျပဳလုပ္ေနသည္၊ ေက်းဇူးျပဳ၍ ေစာင့္ပါ…</string>
+    <string name="alert_dialog_yes">ဟုတ္ပါသည္</string>
+    <string name="alert_dialog_no">မဟုတ္ပါ</string>
+</resources>

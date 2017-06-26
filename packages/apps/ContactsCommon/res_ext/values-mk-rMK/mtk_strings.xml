@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="menu_print">Печати</string>
+<string name="printContact">Отпечати контакт преку</string>
+<string name="no_way_to_print">Нема достапна апликација за печатење на контактот.</string>
+<string name="no_sdcard_title" product="nosdcard">Меморијата не е достапна</string>
+<string name="no_sdcard_title" product="default">Нема SD-картичка</string>
+<string name="selected_item_count">
+<xliff:g id="count">%d</xliff:g> избрани</string>
+<string name="recentCalls_delete">Избриши</string>
+<string name="menu_selectAll">Избери сè</string>
+<string name="menu_clearAll">Отселектирај сè</string>
+<string name="all_resources">Сите ресурси</string>
+<string name="choose_resources_header">Изберете ресурси</string>
+<string name="all_tab_label1">Сите</string>
+<string name="call_log_item_count">(<xliff:g id="count">%1$d</xliff:g>)</string>
+<string name="call_sipcall">Интернет-повик</string>
+<string name="call_pin_dialog_title">Избери SIM-картичка</string>
+<string name="call_people">Контакти</string>
+<string name="call_ip_dial">IP-бирање</string>
+<string name="call_speed_dial">Брзо бирање</string>
+<string name="send_message">Испрати порака</string>
+<string name="call_video_call">Видео повик</string>
+<string name="add_speed_dial">Допрете за да додадете броеви за брзо бирање</string>
+<string name="speed_dial_added">
+<xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) додадено на брзо бирање <xliff:g id="key">%3$s</xliff:g>
+</string>
+<string name="speed_dial_added2">
+<xliff:g id="contact_name">%1$s</xliff:g> додадено во брзо бирање <xliff:g id="key">%2$s</xliff:g>
+</string>
+<string name="remove_speed_dial">Отстрани</string>
+<string name="remove_sd_confirm_1">Да се отстрани <xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) од брзо бирање <xliff:g id="key">%3$s</xliff:g>?</string>
+<string name="remove_sd_confirm_2">Да се отстрани <xliff:g id="contact_name">%1$s</xliff:g> од брзо бирање <xliff:g id="key">%2$s</xliff:g>?</string>
+<string name="emergencycall">Итен повик</string>
+<string name="imei_invalid">Неважечки</string>
+<string name="call_log_filter_all_resources">Сите ресурси</string>
+<string name="turn_on_3g_service_message">3G-услугата сега е исклучена. Да се вклучи?</string>
+<string name="associate_sim_missing_message">%1$s е недостапна. Да се изврши повикот преку %2$s?</string>
+<string name="associate_sim_missing_other">Друго</string>
+<string name="sim_manage_call_via">Повикај преку</string>
+<string name="callFailed_simError">Нема SIM или грешка на SIM</string>
+<string name="ip_dial_error_toast_for_no_ip_prefix_number">Прво внесете број за IP-префикс во поставките за гласовен повик.</string>
+<string name="ip_dial_error_toast_for_sip_call_selected">Функцијата за избирање преку IP не се применува за интернет-повици.</string>
+<string name="sd_add">Додај</string>
+<string name="reselect_number">Бројот веќе е доделен на копче за брзо бирање. Изберете друг број.</string>
+<string name="calllog_today">Денес</string>
+<string name="calllog_yesterday">Вчера</string>
+<string name="menu_association">Поврзи SIM</string>
+<string name="menu_remove_association">Отстрани поврзување на SIM</string>
+<string name="remove_association_message">Да се отстрани поврзување на SIM со овој број?</string>
+<string name="remove_number_title">Отстрани</string>
+<string name="warning_detail">Поврзувањето на SIM ќе ги увезе контактите од SIM во телефонот. Да се продолжи? </string>
+<string name="block_incoming_call">Блокирај дојдовни повици</string>
+<string name="block_video_incoming_call">Директно блокирај дојдовни видео повици</string>
+<string name="menu_actionbar_selected_items">
+<xliff:g id="name">%s</xliff:g> избрано</string>
+<string name="has_double_phone_number">Не може да се зачуваат броеви од ист тип. Изберете друг тип.</string>
+<string name="phone_book_busy">Апликацијата за контакти не е достапна во моментов. Обидете се повторно подоцна.</string>
+<string name="sim_invalid">Неважечка SIM-картичка. Не може да се зачува контактот.</string>
+<string name="cannot_insert_null_number">Не може да се зачува контактот чиј број е празен.</string>
+<string name="AirPlane_mode_on">Не може да се зачува контактот кога е вклучен авионскиот режим.</string>
+<string name="FDNEnabled">Не може да се зачува контактот кога е овозможено FDN.</string>
+<string name="sim_invalid_number">Не може да се зачува неважечки број.</string>
+<string name="email_invalid">Не може да се зачува неважечка е-порака.</string>
+<string name="email_2g_invalid">Не може да се зачува е-порака на SIM-картичка на 2G. Изберете SIM-картичка на 3G.</string>
+<string name="sim_invalid_fix_number">Не може да се зачува неважечки фиксен број.</string>
+<string name="AirPlane_mode_on_edit">Не може да се уредуваат контакти кога е вклучен авионскиот режим.</string>
+<string name="msg_loading_sim_contacts_toast">Вчитување на контактите од SIM во заднина… Почекајте.</string>
+<string name="fix_number_too_long">Фиксниот број е предолг.</string>
+<string name="name_too_long">Името е предолго.</string>
+<string name="storage_full">Меморијата е полна.</string>
+<string name="number_too_long">Бројот е предолг.</string>
+<string name="generic_failure">Непозната грешка.</string>
+<string name="email_too_long">Е-пораката е предолга.</string>
+<string name="send_groupsms_no_number_more">%1$s и уште %2$s контакти немаат важечки телефонски броеви.</string>
+<string name="send_groupsms_no_number_1">%1$s нема важечки телефонски броеви.</string>
+<string name="send_groupsms_no_number_2">%1$s и %2$s немаат важечки телефонски броеви.</string>
+<string name="account_type_sim" product="tablet">SIM-сметка</string>
+<string name="account_type_sim" product="default">SIM-сметка</string>
+<string name="account_type_usim" product="tablet">USIM-сметка</string>
+<string name="account_type_usim" product="default">USIM-сметка</string>
+<string name="account_type_local_phone" product="tablet">Локална сметка на телефонот</string>
+<string name="account_type_local_phone" product="default">Локална сметка на телефонот</string>
+<string name="local_account_type" product="tablet">Локална сметка</string>
+<string name="local_account_type" product="default">Локална сметка</string>
+<string name="local_account_label" product="tablet">Локална сметка</string>
+<string name="local_account_label" product="default">Локална сметка</string>
+<string name="account_type_sim_label" product="tablet">Само SIM, несинхронизирано</string>
+<string name="account_type_sim_label" product="default">Само SIM, несинхронизирано</string>
+<string name="account_type_usim_label" product="tablet">Само USIM, несинхронизирано</string>
+<string name="account_type_usim_label" product="default">Само USIM, несинхронизирано</string>
+<string name="please_wait">Почекајте</string>
+<string name="move_contacts_to">Префрли контакти во</string>
+<string name="menu_move_group">Префрли ги членовите на групата</string>
+<string name="menu_message_group">Испрати групна порака</string>
+<string name="menu_email_group">Испрати групна е-порака</string>
+<string name="moving_group_members">Се преместуваат членовите на групата\u2026</string>
+<string name="removing_group_members_sucess">Членовите на групата се отстранети.</string>
+<string name="moving_group_members_sucess">Членовите на групата се преместени</string>
+<string name="moving_group_members_fail">Преместувањето членови на групата не успеа</string>
+<string name="no_valid_number_in_group">Оваа група нема контакти со важечки телефонски броеви.</string>
+<string name="no_valid_email_in_group">Оваа група нема контакти со адреси на е-пошта.</string>
+<string name="email_error">Треба да инсталирате апликација за е-пошта или да ја конфигурирате сметката.</string>
+<string name="usim_group_name_exceed_limit">Името на групата е предолго. Не може да се зачува групата на SIM-картичката.</string>
+<string name="usim_group_count_exceed_limit">Нови групи не можат повеќе да се зачуваат на SIM-картичката.</string>
+<string name="name_needed">Името е потребно</string>
+<string name="save_group_fail">Зачувувањето на групата не успеа.</string>
+<string name="group_name_exists">Името на групата веќе постои.</string>
+<string name="group_discard_member">Отфрли</string>
+<string name="group_discard_member_reason">Измените ќе бидат отфрлени бидејќи името на групата е неважечко.</string>
+<string name="import_export_title">Увези/Извези</string>
+<string name="next">Следно</string>
+<string name="imexport_bridge_sd_card">SD-картичка</string>
+<string name="tips_source">Копирај ги контактите од</string>
+<string name="tips_target">Копирај ги контактите на</string>
+<string name="back">Назад</string>
+<string name="imexport_title">Увези/Извези контакти</string>
+<string name="xport_error_one_account">Ставете SIM-картичка или SD-картичка за да увезете/извезете контакти.</string>
+<string name="store_contact_to">Зачувај го контактот во</string>
+<string name="menu_delete_contact">Избриши го контактот</string>
+<string name="menu_conference_call">Конференциски повик</string>
+<string name="notifier_finish_delete_title">Избришани контакти</string>
+<string name="notifier_finish_delete_content">Избришани контакти: <xliff:g id="total">%d</xliff:g>
+</string>
+<string name="notifier_finish_copy_title">Контактите се копирани</string>
+<string name="notifier_finish_copy_content">Контактите се копирани: <xliff:g id="total">%d</xliff:g>
+</string>
+<string name="notifier_multichoice_process_report">Завршено: <xliff:g id="items">%d</xliff:g>\nВо очекување: <xliff:g id="items">%d</xliff:g>
+</string>
+<string name="notifier_failure_by_sim_full">Меморијата на SIM е полна\nЗавршено: <xliff:g id="items">%d</xliff:g>\nВо очекување: <xliff:g id="items">%d</xliff:g>
+</string>
+<string name="notifier_failure_sim_notready">SIM-картичката не е подготвена\nЗавршено: <xliff:g id="items">%d</xliff:g>\nВо очекување: <xliff:g id="items">%d</xliff:g>
+</string>
+<string name="notifier_cancel_delete_title">Откажано е бришењето контакти</string>
+<string name="notifier_fail_delete_title">Не успеа бришењето на контактите.</string>
+<string name="notifier_cancel_copy_title">Откажано е копирањето на контактите</string>
+<string name="notifier_fail_copy_title">Неуспешно копирање контакти</string>
+<string name="notifier_progress__delete_will_start_message">Контактите наскоро ќе се избришат.</string>
+<string name="notifier_progress_delete_message">Бришење <xliff:g id="current_number">%s</xliff:g>/<xliff:g id="total_number">%s</xliff:g>: <xliff:g example="Joe Due" id="name">%s</xliff:g>
+</string>
+<string name="notifier_progress_delete_description">Бришење <xliff:g example="Joe Due" id="name">%s</xliff:g>
+</string>
+<string name="notifier_progress__copy_will_start_message">Контактите наскоро ќе се копираат.</string>
+<string name="notifier_progress_copy_message">Копирање <xliff:g id="current_number">%s</xliff:g>/<xliff:g id="total_number">%s</xliff:g>: <xliff:g example="Joe Due" id="name">%s</xliff:g>
+</string>
+<string name="notifier_progress_copy_description">Копирање <xliff:g example="Joe Due" id="name">%s</xliff:g>
+</string>
+<string name="multichoice_confirmation_title_delete">Откажи го бришењето контакти</string>
+<string name="multichoice_confirmation_message_delete">Да се откаже бришењето на контактите?</string>
+<string name="multichoice_confirmation_title_copy">Да се откаже копирањето контакти</string>
+<string name="multichoice_confirmation_message_copy">Да се откаже копирањето на контактите?</string>
+<string name="multichoice_no_select_alert">Не се избрани ставки.</string>
+<string name="multichoice_delete_confirm_message">Да се избришат избраните контакти?</string>
+<string name="multichoice_delete_confirm_title">Избриши контакти</string>
+<string name="multichoice_contacts_limit">Не може да се изберат повеќе од <xliff:g id="count">%d</xliff:g> контакти</string>
+<string name="phone_storage_full_create">Меморијата на телефонот е полна. Не може да се создадат нови контакти.</string>
+<string name="phone_storage_full_edit">Меморијата на телефонот е полна. Не може да се уредат контакти.</string>
+<string name="add_SIP_to_sim">Не може да се додадат SIP-броеви на контакт од SIM.</string>
+<string name="already_has_SIP">Не може да се додадат два SIM-броеви на контакт. Избришете го постојниот број пред да можете да додадете нов.</string>
+<plurals name="searchFoundCalllogs">
+<item quantity="one">1 запис во дневникот на повици</item>
+<item quantity="other">
+<xliff:g id="count">%d</xliff:g> записи во дневникот на повици</item>
+</plurals>
+<string name="search_results_for">Пребарај резултати за: <xliff:g id="query">%s</xliff:g>
+</string>
+<string name="listFoundAllCalllogZero">Нема соодветни записи во дневникот на повици.</string>
+<string name="calllogList">Дневник на повици</string>
+<string name="calllogHint">Пребарај го дневникот на повици</string>
+<string name="calllog_description">Дојдовни, појдовни и пропуштени повици</string>
+<string name="noMatchingCalllogs">Не се пронајдени соодветни записи во дневникот на повици.</string>
+<string name="menu_videocallNumber">Воспостави видео повик до <xliff:g id="name">%s</xliff:g>
+</string>
+<string name="menu_ipcallNumber">Воспостави IP-повик до <xliff:g id="name">%s</xliff:g>
+</string>
+<string name="deleting_call_log">Бришење на записи од дневникот на повици...</string>
+<string name="no_vm_number">Нема број за говорна пошта</string>
+<string name="no_vm_number_msg">Нема зачуван број за говорна пошта на SIM-картичката.</string>
+<string name="add_vm_number_str">Додај број</string>
+<string name="reminder">Потсетник</string>
+<string name="enable_sip_dialog_message">Интернет-повик е оневозможен. Да се овозможи сега?</string>
+<string name="share_contacts_limit">Не може да се изберат повеќе од <xliff:g id="count">%d</xliff:g> контакти за споделување</string>
+<string name="contact_delete_all_tips">Бришење контакти... Не може да се изврши оваа операција.</string>
+<string name="sum_search_networks">Пребарувај ги сите достапни мрежи</string>
+<string name="deleteCallLogConfirmation_title">Избриши ги записите во дневникот на повици</string>
+<string name="deleteCallLogConfirmation_message">Да се избришат избраните записи во дневникот на повици?</string>
+<string name="file_already_on_sd_card">Датотеката е веќе на SD-картичката.</string>
+<string name="send_file_sms_error">Датотеката не може да се сподели преку ЅМЅ. Користете ММЅ.</string>
+<string name="user_profile_cannot_sd_card">Содржините не може да се споделат со овој метод.</string>
+<string name="error_save_usim_contact_email_lost">Меморијата за е-пошта на SIM-картичката е полна. Зачувувањето на адресата на е-пошта не успеа.</string>
+<string name="error_import_usim_contact_email_lost">Не успеа внесувањето на адресите на е-пошта на некои контакти бидејќи меморијата за е-пошта е полна.\nЗавршено: <xliff:g id="items">%d</xliff:g>\nВо очекување: <xliff:g id="items">%d</xliff:g>
+</string>
+<string name="type_ip_outgoing">Појдовен IP-повик (<xliff:g id="name">%s</xliff:g>)</string>
+<string name="call_sms">SMS</string>
+<string name="delete_group_failure">Бришењето на групата не успеа.</string>
+<string name="account_type_uim_label" product="tablet">Само UIM, несинхронизирано</string>
+<string name="account_type_uim_label" product="default">Само UIM, несинхронизирано</string>
+<string name="call_log_auto_rejected_label">Автоматски одбиени повици</string>
+<string name="import_no_vcard_dialog_text">Не се најдени датотеки vCard во <xliff:g id="storage_name">%s</xliff:g>
+</string>
+<string name="look_simstorage">Прикажи го капацитетот на SIM-картичката</string>
+<string name="dlg_simstorage_content">Капацитет на меморијата за телефонски броеви: <xliff:g id="items">%d</xliff:g>. Искористена меморија за телефонски броеви: <xliff:g id="items">%d</xliff:g>.</string>
+<string name="contact_group_list_title">Изберете целна група</string>
+<string name="send_groupemail_no_number_more">%1$s и уште %2$s контакти немаат важечки адреси на е-пошта.</string>
+<string name="send_groupemail_no_number_1">%1$s нема важечки адреси на е-пошта.</string>
+<string name="send_groupemail_no_number_2">%1$s и %2$s немаат важечки адреси на е-пошта.</string>
+<string name="add_contact_dlg_title">Додај контакт</string>
+<string name="deleteConfirmation_title">Избриши го контактот</string>
+<string name="dialog_phone_call_prohibited_title">Повикот не е остварен</string>
+<string name="dialog_voicemail_not_ready_title">Бројот на говорна пошта не е достапен</string>
+<string name="scanning_sdcard_failed_title" product="nosdcard">Не можеше да се скенира меморијата</string>
+<string name="scanning_sdcard_failed_title" product="default">SD-картичката не можеше да се скенира</string>
+<string name="nickname_too_long">Прекарот е предолг.</string>
+<string name="pick_new_photo_from_gallery">Изберете нова фотографија</string>
+<string name="copy_text_to_dialer">Копирај во бирачот</string>
+<string name="contact_detail_group_list_title">Групи</string>
+<string name="contact_detail_group_not_assigned">Не е доделено</string>
+<string name="contact_detail_group_list_nogroups">Нема постојни групи. Да се создаде нова група?</string>
+<string name="recents">Неодамнешни</string>
+<string name="contact_no_recents">Нема неодамнешни контакти</string>
+<string name="contact_detail_ip_call">IP-повик</string>
+<string name="contact_detail_history_mms_received_time">Време на примање %1$s</string>
+<string name="contact_detail_history_mms_received_from">Примено од %1$s</string>
+<string name="contact_detail_history_mms_sent_time">Време на испраќање %1$s</string>
+<string name="contact_detail_history_mms_sent_to">Испратено до %1$s</string>
+<string name="contact_detail_history_calllog">Дневник на повици</string>
+<string name="contact_detail_history_mms">Пораки</string>
+<string name="contact_detail_history_duration">Времетраење: </string>
+<string name="contact_detail_history_ismms">Мултимедиумска порака</string>
+<string name="contact_detail_history_empty_calllog">Дневникот на повици е празен</string>
+<string name="contact_detail_history_empty_message">Нема пораки</string>
+<string name="contact_detail_history_empty">Нема повици или пораки</string>
+<string name="contact_recent_number_limit">Достапни се само %1$s контакти</string>
+<string name="contact_recent_group_label">"Група"</string>
+<string name="call_pin_dialog_title_ct">Избери UIM/SIM-картичка</string>
+<string name="callFailed_simError_ct">Нема UIM/SIM или грешка на UIM/SIM</string>
+<string name="msg_loading_sim_contacts_toast_ct">Се вчитуваат контактите од UIM/SIM во заднина... Почекајте.</string>
+<string name="xport_error_one_account_ct">Ставете UIM/SIM-картичка или SD-картичка за да увезете/извезете контакти.</string>
+<string name="notifier_failure_by_sim_full_ct">Меморијата на UIM/SIM е полна\nЗавршено: <xliff:g id="items">%d</xliff:g>\nВо очекување: <xliff:g id="items">%d</xliff:g>
+</string>
+<string name="notifier_failure_sim_notready_ct">UIM/SIM не е подготвена\nЗавршено: <xliff:g id="items">%d</xliff:g>\nВо очекување: <xliff:g id="items">%d</xliff:g>
+</string>
+<string name="look_simstorage_ct">Прикажи го капацитетот на UIM/SIM-картичката</string>
+<string name="callFailed_cdma_notEmergency">Достапни се само итни повици.</string>
+<string name="international_dialing_title">Помошник за меѓународно бирање</string>
+<string name="international_dialing_select_country">Откриено е дека упатувате меѓународен повик. Изберете го одредиштето.</string>
+<string name="international_dialing_add_country_code">Откриено е дека бирате број во <xliff:g id="country_name">%s</xliff:g>. Да се додаде кодот на земјата (+<xliff:g id="country_code">%s</xliff:g>)?</string>
+<string name="international_dialing_add_country_code_and_area_code">Откриено е дека бирате број во <xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g>. Да се додаде кодот на земјата и повикувачкиот број (+<xliff:g id="prefix">%3$s</xliff:g>)?</string>
+<string name="international_dialing_change_country_prefix">Откриено е дека бирате од <xliff:g id="country_name">%s</xliff:g>. Да се промени меѓународниот префикс во \'+\'?</string>
+<string name="international_dialing_add_country_code_input_area_code">Откриено е дека бирате број во <xliff:g id="country_name">%s</xliff:g>. Ако бирате, внесете го повикувачкиот број.</string>
+<string name="international_dialing_add_country_code_default_input_area_code">Откриено е дека бирате број во <xliff:g id="country_name">%s</xliff:g>. Ако градот-одредиште не е <xliff:g id="area_name">%s</xliff:g>, внесете го повикувачкиот број.</string>
+<string name="international_dialing_need_area_code">Повикувачкиот број на градот-одредиште е потребен за повикот.</string>
+<string name="international_dialing_input_area_code">Внесете го повикувачкиот број овде</string>
+<string name="international_dialing_dialed_number">Се бира бројот:</string>
+<string name="international_dialing_confirm_area_code">Ако градот-одредиште не е <xliff:g id="area_name">%s</xliff:g>, внесете го повикувачкиот број на градот-одредиште подолу.</string>
+<string name="international_dialing_click_below_button">Допрете го копчето подолу за да го смените кодот на земјата.</string>
+<string name="international_dialing_yes">Да. Искористи го бројот подолу:</string>
+<string name="international_dialing_no">Не. Употреби го оригиналниот број:</string>
+<string name="international_dialing_call_button">Повик</string>
+<string name="international_dialing_area_code">Повикувачки број</string>
+<string name="international_dialing_invalid_number">Бројот е неважечки. Сепак да се продолжи со бирање?</string>
+<string name="international_dialing_add_country_code_and_area_code_without_prefix">Дали да се додаде кодот на земјата и повикувачкиот број?</string>
+<string name="no_search_result">Нема резултати од пребарувањето</string>
+<string name="account_phone_only" product="tablet">Таблет</string>
+<string name="account_phone_only" product="default">Телефонски контакт</string>
+<string name="no_match_call_log">Нема ставки што се совпаѓаат</string>
+<string name="no_call_log">Нема дневник на повици</string>
+<string name="share_too_large">Избрани се премногу ставки. Отселектирајте неколку и обидете се повторно.</string>
+<string name="err_icc_no_phone_book">%1$s не може да се користи за да се зачуваат контакти</string>
+<string name="titleJoinContactDataWith">Соедини ги контактите</string>
+<string name="menu_select_all">Избери сè</string>
+<string name="list_filter_custom">Вообичаен</string>
+<string name="add_contact_dlg_message_fmt">Да се додаде „<xliff:g id="email">%s</xliff:g>“ на контактот?</string>
+<string name="locale_change_in_progress">Листата контакти се ажурира за да се одрази промената на јазикот.</string>
+<string name="noFavoritesHelpText">Немате омилени.\n\nЗа да додадете контакт во листата на омилени:\n<li>Допрете ја картичката <b>Контакти</b>\n</li>\n<li>Допрете го контактот што сакате да го додадете во омилени\n</li>\n<li>Допрете ја ѕвездичката до името на контактот\n</li>
+</string>
+<string name="non_phone_caption">Телефонски број</string>
+<string name="menu_select_none">Отселектирај сè</string>
+<string name="find_call_logs">Најди дневник на повици</string>
+<string name="call_log_via_sim_name_notice">Дневник на повици преку „<xliff:g id="sim_name">%s</xliff:g>“</string>
+<string name="mtk_contact_list_loading">Се вчитува\u2026</string>
+<string name="vcard_import_failed_v2">Не може да се увезе </string>
+<string name="quickcontact_missing_app">Не е пронајдена апликација за вршење на ова дејство.</string>
+<string name="call_speed_dial_title">Брзо бирање</string>
+<string name="dialog_no_speed_dial_number_message">Не е достапен број за брзо бирање. Да се постави сега?</string>
+<string name="icc_phone_book_invalid">Апликацијата за контакти не е достапна во моментов. Обидете се повторно подоцна.</string>
+<string name="error_edit_join_group">Ова е соединет контакт. Информациите за групата може да ги уредувате во режим на уредување.</string>
+<string name="local_phone_account" product="tablet">Таблет</string>
+<string name="local_phone_account" product="default">Телефон</string>
+<string name="vcs_menu_voice_contacts_search" product="default">Гласовно пребарување за контакти</string>
+<string name="vcs_msg_no_voice_contacts">Упс, не е најден контакт.</string>
+<string name="imsCallLabelsGroup">Повик IMS</string>
+<string name="sip_url">SIP URL</string>
+<string name="ims_call_disabled">Не е достапен повик IMS</string>
+<string name="contact_import_export_tips">Увезување или извезување контакти... Обидете се повторно подоцна</string>
+<string name="can_not_switch_account_during_call">Не може да се префрли на саканата SIM за повици кога има активен повик.</string>
+<string name="can_not_switch_account_temporarily">Не може да се префрли на саканата SIM за повици времено.</string>
+<string name="location_permission_title">Предупредување за безбедност</string>
+<string name="location_permission_summary">Контакти се обидува да ја добие Вашата сегашна позиција.\n(Одбиј автоматски по <xliff:g id="time_sec">%1$s</xliff:g> секунди)</string>
+<string name="location_permission_allow">Дозволи</string>
+<string name="location_permission_deny">Одбиј</string>
+</resources>

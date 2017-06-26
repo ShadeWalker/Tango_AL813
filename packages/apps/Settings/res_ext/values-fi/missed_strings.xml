@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="battery_saver_turn_on_automatically_pct">%1$d%%-akussa</string>
+    <string name="power_discharging_duration"><xliff:g id="level">%1$d</xliff:g>%% - noin <xliff:g id="time">%2$s</xliff:g> jäljellä</string>
+    <string name="power_charging_duration"><xliff:g id="level">%1$d</xliff:g>%% - <xliff:g id="time">%2$s</xliff:g> kunnes täynnä</string>
+    <string name="power_charging_duration_ac"><xliff:g id="level">%1$d</xliff:g>%% - <xliff:g id="time">%2$s</xliff:g> kunnes täynnä verkkovirralla</string>
+    <string name="power_charging_duration_usb"><xliff:g id="level">%1$d</xliff:g>%% - <xliff:g id="time">%2$s</xliff:g> kunnes täynnä USB:llä</string>
+    <string name="power_charging_duration_wireless"><xliff:g id="level">%1$d</xliff:g>%% - <xliff:g id="time">%2$s</xliff:g> kunnes täynnä langattomalla</string>
+
+</resources>

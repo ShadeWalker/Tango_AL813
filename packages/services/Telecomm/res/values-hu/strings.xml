@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="telecommAppLabel" product="default" msgid="3477737022166975496">"Telefon"</string>
+    <string name="unknown" msgid="6878797917991465859">"Ismeretlen"</string>
+    <string name="notification_missedCallTitle" msgid="7554385905572364535">"Nem fogadott hívás"</string>
+    <string name="notification_missedCallsTitle" msgid="1361677948941502522">"Nem fogadott hívások"</string>
+    <string name="notification_missedCallsMsg" msgid="4575787816055205600">"<xliff:g id="NUM_MISSED_CALLS">%s</xliff:g> nem fogadott hívás"</string>
+    <string name="notification_missedCallTicker" msgid="504686252427747209">"Nem fogadott hívás: <xliff:g id="MISSED_CALL_FROM">%s</xliff:g>"</string>
+    <string name="notification_missedCall_call_back" msgid="2684890353590890187">"Visszahívás"</string>
+    <string name="notification_missedCall_message" msgid="3049928912736917988">"Üzenet"</string>
+    <string name="accessibility_call_muted" msgid="2776111226185342220">"Hívás némítva."</string>
+    <string name="accessibility_speakerphone_enabled" msgid="1988512040421036359">"Kihangosítás engedélyezve."</string>
+    <string name="respond_via_sms_canned_response_1" msgid="2461606462788380215">"Most nem alkalmas. Mi újság?"</string>
+    <string name="respond_via_sms_canned_response_2" msgid="4074450431532859214">"Hamarosan visszahívom."</string>
+    <string name="respond_via_sms_canned_response_3" msgid="3496079065723960450">"Később visszahívom."</string>
+    <string name="respond_via_sms_canned_response_4" msgid="1698989243040062190">"Most nem alkalmas. Hívna később?"</string>
+    <string name="respond_via_sms_setting_title" msgid="3754000371039709383">"Gyors válaszok"</string>
+    <string name="respond_via_sms_setting_title_2" msgid="6104662227299493906">"Gyors válaszok szerkesztése"</string>
+    <string name="respond_via_sms_setting_summary" msgid="9150281183930613065"></string>
+    <string name="respond_via_sms_edittext_dialog_title" msgid="20379890418289778">"Gyors válasz"</string>
+    <string name="respond_via_sms_confirmation_format" msgid="7229149977515784269">"Üzenet elküldve ide: <xliff:g id="PHONE_NUMBER">%s</xliff:g>."</string>
+    <string name="outgoing_call_not_allowed" msgid="1435394568102165287">"Az eszköz tulajdonosa csak a segélyhívásokat engedélyezte"</string>
+    <string name="outgoing_call_error_no_phone_number_supplied" msgid="1940125199802007505">"Hívásindításhoz adjon meg egy érvényes számot."</string>
+    <string name="duplicate_video_call_not_allowed" msgid="3749211605014548386">"Jelenleg nem lehet videohívást hozzáadni."</string>
+    <string name="no_vm_number" msgid="4164780423805688336">"Hiányzik a hangposta száma"</string>
+    <string name="no_vm_number_msg" msgid="1300729501030053828">"Nincs hangpostaszám a SIM kártyán."</string>
+    <string name="add_vm_number_str" msgid="4676479471644687453">"Szám hozzáadása"</string>
+    <string name="outgoing_call_error_limit_exceeded">A hívás elküldése nem történt meg, korlát túllépve.</string>
+    <string name="handle_restricted">"korlátozott"</string>
+    <string name="incall_error_supp_service_unknown" msgid="2991054870745666038">"Nem támogatott szolgáltatás"</string>
+    <string name="incall_error_supp_service_switch" msgid="3503552565745872241">"Nem lehet váltani a hívások között."</string>
+    <string name="incall_error_supp_service_separate" msgid="914362338192301746">"Nem lehet elkülöníteni a hívást."</string>
+    <string name="incall_error_supp_service_transfer" msgid="2509871374644921632">"Nem lehet továbbítani a hívást."</string>
+    <string name="incall_error_supp_service_conference" msgid="2505727299596357312">"Nem lehet konferenciahívást folytatni."</string>
+    <string name="incall_error_supp_service_reject" msgid="7055164130563826216">"Nem lehet elutasítani a hívást."</string>
+    <string name="incall_error_supp_service_hangup" msgid="7417583238334762737">"Nem lehet befejezni a hívás(oka)t."</string>
+
+    <string name="mo_code_unconditional_cf_active">Hívástovábbítás\nfeltétel nélkül aktiválva</string>
+    <string name="mo_code_some_cf_active">Hívástovábbítás\nBe feltételesen</string>
+    <string name="mo_code_call_forwarded">Hívás továbbítva</string>
+    <string name="mo_code_call_is_waiting">Várakoztatott hívás</string>
+    <string name="mo_code_cug_call">Zárt felhasználói csoport</string>
+    <string name="mo_code_outgoing_calls_barred">Kimenő hívások tiltva</string>
+    <string name="mo_code_incoming_calls_barred">Bejövő hívások tiltva a másik félnél</string>
+    <string name="mo_code_clir_suppression_rejected">Hívószám-azonosító szolgáltatást ellenőrzése</string>
+    <string name="mo_code_call_deflected">Összes hívás átirányítva</string>
+    <string name="mt_code_forwarded_call">Továbbított hívás</string>
+    <string name="mt_code_cug_call">Zárt felhasználói csoport</string>
+    <string name="mt_code_call_on_hold">Tartott hívás</string>
+    <string name="mt_code_call_retrieved">Visszakapcsolt hívás</string>
+    <string name="mt_code_multi_party_call">Konferenciahívás</string>
+    <string name="mt_code_on_hold_call_released">Tartott hívás feloldva</string>
+    <string name="mt_code_forward_check_received">Továbbítás ellenőrzés SS üzenet fogadva</string>
+    <string name="mt_code_call_connecting_ect">Hívás átirányítása</string>
+    <string name="mt_code_call_connected_ect">Hívásátirányítás aktív</string>
+    <string name="mt_code_deflected_call">Átirányított hívás</string>
+    <string name="mt_code_additional_call_forwarded">További bejövő hívás továbbítva</string>
+    <string name="mt_code_forwarded_cf">Hívás továbbítva</string>
+    <string name="mt_code_forwarded_cf_uncond">Feltétel nélküli hívástovábbítás</string>
+    <string name="mt_code_forwarded_cf_cond">Feltételes hívástovábbítás</string>
+    <string name="mt_code_forwarded_cf_busy">Foglalt hívás továbbítva</string>
+    <string name="mt_code_forwarded_cf_no_reply">Hívástovábbítás, ha nincs válasz</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Hívástovábbítás, ha nem elérhető</string>
+</resources>

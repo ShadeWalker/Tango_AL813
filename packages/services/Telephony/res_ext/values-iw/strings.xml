@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">ניחות רעשים</string>
+    <string name="dual_mic_summary">ביטול רעשי הרקע בעת שיחה</string>
+    <string name="anc_title">הפחתת רעש פעילה</string>
+    <string name="anc_on">ANC מופעלת</string>
+    <string name="anc_off">ANC כבויה</string>
+    <string name="ip_prefix_setting">מספר קידומת IP</string>
+    <string name="ip_prefix_setting_lable">מספר קידומת IP (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">\u202Dהגדרות מספר קידומת IP\u202C</string>
+    <string name="enter_ip_prefix_number">הזן מספר קידומת</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">הזן תחילה את מספר קידומת ה-IP בהגדרות השיחה הקולית.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">פונקציית חיוג IP אינה ישימה בשיחת אינטרנט.</string>
+    <string name="ip_prefix_edit_default_sum">\u202Dהזן מספר קידומת לחיוג IP\u202C</string>
+    <string name="lable_call_barring">"חסימת שיחות"</string>
+    <string name="title_call_barring">חסימת שיחות (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">כל השיחות היוצאות</string>
+    <string name="lable_all_outgoing_international">שיחות בינלאומיות יוצאות</string>
+    <string name="lable_all_out_except">שיחות בינלאומיות יוצאות פרט ל-PLMN אזורי</string>
+    <string name="lable_all_incoming">כל השיחות הנכנסות</string>
+    <string name="lable_incoming_calls_except">שיחות נכנסות בנדידה</string>
+    <string name="deactivate_all">בטל הכול</string>
+    <string name="change_password">שנה סיסמת חסימה</string>
+    <string name="call_barring_sum">הגדרות חסימת שיחה קולית</string>
+    <string name="lable_disable">מבוטל</string>
+    <string name="lable_enable">"מופעל"</string>
+    <string name="old_password_label">סיסמה ישנה (4 ספרות)</string>
+    <string name="new_password_label">סיסמה חדשה (4 ספרות)</string>
+    <string name="invalid_password">הזן סיסמה באורך 4 ספרות.</string>
+    <string name="confirm_password_label">אשר סיסמה חדשה</string>
+    <string name="mismatch_password">הסיסמאות שהוזנו אינן תואמות. נסה שנית.</string>
+    <string name="password_changed">הסיסמה שונתה בהצלחה</string>
+    <string name="enter_callbarring_password">הזן סיסמת חסימת שיחה (4 ספרות)</string>
+    <string name="wrong_password">שגיאת סיסמה</string>
+    <string name="error_title">"שגיאה"</string>
+    <string name="cell_broadcast">שידור סלולרי</string>
+    <string name="cell_broadcast_settings">הגדרות שידור סלולרי</string>
+    <string name="cb_menu_language">"שפה"</string>
+    <string name="cb_menu_add_channel">הוסף ערוץ</string>
+    <string name="cb_menu_channel_list">רשימת תחנות</string>
+    <string name="cb_dialog_title_language_choice">בחר שפה</string>
+    <string name="cb_channel_dialog_channel_name">שם ערוץ (0-10 סימנים)</string>
+    <string name="cb_channel_dialog_channel_number">מספר ערוץ (0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">אפשר את הערוץ</string>
+    <string name="cb_channel_dialog_edit_channel">ערוך תחנה</string>
+    <string name="cb_menu_edit">"ערוך"</string>
+    <string name="cb_menu_delete">"מחק"</string>
+    <string name="cb_error_channel_num">הזן מספר ערוץ (0-65534).</string>
+    <string name="cb_error_channel_name">אורך שם הערוץ שגוי (1-10 סימנים).</string>
+    <string name="cb_error_language_select">בחר שפה אחת לפחות.</string>
+    <string name="cb_error_channel_id_exist">מזהה הערוץ קיים</string>
+    <string name="cb_all_languages">"כל השפות"</string>
+    <string name="cb_default_new_channel_name">תחנה חדשה</string>
+    <string name="fdn_errorcode_unknown_info">שגיאה, אירעה שגיאה לא ידועה, נסה שנית מאוחר יותר.</string>
+    <string name="fdn_errorcode_number_info">שגיאה, מספר איש הקשר ארוך מדי.</string>
+    <string name="fdn_errorcode_name_info">שגיאה, שם איש הקשר ארוך מדי.</string>
+    <string name="fdn_errorcode_storage_info">שגיאה, אמצעי האחסון מלא.</string>
+    <string name="fdn_errorcode_phb_info">שגיאה, ספר הטלפונים תפוס כעת, נסה שנית מאוחר יותר.</string>
+    <string name="fdn_errorcode_pin2_info">שגיאה, קוד PIN2 לא תקין.</string>
+    <string name="net_or_simcard_busy">הרשת או כרטיס ה-SIM תפוסים, נסה שנית מאוחר יותר.</string>
+    <string name="plmn_list_setting_title">העדפות</string>
+    <string name="network_id">של הרשת ID</string>
+    <string name="plmn_list_setting_add_plmn">הוסף PLMN חדש</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">חיפוש...</string>
+    <string name="sum_search_femtocell_networks">בחר Femtocell באופן ידני</string>
+    <string name="register_femtocell_point_wait_tip">רושם את <xliff:g id="femto_cell_info">%s</xliff:g> ...</string>
+    <string name="register_femtocell_point_result_fail_tip">לא ניתן להתחבר לרשת זו כעת. נסה שוב מאוחר יותר.</string>
+    <string name="network_type">סוג רשת</string>
+    <string name="gsm_umts_network_preferences_title">"מצב רשת"</string>
+    <string name="gsm_umts_network_preferneces_summary">לא הוטמע עדיין!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"מצב רשת"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G (מצב אוטומטי)</item>
+        <item>3G בלבד</item>
+        <item>2G בלבד</item>
+    </string-array>
+    <string name="notification_voicemail_text">בחר כדי להציג הודעות קוליות</string>
+    <string name="notification_network_selection_without_operator">הרשת שנבחרה אינה זמינה</string>
+    <string name="network_setting_all_forbidden_dialog">אין רשתות זמינות.</string>
+    <string name="network_forbidden">אסור</string>
+    <string name="fdn_contact_number_invalid">מספר לא תקין לאיש קשר.</string>
+    <string name="fdn_puk_need_tips">קוד PI2 חסום. שנה קוד PIN2 ונסה שוב!</string>
+    <string name="fdn_phone_book_busy">ספר הטלפונים עסוק, נסה שוב מאוחר יותר.</string>
+    <string name="one_retry_left">נותר ניסיון חוזר אחד</string>
+    <string name="retries_left">\u202D <xliff:g id="number">%d</xliff:g> ניסיונות נותרו \u202C</string>
+    <string name="pin_length_indicate">(8-4 ספרות)</string>
+    <string name="puk_length_indicate">(8 ספרות)</string>
+    <string name="unblock_pin2">בטל חסימת PIN2</string>
+    <string name="sim_permanently_locked">הוזן קוד PUK2 שגוי יותר מ-‏10 פעמים, כרטיס ה-SIM ננעל לצמיתות</string>
+    <string name="magi_conference_title">MagiConference</string>
+    <string name="magi_conference_summary">שפר את איכות הקול כשמספר אנשים משתמשים בטלפון כדי לדבר עם הצד האחר.</string>
+    <string name="volte_is_adding_participants">מוסיף חברים לשיחת ועידה, המתן...</string>
+    <string name="volte_fail_to_invit_participants">לא ניתן להוסיף את כל החברים לשיחת הוועידה.</string>
+    <string name="voicemail_lable">דואר קולי (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">להשלמת הפעולה, עליך לפתוח את חיבור הנתונים של <xliff:g id="sub_name">%s</xliff:g>.</string>
+    <string name="cdma_labelCFU">"העבר תמיד"</string>
+    <string name="cdma_labelCFB">"העבר כשלא פנוי"</string>
+    <string name="cdma_labelCFNRy">"העבר כשאין מענה"</string>
+    <string name="cdma_labelCFNRc">"העבר כשלא ניתן להשיג"</string>
+    <string name="cdma_labelCFC">בטל את כל ההעברות</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">השבת חסימת שיחה מזוהה</string> 
+    <string name="cdma_cnir_turnon">הפעל חסימת שיחה מזוהה</string>
+    <string name="lte_data_only_prompt">לא ניתן להשתמש בתכונה זו בשל מצב הנתונים 4G בלבד. האם לצאת ממצב נתונים 4G בלבד?</string>
+    <string name="lte_data_only_timeout">אין רשת נתוני 4G בלבד הזמינה באזור. האם לצאת ולחפש רשתות נוספות?</string>
+    <string name="lte_only_dialog_button_yes">"כן"</string>
+    <string name="lte_only_dialog_button_no">"לא"</string>
+    <string name="lte_only_dialog_title_prompt">בקשה</string>
+    <string name="enable_4G_data">אפשר נתוני 4G</string>
+    <string name="enable_4G_data_summary">מצב 4G מאפשר גישה מהירה וטובה יותר לאינטרנט</string>
+    <string name="only_use_LTE_data">השתמש בנתוני LTE בלבד</string>
+    <string name="only_use_LTE_data_summary">אם תאפשר סוג נתונים אחד בלבד, התכונה לא תוכל להשתמש בשיחות טלפון ובהודעות SMS.</string>
+</resources>

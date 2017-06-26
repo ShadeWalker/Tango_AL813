@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- AudioProfile Settings start -->
+   <string name="ring_summary">"Vyzvánění"</string>
+  <string name="ring_vibrate_summary">"Vyzvánění a vibrace"</string>
+  <string name="silent_summary">"Pouze tichý režim"</string>
+  <string name="meeting_summary">"Pouze vibrace"</string>
+  <string name="outdoor_summary">"Nejhlasitější vyzvánění a vibrace"</string>
+  <string name="audio_profile_reset">Resetovat</string>
+  <string name="audio_profile_add">Přidat</string>
+  <string name="audio_profile_enable">Povolit</string>
+  <string name="audio_profile_rename">Přejmenovat</string>
+  <string name="audio_profile_delete">Odstranit</string>
+  <string name="audio_profile_message_reset">Budou obnoveny výchozí hodnoty všech nastavení zvukových profilů</string>
+  <string name="audio_profile_message_rename">Zadejte název nového profilu</string>
+  <string name="audio_profile_message_name_error">Zadaný název již existuje</string>
+  <string name="audio_profile_message_name_length_wrong">Název musí obsahovat alespoň jeden znak</string>
+  <string name="audio_profile_message_delete">Profil 
+        <xliff:g id="profile">%s</xliff:g> bude odstraněn</string>
+  <string name="audio_profile_message_overflow">Můžete přidat pouze 6 vlastních profilů</string>
+  <string name="audio_profile_category_custom_title">Vlastní profily</string>
+  <string name="audio_profile_category_predefine_title">Předdefinované profily</string>
+  <string name="audio_profile_error">Chyba</string>
+  <string name="audio_profile_others">Oznámení a jiné</string>
+  <string name="general_settings_title">"Obecné"</string>
+  <string name="silent_settings_title">Tichý režim</string>
+  <string name="meeting_settings_title">"Schůzka"</string>
+  <string name="outdoor_settings_title">"Venku"</string>
+  <string name="sound_category_feedback_title">"Systém"</string>
+  <string name="sound_category_calls_title">"Příchozí hovory"</string>
+  <string name="voice_call_title">Vyzváněcí tón hlasového volání</string>
+  <string name="voice_call_summary">"Nastavit výchozí vyzváněcí tón hlasových volání"</string>
+  <string name="video_call_title">Vyzváněcí tón videovolání</string>
+  <string name="video_call_summary">Nastavit výchozí vyzváněcí tón videovolání</string>
+  <string name="sip_call_title">Vyzváněcí tón volání SIP</string>
+  <string name="sip_call_summary">Nastavte výchozí vyzváněcí tón volání SIP</string>
+  <string name="Phone_vibrate_summary">Vibrovat zařízení pro příchozí volání</string>
+  <string name="vibrate_title">Vibrace</string>
+  <string name="audio_profile_settings_title">"Zvukové profily"</string>
+  <string name="audio_profile_bes_loudness_summary">Zesílení hlasitosti reproduktoru</string>
+  <string name="sound_enhancement_title">"Vylepšení zvuku"</string>
+  <string name="music_plus_summary">Vylepšení zvuku pro sluchátka do ucha</string>
+  <string name="lossless_title">Neztrátový BT režim</string>
+  <string name="lossless_summary">Vysoce kvalitní BT zvuk</string>
+  <string name="lossless_connect_summary">Zapnutí neztrátového BT režimu způsobí omezení připojení Wi-Fi. Opravdu chcete aktivovat?</string>
+  <string name="lossless_on">Bezztrátový režim BT zapnutý</string>
+  <string name="lossless_playing">Neztrátové přehrávání hudby</string>
+  <string name="lossless_toastmessage">Systémové zvuky budou přehrávány ze sluchátka telefonu</string>
+  <string name="lossless_volume_max">Prosím zachovejte maximální hlasitost systému</string>
+  <string name="lossless_cannot_found_device">Nelze najít neztrátové BT zařízení</string>
+  <string name="audio_profile_bes_surround_title">BesSurround</string>
+  <string name="audio_profile_bes_surround_summary">Prostorový zvuk</string>
+  <string name="audio_profile_bes_surround_mode_movie">Filmový režim</string>
+  <string name="audio_profile_bes_surround_mode_music">Hudební režim</string>
+  <string msgid="6680706009915204785" name="zen_mode_option_title_novoice">"Při příchozím oznámení"</string>
+  <!-- AudioProfile Settings end -->
+ 
+  <!-- MTK Wi-Fi settings start -->
+   <string name="wifi_no_cert_for_wapi">Nebylo možné najít certifikaci pro aktuálně připojovaný AP</string>
+  <string name="sim_slot">Slot SIM</string>
+  <string name="eap_sim_slot_0">Slot Sim 1</string>
+  <string name="eap_sim_slot_1">Slot Sim 2</string>
+  <string name="eap_sim_aka_airplanemode">Před používáním EAP-SIM/AKA vypněte režim Letadlo</string>
+  <string name="eap_sim_aka_no_sim_error">Aby bylo možné použít EAP-SIM/AKA, musíte vložit kartu SIM</string>
+  <string name="eap_sim_aka_no_sim_slot_selected">Aby bylo možné použít EAP-SIM/AKA, musíte vybrat slot SIM</string>
+  <string name="wifi_security_wapi_certificate">Certifikát WAPI</string>
+  <string name="wapi_user_certificate">Certifikát uživatele</string>
+  <string name="wapi_as_certificate">Certifikát ASE</string>
+  <string name="wifi_hex_password">Hexadecimální heslo.</string>
+  <string name="wifi_WEP_transmit_key">Přenést klíč</string>
+  <string name="wifi_WEP_secury_key">Zabezpečovací klíč</string>
+  <string name="wifi_tether_auto_disable_title">Zachovat aktivní bod Wi-Fi zapnutý</string>
+  <string name="wifi_tether_auto_channel_text">Automaticky</string>
+  <string name="wifi_tether_auto_channel_width_text">Auto 20/40 MHz</string>
+  <string name="wifi_channel">Upřednostňovaný kanál</string>
+  <string name="wifi_channel_width">Šířka kanálu</string>
+  <string name="wifi_advanced_ipv4_address_title">"Adresa IPv4"</string>
+  <string name="wifi_advanced_ipv6_address_title">"Adresa IPv6"</string>
+  <string name="wifi_ipv4_address">"Adresa IPv4"</string>
+  <string name="wifi_ipv6_address">"Adresa IPv6"</string>
+  <string name="wifi_ap_auto_join_available">Automaticky spojit</string>
+  <string name="wifi_ap_auto_join_available_summary">Automaticky zvolit lepší síť Wi-Fi při vyhledávání spojení po připojení</string>
+  <!-- MTK Wi-Fi settings end -->
+ 
+  <!-- Wi-Fi hotspot client start -->
+   <string name="wifi_tether_setting_title">"Základní nastavení"</string>
+  <string name="wifi_tether_wps_connect_title">Připojení WPS</string>
+  <string name="wifi_tether_wps_connect_summary">Vybrán režim Wi-Fi Protected Setup pro pokračování</string>
+  <string name="wifi_tether_wps_pin_error">Neplatný PIN</string>
+  <string name="wifi_tethering_title">Aktivní bod Wi-Fi</string>
+  <string name="wifi_ap_wps_dialog_title">Připojení WPS</string>
+  <string name="wifi_ap_wps_mode_title">"Režim WPS"</string>
+  <string name="wifi_ap_wps_pin_title">Zadejte PIN od klienta</string>
+  <string name="wifi_ap_reset_OOB_title">Obnovit výchozí SSID sítě, zabezpečení a heslo (konfigurace pro WPS při vybalení)</string>
+  <string name="wifi_ap_reset_OOB">Resetovat OOB</string>
+  <string name="wifi_ap_max_connection_title">"Maximální počet připojení"</string>
+  <string name="wifi_ap_connected_title">"Připojení uživatelé"</string>
+  <string name="wifi_ap_blocked_title">"Blokovaní uživatelé"</string>
+  <string name="wifi_ap_client_block_title">"Blokovat"</string>
+  <string name="wifi_ap_client_unblock_title">"Odblokovat"</string>
+  <string name="wifi_ap_client_details_title">Podrobnosti</string>
+  <string name="wifi_ap_client_mac_label">"Adresa MAC:"</string>
+  <string name="wifi_ap_client_ip_label">"IP adresa:"</string>
+  <string name="wifi_ap_bandwidth_title">"Omezení rychlosti"</string>
+  <string name="wifi_ap_bandwidth_enable">"Povolit omezení rychlosti"</string>
+  <string name="wifi_ap_bandwidth_chart_title">Rychlost dat v reálném čase</string>
+  <string name="wifi_ap_bandwidth_chart_summary">Měřeno podle vašeho telefonu, účtování rychlosti dat vašeho poskytovatele se může lišit.</string>
+  <string name="wifi_wps_fail_error">Wi-Fi Protected Setup se nezdařilo, opakujte akci.</string>
+  <string name="wifi_ap_title">"Statistika"</string>
+  <string name="wifi_ap_time_duration">Doba trvání: 
+        <xliff:g id="time">%1$s</xliff:g>
+</string>
+  <string name="wifi_ap_total_data">Využitá data celkem: <xliff:g id="time">%1$s</xliff:g>
+</string>
+  <string name="wifi_ap_no_connected">0 připojení uživatelé</string>
+  <string name="wifi_ap_no_blocked">0 blokovaní uživatelé</string>
+  <!-- Wi-Fi hotspot client end -->
+ 
+  <!-- MTK Beam plus start -->
+   <string name="beam_mgmt_tab_download_title">Přijatá volání</string>
+  <string name="beam_mgmt_tab_upload_title">"3. Klepněte na kartu Sdílení a vyberte možnost 'Umožnit ostatním uživatelům v síti využívat připojení k Internetu tohoto počítače'(pokud se zobrazí 'Připojení domácí sítě', vyberte nově přidanou síť, která představuje USB Internet)."</string>
+  <string name="beam_share_mgmt_notification_ticker">Historie sdíleného vysílání</string>
+  <string name="beam_share_mgmt_notification_title">Historie sdíleného vysílání</string>
+  <string name="beam_share_mgmt_notification_message">"Tato možnost slouží k zobrazení historie sdíleného vysílání."</string>
+  <string name="beam_share_mgmt_tab_menu_clear">"Vymazat všechna nastavení webu?"</string>
+  <string name="beam_share_open_file_dialog_title">Soubor nelze otevřít</string>
+  <string name="beam_share_open_file_unsupported_message">Formát souboru není podporován.</string>
+  <string name="beam_share_open_file_not_found_message">"Soubor nenalezen: 
+        <xliff:g id="file_name">%1$s</xliff:g> 
+    </string>
+  <string name="beam_share_transfer_fail_dialog_title">"Vysílání se nezdařilo"</string>
+  <string name="beam_share_resend_dialog_message">" 
+        <xliff:g id="file_name">%1$s</xliff:g> nebyl úspěšně odeslán."
+    </string>
+  <string name="beam_share_resend_dialog_ok_button">"Zkuste to znovu"</string>
+  <string name="beam_share_show_received_files_menu">"Zobrazit přijaté soubory"</string>
+  <string name="beam_share_history_title">Historie sdíleného vysílání</string>
+  <string name="beam_share_clear_confirm_dialog_title">"Vymazat vše"</string>
+  <string name="beam_share_clear_confirm_dialog_message">Vymazat veškerou historii?</string>
+  <string name="beam_share_receive_fail_dialog_message">" 
+        <xliff:g id="file_name">%1$s</xliff:g> nebyl úspěšně přijat."
+    </string>
+  <string name="beam_share_clear_item_dailog_title">ODSTRANIT</string>
+  <string name="beam_share_clear_item_dailog_message">Položka bude odstraněna.</string>
+  <!-- MTK Beam plus end -->
+ 
+  <!-- MTK NFC settings start -->
+   <string name="nfc_p2p_mode">Režim P2P</string>
+  <string name="nfc_p2p_mode_summary">Odeslat nebo přijmout obsah aplikace</string>
+  <string name="nfc_tag_mode_category">Režim značek</string>
+  <string name="nfc_rw_tag_title">Načítání a zápis značky</string>
+  <string name="nfc_rw_tag_summary">Načíst z nebo zapsat do značky</string>
+  <string name="nfc_card_emulation_category_title">režim emulace karty</string>
+  <string name="nfc_card_emulation">Emulace karty</string>
+  <string name="card_emulation_settings_category_title">dostupný prvek zabezpečení</string>
+  <string name="card_emulation_settings_no_element_found">Žádný prvek zabezpečení k dispozici</string>
+  <string name="card_emulation_settings_off_text">Chcete-li zobrazit dostupné prvky zabezpečení, zapněte emulaci karty.</string>
+  <string name="card_emulation_turning_off_text">Vypínání emulace karty...</string>
+  <string name="card_emulation_turning_on_text">Zapínání emulace karty...</string>
+  <string name="card_emulation_switch_error_title">Chyba</string>
+  <string name="card_emulation_switch_error_message">Zapnutí 
+        <xliff:g id="card_mode">%1$s</xliff:g> se nezdařilo.
+    </string>
+  <string name="card_emulation_sim_not_supported_message">
+<xliff:g id="sim_description">%1$s</xliff:g> nepodporuje funkci emulace karty NFC.</string>
+  <string name="card_emulation_two_sim_not_supported_message">Karta SIM1, SIM2 nepodporuje funkci emulace karty NFC.</string>
+  <string name="nfc_hce_pay_summary">Použití zařízení k platbám klepni a zaplať jako pomocí Google peněženky, kreditní karty atd.</string>
+  <!-- MTK NFC settings end -->
+ 
+  <!-- MTK WIFI Passpoint start -->
+   <string name="passpoint_summary">Automaticky připojovat k AP s passpoint</string>
+  <string name="passpoint_append_summary">(prostřednictvím Passpoint)</string>
+  <string name="passpoint_config_credential_type">Typ pověření</string>
+  <string name="passpoint_config_eap_method">"Metoda EAP"</string>
+  <string name="passpoint_supported">Podporováno</string>
+  <string name="passpoint_username_pw">Uživatelské jméno/heslo</string>
+  <string name="passpoint_certificate">Certifikát</string>
+  <!-- MTK WIFI Passpoint end -->
+ 
+  <!-- MTK WFD start -->
+   <string name="wfd_change_resolution_menu_title">Změnit rozlišení</string>
+  <string name="wfd_sink_summary">Zjistitelné ostatními</string>
+  <string name="wfd_device_category">SEZNAM PŘÍSTROJŮ</string>
+  <string name="wfd_sink_toast_enjoy">Sdílejte zobrazení z jiného přístroje</string>
+  <string name="wfd_sink_toast_disconnect">Sdílené zobrazení odpojeno</string>
+  <string name="wfd_sink_disconnecting">Odpojování…</string>
+  <string name="wfd_sink_guide_btn">Získat</string>
+  <string name="wfd_sink_guide_title">Jak ukončit?</string>
+  <string name="wfd_sink_guide_content">Stisknutím a podržením <xliff:g id="seconds">%s</xliff:g> sekund na displeji ukončíte zobrazení jiného přístroje.</string>
+  <!-- MTK WFD end -->
+ 
+  <!-- MTK Storage Settings start -->
+   <string name="mtp_transfer_unmount_error_text">Během přenášení souborů nelze odpojit kartu SD</string>
+  <string name="mtp_transfer_erase_error_text">Během přenášení souborů nelze vymazat kartu SD</string>
+  <string name="launch_error">"Nebylo možné spustit aplikaci!"</string>
+  <string name="dlg_confirm_unmount_usb_title" product="default">Odpojit úložiště USB?</string>
+  <string name="dlg_confirm_unmount_usb_text" product="default">Odpojíte-li úložiště USB, některé používané aplikace se zastaví a pravděpodobně nebudou k dispozici, dokud znovu nepřipojíte úložiště USB.</string>
+  <string name="dlg_error_unmount_usb_text" product="default">Nebylo možné odpojit úložiště USB. Opakujte akci později.</string>
+  <string name="unmount_usb_inform_text" product="default">Úložiště USB bude odpojeno.</string>
+  <string name="sd_eject_usbstorage" product="default">"Odpojit úložiště USB"</string>
+  <string name="sd_eject_usbstorage_summary" product="default">"Odpojit interní úložiště USB"</string>
+  <string name="sd_mount_usbstorage" product="default">"Připojit úložiště USB"</string>
+  <string name="sd_insert_usb_summary" product="default">"Vložte úložiště USB"</string>
+  <string name="usb_ums_title">Úložiště USB</string>
+  <string name="usb_ums_summary">"Doporučujeme XP. Umožňuje přenášet soubory mezi počítačem a úložištěm USB systému Android."</string>
+  <string name="usb_charge_title">"Pouze nabíjení"</string>
+  <string name="usb_connect_as_cdrom_category">"Připojit jako CD-ROM"</string>
+  <string name="usb_charge_summary">Zastaví všechny funkce USB. Umožňuje zrychlit nabíjení USB a snížit spotřebu energie.</string>
+  <string name="akp_installer_settings_title">Instalátor APK</string>
+  <string name="akp_installer_settings_summary">Nainstalujte váš APK úložiště telefonu a karty SD</string>
+  <string name="usb_bicr_title">Integrovaná jednotka CD-ROM</string>
+  <string name="usb_bicr_summary">Zobrazí virtuální disk CD-ROM obsahující užitečný software.</string>
+  <string name="select_memory">Výchozí disk pro zápis</string>
+  <string name="dlg_mount_external_sd_title" product="default">Připojit kartu SD?</string>
+  <string name="dlg_mount_external_sd_summary" product="default">Pokud připojíte kartu SD, některé používané aplikace se ukončí.</string>
+  <!-- MTK Storage Settings end -->
+ 
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">Nastavení HDMI</string>
+  <string name="hdmi_settings_summary">Klepnutím nakonfigurujte HDMI</string>
+  <string name="hdmi_audio_toggler">zvuk</string>
+  <string name="hdmi_video_toggler">video</string>
+  <string name="hdmi_video_resolution">Rozlišení videa</string>
+  <string name="hdmi_auto">Automaticky</string>
+  <string name="hdmi_scale_control">Nastavení Video stupnice</string>
+  <string name="hdmi_scale_no_scale">No měřítka</string>
+  <string name="hdmi_scale_scale_down">Měřítko se <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">Výstup zvuku</string>
+  <string name="hdmi_audio_output_stereo">Stereo</string>
+  <string name="hdmi_audio_output_multi_channel">Více kanálů</string>
+  <!-- MTK HDMI end -->
+ 
+  <!-- MTK Display Settings start -->
+   <string name="landscape_launcher_title">Landscape Launcher</string>
+  <string name="landscape_launcher_none">Žádná</string>
+  <string name="display_settings_scences_title">Scény</string>
+  <string name="default_name">Výchozí</string>
+  <string name="custom_theme_name">Nový [%1$s]</string>
+  <string name="loading">"Načítání..."</string>
+  <string name="auto_backlight_title">Úsporné podsvícení</string>
+  <string name="auto_backlight_summary">Automaticky přizpůsobí podsvícení pro úsporu energie</string>
+  <string name="display_personalize">"Přizpůsobení"</string>
+  <string name="display_default">"Displej"</string>
+  <string name="clear_motion_summary">Vylepšení plynulosti videa</string>
+  <string name="on_text">"zapnuto"</string>
+  <string name="off_text">"vypnuto"</string>
+  <string name="mira_vision_summary">Poskytovatel nejlepších vizuálních efektů</string>
+  <!-- MTK Display Settings end -->
+ 
+  <!--MTK Security Settings start -->
+   <string name="voice_unlock_backup_info_summary">Když vás Odemknutí hlasem nemůže rozpoznat, jak chcete odemknout?</string>
+  <string name="unlock_set_unlock_mode_voice_weak">Odemknout hlasem</string>
+  <string name="mtk_lock_screen_notifications_title">Zamknutá obrazovka - oznámení</string>
+  <string name="lock_screen_notifications_summary">Zobrazovat oznámení na zamknuté obrazovce</string>
+  <string name="lock_screen_style_title">"Styl uzamknuté obrazovky"</string>
+  <string name="current_suffix">"(Aktuální)"</string>
+  <string name="lockscreen_style_default_desc">"Rychlý přístup k aplikacím na zamykací obrazovce"</string>
+  <string name="security_not_set">Zabezpečení není nastaveno</string>
+  <string name="voice_ui_title">Hlasové ovládání</string>
+  <!--MTK Security Settings end -->
+ 
+  <!-- MTK Wireless settings start -->
+   <string name="pch_toggle_title">Upřednostňovaný režim přenosu GPRS</string>
+  <string name="pch_data_prefer_summary_off">Upřednostňovaná data</string>
+  <string name="pch_call_prefer_summary_on">Upřednostnit volání</string>
+  <string name="pch_warning_message">Rychlost přenášení dat se sníží.</string>
+  <string name="tethered_ipv6_title">"Nastavení Hotspot a sdílení dat"</string>
+  <string name="tethered_ipv4v6">"(IPv6 je k dispozici)"</string>
+  <string name="tethered_ipv6">"(k dispozici je pouze IPv6)"</string>
+  <string name="tethered_ipv4">"(IPv6 není k dispozici)"</string>
+  <string name="tethering_apn_settings_title">Nastavení APN</string>
+  <string name="tethering_apn_settings_summary">Konfigurovat APN pro tethering</string>
+  <string name="usb_tether_type_title">Typ sdílení USB</string>
+  <string name="usb_tethering_select_version">Vyberte oper. systém PC</string>
+  <string name="apn_port_warning">Hodnota portu musí být 1-65535!</string>
+  <string name="apn_predefine_change_dialog_notice">Opravdu chcete uložit? Úpravy výchozích APN mohou způsobit problémy s připojením!"</string>
+  <string name="lockdown_vpn_already_connected">Funkce Vždy na VPN je již aktivována pro připojení.</string>
+  <!-- MTK Wireless settings end -->
+ 
+  <!-- MTK Feature MISC start -->
+   <string name="schedule_power_on_off_settings_title">"Plánované zapnutí a vypnutí"</string>
+  <string name="ipo_title">"Rychlé spuštění"</string>
+  <string name="ipo_summary_on">Zakázat rychlé spuštění</string>
+  <string name="ipo_summary_off">"Povolit rychlé spuštění"</string>
+  <string name="hotknot_explained_description">Povolit výměnu dat, když se displej dotkne jiného zařízení</string>
+  <string name="mouse_primary_button_title">Přepínání primárních a sekundárních tlačítek</string>
+  <string name="mouse_primary_button_dialog_title">Přepnutí primárního tlačítka</string>
+  <string name="double_click_title">Rychlost poklepání</string>
+  <string name="test_area">TESTOVACÍ PLOCHA:</string>
+  <string name="double_click_tip">Poklepejte zde</string>
+  <!-- MTK Feature MISC end -->
+ 
+  <!-- MTK Bluetooth Settings start -->
+   <string name="bluetooth_advanced_settings">"Upřesnit nastavení"</string>
+  <string name="bluetooth_profile_ftp">Přenos souboru</string>
+  <string name="bluetooth_ftp_profile_summary_use_for">Použít pro přenos souborů</string>
+  <string name="bluetooth_ftp_profile_summary_connected">"Připojeno k přenosu souborů"</string>
+  <!-- MTK Bluetooth Settings end -->
+ 
+  <!--MTK DateTime start-->
+   <string name="gps_time_sync_attention_gps_on">Zaměření signálu GPS bude trvat maximálně 1 minutu. Kromě toho systém GPS nemusí poskytnout čas z důvodu slabého prostorového signálu.\n\nOpravdu chcete použít čas poskytnutý systémem GPS?</string>
+  <string name="gps_time_sync_attention_gps_off">Aby bylo možné použít čas poskytnutý systémem GPS, musíte nejdříve aktivovat GPS. Potom bude během max. 1 minuty zaměřen signál GPS. Kromě toho systém GPS nemusí poskytnout čas z důvodu slabého prostorového signálu. \n\nOpravdu chcete nyní aktivovat GPS a vyčkat na čas poskytnutý systémem GPS?</string>
+  <!--MTK DateTime end-->
+ 
+  <!--MTK DRM settings start -->
+   <string name="drm_settings_title">Resetovat DRM</string>
+  <string name="drm_settings_summary">Odstraní všechny licence DRM</string>
+  <string name="drm_reset_dialog_msg">Tato operace odstraní všechny licence v zařízení. Pokračovat?</string>
+  <string name="drm_reset_toast_msg">Licence byly úspěšně odstraněny.</string>
+  <!--MTK DRM settings end -->
+ 
+  <!-- MTK APPS settings start -->
+   <string name="launch_main_label">"Spustit aplikaci"</string>
+  <string name="launch_main">Spustit aplikaci hlavní aktivitou</string>
+  <string name="launch_activitie">"Spustit"</string>
+  <string name="move_app_to_where">Přesunout do 
+        <xliff:g id="location">%s</xliff:g>
+</string>
+  <!-- MTK APPS settings end -->
+ 
+  <!-- MTK Battery MISC start -->
+   <string name="bg_power_saving_title">Pohotovostní inteligentní řízení spotřeby</string>
+  <!-- MTK Battery MISC end -->
+ 
+  <!-- MTK  Datausage  start -->
+   <string name="mtk_datausage_overview_tab">"Přehled"</string>
+  <string name="mtk_datausage_overview_wifi_today">Dnes</string>
+  <string name="mtk_datausage_overview_wifi_total">Celkem</string>
+  <string name="mtk_datausage_overview_mobile_title">MOBIL</string>
+  <string name="mtk_datausage_overview_mobile_usage">
+<xliff:g id="actual">%s</xliff:g> z 
+        <xliff:g id="limit">%s</xliff:g>
+</string>
+  <string name="mtk_datausage_overview_mobile_usage_warning">Překročení limitu 
+        <xliff:g>%s</xliff:g> 
+    </string>
+  <string name="data_saving_title">Ukládání dat</string>
+  <!-- MTK  Dtausage  end -->
+ 
+  <!-- MTK About phone start -->
+   <string name="status_imei_slot1">IMEI(Slot1)</string>
+  <string name="status_imei_slot2">IMEI(Slot2)</string>
+  <string name="custom_build_version">Verze vlastního sestavení</string>
+  <string name="mota_system_update_summary">"Vyhledat aktualizaci systému na serveru"</string>
+  <string name="software_updates_more_title">Aktualizace softwaru</string>
+  <string name="software_updates_more_summary">Vyhledat novou verzi softwaru</string>
+  <!-- MTK About phone end -->
+ 
+  <!-- MTK sim cards start -->
+   <string name="sim_cards_celluar_data_dialog_title">Zvolte SIM pro mobilní data</string>
+  <string name="sim_cards_data_sms_dialog_title">Zvolte Sim pro SMS zprávy</string>
+  <string name="sim_cards_calls_dialog_title">Zvolte účet pro telefonní volání</string>
+  <string name="sim_cards_other_calls_dialog_title">Zvolte jiný účet</string>
+  <string name="sim_cards_other_calls_item_title">Jiný účet</string>
+  <string name="data_connection_progress_message">"Dokončení přepnutí karty SIM bude trvat přibližně 10 sekund. Počkejte prosím..."</string>
+  <string name="gemini_sim_mode_progress_activating_message">"Aktivace\u2026"</string>
+  <string name="gemini_sim_mode_progress_deactivating_message">"Deaktivace\u2026"</string>
+  <string name="simui_intenet_call">Volání v Internetu</string>
+  <!-- MTK sim cards end -->
+ 
+  <!-- MTK SIM Status start -->
+   <string name="imei_information_title">"Informace o kódu IMEI"</string>
+  <string name="imei_information_summary">"Informace související s kódem IMEI"</string>
+  <string name="slot_number">"(Slot <xliff:g id="SLOT_NUM">%1$d</xliff:g>)"</string>
+  <string name="sim_info_editor_color">"Barva pozadí"</string>
+  <string name="sim_cards_notify_title">"Došlo k výměně SIM karet"</string>
+  <string name="sim_cards_notify_summary">Klepnutím nastavte preference.</string>
+  <string name="no_sim_cards_notify_title">Není připojena žádná karta SIM</string>
+  <string name="cellular_data_notify_title">"Mobilní datové připojení je nedostupné"</string>
+  <string name="cellular_data_notify_summary">Klepnutím nastavte datovou SIM.</string>
+  <!-- MTK SIM Status end -->
+ 
+  <!-- IMS/SMS Settings start -->
+   <string name="ims_toggle_summary">Poskytování služeb IP multimediálního podsystému</string>
+  <string name="sms_vibrate_summary">vibrovat přístroje pro sms</string>
+  <!-- IMS/SMS Settings end -->
+    <string name="default_data_switch_err_msg1">Během volání nelze přepnout upřednostňovanou kartu SIM pro mobilní data.</string>
+  <string name="two_cdma_dialog_msg">Sloty 1 a 2 nemohou podporovat CDMA současně.</string>
+  <string name="hetcom_setting_title">Turbo stahování</string>
+<string name="voice_call_sim2_title">Vyzvánění hlasového hovoru SIM 2</string>
+<string name="ringtone_sim2_title">Vyzvánění telefonu pro SIM 2</string>
+<string name="wfc_quick_toggle_title">Volání přes Wi-Fi</string>
+<string name="Help">Nápověda</string>
+<string name="Tutorials">Kurz</string>
+<string name="Top_questions">Nejčastější dotazy</string>
+<string name="Wifi_wfc_dialog_title">Volání přes Wi-Fi</string>
+<string name="Wifi_wfc_dialog_top_wording">Nyní jste připojeni k síti WLAN</string>
+<string name="Wifi_wfc_dialog_bottom_wording">Tento symbol v horní části obrazovky ukazuje, že jste připojeni k síti Wi-Fi. Můžete volat a odesílat zprávy přes Wi-Fi.</string>
+<string name="Skip">Přeskočit</string>
+<string name="Learn_more">„Další informace“</string>
+<string name="Next">Další</string>
+<string name="Switch_not_in_use_string">Přepínač je dočasně nedostupný Zkuste to znovu později.</string>
+<string name="Done">Hotovo</string>
+<string name="Wfc_questions">Nápověda pro volání přes Wi-Fi</string>
+<string name="Wfc_off_summary">Zakázáno</string>
+<string name="wfc_on_summary">Volání přes Wi-Fi zap.</string>
+<string name="connection_preference">Předvolby připojení</string>
+<string name="WiFi_preferred">Upřednostňovaná síť Wi-Fi</string>
+<string name="Cellular_network_preferred">Upřednostňovaná mobilní síť</string>
+<string name="Never_use_cellular_network">Nikdy nepoužívat mobilní síť</string>
+<string name="WiFi_preferred_summary">Použití Wi-Fi pro hovory. Není-li Wi-Fi k dispozici, použít mobilní síť (výchozí).</string>
+<string name="Cellular_network_preferred_summary">Použít pro volání mobilní síť. Není-li mobilní síť k dispozici, použít Wi-Fi.</string>
+<string name="Never_use_cellular_network_summary">K telefonování použít pouze síť Wi-Fi. Nepoužívat mobilní síť, i když je k dispozici.</string>
+<string name="no_sim_present_error">Karta SIM není vložena</string>
+<string name="inavlid_sim_error">Chyba 05: Neplatná SIM</string>
+<string name="airplane_mode_on">Režim Letadlo je zapnutý</string>
+<string name="cellular_prefered_summary">Upřednostňovaný režim připojení je mobilní síť</string>
+<string name="wifi_off_summary">Wi-Fi vypnuto</string>
+<string name="not_connected_to_wifi_summary">Není připojeno k Wi-Fi</string>
+<string name="poor_wifi_signal_summary">Nízká kvalita signálu Wi-Fi</string>
+<string name="wfc_enabling_summary">Povolování…</string>
+<string name="wfc_disabling_summary">Zakazování…</string>
+<string name="wfc_ready_for_calls_summary">Připraveno pro hovory</string>
+<string name="wfc_unknown_error_summary">Neznámá chyba</string>
+<string name="wfc_tutorial_heading">Naučte se vše o volání přes Wi-Fi</string>
+<string name="wfc_tutorial_content_second_page_part1">Jakmile ve stavovém řádku uvidíte ikonu volání přes Wi-Fi, telefon je připraven k volání přes Wi-Fi.</string>
+<string name="wfc_tutorial_content_second_page_part2">Při telefonování přes Wi-Fi se nevzdalujte z dosahu sítě Wi-Fi. Jestliže byl hovor přerušen, neboť jste se vzdálili z dosahu signálu, uslyšíte pípnutí a na obrazovce se zobrazí zpráva.</string>
+<string name="wfc_incorrect_sim_alert_title">Chyba 05: Neplatná karta SIM</string>
+<string name="wfc_invalid_sim_alert_message">Důležité upozornění\nChcete-li používat volání přes Wi-Fi, vaše karta SIM musí být aktualizována. Navštivte prodejnu T-Mobile nebo vytočte 611 z telefonu a obraťte se na oddělení péče o zákazníky.</string>
+<string name="ok_string">OK</string>
+<string name="wifi_ap_help_title">Nápověda</string>
+<string name="help_document">1. Zařízení lze prostřednictvím funkce přenosného Wi-Fi hotspotu použít jako přístupový bod k internetu. Periferní zařízení mohou po připojení k vašemu zařízení získat přístup k internetu prostřednictvím vašeho mobilního datového připojení.\n2. Před použitím funkce přenosného Wi-Fi hotspotu povolte mobilní data. Datový přenos může být zpoplatněn.\n3. Při použití funkce přenosného Wi-Fi hotspotu se spotřebovává více energie.</string>
+<string name="bg_power_percent_title">Zobrazit procento nabití baterie</string>
+<string name="bg_power_percent_summary">Zobrazit zbývající procento nabití baterie ve stavovém řádku</string>
+<string name="wfc_tutorial_content_first_page">Volání přes síť Wi-Fi vám umožní rozloučit se se sporadickým pokrytím. Prostřednictvím volání přes síť Wi-Fi lze vytáčet a přijímat hovory a posílat zprávy prostřednictvím sítě Wi-Fi v rámci vašeho stávajícího tarifu T-Mobile. Při volání přes síť Wi-Fi není nutné žádné speciální nastavení. Chcete-li začít, v nabídce nastavení přejděte na Bezdrátová připojení a sítě a připojte se k síti Wi-Fi.</string>
+<string name="storage_internal_storage_title">Vnitřní úložiště</string>
+<string name="storage_cleaner_preference_title">Čistič úložiště</string>
+  <string name="mira_vision_title" translatable="false">Efekt displeje</string>
+  <string name="music_plus_title" translatable="false">Vylepšení zvuku náhlavní soupravy</string>
+  <string name="audio_profile_bes_loudness_title" translatable="false">Zesilovač hlasitosti reproduktoru</string>
+</resources>

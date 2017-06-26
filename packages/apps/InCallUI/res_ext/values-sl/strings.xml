@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dm_lock">DM zaklenjeno</string>
+    <string name="dm_unlock">Odkleni DM</string>
+    <string name="start_record">Začetek snemanja</string>
+    <string name="stop_record">Ustavi snemanje</string>
+    <string name="str_db_playlist_name">"Moji posnetki"</string>
+    <string name="alert_device_error">"Napaka snemalne naprave"</string>
+    <string name="ext_media_badremoval_notification_title">"Kartica SD je bila nepričakovano odstranjena"</string>
+    <string name="error_sdcard_access">"Dostop do kartice SD ni mogoč"</string>
+    <string name="confirm_device_info_full">Na kartici SD je zmanjkalo prostora, posnetek je bil shranjen.</string>
+    <string name="confirm_save_info_saved">Posnetek je bil shranjen</string>
+    <string name="confirm_save_info_saved_to">Posnetek je bil shranjen na</string>
+    <string name="recording_saved_sd_full">Na kartici SD je zmanjkalo prostora, posnetek je bil shranjen.</string>
+    <string name="sd_not_enough">Na kartici SD zmanjkuje\n prostora</string>
+    <string name="alert_dialog_dismiss">"Opusti"</string>
+    <string name="change_my_pic">Spremeni</string>
+    <string name="onscreenHangupAll">Prekini vse</string>
+    <string name="onscreenHangupHolding">Prekini klic na čakanju</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Prekini aktivni klic, sprejmi čakajoči klic</string>
+    <string name="menu_ect">Prenos</string>
+    <string name="respond_via_sms_confirmation_format">"SMS poslan na številko 
+        <xliff:g id="PHONE_NUMBER">%s</xliff:g>."
+    </string>
+    <string name="volte_add_conference_member_title">Dodaj v konferenčni klic</string>
+    <string name="add_member_msg">Vpišite številko ali ime</string>
+    <string name="card_title_incoming_conference">Povabilo v konferenčni klic</string>
+    <string name="addConferenceMemeberText">Dodaj člana</string>
+    <string name="add_conference_member_limit">Dodati je mogoče le enega člana naenkrat.</string>
+    <string name="conference_member_join">Član <xliff:g id="member_name">%s</xliff:g> se je pridružil konferenčnemu klicu.</string>
+    <string name="conference_member_leave">Član <xliff:g id="member_name">%s</xliff:g> je zapustil konferenčni klic.</string>
+    <string name="conference_member_adding">Dodajanje člana <xliff:g id="member_name">%s</xliff:g> ...</string>
+    <string name="conference_member_add_fail">Člana <xliff:g id="member_name">%s</xliff:g> ni bilo mogoče dodati.</string>
+    <string name="removeMember">"Odstrani"</string>
+    <string name="memberStatus">"Stanje"</string>
+    <string name="volte_call_waiting_indication_text">Na drugi strani pravkar poteka klic, počakajte …</string>
+    <string name="volte_conf_member_reach_max">Konferenca je že dosegla maksimalno število udeležencev.</string>
+    <string name="add_multi_conference_member_limit">Trenutno je možno dodati maks. <xliff:g id="max_number">%s</xliff:g> članov.</string>
+    <string name="multi_conference_member_adding">Dodajanje članov ...</string>
+<string name="ok">"V redu"</string>
+<string name="two_incoming_calls">Dva dohodna klica</string>
+<string name="wifi_title">Klicanje in minute prek omrežja Wi-Fi </string>
+<string name="call_drop">Vaš klic bo morda prekinjen</string>
+<string name="call_drop_message">Ste skoraj izven območja pokritosti omrežja Wi-Fi</string>
+<string name="view_networks">Prikaži omrežja</string>
+<string name="wfc_wifi_call_drop_summary">Ojoj! Verjetno ste se med klicem premaknili izven omrežja Wi-Fi.\n \nAli želite ponovno vzpostaviti povezavo z omrežjem Wi-Fi, da dokončate klic?</string>
+</resources>

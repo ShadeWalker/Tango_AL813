@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="3906689777043645443" name="applicationLabel">"Kontaktai"</string>
+    <string msgid="6497230399032392417" name="launcherActivityLabel">"Kontaktai"</string>
+    <string msgid="8661624236494819731" name="contactsList">"Adresinė"</string>
+    <string msgid="749243779392912958" name="shortcutContact">"Adresatas"</string>
+    <string msgid="746622101599186779" name="shortcutDialContact">"Tiesiog.skamb."</string>
+    <string msgid="2460337253595976198" name="shortcutMessageContact">"Tiesioginis pranešimas"</string>
+    <string msgid="6642877210643565436" name="shortcutActivityTitle">"Pasirinkti adresato nuorodą"</string>
+    <string msgid="6065749861423648991" name="callShortcutActivityTitle">"Pasirinkite numerį, kuriuo skambinsite"</string>
+    <string msgid="3084542316620335911" name="messageShortcutActivityTitle">"Pasirinkti numerį, kuriuo bus siunčiamas pranešimas"</string>
+    <string msgid="6527505405325862674" name="contactInsertOrEditActivityTitle">"Pridėti prie kontakto"</string>
+    <string msgid="4301062192337417640" name="contactPickerActivityTitle">"Pasirinkti kontaktą"</string>
+    <string msgid="2436981165830115659" name="header_entry_contact_list_adapter_header_title">"Kurti naują kontaktą"</string>
+    <string msgid="4817256136413959463" name="starredList">"Pažymėta žvaigždute"</string>
+    <string msgid="7154768136473953056" name="frequentList">"Dažnai naudojami"</string>
+    <string msgid="5640192862059373511" name="strequentList">"Adresynas"</string>
+    <string msgid="7989394521836644384" name="viewContactTitle">"Išsami adresato informacija"</string>
+    <string msgid="2947202828256214947" name="editContactDescription">"Redaguoti adresatą"</string>
+    <string msgid="4709878105452681987" name="insertContactDescription">"Sukurti adresatą"</string>
+    <string msgid="6321161304201540561" name="editGroupDescription">"Redaguoti grupę"</string>
+    <string msgid="5658512271662210139" name="insertGroupDescription">"Kurti grupę"</string>
+    <string msgid="5430408883907061400" name="contactDetailAbout">"Apie"</string>
+    <string msgid="3780588624763446941" name="contactDetailUpdates">"Naujiniai"</string>
+    <string msgid="8482945356247760701" name="searchHint">"Ieškoti adresatų"</string>
+    <string msgid="2795575601596468581" name="menu_viewContact">"Žiūrėti adresatą"</string>
+    <string msgid="2908478235715404876" name="menu_addStar">"Pridėti prie adresyno"</string>
+    <string msgid="5844227078364227030" name="menu_removeStar">"Pašalinti iš adresyno"</string>
+    <string msgid="4699640108012265178" name="description_action_menu_remove_star">"Pašalinta iš mėgstamiausių"</string>
+    <string msgid="3327186327234177456" name="description_action_menu_add_star">"Pridėta prie mėgstamiausių"</string>
+    <string msgid="9042415603857662633" name="menu_editContact">"Redaguoti"</string>
+    <string msgid="6788644058868189393" name="menu_deleteContact">"Ištrinti"</string>
+    <string msgid="1217971915748509640" name="menu_create_contact_shortcut">"Padėti pagrindiniame ekrane"</string>
+    <string msgid="3992595586042260618" name="menu_call">"Skambinti adresatui"</string>
+    <string msgid="5535886767547006515" name="menu_sendSMS">"Siųsti pranešimą adresatui"</string>
+    <string msgid="8368636463748691868" name="menu_splitAggregate">Išskirti</string>
+    <string msgid="5062005185370983720" name="menu_editGroup">"Redaguoti"</string>
+    <string msgid="3486380004411482874" name="menu_deleteGroup">"Ištrinti"</string>
+    <string msgid="7263362129442119188" name="menu_new_contact_action_bar">"Pridėti kontaktą"</string>
+    <string msgid="3520232877587377175" name="menu_new_group_action_bar">"Pridėti grupę"</string>
+    <string msgid="633640935430370530" name="splitConfirmation_title">"Išskirti kontaktą?"</string>
+    <string msgid="740190210499587175" name="splitConfirmation">"Šis kontaktas bus suskaidytas į kelis kontaktus."</string>
+    <string msgid="5027981918265667970" name="menu_joinAggregate">"Sujungti"</string>
+    <string msgid="7684875775798635354" name="titleJoinContactDataWith">"Jungti adresatus"</string>
+    <string msgid="8736488417422708236" name="blurbJoinContactDataWith">"Pasirinkite kontaktą, kurį norite susieti su <xliff:g id="NAME">%s</xliff:g>:"</string>
+    <string msgid="2189695051430392383" name="showAllContactsJoinItem">"Rodyti visus adresatus"</string>
+    <string msgid="2831414448851313345" name="separatorJoinAggregateSuggestions">"Siūlomi adresatai"</string>
+    <string msgid="7939932265026181043" name="separatorJoinAggregateAll">"Visi adresatai"</string>
+    <string msgid="7208148163607047389" name="contactsJoinedMessage">"Sujungti adresatai"</string>
+    <string msgid="8728345772068064946" name="menu_set_ring_tone">"Nustat. sk. toną"</string>
+    <string msgid="4181789196416396656" name="menu_redirect_calls_to_vm">"Visi skamb. į balso paštą"</string>
+    <string msgid="7808825687289848259" name="readOnlyContactWarning">"Negalite ištrinti kontaktų iš tik skaitomų paskyrų, bet galite paslėpti juos savo kontaktų sąrašuose."</string>
+    <string msgid="2137170726670196909" name="readOnlyContactDeleteConfirmation">"Šiam adresatui priskirta kelių paskyrų informacija. Tik skaitomų paskyrų informacija bus paslėpta adresatų sąrašuose; ji nebus ištrinta."</string>
+    <string msgid="938900978442960800" name="multipleContactDeleteConfirmation">"Ištrynus šią informaciją, bus ištrinta kelių paskyrų informacija."</string>
+    <string msgid="811706994761610640" name="deleteConfirmation">"Šis adresatas bus ištrintas."</string>
+    <string msgid="6854657936970228164" name="menu_discard">"Atmesti pakeitimus"</string>
+    <string msgid="8215051456181842274" name="invalidContactMessage">"Kontaktas neegzistuoja."</string>
+    <string msgid="7874133287558150877" name="createContactShortcutSuccessful">"Kontaktų valdiklis pridėtas prie pagrindinio ekrano."</string>
+    <string msgid="7750705279843568147" name="pickerNewContactHeader">"Kurti naują adresatą"</string>
+    <string msgid="6166997164401048211" name="pickerNewContactText">"Kurti naują kontaktą"</string>
+  <string-array name="otherLabels">
+    <item msgid="8287841928119937597">"Organizacija"</item>
+    <item msgid="7196592230748086755">"Pastaba"</item>
+  </string-array>
+    <string msgid="6247290728908599701" name="photoPickerNotFoundText" product="tablet">"Jokie paveikslėliai nepasiekiami naudojant planšetinį kompiuterį."</string>
+    <string msgid="431331662154342581" name="photoPickerNotFoundText" product="default">"Telefone nėra galimų paveikslėlių."</string>
+    <string msgid="5599827035558557169" name="attach_photo_dialog_title">Kontakto nuotrauką</string>
+    <string msgid="1081475101983255212" name="customLabelPickerTitle">"Priskirtas etiketės pavadinimas"</string>
+    <string msgid="9001686764070676353" name="send_to_voicemail_checkbox">"Skambinti tiesiogiai į balso paštą"</string>
+    <string msgid="4898105274130284565" name="removePhoto">"Pašalinti nuotrauką"</string>
+    <string msgid="8579310973261953559" name="noContacts">"Adresatų nėra."</string>
+    <string msgid="8614664663561385253" name="noGroups">"Nėra grupių."</string>
+    <string msgid="7768267764545265909" name="noAccounts">"Jums reikia paskyros, kad galėtumėte kurti grupes."</string>
+    <string msgid="7502116218697177370" name="emptyGroup">"Šioje grupėje nėra žmonių."</string>
+    <string msgid="7879585947222263516" name="addPeopleToGroup">"Jei norite jų pridėti, redaguokite grupę."</string>
+    <string msgid="4075751076741924939" name="savingContact">"Išsaugomas adresatas..."</string>
+    <string msgid="7152589189385441091" name="contactSavedToast">"Adresatas išsaugotas."</string>
+    <string msgid="3207250533172944892" name="contactSavedErrorToast">"Nepavyko išsaugoti kontakto pakeitimų."</string>
+    <string msgid="1168756874239833756" name="groupSavedToast">"Grupė išsaugota."</string>
+    <string msgid="7984466936615304740" name="groupSavedErrorToast">"Nepavyko išsaugoti grupės pakeitimų."</string>
+  <plurals name="listTotalPhoneContacts">
+    <item msgid="3015357862286673986" quantity="one">"1 kontaktas su telefono numeriu"</item>
+    <item msgid="3299954047880968205" quantity="other">"Kontaktai (-ų) su telefonų numeriais: <xliff:g id="COUNT">%d</xliff:g>"</item>
+  </plurals>
+    <string msgid="6968813857632984319" name="listTotalPhoneContactsZero">"Nėra kontaktų su telefonų numeriais"</string>
+  <plurals name="listFoundAllContacts">
+    <item msgid="5517063038754171134" quantity="one">"rastas 1"</item>
+    <item msgid="3852668542926965042" quantity="other">"Rasta <xliff:g id="COUNT">%d</xliff:g>"</item>
+  </plurals>
+    <string msgid="922980883593159444" name="listFoundAllContactsZero">"Kontaktų nėra"</string>
+  <plurals name="searchFoundContacts">
+    <item msgid="4826918429708286628" quantity="one">"rastas 1"</item>
+    <item msgid="7988132539476575389" quantity="other">"Rasta <xliff:g id="COUNT">%d</xliff:g>"</item>
+  </plurals>
+    <string msgid="6250372293594147703" name="all_contacts_tab_label">"Visi kontaktai"</string>
+    <string msgid="1524869648904016414" name="favorites_tab_label">"Mėgstamiausi"</string>
+    <string msgid="5498224409038809224" name="callBack">"Perskambinti"</string>
+    <string msgid="3197312117049874778" name="callAgain">"Skambinti dar kartą"</string>
+    <string msgid="8171961914203617813" name="returnCall">"Grįžtamasis skambutis"</string>
+    <string msgid="7986472669444326576" name="add_contact_dlg_message_fmt">"Pridėti „<xliff:g id="EMAIL">%s</xliff:g>“ prie adresatų?"</string>
+    <string msgid="3387458082667894062" name="description_contact_photo">"adresato nuotrauka"</string>
+    <string msgid="515164827856229880" name="description_plus_button">"plius"</string>
+    <string msgid="560522409559101193" name="exporting_contact_list_progress">"<xliff:g id="CURRENT_NUMBER">%s</xliff:g> iš <xliff:g id="TOTAL_NUMBER">%s</xliff:g> adresatų"</string>
+    <string msgid="2675223022992445813" name="search_settings_description">"Kontaktų vardai"</string>
+    <string msgid="358168575340921552" name="quickcontact_missing_app">"Nerasta jokių programų šiam veiksmui apdoroti."</string>
+    <string msgid="987959416759562455" name="quickcontact_transparent_view_description">"Spustelėkite, kad grįžtumėte į ankstesnį ekraną"</string>
+    <string msgid="731665835910658965" name="quickcontact_add_phone_number">"Pridėti telefono numerį"</string>
+    <string msgid="739298028384348482" name="quickcontact_add_email">"Pridėti el. pašto adresą"</string>
+    <string msgid="1466111003546611387" name="missing_app">"Nerasta jokių programų šiam veiksmui apdoroti."</string>
+    <string msgid="943789700636542260" name="menu_share">"Dalytis"</string>
+    <string msgid="3198704337220892684" name="menu_add_contact">"Pridėti prie kontaktų"</string>
+    <string msgid="563121028023030093" name="share_via">"Dalytis adresatą naudojant"</string>
+    <string msgid="2318032089273496830" name="dialog_new_group_account">"Kurti grupę paskyroje"</string>
+    <string msgid="2535716629358298691" name="audio_chat">"Balso pokalbis"</string>
+    <string msgid="1872255818640336072" name="video_chat">"Vaizdo pokalbis"</string>
+    <string msgid="8098440723172028350" name="connections">"Ryšiai"</string>
+    <string msgid="4861308615789601727" name="add_connection_button">"Pridėti ryšį"</string>
+    <string msgid="2659189233141493004" name="recent">"Naujausi"</string>
+    <string msgid="4267258535615860710" name="recent_updates">"Vėliausi naujiniai"</string>
+    <string msgid="718948015590343010" name="account_type_format">"<xliff:g id="SOURCE">%1$s</xliff:g> adresatas"</string>
+    <!-- no translation found for from_account_format (4469138575127580203) -->
+    <skip/>
+    <string msgid="7421346527289472273" name="contact_read_only">"Iš šios programos redaguoti negalima."</string>
+    <string msgid="1061762906115697637" name="group_read_only">"Negalima redaguoti šiame įrenginyje."</string>
+    <string msgid="7496128293167402354" name="take_photo">"Fotografuoti"</string>
+    <string msgid="7341354729436576304" name="take_new_photo">"Iš naujo fotografuoti"</string>
+    <string msgid="2129509985223564942" name="pick_photo">"Pasirinkti nuotrauką"</string>
+    <string msgid="9122450996263688237" name="pick_new_photo">"Pasirinkti naują nuotrauką"</string>
+    <string msgid="7583992153091537467" name="locale_change_in_progress">"Kontaktų sąrašas yra atnaujinamas, kad atspindėtų kalbos pakeitimą."</string>
+    <string msgid="474511436863451061" name="upgrade_in_progress">"Atnaujinamas kontaktų sąrašas."</string>
+    <string msgid="1209994418877625940" name="upgrade_out_of_memory">"Kontaktai naujovinami. \n\nNaujovinimo procesui reikalinga maždaug <xliff:g id="SIZE_IN_MEGABYTES">%s</xliff:g> MB vidinės atminties.\n\nPasirinkite vieną iš šių parinkčių:"</string>
+    <string msgid="1721798828992091432" name="upgrade_out_of_memory_uninstall">"Pašalinti kai kurias programas"</string>
+    <string msgid="8431289830472724609" name="upgrade_out_of_memory_retry">"Bandyti naujovinti iš naujo"</string>
+    <string msgid="3984833028938569930" name="search_results_searching">"Ieškoma…"</string>
+    <string msgid="6470001164297969034" name="menu_display_selected">"Rodyti pasirinktus"</string>
+    <string msgid="8887488642609786198" name="menu_display_all">"Rodyti visus"</string>
+    <string msgid="621719255150713545" name="menu_select_all">"Pasirinkti visus"</string>
+    <string msgid="7093222469852132345" name="menu_select_none">"Atšaukti visų pasirinkimą"</string>
+    <string msgid="5223080690667565044" name="add_new_entry_for_section">"Pridėti naują"</string>
+    <string msgid="7311893231158291197" name="add_organization">"Pridėti organizaciją"</string>
+    <string msgid="5794424930242630477" name="event_edit_field_hint_text">"Data"</string>
+    <string msgid="3966441850870457808" name="group_edit_field_hint_text">"Grupės pavad."</string>
+    <string msgid="8530597935483526383" name="change_photo">"Pakeisti"</string>
+    <string msgid="8517942231868516999" name="primary_photo">"Pagrindinė nuotrauka"</string>
+    <string msgid="2605854427360036550" name="description_star">"įtraukti į adresyną"</string>
+    <string msgid="7529281274005689512" name="edit_contact">"Redaguoti kontaktą"</string>
+  <plurals name="merge_info">
+    <item msgid="148365587896371969" quantity="one">"nesujungta"</item>
+    <item msgid="425683718017380845" quantity="other">"sujungta iš <xliff:g id="COUNT">%0$d</xliff:g> šaltinių (-io)"</item>
+  </plurals>
+    <string msgid="3842757977671434836" name="aggregation_suggestion_join_dialog_message">"Sujungti dabartinį kontaktą su pasirinktu?"</string>
+    <string msgid="6549585283910518095" name="aggregation_suggestion_edit_dialog_message">"Perjungti į pasirinkto kontakto redagavimą? Iki šiol įvesta informacija bus nukopijuota."</string>
+    <string msgid="1573960845106822639" name="menu_copyContact">"Kopijuoti į „Mano kontaktus“"</string>
+    <string msgid="1068274916793627723" name="add_to_my_contacts">"Pridėti prie „Mano kontaktų“"</string>
+    <string msgid="683398073603909119" name="contact_directory_description">"„<xliff:g id="TYPE">%1$s</xliff:g>“ katalogas"</string>
+    <string msgid="8910173055702057002" name="list_filter_custom">"Priskirtas"</string>
+    <string msgid="5464130076132770781" name="activity_title_settings">"Nustatymai"</string>
+    <string msgid="377929915873428211" name="menu_settings">"Nustatymai"</string>
+    <string msgid="5123887102216637725" name="menu_help">"Pagalba"</string>
+    <string msgid="1341720270148252393" name="preference_displayOptions">"Pateikties parinktys"</string>
+    <string msgid="6718207751363732025" name="organization_company_and_title">"„<xliff:g id="COMPANY_0">%2$s</xliff:g>“, „<xliff:g id="COMPANY_1">%1$s</xliff:g>“"</string>
+    <string msgid="1541655052330027380" name="non_phone_caption">"Telefono numeris"</string>
+    <string msgid="6590985286250471169" name="non_phone_add_to_contacts">"Pridėti prie kontaktų"</string>
+    <string msgid="4065089866210730616" name="activity_title_confirm_add_detail">"Pridėti prie kontakto"</string>
+    <string msgid="7608506439725515667" name="non_phone_close">"Uždaryti"</string>
+    <string msgid="8739586586600099979" name="widget_name_and_phonetic">"<xliff:g id="DISPLAY_NAME">%1$s</xliff:g> (<xliff:g id="PHONETIC_NAME">%2$s</xliff:g>)"</string>
+    <string msgid="7356532842767854606" name="date_year_toggle">"Nurodyti metus"</string>
+    <string msgid="6378905543028924592" name="social_widget_label">"Kontaktas"</string>
+    <string msgid="5327336597364074608" name="social_widget_loading">"Įkeliama..."</string>
+    <string msgid="7014525713871959208" name="contacts_unavailable_create_contact">"Sukurti naują kontaktą"</string>
+    <string msgid="7911101713860139754" name="contacts_unavailable_add_account">"Prisijunkite prie paskyros"</string>
+    <string msgid="4957393255392437529" name="contacts_unavailable_import_contacts">"Importuoti kontaktus"</string>
+    <string msgid="6874527142828424475" name="create_group_dialog_title">"Sukurti naują grupę"</string>
+    <string msgid="4411981763169654825" name="create_group_item_label">"Sukurti naują grupę"</string>
+  <plurals name="num_groups_in_account">
+    <item msgid="2944819210288517794" quantity="one">"1 grupė"</item>
+    <item msgid="1276758425904917367" quantity="other">"Grupių: <xliff:g id="COUNT">%0$d</xliff:g>"</item>
+  </plurals>
+    <string msgid="7586856514337560529" name="delete_group_dialog_message">"Ištrinti grupę „<xliff:g id="GROUP_LABEL">%1$s</xliff:g>“? (Kontaktai nebus ištrinti.)"</string>
+  <plurals name="num_contacts_in_group">
+    <item msgid="1352418549951013448" quantity="one">"<xliff:g id="COUNT_0">%1$d</xliff:g> žm. iš <xliff:g id="ACCOUNT_TYPE">%2$s</xliff:g>"</item>
+    <item msgid="8146027769011086349" quantity="other">"<xliff:g id="COUNT_0">%1$d</xliff:g> žm. iš <xliff:g id="ACCOUNT_TYPE">%2$s</xliff:g>"</item>
+  </plurals>
+  <plurals name="group_list_num_contacts_in_group">
+    <item msgid="3323065321661972446" quantity="one">"<xliff:g id="COUNT">%1$d</xliff:g> žm."</item>
+    <item msgid="6251996206137048525" quantity="other">"<xliff:g id="COUNT">%1$d</xliff:g> žm."</item>
+  </plurals>
+    <string msgid="2238581529864542985" name="toast_join_with_empty_contact">"Įveskite kontaktinio asmens vardą prieš susiedami jį su kitu."</string>
+    <string msgid="3257145021583508761" name="copy_text">"Kopijuoti į iškarpinę"</string>
+    <string msgid="4417505153468300351" name="set_default">"Nustatyti numatytuosius nustatymus"</string>
+    <string msgid="7193185801596678067" name="clear_default">"Išvalyti numatytuosius nustatymus"</string>
+    <string msgid="5143776250008541719" name="toast_text_copied">"Tekstas nukopijuotas"</string>
+    <string msgid="5885724679874403115" name="cancel_confirmation_dialog_message">"Atmesti pakeitimus?"</string>
+    <string msgid="747163730039311423" name="call_type_and_date">"<xliff:g id="CALL_TYPE">%1$s</xliff:g> <xliff:g id="CALL_SHORT_DATE">%2$s</xliff:g>"</string>
+    <string msgid="4127389543625918771" name="profile_display_name">"Nustatyti mano profilį"</string>
+    <string msgid="1738391320566349924" name="enter_contact_name">"Įveskite asmens vardą ir (arba) pavardę"</string>
+    <string msgid="238359485263401293" name="group_name_hint">"Grupės pavadinimas"</string>
+    <string msgid="2021416826991393684" name="local_profile_title">"Mano vietos profilis"</string>
+    <string msgid="8034998767621359438" name="external_profile_title">"Mano „<xliff:g id="EXTERNAL_SOURCE">%1$s</xliff:g>“ profilis"</string>
+    <string msgid="2737388783898593875" name="toast_displaying_all_contacts">"Pateikiami visi kontaktai"</string>
+    <string msgid="6424883302325061025" name="no_account_prompt">"Kontaktai veikia geriau naudojant „Google“ paskyrą.\n\n• Pasiekite naudodami bet kurią žiniatinklio naršyklę.\n• Saugiai kurkite atsargines kontaktų kopijas."</string>
+    <string msgid="7218827704367325460" name="generic_no_account_prompt">"Užtikrinkite kontaktų saugumą net praradę telefoną: sinchronizuokite su internetine paslauga."</string>
+    <string msgid="753783911899054860" name="generic_no_account_prompt_title">"Pridėti paskyrą"</string>
+    <string msgid="1785345895691886499" name="contact_editor_prompt_zero_accounts">"Naujo kontakto atsarginė kopija nebus sukurta. Pridėti paskyrą, kuri sukuria atsargines kontaktų kopijas internete?"</string>
+    <string msgid="8669032699767375976" name="contact_editor_prompt_one_account">"Naujas kontaktas bus sinchronizuojamas su <xliff:g id="ACCOUNT_NAME">%1$s</xliff:g>."</string>
+    <string msgid="611828200100438242" name="contact_editor_prompt_multiple_accounts">"Naują kontaktą galite sinchronizuoti su viena iš toliau pateiktų paskyrų. Kurią norite naudoti?"</string>
+    <string msgid="7192223018128934940" name="contact_editor_title_new_contact">"Pridėti naują kont."</string>
+    <string msgid="4898475703683187798" name="contact_editor_title_existing_contact">"Redaguoti kontaktą"</string>
+    <string msgid="1258761699192993322" name="keep_local">"Išsaug. kaip vietinį"</string>
+    <string msgid="8201790677994503186" name="add_account">"Pridėkite paskyrą"</string>
+    <string msgid="5748627740680940264" name="add_new_account">"Pridėkite naują paskyrą"</string>
+    <string msgid="2659719297530170820" name="menu_export_database">"Eksportuoti duomenų failus"</string>
+    <string msgid="3180222523336380017" name="action_menu_add_new_contact_button">"pridėti naują kontaktą"</string>
+    <string msgid="3779194067124758079" name="expanding_entry_card_view_see_more">"Žr. daugiau"</string>
+    <string msgid="5344160551629714168" name="expanding_entry_card_view_see_less">"Žr. mažiau"</string>
+    <string msgid="3845258737661412627" name="expanding_entry_card_view_see_all">"Žr. viską"</string>
+    <string msgid="8982782042698001695" name="recent_card_title">"Naujausios"</string>
+    <string msgid="2920942314212825637" name="about_card_title">"Apie"</string>
+    <string msgid="8938418965550543196" name="send_message">"Siųsti pranešimą"</string>
+    <string msgid="6137651078366797938" name="toast_making_personal_copy">"Kuriama asmeninė kopija..."</string>
+    <string msgid="6840858548955018569" name="yesterday">"Vakar"</string>
+    <string msgid="6241969467795308581" name="tomorrow">"Rytoj"</string>
+    <string msgid="8041090779381781781" name="today">"Šiandien"</string>
+    <string msgid="605665249491030460" name="today_at_time_fmt">"Šiandien, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string msgid="4856497969617819421" name="tomorrow_at_time_fmt">"Rytoj, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string msgid="5053178726906863812" name="date_time_fmt">"<xliff:g id="DATE">%s</xliff:g>, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string msgid="3484859385405939366" name="untitled_event">"(Įvykis be pavadinimo)"</string>
+    <string msgid="4761419824439606690" name="date_time_set">"Nustatyti"</string>
+    <string msgid="3581720979640225615" name="header_im_entry">"TP"</string>
+    <string msgid="8515394955666265406" name="header_organization_entry">"Organizacija"</string>
+    <string msgid="6743561883967451485" name="header_nickname_entry">"Slapyvardis"</string>
+    <string msgid="4320190426480612344" name="header_note_entry">"Užrašas"</string>
+    <string msgid="1411467850000824745" name="header_website_entry">"Svetainė"</string>
+    <string msgid="6738250422744401460" name="header_event_entry">"Įvykis"</string>
+    <string msgid="1520292958088146460" name="header_relation_entry">"Ryšys"</string>
+    <string msgid="2684318506427891827" name="header_account_entry">"Paskyra"</string>
+    <string msgid="1592791008096288306" name="header_name_entry">"Pavadinimas"</string>
+    <string msgid="8666093061171624478" name="header_email_entry">"El. paštas"</string>
+    <string msgid="8450980572274173570" name="header_phone_entry">"Telefonas"</string>
+    <string msgid="4438023151411853238" name="header_photo_entry">"Nuotrauka"</string>
+    <string msgid="1111381475901897470" name="content_description_expand_editor">"Spustelėkite, kad išskleistumėte kontaktų redagavimo priemonę."</string>
+    <string msgid="7598061318022977825" name="content_description_collapse_editor">"Spustelėkite, kad sutrauktumėte kontaktų redagavimo priemonę."</string>
+    <string msgid="2686791825798189335" name="content_description_directions">"nuorodos į vietovę"</string>
+    <string msgid="1666389577263317445" name="content_description_recent_sms">"Neseniai atsiuntė SMS. <xliff:g id="MESSAGE_BODY">%s</xliff:g>. <xliff:g id="PHONE_NUMBER">%s</xliff:g>. <xliff:g id="DATE">%s</xliff:g>. Spustelėkite, kad atsakytumėte."</string>
+    <string msgid="5210739096863511410" name="content_description_recent_call_type_incoming">"gaunamieji"</string>
+    <string msgid="5156553338985232744" name="content_description_recent_call_type_outgoing">"siunčiamieji"</string>
+    <string msgid="7371810920196048204" name="content_description_recent_call_type_missed">"praleistieji"</string>
+    <string msgid="5183800406316723676" name="content_description_recent_call">"Neseniai skambino. <xliff:g id="CALL_TYPE">%s</xliff:g>. <xliff:g id="PHONE_NUMBER">%s</xliff:g>. <xliff:g id="DATE">%s</xliff:g>. Spustelėkite, kad atskambintumėte."</string>
+    <string msgid="7180706529908434482" name="message_from_you_prefix">"Jūs: <xliff:g id="SMS_BODY">%s</xliff:g>"</string>
+    <string msgid="114855385615225735" name="contact_editor_hangouts_im_alert">"„Hangout“ veikia geriau įvedus asmens „Hangout“ identifikatorių el. pašto ar telefono numerio lauke."</string>
+<string name="dial_tab_label">Rinkti numerį</string>
+<string name="launcherActivityLabelForPhone">Rinkti numerį</string>
+<string name="join_same_name">Sujungti adresatus</string>
+<string name="same_name_join_hint">&lt;li&gt;Palieskite „Pradėti“, kad sujungtumėte adresatus tuo pačiu vardu.&lt;/li&gt;\n&lt;li&gt;Kad sustabdytumėte jungimą, palieskite „Atšaukti“.&lt;/li&gt;\n&lt;li&gt;Šis procesas šiek tik užtruks.&lt;/li&gt;</string>
+<string name="join_action_start">Pradėti</string>
+<string name="join_title_total">Iš viso</string>
+<string name="join_title_single">Dabartinis</string>
+<string name="join_status_unstarted">Parengta</string>
+<string name="join_status_waiting">Laukiama...</string>
+<string name="join_status_checking">Tikrinama... Prašome palaukti</string>
+<string name="join_status_join_start">Jungiama...</string>
+<string name="join_status_join_progress">Sujungta grupių: %1$s. Iš viso grupių: %2$s </string>
+<string name="join_status_joining">Jungiama\n</string>
+<string name="join_status_single_joining">Jungiama: %1$s\n Iš viso tokiu pačiu pavadinimu: %2$s </string>
+<string name="join_status_canceled">atšaukta</string>
+<string name="join_cancel_confirm_msg">Stabdyti jungimą</string>
+<string name="menu_done">Atl.</string>
+<string name="cancel">atšaukta</string>
+<string name="ok">GERAI</string>
+<string name="dial_keypad">Rinkti numerį</string>
+<string name="dial_menu">Meniu</string>
+<string name="dial_delete">Trinti</string>
+<string name="dataservice_title">Duomenų paslauga</string>
+<string name="open_dataservice_confirm">"Jūsų įrenginio duomenų ryšys išjungtas. Siekiant geresnės naudojimo patirties, rekomenduojama įjungti duomenų ryšį.\n\nĮjungus duomenų ryšį, savo SIM korteles galima naudoti interneto prieigai. Ar įjungti duomenų ryšį?"</string>
+<string name="open_confirm">Įjungti</string>
+<string name="open_cancel">Atšaukti</string>
+<string name="mms_tab_label">"Susirašinėjimas žinutėmis"</string><!--modify by wangjing3 for HQ01823167 20160325-->
+<string name="dial_emergency">Skambučiai skubios pagalbos numeriu</string>
+<string name="emergency_only">Tik skambučiai skubios pagalbos numeriais</string>
+<string name="flight_mode_turned_on">Įjungtas skrydžio režimas</string>
+<string name="no_service">Nėra ryšio</string>
+<string name="hour_hw">vv</string>
+<string name="minute_hw">mm</string>
+<string name="seconds_hw">ss</string>
+<string name="call_type_hw">Peržiūrėti skambučio tipą</string>
+<string name="cancel_hw">Atšaukti</string>
+<string name="confirm_hw">Gerai</string>
+<string name="black_list_manager_exception">Telefono tvarkytuvės nerasta. Įdiekite ją, tada galėsite naudotis šia funkcija.</string>
+<string name="sim_log_hw">SIM žurnalas</string>
+<string name="sim_all_hw">SIM 1 ir SIM 2</string>
+<string name="sim_one_hw">SIM 1</string>
+<string name="sim_two_hw">SIM 2</string>
+<string name="call_type">Skambučio tipas</string>
+<string name="all_call_hw">Visi skambučiai</string>
+<string name="miss_call_hw">Praleisti skambučiai</string>
+<string name="answer_call_hw">Atsiliepti skambučiai</string>
+<string name="dialer_call_hw">Rinkti numeriai</string>
+<string name="date_format_year">Metai</string>
+<string name="date_format_month">Mėnuo</string>
+<string name="outgoing_calltype">Išeinantys skambučiai</string>
+<string name="incoming_type">Įeinantys skambučiai</string>
+<string name="send_sms">Siųsti žinutę</string>
+<string name="am_time">AM</string>
+<string name="pm_time">PM</string>
+<string name="chubaoMessage">1. Išmaniojo atpažinimo ir katalogo paslaugoms gali būti reikalingas interneto ryšys; gali būti taikomi atitinkami duomenų perdavimo mokesčiai.\n2. Šią paslaugą teikia bendrovė „TouchPal Contacts“, būtent ji atsako už atitinkamų duomenų tikslumą ir patikimumą.\n3. Su jūsų pažymėtais numeriais susijusi informacija bus nusiųsta į serverį.\n4. Šiai paslaugai naudojama jūsų vietovės informacija.\nJei paliečiate „Sutinku“, tai reiškia, kad su pirmiau pateikta informacija sutinkate, o jei paliečiate „Atšaukti“, tai reiškia, kad ši paslauga negaus prieigos prie interneto ryšio ir informacijos apie jūsų buvimo vietą.</string>
+<string name="user_aggreement">Naudotojo sutikimas</string>
+<string name="menu_add_to_black_list">Įtraukti į juodąjį sąrašą</string>
+<string name="add_to_black_list">Įtraukta į juodąjį sąrašą</string>
+<string name="menu_remove_from_black_list">Šalinti iš juodojo sąrašo</string>
+<string name="remove_from_black_list">Pašalinta iš juodojo sąrašo</string>
+<string name="menu_send_number">Siųsti numerį</string>
+<string name="menu_delete_call_log">Panaikinti skambučių sąrašo įrašą</string>
+<string name="hotline_name">Karštoji linija</string>
+<string name="hotline_phone">4008308300</string>
+<string name="hotline_email">mobile@huawei.com</string>
+<string name="hq_sim_slot_position_1">SIM 1</string>
+<string name="hq_sim_slot_position_2">SIM 2</string>
+<string name="menu_copy_number">Kopijuoti numerį</string>
+<string name="cootek_dlg_no_show_again">Nebepriminti</string>
+<string name="stared_contacts">Adresynas</string>
+<string name="howManyContacts"> Kontaktai</string>
+ <string name="discard_change_contacts">išmesti</string>
+     <string name="save_change_contacts">Išsaugoti</string>
+<string name="contact_editor_account_selection_title">"Pasirinkite paskyrą"</string>
+    <string name="contacts_setting_Advanced">"Išplėstinis"</string>
+    <string name="merge_duplicate_contacts">Sujungti dubliuotus adresatus</string>
+    <string name="set_up_my_profile">Nustatyti mano profilį</string>
+    <string name="mem_status">Atminties būklė</string>
+    <string name="phone_local">"Telefonas"</string>
+    <string-array name="Portugal_Sdn_contact_menu">
+        <item>Skambinti</item>
+        <item>Siųsti žinutę</item>
+        <item>Siųsti laišką</item>
+        <item>Bendrinti adresatus</item>
+        <item>"Mėgstamiausi"</item>
+        <item>Įtrauk.į juod.sąr.</item>
+        <item>"Padėti pagrindiniame ekrane"</item>
+    </string-array>
+    <string-array name="phone_contact_menu">
+        <item>Skambinti</item>
+        <item>Siųsti žinutę</item>
+        <item>Siųsti laišką</item>
+        <item>Redaguoti</item>
+        <item>Ištrinti</item>
+        <item>Bendrinti adresatus</item>
+        <item>"Mėgstamiausi"</item>
+        <item>Įtrauk.į juod.sąr.</item>
+        <item>"Padėti pagrindiniame ekrane"</item>
+    </string-array>
+    <string-array name="sim_contact_menu">
+        <item>Skambinti</item>
+        <item>Siųsti žinutę</item>
+        <item>Redaguoti</item>
+        <item>Ištrinti</item>
+        <item>Bendrinti adresatus</item>
+        <item>"Pridėti prie adresyno"</item>
+        <item>Įtrauk.į juod.sąr.</item>
+        <item>Sukurti nuorodą</item>
+    </string-array>
+<string name="menu_copyContactsToSIM">Išsaugoti pranešimą SIM kortelėje</string>
+</resources>

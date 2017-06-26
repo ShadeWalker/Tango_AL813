@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dm_lock">DM lezárva</string>
+    <string name="dm_unlock">DM kioldva</string>
+    <string name="start_record">Rögzítés indítása</string>
+    <string name="stop_record">Felvétel leállítása</string>
+    <string name="str_db_playlist_name">Saját felvételek</string>
+    <string name="alert_device_error">Hiba történt az audió eszközön</string>
+    <string name="ext_media_badremoval_notification_title">SD-kártya váratlanul eltávolítva</string>
+    <string name="error_sdcard_access">Az SD-kártya elérése nem lehetséges</string>
+    <string name="confirm_device_info_full">Az SD-kártyán kevés a hely. A felvétel mentése megtörtént.</string>
+    <string name="confirm_save_info_saved">A felvétel mentése megtörtént</string>
+    <string name="confirm_save_info_saved_to">A felvétel ide lett mentve:</string>
+    <string name="recording_saved_sd_full">Az SD-kártyán kevés a hely. A felvétel mentése megtörtént.</string>
+    <string name="sd_not_enough">Az SD-kártyán\nkevés a hely</string>
+    <string name="alert_dialog_dismiss">"Elvetés"</string>
+    <string name="change_my_pic">Módosít</string>
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">Összes hívás vége</string>
+    <string name="onscreenHangupHolding">Tartott hívás vége</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Aktív hívás vége, várakozó fogadása</string>
+    <string name="menu_ect">Átadás</string>
+    <string name="respond_via_sms_confirmation_format">"Üzenet elküldve ide: 
+        <xliff:g id="PHONE_NUMBER">%s</xliff:g>."
+    </string>
+    <string name="volte_add_conference_member_title">Csoporthoz rendelés</string>
+    <string name="add_member_msg">Gépelje be a nevet vagy számot</string>
+    <string name="card_title_incoming_conference">Konferencia-meghívás</string>
+    <string name="addConferenceMemeberText">Tag hozzáadása</string>
+    <string name="add_conference_member_limit">Egyszerre csak egy számot adhat hozzá.</string>
+    <string name="conference_member_join">
+<xliff:g id="member_name">%s</xliff:g> csatlakozott a csoporthoz.</string>
+    <string name="conference_member_leave">
+<xliff:g id="member_name">%s</xliff:g> elhagyta a csoportot.</string>
+    <string name="conference_member_adding">
+<xliff:g id="member_name">%s</xliff:g> hozzáadása...</string>
+    <string name="conference_member_add_fail">
+<xliff:g id="member_name">%s</xliff:g> nem adható hozzá.</string>
+    <string name="removeMember">"Eltávolítás"</string>
+    <string name="memberStatus">"Állapot"</string>
+    <string name="volte_call_waiting_indication_text">A másik fél foglalt. Kérjük, várjon…</string>
+    <string name="volte_conf_member_reach_max">A konferencia résztvevőinek száma elérte a maximális értéket.</string>
+    <string name="add_multi_conference_member_limit">Jelenleg maximum <xliff:g id="max_number">%s</xliff:g> tagot adhat meg.</string>
+    <string name="multi_conference_member_adding">Tag(ok) hozzáadása...</string>
+<string name="ok">"OK"</string>
+<string name="two_incoming_calls">Két bejövő hívás</string>
+<string name="wifi_title">Wi-Fi hívás és percek </string>
+<string name="call_drop">A hívás szétkapcsolásra kerülhet</string>
+<string name="call_drop_message">Majdnem kiért a Wi-Fi lefedettség hatósugarából</string>
+<string name="view_networks">Hálózatok megtekintése</string>
+<string name="wfc_wifi_call_drop_summary">Hoppá! Valószínűleg kilépett a Wi-Fi hálózat hatósugarából hívás közben.\n \nÚjracsatlakozik a Wi-Fi hálózatra a hívás befejezéséhez?</string>
+</resources>

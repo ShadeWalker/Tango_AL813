@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* Copyright Statement:
+ *
+ * This software/firmware and related documentation ("MediaTek Software") are
+ * protected under relevant copyright laws. The information contained herein is
+ * confidential and proprietary to MediaTek Inc. and/or its licensors. Without
+ * the prior written permission of MediaTek inc. and/or its licensors, any
+ * reproduction, modification, use or disclosure of MediaTek Software, and
+ * information contained herein, in whole or in part, shall be strictly
+ * prohibited.
+ *
+ * MediaTek Inc. (C) 2010. All rights reserved.
+ *
+ * BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+ * THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
+ * RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER
+ * ON AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL
+ * WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED
+ * WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR
+ * NONINFRINGEMENT. NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH
+ * RESPECT TO THE SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY,
+ * INCORPORATED IN, OR SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES
+ * TO LOOK ONLY TO SUCH THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO.
+ * RECEIVER EXPRESSLY ACKNOWLEDGES THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO
+ * OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES CONTAINED IN MEDIATEK
+ * SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK SOFTWARE
+ * RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
+ * STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S
+ * ENTIRE AND CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE
+ * RELEASED HEREUNDER WILL BE, AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE
+ * MEDIATEK SOFTWARE AT ISSUE, OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE
+ * CHARGE PAID BY RECEIVER TO MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+ *
+ * The following software/firmware and/or related documentation ("MediaTek
+ * Software") have been modified by MediaTek Inc. All revisions are subject to
+ * any receiver's applicable license agreements with MediaTek Inc.
+ */
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="one_video_widget">Only one \"<xliff:g id="name" example="video player">%s</xliff:g>\" is allowed in Home screen.</string>
+    <string name="orientation">Cannot detect orientation.</string>
+
+    <!-- Shortcut Array -->
+    <!-- Install shortcut successfully -->
+    <string name="shortcut_array_installed"><xliff:g id="count" example="3">%1$d</xliff:g> shortcuts created.</string>
+    <!-- Install shortcut failed -->
+    <string name="shortcut_install_failed">Shortcut \"<xliff:g id="name" example="Xiaoming">%1$s</xliff:g>\" failed to create.</string>
+    <string name="shortcut_array_install_failed"><xliff:g id="count" example="3">%1$d</xliff:g> shortcuts failed to create.</string>
+    <!-- Failed reason: duplicate -->
+    <string name="shortcut_array_duplicate"><xliff:g id="count" example="3">%1$d</xliff:g> shortcuts already exist.</string>
+    <!-- Text for Edit Apps button for op09 -->
+    <string name="edit_app_button_text">Edit Apps</string>
+    <!-- Text for Hide Apps button for op09 -->
+    <string name="hide_app_button_text">Hide Apps</string>
+
+    <!-- CT customized Edit and Hide Apps -->
+    <string name="app_custom_edit" translatable="false">Edit</string>
+    <string name="app_custom_hide" translatable="false">Hide</string>
+    <string name="rearrange_app" translatable="false">Rearrange app</string>
+    <string name="hideapps" translatable="false">Hide apps</string>
+
+    <!-- CT customized web links -->
+    <string name="link_folder_name" translatable="false">网页链接</string>
+    <string name="url_name_hiCDMA" translatable="false">天翼手机网</string>
+    <string name="url_name_xinhuanet" translatable="false">新华网</string>
+    <string name="url_name_sina" translatable="false">新浪网</string>
+    <string name="url_name_sohu" translatable="false">搜狐网</string>
+    <string name="url_name_ifeng" translatable="false">凤凰网</string>
+    <string name="url_name_people" translatable="false">人民网</string>
+</resources>

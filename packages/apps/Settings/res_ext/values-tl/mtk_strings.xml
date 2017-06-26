@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- AudioProfile Settings start -->
+   <string name="ring_summary">I-ring</string>
+  <string name="ring_vibrate_summary">I-ring at i-vibrate</string>
+  <string name="silent_summary">Tahimik lang</string>
+  <string name="meeting_summary">Vibrate lang</string>
+  <string name="outdoor_summary">Pinakamalakas na ring at pag-vibrate</string>
+  <string name="audio_profile_reset">I-reset</string>
+  <string name="audio_profile_add">Idagdag</string>
+  <string name="audio_profile_enable">Paganahin</string>
+  <string name="audio_profile_rename">Palitan ang pangalan</string>
+  <string name="audio_profile_delete">Tanggalin</string>
+  <string name="audio_profile_message_reset">Lahat ng mga setting ng profile ng audio ay ire-reset sa default</string>
+  <string name="audio_profile_message_rename">Pakipasok ang bagong pangalan ng profile</string>
+  <string name="audio_profile_message_name_error">Umiiral na ang pangalang pinasok</string>
+  <string name="audio_profile_message_name_length_wrong">Dapat maglaman ng isa man lang na character ang pangalan</string>
+  <string name="audio_profile_message_delete">Tatanggalin ang profile na 
+        <xliff:g id="profile">%s</xliff:g></string>
+  <string name="audio_profile_message_overflow">Pinahihintulutan ka lang magdagdag ng 6 na mga custom na profile</string>
+  <string name="audio_profile_category_custom_title">Mga tinalaga ng gumagamit na profile</string>
+  <string name="audio_profile_category_predefine_title">Mga nakatakda nang profile</string>
+  <string name="audio_profile_error">Error</string>
+  <string name="audio_profile_others">Abiso at Iba Pa</string>
+  <string name="general_settings_title">"Pangkalahatan"</string>
+  <string name="silent_settings_title">Tahimik</string>
+  <string name="meeting_settings_title">Pulong</string>
+  <string name="outdoor_settings_title">Labas</string>
+  <string name="sound_category_feedback_title">"System"</string>
+  <string name="sound_category_calls_title">"Mga papasok na tawag"</string>
+  <string name="voice_call_title">Ringtone ng boses na tawag</string>
+  <string name="voice_call_summary">"I-set ang iyong default na ringtone ng mga boses na tawag"</string>
+  <string name="video_call_title">Ringtone ng boses na tawag</string>
+  <string name="video_call_summary">I-set ang iyong default na ringtone ng mga boses na tawag</string>
+  <string name="sip_call_title">Ringtone ng SIP na tawag</string>
+  <string name="sip_call_summary">Itakda ang iyong mga default na ringtone sa mga SIP na tawag</string>
+  <string name="Phone_vibrate_summary">I-vibrate ang mga aparato sa mga papasok na tawag</string>
+  <string name="vibrate_title">Vibrate</string>
+  <string name="audio_profile_settings_title">Mga audio profile</string>
+  <string name="audio_profile_bes_loudness_summary">Pampalakas ng volume para sa speaker</string>
+  <string name="sound_enhancement_title">Pagpapaganda ng tunog</string>
+  <string name="music_plus_summary">Pagpapaganda ng audio para sa earphone</string>
+  <string name="lossless_title">Lossless BT na mode</string>
+  <string name="lossless_summary">De-kalidad na BT audio</string>
+  <string name="lossless_connect_summary">Maaapektuhan ang Wi-Fi sa pag-on ng Lossless BT na mode. Sigurado ka bang pagaganahin?</string>
+  <string name="lossless_on">Naka-ON ang Lossless BT na mode</string>
+  <string name="lossless_playing">Pagpapatugtog ng Lossless na musika</string>
+  <string name="lossless_toastmessage">Ang mga system sound ay patutugtugin sa pamamagitan ng speaker ng telepono</string>
+  <string name="lossless_volume_max">Pakilagay sa pinakamalakas ang system volume</string>
+  <string name="lossless_cannot_found_device">Hindi mahanap ang losslessBT device</string>
+  <string name="audio_profile_bes_surround_title">BesSurround</string>
+  <string name="audio_profile_bes_surround_summary">Pumapaligid na Audio</string>
+  <string name="audio_profile_bes_surround_mode_movie">Pelikulang mode</string>
+  <string name="audio_profile_bes_surround_mode_music">Musikang mode</string>
+  <string name="zen_mode_option_title_novoice" msgid="6680706009915204785">"Kapag dumating ang mga notification"</string>
+  <!-- AudioProfile Settings end -->
+ 
+  <!-- MTK Wi-Fi settings start -->
+   <string name="wifi_no_cert_for_wapi">Hindi mahanap ang sertipikasyon para sa kasalukuyang pangkonektang AP</string>
+  <string name="sim_slot">SIM Slot</string>
+  <string name="eap_sim_slot_0">Sim Slot 1</string>
+  <string name="eap_sim_slot_1">Sim Slot 2</string>
+  <string name="eap_sim_aka_airplanemode">Paki-off ang Airplane mode upang gamiting ang EAP-SIM/AKA</string>
+  <string name="eap_sim_aka_no_sim_error">Kailangan mong i-insert ang sim card para gamitin ang EAP-SIM/AKA</string>
+  <string name="eap_sim_aka_no_sim_slot_selected">Kailangan mong piliin ang sim slot para gamitin ang EAP-SIM/AKA</string>
+  <string name="wifi_security_wapi_certificate">Sertipiko ng WAPI</string>
+  <string name="wapi_user_certificate">Sertipiko ng gumagamit</string>
+  <string name="wapi_as_certificate">Sertipiko ng ASE</string>
+  <string name="wifi_hex_password">Hexadecimal na password.</string>
+  <string name="wifi_WEP_transmit_key">Transmit Key</string>
+  <string name="wifi_WEP_secury_key">Secury Key</string>
+  <string name="wifi_tether_auto_disable_title">Panatiliing on ang Wi-Fi hotspot</string>
+  <string name="wifi_tether_auto_channel_text">Awto</string>
+  <string name="wifi_tether_auto_channel_width_text">Auto 20/40 MHz</string>
+  <string name="wifi_channel">Nais na Channel</string>
+  <string name="wifi_channel_width">Lapad ng Channel</string>
+  <string name="wifi_advanced_ipv4_address_title">IPv4 na address</string>
+  <string name="wifi_advanced_ipv6_address_title">IPv6 na address</string>
+  <string name="wifi_ipv4_address">IPv4 na address</string>
+  <string name="wifi_ipv6_address">IPv6 na address</string>
+  <string name="wifi_ap_auto_join_available">Auto na Pagsali</string>
+  <string name="wifi_ap_auto_join_available_summary">Auto na pumili ng mas mahusay na Wi-Fi network habang nag-i-scan para sumali kapag konektado</string>
+  <!-- MTK Wi-Fi settings end -->
+ 
+  <!-- Wi-Fi hotspot client start -->
+   <string name="wifi_tether_setting_title">Mga basic na setting</string>
+  <string name="wifi_tether_wps_connect_title">WPS Konekta</string>
+  <string name="wifi_tether_wps_connect_summary">Napiling Wi-Fi na protektadong setup na mode upang magpatuloy</string>
+  <string name="wifi_tether_wps_pin_error">Hindi wastong PIN</string>
+  <string name="wifi_tethering_title">Wi-Fi na hotspot</string>
+  <string name="wifi_ap_wps_dialog_title">WPS Konekta</string>
+  <string name="wifi_ap_wps_mode_title">WPS na mode</string>
+  <string name="wifi_ap_wps_pin_title">I-type ang PIN mula sa client</string>
+  <string name="wifi_ap_reset_OOB_title">I-reset ang network SSID, seguridad at password upang mag-default ( out-of-box na kumpigurasyon para sa WPS )</string>
+  <string name="wifi_ap_reset_OOB">I-reset ang OOB</string>
+  <string name="wifi_ap_max_connection_title">Mga maximum na koneksyon</string>
+  <string name="wifi_ap_connected_title">Mga konektang gumagamit</string>
+  <string name="wifi_ap_blocked_title">Mga blocked na gumagamit</string>
+  <string name="wifi_ap_client_block_title">"I-block"</string>
+  <string name="wifi_ap_client_unblock_title">I-unblock</string>
+  <string name="wifi_ap_client_details_title">Mga Detalye</string>
+  <string name="wifi_ap_client_mac_label">MAC address:</string>
+  <string name="wifi_ap_client_ip_label">IP address:</string>
+  <string name="wifi_ap_bandwidth_title">Paggamit ng bandwidth</string>
+  <string name="wifi_ap_bandwidth_enable">Paganahin ang bandwidth throttling</string>
+  <string name="wifi_ap_bandwidth_chart_title">Real-time na tulin ng datos</string>
+  <string name="wifi_ap_bandwidth_chart_summary">Sinukat ng telepono mo, ang accounting ng tulin ng datos ng carrier mo ay maaaring maiba.</string>
+  <string name="wifi_wps_fail_error">Nabigo ang protektadong set-up ng Wi-Fi, subukan muli.</string>
+  <string name="wifi_ap_title">Istatistiko</string>
+  <string name="wifi_ap_time_duration">Oras ng tagal: 
+        <xliff:g id="time">%1$s</xliff:g></string>
+  <string name="wifi_ap_total_data">Kabuuang nagamit na datos:
+        <xliff:g id="time">%1$s</xliff:g></string>
+  <string name="wifi_ap_no_connected">0 mga konektang gumagamit</string>
+  <string name="wifi_ap_no_blocked">0 mga blocked na gumagamit</string>
+  <!-- Wi-Fi hotspot client end -->
+ 
+  <!-- MTK Beam plus start -->
+   <string name="beam_mgmt_tab_download_title">Mga natanggap na tawag</string>
+  <string name="beam_mgmt_tab_upload_title">"3. I-click ang tab ng pagbabahagi at piliin ang 'Pahintulutan ang ibang mga user ng network na kumonekta gamit ang koneksyon sa internet ng computer na ito'(piliin ang kakadagdag lang na netork na kumakatawan sa USB internet kung lumabas ang 'Konekstyon sa home networking' )."</string>
+  <string name="beam_share_mgmt_notification_ticker">Kasaysayan sa pagbahagi ng Beam</string>
+  <string name="beam_share_mgmt_notification_title">Kasaysayan sa pagbahagi ng Beam</string>
+  <string name="beam_share_mgmt_notification_message">"Piliin upang tingnan ang kasaysayan ng pagbahagi ng Beam."</string>
+  <string name="beam_share_mgmt_tab_menu_clear">"I-clear ang lahat ng mga setting ng website?"</string>
+  <string name="beam_share_open_file_dialog_title">Di mabuksan ang file</string>
+  <string name="beam_share_open_file_unsupported_message">Hindi suportado ang format ng file.</string>
+  <string name="beam_share_open_file_not_found_message">"Di nahanap ang file: <xliff:g id="file_name">%1$s</xliff:g></string>
+  <string name="beam_share_transfer_fail_dialog_title">"Nabigo ang Beam"</string>
+  <string name="beam_share_resend_dialog_message">"Ang <xliff:g id="file_name">%1$s</xliff:g> ay di tagumpay na naipadala."</string>
+  <string name="beam_share_resend_dialog_ok_button">"Subukan muli"</string>
+  <string name="beam_share_show_received_files_menu">"Ipakita ang mga natanggap na file"</string>
+  <string name="beam_share_history_title">Kasaysayan sa pagbahagi ng Beam</string>
+  <string name="beam_share_clear_confirm_dialog_title">"I-clear lahat"</string>
+  <string name="beam_share_clear_confirm_dialog_message">Burahin lahat ng kasaysayan?</string>
+  <string name="beam_share_receive_fail_dialog_message">"Ang <xliff:g id="file_name">%1$s</xliff:g> ay di tagumpay na natanggap."</string>
+  <string name="beam_share_clear_item_dailog_title">TANGGALIN</string>
+  <string name="beam_share_clear_item_dailog_message">Tatanggalin ang bagay.</string>
+  <!-- MTK Beam plus end -->
+ 
+  <!-- MTK NFC settings start -->
+   <string name="nfc_p2p_mode">P2P na mode</string>
+  <string name="nfc_p2p_mode_summary">Magpadala o tumanggap ng nilalamang App</string>
+  <string name="nfc_tag_mode_category">Tag na mode</string>
+  <string name="nfc_rw_tag_title">Pagbabasa at pagsusulat ng tag</string>
+  <string name="nfc_rw_tag_summary">Pagbasa mula sa o pagsulat sa tag</string>
+  <string name="nfc_card_emulation_category_title">card emulation na mode</string>
+  <string name="nfc_card_emulation">Emulation ng card</string>
+  <string name="card_emulation_settings_category_title">magagamit na elemento ng seguridad</string>
+  <string name="card_emulation_settings_no_element_found">Walang magagamit na elemento ng seguridad</string>
+  <string name="card_emulation_settings_off_text">Upang makita ang mga magagamit na elemento ng seguridad, i-on ang  Card emulation.</string>
+  <string name="card_emulation_turning_off_text">Ino-off ang Card emulation…</string>
+  <string name="card_emulation_turning_on_text">Ino-on ang Card emulation…</string>
+  <string name="card_emulation_switch_error_title">Error</string>
+  <string name="card_emulation_switch_error_message">Nabigong lumipat sa <xliff:g id="card_mode">%1$s</xliff:g>.</string>
+  <string name="card_emulation_sim_not_supported_message"><xliff:g id="sim_description">%1$s</xliff:g> hindi sinusuportahan ang NFC Card emulation na paggana.</string>
+  <string name="card_emulation_two_sim_not_supported_message">Hindi sinusuportahan ng SIM1, SIM2 ang emulation function ng NFC Card.</string>
+  <string name="nfc_hce_pay_summary">Gamitin ang device para Mag-TAP at PAY bilang Google wallet, credit card, atbp.</string>
+  <!-- MTK NFC settings end -->
+ 
+  <!-- MTK WIFI Passpoint start -->
+   <string name="passpoint_summary">Awtomatikong pagkonekta sa mga AP na pinagagana ang passpoint</string>
+  <string name="passpoint_append_summary">(gamit ang Passpoint)</string>
+  <string name="passpoint_config_credential_type">Uri ng kredensiyal</string>
+  <string name="passpoint_config_eap_method">"Pamamaraang EAP"</string>
+  <string name="passpoint_supported">Suportado</string>
+  <string name="passpoint_username_pw">Username/Password</string>
+  <string name="passpoint_certificate">Sertipiko</string>
+  <!-- MTK WIFI Passpoint end -->
+ 
+  <!-- MTK WFD start -->
+   <string name="wfd_change_resolution_menu_title">Palitan ang resolusyon</string>
+  <string name="wfd_sink_summary">Matutuklasan ng mga iba</string>
+  <string name="wfd_device_category">LISTAHAN NG MGA APARATO</string>
+  <string name="wfd_sink_toast_enjoy">Mag-enjoy sa screen casting mula sa ibang aparato</string>
+  <string name="wfd_sink_toast_disconnect">Nadiskonekta ang cast screen</string>
+  <string name="wfd_sink_disconnecting">Dinidiskonekta...</string>
+  <string name="wfd_sink_guide_btn">Kunin ito</string>
+  <string name="wfd_sink_guide_title">Paano huminto?</string>
+  <string name="wfd_sink_guide_content">Matagal na pindot para sa <xliff:g id="seconds">%s</xliff:g> (na) segundo sa screen para lumabas sa pagpapakita ng ibang aparato.</string>
+  <!-- MTK WFD end -->
+ 
+  <!-- MTK Storage Settings start -->
+   <string name="mtp_transfer_unmount_error_text">Hindi ma-unmount ang SD card habang naglilipat ng file</string>
+  <string name="mtp_transfer_erase_error_text">Hindi mabura ang SD card habang naglilipat ng file</string>
+  <string name="launch_error">"Hindi malunsad ang aplikasyon!"</string>
+  <string name="dlg_confirm_unmount_usb_title" product="default">I-unmount USB imbakan?</string>
+  <string name="dlg_confirm_unmount_usb_text" product="default">Kapag in-unmount mo ang USB na imbakan, ang ilang mga app na ginagamit mo ay ihihinto at maaaring hindi magamit hanggang sa i-mount mo uli ang USB na imbakan.</string>
+  <string name="dlg_error_unmount_usb_text" product="default">Hindi ma-unmount ang USB na imbakan. Subukan muli mamaya.</string>
+  <string name="unmount_usb_inform_text" product="default">Ang USB imbakan ay ia-unmount.</string>
+  <string name="sd_eject_usbstorage" product="default">"I-unmount imbakan na USB"</string>
+  <string name="sd_eject_usbstorage_summary" product="default">"I-unmount panloob USB storage"</string>
+  <string name="sd_mount_usbstorage" product="default">"I-mount imbakan na USB"</string>
+  <string name="sd_insert_usb_summary" product="default">"Ipasok imbakan na USB sa pag-mount"</string>
+  <string name="usb_ums_title">USB storage</string>
+  <string name="usb_ums_summary">"Nirerekomenda ang XP. Hinahayaan kang maglipat ng mga file sa pagitan ng iyong computer at iyong USB na imbakan ng Android."</string>
+  <string name="usb_charge_title">Charge lang</string>
+  <string name="usb_connect_as_cdrom_category">"Kumonekta bilang CD-ROM"</string>
+  <string name="usb_charge_summary">Ihinto lahat ng mga USB na paggamit. Pinahihintulutan kang pabilisin ang pag-charge ng USB at bawasan ang paggamit ng power.</string>
+  <string name="akp_installer_settings_title">Installer ng APK</string>
+  <string name="akp_installer_settings_summary">I-install ang APK mo mula sa imbakan ng Telepono at SD card</string>
+  <string name="usb_bicr_title">Built-in CD-ROM</string>
+  <string name="usb_bicr_summary">Magpakita ng virtual na CD-ROM na naglalaman ng ilang kapakipakinabang na software.</string>
+  <string name="select_memory">Default na pagsulat sa disk</string>
+  <string name="dlg_mount_external_sd_title" product="default">I-mount ang SD card?</string>
+  <string name="dlg_mount_external_sd_summary" product="default">Kapag nag-mount ka ng sd card, ang ilang apps na ginagamit mo ay hihinto.</string>
+  <!-- MTK Storage Settings end -->
+ 
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">Mga setting ng HDMI</string>
+  <string name="hdmi_settings_summary">I-click upang ikumpigura ang HDMI</string>
+  <string name="hdmi_audio_toggler">Audio</string>
+  <string name="hdmi_video_toggler">video</string>
+  <string name="hdmi_video_resolution">Resolusyon ng video</string>
+  <string name="hdmi_auto">Awto</string>
+  <string name="hdmi_scale_control">Mga setting ng scale ng video</string>
+  <string name="hdmi_scale_no_scale">Walang scaling</string>
+  <string name="hdmi_scale_scale_down">I-scale pababa <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">Output ng audio</string>
+  <string name="hdmi_audio_output_stereo">Stereo</string>
+  <string name="hdmi_audio_output_multi_channel">Maramihang Channel</string>
+  <!-- MTK HDMI end -->
+ 
+  <!-- MTK Display Settings start -->
+   <string name="landscape_launcher_title">Paglunsad ng Landscape</string>
+  <string name="landscape_launcher_none">Wala</string>
+  <string name="display_settings_scences_title">Mga Senaryo</string>
+  <string name="default_name">Default</string>
+  <string name="custom_theme_name">Bago [%1$s]</string>
+  <string name="loading">Naglo-load…</string>
+  <string name="auto_backlight_title">Nakatitipid na backlight</string>
+  <string name="auto_backlight_summary">Awtomatikong iayon ang backlight upang makatipid ng power</string>
+  <string name="display_personalize">Ipasadya</string>
+  <string name="display_default">"Pagpapakita"</string>
+  <string name="clear_motion_summary">Pampahusay ng fluency ng video</string>
+  <string name="on_text">"naka-on"</string>
+  <string name="off_text">"naka-off"</string>
+  <string name="mira_vision_summary">Nagbibigay ng pinakamahusay na mga visual effect</string>
+  <!-- MTK Display Settings end -->
+ 
+  <!--MTK Security Settings start -->
+   <string name="voice_unlock_backup_info_summary">Kapag di ka makilala ng Boses na Unlock, paano mo nais na mag-unlock?</string>
+  <string name="unlock_set_unlock_mode_voice_weak">Boses na Unlock</string>
+  <string name="mtk_lock_screen_notifications_title">Mga abiso ng lock screen</string>
+  <string name="lock_screen_notifications_summary">Ipakita ang mga abiso sa lock screen</string>
+  <string name="lock_screen_style_title">Istilo ng lock screen</string>
+  <string name="current_suffix">"(Kasalukuyan)"</string>
+  <string name="lockscreen_style_default_desc">"Mabilis na access sa mga aplikasyon sa lock screen"</string>
+  <string name="security_not_set">Hindi naka-set ang seguridad</string>
+  <string name="voice_ui_title">Boses na kontrol</string>
+  <!--MTK Security Settings end -->
+ 
+  <!-- MTK Wireless settings start -->
+   <string name="pch_toggle_title">Nais na mode sa paglipat ng GPRS</string>
+  <string name="pch_data_prefer_summary_off">Nais na datos</string>
+  <string name="pch_call_prefer_summary_on">Nais na tawag</string>
+  <string name="pch_warning_message">Mababawasan ang rate ng pagpapadala ng datos</string>
+  <string name="tethered_ipv6_title">Mga setting ng hotspot &amp; tethering</string>
+  <string name="tethered_ipv4v6">(Magagamit ang IPv6)</string>
+  <string name="tethered_ipv6">(IPv6 lang ang magagamit)</string>
+  <string name="tethered_ipv4">(Hindi magagamit ang IPv6)</string>
+  <string name="tethering_apn_settings_title">Mga setting ng APN</string>
+  <string name="tethering_apn_settings_summary">Ikumpigura ang APN para sa tethering</string>
+  <string name="usb_tether_type_title">Uri ng tethering ng USB</string>
+  <string name="usb_tethering_select_version">Piliin ang bersyon ng sistema ng PC</string>
+  <string name="apn_port_warning">Ang halaga ng port ay dapat 1-65535!</string>
+  <string name="apn_predefine_change_dialog_notice">Sigurado ka bang nais mong mag-save? Ang mga pagbabago sa default na APN ay maaaring magdulot ng mga problema sa koneksyon!</string>
+  <string name="lockdown_vpn_already_connected">Ang Laging on na VPN ay pinagagana na para sa koneksyon.</string>
+  <!-- MTK Wireless settings end -->
+ 
+  <!-- MTK Feature MISC start -->
+   <string name="schedule_power_on_off_settings_title">Itaka ang power on/off</string>
+  <string name="ipo_title">Mabilisang boot</string>
+  <string name="ipo_summary_on">Huwag paganahin ang mabilisang boot</string>
+  <string name="ipo_summary_off">Paganahin mabilisang boot</string>
+  <string name="hotknot_explained_description">Pahintulutan ang pagpalit ng data kapag dumikit ang screen sa ibang aparato</string>
+  <string name="mouse_primary_button_title">Ipagpalit ang pangunahin at pangalawang button</string>
+  <string name="mouse_primary_button_dialog_title">Palitan ang pangunahing button</string>
+  <string name="double_click_title">Tulin ng double-click</string>
+  <string name="test_area">LUGAR NG PAGSUBOK:</string>
+  <string name="double_click_tip">i-double click dito</string>
+  <!-- MTK Feature MISC end -->
+ 
+  <!-- MTK Bluetooth Settings start -->
+   <string name="bluetooth_advanced_settings">Mga advanced na setting</string>
+  <string name="bluetooth_profile_ftp">Paglipat ng file</string>
+  <string name="bluetooth_ftp_profile_summary_use_for">Ginagamit panlipat ng file</string>
+  <string name="bluetooth_ftp_profile_summary_connected">"Konektado sa pagpapadala ng file"</string>
+  <!-- MTK Bluetooth Settings end -->
+ 
+  <!--MTK DateTime start-->
+   <string name="gps_time_sync_attention_gps_on">Aabutin nang hanggang 1 minuto upang makakuha ng GPS na pag-ayos. Bagaman ang GPS ay maaaring mabigong maglaan ng oras dahil sa mahinang signal sa kapaligiran.\n\nSigurado ka bang gagamit ng nilaang oras ng GPS?</string>
+  <string name="gps_time_sync_attention_gps_off">Upang gumamit ng nilaan na oras ng GPS, dapat mong paganahin muna ang GPS. Aabutin ng hanggang 1 minuto upang makakuha ng GPS na pag-ayos. Bagaman ang GPS ay maaaring mabigong maglaan ng oras dahil sa mahinang signal sa kapaligiran.\n\nSigurado ka bang gagamit ng nilaang oras ng GPS?</string>
+  <!--MTK DateTime end-->
+ 
+  <!--MTK DRM settings start -->
+   <string name="drm_settings_title">DRM reset</string>
+  <string name="drm_settings_summary">Tinatanggal lahat ng mga lisensiya ng DRM</string>
+  <string name="drm_reset_dialog_msg">Tatanggalin ng operasyong ito lahat ng mga lisensiya sa mga aparato na ito. Magpatuloy?</string>
+  <string name="drm_reset_toast_msg">Tagumpay na natanggal ang mga lisensiya.</string>
+  <!--MTK DRM settings end -->
+ 
+  <!-- MTK APPS settings start -->
+   <string name="launch_main_label">Ilunsad ang aplikasyon</string>
+  <string name="launch_main">Ilunsad ang aplikasyon ayon sa pangunahing aktibidad</string>
+  <string name="launch_activitie">Ilunsad</string>
+  <string name="move_app_to_where">Ilipat sa 
+        <xliff:g id="location">%s</xliff:g></string>
+  <!-- MTK APPS settings end -->
+ 
+  <!-- MTK Battery MISC start -->
+   <string name="bg_power_saving_title">Naka-standby na matalinong pagtitipid ng power</string>
+  <!-- MTK Battery MISC end -->
+ 
+  <!-- MTK  Datausage  start -->
+   <string name="mtk_datausage_overview_tab">Kabuuang Pananaw</string>
+  <string name="mtk_datausage_overview_wifi_today">Ngayon</string>
+  <string name="mtk_datausage_overview_wifi_total">"Kabuuan"</string>
+  <string name="mtk_datausage_overview_mobile_title">MOBILE</string>
+  <string name="mtk_datausage_overview_mobile_usage"><xliff:g id="actual">%s</xliff:g> mula sa 
+        <xliff:g id="limit">%s</xliff:g></string>
+  <string name="mtk_datausage_overview_mobile_usage_warning">Labas sa limitasyon <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%s</xliff:g></string>
+  <string name="data_saving_title">Pag-save ng Datos</string>
+  <!-- MTK  Dtausage  end -->
+ 
+  <!-- MTK About phone start -->
+   <string name="status_imei_slot1">IMEI(Slot1)</string>
+  <string name="status_imei_slot2">IMEI(Slot2)</string>
+  <string name="custom_build_version">Pasadyang build na bersiyon</string>
+  <string name="mota_system_update_summary">"Suriin ang update ng sistema sa server"</string>
+  <string name="software_updates_more_title">Mga update ng software</string>
+  <string name="software_updates_more_summary">Suriin kung may bagong bersyon ng software</string>
+  <!-- MTK About phone end -->
+ 
+  <!-- MTK sim cards start -->
+   <string name="sim_cards_celluar_data_dialog_title">Piliin ang SIM para gamitin para sa cellular na data</string>
+  <string name="sim_cards_data_sms_dialog_title">Piliin ang SIM para gamitin para sa mga SMS na mensahe</string>
+  <string name="sim_cards_calls_dialog_title">Piliin ang account na gagamitin para sa mga tawag sa telepono</string>
+  <string name="sim_cards_other_calls_dialog_title">Pumili ng ibang account</string>
+  <string name="sim_cards_other_calls_item_title">Ibang account</string>
+  <string name="data_connection_progress_message">"Aabutin ng 10 segundo ang paglipat ng SIM para makumpleto. Pakihintay..."</string>
+  <string name="gemini_sim_mode_progress_activating_message">Pinapagana\u2026</string>
+  <string name="gemini_sim_mode_progress_deactivating_message">Hindi pinapagana\u2026</string>
+  <string name="simui_intenet_call">Internet na tawag</string>
+  <!-- MTK sim cards end -->
+ 
+  <!-- MTK SIM Status start -->
+   <string name="imei_information_title">"Impormasyon ng IMEI"</string>
+  <string name="imei_information_summary">"Kaugnay na impormasyon ng IMEI"</string>
+  <string name="slot_number">"(Slot<xliff:g id="SLOT_NUM">%1$d</xliff:g>)"</string>
+  <string name="sim_info_editor_color">"Kulay ng background"</string>
+  <string name="sim_cards_notify_title">"Nagbago ang mga SIM card"</string>
+  <string name="sim_cards_notify_summary">I-tap para magtakda ng mga kagustuhan.</string>
+  <string name="no_sim_cards_notify_title">Walang nakasaksak na SIM card</string>
+  <string name="cellular_data_notify_title">"Unavailable ang cellular data"</string>
+  <string name="cellular_data_notify_summary">I-tap para magtakda ng data SIM.</string>
+  <!-- MTK SIM Status end -->
+ 
+  <!-- IMS/SMS Settings start -->
+   <string name="ims_toggle_summary">Nagbibigay ng mga serbisyong IP Multimedia Subsystem</string>
+  <string name="sms_vibrate_summary">i-vibrate ang mga device para sa sms</string>
+  <!-- IMS/SMS Settings end -->
+    <string name="default_data_switch_err_msg1">Hindi mailipat ang nais na SIM para sa celluar data habang tumatawag.</string>
+  <string name="two_cdma_dialog_msg">Hindi sabay na masusuportahan ng Slot 1 at ng Slot 2 ang CDMA.</string>
+  <string name="hetcom_setting_title">Turbo download</string>
+</resources>

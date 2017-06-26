@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">Potlačení šumu</string>
+    <string name="dual_mic_summary">Potlačit hluk na pozadí během volání</string>
+    <string name="anc_title">Aktivní potlačení šumu</string>
+    <string name="anc_on">ANC zap.</string>
+    <string name="anc_off">ANC vyp.</string>
+    <string name="ip_prefix_setting">Číslo předpony IP</string>
+    <string name="ip_prefix_setting_lable">Číslo předpony IP (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">Nastavení čísla předpony IP</string>
+    <string name="enter_ip_prefix_number">Zadejte číslo předpony</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Nejdříve zadejte číslo předpony IP do nastavení hlasového volání.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">Funkce vytáčení IP není použitelná pro internetové volání.</string>
+    <string name="ip_prefix_edit_default_sum">Zadejte číslo předpony pro vytočení IP</string>
+    <string name="lable_call_barring">"Blokování hovorů"</string>
+    <string name="title_call_barring">Blokování hovorů (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">Všechna odchozí volání</string>
+    <string name="lable_all_outgoing_international">Mezinárodní odchozí volání</string>
+    <string name="lable_all_out_except">Mezinárodní odchozí volání vyjma do domácí PLMN</string>
+    <string name="lable_all_incoming">Všechna příchozí volání</string>
+    <string name="lable_incoming_calls_except">Příchozí volání během roamingu</string>
+    <string name="deactivate_all">Zrušit vše</string>
+    <string name="change_password">Změnit heslo blokování</string>
+    <string name="call_barring_sum">Nastavení blokování hlasového volání</string>
+    <string name="lable_disable">Deaktivováno</string>
+    <string name="lable_enable">"Povoleno"</string>
+    <string name="old_password_label">Staré heslo (4 čísla)</string>
+    <string name="new_password_label">Nové heslo (4 čísla)</string>
+    <string name="invalid_password">Zadejte heslo, které má 4 čísla.</string>
+    <string name="confirm_password_label">Potvrzení nového hesla</string>
+    <string name="mismatch_password">Zadaná hesla se neshodují. Zkuste to znovu.</string>
+    <string name="password_changed">Heslo bylo úspěšně změněno</string>
+    <string name="enter_callbarring_password">Zadejte heslo blokování volání (4 čísla)</string>
+    <string name="wrong_password">Chyba hesla</string>
+    <string name="error_title">"Chyba"</string>
+    <string name="cell_broadcast">Mobilní vysílání</string>
+    <string name="cell_broadcast_settings">Nastavení mobilního vysílání</string>
+    <string name="cb_menu_language">"Jazyk"</string>
+    <string name="cb_menu_add_channel">Přidat kanál</string>
+    <string name="cb_menu_channel_list">Seznam kanálů</string>
+    <string name="cb_dialog_title_language_choice">Vybrat jazyk</string>
+    <string name="cb_channel_dialog_channel_name">Název kanálu (0 - 10 znaků)</string>
+    <string name="cb_channel_dialog_channel_number">Číslo kanálu (0 - 65534)</string>
+    <string name="cb_channel_dialog_channel_state">Povolit kanál</string>
+    <string name="cb_channel_dialog_edit_channel">Upravit kanál</string>
+    <string name="cb_menu_edit">"Upravit"</string>
+    <string name="cb_menu_delete">"Smazat"</string>
+    <string name="cb_error_channel_num">Zadejte číslo kanálu (0 - 65534).</string>
+    <string name="cb_error_channel_name">Délka názvu kanálu není správná (1 – 10 znaků).</string>
+    <string name="cb_error_language_select">Vyberte alespoň jeden jazyk.</string>
+    <string name="cb_error_channel_id_exist">ID kanálu existuje.</string>
+    <string name="cb_all_languages">Všechny jazyky</string>
+    <string name="cb_default_new_channel_name">Nový kanál</string>
+    <string name="fdn_errorcode_unknown_info">Chyba, došlo k neznámé chybě, zopakujte akci později.</string>
+    <string name="fdn_errorcode_number_info">Chyba, číslo kontaktu je příliš dlouhé.</string>
+    <string name="fdn_errorcode_name_info">Chyba, jméno kontaktu je příliš dlouhé.</string>
+    <string name="fdn_errorcode_storage_info">Chyba, úložiště je plné.</string>
+    <string name="fdn_errorcode_phb_info">Chyba, telefonní seznam nyní není připraven, zopakujte akci později.</string>
+    <string name="fdn_errorcode_pin2_info">Chyba, neplatný PIN2.</string>
+    <string name="net_or_simcard_busy">Zaneprázdněná síť nebo karta SIM, zopakujte akci později.</string>
+    <string name="plmn_list_setting_title">Předvolby</string>
+    <string name="network_id">Identifikátor ID sítě</string>
+    <string name="plmn_list_setting_add_plmn">Přidat nový PLMN</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">Hledat...</string>
+    <string name="sum_search_femtocell_networks">Vybrat femtocell ručně</string>
+    <string name="register_femtocell_point_wait_tip">Probíhá registrace <xliff:g id="femto_cell_info">%s</xliff:g> ...</string>
+    <string name="register_femtocell_point_result_fail_tip">Nyní se nelze připojit k této síti. Opakujte akci později.</string>
+    <string name="network_type">Typ sítě</string>
+    <string name="gsm_umts_network_preferences_title">"Režim sítě"</string>
+    <string name="gsm_umts_network_preferneces_summary">Dosud neimplementováno!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"Režim sítě"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>"2G/3G (automatický režim)"</item>
+        <item>Pouze 3G</item>
+        <item>Pouze 2G</item>
+    </string-array>
+    <string name="notification_voicemail_text">Vybrat zobrazení hlasové pošty</string>
+    <string name="notification_network_selection_without_operator">Vybrat nedostupnou síť</string>
+    <string name="network_setting_all_forbidden_dialog">Žádné dostupné sítě.</string>
+    <string name="network_forbidden">zakázáno</string>
+    <string name="fdn_contact_number_invalid">Neplatné číslo kontaktu.</string>
+    <string name="fdn_puk_need_tips">PIN2 je zablokován. Změňte PIN2 a zkuste to znovu! </string>
+    <string name="fdn_phone_book_busy">Telefonní seznam je nyní zaneprázdněn, opakujte akci později.</string>
+    <string name="one_retry_left">Zbývá 1 opakování</string>
+    <string name="retries_left">zbývá <xliff:g id="number">%d</xliff:g> opakování</string>
+    <string name="pin_length_indicate">(4 - 8 číslic)</string>
+    <string name="puk_length_indicate">(8 číslic)</string>
+    <string name="unblock_pin2">Odblokovat PIN2</string>
+    <string name="sim_permanently_locked">Po zadání nesprávného kódu PUK2 více než 10krát bude karta SIM trvale uzamčena</string>
+    <string name="magi_conference_title">MagiKonference</string>
+    <string name="magi_conference_summary">Vylepšuje kvalitu hlasu, když po telefonu hovoří s druhou stranou více osob.</string>
+    <string name="volte_is_adding_participants">Přidávání člena(ů) konference, počkejte prosím...</string>
+    <string name="volte_fail_to_invit_participants">Nepodařilo se přidat všechny členy do konference.</string>
+    <string name="voicemail_lable">Hlasová schránka (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">Aby bylo možné tuto operaci dokončit, je třeba otevřít datové připojení <xliff:g id="sub_name">%s</xliff:g>.</string>
+    <string name="cdma_labelCFU">"Přesměrovat vždy"</string>
+    <string name="cdma_labelCFB">"Přesměrovat, je-li obsazeno"</string>
+    <string name="cdma_labelCFNRy">"Přesměrovat – nečinnost"</string>
+    <string name="cdma_labelCFNRc">"Přesměrovat – nedostupnost"</string>
+    <string name="cdma_labelCFC">Stornovat veškeré předávání</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">Deaktivovat omezení identifikace čísla volajícího</string> 
+    <string name="cdma_cnir_turnon">Aktivovat omezení identifikace čísla volajícího</string>
+    <string name="lte_data_only_prompt">Tuto funkci nelze použít z důvodu režimu vyhrazeného pouze pro data 4G. Chcete ukončit režim vyhrazený pouze pro data 4G?</string>
+    <string name="lte_data_only_timeout">Ve vašem aktuálním umístění není k dispozici žádná síť vyhrazená pouze pro data 4G. Chcete ukončit operaci a vyhledat další sítě?</string>
+    <string name="lte_only_dialog_button_yes">"ANO"</string>
+    <string name="lte_only_dialog_button_no">"NE"</string>
+    <string name="lte_only_dialog_title_prompt">Dotázat se</string>
+    <string name="enable_4G_data">Povolit data 4G</string>
+    <string name="enable_4G_data_summary">4G dokáže poskytnout lepší a rychlejší přístup k Internetu</string>
+    <string name="only_use_LTE_data">Použít pouze data LTE</string>
+    <string name="only_use_LTE_data_summary">Povolíte-li pouze používání krátkých dat, tato funkce nebude moci používat Telefonní volání a textové zprávy.</string>
+    <string name="network_current">Registrovat</string>
+    <string name="network_unkown">Neznámé</string>
+    <string name="network_available">K dispozici</string>
+</resources>

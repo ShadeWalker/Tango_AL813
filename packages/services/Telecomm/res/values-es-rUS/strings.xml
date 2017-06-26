@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="telecommAppLabel" product="default" msgid="3477737022166975496">"Teléfono"</string>
+    <string name="unknown" msgid="6878797917991465859">"Desconocida"</string>
+    <string name="notification_missedCallTitle" msgid="7554385905572364535">"Llamada perdida"</string>
+    <string name="notification_missedCallsTitle" msgid="1361677948941502522">"Llamadas perdidas"</string>
+    <string name="notification_missedCallsMsg" msgid="4575787816055205600">"<xliff:g id="NUM_MISSED_CALLS">%s</xliff:g> llamadas perdidas"</string>
+    <string name="notification_missedCallTicker" msgid="504686252427747209">"Se perdieron las llamadas de <xliff:g id="MISSED_CALL_FROM">%s</xliff:g>"</string>
+    <string name="notification_missedCall_call_back" msgid="2684890353590890187">"Llamar"</string>
+    <string name="notification_missedCall_message" msgid="3049928912736917988">"Mensaje"</string>
+    <string name="accessibility_call_muted" msgid="2776111226185342220">"Llamada silenciada"</string>
+    <string name="accessibility_speakerphone_enabled" msgid="1988512040421036359">"Altavoz habilitado"</string>
+    <string name="respond_via_sms_canned_response_1" msgid="2461606462788380215">"No puedo hablar ahora. ¿Qué pasa?"</string>
+    <string name="respond_via_sms_canned_response_2" msgid="4074450431532859214">"Te llamo enseguida."</string>
+    <string name="respond_via_sms_canned_response_3" msgid="3496079065723960450">"Te llamo más tarde."</string>
+    <string name="respond_via_sms_canned_response_4" msgid="1698989243040062190">"No puedo hablar ahora. ¿Me llamas más tarde?"</string>
+    <string name="respond_via_sms_setting_title" msgid="3754000371039709383">"Respuestas rápidas"</string>
+    <string name="respond_via_sms_setting_title_2" msgid="6104662227299493906">"Editar respuestas rápidas"</string>
+    <string name="respond_via_sms_setting_summary" msgid="9150281183930613065"></string>
+    <string name="respond_via_sms_edittext_dialog_title" msgid="20379890418289778">"Respuesta rápida"</string>
+    <string name="respond_via_sms_confirmation_format" msgid="7229149977515784269">"Mensaje enviado a <xliff:g id="PHONE_NUMBER">%s</xliff:g>"</string>
+    <string name="outgoing_call_not_allowed" msgid="1435394568102165287">"El propietario del dispositivo solo permite las llamadas de emergencia."</string>
+    <string name="outgoing_call_error_no_phone_number_supplied" msgid="1940125199802007505">"Para realizar una llamada, ingresa un número válido."</string>
+    <string name="duplicate_video_call_not_allowed" msgid="3749211605014548386">"No se puede agregar la llamada en este momento."</string>
+    <string name="no_vm_number" msgid="4164780423805688336">"Falta el número de correo de voz"</string>
+    <string name="no_vm_number_msg" msgid="1300729501030053828">"No hay un número de correo de voz almacenado en la tarjeta SIM."</string>
+    <string name="add_vm_number_str" msgid="4676479471644687453">"Agregar número"</string>
+    <string name="outgoing_call_error_limit_exceeded">Llamada no enviada, límite excedido.</string>
+    <string name="handle_restricted">"Restringido"</string>
+    <string name="incall_error_supp_service_unknown" msgid="2991054870745666038">"Servicio no admitido."</string>
+    <string name="incall_error_supp_service_switch" msgid="3503552565745872241">"No es posible cambiar llamadas."</string>
+    <string name="incall_error_supp_service_separate" msgid="914362338192301746">"No es posible separar la llamada."</string>
+    <string name="incall_error_supp_service_transfer" msgid="2509871374644921632">"No es posible transferir la llamada."</string>
+    <string name="incall_error_supp_service_conference" msgid="2505727299596357312">"No es posible realizar llamadas en conferencia."</string>
+    <string name="incall_error_supp_service_reject" msgid="7055164130563826216">"No es posible rechazar la llamada."</string>
+    <string name="incall_error_supp_service_hangup" msgid="7417583238334762737">"No es posible publicar la(s) llamada(s)."</string>
+
+    <string name="mo_code_unconditional_cf_active">Reenvío de llamada\nincondicional activado</string>
+    <string name="mo_code_some_cf_active">Reenvío de llamada\nconditional</string>
+    <string name="mo_code_call_forwarded">Llamada saliente desviada</string>
+    <string name="mo_code_call_is_waiting">Llamada en espera</string>
+    <string name="mo_code_cug_call">Grupo de usuario cerrado</string>
+    <string name="mo_code_outgoing_calls_barred">Llamada saliente prohibida</string>
+    <string name="mo_code_incoming_calls_barred">Llamada entrante prohibida en el otro lado</string>
+    <string name="mo_code_clir_suppression_rejected">Verifique el servicio de envío de ID de quien realiza la llamada</string>
+    <string name="mo_code_call_deflected">Llamada transferida</string>
+    
+    <string name="mt_code_forwarded_call">Es una llamada reenviada</string>
+    <string name="mt_code_cug_call">Grupo de usuario cerrado</string>
+    <string name="mt_code_call_on_hold">Llamada en espera</string>
+    <string name="mt_code_call_retrieved">El número al que está llamando está ocupado; espere.</string>
+    <string name="mt_code_multi_party_call">Llamada en conferencia</string>
+    <string name="mt_code_on_hold_call_released">Llamada en espera liberada</string>
+    <string name="mt_code_forward_check_received">Mensaje SS de verificación de reenvío recibido</string>
+    <string name="mt_code_call_connecting_ect">Transfiriendo llamada</string>
+    <string name="mt_code_call_connected_ect">Transferencia de llamada activa</string>
+    <string name="mt_code_deflected_call">Es una llamada desviada</string>
+    <string name="mt_code_additional_call_forwarded">Llamada entrante adicional reenviada</string>
+    <string name="mt_code_forwarded_cf">Llamada reenviada</string>
+    <string name="mt_code_forwarded_cf_uncond">Llamada reenviada por incondicional</string>
+    <string name="mt_code_forwarded_cf_cond">Llamada reenviada por condicional</string>
+    <string name="mt_code_forwarded_cf_busy">Llamada ocupada reenviada</string>
+    <string name="mt_code_forwarded_cf_no_reply">Llamada reenviada por sin respuesta</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Llamada reenviada por fuera del alcance</string>
+    <string name="respond_via_sms_setting_title_summary">Personalizar mensajes de rechazo</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+            android:orientation="vertical"
+            android:paddingBottom="8.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                android:gravity="start"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8.0dip"
+                android:layout_marginStart="16.0dip"
+                android:layout_marginEnd="16.0dip">
+            <TextView
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/website_name"
+                    android:textAlignment="viewStart" />
+            <EditText
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:id="@+id/name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLength="32" />
+        </LinearLayout>
+        <LinearLayout
+                android:gravity="start"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8.0dip"
+                android:layout_marginStart="16.0dip"
+                android:layout_marginEnd="16.0dip">
+            <TextView
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/website_address"
+                    android:textAlignment="viewStart" />
+            <EditText
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:id="@+id/website"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textUri" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

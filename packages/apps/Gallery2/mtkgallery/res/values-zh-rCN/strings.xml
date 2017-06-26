@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--added for [sharing special images as videos] begin-->
+    <string name="m_share_format_choose_title">"选择类型"</string>
+    <string name="m_share_format_image">"图片"</string>
+    <string name="m_share_format_video">"视频"</string>
+    <string name="m_generating_tip">"正在生成视频..."</string>
+    <string name="m_generate_video_fail">"生成视频失败"</string>
+    <string name="m_generating_gif_tip">"正在生成Gif..."</string>
+    <string name="m_generate_gif_fail">"生成Gif失败"</string>
+    <!--[sharing special images as videos] end-->
+    <string name="m_share_limit">分享数量不能超过300。</string>
+    <string name="m_demo_off">Demo off</string>
+    <string name="m_vertical_demo">Vertical Demo</string>
+    <string name="m_horizontal_demo">Horizontal Demo</string>
+    <string name="m_storage_not_enough">"存储空间不足。"</string>
+    <string name="m_saving_image">"正在将照片保存到“<xliff:g id="ALBUM_NAME">%1$s</xliff:g>”…"</string>
+    <!--added for [wfd/smartbook/hdmi connection] begin-->
+    <string name="m_drm_protected_warning1">"本内容受版权保护."</string>
+    <string name="m_drm_protected_warning2">"若需要手机上进行观看,"</string>
+    <string name="m_wfd_protected_warning">"请断开无线显示连接."</string>  
+    <string name="m_smb_protected_warning">"请断开Smartbook连接."</string>
+    <string name="m_hdmi_protected_warning">"请断开HDMI连接."</string>
+    <string name="m_dc_open">"动态对比开启"</string>
+    <string name="m_dc_close">"动态对比关闭"</string>
+    <!--added for [wfd/smartbook/hdmi connection] end-->
+</resources>
+

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- 
+/*
+ * Copyright (C) 2007-2008 Esmertec AG.
+ * Copyright (C) 2007-2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- add by liujia5 for mms 7bit menu -->
+    <string name="sms_seven_bit">"7 bitų optimizavimas"</string>
+    <string name="sms_seven_bit_summary">"Konvertuoti į 7 bitų koduotę, kad vienoje žinutėje galėtų būti iki 160 ženklų"</string>
+    <!-- add by liujia5 for mms 7bit menu -->
+    <string msgid="1503967887341230795" name="app_label">"Pranešimai"</string>
+    <string msgid="1530369762346003973" name="new_message">"Naujas pranešimas"</string>
+    <string msgid="7538482331117914146" name="menu_call_back">"Skambinti <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string msgid="671366308915241664" name="menu_send_email">"Siųsti el. laišką <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string msgid="3763437973691046238" name="menu_compose_new">"Sukurti"</string>
+    <string msgid="4693148116114749414" name="menu_preferences">"Nustatymai"</string>
+    <string msgid="8013282802147375764" name="menu_add_address_to_contacts">"Pridėti <xliff:g id="CONTACTEMAILORNUMBER">%s</xliff:g> prie kontaktų"</string>
+    <string msgid="6685337318181265136" name="sending_disabled_not_default_app">"Siuntimas išjungtas"</string>
+    <string msgid="1838175321052707875" name="compose_disabled_toast">"Negalima sukurti. Tai nėra numatytoji SMS programa."</string>
+    <string msgid="510014388581481569" name="banner_sms_promo_title_initial">"„Messaging“ nėra jūsų SMS programa"</string>
+    <string msgid="8123569785369713254" name="banner_sms_promo_title_application">"„<xliff:g id="APPNAME">%s</xliff:g>“ yra jūsų SMS programa"</string>
+    <string msgid="1441894740130104326" name="pref_title_sms_disabled">"SMS išjungta"</string>
+    <string msgid="8975773722051230744" name="pref_summary_sms_disabled">"Palieskite, kad nustatytumėte susirašinėjimą pranešimais kaip numatytąją SMS programą"</string>
+    <string msgid="1857849790200375277" name="pref_title_sms_enabled">"SMS įjungta"</string>
+    <string msgid="2106125420361911250" name="pref_summary_sms_enabled">"Palieskite, kad pakeistumėte numatytąją SMS programą"</string>
+    <string msgid="7124740686325942375" name="storage_warning_title">"Telefono atmintinėje nebėra vietos"</string>
+    <string msgid="1100367816649962354" name="storage_warning_content">"Negausite naujų SMS ar MMS žinučių"</string>
+    <string msgid="3395185162973061099" name="label_mms_send_outbox_msg">"MMS žadinimas"</string>
+    <string msgid="1837156781311437148" name="desc_mms_send_outbox_msg">"Visi MMS iš išsiųstųjų siunčiami į tinklą"</string>
+    <string msgid="3536714414252763826" name="banner_sms_promo_message">"Tai galite keisti skiltyje „Nustatymai“."</string>
+    <string msgid="113810998029698558" name="banner_sms_promo_decline">"Ne, ačiū"</string>
+    <string msgid="713438608462912462" name="banner_sms_promo_accept">"Taip"</string>
+    <string msgid="5877123227307074690" name="menu_call">"Skambinti"</string>
+    <string msgid="2289469305728821360" name="menu_search">"Paieška"</string>
+    <string msgid="808729454898114735" name="menu_delete_all">"Ištrinti visas gijas"</string>
+    <string msgid="1851666911396479006" name="menu_delete">"Ištrinti giją"</string>
+    <string msgid="7448852683948080108" name="menu_view">"Žiūrėti giją"</string>
+    <string msgid="6855869130206549643" name="menu_debug_dump">"DEBUG DUMP"</string>
+    <string msgid="987335057871404222" name="refreshing">"Atnaujinama..."</string>
+    <string msgid="5646161375983084660" name="menu_cell_broadcasts">"Tinklo transliacijos"</string>
+    <string msgid="2487465595514636160" name="has_draft">"Juodraštis"</string>
+    <string msgid="7795086723069563537" name="no_subject_view">"(nėra temos)"</string>
+    <string msgid="3579016854116401602" name="messagelist_sender_self">"Aš"</string>
+    <string msgid="4990460971211388453" name="view_slideshow">"Žiūrėti skaidrių demonstraciją"</string>
+    <string msgid="7613457646645796831" name="view_message_details">"Žiūrėti išsamią informaciją"</string>
+    <string msgid="8219095994071575215" name="view_delivery_report">"Žiūrėti ataskaitą"</string>
+    <string msgid="6442394955910357234" name="delete_message">"Ištrinti"</string>
+    <string msgid="4436268382742593921" name="expire_on">"Galioja iki: <xliff:g id="DATE">%s</xliff:g>"</string>
+    <string msgid="534782148965716631" name="kilobyte">"KB"</string>
+    <string msgid="7479433403599785755" name="undelivered_msg_dialog_title">"Nepristatytas pranešimas"</string>
+    <string msgid="4789268239627694551" name="undelivered_msg_dialog_body">"Nepavyko išsiųsti šio pranešimo.\nBandyta: <xliff:g id="MESSAGE">%s</xliff:g>."</string>
+    <string msgid="6755818550013032420" name="undelivered_sms_dialog_body">"Neįmanoma išsiųsti šio pranešimo."</string>
+    <string msgid="757258847736632791" name="delete_thread">"Ištrinti giją"</string>
+    <string msgid="9026858380050046756" name="menu_forward">"Persiųsti"</string>
+    <string msgid="4488877642230207631" name="download">"Atsisiųsti"</string>
+    <string msgid="1779557575565350637" name="downloading">"Atsisiunčiama"</string>
+    <string msgid="4057621785274119260" name="inline_subject">&lt;Tema: <xliff:g id="SUBJECT">%s</xliff:g>&gt;</string>
+    <string msgid="1396394157870730742" name="drm_protected_text">"* DRM apsaugotas tekstas *"</string>
+    <string msgid="6989074725969164383" name="insufficient_drm_rights">"Nustatyta, kad DRM teisės nepakankamos."</string>
+    <string msgid="4296252229544252834" name="copy_message_text">"Kopijuoti tekstą"</string>
+    <string msgid="6838806653341967550" name="message_options">"Pranešimo parinktys"</string>
+    <string msgid="3501759384739796431" name="slideshow_options">"Skaidrių demonstracijos parinktys"</string>
+    <string msgid="7307578107431739359" name="move_up">"Perkelti aukštyn"</string>
+    <string msgid="6356509518429479053" name="move_down">"Perkelti žemyn"</string>
+    <string msgid="2225604354024914900" name="remove_slide">"Pašalinti skaidrę"</string>
+    <string msgid="9140721399423564187" name="add_slide">"Pridėti skaidrę"</string>
+    <string msgid="563319570849475501" name="add_slide_hint">"Pasirinkite, kad sukurtumėte naują skaidrę."</string>
+    <string msgid="5054239124146413609" name="discard_slideshow">"Atmesti skaidrių demonstraciją"</string>
+    <string msgid="5077675385448696846" name="slide_show_part">"<xliff:g id="PART">%1$s</xliff:g> / <xliff:g id="TOTAL">%2$s</xliff:g> dalis"</string>
+    <string msgid="2164068850029476539" name="remove_text">"Pašalinti tekstą"</string>
+    <string msgid="7819574884962571479" name="add_picture">"Pridėti paveikslėlį"</string>
+    <string msgid="6378701749074289096" name="remove_picture">"Pašalinti paveikslėlį"</string>
+    <string msgid="3827442822987116233" name="add_music">"Pridėti muziką"</string>
+    <string msgid="858889733416015223" name="remove_music">"Pašalinti muziką"</string>
+    <string msgid="7816866867806595144" name="add_video">"Pridėti vaizdo įrašą"</string>
+    <string msgid="5258603891528497799" name="remove_video">"Pašalinti vaizdo įrašą"</string>
+    <string msgid="224029549150332986" name="to_hint">"Kam"</string>
+    <string msgid="4296714962311604126" name="subject_hint">"Tema"</string>
+    <string msgid="7103751293360532684" name="add_attachment">"Pridėti"</string>
+    <string msgid="7616134948428265870" name="add_subject">"Pridėti temą"</string>
+    <string msgid="1624800293064498479" name="discard">"Atmesti"</string>
+    <string msgid="7929667761715467136" name="view">"Žiūrėti"</string>
+    <string msgid="7587904998114459388" name="replace">"Pakeisti"</string>
+    <string msgid="4625444913256213175" name="remove">"Pašalinti"</string>
+    <string msgid="4589898724889248486" name="send">"Siųsti"</string>
+    <string msgid="1587631213714914559" name="mms">"MMS"</string>
+    <string msgid="2933162044872550662" name="send_mms">"Siųsti MMS"</string>
+    <string msgid="2663426830306307194" name="all_threads">"Visos gijos"</string>
+    <string msgid="3539985471008581265" name="type_to_compose_text_enter_to_send">"Įveskite pranešimą"</string>
+    <string msgid="7860109685511253191" name="open_keyboard_to_compose_message">"Jei norite įvesti pranešimą, atidarykite klaviatūrą"</string>
+    <string msgid="1961357529661045180" name="compressing">"Paveikslėlis per didelis. Glaudinama..."</string>
+    <string msgid="5037111178813903722" name="unsupported_media_format">"Nepalaikomas <xliff:g id="NAME">%1$s</xliff:g> formatas"</string>
+    <string msgid="7573116916321879964" name="select_different_media">"Pasirinkite kitą <xliff:g id="NAME">%1$s</xliff:g>."</string>
+    <string msgid="6027753647094742437" name="exceed_message_size_limitation">"Pasiekta pranešimo dydžio riba."</string>
+    <string msgid="2639367545165352543" name="message_too_big_for_video">"Šis pranešimas per didelis, kad būtų pridėtas vaizdo įrašas."</string>
+    <string msgid="8272471485019037446" name="failed_to_add_media">"Apgailestaujame, negalite pridėti šio <xliff:g id="NAME">%1$s</xliff:g> prie savo pranešimo."</string>
+    <string msgid="5608354151631833669" name="failed_to_resize_image">"Paveikslėlio dydis nepakeistas."</string>
+    <string msgid="4897031754321114959" name="resize_image_error_information">"Apgailestaujame, net pakeistus dydį, šis paveikslėlis per didelis siųsti."</string>
+    <string msgid="276280492803486464" name="forward_prefix">"Prs.: "</string>
+    <string msgid="6078326880056142781" name="discard_message">"Atmesti"</string>
+    <string msgid="2667664943003796133" name="discard_message_reason">"Pranešimas bus atmestas, nes nėra tinkamų jo gavėjų."</string>
+    <string msgid="1485388396900997383" name="has_invalid_recipient">&lt;<xliff:g id="NAME">%1$s</xliff:g>&gt;</string>
+    <string msgid="4573835601024786416" name="invalid_destination">"Netinkamas paskirties vietos adresas."</string>
+    <string msgid="9178218144019626176" name="service_not_activated">"Paslauga nesuaktyvinta tinkle."</string>
+    <string msgid="1908877102600048515" name="service_message_not_found">"Pranešimo galiojimo laikas pasibaigęs arba jis nepasiekiamas."</string>
+    <string msgid="5418984934499160536" name="service_network_problem">"Tinklo klaidos problema."</string>
+    <string msgid="7315539322634238519" name="invalid_recipient_message">"Ištaisykite gavėją (-us), nes jis (jie) negaus pranešimo."</string>
+    <string msgid="3918913277571649400" name="cannot_send_message">"Neįmanoma siųsti šio pranešimo"</string>
+    <string msgid="8745080126044054343" name="cannot_send_message_reason">"Nėra teisingų pranešimo gavėjų."</string>
+    <string msgid="84606990079390099" name="cannot_forward_drm_obj">"Negalima persiųsti DRM objekto, įtraukto į pranešimą."</string>
+    <string msgid="2980023239017588627" name="converting_to_picture_message">"Konvertuojama į multimedijos pranešimą..."</string>
+    <string msgid="6374423235426015422" name="converting_to_text_message">"Konvertuojama į teksto pranešimą..."</string>
+    <string msgid="8437666385579890987" name="cannot_add_slide_anymore">"Negalima pridėti daugiau skaidrių."</string>
+    <string msgid="4721981351130823908" name="cannot_add_picture_and_video">"Vienoje skaidrėje negalima pridėti vaizdo įrašo ir paveikslėlio."</string>
+    <string msgid="5026354972915392301" name="cannot_save_message">"Negalima išsaugoti pranešimo."</string>
+    <string msgid="2503018972659880692" name="message_saved_as_draft">"Pranešimas išsaugotas kaip juodraštis."</string>
+    <string msgid="4239709214735078881" name="too_many_recipients">"Nurodyta per daug šio pranešimo gavėjų (<xliff:g id="CURRENTCOUNT">%1$s</xliff:g>). Apribojimas yra <xliff:g id="MAXLIMIT">%2$s</xliff:g> gavėjai (-ų)."</string>
+    <string msgid="3774037894899750070" name="too_many_attachments">"Priedų skaičius apribotas iki <xliff:g id="MAXLIMIT">%1$s</xliff:g>. Bus pridėti (-a) tik <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> pirmi (-ų)."</string>
+    <string msgid="2034535554212405529" name="adding_attachments_title">"Pridedami priedai"</string>
+    <string msgid="5871373105122355632" name="adding_attachments">"Palaukite, kol prie skaidrių demonstracijos bus pridėta elementų."</string>
+    <string msgid="1232338692400726385" name="building_slideshow_title">"Kuriama skaidrių demonstracija"</string>
+    <string msgid="253920977253666735" name="cannot_play_audio">"Negalima leisti garso įrašo."</string>
+    <string msgid="5438149136136446756" name="preview">"Peržiūra"</string>
+    <string msgid="6824095909448728427" name="preview_slideshow">"Peržiūra"</string>
+    <string msgid="3171240952601443619" name="replace_image">"Pakeisti paveikslėlį"</string>
+    <string msgid="6617032324007824096" name="duration_sec">"Trukmė (<xliff:g id="DURATION">%s</xliff:g> sek.)"</string>
+    <string msgid="5981097971537625852" name="duration_selector_title">"Skaidrės trukmė "</string>
+    <string msgid="7344600117972450771" name="layout_selector_title">"Skaidrių demonstracijos išdėstymas "</string>
+    <string msgid="6811021650398972346" name="layout_top">"Išdėstymas (viršus)"</string>
+    <string msgid="5822765871095491843" name="layout_bottom">"Išdėstymas (apačia)"</string>
+    <string msgid="7769792471457574059" name="type_to_compose_text_or_leave_blank">"Įveskite pranešimą arba palikite tuščią"</string>
+    <string msgid="8005480904677546322" name="duration_not_a_number">"Trukmė turi būti skaičius"</string>
+    <string msgid="109945354056393575" name="duration_zero">"Trukmė turi būti didesnė nei nulis sekundžių"</string>
+    <string msgid="6886003523109967972" name="secs">"sek."</string>
+  <string-array name="select_dialog_items">
+    <item msgid="4840183714016984112">"1 sek."</item>
+    <item msgid="3734955613666864447">"2 sek."</item>
+    <item msgid="6032232473048379828">"3 sek."</item>
+    <item msgid="5978471781525927827">"4 sek."</item>
+    <item msgid="4888440297621208402">"5 sek."</item>
+    <item msgid="6047246213264166841">"6 sek."</item>
+    <item msgid="2327501250056533797">"7 sek."</item>
+    <item msgid="3400770414689795703">"8 sek."</item>
+    <item msgid="4358760614161107970">"9 sek."</item>
+    <item msgid="2618179407176906471">"10 sek."</item>
+    <item msgid="7786079681602275449">"Kitas"</item>
+  </string-array>
+    <string msgid="1414670584423909451" name="menu_view_contact">"Žiūrėti adresatą"</string>
+    <string msgid="2978074583938544513" name="menu_add_to_contacts">"Pridėti prie Adresinės"</string>
+    <string msgid="2776075636669924968" name="hidden_sender_address">"Paslėptas siuntėjo adresas"</string>
+    <string msgid="3246158147503160811" name="yes">Gerai</string>
+    <string msgid="4289742508556913860" name="no">"Atšaukti"</string>
+    <string msgid="4642365398263275979" name="set">"Nustatyti"</string>
+    <string msgid="1888432400937785115" name="play">"Paleisti"</string>
+    <string msgid="5912118407791492696" name="edit">"Redaguoti"</string>
+    <string msgid="1996751738286080976" name="try_to_send">"Bandyti siųsti"</string>
+    <string msgid="6650089610332670157" name="preferences_title">"Nustatymai"</string>
+    <string msgid="7165341506551155053" name="restore_default">"Atkurti numatytuosius nustatymus"</string>
+    <string msgid="4860726154770053004" name="pref_notification_settings_title">"Įspėjimų nustatymai"</string>
+    <string msgid="2573616208360684392" name="pref_mms_settings_title">"Daugialypės terpės (MMS) nustatymai"</string>
+    <string msgid="9088516111717417514" name="pref_sms_settings_title">"Teksto pranešimų (SMS) nustatymai"</string>
+    <string msgid="2531726671883516470" name="pref_sms_storage_title">"Saugyklos nustatymai"</string>
+    <string msgid="4141349892597640864" name="pref_summary_manage_sim_messages">"Valdyti SIM kortelėje išsaugotus pranešimus"</string>
+    <string msgid="4874657984217756112" name="pref_summary_mms_delivery_reports">"Pateikti užklausą kiekvieno išsiųsto pranešimo pristatymo ataskaitai"</string>
+    <string msgid="2748323864008907440" name="pref_summary_mms_read_reports">"Pateikti užklausą kiekvieno išsiųsto pranešimo perskaitymo ataskaitai"</string>
+    <string msgid="5852207702358546129" name="pref_summary_sms_delivery_reports">"Pateikti užklausą kiekvieno išsiųsto pranešimo pristatymo ataskaitai"</string>
+    <string msgid="7719538116486177613" name="pref_summary_auto_delete">"Ištrinti senus pranešimus, kai pasiekiami apribojimai"</string>
+    <string msgid="597128041393045216" name="pref_summary_delete_limit">"<xliff:g id="COUNT">%1$s</xliff:g> pranešimai (-ų) viename pokalbyje"</string>
+    <string msgid="2266928687440696745" name="pref_summary_mms_group_mms">"Naudokite MMS, kad siųstumėte vieną pranešimą, kai yra keli gavėjai"</string>
+    <string msgid="7820895261757881177" name="pref_title_manage_sim_messages">"Valdyti SIM kortelės pranešimus"</string>
+    <string msgid="6666857926679451910" name="pref_title_mms_delivery_reports">"Pristatymo ataskaitos"</string>
+    <string msgid="1251698526583908432" name="pref_title_mms_group_mms">"Pranešimų siuntimas grupėms"</string>
+    <string msgid="4882179829495828541" name="pref_title_mms_read_reports">"Skaityti ataskaitas"</string>
+    <string msgid="876064208254451038" name="pref_title_sms_delivery_reports">"Pristatymo ataskaitos"</string>
+    <string msgid="7227835692631701134" name="pref_title_auto_delete">"Ištrinti senus pranešimus"</string>
+    <string msgid="6890538316799296878" name="pref_title_sms_delete">"Teksto pranešimo apribojimas"</string>
+    <string msgid="7265878070847351664" name="pref_title_mms_delete">"Daugialypės terpės pranešimo apribojimas"</string>
+    <string msgid="9118792213953729414" name="pref_title_notification_enabled">"Įspėjimai"</string>
+    <string msgid="4251208067092761057" name="pref_title_notification_vibrateWhen">"Vibruoti"</string>
+    <string msgid="8667533917574559659" name="pref_title_notification_ringtone">Garsas</string>
+    <string msgid="3202539743892934926" name="pref_messages_to_save">"Nustatyti išsaugomų pranešimų skaičių"</string>
+    <string msgid="7981237991326592780" name="silent_ringtone">"Tylus"</string>
+    <string msgid="4021878285474431355" name="pref_title_mms_auto_retrieval">"Automatiškai nuskaityti"</string>
+    <string msgid="925163257363757048" name="pref_summary_mms_auto_retrieval">"Automatiškai nuskaityti pranešimus"</string>
+    <string msgid="6016227402731817804" name="pref_title_mms_retrieval_during_roaming">"Automatinis tarptinklinio ryšio nuskaitymas"</string>
+    <string msgid="2427892806582531020" name="pref_summary_mms_retrieval_during_roaming">"Automatiškai nuskaityti pranešimus, kai veikia tarptinklinis ryšys"</string>
+    <string msgid="5810813994465120375" name="confirm_dialog_title">"Ištrinti"</string>
+    <string msgid="8179085718150932242" name="confirm_dialog_locked_title">"Ištrinti užrakintą pranešimą?"</string>
+  <plurals name="confirm_delete_conversation">
+    <item msgid="350118636090800360" quantity="one">"Bus ištrintas vienas pokalbis"</item>
+    <item msgid="6918094955792544014" quantity="other">"Bus ištrinta pokalbių: <xliff:g id="NUMBER">%1$s</xliff:g>"</item>
+  </plurals>
+    <string msgid="6115966687389279855" name="confirm_delete_conversation">"Bus ištrinta visa gija."</string>
+    <string msgid="9036166685235092757" name="confirm_delete_all_conversations">"Bus ištrintos visos gijos."</string>
+    <string msgid="9121480656609809591" name="confirm_delete_message">"Pranešimas bus ištrintas."</string>
+    <string msgid="5863578342246077057" name="confirm_delete_locked_message">"Ar tikrai norite ištrinti šį užrakintą pranešimą?"</string>
+    <string msgid="65701806463341097" name="confirm_delete_all_SIM_messages">"Bus ištrinti visi SIM kortelėje esantys pranešimai."</string>
+    <string msgid="767624259182679915" name="confirm_delete_SIM_message">"Bus ištrintas šis SIM kortelėje esantis pranešimas."</string>
+    <string msgid="7545321606698162261" name="delete_unlocked">"Ištrinti užrakintus pranešimus"</string>
+    <string msgid="1409973060081564612" name="delete">"Ištrinti"</string>
+    <string msgid="5754828781497722394" name="select_conversations">"Pasirinkti pokalbius"</string>
+    <string msgid="2095684444005566703" name="no_conversations">"Nėra pokalbių"</string>
+    <string msgid="6493664168168047746" name="cannot_get_details">"Negalima gauti išsamios informacijos"</string>
+    <string msgid="9223295113731634528" name="message_details_title">"Išsami pranešimo informacija"</string>
+    <string msgid="7975373966795945566" name="message_type_label">"Tipas: "</string>
+    <string msgid="8196464345251877972" name="text_message">"Teksto pranešimas"</string>
+    <string msgid="1512644521083533071" name="multimedia_message">"Daugialypės terpės pranešimas"</string>
+    <string msgid="4124031788554972308" name="multimedia_notification">"Daugialypės terpės pranešimo įspėjimas"</string>
+    <string msgid="2055117571548171397" name="from_label">"Nuo: "</string>
+    <string msgid="5837363600471845801" name="to_address_label">"Kam: "</string>
+    <string msgid="530867161453958774" name="bcc_label">"Nematoma kopija: "</string>
+    <string msgid="2722190650145251584" name="sent_label">"Išsiųstas: "</string>
+    <string msgid="8618029024731693906" name="received_label">"Gauta: "</string>
+    <string msgid="4183160415593488207" name="saved_label">"Išsaugota: "</string>
+    <string msgid="8721241914144101631" name="subject_label">"Tema: "</string>
+    <string msgid="4698016210013319786" name="message_size_label">"Pranešimo dydis: "</string>
+    <string msgid="7397600367853359607" name="priority_label">"Pirmenybė: "</string>
+    <string msgid="5627897207952009214" name="priority_high">"Aukšta"</string>
+    <string msgid="5715227727384683550" name="priority_normal">"Įprastas"</string>
+    <string msgid="8928782666023373987" name="priority_low">"Žemas"</string>
+    <string msgid="5115748690481550562" name="message_class_label">"Pranešimo klasė: "</string>
+    <string msgid="5810068247647058769" name="error_code_label">"Klaidos kodas: "</string>
+    <string msgid="3056513240155967777" name="menu_edit">"Redaguoti"</string>
+    <string msgid="2610286783513247420" name="menu_delete_messages">"Ištrinti pranešimus"</string>
+    <string msgid="7603793126077557472" name="menu_lock">"Užrakinti"</string>
+    <string msgid="6662865558677424039" name="menu_unlock">"Atrakinti"</string>
+    <string msgid="3721000641648594602" name="sim_copy_to_phone_memory" product="tablet">"Kopijuoti į planšetinio kompiuterio atmintį"</string>
+    <string msgid="5895767417844881971" name="sim_copy_to_phone_memory" product="default">"Kopijuoti į telefono atmintį"</string>
+    <string msgid="610790510655316922" name="sim_delete">"Ištrinti"</string>
+    <string msgid="3989147182100584333" name="sim_manage_messages_title">"Teksto pranešimai SIM kortelėje"</string>
+    <string msgid="1997173541766393706" name="sim_view">"Žiūrėti"</string>
+    <string msgid="1763174398613486328" name="sim_empty">"SIM kortelėje pranešimų nėra."</string>
+    <string msgid="5361719578869045764" name="delivery_header_title">"Ataskaita"</string>
+    <string msgid="8253075950774894961" name="status_none">"(Nėra)"</string>
+    <string msgid="2739860824607984892" name="status_pending">"Laukiama"</string>
+    <string msgid="7576195253780627332" name="status_read">"Skaityti"</string>
+    <string msgid="7264334589461906965" name="status_received">"Gauta"</string>
+    <string msgid="1998776666856593544" name="status_failed">"Nesėkminga"</string>
+    <string msgid="8555305495998700198" name="status_unread">"Neperskaitytas"</string>
+    <string msgid="2613641949065942678" name="status_rejected">"Atmesta"</string>
+    <string msgid="3922667485312634446" name="recipient_label">"Gavėjas: "</string>
+    <string msgid="7283375460919181660" name="status_label">"Būsena: "</string>
+    <string msgid="3514011729156932928" name="delivered_label">"Pristatyta: "</string>
+    <string msgid="6439985727687107742" name="attach_image">"Paveikslėliai"</string>
+    <string msgid="4280601313184373837" name="attach_take_photo">Daryti nuotrauką</string>
+    <string msgid="4264272693501538294" name="attach_video">"Vaizdo įrašai"</string>
+    <string msgid="3099814114743078615" name="attach_record_video">"Fiksuoti vaizdo įrašą"</string>
+    <string msgid="3149325985970669609" name="attach_sound">"Garso įrašas"</string>
+    <string msgid="6011431304469858929" name="attach_record_sound">"Įrašyti garso įrašą"</string>
+    <string msgid="3497422151091037063" name="attach_slideshow">"Skaidrių demonstracija"</string>
+    <string msgid="4201966447623311931" name="select_bottom_text">"Tekstas apačioje"</string>
+    <string msgid="6734183477539197815" name="select_top_text">"Tekstas viršuje"</string>
+    <string msgid="4478305651728684364" name="delivery_toast_body">"Gautas pranešimas nuo %s"</string>
+    <string msgid="7684007285202109490" name="notification_multiple">"<xliff:g id="COUNT">%s</xliff:g> neperskaityti (-ų) pranešimai (-ų)."</string>
+    <string msgid="332602028959557541" name="notification_multiple_title">"Nauji pranešimai"</string>
+    <string msgid="4081781748475686236" name="notification_failed_multiple">"Nepavyko išsiųsti <xliff:g id="COUNT">%s</xliff:g> pranešimų."</string>
+    <string msgid="1112032024904397126" name="notification_failed_multiple_title">"Pranešimai neišsiųsti"</string>
+    <string msgid="1809829051697702810" name="sim_full_title">"SIM kortelė pilna"</string>
+    <string msgid="6241664980790322925" name="sim_full_body">"Ištrinkite kai kuriuos pranešimus, kad atsirastų vietos naujiems."</string>
+    <string msgid="6041287140125011854" name="sms_full_title">"Teksto pranešimų atmintis pilna"</string>
+    <string msgid="7757490997215434514" name="sms_full_body">"Gaunamas pranešimas atmestas dėl pilnos atminties. Ištrinkite senus pranešimus."</string>
+    <string msgid="8548394922491529811" name="sms_rejected_title">"Teksto pranešimas atmestas"</string>
+    <string msgid="7187754586609631934" name="sms_rejected_body">"Gaunamas pranešimas atmestas dėl nežinomos priežasties."</string>
+    <string msgid="3842064092332309756" name="type_audio">"Garso įrašas"</string>
+    <string msgid="4091928975383609443" name="type_picture">"Nuotrauka"</string>
+    <string msgid="8521556159545168441" name="type_video">"Vaizdo įrašas"</string>
+    <string msgid="3155110885840591914" name="confirm">"Patvirtinti"</string>
+    <string msgid="6997117678914261250" name="message_send_read_report">"Bus siunčiama skaitymo ataskaita."</string>
+    <string msgid="8869479754825264671" name="message_queued">"Šiuo metu neįmanoma išsiųsti jūsų pranešimo. Jis bus išsiųstas, kai paslauga taps galima."</string>
+    <string msgid="7880740763778173551" name="fdn_check_failure">"Pranešimus galite siųsti tik fiksuoto rinkimo numeriais."</string>
+    <string msgid="4168963736134552285" name="no_subject">"(nėra temos)"</string>
+    <string msgid="4929330613278853635" name="unknown_sender">"Nežinomas siuntėjas"</string>
+    <string msgid="2457080452886498701" name="dl_failure_notification">"Pranešimo <xliff:g id="SUBJECT">%1$s</xliff:g> nuo <xliff:g id="FROM">%2$s</xliff:g> atsisiuntimas buvo nesėkmingas."</string>
+    <string msgid="1347801608211628177" name="rate_limit_surpassed">"Patvirtinti"</string>
+    <string msgid="234228299751243067" name="confirm_rate_limit">"Siunčiama daug daugialypės terpės pranešimų. Ar gerai?"</string>
+    <string msgid="5722226064394767921" name="message_download_failed_title">"Pranešimas neatsisiųstas"</string>
+    <string msgid="3469894907399046372" name="message_send_failed_title">"Pranešimas neišsiųstas"</string>
+    <string msgid="2740907094762116644" name="message_failed_body">"Pasirinkite, kad peržiūrėtumėte pranešimą ir bandykite dar kartą."</string>
+    <string msgid="4486286146421650880" name="download_later">"Šiuo metu neįmanoma atsisiųsti. Vėliau bandykite dar kartą."</string>
+    <string msgid="505932916503312015" name="no_apn">"Įrenginyje nenurodytas APN."</string>
+    <string msgid="3120822451872772124" name="select_audio">"Pasirinkti garso įrašą"</string>
+    <string msgid="757028609638184856" name="copy_to_sdcard">"Išsaugoti priedą"</string>
+    <string msgid="6940309183311068648" name="copy_to_sdcard_success">"Priedas išsaugotas"</string>
+    <string msgid="4209780336940754675" name="copy_to_sdcard_fail">"Neįmanoma išsaugoti priedo"</string>
+    <string msgid="2310157075045201051" name="save_ringtone">"Išsaugoti kaip skambėjimo toną"</string>
+    <string msgid="6616730290861857836" name="saved_ringtone">"Skambėjimo tonas išsaugotas"</string>
+    <string msgid="5447210504935083544" name="saved_ringtone_fail">"Skambėjimo tono išsaugojimas nepavyko"</string>
+    <string msgid="4964504393061025071" name="menu_insert_smiley">"Įterpti šypsenėlę"</string>
+    <string msgid="4288356090262299071" name="menu_group_participants">"Grupės dalyviai"</string>
+    <string msgid="600168208731216059" name="select_link_title">"Pasirinkti veiksmą"</string>
+    <string msgid="1923958526266726635" name="slide_number">"<xliff:g id="NUMBER">%s</xliff:g> skaidrė"</string>
+  <plurals name="slide_duration">
+    <item msgid="1654101988340583935" quantity="one">"<xliff:g id="NUMBER">%s</xliff:g>sek."</item>
+    <item msgid="7887190171856293871" quantity="few">"<xliff:g id="NUMBER">%s</xliff:g> sek."</item>
+    <item msgid="3736425355579939863" quantity="other">"<xliff:g id="NUMBER">%s</xliff:g> sek."</item>
+  </plurals>
+    <string msgid="2957463094232916364" name="delivery_report_activity">"Pristatymo ataskaita"</string>
+    <string msgid="8810530813311077716" name="storage_limits_activity">"Saugyklos apribojimai"</string>
+    <string msgid="7048606979485031693" name="change_duration_activity">"Keisti trukmę"</string>
+    <string msgid="8751493388760050529" name="edit_slideshow_activity">"Redaguoti skaidrių demonstraciją"</string>
+    <string msgid="1254938236543727019" name="recipient_list_activity">"Grupės dalyviai"</string>
+    <string msgid="8752829671778696983" name="edit_slide_activity">"Redaguoti skaidrę"</string>
+    <string msgid="5658249461317434432" name="slideshow_activity">"Skaidrių demonstracija"</string>
+    <string msgid="8474176218999130627" name="class_0_message_activity">"0 pranešimų klasė"</string>
+    <string msgid="6042598929386174964" name="search_label">"Pranešimai"</string>
+    <string msgid="7183732852849365466" name="search_hint">"Ieškoti pranešimų"</string>
+    <string msgid="7560238620274735199" name="search">"Pranešimai"</string>
+    <string msgid="4104004595086437572" name="search_setting_description">"Tekstas jūsų pranešimuose"</string>
+    <string msgid="645052646985297065" name="search_empty">"Nėra atitikčių"</string>
+  <plurals name="search_results_title">
+    <item msgid="4657073733087431350" quantity="one">"Rezultatai, ieškant pagal „<xliff:g id="SEARCH">%2$s</xliff:g>“: <xliff:g id="NUMBER">%1$s</xliff:g>"</item>
+    <item msgid="6196382287749539209" quantity="other">"Rezultatai, ieškant pagal „<xliff:g id="SEARCH">%2$s</xliff:g>“: <xliff:g id="NUMBER">%1$s</xliff:g>"</item>
+  </plurals>
+    <string msgid="4127805495662693154" name="search_history">"<xliff:g id="COUNT">%1$s</xliff:g> rezultatai (-ų) pagal „<xliff:g id="SEARCH">%2$s</xliff:g>“"</string>
+    <string msgid="8510295993632032904" name="confirm_clear_search_title">"Išvalyti"</string>
+    <string msgid="8731877031837077478" name="confirm_clear_search_text">"Paieškos istorija bus išvalyta."</string>
+    <string msgid="6159758850628148164" name="pref_mms_clear_search_history_title">"Išvalyti paieškos istoriją"</string>
+    <string msgid="7960005384066460035" name="pref_mms_clear_search_history_summary">"Išvalyti ankstesnes pranešimų paieškas, kad jos nebūtų rodomos paieškos laukelyje"</string>
+    <string msgid="6847069284991531310" name="save">"Išsaugoti"</string>
+    <string msgid="7074684882530693016" name="storage_limits_title">"Apriboti pranešimus"</string>
+    <string msgid="8729608389698270388" name="storage_limits_message">"Ar norite apriboti viename pokalbyje išsaugomų pranešimų skaičių?"</string>
+    <string msgid="4952781049308537373" name="storage_limits_setting">"Nustatyti apribojimus"</string>
+    <string msgid="1433841310158458034" name="storage_limits_setting_dismiss">"Nėra apribojimų"</string>
+    <string msgid="8005932837414848242" name="too_many_unsent_mms">"Dabar pranešimo siųsti negalima. Yra per daug neišsiųstų daugialypės terpės pranešimų."</string>
+    <string msgid="2054406576361149715" name="sending_message">"SIUNČIAMA..."</string>
+    <string msgid="650087588867628044" name="pick_too_many_recipients">"Per daug gavėjų"</string>
+    <string msgid="2962810172527532357" name="adding_recipients">"Pridedama gavėjų..."</string>
+    <string msgid="5402575086540243019" name="draft_separator">", "</string>
+    <string msgid="4434763220590778012" name="message_count_format">" <xliff:g id="NUMBER">%1$s</xliff:g>"</string>
+    <string msgid="3629968600032690007" name="message_count_notification">"Naujų pranešimų: <xliff:g id="NUMBER">%1$s</xliff:g>"</string>
+  <plurals name="message_count_notification_overflow">
+    <item msgid="3340591167508150806" quantity="one">"ir dar <xliff:g id="NUMBER">%1$s</xliff:g> praneš."</item>
+    <item msgid="1393002799298501480" quantity="other">"ir dar <xliff:g id="NUMBER">%1$s</xliff:g> praneš."</item>
+  </plurals>
+    <string msgid="5177386717626893507" name="error_state">"Nepastovi būsena"</string>
+    <string msgid="7918866106335387710" name="error_state_text">"Gijų ir gavėjų būsena nenuosekli. Sukurkite trikčių ataskaitą ir pateikite ją adresu http://go/droidanizer."</string>
+  <plurals name="recipient_count">
+    <item msgid="7338580381574463136" quantity="other">"<xliff:g id="NUMBER">%1$s</xliff:g> žm."</item>
+  </plurals>
+    <string msgid="7275920132410734671" name="view_more_conversations">"Peržiūrėti daugiau pokalbių"</string>
+    <string msgid="2867960243300539143" name="attachment_audio">"Garso įrašas"</string>
+    <string msgid="5867689101881763318" name="attachment_slideshow">"Skaidrių demonstracija"</string>
+    <string msgid="4252062022156694591" name="attachment_video">"Vaizdo įrašas"</string>
+    <string msgid="3709286281567284296" name="attachment_picture">"Nuotrauka"</string>
+    <string msgid="2334673105226536422" name="notification_separator">"  "</string>
+    <string msgid="213598026698964628" name="enumeration_comma">", "</string>
+    <string msgid="4188999027493614617" name="message_timestamp_format">"<xliff:g id="STRING_0">%1$s</xliff:g>–<xliff:g id="STRING_1">%2$s</xliff:g>"</string>
+<string name="prefDialogTitle_vibrateWhen">"Vibruoti"</string>
+    <string name="loading_conversations">Įkeliami pokalbiai.</string>
+    <string name="menu_delete_all_messages">Ištrinti visus pranešimus</string>
+    <plurals name="notification_multiple">
+     <item quantity="one">neperskaitytų pranešimų: %d</item>
+     <item quantity="other">neperskaitytų pranešimų: %d</item>
+   </plurals>
+    <string name="cell_broadcast">Tinklo transliacija</string><!--modify by liujia5 for HQ01823169 20160427-->
+    <string name="cell_broadcast_title">Mobiliojo telefono transliavimo nuostatos</string>
+    <string name="cell_broadcast_settings">SIM kortelės korinės transliacijos parametrai</string>
+    <string name="menu_insert_quick_text">Įterpti greitąjį tekstą</string>
+    <string name="select_quick_text">Pasirinkti greitąjį tekstą</string>
+    <string name="add">"Prid."</string>
+    <string name="quick_text_editor">Redaguoti greitąjį tekstą</string>
+    <string name="modify_successful">Sėkmingai pakeista</string>
+    <string name="modify_unsuccessful">Pakeisti nepavyko!</string>
+    <string name="delete_successful">Sėkmingai ištrinta</string>
+    <string name="delete_unsuccessful">Ištrinti nepavyko!</string>
+    <string name="add_quick_text_successful">Sėkmingai pridėtas greitasis tekstas</string>
+    <string name="already_have_quick_text">Šis greitasis tekstas jau yra!</string>
+    <string name="file_attachment_common_name">Daugybinis failas(<xliff:g id="text">%s</xliff:g>)</string>
+    <string name="file_attachment_contains">turi</string>
+    <string name="file_attachment_files">failų</string>
+    <string name="save_attachment">"Išsaugoti priedą"</string>
+    <string name="save_multi_attachment_notes">Daugybinis failas yra sudarytas iš kelių failų. Patikrinti ir išsaugoti juos?</string>
+    <string name="save_single_attachment_notes">MMS yra nepalaikomo formato failas. Išsaugoti jį Failų tvarkytuve?</string>
+    <string name="multi_files">Daugybiniai failai</string>
+    <string name="save_single_supportformat_attachment_notes">Išsaugoti jį Failų tvarkytuve?</string>
+    <string name="exceed_editor_size_limitation">Pasiekta teksto ilgio riba.</string>
+    <string name="add_top_slide">Pridėti skaidrę viršuje</string>
+    <string name="add_bottom_slide">Pridėti skaidrę apačioje</string>
+    <string name="pref_sms_signature">Parašas</string>
+<string name="pref_sms_enable_signature">Įjungti parašą</string>
+<string name="pref_sms_enable_signature_summary">Įtraukti asmeninį parašą į savo žinutes</string>
+<string name="pref_sms_personal_signature">Redaguoti parašą</string>
+<string name="pref_sms_personal_signature_summary">Parašo turinys</string>
+<string name="dialog_signatrue_title">Įveskite savo parašą</string>
+<string name="default_signature">Išsiųsta iš „Huawei“</string>
+<string name="menu_resend">Persiųsti</string>
+<string name="menu_slect_all">Žymėt.viską</string>
+<string name="sim_no_service">Nėra ryšio</string>
+<string name="Prohibit_Send">Vaikų režimu žinučių siuntimo funkcija yra apribota</string>
+<string name="Prohibit_delete">Vaikų režimu žinučių naikinimo funkcija yra apribota</string>
+<string name="mms_deliver_failed">Nepavyko išsiųsti multimedijos žinutės. Patikrinkite savo tinklo nustatymus arba gavėjo numerį</string>
+<string name="send_empty_message_title">Siųsti žinutę </string>
+<string name="send_empty_message_alert">Ar siųsti tuščią žinutę? </string>
+<string name="send_empty_message_yes">Gerai </string>
+<string name="send_empty_message_no">Atšaukti </string>
+<string name="menu_blacklist">Priekabiavimo filtras</string>
+<string name="black_list_manager_exception">Telefono tvarkytuvės nerasta. Įdiekite ją, tada galėsite naudotis šia funkcija.</string>
+<string name="more_menu">Meniu</string>
+<string name="vcard_text">Tekstas</string>
+<string name="vcard_mms">MMS „vCard“</string>
+<string name="attach_subjects">Tema</string>
+<string name="attach_common_phrases">Tipinės frazės</string>
+<string name="btn_call">Skambinti</string>
+<string name="menu_add_to_black_list">Įtraukti į juodąjį sąrašą</string>
+<string name="add_to_black_list">Įtraukta į juodąjį sąrašą</string>
+<string name="menu_remove_from_black_list">Šalinti iš juodojo sąrašo</string>
+<string name="remove_from_black_list">Pašalinta iš juodojo sąrašo</string>
+<string name="system_notification_tone">Sistemos pranešimo tonas</string>
+<string name="signatrue_limit_toast">Pasiekta žinutės riba.</string>
+ <string name="invalid_recipient">"Netinkamai nurodytas gavėjas:&lt;<xliff:g id="NAME">%1$s</xliff:g>&gt;"</string>
+</resources>

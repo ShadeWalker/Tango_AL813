@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2010-2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources>
+
+    
+    <string name="presetreverb_name">Iš anksto nustatytas dirbtinis garso tonas</string>
+
+    
+    <string-array name="reverb_preset_list">
+        <item>"Nėra"</item>
+        <item>Maža patalpa</item>
+        <item>Vidutinio dydžio patalpa</item>
+        <item>Didelė patalpa</item>
+        <item>Vidurinio dydžio salė</item>
+        <item>Didelė salė</item>
+        <item>Plokštinis dirbtinis garso tonas</item>
+    </string-array>
+
+    
+    <string name="eq_preset_normal">Normali</string>
+    <string name="eq_preset_classical">Klasikinė</string>
+    <string name="eq_preset_dance">Šokių muzika</string>
+    <string name="eq_preset_flat">Monotoniška</string>
+    <string name="eq_preset_folk">Liaudies muzika</string>
+    <string name="eq_preset_heavymetal">Sunkusis metalas</string>
+    <string name="eq_preset_hiphop">Hiphopas</string>
+    <string name="eq_preset_jazz">Džiazas</string>
+    <string name="eq_preset_pop">Popmuzika</string>
+    <string name="eq_preset_rock">Rokas</string>
+
+</resources>

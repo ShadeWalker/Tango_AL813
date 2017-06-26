@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="telecommAppLabel" product="default" msgid="3477737022166975496">"Telefoon"</string>
+    <string name="unknown" msgid="6878797917991465859">"Onbekend"</string>
+    <string name="notification_missedCallTitle" msgid="7554385905572364535">"Gemiste oproep"</string>
+    <string name="notification_missedCallsTitle" msgid="1361677948941502522">"Gemiste oproepen"</string>
+    <string name="notification_missedCallsMsg" msgid="4575787816055205600">"<xliff:g id="NUM_MISSED_CALLS">%s</xliff:g> gemiste oproepen"</string>
+    <string name="notification_missedCallTicker" msgid="504686252427747209">"Gemiste oproep van <xliff:g id="MISSED_CALL_FROM">%s</xliff:g>"</string>
+    <string name="notification_missedCall_call_back" msgid="2684890353590890187">"Terugbellen"</string>
+    <string name="notification_missedCall_message" msgid="3049928912736917988">"Bericht"</string>
+    <string name="accessibility_call_muted" msgid="2776111226185342220">"Oproep gedempt."</string>
+    <string name="accessibility_speakerphone_enabled" msgid="1988512040421036359">"Telefoonluidspreker is ingeschakeld."</string>
+    <string name="respond_via_sms_canned_response_1" msgid="2461606462788380215">"Kan nu niet opnemen. Alles goed?"</string>
+    <string name="respond_via_sms_canned_response_2" msgid="4074450431532859214">"Ik bel je zo terug."</string>
+    <string name="respond_via_sms_canned_response_3" msgid="3496079065723960450">"Ik bel je later."</string>
+    <string name="respond_via_sms_canned_response_4" msgid="1698989243040062190">"Kan nu niet opnemen. Bel me later."</string>
+    <string name="respond_via_sms_setting_title" msgid="3754000371039709383">"Snelle reacties"</string>
+    <string name="respond_via_sms_setting_title_2" msgid="6104662227299493906">"Snelle reacties bewerken"</string>
+    <string name="respond_via_sms_setting_summary" msgid="9150281183930613065"></string>
+    <string name="respond_via_sms_edittext_dialog_title" msgid="20379890418289778">"Snelle reactie"</string>
+    <string name="respond_via_sms_confirmation_format" msgid="7229149977515784269">"Bericht verzonden naar <xliff:g id="PHONE_NUMBER">%s</xliff:g>."</string>
+    <string name="outgoing_call_not_allowed" msgid="1435394568102165287">"Alleen noodoproepen zijn toegestaan door de apparaateigenaar"</string>
+    <string name="outgoing_call_error_no_phone_number_supplied" msgid="1940125199802007505">"Als u wilt bellen, moet u een geldig nummer invoeren."</string>
+    <string name="duplicate_video_call_not_allowed" msgid="3749211605014548386">"Oproep kan momenteel niet worden toegevoegd."</string>
+    <string name="no_vm_number" msgid="4164780423805688336">"Voicemailnummer ontbreekt"</string>
+    <string name="no_vm_number_msg" msgid="1300729501030053828">"Er is geen voicemailnummer op de SIM-kaart opgeslagen."</string>
+    <string name="add_vm_number_str" msgid="4676479471644687453">"Nummer toevoegen"</string>
+    <string name="outgoing_call_error_limit_exceeded">Oproep niet verzonden, limiet overschreden.</string>
+    <string name="handle_restricted">"beperkt"</string>
+    <string name="incall_error_supp_service_unknown" msgid="2991054870745666038">"Niet-ondersteunde service."</string>
+    <string name="incall_error_supp_service_switch" msgid="3503552565745872241">"Kan niet overschakelen tussen oproepen."</string>
+    <string name="incall_error_supp_service_separate" msgid="914362338192301746">"Kan oproep niet scheiden."</string>
+    <string name="incall_error_supp_service_transfer" msgid="2509871374644921632">"Kan oproep niet doorschakelen."</string>
+    <string name="incall_error_supp_service_conference" msgid="2505727299596357312">"Telefonische vergaderingen niet mogelijk."</string>
+    <string name="incall_error_supp_service_reject" msgid="7055164130563826216">"Kan oproep niet weigeren."</string>
+    <string name="incall_error_supp_service_hangup" msgid="7417583238334762737">"Kan oproepen niet vrijgeven."</string>
+
+    <string name="mo_code_unconditional_cf_active">Gesprek doorverbinden\nonvoorwaardelijk geactiveerd</string>
+    <string name="mo_code_some_cf_active">Oproep doorschakelen\nVoorwaardelijk</string>
+    <string name="mo_code_call_forwarded">Oproep doorgeschakeld</string>
+    <string name="mo_code_call_is_waiting">Gesprek in wacht</string>
+    <string name="mo_code_cug_call">Gesloten gebruikersgroep</string>
+    <string name="mo_code_outgoing_calls_barred">Uitgaande oproep geblokkeerd</string>
+    <string name="mo_code_incoming_calls_barred">Binnenkomend gesprek geblokkeerd aan de andere kant</string>
+    <string name="mo_code_clir_suppression_rejected">Beller-ID verzendservice controleren</string>
+    <string name="mo_code_call_deflected">Oproep doorgeschakeld</string>
+    <string name="mt_code_forwarded_call">Dit is een omgeleide oproep</string>
+    <string name="mt_code_cug_call">Gesloten gebruikersgroep</string>
+    <string name="mt_code_call_on_hold">Oproep in de wacht</string>
+    <string name="mt_code_call_retrieved">Oproep opgehaald</string>
+    <string name="mt_code_multi_party_call">Vergadergesprek</string>
+    <string name="mt_code_on_hold_call_released">Gesprek in wacht vrijgegeven</string>
+    <string name="mt_code_forward_check_received">Doorschakelen controle ontvangen SS-bericht</string>
+    <string name="mt_code_call_connecting_ect">Oproep overdragen</string>
+    <string name="mt_code_call_connected_ect">Oproepoverdracht actief</string>
+    <string name="mt_code_deflected_call">Dit is een omgeleide oproep</string>
+    <string name="mt_code_additional_call_forwarded">Extra binnenkomende oproep doorgeschakeld</string>
+    <string name="mt_code_forwarded_cf">Oproep doorgeschakeld</string>
+    <string name="mt_code_forwarded_cf_uncond">Oproep doorgeschakeld op onvoorwaardelijk</string>
+    <string name="mt_code_forwarded_cf_cond">Oproep doorgeschakeld op voorwaardelijk</string>
+    <string name="mt_code_forwarded_cf_busy">Oproep bezet doorgeschakeld</string>
+    <string name="mt_code_forwarded_cf_no_reply">Oproep doorgeschakeld bij geen antwoord</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Oproep doorgeschakeld bij niet bereikbaar</string>
+    <string name="notification_missedCallTitle">Gemiste oproep</string>
+</resources>

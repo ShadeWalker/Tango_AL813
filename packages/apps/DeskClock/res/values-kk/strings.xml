@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">"сағат"</string>
+    <string name="alarm_list_title">"Дабылдар"</string>
+    <string name="add_alarm">Дабыл қосу</string>
+    <string name="menu_desk_clock">Үстел сағаты</string>
+    <string name="menu_edit_alarm">Дабылды өңдеу</string>
+    <string name="delete_alarm">Дабылды жою</string>
+    <string name="enable_alarm">Дабылды қосу</string>
+    <string name="disable_alarm">Дабылды өшіру</string>
+    <string name="delete_alarm_confirm">Осы дабылды жою қажет пе?</string>
+    <string name="show_clock">Сағатты көрсету</string>
+    <string name="hide_clock">Сағатты жасыру</string>
+    <string name="label">Белгі</string>
+    <string name="default_label">"Дабыл"</string>
+    <string name="set_alarm">Дабылды орнату</string>
+    <string name="alarm_vibrate">Діріл</string>
+    <string name="alarm_repeat">"Қайталау"</string>
+    <string name="alert">Дабыл рингтоны</string>
+    <string name="ringtone">"Қоңырау әуені"</string>
+    <string name="time">"Уақыт"</string>
+    <string name="alarm_tomorrow">"ертең"</string>
+    <string name="alarm_today">Бүгін</string>
+    <string name="alarm_alert_wake_up">"Ояныңыз!"</string>
+    <string name="alarm_alert_off_action_text">Өшіру</string>
+    <string name="alarm_alert_dismiss_text">Қабылдамау</string>
+    <string name="alarm_alert_dismiss_now_text">Қазір болдырмау</string>
+    <string name="alarm_missed_title">Қабылданбаған дабыл</string>
+    <string name="alarm_missed_text"><xliff:g id="alarm_time">%s</xliff:g> - <xliff:g id="alarm_label">%s</xliff:g></string>
+    <string name="alarm_alert_snoozed_text">Қалғу</string>
+    <plurals name="alarm_alert_snooze_duration">
+        <item quantity="one">1 мин</item>
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> минут</item>
+    </plurals>
+    <string name="alarm_alert_off_text">Дабылды өшіру</string>
+    <string name="alarm_alert_snooze_text">Кейінге қалдыру</string>
+    <plurals name="alarm_alert_snooze_set">
+        <item quantity="one">1 минут кейінге қалдыру</item>
+        <item quantity="other"><xliff:g id="minutes">%d</xliff:g> минут мүлгу.</item>
+    </plurals>
+    <string name="alarm_alert_snooze_until"><xliff:g id="time">%s</xliff:g> уақытқа дейін мүлгу</string>
+    <string name="alarm_alert_predismiss_title">Келесі дабыл</string>
+    <string name="missed_alarm_has_been_deleted">Сіз қабылдамаған дабыл жойылды</string>
+    <skip/>
+    <string-array name="timer_notifications">
+        <item>Бір минуттан кем уақыт қалды</item>
+        <item><xliff:g id="HOURS" example="2hours">%1$s</xliff:g> <xliff:g id="MINUTES" example="2minutes">%2$s</xliff:g> қалды</item>
+        <item><xliff:g id="MINUTES" example="2minutes">%2$s</xliff:g> қалды</item>
+        <item><xliff:g id="HOURS" example="2hours">%1$s</xliff:g> <xliff:g id="MINUTES" example="2minutes">%2$s</xliff:g> қалды</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>Дабыл 1 минуттан кем уақыттан кейін іске қосылады.</item>
+        <item>Дабыл <xliff:g id="DAYS" example="2days">%1$s</xliff:g> және <xliff:g id="HOURS" example="2hours">%2$s</xliff:g> уақыттан кейін іске қосылады.</item>
+        <item>Дабыл <xliff:g id="DAYS" example="2days">%1$s</xliff:g> және <xliff:g id="HOURS" example="2hours">%2$s</xliff:g> уақыттан кейін іске қосылады.</item>
+        <item>Дабыл <xliff:g id="DAYS" example="2days">%1$s</xliff:g> және <xliff:g id="HOURS" example="2hours">%2$s</xliff:g> уақыттан кейін іске қосылады.</item>
+        <item>Дабыл <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> уақыттан кейін іске қосылады.</item>
+        <item>Дабыл <xliff:g id="DAYS" example="2days">%1$s</xliff:g> және <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> уақыттан кейін іске қосылады.</item>
+        <item>Дабыл <xliff:g id="DAYS" example="2days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>, және <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> уақыттан кейін іске қосылады.</item>
+        <item>Дабыл <xliff:g id="DAYS" example="2days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>, және <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> уақыттан кейін іске қосылады.</item>
+    </string-array>
+    <string name="day">"1 күн"</string>
+    <string name="days">"<xliff:g id="days">%s</xliff:g> күн"</string>
+    <string name="hour">"1 сағат"</string>
+    <string name="hours"><xliff:g id="hours">%s</xliff:g> сағат</string>
+    <string name="minute">"1 минут"</string>
+    <string name="minutes">"<xliff:g id="minutes">%s</xliff:g> минут</string>
+    <string name="every_day">күнделікті</string>
+    <string name="never">"Ешқашан"</string>
+    <string name="day_concat">", "</string>
+    <string name="clock_instructions">Сағатты таңдаңыз</string>
+    <string name="analog_gadget">Аналогтық сағат</string>
+    <string name="help">Анықтама</string>
+    <string name="settings">"Параметрлер"</string>
+    <string name="snooze_duration_title">Кейінге қалдыру ұзақтығы</string>
+    <plurals name="snooze_duration">
+        <item quantity="one">"1 минут"</item>
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> минут</item>
+    </plurals>
+    <plurals name="snooze_picker_label">
+        <item quantity="one">минут</item>
+        <item quantity="other">минут</item>
+    </plurals>
+    <string name="auto_silence_title">кейін өшеді</string>
+    <string name="auto_silence_summary"><xliff:g id="minutes">%d</xliff:g> минут</string>
+    <string name="auto_silence_never">"Ешқашан"</string>
+    <string-array name="auto_silence_entries">
+      <item>5 минут</item>
+      <item>"10 минут"</item>
+      <item>"15 минут"</item>
+      <item>20 минут</item>
+      <item>25 минут</item>
+      <item>"30 минут"</item>
+      <item>"Ешқашан"</item>
+      </string-array>
+    <string name="done">"Дайын"</string>
+    <string name="revert">Қайту</string>
+    <string name="delete">"Жою"</string>
+    <string name="alarm_volume_title">"Дабылдың дыбыс деңгейі"</string>
+    <string name="silent_alarm_summary">"Үнсіз"</string>
+    <string name="alarm_notify_text">Дабылды кейінге қалдыру/өшіру.</string>
+    <string name="alarm_notify_snooze_label"><xliff:g id="label">%s</xliff:g> (кейінге қалдырылды)</string>
+    <string name="alarm_notify_snooze_text">Дабыл <xliff:g id="time">%s</xliff:g> уақытқа орнатылды. Болдырмау үшін түртіңіз. </string>
+    <string name="volume_button_setting_title">Дыбыс деңгейінің түймелері</string>
+    <string name="volume_button_dialog_title">Түйме әсері</string>
+    <string-array name="volume_button_setting_entries">
+      <item>Кейінге қалдыру</item>
+      <item>Қабылдамау</item>
+      <item>Ешнәрсе жасамау</item>
+      </string-array>
+    <string name="default_ringtone_setting_title">Әдепкі рингтонды орнату</string>
+    <skip/>
+    <string name="alarm_button_description">"Дабылдар"</string>
+    <string name="gallery_button_description">Галерея</string>
+    <string name="music_button_description">Музыка</string>
+    <string name="nightmode_button_description">Көлеңкелеу</string>
+    <string name="home_button_description">"қосқыш"</string>
+    <string name="desk_clock_button_description">Сағат дисплейі</string>
+    <string name="label_description">Белгі</string>
+    <string name="ringtone_description">"Қоңырау әуені"</string>
+    <string name="battery_charging_level"><xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+    <string name="weather_fetch_failure">Ауа райы туралы ақпарат қазір қолжетімді емес.</string>
+    <string name="alarm_klaxon_service_desc">Дабылдарға арналған дыбысты ойнату қызметі сағат бойынша орнатылды.</string>
+    <string name="loading_ringtone">Рингтонды жүктеу\u2026</string>
+    <string name="timer_ring_service_desc">Таймерлерге арналған дыбысты ойнату қызметі сағат бойынша орнатылды.</string>
+    <string name="control_set_alarm">Дабылды орнату</string>
+    <string name="menu_alarm">"Дабыл"</string>
+    <string name="menu_timer">Таймер</string>
+    <string name="menu_clock">"сағат"</string>
+    <string name="menu_stopwatch">Секундомер</string>
+    <string name="button_alarms">Дабыл қосу</string>
+    <string name="button_cities">Қалалар</string>
+    <string name="button_menu">"Басқа опциялар"</string>
+    <string name="menu_item_settings">"Параметрлер"</string>
+    <string name="menu_item_help">Анықтама</string>
+    <string name="menu_item_night_mode">Түнгі режим</string>
+    <string name="menu_item_sort_by_gmt_offset">Уақыт бойынша сұрыптау</string>
+    <string name="menu_item_sort_by_name">Аты бойынша сұрыптау</string>
+    <string name="selected_cities_label">Таңдалған қалалар</string>
+    <string name="sw_resume_button">Жалғастыру</string>
+    <string name="sw_start_button">"БАСТАУ"</string>
+    <string name="sw_stop_button">"Тоқтату"</string>
+    <string name="sw_lap_button">Айналым</string>
+    <string name="sw_reset_button">Қалпына келтіру</string>
+    <string name="sw_share_button">Бөлісу</string>
+    <string name="hours_label">сағ.</string>
+    <string name="minutes_label">мин.</string>
+    <string name="seconds_label">сек.</string>
+    <string name="hours_label_description">"сағаттар"</string>
+    <string name="minutes_label_description">минут</string>
+    <string name="seconds_label_description">секунд</string>
+    <string name="zero">0</string>
+    <string name="sw_share_main">Менің уақытым: <xliff:g id="time">%s</xliff:g></string>
+    <string name="sw_share_laps">Айналым уақыты:</string>
+    <string name="sw_notification_lap_number"><xliff:g id="number">%d</xliff:g> айналым</string>
+    <plurals name="Nhours_description">
+        <item quantity="one">"1 сағат"</item>
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> сағат</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <item quantity="one">"1 минут"</item>
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> минут</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <item quantity="one">1 секунд</item>
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> секунд</item>
+    </plurals>
+    <string name="timer_add_timer">Таймер қосу</string>
+    <string name="timer_start">"БАСТАУ"</string>
+    <string name="timer_delete">"Жою"</string>
+    <string name="timer_plus_one">1 минут қосу</string>
+    <string name="timer_plus_1_min">1 минут қосу</string>
+    <string name="timer_stop">"Тоқтату"</string>
+    <string name="timer_done">"Дайын"</string>
+    <string name="timer_reset">Қалпына келтіру</string>
+    <string name="timer_cancel">"Бас тар."</string>
+    <string name="timer_times_up">Уақыт бітті</string>
+    <string name="timer_notification_label">Таймер</string>
+    <string name="timers_max_count_reached">Максимум 4 таймер</string>
+    <string-array name="sw_share_strings" translatable="true">
+        <item>Желдей жүйрік екенсіз.</item>
+        <item>Еңбегіңіздің жемісін көріңіз.</item>
+        <item>Android жылдам болып табылады, бірақ сіздей жылдам емес!</item>
+        <item>Уф.</item>
+        <item>L33t рет.</item>
+        <item>Жылдамдық деп осыны айт.</item>
+        <item>Қайта үзіліс жасайық.</item>
+        <item>Сол жаққа қарай секіру.</item>
+        <item>Сіз уақытты текке өткізбейсіз.</item>
+        <item>Фотон жылдамдығы.</item>
+    </string-array>
+    <plurals name="timers_num">
+        <item quantity="one">"1 минут"</item>
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> таймер</item>
+    </plurals>
+    <string name="home_label">"Негізгі"</string>
+    <string name="cities_activity_title">Қалалар</string>
+    <string name="clock_settings">"сағат"</string>
+    <string name="clock_style">Стиль</string>
+    <string-array name="clock_style_entries">
+      <item>Аналогтық</item>
+      <item>Сандық</item>
+    </string-array>
+    <string name="automatic_home_clock">Үй сағатын автоматты түрде көрсету</string>
+    <string name="automatic_home_clock_summary">Уақыты басқа аймақта жүргенде, мен тұратын жердің сағаттық белдеуіне арналған сағатты көрсету</string>
+    <string name="home_time_zone">Жергілікті уақыт белдеуі</string>
+    <string name="home_time_zone_title">Жергілікті уақыт белдеуі</string>
+    <string name="time_picker_cancel">"Бас тар."</string>
+    <string name="time_picker_set">"Жарайды"</string>
+    <string name="time_picker_time_seperator"/>
+    <string name="time_picker_ampm_label"/>
+    <string name="time_picker_00_label"/>
+    <string name="time_picker_30_label"/>
+    <string-array name="timezone_labels">
+        <item>"Маршалл аралдары"</item>
+        <item>"Мидуэй аралы"</item>
+        <item>"Гавай"</item>
+        <item>"Анкоридж (Аляска)"</item>
+        <item>"Тынық мұхиттық уақыт"</item>
+        <item>"Тихуана"</item>
+        <item>"Аризона"</item>
+        <item>"Чихуахуа"</item>
+        <item>"Таулы уақыт"</item>
+        <item>"Орталық Америка"</item>
+        <item>"Орталық уақыт"</item>
+        <item>"Мехико қаласы"</item>
+        <item>"Саскачеван"</item>
+        <item>"Богота"</item>
+        <item>"Шығыс уақыты"</item>
+        <item>"Венесуэла"</item>
+        <item>"Атлант уақыты (Барбадос)"</item>
+        <item>"Атлант уақыты (Канада)"</item>
+        <item>"Манаус"</item>
+        <item>"Сантьяго"</item>
+        <item>"Ньюфаундленд"</item>
+        <item>"Бразилиа"</item>
+        <item>"Буэйнос-Айрес"</item>
+        <item>"Гренландия"</item>
+        <item>"Монтевидео"</item>
+        <item>"Орта атлантикалық"</item>
+        <item>"Азор аралдары"</item>
+        <item>"Кабо-Верде аралдары"</item>
+        <item>"Касабланка"</item>
+        <item>"Лондон, Дублин"</item>
+        <item>"Амстердам, Берлин"</item>
+        <item>"Белград"</item>
+        <item>"Брюссель"</item>
+        <item>"Сараево"</item>
+        <item>"Виндхук"</item>
+        <item>"Батыс Африка уақыты"</item>
+        <item>"Амман, Иордания"</item>
+        <item>"Афины, Стамбул"</item>
+        <item>"Бейрут, Ливан"</item>
+        <item>"Каир"</item>
+        <item>"Хельсинки"</item>
+        <item>"Иерусалим"</item>
+        <item>"Минск"</item>
+        <item>"Хараре"</item>
+        <item>"Бағдад"</item>
+        <item>"Мәскеу"</item>
+        <item>"Кувейт"</item>
+        <item>"Найроби"</item>
+        <item>"Тегеран"</item>
+        <item>"Баку"</item>
+        <item>"Тбилиси"</item>
+        <item>"Ереван"</item>
+        <item>"Дубай"</item>
+        <item>"Кабул"</item>
+        <item>"Исламабад, Карачи"</item>
+        <item>"Орал"</item>
+        <item>"Екатеринбург"</item>
+        <item>"Калькутта"</item>
+        <item>"Шри-Ланка"</item>
+        <item>"Катманду"</item>
+        <item>"Астана"</item>
+        <item>"Янгон"</item>
+        <item>"Красноярск"</item>
+        <item>"Бангкок"</item>
+        <item>"Пекин"</item>
+        <item>"Гонконг"</item>
+        <item>"Иркутск"</item>
+        <item>"Куала-Лумпур"</item>
+        <item>"Перт"</item>
+        <item>"Тайпей"</item>
+        <item>"Сеул"</item>
+        <item>"Токио, Осака"</item>
+        <item>"Якутск"</item>
+        <item>"Аделаида"</item>
+        <item>"Дарвин"</item>
+        <item>"Брисбен"</item>
+        <item>"Хобарт"</item>
+        <item>"Сидней, Канберра"</item>
+        <item>"Владивосток"</item>
+        <item>"Гуам"</item>
+        <item>"Магадан"</item>
+        <item>"Окленд"</item>
+        <item>"Фиджи"</item>
+        <item>"Тонга"</item>
+        <item>"Джакарта"</item>
+    </string-array>
+     <string name="alarm_settings">"Дабылдар"</string>
+     <string name="stopwatch_service_desc">Хабарландыруды іске қосуға арналған секундомер қызметі.</string>
+     <string name="swn_stopped">Тоқтатылды</string>
+    <string name="description_direction_right">Бас тарту үшін, оңға сырғытыңыз</string>
+    <string name="description_direction_left">Кейінге қалдыру үшін, солға сырғытыңыз</string>
+    <string name="timer_stopped">Таймер тоқтатылды</string>
+    <string name="timers_stopped"><xliff:g id="number" example="7">%d</xliff:g> таймер тоқтатылды</string>
+    <string name="all_timers_stopped_notif">Таймерлеріңізді көру үшін түртіңіз</string>
+    <string name="timers_in_use"><xliff:g id="number" example="7">%d</xliff:g> таймер</string>
+    <string name="next_timer_notif">Келесі таймер: <xliff:g id="time_remaining" example="2minutesremaining">%s</xliff:g></string>
+    <string name="screensaver_settings">Экрандық сурет параметрлері</string>
+    <string name="night_mode_title">Түнгі режим</string>
+    <string name="night_mode_summary">Өте күңгірт дисплей (қараңғы бөлмелерге арналған)</string>
+    <string name="expand_alarm">Дабылды кеңейту</string>
+    <string name="collapse_alarm">Дабылды жию</string>
+    <string name="alarm_undo">Болдырмау</string>
+    <string name="alarm_deleted">Дабыл жойылды.</string>
+    <string name="slash"> / </string>
+    <string name="world_day_of_week_label">/ <xliff:g id="label">%s</xliff:g></string>
+    <string name="next_alarm_description">Келесі дабыл: <xliff:g id="alarm_time" example="Wed8:00am">%s</xliff:g></string>
+    <string name="label_unlabeled"/>
+    <string name="alarms_selected"><xliff:g id="alarms">%d</xliff:g> таңдалды</string>
+    <string name="deleted_message">Жойылды</string>
+    <plurals name="alarm_delete_confirmation">
+        <item quantity="one">Таңдалған дабылды жою қажет пе?</item>
+        <item quantity="other">Таңдалған дабылдарды жою қажет пе?</item>
+    </plurals>
+    <string name="timer_delete_confirmation">Осы таймерді жою қажет пе?</string>
+    <string name="city_delete_confirmation">Осы қаланы жою қажет пе?</string>
+    <string name="digital_gadget">Сандық сағат</string>
+    <string name="no_alarms">Дабылсыз</string>
+    <string name="no_alarms_set">Дабылдар орнатылмады </string>
+    <string name="no_upcoming_alarms">КЕЛЕСІ ДАБЫЛ ЖОҚ</string>
+</resources>

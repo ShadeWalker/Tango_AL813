@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="3070921713463294774" name="app_label">"Lataukset"</string>
+    <string msgid="5898014492155434221" name="download_title_sorted_by_date">"Lataukset - Lajittelu pvm. mukaan"</string>
+    <string msgid="1417193166677094813" name="download_title_sorted_by_size">"Lataukset - Lajittelu koon mukaan"</string>
+    <string msgid="1029667411186146836" name="no_downloads">"Ei latauksia."</string>
+    <string msgid="830115697868833773" name="missing_title">"</string>
+    <string msgid="7331549713691146251" name="button_sort_by_size">"Lajittele koon mukaan"</string>
+    <string msgid="8800842892684101528" name="button_sort_by_date">"Lajittele päivämäärän mukaan"</string>
+    <string msgid="104973307780629904" name="download_queued">"Jonossa"</string>
+    <string msgid="4656462962155580641" name="download_running">"Kesken"</string>
+    <string msgid="7006048006543495236" name="download_success">"Valmis"</string>
+    <string msgid="8081329546008568251" name="download_error">"Epäonnistui"</string>
+    <string msgid="5746317632356158515" name="dialog_title_not_available">"Lataus epäonnistui"</string>
+    <string msgid="587545111677064427" name="dialog_failed_body">"Haluatko yrittää ladata tiedoston uudelleen myöhemmin vai poistetaanko se jonosta?"</string>
+    <string msgid="6760681913815015219" name="dialog_title_queued_body">"Tiedosto on jonossa"</string>
+    <string msgid="708552801635572720" name="dialog_queued_body">"Tämä tiedosto on jonossa tulevaa latausta varten, joten se ei ole vielä saatavilla."</string>
+    <string msgid="3223012612774276284" name="dialog_file_missing_body">"Ladattua tiedostoa ei löydy."</string>
+    <string msgid="8692452156251449195" name="dialog_insufficient_space_on_external">"Latausta ei voi ladata loppuun. Ulkoisella tallennuslaitteella ei ole tarpeeksi tilaa."</string>
+    <string msgid="6313630206163908994" name="dialog_insufficient_space_on_cache">"Latausta ei voi ladata loppuun. Sisäistä tallennustilaa ei ole tarpeeksi."</string>
+    <string msgid="8664509751358983543" name="dialog_cannot_resume">"Lataus on keskeytetty eikä sitä voida jatkaa."</string>
+    <string msgid="8308563940663449590" name="dialog_file_already_exists">"Ei voi ladata. Kohdetiedosto on jo olemassa."</string>
+    <string msgid="4468088418758018765" name="dialog_media_not_found">"Ei voi ladata. Ulkoinen laite ei ole käytettävissä."</string>
+    <string msgid="7024782176657362251" name="download_no_application_title">"Tiedostoa ei voi avata"</string>
+    <string msgid="6372920256257247857" name="remove_download">"Poista"</string>
+    <string msgid="76629022653866471" name="delete_download">"Poista"</string>
+    <string msgid="5144882786014818569" name="keep_queued_download">"Säilytä"</string>
+    <string msgid="5232704030969221112" name="cancel_running_download">"Peruuta"</string>
+    <string msgid="7617100787922717912" name="retry_download">"Yritä uudelleen"</string>
+    <string msgid="6348198946254776764" name="deselect_all">"Poista kaikki valinnat"</string>
+    <string msgid="634074918366265804" name="select_all">"Valitse kaikki"</string>
+    <string msgid="2101564570019753277" name="selected_count">"Valittu 
+        <xliff:g id="NUMBER">%1$d</xliff:g>/ 
+        <xliff:g id="TOTAL">%2$d</xliff:g>"
+    </string>
+    <string msgid="3355867339806448955" name="download_share_dialog">"Jaa sovelluksessa"</string>
+</resources>

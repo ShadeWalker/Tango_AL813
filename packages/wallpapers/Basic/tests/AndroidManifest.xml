@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.wallpaper.test">
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.BIND_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_COMPONENT" /> 
+    <uses-permission android:name="android.permission.INJECT_EVENTS"/>
+
+    <uses-feature android:name="android.software.live_wallpaper" />
+
+   
+
+    <!-- The Test Runner is for FPS auto performance check for Fall Wallpaper-->
+    <instrumentation android:name="com.android.wallpaper.test.FallWallpaperFpsTestRunner"
+                     android:targetPackage="com.android.wallpaper"
+                     android:label="Fall Wallpaper FPS TestRunner"/>
+
+    <!-- The Test Runner is for FPS auto performance check for Nexus Wallpaper-->
+    <instrumentation android:name="com.android.wallpaper.test.NexusWallpaperFpsTestRunner"
+                     android:targetPackage="com.android.wallpaper"
+                     android:label="Nexus Wallpaper FPS TestRunner"/>
+
+    <instrumentation android:targetPackage="com.android.wallpaper" 
+                     android:name="com.android.wallpaper.test.LiveWallpapersInstrumentationTestRunner" 
+                     android:label = "Live Wallpapers Instrumentation Test Runner new" />
+
+    <!--
+    <instrumentation android:targetPackage="com.android.wallpaper" 
+                     android:name="com.zutubi.android.junitreport.JUnitReportTestRunner" 
+                     android:label = "Live Wallpapers Instrumentation Test Runner" />
+    -->
+
+    <instrumentation android:name="com.android.wallpaper.test.LiveWallpapersLaunchPerformance"
+                     android:targetPackage="com.android.wallpaper"
+                     android:label="LiveWallpapers Launch Performance">
+    </instrumentation>
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+    <uses-library android:name="android.test.runner" />
+    </application>
+</manifest>

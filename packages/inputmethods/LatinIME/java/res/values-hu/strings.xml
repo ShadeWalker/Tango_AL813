@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- 
+/*
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="3909945612939668554" name="english_ime_input_options">"Beviteli beállítások"</string>
+    <string msgid="5374120998125353898" name="use_contacts_for_spellchecking_option_title">"Névjegyek keresése"</string>
+    <string msgid="8754413382543307713" name="use_contacts_for_spellchecking_option_summary">"A helyesírás-ellenőrző használja a névjegyek bejegyzéseit"</string>
+    <string msgid="5258079494276955460" name="vibrate_on_keypress">"Rezgés gombnyomáskor"</string>
+    <string msgid="6093592297198243644" name="sound_on_keypress">"Billentyűhangok"</string>
+    <string msgid="123894815723512944" name="popup_on_keypress">"Billentyű nagyítása lenyom."</string>
+    <string msgid="2696713156722014624" name="settings_screen_preferences">"Beállítások"</string>
+    <string msgid="9153102634339912029" name="settings_screen_appearance">"Megjelenés és elrendezés"</string>
+    <string msgid="1391301621464509659" name="settings_screen_multilingual">"Többnyelvű beállítások"</string>
+    <string msgid="8826372746901183556" name="settings_screen_gesture">"Kézmozdulatokkal történő gépelés"</string>
+    <string msgid="1616818407747682955" name="settings_screen_correction">"Szövegjavítás"</string>
+    <string msgid="7472408607625972994" name="settings_screen_advanced">"Speciális"</string>
+    <string msgid="2137262503543943871" name="settings_screen_theme">"Téma"</string>
+    <string msgid="4533689960308565519" name="include_other_imes_in_language_switch_list">"Váltás más beviteli módra"</string>
+    <string msgid="840637129103317635" name="include_other_imes_in_language_switch_list_summary">"A nyelvkapcsoló gomb egyéb beviteli módokat is tartalmaz"</string>
+    <string msgid="5915478828318774384" name="show_language_switch_key">"A nyelvkapcsoló"</string>
+    <string msgid="7343403647474265713" name="show_language_switch_key_summary">"Megjelenítés, ha több beviteli nyelv engedélyezett"</string>
+    <string msgid="6213164897443068248" name="key_preview_popup_dismiss_delay">"Gombeltüntetés késleltetése"</string>
+    <string msgid="2096123151571458064" name="key_preview_popup_dismiss_no_delay">"Nincs késés"</string>
+    <string msgid="2166964333903906734" name="key_preview_popup_dismiss_default_delay">"Alapbeállítás"</string>
+    <string msgid="8700286094028323363" name="abbreviation_unit_milliseconds">" 
+        <xliff:g id="MILLISECONDS">%s</xliff:g> ms"
+    </string>
+    <string msgid="6268225104743331821" name="settings_system_default">"Alapértelmezett"</string>
+    <string msgid="4435317977804180815" name="use_contacts_dict">"Javasolt névjegyek"</string>
+    <string msgid="6599983334507879959" name="use_contacts_dict_summary">"A névjegyek használata a javaslatokhoz és javításokhoz"</string>
+    <string msgid="5167396352105467626" name="use_personalized_dicts">"Testreszabott javaslatok"</string>
+    <string msgid="5506372337118822837" name="enable_metrics_logging">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> javítása"</string>
+    <string msgid="8781529969425082860" name="use_double_space_period">"Dupla szóköz: pont"</string>
+    <string msgid="6532892187247952799" name="use_double_space_period_summary">"A szóköz kétszeri megérintése beszúr egy pontot, majd egy szóközt"</string>
+    <string msgid="1719746674854628252" name="auto_cap">"Autom. nagy kezdőbetűk"</string>
+    <string msgid="7934452761022946874" name="auto_cap_summary">"Minden mondat első szava nagybetűvel"</string>
+    <string msgid="3996910038952940420" name="edit_personal_dictionary">"Személyes szótár"</string>
+    <string msgid="4238652338556902049" name="configure_dictionaries_title">"Bővítmények: szótárak"</string>
+    <string msgid="4798763781818361168" name="main_dictionary">"Fő szótár"</string>
+    <string msgid="8026799663445531637" name="prefs_show_suggestions">"Javítási ajánlások megjelenítése"</string>
+    <string msgid="1583132279498502825" name="prefs_show_suggestions_summary">"A javasolt szavak megjelenítése gépelés közben"</string>
+    <string msgid="5078480071057408934" name="prefs_block_potentially_offensive_title">"Sértő szavak kizárása"</string>
+    <string msgid="2371835479734991364" name="prefs_block_potentially_offensive_summary">"Ne javasoljon esetlegesen sértő szavakat"</string>
+    <string msgid="7630720885194996950" name="auto_correction">"Automatikus javítás"</string>
+    <string msgid="5625751551134658006" name="auto_correction_summary">"Szóköz és központozás automatikusan javítja az elgépelést"</string>
+    <string msgid="8470882665417944026" name="auto_correction_threshold_mode_off">Ki</string>
+    <string msgid="8788366690620799097" name="auto_correction_threshold_mode_modest">"Mérsékelt"</string>
+    <string msgid="7319007299148899623" name="auto_correction_threshold_mode_aggressive">"Agresszív"</string>
+    <string msgid="1853309024129480416" name="auto_correction_threshold_mode_very_aggressive">"Nagyon agresszív"</string>
+    <string msgid="1084449187723948550" name="bigram_prediction">"Következő szóra vonatkozó javaslatok"</string>
+    <string msgid="3896362682751109677" name="bigram_prediction_summary">"Az előző szó felhasználása a javaslatoknál"</string>
+    <string msgid="826951152254563827" name="gesture_input">"Kézmozdulatokkal gépelés"</string>
+    <string msgid="9180350639305731231" name="gesture_input_summary">"Szó beírása úgy, hogy ujjait végigcsúsztatja a betűkön"</string>
+    <string msgid="3802333369335722221" name="gesture_preview_trail">"Mozdulat irányának mutatása"</string>
+    <string msgid="4443240334739381053" name="gesture_floating_preview_text">"Dinamikus lebegő előnézet"</string>
+    <string msgid="4472696213996203533" name="gesture_floating_preview_text_summary">"A javasolt szó megtekintése kézmozdulat közben"</string>
+    <string msgid="2078291600664682496" name="gesture_space_aware">"Kifejezés-kézmozdulat"</string>
+    <string msgid="4371385818348528538" name="gesture_space_aware_summary">"Szóköz írása kézmozdulatok során: húzza el ujját a szóköz felett"</string>
+    <string msgid="3583258583521397548" name="voice_input">"Hangbeviteli gomb"</string>
+    <string msgid="8141750303464726129" name="voice_input_disabled_summary">"Nincs engedélyezett hangbeviteli módszer. Nézze meg a Nyelvi és beviteli beállításokat."</string>
+    <string msgid="373356270290742459" name="configure_input_method">"Beviteli módok beállítása"</string>
+    <string msgid="3666971864764478269" name="language_selection_title">"Nyelvek"</string>
+    <string msgid="5328219371839879161" name="help_and_feedback">"Súgó és visszajelzés"</string>
+    <string msgid="5709487854987078367" name="select_language">"Nyelvek"</string>
+    <string msgid="573678656946085380" name="hint_add_to_dictionary">"Érintse meg újból a mentéshez"</string>
+    <string msgid="3040385779511255101" name="hint_add_to_dictionary_without_word">"A mentéshez érintse meg itt"</string>
+    <string msgid="6071847973466625007" name="has_dictionary">"Van elérhető szótár"</string>
+    <string msgid="8451164783510487501" name="keyboard_layout">"Billentyűzettéma"</string>
+    <string msgid="88170601942311355" name="subtype_en_GB">"angol (brit)"</string>
+    <string msgid="6160452336634534239" name="subtype_en_US">"angol (amerikai)"</string>
+    <string msgid="5583145191430180200" name="subtype_es_US">"spanyol (USA)"</string>
+    <string msgid="1931018968641592304" name="subtype_with_layout_en_GB">"angol (UK) (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string msgid="8809311287529805422" name="subtype_with_layout_en_US">"angol (USA) (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string msgid="510930471167541338" name="subtype_with_layout_es_US">"spanyol (USA) (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string msgid="8584594350973800586" name="subtype_generic_traditional">"<xliff:g id="LANGUAGE_NAME">%s</xliff:g> (hagyományos)"</string>
+    <string msgid="7486451947618138947" name="subtype_generic_cyrillic">"<xliff:g id="LANGUAGE_NAME">%s</xliff:g> (cirill)"</string>
+    <string msgid="9128716486310604145" name="subtype_generic_latin">"<xliff:g id="LANGUAGE_NAME">%s</xliff:g> (latin)"</string>
+    <string msgid="7137390094240139495" name="subtype_no_language">"Nincs nyelv (ábécé)"</string>
+    <string msgid="244337630616742604" name="subtype_no_language_qwerty">"Ábécé (QWERTY)"</string>
+    <string msgid="443066912507547976" name="subtype_no_language_qwertz">"Ábécé (QWERTZ)"</string>
+    <string msgid="8144348527575640087" name="subtype_no_language_azerty">"Ábécé (AZERTY)"</string>
+    <string msgid="1564494667584718094" name="subtype_no_language_dvorak">"Ábécé (Dvorak)"</string>
+    <string msgid="5837418400010302623" name="subtype_no_language_colemak">"Ábécé (Colemak)"</string>
+    <string msgid="5354918232046200018" name="subtype_no_language_pcqwerty">"Ábécé (PC)"</string>
+    <string msgid="7483586578074549196" name="subtype_emoji">"Hangulatjel"</string>
+    <string msgid="4909551808526178852" name="keyboard_theme">"Billentyűzettéma"</string>
+    <string msgid="8429952441821251512" name="custom_input_styles_title">"Egyedi beviteli módok"</string>
+    <string msgid="6163126614514489951" name="add_style">"Új stílus"</string>
+    <string msgid="8299699805688017798" name="add">"Hozzáadás"</string>
+    <string msgid="4486081658752944606" name="remove">"Eltávolítás"</string>
+    <string msgid="7646738597196767214" name="save">"Mentés"</string>
+    <string msgid="8576443440738143764" name="subtype_locale">"Nyelv"</string>
+    <string msgid="4309233698194565609" name="keyboard_layout_set">"Elrendezés"</string>
+    <string msgid="8826731320846363423" name="custom_input_style_note_message">"Az egyéni stílust először engedélyezni kell. Engedélyezi most?"</string>
+    <string msgid="5031294444630523247" name="enable">Engedélyezve</string>
+    <string msgid="6172462888202790482" name="not_now">"Most nem"</string>
+    <string msgid="8008728952215449707" name="custom_input_style_already_exists">"Ugyanez a bemenetstílus már létezik: <xliff:g id="INPUT_STYLE_NAME">%s</xliff:g>"</string>
+    <string msgid="7918341459947439226" name="prefs_keypress_vibration_duration_settings">"Gombnyomás rezgési időtartama"</string>
+    <string msgid="6027007337036891623" name="prefs_keypress_sound_volume_settings">"Gombnyomás hangereje"</string>
+    <string msgid="3988017840431881491" name="button_default">"Alapértelmezett"</string>
+    <string msgid="6112821709832031715" name="setup_welcome_title">"Üdvözli a(z) <xliff:g id="APPLICATION_NAME">%s</xliff:g>!"</string>
+    <string msgid="8150252008545768953" name="setup_welcome_additional_description">"kézmozdulatokkal történő bevitellel"</string>
+    <string msgid="8936036460897347708" name="setup_start_action">"Első lépések"</string>
+    <string msgid="371821437915144603" name="setup_next_action">"Következő lépés"</string>
+    <string msgid="6400373034871816182" name="setup_steps_title">"A(z) <xliff:g id="APPLICATION_NAME">%s</xliff:g> beállítása"</string>
+    <string msgid="3147967630253462315" name="setup_step1_title">"A(z) <xliff:g id="APPLICATION_NAME">%s</xliff:g> engedélyezése"</string>
+    <string msgid="2578631936624637241" name="setup_step1_instruction">"Jelölje be a(z) „<xliff:g id="APPLICATION_NAME">%s</xliff:g>” alkalmazást a „Nyelv és bevitel” alatt a futtatás érdekében."</string>
+    <string msgid="10761482004957994" name="setup_step1_finished_instruction">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> alkalmazást már engedélyezte a Nyelv és bevitel beállításainál, tehát ez a lépés már kész. Folytassa a következővel!"</string>
+    <string msgid="4366513534999901728" name="setup_step1_action">"Engedélyezés a Beállítások között"</string>
+    <string msgid="6860725447906690594" name="setup_step2_title">"Váltás a(z) <xliff:g id="APPLICATION_NAME">%s</xliff:g> alkalmazásra"</string>
+    <string msgid="9141481964870023336" name="setup_step2_instruction">"Ezután válassza a(z) „<xliff:g id="APPLICATION_NAME">%s</xliff:g>”  alkalmazást aktív szövegbeviteli módszerként."</string>
+    <string msgid="1660330307159824337" name="setup_step2_action">"Váltás a beviteli módok között"</string>
+    <string msgid="3154757183631490281" name="setup_step3_title">"Gratulálunk, máris elkészült!"</string>
+    <string msgid="8025981829605426000" name="setup_step3_instruction">"Immár minden kedvenc alkalmazásában gépelhet a(z) <xliff:g id="APPLICATION_NAME">%s</xliff:g> segítségével."</string>
+    <string msgid="600879797256942259" name="setup_step3_action">"Állítson be további nyelveket"</string>
+    <string msgid="276559243409465389" name="setup_finish_action">"Befejeződött"</string>
+    <string msgid="5008028590593710830" name="show_setup_wizard_icon">"Alkalmazásikon megjelenítése"</string>
+    <string msgid="4119998322536880213" name="show_setup_wizard_icon_summary">"Alkalmazásikon megjelenítése az indítóban"</string>
+    <string msgid="6320102637491234792" name="app_name">"Szótárszolgáltató"</string>
+    <string msgid="3027315045397363079" name="dictionary_provider_name">"Szótárszolgáltató"</string>
+    <string msgid="6237472350693511448" name="dictionary_service_name">"Szótárszolgáltatás"</string>
+    <string msgid="6014835283119198591" name="download_description">"Szótárfrissítéssel kapcsolatos információk"</string>
+    <string msgid="8091417676045693313" name="dictionary_settings_title">"Bővítmények: szótárak"</string>
+    <string msgid="3587517870006332980" name="dictionary_install_over_metered_network_prompt">"Van rendelkezésre álló szótár"</string>
+    <string msgid="5305694987799824349" name="dictionary_settings_summary">"Szótárak beállításai"</string>
+    <string msgid="3582332055892252845" name="user_dictionaries">"Felhasználói szótárak"</string>
+    <string msgid="1625055720489280530" name="default_user_dict_pref_name">"Felhasználói szótár"</string>
+    <string msgid="4728975345815214218" name="dictionary_available">"Van rendelkezésre álló szótár"</string>
+    <string msgid="2982650524622620983" name="dictionary_downloading">"Jelenlegi letöltések"</string>
+    <string msgid="8081558343559342962" name="dictionary_installed">"Telepítve"</string>
+    <string msgid="8950383219564621762" name="dictionary_disabled">"Telepítve, kikapcsolva"</string>
+    <string msgid="9216933695765732398" name="cannot_connect_to_dict_service">"Csatlakozási hiba"</string>
+    <string msgid="8039920716566132611" name="no_dictionaries_available">"Nincs szótár"</string>
+    <string msgid="8087688440916388581" name="check_for_updates_now">"Frissítés"</string>
+    <string msgid="730467549913588780" name="last_update">"Legutóbb frissítve"</string>
+    <string msgid="4457761393932375219" name="message_updating">"Frissítések keresése"</string>
+    <string msgid="5638680861387748936" name="message_loading">"Betöltés…"</string>
+    <string msgid="3072821352793492143" name="main_dict_description">"Fő szótár"</string>
+    <string msgid="6830980399865683324" name="cancel">"Mégse"</string>
+    <string msgid="3876892339342569259" name="go_to_settings">"Beállítások"</string>
+    <string msgid="180852772562189365" name="install_dict">"Telepítés"</string>
+    <string msgid="7843340278507019303" name="cancel_download_dict">"Mégse"</string>
+    <string msgid="756853268088330054" name="delete_dict">"Törlés"</string>
+    <string msgid="1583881200688185508" name="should_download_over_metered_prompt">"A mobileszközön kiválasztott nyelvhez szótár érhető el.&lt;br/&gt; A gépelési élmény javításához javasoljuk a(z) <xliff:g id="LANGUAGE_NAME">%1$s</xliff:g> szótár &lt;b&gt;letöltését.&lt;br/&gt; &lt;br/&gt; A letöltés 3G hálózaton keresztül néhány percig tart. Ha &lt;b&gt;előfizetése nem korlátlan&lt;/b&gt;, a letöltés költségekkel járhat.&lt;br/&gt; Ha nem biztos abban, hogy milyen adatcsomagot használ, javasoljuk, hogy keressen egy Wi-Fi-kapcsolatot a letöltés automatikus elindításához.&lt;br/&gt; &lt;br/&gt; Tipp: szótárakat a mobileszköz a &lt;b&gt;Beállítások&lt;/b&gt; menü &lt;b&gt;Nyelv és bevitel&lt;/b&gt; részében tölthet le és távolíthat el."</string>
+    <string msgid="1643065851159409546" name="download_over_metered">"Töltse le most ( 
+        <xliff:g id="SIZE_IN_MEGABYTES">%1$.1f</xliff:g> MB)"
+    </string>
+    <string msgid="2176209579313941583" name="do_not_download_over_metered">"Letöltés Wi-Fivel"</string>
+    <string msgid="4583842811218581658" name="dict_available_notification_title">"<xliff:g id="LANGUAGE_NAME">%1$s</xliff:g> nyelvhez van rendelkezésre álló szótár"</string>
+    <string msgid="1075194169443163487" name="dict_available_notification_description">"Nyomja meg az áttekintéshez és letöltéshez"</string>
+    <string msgid="6128155879830851739" name="toast_downloading_suggestions">"Letöltés: a(z) <xliff:g id="LANGUAGE_NAME">%1$s</xliff:g> nyelvvel kapcsolatos javaslatok hamarosan elérhetők lesznek."</string>
+    <string msgid="2715354215568469385" name="version_text">"Verzió: 
+        <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"
+    </string>
+    <string msgid="1254195365689387076" name="user_dict_settings_add_menu_title">"Hozzáadás"</string>
+    <string msgid="4096700390211748168" name="user_dict_settings_add_dialog_title">"Hozzáadás a szótárhoz"</string>
+    <string msgid="5818914331629278758" name="user_dict_settings_add_screen_title">"Kifejezés"</string>
+    <string msgid="5671682004887093112" name="user_dict_settings_add_dialog_more_options">"További opciók"</string>
+    <string msgid="2716586567241724126" name="user_dict_settings_add_dialog_less_options">"Kevesebb opció"</string>
+    <string msgid="4703129507388332950" name="user_dict_settings_add_dialog_confirm">"OK"</string>
+    <string msgid="6665558053408962865" name="user_dict_settings_add_word_option_name">"Szó:"</string>
+    <string msgid="3094731590655523777" name="user_dict_settings_add_shortcut_option_name">"Parancsikon:"</string>
+    <string msgid="4738643440987277705" name="user_dict_settings_add_locale_option_name">"Nyelv:"</string>
+    <string msgid="4902434148985906707" name="user_dict_settings_add_word_hint">"Írjon be egy szót"</string>
+    <string msgid="2265453012555060178" name="user_dict_settings_add_shortcut_hint">"Választható gyorsparancs"</string>
+    <string msgid="3765774633869590352" name="user_dict_settings_edit_dialog_title">"Szó szerkesztése"</string>
+    <string msgid="6812255903472456302" name="user_dict_settings_context_menu_edit_title">Szerkeszt</string>
+    <string msgid="8142932447689461181" name="user_dict_settings_context_menu_delete_title">"Törlés"</string>
+    <string msgid="558499587532668203" name="user_dict_settings_empty_text">"Nincsenek szavak a felhasználói szótárban. Új szavakat a Hozzáadás (+) gomb megérintésével vehet fel."</string>
+    <string msgid="8276126583216298886" name="user_dict_settings_all_languages">"Minden nyelven"</string>
+    <string msgid="7131268499685180461" name="user_dict_settings_more_languages">More languages…</string>
+    <string msgid="110413335187193859" name="user_dict_settings_delete">"Törlés"</string>
+    <string msgid="5431919401558285473" name="user_dict_fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+</resources>

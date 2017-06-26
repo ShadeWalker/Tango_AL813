@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+   <string name="menu_copyContactsToCard1">Copier le contact sur la carte 1</string>
+   <string name="menu_copyContactsToCard2">Copier le contact sur la carte 2</string>
+   <string name="menu_copyContactsToPhone">Copier le contact sur le téléphone</string>
+    <string name="menu_actionbar_not_selected_items">Non sélectionné</string>
+   <string name="no_contact_to_display">Aucun contact en double</string>
+     <string msgid="3906689777043645443" name="applicationLabel">"Contacts"</string>
+    <string name="contacts_setting_Advanced">"Paramètres avancés"</string>
+    <string name="merge_duplicate_contacts">Fusionner contacts en double</string>
+    <string name="profile_display_name">Configurer mon profil</string>
+    <string name="mem_status">État de la mémoire</string>
+    <string name="phone_local">téléphone</string>
+    <string name="hq_sim_slot_position_1">Carte 1</string>
+    <string name="hq_sim_slot_position_2">Carte 2</string>
+    <string msgid="6497230399032392417" name="launcherActivityLabel">"Contacts"</string>
+    <string msgid="8661624236494819731" name="contactsList">"Contacts"</string>
+    <string msgid="749243779392912958" name="shortcutContact">"Contact"</string>
+    <string msgid="746622101599186779" name="shortcutDialContact">"Raccourci appel"</string>
+    <string msgid="2460337253595976198" name="shortcutMessageContact">"Raccourci message"</string>
+    <string msgid="6642877210643565436" name="shortcutActivityTitle">"Choisissez un contact pour le raccourci"</string>
+    <string msgid="6065749861423648991" name="callShortcutActivityTitle">"Choisissez le numéro à appeler"</string>
+    <string msgid="3084542316620335911" name="messageShortcutActivityTitle">"Choisissez le numéro auquel envoyer le message"</string>
+    <string msgid="6527505405325862674" name="contactInsertOrEditActivityTitle">"Ajouter au contact"</string>
+    <string msgid="4301062192337417640" name="contactPickerActivityTitle">"Sélectionner un contact"</string>
+    <string msgid="2436981165830115659" name="header_entry_contact_list_adapter_header_title">"Créer un contact"</string>
+    <string msgid="4817256136413959463" name="starredList">"Marqués d\'une étoile"</string>
+    <string msgid="7154768136473953056" name="frequentList">"Contacts fréquents"</string>
+    <string msgid="5640192862059373511" name="strequentList">"Favoris"</string>
+    <string msgid="7989394521836644384" name="viewContactTitle">"Détails du contact"</string>
+    <string msgid="2947202828256214947" name="editContactDescription">"Modifier le contact"</string>
+    <string msgid="4709878105452681987" name="insertContactDescription">"Créer un contact"</string>
+    <string msgid="6321161304201540561" name="editGroupDescription">"Modifier le groupe"</string>
+    <string msgid="5658512271662210139" name="insertGroupDescription">"Créer un groupe"</string>
+    <string msgid="5430408883907061400" name="contactDetailAbout">"À propos de"</string>
+    <string msgid="3780588624763446941" name="contactDetailUpdates">"Mises à jour"</string>
+    <string msgid="8482945356247760701" name="searchHint">"Recherche de contacts"</string>
+    <string msgid="2795575601596468581" name="menu_viewContact">"Afficher le contact"</string>
+    <string msgid="2908478235715404876" name="menu_addStar">"Ajout. aux fav."</string>
+    <string msgid="5844227078364227030" name="menu_removeStar">"Suppr. des fav."</string>
+    <string msgid="4699640108012265178" name="description_action_menu_remove_star">"Supprimé des favoris"</string>
+    <string msgid="3327186327234177456" name="description_action_menu_add_star">"Ajouté aux favoris"</string>
+    <string msgid="9042415603857662633" name="menu_editContact">"Modifier"</string>
+    <string msgid="6788644058868189393" name="menu_deleteContact">"Supprimer"</string>
+    <string msgid="1217971915748509640" name="menu_create_contact_shortcut">"Placer sur l\'écran d\'accueil"</string>
+    <string msgid="3992595586042260618" name="menu_call">"Appeler le contact"</string>
+    <string msgid="5535886767547006515" name="menu_sendSMS">"Envoyer un SMS au contact"</string>
+    <string msgid="8368636463748691868" name="menu_splitAggregate">"Séparer"</string>
+    <string msgid="5062005185370983720" name="menu_editGroup">"Modifier"</string>
+    <string msgid="3486380004411482874" name="menu_deleteGroup">"Supprimer"</string>
+    <string msgid="7263362129442119188" name="menu_new_contact_action_bar">"Ajouter un contact"</string>
+    <string msgid="3520232877587377175" name="menu_new_group_action_bar">"Ajouter un groupe"</string>
+    <string msgid="633640935430370530" name="splitConfirmation_title">"Séparer le contact ?"</string>
+    <string msgid="740190210499587175" name="splitConfirmation">"Ce contact va être séparé en plusieurs contacts."</string>
+    <string msgid="5027981918265667970" name="menu_joinAggregate">"Joindre"</string>
+    <string msgid="7684875775798635354" name="titleJoinContactDataWith">"Joindre les contacts"</string>
+    <string msgid="8736488417422708236" name="blurbJoinContactDataWith">"Sélectionnez le contact que vous voulez associer à \"<xliff:g id="NAME">%s</xliff:g>\" :"</string>
+    <string msgid="2189695051430392383" name="showAllContactsJoinItem">"Afficher tous les contacts"</string>
+    <string msgid="2831414448851313345" name="separatorJoinAggregateSuggestions">"Contacts suggérés"</string>
+    <string msgid="7939932265026181043" name="separatorJoinAggregateAll">"Tous les contacts"</string>
+    <string msgid="7208148163607047389" name="contactsJoinedMessage">"Contacts joints"</string>
+    <string msgid="8728345772068064946" name="menu_set_ring_tone">"Régler sonnerie"</string>
+    <string msgid="4181789196416396656" name="menu_redirect_calls_to_vm">"Tous appels vers messag. voc."</string>
+    <string msgid="7808825687289848259" name="readOnlyContactWarning">"Impossible de supprimer les contacts des comptes en lecture seule. Vous pouvez les masquer dans la liste des contacts."</string>
+    <string msgid="2137170726670196909" name="readOnlyContactDeleteConfirmation">"Ce contact contient des informations provenant de plusieurs comptes. Vous pouvez masquer dans votre liste de contacts les informations des comptes en lecture seule, mais pas les supprimer."</string>
+    <string msgid="938900978442960800" name="multipleContactDeleteConfirmation">"La suppression de ce contact entraînera celle d\'informations provenant de plusieurs comptes."</string>
+    <string msgid="811706994761610640" name="deleteConfirmation">"Ce contact sera supprimé."</string>
+    <string msgid="6854657936970228164" name="menu_discard">"Supprimer les modifications"</string>
+    <string msgid="8215051456181842274" name="invalidContactMessage">"Ce contact n\'existe pas."</string>
+    <string msgid="7874133287558150877" name="createContactShortcutSuccessful">"Widget de contact ajouté à l\'écran d\'accueil."</string>
+    <string msgid="7750705279843568147" name="pickerNewContactHeader">"Créer un nouveau contact"</string>
+    <string msgid="6166997164401048211" name="pickerNewContactText">"Nouveau contact"</string>
+  <string-array name="otherLabels">
+    <item msgid="8287841928119937597">"Organisation"</item>
+    <item msgid="7196592230748086755">"Remarque"</item>
+  </string-array>
+    <string msgid="6247290728908599701" name="photoPickerNotFoundText" product="tablet">"Aucune image n\'est disponible sur la tablette."</string>
+    <string msgid="431331662154342581" name="photoPickerNotFoundText" product="default">"Aucune image disponible sur le téléphone."</string>
+    <string msgid="5599827035558557169" name="attach_photo_dialog_title">"Photo du contact"</string>
+    <string msgid="1081475101983255212" name="customLabelPickerTitle">"Libellé personnalisé"</string>
+    <string msgid="9001686764070676353" name="send_to_voicemail_checkbox">"Renvoyer les appels directement vers la messagerie vocale"</string>
+    <string msgid="4898105274130284565" name="removePhoto">"Supprimer la photo"</string>
+    <string msgid="8579310973261953559" name="noContacts">"Aucun contact."</string>
+    <string msgid="8614664663561385253" name="noGroups">"Aucun groupe"</string>
+    <string msgid="7768267764545265909" name="noAccounts">"Vous devez posséder un compte pour créer des groupes."</string>
+    <string msgid="7502116218697177370" name="emptyGroup">"Ce groupe est vide."</string>
+    <string msgid="7879585947222263516" name="addPeopleToGroup">"Pour ajouter des membres, veuillez le modifier."</string>
+    <string msgid="4075751076741924939" name="savingContact">"Enregistrement du contact…"</string>
+    <string msgid="7152589189385441091" name="contactSavedToast">"Contact enregistré."</string>
+    <string msgid="3207250533172944892" name="contactSavedErrorToast">"Impossible d\'enregistrer les modifications apportées au contact."</string>
+    <string msgid="1168756874239833756" name="groupSavedToast">"Groupe enregistré"</string>
+    <string msgid="7984466936615304740" name="groupSavedErrorToast">"Impossible d\'enregistrer les modifications apportées au groupe."</string>
+  <plurals name="listTotalPhoneContacts">
+    <item msgid="3015357862286673986" quantity="one">"1 contact avec numéro de téléphone"</item>
+    <item msgid="3299954047880968205" quantity="other">"<xliff:g id="COUNT">%d</xliff:g> contacts avec des n° de téléphone"</item>
+  </plurals>
+    <string msgid="6968813857632984319" name="listTotalPhoneContactsZero">"Aucun contact disposant d\'un numéro de téléphone"</string>
+  <plurals name="listFoundAllContacts">
+    <item msgid="5517063038754171134" quantity="one">"1 contact trouvé"</item>
+    <item msgid="3852668542926965042" quantity="other">"<xliff:g id="COUNT">%d</xliff:g> contact(s) trouvé(s)"</item>
+  </plurals>
+    <string msgid="922980883593159444" name="listFoundAllContactsZero">"Aucun contact"</string>
+  <plurals name="searchFoundContacts">
+    <item msgid="4826918429708286628" quantity="one">"1 contact trouvé"</item>
+    <item msgid="7988132539476575389" quantity="other">"<xliff:g id="COUNT">%d</xliff:g> contact(s) trouvé(s)"</item>
+  </plurals>
+    <string msgid="6250372293594147703" name="all_contacts_tab_label">"Contacts"</string>
+    <string msgid="1524869648904016414" name="favorites_tab_label">"Favoris"</string>
+    <string msgid="5498224409038809224" name="callBack">"Rappeler"</string>
+    <string msgid="3197312117049874778" name="callAgain">"Renouveler l\'appel"</string>
+    <string msgid="8171961914203617813" name="returnCall">"Rappeler"</string>
+    <string msgid="7986472669444326576" name="add_contact_dlg_message_fmt">"Ajouter \"<xliff:g id="EMAIL">%s</xliff:g>\" aux contacts ?"</string>
+    <string msgid="3387458082667894062" name="description_contact_photo">"photo du contact"</string>
+    <string msgid="515164827856229880" name="description_plus_button">"plus"</string>
+    <string msgid="560522409559101193" name="exporting_contact_list_progress">"<xliff:g id="CURRENT_NUMBER">%s</xliff:g> sur <xliff:g id="TOTAL_NUMBER">%s</xliff:g> contacts"</string>
+    <string msgid="2675223022992445813" name="search_settings_description">"Noms de vos contacts"</string>
+    <string msgid="358168575340921552" name="quickcontact_missing_app">"Aucune application pouvant gérer cette action n\'a été trouvée."</string>
+    <string msgid="987959416759562455" name="quickcontact_transparent_view_description">"Cliquez pour revenir à l\'écran précédent."</string>
+    <string msgid="731665835910658965" name="quickcontact_add_phone_number">"Ajouter un numéro de téléphone"</string>
+    <string msgid="739298028384348482" name="quickcontact_add_email">"Ajouter une adresse e-mail"</string>
+    <string msgid="1466111003546611387" name="missing_app">"Aucune application trouvée pour gérer cette action."</string>
+    <string msgid="943789700636542260" name="menu_share">"Partager"</string>
+    <string msgid="3198704337220892684" name="menu_add_contact">"Ajouter aux contacts"</string>
+    <string msgid="563121028023030093" name="share_via">"Partager contact via"</string>
+    <string msgid="2318032089273496830" name="dialog_new_group_account">"Sélectionner le compte associé au groupe"</string>
+    <string msgid="2535716629358298691" name="audio_chat">"Chat audio"</string>
+    <string msgid="1872255818640336072" name="video_chat">"Chat vidéo"</string>
+    <string msgid="8098440723172028350" name="connections">"Contacts"</string>
+    <string msgid="4861308615789601727" name="add_connection_button">"Ajouter un contact"</string>
+    <string msgid="2659189233141493004" name="recent">"Récentes"</string>
+    <string msgid="4267258535615860710" name="recent_updates">"Mises à jour récentes"</string>
+    <string msgid="718948015590343010" name="account_type_format">"Contact 
+        <xliff:g id="SOURCE">%1$s</xliff:g>"
+    </string>
+    <!-- no translation found for from_account_format (4469138575127580203) -->
+    <skip/>
+    <string msgid="7421346527289472273" name="contact_read_only">"Non modifiable depuis cette application."</string>
+    <string msgid="1061762906115697637" name="group_read_only">"Non modifiable sur cet appareil."</string>
+    <string msgid="7496128293167402354" name="take_photo">"Prendre une photo"</string>
+    <string msgid="7341354729436576304" name="take_new_photo">"Prendre une autre photo"</string>
+    <string msgid="2129509985223564942" name="pick_photo">"Sélectionner une photo"</string>
+    <string msgid="9122450996263688237" name="pick_new_photo">"Sélectionner une nouvelle photo"</string>
+    <string msgid="7583992153091537467" name="locale_change_in_progress">"Mise à jour de la liste des contacts en cours suite au changement de langue."</string>
+    <string msgid="474511436863451061" name="upgrade_in_progress">"La liste de contacts est en cours de mise à jour."</string>
+    <string msgid="1209994418877625940" name="upgrade_out_of_memory">"Les contacts font actuellement l\'objet d\'une mise à jour."\n\n"Cette opération nécessite environ <xliff:g id="size_in_megabytes">%s</xliff:g> Mo de mémoire de stockage interne."\n\n"Veuillez sélectionner l\'une des options suivantes :"</string>
+    <string msgid="1721798828992091432" name="upgrade_out_of_memory_uninstall">"Désinstaller certaines applications"</string>
+    <string msgid="8431289830472724609" name="upgrade_out_of_memory_retry">"Réessayer la mise à niveau"</string>
+    <string msgid="3984833028938569930" name="search_results_searching">"Recherche…"</string>
+    <string msgid="6470001164297969034" name="menu_display_selected">"Afficher la sélection"</string>
+    <string msgid="8887488642609786198" name="menu_display_all">"Tout afficher"</string>
+    <string msgid="621719255150713545" name="menu_select_all">"Tout sélectionner"</string>
+    <string msgid="7093222469852132345" name="menu_select_none">"Tout désélectionner"</string>
+    <string msgid="5223080690667565044" name="add_new_entry_for_section">"Ajouter"</string>
+    <string msgid="7311893231158291197" name="add_organization">"Ajouter une entreprise"</string>
+    <string msgid="5794424930242630477" name="event_edit_field_hint_text">"Date"</string>
+    <string msgid="3966441850870457808" name="group_edit_field_hint_text">"Nom du groupe"</string>
+    <string msgid="8530597935483526383" name="change_photo">"Modifier"</string>
+    <string msgid="8517942231868516999" name="primary_photo">"Photo principale"</string>
+    <string msgid="2605854427360036550" name="description_star">"favori"</string>
+    <string msgid="7529281274005689512" name="edit_contact">"Modifier le contact"</string>
+  <plurals name="merge_info">
+    <item msgid="148365587896371969" quantity="one">"1 contact non fusionné"</item>
+    <item msgid="425683718017380845" quantity="other">"1 contact fusionné à partir de <xliff:g id="COUNT">%0$d</xliff:g> sources"</item>
+  </plurals>
+    <string msgid="3842757977671434836" name="aggregation_suggestion_join_dialog_message">"Associer ce contact au contact sélectionné ?"</string>
+    <string msgid="6549585283910518095" name="aggregation_suggestion_edit_dialog_message">"Modifier le contact sélectionné ? Les informations saisies jusqu\'ici seront copiées."</string>
+    <string msgid="1573960845106822639" name="menu_copyContact">"Copier dans \"Mes contacts\""</string>
+    <string msgid="1068274916793627723" name="add_to_my_contacts">"Ajouter à \"Mes contacts\""</string>
+    <string msgid="683398073603909119" name="contact_directory_description">"Annuaire 
+        <xliff:g id="TYPE">%1$s</xliff:g>"
+    </string>
+    <string msgid="8910173055702057002" name="list_filter_custom">"Personnalisé"</string>
+    <string msgid="5464130076132770781" name="activity_title_settings">"Paramètres"</string>
+    <string msgid="377929915873428211" name="menu_settings">"Paramètres"</string>
+    <string msgid="5123887102216637725" name="menu_help">"Aide"</string>
+    <string msgid="1341720270148252393" name="preference_displayOptions">"Options d\'affichage"</string>
+    <string msgid="6718207751363732025" name="organization_company_and_title">" 
+        <xliff:g id="COMPANY_0">%2$s</xliff:g>, 
+        <xliff:g id="COMPANY_1">%1$s</xliff:g>"
+    </string>
+    <string msgid="1541655052330027380" name="non_phone_caption">"Numéro de téléphone"</string>
+    <string msgid="6590985286250471169" name="non_phone_add_to_contacts">"Ajouter contacts"</string>
+    <string msgid="4065089866210730616" name="activity_title_confirm_add_detail">"Ajouter au contact"</string>
+    <string msgid="7608506439725515667" name="non_phone_close">"Fermer"</string>
+    <string msgid="8739586586600099979" name="widget_name_and_phonetic">" 
+        <xliff:g id="DISPLAY_NAME">%1$s</xliff:g> ( 
+        <xliff:g id="PHONETIC_NAME">%2$s</xliff:g>)"
+    </string>
+    <string msgid="7356532842767854606" name="date_year_toggle">"Indiquer une année"</string>
+    <string msgid="6378905543028924592" name="social_widget_label">"Contact"</string>
+    <string msgid="5327336597364074608" name="social_widget_loading">"Chargement…"</string>
+    <string msgid="7014525713871959208" name="contacts_unavailable_create_contact">"Créer un contact"</string>
+    <string msgid="7911101713860139754" name="contacts_unavailable_add_account">"Se connecter à un compte"</string>
+    <string msgid="4957393255392437529" name="contacts_unavailable_import_contacts">"Importer des contacts"</string>
+    <string msgid="6874527142828424475" name="create_group_dialog_title">"Créer un groupe"</string>
+    <string msgid="4411981763169654825" name="create_group_item_label">"Créer un groupe"</string>
+  <plurals name="num_groups_in_account">
+    <item msgid="2944819210288517794" quantity="one">"Un groupe"</item>
+    <item msgid="1276758425904917367" quantity="other">"<xliff:g id="COUNT">%0$d</xliff:g> groupes"</item>
+  </plurals>
+    <string msgid="7586856514337560529" name="delete_group_dialog_message">"Supprimer le groupe \" 
+        <xliff:g id="GROUP_LABEL">%1$s</xliff:g>\" ? Les contacts ne seront pas supprimés."
+    </string>
+  <plurals name="num_contacts_in_group">
+    <item msgid="1352418549951013448" quantity="one">"<xliff:g id="count">%1$d</xliff:g> personne de <xliff:g id="account_type">%2$s</xliff:g>"</item>
+    <item msgid="8146027769011086349" quantity="other">"<xliff:g id="count">%1$d</xliff:g> personnes de <xliff:g id="account_type">%2$s</xliff:g>"</item>
+  </plurals>
+  <plurals name="group_list_num_contacts_in_group">
+    <item msgid="3323065321661972446" quantity="one">"<xliff:g id="count">%1$d</xliff:g> personne"</item>
+    <item msgid="6251996206137048525" quantity="other">"<xliff:g id="count">%1$d</xliff:g> personnes"</item>
+  </plurals>
+    <string msgid="2238581529864542985" name="toast_join_with_empty_contact">"Saisissez le nom du contact avant de l\'associer à un autre."</string>
+    <string msgid="3257145021583508761" name="copy_text">"Copier"</string>
+    <string msgid="4417505153468300351" name="set_default">"Définir par défaut"</string>
+    <string msgid="7193185801596678067" name="clear_default">"Effacer les valeurs par défaut"</string>
+    <string msgid="5143776250008541719" name="toast_text_copied">"Texte copié"</string>
+    <string msgid="5885724679874403115" name="cancel_confirmation_dialog_message">"Annuler les modifications ?"</string>
+    <string msgid="747163730039311423" name="call_type_and_date">" 
+        <xliff:g id="CALL_TYPE">%1$s</xliff:g>  
+        <xliff:g id="CALL_SHORT_DATE">%2$s</xliff:g>"
+    </string>
+    <string msgid="4127389543625918771" name="profile_display_name">"Configurer mon profil"</string>
+    <string msgid="1738391320566349924" name="enter_contact_name">"Saisissez le nom de la personne"</string>
+    <string msgid="238359485263401293" name="group_name_hint">"Nom du groupe"</string>
+    <string msgid="2021416826991393684" name="local_profile_title">"Mon profil local"</string>
+    <string msgid="8034998767621359438" name="external_profile_title">"Mon profil <xliff:g id="EXTERNAL_SOURCE">%1$s</xliff:g>"</string>
+    <string msgid="2737388783898593875" name="toast_displaying_all_contacts">"Affichage de tous les contacts"</string>
+    <string msgid="6424883302325061025" name="no_account_prompt">"Tirez le meilleur parti de l\'application Contacts en utilisant un compte Google.\n\n• Accédez-y depuis n\'importe quel navigateur Web.\n• Sauvegardez vos contacts en toute sécurité."</string>
+    <string msgid="7218827704367325460" name="generic_no_account_prompt">"Assurez la sécurité de vos contacts, même si vous perdez votre téléphone en effectuant une synchronisation avec un service en ligne."</string>
+    <string msgid="753783911899054860" name="generic_no_account_prompt_title">"Ajouter un compte"</string>
+    <string msgid="1785345895691886499" name="contact_editor_prompt_zero_accounts">"Votre nouveau contact ne sera pas sauvegardé. Ajouter un compte permettant de sauvegarder les contacts en ligne ?"</string>
+    <string msgid="8669032699767375976" name="contact_editor_prompt_one_account">"Votre nouveau contact va être synchronisé avec <xliff:g id="ACCOUNT_NAME">%1$s</xliff:g>."</string>
+    <string msgid="611828200100438242" name="contact_editor_prompt_multiple_accounts">"Vous pouvez synchroniser votre nouveau contact avec l\'un des comptes suivants. Lequel souhaitez-vous utiliser ?"</string>
+    <string msgid="7192223018128934940" name="contact_editor_title_new_contact">"Ajouter un contact"</string>
+    <string msgid="4898475703683187798" name="contact_editor_title_existing_contact">"Modifier le contact"</string>
+    <string msgid="1258761699192993322" name="keep_local">"Enregistrer localement"</string>
+    <string msgid="8201790677994503186" name="add_account">"Ajouter un compte"</string>
+    <string msgid="5748627740680940264" name="add_new_account">"Ajouter un compte"</string>
+    <string msgid="2659719297530170820" name="menu_export_database">"Exporter les fichiers de la base de données"</string>
+    <string msgid="3180222523336380017" name="action_menu_add_new_contact_button">"ajouter un contact"</string>
+    <string msgid="3779194067124758079" name="expanding_entry_card_view_see_more">"Plus"</string>
+    <string msgid="5344160551629714168" name="expanding_entry_card_view_see_less">"Moins"</string>
+    <string msgid="3845258737661412627" name="expanding_entry_card_view_see_all">"Tout afficher"</string>
+    <string msgid="8982782042698001695" name="recent_card_title">"Récents"</string>
+    <string msgid="2920942314212825637" name="about_card_title">"À propos de"</string>
+    <string msgid="8938418965550543196" name="send_message">"Envoyer le message"</string>
+    <string msgid="6137651078366797938" name="toast_making_personal_copy">"Création d\'une copie personnelle en cours..."</string>
+    <string msgid="6840858548955018569" name="yesterday">"Hier"</string>
+    <string msgid="6241969467795308581" name="tomorrow">"Demain"</string>
+    <string msgid="8041090779381781781" name="today">"Aujourd\'hui"</string>
+    <string msgid="605665249491030460" name="today_at_time_fmt">"Aujourd\'hui, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string msgid="4856497969617819421" name="tomorrow_at_time_fmt">"Demain, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string msgid="5053178726906863812" name="date_time_fmt">"<xliff:g id="DATE">%s</xliff:g>, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string msgid="3484859385405939366" name="untitled_event">"(Événement sans titre)"</string>
+    <string msgid="4761419824439606690" name="date_time_set">"Définir"</string>
+    <string msgid="3581720979640225615" name="header_im_entry">"Messagerie instantanée"</string>
+    <string msgid="8515394955666265406" name="header_organization_entry">"Organisation"</string>
+    <string msgid="6743561883967451485" name="header_nickname_entry">"Pseudo"</string>
+    <string msgid="4320190426480612344" name="header_note_entry">"Note"</string>
+    <string msgid="1411467850000824745" name="header_website_entry">"Site Web"</string>
+    <string msgid="6738250422744401460" name="header_event_entry">"Événement"</string>
+    <string msgid="1520292958088146460" name="header_relation_entry">"Relation"</string>
+    <string msgid="2684318506427891827" name="header_account_entry">"Compte"</string>
+    <string msgid="1592791008096288306" name="header_name_entry">"Nom"</string>
+    <string msgid="8666093061171624478" name="header_email_entry">"Adresse e-mail"</string>
+    <string msgid="8450980572274173570" name="header_phone_entry">"Numéro de téléphone"</string>
+    <string msgid="4438023151411853238" name="header_photo_entry">"Photo"</string>
+    <string msgid="1111381475901897470" name="content_description_expand_editor">"Cliquez pour développer l\'éditeur de contact."</string>
+    <string msgid="7598061318022977825" name="content_description_collapse_editor">"Cliquez pour réduire l\'éditeur de contact."</string>
+    <string msgid="2686791825798189335" name="content_description_directions">"itinéraire vers le lieu"</string>
+    <string msgid="1666389577263317445" name="content_description_recent_sms">"SMS récent : \"<xliff:g id="MESSAGE_BODY">%s</xliff:g>\", <xliff:g id="PHONE_NUMBER">%s</xliff:g>, <xliff:g id="DATE">%s</xliff:g>. Appuyez sur l\'écran pour répondre à ce message."</string>
+    <string msgid="5210739096863511410" name="content_description_recent_call_type_incoming">"entrant"</string>
+    <string msgid="5156553338985232744" name="content_description_recent_call_type_outgoing">"sortant"</string>
+    <string msgid="7371810920196048204" name="content_description_recent_call_type_missed">"manqué"</string>
+    <string msgid="5183800406316723676" name="content_description_recent_call">"Appel récent : <xliff:g id="CALL_TYPE">%s</xliff:g>, <xliff:g id="PHONE_NUMBER">%s</xliff:g>, <xliff:g id="DATE">%s</xliff:g>. Appuyez sur l\'écran pour rappeler ce numéro."</string>
+    <string msgid="7180706529908434482" name="message_from_you_prefix">"Vous : <xliff:g id="SMS_BODY">%s</xliff:g>"</string>
+    <string msgid="114855385615225735" name="contact_editor_hangouts_im_alert">"Les Hangouts fonctionnent mieux si vous saisissez l\'identifiant Hangouts de la personne concernée dans le champ de l\'adresse e-mail ou du numéro de téléphone."</string>
+<string name="dial_tab_label">Composer</string>
+<string name="launcherActivityLabelForPhone">Composer</string>
+<string name="join_same_name">Fusionner les contacts</string>
+<string name="same_name_join_hint"><li>Toucher Démarrer pour fusionner les contacts ayant le même nom.</li>\n<li>Toucher Annuler pour arrêter la fusion.</li>\n<li>Ce processus prendra un peu de temps.</li></string>
+<string name="join_action_start">Démarrer</string>
+<string name="join_title_total">Total</string>
+<string name="join_title_single">Actuel</string>
+<string name="join_status_unstarted">Prêt</string>
+<string name="join_status_waiting">En attente</string>
+<string name="join_status_checking">Vérification en cours Veuillez patienter</string>
+<string name="join_status_join_start">Fusion en cours</string>
+<string name="join_status_join_progress">Groupes fusionnés : %1$s. Total groupes : %2$s </string>
+<string name="join_status_joining">Fusion\n</string>
+<string name="join_status_single_joining">Fusion : %1$s\n Total avec le même nom : %2$s </string>
+<string name="join_status_canceled">annulé</string>
+<string name="join_cancel_confirm_msg">Arrêter de fusionner</string>
+<string name="menu_done">Terminé</string>
+<string name="cancel">annulé</string>
+<string name="ok">OK</string>
+<string name="dial_keypad">Composer</string>
+<string name="dial_menu">Menu</string>
+<string name="dial_delete">Supprimer</string>
+<string name="dataservice_title">Service de données</string>
+<string name="open_dataservice_confirm">"La connexion aux données de votre appareil est désactivée." Pour une meilleure expérience, nous vous recommandons d\'activer votre connexion aux données.\n\nLorsque la connexion aux données est activée, vos cartes SIM sont utilisées pour accéder à Internet. L\'activer ?"</string>
+<string name="open_confirm">Activer</string>
+<string name="open_cancel">Annuler</string>
+<string name="mms_tab_label">Messagerie</string>
+<string name="dial_emergency">Appels d\'urgence</string>
+<string name="emergency_only">Appels d\'urgence uniquement</string>
+<string name="no_service">Aucun service</string>
+<string name="hour_hw">h</string>
+<string name="minute_hw">"m"</string>
+<string name="seconds_hw">s</string>
+<string name="call_type_hw">Voir le type d\'appel</string>
+<string name="cancel_hw">Annuler</string>
+<string name="confirm_hw">OK</string>
+<string name="black_list_manager_exception">Phone Manager introuvable. Veuillez l\'installer avant d\'utiliser cette fonction.</string>
+<string name="sim_log_hw">Journal SIM</string>
+<string name="sim_all_hw">SIM 1 et SIM 2</string>
+<string name="sim_one_hw">SIM 1</string>
+<string name="sim_two_hw">SIM 2</string>
+<string name="call_type">Type d\'appel</string>
+<string name="all_call_hw">Tous les appels</string>
+<string name="miss_call_hw">Appels manqués</string>
+<string name="answer_call_hw">Appels reçus</string>
+<string name="dialer_call_hw">Appels sortants</string>
+<string name="date_format_year">Année</string>
+<string name="date_format_month">Mois</string>
+<string name="outgoing_calltype">Appel sortant </string>
+<string name="incoming_type">"Appel entrant "</string>
+<string name="send_sms">"Envoyer le message"</string>
+<string name="am_time">AM</string>
+<string name="pm_time">PM</string>
+<string name="chubaoMessage">1. Les services d\'identification intelligente et de pages jaunes peuvent nécessiter un accès Internet et des frais d\'utilisation de données peuvent s\'appliquer.\n2. Le service est fourni par TouchPal, qui sera responsable de la précision et de la fiabilité de toutes les données relatives.\n3. Les informations associées aux numéros que vous avez marqués seront chargées sur le serveur.\n4. Ce service accédera à vos informations de localisation.\nEn touchant « J\'accepte », vous acceptez les informations susmentionnées, tandis qu\'en touchant « Annuler », le service ne pourra pas accéder à Internet ni obtenir vos informations de localisation.</string>
+<string name="user_aggreement">Accord utilisateur</string>
+<string name="menu_add_to_black_list">Ajouter à la liste noire</string>
+<string name="add_to_black_list">Ajouté à la liste noire</string>
+<string name="menu_remove_from_black_list">Retirer de la liste noire</string>
+<string name="remove_from_black_list">Supprimé de la liste noire</string>
+<string name="menu_send_number">Envoyer le numéro</string>
+<string name="menu_delete_call_log">Supprimer le journal d\'appels</string>
+<string name="hotline_name">Hotline</string>
+<string name="hotline_phone">4008308300</string>
+<string name="hotline_email">mobile@huawei.com</string>
+<string name="hq_sim_slot_position_1">Carte 1</string>
+<string name="hq_sim_slot_position_2">Carte 2</string>
+<string name="menu_copy_number">Copier le numéro</string>
+    <string name="flight_mode_turned_on">Mode avion activé</string>
+    <string name="stared_contacts">Favoris</string>
+     <string name="discard_change_contacts">Jeter</string>
+     <string name="save_change_contacts">Sauvegarder</string>
+    <string-array name="phone_contact_menu">
+        <item>Appeler</item>
+        <item>Envoyer un message</item>
+        <item>Envoyer un e-mail</item>
+        <item>Modifier</item>
+        <item>Supprimer</item>
+        <item>Partager contacts</item>
+        <item>Favoris</item>
+        <item>Ajouter à la liste noire</item>
+        <item>Placer sur l\'écran d\'accueil</item>
+    </string-array>
+    <string-array name="sim_contact_menu">
+        <item>Appeler</item>
+        <item>Envoyer un message</item>
+        <item>Modifier</item>
+        <item>Supprimer</item>
+        <item>Partager contacts</item>
+        <item>Ajouter à la liste noire</item>
+        <item>Créer des raccourcis</item>
+    </string-array>
+    <string name="merge_duplicate_contacts">Fusionner contacts en double</string>
+    <string name="mem_status">État de la mémoire</string>
+    <string name="set_up_my_profile">Configurer mon profil</string>
+    <string name="contact_editor_account_selection_title">"Sélectionner un compte"</string>
+<string name="menu_copyContactsToSIM">Sauvegarder le message sur la carte SIM</string>
+</resources>

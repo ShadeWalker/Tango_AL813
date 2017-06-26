@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="description_ip_call_action">IP 呼叫 <xliff:g id="nameOrNumber" example="John Smith">%1$s</xliff:g></string>
+    <string name="select_account">"选择帐户"</string>
+    <string name="all_accounts">"所有帐户"</string>
+    <string name="imei_invalid">无效</string>
+    <string name="conf_call_member_list">参与者列表</string>
+    <string name="conf_call_participant_answered">已接</string>
+    <string name="conf_call_participant_missed">未接</string>
+
+    <!-- The message of toast when switch account between two CDMA cards during a call -->
+    <string name = "can_not_switch_account_during_call">通话中无法切换默认账户。</string>
+    <!-- The message of alert dialog when switch account but it is not allowed -->
+    <string name = "can_not_switch_account_temporarily">暂时无法切换默认通话账户。</string>
+
+    <!-- M: CTA location permission -->
+    <string name="location_permission_title" translatable="false">安全警告</string>
+    <string name="location_permission_summary" translatable="false">拨号正在尝试获取您当前的位置。\n
+        ( <xliff:g id="time_sec">%1$s</xliff:g> 秒后自动拒绝。)
+    </string>
+    <string name="location_permission_allow" translatable="false">允许</string>
+    <string name="location_permission_deny" translatable="false">拒绝</string>
+    <!-- @} -->
+</resources>

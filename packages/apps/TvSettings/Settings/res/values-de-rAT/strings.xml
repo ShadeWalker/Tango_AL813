@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_app_name">Einstellungen</string>
+    <string name="launcher_settings_app_name">Einstellungen</string>
+    <string name="launcher_network_app_name">Netzwerk</string>
+    <string name="launcher_restricted_profile_app_name">Eingeschränktes Profil</string>
+    <skip/>
+    <string name="header_category_device">Zur Kopplung mit:<xliff:g id="bold">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="device_name">%1$s</xliff:g><xliff:g id="end_bold">&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;</xliff:g>Geben Sie die vom Gerät benötigte PIN ein:</string>
+    <string name="header_category_preferences">Voreinstellungen</string>
+    <string name="header_category_accessories">Fernbedienung &amp; Zubehör</string>
+    <string name="header_category_personal">Personalisiert</string>
+    <skip/>
+    <string name="add_account">Konto hinzufügen</string>
+    <string name="account_header_sync">"Synchronisieren"</string>
+    <string name="account_header_remove_account">Konto löschen</string>
+    <string name="search_title">Suchen</string>
+    <string name="account_sync">Synchr. App wählen</string>
+    <string name="sync_now">Jetzt synchronisieren</string>
+    <string name="sync_cancel">Sync abbrechen</string>
+    <string name="sync_in_progress">Sync läuft\u2026</string>
+    <string name="last_synced">Letzte Synchronisation <xliff:g id="time">%1s</xliff:g></string>
+    <string name="sync_disabled">Deaktiviert</string>
+    <string name="sync_is_failing">Sync. Arbeitet jetzt nicht. Es wird in Kürze fortgefahren.</string>
+    <string name="account_remove">Konto löschen</string>
+    <string name="account_remove_failed">Kann Konto nicht löschen</string>
+    <string-array name="account_detail_settings">
+        <item>NAME</item>
+        <item>Foto</item>
+        <item>Sicherheit</item>
+        <item>Google-Wallet</item>
+        <item>Kaufverlauf</item>
+        <item>Konto löschen</item>
+    </string-array>
+    <skip/>
+    <string name="connectivity_network">Netzwerk</string>
+    <string name="connectivity_wifi">Wi-Fi</string>
+    <string name="connectivity_ethernet">Ethernet</string>
+    <skip/>
+    <string name="device_daydream">Tagtraum</string>
+    <string name="device_display">Anzeige</string>
+    <string name="device_sound_effects">System-Sound</string>
+    <string name="device_apps">Apps</string>
+    <string name="device_storage_reset">Speicher &amp; Reset</string>
+    <string name="device_storage">"Speicher"</string>
+    <string name="device_backup_restore">Sichern &amp; Wiederherstellen</string>
+    <string name="device_reset">Auf Werkseinstellungen zurücksetzen</string>
+    <string name="device_calibration">Kalibrierung</string>
+    <string name="apps_downloaded">Heruntergeladene Apps</string>
+    <string name="apps_system">System-Apps</string>
+    <string name="apps_running">Ausgeführte Apps</string>
+    <skip/>
+    <string name="accessories_remote">Fern</string>
+    <string name="accessories_camera">Kamera</string>
+    <string name="accessories_add">Zubehör hinzufügen</string>
+    <string name="accessories_wifi_display">Wi-Fi-Anzeige</string>
+    <string name="accessory_state_pairing">Koppeln\u2026</string>
+    <string name="accessory_state_connecting">Verbinden\u2026</string>
+    <string name="accessory_state_error">Kann nicht koppeln</string>
+    <string name="accessory_state_canceled">Abgebrochen</string>
+    <string name="accessory_state_paired">Gekoppelt</string>
+    <string name="accessory_options">Zubehör</string>
+    <string name="accessory_rename">UMBENNEN</string>
+    <string name="accessory_unpair">Kopplung aufheben</string>
+
+    <string name="accessory_connected">Verbunden</string>
+    <skip/>
+
+    <string name="accessories_add_bluetooth_inst">Vor dem Koppeln der Bluetooth-Geräte müssen sich beide im Koppelmodus befinden</string>
+    <string name="accessories_autopair_msg">Gerät gefunden. Wird automatisch in <xliff:g id="countdown">%1$s</xliff:g> Sekunden gekoppelt</string>
+    <string name="accessories_add_title_multiple">Mehrere Geräte gefunden</string>
+    <string name="accessories_add_multiple">Um ein anderes Gerät zu wählen, drücken Sie die Koppeltaste auf dem Gerät</string>
+
+    <string name="error_action_not_supported">Aktion wird nicht unterstützt</string>
+    <string name="bluetooth_pairing_request">Bluetooth-Kopplungsanfrage</string>
+    <string name="bluetooth_confirm_passkey_msg">Zum Koppeln mit: <b><xliff:g id="device_name">%1$s</xliff:g></b>, muss dieser Passkey angezeigt werden: <b><xliff:g id="passkey">%2$s</xliff:g></b></string>
+    <string name="bluetooth_incoming_pairing_msg">Von: <b><xliff:g id="device_name">%1$s</xliff:g></b>&lt;br&gt;Mit diesem Gerät koppeln?</string>
+    <string name="bluetooth_display_passkey_pin_msg">Zum Koppeln mit: <b><xliff:g id="device_name">%1$s</xliff:g></b><br/>Geben Sie ein: <b><xliff:g id="passkey">%2$s</xliff:g></b>, und drücken dann Eingabe.</string>
+    <string name="bluetooth_enter_pin_msg">Zum Koppeln mit: <b><xliff:g id="device_name">%1$s</xliff:g></b>, &lt;br&gt;geben Sie den Geräte-PIN ein:</string>
+    <string name="bluetooth_enter_passkey_msg">Zum Koppeln mit: <b><xliff:g id="device_name">%1$s</xliff:g></b>, &lt;br&gt;geben Sie den Geräte-Passkey ein:</string>
+    <string name="bluetooth_pin_values_hint">Normalerweise 0000 oder 1234</string>
+    <string name="bluetooth_pair">Koppeln</string>
+    <string name="bluetooth_cancel">"Abbrechen"</string>
+    <skip/>
+    <string name="system_cast">Google-Cast</string>
+    <string name="system_date_time">Datum &amp; Uhrzeit</string>
+    <string name="system_language">"Sprache"</string>
+    <string name="system_keyboard">Tastatur</string>
+    <string name="system_search">Suchen</string>
+    <string name="system_security">Sicherheit &amp; Einschränkungen</string>
+    <string name="system_speech">Sprache</string>
+    <string name="system_inputs">Eingaben</string>
+    <string name="system_accessibility">"Bedienungshilfen"</string>
+    <string name="system_developer_options">Entwickleroptionen</string>
+    <string name="accessibility_none">"Keine"</string>
+    <skip/>
+    <string name="about_system_update">Systemaktualisierung</string>
+    <string name="about_preference">Info</string>
+    <string name="device_name">Gerätename</string>
+    <string name="about_legal_info">Rechtliche Hinweise</string>
+    <string name="about_warranty">Garantie</string>
+    <string name="about_legal_license">Open-Source-Lizenzen</string>
+    <string name="about_terms_of_service">Bedingungen anzeigen</string>
+    <string name="about_privacy_policy">Datenschutzrichtlinien anzeigen</string>
+    <string name="about_additional_terms">Zusätzl. Bedingungen anzeigen</string>
+    <string name="about_license_activity_unavailable">Lizenzdaten nicht verfügbar</string>
+    <string name="about_model">Modell</string>
+    <string name="about_version">Version</string>
+    <string name="about_serial">Seriennummer</string>
+    <string name="about_build">Build</string>
+    <plurals name="show_dev_countdown">
+        <item quantity="one">Es ist nur noch <xliff:g id="step_count">%1$d</xliff:g> Schritt Entwickler zu werden</item>
+        <item quantity="other">Es sind nur noch <xliff:g id="step_count">%1$d</xliff:g> Schritte Entwickler zu werden</item>
+    </plurals>
+    <string name="about_ads">Ads</string>
+    <string name="show_dev_on">Sie sind nun ein Entwickler!</string>
+    <string name="show_dev_already">Nicht erforderlich, Sie sind bereits Entwickler</string>
+    <skip/>
+    <string name="wifi_security_none">"Keine"</string>
+    <string name="wifi_remembered">Gespeichert</string>
+    <string name="wifi_disabled_generic">Deaktiviert</string>
+    <string name="wifi_disabled_network_failure">Schlechte Internetverbindung gemieden</string>
+    <string name="wifi_disabled_password_failure">Authentisierungsproblem</string>
+    <string name="wifi_not_in_range">Nicht in Reichweite</string>
+    <string name="wifi_wps_available_first_item">WPS verfügbar</string>
+    <string name="wifi_wps_available_second_item">\u0020(WPS verfügbar)</string>
+    <string name="wifi_secured_first_item">Mit <xliff:g id="wifi_security_short">%1$s</xliff:g> abgesichert</string>
+    <string name="wifi_secured_second_item">, mit <xliff:g id="wifi_security_short">%1$s</xliff:g> abgesichert</string>
+    <string-array name="wifi_signal_strength">
+        <item>Schwach</item>
+        <item>Mittel</item>
+        <item>Gut</item>
+        <item>Hervorragend</item>
+    </string-array>
+    <string name="title_mac_address">MAC-Adresse</string>
+    <string name="title_signal_strength">Signalstärke</string>
+    <string name="title_ip_address">IP-Adresse</string>
+    <string name="title_ssid">Name des Wi-Fi-Netzwerks eingeben</string>
+    <string name="title_internet_connection">Keine Inet-Verbindung</string>
+    <string name="connected">Verbunden</string>
+    <string name="not_connected">Nicht verbunden</string>
+    <string name="wifi_setting_header_available_networks">Wi-Fi</string>
+    <string name="wifi_setting_header_other_options">Andere Optionen</string>
+    <string name="wifi_setting_see_all">"Alle anzeigen"</string>
+    <string name="wifi_setting_available_networks">Verfügbare Netwerke</string>
+    <string name="wifi_setting_other_options_wps">Über WPS verbinden</string>
+    <string name="wifi_setting_other_options_add_network">Neues Netzwerk hinzufügen</string>
+    <string name="add_network">Netzwerk hinzufügen</string>
+    <string name="network_ssid">Netzwerk-SSID</string>
+    <string name="security_type">Sicherheitstyp</string>
+    <string name="password">Kennwort</string>
+    <string name="wps_network">Über WPS verbinden</string>
+    <string name="other_network">Anderes Netzwerk\u2026</string>
+    <string name="skip_network">"Überspringen"</string>
+    <string name="wifi_security_type_none">"Keine"</string>
+    <string name="wifi_security_type_wep">WEP</string>
+    <string name="wifi_security_type_wpa">WPA/WPA2 PSK</string>
+    <string name="wifi_security_type_eap">802.1x EAP</string>
+    <string name="title_wifi_no_networks_available">Scannen\u2026</string>
+    <string name="title_wifi_could_not_save">Kann Konfiguration für <xliff:g id="ssid">%1$s</xliff:g> nicht speichern</string>
+    <string name="title_wifi_could_not_connect">Kann nicht mit <xliff:g id="ssid">%1$s</xliff:g> verbinden</string>
+    <string name="title_wifi_could_not_connect_timeout">Kann <xliff:g id="ssid">%1$s</xliff:g> nicht finden</string>
+    <string name="title_wifi_could_not_connect_authentication_failure">Wi-Fi-Kennwort ungültig</string>
+    <string name="title_wifi_could_not_connect_ap_reject">Wi-Fi-Netzwerk hat Verbindung nicht akzeptiert</string>
+    <string name="title_wifi_advanced_options">Proxy- und IP-Einstellungen <xliff:g id="ssid">%1$s</xliff:g> konfigurieren?</string>
+    <string name="title_wifi_proxy_settings">Proxy-Einstellungen</string>
+    <string name="title_wifi_proxy_hostname">Proxy-Host-Name:</string>
+    <string name="title_wifi_proxy_port">Proxy-Port:</string>
+    <string name="title_wifi_proxy_bypass">Proxy umgehen für:</string>
+    <string name="title_wifi_ip_settings">IP-Einstellungen</string>
+    <string name="title_wifi_ip_address">IP-Adresse:</string>
+    <string name="title_wifi_gateway">Gateway:</string>
+    <string name="title_wifi_network_prefix_length">Netzwerk-Präfix-Länge:</string>
+    <string name="title_wifi_dns1">DNS 1:</string>
+    <string name="title_wifi_dns2">DNS 2:</string>
+    <string name="title_wifi_proxy_settings_invalid">Proxy-Einstellungen ungültig:</string>
+    <string name="title_wifi_ip_settings_invalid">IP-Einstellungen ungültig</string>
+    <string name="title_wifi_known_network"><xliff:g id="ssid">%1$s</xliff:g> ist ein gespeichertes Netzwerk</string>
+    <string name="wifi_action_try_again">Erneut versuchen</string>
+    <string name="wifi_action_view_available_networks">Verfügbare Netzwerke anzeigen</string>
+    <string name="wifi_connecting">Verbinde mit <xliff:g id="ssid">%1$s</xliff:g></string>
+    <string name="wifi_saving">Speichere Konfiguration für <xliff:g id="ssid">%1$s</xliff:g></string>
+    <string name="wifi_connect">Verbinden</string>
+    <string name="wifi_forget_network">Netzwerk vergessen</string>
+    <string name="wifi_forget_network_description">Hierdurch werden Informationen für die Verbindung mit diesem Netzwerk, einschl. Kennwort, gelöscht</string>
+    <string name="wifi_action_ok">"OK"</string>
+    <string name="wifi_action_change_network">Ändern</string>
+    <string name="wifi_action_dont_change_network">Nicht ändern</string>
+    <string name="wifi_action_advanced_yes">"OK"</string>
+    <string name="wifi_action_advanced_no">Nein (empfohlen)</string>
+    <string name="wifi_action_proxy_none">"Keine"</string>
+    <string name="wifi_action_proxy_manual">Manuell</string>
+    <string name="wifi_action_dhcp">DHCP</string>
+    <string name="wifi_action_save">"Speichern"</string>
+    <string name="wifi_action_static">Statisch</string>
+    <string name="wifi_action_status_info">Status-Info</string>
+    <string name="wifi_action_advanced_options_title">Erweiterte Optionen zeigen</string>
+    <string name="wifi_action_advanced_options_description"><xliff:g id="proxy_settings_summary">%1$s</xliff:g>, <xliff:g id="ip_settings_summary">%2$s</xliff:g></string>
+    <string name="wifi_ip_settings_invalid_ip_address">Gültige IP-Adresse eingeben</string>
+    <string name="wifi_ip_settings_invalid_gateway">Gültige Gateway-Adresse eingeben</string>
+    <string name="wifi_ip_settings_invalid_dns">Gültige DNS-Adresse eingeben</string>
+    <string name="wifi_ip_settings_invalid_network_prefix_length">Netzwerk-Präfix mit 0 bis 32 Stellen eingeben</string>
+    <string name="wifi_ip_address_hint">Gültige IP-Adresse eingeben.\nBeispiel: 192.168.1.128</string>
+    <string name="wifi_dns1_hint">Gültige IP-Adresse eingeben oder leer lassen.\nBeispiel: 8.8.8.8</string>
+    <string name="wifi_dns2_hint">Gültige IP-Adresse eingeben oder leer lassen.\nBeispiel: 8.8.4.4</string>
+    <string name="wifi_gateway_hint">Gültige IP-Adresse eingeben oder leer lassen.\nBeispiel: 192.168.1.1</string>
+    <string name="wifi_network_prefix_length_hint">Gültige Netzwerk-Präfix-Länge eingeben.\nBeispiel: 24</string>
+    <string name="proxy_error_invalid_host">Host-Name ist ungültig</string>
+
+    <string name="proxy_error_empty_port">Port-Feld darf nicht leer sein.</string>
+    <string name="proxy_error_empty_host_set_port">Ist das Host-Feld leer, lassen Sie auch das Port-Feld leer</string>
+    <string name="proxy_error_invalid_port">Port ist ungültig</string>
+    <string name="proxy_warning_limited_support">Http-Proxy wird vom Browser aber evtl. nicht durch andere Apps verwendet</string>
+    <string name="proxy_port_hint">Gültigen Port eingeben.\nBeispiel: 8080</string>
+    <string name="proxy_exclusionlist_hint">Durch Kommata getrennte Liste exklusiver Domains eingeben oder leer lassen.\nBeispiel: example.com,mycomp.test.com,localhost</string>
+    <string name="proxy_hostname_hint">Gültigen Host-Namen eingeben.\nBeispiel: proxy.example.com</string>
+    <string name="wifi_summary_title_connected">Netzwerk verbunden</string>
+    <string name="wifi_summary_title_not_connected">Netzwerk nicht verbunden</string>
+    <string name="wifi_summary_description_connected_to_wifi_network">Bereits verbunden mit <xliff:g id="ssid">%1$s</xliff:g>. Mit anderem Netzwerk verbinden?</string>
+    <string name="wifi_summary_unknown_network">Ein unbekanntes Netzwerk</string>
+    <string name="connectivity_advanced_options">Erweiterte Optionen zeigen</string>
+    <string name="connectivity_advanced_options_description"><xliff:g id="ssid">%1$s</xliff:g>, <xliff:g id="ssid">%2$s</xliff:g></string>
+    <string name="title_ip_settings">IP-Einstellungen</string>
+    <string name="title_test_connection">Test-Verbindung </string>
+    <string name="dhcp">DHCP</string>
+    <string name="title_static">Statisch</string>
+    <string name="gateway">Gateway</string>
+    <string name="title_network_prefix_length">Netzwerkkennzahl</string>
+    <string name="title_dns_1">DNS 1</string>
+    <string name="title_dns_2">DNS 2</string>
+    <string name="title_ok">"OK"</string>
+    <string name="title_cancel">"Abbrechen"</string>
+    <string name="rename_device">Gerät umbenennen</string>
+    <string name="storage_title">"Speicher"</string>
+    <string name="storage_available">"Verfügbar"</string>
+    <string name="storage_size">Gesamtplatz: <xliff:g id="total_space">%1$s</xliff:g></string>
+    <string name="storage_calculating_size">Berechne\u2026</string>
+    <string name="storage_apps_usage">Apps</string>
+    <string name="storage_downloads_usage">Downloads</string>
+    <string name="storage_dcim_usage">Fotos &amp; Videos</string>
+    <string name="storage_music_usage">Audio</string>
+    <string name="storage_media_misc_usage">Verschiedenes</string>
+    <string name="storage_media_cache_usage">Daten im Cache-Speicher</string>
+    <string name="wifi_wps_cancel_scan">"Abbrechen"</string>
+    <string name="wifi_wps_retry_scan">Wiederholen</string>
+    <string name="wifi_wps_title">Suche nach WPS-Router\u2026</string>
+    <string name="wifi_wps_instructions">Drücken Sie die Wi-Fi-Setup-Taste auf Ihrem Router.\nEs kann \"WPS\" heißen oder das links dargestellte Symbol haben.</string>
+    <string name="wifi_wps_onstart_pin">Geben Sie den PIN <xliff:g id="number">%1$s</xliff:g> auf Ihrem Wi-Fi-Router ein.</string>
+    <string name="wifi_wps_onstart_pin_description">Nach PIN-Eingabe kann die Einrichtung bis zu 2 Minuten dauern</string>
+    <string name="wifi_wps_in_progress">WPS wird bereits eingerichtet und es kann bis zu 2 Minuten dauern</string>
+    <string name="wifi_wps_failed_generic">Kann Wi-Fi-Router nicht finden</string>
+    <string name="wifi_wps_failed_wep">Wi-Fi-Router-Sicherheitseinstellungen (WEP) werden nicht unterstützt</string>
+    <string name="wifi_wps_failed_tkip">Wi-Fi-Router-Sicherheitseinstellungen (TKIP) werden nicht unterstützt</string>
+    <string name="wifi_wps_failed_overlap">Es wurde eine andere WPS-Sitzung erkannt. Versuchen Sie es in ein paar Minuten erneut</string>
+    <string name="system_date">Datum</string>
+    <string name="system_time">Zeit</string>
+    <string name="system_set_date">"Datum festlegen"</string>
+    <string name="system_choose_date_format">Datumsformat wählen</string>
+    <string name="system_set_time">"Uhrzeit festlegen"</string>
+    <string name="system_set_time_zone">"Zeitzone festlegen"</string>
+    <string name="system_set_time_format">24-Stunden-Format verwenden</string>
+    <string name="system_auto_date_time">Datum &amp; Uhrzeit automatisch einstellen</string>
+    <string name="desc_auto_date_time">Zeit vom Netzwerk übernehmen</string>
+    <string name="system_location">Standort</string>
+    <string name="system_desc_location">Apps, die Ihre Erlaubnis haben, dürfen Standortinformationen verwenden.</string>
+    <string name="system_network_location">Wi-Fi-Netzwerkstandort</string>
+    <string name="system_desc_network_location">Lassen Sie Apps mit Hilfe von Google den Standort feststellen. Hierbei werden anonyme Standortdaten an Google gesendet, auch wenn keine Apps laufen.</string>
+    <string name="system_network_location_confirm">Zustimmung Standort</string>
+    <string name="system_desc_network_location_confirm">Googles-Standortdienst erlauben, anonyme Standortdaten zu sammeln. Einige Daten können in Ihrem Gerät gespeichert werden. Sammlung erfolgt auch, wenn keine Apps laufen.</string>
+    <string name="location_title">Mein Standort</string>
+    <string name="header_category_system">"System"</string>
+    <string name="location_mode_title">Modus</string>
+    <string name="location_category_recent_location_requests">Abfrage letzter Standort</string>
+    <string name="location_no_recent_apps">Der Standort wurde kürzlich von keiner App abgefragt.</string>
+    <string name="location_high_battery_use">Hoher Batterieverbrauch</string>
+    <string name="location_low_battery_use">Niedriger Batterieverbrauch</string>
+    <string name="location_mode_wifi_description">Wi\u2011Fi zur Standortbestimmung verwenden</string>
+    <string name="location_status">Standortstatus</string>
+    <string name="location_services">Standortdienst</string>
+    <string name="on">Ein</string>
+    <string name="off">"AUS"</string>
+    <string name="google_location_services_title">Google-Standortdienst</string>
+    <string name="third_party_location_services_title">Standortdienst Dritter</string>
+    <string name="location_reporting">Standortbericht</string>
+    <string name="location_history">Standortverlauf</string>
+    <string name="location_reporting_desc">Google verwendet diese Funktionen in Google Now und Google Maps. Wird Standortbericht eingeschaltet, verwenden und speichern alle Google-Produkte mit dieser Funktion die letzte Position Ihres Geräts in Verbindung mit Ihrem Google-Konto.</string>
+    <string name="location_history_desc">Ist der Standortverlauf für dieses Konto aktiviert, kann Google den Standort Ihres Geräts zur Verwendung mit Apps speichern.\n\nBeispielsweise kann Google Maps Ihnen Hinweise geben und Google Now kann Sie über Pendlerverkehr informieren.\n\nSie können den Standortverlauf jederzeit deaktivieren. Die Daten werden hierdurch nicht gelöscht. Zur Anzeige und Verwaltung Ihres Standortverlaufs besuchen Sie maps.google.com/locationhistory.</string>
+    <string name="delete_location_history_title">Standortverlauf löschen</string>
+    <string name="delete_location_history_desc">Hierdurch werden alle Standortdaten des Geräts für das Google-Konto gelöscht. Sie können diese Aktion nicht rückgängig machen! Einige Apps, einschl. Google Now, arbeiten dann nicht mehr,</string>
+    <string name="system_services">Dienste</string>
+    <string name="accessibility_service_settings">Diensteinstellungen</string>
+    <string name="accessibility_captions">Titel</string>
+    <string name="accessibility_captions_description">Einstellungen für Untertiteldarstellung in Videos</string>
+    <string name="captions_display">Anzeige</string>
+    <string name="captions_display_on">Ein</string>
+    <string name="captions_display_off">"AUS"</string>
+    <string name="display_options">Anzeigeoptionen</string>
+    <string name="captions_configure">Konfigurieren</string>
+    <string name="captions_lanaguage">"Sprache"</string>
+    <string name="captions_textsize">Textgröße</string>
+    <string name="captions_captionstyle">Überschriftstil</string>
+    <string name="captions_customoptions">Kundenspezifische Optionen</string>
+    <string name="captions_fontfamily">Schriftart</string>
+    <string name="captions_textcolor">Textfarbe</string>
+    <string name="captions_edgetype">Kantentyp</string>
+    <string name="captions_edgecolor">Kantenfarbe</string>
+    <string name="captions_backgroundcolor">Hintergrundfarbe</string>
+    <string name="captions_backgroundopacity">Hintergrunddeckkraft</string>
+    <string name="captioning_preview_text">Überschriften werden so ausschauen</string>
+    <string name="captions_textopacity">Text-Deckkraft</string>
+    <string name="captions_windowcolor">Fensterfarbe</string>
+    <string name="captions_windowopacity">Fensterdeckkraft</string>
+    <string name="color_none">"Keine"</string>
+    <string name="color_white">Weiß</string>
+    <string name="color_gray">"Grau"</string>
+    <string name="color_black">Schwarz</string>
+    <string name="color_red">Rot</string>
+    <string name="color_green">Grün</string>
+    <string name="color_blue">Blau</string>
+    <string name="color_cyan">Cyan</string>
+    <string name="color_yellow">Gelb</string>
+    <string name="color_magenta">"Magenta"</string>
+    <string name="system_accessibility_status">"Bundesstaat/-land"</string>
+    <string name="system_accessibility_config">Konfiguration</string>
+    <string name="system_accessibility_service_on_confirm_title"><xliff:g id="service" example="TalkBack">%1$s</xliff:g> verwenden?</string>
+    <string name="system_accessibility_service_on_confirm_desc"><xliff:g id="service" example="TalkBack">%1$s</xliff:g> kann Text, den Sie eingeben, sammeln, außer Kennworte. Hierzu gehören auch persönliche Daten wie Kreditkartennummern.</string>
+    <string name="system_accessibility_service_off_confirm_title"><xliff:g id="service" example="TalkBack">%1$s</xliff:g> stoppen?</string>
+    <string name="system_accessibility_service_off_confirm_desc">Wählen von OK stoppt <xliff:g id="service" example="TalkBack">%1$s</xliff:g>.</string>
+    <string name="system_accessibility_tts_output">Text-to-Speech</string>
+    <string name="system_speak_passwords">Kennwort sprechen</string>
+    <string name="system_preferred_engine">Bevorzugte Engine</string>
+    <string name="system_speech_rate">Sprechgeschwindigkeit</string>
+    <string name="system_play_sample">Beispiel wiedergeben</string>
+    <string name="system_install_voice_data">Stimmdaten installieren</string>
+    <string name="system_general">Allgemein</string>
+    <string name="system_debugging">Fehlersuche</string>
+    <string name="system_input">Eingang</string>
+    <string name="system_drawing">Zeichnen</string>
+    <string name="system_monitoring">Überwachung</string>
+    <string name="system_apps">Apps</string>
+    <string name="system_take_bug_report">"Fehlerbericht abrufen"</string>
+    <string name="system_backup_password">Kennwort sichern</string>
+    <string name="system_stay_awake">Wach bleiben</string>
+    <string name="system_hdcp_checking">HDCP-Prüfung</string>
+    <string name="system_hdmi_optimization">HDMI-Optimierung</string>
+    <string name="system_reboot_confirm">Jetzt neu starten?</string>
+    <string name="system_desc_reboot_confirm">Zur Aktualisierung der Einstellungen muss das Gerät neu gestartet werden</string>
+    <string name="system_never_check">Nie prüfen</string>
+    <string name="system_check_for_drm_content_only">Nur auf DRM-Inhalte prüfen</string>
+    <string name="system_always_check">Immer prüfen</string>
+    <string name="system_bt_hci_log">Bluetooth-HCI-Logging</string>
+    <string name="system_email_address">E-Mail-Adresse</string>
+    <string name="system_usb_debugging">USB-Fehlersuche</string>
+    <string name="system_allow_mock_locations">Pseudostandorte erlauben</string>
+    <string name="system_select_debug_app">App zur Fehlersuche wählen</string>
+    <string name="system_wait_for_debugger">Auf Debugger warten</string>
+    <string name="system_verify_apps_over_usb">Apps über USB prüfen</string>
+    <string name="system_desc_verify_apps_over_usb">Installierte Apps über ADB/ADT auf schädliches Verhalten prüfen</string>
+    <string name="system_wifi_verbose_logging">Wi-Fi-Verbose-Logging</string>
+    <string name="system_desc_wifi_verbose_logging">Wi-Fi-Verbose-Logging aktivieren</string>
+    <string name="system_show_touches">Berührungen anzeigen</string>
+    <string name="system_pointer_location">Zeigerposition</string>
+    <string name="system_show_layout_bounds">Layout-Grenzen anzeigen</string>
+    <string name="system_show_gpu_view_updates">GPU-Ansichtaktualisierung anzeigen</string>
+    <string name="system_show_hardware_layer">Hardware-Layer anzeigen</string>
+    <string name="system_show_gpu_overdraw">GPU-Overdraw anzeigen</string>
+    <string name="system_show_surface_updates">Oberflächenaktualisierungen anzeigen</string>
+    <string name="system_window_animation_scale">Skalierung Fensteranimationen</string>
+    <string name="system_transition_animation_scale">Transition animation scale</string>
+    <string name="system_animator_duration_scale">Animator duration scale</string>
+    <string name="system_strict_mode_enabled">Strikter Modus aktiviert</string>
+    <string name="system_show_cpu_usage">CPU-Nutzung anzeigen</string>
+    <string name="system_profile_gpu_rendering">Profil GPU-Rendering</string>
+    <string name="system_enable_traces">Traces aktivieren</string>
+    <string name="system_dont_keep_activities">Aktivitäten löschen</string>
+    <string name="system_background_process_limit">Hintergrundproz. Grenzw.</string>
+    <string name="system_show_all_anrs">Alle ANRs anzeigen</string>
+    <string name="system_desc_take_bug_report">Bericht an E-Mail-Adresse senden</string>
+    <string name="system_desc_backup_password">Desktop-Sicherungen schützen</string>
+    <string name="system_desc_stay_awake">Schlafmodus deaktivieren</string>
+    <string name="system_desc_hdcp_checking">Nur für DRM-Inhalte verwenden</string>
+    <string name="system_desc_hdmi_optimization">Anzeige auf maximale Auflösung oder Bildrate optimieren Dies wirkt sich nur auf Ultra-HD-Anzeigen aus. Änderung dieser Einstellungen startet Ihr Gerät neu.</string>
+    <string name="system_desc_bt_hci_log">Bluetooth HCI-Snoop-Loggin aktivieren</string>
+    <string name="system_desc_usb_debugging">Fehlersuchmodus wenn USB verbunden</string>
+    <string name="system_desc_wait_for_debugger">Anwendung zur Fehlersuche wartet vor der Ausführung auf Debugger</string>
+    <string name="system_desc_show_layout_bounds">Clip-Grenzen, Ränder usw. anzeigen</string>
+    <string name="system_desc_show_gpu_view_updates">Flash Anzeige im Fenstern, wenn durch GPU gezeichnet.</string>
+    <string name="system_desc_show_hardware_layer">Hardware-Layer blinken bei Aktualisierung grün.</string>
+    <string name="system_desc_show_gpu_overdraw">Vom besten zum schlechtesten: Blau, grün, hellrot, rot</string>
+    <string name="system_desc_show_surface_updates">Flash gesamtes Fenster bei Aktualisierung</string>
+    <string name="system_desc_strict_mode_enabled">Flash Screen, wenn Apps lange den Haupt-Thread benutzen</string>
+    <string name="system_desc_show_cpu_usage">Bildschirm-Overlay zeigt aktuelle CPU-Nutzung</string>
+    <string name="system_desc_profile_gpu_rendering">Rendering-Zeit in adb shell dumpsys gfxinfo messen</string>
+    <string name="normal_date_format">Regional (<xliff:g id="date" example="12-31-2009">%s</xliff:g>)</string>
+    <skip/>
+    <string name="action_on_title">Ein</string>
+    <string name="action_off_title">"AUS"</string>
+    <string name="action_on_description">Ein</string>
+    <string name="action_off_description">"AUS"</string>
+    <string name="agree">Stimme zu</string>
+    <string name="disagree">Ablehnen</string>
+    <skip/>
+    <string name="security_unknown_sources_title">Unbekannte Quellen</string>
+    <string name="security_unknown_sources_desc">App-Installationen aus anderen Quellen als Play-Store erlauben</string>
+    <string name="security_unknown_sources_confirm_desc">Ihr Gerät und Ihre persönlichen Daten sind anfälliger gegenüber Angriffen von Apps unbekannten Ursprungs. Sie stimmen zu, dass Sie die alleinige Verantwortung für Schäden an dem Gerät oder den Verlust von Daten tragen, die aus der Verwendung solcher Apps entstehen können.</string>
+    <string name="security_verify_apps_title">Apps überprüfen</string>
+    <string name="security_verify_apps_desc">Vor der Installation von möglicherweise schädlichen Apps warnen oder blockieren.</string>
+    <string-array name="hdcp_checking_summaries">
+        <item>Nie</item>
+        <item>Für DRM-Inhalte</item>
+        <item>"Immer"</item>
+    </string-array>
+    <string name="no_application">Nichts</string>
+    <string-array name="enable_opengl_traces_entries">
+        <item>"Keine"</item>
+        <item>Logcat</item>
+        <item>Systrace (Grafik)</item>
+        <item>Aufrufstapel an glGetError</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animation aus</item>
+        <item>Animationstempo 0,5 x</item>
+        <item>Animationstempo 1 x</item>
+        <item>Animationstempo 1,5 x</item>
+        <item>Animationstempo 2 x</item>
+        <item>Animationstempo 5 x</item>
+        <item>Animationstempo 10 x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animation aus</item>
+        <item>Animationstempo 0,5 x</item>
+        <item>Animationstempo 1 x</item>
+        <item>Animationstempo 1,5 x</item>
+        <item>Animationstempo 2 x</item>
+        <item>Animationstempo 5 x</item>
+        <item>Animationstempo 10 x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animation aus</item>
+        <item>Animationstempo 0,5 x</item>
+        <item>Animationstempo 1 x</item>
+        <item>Animationstempo 1,5 x</item>
+        <item>Animationstempo 2 x</item>
+        <item>Animationstempo 5 x</item>
+        <item>Animationstempo 10 x</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>"AUS"</item>
+        <item>Als Balken darstellen</item>
+        <item>"In adb shell dumpsys gfxinfo"</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Standardlimit</item>
+        <item>Keine Hintergrundprozesse</item>
+        <item>Maximal 1 Prozess</item>
+        <item>Maximal 2 Prozesse</item>
+        <item>Maximal 3 Prozesse</item>
+        <item>Maximal 4 Prozesse</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Sehr langsam</item>
+        <item>Langsam</item>
+        <item>Normal</item>
+        <item>Schnell</item>
+        <item>Sehr schnell</item>
+    </string-array>
+    <string name="choose_account_type_title">Kontentyp wählen</string>
+    <string name="choose_account_title">Konto wählen</string>
+    <string name="add_account_button_label">Neues Konto hinzufügen</string>
+    <string name="title_current_keyboard">Vorgabe</string>
+    <string name="title_configure">Konfigurieren</string>
+    <string name="desc_configure_keyboard">Tastatur-Optionen</string>
+    <string name="computing_size">Berechnen\u2026</string>
+    <string name="title_select_wifi_network">Wi-Fi-Netzwerk wählen</string>
+    <string name="accessories_wifi_display_rename_device">UMBENNEN</string>
+    <string name="accessories_wifi_display_enable">Wi-Fi-Anzeige</string>
+    <string name="accessories_wifi_display_pin_required">PIN erforderlich</string>
+    <string name="accessories_remote_list_title">Remote-Information: <xliff:g id="serialnumber">%1$s</xliff:g></string>
+    <skip/>
+    <string name="system_collecting_bug_report">Fehlerbericht sammeln!\nWir fragen nach weiteren Infos, wenn der Bericht fertig ist.</string>
+    <string name="system_collecting_bug_report_error">Fehlerbericht konnte nicht gesammelt werden!\nVersuchen Sie es später erneut.</string>
+    <string name="whichApplication">"Aktion durchführen mit"</string>
+    <string name="alwaysUseQuestion">Immer diese Option für diese Funktion verwenden?</string>
+    <string name="alwaysUseOption">Immer verwenden</string>
+    <string name="justOnceOption">"Nur diesmal"</string>
+    <string name="noApplications">"Diese Aktion kann von keiner App ausgeführt werden."</string>
+    <string name="noAppsGoBack">Zurück</string>
+    <string name="inputs_inputs">Eingänge</string>
+    <string name="inputs_header_cec">Consumer Electronic Control (CEC)</string>
+    <string name="inputs_cec_settings">Geräteverwaltungseinstellungen</string>
+    <string name="inputs_blu_ray">Blu-Ray</string>
+    <string name="inputs_cable">Kabel</string>
+    <string name="inputs_dvd">DVD</string>
+    <string name="inputs_game">Spielkonsole</string>
+    <string name="inputs_aux">Aux</string>
+    <string name="inputs_custom_name">Kundensp. Name:</string>
+    <string name="inputs_hide">Verborgen</string>
+    <string name="inputs_hide_desc">Nicht Anzeigen bei Eingangswechsel</string>
+    <string name="inputs_custom_title">Kundensp. Name:</string>
+    <string name="inputs_hdmi_control">HDMI-Steuerung</string>
+    <string name="inputs_hdmi_control_desc">HDMI-Steuerung durch TV-Gerät erlauben</string>
+    <string name="inputs_device_auto_off">Gerät automatisch abschalten</string>
+    <string name="inputs_device_auto_off_desc">HDMI-Gerät über TV abschalten</string>
+    <string name="inputs_tv_auto_on">TV automatisch abschalten</string>
+    <string name="inputs_tv_auto_on_desc">TV über HDMI-Gerät abschalten</string>
+    <plurals name="inputs_header_connected_input">
+        <item quantity="one">ANGESCHLOSSENER EINGANG</item>
+        <item quantity="other">ANGESCHLOSSENE EINGÄNGE</item>
+    </plurals>
+    <plurals name="inputs_header_standby_input">
+        <item quantity="one">STANDBY-EINGANG</item>
+        <item quantity="other">STANDBY-EINGÄNGE</item>
+    </plurals>
+    <plurals name="inputs_header_disconnected_input">
+        <item quantity="one">NICHT ANGESCHLOSSENER EINGANG</item>
+        <item quantity="other">NICHT ANGESCHLOSSENE EINGÄNGE</item>
+    </plurals>
+    <string name="inputs_state_connected">Verbunden</string>
+    <string name="inputs_state_connected_standby">Standby</string>
+    <string name="inputs_state_disconnected">Getrennt</string>
+    <string name="user_add_profile_item_summary">Zugriff auf Apps und andere Inhalte Ihres Kontos einschränken</string>
+    <string name="user_new_profile_name">Eingeschränktes Profil</string>
+    <string name="user_restrictions_title">Anwendungs- und Inhaltseinschränkungen</string>
+    <string name="user_restrictions_controlled_by">Gesteuert durch <xliff:g id="app">%1$s</xliff:g></string>
+    <string name="app_not_supported_in_limited">Diese App wird für eingeschränkte Profile nicht unterstützt.</string>
+    <string name="app_sees_restricted_accounts">Diese App kann auf Ihre Konten zugreifen.</string>
+    <string name="restriction_location_enable_title">Standort</string>
+    <string name="restriction_location_enable_summary">Apps dürfen Standortinformationen verwenden.</string>
+    <string name="restricted_profile_create">Eingeschränkten Benutzer einrichten</string>
+    <string name="restricted_profile_switch_to">Eingeschränktes Profil aufrufen</string>
+    <string name="restricted_profile_switch_out">Eingeschränktes Profil verlassen</string>
+    <string name="restricted_profile_delete_title">Eingeschränktes Profil löschen</string>
+    <string name="restricted_profile_configure_title">Einstellungen</string>
+    <string name="restricted_profile_configure_apps_title">Erlaubte Apps</string>
+    <plurals name="restricted_profile_configure_apps_description">
+        <item quantity="one">1 App erlaubt</item>
+        <item quantity="other">%d Apps erlaubt</item>
+    </plurals>
+    <string name="restricted_profile_allowed">Erlaubt</string>
+    <string name="restricted_profile_not_allowed">Nicht erlaubt</string>
+    <string name="restricted_profile_customize_restrictions">Kundensp. Einschränkungen</string>
+    <string name="restricted_profile_configure_apps_description_loading">Einen Moment\u2026</string>
+    <string name="restricted_profile_change_password_title">PIN ändern</string>
+    <string name="restricted_profile_set_password">Neuen PIN-Code zum Verlassen des eingeschränkten Profils erstellen</string>
+    <string name="restricted_profile_confirm_password">PIN-Code zum Verlassen des eingeschränkten Profils bestätigen</string>
+    <string name="restricted_profile_enter_password">PIN-Code zum Verlassen des eingeschränkten Profils eingeben</string>
+    <string name="restricted_profile_delete_dialog_title">Eingeschränkten Benutzer entfernen?</string>
+    <string name="restriction_description"><xliff:g id="description">%1$s</xliff:g>\n<xliff:g id="value">%2$s</xliff:g></string>
+    <eat-comment/>
+    <string name="pin_enter_unlock_channel">PIN zum Anschauen des Kanals eingeben</string>
+    <string name="pin_enter_unlock_program">PIN zum Anschauen des Programms eingeben</string>
+    <string name="pin_enter_pin">"PIN eingeben"</string>
+    <string name="pin_enter_new_pin">Neuen PIN einrichten</string>
+    <string name="pin_enter_again">Neuen PIN erneut eingeben</string>
+    <string name="pin_enter_old_pin">Alten PIN eingeben</string>
+    <string name="pin_enter_wrong">Sie haben 5-mal den falschen PIN eingegeben.\nVersuchen Sie es erneut in <xliff:g id="relative_time_span" example="in60seconds">%1$s</xliff:g>.</string>
+    <string name="pin_button_done">"Fertig"</string>
+    <string name="pin_button_cancel">"Abbrechen"</string>
+    <string name="pin_toast_wrong">Falscher PIN, versuchen Sie es erneut</string>
+    <string name="pin_toast_not_match">Versuchen Sie es erneut, PIN stimmt nicht überein</string>
+    <string name="accessory_unpairing">Geräte werden entkoppelt…</string>
+    <string name="accessories_add_title">Nach Zubehör wird gesucht...</string>
+    <string name="accessories_add_multiple_select">Zum Koppeln mit dem ausgewählten Gerät drücken &amp; halten Sie die Koppeltaste des Geräts für 5 Sekunden</string>
+    <string name="proxy_error_invalid_exclusion_list">Diese Ausnahmeliste ist ungültig. Geben Sie eine durch Kommata getrennte Liste der ausgenommenen Domains ein.</string>
+</resources>

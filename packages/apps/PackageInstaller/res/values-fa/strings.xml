@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="2738748390251381682" name="app_name">"نصب کننده بسته"</string>
+    <string msgid="3057143178373252333" name="next">"بعدی"</string>
+    <string msgid="5896438203900042068" name="install">"نصب"</string>
+    <string msgid="3889387558374211719" name="done">"انجام شد"</string>
+    <string msgid="2706691034244052604" name="security_settings_desc">"به این برنامه اجازه داده شود که:"</string>
+    <string msgid="8360346460165114585" name="cancel">"لغو"</string>
+    <string msgid="8360346460165114585" name="delete">حذف</string>
+    <string msgid="4742479012767208045" name="unknown">"ناشناس"</string>
+    <string msgid="8613631001631998372" name="installing">"در حال نصب…"</string>
+    <string msgid="3682715442154357097" name="install_done">"برنامه نصب شد."</string>
+    <string msgid="7295206719219043890" name="install_confirm_question">"آیا می‌خواهید این برنامه را نصب کنید؟ این برنامه به این موارد دسترسی خواهد یافت:"</string>
+    <string msgid="5918305641302873520" name="install_confirm_question_no_perms">"آیا می‌خواهید این برنامه را نصب کنید؟ این برنامه به دسترسی خاصی نیاز ندارد."</string>
+    <string msgid="4624159567361487964" name="install_confirm_question_update">"آیا میٰ‌خواهید بهٰ‌روزرسانی این برنامه کنونی را نصب کنید؟ داده کنونی شما از بین نمی‌رود. برنامه به‌روزرسانی شده دسترسی خواهد داشت به:"</string>
+    <string msgid="1302330093676416336" name="install_confirm_question_update_system">"آیا می‌خواهید به‌روزرسانی این برنامه جاسازی شده را نصب کنید؟ داده‌های کنونی شما از بین نمی‌رود. برنامه به‌روزرسانی شده دسترسی خواهد داشت به:"</string>
+    <string msgid="4885928136844618944" name="install_confirm_question_update_no_perms">"آیا می‌خواهید یک به‌روزرسانی برای این برنامه کاربردی موجود نصب کنید؟ داده‌های موجود شما از دست نخواهد رفت. به دسترسی ویژه‌ای نیاز ندارد."</string>
+    <string msgid="7676593512694724374" name="install_confirm_question_update_system_no_perms">"آیا می‌خواهید یک به‌روزرسانی برای این برنامه کاربردی داخلی نصب کنید؟ داده‌های موجود شما از دست نخواهد رفت. به دسترسی ویژه‌ای نیاز ندارد."</string>
+    <string msgid="6579998651498970899" name="install_failed">"برنامه نصب نشد."</string>
+    <string msgid="1287935707565682604" name="install_failed_invalid_apk">"این بسته به نظر می‌رسد خراب است."</string>
+    <string msgid="1517751954440692054" name="install_failed_inconsistent_certificates">"بسته فعلی با همین نام اما با امضای مختلف قبلاً نصب شده است."</string>
+    <string msgid="7947925824732917665" name="install_failed_older_sdk">"‏این بسته فقط در نسخه‌های جدیدتر Android کار می‌کند."</string>
+    <string msgid="7098684468842750800" name="install_failed_cpu_abi_incompatible" product="tablet">"این برنامه با رایانهٔ لوحی شما سازگار نیست."</string>
+    <string msgid="1309625657882930450" name="install_failed_cpu_abi_incompatible" product="tv">"این برنامه با تلویزیون شما سازگار نیست."</string>
+    <string msgid="4433316303249711331" name="install_failed_cpu_abi_incompatible" product="default">"این برنامه با تلفن شما سازگار نیست."</string>
+    <string msgid="1958430133396322619" name="install_failed_file_not_found">"بسته مشخص شده قبل از تکمیل نصب حذف شده است."</string>
+    <string msgid="5567372439890440205" name="install_failed_verify_failed">"این بسته مورد تأیید نیست و نمی‌تواند نصب شود."</string>
+    <string msgid="7083090219270140373" name="install_failed_verify_timeout">"هنگام تأیید صحت این بسته، فرصت زمانی تمام شد. بعداً دوباره آن را نصب کنید."</string>
+    <string msgid="8368835262605608787" name="install_failed_msg" product="tablet">"<xliff:g id="APP_NAME">%1$s</xliff:g> در رایانهٔ لوحی شما نصب نشد."</string>
+    <string msgid="3990457938384021566" name="install_failed_msg" product="tv">"<xliff:g id="APP_NAME">%1$s</xliff:g> را نمی‌توان روی تلویزیون شما نصب کرد."</string>
+    <string msgid="8554909560982962052" name="install_failed_msg" product="default">"<xliff:g id="APP_NAME">%1$s</xliff:g> در تلفن شما نصب نشد."</string>
+    <string msgid="4826921505917605463" name="launch">"باز کردن"</string>
+    <string msgid="2855558586206583032" name="unknown_apps_dlg_title">"نصب مسدود شد"</string>
+    <string msgid="7504186369474734767" name="unknown_apps_dlg_text" product="tablet">"به دلایل امنیتی، رایانهٔ لوحی شما طوری تنظیم شده است که نصب برنامه‌های دریافت شده از منابع ناشناخته را مسدود کند."</string>
+    <string msgid="7195713985140602351" name="unknown_apps_dlg_text" product="tv">"برای امنیت، تلویزیون شما طوری تنظیم شده است که نصب برنامه‌های به دست آمده از منابع ناشناس را مسدود کند."</string>
+    <string msgid="133213135679009316" name="unknown_apps_dlg_text" product="default">"به دلایل امنیتی، تلقن شما طوری تنظیم شده است که نصب برنامه‌های دریافت شده از منابع ناشناخته را مسدود کند."</string>
+    <string msgid="1189146324736698462" name="unknown_apps_admin_dlg_text">"سرپرست شما اجازه نمی‌دهد برنامه‌های دریافت شده از منابع ناشناس نصب شوند."</string>
+    <string msgid="3468756155452870475" name="ok">"تأیید"</string>
+    <string msgid="6743583734099755409" name="settings">"تنظیمات"</string>
+    <string msgid="7568985073502399415" name="allow_source_dlg_title">"منبع جدید برای برنامه‌ها"</string>
+    <string msgid="3927580956764099076" name="allow_source_dlg_text">"<xliff:g id="APP_NAME">%1$s</xliff:g> می‌خواهد برنامه‌های دیگری نصب کند.\n\nآیا اکنون و در آینده این اجازه را می‌دهید؟"</string>
+    <string msgid="4033876279091996596" name="manage_applications">"مدیریت برنامه‌ها"</string>
+    <string msgid="1232230739563820951" name="dlg_app_replacement_title">"برنامه جایگزین شود؟"</string>
+    <string msgid="2992911899989907492" name="dlg_app_replacement_statement">"برنامه‌ای که دارید نصب می‌کنید جایگزین یک برنامهٔ دیگر خواهد شد.\n\nتمام داده‌های کاربری قبلی شما ذخیره خواهد شد."</string>
+    <string msgid="1900046590819605929" name="dlg_sys_app_replacement_statement">"این یک برنامه سیستمی است.\n\nتمام داده‌های کاربری قبلی شما ذخیره خواهد شد."</string>
+    <string msgid="7843674437613797326" name="out_of_space_dlg_title">"فضا کافی نیست"</string>
+    <string msgid="4774775404294282216" name="out_of_space_dlg_text">"<xliff:g id="APP_NAME">%1$s</xliff:g> نصب نمی‌شود. مقداری از فضا را آزاد کرده و دوباره امتحان کنید."</string>
+    <string msgid="6944357727705699232" name="dlg_ok">"تأیید"</string>
+    <string msgid="2692335460569505484" name="app_not_found_dlg_title">"برنامه یافت نشد"</string>
+    <string msgid="6107465056055095930" name="app_not_found_dlg_text">"برنامه در لیست برنامه‌های نصب شده یافت نشد."</string>
+    <string msgid="1860074100811653963" name="uninstall_application_title">"حذف نصب برنامه"</string>
+    <string msgid="4146940097553335390" name="uninstall_update_title">"حذف نصب به‌روزرسانی"</string>
+    <string msgid="6680688689803932550" name="uninstall_activity_text">"<xliff:g id="ACTIVITY_NAME">%1$s</xliff:g> قسمتی از برنامه زیر است:"</string>
+    <string msgid="6691975835951187030" name="uninstall_application_text">"می‌خواهید این برنامه را حذف نصب کنید؟"</string>
+    <string msgid="5574704453233525222" name="uninstall_application_text_all_users">"آیا می‌خواهید این برنامه را برای "<b>"همه"</b>" کاربران حذف کنید؟ این برنامه کاربردی و داده‌های آن برای "<b>"همه"</b>" کاربران این دستگاه حذف خواهد شد."</string>
+    <string msgid="8766882355635485733" name="uninstall_application_text_user">"آیا می‌خواهید این برنامه را برای این کاربر <xliff:g id="USERNAME">%1$s</xliff:g> حذف نصب کنید؟"</string>
+    <string msgid="2056387942084605027" name="uninstall_update_text">"آیا می‌خواهید این برنامه را با یک نسخه کارخانه جایگزین کنید؟"</string>
+    <string msgid="5556217435895938250" name="uninstalling">"در حال حذف نصب..."</string>
+    <string msgid="3792487853420281888" name="uninstall_done">"حذف نصب پایان یافت."</string>
+    <string msgid="631122574306299512" name="uninstall_failed">"حذف نصب انجام نشد."</string>
+    <string msgid="3493789239037852035" name="uninstall_failed_device_policy_manager">"حذف نصب ممکن نیست، زیرا این بسته یک سرپرست دستگاه فعال است."</string>
+    <string msgid="5006234166226562439" name="uninstall_blocked_profile_owner">"این برنامه برای نمایه <xliff:g id="USERNAME">%1$s</xliff:g> شما مورد نیاز است و نمی‌تواند حذف نصب شود."</string>
+    <string msgid="7074175526413453063" name="uninstall_blocked_device_owner">"سرپرست دستگاه شما این برنامه را لازم کرده است و نمی‌تواند حذف نصب شود."</string>
+    <string msgid="891392489300312370" name="manage_device_administrators">"مدیریت سرپرستان دستگاه"</string>
+    <string msgid="8969754702803951175" name="uninstall_failed_msg">"<xliff:g id="APP_NAME">%1$s</xliff:g> حذف نصب نشد."</string>
+    <string msgid="6079580916889596257" name="Parse_error_dlg_title">"خطای تجزیه"</string>
+    <string msgid="7623286983621067011" name="Parse_error_dlg_text">"مشکلی در تجزیه این بسته وجود داشت."</string>
+    <string msgid="6039428254474104210" name="newPerms">"جدید"</string>
+    <string msgid="1024385515840703981" name="allPerms">"همه موارد"</string>
+    <string msgid="1850527049572617" name="privacyPerms">"حریم خصوصی"</string>
+    <string msgid="6733560207731294504" name="devicePerms">"دسترسی به دستگاه"</string>
+    <string msgid="6657813692169565975" name="no_new_perms">"این به‌روزرسانی به مجوز جدیدی نیاز ندارد."</string>
+    <string msgid="4690289297029223742" name="grant_confirm_question">"آیا می‌خواهید مجوزهای زیر را اعطا کنید؟ این مجوزها دسترسی به این موارد را بوجود می‌آورند:"</string>
+<string name="delete_apps_text">بسته نصب <xliff:g id="apps_name">%1$s</xliff:g> <xliff:g id="apps_size">%2$1.2f</xliff:g> مگا بایت است. آن را حذف می کنید؟</string>
+<string name="delete_apps_title" msgid="8360346460165114585">حذف بسته نصب</string>
+</resources>

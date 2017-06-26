@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">Triukšmo mažinimas</string>
+    <string name="dual_mic_summary">Slopinti foninį triukšmą skambučių metu</string>
+    <string name="anc_title">Aktyvusis triukšmo slopinimas</string>
+    <string name="anc_on">ANC įjungtas</string>
+    <string name="anc_off">ANC išjungtas</string>
+    <string name="ip_prefix_setting">IP priešdėlinis numeris</string>
+    <string name="ip_prefix_setting_lable">IP priešdėlinis numeris (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">IP priešdėlinio numerio nuostatos</string>
+    <string name="enter_ip_prefix_number">Įvesti priešdėlinį numerį</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Pirmiausiai skambučių nuostatose įveskite IP priešdėlinį numerį.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">IP rinkimo funkcija nepasiekiama internetiniam skambinimui.</string>
+    <string name="ip_prefix_edit_default_sum">Įveskite priešdėlinį numerį IP rinkimui</string>
+    <string name="lable_call_barring">"Skambučio paleidimas"</string>
+    <string name="title_call_barring">Skambučio paleidimas (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">Visi išeinantys skambučiai</string>
+    <string name="lable_all_outgoing_international">Tarptautiniai išeinantys skambučiai</string>
+    <string name="lable_all_out_except">Tarptautiniai išeinantys skambučiai, išskyrus į namų PLMN</string>
+    <string name="lable_all_incoming">Visi įeinantys skambučiai</string>
+    <string name="lable_incoming_calls_except">Įeinantys skambučiai naudojant tarptinklinį ryšį</string>
+    <string name="deactivate_all">Atšaukti visus</string>
+    <string name="change_password">Keisti uždraudimo slaptažodį</string>
+    <string name="call_barring_sum">Skambučio uždraudimo nuostatos</string>
+    <string name="lable_disable">"Neleidžiama"</string>
+    <string name="lable_enable">"Įgalinta"</string>
+    <string name="old_password_label">Senas slaptažodis (4 skaičiai)</string>
+    <string name="new_password_label">Naujas slaptažodis (4 skaičiai)</string>
+    <string name="invalid_password">Įrašykite 4 skaitmenų slaptažodį.</string>
+    <string name="confirm_password_label">Patvirtinti naują slaptažodį</string>
+    <string name="mismatch_password">Įvestas slaptažodis nesutampa. Bandykite dar kartą.</string>
+    <string name="password_changed">Slaptažodis sėkmingai pakeistas.</string>
+    <string name="enter_callbarring_password">Įveskite skambinimo draudimo slaptažodį (4 skaičius)</string>
+    <string name="wrong_password">Slaptažodžio klaida</string>
+    <string name="error_title">"Klaida"</string>
+    <string name="cell_broadcast">Korinė transliacija</string>
+    <string name="cell_broadcast_settings">Mobiliojo telefono transliavimo nuostatos</string>
+    <string name="cb_menu_language">"Kalba"</string>
+    <string name="cb_menu_add_channel">Pridėti kanalą</string>
+    <string name="cb_menu_channel_list">Kanalų sąrašas</string>
+    <string name="cb_dialog_title_language_choice">Pasirinkite kalbą</string>
+    <string name="cb_channel_dialog_channel_name">Kanalo pavadinimas (0–10 simbolių)</string>
+    <string name="cb_channel_dialog_channel_number">Kanalo numeris (0–65534)</string>
+    <string name="cb_channel_dialog_channel_state">Įjungti kanalą</string>
+    <string name="cb_channel_dialog_edit_channel">Redaguoti kanalą</string>
+    <string name="cb_menu_edit">"Redaguoti"</string>
+    <string name="cb_menu_delete">"Ištrinti"</string>
+    <string name="cb_error_channel_num">Įveskite kanalo numerį (0-65534).</string>
+    <string name="cb_error_channel_name">Netinkamas kanalo pavadinimo ilgis (1–10 simbolių).</string>
+    <string name="cb_error_language_select">Pasirinkite bent vieną kalbą.</string>
+    <string name="cb_error_channel_id_exist">Toks kanalo ID jau yra.</string>
+    <string name="cb_all_languages">"Visos kalbos"</string>
+    <string name="cb_default_new_channel_name">Naujas kanalas</string>
+    <string name="fdn_errorcode_unknown_info">Nepavyko: įvyko nežinoma klaida; bandykite vėliau.</string>
+    <string name="fdn_errorcode_number_info">Nepavyko: per ilgas adresato numeris.</string>
+    <string name="fdn_errorcode_name_info">Nepavyko: per ilgas adresato vardas.</string>
+    <string name="fdn_errorcode_storage_info">Nepavyko: atmintis pilna.</string>
+    <string name="fdn_errorcode_phb_info">Nepavyko: telefonų knyga dabar neparengta; bandykite vėliau.</string>
+    <string name="fdn_errorcode_pin2_info">Nepavyko: neteisingas PIN2.</string>
+    <string name="net_or_simcard_busy">Užimtas tinklas arba SIM kortelė; baldykite vėliau.</string>
+    <string name="plmn_list_setting_title">Pageidaujami tinklai</string>
+    <string name="network_id">Tinklo ID</string>
+    <string name="plmn_list_setting_add_plmn">Naujas PLMN</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">"Paieška..."</string>
+    <string name="sum_search_femtocell_networks">Pasirinkti Femtocell</string>
+    <string name="register_femtocell_point_wait_tip">Registruojama <xliff:g id="femto_cell_info">%s</xliff:g> …</string>
+    <string name="register_femtocell_point_result_fail_tip">Šiuo metu nepavyko prisijungti prie šio tinklo. Bandykite vėliau dar kartą.</string>
+    <string name="network_type">Tinklo tipas</string>
+    <string name="gsm_umts_network_preferences_title">"Tinklo režimas"</string>
+    <string name="gsm_umts_network_preferneces_summary">Dar neįdiegta!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"Tinklo režimas"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G (automatinis)</item>
+        <item>Tik 3G</item>
+        <item>Tik 2G</item>
+    </string-array>
+    <string name="notification_voicemail_text">Pasirinkti peržiūrėti balso pašto pranešimus</string>
+    <string name="notification_network_selection_without_operator">Pasirinktas tinklas nepasiekiamas</string>
+    <string name="network_setting_all_forbidden_dialog">Nėra tinklų.</string>
+    <string name="network_forbidden">draudžiama</string>
+    <string name="fdn_contact_number_invalid">Neteisingas adresato numeris.</string>
+    <string name="fdn_puk_need_tips">PIN2 užblokuotas. Pakeiskite PIN2 ir bandykite dar kartą!</string>
+    <string name="fdn_phone_book_busy">Telefonų knyga dabar užimta; bandykite vėliau.</string>
+    <string name="one_retry_left">Liko 1 bandymas</string>
+    <string name="retries_left">Liko <xliff:g id="number">%d</xliff:g> bandymų</string>
+    <string name="pin_length_indicate">(4–8 skaitmenys)</string>
+    <string name="puk_length_indicate">(8 skaitmenys)</string>
+    <string name="unblock_pin2">Atblokuoti PIN2</string>
+    <string name="sim_permanently_locked">SIM kortelė visam laikui užblokuota daugiau nei 10 kartų neteisingai įvedus PUK2 kodą</string>
+    <string name="magi_conference_title">MagConference</string>
+    <string name="magi_conference_summary">Gerina balso kokybę, kai telefonu kalbasi keli žmonės.</string>
+    <string name="volte_is_adding_participants">Palaukite, pridedamas (-a, -i) konferencijos narys (-ių, -iai)...</string>
+    <string name="volte_fail_to_invit_participants">Nepavyko pridėti visų narių į konferenciją.</string>
+    <string name="voicemail_lable">Balso paštas (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">Norint pabaigti veiksmą, privaloma įjungti <xliff:g id="sub_name">%s</xliff:g> duomenų ryšį.</string>
+    <string name="cdma_labelCFU">"Visada persiųsti"</string>
+    <string name="cdma_labelCFB">"Persiųsti, kai užimta"</string>
+    <string name="cdma_labelCFNRy">"Peradresuoti, kai neatsiliepiama"</string>
+    <string name="cdma_labelCFNRc">"Peradresuoti, kai nepasiekiama"</string>
+    <string name="cdma_labelCFC">Atšaukti visus persiuntimus</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">Išjungti draudimą identifikuoti skambinančiojo numerį</string> 
+    <string name="cdma_cnir_turnon">Įjungti draudimą identifikuoti skambinančiojo numerį</string>
+    <string name="lte_data_only_prompt">Negalima naudoti šios funkcijos, nes veikia vien tik 4G duomenų režimas. Ar norite išjungti vien 4G duomenų režimą?</string>
+    <string name="lte_data_only_timeout">Jūsų dabartinėje vietoje vien tik 4D duomenų tinklas neveikia. Ar norite išjungti ir ieškoti kitų tinklų?</string>
+    <string name="lte_only_dialog_button_yes">"TAIP"</string>
+    <string name="lte_only_dialog_button_no">"NE"</string>
+    <string name="lte_only_dialog_title_prompt">Raginti</string>
+    <string name="enable_4G_data">Įjungti 4G duomenis</string>
+    <string name="enable_4G_data_summary">4G užtikrinta geresnį ir spartesnį internetą</string>
+    <string name="only_use_LTE_data">Naudoti tik LTE duomenis</string>
+    <string name="only_use_LTE_data_summary">Norint įjungti vien tik vienus duomenis, funkcija negalės naudoti telefono skambučių ir tekstinių pranešimų.</string>
+</resources>

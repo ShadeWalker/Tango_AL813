@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<com.android.phone.common.dialpad.DialpadKeyButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/one"
+    style="@style/DialpadKeyButtonStyle">
+
+
+    <LinearLayout
+        style="@style/DialpadKeyInternalLayoutStyle"
+        android:orientation="horizontal">
+
+    <RelativeLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal">
+        
+        <com.android.phone.common.dialpad.DialpadTextView
+            android:id="@+id/dialpad_key_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="25sp"/>
+        
+        <TextView 
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/dialpad_key_number"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:text="@string/dial_1_ar"/>
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dialpad_voicemail_icon_padding_top"
+                android:id="@+id/dialpad_key_voicemail"
+                android:src="@drawable/ic_dialpad_voicemail"
+                android:scaleType="fitCenter"
+                android:layout_centerInParent="true" />
+            <!-- Place empty text view so vertical height is same as other dialpad keys. -->
+            <TextView style="@style/DialpadKeyLettersStyle_em" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.android.phone.common.dialpad.DialpadKeyButton>

@@ -1,0 +1,7 @@
+-keep class com.android.music.AudioPreview {
+  public void playPauseClicked(android.view.View);
+}
+
+-keep class com.android.music.MusicUtils {
+  public static android.graphics.Bitmap getArtwork(android.content.Context, long, long);
+}

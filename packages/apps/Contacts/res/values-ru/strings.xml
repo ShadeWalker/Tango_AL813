@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="missed_type">Пропущен. вызов</string>
+
+    <string msgid="3906689777043645443" name="applicationLabel">"Контакты"</string>
+    <string msgid="6497230399032392417" name="launcherActivityLabel">"Контакты"</string>
+    <string msgid="8661624236494819731" name="contactsList">"Контакты"</string>
+    <string msgid="749243779392912958" name="shortcutContact">"Контакт"</string>
+    <string msgid="746622101599186779" name="shortcutDialContact">"Быстрый набор"</string>
+    <string msgid="2460337253595976198" name="shortcutMessageContact">"Быстрое SMS"</string>
+    <string msgid="6642877210643565436" name="shortcutActivityTitle">"Выбрать контакт для быстрого вызова"</string>
+    <string msgid="6065749861423648991" name="callShortcutActivityTitle">"Выберите номер для вызова"</string>
+    <string msgid="3084542316620335911" name="messageShortcutActivityTitle">"Выбрать номер для отправки сообщения"</string>
+    <string msgid="6527505405325862674" name="contactInsertOrEditActivityTitle">"Добавить в контакты"</string>
+    <string msgid="4301062192337417640" name="contactPickerActivityTitle">"Выбор контакта"</string>
+    <string msgid="2436981165830115659" name="header_entry_contact_list_adapter_header_title">"Создать контакт"</string>
+    <string msgid="4817256136413959463" name="starredList">"Помеченные"</string>
+    <string msgid="7154768136473953056" name="frequentList">"Часто вызываемые"</string>
+    <string msgid="5640192862059373511" name="strequentList">"Избранное"</string>
+    <string msgid="7989394521836644384" name="viewContactTitle">"Сведения о контакте"</string>
+    <string msgid="2947202828256214947" name="editContactDescription">"Изменить контакт"</string>
+    <string msgid="4709878105452681987" name="insertContactDescription">"Создать контакт"</string>
+    <string msgid="6321161304201540561" name="editGroupDescription">"Изменение группы"</string>
+    <string msgid="5658512271662210139" name="insertGroupDescription">"Создание группы"</string>
+    <string msgid="5430408883907061400" name="contactDetailAbout">"Контактные данные"</string>
+    <string msgid="3780588624763446941" name="contactDetailUpdates">Обновления</string>
+    <string msgid="8482945356247760701" name="searchHint">"Поиск в контактах"</string>
+    <string msgid="2795575601596468581" name="menu_viewContact">"Просмотреть контакт"</string>
+    <string msgid="2908478235715404876" name="menu_addStar">"Избранное"</string>
+    <string msgid="5844227078364227030" name="menu_removeStar">"Удалить из избранного"</string>
+    <string msgid="4699640108012265178" name="description_action_menu_remove_star">"Удалено из избранного"</string>
+    <string msgid="3327186327234177456" name="description_action_menu_add_star">"Добавлено в избранное"</string>
+    <string msgid="9042415603857662633" name="menu_editContact">"Изменить"</string>
+    <string msgid="6788644058868189393" name="menu_deleteContact">"Удалить"</string>
+    <string msgid="1217971915748509640" name="menu_create_contact_shortcut">На рабочий экран</string>
+    <string msgid="3992595586042260618" name="menu_call">"Позвонить"</string>
+    <string msgid="5535886767547006515" name="menu_sendSMS">"Отправить SMS/MMS"</string>
+    <string msgid="8368636463748691868" name="menu_splitAggregate">"Разделить"</string>
+    <string msgid="5062005185370983720" name="menu_editGroup">"Изменить"</string>
+    <string msgid="3486380004411482874" name="menu_deleteGroup">"Удалить"</string>
+    <string msgid="7263362129442119188" name="menu_new_contact_action_bar">"Добавить контакт"</string>
+    <string msgid="3520232877587377175" name="menu_new_group_action_bar">"Добавить группу"</string>
+    <string msgid="633640935430370530" name="splitConfirmation_title">"Разделение контакта"</string>
+    <string msgid="740190210499587175" name="splitConfirmation">"Этот контакт будет разделен."</string>
+    <string msgid="5027981918265667970" name="menu_joinAggregate">"Объединить"</string>
+    <string msgid="7684875775798635354" name="titleJoinContactDataWith">"Объединить контакты"</string>
+    <string msgid="8736488417422708236" name="blurbJoinContactDataWith">"Выберите контакт, который хотите объединить с " <xliff:g id="NAME">%s</xliff:g>":"</string>
+    <string msgid="2189695051430392383" name="showAllContactsJoinItem">"Показать все контакты"</string>
+    <string msgid="2831414448851313345" name="separatorJoinAggregateSuggestions">"Предлагаемые контакты"</string>
+    <string msgid="7939932265026181043" name="separatorJoinAggregateAll">"Все контакты"</string>
+    <string msgid="7208148163607047389" name="contactsJoinedMessage">"Контакты объединены"</string>
+    <string msgid="8728345772068064946" name="menu_set_ring_tone">Установить мелодию</string>
+    <string msgid="4181789196416396656" name="menu_redirect_calls_to_vm">"Только голос. почта"</string>
+    <string msgid="7808825687289848259" name="readOnlyContactWarning">"Невозможно удалить контакты из аккаунта, доступного только для чтения, однако их можно скрыть в списках контактов."</string>
+    <string msgid="2137170726670196909" name="readOnlyContactDeleteConfirmation">"Этот контакт содержит информацию из различных аккаунтов. Информация из аккаунтов, доступных только для чтения, будет скрыта в ваших списках контактов, но не удалена."</string>
+    <string msgid="938900978442960800" name="multipleContactDeleteConfirmation">"Удаление этого контакта приведет к потере данных из нескольких аккаунтов."</string>
+    <string msgid="811706994761610640" name="deleteConfirmation">"Удалить выбранный контакт ?"</string>
+    <string msgid="6854657936970228164" name="menu_discard">"Не сохранять изменения"</string>
+    <string msgid="8215051456181842274" name="invalidContactMessage">"Контакт удален."</string>
+    <string msgid="7874133287558150877" name="createContactShortcutSuccessful">"Виджет контакта добавлен на рабочий экран."</string>
+    <string msgid="7750705279843568147" name="pickerNewContactHeader">"Создать контакт"</string>
+    <string msgid="6166997164401048211" name="pickerNewContactText">"Создать контакт"</string>
+  <string-array name="otherLabels">
+    <item msgid="8287841928119937597">"Организация"</item>
+    <item msgid="7196592230748086755">"Примечание"</item>
+  </string-array>
+    <string msgid="6247290728908599701" name="photoPickerNotFoundText" product="tablet">"На планшетном ПК нет изображений."</string>
+    <string msgid="431331662154342581" name="photoPickerNotFoundText" product="default">"В телефоне нет картинок."</string>
+    <string msgid="5599827035558557169" name="attach_photo_dialog_title">Фото\nконтакта</string>
+    <string msgid="1081475101983255212" name="customLabelPickerTitle">"Название ярлыка"</string>
+    <string msgid="9001686764070676353" name="send_to_voicemail_checkbox">"Направлять вызовы в голосовую почту"</string>
+    <string msgid="4898105274130284565" name="removePhoto">"Удалить фото"</string>
+    <string msgid="8579310973261953559" name="noContacts">"Нет контактов."</string>
+    <string msgid="8614664663561385253" name="noGroups">"Нет групп"</string>
+    <string msgid="7768267764545265909" name="noAccounts">"Для создания групп нужен аккаунт."</string>
+    <string msgid="7502116218697177370" name="emptyGroup">"Здесь пока никого нет."</string>
+    <string msgid="7879585947222263516" name="addPeopleToGroup">"Чтобы добавить участников, откройте меню и нажмите \"Изменить\"."</string>
+    <string msgid="4075751076741924939" name="savingContact">Сохранение контакта...</string>
+    <string msgid="7152589189385441091" name="contactSavedToast">"Контакт сохранен."</string>
+    <string msgid="3207250533172944892" name="contactSavedErrorToast">"Не удалось сохранить изменения."</string>
+    <string msgid="1168756874239833756" name="groupSavedToast">"Группа сохранена."</string>
+    <string msgid="7984466936615304740" name="groupSavedErrorToast">"Не удалось сохранить изменения."</string>
+  <plurals name="listTotalPhoneContacts">
+    <item msgid="3015357862286673986" quantity="one">"Контакты с номерами телефона: 1"</item>
+    <item msgid="3299954047880968205" quantity="other">"Контакты с номерами телефонов: <xliff:g id="COUNT">%d</xliff:g>"</item>
+  </plurals>
+    <string msgid="6968813857632984319" name="listTotalPhoneContactsZero">"Нет контактов с номерами телефонов"</string>
+  <plurals name="listFoundAllContacts">
+    <item msgid="5517063038754171134" quantity="one">"Найдено: 1"</item>
+    <item msgid="3852668542926965042" quantity="other">"Найдено:  <xliff:g id="COUNT">%d</xliff:g>"</item>
+  </plurals>
+    <string msgid="922980883593159444" name="listFoundAllContactsZero">"Нет контактов"</string>
+  <plurals name="searchFoundContacts">
+    <item msgid="4826918429708286628" quantity="one">"Найдено: 1"</item>
+    <item msgid="7988132539476575389" quantity="other">"Найдено: <xliff:g id="COUNT">%d</xliff:g>"</item>
+  </plurals>
+    <string msgid="6250372293594147703" name="all_contacts_tab_label">"Контакты"</string>
+    <string msgid="1524869648904016414" name="favorites_tab_label">"Избранное"</string>
+    <string msgid="5498224409038809224" name="callBack">"Перезвонить"</string>
+    <string msgid="3197312117049874778" name="callAgain">"Позвонить снова"</string>
+    <string msgid="8171961914203617813" name="returnCall">"Перезвонить"</string>
+    <string msgid="7986472669444326576" name="add_contact_dlg_message_fmt">Добавить \"<xliff:g id="email">%s</xliff:g>\" в контакты?</string>
+    <string msgid="3387458082667894062" name="description_contact_photo">"фотография контакта"</string>
+    <string msgid="515164827856229880" name="description_plus_button">"плюс"</string>
+    <string msgid="560522409559101193" name="exporting_contact_list_progress">"Контакт <xliff:g id="CURRENT_NUMBER">%s</xliff:g> из <xliff:g id="TOTAL_NUMBER">%s</xliff:g>"</string>
+    <string msgid="2675223022992445813" name="search_settings_description">"Имена контактов"</string>
+    <string msgid="358168575340921552" name="quickcontact_missing_app">"Действие не поддерживается ни в одном приложении."</string>
+    <string msgid="987959416759562455" name="quickcontact_transparent_view_description">"Нажмите, чтобы вернуться на предыдущую страницу"</string>
+    <string msgid="731665835910658965" name="quickcontact_add_phone_number">"Добавить номер телефона"</string>
+    <string msgid="739298028384348482" name="quickcontact_add_email">"Добавить адрес электронной почты"</string>
+    <string msgid="1466111003546611387" name="missing_app">"Действие не поддерживается ни в одном приложении."</string>
+    <string msgid="943789700636542260" name="menu_share">"Отправить"</string>
+    <string msgid="3198704337220892684" name="menu_add_contact">"Добавить в контакты"</string>
+    <string msgid="563121028023030093" name="share_via">"Способ отправки"</string>
+    <string msgid="2318032089273496830" name="dialog_new_group_account">"Создание группы в аккаунте"</string>
+    <string msgid="2535716629358298691" name="audio_chat">"Голосовой чат"</string>
+    <string msgid="1872255818640336072" name="video_chat">"Видеочат"</string>
+    <string msgid="8098440723172028350" name="connections">Связи</string>
+    <string msgid="4861308615789601727" name="add_connection_button">"Добавить соцсеть"</string>
+    <string msgid="2659189233141493004" name="recent">"Недавние"</string>
+    <string msgid="4267258535615860710" name="recent_updates">"Недавние обновления"</string>
+    <string msgid="718948015590343010" name="account_type_format">"  <xliff:g id="SOURCE">%1$s</xliff:g>"</string>
+    <!-- no translation found for from_account_format (4469138575127580203) -->
+    <skip/>
+    <string msgid="7421346527289472273" name="contact_read_only">"Здесь доступно только для чтения."</string>
+    <string msgid="1061762906115697637" name="group_read_only">"Здесь доступно только для чтения."</string>
+    <string msgid="7496128293167402354" name="take_photo">"Сфотографировать"</string>
+    <string msgid="7341354729436576304" name="take_new_photo">Создать новое фото</string>
+    <string msgid="2129509985223564942" name="pick_photo">"Выбрать фото"</string>
+    <string msgid="9122450996263688237" name="pick_new_photo">"Выбрать другое фото"</string>
+    <string msgid="7583992153091537467" name="locale_change_in_progress">"Список контактов обновляется после смены языка интерфейса."</string>
+    <string msgid="474511436863451061" name="upgrade_in_progress">"Список контактов обновляется..."</string>
+    <string msgid="1209994418877625940" name="upgrade_out_of_memory">"Контакты обновляются.\n\nДля этого требуется около <xliff:g id="SIZE_IN_MEGABYTES">%s</xliff:g> МБ внутренней памяти.\n\nВыберите подходящую опцию:"</string>
+    <string msgid="1721798828992091432" name="upgrade_out_of_memory_uninstall">"Удалить некоторые приложения"</string>
+    <string msgid="8431289830472724609" name="upgrade_out_of_memory_retry">"Повторить попытку обновления"</string>
+    <string msgid="3984833028938569930" name="search_results_searching">"Поиск…"</string>
+    <string msgid="6470001164297969034" name="menu_display_selected">"Показать выбранные"</string>
+    <string msgid="8887488642609786198" name="menu_display_all">"Показать все"</string>
+    <string msgid="621719255150713545" name="menu_select_all">"Выбрать все"</string>
+    <string msgid="7093222469852132345" name="menu_select_none">Отменить выбор</string>
+    <string msgid="5223080690667565044" name="add_new_entry_for_section">"Добавить"</string>
+    <string msgid="7311893231158291197" name="add_organization">"Добавить организацию"</string>
+    <string msgid="5794424930242630477" name="event_edit_field_hint_text">"Дата"</string>
+    <string msgid="3966441850870457808" name="group_edit_field_hint_text">"Название группы"</string>
+    <string msgid="8530597935483526383" name="change_photo">"Изменить"</string>
+    <string msgid="8517942231868516999" name="primary_photo">"Основное фото"</string>
+    <string msgid="2605854427360036550" name="description_star">"избранное"</string>
+    <string msgid="7529281274005689512" name="edit_contact">"Изменить контакт"</string>
+  <plurals name="merge_info">
+    <item msgid="148365587896371969" quantity="one">"не объединен"</item>
+    <item msgid="425683718017380845" quantity="other">"объединено из нескольких источников <xliff:g id="COUNT">%0$d</xliff:g>
+</item>
+  </plurals>
+    <string msgid="3842757977671434836" name="aggregation_suggestion_join_dialog_message">"Объединить текущий контакт с выбранным контактом?"</string>
+    <string msgid="6549585283910518095" name="aggregation_suggestion_edit_dialog_message">"Переключиться на редактирование выбранного контакта? Введенная информация будет скопирована."</string>
+    <string msgid="1573960845106822639" name="menu_copyContact">"Копировать в \"Мои контакты\""</string>
+    <string msgid="1068274916793627723" name="add_to_my_contacts">"Добавить в группу \"Мои контакты\""</string>
+    <string msgid="683398073603909119" name="contact_directory_description">"Каталог <xliff:g id="TYPE">%1$s</xliff:g>"</string>
+    <string msgid="8910173055702057002" name="list_filter_custom">"Пользовательские"</string>
+    <string msgid="5464130076132770781" name="activity_title_settings">"Настройки"</string>
+    <string msgid="377929915873428211" name="menu_settings">Настройки</string>
+    <string msgid="5123887102216637725" name="menu_help">"Справка"</string>
+    <string msgid="1341720270148252393" name="preference_displayOptions">"Варианты отображения"</string>
+    <string msgid="6718207751363732025" name="organization_company_and_title">"<xliff:g id="COMPANY_0">%2$s</xliff:g>, <xliff:g id="COMPANY_1">%1$s</xliff:g>"</string>
+    <string msgid="1541655052330027380" name="non_phone_caption">"Номер телефона"</string>
+    <string msgid="6590985286250471169" name="non_phone_add_to_contacts">"Добавить в контакты"</string>
+    <string msgid="4065089866210730616" name="activity_title_confirm_add_detail">"Добавить в контакты"</string>
+    <string msgid="7608506439725515667" name="non_phone_close">"Закрыть"</string>
+    <string msgid="8739586586600099979" name="widget_name_and_phonetic">"<xliff:g id="DISPLAY_NAME">%1$s</xliff:g> (<xliff:g id="PHONETIC_NAME">%2$s</xliff:g>)"</string>
+    <string msgid="7356532842767854606" name="date_year_toggle">"Указать год"</string>
+    <string msgid="6378905543028924592" name="social_widget_label">"Контакт"</string>
+    <string msgid="5327336597364074608" name="social_widget_loading">"Загрузка..."</string>
+    <string msgid="7014525713871959208" name="contacts_unavailable_create_contact">"Создать новый контакт"</string>
+    <string msgid="7911101713860139754" name="contacts_unavailable_add_account">"Войдите в аккаунт"</string>
+    <string msgid="4957393255392437529" name="contacts_unavailable_import_contacts">"Импортировать контакты"</string>
+    <string msgid="6874527142828424475" name="create_group_dialog_title">"Создание новой группы"</string>
+    <string msgid="4411981763169654825" name="create_group_item_label">"Создать группу"</string>
+  <plurals name="num_groups_in_account">
+    <item msgid="2944819210288517794" quantity="one">"1 группа"</item>
+    <item msgid="1276758425904917367" quantity="other">"Групп:  <xliff:g id="COUNT">%0$d</xliff:g>"</item>
+  </plurals>
+    <string msgid="7586856514337560529" name="delete_group_dialog_message">"Действительно удалить группу \"<xliff:g id="GROUP_LABEL">%1$s</xliff:g>\"? (Контакты не будут удалены.)"</string>
+  <plurals name="num_contacts_in_group">
+    <item msgid="1352418549951013448" quantity="one">"В аккаунте <xliff:g id="ACCOUNT_TYPE">%2$s</xliff:g> <xliff:g id="COUNT_0">%1$d</xliff:g> чел."</item>
+    <item msgid="8146027769011086349" quantity="other">"В аккаунте <xliff:g id="ACCOUNT_TYPE">%2$s</xliff:g> <xliff:g id="COUNT_0">%1$d</xliff:g> чел."</item>
+  </plurals>
+  <plurals name="group_list_num_contacts_in_group">
+    <item msgid="3323065321661972446" quantity="one">"<xliff:g id="COUNT">%1$d</xliff:g> чел."</item>
+    <item msgid="6251996206137048525" quantity="other">" <xliff:g id="COUNT">%1$d</xliff:g> чел."</item>
+  </plurals>
+    <string msgid="2238581529864542985" name="toast_join_with_empty_contact">"Укажите имя контакта, который хотите объединить."</string>
+    <string msgid="3257145021583508761" name="copy_text">"Копировать в буфер обмена"</string>
+    <string msgid="4417505153468300351" name="set_default">"Установить по умолчанию"</string>
+    <string msgid="7193185801596678067" name="clear_default">"Удалить настройки по умолчанию"</string>
+    <string msgid="5143776250008541719" name="toast_text_copied">"Текст скопирован"</string>
+    <string msgid="5885724679874403115" name="cancel_confirmation_dialog_message">Не сохранять изменения?</string>
+    <string msgid="747163730039311423" name="call_type_and_date">"<xliff:g id="CALL_TYPE">%1$s</xliff:g>  <xliff:g id="CALL_SHORT_DATE">%2$s</xliff:g>"</string>
+    <string msgid="4127389543625918771" name="profile_display_name">"Настроить профиль"</string>
+    <string msgid="1738391320566349924" name="enter_contact_name">"Имя контакта"</string>
+    <string msgid="238359485263401293" name="group_name_hint">"Название группы"</string>
+    <string msgid="2021416826991393684" name="local_profile_title">"Мой профиль"</string>
+    <string msgid="8034998767621359438" name="external_profile_title">"Мой профиль <xliff:g id="EXTERNAL_SOURCE">%1$s</xliff:g>"</string>
+    <string msgid="2737388783898593875" name="toast_displaying_all_contacts">"Отображаются все контакты"</string>
+    <string msgid="6424883302325061025" name="no_account_prompt">"Подключите Контакты к аккаунту Google, чтобы:\n\n• Всегда иметь под рукой обновленные данные – на любом устройстве.\n• Синхронизировать все контакты – вы никогда не потеряете их."</string>
+    <string msgid="7218827704367325460" name="generic_no_account_prompt">"Можно потерять телефон, но не контакты... если хранить их в Интернете!"</string>
+    <string msgid="753783911899054860" name="generic_no_account_prompt_title">"Добавить аккаунт"</string>
+    <string msgid="1785345895691886499" name="contact_editor_prompt_zero_accounts">"Резервная копия нового контакта не будет сохранена. Добавить аккаунт для сохранения контактов в Интернете?"</string>
+    <string msgid="8669032699767375976" name="contact_editor_prompt_one_account">"Контакт будет добавлен в аккаунт  <xliff:g id="ACCOUNT_NAME">%1$s</xliff:g>." </string>
+    <string msgid="611828200100438242" name="contact_editor_prompt_multiple_accounts">"Выберите аккаунт, в который следует добавить новый контакт."</string>
+    <string msgid="7192223018128934940" name="contact_editor_title_new_contact">"Новый контакт"</string>
+    <string msgid="4898475703683187798" name="contact_editor_title_existing_contact">"Изменить контакт"</string>
+    <string msgid="1258761699192993322" name="keep_local">"Сохранить локально"</string>
+    <string msgid="8201790677994503186" name="add_account">"Добавить аккаунт"</string>
+    <string msgid="5748627740680940264" name="add_new_account">"Добавить аккаунт"</string>
+    <string msgid="2659719297530170820" name="menu_export_database">"Экспорт файлов базы данных"</string>
+    <string msgid="3180222523336380017" name="action_menu_add_new_contact_button">"Добавить контакт"</string>
+    <string msgid="3779194067124758079" name="expanding_entry_card_view_see_more">"Ещё"</string>
+    <string msgid="5344160551629714168" name="expanding_entry_card_view_see_less">"Свернуть"</string>
+    <string msgid="3845258737661412627" name="expanding_entry_card_view_see_all">"Показать все"</string>
+    <string msgid="8982782042698001695" name="recent_card_title">"Недавние"</string>
+    <string msgid="2920942314212825637" name="about_card_title">"О контакте"</string>
+    <string msgid="8938418965550543196" name="send_message">"Отправить сообщение"</string>
+    <string msgid="6137651078366797938" name="toast_making_personal_copy">"Копирование…"</string>
+    <string msgid="6840858548955018569" name="yesterday">"Вчера"</string>
+    <string msgid="6241969467795308581" name="tomorrow">"Завтра"</string>
+    <string msgid="8041090779381781781" name="today">"Сегодня"</string>
+    <string msgid="605665249491030460" name="today_at_time_fmt">"Сегодня, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string msgid="4856497969617819421" name="tomorrow_at_time_fmt">"Завтра, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string msgid="5053178726906863812" name="date_time_fmt">"<xliff:g id="DATE">%s</xliff:g>, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string msgid="3484859385405939366" name="untitled_event">"(событие без названия)"</string>
+    <string msgid="4761419824439606690" name="date_time_set">"Установить"</string>
+    <string msgid="3581720979640225615" name="header_im_entry">"Чат"</string>
+    <string msgid="8515394955666265406" name="header_organization_entry">"Организация"</string>
+    <string msgid="6743561883967451485" name="header_nickname_entry">"Псевдоним"</string>
+    <string msgid="4320190426480612344" name="header_note_entry">"Заметка"</string>
+    <string msgid="1411467850000824745" name="header_website_entry">"Веб-сайт"</string>
+    <string msgid="6738250422744401460" name="header_event_entry">"Событие"</string>
+    <string msgid="1520292958088146460" name="header_relation_entry">"Отношение"</string>
+    <string msgid="2684318506427891827" name="header_account_entry">"Аккаунт"</string>
+    <string msgid="1592791008096288306" name="header_name_entry">"Имя"</string>
+    <string msgid="8666093061171624478" name="header_email_entry">"Адрес эл. почты"</string>
+    <string msgid="8450980572274173570" name="header_phone_entry">"Номер телефона"</string>
+    <string msgid="4438023151411853238" name="header_photo_entry">"Фото"</string>
+    <string msgid="1111381475901897470" name="content_description_expand_editor">"Нажмите, чтобы развернуть редактор контактов."</string>
+    <string msgid="7598061318022977825" name="content_description_collapse_editor">"Нажмите, чтобы свернуть редактор контактов."</string>
+    <string msgid="2686791825798189335" name="content_description_directions">"Маршруты"</string>
+    <string msgid="1666389577263317445" name="content_description_recent_sms">"Недавнее SMS-сообщение. <xliff:g id="MESSAGE_BODY">%s</xliff:g>. <xliff:g id="PHONE_NUMBER">%s</xliff:g>. <xliff:g id="DATE">%s</xliff:g>. Нажмите, чтобы ответить."</string>
+    <string msgid="5210739096863511410" name="content_description_recent_call_type_incoming">"входящий"</string>
+    <string msgid="5156553338985232744" name="content_description_recent_call_type_outgoing">"исходящий"</string>
+    <string msgid="7371810920196048204" name="content_description_recent_call_type_missed">"пропущенный"</string>
+    <string msgid="5183800406316723676" name="content_description_recent_call">"Недавний вызов. <xliff:g id="CALL_TYPE">%s</xliff:g>. <xliff:g id="PHONE_NUMBER">%s</xliff:g>. <xliff:g id="DATE">%s</xliff:g>. Нажмите, чтобы перезвонить."</string>
+    <string msgid="7180706529908434482" name="message_from_you_prefix">"Вы: <xliff:g id="SMS_BODY">%s</xliff:g>"</string>
+    <string msgid="114855385615225735" name="contact_editor_hangouts_im_alert">"Чтобы обеспечить надежную работу Hangouts, указывайте вместо адреса электронной почты или номера телефона идентификатор пользователя в Hangouts."</string>
+<string name="dial_tab_label">Телефон</string>
+<string name="launcherActivityLabelForPhone">Набор номера</string>
+<string name="join_same_name">Объединить контакты</string>
+<string name="same_name_join_hint">
+<li>Нажмите Начать, чтобы объединить контакты с одинаковыми именами.</li>\n<li>Нажмите Отмена, чтобы остановить объединение.</li>\n<li>Процесс объединения контактов займет некоторое время.</li>
+</string>
+<string name="join_action_start">Начать</string>
+<string name="join_title_total">Всего</string>
+<string name="join_title_single">Текущий</string>
+<string name="join_status_unstarted">Готово</string>
+<string name="join_status_waiting">Ожидание...</string>
+<string name="join_status_checking">Проверка... Подождите</string>
+<string name="join_status_join_start">Объединение...</string>
+<string name="join_status_join_progress">Объединено групп: %1$s. Всего групп: %2$s </string>
+<string name="join_status_joining">Объединение\n</string>
+<string name="join_status_single_joining">Объединение: %1$s\n Всего с одинаковыми именами: %2$s </string>
+<string name="join_status_canceled">отменено</string>
+<string name="join_cancel_confirm_msg">Остановить объединение</string>
+<string name="menu_done">Готово</string>
+<string name="cancel">Отмена</string>
+<string name="ok">OK</string>
+<string name="dial_keypad">Набор номера</string>
+<string name="dial_menu">Меню</string>
+<string name="dial_delete">Удалить</string>
+<string name="dataservice_title">Передача данных</string>
+<string name="open_dataservice_confirm">Служба передачи данных на Вашем устройстве выключена. Рекомендуется включить службу передачи данных.\n\nКогда служба передачи данных включена, для доступа в Интернет используется SIM-карта. Включить?</string>
+<string name="open_confirm">Включить</string>
+<string name="open_cancel">Отмена</string>
+<string name="mms_tab_label">Сообщения</string>
+<string name="dial_emergency">Экстренные вызовы</string>
+<string name="emergency_only">Только экстренные вызовы</string>
+<string name="no_service">Нет связи</string>
+<string name="hour_hw"> ч </string>
+<string name="minute_hw"> мин </string>
+<string name="seconds_hw"> с</string>
+<string name="call_type_hw">Фильтр</string>
+<string name="cancel_hw">Отмена</string>
+<string name="confirm_hw">OK</string>
+<string name="black_list_manager_exception">Приложение Диспетчер телефона не найдено. Установите его для использования этой функции.</string>
+<string name="sim_log_hw">Логи SIM-карты</string>
+<string name="sim_all_hw">SIM 1 и SIM 2</string>
+<string name="sim_one_hw">SIM 1</string>
+<string name="sim_two_hw">SIM 2</string>
+<string name="call_type">Тип вызова</string>
+<string name="all_call_hw">Все вызовы</string>
+<string name="miss_call_hw">Пропущенные вызовы</string>
+<string name="answer_call_hw">Входящие вызовы</string>
+<string name="dialer_call_hw">Исходящие вызовы</string>
+<string name="date_format_year">Год</string>
+<string name="date_format_month">Месяц</string>
+<string name="outgoing_calltype">Исход. вызов</string>
+<string name="incoming_type">Вход. вызов</string>
+<string name="send_sms">"Отправить сообщение"</string>
+<string name="am_time">AM</string>
+<string name="pm_time">PM</string>
+<string name="chubaoMessage">1. Для работы службы Умная идентификация и Желтые страницы требуется доступ в Интернет, может взиматься соответствующая плата.\n2. Данная служба предоставляется компанией TouchPal, которая будет нести всю полноту ответственности за точность и надежность предоставляемых данных.\n3. Информация отмеченных номеров будет отправляться на сервер.\n4. Эта служба будет иметь доступ к данным о Вашем местоположении.\nНажимая Принимаю, Вы принимаете все вышеизложенные положения. Нажимая Отмена, Вы запрещаете службе доступ в Интернет и к данным о Вашем местоположении.</string>
+<string name="user_aggreement">Пользовательское соглашение</string>
+<string name="menu_add_to_black_list">В черный список</string>
+<string name="add_to_black_list">Добавлено в черный список</string>
+<string name="menu_remove_from_black_list">Удалить из черного списка</string>
+<string name="remove_from_black_list">Удалено из черного списка</string>
+<string name="menu_send_number">Отправить номер</string>
+<string name="menu_delete_call_log">Удалить запись</string>
+<string name="hotline_name">Горячая линия</string>
+<string name="hotline_phone">4008308300</string>
+<string name="hotline_email">mobile@huawei.com</string>
+<string name="hq_sim_slot_position_1">SIM1</string>
+<string name="hq_sim_slot_position_2">SIM2</string>
+<string name="menu_copy_number">Копировать номер</string>
+    <string name="no_contacts_query">Нет контактов!</string>
+ <string name="flight_mode_turned_on">Режим полета включен.</string>
+<string name="no_contact_to_display">Нет контактов!</string>
+<string name="stared_contacts">Избранное</string>
+    <string name="discard_change_contacts">Отмена</string>
+     <string name="save_change_contacts">Сохранить</string>
+     <string name="dialer_item_0">Вставить</string>
+    <string name="dialer_item_1">Удалить запись</string>
+    <string name="dialer_item_2">Фильтр</string>
+    <!--<string name="dialer_item_3">Быстрый набор</string>--><!--HQ_zhangteng modified for HQ01822802-->
+    <string name="dialer_item_4">Фильтр угроз</string>
+  <!--  <string name="dialer_item_5">Настройки</string>  --><!--modify by chiguoqing for HQ01822818 20160324  -->
+    <string name="menu_copyContactsToCard1">Копировать на SIM1</string>
+    <string name="menu_copyContactsToCard2">Копировать на SIM2</string>
+    <string name="menu_copyContactsToPhone">Копировать на Телефон</string>
+    <string name="contacts_setting_Advanced">Дополнительные</string>
+    <string name="set_up_my_profile">Настроить профиль</string>
+    <string name="merge_duplicate_contacts">Объединить дублирующие контакты</string>
+    <string name="mem_status">Состояние памяти</string>
+    <string name="howManyContacts">Контактов: </string>
+    <string-array name="phone_contact_menu">
+        <item>Вызвать</item>
+        <item>Отправить SMS</item>
+        <item>Отправить эл. письмо</item>
+        <item>Изменить</item>
+        <item>Удалить</item>
+        <item>Отправить</item>
+        <item>Добавить в избранное</item>
+        <item>В черный список</item>
+        <item>Создать ярлык</item>
+    </string-array>
+    <string-array name="sim_contact_menu">
+        <item>Вызвать</item>
+        <item>Отправить SMS</item>
+        <item>Изменить</item>
+        <item>Удалить</item>
+        <item>Отправить</item>
+        <item>Добавить в избранное</item>
+        <item>В черный список</item>
+        <item>Создать ярлык</item>
+    </string-array>
+   <string name="menu_actionbar_not_selected_items">Не выбрано</string>
+    <string name="contact_editor_account_selection_title">"Выбрать аккаунт"</string>
+<string name="menu_copyContactsToSIM">Сохранить на SIM</string>
+</resources>

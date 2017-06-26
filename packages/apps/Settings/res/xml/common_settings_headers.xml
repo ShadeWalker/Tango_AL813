@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!-- Copyright (C) 2010 The Android Open Source Project
+
+      Licensed under the Apache License, Version 2.0 (the "License");
+      you may not use this file except in compliance with the License.
+      You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+      Unless required by applicable law or agreed to in writing, software
+      distributed under the License is distributed on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+      See the License for the specific language governing permissions and
+      limitations under the License.
+ -->
+
+ <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+     android:title="@string/display_settings" >
+     <!-- Wifi -->
+      <com.android.settings.WifiPreference
+            android:icon="@drawable/ic_settings_wireless"
+            android:layout="@layout/preference_commonsettings_item"
+            android:title="@string/wifi_settings_title"
+            android:key="wifiSettings"
+            android:fragment="com.android.settings.wifi.WifiSettings" />
+     <!-- Bluetooth -->
+       <com.android.settings.BluetoothPreference
+            android:icon="@drawable/ic_settings_bluetooth2"
+            android:layout="@layout/preference_commonsettings_item"
+            android:title="@string/bluetooth_settings_title"
+            android:key="bluetooth_settings"
+            android:fragment="com.android.settings.bluetooth.BluetoothSettings" />
+
+     <!-- Brightness -->
+       <!-- <Preference android:icon="@drawable/ic_settings_brightness"
+         android:layout="@layout/preference_commonsettings_item"
+         android:title="@string/brightness_title"
+         android:key="brightness">
+         <intent android:action="android.intent.action.SHOW_BRIGHTNESS_DIALOG" />
+       </Preference> -->
+     <!-- wallpaper -->
+       <!-- <Preference android:icon="@drawable/ic_settings_wallpaper"
+         android:layout="@layout/preference_commonsettings_item"
+         android:title="@string/wallpaper_settings_title"
+         android:key="wallpaper"
+         android:fragment="com.android.settings.WallpaperTypeSettings" /> -->
+     <!-- font -->
+    <!-- <com.android.settings.WarnedListPreference
+         android:icon="@drawable/ic_settings_fontsize"
+         android:layout="@layout/preference_commonsettings_item"
+             android:key="font_size"
+             android:title="@string/title_font"
+             settings:keywords="@string/keywords_display_font_size"
+             android:entries="@array/entries_font_size"
+             android:entryValues="@array/entryvalues_font_size"
+             android:dialogTitle="@string/dialog_title_font_size" /> -->
+
+        <!-- Display -->
+        <Preference android:icon="@drawable/ic_settings_display"
+            android:layout="@layout/preference_commonsettings_item"
+            android:title="@string/display_settings"
+            android:key="display_settings"
+            android:fragment="com.android.settings.DisplaySettings" />
+
+     <!-- notifications -->
+       <Preference android:icon="@drawable/ic_settings_notifications"
+            android:layout="@layout/preference_commonsettings_item"
+            android:title="@string/sound_settings"
+            android:key="notification_settings"
+            android:fragment="com.mediatek.audioprofile.SoundSettings" />
+     <!-- ChildMode -->
+        <!-- <Preference
+              android:key="childMode_settings"
+              android:title="@string/ChildMode_settings_title"
+              android:layout="@layout/preference_commonsettings_item"
+              android:icon="@drawable/ic_settings_childmode">
+        </Preference> -->
+
+    <!-- Fingerprint -->
+    <!--<Preference android:icon="@drawable/ic_settings_fingerprint"
+            android:layout="@layout/preference_commonsettings_item"
+            android:title="@string/fingerprint_settings_title"
+            android:key="fingerprint_settings"
+            android:fragment="com.android.settings.fingerprint.FingerprintSettings"/>-->
+
+    <!-- Battery Saving -->
+    <Preference android:icon="@drawable/ic_settings_powersaving"
+            android:layout="@layout/preference_commonsettings_item"
+            android:title="@string/battery_saving_title"
+            android:key="battery_saving_settings" >
+        <intent android:action="android.intent.action.BATTERY_SAVING" />
+    </Preference>
+
+     <!-- lockscreen -->
+     <!--   HQ_caoxuhao at 20150819 HQ01322819 begin-->
+    <Preference android:icon="@drawable/ic_settings_unlock_screen"
+            android:layout="@layout/preference_commonsettings_item"
+            android:title="@string/lockscreen_password_title"
+            android:key="screenlock_password_settings"
+            android:fragment="com.android.settings.ScreenlockPasswordSettings" />
+     <!--   HQ_caoxuhao at 20150819 HQ01322819 end-->
+
+     <!-- systemupdate -->
+     <!--modified by maolikui at 2015-12-31 -->
+     <com.android.settings.SystemupdatePreference 
+	    android:icon="@drawable/ic_settings_phone_updates"
+            android:layout="@layout/preference_commonsettings_item"
+            android:title="@string/system_update_settings_list_item_title"
+            android:key="system_update_settings"/>
+ </PreferenceScreen>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <!-- The name of the Cell Broadcast Receiver app. [CHAR LIMIT=NONE] -->  
+    <string name="app_label">سیل نشریہ</string>  
+    <!-- Label for settings screen. [CHAR LIMIT=NONE] -->  
+    <string name="sms_cb_settings">سیل نشریہ کی ترتیبات</string>  
+    <!-- Text for dismiss button in broadcast message view dialog. [CHAR LIMIT=25] -->  
+    <string name="button_dismiss">ٹھیک ہے</string>  
+    <!-- Menu item for accessing application settings. [CHAR LIMIT=30] -->  
+    <string name="menu_preferences">"ترتیبات"</string>  
+    <!-- Menu item for deleting all broadcasts. [CHAR LIMIT=30] -->  
+    <string name="menu_delete_all">براڈ کاسٹس کو حذف کریں</string>  
+    <!-- Context menu item to view a previously received broadcast. [CHAR LIMIT=30] -->  
+    <string name="menu_view">نشریہ دیکھیں</string>  
+    <!-- Context menu item to delete a previously received broadcast. [CHAR LIMIT=30] -->  
+    <string name="menu_delete">نشریہ حذف کریں</string>  
+    <!-- Confirm Delete -->  
+    <!-- Delete confirmation dialog title. [CHAR LIMIT=30] -->  
+    <string name="confirm_dialog_title">حذف کریں</string>  
+    <!-- Delete broadcast confirmation dialog message. [CHAR LIMIT=NONE] -->  
+    <string name="confirm_delete_broadcast">نشریہ والا پیغام حذف کردیا جائے گا۔</string>  
+    <!-- Delete all broadcasts confirmation dialog message. [CHAR LIMIT=NONE] -->  
+    <string name="confirm_delete_all_broadcasts">نشریہ والا سبھی پیغام حذف کردیا جائے گا۔</string>  
+    <!-- Delete button text for delete broadcast dialog. [CHAR LIMIT=25] -->  
+    <string name="button_delete">حذف کریں</string>  
+    <!-- Cancel button text for delete broadcast dialog. [CHAR LIMIT=25] -->  
+    <string name="button_cancel">"منسوخ"</string>  
+    <!-- ETWS dialog title for Earthquake Warning. [CHAR LIMIT=50] -->  
+    <string name="etws_earthquake_warning">زلزلہ کا انتباہ</string>  
+    <!-- ETWS dialog title for Tsunami Warning. [CHAR LIMIT=50] -->  
+    <string name="etws_tsunami_warning">سونامی کا انتباہ</string>  
+    <!-- ETWS dialog title for Earthquake and Tsunami Warning. [CHAR LIMIT=50] -->  
+    <string name="etws_earthquake_and_tsunami_warning">زلزلہ اور سونامی کا انتباہ</string>  
+    <!-- ETWS dialog title for test message. [CHAR LIMIT=50] -->  
+    <string name="etws_test_message">ETWS آزمائشی پیغام</string>  
+    <!-- ETWS dialog title for other emergency type. [CHAR LIMIT=50] -->  
+    <string name="etws_other_emergency_type">ہنگامی انتباہ</string>  
+    <!-- CMAS dialog title for presidential level alert. [CHAR LIMIT=50] -->  
+    <string name="cmas_presidential_level_alert">صدارتی تنبیہ</string>  
+    <!-- CMAS dialog title for extreme alert. [CHAR LIMIT=50] -->  
+    <string name="cmas_extreme_alert">ہنگامی تنبیہ: انتہائی</string>  
+    <!-- CMAS dialog title for severe alert. [CHAR LIMIT=50] -->  
+    <string name="cmas_severe_alert">ہنگامی تنبیہ: شدید</string>  
+    <!-- CMAS dialog title for child abduction emergency (Amber Alert). [CHAR LIMIT=50] -->  
+    <string name="cmas_amber_alert">بچے کا اغوا (عنبریں روشنی والی تنبیہ)</string>  
+    <!-- CMAS dialog title for required monthly test. [CHAR LIMIT=50] -->  
+    <string name="cmas_required_monthly_test">ہنگامی تنبیہ کی ماہانہ آزمائش</string>  
+    <!-- CMAS dialog title for CMAS Exercise. [CHAR LIMIT=50] -->  
+    <string name="cmas_exercise_alert">ہنگامی تنبیہ (مشق)</string>  
+    <!-- CMAS dialog title for operator defined use. [CHAR LIMIT=50] -->  
+    <string name="cmas_operator_defined_alert">ہنگامی تنبیہ (آپریٹر)</string>  
+    <!-- Dialog title for all other message identifiers in the PWS range. [CHAR LIMIT=50] -->  
+    <string name="pws_other_message_identifiers">ہنگامی تنبیہ</string>  
+    <!-- Dialog title for all non-emergency cell broadcasts. [CHAR LIMIT=50] -->  
+    <string name="cb_other_message_identifiers">سیل نشریہ</string>  
+    <!-- Preference category title for emergency alert settings. [CHAR LIMIT=50] -->  
+    <string name="emergency_alert_settings_title">ہنگامی تنبیہ کی ترتیبات</string>  
+    <!-- Preference title for enable emergency alerts checkbox. [CHAR LIMIT=30] -->  
+    <string name="enable_emergency_alerts_title">اطلاعات فعال کریں</string>  
+    <!-- Preference summary for enable notifications checkbox. [CHAR LIMIT=50] -->  
+    <string name="enable_emergency_alerts_summary">ہنگامی تنبیہ کا نشریہ ڈسپلے کریں</string>  
+    <!-- Preference title for alert sound duration list. [CHAR LIMIT=30] -->  
+    <string name="alert_sound_duration_title">صوتی تنبیہ کا دورانیہ</string>  
+    <!-- Preference title for enable text-to-speech checkbox. [CHAR LIMIT=30] -->  
+    <string name="enable_alert_speech_title">تنبیہی پیغام بولیں</string>  
+    <!-- Preference summary for enable text-to-speech checkbox. [CHAR LIMIT=100] -->  
+    <string name="enable_alert_speech_summary">ہنگامی تنبیہ کے پیغامات بولنے کیلئے متن سے آواز کا استعمال کریں</string>  
+    <!-- Preference category title for ETWS settings. [CHAR LIMIT=50] -->  
+    <string name="category_etws_settings_title">ETWS ترتیبات</string>  
+    <!-- Preference title for enable ETWS test alerts checkbox. [CHAR LIMIT=30] -->  
+    <string name="enable_etws_test_alerts_title">آزمائشی نشریہ دکھائیں</string>  
+    <!-- Preference summary for enable ETWS test alerts checkbox. [CHAR LIMIT=100] -->  
+    <string name="enable_etws_test_alerts_summary">زلزلہ سونامی کے انتباہی نظام کیلئے آزمائشی نشریہ ڈسپلے کریں</string>  
+    <!-- Preference category title for CMAS settings. [CHAR LIMIT=50] -->  
+    <string name="category_cmas_settings_title">CMAS ترتیبات</string>  
+    <!-- Preference title for enable CMAS imminent threat alerts checkbox. [CHAR LIMIT=30] -->  
+    <string name="enable_cmas_imminent_threat_alerts_title">فوری خطرات دکھائیں</string>  
+    <!-- Preference summary for enable CMAS imminent threat alerts checkbox. [CHAR LIMIT=100] -->  
+    <string name="enable_cmas_imminent_threat_alerts_summary">CMAS فوری خطرے کے انتباہی اطلاعات ڈسپلے کریں</string>  
+    <!-- Preference title for enable CMAS amber alerts checkbox. [CHAR LIMIT=50] -->  
+    <string name="enable_cmas_amber_alerts_title">عنبریں روشنی والی تنبیہات دکھائیں</string>  
+    <!-- Preference summary for enable CMAS amber alerts checkbox. [CHAR LIMIT=100] -->  
+    <string name="enable_cmas_amber_alerts_summary">عنبریں روشنی والی تنبیہ (بچے کے اغوا سے متعلق ایمرجنسی) بلیٹنز ڈسپلے کریں</string>  
+    <!-- Preference title for enable CMAS test alerts checkbox. [CHAR LIMIT=30] -->  
+    <string name="enable_cmas_test_alerts_title">آزمائشی نشریہ دکھائیں</string>  
+    <!-- Preference summary for enable CMAS test alerts checkbox. [CHAR LIMIT=100] -->  
+    <string name="enable_cmas_test_alerts_summary">CMAS ماہانہ جانچ کا نشریہ ڈسپلے کریں</string>  
+    <!-- Preference category title for Brazil settings. [CHAR LIMIT=50] -->  
+    <string name="category_brazil_settings_title">برازیل کے لئے ترتیبات</string>  
+    <!-- Preference title for enable channel 50 alerts (Brazil only). [CHAR LIMIT=30] -->  
+    <string name="enable_channel_50_alerts_title">چینل 50 کے نشریات دکھائیں</string>  
+    <!-- Preference summary for enable channel 50 alerts (Brazil only). [CHAR LIMIT=100] -->  
+    <string name="enable_channel_50_alerts_summary">برازیل میں چینل 50 کا استعمال علاقائی تازہ معلومات کیلئے کیا جاتا ہے۔</string>  
+    <!-- Entries listed in the ListPreference for allowed alert durations. [CHAR LIMIT=30] -->  
+    <string-array name="alert_sound_duration_entries"> 
+        <item>2 سیکنڈ</item>  
+        <item>4 سیکنڈ</item>  
+        <item>6 سیکنڈ</item>  
+        <item>8 سیکنڈ</item>  
+        <item>10 سیکنڈ</item> 
+    </string-array>  
+    <!-- Do not translate. Values that are retrieved from the ListPreference.
+         These must match the alert_sound_duration_entries above. -->  
+    <string-array name="alert_sound_duration_values"> 
+        <item>2</item>  
+        <item>4</item>  
+        <item>6</item>  
+        <item>8</item>  
+        <item>10</item> 
+    </string-array>  
+    <!-- MTK added string, put them in the tail-->  
+    <!-- Title of SIM selection dialog -->  
+    <string name="sim_selected_dialog_title">SIM منتخب کریں</string>  
+    <!-- Cell broadcast SMS strings -->  
+    <string name="no_cell_broadcasts">آپ کے علاقے میں فعال انتباہات نہیں ہیں۔ آپ ترتیبات والے مینو کا اختیار استعمال کرکے انتباہ کی ترتیبات تبدیل کرسکتے ہیں۔</string>
+    <string name="message_options">پیغام کے اختیارات</string>
+    <string name="menu_view_details">تفصیلات دیکھیں</string>
+    <string name="view_details_title">انتباہ کی تفصیلات</string>
+    <string name="alert_reminder_interval_title">انتباہ کی یاد دہانی</string>
+    <string name="enable_cmas_extreme_threat_alerts_title">انتہائی دھمکیاں دکھائیں</string>
+    <string name="enable_cmas_extreme_threat_alerts_summary">زندگی یا املاک کو درپیش انتہائی دھمکیوں کیلئے انتباہات ڈسپلے کریں</string>
+    <string name="enable_cmas_severe_threat_alerts_title">شدید دھمکیاں دکھائیں</string>
+    <string name="enable_cmas_severe_threat_alerts_summary">زندگی یا املاک کو درپیش شدید دھمکیوں کیلئے انتباہات ڈسپلے کریں</string>
+    <string name="enable_alert_vibrate_title">وائبریٹ</string>
+    <string name="enable_alert_vibrate_summary">انتباہ پر مرتعش کریں</string>
+    <string name="category_dev_settings_title">ڈیولپر کے اختیارات</string>
+    <string name="cmas_category_heading">انتباہ کا زمرہ:</string>
+    <string name="cmas_category_geo">جغرافیائی طبعیات</string>
+    <string name="cmas_category_met">موسمیات</string>
+    <string name="cmas_category_safety">حفاظت</string>
+    <string name="cmas_category_security">سلامتی</string>
+    <string name="cmas_category_rescue">راحت</string>
+    <string name="cmas_category_fire">آگ</string>
+    <string name="cmas_category_health">صحت</string>
+    <string name="cmas_category_env">ماحول</string>
+    <string name="cmas_category_transport">نقل و حمل</string>
+    <string name="cmas_category_infra">بنیادی ڈھانچہ</string>
+    <string name="cmas_category_cbrne">کیمیائی/حیاتیاتی/نیوکلیائی/دھماکہ خیز</string>
+    <string name="cmas_category_other">دیگر</string>
+    <string name="cmas_response_heading">جواب کی قسم:</string>
+    <string name="cmas_response_shelter">پناہ</string>
+    <string name="cmas_response_evacuate">انخلاء</string>
+    <string name="cmas_response_prepare">تیار کریں</string>
+    <string name="cmas_response_execute">نفاذ کرنا</string>
+    <string name="cmas_response_monitor">نگرانی کریں</string>
+    <string name="cmas_response_avoid">درگزر کریں</string>
+    <string name="cmas_response_assess">تشخیص کریں</string>
+    <string name="cmas_response_none">﻿کوئی نہيں</string>
+    <string name="cmas_severity_heading">شدت:</string>
+    <string name="cmas_severity_extreme">انتہائی</string>
+    <string name="cmas_severity_severe">شدید</string>
+    <string name="cmas_urgency_heading">فوری طلب حالت:</string>
+    <string name="cmas_urgency_immediate">فوری</string>
+    <string name="cmas_urgency_expected">متوقع</string>
+    <string name="cmas_certainty_heading">یقینی حالت:</string>
+    <string name="cmas_certainty_observed">زیر مشاہدہ</string>
+    <string name="cmas_certainty_likely">امکانی طور پر</string>
+    <string name="delivery_time_heading">موصول ہوا:‏</string>
+    <string name="notification_multiple"><xliff:g id="count">%s</xliff:g> بغیر پڑھے ہوئے انتباہات۔</string>
+    <string name="notification_multiple_title">نئے انتباہات</string>
+    <string name="show_cmas_opt_out_summary">پہلا CMAS انتباہ ڈسپلے کرنے کے بعد آپٹ آؤٹ کا ڈائیلاگ دکھائیں (پریسیڈنشیل الرٹ کے علاوہ)۔</string>
+    <string name="show_cmas_opt_out_title">آپٹ آؤٹ کا ڈائیلاگ دکھائیں</string>
+    <string name="cmas_opt_out_dialog_text">آپ کو فی الحال ہنگامی انتباہات موصول ہو رہے ہیں۔ کیا آپ ہنگامی انتباہات کی وصولیابی جاری رکھنا چاہیں گے؟</string>
+    <string name="cmas_opt_out_button_yes">"ہاں"</string>
+    <string name="cmas_opt_out_button_no">نہیں</string>
+    <string-array name="alert_reminder_interval_entries">
+      <item>ایک دفعہ</item>
+      <item>ہر 2 منٹ پر</item>
+      <item>ہر 15 منٹ بعد</item>
+      <item>بند</item>
+    </string-array>
+    <string name="cell_broadcast_settings_not_available">آپ کے علاقے میں فعال انتباہات نہیں ہیں۔ آپ ترتیبات والے مینو کا اختیار استعمال کرکے انتباہ کی ترتیبات تبدیل کرسکتے ہیں۔</string>
+</resources>

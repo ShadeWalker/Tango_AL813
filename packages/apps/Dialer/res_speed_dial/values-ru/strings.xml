@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="reselect_number">Этот номер уже задан как номер быстрого набора. Выберите другой номер.</string>
+<string name="call_speed_dial">Быстрый набор</string>
+<string name="dialog_no_speed_dial_number_message">Нет номеров быстрого набора. Добавить?</string>
+<string name="add_speed_dial">Нажмите, чтобы добавить номера быстрого набора</string>
+<string name="speed_dial_added">
+<xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) задан как номер быстрого набора <xliff:g id="key">%3$s</xliff:g>
+</string>
+<string name="speed_dial_added2">
+<xliff:g id="contact_name">%1$s</xliff:g> задан как номер быстрого набора <xliff:g id="key">%2$s</xliff:g>
+</string>
+<string name="remove_sd_confirm_1">Отменить использование <xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) как номера быстрого набора <xliff:g id="key">%3$s</xliff:g>?</string>
+<string name="remove_sd_confirm_2">Отменить использование <xliff:g id="contact_name">%1$s</xliff:g> как номера быстрого набора <xliff:g id="key">%2$s</xliff:g>?</string>
+    <string name="contact_list_loading">Загрузка...</string>
+    <string name="remove_speed_dial">Удалить</string>
+    <string name="voicemail">Г. почта</string>
+    <string name="sd_add">Добавить</string>
+</resources>

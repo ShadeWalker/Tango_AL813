@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sip_settings">SIP-Adresse</string>
+    <string name="sip_accounts">SIP-Konten</string>
+    <string name="sip_accounts_title">Konten</string>
+    <string name="sip_receive_calls">Eingehende Anrufe empfangen</string>
+    <string name="sip_receive_calls_summary">Akku wird stärker belastet.</string>
+    <string name="sip_call_options_title">SIP-Anrufe verwenden</string>
+    <string name="sip_call_options_wifi_only_title">SIP-Anrufe verwenden (nur Wi-Fi)</string>
+    <string name="sip_call_options_entry_1">Für alle Anrufe bei verfügbarem Datennetzwerk</string>
+    <string name="sip_call_options_entry_2">Nur für SIP-Anrufe</string>
+    <string name="sip_call_options_wifi_only_entry_1">Für alle Anrufe</string>
+    <string name="pick_outgoing_call_phone_type">Anrufen</string>
+    <string name="pick_outgoing_sip_phone">Verwende SIP-Konto:</string>
+    <string name="remember_my_choice">Immer für SIP-Anrufe verwenden</string>
+    <string name="reset_my_choice_hint">Sie können wir folgt einstellen, welches SIP-Konto als Vorgabe für Ihr Telefon verwendet werden soll: Telefon &gt; Einstellungen &gt; SIP-Anrufeinstellungen &gt; Konten-Seite.</string>
+    <string name="pstn_phone">Cell-Anruf</string>
+    <string name="internet_phone">Internet-Anruf</string>
+    <string name="no_sip_account_found_title">Kein SIP-Konto</string>
+    <string name="no_sip_account_found">Dieses Telefon verfügt über keine SIP-Konten. Wollen Sie jetzt eins hinzufügen?</string>
+    <string name="sip_menu_add">Hinzufügen</string>
+    <string name="add_sip_account">"Konto hinzufügen"</string>
+    <string name="remove_sip_account">Konto löschen</string>
+    <string name="sip_account_list">SIP-Konten</string>
+    <string name="saving_account">Konto wird gespeichert \u2026</string>
+    <string name="removing_account">Konto wird gelöscht\u2026</string>
+    <string name="sip_menu_save">Speichern</string>
+    <string name="sip_menu_discard">Verwerfen</string>
+    <string name="alert_dialog_close">Profil schließen</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="close_profile">Schließen</string>
+    <string name="registration_status_checking_status">Status wird geprüft...</string>
+    <string name="registration_status_registering">Wird registriert\u2026</string>
+    <string name="registration_status_still_trying">Versuche weiter\u2026</string>
+    <string name="registration_status_not_receiving">Empfange keine Anrufe</string>
+    <string name="registration_status_no_data">Kontenregistrierung gestoppt, da keine Internet-Verbindung besteht.</string>
+    <string name="registration_status_no_wifi_data">Kontenregistrierung gestoppt, da keine Wi-Fi-Verbindung besteht.</string>
+    <string name="registration_status_not_running">Kontenregistrierung fehlgeschlagen</string>
+    <string name="registration_status_done">Empfange Anrufe</string>
+    <string name="registration_status_failed_try_later">Kontenregistrierung fehlgeschlagen: (<xliff:g id="registration_error_message" example="timedout">%s</xliff:g>); versuche es später</string>
+    <string name="registration_status_invalid_credentials">Kontenregistrierung fehlgeschlagen: Benutzername oder Kennwort ungültig</string>
+    <string name="registration_status_server_unreachable">Kontenregistrierung fehlgeschlagen: Server-Name prüfen</string>
+    <string name="third_party_account_summary">Dieses Konto wird zur Zeit von <xliff:g id="account_owner" example="GoogleTalk">%s</xliff:g>-App verwendet.</string>
+    <string name="sip_edit_title">SIP-Kontendetails</string>
+    <string name="sip_edit_new_title">SIP-Kontendetails</string>
+    <string name="domain_address_title">Server</string>
+    <string name="username_title">Benutzername</string>
+    <string name="password_title">"Passwort"</string>
+    <string name="display_name_title">Angezeigter Name</string>
+    <string name="proxy_address_title">Ausgehende Proxy-Adresse</string>
+    <string name="port_title">Port-Nummer</string>
+    <string name="transport_title">Transportart</string>
+    <string name="send_keepalive_title">Keep-Alive senden</string>
+    <string name="advanced_settings">Optionale Einstellungen</string>
+    <string name="auth_username_title">Benutzername-Authentifizierung</string>
+    <string name="auth_username_summary">Benutzername für Authentifizierung</string>
+    <string name="default_preference_summary">&lt;Not set&gt;</string>
+    <string name="display_name_summary">&lt;wie Benutzername&gt;</string>
+    <string name="optional_summary">Optionale Einstellungen</string>
+    <string name="advanced_settings_show">Antippen um alle anzuzeigen</string>
+    <string name="advanced_settings_hide">Antippen um alle zu verbergen</string>
+    <string name="empty_alert"><xliff:g id="input_field_name" example="Username,Password...">%s</xliff:g> ist erforderlich und darf nicht leer sein.</string>
+    <string name="not_a_valid_port">Die Port-Nummer muss zwischen 1000 und 65534 liegen.</string>
+    <string name="no_internet_available_title">Keine Internet-Verbindung</string>
+    <string name="no_wifi_available_title">Keine Wi-Fi-Verbindung</string>
+    <string name="no_internet_available">Prüfen Sie zuerst Ihre Internet-Verbindung, wenn Sie über SIP anrufen wollen.</string>
+    <string name="no_wifi_available">Für einen SIP-Anruf müssen Sie mit einem Wi-Fi-Netzwerk verbunden sein (verwenden Sie Drahtlos &amp; Netzwerk-Einstellungen).</string>
+    <string name="no_voip">SIP-Anrufe nicht unterstützt</string>
+    <string translatable="true" name="sip_system_decide">Automatisch</string>
+    <string translatable="true" name="sip_always_send_keepalive">Immer senden</string>
+    <string name="sip_connection_service_label">Integrierte SIP-Anrufe</string>
+</resources>

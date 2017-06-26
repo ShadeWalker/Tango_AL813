@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/fl_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/list_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/config_hidden"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+
+            <include
+                android:id="@+id/toolbar_parent"
+                layout="@layout/people_activity_toolbar" />
+
+            <!--
+        ViewPager for swiping between tabs.  We put StrequentContactListFragment,
+        DefaultContactBrowseListFragment and GroupBrowseListFragment at runtime.
+
+        (Adding them directly as the children of this view is not recommended.  ViewPager should
+        be treated like a ListView, which doesn't expect children to be added from the layout.)
+            -->
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/tab_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/toolbar_parent" />
+
+            <FrameLayout
+                android:id="@+id/contacts_unavailable_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/toolbar_parent"
+                android:visibility="gone" >
+
+                <FrameLayout
+                    android:id="@+id/contacts_unavailable_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </FrameLayout>
+
+            <!-- <include layout="@layout/floating_action_button" /> -->
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/fl_search_ui"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:visibility="gone">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="ltr"
+                >
+            <com.android.phone.common.dialpad.DigitsEditText
+                xmlns:ex="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/det_digits"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#1E90FF"
+                android:cursorVisible="false"
+                android:focusableInTouchMode="true"
+                android:fontFamily="sans-serif"
+                android:freezesText="true"
+                android:gravity="center"
+                android:maxLines="1"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:textColor="#FFFFFF"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/dialpad_digits_adjustable_text_size"
+                android:textStyle="normal"
+                ex:resizing_text_min_size="@dimen/dialpad_digits_text_min_size"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"/>
+                <TextView
+                    android:id="@+id/tv_lo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="10sp"
+                    android:paddingBottom="2dp"
+                    />
+            </FrameLayout>
+        </LinearLayout>
+        
+        <FrameLayout 
+            android:id="@+id/fl_dialpad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            
+        </FrameLayout>
+    </FrameLayout>
+
+    <!-- added by guofeiyao for HQ01207444 -->
+
+    <LinearLayout
+        android:id="@+id/floating_action_button_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fabs_height"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@drawable/boder"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e3e3e3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Space
+                android:layout_width="@dimen/menu_space_width"
+                android:layout_height="match_parent" />
+
+            <RelativeLayout
+                android:id="@+id/ib_dialpad"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" 
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_dialp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_keypad_em" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_dialp"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/dial_keypad"
+                    android:textSize="@dimen/menu_text_size"
+                    android:textColor="@color/menu_text_color"/>
+            </RelativeLayout>
+<!--
+            <Button
+                android:id="@+id/ib_dialpad"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawableTop="@drawable/dial_keypad"
+                android:textSize="10sp"
+                android:text="@string/dial_keypad"
+                android:textAllCaps="false"
+                android:gravity="center"
+                android:textColor="#A6000000" />
+-->
+<!--
+            <Button
+                android:id="@+id/ib_menu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawableTop="@drawable/dial_menu"
+                android:textSize="10sp"
+                android:text="@string/dial_menu"
+                android:textAllCaps="false"
+                android:gravity="center"
+                android:textColor="#A6000000" />
+-->
+            <RelativeLayout
+                android:id="@+id/ib_menu"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" 
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_menu_top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_menu_em" />
+
+                <TextView
+                    android:id="@+id/tv_menu_bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_menu_top"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/dial_menu"
+                    android:textSize="@dimen/menu_text_size"
+                    android:textColor="@color/menu_text_color"/>
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="@dimen/menu_space_width"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

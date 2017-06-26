@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dm_lock">DM lukittu</string>
+    <string name="dm_unlock">Avaa DM-lukitus</string>
+    <string name="start_record">Käynnistä tallennus</string>
+    <string name="stop_record">Lopeta tallennus</string>
+    <string name="str_db_playlist_name">"Omat tallenteet"</string>
+    <string name="alert_device_error">"Äänilaitteessa tapahtui virhe"</string>
+    <string name="ext_media_badremoval_notification_title">"SD-kortti poistettiin yllättäen"</string>
+    <string name="error_sdcard_access">"SD-kortti ei käytettävissä"</string>
+    <string name="confirm_device_info_full">SD-kortin tila on lopussa. Tallenne on tallennettu.</string>
+    <string name="confirm_save_info_saved">Tallenteesi on tallennettu</string>
+    <string name="confirm_save_info_saved_to">Tallenteesi on tallennettu kohtaan</string>
+    <string name="recording_saved_sd_full">SD-kortin tila on lopussa. Tallenne on tallennettu.</string>
+    <string name="sd_not_enough">SD-kortin tila on\nkäymässä vähiin</string>
+    <string name="alert_dialog_dismiss">"Hylkää"</string>
+    <string name="change_my_pic">Muuta</string>
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">Katkaise kaikki</string>
+    <string name="onscreenHangupHolding">Katkaise pito</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Katkaise aktiivinen, vastaa odottavaan</string>
+    <string name="menu_ect">Siirrä</string>
+    <string name="respond_via_sms_confirmation_format">"Viesti lähetetty numeroon 
+        <xliff:g id="PHONE_NUMBER">%s</xliff:g>."
+    </string>
+    <string name="volte_add_conference_member_title">Lisää kokoukseen</string>
+    <string name="add_member_msg">Näppäile numero tai nimi</string>
+    <string name="card_title_incoming_conference">Kokouskutsu</string>
+    <string name="addConferenceMemeberText">Lisää jäsen</string>
+    <string name="add_conference_member_limit">Vain yhden jäsenen voi lisätä kerrallaan.</string>
+    <string name="conference_member_join">
+<xliff:g id="member_name">%s</xliff:g> liittyi kokoukseen.</string>
+    <string name="conference_member_leave">
+<xliff:g id="member_name">%s</xliff:g> poistui kokouksesta.</string>
+    <string name="conference_member_adding">Lisätään <xliff:g id="member_name">%s</xliff:g> ...</string>
+    <string name="conference_member_add_fail">
+<xliff:g id="member_name">%s</xliff:g> :n lisääminen epäonnistui.</string>
+    <string name="removeMember">"Poista"</string>
+    <string name="memberStatus">"Tila"</string>
+    <string name="volte_call_waiting_indication_text">Toinen osapuoli puhuu puhelimessa, odota...</string>
+    <string name="volte_conf_member_reach_max">Kokous on jos saavuttanut osallistujien enimmäismäärän.</string>
+    <string name="add_multi_conference_member_limit">Tällä hetkellä enintään <xliff:g id="max_number">%s</xliff:g> jäsentä on lisättävissä.</string>
+    <string name="multi_conference_member_adding">Lisätään jäsen(iä)…</string>
+<string name="ok">"OK"</string>
+<string name="two_incoming_calls">Kaksi tulevaa puhelua</string>
+<string name="wifi_title">Wi-Fi-puhelu ja minuutit </string>
+<string name="call_drop">Puhelusi saattaa katketa</string>
+<string name="call_drop_message">Olet melkein Wi-Fi-kuuluvuusalueen ulkopuolella</string>
+<string name="view_networks">Näytä verkot</string>
+<string name="wfc_wifi_call_drop_summary">Olet siirtynyt Wi-Fi-verkon ulkopuolelle puhelun aikana.\n\nMuodostetaanko uudelleen yhteys Wi-Fi-verkkoon puhelun lopettamista varten?</string>
+</resources>

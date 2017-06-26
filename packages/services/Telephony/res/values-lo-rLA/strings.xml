@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <string name="network_4G_only">4G ເທົ່າ​ນັ້ນ</string>
+    <string name="network_4G">4G/3G/2G ອັດ​ຕະ​ໂນ​ມັດ</string>
+    <string name="network_3G" translatable="false">3G/2G ອັດ​ຕະ​ໂນ​ມັດ</string>
+    <string name="network_3G_only" translatable="false">3G ເທົ່າ​ນັ້ນ</string>
+    <string name="network_2G" translatable="false">2G ເທົ່າ​ນັ້ນ</string>
+     
+     <string name="sim_change_data_title">"​ປ່ຽນ​ຊິມ​ຂໍ້​ມູນຫຼື​ບໍ່?"</string>
+    <string name="sim_change_data_message">"​ໃຊ້ <xliff:g id="NEW_SIM">%1$s</xliff:g> ​ແທນ <xliff:g id="OLD_SIM">%2$s</xliff:g> ​ສຳ​ລັບ​ຂໍ້​ມູນ​ເຄືອ​ຂ່າຍ​ໂທ​ລະ​ສັບຫຼື​ບໍ່?"</string>
+     <string name="card_title_call_ended">"ວາງສາຍແລ້ວ"</string>
+     <string name="slot_1">SIM 1</string>
+    <string name="slot_2">SIM 2</string>
+     <string msgid="1107073389495104784" name="phoneAppLabel" product="tablet">"ຂໍ້​ມູນ​ເຊວ​ລູ​ລາ"</string>
+    <string msgid="906161039445636857" name="phoneAppLabel" product="default">"ໂທລະສັບ"</string>
+    <string msgid="7812140032168171053" name="emergencyDialerIconLabel">"ໂປຣແກຣມໂທອອກສຸກເສີນ"</string>
+    <string msgid="2331230813161304895" name="phoneIconLabel">"ໂທລະສັບ"</string>
+    <string msgid="8630418672279521003" name="fdnListLabel">"ລາຍຊື່ FDN"</string>
+    <string msgid="6878797917991465859" name="unknown">"ບໍ່ຮູ້ຈັກ"</string>
+    <string msgid="6713286113000232309" name="private_num">"ເບີສ່ວນໂຕ"</string>
+    <string msgid="4793877574636445118" name="payphone">"ຕູ້​ໂທ​ລະ​ສັບ​ສາ​ທາ​ລະ​ນະ"</string>
+    <string msgid="9035493194749959955" name="onHold">"ພັກສາຍຊົ່ວຄາວ"</string>
+    <string msgid="6347869857061147003" name="mmiStarted">"ເລີ່ມລະຫັດ MMI ແລ້ວ"</string>
+    <string msgid="485588686340541690" name="ussdRunning">"ກຳລັງແລ່ນລະຫັດ USSD..."</string>
+    <string msgid="2771923949751842276" name="mmiCancelled">"ຍົກເລີກລະຫັດ MMI ແລ້ວ"</string>
+    <string msgid="5044513931633602634" name="cancel">"ຍົກເລີກ"</string>
+    <string msgid="1810529547726803893" name="enter_input">"ຂໍ້ຄວາມ USSD ຕ້ອງມີໂຕອັກສອນລະຫວ່າງ <xliff:g id="MIN_LEN">%d</xliff:g> ແລະ <xliff:g id="MAX_LEN">%d</xliff:g> ໂຕ. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ."</string>
+    <string msgid="4691922394301969053" name="manageConferenceLabel">"ຈັດການການປະຊຸມສາຍ"</string>
+    <string msgid="3811371167865772377" name="ok">"ຕົກລົງ"</string>
+    <string msgid="27649582100085266" name="audio_mode_speaker">"ລຳໂພງ"</string>
+    <string msgid="4156527186373869107" name="audio_mode_earpiece">"ຊຸດຫູຟັງ"</string>
+    <string msgid="1465350758489175975" name="audio_mode_wired_headset">"ຊຸດຫູຟັງແບບມີສາຍ"</string>
+    <string msgid="3047641300848211128" name="audio_mode_bluetooth">"Bluetooth"</string>
+    <string msgid="7601815427707856238" name="wait_prompt_str">"ສົ່ງໂທນສຽງຕໍ່ໄປນີ້ບໍ່?\n"</string>
+    <string msgid="1789964702154314806" name="pause_prompt_str">"ກຳລັງສົ່ງໂທນສຽງ\n"</string>
+    <string msgid="4106860097497818751" name="send_button">"ສົ່ງ"</string>
+    <string msgid="3564467212025151797" name="pause_prompt_yes">"ຕົກລົງ"</string>
+    <string msgid="6686238803236884877" name="pause_prompt_no">"ບໍ່"</string>
+    <string msgid="5543521676355533577" name="wild_prompt_str">"ແທນທີ່ \"ໂຕອັກສອນທົດແທນ\" ດ້ວຍ"</string>
+    <string msgid="4164780423805688336" name="no_vm_number">"ບໍ່ມີເບີຂໍ້ຄວາມສຽງ"</string>
+    <string msgid="1300729501030053828" name="no_vm_number_msg">"ບໍ່ມີເບີຂໍ້ຄວາມສຽງຖືກບັນທຶກໃນ SIM card."</string>
+    <string msgid="4676479471644687453" name="add_vm_number_str">"ເພີ່ມໝາຍເລກ"</string>
+    <string msgid="2284912838477558454" name="puk_unlocked">"ຍົກເລີກການປິດກັ້ນ SIM card ຂອງທ່ານແລ້ວ. ໂທລະສັບຂອງທ່ານກຳລັງຖືກປົດລັອກ..."</string>
+    <string msgid="780479633159517250" name="label_ndp">"PIN ປົດລັອກເຄືອຂ່າຍ SIM"</string>
+    <string msgid="683628237760543009" name="sim_ndp_unlock_text">"ປົດລັອກ"</string>
+    <string msgid="1604823375752456947" name="sim_ndp_dismiss_text">"ປິດໄວ້"</string>
+    <string msgid="6412629401033249351" name="requesting_unlock">"ກຳລັງຮ້ອງຂໍການປົດລັອກເຄືອຂ່າຍ..."</string>
+    <string msgid="6490531697031504225" name="unlock_failed">"ຄຳຂໍການປົດລັອກເຄືອຂ່າຍບໍ່ສຳເລັດ."</string>
+    <string msgid="6770085622238180152" name="unlock_success">"ການປົດລັອກເຄືອຂ່າຍບໍ່ສຳເລັດ."</string>
+    <string msgid="3831911315358856062" name="mobile_network_settings_not_available">"​ການ​ຕັ້ງ​ຄ່າ​ເຄືອ​ຂ່າຍ​ມ​ື​ຖືບໍ່​ສາ​ມາດ​ໃຊ້​ໄດ້​ກັບ​ຜູ່​ໃຊ້​ນີ້"</string>
+    <string msgid="5930842194056092106" name="labelGSMMore">"ການຕັ້ງຄ່າການໂທ GSM"</string>
+    <string msgid="1630676740428229339" name="labelCDMAMore">"ການຕັ້ງຄ່າໂທ CDMA"</string>
+    <string msgid="9043423184895642077" name="apn_settings">"ຊື່ຂອງຈຸດການເຂົ້າເຖິງ (APN)"</string>
+    <string msgid="3876743539816984008" name="settings_label">"ການຕັ້ງຄ່າເຄືອຂ່າຍ"</string>
+    <string msgid="6376603393888116364" name="phone_accounts">"ບັນ​ຊີ​ໂທ"</string>
+    <string msgid="1969188078933152231" name="phone_accounts_make_calls_with">"ໂທ​ດ້ວຍ"</string>
+    <string msgid="4677789312053828493" name="phone_accounts_make_sip_calls_with">"ໂທ SIP ດ້ວຍ"</string>
+    <string msgid="4346499067149985702" name="phone_accounts_ask_every_time">"​ຖາມ​ກ່ອນ"</string>
+    <string msgid="4141710640883261094" name="phone_accounts_settings_header">"ການ​ຕັ້ງ​ຄ່າ"</string>
+    <string msgid="5232948804226424002" name="phone_accounts_choose_accounts">"ເລືອກ​ບັນ​ຊີ"</string>
+    <string msgid="1365215726106915865" name="phone_accounts_selection_header">"ບັນ​ຊີ​ໂທລະ​ສັບ"</string>
+    <string msgid="2023821743341923271" name="phone_accounts_add_sip_account">"ເພີ່ມ​ບັນ​ຊີ SIP"</string>
+    <string msgid="1361715069911607109" name="phone_accounts_configure_account_settings">"ຕັ້ງ​​ການ​ຕັ້ງ​ຄ່າ​ບັນ​ຊີ"</string>
+    <string msgid="1840272538233414629" name="phone_account_wifi_calling">"ການ​ໂທ Wi-Fi"</string>
+    <string msgid="7491443219113013323" name="wifi_calling_do_not_use">"ຢ່າໃຊ້ການ​ໂທ​ດ້ວຍ Wi-Fi"</string>
+    <string msgid="5420257095556091770" name="wifi_calling_do_not_use_call_assistant">"ຢ່າ​ໃຊ້​ຕົວ​ຊ່ວຍ​ການ​ໂທ"</string>
+    <string msgid="6283702349285593683" name="wifi_calling_call_assistant_none">"ບໍ່ມີ"</string>
+    <string msgid="229102032881680320" name="wifi_calling_call_assistant">"ຕົວ​ຊ່ວຍ​ການ​ໂທ"</string>
+    <string msgid="8460024827012666199" name="wifi_calling_use_call_assistant">"ໃຊ້​ຕົວ​ຊ່ວຍ​ການ​ໂທ"</string>
+    <string msgid="9296558058772293" name="wifi_calling_select_call_assistant">"ເລືອກ​ຕົວ​ຊ່ວຍ​ການ​ໂທ"</string>
+    <string msgid="164985727137156474" name="wifi_calling_select_call_assistant_summary">"ຈັດ​ການ​ເຄືອ​ຂ່າຍ​ທີ່​ໃຊ້​ສຳ​ລັບ​ສາຍ​ໂທ​ກັບ"</string>
+    <string msgid="6599987137133339698" name="wifi_calling_use_call_assistant_summary">"ໃຫ້​ແອັບ ຫຼື​ການ​ບໍ​ລິ​ການ​ຈັດ​ການ​ເຄືອ​ຂ່າຍ​ທີ່​ໃຊ້​ສຳ​ລັບ​ການ​ໂທ"</string>
+    <string msgid="1092639708949670031" name="wifi_calling_call_assistant_configure">"ຕັ້ງຄ່າ"</string>
+    <string msgid="1498481943805913754" name="connection_service_default_label">"ບໍ​ລິ​ການ​ການ​ເຊື່ອມ​ຕໍ່​ທີ່​ມີ​ມາ​ນຳ"</string>
+    <string msgid="8693759337917898954" name="voicemail">"ຂໍ້ຄວາມສຽງ"</string>
+    <string msgid="2215592488517217448" name="voicemail_abbreviated">"VM​:"</string>
+    <string msgid="8873030692174541976" name="networks">"ຜູ່ໃຫ້ບໍລິການເຄືອຂ່າຍ"</string>
+    <string msgid="8740238216690502563" name="cell_broadcast_settings">"​ການ​ອອກອາກາດ​ສຸກ​ເສີນ"</string>
+    <string msgid="6112441768261754562" name="call_settings">"ການຕັ້ງຄ່າການໂທ"</string>
+    <string msgid="1391795981938800617" name="additional_gsm_call_settings">"ການຕັ້ງຄ່າເພີ່ມເຕີມ"</string>
+    <string msgid="1385241520708457376" name="additional_gsm_call_settings_with_label">"ການ​ຕັ້ງ​ຄ່າ​ເພີ່ມ​ເຕີມ (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string msgid="4076647190996778012" name="sum_gsm_call_settings">"ການຕັ້ງຄ່າເພີ່ມເຕີມສະເພາະຂອງການໂທ GSM"</string>
+    <string msgid="8628958775721886909" name="additional_cdma_call_settings">"ການຕັ້ງຄ່າການໂທ CDMA ເພີ່ມເຕີມ"</string>
+    <string msgid="284753265979035549" name="sum_cdma_call_settings">"ການຕັ້ງຄ່າການໂທສະເພາະ CDMA ເພີ່ມເຕີມ"</string>
+    <string msgid="4699970172021870983" name="labelNwService">"ການຕັ້ງຄ່າບໍລິການເຄືອຂ່າຍ"</string>
+    <string msgid="3888899447379069198" name="labelCallerId">"ໝາຍເລກຜູ່ໂທ"</string>
+    <string msgid="1826692909391168620" name="sum_loading_settings">"ກຳລັງໂຫລດການຕັ້ງຄ່າ..."</string>
+    <string msgid="1071407020290873782" name="sum_hide_caller_id">"ເບີໂທຖືກເຊື່ອງໃນເວລາໂທອອກ"</string>
+    <string msgid="6768534125447290401" name="sum_show_caller_id">"ໝາຍເລກທີ່ສະແດງໃນເວລາໂທອອກ"</string>
+    <string msgid="1954518825510901365" name="sum_default_caller_id">"ໃຊ້ການຕັ້ງຄ່າເລີ່ມຕົ້ນຂອງຜູ່ໃຫ້ບໍລິການ ເພື່ອສະແດງໝາຍເລກຂອງຂ້ອຍໃນການໂທອອກ"</string>
+    <string msgid="6120513814915920200" name="labelCW">"ສາຍຊ້ອນ"</string>
+    <string msgid="8083061901633671397" name="sum_cw_enabled">"ແຈ້ງເຕືອນຂ້ອຍຫາກມີສາຍໂທເຂົ້າ ໃນລະຫວ່າງການໂທໃດນຶ່ງ"</string>
+    <string msgid="3648693907300104575" name="sum_cw_disabled">"ແຈ້ງເຕືອນຂ້ອຍຫາກມີສາຍໂທເຂົ້າ ໃນລະຫວ່າງການໂທໃດນຶ່ງ"</string>
+    <string msgid="3378927671091537173" name="call_forwarding_settings">"ການຕັ້ງຄ່າໂອນສາຍ"</string>
+    <string msgid="8569489414006897127" name="call_forwarding_settings_with_label">"ການ​ຕັ້ງ​ຄ່າ​ການ​ໂອນ​ສາຍ​ໂທ (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string msgid="2574386948026924737" name="labelCF">"ການໂອນສາຍ"</string>
+    <string msgid="8147177368148660600" name="labelCFU">"ໂອນສາຍທຸກຄັ້ງ"</string>
+    <string msgid="3560082430662923687" name="messageCFU">"ໃຊ້ເບີນີ້ສະເໝີ"</string>
+    <string msgid="4014187342724130197" name="sum_cfu_enabled_indicator">"ໂອນສາຍທັງໝົດ"</string>
+    <string msgid="2450052502198827927" name="sum_cfu_enabled">"ໂອນສາຍທັງໝົດໄປທີ່ <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string msgid="6591985777096823616" name="sum_cfu_enabled_no_number">"ໝາຍເລກບໍ່ສາມາດໃຊ້ໄດ້"</string>
+    <string msgid="8384177689501334080" name="sum_cfu_disabled">"ປິດ"</string>
+    <string msgid="6139853033106283172" name="labelCFB">"ເມື່ອ​ບໍ່​ຫວ່າງ"</string>
+    <string msgid="3711089705936187129" name="messageCFB">"ເບີໂທເມື່ອສາຍບໍ່ຫວ່າງ"</string>
+    <string msgid="5984198104833116690" name="sum_cfb_enabled">"ໂອນສາຍໄປໃຫ້ <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string msgid="4913145177320506827" name="sum_cfb_disabled">"ປິດ"</string>
+    <string msgid="3506984333877998061" name="disable_cfb_forbidden">"ຜູ່ໃຫ້ບໍລິການຂອງທ່ານ ບໍ່ຮອງຮັບການປິດການໂອນສາຍ ເມື່ອໂທລະສັບຂອງທ່ານສາຍບໍ່ຫວ່າງ."</string>
+    <string msgid="1736067178393744351" name="labelCFNRy">"ເມື່ອ​ບໍ່​ມີ​ຜູ້​ຮັບ​ສາຍ"</string>
+    <string msgid="672317899884380374" name="messageCFNRy">"ເບີໂທເມື່ອບໍ່ມີຄົນຮັບສາຍ"</string>
+    <string msgid="6955775691317662910" name="sum_cfnry_enabled">"ໂອນສາຍໄປໃຫ້ <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string msgid="3884684060443538097" name="sum_cfnry_disabled">"ປິດ"</string>
+    <string msgid="4308233959150658058" name="disable_cfnry_forbidden">"ຜູ່ໃຫ້ບໍລິການຂອງທ່ານ ບໍ່ຮອງຮັບການປິດການໂອນສາຍ ເມື່ອໂທລະສັບຂອງທ່ານບໍ່ມີຜູ່ຮັບສາຍ."</string>
+    <string msgid="2614827454402079766" name="labelCFNRc">"ເມື່ອ​ບໍ່​ສາ​ມາດ​ຕິດ​ຕໍ່ໄດ້"</string>
+    <string msgid="6380695421020295119" name="messageCFNRc">"ເບີໂທເມື່ອຕິດຕໍ່ບໍ່ໄດ້"</string>
+    <string msgid="7010898346095497421" name="sum_cfnrc_enabled">"ໂອນສາຍໄປໃຫ້ <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string msgid="7222141261321276464" name="sum_cfnrc_disabled">"ປິດການນຳໃຊ້ແລ້ວ"</string>
+    <string msgid="5646361343094064333" name="disable_cfnrc_forbidden">"ຜູ່ໃຫ້ບໍລິການຂອງທ່ານ ບໍ່ຮອງຮັບການປິດການໂອນສາຍ ເມື່ອໂທລະສັບຂອງທ່ານບໍ່ມີສັນຍານ."</string>
+    <string msgid="6146755386174019046" name="updating_title">"ການຕັ້ງຄ່າການໂທ"</string>
+    <string msgid="5679923943740900965" name="call_settings_primary_user_only">"ມີ​ແຕ່​ຜູ້​ໃຊ້​ຕົ້ນ​ຕໍ​ເທົ່າ​ນັ້ນ​ທີ່​ສາ​ມາດ​ປ່ຽນການ​ຕັ້ງ​ຄ່າ​ການ​ໂທ​ໄດ້."</string>
+    <string msgid="89359812614544532" name="call_settings_with_label">"ການ​ຕັ້ງ​ຄ່າ​ການ​ໂທ (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string msgid="7970259216988931777" name="error_updating_title">"ການຕັ້ງຄ່າການໂທຜິດພາດ"</string>
+    <string msgid="1920291699287055284" name="reading_settings">"ກຳລັງອ່ານການຕັ້ງຄ່າ..."</string>
+    <string msgid="8171225533884883252" name="updating_settings">"ກຳລັງອັບເດດການຕັ້ງຄ່າ..."</string>
+    <string msgid="4752151682666912828" name="reverting_settings">"ກຳລັງຖອນຄືນການຕັ້ງຄ່າ..."</string>
+    <string msgid="6674110501330139405" name="response_error">"ໄດ້ຮັບການຕອບກັບທີ່ບໍ່ຄາດຄິດຈາກເຄືອຂ່າຍ."</string>
+    <string msgid="7027667130619518211" name="exception_error">"ເຄືອຂ່າຍ ຫຼື SIM card ຜິດພາດ."</string>
+    <string msgid="18200614306525434" name="fdn_check_failure">"ການຕັ້ງຄ່າແອັບຯໝາຍເລກຈຳກັດການໂທອອກ ຂອງໂທລະສັບທ່ານຖືກເປີດໃຊ້ຢູ່ ເຊິ່ງຈະເຮັດໃຫ້ຄຸນສົມບັດທີ່ກ່ຽວກັບການໂທບາງຢ່າງ ບໍ່ສາມາດໃຊ້ໄດ້."</string>
+    <string msgid="2304459933248513376" name="radio_off_error">"ເປີດໃຊ້ວິທະຍຸກ່ອນການເບິ່ງການຕັ້ງຄ່າເຫຼົ່ານີ້."</string>
+    <string msgid="2365884406356986917" name="close_dialog">"ຕົກລົງ"</string>
+    <string msgid="7248657275000173526" name="enable">"ເປີດ"</string>
+    <string msgid="4678348128118573672" name="disable">"ປິດ"</string>
+    <string msgid="239476305819844391" name="change_num">"ອັບເດດ"</string>
+  <string-array name="clir_display_values">
+    <item msgid="5560134294467334594">"ເຄືອຂ່າຍເລີ່ມຕົ້ນ"</item>
+    <item msgid="7876195870037833661">"ເຊື່ອງເບີໂທ"</item>
+    <item msgid="1108394741608734023">"ສະແດງເບີໂທ"</item>
+  </string-array>
+    <string msgid="380744030726254139" name="vm_changed">"ປ່ຽນໝາຍເລກຂໍ້ຄວາມສຽງແລ້ວ."</string>
+    <string msgid="3352934863246208918" name="vm_change_failed">"ບໍ່ສາມາດປ່ຽນເບີຂໍ້ຄວາມສຽງໄດ້.\nຕິດຕໍ່ຜູ່ໃຫ້ບໍລິການຂອງທ່ານ ຫາກວ່າຍັງປະສົບບັນຫານີ້ຢູ່."</string>
+    <string msgid="5298103228470214665" name="fw_change_failed">"ບໍ່ສາມາດປ່ຽນເບີໂອນສາຍໄດ້.\nກະລຸນາຕິດຕໍ່ຜູ່ໃຫ້ບໍລິການຂອງທ່ານ ຫາກຍັງປະສົບບັນຫານີ້ຢູ່."</string>
+    <string msgid="8862896836093833973" name="fw_get_in_vm_failed">"ບໍ່ສາມາດດຶງຂໍ້ມູນການຕັ້ງຄ່າ ແລະບັນທຶກການຕັ້ງຄ່າເບີໂອນສາຍໃນປັດຈຸບັນໄດ້.\nສະລັບໄປໃຊ້ຜູ່ໃຫ້ບໍລິການໃໝ່ຕໍ່ເລີຍ?"</string>
+    <string msgid="3186040086622435212" name="no_change">"ບໍ່ມີການປ່ຽນແປງເກີດຂຶ້ນ."</string>
+    <string msgid="59911196126278922" name="sum_voicemail_choose_provider">"ເລືອກບໍລິການຂໍ້ຄວາມສຽງ"</string>
+    <string msgid="2001233554889016880" name="voicemail_default">"ຜູ້​ໃຫ້​ບໍ​ລິ​ການ​ຂອງ​ທ່ານ"</string>
+    <string msgid="2843854043339307375" name="mobile_networks">"ການ​ຕັ້ງ​ຄ່າ​ເຄືອ​ຂ່າຍ​ມື​ຖື"</string>
+    <string msgid="1181658289009300430" name="label_available">"ເຄືອຂ່າຍທີ່ມີ"</string>
+    <string msgid="5230707536168902952" name="load_networks_progress">"ກຳລັງຊອກຫາ..."</string>
+    <string msgid="4249426905018815316" name="empty_networks_list">"ບໍ່ພົບເຄືອຂ່າຍ."</string>
+    <string msgid="1601136049300882441" name="search_networks">"ຊອກຫາເຄືອຂ່າຍ"</string>
+    <string msgid="6828516148953325006" name="network_query_error">"ເກີດຄວາມຜິດພາດໃນລະຫວ່າງການຊອກຫາເຄືອຂ່າຍ."</string>
+    <string msgid="9055203954040805084" name="register_on_network">"ກຳລັງລົງທະບຽນກັບ <xliff:g id="NETWORK">%s</xliff:g>…"</string>
+    <string msgid="5613353860205691579" name="not_allowed">"SIM card ຂອງທ່ານບໍ່ອະນຸຍາດໃຫ້ເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍນີ້."</string>
+    <string msgid="2308119155752343975" name="connect_later">"ບໍ່ສາມາດເຊື່ອມຕໍ່ຫາເຄືອຂ່າຍນີ້ໃນເວລານີ້ໄດ້. ກະລຸນາລອງໃໝ່ໃນພາຍຫຼັງ."</string>
+    <string msgid="495135664535876612" name="registration_done">"ລົງທະບຽນໃນເຄືອຂ່າຍແລ້ວ."</string>
+    <string msgid="3494252551249882718" name="sum_carrier_select">"ເລືອກເຄືອຂ່າຍຜູ່ໃຫ້ບໍລິການ"</string>
+    <string msgid="2921092249873272715" name="sum_search_networks">"ຊອກຫາເຄືອຂ່າຍທີ່ມີທັງໝົດ"</string>
+    <string msgid="5628402124471810174" name="select_automatically">"ເລືອກອັດຕະໂນມັດ"</string>
+    <string msgid="5614890115123292400" name="sum_select_automatically">"ເລືອກເຄືອຂ່າຍທີ່ຕ້ອງການອັດຕະໂນມັດ"</string>
+    <string msgid="6017849844573519637" name="register_automatically">"ກຳລັງລົງທະບຽນອັດຕະໂນມັດ..."</string>
+    <string msgid="2336624679902659306" name="preferred_network_mode_title">"ປະ​ເພດ​ເຄືອ​ຂ່າຍທີ່ຕ້ອງການ"</string>
+    <string msgid="1434820673166126609" name="preferred_network_mode_summary">"ປ່ຽນຮູບແບບປະຕິບັດການຂອງເຄືອຂ່າຍ"</string>
+    <string msgid="4048082093347807230" name="preferred_network_mode_dialogtitle">"ປະ​ເພດ​ເຄືອ​ຂ່າຍທີ່ຕ້ອງການ"</string>
+    <string msgid="8521677230113533809" name="preferred_network_mode_wcdma_perf_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: ຕ້ອງການ WCDMA"</string>
+    <string msgid="3352445413437453511" name="preferred_network_mode_gsm_only_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: GSM ເທົ່ານັ້ນ"</string>
+    <string msgid="2836897236221063413" name="preferred_network_mode_wcdma_only_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: WCDMA ເທົ່ານັ້ນ"</string>
+    <string msgid="3161255745326408587" name="preferred_network_mode_gsm_wcdma_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: GSM / WCDMA"</string>
+    <string msgid="3175690187294334241" name="preferred_network_mode_cdma_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: CDMA"</string>
+    <string msgid="8332063064712726618" name="preferred_network_mode_cdma_evdo_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: CDMA / EvDo"</string>
+    <string msgid="1309770926198634150" name="preferred_network_mode_cdma_only_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: CDMA ເທົ່ານັ້ນ"</string>
+    <string msgid="8472220691721269155" name="preferred_network_mode_evdo_only_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: EvDo ເທົ່ານັ້ນ"</string>
+    <string msgid="4726682079415227330" name="preferred_network_mode_cdma_evdo_gsm_wcdma_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: CDMA/EvDo/GSM/WCDMA"</string>
+    <string msgid="574752287596469136" name="preferred_network_mode_lte_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: LTE"</string>
+    <string msgid="8455358514068283935" name="preferred_network_mode_lte_gsm_wcdma_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: GSM/WCDMA/LTE"</string>
+    <string msgid="228702246343742853" name="preferred_network_mode_lte_cdma_evdo_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: CDMA+LTE/EVDO"</string>
+    <string msgid="1633134285545730364" name="preferred_network_mode_global_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: ທົ່ວໂລກ"</string>
+    <string msgid="9180775701594742750" name="preferred_network_mode_lte_wcdma_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: LTE / WCDMA"</string>
+    <string msgid="633315028976225026" name="preferred_network_mode_lte_gsm_umts_summary">"ໂໝດ​ເຄືອ​ຂ່າຍ​ທີ່​ເລືອກ: LTE / GSM / UMTS"</string>
+    <string msgid="3722647806454528426" name="preferred_network_mode_lte_cdma_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: LTE / CDMA"</string>
+  <string-array name="preferred_network_mode_choices">
+    <item msgid="7886739962255042385">"LTE / WCDMA"</item>
+    <item msgid="577652050447385699">"LTE"</item>
+    <item msgid="6813597571293773656">"ທົ່ວໂລກ"</item>
+    <item msgid="127064712132619032">"GSM/WCDMA/LTE"</item>
+    <item msgid="1126767511633425977">"CDMA + LTE/EvDo"</item>
+    <item msgid="6389676313771670660">"CDMA/EvDo/GSM/WCDMA"</item>
+    <item msgid="545430093607698090">"EvDo ເທົ່ານັ້ນ"</item>
+    <item msgid="1508557726283094448">"CDMA w/o EvDo"</item>
+    <item msgid="4341433122263841224">"CDMA/EvDo ອັດຕະໂນມັດ"</item>
+    <item msgid="5958053792390386668">"GSM/WCDMA ອັດຕະໂນມັດ"</item>
+    <item msgid="7913148405605373434">"WCDMA ເທົ່ານັ້ນ"</item>
+    <item msgid="1524224863879435516">"GSM ເທົ່ານັ້ນ"</item>
+    <item msgid="3817924849415716259">"ຕ້ອງການ GSM/WCDMA"</item>
+  </string-array>
+    <string msgid="522191650223239171" name="enhanced_4g_lte_mode_title">"ໂໝດ Enhanced 4G LTE"</string>
+    <string msgid="2332175070522125850" name="enhanced_4g_lte_mode_summary">"ໃຊ້​ການ​ບໍ​ລິ​ການ LTE ເພື່ອ​ປັບ​ປຸງ​ສຽງ ແລະ​ການ​ບໍ​ລິ​ການ​ອື່ນໆ (ແນະ​ນຳ)"</string>
+    <string msgid="5972538663568715366" name="data_enabled">"ເປີດໃຊ້ເດຕາ"</string>
+    <string msgid="2382798156640007971" name="data_enable_summary">"​ອະ​ນຸ​ຍາດ​ໃຫ້​ໃຊ້​ຂໍ້​ມູນ"</string>
+    <string msgid="8871412572928323707" name="roaming">"ການໂຣມມິງຂໍ້ມູນ"</string>
+    <string msgid="7331106985174381987" name="roaming_enable">"ເຊື່ອມຕໍ່ບໍລິການຂໍ້ມູນເມື່ອໂຣມມິງ"</string>
+    <string msgid="1843417228755568110" name="roaming_disable">"ເຊື່ອມຕໍ່ບໍລິການຂໍ້ມູນເມື່ອໂຣມມິງ"</string>
+    <string msgid="8913735676127858115" name="roaming_reenable_message">"ທ່ານໄດ້ຖືກຕັດການເຊື່ອມຕໍ່ຂໍ້ມູນ ເນື່ອງຈາກທ່ານອອກຈາກເຄືອຂ່າຍພາຍໃນ ໂດຍທີ່ປິດການໂຣມມິງໄວ້."</string>
+    <string msgid="7126227198294007907" name="roaming_warning">"ອະ​ນຸ​ຍາດ​ການ​ນຳ​ໃຊ້​ຂໍ້​ມູນ ເມື່ອ​ໂຣມ​ມິງ​ບໍ? ອາດ​ຈະ​ມີ​ການ​ເກັບ​ຄ່າ​ບໍລິການຫຼາຍ."</string>
+    <string msgid="6538311689850981686" name="gsm_umts_options">"ໂຕເລືອກ GSM/UMTS"</string>
+    <string msgid="4016822858172249884" name="cdma_options">"ໂຕເລືອກ CDMA"</string>
+    <string msgid="3715677828160555808" name="throttle_data_usage">"ການນຳໃຊ້ຂໍ້ມູນ"</string>
+    <string msgid="8762280193043815361" name="throttle_current_usage">"ຂໍ້ມູນທີ່ໃຊ້ໃນໄລຍະເວລາປັດຈຸບັນ"</string>
+    <string msgid="1915198770363734685" name="throttle_time_frame">"ໄລຍະເວລາການໃຊ້ຂໍ້ມູນ"</string>
+    <string msgid="4710388992676803508" name="throttle_rate">"ນະໂຍບາຍອັດຕາການໃຊ້ຂໍ້ມູນ"</string>
+    <string msgid="243651091785169900" name="throttle_help">"ສຶກສາເພີ່ມເຕີມ"</string>
+    <string msgid="1657318943142085170" name="throttle_status_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪) ຈາກ <xliff:g id="USED_2">%3$s</xliff:g> ໄລຍະສູງສຸດ\nໄລຍະຕໍ່ໄປຈະເລີ່ມໃນອີກ <xliff:g id="USED_3">%4$d</xliff:g> ມື້ (<xliff:g id="USED_4">%5$s</xliff:g>)"</string>
+    <string msgid="6029276011123694701" name="throttle_data_usage_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪) ຈາກ <xliff:g id="USED_2">%3$s</xliff:g> ໄລຍະເວລາສູງສຸດ"</string>
+    <string msgid="7492763592720107737" name="throttle_data_rate_reduced_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> ເກີນຂີດຈຳກັດ\nອັດຕາຂໍ້ມູນຖືກຫຼຸດລົງເປັນ <xliff:g id="USED_1">%2$d</xliff:g> Kb/s"</string>
+    <string msgid="7732763021560399960" name="throttle_time_frame_subtext">"<xliff:g id="USED_0">%1$d</xliff:g>٪ ຂອງຮອບຜ່ານໄປ\nໄລຍະຕໍ່ໄປຈະເລີ່ມໃນອີກ <xliff:g id="USED_1">%2$d</xliff:g> ມື້ (<xliff:g id="USED_2">%3$s</xliff:g>)"</string>
+    <string msgid="2149102656120726855" name="throttle_rate_subtext">"ອັດຕາຂໍ້ມູນຖືກຫຼຸດລົງເປັນ <xliff:g id="USED">%1$d</xliff:g> Kb/s ຫາກໃຊ້ເກີນປະລິມານທີ່ຈຳກັດໄວ້"</string>
+    <string msgid="3633091498168446044" name="throttle_help_subtext">"ຂໍ້ມູນ​ເພີ່ມເຕີມກ່ຽວກັບ​ນະໂຍບາຍການ​ໃຊ້​ຂໍ້ມູນເຄືອຂ່າຍມືຖື​ຂອງຜູ່ໃຫ້​ບໍລິການ​ຂອງທ່ານ"</string>
+    <string msgid="5584192824053625842" name="cell_broadcast_sms">"ຂໍ້ຄວາມ SMS ຈາກເຄືອຂ່າຍ"</string>
+    <string msgid="4851147873691392255" name="enable_disable_cell_bc_sms">"ຂໍ້ຄວາມ SMS ຈາກເຄືອຂ່າຍ"</string>
+    <string msgid="6441688565738921084" name="cell_bc_sms_enable">"ເປີດຂໍ້ຄວາມ SMS ຈາກເຄືອຂ່າຍແລ້ວ"</string>
+    <string msgid="3398365088309408749" name="cell_bc_sms_disable">"ປິດຂໍ້ຄວາມ SMS ຈາກເຄືອຂ່າຍແລ້ວ"</string>
+    <string msgid="651715019785107312" name="cb_sms_settings">"ການຕັ້ງຄ່າຂໍ້ຄວາມ SMS ຈາກເຄືອຂ່າຍ"</string>
+    <string msgid="2157014609041245335" name="enable_disable_emergency_broadcast">"ການຈາຍຂໍ້ມູນສຸກເສີນ"</string>
+    <string msgid="2645980025414010211" name="emergency_broadcast_enable">"ເປີດການຈາຍຂໍ້ມູນສຸກເສີນແລ້ວ"</string>
+    <string msgid="3665199821267569426" name="emergency_broadcast_disable">"ປິດການຈາຍຂໍ້ມູນສຸກເສີນແລ້ວ"</string>
+    <string msgid="6501582322182059412" name="enable_disable_administrative">"ການເບິ່ງແຍງລະບົບ"</string>
+    <string msgid="1750086122962032235" name="administrative_enable">"ເປີດການນຳໃຊ້ຜູ່ເບິ່ງແຍງລະບົບ"</string>
+    <string msgid="8433273857248698539" name="administrative_disable">"ປິດການນຳໃຊ້ຜູ່ເບິ່ງແຍງລະບົບ"</string>
+    <string msgid="1819693083025106678" name="enable_disable_maintenance">"ການບໍາ​ລຸງ​ຮັກ​ສາ"</string>
+    <string msgid="8566636458770971189" name="maintenance_enable">"ເປີດການບຳລຸງຮັກສາແລ້ວ"</string>
+    <string msgid="7340189100885066077" name="maintenance_disable">"ປິດການບຳລຸງຮັກສາແລ້ວ"</string>
+    <string msgid="4968779723948432978" name="general_news_settings">"ຂ່າວ​ທົ່ວ​ໄປ"</string>
+    <string msgid="3935593091894685267" name="bf_news_settings">"ຂ່າວທຸລະກິດ ແລະການເງິນ"</string>
+    <string msgid="7649399631270052835" name="sports_news_settings">"ຂ່າວກິລາ"</string>
+    <string msgid="5051153952959405035" name="entertainment_news_settings">"ຂ່າວ​ບັນ​ເທີງ"</string>
+    <string msgid="7890281063123416120" name="enable_disable_local">"ທ້ອງຖິ່ນ"</string>
+    <string msgid="6370463247609136359" name="local_enable">"ເປີດຂ່າວທ້ອງຖິ່ນແລ້ວ"</string>
+    <string msgid="4405691986943795798" name="local_disable">"ປິດຂ່າວທ້ອງຖິ່ນແລ້ວ"</string>
+    <string msgid="4905652414535565872" name="enable_disable_regional">"ລະດັບພາກພື້ນ"</string>
+    <string msgid="4434680415437834759" name="regional_enable">"ເປີດຂ່າວພາກພື້ນແລ້ວ"</string>
+    <string msgid="5359325527213850077" name="regional_disable">"ປິດຂ່າວພາກພື້ນແລ້ວ"</string>
+    <string msgid="236278090206880734" name="enable_disable_national">"ພາຍໃນປະເທດ"</string>
+    <string msgid="1172443648912246952" name="national_enable">"ເປີດໃຊ້ຂ່າວພາຍໃນປະເທດແລ້ວ"</string>
+    <string msgid="326018148178601166" name="national_disable">"ປິດໃຊ້ຂ່າວພາຍໃນປະເທດແລ້ວ"</string>
+    <string msgid="7535348799604565592" name="enable_disable_international">"ສາກົນ"</string>
+    <string msgid="5855356769925044927" name="international_enable">"ເປີດໃຊ້ຂ່າວສາກົນແລ້ວ"</string>
+    <string msgid="2850648591041088931" name="international_disable">"ປິດໃຊ້ຂ່າວສາກົນແລ້ວ"</string>
+    <string msgid="2841683501919760043" name="list_language_title">"ພາສາ"</string>
+    <string msgid="8109546531071241601" name="list_language_summary">"ເລືອກພາສາສຳລັບຂ່າວ"</string>
+  <string-array name="list_language_entries">
+    <item msgid="6137851079727305485">"ພາສາອັງກິດ"</item>
+    <item msgid="1151988412809572526">"ຝຣັ່ງ"</item>
+    <item msgid="577840534704312665">"ສະແປນນິຊ"</item>
+    <item msgid="8385712091143148180">"ຍີ່ປຸ່ນ"</item>
+    <item msgid="1858401628368130638">"ເກົາຫຼີ"</item>
+    <item msgid="1933212028684529632">"ຈີນ"</item>
+    <item msgid="1908428006803639064">"ຮີບຣິວ"</item>
+  </string-array>
+  <string-array name="list_language_values">
+    <item msgid="1804908636436467150">"1"</item>
+    <item msgid="289708030346890334">"2"</item>
+    <item msgid="1121469729692402684">"3"</item>
+    <item msgid="2614093115912897722">"4"</item>
+    <item msgid="2411164639857960614">"5"</item>
+    <item msgid="5884448729274543324">"6"</item>
+    <item msgid="5511864807618312598">"7"</item>
+  </string-array>
+    <string msgid="5442908726538951934" name="list_language_dtitle">"ພາ​ສາ"</string>
+    <string msgid="986967454867219114" name="enable_disable_local_weather">"ສະພາບອາກາດໃນທ້ອງຖິ່ນ"</string>
+    <string msgid="6199315114382448922" name="local_weather_enable">"ເປີດສະພາບອາກາດທ້ອງຖິ່ນແລ້ວ"</string>
+    <string msgid="2510158089142626480" name="local_weather_disable">"ປິດສະພາບອາກາດທ້ອງຖິ່ນແລ້ວ"</string>
+    <string msgid="8339572391278872343" name="enable_disable_atr">"ລາຍງານການຈະລາຈອນໃນພື້ນທີ່"</string>
+    <string msgid="5541757457789181799" name="atr_enable">"ເປີດການລາຍງານຈະລາຈອນໃນພື້ນທີ່ແລ້ວ"</string>
+    <string msgid="7085558154727596455" name="atr_disable">"ປິດການລາຍງານຈະລາຈອນໃນພື້ນທີ່ແລ້ວ"</string>
+    <string msgid="668189073721277199" name="enable_disable_lafs">"ຕາຕາລາງຖ້ຽວບິນຂອງສະໜາມບິນທ້ອງຖິ່ນ"</string>
+    <string msgid="2791978667205137052" name="lafs_enable">"ເປີດການນຳໃຊ້ຕາຕາລາງຖ້ຽວບິນ ໃນສະໜາມບິນທ້ອງຖິ່ນແລ້ວ"</string>
+    <string msgid="2391212397725495350" name="lafs_disable">"ປິດການນຳໃຊ້ຕາຕາລາງຖ້ຽວບິນ ໃນສະໜາມບິນທ້ອງຖິ່ນແລ້ວ"</string>
+    <string msgid="6240381945336814024" name="enable_disable_restaurants">"ຮ້ານ​ອາ​ຫານ"</string>
+    <string msgid="5137657479469118847" name="restaurants_enable">"ເປີດໃຊ້ຮ້ານອາຫານແລ້ວ"</string>
+    <string msgid="3678480270938424092" name="restaurants_disable">"ປິດໃຊ້ຮ້ານອາຫານແລ້ວ"</string>
+    <string msgid="1822029172658551202" name="enable_disable_lodgings">"ທີ່ພັກ"</string>
+    <string msgid="3230042508992850322" name="lodgings_enable">"ເປີດການນຳໃຊ້ບ່ອນພັກແລ້ວ"</string>
+    <string msgid="3387879742320682391" name="lodgings_disable">"ປິດການນຳໃຊ້ບ່ອນພັກແລ້ວ"</string>
+    <string msgid="1357809784475660303" name="enable_disable_retail_directory">"ສາ​ລະ​ບົບ​ຍ່ອຍ"</string>
+    <string msgid="3280626290436111496" name="retail_directory_enable">"ເປີດໃຊ້ສາ​ລະ​ບົບ​ຍ່ອຍ​ແລ້ວ"</string>
+    <string msgid="6479739816662879027" name="retail_directory_disable">"ປິດໃຊ້ສາ​ລະ​ບົບ​ຍ່ອຍ​ແລ້ວ"</string>
+    <string msgid="5999495926176182128" name="enable_disable_advertisements">"ໂຄ​ສະ​ນາ"</string>
+    <string msgid="2050305021264683786" name="advertisements_enable">"ເປີດການໂຄສະນາແລ້ວ"</string>
+    <string msgid="8350985908788707935" name="advertisements_disable">"ປິດການໂຄສະນາແລ້ວ"</string>
+    <string msgid="6397810445293533603" name="enable_disable_stock_quotes">"ລາຄາຮຸ້ນ"</string>
+    <string msgid="4384802470887170543" name="stock_quotes_enable">"ເປີດການໃຊ້ລາຄາຮຸ້ນແລ້ວ"</string>
+    <string msgid="4781450084565594998" name="stock_quotes_disable">"ປິດການໃຊ້ລາຄາຮຸ້ນແລ້ວ"</string>
+    <string msgid="4863043263443942494" name="enable_disable_eo">"ໂອກາດການໄດ້ເຮັດວຽກ"</string>
+    <string msgid="8623559062015685813" name="eo_enable">"ເປິດໃຊ້ໂອກາດການໄດ້ເຮັດວຽກແລ້ວ"</string>
+    <string msgid="3863812478090907609" name="eo_disable">"ປິດໃຊ້ໂອກາດການໄດ້ເຮັດວຽກແລ້ວ"</string>
+    <string msgid="908214593528968522" name="enable_disable_mhh">"ການແພດ, ສຸຂະພາບ ແລະໂຮງໝໍ"</string>
+    <string msgid="5544500632306446815" name="mhh_enable">"ເປີດໃຊ້ການແພດ, ສຸຂະພາບ ແລະໂຮງໝໍແລ້ວ"</string>
+    <string msgid="8998210550117117437" name="mhh_disable">"ປິດໃຊ້ການແພດ, ສຸຂະພາບ ແລະໂຮງໝໍແລ້ວ"</string>
+    <string msgid="3517184627114999149" name="enable_disable_technology_news">"ຂ່າວເທັກໂນໂລຢີ"</string>
+    <string msgid="7995209394210455181" name="technology_news_enable">"ເປີດໃຊ້ຂ່າວເທັກໂນໂລຢີແລ້ວ"</string>
+    <string msgid="5483490380561851946" name="technology_news_disable">"ປິດໃຊ້ຂ່າວເທັກໂນໂລຢີແລ້ວ"</string>
+    <string msgid="626771003122899280" name="enable_disable_multi_category">"ຫຼາຍໝວດໝູ່"</string>
+    <string msgid="1179299804641721768" name="multi_category_enable">"ເປີດການນຳໃຊ້ຫຼາຍໝວດໝູ່ແລ້ວ"</string>
+    <string msgid="880104702904139505" name="multi_category_disable">"ປິດການນຳໃຊ້ຫຼາຍໝວດໝູ່ແລ້ວ"</string>
+    <string msgid="7702681952521375754" name="network_lte">"LTE (ແນະ​ນໍາ​)"</string>
+    <string msgid="2723512640529983138" name="network_4G">"4G (ແນະ​ນໍາ​)"</string>
+    <string msgid="1323190488685355309" name="network_global">"ທົ່ວໂລກ"</string>
+    <string msgid="5757657769327732833" name="cdma_system_select_title">"ການເລືອກລະບົບ"</string>
+    <string msgid="60460043745797517" name="cdma_system_select_summary">"ປ່ຽນຮູບແບບການໂຣມມິງ CDMA"</string>
+    <string msgid="6083355415165359075" name="cdma_system_select_dialogtitle">"ການເລືອກລະບົບ"</string>
+  <string-array name="cdma_system_select_choices">
+    <item msgid="176474317493999285">"ໂທຫາເບີເທົ່ານັ້ນ"</item>
+    <item msgid="1205664026446156265">"ອັດ​ຕະ​ໂນ​ມັດ"</item>
+  </string-array>
+    <string msgid="1162564010076763284" name="cdma_subscription_title">"ການລົງທະບຽນຮັບຂໍ້ມູນ CDMA"</string>
+    <string msgid="2530890766115781140" name="cdma_subscription_summary">"ປ່ຽນລະຫັດວ່າ RUIM/SIM ແລະ NV"</string>
+    <string msgid="2699527950523333110" name="cdma_subscription_dialogtitle">"ການລົງທະບຽນຮັບຂໍ້ມູນ"</string>
+  <string-array name="cdma_subscription_choices">
+    <item msgid="2258014151300708431">"RUIM/SIM"</item>
+    <item msgid="5127722015571873880">"NV"</item>
+  </string-array>
+  <string-array name="cdma_subscription_values">
+    <item msgid="7494167883478914080">"0"</item>
+    <item msgid="6043847456049107742">"1"</item>
+  </string-array>
+    <string msgid="3793805892364814518" name="cdma_activate_device">"ເປີດນຳໃຊ້ອຸປະກອນ"</string>
+    <string msgid="4255018217292548962" name="cdma_lte_data_service">"ຕັ້ງຄ່າບໍລິການຂໍ້ມູນ"</string>
+    <string msgid="9028166176523012300" name="carrier_settings_title">"ການຕັ້ງຄ່າຜູ່ໃຫ້ບໍລິການ"</string>
+    <string msgid="7878832555095183202" name="fdn">"ໝາຍເລກຈຳກັດການໂທອອກ"</string>
+    <string msgid="187084204115493366" name="fdn_with_label">"ເບີ​ໂທ​ອອກ​ທີ່​ກຳ​ນົດ​ໄວ້ (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string msgid="8777755791892122369" name="manage_fdn_list">"ລາຍ​ຊື່ FDN"</string>
+    <string msgid="7437232552210469217" name="fdn_list_with_label">"ລາຍ​ຊື່ FDN (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string msgid="2156479741307463576" name="fdn_activation">"ການເປີດໃຊ້ FDN"</string>
+    <string msgid="5238109009915521240" name="fdn_enabled">"ເປີດໃຊ້ໝາຍເລກຈຳກັດການໂທອອກແລ້ວ."</string>
+    <string msgid="4700049736675368279" name="fdn_disabled">"ປິດການໃຊ້ໝາຍເລກຈຳກັດການໂທອອກແລ້ວ"</string>
+    <string msgid="3740191529180493851" name="enable_fdn">"ເປີດນຳໃຊ້ FDN"</string>
+    <string msgid="7944020890722540616" name="disable_fdn">"ປິດການນຳໃຊ້ FDN"</string>
+    <string msgid="2153563695382176676" name="change_pin2">"ປ່ຽນລະຫັດ PIN2"</string>
+    <string msgid="7215588870329688132" name="enable_fdn_ok">"ປິດການໃຊ້ FDN"</string>
+    <string msgid="5727046928930740173" name="disable_fdn_ok">"ເປີດການນຳໃຊ້ FDN"</string>
+    <string msgid="1959399454900272878" name="sum_fdn">"ຈັດການໝາຍເລກຈຳກັດການໂທອອກ"</string>
+    <string msgid="6666549734792827932" name="sum_fdn_change_pin">"ປ່ຽນ PIN ສຳລັບການເຂົ້າເຖິງ FDN"</string>
+    <string msgid="8431088265332628316" name="sum_fdn_manage_list">"ຈັດການລາຍຊື່ໝາຍເລກໂທລະສັບ"</string>
+    <string msgid="3776841382844614716" name="voice_privacy">"ຄວາມເປັນສ່ວນໂຕໃນການໂທດ້ວຍສຽງ"</string>
+    <string msgid="3159383389833516214" name="voice_privacy_summary">"ເປີດໃຊ້ຮູບແບບຄວາມເປັນສ່ວນໂຕເພີ່ມເຕີມ"</string>
+    <string msgid="9033098925144434669" name="tty_mode_option_title">"ຮູບ​ແບບ TTY"</string>
+    <string msgid="1073835131534808732" name="tty_mode_option_summary">"ຕັ້ງຮູບ​ແບບ TTY"</string>
+    <string msgid="4073265511427813322" name="auto_retry_mode_title">"ລອງໃໝ່ອັດຕະໂນມັດ"</string>
+    <string msgid="4973886004067532288" name="auto_retry_mode_summary">"ເປີດໃຊ້ການລອງໃໝ່ອັດຕະໂນມັດ"</string>
+    <string msgid="1882023737425114762" name="menu_add">"ເພີ່ມລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="7143003705504672374" name="menu_edit">"ແກ້ໄຂລາຍຊື່ຜູ້ຕິດຕໍ່"</string>
+    <string msgid="3977150783449642851" name="menu_delete">"ລຶບລາຍຊື່ຜູ້ຕິດຕໍ່"</string>
+    <string msgid="8204677063922225311" name="get_pin2">"ພິມລະຫັດ PIN2"</string>
+    <string msgid="7329028332786872378" name="name">"ຊື່"</string>
+    <string msgid="7905950798349903858" name="number">"ໝາຍເລກ"</string>
+    <string msgid="4094274636321939086" name="save">"ບັນທຶກ"</string>
+    <string msgid="2481915899633353976" name="add_fdn_contact">"ເພີ່ມໝາຍເລກຈຳກັດການໂທ"</string>
+    <string msgid="7627379633721940991" name="adding_fdn_contact">"ກຳລັງເພີ່ມໝາຍເລກຈຳກັດການໂທ..."</string>
+    <string msgid="7458335758501736665" name="fdn_contact_added">"ເພີ່ມໝາຍເລກຈຳກັດການໂທອອກແລ້ວ."</string>
+    <string msgid="7976936035587081480" name="edit_fdn_contact">"ແກ້ໄຂໝາຍເລກຈຳກັດການໂທ"</string>
+    <string msgid="8370929876849803600" name="updating_fdn_contact">"ກຳລັງອັບເດດໝາຍເລກຈຳກັດການໂທອອກ..."</string>
+    <string msgid="5497828782609005017" name="fdn_contact_updated">"ອັບເດດໝາຍເລກຈຳກັດການໂທອອກແລ້ວ."</string>
+    <string msgid="6668958073074151717" name="delete_fdn_contact">"ລຶບເບີຈຳກັດການໂທອອກ"</string>
+    <string msgid="5669163206349319969" name="deleting_fdn_contact">"ກຳລັງລຶບເບີໂທຈຳກັດການໂທອອກ..."</string>
+    <string msgid="7154162327112259569" name="fdn_contact_deleted">"ລຶບໝາຍເລກຈຳກັດການໂທອອກແລ້ວ."</string>
+    <string msgid="5470854099230755944" name="pin2_invalid">"FDN ບໍ່ໄດ້ອັບເດດເທື່ອ ເນື່ອງຈາກທ່ານໃສ່ລະຫັດ PIN ບໍ່ຖືກຕ້ອງ."</string>
+    <string msgid="1494755047900009147" name="fdn_invalid_number">"FDN ບໍ່ໄດ້ອັບເດດເທື່ອ ເນື່ອງຈາກໂຕເລກບໍ່ສາມາດມີເກີນ 20​ ໂຕໄດ້."</string>
+    <string msgid="6025144083384701197" name="pin2_or_fdn_invalid">"FDN ບໍ່ໄດ້ອັບເດດເທື່ອ. ລະຫັດ PIN2 ບໍ່ຖືກຕ້ອງ ຫຼືເບີໂທລະສັບຖືກປະຕິເສດ."</string>
+    <string msgid="540018079008319747" name="fdn_failed">"FDN ເຮັດວຽກລົ້ມເຫຼວ!"</string>
+    <string msgid="2203331234764498011" name="simContacts_emptyLoading">"ກຳລັງອ່ານຈາກ SIM card..."</string>
+    <string msgid="5270660846489561932" name="simContacts_empty">"ບໍ່ມີລາຍຊື່ຜູ່ຕິດຕໍ່ໃນ SIM card ຂອງທ່ານ."</string>
+    <string msgid="1861472842524839921" name="simContacts_title">"ເລືອກລາຍຊື່ເພື່ອນຳເຂົ້າ"</string>
+    <string msgid="1846161429087789936" name="simContacts_airplaneMode">"ເພື່ອນຳລາຍຊື່ຜູ່ຕິດຕໍ່ເຂົ້າມາຈາກ SIM card,​ ກະລຸນາປິດການໃຊ້ໂໝດຢູ່ເທິງຍົນກ່ອນ."</string>
+    <string msgid="5422767284133234860" name="enable_pin">"ປິດ/ເປີດ ການນຳໃຊ້ PIN ຂອງ SIM"</string>
+    <string msgid="9174186126330785343" name="change_pin">"ປ່ຽນລະຫັດ PIN ຂອງ SIM"</string>
+    <string msgid="8532615714751931951" name="enter_pin_text">"PIN ຂອງ SIM:"</string>
+    <string msgid="5287773661246368314" name="oldPinLabel">"ລະຫັດ PIN ເກົ່າ"</string>
+    <string msgid="207488227285336897" name="newPinLabel">"ລະຫັດ PIN ໃໝ່"</string>
+    <string msgid="257597715098070206" name="confirmPinLabel">"ຢືນຢັນລະຫັດ PIN ໃໝ່"</string>
+    <string msgid="8955102849303984935" name="badPin">"ລະຫັດ PIN ເກົ່າທີ່ທ່ານພິມນັ້ນບໍ່ຖືກຕ້ອງ. ກະລຸນາລອງອີກຄັ້ງ."</string>
+    <string msgid="5923253370683071889" name="mismatchPin">"ລະຫັດ PIN ທີ່ທ່ານພິມນັ້ນບໍ່ກົງກັນ. ກະລຸນາລອງໃໝ່."</string>
+    <string msgid="5981171102258684792" name="invalidPin">"ພິມລະຫັດ PIN ທີ່ມີ 4 ຫາ 8 ໂຕເລກ."</string>
+    <string msgid="3419351358300716472" name="disable_sim_pin">"ລຶບ SIM PIN"</string>
+    <string msgid="4845145659651484248" name="enable_sim_pin">"ຕັ້ງ SIM PIN"</string>
+    <string msgid="3417917024688497010" name="enable_in_progress">"ກຳ​ລັງ​ຕັ້ງ PIN…"</string>
+    <string msgid="2918545971413270063" name="enable_pin_ok">"ຕັ້ງ PIN ແລ້ວ"</string>
+    <string msgid="2109571368635883688" name="disable_pin_ok">"ລຶບ PIN ແລ້ວ"</string>
+    <string msgid="5644377896213584760" name="pin_failed">"PIN ​ບໍ່​ຖືກ​ຕ້ອງ"</string>
+    <string msgid="4455736268023261662" name="pin_changed">"ອັບ​ເດດ PIN ແລ້ວ"</string>
+    <string msgid="5921393215789090200" name="puk_requested">"ລະ​ຫັດ​ຜ່ານ​ບໍ່​ຖືກ​ຕ້ອງ. PIN ຖືກ​ລັອກ​ແລ້ວ​ດຽວ​ນີ້. ຂໍ PUK ແລ້ວ."</string>
+    <string msgid="8339444124477720345" name="enter_pin2_text">"PIN2"</string>
+    <string msgid="8559146795026261502" name="oldPin2Label">"ລະຫັດ PIN2 ເກົ່າ"</string>
+    <string msgid="4573956902204349054" name="newPin2Label">"ລະຫັດ PIN2 ໃໝ່"</string>
+    <string msgid="8100319484454787708" name="confirmPin2Label">"ຢືນຢັນລະຫັດ PIN2 ໃໝ່"</string>
+    <string msgid="7910064009531541708" name="badPuk2">"PUK2 ບໍ່​ຖືກ​ຕ້ອງ. ລອງ​ໃໝ່​ອີກ."</string>
+    <string msgid="6646896629970023109" name="badPin2">"PIN2 ເກົ່າ​ບໍ່​ຖືກ​ຕ້ອງ. ລອງ​ໃໝ່​ອີກ."</string>
+    <string msgid="4177967478551851117" name="mismatchPin2">"PIN2 ບໍ່​ກົງ​ກັນ. ລອງ​ໃໝ່​ອີກ."</string>
+    <string msgid="1757045131429105595" name="invalidPin2">"ປ້ອນ PIN2 ທີ່​ມີ 4 ຫາ 8 ຕົວ​ເລກ​ເຂົ້າ​ໄປ."</string>
+    <string msgid="7059081153334815973" name="invalidPuk2">"ປ້ອນ PUK2 ທີ່​ມີ 8 ຕົວ​ເລກ​ເຂົ້າ​ໄປ."</string>
+    <string msgid="3724522579945610956" name="pin2_changed">"ອັບ​ເດດ PIN2 ແລ້ວ"</string>
+    <string msgid="4688069961795341948" name="label_puk2_code">"ປ້ອນ​ລະ​ຫັດ PUK2 ເຂົ້າ​ໄປ"</string>
+    <string msgid="4991074891459554705" name="fdn_enable_puk2_requested">"ລະ​ຫັດ​ຜ່ານ​ບໍ່​ຖືກ​ຕ້ອງ. PIN2 ຖືກບ​ລັອກ​ແລ້ວ​ດຽວ​ນີ້. ລອງ​ໃໝ່​ອີກ, ປ່ຽນ PIN 2."</string>
+    <string msgid="5831015200030161434" name="puk2_requested">"ລະ​ຫັດ​ຜ່ານ​ບໍ່​ຖືກ​ຕ້ອງ​. SIM ຖືກ​ລັອກ​ແລ້ວ​ດຽວ​ນີ້​. ປ້ອນ PUK2 ເຂົ້າ​ໄປ​."</string>
+    <string msgid="3150263853077280049" name="puk2_blocked">"PUK2 ຖືກບລັອກຢ່າງຖາວອນແລ້ວ."</string>
+    <string msgid="720736232885011507" name="pin2_attempts">\n"ທ່ານ​ຍັງ​ພະ​ຍາ​ຍາມ​ໄດ້​ອີກ <xliff:g id="NUMBER">%d</xliff:g> ຄັ້ງ."</string>
+    <string msgid="7791600368153469078" name="pin2_unblocked">"PIN2 ບໍ່​ຖືກ​ບ​ລັອກ​ອີກ"</string>
+    <string msgid="2859593360997984240" name="doneButton">"ແລ້ວໆ"</string>
+    <string msgid="8524164258691887790" name="voicemail_settings_number_label">"ເບີຂໍ້ຄວາມສຽງ"</string>
+    <string msgid="5769417478498348054" name="card_title_dialing">"ກຳລັງໂທ"</string>
+    <string msgid="8253487008234167266" name="card_title_redialing">"ກຳ​ລັງ​ໂທ​ຄືນ"</string>
+    <string msgid="1162980346189744501" name="card_title_conf_call">"ປະຊຸມສາຍ"</string>
+    <string msgid="7364539451234646909" name="card_title_incoming_call">"ສາຍໂທເຂົ້າ"</string>
+    <string msgid="5544730338889702298" name="card_title_call_ended">"ວາງສາຍແລ້ວ"</string>
+    <string msgid="821463117892339942" name="card_title_on_hold">"ພັກສາຍຊົ່ວຄາວ"</string>
+    <string msgid="3999101620995182450" name="card_title_hanging_up">"ກຳລັງວາງສາຍ"</string>
+    <string msgid="6346543933068225205" name="card_title_in_call">"ກຳລັງໃຊ້ສາຍ"</string>
+    <string msgid="2107666444937350731" name="notification_dialing">"ກຳລັງໂທ"</string>
+    <string msgid="7554385905572364535" name="notification_missedCallTitle">"ສາຍທີ່ບໍ່ໄດ້ຮັບ"</string>
+    <string msgid="1361677948941502522" name="notification_missedCallsTitle">"ສາຍທີ່ບໍ່ໄດ້ຮັບ"</string>
+    <string msgid="4575787816055205600" name="notification_missedCallsMsg">"<xliff:g id="NUM_MISSED_CALLS">%s</xliff:g> ສາຍບໍ່ໄດ້ຮັບ"</string>
+    <string msgid="504686252427747209" name="notification_missedCallTicker">"ສາຍທີ່ບໍ່ໄດ້ຮັບຈາກ <xliff:g id="MISSED_CALL_FROM">%s</xliff:g>"</string>
+    <string msgid="7068688957273482989" name="notification_ongoing_call">"ສາຍທີ່ກຳລັງໂທອອກ"</string>
+    <string msgid="3480694969511790465" name="notification_on_hold">"ພັກສາຍຊົ່ວຄາວ"</string>
+    <string msgid="2820429205043529642" name="notification_incoming_call">"ສາຍໂທເຂົ້າ"</string>
+    <string msgid="8933468752045550523" name="notification_voicemail_title">"ຂໍ້ຄວາມສຽງໃໝ່"</string>
+    <string msgid="4366360747660929916" name="notification_voicemail_title_count">"ຂໍ້ຄວາມສຽງໃໝ່ (<xliff:g id="COUNT">%d</xliff:g>)"</string>
+    <string msgid="4447323569453981685" name="notification_voicemail_text_format">"ໂທຫາ <xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g>"</string>
+    <string msgid="760963466895609716" name="notification_voicemail_no_vm_number">"ບໍ່ຮູ້ຈັກເບີຂໍ້ຄວາມສຽງ"</string>
+    <string msgid="4224455487793492772" name="notification_network_selection_title">"ບໍ່ມີບໍລິການ"</string>
+    <string msgid="2607085729661923269" name="notification_network_selection_text">"ບໍ່ສາມາດໃຊ້ເຄືອຂ່າຍທີ່ເລືອກ (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) ໄດ້"</string>
+    <string msgid="6069460915123531620" name="notification_action_end_call">"ວາງສາຍ"</string>
+    <string msgid="2684890353590890187" name="notification_missedCall_call_back">"ໂທກັບ"</string>
+    <string msgid="3049928912736917988" name="notification_missedCall_message">"ຂໍ້ຄວາມ"</string>
+    <string msgid="6550191216405193368" name="incall_error_power_off">"ເພື່ອໂທລະສັບ, ໃຫ້ປິດໂໝດຢູ່ເທິງຍົນກ່ອນ."</string>
+    <string msgid="4678640422710818317" name="incall_error_emergency_only">"ບໍ່ໄດ້ລົງທະບຽນໃນເຄືອຂ່າຍ."</string>
+    <string msgid="4100065333878929223" name="incall_error_out_of_service">"ບໍ່​ມີ​ເຄືອ​ຂ່າຍ​ມື​ຖື​ທີ່​ສາ​ມາດ​ໃຊ້​ໄດ້."</string>
+    <string msgid="1150414018684246528" name="incall_error_no_phone_number_supplied">"ເພື່ອ​ທີ່​ຈະ​ໂທ, ປ້ອນ​ເບີ​ໂທ​ທີ່​ໃຊ້​ໄດ້​ເຂົ້າ​ໄປ."</string>
+    <string msgid="6302746943230078197" name="incall_error_call_failed">"ບໍ່​ສາ​ມາດ​ໂທ​ໄດ້."</string>
+    <string msgid="3672498861336189563" name="incall_status_dialed_mmi">"ກຳລັງເລີ່ມຕົ້ນລຳດັບ MMI..."</string>
+    <string msgid="655570339115407698" name="incall_error_supp_service_unknown">"ການ​ບໍ​ລິ​ການ​ບໍ່​ຮອງ​ຮັບ"</string>
+    <string msgid="5237002176899962862" name="incall_error_supp_service_switch">"ບໍ່​ສາ​ມາດ​ສະ​ຫຼັບ​ສາ​ຍ​ໂທ​ໄດ້."</string>
+    <string msgid="7224393405134545246" name="incall_error_supp_service_separate">"ບໍ່​ສາ​ມາດ​ແຍກ​ສາຍ​ໂທ​ໄດ້."</string>
+    <string msgid="7235952238189391438" name="incall_error_supp_service_transfer">"ບໍ່​ສາ​ມາດ​ໂອນ​ໄດ້."</string>
+    <string msgid="2505727299596357312" name="incall_error_supp_service_conference">"ບໍ່ສາມາດປະຊຸມສາຍໄດ້."</string>
+    <string msgid="8998568661508655638" name="incall_error_supp_service_reject">"ບໍ່​ສາ​ມາດ​ປະ​ຕິ​ເສດ​ສາຍ​ໂທ​ໄດ້."</string>
+    <string msgid="7434513517153834426" name="incall_error_supp_service_hangup">"ບໍ່​ສາ​ມາດ​ປ່ອຍ​ສາຍ​ໂທ​ໄດ້."</string>
+    <string msgid="4627849966634578257" name="emergency_enable_radio_dialog_title">"ໂທສຸກເສີນ"</string>
+    <string msgid="207613549344420291" name="emergency_enable_radio_dialog_message">"ກຳລັງເປີດໃຊ້ວິທະຍຸ..."</string>
+    <string msgid="5960061579996526883" name="emergency_enable_radio_dialog_retry">"ບໍ່​ມີ​ການ​ບໍ​ລິ​ການ. ກຳ​ລັງ​ລອງ​ໃໝ່​ອີກ…"</string>
+    <string msgid="1509085166367420355" name="dial_emergency_error">"ບໍ່​ສາ​ມາດ​ໂທ​ໄດ້. <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> ບໍ່​ແມ່ນ​ເບີ​ໂທ​ສຸກ​ເສີນ."</string>
+    <string msgid="9130194953830414638" name="dial_emergency_empty_error">"ບໍ່​ສາ​ມາດ​ໂທ​ໄດ້. ກົດ​ເບີ​ໂທ​ສຸກ​ເສີນ."</string>
+    <string msgid="9192914825413747792" name="dialerKeyboardHintText">"ໃຊ້ແປ້ນພິມເພື່ອກົດໂທ"</string>
+    <string msgid="2285258239691145872" name="onscreenHoldText">"ພັກສາຍຊົ່ວຄາວ"</string>
+    <string msgid="4403855834875398585" name="onscreenEndCallText">"ວາງສາຍ"</string>
+    <string msgid="8561805492659639893" name="onscreenShowDialpadText">"ແປ້ນໂທ"</string>
+    <string msgid="5011369181754261374" name="onscreenMuteText">"ປິດສຽງ"</string>
+    <string msgid="5140385634712287403" name="onscreenAddCallText">"ເພີ່ມການໂທ"</string>
+    <string msgid="6640195098064538950" name="onscreenMergeCallsText">"ຮວມສາຍ"</string>
+    <string msgid="1602990689244030047" name="onscreenSwapCallsText">"ສະລັບ"</string>
+    <string msgid="5473231160123254154" name="onscreenManageCallsText">"ຈັດການການໂທ"</string>
+    <string msgid="6485935856534311346" name="onscreenManageConferenceText">"ຈັດການການປະຊຸມສາຍ"</string>
+    <string msgid="1710087112800041743" name="onscreenAudioText">"ສຽງ"</string>
+    <string msgid="4800924186056115442" name="onscreenVideoCallText">"ໂທແບບເຫັນໜ້າ"</string>
+    <string msgid="6614358325359736031" name="importSimEntry">"ນຳເຂົ້າ"</string>
+    <string msgid="1503181169636198673" name="importAllSimEntries">"ນຳເຂົ້າທັງໝົດ"</string>
+    <string msgid="7374056215462575769" name="importingSimContacts">"ກຳລັງນຳເຂົ້າລາຍຊື່ຜູ່ຕິດຕໍ່ຈາກ SIM"</string>
+    <string msgid="2130620207013368580" name="importToFDNfromContacts">"ນຳເຂົ້າຈາກລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="8740268574688743289" name="hac_mode_title">"ການຊ່ວຍໄດ້ຍິນ"</string>
+    <string msgid="6833851160514929341" name="hac_mode_summary">"ເປີດໃຊ້ການຊ່ວຍໄດ້ຍິນ"</string>
+  <string-array name="tty_mode_entries">
+    <item msgid="512950011423868021">"TTY ປິດ"</item>
+    <item msgid="3971695875449640648">"TTY ເຕັມ"</item>
+    <item msgid="1937509904407445684">"TTY HCO"</item>
+    <item msgid="5644925873488772224">"TTY VCO"</item>
+  </string-array>
+    <string msgid="5163153771291340803" name="dtmf_tones_title">"ໂທນສຽງ DTMF"</string>
+    <string msgid="3351820372864020331" name="dtmf_tones_summary">"ຕັ້ງຄ່າຄວາມຍາວຂອງສຽງ DTMF"</string>
+  <string-array name="dtmf_tone_entries">
+    <item msgid="899650777817315681">"ປົກກະຕິ"</item>
+    <item msgid="2883365539347850535">"ຍາວ"</item>
+  </string-array>
+    <string msgid="7738596060242881930" name="network_info_message">"ຂໍ້ຄວາມເຄືອຂ່າຍ"</string>
+    <string msgid="3394780436230411413" name="network_error_message">"ຂໍ້​ຄວາມ​ຂັດ​ຂ້ອງ"</string>
+    <string msgid="8616918561356194398" name="ota_title_activate">"ເປີດນຳໃຊ້ໂທລະສັບຂອງທ່ານ"</string>
+    <string msgid="6553212803262586244" name="ota_touch_activate">"ຕ້ອງໃຊ້ການໂທພິເສດ ເພື່ອເປີດນຳໃຊ້ບໍລິການໂທລະສັບຂອງທ່ານ. \n\nຫຼັງຈາກກົດປຸ່ມ “ເປີດນຳໃຊ້” ແລ້ວ, ໃຫ້ຟັງຄຳແນະນຳທີ່ລະບຸເພື່ອເປີດນຳໃຊ້ໂທລະສັບຂອງທ່ານ."</string>
+    <string msgid="2234246934160473981" name="ota_hfa_activation_title">"ກຳລັງເປີດນຳໃຊ້..."</string>
+    <string msgid="8092479227918463415" name="ota_hfa_activation_dialog_message">"ໂທລະສັບກຳລັງເປີດນຳໃຊ້ບໍລິການຂໍ້ມູນມືຖືຂອງທ່ານ.\n\nຂັ້ນຕອນນີ້ອາດໃຊ້ເວລາເຖິງ 5 ນາທີ."</string>
+    <string msgid="2943366608272261306" name="ota_skip_activation_dialog_title">"ຂ້າມການເປີດນຳໃຊ້?"</string>
+    <string msgid="2440770373498870550" name="ota_skip_activation_dialog_message">"ຫາກທ່ານຂ້າມການເປີດນຳໃຊ້, ທ່ານຈະບໍ່ສາມາດໂທອອກ ຫຼືເຊື່ອມຕໍ່ເຄືອຂ່າຍຂໍ້ມູນມືຖືໄດ້ (ເຖິງແມ່ນວ່າ ທ່ານຈະສາມາດເຊື່ອມຕໍ່ຫາເຄືອຂ່າຍ Wi-Fi). ທ່ານຈະຖືກຖາມໃຫ້ເປີດນຳໃຊ້ທຸກຄັ້ງທີ່ທ່ານເປີດເຄື່ອງ, ຈົນກວ່າທ່ານຈະສຳເລັດຂັ້ນຕອນ ການເປີດນຳໃຊ້ໂທລະສັບຂອງທ່ານ."</string>
+    <string msgid="3458532775091563208" name="ota_skip_activation_dialog_skip_label">"ຂ້າມ"</string>
+    <string msgid="1368528132525626264" name="ota_activate">"ເປີດນຳໃຊ້"</string>
+    <string msgid="6570240212263372046" name="ota_title_activate_success">"ໂທລະສັບຖືກເປີດນຳໃຊ້ແລ້ວ."</string>
+    <string msgid="7095824491970084367" name="ota_title_problem_with_activation">"ເກີດບັນຫາໃນການເປີດນຳໃຊ້"</string>
+    <string msgid="162923839877584937" name="ota_listen">"ປະຕິບັດຕາມຄຳແນະນຳທີ່ໄດ້ຍິນ ຈົນກວ່າທ່ານໄດ້ຍິນວ່າຂັ້ນຕອນການເປີດນຳໃຊ້ສຳເລັດແລ້ວ."</string>
+    <string msgid="6904589278542719647" name="ota_speaker">"ລຳໂພງ"</string>
+    <string msgid="460876637828044519" name="ota_progress">"ກຳ​ລັງ​ຕັ້ງ​ໂປ​ຣ​ແກ​ຣມ​ໂທ​ລະ​ສັບ​ຂອງ​ທ່ານ…"</string>
+    <string msgid="7713756181204620397" name="ota_failure">"ບໍ່​ສາ​ມາດດ​ຕັ້ງ​ໂປ​ຣ​ແກ​ຣມ​ໂທ​ລະ​ສັບ​ຂອງ​ທ່ານ​ໄດ້"</string>
+    <string msgid="1880780692887077407" name="ota_successful">"ຕອນນີ້ໂທລະສັບຂອງທ່ານຖືກເປີດນຳໃຊ້ແລ້ວ. ມັນອາດໃຊ້ເວລາເຖິງ 15 ນາທີເພື່ອໃຫ້ບໍລິການຕ່າງໆ ເລີ່ມເຮັດວຽກໄດ້."</string>
+    <string msgid="8072141612635635357" name="ota_unsuccessful">"ໂທລະສັບຂອງທ່ານຍັງບໍ່ໄດ້ເປີດນຳໃຊ້ເທື່ອ. \nທ່ານອາດຕ້ອງຊອກຫາບ່ອນທີ່ມີສັນຍານດີກວ່າ (ເຊັ່ນ: ໃກ້ປ່ອງຢ້ຽມ ຫຼືຢູ່ນອກຕຶກອາຄານ). \n\nລອງໃໝ່ອີກຄັ້ງ ຫຼືໂທຫາສູນບໍລິການສຳລັບທາງເລືອກເພີ່ມເຕີມ."</string>
+    <string msgid="3909983542575030796" name="ota_spc_failure">"SPC ສ່ວນເກີນລົ້ມເຫລວ"</string>
+    <string msgid="4537279738134612388" name="ota_call_end">"ກັບຄືນ"</string>
+    <string msgid="7685477206465902290" name="ota_try_again">"ລອງອີກຄັ້ງ"</string>
+    <string msgid="3904945374358235910" name="ota_next">"ຕໍ່ໄປ"</string>
+    <string msgid="4448531867763097533" name="ecm_exit_dialog">"EcmExitDialog"</string>
+    <string msgid="6266424252578731203" name="phone_entered_ecm_text">"ເຂົ້າສູ່ໂໝດໂທກັບສຸກເສີນແລ້ວ"</string>
+    <string msgid="3226896828951687085" name="phone_in_ecm_notification_title">"ໂໝດໂທກັບສຸກເສີນ"</string>
+    <string msgid="4611608947314729773" name="phone_in_ecm_call_notification_text">"ປິດການເຊື່ອມຕໍ່ຂໍ້ມູນແລ້ວ"</string>
+  <plurals name="phone_in_ecm_notification_time">
+    <item msgid="4866221796252472622" quantity="one">"ບໍ່ສາມາດໃຊ້ການເຊື່ອມຕໍ່ຂໍ້ມູນໄດ້ເປັນເວລາ <xliff:g id="COUNT">%s</xliff:g> ນາທີ"</item>
+    <item msgid="3122217344579273583" quantity="other">"ບໍ່ສາມາດເຊື່ອມຕໍ່ຂໍ້ມູນໄດ້ເປັນເວລາ <xliff:g id="COUNT">%s</xliff:g> ນາທີ"</item>
+  </plurals>
+  <plurals name="alert_dialog_exit_ecm">
+    <item msgid="8060210887681426682" quantity="one">"ໂທລະສັບຈະຢູ່ໃນໂໝດການໂທກັບສຸກເສີນ ເປັນເວລາ <xliff:g id="COUNT">%s</xliff:g> ນາທີ. ໃນລະຫວ່າງທີ່ຢູ່ໃນໂໝດນີ້ ຈະບໍ່ມີແອັບຯໃດສາມາດໃຊ້ການເຊື່ອມຕໍ່ຂໍ້ມູນໄດ້. ທ່ານຕ້ອງການອອກດຽວນີ້ບໍ່?"</item>
+    <item msgid="8617116564023933114" quantity="other">"ໂທລະສັບຈະຢູ່ໃນໂໝດການໂທກັບສຸກເສີນ ເປັນເວລາ <xliff:g id="COUNT">%s</xliff:g> ນາທີ. ໃນລະຫວ່າງທີ່ຢູ່ໃນໂໝດນີ້ ຈະບໍ່ມີແອັບພລິເຄຊັນໃດສາມາດໃຊ້ການເຊື່ອມຕໍ່ຂໍ້ມູນໄດ້. ທ່ານຕ້ອງການອອກດຽວນີ້ບໍ່?"</item>
+  </plurals>
+  <plurals name="alert_dialog_not_avaialble_in_ecm">
+    <item msgid="2585506997024726599" quantity="one">"ການດຳເນີນການທີ່ເລືອກ ບໍ່ສາມາດໃຊ້ໄດ້ໃນຂະນະທີ່ຢູ່ໃນໂໝດໂທກັບສຸກເສີນ. ໂທລະສັບຈະຢູ່ໃນໂໝດນີ້ອີກ <xliff:g id="COUNT">%s</xliff:g> ນາທີ. ທ່ານຕ້ອງການອອກດຽວນີ້ບໍ່?"</item>
+    <item msgid="6115622137771382224" quantity="other">"ການດຳເນີນການທີ່ເລືອກ ບໍ່ສາມາດໃຊ້ໄດ້ໃນຂະນະທີ່ຢູ່ໃນໂໝດໂທກັບສຸກເສີນ. ໂທລະສັບຈະຢູ່ໃນໂໝດນີ້ອີກ <xliff:g id="COUNT">%s</xliff:g> ນາທີ. ທ່ານຕ້ອງການອອກດຽວນີ້ບໍ່?"</item>
+  </plurals>
+    <string msgid="1886723687211887104" name="alert_dialog_in_ecm_call">"ການດຳເນີນການທີ່ເລືອກ ບໍ່ສາມາດໃຊ້ໄດ້ໃນຂະນະທີ່ຢູ່ໃນການໂທສຸກເສີນ."</string>
+    <string msgid="4835734101617817074" name="progress_dialog_exiting_ecm">"ກຳລັງອອກຈາກໂໝດໂທກັບສຸກເສີນ"</string>
+    <string msgid="6674268047820703974" name="alert_dialog_yes">"ຕົກລົງ"</string>
+    <string msgid="1476091437797628703" name="alert_dialog_no">"ບໍ່"</string>
+    <string msgid="2491494287075907171" name="alert_dialog_dismiss">"ປິດໄວ້"</string>
+    <string msgid="5135942703327136909" name="voicemail_provider">"ບໍລິການ"</string>
+    <string msgid="72448049107749316" name="voicemail_settings">"ຕັ້ງຄ່າ"</string>
+    <string msgid="6724904736891087856" name="voicemail_number_not_set">"&lt;ຍັງບໍ່ໄດ້ຕັ້ງ&gt;"</string>
+    <string msgid="3672912580359716394" name="other_settings">"ການຕັ້ງຄ່າການໂທອື່ນໆ"</string>
+    <string msgid="4839419581866928142" name="calling_via_template">"ກຳລັງໂທຜ່ານ <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
+    <string msgid="4713193418046639466" name="contactPhoto">"ຮູບພາບລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="865837794424530980" name="goPrivate">"ໃຊ້ແບບສ່ວນໂຕ"</string>
+    <string msgid="781975788478987237" name="selectContact">"ເລືອກລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string msgid="2739898841461577811" name="not_voice_capable">"ບໍ່ຮອງຮັບການໂທດ້ວຍສຽງ"</string>
+    <string msgid="7459705245418435351" name="description_dial_button">"ປຸ່ມໂທ"</string>
+    <string msgid="8361970092063604886" name="voicemail_notification_vibrate_when_title">"ສັ່ນເຕືອນ"</string>
+    <string msgid="5739583146522136440" name="voicemail_notification_vibarte_when_dialog_title">"ສັ່ນເຕືອນ"</string>
+    <string msgid="2609519527849101590" name="voicemail_notification_ringtone_title">"ສຽງ"</string>
+    <string msgid="7683489952557536398" name="dial_pad_autocomplete">"ຕື່ມ​ໃສ່​ແປ້ນ​ກົດ​ໂທ​ອັດ​ຕະ​ໂນ​ມັດ"</string>
+    <string msgid="5197960752529332721" name="preference_category_ringtone">"ຣິງໂທນ &amp; ການສັ່ນເຕືອນ"</string>
+    <string msgid="1743245930577325900" name="pstn_connection_service_label">"SIM ກາດ​ທີ່​ມາ​ກັບ​ເຄື່ອງ"</string>
+    <string msgid="7237253660669000899" name="enable_video_calling_title">"​ເປີດ​ການ​ໂທ​ດ້ວຍ​ວິ​ດີ​ໂອ"</string>
+    <string msgid="8948186136957417948" name="enable_video_calling_dialog_msg">"ເພື່ອ​ເປີດ​ການ​ໂທວິ​ດີ​ໂອ, ທ່ານ​ຕ້ອງ​ເປີດ​ໃຊ້​ງານ​ໂໝດ Enhanced 4G LTE​ ຢູ່​ໃນ​ການ​ຕັ້ງ​ຄ່າ​ເຄືອ​ຂ່າຍ."</string>
+    <string msgid="576528473599603249" name="enable_video_calling_dialog_settings">"ການ​ຕັ້ງ​ຄ່າ​ເຄືອ​ຂ່າຍ"</string>
+    <string msgid="7411471282167927991" name="enable_video_calling_dialog_close">"ປິດ"</string>
+    <string msgid="4847699229529306397" name="sim_label_emergency_calls">"​ການ​ໂທ​ສຸກ​ເສີນ"</string>
+    <string msgid="7535215397212301562" name="sim_description_emergency_calls">"ການ​ໂທ​ສຸກ​ເສີນ​ເທົ່າ​ນັ້ນ"</string>
+    <string msgid="4778679519938775515" name="sim_description_default">"ແຜ່ນ SIM, ຊ່ອງ: <xliff:g id="SLOT_ID">%s</xliff:g>"</string>
+    <string name="network_lte_wcdma_gsm_auto">LTE/WCDMA/GSM ອັດຕະໂນມັດ</string>
+    <string name="network_wcdma_gsm_auto">WCDMA/GSM ອັດຕະໂນມັດ</string>
+    <string name="network_wcdma_only">WCDMA ເທົ່ານັ້ນ</string>
+    <string name="network_gsm_only">GSM ເທົ່ານັ້ນ</string>
+    <!-- Added by chiguoqing for  -->
+    <string name="cellular_data_title">ຂໍ້ມູນໂທລະສັບມືຖື</string>
+    <string name="cellular_data_summary">ທຸກອາດຈະໄລ່ເອົາຄ່າທໍານຽມການນໍາໃຊ້ຂໍ້ມູນສາມາດນໍາໃຊ້ຖ້າຫາກວ່າເຮັດໃຫ້</string>
+    <string name="wlan_data_use_reminder">WLAN/ຂໍ້ມູນໂທລະສັບມືຖືປ່ຽນເຕືອນ</string>
+    <string name="remind_whether_switch">ຂໍໃຫ້ຂ້າພະເຈົ້າບໍ່ວ່າຈະເປັນເພື່ອສືບຕໍ່ນໍາໃຊ້ການເຊື່ອມຕໍ່ຂໍ້ມູນຂອງຂ້າພະເຈົ້າໃນເວລາທີ່ໂທລະສັບມືຖື WLAN ຕັດການເຊື່ອມຕໍ່</string>
+    <string name="reminde_resume_data">ຖາມ​ວ່າ​ຈະ​ເລີ່ມ​ຂໍ້​ມູນ​ມື​ຖື​ຕໍ່​ບໍ່</string>
+    <string name="pre_wlan_state">Wi-Fi ເຊື່ອມຕໍ່ການຕິດ,</string>
+<string name="data_usage_disable_mobile">"ປິດ​ການ​ນຳ​ໃຊ້​ຂໍ້​ມູນ​ມື​ຖື​ບໍ?"</string>
+<string name="sim_card_settings">ການ​ຕັ້ງ​ຄ່າ​ແຜ່ນ SIM</string>
+<string name="fdn_limited">ບໍ່​ສາ​ມາດ​ສອດ​ລາຍ​ຊື່​ຕິດ​ຕໍ່​ເຂົ້າ​ໄດ້, ຮອດ​ຂີດ​ຈຳ​ກັດ​ແລ້ວ.</string>
+<string name="voicemail_settings_summary">ການ​ຕັ້ງ​ຄ່າ​ບໍ​ລິ​ສັດ​ເຄືອ​ຂ່າຍ​ມື​ຖື​ຂອງ​ຂ້ອຍ</string>
+<string name="wlan_connect_disconnect">ຖ້າ​ບໍ່​ມີ Wi-Fi ຢູ່</string>
+<string name="not_resume_data">ຢ່າເລີ່ມຂໍ້​ມູນ​ມື​ຖືຕໍ່</string>
+<string name="auto_resume_data">ເລີ່ມຂໍ້​ມູນ​ມື​ຖືຕໍ່</string>
+    <string name="cellular_data_always_on_title">ເປີດ​ໃຊ້​ງານ​ເຄືອ​ຂ່າຍ​ມື​ຖື​ເປີດ​ຕະ​ຫຼອດ</string>
+    <string name="network_always_on">ເປີດ​ໃຊ້​ງານ​ເຄືອ​ຂ່າຍ​ມື​ຖື​ເປີດ​ຕະ​ຫຼອດ</string>
+    <string name="network_always_on_disable">ການນໍາໃຊ້ພະລັງງານຫນ້ອຍໃນບາງເຄືອຂ່າຍໂທລະສັບມືຖື</string>
+    <string name="network_always_on_enable">ໃຊ້​ໄຟ​ເພີ່ມ​ຂຶ້ນ​ຢູ່​ໃນ​ບາງ​ເຄືອ​ຂ່າຍ​ມື​ຖື</string>
+    <string name="network_always_on_warning">ການ​ປິດ​ໃຊ້​ງານ​ຂໍ້​ມູນ​ມື​ຖື​ເປີດ​ຕະ​ຫຼອດ​ສາ​ມາດ​ເຮັດ​ໃຫ້​ມີ​ບັນ​ຫາ​ສະ​ພາບ​ການ​ເຊື່ອມ​ຕໍ່​ຢູ່​ໃນ​ບາງ​ແອັບ​ພ​ລິ​ເຄ​ຊັນ​ໄດ້. ກະ​ລຸ​ນາ​ໃຊ້​ຄຸນ​ສົມ​ບັດ​ການ​ຣີ​ເຟ​ຣ​ຊ​ເອົາ​ອງ​ຢູ່​ໃນ​ແອັບ​ພ​​ລິ​ເຄ​ຊັນ ເພື່ອ​ອັບ​ເດດ​ຂໍ້​ມູນ​ອອນ​ລາຍ​ນ໌.</string>
+
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="6484667504938477337" name="camera_error_title">"Грешка в камерата"</string>
+    <string msgid="955440687597185163" name="cannot_connect_camera">"Не може да се осъществи връзка с камерата."</string>
+    <string msgid="8923911090533439312" name="camera_disabled">"Камерата е деактивирана заради правилата за сигурност."</string>
+    <string msgid="6346560772074764302" name="camera_label">"Камера"</string>
+    <string msgid="2899292505526427293" name="video_camera_label">"Видеокамера"</string>
+    <string msgid="2924618424339240831" name="gallery_camera_bucket_name">"Снимки от камера"</string>
+    <string msgid="3369151581398551623" name="gallery_camera_videos_bucket_name">"Видеоклипове от камера"</string>
+    <string msgid="8600187532323801552" name="wait">"Моля, изчакайте…"</string>
+    <string msgid="7335975356349008814" name="no_storage" product="nosdcard">Свържете USB хранилището, преди да използвате камерата.</string>
+    <string msgid="5137703033746873624" name="no_storage" product="default">Поставете microSD карта, преди да използвате камерата.</string>
+    <string msgid="6452370395538050134" name="not_enough_space" product="nosdcard">Вашата USB памет е пълна.</string>
+    <string msgid="6655334407957844653" name="not_enough_space" product="default">Вашата SD карта е пълна.</string>
+    <string msgid="6104019983528341353" name="preparing_sd" product="nosdcard">Подготвяне на USB устр. за съхранение\u2026</string>
+    <string msgid="2914969119574812666" name="preparing_sd" product="default">Подготвяне на SD картата\u2026</string>
+    <string msgid="8147993984037859354" name="access_sd_fail" product="nosdcard">Невъзможен достъп до USB хранилището.</string>
+    <string msgid="1584968646870054352" name="access_sd_fail" product="default">Невъзможен достъп до microSD картата.</string>
+    <string msgid="4726518572923160939" name="confirm_restore_message">"Искате ли да възстановите стандартните настройки на камерата?"</string>
+    <string msgid="6378271587740884696" name="review_play">"Пускане"</string>
+    <string msgid="8188009385853399254" name="review_cancel">"ОТКАЗ"</string>
+    <string msgid="1156261588693116433" name="review_ok">"ГОТОВО"</string>
+    <string msgid="7804864054896088338" name="review_retake">"ПОВТОРНО СНИМАНЕ"</string>
+    <string msgid="6558048736561932758" name="camera_gallery_photos_text">"Галерия"</string>
+    <string msgid="4360632427760662691" name="time_lapse_title">"Запис на цайтрафера"</string>
+    <string msgid="4040791582294635851" name="pref_camera_id_title">"Избор на камера"</string>
+    <string msgid="5142699735103692485" name="pref_camera_id_entry_back">"Задна"</string>
+    <string msgid="5668958706828733669" name="pref_camera_id_entry_front">"Предна"</string>
+    <string msgid="371208839215448917" name="pref_camera_recordlocation_title">"Място за съхранение"</string>
+    <string msgid="8888142742988946038" name="pref_camera_recordlocation_entry_off">Изключено</string>
+    <string msgid="7954533529969575594" name="pref_camera_recordlocation_entry_on">Включено</string>
+    <string msgid="8245379279801096922" name="pref_video_quality_title">"Качество на видеоклип"</string>
+    <string msgid="5262531404348504642" name="pref_video_time_lapse_frame_interval_title">"Интервал на цайтрафера"</string>
+    <string msgid="2576236450859613120" name="pref_camera_settings_category">"Настройки на камера"</string>
+    <string msgid="460313486231965141" name="pref_camcorder_settings_category">"Настройки на видеокамера"</string>
+    <string msgid="4333724936665883006" name="pref_camera_picturesize_title">"Размер на снимка"</string>
+    <string msgid="6980117304679164339" name="pref_camera_picturesize_entry_2592x1936">"5 мегапиксела"</string>
+    <string msgid="4391030755438075447" name="pref_camera_picturesize_entry_2048x1536">"3 мегапиксела"</string>
+    <string msgid="8081839485457681369" name="pref_camera_picturesize_entry_1600x1200">"2 мегапиксела"</string>
+    <string msgid="7820672028447972964" name="pref_camera_picturesize_entry_1280x960">"1.3 мегапиксела"</string>
+    <string msgid="3705686683403524018" name="pref_camera_picturesize_entry_1024x768">"1 мегапиксел"</string>
+    <string msgid="5557572917973022995" name="pref_camera_picturesize_entry_640x480">"VGA"</string>
+    <string msgid="5729711026478753025" name="pref_camera_picturesize_entry_320x240">"QVGA"</string>
+    <string msgid="2877248921829329127" name="pref_camera_focusmode_title">"Фокусен режим"</string>
+    <string msgid="7374820710300362457" name="pref_camera_focusmode_entry_auto">Автом.</string>
+    <string msgid="3413922419264967552" name="pref_camera_focusmode_entry_infinity">"Безкрайност"</string>
+    <string msgid="4424489110551866161" name="pref_camera_focusmode_entry_macro">"Макро"</string>
+    <string msgid="2287362477238791017" name="pref_camera_flashmode_title">"Светкавица"</string>
+    <string msgid="7288383434237457709" name="pref_camera_flashmode_entry_auto">Автом.</string>
+    <string msgid="5330043918845197616" name="pref_camera_flashmode_entry_on">Включено</string>
+    <string msgid="867242186958805761" name="pref_camera_flashmode_entry_off">Изключено</string>
+    <string msgid="677420930596673340" name="pref_camera_whitebalance_title">Баланс на бялото:</string>
+    <string msgid="6580665476983469293" name="pref_camera_whitebalance_entry_auto">Автом.</string>
+    <string msgid="8856667786449549938" name="pref_camera_whitebalance_entry_incandescent">Лампа с наж. жичка</string>
+    <string msgid="2534757270149561027" name="pref_camera_whitebalance_entry_daylight">"Дневна светлина"</string>
+    <string msgid="2435332872847454032" name="pref_camera_whitebalance_entry_fluorescent">"Флуоресцентна светлина"</string>
+    <string msgid="3531996716997959326" name="pref_camera_whitebalance_entry_cloudy">"Облачно"</string>
+    <string msgid="1420535844292504016" name="pref_camera_scenemode_title">"Сценичен режим"</string>
+    <string msgid="7113995286836658648" name="pref_camera_scenemode_entry_auto">Автом.</string>
+    <string msgid="616748587566110484" name="pref_camera_scenemode_entry_action">"Действие"</string>
+    <string msgid="7606898503102476329" name="pref_camera_scenemode_entry_night">"Нощ"</string>
+    <string msgid="181661154611507212" name="pref_camera_scenemode_entry_sunset">"Залез"</string>
+    <string msgid="907053529286788253" name="pref_camera_scenemode_entry_party">"Празненство"</string>
+    <string msgid="2970291701448555126" name="not_selectable_in_scene_mode">"Не може да се избира в сценичен режим."</string>
+    <string msgid="6479274979730178961" name="pref_restore_title">"Настройки на камера"</string>
+    <string msgid="5732490002291044791" name="pref_restore_detail">"Възстановяване на стандартните настройки"</string>
+    <string msgid="1229093066434614811" name="pref_exposure_title">"Eкспониране"</string>
+    <string msgid="6263301364153382152" name="dialog_ok">"OK"</string>
+    <string msgid="4401325203349203177" name="spaceIsLow_content" product="nosdcard">Свършва мястото във вашето USB хранилище. Променете настройката за качество или изтрийте някои изображения или други файлове.</string>
+    <string msgid="1732882643101247179" name="spaceIsLow_content" product="default">Свършва мястото във вашата microSD карта. Променете настройките за качество или изтрийте някои файлове, за да освободите място.</string>
+    <string msgid="6179877322015552390" name="video_reach_size_limit">"Достигнат е макс. размер."</string>
+    <string msgid="1375127849431890447" name="share_picture_via">"Споделяне на снимката чрез"</string>
+    <string msgid="5152302809166549015" name="share_video_via">"Споделяне на видеоклипа чрез"</string>
+    <string msgid="5352574090121328815" name="no_picture_to_share">"Няма снимка за споделяне."</string>
+    <string msgid="7567298642707627096" name="no_video_to_share">"Няма видеоклип за споделяне."</string>
+    <string msgid="2823839093291374709" name="pano_too_fast_prompt">"Твърде бързо"</string>
+    <string msgid="4788441554128083543" name="pano_dialog_prepare_preview">"Панорамата се подготвя"</string>
+    <string msgid="2155692796549642116" name="pano_dialog_panorama_failed">"Панорамата не можа да бъде запазена."</string>
+    <string msgid="5755531234434437697" name="pano_dialog_title">"Панорама"</string>
+    <string msgid="8248825828264374507" name="pano_capture_indication">"Панорамата се заснема"</string>
+    <string msgid="7800325815031423516" name="pano_dialog_waiting_previous">"Изчаква се предишната панорама"</string>
+    <string msgid="2054886016665130188" name="pano_review_saving_indication_str">"Запазва се..."</string>
+    <string msgid="8863427645591903760" name="tap_to_focus">"Докоснете за фокусиране."</string>
+    <string msgid="8243182968457289488" name="pref_video_effect_title">"Ефекти"</string>
+    <string msgid="3601545724573307541" name="effect_none">"Без ефекти"</string>
+    <string msgid="1207235692524289171" name="effect_goofy_face_squeeze">"Разкривяване"</string>
+    <string msgid="3945182409691408412" name="effect_goofy_face_big_eyes">"Големи очи"</string>
+    <string msgid="7528748779754643144" name="effect_goofy_face_big_mouth">"Голяма уста"</string>
+    <string msgid="3848209817806932565" name="effect_goofy_face_small_mouth">"Малка уста"</string>
+    <string msgid="5180533098740577137" name="effect_goofy_face_big_nose">"Голям нос"</string>
+    <string msgid="1070355596290331271" name="effect_goofy_face_small_eyes">"Малки очи"</string>
+    <string msgid="7935661090723068402" name="effect_backdropper_space">"В космоса"</string>
+    <string msgid="45198943771777870" name="effect_backdropper_sunset">"Залез"</string>
+    <string msgid="959158844620991906" name="effect_backdropper_gallery">"Видеоклипът ви"</string>
+    <string msgid="4568604144269499202" name="not_selectable_in_effect">"Не може да се избира при включен ефект."</string>
+    <string msgid="18833576851372483" name="video_snapshot_hint">"Докоснете, за да направите снимка, докато записвате."</string>
+    <string msgid="4957723267826476079" name="disable_video_snapshot_hint">"Моментните снимки в клиповете са деакт. при вкл. спец. ефекти."</string>
+    <string msgid="5485339175014139481" name="clear_effects">"Изчистване на ефектите"</string>
+    <string msgid="8107732405347155777" name="effect_silly_faces">"СМЕШНИ ЛИЦА"</string>
+    <string msgid="6579360207378171022" name="effect_background">"ФОН"</string>
+    <string msgid="2664037763232556307" name="accessibility_shutter_button">"Бутон на затвора"</string>
+    <string msgid="8961275263537513017" name="accessibility_review_thumbnail">"Най-скорошна снимка"</string>
+    <string msgid="8807945470215734566" name="accessibility_camera_picker">"Превключване между предната и задната камера"</string>
+    <string msgid="3278002189966833100" name="accessibility_mode_picker">"Избор между камера, видеокамера или панорама"</string>
+    <string msgid="3855951632917627620" name="accessibility_second_level_indicators">"Още контроли за настройки"</string>
+    <string msgid="5234411571109877131" name="accessibility_back_to_first_level">"Затваряне на контролите за настройки"</string>
+    <string msgid="1339909363226825709" name="accessibility_zoom_control">"Контрола за промяна на мащаба"</string>
+    <string msgid="1411194318538035666" name="accessibility_decrement">"Намаляване на %1$s"</string>
+    <string msgid="8447850530444401135" name="accessibility_increment">"Увеличаване на %1$s"</string>
+    <string msgid="6995966685498958895" name="accessibility_switch">"Превключване на %1$s"</string>
+</resources>

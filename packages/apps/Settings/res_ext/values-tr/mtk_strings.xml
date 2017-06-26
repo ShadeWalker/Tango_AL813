@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- AudioProfile Settings start -->
+   <string name="ring_summary">Zil sesi</string>
+  <string name="ring_vibrate_summary">Zil sesi ve titreşim</string>
+  <string name="silent_summary">Yalnızca sessiz</string>
+  <string name="meeting_summary">Yalnızca titreşim</string>
+  <string name="outdoor_summary">En yüksek ses seviyesinde zil sesi ve titreşim</string>
+  <string name="audio_profile_reset">Sıfırla</string>
+  <string name="audio_profile_add">"Ekle"</string>
+  <string name="audio_profile_enable">"Etkinleştir"</string>
+  <string name="audio_profile_rename">"Yeniden adlandır"</string>
+  <string name="audio_profile_delete">"Sil"</string>
+  <string name="audio_profile_message_reset">Tüm ses profili ayarları varsayılan değerlere sıfırlanacak</string>
+  <string name="audio_profile_message_rename">Lütfen yeni profil adını girin</string>
+  <string name="audio_profile_message_name_error">Girilen ad zaten vardı</string>
+  <string name="audio_profile_message_name_length_wrong">Ad en az bir karakter içermelidir</string>
+  <string name="audio_profile_message_delete">Profil 
+        <xliff:g id="profile">%s</xliff:g> silinecek</string>
+  <string name="audio_profile_message_overflow">Yalnızca 6 özel profil ekleyebilirsiniz</string>
+  <string name="audio_profile_category_custom_title">Kullanıcı tanımlı profiller</string>
+  <string name="audio_profile_category_predefine_title">Önceden tanımlanmış profiller</string>
+  <string name="audio_profile_error">Hata</string>
+  <string name="audio_profile_others">Bildirim ve Diğerleri</string>
+  <string name="general_settings_title">"Genel"</string>
+  <string name="silent_settings_title">Sessiz</string>
+  <string name="meeting_settings_title">Toplantı</string>
+  <string name="outdoor_settings_title">Açık Hava</string>
+  <string name="sound_category_feedback_title">"Sistem"</string>
+  <string name="sound_category_calls_title">"Gelen çağrılar"</string>
+  <string name="voice_call_title">"Ses arama zil sesi"</string>
+  <string name="voice_call_summary">Varsayılan gelen sesli aramalar için zil sesini ayarlayın</string>
+  <string name="video_call_title">Video aram zil sesi</string>
+  <string name="video_call_summary">Varsayılan gelen görüntülü aramalar için zil sesini ayarlayın</string>
+  <string name="sip_call_title">SIP çağrı zil sesi</string>
+  <string name="sip_call_summary">Varsayılan SIP çağrı zil sesini belirleyin</string>
+  <string name="Phone_vibrate_summary">Gelen çağrılarda telefonu titreştir</string>
+  <string name="vibrate_title">Titret</string>
+  <string name="audio_profile_settings_title">Ses profilleri</string>
+  <string name="audio_profile_bes_loudness_summary">Hoparlör için ses seviyesi yükseltici</string>
+  <string name="sound_enhancement_title">Ses zenginleştirme</string>
+  <string name="music_plus_summary">Kulaklık için ses zenginleştirici</string>
+  <string name="lossless_title">Kayıpsız BT modu</string>
+  <string name="lossless_summary">Yüksek kaliteli BT ses</string>
+  <string name="lossless_connect_summary">Wi-Fi, Kayıpsız BT modunun açılmasından etkilenecektir. Etkinleştirmekten emin misiniz?</string>
+  <string name="lossless_on">Kayıpsız BT modu AÇIK</string>
+  <string name="lossless_playing">Kayıpsız müzik çalma</string>
+  <string name="lossless_toastmessage">Sistem sesleri telefon hoparlörü aracılığıyla çalınacaktır</string>
+  <string name="lossless_volume_max">Lütfen sistem ses düzeyini en yüksekte tutun</string>
+  <string name="lossless_cannot_found_device">Kayıpsız BT cihazı bulunamadı</string>
+  <string name="audio_profile_bes_surround_title">BesSurround</string>
+  <string name="audio_profile_bes_surround_summary">Surround Ses</string>
+  <string name="audio_profile_bes_surround_mode_movie">Film modu</string>
+  <string name="audio_profile_bes_surround_mode_music">Müzik modu</string>
+  <string msgid="6680706009915204785" name="zen_mode_option_title_novoice">"Bildirim geldiğinde"</string>
+  <!-- AudioProfile Settings end -->
+ 
+  <!-- MTK Wi-Fi settings start -->
+   <string name="wifi_no_cert_for_wapi">Geçerli AP bağlantısı için sertifikası bulunamadı</string>
+  <string name="sim_slot">SIM Yuvası</string>
+  <string name="eap_sim_slot_0">Sim Yuvası 1</string>
+  <string name="eap_sim_slot_1">Sim Yuvası 2</string>
+  <string name="eap_sim_aka_airplanemode">EAP-SIM/AKA kullanımı için lütfen Uçak modunu kapatın</string>
+  <string name="eap_sim_aka_no_sim_error">EAP-SIM/AKA kullanımı için bir sim kart takmalısınız</string>
+  <string name="eap_sim_aka_no_sim_slot_selected">EAP-SIM/AKA kullanımı için bir sim yuvası seçmelisiniz</string>
+  <string name="wifi_security_wapi_certificate">WAPI Sertifikası</string>
+  <string name="wapi_user_certificate">Kullanıcı sertifikası</string>
+  <string name="wapi_as_certificate">ASE sertifikası</string>
+  <string name="wifi_hex_password">Onaltı haneli parola.</string>
+  <string name="wifi_WEP_transmit_key">"İletim Anahtarı"</string>
+  <string name="wifi_WEP_secury_key">"Güvenlik Anahtarı"</string>
+  <string name="wifi_tether_auto_disable_title">"Wi-Fi hotspot'u açık tut"</string>
+  <string name="wifi_tether_auto_channel_text">Otomatik</string>
+  <string name="wifi_tether_auto_channel_width_text">Otomatik 20/40 MHz</string>
+  <string name="wifi_channel">Tercih Edilen Kanal</string>
+  <string name="wifi_channel_width">Kanal Genişliği</string>
+  <string name="wifi_advanced_ipv4_address_title">IPv4 adresi</string>
+  <string name="wifi_advanced_ipv6_address_title">IPv6 adresi</string>
+  <string name="wifi_ipv4_address">IPv4 adresi</string>
+  <string name="wifi_ipv6_address">IPv6 adresi</string>
+  <string name="wifi_ap_auto_join_available">Otomatik Katıl</string>
+  <string name="wifi_ap_auto_join_available_summary">Bağlandığında katılmak için tararken otomatik olarak daha iyi bir Wi-Fi ağını seç</string>
+  <!-- MTK Wi-Fi settings end -->
+ 
+  <!-- Wi-Fi hotspot client start -->
+   <string name="wifi_tether_setting_title">Temel ayarlar</string>
+  <string name="wifi_tether_wps_connect_title">"WPS Connect"</string>
+  <string name="wifi_tether_wps_connect_summary">Wi-Fi korumalı kurulum moduna devam etme seçildi</string>
+  <string name="wifi_tether_wps_pin_error">Geçersiz PIN</string>
+  <string name="wifi_tethering_title">Wi-Fi etkin noktası</string>
+  <string name="wifi_ap_wps_dialog_title">"WPS Connect"</string>
+  <string name="wifi_ap_wps_mode_title">WPS modu</string>
+  <string name="wifi_ap_wps_pin_title">"İstemciye ait PIN'i yazın"</string>
+  <string name="wifi_ap_reset_OOB_title">"Ağ SSID'si, güvenlik ve parolayı varsayılan değere sıfırla (WPS için ilk çalıştırma yapılandırması)"</string>
+  <string name="wifi_ap_reset_OOB">"OOB'yi sıfırla"</string>
+  <string name="wifi_ap_max_connection_title">Maksimum bağlantı</string>
+  <string name="wifi_ap_connected_title">Bağlanan kullanıcılar</string>
+  <string name="wifi_ap_blocked_title">Engellenen kullanıcılar</string>
+  <string name="wifi_ap_client_block_title">"Engelle"</string>
+  <string name="wifi_ap_client_unblock_title">Engeli kaldır</string>
+  <string name="wifi_ap_client_details_title">Ayrıntılar</string>
+  <string name="wifi_ap_client_mac_label">MAC adresi:</string>
+  <string name="wifi_ap_client_ip_label">IP adresi:</string>
+  <string name="wifi_ap_bandwidth_title">Bant genişliği kullanımı</string>
+  <string name="wifi_ap_bandwidth_enable">Bant geniişliği kısmayı etkinleştir</string>
+  <string name="wifi_ap_bandwidth_chart_title">Gerçek zamanlı veri hızı</string>
+  <string name="wifi_ap_bandwidth_chart_summary">Telefonunuz tarafındna ölçüldü, taşıyıcınızın veri hızı hesaplaması farklı olabilir.</string>
+  <string name="wifi_wps_fail_error">wi-Fi korumalı kurulum başarısız oldu, yeniden deneyin.</string>
+  <string name="wifi_ap_title">İstatistikler</string>
+  <string name="wifi_ap_time_duration">Süre uzunluğu: 
+        <xliff:g id="time">%1$s</xliff:g>
+</string>
+  <string name="wifi_ap_total_data">Kullanılan toplam veri:
+        <xliff:g id="time">%1$s</xliff:g>
+</string>
+  <string name="wifi_ap_no_connected">0 bağlanan kullanıcılar</string>
+  <string name="wifi_ap_no_blocked">0 engellenen kullanıcılar</string>
+  <!-- Wi-Fi hotspot client end -->
+ 
+  <!-- MTK Beam plus start -->
+   <string name="beam_mgmt_tab_download_title">Alınan çağrılar</string>
+  <string name="beam_mgmt_tab_upload_title">"3. Paylaşım sekmesini tıklatın ve 'Diğer ağ kullanıcılarının bu bilgisayarın internet bağlantısıyla bağlanmalarına\izin ver'i seçin '('Ev ağı bağlantısı' görünürse USB interneti temsil eden yeni eklenen ağı seçin)."</string>
+  <string name="beam_share_mgmt_notification_ticker">ışın paylaşım geçmişi</string>
+  <string name="beam_share_mgmt_notification_title">ışın paylaşım geçmişi</string>
+  <string name="beam_share_mgmt_notification_message">"ışın paylaşım geçmişini görüntülemeyi seçin."</string>
+  <string name="beam_share_mgmt_tab_menu_clear">"Tüm web sitesi ayarları temizlensin mi?"</string>
+  <string name="beam_share_open_file_dialog_title">Dosya açılamadı.</string>
+  <string name="beam_share_open_file_unsupported_message">Dosya açılamadı.</string>
+  <string name="beam_share_open_file_not_found_message">"Dosya bulunamadı: <xliff:g id="file_name">%1$s</xliff:g>
+</string>
+  <string name="beam_share_transfer_fail_dialog_title">"ışın başarısız"</string>
+  <string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> başarıyla gönderilemedi."</string>
+  <string name="beam_share_resend_dialog_ok_button">"Tekrar dene"</string>
+  <string name="beam_share_show_received_files_menu">"Alınan dosyaları göster"</string>
+  <string name="beam_share_history_title">ışın paylaşım geçmişi</string>
+  <string name="beam_share_clear_confirm_dialog_title">"Tümünü temizle"</string>
+  <string name="beam_share_clear_confirm_dialog_message">Tüm geçmiş temizlensin mi?</string>
+  <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> başarıyla alınamadı."</string>
+  <string name="beam_share_clear_item_dailog_title">"Sil"</string>
+  <string name="beam_share_clear_item_dailog_message">Öğe silinecek.</string>
+  <!-- MTK Beam plus end -->
+ 
+  <!-- MTK NFC settings start -->
+   <string name="nfc_p2p_mode">P2P modu</string>
+  <string name="nfc_p2p_mode_summary">Uygulama içeriği gönder veya al</string>
+  <string name="nfc_tag_mode_category">Etiketle modu</string>
+  <string name="nfc_rw_tag_title">Etiket okuma ve yazma</string>
+  <string name="nfc_rw_tag_summary">Bir etiketten oku veya etikete yaz</string>
+  <string name="nfc_card_emulation_category_title">kart emülasyon modu</string>
+  <string name="nfc_card_emulation">Kart benzetimi</string>
+  <string name="card_emulation_settings_category_title">güvenlik öğesi mevcut</string>
+  <string name="card_emulation_settings_no_element_found">Güvenlik öğesi mevcut değil</string>
+  <string name="card_emulation_settings_off_text">Mevcut güvenlik öğelerini görmek için Kart emülasyonunu açın.</string>
+  <string name="card_emulation_turning_off_text">Kart emülasyonu kapatılıyor…</string>
+  <string name="card_emulation_turning_on_text">Kart emülasyonu kapatılıyor…</string>
+  <string name="card_emulation_switch_error_title">Hata</string>
+  <string name="card_emulation_switch_error_message">
+<xliff:g id="card_mode">%1$s</xliff:g> geçişi başarısız oldu.</string>
+  <string name="card_emulation_sim_not_supported_message">
+<xliff:g id="sim_description">%1$s</xliff:g> NFC kart emülasyon fonksiyonu desteklemiyor.</string>
+  <string name="card_emulation_two_sim_not_supported_message">SIM1, SIM2 NFC Kart Emülasyonu işlevini desteklemiyor.</string>
+  <string name="nfc_hce_pay_summary">Google cüzdan, kredi kartı vb. gibi DOKUN ve ÖDE için cihazın kullanımı.</string>
+  <!-- MTK NFC settings end -->
+ 
+  <!-- MTK WIFI Passpoint start -->
+   <string name="passpoint_summary">Passpoint kullanan uygulamalara otomatik bağlantı</string>
+  <string name="passpoint_append_summary">(Passpoint ile)</string>
+  <string name="passpoint_config_credential_type">Kimlik Bilgileri tipi</string>
+  <string name="passpoint_config_eap_method">"EAP yöntemi"</string>
+  <string name="passpoint_supported">Destekli</string>
+  <string name="passpoint_username_pw">Kullanıcı Adı/Parola</string>
+  <string name="passpoint_certificate">Sertifika</string>
+  <!-- MTK WIFI Passpoint end -->
+ 
+  <!-- MTK WFD start -->
+   <string name="wfd_change_resolution_menu_title">Çözünürlüğü değiştir</string>
+  <string name="wfd_sink_summary">Başkaları tarafından bulunabilir</string>
+  <string name="wfd_device_category">CİHAZ LİSTESİ</string>
+  <string name="wfd_sink_toast_enjoy">Diğer cihazdan yayınlanan ekranın keyfini çıkarın</string>
+  <string name="wfd_sink_toast_disconnect">Yayın ekranın bağlantısı kesildi</string>
+  <string name="wfd_sink_disconnecting">"Bağlantı kesiliyor…"</string>
+  <string name="wfd_sink_guide_btn">Al</string>
+  <string name="wfd_sink_guide_title">Nasıl çıkılır?</string>
+  <string name="wfd_sink_guide_content">Diğer cihazın ekranından çıkmak için <xliff:g id="seconds">%s</xliff:g> saniye kadar basın.</string>
+  <!-- MTK WFD end -->
+ 
+  <!-- MTK Storage Settings start -->
+   <string name="mtp_transfer_unmount_error_text">Dosya aktarma sırasında SD kart çıkarılamaz</string>
+  <string name="mtp_transfer_erase_error_text">Dosya aktarma sırasında SD kart silinemez</string>
+  <string name="launch_error">"Uygulama başlatılamadı!"</string>
+  <string name="dlg_confirm_unmount_usb_title" product="default">USB belleğini kaldır?</string>
+  <string name="dlg_confirm_unmount_usb_text" product="default">USB belleğini kaldırırsanız belleği kullanan bazı uygulamalar duracak ya da USB belleği yeniden takılana kadar kullanılamaz olacaklardır</string>
+  <string name="dlg_error_unmount_usb_text" product="default">USB depolama aygıtı çıkarılamadı. Daha sonra yeniden deneyin.</string>
+  <string name="unmount_usb_inform_text" product="default">USB belleği çıkarılacak.</string>
+  <string name="sd_eject_usbstorage" product="default">"USB dep brmnn bağln kes"</string>
+  <string name="sd_eject_usbstorage_summary" product="default">"Dahili USB depolamanın bağ kes"</string>
+  <string name="sd_mount_usbstorage" product="default">"USB depl birimini ekleyin"</string>
+  <string name="sd_insert_usb_summary" product="default">"Bağlantı için USByi takın"</string>
+  <string name="usb_ums_title">USB belleği</string>
+  <string name="usb_ums_summary">"XP önerilir. Dosyalarınızı bilgisayarınız ile Android\'inizin USB belleği arasında aktarmanızı sağlar."</string>
+  <string name="usb_charge_title">USB belleğini kaldır?</string>
+  <string name="usb_connect_as_cdrom_category">"Şu şekilde bağlan: CD-ROM"</string>
+  <string name="usb_charge_summary">USB belleğini kaldırırsanız belleği kullanan bazı uygulamalar duracak ya da USB belleği yeniden takılana kadar kullanılamaz olacaklardır</string>
+  <string name="akp_installer_settings_title">APK yükleyicisi</string>
+  <string name="akp_installer_settings_summary">Telefon belleğinden ve SD karttan APK\'nizi yükleyin</string>
+  <string name="usb_bicr_title">Bütünleşik CD-ROM</string>
+  <string name="usb_bicr_summary">Bazı faydalı yazılımları içeren sanal CD-ROM göster.</string>
+  <string name="select_memory">Öntanımlı disk</string>
+  <string name="dlg_mount_external_sd_title" product="default">SD kart takılsın mı?</string>
+  <string name="dlg_mount_external_sd_summary" product="default">SD kartı takarsanız, kullandığınız bazı uygulamalar duracaktır.</string>
+  <!-- MTK Storage Settings end -->
+ 
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">HDMI ayarları</string>
+  <string name="hdmi_settings_summary">HDMI yapılandırmak için tıklayın</string>
+  <string name="hdmi_audio_toggler">"Ses"</string>
+  <string name="hdmi_video_toggler">"Video"</string>
+  <string name="hdmi_video_resolution">Video çözünürlüğü</string>
+  <string name="hdmi_auto">Otomatik</string>
+  <string name="hdmi_scale_control">Video ölçek ayarları</string>
+  <string name="hdmi_scale_no_scale">ölçeklendirme yok</string>
+  <string name="hdmi_scale_scale_down">Küçültün <xliff:g id="scale_percent">%s</xliff:g> %%</string>
+  <string name="hdmi_audio_output">Ses çıkışı</string>
+  <string name="hdmi_audio_output_stereo">Stereo</string>
+  <string name="hdmi_audio_output_multi_channel">Çoklu Kanal</string>
+  <!-- MTK HDMI end -->
+ 
+  <!-- MTK Display Settings start -->
+   <string name="landscape_launcher_title">Manzara Başlatıcı</string>
+  <string name="landscape_launcher_none">"Yok"</string>
+  <string name="display_settings_scences_title">Manzara</string>
+  <string name="default_name">Varsayılan</string>
+  <string name="custom_theme_name">Yeni [%1$s]</string>
+  <string name="loading">Yükleniyor...</string>
+  <string name="auto_backlight_title">Tasarruflu arka aydınlatma</string>
+  <string name="auto_backlight_summary">Güç tasarrufu sağlamak için arka aydınlatmayı otomatik olarak uyarlar</string>
+  <string name="display_personalize">Kişiselleştir</string>
+  <string name="display_default">"Ekran"</string>
+  <string name="clear_motion_summary">Video akışkanlık iyiletirici</string>
+  <string name="on_text">"açık"</string>
+  <string name="off_text">"kapalı"</string>
+  <string name="mira_vision_summary">En iyi görsel efektlerin sağlayıcısı</string>
+  <!-- MTK Display Settings end -->
+ 
+  <!--MTK Security Settings start -->
+   <string name="voice_unlock_backup_info_summary">Sesli Kilit Açma sizi tanımadığında, kilidi nasıl açmak istersiniz?</string>
+  <string name="unlock_set_unlock_mode_voice_weak">Sesli Kilit Açma</string>
+  <string name="mtk_lock_screen_notifications_title">Kilit ekranı bildirimleri</string>
+  <string name="lock_screen_notifications_summary">Bildirimleri kilit ekranında göster</string>
+  <string name="lock_screen_style_title">Kilit ekranı stili</string>
+  <string name="current_suffix">"(Şu Anki)"</string>
+  <string name="lockscreen_style_default_desc">"Kilit ekranında uygulamalara hızlı erişim"</string>
+  <string name="security_not_set">Güvenlik ayarlı değil</string>
+  <string name="voice_ui_title">Sesli komut</string>
+  <!--MTK Security Settings end -->
+ 
+  <!-- MTK Wireless settings start -->
+   <string name="pch_toggle_title">GPRS transfer terc.</string>
+  <string name="pch_data_prefer_summary_off">Veri tercihi</string>
+  <string name="pch_call_prefer_summary_on">Arama tercihi</string>
+  <string name="pch_warning_message">Veri aktarım hızı düşecek.</string>
+  <string name="tethered_ipv6_title">Etkin nokta ve bağlantı ayarları</string>
+  <string name="tethered_ipv4v6">(IPv6 mevcut)</string>
+  <string name="tethered_ipv6">(Yalnızca IPv6 mevcut)</string>
+  <string name="tethered_ipv4">(IPv6 mevcut değil)</string>
+  <string name="tethering_apn_settings_title">APN ayarları</string>
+  <string name="tethering_apn_settings_summary">"Bağlantı için APN'yi yapılandırın"</string>
+  <string name="usb_tether_type_title">USB bağlantı türü</string>
+  <string name="usb_tethering_select_version">Bilgisayar sistem sürümünü seç</string>
+  <string name="apn_port_warning">Port değeri 1-65535 arasında olmalıdır!</string>
+  <string name="apn_predefine_change_dialog_notice">"Kaydetmek istediğinizden emin misiniz? Varsayılan APN'lerde değişiklik yapılması bağlantı sorunlarına yol açabilir!""</string>
+  <string name="lockdown_vpn_already_connected">Bağlantı için Her Zaman Açık VPN zaten etkinleştirilmiş.</string>
+  <!-- MTK Wireless settings end -->
+ 
+  <!-- MTK Feature MISC start -->
+   <string name="schedule_power_on_off_settings_title">Güç açma/kapama planla</string>
+  <string name="ipo_title">Hızlı önyükleme</string>
+  <string name="ipo_summary_on">Hızlı önyüklemeyi devre dışı bırak</string>
+  <string name="ipo_summary_off">Hızlı önyüklemeyi etkinleştir</string>
+  <string name="hotknot_explained_description">Ekran başka bir aygıta dokunduğunda veri alışverişine izin ver</string>
+  <string name="mouse_primary_button_title">Birincil ve ikincil düğmeleri geçiş</string>
+  <string name="mouse_primary_button_dialog_title">Birincil düğmesi geçiş</string>
+  <string name="double_click_title">Çift tıklama hızı</string>
+  <string name="test_area">TEST BÖLGESİ:</string>
+  <string name="double_click_tip">Buraya çift tıklayın</string>
+  <!-- MTK Feature MISC end -->
+ 
+  <!-- MTK Bluetooth Settings start -->
+   <string name="bluetooth_advanced_settings">Bluetooth gelişmiş ayarları</string>
+  <string name="bluetooth_profile_ftp">Dosya aktarımı</string>
+  <string name="bluetooth_ftp_profile_summary_use_for">Dosya aktarımı için kullan</string>
+  <string name="bluetooth_ftp_profile_summary_connected">"Dosya aktarımına bağlandı"</string>
+  <!-- MTK Bluetooth Settings end -->
+ 
+  <!--MTK DateTime start-->
+   <string name="gps_time_sync_attention_gps_on">GPS\'in tam olarak bağlanması en fazla 1 dakika sürecektir. Ayrıca, ortamda sinyal zayıf olduğunda GPS saati sağlayamayabilir.\n\nGPS saatini kullanmak istediğinizden emin misiniz?</string>
+  <string name="gps_time_sync_attention_gps_off">GPS\'in sağladığı saati kullanmak için önce GPS\'i etkinleştirmelisiniz. Sonra GPS\'in sabitlenmesi en fazla 1 dakika sürer. Ayrıca, ortamda sinyal zayıf olduğunda GPS saati sağlayamayabilir. \n\nŞimdi GPS\'i etkinleştirmek ve GPS\'in saat sağlamasını beklemek istiyor musunuz?</string>
+  <!--MTK DateTime end-->
+ 
+  <!--MTK DRM settings start -->
+   <string name="drm_settings_title">DRM sıfırlama</string>
+  <string name="drm_settings_summary">DRM lisanslarının tümünü siler</string>
+  <string name="drm_reset_dialog_msg">Bu işlem, bu aygıttaki lisanslarn tümünü silecektir. Devam et?</string>
+  <string name="drm_reset_toast_msg">Lisanslar başarıyla silindi.</string>
+  <!--MTK DRM settings end -->
+ 
+  <!-- MTK APPS settings start -->
+   <string name="launch_main_label">Uygulamayı başlat</string>
+  <string name="launch_main">Uygulamayı ana etkinlik yoluyla başlat</string>
+  <string name="launch_activitie">Başlat</string>
+  <string name="move_app_to_where">Buraya taşı: 
+        <xliff:g id="location">%s</xliff:g>
+</string>
+  <!-- MTK APPS settings end -->
+ 
+  <!-- MTK Battery MISC start -->
+   <string name="bg_power_saving_title">Bekleme akıllı güç tasarrufu</string>
+  <!-- MTK Battery MISC end -->
+ 
+  <!-- MTK  Datausage  start -->
+   <string name="mtk_datausage_overview_tab">Genel Görünüm</string>
+  <string name="mtk_datausage_overview_wifi_today">Bugün</string>
+  <string name="mtk_datausage_overview_wifi_total">"Toplam"</string>
+  <string name="mtk_datausage_overview_mobile_title">MOBİL</string>
+  <string name="mtk_datausage_overview_mobile_usage">
+<xliff:g id="actual">%s</xliff:g> üzerinden 
+        <xliff:g id="limit">%s</xliff:g> dışında</string>
+  <string name="mtk_datausage_overview_mobile_usage_warning">Sınır aşıldı: <xliff:g>%s</xliff:g>
+</string>
+  <string name="data_saving_title">Veri Kaydetme</string>
+  <!-- MTK  Dtausage  end -->
+ 
+  <!-- MTK About phone start -->
+   <string name="status_imei_slot1">IMEI(Yuva1)</string>
+  <string name="status_imei_slot2">IMEI(Yuva2)</string>
+  <string name="custom_build_version">Özel Derleme sürüm</string>
+  <string name="mota_system_update_summary">"Sunucudaki sistem güncellemesini kontrol edin"</string>
+  <string name="software_updates_more_title">Yazılım güncellemeleri</string>
+  <string name="software_updates_more_summary">Yeni yazılım sürümünü kontrol edin</string>
+  <!-- MTK About phone end -->
+ 
+  <!-- MTK sim cards start -->
+   <string name="sim_cards_celluar_data_dialog_title">Hücresel verilere yönelik kullanmak için SIM seç</string>
+  <string name="sim_cards_data_sms_dialog_title">SMS mesajlarına yönelik kullanmak için SIM seç</string>
+  <string name="sim_cards_calls_dialog_title">Telefon aramalarına yönelik kullanmak için hesap seç</string>
+  <string name="sim_cards_other_calls_dialog_title">Başka hesap seç</string>
+  <string name="sim_cards_other_calls_item_title">Başka hesap</string>
+  <string name="data_connection_progress_message">"SIM'in değiştirilmesi yaklaşık 10 saniye sürecektir.Lütfen bekleyin…"</string>
+  <string name="gemini_sim_mode_progress_activating_message">Etkinleştiriliyor\u2026</string>
+  <string name="gemini_sim_mode_progress_deactivating_message">Devre dışı bırakılıyor\u2026</string>
+  <string name="simui_intenet_call">İnternet çağrısı</string>
+  <!-- MTK sim cards end -->
+ 
+  <!-- MTK SIM Status start -->
+   <string name="imei_information_title">"IMEI bilgileri"</string>
+  <string name="imei_information_summary">"IMEI göreli bilgileri"</string>
+  <string name="slot_number">"(Yuva<xliff:g id="SLOT_NUM">%1$d</xliff:g>)"</string>
+  <string name="sim_info_editor_color">"Arka plan rengi"</string>
+  <string name="sim_cards_notify_title">"SIM kartlar değişti"</string>
+  <string name="sim_cards_notify_summary">Tercihleri ayarlamak için dokunun.</string>
+  <string name="no_sim_cards_notify_title">Hiç SIM kart takılmadı</string>
+  <string name="cellular_data_notify_title">"Hücresel veri kullanılamıyor"</string>
+  <string name="cellular_data_notify_summary">"Bir veri SIM'i ayarlamak için dokunun."</string>
+  <!-- MTK SIM Status end -->
+ 
+  <!-- IMS/SMS Settings start -->
+   <string name="ims_toggle_summary">IP Multimedya Alt Sistem hizmetlerini sağlama</string>
+  <string name="sms_vibrate_summary">sms için cihazları titret</string>
+  <!-- IMS/SMS Settings end -->
+    <string name="default_data_switch_err_msg1">"Arama sırasında hücresel veri için tercih edilen SIM'e geçilemez."</string>
+  <string name="two_cdma_dialog_msg">Yuva 1 ve yuva 2 aynı anda CDMA destekleyemez.</string>
+  <string name="hetcom_setting_title">Turbo hızla indir</string>
+<string name="voice_call_sim2_title">SIM 2 sesli arama zil sesi</string>
+<string name="ringtone_sim2_title">SIM 2 telefon zil sesi</string>
+<string name="wfc_quick_toggle_title">Wi-Fi araması</string>
+<string name="Help">Yardım</string>
+<string name="Tutorials">Ders</string>
+<string name="Top_questions">En sık sorulan sorular</string>
+<string name="Wifi_wfc_dialog_title">Wi-Fi araması</string>
+<string name="Wifi_wfc_dialog_top_wording">WLAN Ağına bağlandınız</string>
+<string name="Wifi_wfc_dialog_bottom_wording">Ekranınızın en üst kısmındaki bu sembol Wi-Fi ağına bağlandığınızı belirtir. Wi-Fi üzerinden aramalar yapabilir ve mesajlar gönderebilirsiniz.</string>
+<string name="Skip">Atla</string>
+<string name="Learn_more">Daha fazla bilgi edinin</string>
+<string name="Next">Sonraki</string>
+<string name="Switch_not_in_use_string">Düğme geçici olarak devre dışı. Lütfen daha sonra tekrar deneyin.</string>
+<string name="Done">Bitti</string>
+<string name="Wfc_questions">Wi-Fi arama yardımı</string>
+<string name="Wfc_off_summary">Devre dışı</string>
+<string name="wfc_on_summary">Wi-Fi açık</string>
+<string name="connection_preference">Bağlantı tercihleri</string>
+<string name="WiFi_preferred">Tercih edilen Wi-Fi</string>
+<string name="Cellular_network_preferred">Tercih edilen mobil şebeke</string>
+<string name="Never_use_cellular_network">Hiçbir zaman mobil şebeke kullanma</string>
+<string name="WiFi_preferred_summary">Aramalar için Wi-Fi\'yi kullan. Wi-Fi mevcut değilse, mobil şebekeyi kullan (varsayılan).</string>
+<string name="Cellular_network_preferred_summary">Aramalar için mobil şebekeyi kullan. Mobil şebeke mevcut değilse Wi-Fi\'yi kullan.</string>
+<string name="Never_use_cellular_network_summary">Aramalar için sadece Wi-Fi\'yi kullan. Mobil şebekeyi, mevcut olsa bile kullanma.</string>
+<string name="no_sim_present_error">Mevcut SIM bulunamadı</string>
+<string name="inavlid_sim_error">Hata 05: Geçersiz SIM</string>
+<string name="airplane_mode_on">Uçak modu açık</string>
+<string name="cellular_prefered_summary">Tercih edilen bağlantı modunuz mobil şebekedir</string>
+<string name="wifi_off_summary">Wi-Fi kapatıldı</string>
+<string name="not_connected_to_wifi_summary">Wi-Fi\'ye bağlı değil</string>
+<string name="poor_wifi_signal_summary">Zayıf Wi-Fi sinyali</string>
+<string name="wfc_enabling_summary">Etkinleştiriliyor...</string>
+<string name="wfc_disabling_summary">Devre dışı bırakılıyor...</string>
+<string name="wfc_ready_for_calls_summary">Görüşmeler için hazır</string>
+<string name="wfc_unknown_error_summary">Bilinmeyen hata</string>
+<string name="wfc_tutorial_heading">Wi-Fi aramaya ilişkin tüm bilgileri öğrenin</string>
+<string name="wfc_tutorial_content_second_page_part1">Durum çubuğunda Wi-Fi arama simgesini gördüğünüzde telefonunuz Wi-Fi görüşmeler için hazırdır</string>
+<string name="wfc_tutorial_content_second_page_part2">Bir Wi-Fi görüşmesini sürdürmek için, Wi-Fi ağının kapsama alanı içinde kalın. Sesli bir sinyal duyacak ve kapsama alanı dışına çıktığınız için görüşmenizin kesildiğini bildiren bir ekran mesajı alacaksınız.</string>
+<string name="wfc_incorrect_sim_alert_title">Hata 05: Geçersiz SIM kart</string>
+<string name="wfc_invalid_sim_alert_message">Önemli Not\nSIM kartınızıın Wi-Fi arama hizmeti uyumluluğu için güncellenmesi gerekmektedir. Lütfen bir T-Mobile mağazasını ziyaret edin veya telefonunuzdan 611\'i çevirerek Müşteri Hizmetlerine ulaşın.</string>
+<string name="ok_string">Tamam</string>
+<string name="wifi_ap_help_title">Yardım</string>
+<string name="help_document">1. Cihazınız, taşınabilir Wi-Fi ort. erş. nok. (ortak erişim noktası) özelliği sayesinde bir internet erişim noktası olarak kullanılabilir. Çevresel cihazlar cihazınıza bağlanabilir ve mobil veri bağlantınız üzerinden internete erişebilir.\n2. Taşınabilir Wi-Fi ort. erş. nok. (ortak erişim noktası) özelliğini kullanmadan önce, mobil veri özelliğini etkinleştirin. Yürürlükteki mobil veri kullanım ücretleri uygulanabilir.\n3. Taşınabilir Wi-Fi ort. erş. nok. (ortak erişim noktası) özelliğini kullanmak daha fazla güç tüketimine neden olacaktır.</string>
+<string name="bg_power_percent_title">Pil yüzdesini göster</string>
+<string name="bg_power_percent_summary">Kalan pil yüzdesini durum çubuğunda göster</string>
+<string name="wfc_tutorial_content_first_page">Wi-Fi araması, kesintili kapsama alanlarına son vermenizi sağlar. Wi-Fi araması sayesinde, mevcut T-Mobil planınızı kullanarak bir Wi-Fi ağı üzerinden çağrılar ve mesajlar gönderebilir ve alabilirsiniz. Wi-Fi araması, özel bir kurulum gerektirmez. Ayarlar menüsünden Kablosuz ve ağlara gidin ve başlatmak için bir Wi-Fi ağına bağlanın.</string>
+<string name="storage_internal_storage_title">Dahili depolama</string>
+<string name="storage_cleaner_preference_title">Depolama temizleyici</string>
+</resources>

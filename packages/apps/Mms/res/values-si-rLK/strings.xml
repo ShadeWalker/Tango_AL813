@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- 
+/*
+ * Copyright (C) 2007-2008 Esmertec AG.
+ * Copyright (C) 2007-2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- add by liujia5 for mms 7bit menu -->
+    <string name="sms_seven_bit">"බිට්-7 ප්‍රශස්තිකරණය"</string>
+    <string name="sms_seven_bit_summary">"එක් පණිවුඩයක සංකේත 160ක් ඇතුළත් කිරීමට හැකි වන සේ බිට්-7 කේතාංකනයට හරවන්න"</string>
+    <!-- add by liujia5 for mms 7bit menu -->
+    <string msgid="1503967887341230795" name="app_label">"පණිවිඩ යැවීම"</string>
+    <string msgid="1530369762346003973" name="new_message">"නව පණිවිඩය"</string>
+    <string msgid="7538482331117914146" name="menu_call_back">"<xliff:g id="NAME">%s</xliff:g> අමතන්න"</string>
+    <string msgid="671366308915241664" name="menu_send_email">"ඊ-තැපෑල <xliff:g id="NAME">%s</xliff:g> වෙත යවන්න"</string>
+    <string msgid="3763437973691046238" name="menu_compose_new">"සකසනය"</string>
+    <string msgid="4693148116114749414" name="menu_preferences">"සැකසීම්"</string>
+    <string msgid="4491980950419914944" name="menu_add_address_to_contacts">"<xliff:g id="CONTACTEMAILORNUMBER">%s</xliff:g> පුද්ගලයින් වෙත එක් කරන්න"</string>
+    <string msgid="5877123227307074690" name="menu_call">"ඇමතුම"</string>
+    <string msgid="2289469305728821360" name="menu_search">"සෙවීම"</string>
+    <string msgid="808729454898114735" name="menu_delete_all">"සියලුම පොටවල් මකන්න"</string>
+    <string msgid="1851666911396479006" name="menu_delete">"පොට මකන්න"</string>
+    <string msgid="7448852683948080108" name="menu_view">"පට බලන්න"</string>
+    <string msgid="6855869130206549643" name="menu_debug_dump">"DEBUG DUMP"</string>
+    <string msgid="987335057871404222" name="refreshing">"යළි නැවුම් කරන්න…"</string>
+    <string msgid="5646161375983084660" name="menu_cell_broadcasts">"සෙල් විකාශකයින්"</string>
+    <string msgid="2487465595514636160" name="has_draft">"කටු සටහන"</string>
+    <string msgid="7795086723069563537" name="no_subject_view">"(කාරණාවක් නොමැත)"</string>
+    <string msgid="3579016854116401602" name="messagelist_sender_self">"මම"</string>
+    <string msgid="4990460971211388453" name="view_slideshow">"කදා දර්ශනය දක්වන්න"</string>
+    <string msgid="7613457646645796831" name="view_message_details">"විස්තර පෙන්වන්න"</string>
+    <string msgid="8219095994071575215" name="view_delivery_report">"වාර්තාව පෙන්වන්න"</string>
+    <string msgid="6442394955910357234" name="delete_message">"මකන්න"</string>
+    <string msgid="4436268382742593921" name="expire_on">"කල් ඉකුත් වන්නේ: <xliff:g id="DATE">%s</xliff:g>"</string>
+    <string msgid="534782148965716631" name="kilobyte">"KB"</string>
+    <string msgid="7479433403599785755" name="undelivered_msg_dialog_title">"නොයවන ලද පණිවිඩය"</string>
+    <string msgid="4789268239627694551" name="undelivered_msg_dialog_body">"මෙම පණිවිඩය යැවීමට නොහැකි විය.\nදරණ ලද උත්සාහය: <xliff:g id="MESSAGE">%s</xliff:g>."</string>
+    <string msgid="4203703285563450868" name="undelivered_sms_dialog_body">"මෙම පණිවිඩය යැවීමට නොහැකි විය."</string>
+    <string msgid="757258847736632791" name="delete_thread">"පොට මකන්න"</string>
+    <string msgid="9026858380050046756" name="menu_forward">"ඉදිරියට"</string>
+    <string msgid="4488877642230207631" name="download">"බාගන්න"</string>
+    <string msgid="1779557575565350637" name="downloading">"බාගතකරමින්"</string>
+    <string msgid="4057621785274119260" name="inline_subject">"&lt;කාරණාව: <xliff:g id="SUBJECT">%s</xliff:g>&gt;"</string>
+    <string msgid="1396394157870730742" name="drm_protected_text">"* DRM ආරක්‍ෂිත පෙළ *"</string>
+    <string msgid="6989074725969164383" name="insufficient_drm_rights">"ප්‍රමාණවත් DRM හිමිකම් සොයාගත නොහැකි විය."</string>
+    <string msgid="4296252229544252834" name="copy_message_text">"පෙළ පිටපත් කරන්න"</string>
+    <string msgid="6838806653341967550" name="message_options">"පණිවිඩ විකල්ප"</string>
+    <string msgid="3501759384739796431" name="slideshow_options">"කදා දර්ශන විකල්ප"</string>
+    <string msgid="7307578107431739359" name="move_up">"ඉහළට ගෙනයන්න"</string>
+    <string msgid="6356509518429479053" name="move_down">"පහලට ගෙන යන්න"</string>
+    <string msgid="2225604354024914900" name="remove_slide">"කදාව ඉවත් කරන්න"</string>
+    <string msgid="9140721399423564187" name="add_slide">"කදාව එක් කරන්න"</string>
+    <string msgid="7351356961076244584" name="add_slide_hint">"නව කදාවක් සෑදීමට ස්පර්ශ කරන්න."</string>
+    <string msgid="5054239124146413609" name="discard_slideshow">"කදා දර්ශනය ඉවත ලන්න"</string>
+    <string msgid="5077675385448696846" name="slide_show_part">"කොටස <xliff:g id="PART">%1$s</xliff:g>/<xliff:g id="TOTAL">%2$s</xliff:g>"</string>
+    <string msgid="2164068850029476539" name="remove_text">"පෙළ ඉවත් කරන්න"</string>
+    <string msgid="7819574884962571479" name="add_picture">"පින්තූරය එක් කරන්න"</string>
+    <string msgid="6378701749074289096" name="remove_picture">"පින්තූරය ඉවත් කරන්න"</string>
+    <string msgid="3827442822987116233" name="add_music">"සංගීතය එක් කරන්න"</string>
+    <string msgid="858889733416015223" name="remove_music">"සංගීතය ඉවත් කරන්න"</string>
+    <string msgid="7816866867806595144" name="add_video">"වීඩියෝව එක් කරන්න"</string>
+    <string msgid="5258603891528497799" name="remove_video">"වීඩියෝව ඉවත් කරන්න"</string>
+    <string msgid="224029549150332986" name="to_hint">"වෙත"</string>
+    <string msgid="4296714962311604126" name="subject_hint">"කාරණය"</string>
+    <string msgid="7103751293360532684" name="add_attachment">"අමුණන්න"</string>
+    <string msgid="7616134948428265870" name="add_subject">"කාරණාව එක් කරන්න"</string>
+    <string msgid="1624800293064498479" name="discard">"ඉවත ලන්න"</string>
+    <string msgid="7929667761715467136" name="view">"පෙනුම"</string>
+    <string msgid="7587904998114459388" name="replace">"ප්‍රතිස්ථාපනය කරන්න"</string>
+    <string msgid="4625444913256213175" name="remove">"ඉවත් කරන්න"</string>
+    <string msgid="4589898724889248486" name="send">"යවන්න"</string>
+    <string msgid="1587631213714914559" name="mms">"MMS"</string>
+    <string msgid="2933162044872550662" name="send_mms">"MMS යවන්න"</string>
+    <string msgid="2663426830306307194" name="all_threads">"සියලුම පොටවල්"</string>
+    <string msgid="3539985471008581265" name="type_to_compose_text_enter_to_send">"පණිවිඩයක් ටයිප් කරන්න"</string>
+    <string msgid="7860109685511253191" name="open_keyboard_to_compose_message">"පණිවිඩයක් ටයිප් කිරීමට යතුරු පුවරුව විවෘත කරන්න"</string>
+    <string msgid="6685337318181265136" name="sending_disabled_not_default_app">"යැවීම අබලයි"</string>
+    <string msgid="1838175321052707875" name="compose_disabled_toast">"රචනා කළ නොහැක. සුපුරුදු SMS යෙදුම නොවේ."</string>
+    <string msgid="1961357529661045180" name="compressing">"පින්තූරය විශාල වැඩියි. සම්පීඩනය කරමින්..."</string>
+    <string msgid="1350489690977363764" name="unsupported_media_format">"සහාය නොදක්වන <xliff:g id="NAME">%1$s</xliff:g> ආකෘතිය."</string>
+    <string msgid="6241623357299382183" name="select_different_media">"වෙනත් <xliff:g id="NAME">%1$s</xliff:g> තෝරන්න."</string>
+    <string msgid="6027753647094742437" name="exceed_message_size_limitation">"පණිවිඩයේ ප්‍රමාණයේ සීමාවට ළඟාවී ඇත."</string>
+    <string msgid="2639367545165352543" name="message_too_big_for_video">"වීඩියෝවක් ඇමිණිමට මෙම පණිවිඩය විශාල වැඩිය."</string>
+    <string msgid="7207464170168708485" name="failed_to_add_media">"ඔබට මෙම <xliff:g id="NAME">%1$s</xliff:g> ඔබගේ පණිවිඩයට එක් කළ නොහැක."</string>
+    <string msgid="5608354151631833669" name="failed_to_resize_image">"පින්තූරය නැවත ප්‍රමාණකරණය නොවුණි."</string>
+    <string msgid="3783200130776554475" name="resize_image_error_information">"පින්තූරය යැවීමට යළි ප්‍රමාණගත කළද විශාල වැඩිය."</string>
+    <string msgid="276280492803486464" name="forward_prefix">"ඉදිරි: "</string>
+    <string msgid="2667664943003796133" name="discard_message_reason">"වලංගු ලබන්නන් නොමැති බැවින් ඔබගේ පණිවිඩය ඉවත ලනු ඇත."</string>
+    <string msgid="1485388396900997383" name="has_invalid_recipient">"වලංගු නොවන ලබන්නා(ලබන්නන්): &lt;<xliff:g id="NAME">%1$s</xliff:g>&gt;"</string>
+    <string msgid="4573835601024786416" name="invalid_destination">"වලංගු නොවන ගමනාන්ත ලිපිනය."</string>
+    <string msgid="9178218144019626176" name="service_not_activated">"ජාලයෙහි සේවාව සක්‍රිය නොමැත."</string>
+    <string msgid="1908877102600048515" name="service_message_not_found">"පණිවිඩය කල් ඉකුත්වී ඇත හෝ දැනට නොමැත."</string>
+    <string msgid="4583269174855943025" name="service_network_problem">"ජාල ගැටලුවක් හේතුවෙන් යැවිය නොහැකි විය."</string>
+    <string msgid="6465343105010999068" name="invalid_recipient_message">"ලබන්නා(ලබන්නන්) නිවැරදි කරන්න නැතිනම් ඔවුනට පණිවිඩය නොලැබෙනු ඇත."</string>
+    <string msgid="3414307479833622644" name="cannot_send_message">"පණිවිඩය යැවිය නොහැක"</string>
+    <string msgid="8745080126044054343" name="cannot_send_message_reason">"ඔබේ පණිවිඩයේ වලංගු ලබන්නන් නොමැත."</string>
+    <string msgid="5047623751430559077" name="cannot_forward_drm_obj">"පණිවිඩයේ ඇතුලත්වන DRM වස්තුව ඉදිරියට ගෙන යා නොහැක."</string>
+    <string msgid="2980023239017588627" name="converting_to_picture_message">"බහු මාධ්‍ය පණිවිඩයක් ලෙසට පරිවර්තනය කරමින්…"</string>
+    <string msgid="4631404749618820994" name="cannot_add_slide_anymore">"තවත් කදා එක් කළ නොහැක."</string>
+    <string msgid="4954353772391381447" name="cannot_add_picture_and_video">"වීඩියෝ සහ පින්තූර එක් කදාවකට එක් කළ නොහැක."</string>
+    <string msgid="3375907366965264446" name="cannot_save_message">"පණිවිඩය සුරැකිය නොහැක."</string>
+    <string msgid="2503018972659880692" name="message_saved_as_draft">"පණිවිඩය කටු සටහනක් ලෙස සුරැකිණි."</string>
+    <string msgid="7003415094007176931" name="too_many_recipients">"පණිවිඩයේ ලබන්නන් වැඩි ගණනක් සිටියි (<xliff:g id="CURRENTCOUNT">%1$s</xliff:g>). මෙහි යවන්නන් <xliff:g id="MAXLIMIT">%2$s</xliff:g> ක සීමාවක් තිබේ."</string>
+    <string msgid="3774037894899750070" name="too_many_attachments">"ඇමිණුම් <xliff:g id="MAXLIMIT">%1$s</xliff:g> ක සීමාවක් මෙහි තිබේ. මුල් <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> පමණක් එක් වෙයි."</string>
+    <string msgid="2034535554212405529" name="adding_attachments_title">"ඇමිණුම් එක් කරමින්"</string>
+    <string msgid="5871373105122355632" name="adding_attachments">"අයිතමයන් කදා දර්ශනයට එක් වනතෙක් මඳක් රැඳී සිටින්න."</string>
+    <string msgid="1232338692400726385" name="building_slideshow_title">"කදා දර්ශනය තනමින්"</string>
+    <string msgid="253920977253666735" name="cannot_play_audio">"ශ්‍රව්‍ය ධාවනය කළ නොහැක."</string>
+    <string msgid="5438149136136446756" name="preview">"පූර්ව දර්ශනය"</string>
+    <string msgid="6824095909448728427" name="preview_slideshow">"පූර්ව දර්ශනය"</string>
+    <string msgid="3171240952601443619" name="replace_image">"පින්තූරය ප්‍රතිස්ථාපනය කරන්න"</string>
+    <string msgid="6617032324007824096" name="duration_sec">"කාල සීමාව (තත් <xliff:g id="DURATION">%s</xliff:g>)"</string>
+    <string msgid="5981097971537625852" name="duration_selector_title">"කදාවක් සඳහා කාල සීමාව "</string>
+    <string msgid="7344600117972450771" name="layout_selector_title">"කදා දර්ශනයේ පිරිසැලැස්ම "</string>
+    <string msgid="6811021650398972346" name="layout_top">"පිරිසැලැස්ම (ඉහල)"</string>
+    <string msgid="5822765871095491843" name="layout_bottom">"පිරිසැලැස්ම (පහල)"</string>
+    <string msgid="7769792471457574059" name="type_to_compose_text_or_leave_blank">"පණිවිඩය ටයිප් කරන්න, නැතිනම් හිස්ව තබන්න"</string>
+    <string msgid="2856636898040421237" name="duration_not_a_number">"කාල සීමාව අංකයක් විය යුතුය."</string>
+    <string msgid="3549377790195185977" name="duration_zero">"කාල සීමාව තත්පර බිංදුවට වඩා වැඩි විය යුතුය."</string>
+    <string msgid="6886003523109967972" name="secs">"තත්පර"</string>
+  <string-array name="select_dialog_items">
+    <item msgid="4840183714016984112">"තත්පර 1"</item>
+    <item msgid="3734955613666864447">"තත්පර 2"</item>
+    <item msgid="6032232473048379828">"තත්පර 3"</item>
+    <item msgid="5978471781525927827">"තත්පර 4"</item>
+    <item msgid="4888440297621208402">"තත්පර 5"</item>
+    <item msgid="6047246213264166841">"තත්පර 6"</item>
+    <item msgid="2327501250056533797">"තත්පර 7"</item>
+    <item msgid="3400770414689795703">"තත්පර 8"</item>
+    <item msgid="4358760614161107970">"තත්පර 9"</item>
+    <item msgid="2618179407176906471">"තත්පර 10"</item>
+    <item msgid="7786079681602275449">"වෙනත්"</item>
+  </string-array>
+    <string msgid="1414670584423909451" name="menu_view_contact">"සම්බන්ධතාව පෙන්වන්න"</string>
+    <string msgid="1258127580972228970" name="menu_add_to_contacts">"පුද්ගලයින් වෙත එක් කරන්න"</string>
+    <string msgid="2776075636669924968" name="hidden_sender_address">"සැඟවුණු යවන්නාගේ ලිපිනය"</string>
+    <string msgid="3246158147503160811" name="yes">"හරි"</string>
+    <string msgid="4289742508556913860" name="no">"අවලංගු කරන්න"</string>
+    <string msgid="4642365398263275979" name="set">"සකසන්න"</string>
+    <string msgid="1888432400937785115" name="play">"ධාවනය කරන්න"</string>
+    <string msgid="5912118407791492696" name="edit">"සංස්කරණය කරන්න"</string>
+    <string msgid="1996751738286080976" name="try_to_send">"යැවීමට උත්සාහ කරන්න"</string>
+    <string msgid="6650089610332670157" name="preferences_title">"සැකසීම්"</string>
+    <string msgid="7165341506551155053" name="restore_default">"සුපුරුදු සැකසීම් ප්‍රතිස්ථාපනය කරන්න"</string>
+    <string msgid="6420782563630369776" name="pref_notification_settings_title">"දැනුම්දීම්"</string>
+    <string msgid="55618772118264355" name="pref_mms_settings_title">"බහු මාධ්‍ය (MMS) පණිවිඩ"</string>
+    <string msgid="5173078369851066881" name="pref_sms_settings_title">"කෙටි (SMS) පණිවිඩ"</string>
+    <string msgid="9001233319190616445" name="pref_sms_storage_title">"ආචයනය"</string>
+    <string msgid="1441894740130104326" name="pref_title_sms_disabled">"SMS අබල කර ඇත"</string>
+    <string msgid="8975773722051230744" name="pref_summary_sms_disabled">"ඔබගේ සුපුරුදු SMS යෙදුම පණිවිඩකරණය බවට පත් කිරීමට ස්පර්ශ කරන්න"</string>
+    <string msgid="1857849790200375277" name="pref_title_sms_enabled">"SMS සබල කර ඇත"</string>
+    <string msgid="2106125420361911250" name="pref_summary_sms_enabled">"ඔබගේ සුපුරුදු SMS යෙදුම වෙනස් කිරීමට ස්පර්ශ කරන්න"</string>
+    <string msgid="4141349892597640864" name="pref_summary_manage_sim_messages">"ඔබගේ SIM කාඩ් පතෙහි ආචය වී තිබෙන පණිවිඩ කළමනාකරණය කරන්න"</string>
+    <string msgid="4874657984217756112" name="pref_summary_mms_delivery_reports">"ඔබ යවන ලද සෑම පණිවිඩයකටම යැවීමේ වාර්තාවක් ඉල්ලන්න"</string>
+    <string msgid="2748323864008907440" name="pref_summary_mms_read_reports">"ඔබ යවන ලද සෑම පණිවිඩයකටම කියවීමේ වාර්තාවක් ඉල්ලන්න"</string>
+    <string msgid="5852207702358546129" name="pref_summary_sms_delivery_reports">"ඔබ යවන ලද සෑම පණිවිඩයකටම යැවීමේ වාර්තාවක් ඉල්ලන්න"</string>
+    <string msgid="7719538116486177613" name="pref_summary_auto_delete">"සීමාවන් ඉක්මන බැවින් පැරණි පණිවිඩ මකන්න"</string>
+    <string msgid="597128041393045216" name="pref_summary_delete_limit">"සංවාදයකට පණිවිඩ <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+    <string msgid="2266928687440696745" name="pref_summary_mms_group_mms">"ලබන්නන් කිහිපදෙනෙක් සිටින විට එක් පණිවිඩයක් යැවීමට MMS භාවිතා කරන්න"</string>
+    <string msgid="7820895261757881177" name="pref_title_manage_sim_messages">"SIM කඩ් පතේ පණිවිඩ කළමනාකරණය කරන්න"</string>
+    <string msgid="6666857926679451910" name="pref_title_mms_delivery_reports">"යැවීමේ වාර්තා"</string>
+    <string msgid="1251698526583908432" name="pref_title_mms_group_mms">"කණ්ඩායම් පණිවිඩ යැවීම්"</string>
+    <string msgid="4882179829495828541" name="pref_title_mms_read_reports">"වාර්තා කියවන්න"</string>
+    <string msgid="876064208254451038" name="pref_title_sms_delivery_reports">"යැවීමේ වාර්තා"</string>
+    <string msgid="7227835692631701134" name="pref_title_auto_delete">"පැරණි පණිවිඩ මකන්න"</string>
+    <string msgid="6890538316799296878" name="pref_title_sms_delete">"පෙළ පණිවිඩ සීමාව"</string>
+    <string msgid="7265878070847351664" name="pref_title_mms_delete">"බහු මාධ්‍ය පණිවිඩ සීමාව"</string>
+    <string msgid="9118792213953729414" name="pref_title_notification_enabled">"දැනුම්දීම්"</string>
+    <string msgid="4251208067092761057" name="pref_title_notification_vibrateWhen">"කම්පනය වීම"</string>
+    <string msgid="8667533917574559659" name="pref_title_notification_ringtone">"ශබ්දය"</string>
+    <string msgid="3202539743892934926" name="pref_messages_to_save">"සුරැකීමට අවශ්‍ය පණිවිඩ ගණන සකසන්න"</string>
+    <string msgid="7981237991326592780" name="silent_ringtone">"නිහඬ"</string>
+    <string msgid="4021878285474431355" name="pref_title_mms_auto_retrieval">"ස්වයං-ලබාගැනීම"</string>
+    <string msgid="925163257363757048" name="pref_summary_mms_auto_retrieval">"ස්වයංක්‍රීයව පණිවිඩ ලබාගන්න"</string>
+    <string msgid="6016227402731817804" name="pref_title_mms_retrieval_during_roaming">"රෝමින් ස්වයං-ලබාගැනීම"</string>
+    <string msgid="2427892806582531020" name="pref_summary_mms_retrieval_during_roaming">"රෝමින් කරන විට ස්වයංක්‍රීයව පණිවිඩ ලබාගන්න"</string>
+    <string msgid="2187213750475782725" name="confirm_dialog_title">"මකන්නද?"</string>
+    <string msgid="8179085718150932242" name="confirm_dialog_locked_title">"අඟුළු ලන ලද පණිවිඩය මකන්නද?"</string>
+  <plurals name="confirm_delete_conversation">
+    <item msgid="7509396981963472833" quantity="one">"එක් සංවාදයක් මැකෙනු ඇත."</item>
+    <item msgid="4076915774012081811" quantity="other">"සංවාද <xliff:g id="NUMBER">%1$s</xliff:g> ක් මැකෙනු ඇත."</item>
+  </plurals>
+    <string msgid="6115966687389279855" name="confirm_delete_conversation">"සම්පුර්ණ පොටම මකා දැමෙනු ඇත."</string>
+    <string msgid="9036166685235092757" name="confirm_delete_all_conversations">"සියලුම පොටවල් මකා දැමෙනු ඇත."</string>
+    <string msgid="9121480656609809591" name="confirm_delete_message">"මෙම පණිවිඩය මකා දැමෙනු ඇත."</string>
+    <string msgid="7203411948190100955" name="confirm_delete_locked_message">"මෙම අඟුළු ලන ලද පණිවිඩය මකන්නද?"</string>
+    <string msgid="8693652297557966665" name="confirm_delete_all_SIM_messages">"SIM කාඩ් පතෙහි ඇති සියලුම පණිවිඩ මකා දැමෙනු ඇත."</string>
+    <string msgid="8535128079045452425" name="confirm_delete_SIM_message">"SIM කාඩ් පතෙහි ඇති මෙම පණිවිඩය මකා දැමෙනු ඇත."</string>
+    <string msgid="7545321606698162261" name="delete_unlocked">"අඟුළු ලන ලද පණිවිඩ මකන්න"</string>
+    <string msgid="1409973060081564612" name="delete">"මකන්න"</string>
+    <string msgid="7816517565640002844" name="select_conversations">"සංවාද තෝරන්න"</string>
+    <string msgid="6773767655149258445" name="no_conversations">"සංවාද නොමැත."</string>
+    <string msgid="5510430408235967094" name="loading_conversations">"සංවාද පුර්ණය වෙමින්."</string>
+    <string msgid="850292987983026806" name="cannot_get_details">"විස්තර ලබාගත නොහැක."</string>
+    <string msgid="9223295113731634528" name="message_details_title">"පණිවිඩ විස්තර"</string>
+    <string msgid="7975373966795945566" name="message_type_label">"වර්ගය: "</string>
+    <string msgid="8196464345251877972" name="text_message">"පෙළ පණිවුඩය"</string>
+    <string msgid="1512644521083533071" name="multimedia_message">"බහු මාධ්‍ය පණිවිඩය"</string>
+    <string msgid="4124031788554972308" name="multimedia_notification">"බහු මාධ්‍ය පණිවිඩ දැනුම්දීම"</string>
+    <string msgid="2055117571548171397" name="from_label">"වෙතින්: "</string>
+    <string msgid="5837363600471845801" name="to_address_label">"වෙත: "</string>
+    <string msgid="530867161453958774" name="bcc_label">"ර.කා.පි.: "</string>
+    <string msgid="2722190650145251584" name="sent_label">"යවන ලදී: "</string>
+    <string msgid="8618029024731693906" name="received_label">"ලැබුණේ: "</string>
+    <string msgid="4183160415593488207" name="saved_label">"සුරකින ලදි "</string>
+    <string msgid="8721241914144101631" name="subject_label">"කාරණාව: "</string>
+    <string msgid="4698016210013319786" name="message_size_label">"පණිවිඩයේ ප්‍රමාණය: "</string>
+    <string msgid="7397600367853359607" name="priority_label">"ප්‍රමුඛතාව: "</string>
+    <string msgid="5627897207952009214" name="priority_high">"ඉහළ"</string>
+    <string msgid="5715227727384683550" name="priority_normal">"සාමාන්‍ය"</string>
+    <string msgid="8928782666023373987" name="priority_low">"පහළ"</string>
+    <string msgid="5115748690481550562" name="message_class_label">"පණිවිඩ පන්තිය: "</string>
+    <string msgid="5810068247647058769" name="error_code_label">"දෝෂ කේතය: "</string>
+    <string msgid="3056513240155967777" name="menu_edit">"සංස්කරණය කරන්න"</string>
+    <string msgid="2610286783513247420" name="menu_delete_messages">"පණිවිඩ මකන්න"</string>
+    <string msgid="7603793126077557472" name="menu_lock">"අඟුළුලන්න"</string>
+    <string msgid="6662865558677424039" name="menu_unlock">"අඟුල අරින්න"</string>
+    <string msgid="3721000641648594602" name="sim_copy_to_phone_memory" product="tablet">"ටැබ්ලටයේ මතකයට පිටපත් කරන්න"</string>
+    <string msgid="5895767417844881971" name="sim_copy_to_phone_memory" product="default">"දුරකතනයේ මතකයට පිටපත් කරන්න"</string>
+    <string msgid="610790510655316922" name="sim_delete">"මකන්න"</string>
+    <string msgid="3989147182100584333" name="sim_manage_messages_title">"SIM කඩ් පතෙහි පෙළ පණිවිඩ"</string>
+    <string msgid="1997173541766393706" name="sim_view">"පෙනුම"</string>
+    <string msgid="2356766833071636297" name="sim_empty">"SIM කඩ් පතෙහි පණිවිඩ නොමැත."</string>
+    <string msgid="5361719578869045764" name="delivery_header_title">"වාර්තාව"</string>
+    <string msgid="8253075950774894961" name="status_none">"(කිසිවක් නැත)"</string>
+    <string msgid="2739860824607984892" name="status_pending">"බලාපොරොත්තු වෙමින්"</string>
+    <string msgid="7576195253780627332" name="status_read">"කියවූ"</string>
+    <string msgid="7264334589461906965" name="status_received">"ලැබුණු"</string>
+    <string msgid="1998776666856593544" name="status_failed">"අසාර්ථකයි"</string>
+    <string msgid="8555305495998700198" name="status_unread">"නොකියැවූ"</string>
+    <string msgid="2613641949065942678" name="status_rejected">"ප්‍රතික්ෂේප කරන ලද"</string>
+    <string msgid="3922667485312634446" name="recipient_label">"ලබන්නන්: "</string>
+    <string msgid="7283375460919181660" name="status_label">"තත්වය: "</string>
+    <string msgid="3514011729156932928" name="delivered_label">"යවන ලද: "</string>
+    <string msgid="6439985727687107742" name="attach_image">"පින්තූර"</string>
+    <string msgid="4280601313184373837" name="attach_take_photo">"පින්තූරය ග්‍රහණය කරගන්න"</string>
+    <string msgid="4264272693501538294" name="attach_video">"වීඩියෝ"</string>
+    <string msgid="3099814114743078615" name="attach_record_video">"වීඩියෝව ග්‍රහණය කරගන්න"</string>
+    <string msgid="3149325985970669609" name="attach_sound">"ශ්‍රව්‍ය"</string>
+    <string msgid="6011431304469858929" name="attach_record_sound">"ශ්‍රව්‍ය තැටිගත කරන්න"</string>
+    <string msgid="3497422151091037063" name="attach_slideshow">"කදා දර්ශනය"</string>
+    <string msgid="4201966447623311931" name="select_bottom_text">"පෙළ පහළින්"</string>
+    <string msgid="6734183477539197815" name="select_top_text">"පෙළ ඉහලින්"</string>
+    <string msgid="5960519861835727013" name="delivery_toast_body">"%s විසින් පණිවිඩය ලබා ගන්නා ලදී."</string>
+    <string msgid="7684007285202109490" name="notification_multiple">"නොකියවූ පණිවිඩ <xliff:g id="COUNT">%s</xliff:g>."</string>
+    <string msgid="332602028959557541" name="notification_multiple_title">"නව පණිවිඩ"</string>
+    <string msgid="6192531993698497229" name="notification_failed_multiple">"පණිවිඩ <xliff:g id="COUNT">%s</xliff:g> ක් යැවිය නොහැක"</string>
+    <string msgid="1112032024904397126" name="notification_failed_multiple_title">"පණිවිඩ නොයැවුණි"</string>
+    <string msgid="1809829051697702810" name="sim_full_title">"SIM කඩ් පත පුර්ණයි"</string>
+    <string msgid="6241664980790322925" name="sim_full_body">"තවත් ඉඩ ලබා ගැනීම සඳහා පණිවිඩ කිහිපයක් මකන්න."</string>
+    <string msgid="6041287140125011854" name="sms_full_title">"පෙළ පණිවිඩය මතකය පුර්ණයි"</string>
+    <string msgid="4885861852397651868" name="sms_full_body">"පිරුණු මතකය හේතුවෙන් එන පණිවිඩයක් ප්‍රතික්ෂේප කෙරුණි. කරුණාකර පැරණි පණිවිඩ කිහිපයක් මකන්න."</string>
+    <string msgid="8548394922491529811" name="sms_rejected_title">"පෙළ පණිවිඩය ප්‍රතික්ෂේප කරන ලදී"</string>
+    <string msgid="7813671133968158562" name="sms_rejected_body">"නොදන්නා හේතුවක් නිසා ලැබෙන පණිවිඩයක් ප්‍රතික්ෂේප කෙරුණි."</string>
+    <string msgid="3842064092332309756" name="type_audio">"ශ්‍රව්‍ය"</string>
+    <string msgid="4091928975383609443" name="type_picture">"පින්තූරය"</string>
+    <string msgid="8521556159545168441" name="type_video">"වීඩියෝව"</string>
+    <string msgid="3155110885840591914" name="confirm">"තහවුරු කරන්න"</string>
+    <string msgid="6997117678914261250" name="message_send_read_report">"කියවීමේ වාර්තාවක් යැවෙනු ඇත."</string>
+    <string msgid="7975945623873194737" name="message_queued">"දැනට ඔබගේ පණිවිඩය යැවිය නොහැක. සේවාව ලැබුණු විට එය යැවෙනු ඇත."</string>
+    <string msgid="7880740763778173551" name="fdn_check_failure">"ඔබට පණිවිඩ යැවිය හැක්කේ ඔබගේ ස්ථාවර අංක වෙත පමණි."</string>
+    <string msgid="4168963736134552285" name="no_subject">"(කාරණාවක් නොමැත)"</string>
+    <string msgid="4929330613278853635" name="unknown_sender">"නොහඳුනන යවන්නෙක්"</string>
+    <string msgid="8097699679464396537" name="dl_failure_notification">"<xliff:g id="SUBJECT">%1$s</xliff:g> පණිවිඩය <xliff:g id="FROM">%2$s</xliff:g> වෙතින් බාගත නොහැකි විය."</string>
+    <string msgid="1347801608211628177" name="rate_limit_surpassed">"තහවුරු කරන්න"</string>
+    <string msgid="234228299751243067" name="confirm_rate_limit">"බහු මාධ්‍ය පණිවිඩ විශාල ගණනක් යැවෙමින් පවතී. එය ගැටලුවක් නැද්ද?"</string>
+    <string msgid="5722226064394767921" name="message_download_failed_title">"පණිවිඩය බාගතකර නොගැනුණි"</string>
+    <string msgid="3469894907399046372" name="message_send_failed_title">"පණිවිඩය යැවුවේ නැත"</string>
+    <string msgid="3421296112073915245" name="message_failed_body">"පණිවිඩය සමලෝචනය කිරීමට ස්පර්ශ කර යළි උත්සාහ කරන්න."</string>
+    <string msgid="5531365714424360903" name="download_later">"මේ දැන් බාගත නොහැක. පසුව යළි උත්සාහ කරන්න."</string>
+    <string msgid="505932916503312015" name="no_apn">"උපාංගය මත APN කිසිවක් නිශ්චය කර නැත."</string>
+    <string msgid="3528161449756771832" name="select_audio">"ශ්‍රව්‍ය තෝරන්න"</string>
+    <string msgid="757028609638184856" name="copy_to_sdcard">"ඇමිණුම් සුරකින්න"</string>
+    <string msgid="7948625615155992014" name="copy_to_sdcard_success">"ඇමිණුම සුරැකිණි."</string>
+    <string msgid="4944606369631916737" name="copy_to_sdcard_fail">"ඇමිණුම් සුරැකීමට නොහැකි විය."</string>
+    <string msgid="2310157075045201051" name="save_ringtone">"රිංග්ටෝනයක් ලෙස සුරකින්න"</string>
+    <string msgid="3847363932276708626" name="saved_ringtone">"රිංග්ටෝන් සුරැකිණි."</string>
+    <string msgid="4778500070919251116" name="saved_ringtone_fail">"රිංග්ටෝන් සුරැකිය නොහැකි විය."</string>
+    <string msgid="4964504393061025071" name="menu_insert_smiley">"සිනාසිමක් ඇතුලත් කරන්න"</string>
+    <string msgid="4288356090262299071" name="menu_group_participants">"කණ්ඩායම් සාමාජිකයින්"</string>
+    <string msgid="3371818607625768447" name="select_link_title">"ක්‍රියාව තෝරන්න"</string>
+    <string msgid="1923958526266726635" name="slide_number">"කදාව <xliff:g id="NUMBER">%s</xliff:g>"</string>
+  <plurals name="slide_duration">
+    <item msgid="1654101988340583935" quantity="one">"තත්පර <xliff:g id="NUMBER">%s</xliff:g>"</item>
+    <item msgid="7887190171856293871" quantity="few">"තත්පර <xliff:g id="NUMBER">%s</xliff:g>"</item>
+    <item msgid="3736425355579939863" quantity="other">"තත්පර <xliff:g id="NUMBER">%s</xliff:g>"</item>
+  </plurals>
+    <string msgid="2957463094232916364" name="delivery_report_activity">"යැවීමේ වාර්තාව"</string>
+    <string msgid="8810530813311077716" name="storage_limits_activity">"ආචයන සීමා"</string>
+    <string msgid="7048606979485031693" name="change_duration_activity">"කාල සීමාව වෙනස් කරන්න"</string>
+    <string msgid="8751493388760050529" name="edit_slideshow_activity">"කදා දර්ශනය සංස්කරණය කරන්න"</string>
+    <string msgid="1254938236543727019" name="recipient_list_activity">"කණ්ඩායම් සාමාජිකයින්"</string>
+    <string msgid="8752829671778696983" name="edit_slide_activity">"කදාව සංස්කරණය කරන්න"</string>
+    <string msgid="5658249461317434432" name="slideshow_activity">"කදා දර්ශනය"</string>
+    <string msgid="6631339964159861048" name="class_0_message_activity">"0 පන්තියේ පණිවිඩය"</string>
+    <string msgid="6042598929386174964" name="search_label">"පණිවිඩ යැවීම"</string>
+    <string msgid="7273727663577472044" name="search_hint">"පණිවිඩ යැවීම සොයන්න"</string>
+    <string msgid="7560238620274735199" name="search">"පණිවිඩ යැවීම"</string>
+    <string msgid="4104004595086437572" name="search_setting_description">"ඔබගේ පණිවිඩයේ පෙළ"</string>
+    <string msgid="2109551478056039278" name="search_empty">"ගැලපීම් නැත."</string>
+  <plurals name="search_results_title">
+    <item msgid="4657073733087431350" quantity="one">"\"<xliff:g id="SEARCH">%2$s</xliff:g>\" සඳහා ප්‍රතිඑල <xliff:g id="NUMBER">%1$s</xliff:g>"</item>
+    <item msgid="6196382287749539209" quantity="other">"\"<xliff:g id="NUMBER">%1$s</xliff:g>\" සඳහා ප්‍රතිඑල <xliff:g id="SEARCH">%2$s</xliff:g>"</item>
+  </plurals>
+    <string msgid="4127805495662693154" name="search_history">"\"<xliff:g id="SEARCH">%2$s</xliff:g>\" සඳහා ප්‍රතිඑල <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+    <string msgid="8510295993632032904" name="confirm_clear_search_title">"හිස් කරන්න"</string>
+    <string msgid="8731877031837077478" name="confirm_clear_search_text">"සෙවුම් ඉතිහාසය හිස් කෙරෙණු ඇත."</string>
+    <string msgid="6159758850628148164" name="pref_mms_clear_search_history_title">"සෙවුම් ඉතිහාසය අස් කරන්න"</string>
+    <string msgid="7960005384066460035" name="pref_mms_clear_search_history_summary">"පෙර පණිවිඩ සෙවුම්, සෙවුම් කොටුවේ පෙන්වීමෙන් වැළැක්වීමට ඒවා ඉවත් කර දමන්න"</string>
+    <string msgid="6847069284991531310" name="save">"සුරකින්න"</string>
+    <string msgid="7074684882530693016" name="storage_limits_title">"සීමිත පණිවිඩ"</string>
+    <string msgid="2010501485394745696" name="storage_limits_message">"ඔබ සංවාදයක් සඳහා සුරකින පණිවිඩ ගණන සීමා කරන්නද?"</string>
+    <string msgid="4952781049308537373" name="storage_limits_setting">"සීමා සකසන්න"</string>
+    <string msgid="1433841310158458034" name="storage_limits_setting_dismiss">"සීමාවක් නැත"</string>
+    <string msgid="4436493698891224126" name="too_many_unsent_mms">"පණිවිඩය දැන් යැවිය නොහැක. නොයවන ලද බහු මාධ්‍ය පණිවිඩ විශාල ගණනක් ඇත."</string>
+    <string msgid="2054406576361149715" name="sending_message">"යවමින්..."</string>
+    <string msgid="650087588867628044" name="pick_too_many_recipients">"ලබන්නන් විශාල සංඛ්‍යාවකි"</string>
+    <string msgid="2962810172527532357" name="adding_recipients">"ලබන්නන් එක් කරමින්…"</string>
+    <string msgid="5402575086540243019" name="draft_separator">", "</string>
+    <string msgid="4434763220590778012" name="message_count_format">" <xliff:g id="NUMBER">%1$s</xliff:g>"</string>
+    <string msgid="3629968600032690007" name="message_count_notification">"නව පණිවිඩ <xliff:g id="NUMBER">%1$s</xliff:g>"</string>
+  <plurals name="message_count_notification_overflow">
+    <item msgid="3340591167508150806" quantity="one">"+තවත් පණිවිඩ <xliff:g id="NUMBER">%1$s</xliff:g>"</item>
+    <item msgid="1393002799298501480" quantity="other">"+තවත් පණිවිඩ <xliff:g id="NUMBER">%1$s</xliff:g>"</item>
+  </plurals>
+    <string msgid="5177386717626893507" name="error_state">"අස්ථිර තත්වය"</string>
+    <string msgid="7918866106335387710" name="error_state_text">"පොටවල තත්වය සහ ලබන්නන් අස්ථිරයි. කරුණාකර දෝෂ වාර්තාවක් ලබාගෙන එය http://go/droidanizer හරහා වාර්තා කරන්න"</string>
+  <plurals name="recipient_count">
+    <item msgid="7338580381574463136" quantity="other">"පුද්ගලයින් <xliff:g id="NUMBER">%1$s</xliff:g>"</item>
+  </plurals>
+    <string msgid="7644011234972074096" name="disable_notifications_dialog_message">"සුපුරුදු පණිවිඩ යැවීමේ යෙදුමෙන් කෙටි පණිවිඩ දැනුම්දීම් අනුපිටපත් කිරීම නවන්ත්වන්නද?"</string>
+    <string msgid="7275920132410734671" name="view_more_conversations">"තවත් සංවාද පෙන්වන්න"</string>
+    <string msgid="2867960243300539143" name="attachment_audio">"ශ්‍රව්‍ය"</string>
+    <string msgid="5867689101881763318" name="attachment_slideshow">"කදා දර්ශනය"</string>
+    <string msgid="4252062022156694591" name="attachment_video">"වීඩියෝව"</string>
+    <string msgid="3709286281567284296" name="attachment_picture">"පින්තූරය"</string>
+    <string msgid="2334673105226536422" name="notification_separator">"  "</string>
+    <string msgid="213598026698964628" name="enumeration_comma">", "</string>
+    <string msgid="4188999027493614617" name="message_timestamp_format">"<xliff:g id="STRING_0">%1$s</xliff:g> - <xliff:g id="STRING_1">%2$s</xliff:g>"</string>
+    <string msgid="7124740686325942375" name="storage_warning_title">"ඔබගේ දුරකථනයේ ආචනය සම්පුර්ණයි"</string>
+    <string msgid="1100367816649962354" name="storage_warning_content">"ඔබට නව SMS/MMS පණිවිඩ නොලැබෙයි"</string>
+    <string msgid="3395185162973061099" name="label_mms_send_outbox_msg">"MMS අවදි කිරීම"</string>
+    <string msgid="1837156781311437148" name="desc_mms_send_outbox_msg">"සියලු MMSs යන ලිපි වෙතින් ජාලය වෙත යවයි"</string>
+    <string name="done_text">"හරි"</string>
+    <string msgid="510014388581481569" name="banner_sms_promo_title_initial">"පනිවිඩකරණය ඔබගේ SMS යෙදුම නොවේ"</string>
+    <string msgid="8123569785369713254" name="banner_sms_promo_title_application">"ඔබගේ SMS යෙදුම <xliff:g id="APPNAME">%s</xliff:g> ය"</string>
+    <string msgid="3536714414252763826" name="banner_sms_promo_message">"ඔබට මෙය සැකසීම් තුළ වෙනස් කළ හැක"</string>
+    <string name="send_empty_message_title">පණිවුඩය යවන්න</string>
+    <string name="send_empty_message_alert">හිස් පණිවුඞයක් යවන්න?</string> 
+    <string name="send_empty_message_yes">හරි </string>  
+    <string name="send_empty_message_no">අවලංගු කරන්න </string> 
+<string name="discard_message">ඉවත ලන්න</string>
+<string name="invalid_number">වැරදි ග්‍රාහකයන්\nකරුණාකර පරික්ෂා කරන්න. නොඑසේ නම්, ඔවුනට පණිඩ ලබා ගත නොහැකි වනු ඇත. </string>
+<string name="converting_to_text_message">පාඨ පණිවුඩයක් බවට හැරෙමින්\u2026</string>
+<string name="prefDialogTitle_vibrateWhen">කම්පනය කරන්න</string>
+<string name="confirm_dialog_title_ru_all">මකා දමන්න</string>
+<string name="confirm_dialog_title_ru_one">මකා දමන්න</string>
+<string name="confirm_dialog_title_ru_other">මකා දමන්න</string>
+<plurals name="confirm_delete_conversation_ru">
+<item quantity="one">එක සංවාදයක් මකා දැමෙනු ඇත</item>
+<item quantity="other">
+<xliff:g example="15" id="number">%1$s</xliff:g> සංවාද මකා දැමෙනු ඇත</item>
+</plurals>
+<string name="menu_delete_all_messages">සියළු පණිවුඩ මකන්න</string>
+<string name="attach_vcard">සබඳතා</string>
+<string name="attach_subjects">විෂය</string>
+<string name="attach_common_phrases">වාඛ්‍ය ඛණ්ඩ</string>
+<plurals name="notification_multiple">
+<item quantity="one">නොකියවූ පණිවුඩ: %d.</item>
+<item quantity="other">නොකියවූ පණිවුඩ: %d.</item>
+</plurals>
+<string name="failed_to_add_audio_type">සමාවෙන්න, මෙම ඕඩියෝව ඔබේ පණිවිඩයට ඇතුල් කළ නොහැක.</string>
+<string name="failed_to_add_picture_type">සමාවෙන්න, මෙම පින්තූරය ඔබේ පණිවිඩයට ඇතුල් කළ නොහැක.</string>
+<string name="failed_to_add_video_type">සමාවෙන්න, මෙම වීඩියෝව ඔබේ පණිවිඩයට ඇතුල් කළ නොහැක.</string>
+<plurals name="smsgroup_recipient_count">
+<item quantity="other">
+<xliff:g example="15" id="number">%1$s</xliff:g>/100</item>
+</plurals>
+<string name="cell_broadcast">සෙල් විකාශනය</string>
+<string name="cell_broadcast_title">සෙල් විකාශන සැකසුම්</string>
+<string name="cell_broadcast_settings">SIM කාඩ්පත් සෙල් විකාශන සැකසුම්</string>
+<string name="menu_insert_quick_text">ඉක්මන් පාඨ ඇතුල් කරන්න</string>
+<string name="select_quick_text">සාමාන්‍ය වාක්‍ය ඛණ්ඩ</string>
+<string name="add">එක් කරන්න</string>
+<string name="quick_text_editor">ක්ෂණික පාඨ සංස්කරණය කරන්න</string>
+<string name="modify_successful">නවීකරණය සාර්ථකයි</string>
+<string name="modify_unsuccessful">නවීකරණය අසාර්ථකයි</string>
+<string name="delete_successful">සාර්ථකව මකාදමන්න</string>
+<string name="delete_unsuccessful">අසාර්ථකව මකාදැමිණ</string>
+<string name="add_quick_text_successful">ඉක්මන් පාඨ සාර්ථකව එක් කරන්න</string>
+<string name="already_have_quick_text">ඔබට දැනටමත් මෙම ඉක්මන් පාඨය ඇත!</string>
+<string name="file_attachment_common_name">බහු ගොනු(<xliff:g id="text">%s</xliff:g>)</string>
+<string name="file_attachment_contains">අන්තර්ගත</string>
+<string name="file_attachment_files">ගොනු</string>
+<string name="save_attachment">ඇමිණුම සුරකින්න</string>
+<string name="save_multi_attachment_notes">බහු ගොනුව ගොනු කිහිපයකින් සමන්විතය. ඒවා පරීක්ෂා කර සුරකින්නද?</string>
+<string name="save_single_attachment_notes">එය MMS හි සහය නොදක්වන ආකෘතියෙන් යුත් ගොනුවකි. එය Filemanager තුළ සුරකින්නද?</string>
+<string name="multi_files">බහු ගොනු</string>
+<string name="save_single_supportformat_attachment_notes">එය Filemanager තුළ සුරකින්නද?</string>
+<string name="exceed_editor_size_limitation">පාඨ සීමාවට ළඟා වී ඇත</string>
+<string name="add_top_slide">ඉහළට ස්ලයිඩයක් එක් කරන්න</string>
+<string name="add_bottom_slide">පහළට ස්ලයිඩයක් එක් කරන්න</string>
+<string name="pref_sms_signature">අත්සන</string>
+<string name="pref_sms_enable_signature">අත්සන එක් කරන්න</string>
+<string name="pref_sms_enable_signature_summary">ඔබේ පණිවිඩ තුලට පෞද්ගලික අත්සන එක් කරන්න</string>
+<string name="pref_sms_personal_signature">අත්සන සංස්කරණය කරන්න</string>
+<string name="pref_sms_personal_signature_summary">අත්සන අන්තර්ගතයන්</string>
+<string name="dialog_signatrue_title">කරුණාකර ඔබගේ අත්සන ඇතුල් කරන්න</string>
+<string name="default_signature">මගේ Huawei ජංගම වෙතින් යවන්න</string>
+<string name="Prohibit_Send">ළමා මාදිලියේදී පණිවිඩ යැවීම සීමා කර ඇත</string>
+<string name="Prohibit_delete">ළමා මාදිලියේදී පණිවිඩ මැකීම සීමා කර ඇත</string>
+<string name="menu_resend">නැවත යවන්න</string>
+<string name="menu_slect_all">සියල්ල තෝරන්න</string>
+<string name="sim_no_service">සේවාව නැත</string>
+<string name="mms_deliver_failed">බහුමාධ්‍ය පණිවිඩය යැවීමට අසමත් විය. කරුණාකර ඔබේ ජාල සැකසුම් හෝ ග්‍රාහක අංකය පරික්ෂා කරන්න</string>
+<string name="menu_blacklist">හිංසන පෙරහන</string>
+<string name="black_list_manager_exception">දුරකථන කලමනාකරු සොයා නොගැණින. මෙම විශේෂාංගය භාවිතා කිරීමට පෙර එය ස්ථාපනය කරන්න.</string>
+<string name="more_menu">මෙනුව</string>
+<string name="vcard_text">පාඨය</string>
+<string name="vcard_mms">MMS vCard</string>
+<string name="btn_call">ඇමතුම</string>
+<string name="menu_add_to_black_list">අසාධු ලේඛනය වෙත එක් කරන්න</string>
+<string name="add_to_black_list">අසාධු ලේඛනය වෙත එක් කෙරිණ</string>
+<string name="menu_remove_from_black_list">අසාධු ලේඛනයෙන් ඉවත් කරන්න</string>
+<string name="remove_from_black_list">අසාධු ලේඛනයෙන් ඉවත් කෙරිණ</string>
+<string name="system_notification_tone">පද්ධති දැනුම්දීම් නාදය</string>
+<string name="signatrue_limit_toast">පාඨ සීමාවට ළඟා වී ඇත.</string>
+<string name="message_has_sent_success">යවන ලදී</string>
+<string name="message_has_been_received">භාරදෙන ලදී</string>
+ <string name="invalid_recipient">"වැරදි ග්‍රාහකයා:&lt;<xliff:g id="NAME">%1$s</xliff:g>&gt;"</string>
+<string name="cell_broadcast_dialog_title">හදිසි අවස්ථාව විපරම</string>
+<string name="cb_mccmncs_switch_default_close">70602, 706020, 71606, 71610, 71617, 71615, 73406, 73401, 73402, 73403, 36801, 71403, 714020, 71401, 37002, 37001, 330110, 36611, 366110, 37203, 71402, 36291, 36251, 344030, 350000, 350010, 366020, 738002, 74604, 376360, 36301, 37004, 34008, 34002, 330120, 74602, 348570, 344930, 714010, 346140, 34614, 338180, 33818, 365840, 36584, 344920, 34492, 342600, 34260, 348170, 34817, 352110, 35211, 354860, 35486, 356110, 35611, 358110, 35811, 360110, 36011, 376350, 37635, 36439, 364390, 374120, 37412, 37412, 36278, 37412, 374129, 33805, 34020, 34877, 35203, 35805, 36007, 36269, 36302, 36320, 37201, 37202, 37413, 53703, 54105, 54202, 71404, 73801, 74603, 338050, 340020, 342750, 348770, 352030, 358050, 360070, 363020, 374130, 714040, 714041, 73406, 73401, 73402, 73403, 71606, 71610, 71617, 71615, 70602, 706020</string>
+<string name="cb_mccmncs_channel_for_50">33403, 334030, 70401, 70601, 708001, 71021, 71073, 70402, 70603, 704020, 706030, 70802, 708020, 70403, 704030, 70604, 706040, 71030, 710300, 72207, 722310, 72234, 722341, 72406, 72410, 72411, 72423, 72405, 72438, 72439, 72431, 72424, 72416, 72402, 72403, 72404, 72408, 22201, 72432, 72433, 72434, 71204, 73404, 732123, 732101, 732103, 732111, 732130, 732187, 732142, 732002, 73299, 73001, 73002, 73003, 73004, 73005, 73006, 73007, 73008, 73009, 73010, 73011, 73099</string>
+<string name="cb_mccmncs_channel_for_919">70403, 704030, 70604, 706040, 71030, 710300, 732123, 73001, 73002, 73003, 73004, 73005, 73006, 73007, 73008, 73009, 73010, 73011, 73099</string>
+<string name="cb_mccmncs_channel_for_921">70403, 704030, 70604, 706040, 71030, 710300, 732123</string>
+<string name="cb_mccmncs_channel_for_4370">70403, 704030, 70604, 706040, 71030, 710300, 73001, 73002, 73003, 73004, 73005, 73006, 73007, 73008, 73009, 73010, 73011, 73099</string>
+<string name="cb_channel_name_for_50">නාලිකාව</string>
+<string name="cb_channel_name_for_919">නාලිකාව</string>
+<string name="cb_channel_name_for_921">නාලිකාව</string>
+<string name="cb_channel_name_for_4370">නාලිකාව</string>
+<string name="media_size_unit">කිබ</string>
+<string name="readable_size_unit">MB</string>
+</resources>

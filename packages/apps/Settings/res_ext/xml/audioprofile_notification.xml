@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orderingFromXml="true"
+    android:persistent="false" >
+
+    <!-- Pulse notification light -->
+    <SwitchPreference
+        android:key="notification_pulse"
+        android:persistent="false"
+        android:switchTextOff=""
+        android:switchTextOn=""
+        android:title="@string/notification_pulse_title" />
+
+    <!-- When device is locked -->
+    <com.android.settings.notification.DropDownPreference
+        android:key="lock_screen_notifications"
+        android:persistent="false"
+        android:title="@string/lock_screen_notifications_title" />
+
+    <!-- App notifications -->
+    <PreferenceScreen
+        android:fragment="com.android.settings.notification.NotificationAppList"
+        android:key="app_notifications"
+        android:title="@string/app_notifications_title" />
+
+    <!-- Notification access -->
+    <Preference
+        android:fragment="com.android.settings.notification.NotificationAccessSettings"
+        android:key="manage_notification_access"
+        android:persistent="false"
+        android:title="@string/manage_notification_access_title" />
+
+</PreferenceScreen>

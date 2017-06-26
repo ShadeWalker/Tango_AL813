@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string-array name="sim_slot">
+    <item>"(no especificado)"</item>
+    <item>Ranura para tarjetas SIM 1</item>
+    <item>Ranura para tarjetas SIM 2</item>
+  </string-array>
+  <string-array name="wifi_WEP_security_type">
+    <item>Automática</item>
+    <item>WEP ASCII</item>
+    <item>"WEP hexadecimal"</item>
+  </string-array>
+  <string-array name="wifi_hotspot_disable_policy_entries">
+    <item>Siempre</item>
+    <item>Desactivar si se produce un período de inactividad de 5 minutos</item>
+    <item>Desactivar si se produce un período de inactividad de 10 minutos</item>
+  </string-array>
+  <string-array name="wifi_ap_wps_mode_entries">
+    <item>Pulsador</item>
+    <item>PIN del cliente</item>
+  </string-array>
+  <string-array name="wifi_ap_max_connection_entries">
+    <item>1 usuario</item>
+    <item>2 usuarios</item>
+    <item>3 usuarios</item>
+    <item>4 usuarios</item>
+    <item>5 usuarios</item>
+    <item>6 usuarios</item>
+    <item>7 usuarios</item>
+    <item>8 usuarios</item>
+  </string-array>
+  <string-array name="wfd_720p_resolution_entry">
+    <item>720p (60 fotogramas/s)</item>
+    <item>﻿720p (30 fotogramas/s)</item>
+  </string-array>
+  <string-array name="wfd_1080p_resolution_entry">
+    <item>1080p (30 fotogramas/s)</item>
+    <item>720p (60 fotogramas/s)</item>
+    <item>720p (30 fotogramas/s)</item>
+  </string-array>
+  <string-array name="wfd_resolution_entry">
+    <item>FHD 1080p (para vídeos)</item>
+    <item>HD 720p (para juegos)</item>
+  </string-array>
+  <string-array name="mouse_primary_button_titles">
+    <item>Mouse para mano derecha</item>
+    <item>Mouse para mano izquierda</item>
+  </string-array>
+  <string-array name="auto_time_entries">
+    <item>Usar tiempo proporcionado por la red</item>
+    <item>Usar tiempo proporcionado por GPS</item>
+    <item>Desactivar</item>
+  </string-array>
+</resources>

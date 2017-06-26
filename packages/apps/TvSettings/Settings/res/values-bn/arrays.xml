@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <skip/>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>স্ক্যান হচ্ছে\u2026</item>
+        <item>সংযুক্ত হচ্ছে\u2026-তে </item>
+        <item>সত্যপ্রতিপাদন করা হচ্ছে\u2026</item>
+        <item>আইপি ঠিকানা লাভ করছে\u2026</item>
+        <item>সংযুক্ত</item>
+        <item>সাময়িকভাবে বাতিল করা হয়েছে</item>
+        <item>বিচ্ছিন্ন হচ্ছে\u2026</item>
+        <item>বিচ্ছিন্ন</item>
+        <item>অসফল</item>
+        <item>ব্লক করা হয়েছে</item>
+        <item>সাময়িকভাবে খারাপ সংযোগ পরিহার করা হচ্ছে</item>
+    </string-array>
+    <skip/>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>স্ক্যান হচ্ছে\u2026</item>
+        <item>সংযুক্ত হচ্ছে  <xliff:g id="network_name">%1$s</xliff:g>\u2026-তে </item>
+        <item>সত্যপ্রতিপাদন করা হচ্ছে  <xliff:g id="network_name">%1$s</xliff:g>\u2026 এর সাথে </item>
+        <item>আইপি ঠিকানা সংগ্রহ করা হচ্ছে  <xliff:g id="network_name">%1$s</xliff:g>\u2026 থেকে </item>
+        <item>সংযুক্ত হচ্ছে  <xliff:g id="network_name">%1$s</xliff:g> সাথে </item>
+        <item>সাময়িকভাবে বাতিল করা হয়েছে</item>
+        <item>বিচ্ছিন্ন করা হচ্ছে  <xliff:g id="network_name">%1$s</xliff:g>\u2026 থেকে </item>
+        <item>বিচ্ছিন্ন</item>
+        <item>অসফল</item>
+        <item>ব্লক করা হয়েছে</item>
+        <item>সাময়িকভাবে খারাপ সংযোগ পরিহার করা হচ্ছে</item>
+    </string-array>
+    <string-array name="sleep_timeout_entries">
+        <item>৫ মিনিট</item>
+        <item>১০ মিনিট</item>
+        <item>১০ মিনিট</item>
+        <item>৩০ মিনিট</item>
+        <item>১ ঘণ্টা</item>
+    </string-array>
+    <string-array name="screen_off_timeout_entries">
+        <item>৩০ মিনিট</item>
+        <item>১ ঘণ্টা</item>
+        <item>৩ ঘণ্টা</item>
+        <item>৬ ঘন্টা</item>
+        <item>১২ ঘণ্টা</item>
+        <item>কখনও না</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>বন্ধ করুন</item>
+        <item>ওভারড্রয়ের এলাকাগুলো দেখান</item>
+        <item>ওভারড্রয়ের কাউন্টারগুলো দেখান</item>
+    </string-array>
+    <string-array name="hdmi_optimization_entries">
+        <item>সেরা রেজ্যুলুশন</item>
+        <item>সেরা ফ্রেমরেট</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>"ডিফল্ট"</item>
+        <item>স্যানস-সেরিফ</item>
+        <item>স্যানস-সেরিফ কনডেন্সড</item>
+        <item>স্যানস-সেরিফ কার্সিভ</item>
+        <item>সেরিফ</item>
+        <item>সেরিফ কার্সিভ</item>
+        <item>ক্যাজুয়াল</item>
+        <item>কার্সিভ</item>
+        <item>ছোট বড়হাতের অক্ষর</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>খুব ছোট</item>
+        <item>ছোট</item>
+        <item>স্বাভাবিক</item>
+        <item>বড়</item>
+        <item>অনেক বড়</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>কোনটি নয়</item>
+        <item>রূপরেখা</item>
+        <item>ছায়া ফেলুন</item>
+        <item>বৃদ্ধি করা হয়েছে</item>
+        <item>কমানো হয়েছে</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>কালোর ওপর সাদা</item>
+        <item>সাদার ওপর কালো</item>
+        <item>কালোর ওপর হলুদ</item>
+        <item>নীলের ওপর হলুদ</item>
+        <item>কাস্টম</item>
+    </string-array>
+</resources>

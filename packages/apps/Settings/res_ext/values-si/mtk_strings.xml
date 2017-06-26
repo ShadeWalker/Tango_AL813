@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- AudioProfile Settings start -->
+    <string name="ring_summary">Ring</string>
+    <string name="ring_vibrate_summary">Ring and vibrate</string>
+    <string name="silent_summary">Silent only</string>
+    <string name="meeting_summary">Vibrate only</string>
+    <string name="outdoor_summary">Loudest ring and vibrate</string>
+    <string name="audio_profile_reset">Reset profile</string>
+    <string name="audio_profile_add">Add audio profile</string>
+    <string name="audio_profile_enable">Enable</string>
+    <string name="audio_profile_rename">Rename</string>
+    <string name="audio_profile_delete">Delete</string>
+    <string name="audio_profile_message_reset">All the audio profile settings will be reset to default</string>
+    <string name="audio_profile_message_rename">Please input the new profile name</string>
+    <string name="audio_profile_message_name_error">The name input is already existed</string>
+    <string name="audio_profile_message_name_length_wrong">Name must contain at least one character</string>
+    <string name="audio_profile_message_delete">Profile <xliff:g id="profile">%s</xliff:g> will be deleted</string>
+    <string name="audio_profile_message_overflow">You are only allowed to add 6 custom profiles</string>
+    <string name="audio_profile_category_custom_title">User defined profiles</string>
+    <string name="audio_profile_category_predefine_title">Sound general settings</string>
+    <string name="audio_profile_error">Error</string>
+    <string name="audio_profile_others">Notification &amp; Others</string>
+    <string name="general_settings_title">General</string>
+    <string name="silent_settings_title">Silent</string>
+    <string name="meeting_settings_title">Meeting</string>
+    <string name="outdoor_settings_title">Outdoor</string>
+    <string name="sound_category_feedback_title">System</string>
+    <string name="sound_category_calls_title">Incoming calls</string>
+    <string name="voice_call_title">Voice call ringtone</string>
+    <string name="voice_call_summary">"Set your default voice calls ringtone"</string>
+    <string name="video_call_title">Video call ringtone</string>
+    <string name="video_call_summary">Set your default video calls ringtone</string>
+    <string name="sip_call_title">SIP call ringtone</string>
+    <string name="sip_call_summary">Set your default SIP calls ringtone</string>
+    <string name="Phone_vibrate_summary">Vibrate devices for incoming calls</string>
+    <string name="vibrate_title">Vibrate</string>
+    <string name="audio_profile_settings_title">Audio profiles</string>
+    <string name="audio_profile_bes_loudness_title" translatable="false">BesLoudness</string>
+    <string name="audio_profile_bes_loudness_summary">Volume booster for speaker</string>
+    <string name="sound_enhancement_title">Sound enhancement</string> 
+    <string name="music_plus_title" translatable="false">BesAudEnh</string>
+    <string name="music_plus_summary">Audio enhancer for earphone</string>
+    <string name="lossless_title">Lossless BT mode</string>
+    <string name="lossless_summary">High quality BT music</string>
+    <string name="lossless_connect_summary">Wi-Fi will be affected by turning on Lossless BT mode. Are you sure to enable?</string>
+    <string name="lossless_on">Lossless BT mode ON</string>
+    <string name="lossless_playing">Lossless BT mode ON</string>
+    <string name="lossless_toastmessage">System sounds will play from phone speaker</string>
+    <string name="lossless_volume_max">Please keep the media volume to maximum</string>
+    <string name="lossless_cannot_found_device">Cannot found LosslessBT device</string>
+    <string name="audio_profile_bes_surround_title">BesSurround</string>
+    <string name="audio_profile_bes_surround_summary">Audio Surrounding</string>
+    <string name="audio_profile_bes_surround_mode_movie">Movie mode</string>
+    <string name="audio_profile_bes_surround_mode_music">Music mode</string>
+    <string name="zen_mode_option_title_novoice">When notifications arrive</string>
+    <!-- AudioProfile Settings end -->
+
+    <!-- MTK WLAN settings start -->
+    <string name="wifi_no_cert_for_wapi">Could not find certification for current connecting AP</string>
+    <string name="sim_slot">SIM Slot</string>
+    <string name="eap_sim_slot_0">Sim Slot 1</string>
+    <string name="eap_sim_slot_1">Sim Slot 2</string>
+    <string name="eap_sim_aka_airplanemode">Please turn off Airplane mode to use EAP-SIM/AKA</string>
+    <string name="eap_sim_aka_no_sim_error">You must insert a sim card to use EAP-SIM/AKA</string>	
+    <string name="eap_sim_aka_no_sim_slot_selected">You must select a sim slot to use EAP-SIM/AKA</string>
+    <string name="wifi_security_wapi_psk" translatable="false">WAPI PSK</string>
+    <string name="wifi_security_wapi_certificate">WAPI Certificate</string>
+    <string name="wapi_user_certificate">User certificate</string>
+    <string name="wapi_as_certificate">ASE certificate</string>
+    <string name="wifi_hex_password">Hexadecimal password.</string>
+    <string name="wifi_WEP_transmit_key">Transmit Key</string>
+    <string name="wifi_WEP_secury_key">Secury Key</string>
+    <string name="wifi_tether_auto_disable_title">Keep Wi-Fi hotspot on</string>
+    <string name="wifi_disconnect" translatable="false">Disconnect</string>
+    <string name="wifi_menu_disconnect" translatable="false">Disconnect from network</string>
+    <string name="apn_list_category_title" translatable="false">Access point list</string>
+    <string name="data_conn_category_title" translatable="false">Data connection</string>
+    <string name="wifi_gprs_selector_title" translatable="false">Network selector</string>
+    <string name="data_enabler_title" translatable="false">Data enabled</string>
+    <string name="data_enabler_summary" translatable="false">Enable data access over Mobile network</string>
+    <string name="data_enabler_waiting_message" translatable="false">"Please wait\u2026"</string>
+    <string name="wifi_tether_fix_channel_width_text" translatable="false">20 MHz</string>
+    <string name="wifi_tether_auto_channel_text">Auto</string>
+    <string name="wifi_tether_auto_channel_width_text">Auto 20/40 MHz</string>
+    <string name="wifi_channel">Preferred Channel</string>
+    <string name="wifi_channel_width">Channel Width</string>
+    <string name="wifi_advanced_ipv4_address_title">IPv4 address</string>
+    <string name="wifi_advanced_ipv6_address_title">IPv6 address</string>
+    <string name="wifi_ipv4_address">IPv4 address</string>
+    <string name="wifi_ipv6_address">IPv6 address</string> 
+    <string name="wifi_ap_auto_join_available">Auto Join</string>
+    <string name="wifi_ap_auto_join_available_summary">Auto choose a better Wi-Fi network while scanning to join when connected</string>
+    <!-- MTK WLAN settings end -->
+
+    <!-- WLAN hotspot client start -->
+    <string name="wifi_tether_setting_title">Basic settings</string>
+    <string name="wifi_tether_wps_connect_title">WPS connect</string>
+    <string name="wifi_tether_wps_connect_summary">Selected Wi-Fi protected setup mode to proceed</string>
+    <string name="wifi_tether_wps_pin_error">Invalid PIN</string>
+    <string name="wifi_tethering_title">Portable Wi-Fi hotspot</string>
+    <string name="wifi_ap_wps_dialog_title">WPS connect</string>
+    <string name="wifi_ap_wps_mode_title">WPS mode</string>
+    <string name="wifi_ap_wps_pin_title">Type PIN from client</string>
+    <string name="wifi_ap_reset_OOB_title">Reset network SSID, security and password to default ( out-of-box configuration for WPS )</string>
+    <string name="wifi_ap_reset_OOB">Reset OOB</string>
+    <string name="wifi_ap_max_connection_title">Maximun connections allowed</string>
+    <string name="wifi_ap_connected_title">Connected users</string>
+    <string name="wifi_ap_blocked_title">Blocked users</string>
+    <string name="wifi_ap_client_block_title">Block</string>
+    <string name="wifi_ap_client_unblock_title">Unblock</string>
+    <string name="wifi_ap_client_details_title">Details</string>
+    <string name="wifi_ap_client_mac_label">MAC address:</string>
+    <string name="wifi_ap_client_ip_label">IP address:</string>
+    <string name="wifi_ap_bandwidth_title">Bandwidth usage</string>
+    <string name="wifi_ap_bandwidth_enable">Enable bandwidth throttling</string>
+    <string name="wifi_ap_bandwidth_chart_title">Real-time data speed</string>
+    <string name="wifi_ap_bandwidth_chart_summary">Measured by your phone, your carrier\'s data speed accounting may differ.</string>
+    <string name="wifi_wps_fail_error">Wi-Fi protected setup failed, try again.</string>
+    <string name="wifi_ap_title">Statistics</string>
+    <string name="wifi_ap_time_duration">Time of duration:<xliff:g id="time">%1$s</xliff:g></string>
+    <string name="wifi_ap_total_data">Total of used data:<xliff:g id="time">%1$s</xliff:g></string>
+    <string name="wifi_ap_bandwidth_megabyteShort" translatable="false">MB/s</string>
+    <string name="wifi_ap_bandwidth_KbyteShort" translatable="false">KB/s</string>
+    <string name="wifi_ap_no_connected">0 connected user</string>
+    <string name="wifi_ap_no_blocked">0 blocked user</string>
+   <!-- add by wanghui for al812 -->
+    <string name="wifi_ap_help_title">Help</string>
+     <string name="help_document">1.You can use portable Wi-Fi hotspot device as your internet access point.Peripherals can be connected to your device through the Wi-Fi and connected devices will access the Internet through the mobile network.\n2.
+     Using a protable Wi-Fi hotspot will require your mobile data connected to be on,and will consume some data traffic.\n3.Using a portable Wi-Fi hotspot may drain your battery life faster.</string>
+    <!-- WLAN hotspot client end -->
+
+    <!-- MTK Beam plus start -->
+    <string name="beam_mgmt_tab_download_title">"RECEIVED"</string>
+    <string name="beam_mgmt_tab_upload_title">"SENT"</string>
+    <string name="beam_share_mgmt_notification_ticker">"Beam share history"</string>
+    <string name="beam_share_mgmt_notification_title">"Beam share history"</string>
+    <string name="beam_share_mgmt_notification_message">"Select to view Beam share history."</string>
+    <string name="beam_share_mgmt_tab_menu_clear">"Clear all"</string>
+    <string name="beam_share_open_file_dialog_title">Can\'t open the file</string>
+    <string name="beam_share_open_file_unsupported_message">The file format is not supported.</string>
+    <string name="beam_share_open_file_not_found_message">"File not found: <xliff:g id="file_name">%1$s</xliff:g></string>
+    <string name="beam_share_transfer_fail_dialog_title">"Beam failed"</string>
+    <string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> was not sent successfully."</string>
+    <string name="beam_share_resend_dialog_ok_button">Try again</string>
+    <string name="beam_share_show_received_files_menu">Show received files</string>
+    <string name="beam_share_history_title">Beam share history</string>
+    <string name="beam_share_clear_confirm_dialog_title">Clear all</string>
+    <string name="beam_share_clear_confirm_dialog_message">Clear all history?</string>
+    <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> was not received successfully."</string>
+    <string name="beam_share_clear_item_dailog_title">Delete</string>
+    <string name="beam_share_clear_item_dailog_message">The item will be deleted.</string>
+    <!-- MTK Beam plus end -->
+
+    <!-- MTK NFC settings start -->
+    <string name="nfc_p2p_mode">P2P mode</string>
+    <string name="nfc_p2p_mode_summary">Send or receive App content</string>
+    <string name="nfc_tag_mode_category">Tag mode</string>
+    <string name="nfc_rw_tag_title">Tag reading  &amp; writing</string>
+    <string name="nfc_rw_tag_summary">Read from or write to a tag</string>
+    <string name="nfc_card_emulation_category_title">Card emulation mode</string>
+    <string name="nfc_card_emulation">Card emulation</string>
+    <string name="card_emulation_settings_category_title">available security element</string>
+    <string name="card_emulation_settings_no_element_found">No available security element.</string>
+    <string name="card_emulation_settings_off_text">To see available security elements, turn Card emulation on.</string>
+    <string name="card_emulation_turning_off_text">Turning Card emulation off...</string>
+    <string name="card_emulation_turning_on_text">Turning Card emulation on...</string>
+    <string name="card_emulation_switch_error_title">Error</string>
+    <string name="card_emulation_switch_error_message">Failed to switch to <xliff:g id="card_mode">%1$s</xliff:g>.</string>
+    <string name="card_emulation_sim_not_supported_message"><xliff:g id="sim_description">%1$s</xliff:g> does not support NFC Card emulation function.</string>
+    <string name="card_emulation_two_sim_not_supported_message">SIM1,SIM2 do not support NFC Card emulation function.</string>
+    <string name="nfc_hce_pay_summary">Using device to TAP &amp; PAY as Google wallet, credit card, etc.</string>
+    <!-- MTK NFC settings end -->
+
+    <!-- MTK WIFI Passpoint start -->
+    <string name="passpoint_title" translatable="false">Passpoint</string>
+    <string name="passpoint_summary" translatable="false">Auto connect to passpoint-enabled APs</string>
+    <string name="passpoint_append_summary" translatable="false">(via Passpoint)</string>
+    <string name="passpoint_append_summary_not_connected" translatable="false">(Passpoint)</string>
+    <string name="passpoint_config_hotspot" translatable="false">Hotspot 2.0</string>
+    <string name="passpoint_config_credential_type" translatable="false">Credential type</string>
+    <string name="passpoint_config_eap_method" translatable="false">EAP method</string>
+    <string name="passpoint_supported" translatable="false">Supported</string>
+    <string name="passpoint_username_pw" translatable="false">Username/Password</string>
+    <string name="passpoint_certificate" translatable="false">Certificate</string>
+    <string name="passpoint_empty_list_passpoint_off" translatable="false">To see service provider, turn passpoint on.</string>
+    <string name="passpoint_empty_list_wifi_off" translatable="false">Passpoint is disabled, turn on Wi\u2011Fi to enable it.</string>
+    <string name="passpoint_empty_list_passpoint_on" translatable="false">No available service provider.</string>
+    <string name="passpoint_notify_message" translatable="false">Select one service provider to do online sign up.</string>
+    <string name="passpoint_available_category" translatable="false">Service providers</string>
+    <string name="passpoint_credential_title" translatable="false">Credential preference</string>
+    <string name="passpoint_credential_notify_message" translatable="false">Choose the preferred credential below.</string>
+    <string name="passpoint_credential_available_category" translatable="false">Online sign up credentials</string>
+    <string name="passpoint_credential_button" translatable="false">Change preference</string>
+    <!-- MTK WIFI Passpoint end -->
+
+    <!-- MTK WFD start -->
+    <string name="wfd_change_resolution_menu_title">Change resolution</string>
+    <string name="wfd_sink_summary">Discoverable by others</string>
+    <string name="wfd_device_category">DEVICES LIST</string>
+    <string name="wfd_sink_toast_enjoy">Enjoy the screen casting from the other device</string>
+    <string name="wfd_sink_toast_disconnect">Cast screen disconnected</string>
+    <string name="wfd_sink_disconnecting">Disconnecting...</string>
+    <string name="wfd_sink_guide_btn">Get it</string>
+    <string name="wfd_sink_guide_title">How to quit?</string>
+    <string name="wfd_sink_guide_content">Long press for <xliff:g id="seconds">%s</xliff:g> seconds on the screen to quit display of another device.</string>
+    <!-- MTK WFD end -->
+
+    <!-- MTK Wifi wps EM start[SKIP COMMENT] -->
+    <string name="wifi_wps_em_pin_setting" translatable="false">PIN Setting</string>
+    <string name="wifi_wps_em_reg_pin" translatable="false">External Registrar PIN</string>
+    <string name="wifi_wps_em_reg_pbc" translatable="false">External Registrar PBC</string>
+    <string name="wifi_wps_em_pin_config" translatable="false">PIN Config</string>
+    <string name="wifi_wps_em_ssid" translatable="false">SSID</string>
+    <string name="wifi_wps_em_security" translatable="false">Security</string>
+    <string name="wifi_wps_em_key" translatable="false">Key</string>
+    <string name="wifi_wps_em_ap_default" translatable="false">Get AP configuration</string> 
+    <string name="wifi_pin_code_title" translatable="false">PIN Code: </string>
+    <string name="wifi_confirm_config" translatable="false">Configure this AP ?</string>
+    <string name="wifi_open_mode" translatable="false">You select the open mode</string> 
+    <string name="wifi_wps_add_device" translatable="false">WPS Registrar Add Device</string>
+    <string name="wifi_p2p_nfc" translatable="false">NFC</string>
+    <string name="wifi_write_p2p_tag" translatable="false">Write P2P Tag</string>
+    <string name="wifi_p2p_oob" translatable="false">OOB Device Discovery</string>
+    <string name="wifi_p2p_auto_go" translatable="false">Autonomous Go </string>
+    <string name="wifi_write_wps_tag" translatable="false">Write WPS Configuration Tag</string>
+    <string name="wifi_p2p_auto_go_device" translatable="false">Auto GO (as Selector) Device Discovery</string>
+    <string name="nfc_password_token" translatable="false">NFC password token</string>
+    <!-- MTK Wifi wps EM end[SKIP COMMENT] -->
+
+    <!-- MTK Storage Settings start -->
+    <string name="mtp_transfer_unmount_error_text">SD card can not be unmounted during file transferring</string>
+    <string name="mtp_transfer_erase_error_text">SD card can not be erased during file transferring</string>
+    <string name="launch_error">"Couldn't launch the application!"</string>
+    <string name="dlg_confirm_unmount_usb_title" product="default">Unmount USB storage?</string>
+    <string name="dlg_confirm_unmount_usb_text" product="default">If you unmount the USB storage, some apps you are using will stop and may be unavailable until you remount the USB storage.</string>
+    <string name="dlg_error_unmount_usb_title" product="default" translatable="false"></string>
+    <string name="dlg_error_unmount_usb_text" product="default">Couldn\'t unmount USB storage. Try again later.</string> 
+    <string name="unmount_usb_inform_text" product="default">USB storage will be unmounted.</string>
+    <string name="sd_eject_usbstorage" product="default">Unmount USB storage</string>
+    <string name="sd_eject_usbstorage_summary" product="default">Unmount USB storage so you can safely remove it</string>
+    <string name="sd_mount_usbstorage" product="default">Mount USB storage</string>
+    <string name="sd_insert_usb_summary" product="default">Insert USB storage for mounting</string>
+    <string name="usb_ums_title">USB storage</string>
+    <string name="usb_ums_summary">"XP recommended. Lets you transfer files between your computer and your Android device."</string>
+    <string name="usb_charge_title">Charge only</string>
+    <string name="usb_connect_as_cdrom_category">"Connect as CD-ROM"</string>
+    <string name="usb_charge_summary">Stop all USB fuctions.Lets you speed up USB charging and decrease power consumption.</string>
+    <string name="akp_installer_settings_title">APK installer</string>
+    <string name="akp_installer_settings_summary">Install your APK from Phone storage and SD card</string>
+    <string name="usb_bicr_title">Built-in CD-ROM</string>
+    <string name="usb_bicr_summary">Show a virtual CD-ROM containing some useful software.</string>
+    <string name="select_memory">Default write disk</string>
+    <string name="dlg_mount_external_sd_title" product="default">Mount SD card?</string>
+    <string name="dlg_mount_external_sd_summary" product="default">If you mount the sd card, some apps you are using will stop.</string>
+    <!-- MTK Storage Settings end -->
+
+    <!-- MTK HDMI start -->
+    <string name="hdmi_toggler" translatable="false">HDMI</string>
+    <string name="hdmi_settings">HDMI settings</string>
+    <string name="hdmi_settings_summary">Click to configure HDMI</string>
+    <string name="hdmi_audio_toggler">Audio</string>
+    <string name="hdmi_video_toggler">Video</string>
+    <string name="hdmi_video_resolution">Video resolution</string>
+    <string name="hdmi_auto">AUTO</string>
+    <string name="hdmi_replace_hdmi" translatable="false">HDMI</string>
+    <string name="hdmi_replace_mhl" translatable="false">MHL</string>
+    <string name="hdmi_scale_control">Video scale settings</string>
+    <string name="hdmi_scale_no_scale">No scaling</string>
+    <string name="hdmi_scale_scale_down">Scale down <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+    <string name="hdmi_audio_output">Audio output</string>
+    <string name="hdmi_audio_output_stereo">Stereo</string>
+    <string name="hdmi_audio_output_multi_channel">Multi Channel</string>
+    <!-- MTK HDMI end -->
+
+    <!-- MTK Display Settings start -->
+    <string name ="landscape_launcher_title">Landscape Launcher </string>
+    <string name ="landscape_launcher_none">None</string>
+    <string name="display_settings_scences_title">Scenes</string>
+    <string name="default_name">Default</string>
+    <string name="custom_theme_name">New [%1$s]</string>
+    <string name="loading">Loading...</string>
+    <string name="auto_backlight_title">Economical backlight</string>
+    <string name="auto_backlight_summary">Automatically adapt backlight to save power</string> 
+    <string name="display_personalize">Personalize</string>
+    <string name="display_default">Screen</string><!-- zhouyoukun fix HQ01533779 -->
+    <string name="clear_motion_summary">Video fluency enhancer</string>
+    <string name="clear_motion_title" translatable="false">ClearMotion™</string>
+    <string name="on_text">On</string>
+    <string name="off_text">Off</string>
+    <string name="mira_vision_title" translatable="false">Display Effect</string>
+    <string name="mira_vision_summary"></string>
+    <!-- MTK Display Settings end -->
+
+    <!--MTK Security Settings start -->
+    <string name="voice_unlock_backup_info_summary">When Voice Unlock can\'t recognize you, how do you want to unlock?</string>
+    <string name="unlock_set_unlock_mode_voice_weak">Voice Unlock</string>
+    <string name="mtk_lock_screen_notifications_title">Lock screen notifications</string>
+    <string name="lock_screen_notifications_summary">Show notifications on lock screen</string>
+    <string name="lock_screen_style_title">Lock screen style</string>
+    <string name="current_suffix">"(Current)"</string>
+    <string name="lockscreen_style_default_desc">"Quick access to applications in lock screen"</string>
+    <string name="security_not_set">Security is not set</string>
+    <string name="voice_ui_title">"Voice Control"</string>
+    <!--MTK Security Settings end -->
+
+    <!-- MTK Wireless settings start -->
+    <string name="pch_toggle_title">GPRS transfer prefer mode</string>
+    <string name="pch_data_prefer_summary_off">Data prefer</string>
+    <string name="pch_call_prefer_summary_on">Call prefer</string>
+    <string name="pch_warning_message">Data transmission rate will decline.</string> 
+    <string name="tethered_ipv6_title">Hotspot &amp; tethering settings</string>
+    <string name="tethered_ipv4v6">(IPv6 available)</string>
+    <string name="tethered_ipv6">(Only IPv6 available)</string>
+    <string name="tethered_ipv4">(IPv6 unavailable)</string>
+    <string name="tethering_apn_settings_title">APN settings</string>
+    <string name="tethering_apn_settings_summary">Configure APN for tethering</string> 
+    <string name="usb_tether_type_title">USB tethering type</string> 
+    <string name="usb_tethering_select_version">Select PC system version</string>
+    <string name="apn_port_warning">The port value must be 1-65535!</string>
+    <string name="apn_predefine_change_dialog_notice">Are you sure to save? Modifications to default APNs may cause connection problems!"</string> 
+    <string name="lockdown_vpn_already_connected">Always on VPN has already been enabled for connection.</string> 
+    <!-- MTK Wireless settings end -->
+
+    <!-- MTK Feature MISC start -->
+    <string name="schedule_power_on_off_settings_title">Automatic power on &amp; off</string>
+    <string name="ipo_title">Quick boot</string>
+    <string name="ipo_summary_on">Disable quick boot</string>
+    <string name="ipo_summary_off">Enable quick boot</string>
+    <string name="rcse_settings_title" translatable="false">Joyn settings</string>
+    <string name="hotknot_settings_title" translatable="false">HotKnot</string>
+    <string name="hotknot_explained_description">Allow data exchange when the screen touches another device</string>
+    <string name="mouse_primary_button_title">Switch primary and secondary buttons</string>
+    <string name="mouse_primary_button_dialog_title">Switch primary button</string>
+    <string name="double_click_title">Double-click speed</string>
+    <string name="test_area">TEST AREA:</string>
+    <string name="double_click_tip">Double click here</string>
+    <string name="hetcom_setting_title">Turbo download</string>
+    <!-- MTK Feature MISC end -->
+
+    <!-- MTK Bluetooth Settings start -->
+    <string name="bluetooth_advanced_settings">Advanced settings</string>
+    <string name="bluetooth_profile_ftp">File transfer</string>
+    <string name="bluetooth_ftp_profile_summary_use_for">Use for file transfer</string>
+    <string name="bluetooth_ftp_profile_summary_connected">"Connected to file transfer"</string>
+    <!-- MTK Bluetooth Settings end -->
+
+    <!--MTK DateTime start-->
+    <string name="gps_time_sync_attention_gps_on">It will take at most 1 minute to obtain GPS fix. Besides, GPS may fail to provide time due to weak environmental signal.\n\nAre you sure to use GPS provided time?</string>
+    <string name="gps_time_sync_attention_gps_off">To use GPS provided time, you must enable GPS first. It then take at most 1 minute to obtain GPS fix. Besides, GPS may fail to provide time due to weak environmental signal. \n\nAre you sure to enable GPS now and wait for GPS provided time?</string>
+    <!--MTK DateTime end-->
+
+    <!--MTK DRM settings start -->
+    <string name="drm_settings_title">DRM reset</string>
+    <string name="drm_settings_summary">Deletes all DRM licenses</string>
+    <string name="drm_reset_dialog_msg">This operation will delete all the licenses on this devices. Continue?</string>
+    <string name="drm_reset_toast_msg">Licenses have been deleted successfully.</string>
+    <!--MTK DRM settings end -->
+
+    <!-- MTK APPS settings start -->
+    <string name="launch_main_label">Launch application</string>
+    <string name="launch_main">Launch the application by main activity</string>
+    <string name="launch_activitie">Launch</string>
+    <string name="move_app_to_where">Move to <xliff:g id="location">%s</xliff:g></string>
+    <!-- MTK APPS settings end -->
+
+    <!-- MTK Battery MISC start -->
+    <string name="battery_level" translatable="false">"<xliff:g id="battery">%s</xliff:g>%%"</string>
+    <string name="bg_power_saving_title">පොරොත්තු බුද්ධිමත් බලය ඉතිරි කර</string>
+    <string name="bg_power_percent_title"> බලය සියයට</string>
+    <string name="bg_power_percent_summary">භාර ඉතිරි ප්රතිශතය දැනුම්දීම් තීරුව දර්ශනය වේ</string>
+    <!-- MTK Battery MISC end -->
+
+    <!-- MTK  Datausage  start -->
+    <string name="mtk_datausage_overview_tab">Overview</string>
+    <string name="mtk_datausage_overview_wifi_today">Today</string>
+    <string name="mtk_datausage_overview_wifi_total">Total</string>
+    <string name="mtk_datausage_overview_mobile_title">MOBILE</string>
+    <string name="mtk_datausage_overview_mobile_usage"><xliff:g id="actual">%s</xliff:g> out of <xliff:g id="limit">%s</xliff:g></string>
+    <string name="mtk_datausage_overview_mobile_usage_warning">Out of limit <xliff:g>%s</xliff:g></string>
+	<string name="data_saving_title">Data saving</string>
+    <!-- MTK  Dtausage  end -->
+
+    <!-- MTK About phone start -->
+    <string name="status_imei_slot1">IMEI(Slot1)</string>
+    <string name="status_imei_slot2">IMEI(Slot2)</string>
+    <string name="custom_build_version">Custom build version</string>
+    <string name="mota_system_update_summary">"Check system update on server"</string>
+    <string name="software_updates_more_title">Software updates</string>
+    <string name="software_updates_more_summary">Check for new version software</string>
+    <!-- MTK About phone end -->
+
+    <!-- MTK sim cards start -->
+    <string name="sim_cards_celluar_data_dialog_title">Choose SIM to use for cellular data</string>
+    <string name="sim_cards_data_sms_dialog_title">Choose SIM to use for SMS messages</string>
+    <string name="sim_cards_calls_dialog_title">Choose account to use for phone calls</string>
+    <string name="sim_cards_other_calls_dialog_title">Choose other accout</string>
+    <string name="sim_cards_other_calls_item_title">Otheraccout</string>
+     <string name="data_connection_progress_message">"Switching SIM will take around 10 seconds to complete. Please wait..."</string>
+    <string name="gemini_sim_mode_progress_activating_message">Activating\u2026</string>
+    <string name="gemini_sim_mode_progress_deactivating_message">Deactivating\u2026</string>
+    <string name="simui_intenet_call">Internet Call</string>
+    <!-- MTK sim cards end -->
+
+    <!-- MTK SIM Status start -->
+    <string name="imei_information_title">IMEI information</string>
+    <string name="imei_information_summary">IMEI relative information</string>
+    <string name="slot_number">(Slot<xliff:g id="slot_num">%1$d</xliff:g>)</string>
+    <string name="sim_info_editor_color">Background color</string>
+    <string name="sim_cards_notify_title">SIM cards have changed</string>
+    <string name="sim_cards_notify_summary">Tap to set preferences.</string>
+    <string name="no_sim_cards_notify_title">No SIM card plugged in</string>
+    <string name="cellular_data_notify_title">Cellular data is unavailable</string>
+    <string name="cellular_data_notify_summary">Tap to set a data SIM.</string>
+	<!-- MTK SIM Status end -->
+
+    <string name="sms_vibrate_summary">vibrate devices for sms</string>
+    <string name="default_data_switch_err_msg1">Can not switch preferred SIM for cellular data during the call.</string>
+
+    <!-- Attention all C2K OM String need to add here -->
+    <!-- C2K OM STRING START -->
+    <string name="current_operators_mccmnc" translatable="false">MCC、MNC</string>
+    <string name="status_current_sidnid" translatable="false">SID、NID</string>
+    <string name="status_current_cellid" translatable="false">CELL ID</string>
+    <string name="status_cdma_signal_strength" translatable="false">CDMA <xliff:g id="csignal">%s \nLTE <xliff:g id = "ltesignal">%s</xliff:g></xliff:g></string>
+    <string name="two_cdma_dialog_msg">Detected 2 CDMA cards, only slot 1 can use CDMA.</string>
+    <!-- C2K OM STRING End -->
+    <string name="voice_call_sim2_title">SIM 2 දුරකථන නාද රටාව</string>
+    <string name="ringtone_sim2_title">SIM 2 දුරකථන නාද රටාව</string>
+
+    <!-- MTK WFC Start -->
+    <string name="wfc_quick_toggle_title">WLAN calling</string>
+    <string name="Help">HELP</string>
+    <string name="Tutorials">Tutorial</string>
+    <string name="Top_questions">Top questions</string>
+    <string name="Wifi_wfc_dialog_title">WLAN calling</string>
+    <string name="Wifi_wfc_dialog_top_wording">You are now connected to WLAN Network Name WLAN Network</string>
+    <string name="Wifi_wfc_dialog_bottom_wording">When you see this symbol at the top of your screen after connected to a WLAN network, you are able to make calls and send messages over WLAN.</string>
+    <string name="two_cdma_dialog_msg">Slot 1 and slot 2 cannot support CDMA simultaneously.</string>
+    <!-- C2K OM STRING End -->
+
+    <!-- MTK WFC Start -->
+    <string name="wfc_quick_toggle_title">Wi-Fi calling</string>
+    <string name="Help">HELP</string>
+    <string name="Tutorials">Tutorial</string>
+    <string name="Top_questions">Top questions</string>
+    <string name="Wifi_wfc_dialog_title">Wi-Fi calling</string>
+    <string name="Wifi_wfc_dialog_top_wording">You are now connected to Wi-Fi Network Name Wi-Fi Network</string>
+    <string name="Wifi_wfc_dialog_bottom_wording">When you see this symbol at the top of your screen after connected to a Wi-Fi network, you are able to make calls and send messages over Wi-Fi.</string>
+    <string name="Skip">SKIP</string>
+    <string name="Learn_more">LEARN MORE</string>
+    <string name="Next">NEXT</string>
+    <string name="Switch_not_in_use_string">The switch is temporarily unavailable. Please try again later.</string>
+    <string name="Done">DONE</string>
+    <string name="Wfc_questions">WLAN calling questions</string>
+    <string name="Wfc_off_summary">Disabled</string>
+    <string name="wfc_on_summary">WLAN calling on</string>
+    <string name="connection_preference">Connection preference</string>
+    <string name="WiFi_preferred">WLAN preferred</string>
+    <string name="Cellular_network_preferred">Cellular network preferred</string>
+    <string name="Never_use_cellular_network">Never use Cellular Network</string>
+    <string name="WiFi_preferred_summary">Use WLAN for calls. If WLAN is unavailable, use cellular network.(Default)</string>
+    <string name="Cellular_network_preferred_summary">Use cellular network for calls. If cellular network is unavailable use WLAN.</string>
+    <string name="Never_use_cellular_network_summary">Use only WLAN for calls. Do not use Cellular network, even if available.</string>
+    <string name="Wfc_questions">Wi-Fi calling questions</string>
+    <string name="Wfc_off_summary">Disabled</string>
+    <string name="wfc_on_summary">Wi-Fi calling on</string>
+    <string name="connection_preference">Connection preference</string>
+    <string name="WiFi_preferred">Wi-Fi preferred</string>
+    <string name="Cellular_network_preferred">Cellular network preferred</string>
+    <string name="Never_use_cellular_network">Never use Cellular Network</string>
+    <string name="WiFi_preferred_summary">Use Wi-Fi for calls. If Wi-Fi is unavailable, use cellular network.(Default)</string>
+    <string name="Cellular_network_preferred_summary">Use cellular network for calls. If cellular network is unavailable use Wi-Fi.</string>
+    <string name="Never_use_cellular_network_summary">Use only Wi-Fi for calls. Do not use Cellular network, even if available.</string>
+    <string name="no_sim_present_error">No Sim present</string>
+    <string name="inavlid_sim_error">Error05: Invalid Sim</string>
+    <string name="airplane_mode_on">Airplane mode is on</string>
+    <string name="cellular_prefered_summary">Cellular preferred is your connection preference</string>
+    <string name="wifi_off_summary">WLAN turned Off</string>
+    <string name="not_connected_to_wifi_summary">Not connected to WLAN</string>
+    <string name="poor_wifi_signal_summary">Poor WLAN signal</string>
+    <string name="wifi_off_summary">Wi-Fi turned Off</string>
+    <string name="not_connected_to_wifi_summary">Not connected to Wi-Fi</string>
+    <string name="poor_wifi_signal_summary">Poor Wi-Fi signal</string>
+    <string name="wfc_enabling_summary">Enabling...</string>
+    <string name="wfc_disabling_summary">Disabling...</string>
+    <string name="wfc_ready_for_calls_summary">Ready for calls</string>
+    <string name="wfc_unknown_error_summary">Unknown error</string>
+    <string name="wfc_tutorial_heading">LEARN ALL ABOUT WLAN CALLING</string>
+    <string name="wfc_tutorial_content_first_page">WLAN calling lets you say goodbye to spotty coverage. With WLAN calling you can send and receive calls and messages over a WLAN network using your existing T-Mobile plan. There\'s no special setup needed for WLAN calling. From the settings menu, go to Wireless and Networks and connect to a WLAN network to get started.</string>
+    <string name="wfc_tutorial_content_second_page_part1">Once you see the WLAN calling icon in the status bar, your phone is ready for WLAN calling.</string>
+    <string name="wfc_tutorial_content_second_page_part2">To stay on a WLAN call, remain in the range of the WLAN network. You\'ll get an audible beep and a screen message letting you know when a call has dropped because you have moved out of range.</string>
+    <string name="wfc_incorrect_sim_alert_title">Error05: Invalid SIM card</string>
+    <string name="wfc_invalid_sim_alert_message">Important Notice\nYour SIM card needs to be updated for WLAN Calling service compatibility. Please visit a T-Mobile store or dial 611 from your phone to reach Customer Care.</string>
+	<string name="ok_string">OK</string>
+
+    <string name="Wfc_tut_first_page">
+		<![CDATA[<p><b><font color=\"#000000\" size="16">LEARN ALL ABOUT WLAN CALLING</font></b></p>
+		<img src="divider_horizontal_holo_dark" alt="THIN GREY LINE">
+		<p><font color=\"#757575\" size="14">WLAN calling lets you say goodbye to spotty coverage. With WLAN calling you can send and receive calls and messages over a WLAN network using your existing T-Mobile plan. There\'s no special setup needed for WLAN calling. From the settings menu, go to Wireless and Networks and connect to a WLAN network to get started.
+    <string name="wfc_tutorial_heading">LEARN ALL ABOUT Wi-Fi CALLING</string>
+    <string name="wfc_tutorial_content_first_page">Wi-Fi calling lets you say goodbye to spotty coverage. With Wi-Fi calling you can send and receive calls and messages over a Wi-Fi network using your existing T-Mobile plan. There\'s no special setup needed for Wi-Fi calling. From the settings menu, go to Wireless and Networks and connect to a Wi-Fi network to get started.</string>
+    <string name="wfc_tutorial_content_second_page_part1">Once you see the Wi-Fi calling icon in the status bar, your phone is ready for Wi-Fi calling.</string>
+    <string name="wfc_tutorial_content_second_page_part2">To stay on a Wi-Fi call, remain in the range of the Wi-Fi network. You\'ll get an audible beep and a screen message letting you know when a call has dropped because you have moved out of range.</string>
+    <string name="wfc_incorrect_sim_alert_title">Error05: Invalid SIM card</string>
+    <string name="wfc_invalid_sim_alert_message">Important Notice\nYour SIM card needs to be updated for Wi-Fi Calling service compatibility. Please visit a T-Mobile store or dial 611 from your phone to reach Customer Care.</string>
+	<string name="ok_string">OK</string>
+
+    <string name="Wfc_tut_first_page">
+		<![CDATA[<p><b><font color=\"#000000\" size="16">LEARN ALL ABOUT WLAN CALLING</font></b></p>
+		<img src="divider_horizontal_holo_dark" alt="THIN GREY LINE">
+		<p><font color=\"#757575\" size="14">WLAN calling lets you say goodbye to spotty coverage. With WLAN calling you can send and receive calls and messages over a WLAN network using your existing T-Mobile plan. There\'s no special setup needed for WLAN calling. From the settings menu, go to Wireless and Networks and connect to a WLAN network to get started.
+		</font></p>]]>
+ 	</string>
+ 	
+ 	<string name="Wfc_tut_second_page">
+		<![CDATA[<p><b><font color=\"#000000\" size="16">LEARN ALL ABOUT WLAN CALLING</font></b></p>
+		<img src="divider_horizontal_holo_dark" alt="THIN GREY LINE">
+		<p><font color=\"#757575\" size="14">Once you see the WLAN calling icon in the status bar, your phone is ready for WLAN calling.</font></p>
+		<img src="wfc_tutorial_icon" alt="Green WFC icon">
+		<p><font color=\"#757575\" size="14">To stay on a WLAN call, remain in the range of the WLAN network. You\'ll get an audible beep and a screen message letting you know when a call has dropped because you have moved out of range.</font></p>
+		<![CDATA[<p><b><font color=\"#000000\" size="16">LEARN ALL ABOUT WI-FI CALLING</font></b></p>
+		<img src="divider_horizontal_holo_dark" alt="THIN GREY LINE">
+		<p><font color=\"#757575\" size="14">Once you see the Wi-Fi calling icon in the status bar, your phone is ready for Wi-Fi calling.</font></p>
+		<img src="wfc_tutorial_icon" alt="Green WFC icon">
+		<p><font color=\"#757575\" size="14">To stay on a Wi-Fi call, remain in the range of the Wi-Fi network. You\'ll get an audible beep and a screen message letting you know when a call has dropped because you have moved out of range.</font></p>
+		]]>
+ 	</string>
+ 	
+ 	<string name="Wfc_top_questions_page">
+		<![CDATA[<p><b><font color=\"#000000\" size="16">What is WLAN Calling\?</font></b></p>
+		<img src="divider_horizontal_holo_dark" alt="THIN GREY LINE">
+		<p><font color=\"#757575\" size="14">WLAN Calling lets you make and receive voice calls and text\/text/multimedia messages over WLAN when your phone is connected to a WLAN network and registered with the T-Mobile network for WLAN Calling.</font></p>
+		
+		<p><b><font color=\"#000000\" size="16">How do I enable WLAN\?</font></b></p>
+		<img src="divider_horizontal_holo_dark" alt="THIN GREY LINE">
+		<p><font color=\"#757575\" size="14">To enable WLAN, use the wireless control section of your Android settings menu.</font></p>
+		
+		<p><b><font color=\"#000000\" size="16">How do I enable WLAN Calling\?</font></b></p>
+		<img src="divider_horizontal_holo_dark" alt="THIN GREY LINE">
+		<p><font color=\"#757575\" size="14">By default, your phone is enabled for WLAN Calling as soon as you enable the WLAN radio. WLAN Calling can be controlled from the WLAN Calling Settings.</font></p>
+		
+		<p><b><font color=\"#000000\" size="16">How do I know when I am using WLAN for my calls\?</font></b></p>
+		<img src="divider_horizontal_holo_dark" alt="THIN GREY LINE">
+		<p><font color=\"#757575\" size="14">When your phone associates with a WLAN network, it will automatically try to register with the T-Mobile network for WLAN Calling. Once the registration has successfully completed you will see the WLAN Calling icon in the Status Bar. You will also see the WLAN Calling icon displayed in the dialer (in place of your regular calling icon) and you will briefly see a message at the top of the screen saying, \"Calls will be made over WLAN.\"</font></p>
+		
+		<p><b><font color=\"#000000\" size="16">Will calls or SMS\/MMS over WLAN be charged differently than my cellular calls\?</font></b></p>
+		<img src="divider_horizontal_holo_dark" alt="THIN GREY LINE">
+		<p><font color=\"#757575\" size="14">The primary benefit of WLAN Calling is to increase your coverage in locations with WLAN. Calls and messages made over WLAN will be charged like cellular calls for certain plans.</font></p>
+		
+		<p><b><font color=\"#000000\" size="16">What happens if I lose WLAN coverage\?</font></b></p>
+		<img src="divider_horizontal_holo_dark" alt="THIN GREY LINE">
+		<p><font color=\"#757575\" size="14">If you have access to the LTE network and your device is VoLTE enabled, your call will seamlessly transition the TMobile LTE network. However, if you do not have LTE or other cellular network access, any active call will drop. You will receive a notification if your call drops due to a loss of WLAN coverage.</font></p>
+		]]>
+ 	</string>
+ 
+    <!-- MTK WFC end -->
+    <!-- HQ_xupeixin at 2015-09-17 modified settings->storage page likes p8 begin -->
+    <string name="storage_internal_storage_title">Internal storage</string>
+    <string name="storage_cleaner_preference_title">Storage cleaner</string>
+    <!-- HQ_xupeixin at 2015-09-17 modified end -->
+    <string name="c2k_cdma_card_competion_message"><xliff:g id="current_sim">%1$s</xliff:g> will not work temporarily, and if any default Call, SMS, Data on <xliff:g id="now_sim">%2$s</xliff:g> will be changed into <xliff:g id="target_sim">%3$s</xliff:g> accordingly.</string>
+    <string name="c2k_gsm_cdma_sim_message">Tapping “YES” to switch 4G onto <xliff:g id="sim1">%1$s</xliff:g> as well, <xliff:g id="sim2">%2$s</xliff:g> will not work, and if any default Call,SMS on <xliff:g id="sim3">%3$s</xliff:g> will be changed into <xliff:g id="sim4">%4$s</xliff:g> accordingly. Tapping “No” to change Cellular data only.</string>
+</resources>

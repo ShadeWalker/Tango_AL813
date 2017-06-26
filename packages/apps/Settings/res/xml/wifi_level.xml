@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:drawable="@drawable/stat_sys_wifi_signal_0"
+        android:maxLevel="0"
+        android:minLevel="0"/>
+    <item
+        android:drawable="@drawable/stat_sys_wifi_signal_1"
+        android:maxLevel="1"
+        android:minLevel="1"/>
+    <item
+        android:drawable="@drawable/stat_sys_wifi_signal_2"
+        android:maxLevel="2"
+        android:minLevel="2"/>
+    <item
+        android:drawable="@drawable/stat_sys_wifi_signal_3"
+        android:maxLevel="3"
+        android:minLevel="3"/>
+    <item
+        android:drawable="@drawable/stat_sys_wifi_signal_4"
+        android:maxLevel="4"
+        android:minLevel="4"/>
+
+</level-list>

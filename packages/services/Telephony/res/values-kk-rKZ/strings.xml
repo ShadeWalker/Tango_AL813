@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="1107073389495104784" name="phoneAppLabel" product="tablet">"Ұялы деректер"</string>
+    <string msgid="906161039445636857" name="phoneAppLabel" product="default">"Телефон"</string>
+    <string msgid="7812140032168171053" name="emergencyDialerIconLabel">"Төтенше тергіш"</string>
+    <string msgid="2331230813161304895" name="phoneIconLabel">"Телефон"</string>
+    <string msgid="8630418672279521003" name="fdnListLabel">"Тұрақты теру нөмірлерінің тізімі"</string>
+    <string msgid="6878797917991465859" name="unknown">"Белгісіз"</string>
+    <string msgid="6713286113000232309" name="private_num">"Жеке нөмір"</string>
+    <string msgid="4793877574636445118" name="payphone">"Автомат-телефон"</string>
+    <string msgid="9035493194749959955" name="onHold">"Күтуде"</string>
+    <string msgid="6347869857061147003" name="mmiStarted">"MMI коды басталды"</string>
+    <string msgid="485588686340541690" name="ussdRunning">"USSD коды қосулы…"</string>
+    <string msgid="2771923949751842276" name="mmiCancelled">"MMI коды жарамсыздандырылған"</string>
+    <string msgid="5044513931633602634" name="cancel">"Тоқтату"</string>
+    <string msgid="1810529547726803893" name="enter_input">"USSD хабары <xliff:g id="MIN_LEN">%d</xliff:g> және <xliff:g id="MAX_LEN">%d</xliff:g> аралығындағы таңбалардан тұруы тиіс. Қайта әрекеттеніп көріңіз"</string>
+    <string msgid="4691922394301969053" name="manageConferenceLabel">"Мәжіліс қоңырауын басқару"</string>
+    <string msgid="3811371167865772377" name="ok">"Жарайды"</string>
+    <string msgid="27649582100085266" name="audio_mode_speaker">"Үндеткіш"</string>
+    <string msgid="4156527186373869107" name="audio_mode_earpiece">"Телефон құлағы"</string>
+    <string msgid="1465350758489175975" name="audio_mode_wired_headset">"Сымды телефон"</string>
+    <string msgid="3047641300848211128" name="audio_mode_bluetooth">"Bluetooth"</string>
+    <string msgid="7601815427707856238" name="wait_prompt_str">"Келесі әуендер жіберілсін бе?\n"</string>
+    <string msgid="1789964702154314806" name="pause_prompt_str">"Жіберу әуендері\n"</string>
+    <string msgid="4106860097497818751" name="send_button">"Жіберу"</string>
+    <string msgid="3564467212025151797" name="pause_prompt_yes">"Иә"</string>
+    <string msgid="6686238803236884877" name="pause_prompt_no">"Жоқ"</string>
+    <string msgid="5543521676355533577" name="wild_prompt_str">"Ерекше таңбаны келесі таңбамен алмастыру"</string>
+    <string msgid="4164780423805688336" name="no_vm_number">"Дауыс хабарының нөмірі жоқ"</string>
+    <string msgid="1300729501030053828" name="no_vm_number_msg">"SIM картасында ешқандай дауыс хабарының нөмірі сақталмаған."</string>
+    <string msgid="4676479471644687453" name="add_vm_number_str">"Нөмір қосу"</string>
+    <string msgid="2284912838477558454" name="puk_unlocked">"SIM картаңыз ашылды. Телефоныңыздың бекітпесі ашылуда…"</string>
+    <string msgid="780479633159517250" name="label_ndp">"SIM желісін ашатын PIN код"</string>
+    <string msgid="683628237760543009" name="sim_ndp_unlock_text">"Бекітпесін ашу"</string>
+    <string msgid="1604823375752456947" name="sim_ndp_dismiss_text">"Бас тарту"</string>
+    <string msgid="6412629401033249351" name="requesting_unlock">"Желінің бекітпесін ашуды өтінуде…"</string>
+    <string msgid="6490531697031504225" name="unlock_failed">"Желінің бекітпесін алу өтініші орындалмады."</string>
+    <string msgid="6770085622238180152" name="unlock_success">"Желінің бекітпесін алу орындалды."</string>
+    <string msgid="3831911315358856062" name="mobile_network_settings_not_available">"Ұялы желі параметрлері бұл пайдаланушы үшін қол жетімді емес"</string>
+    <string msgid="5930842194056092106" name="labelGSMMore">"GSM қоңырауының параметрлері"</string>
+    <string msgid="1630676740428229339" name="labelCDMAMore">"CDMA қоңырауының параметрлері"</string>
+    <string msgid="9043423184895642077" name="apn_settings">"Қол жетімділік нүктесінің атаулары"</string>
+    <string msgid="3876743539816984008" name="settings_label">"Желі параметрлері"</string>
+    <string msgid="6376603393888116364" name="phone_accounts">"Есептік жазбаларға қоңыр. шалу"</string>
+    <string msgid="1969188078933152231" name="phone_accounts_make_calls_with">"Келесінің көмегімен қоңыраулар шалу"</string>
+    <string msgid="4677789312053828493" name="phone_accounts_make_sip_calls_with">"Келесінің көмегімен SIP қоңырауларын шалу"</string>
+    <string msgid="4346499067149985702" name="phone_accounts_ask_every_time">"Алдымен сұрау"</string>
+    <string msgid="4141710640883261094" name="phone_accounts_settings_header">"Параметрлер"</string>
+    <string msgid="5232948804226424002" name="phone_accounts_choose_accounts">"Есептік жазбаларды таңдау"</string>
+    <string msgid="1365215726106915865" name="phone_accounts_selection_header">"Телефон есептік жазбалары"</string>
+    <string msgid="2023821743341923271" name="phone_accounts_add_sip_account">"SIP есептік жазбасын қосу"</string>
+    <string msgid="1361715069911607109" name="phone_accounts_configure_account_settings">"Есептік жазба параметрлерін конфигурациялау"</string>
+    <string msgid="1840272538233414629" name="phone_account_wifi_calling">"Wi-Fi қоңыраулары"</string>
+    <string msgid="7491443219113013323" name="wifi_calling_do_not_use">"Wi-Fi қоңырауларын пайдаланбау"</string>
+    <string msgid="5420257095556091770" name="wifi_calling_do_not_use_call_assistant">"Қоңыраулар көмекшісін пайдаланбау"</string>
+    <string msgid="6283702349285593683" name="wifi_calling_call_assistant_none">"Ешқандай"</string>
+    <string msgid="229102032881680320" name="wifi_calling_call_assistant">"Қоңыраулар көмекшісі"</string>
+    <string msgid="8460024827012666199" name="wifi_calling_use_call_assistant">"Қоңыраулар көмекшісін пайдалану"</string>
+    <string msgid="9296558058772293" name="wifi_calling_select_call_assistant">"Қоңыраулар көмекшісін таңдау"</string>
+    <string msgid="164985727137156474" name="wifi_calling_select_call_assistant_summary">"Келесі арқылы қоңыраулар үшін пайдаланылатын желілерді басқару"</string>
+    <string msgid="6599987137133339698" name="wifi_calling_use_call_assistant_summary">"Қолданбаларға немесе қызметтерге қоңыраулар үшін пайдаланылатын желілерді басқаруға мүмкіндік береді"</string>
+    <string msgid="1092639708949670031" name="wifi_calling_call_assistant_configure">"Конфигурациялау"</string>
+    <string msgid="1498481943805913754" name="connection_service_default_label">"Кірістірілген байланыс қызметі"</string>
+    <string msgid="8693759337917898954" name="voicemail">"Дауыс-хабар"</string>
+    <string msgid="2215592488517217448" name="voicemail_abbreviated">"ДХ:"</string>
+    <string msgid="8873030692174541976" name="networks">"Желі операторлары"</string>
+    <string msgid="8740238216690502563" name="cell_broadcast_settings">"Жедел таратылымдар"</string>
+    <string msgid="6112441768261754562" name="call_settings">"Қоңырау параметрлері"</string>
+    <string msgid="1391795981938800617" name="additional_gsm_call_settings">"Қосымша параметрлер"</string>
+    <string msgid="1385241520708457376" name="additional_gsm_call_settings_with_label">"Қосымша параметрлер (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string msgid="4076647190996778012" name="sum_gsm_call_settings">"GSM ғана қоңырауының қосымша параметрлері"</string>
+    <string msgid="8628958775721886909" name="additional_cdma_call_settings">"Қосымша CDMA қоңырау шалу параметрлері"</string>
+    <string msgid="284753265979035549" name="sum_cdma_call_settings">"Қосымша CDMA ғана қоңырауларының параметрлері"</string>
+    <string msgid="4699970172021870983" name="labelNwService">"Желі қызметінің параметрлері"</string>
+    <string msgid="3888899447379069198" name="labelCallerId">"Қоңырау шалушының жеке анықтағышы"</string>
+    <string msgid="1826692909391168620" name="sum_loading_settings">"Жүктеу параметрлері…"</string>
+    <string msgid="1071407020290873782" name="sum_hide_caller_id">"Шығыс қоңырауларда нөмірді жасыру"</string>
+    <string msgid="6768534125447290401" name="sum_show_caller_id">"Шығыс қоңыраулар нөмірді көрсету"</string>
+    <string msgid="1954518825510901365" name="sum_default_caller_id">"Шығыс қоңырауларында менің нөмірім көрсетілуі үшін бастапқы оператор параметрлерін қолдану"</string>
+    <string msgid="6120513814915920200" name="labelCW">"Күтудегі қоңырау"</string>
+    <string msgid="8083061901633671397" name="sum_cw_enabled">"Қоңырау кезінде маған келген қоңыраулар жайлы хабарлау"</string>
+    <string msgid="3648693907300104575" name="sum_cw_disabled">"Қоңырау кезінде маған келген қоңыраулар жайлы хабарлау"</string>
+    <string msgid="3378927671091537173" name="call_forwarding_settings">"Қоңырауды басқа нөмірге бағыттау параметрлері"</string>
+    <string msgid="8569489414006897127" name="call_forwarding_settings_with_label">"Қоңырауды басқа нөмірге бағыттау параметрлері (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string msgid="2574386948026924737" name="labelCF">"Қоңырауды басқа нөмірге бағыттау"</string>
+    <string msgid="8147177368148660600" name="labelCFU">"Әрқашан бағыттау"</string>
+    <string msgid="3560082430662923687" name="messageCFU">"Әрқашан осы нөмірді қолдану"</string>
+    <string msgid="4014187342724130197" name="sum_cfu_enabled_indicator">"Барлық қоңырауларды бағыттауда"</string>
+    <string msgid="2450052502198827927" name="sum_cfu_enabled">"Барлық қоңырауларды <xliff:g id="PHONENUMBER">{0}</xliff:g> нөміріне бағыттауда"</string>
+    <string msgid="6591985777096823616" name="sum_cfu_enabled_no_number">"Нөмір қол жетімсіз"</string>
+    <string msgid="8384177689501334080" name="sum_cfu_disabled">"Өшірулі"</string>
+    <string msgid="6139853033106283172" name="labelCFB">"Бос емес болғанда"</string>
+    <string msgid="3711089705936187129" name="messageCFB">"Бос болмағанда бағытталатын нөмір"</string>
+    <string msgid="5984198104833116690" name="sum_cfb_enabled">"<xliff:g id="PHONENUMBER">{0}</xliff:g> нөміріне бағытталуда"</string>
+    <string msgid="4913145177320506827" name="sum_cfb_disabled">"Өшірулі"</string>
+    <string msgid="3506984333877998061" name="disable_cfb_forbidden">"Телефоныңыз қолданыста болғанда операторыңыз қоңырауды басқа нөмірге бағыттауды өшіруді қолдамайды."</string>
+    <string msgid="1736067178393744351" name="labelCFNRy">"Жауап берілмегенде"</string>
+    <string msgid="672317899884380374" name="messageCFNRy">"Жауап болмағанда бағытталатын нөмір"</string>
+    <string msgid="6955775691317662910" name="sum_cfnry_enabled">"<xliff:g id="PHONENUMBER">{0}</xliff:g> нөміріне бағытталуда"</string>
+    <string msgid="3884684060443538097" name="sum_cfnry_disabled">"Өшірулі"</string>
+    <string msgid="4308233959150658058" name="disable_cfnry_forbidden">"Телефоныңыз жауап бермегенде операторыңыз қоңырауды басқа нөмірге бағыттауды өшіруді қолдамайды."</string>
+    <string msgid="2614827454402079766" name="labelCFNRc">"Хабарласу мүмкін болмағанда"</string>
+    <string msgid="6380695421020295119" name="messageCFNRc">"Алынбағанда бағытталатын нөмір"</string>
+    <string msgid="7010898346095497421" name="sum_cfnrc_enabled">"<xliff:g id="PHONENUMBER">{0}</xliff:g> нөміріне бағытталуда"</string>
+    <string msgid="7222141261321276464" name="sum_cfnrc_disabled">"Өшірілген"</string>
+    <string msgid="5646361343094064333" name="disable_cfnrc_forbidden">"Телефоныңыз қол жетімсіз болғанда жабдықтаушы қоңырауды басқа нөмірге бағыттауды өшіруді қолдамайды."</string>
+    <string msgid="6146755386174019046" name="updating_title">"Қоңырау параметрлері"</string>
+    <string msgid="5679923943740900965" name="call_settings_primary_user_only">"Қоңырау параметрлерін тек негізгі пайдаланушы өзгерте алады."</string>
+    <string msgid="89359812614544532" name="call_settings_with_label">"Қоңырау параметрлері (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string msgid="7970259216988931777" name="error_updating_title">"Қоңырау параметрлерінің қателігі"</string>
+    <string msgid="1920291699287055284" name="reading_settings">"Параметрлерді оқуда…"</string>
+    <string msgid="8171225533884883252" name="updating_settings">"Параметрлерді жаңартуда…"</string>
+    <string msgid="4752151682666912828" name="reverting_settings">"Параметрлер қайтарылуда…"</string>
+    <string msgid="6674110501330139405" name="response_error">"Желіден күтпеген жауап келді."</string>
+    <string msgid="7027667130619518211" name="exception_error">"Желі немесе SIM картасының қателігі."</string>
+    <string msgid="18200614306525434" name="fdn_check_failure">"Телефоныңыздың қолданбасындағы тұрақты теру нөмірлерінің параметрлері қосулы. Нәтижесінде қоңырауға қатысты кейбір функциялар жұмыс істемейді."</string>
+    <string msgid="2304459933248513376" name="radio_off_error">"Бұл параметрлерді көруге дейін радионы қосыңыз."</string>
+    <string msgid="2365884406356986917" name="close_dialog">"Жарайды"</string>
+    <string msgid="7248657275000173526" name="enable">"Қосу"</string>
+    <string msgid="4678348128118573672" name="disable">"Өшіру"</string>
+    <string msgid="239476305819844391" name="change_num">"Жаңарту"</string>
+  <string-array name="clir_display_values">
+    <item msgid="5560134294467334594">"Желі бастапқы бойынша"</item>
+    <item msgid="7876195870037833661">"Нөмірді жасыру"</item>
+    <item msgid="1108394741608734023">"Нөмірді көрсету"</item>
+  </string-array>
+    <string msgid="380744030726254139" name="vm_changed">"Дауыс хабарының нөмірі өзгертілді."</string>
+    <string msgid="3352934863246208918" name="vm_change_failed">"Дауыс хабарының нөмірін өзгерте алмады. \nЕгер ақаулық шешілмесе жабдықтаушыңызға хабарласыңыз."</string>
+    <string msgid="5298103228470214665" name="fw_change_failed">"Бағытталатын нөмірді өзгерте алмады. \nЕгер ақаулық шешілмесе, жабдықтаушыға хабарласыңыз."</string>
+    <string msgid="8862896836093833973" name="fw_get_in_vm_failed">"Ағымдағы бағытталатын нөмір параметрлерін шығару және сақтау мүмкін болмады.\n Жаңа жабдықтаушыға ауысу оған қарамастан орындалсын ба?"</string>
+    <string msgid="3186040086622435212" name="no_change">"Еш өзгеріс жасалмаған."</string>
+    <string msgid="59911196126278922" name="sum_voicemail_choose_provider">"Дауыс хабары қызметін таңдау"</string>
+    <string msgid="2001233554889016880" name="voicemail_default">"Операторыңыз"</string>
+    <string msgid="2843854043339307375" name="mobile_networks">"Ұялы желі параметрлері"</string>
+    <string msgid="1181658289009300430" name="label_available">"Қол жетімді желілер"</string>
+    <string msgid="5230707536168902952" name="load_networks_progress">"Іздеуде…"</string>
+    <string msgid="4249426905018815316" name="empty_networks_list">"Ешқандай желілер табылмады."</string>
+    <string msgid="1601136049300882441" name="search_networks">"Желілерді іздеу"</string>
+    <string msgid="6828516148953325006" name="network_query_error">"Желі іздеу барысында қателік орын алды."</string>
+    <string msgid="9055203954040805084" name="register_on_network">"<xliff:g id="NETWORK">%s</xliff:g> желісіне тіркелуде…"</string>
+    <string msgid="5613353860205691579" name="not_allowed">"SIM картаңыз бұл желіге жалғануға рұқсат бермейді."</string>
+    <string msgid="2308119155752343975" name="connect_later">"Дәл қазір бұл желіге жалғана алмайды. Кейінірек қайта әрекеттеніп көріңіз."</string>
+    <string msgid="495135664535876612" name="registration_done">"Желіге тіркелді."</string>
+    <string msgid="3494252551249882718" name="sum_carrier_select">"Желі операторын таңдау"</string>
+    <string msgid="2921092249873272715" name="sum_search_networks">"Барлық қол жетімді желілерді іздеу"</string>
+    <string msgid="5628402124471810174" name="select_automatically">"Автоматты таңдау"</string>
+    <string msgid="5614890115123292400" name="sum_select_automatically">"Қалаулы желіні автоматты түрде таңдау"</string>
+    <string msgid="6017849844573519637" name="register_automatically">"Aвтоматты тіркелу…"</string>
+    <string msgid="2336624679902659306" name="preferred_network_mode_title">"Қалаулы желі түрі"</string>
+    <string msgid="1434820673166126609" name="preferred_network_mode_summary">"Желі жұмысының режимін өзгерту"</string>
+    <string msgid="4048082093347807230" name="preferred_network_mode_dialogtitle">"Қалаулы желі түрі"</string>
+    <string msgid="8521677230113533809" name="preferred_network_mode_wcdma_perf_summary">"Қалаулы желі режимі: WCDMA таңдалды"</string>
+    <string msgid="3352445413437453511" name="preferred_network_mode_gsm_only_summary">"Қалаулы желі режимі: GSM ғана"</string>
+    <string msgid="2836897236221063413" name="preferred_network_mode_wcdma_only_summary">"Қалаулы желі режимі: WCDMA ғана"</string>
+    <string msgid="3161255745326408587" name="preferred_network_mode_gsm_wcdma_summary">"Қалаулы желі режимі: GSM / WCDMA"</string>
+    <string msgid="3175690187294334241" name="preferred_network_mode_cdma_summary">"Қалаулы желі режимі: CDMA"</string>
+    <string msgid="8332063064712726618" name="preferred_network_mode_cdma_evdo_summary">"Қалаулы желі режимі: CDMA / EvDo"</string>
+    <string msgid="1309770926198634150" name="preferred_network_mode_cdma_only_summary">"Қалаулы желі режимі: CDMA ғана"</string>
+    <string msgid="8472220691721269155" name="preferred_network_mode_evdo_only_summary">"Қалаулы желі режимі: EvDo ғана"</string>
+    <string msgid="4726682079415227330" name="preferred_network_mode_cdma_evdo_gsm_wcdma_summary">"Қалаулы желі режимі: CDMA/EvDo/GSM/WCDMA"</string>
+    <string msgid="574752287596469136" name="preferred_network_mode_lte_summary">"Қалаулы желі режимі: LTE"</string>
+    <string msgid="8455358514068283935" name="preferred_network_mode_lte_gsm_wcdma_summary">"Қалаулы желі режимі: GSM/WCDMA/LTE"</string>
+    <string msgid="228702246343742853" name="preferred_network_mode_lte_cdma_evdo_summary">"Қалаулы желі режимі: CDMA+LTE/EVDO"</string>
+    <string msgid="1633134285545730364" name="preferred_network_mode_global_summary">"Қалаулы желі режимі: Жаһандық"</string>
+    <string msgid="9180775701594742750" name="preferred_network_mode_lte_wcdma_summary">"Қалаулы желі режимі: LTE / WCDMA"</string>
+    <string msgid="633315028976225026" name="preferred_network_mode_lte_gsm_umts_summary">"Таңдаулы желі режимі: LTE / GSM / UMTS"</string>
+    <string msgid="3722647806454528426" name="preferred_network_mode_lte_cdma_summary">"Таңдаулы желі режимі: LTE / CDMA"</string>
+  <string-array name="preferred_network_mode_choices">
+    <item msgid="7886739962255042385">"LTE / WCDMA"</item>
+    <item msgid="577652050447385699">"LTE (ұзақ мерзімді дамыту)"</item>
+    <item msgid="6813597571293773656">"Жаһандық"</item>
+    <item msgid="127064712132619032">"GSM/WCDMA/LTE"</item>
+    <item msgid="1126767511633425977">"CDMA + LTE/EvDo"</item>
+    <item msgid="6389676313771670660">"CDMA/EvDo/GSM/WCDMA"</item>
+    <item msgid="545430093607698090">"EvDo ғана"</item>
+    <item msgid="1508557726283094448">"EvDo-сыз CDMA"</item>
+    <item msgid="4341433122263841224">"CDMA/EvDo aвто"</item>
+    <item msgid="5958053792390386668">"GSM/WCDMA aвто"</item>
+    <item msgid="7913148405605373434">"WCDMA (кең жолақты әр түрлі кодты бірнеше қол жетімділік) ғана"</item>
+    <item msgid="1524224863879435516">"GSM (ұялы байланыстың жаһандық жүйесі) ғана"</item>
+    <item msgid="3817924849415716259">"GSM/WCDMA қалаулы"</item>
+  </string-array>
+    <string msgid="522191650223239171" name="enhanced_4g_lte_mode_title">"Жақсартылған 4G LTE режимі"</string>
+    <string msgid="2332175070522125850" name="enhanced_4g_lte_mode_summary">"Дауыстық және басқа байланыстарды жақсарту үшін LTE қызметтерін пайдалану (ұсынылады)"</string>
+    <string msgid="5972538663568715366" name="data_enabled">"Дерекқор қосылған"</string>
+    <string msgid="2382798156640007971" name="data_enable_summary">"Деректерді пайдалануға рұқсат ету"</string>
+    <string msgid="8871412572928323707" name="roaming">"Дерекқор роумингі"</string>
+    <string msgid="7331106985174381987" name="roaming_enable">"Роуминг кезінде дерекқор қызметтеріне қосу"</string>
+    <string msgid="1843417228755568110" name="roaming_disable">"Роуминг кезінде дерекқор қызметтеріне қосу"</string>
+    <string msgid="8913735676127858115" name="roaming_reenable_message">"Дерекқор байланысын жоғалтып алдыңыз, себебі үйдегі желінің дерекқор роумингін өшірілген күйінде қалдырғансыз."</string>
+    <string msgid="7126227198294007907" name="roaming_warning">"Роуминг кезінде деректерді пайдалануға рұқсат ету керек пе? Айтарлықтай ақылар алынуы мүмкін."</string>
+    <string msgid="6538311689850981686" name="gsm_umts_options">"GSM/UMTS опциялары"</string>
+    <string msgid="4016822858172249884" name="cdma_options">"CDMA (кең жолақты әр түрлі кодты бірнеше қол жетімділік) опциялары"</string>
+    <string msgid="3715677828160555808" name="throttle_data_usage">"Дерекқор қолдану"</string>
+    <string msgid="8762280193043815361" name="throttle_current_usage">"Ағымдағы мерзімде қолданылған дерекқор"</string>
+    <string msgid="1915198770363734685" name="throttle_time_frame">"Дерекқор қолдану мерзімі"</string>
+    <string msgid="4710388992676803508" name="throttle_rate">"Дерекқор мөлшеріне қатысты саясат"</string>
+    <string msgid="243651091785169900" name="throttle_help">"Толығырақ ақпарат"</string>
+    <string msgid="1657318943142085170" name="throttle_status_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪), барлық ең көп мерзім <xliff:g id="USED_2">%3$s</xliff:g> \nКелесі мерзім <xliff:g id="USED_3">%4$d</xliff:g> күнде басталады(<xliff:g id="USED_4">%5$s</xliff:g>)"</string>
+    <string msgid="6029276011123694701" name="throttle_data_usage_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪), барлық ең көп мерзім <xliff:g id="USED_2">%3$s</xliff:g>"</string>
+    <string msgid="7492763592720107737" name="throttle_data_rate_reduced_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> ең көп мөлшерінен асып кетті\nДерекқор мөлшері <xliff:g id="USED_1">%2$d</xliff:g> Kб/с шамасына азайтылды"</string>
+    <string msgid="7732763021560399960" name="throttle_time_frame_subtext">"Мерзімі аяқталған айналым <xliff:g id="USED_0">%1$d</xliff:g>٪ \nКелесі мерзім <xliff:g id="USED_1">%2$d</xliff:g> күнде басталады (<xliff:g id="USED_2">%3$s</xliff:g>)"</string>
+    <string msgid="2149102656120726855" name="throttle_rate_subtext">"Егер дерекқор қолдану анықталған шегінен асып кетсе, дерекқор мөлшері <xliff:g id="USED">%1$d</xliff:g> Kб/с шамасына азайтылады."</string>
+    <string msgid="3633091498168446044" name="throttle_help_subtext">"Оператордың ұялы желі деректерін пайдалану саясаты туралы қосымша ақпарат"</string>
+    <string msgid="5584192824053625842" name="cell_broadcast_sms">"Ұялы таратылымды SMS"</string>
+    <string msgid="4851147873691392255" name="enable_disable_cell_bc_sms">"Ұялы таратылымды SMS"</string>
+    <string msgid="6441688565738921084" name="cell_bc_sms_enable">"Ұялы таратылымды SMS қосылған"</string>
+    <string msgid="3398365088309408749" name="cell_bc_sms_disable">"Ұялы таратылымды SMS өшірілген"</string>
+    <string msgid="651715019785107312" name="cb_sms_settings">"Ұялы таратылымды SMS параметрлері"</string>
+    <string msgid="2157014609041245335" name="enable_disable_emergency_broadcast">"Төтенше таратылым"</string>
+    <string msgid="2645980025414010211" name="emergency_broadcast_enable">"Төтенше таратылым қосылған"</string>
+    <string msgid="3665199821267569426" name="emergency_broadcast_disable">"Төтенше таратылым өшірілген"</string>
+    <string msgid="6501582322182059412" name="enable_disable_administrative">"Басқарушы"</string>
+    <string msgid="1750086122962032235" name="administrative_enable">"Басқару қосулы"</string>
+    <string msgid="8433273857248698539" name="administrative_disable">"Басқару өшірулі"</string>
+    <string msgid="1819693083025106678" name="enable_disable_maintenance">"Тех-қызметтер"</string>
+    <string msgid="8566636458770971189" name="maintenance_enable">"Тех-қызметтер қосылған"</string>
+    <string msgid="7340189100885066077" name="maintenance_disable">"Тех-қызметтер өшірілген"</string>
+    <string msgid="4968779723948432978" name="general_news_settings">"Жалпы жаңалықтар"</string>
+    <string msgid="3935593091894685267" name="bf_news_settings">"Бизнес және қаржы жаңалықтары"</string>
+    <string msgid="7649399631270052835" name="sports_news_settings">"Спорт жаңалықтары"</string>
+    <string msgid="5051153952959405035" name="entertainment_news_settings">"Ойын-сауық жаңалықтары"</string>
+    <string msgid="7890281063123416120" name="enable_disable_local">"Жергілікті"</string>
+    <string msgid="6370463247609136359" name="local_enable">"Жергілікті жаңалықтар қосылған"</string>
+    <string msgid="4405691986943795798" name="local_disable">"Жергілікті жаңалықтар өшірілген"</string>
+    <string msgid="4905652414535565872" name="enable_disable_regional">"Аймақтық"</string>
+    <string msgid="4434680415437834759" name="regional_enable">"Аймақтық жаңалықтар қосылған"</string>
+    <string msgid="5359325527213850077" name="regional_disable">"Аймақтық жаңалықтар өшірілген"</string>
+    <string msgid="236278090206880734" name="enable_disable_national">"Ұлттық"</string>
+    <string msgid="1172443648912246952" name="national_enable">"Ұлттық жаңалықтар қосылған"</string>
+    <string msgid="326018148178601166" name="national_disable">"Ұлттық жаңалықтар қосылған"</string>
+    <string msgid="7535348799604565592" name="enable_disable_international">"Халықаралық"</string>
+    <string msgid="5855356769925044927" name="international_enable">"Халықаралық жаңалықтар қосылған"</string>
+    <string msgid="2850648591041088931" name="international_disable">"Халықаралық жаңалықтар өшірілген"</string>
+    <string msgid="2841683501919760043" name="list_language_title">"Тіл"</string>
+    <string msgid="8109546531071241601" name="list_language_summary">"Жаңа тіл таңдау"</string>
+  <string-array name="list_language_entries">
+    <item msgid="6137851079727305485">"Ағылшын"</item>
+    <item msgid="1151988412809572526">"Француз"</item>
+    <item msgid="577840534704312665">"Испан"</item>
+    <item msgid="8385712091143148180">"Жапон"</item>
+    <item msgid="1858401628368130638">"Кәріс"</item>
+    <item msgid="1933212028684529632">"Қытай"</item>
+    <item msgid="1908428006803639064">"Иврит"</item>
+  </string-array>
+  <string-array name="list_language_values">
+    <item msgid="1804908636436467150">"1"</item>
+    <item msgid="289708030346890334">"2"</item>
+    <item msgid="1121469729692402684">"3"</item>
+    <item msgid="2614093115912897722">"4"</item>
+    <item msgid="2411164639857960614">"5"</item>
+    <item msgid="5884448729274543324">"6"</item>
+    <item msgid="5511864807618312598">"7"</item>
+  </string-array>
+    <string msgid="5442908726538951934" name="list_language_dtitle">"Тілдер"</string>
+    <string msgid="986967454867219114" name="enable_disable_local_weather">"Жергілікті ауа райы"</string>
+    <string msgid="6199315114382448922" name="local_weather_enable">"Жергілікті жаңалықтар қосылған"</string>
+    <string msgid="2510158089142626480" name="local_weather_disable">"Жергілікті ауа райы өшірілген"</string>
+    <string msgid="8339572391278872343" name="enable_disable_atr">"Аймақтағы көлік кептелісі туралы хабарлау"</string>
+    <string msgid="5541757457789181799" name="atr_enable">"Аймақтағы көлік кептелісі туралы хабарлау қосылған"</string>
+    <string msgid="7085558154727596455" name="atr_disable">"Аймақтағы көлік кептелісі туралы хабарлау өшірілген"</string>
+    <string msgid="668189073721277199" name="enable_disable_lafs">"Жергілікті ұшақ кестелері"</string>
+    <string msgid="2791978667205137052" name="lafs_enable">"Жергілікті әуежайдың ұшақ кестелері қосылған"</string>
+    <string msgid="2391212397725495350" name="lafs_disable">"Жергілікті әуежайдың ұшақ кестелері өшірілген"</string>
+    <string msgid="6240381945336814024" name="enable_disable_restaurants">"Мейрамханалар"</string>
+    <string msgid="5137657479469118847" name="restaurants_enable">"Мейманханалар қосылған"</string>
+    <string msgid="3678480270938424092" name="restaurants_disable">"Мейманханалар өшірілген"</string>
+    <string msgid="1822029172658551202" name="enable_disable_lodgings">"Қонақ үйлер"</string>
+    <string msgid="3230042508992850322" name="lodgings_enable">"Қонақ үйлер қосылған"</string>
+    <string msgid="3387879742320682391" name="lodgings_disable">"Қонақ үйлер өшірілген"</string>
+    <string msgid="1357809784475660303" name="enable_disable_retail_directory">"Жеке сатылым анықтамасы"</string>
+    <string msgid="3280626290436111496" name="retail_directory_enable">"Жеке сатушылар анықтамасы қосылған"</string>
+    <string msgid="6479739816662879027" name="retail_directory_disable">"Жеке сатушылар анықтамасы өшірілген"</string>
+    <string msgid="5999495926176182128" name="enable_disable_advertisements">"Жарнамалар"</string>
+    <string msgid="2050305021264683786" name="advertisements_enable">"Жарнамалар қосулы"</string>
+    <string msgid="8350985908788707935" name="advertisements_disable">"Жарнамалар өшірулі"</string>
+    <string msgid="6397810445293533603" name="enable_disable_stock_quotes">"Биржа жаңалықтары"</string>
+    <string msgid="4384802470887170543" name="stock_quotes_enable">"Биржа жаңалықтары қосылған"</string>
+    <string msgid="4781450084565594998" name="stock_quotes_disable">"Биржа жаңалықтары өшірілген"</string>
+    <string msgid="4863043263443942494" name="enable_disable_eo">"Жұмыс мүмкіндіктері"</string>
+    <string msgid="8623559062015685813" name="eo_enable">"Жұмыс мүмкіндіктері қосылған"</string>
+    <string msgid="3863812478090907609" name="eo_disable">"Жұмыс мүмкіндіктері өшірілген"</string>
+    <string msgid="908214593528968522" name="enable_disable_mhh">"Медицина, Денсаулық және Аурухана"</string>
+    <string msgid="5544500632306446815" name="mhh_enable">"Медицина, Денсаулық және Аурухана қосылған"</string>
+    <string msgid="8998210550117117437" name="mhh_disable">"Медицина, Денсаулық және Аурухана өшірілген"</string>
+    <string msgid="3517184627114999149" name="enable_disable_technology_news">"Технологиялық жаңалықтар"</string>
+    <string msgid="7995209394210455181" name="technology_news_enable">"Технология жаңалықтары қосылған"</string>
+    <string msgid="5483490380561851946" name="technology_news_disable">"Технология жаңалықтары өшірілген"</string>
+    <string msgid="626771003122899280" name="enable_disable_multi_category">"Бірнеше категориялы"</string>
+    <string msgid="1179299804641721768" name="multi_category_enable">"Бірнеше категория қосылған"</string>
+    <string msgid="880104702904139505" name="multi_category_disable">"Бірнеше категория өшірілген"</string>
+    <string msgid="7702681952521375754" name="network_lte">"LTE (ұсынылған)"</string>
+    <string msgid="2723512640529983138" name="network_4G">4G/3G/2G авто</string>
+    <string msgid="1323190488685355309" name="network_global">"Жаһандық"</string>
+    <string msgid="5757657769327732833" name="cdma_system_select_title">"Жүйе таңдау"</string>
+    <string msgid="60460043745797517" name="cdma_system_select_summary">"CDMA роуминг режимін өзгерту"</string>
+    <string msgid="6083355415165359075" name="cdma_system_select_dialogtitle">"Жүйе таңдау"</string>
+  <string-array name="cdma_system_select_choices">
+    <item msgid="176474317493999285">"Hегізгі ғана"</item>
+    <item msgid="1205664026446156265">"Aвтоматты"</item>
+  </string-array>
+    <string msgid="1162564010076763284" name="cdma_subscription_title">"CDMA (кең жолақты әр түрлі кодты бірнеше қол жетімділік) жазылымы"</string>
+    <string msgid="2530890766115781140" name="cdma_subscription_summary">"RUIM/SIM және NV арасында ауысу"</string>
+    <string msgid="2699527950523333110" name="cdma_subscription_dialogtitle">"жазылым"</string>
+  <string-array name="cdma_subscription_choices">
+    <item msgid="2258014151300708431">"RUIM/SIM"</item>
+    <item msgid="5127722015571873880">"NV желісі"</item>
+  </string-array>
+  <string-array name="cdma_subscription_values">
+    <item msgid="7494167883478914080">"0"</item>
+    <item msgid="6043847456049107742">"1"</item>
+  </string-array>
+    <string msgid="3793805892364814518" name="cdma_activate_device">"Құрылғыны іске қосу"</string>
+    <string msgid="4255018217292548962" name="cdma_lte_data_service">"Дерекқор қызметін орнату"</string>
+    <string msgid="9028166176523012300" name="carrier_settings_title">"Жабдықтаушы параметрлері"</string>
+    <string msgid="7878832555095183202" name="fdn">"Тұрақты теру нөмірлері"</string>
+    <string msgid="187084204115493366" name="fdn_with_label">"Бекітілген теру нөмірлері (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string msgid="8777755791892122369" name="manage_fdn_list">"ТТН тізімі"</string>
+    <string msgid="7437232552210469217" name="fdn_list_with_label">"Бекітілген теру нөмірлерінің тізімі (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string msgid="2156479741307463576" name="fdn_activation">"Тұрақты теру нөмірлерін қосу"</string>
+    <string msgid="5238109009915521240" name="fdn_enabled">"Тұрақты теру нөмірлері қосылған"</string>
+    <string msgid="4700049736675368279" name="fdn_disabled">"Тұрақты теру нөмірлері өшірілген."</string>
+    <string msgid="3740191529180493851" name="enable_fdn">"Тұрақты теру нөмірін қосу"</string>
+    <string msgid="7944020890722540616" name="disable_fdn">"Тұрақты теру нөмірін өшіру"</string>
+    <string msgid="2153563695382176676" name="change_pin2">"PIN2 кодын өзгерту"</string>
+    <string msgid="7215588870329688132" name="enable_fdn_ok">"Тұрақты теру нөмірін өшіру"</string>
+    <string msgid="5727046928930740173" name="disable_fdn_ok">"Тұрақты теру нөмірін қосу"</string>
+    <string msgid="1959399454900272878" name="sum_fdn">"Тұрақты теру нөмірлерін басқару"</string>
+    <string msgid="6666549734792827932" name="sum_fdn_change_pin">"ТТН қол жетімділігі үшін PIN кодты өзгерту"</string>
+    <string msgid="8431088265332628316" name="sum_fdn_manage_list">"Телефон нөмірлері тізімін басқару"</string>
+    <string msgid="3776841382844614716" name="voice_privacy">"Дауыс құпиялығы"</string>
+    <string msgid="3159383389833516214" name="voice_privacy_summary">"Жетілдірілген құпиялық режимін қосу"</string>
+    <string msgid="9033098925144434669" name="tty_mode_option_title">"Tелетайп режимі"</string>
+    <string msgid="1073835131534808732" name="tty_mode_option_summary">"Телетайп режиміне реттеу"</string>
+    <string msgid="4073265511427813322" name="auto_retry_mode_title">"Қайта авто әрекеттену"</string>
+    <string msgid="4973886004067532288" name="auto_retry_mode_summary">"Қайта авто әрекеттену режимін қосу"</string>
+    <string msgid="1882023737425114762" name="menu_add">"Байланыс қосу"</string>
+    <string msgid="7143003705504672374" name="menu_edit">"Байланыс өңдеу"</string>
+    <string msgid="3977150783449642851" name="menu_delete">"Байланыс жою"</string>
+    <string msgid="8204677063922225311" name="get_pin2">"PIN2 кодын теріңіз"</string>
+    <string msgid="7329028332786872378" name="name">"Атауы"</string>
+    <string msgid="7905950798349903858" name="number">"Нөмір"</string>
+    <string msgid="4094274636321939086" name="save">"Сақтау"</string>
+    <string msgid="2481915899633353976" name="add_fdn_contact">"Тұрақты теру нөмірін қосу"</string>
+    <string msgid="7627379633721940991" name="adding_fdn_contact">"Тұрақты теру нөмірін қосуда…"</string>
+    <string msgid="7458335758501736665" name="fdn_contact_added">"Тұрақты теру нөмірі қосылды."</string>
+    <string msgid="7976936035587081480" name="edit_fdn_contact">"Тұрақты теру нөмірін жөндеу"</string>
+    <string msgid="8370929876849803600" name="updating_fdn_contact">"Тұрақты теру нөмірлерін жаңартуда…"</string>
+    <string msgid="5497828782609005017" name="fdn_contact_updated">"Тұрақты теру нөмірі жаңартылды."</string>
+    <string msgid="6668958073074151717" name="delete_fdn_contact">"Тұрақты теру нөмірін өшіру"</string>
+    <string msgid="5669163206349319969" name="deleting_fdn_contact">"Тұрақты теру нөмірін өшіруде…"</string>
+    <string msgid="7154162327112259569" name="fdn_contact_deleted">"Тұрақты теру нөмірі жойылды."</string>
+    <string msgid="5470854099230755944" name="pin2_invalid">"ТТН жаңартылмады, себебі қате PIN код терілді."</string>
+    <string msgid="1494755047900009147" name="fdn_invalid_number">"ТТН жаңартылмады, себебі нөмір 20 бірліктен аспауы тиіс."</string>
+    <string msgid="6025144083384701197" name="pin2_or_fdn_invalid">"ТТН жаңартылмады. PIN2 қате болды немесе телефон нөмірі қабылданбады."</string>
+    <string msgid="540018079008319747" name="fdn_failed">"Тұрақты теру нөмірлерінің жұмысы орындалмады."</string>
+    <string msgid="2203331234764498011" name="simContacts_emptyLoading">"SIM картасынан оқу…"</string>
+    <string msgid="5270660846489561932" name="simContacts_empty">"SIM картаңызда контактілер жоқ."</string>
+    <string msgid="1861472842524839921" name="simContacts_title">"Импортталатын контактілерді таңдау"</string>
+    <string msgid="1846161429087789936" name="simContacts_airplaneMode">"Контактілерді SIM картасынан импорттау үшін, алдымен ұшақ режимін өшіру қажет."</string>
+    <string msgid="5422767284133234860" name="enable_pin">"SIM PIN кодын іске қосу/істен шығару"</string>
+    <string msgid="9174186126330785343" name="change_pin">"SIM PIN кодын өзгерту"</string>
+    <string msgid="8532615714751931951" name="enter_pin_text">"SIM PIN коды:"</string>
+    <string msgid="5287773661246368314" name="oldPinLabel">"Ескі PIN"</string>
+    <string msgid="207488227285336897" name="newPinLabel">"Жаңа PIN"</string>
+    <string msgid="257597715098070206" name="confirmPinLabel">"Жаңа PIN кодты растау"</string>
+    <string msgid="8955102849303984935" name="badPin">"Сіз терген ескі PIN код дұрыс емес. Қайта әрекеттеніңіз."</string>
+    <string msgid="5923253370683071889" name="mismatchPin">"Сіз  терген PIN кодтар сәйкес емес. Қайта әрекеттеніңіз."</string>
+    <string msgid="5981171102258684792" name="invalidPin">"4-8 саннан тұратын PIN кодын теру."</string>
+    <string msgid="3419351358300716472" name="disable_sim_pin">"SIM PIN кодын тазалау"</string>
+    <string msgid="4845145659651484248" name="enable_sim_pin">"SIM PIN кодын орнату"</string>
+    <string msgid="3417917024688497010" name="enable_in_progress">"PIN орнатылуда…"</string>
+    <string msgid="2918545971413270063" name="enable_pin_ok">"PIN орнатылды"</string>
+    <string msgid="2109571368635883688" name="disable_pin_ok">"PIN тазаланды"</string>
+    <string msgid="5644377896213584760" name="pin_failed">"PIN дұрыс емес"</string>
+    <string msgid="4455736268023261662" name="pin_changed">"PIN коды жаңартылды"</string>
+    <string msgid="5921393215789090200" name="puk_requested">"Құпия сөз дұрыс емес. PIN қазір бөгелген. PUK коды сұралды."</string>
+    <string msgid="8339444124477720345" name="enter_pin2_text">"PIN2"</string>
+    <string msgid="8559146795026261502" name="oldPin2Label">"Ескі PIN2"</string>
+    <string msgid="4573956902204349054" name="newPin2Label">"Жаңа PIN2 коды"</string>
+    <string msgid="8100319484454787708" name="confirmPin2Label">"PIN2 кодын растау"</string>
+    <string msgid="7910064009531541708" name="badPuk2">"PUK2 коды дұрыс емес. Әрекетті қайталаңыз."</string>
+    <string msgid="6646896629970023109" name="badPin2">"Ескі PIN2 коды дұрыс емес. Әрекетті қайталаңыз."</string>
+    <string msgid="4177967478551851117" name="mismatchPin2">"PIN2 кодтары сәйкес емес. Әрекетті қайталаңыз."</string>
+    <string msgid="1757045131429105595" name="invalidPin2">"4-8 саннан тұратын PIN2 кодын енгізіңіз."</string>
+    <string msgid="7059081153334815973" name="invalidPuk2">"8 саннан тұратын PUK2 кодын енгізіңіз."</string>
+    <string msgid="3724522579945610956" name="pin2_changed">"PIN2 коды жаңартылды"</string>
+    <string msgid="4688069961795341948" name="label_puk2_code">"PUK2 кодын енгізіңіз"</string>
+    <string msgid="4991074891459554705" name="fdn_enable_puk2_requested">"Құпия сөз дұрыс емес. PIN2 енді бөгелді. Әрекетті қайталау үшін PIN 2 кодын өзгертіңіз."</string>
+    <string msgid="5831015200030161434" name="puk2_requested">"Құпия сөз дұрыс емес. SIM қазір бекітілген. PUK2 кодын енгізіңіз."</string>
+    <string msgid="3150263853077280049" name="puk2_blocked">"PUK2 уақытша бөгелген."</string>
+    <string msgid="720736232885011507" name="pin2_attempts">\n"<xliff:g id="NUMBER">%d</xliff:g> әрекет қалды."</string>
+    <string msgid="7791600368153469078" name="pin2_unblocked">"PIN2 енді бөгелмеген"</string>
+    <string msgid="2859593360997984240" name="doneButton">"Орындалды"</string>
+    <string msgid="8524164258691887790" name="voicemail_settings_number_label">"Дауыс хабарының нөмірі"</string>
+    <string msgid="5769417478498348054" name="card_title_dialing">"Теруде"</string>
+    <string msgid="8253487008234167266" name="card_title_redialing">"Қайта терілуде"</string>
+    <string msgid="1162980346189744501" name="card_title_conf_call">"Мәжіліс қоңырауы"</string>
+    <string msgid="7364539451234646909" name="card_title_incoming_call">"Келген қоңырау"</string>
+    <string msgid="5544730338889702298" name="card_title_call_ended">"Қоңырау аяқталды"</string>
+    <string msgid="821463117892339942" name="card_title_on_hold">"Күтуде"</string>
+    <string msgid="3999101620995182450" name="card_title_hanging_up">"Телефон құлағын ілуде"</string>
+    <string msgid="6346543933068225205" name="card_title_in_call">"Қоңырау"</string>
+    <string msgid="2107666444937350731" name="notification_dialing">"Теру"</string>
+    <string msgid="7554385905572364535" name="notification_missedCallTitle">"Қабылданбаған қоңырау"</string>
+    <string msgid="1361677948941502522" name="notification_missedCallsTitle">"Қабылданбаған қоңыраулар"</string>
+    <string msgid="4575787816055205600" name="notification_missedCallsMsg">"<xliff:g id="NUM_MISSED_CALLS">%s</xliff:g> қабылданбаған қоңыраулар"</string>
+    <string msgid="504686252427747209" name="notification_missedCallTicker">"<xliff:g id="MISSED_CALL_FROM">%s</xliff:g> қоңырауы қабылданбаған"</string>
+    <string msgid="7068688957273482989" name="notification_ongoing_call">"Ағымдағы қоңырау"</string>
+    <string msgid="3480694969511790465" name="notification_on_hold">"Күтуде"</string>
+    <string msgid="2820429205043529642" name="notification_incoming_call">"Келген қоңырау"</string>
+    <string msgid="8933468752045550523" name="notification_voicemail_title">"Жаңа дауыс хабары"</string>
+    <string msgid="4366360747660929916" name="notification_voicemail_title_count">"(<xliff:g id="COUNT">%d</xliff:g>) дауыс хабары"</string>
+    <string msgid="4447323569453981685" name="notification_voicemail_text_format">"<xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g> нөмірін теру"</string>
+    <string msgid="760963466895609716" name="notification_voicemail_no_vm_number">"Дауыс хабарының нөмірі белгісіз"</string>
+    <string msgid="4224455487793492772" name="notification_network_selection_title">"Қызмет көрсетілмейді"</string>
+    <string msgid="2607085729661923269" name="notification_network_selection_text">"Таңдалған (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) желісі қол жетімсіз"</string>
+    <string msgid="6069460915123531620" name="notification_action_end_call">"Қоңырауды аяқтау"</string>
+    <string msgid="2684890353590890187" name="notification_missedCall_call_back">"Кері қоңырау шалу"</string>
+    <string msgid="3049928912736917988" name="notification_missedCall_message">"Хабар"</string>
+    <string msgid="6550191216405193368" name="incall_error_power_off">"Қоңырау шалу үшін алдымен Ұшақ режимін өшіріңіз."</string>
+    <string msgid="4678640422710818317" name="incall_error_emergency_only">"Желіде тіркелмеген."</string>
+    <string msgid="4100065333878929223" name="incall_error_out_of_service">"Ұялы желі қол жетімді емес."</string>
+    <string msgid="1150414018684246528" name="incall_error_no_phone_number_supplied">"Қоңырау шалу үшін жарамды нөмірді енгізіңіз."</string>
+    <string msgid="6302746943230078197" name="incall_error_call_failed">"Қоңырау шалу мүмкін емес."</string>
+    <string msgid="3672498861336189563" name="incall_status_dialed_mmi">"MMI қатарын бастау…"</string>
+    <string msgid="655570339115407698" name="incall_error_supp_service_unknown">"Қызметке қолдау көрсетілмейді"</string>
+    <string msgid="5237002176899962862" name="incall_error_supp_service_switch">"Қоңырауларды ауыстыру мүмкін емес."</string>
+    <string msgid="7224393405134545246" name="incall_error_supp_service_separate">"Қоңырауды бөлу мүмкін емес."</string>
+    <string msgid="7235952238189391438" name="incall_error_supp_service_transfer">"Тасымалдау мүмкін емес."</string>
+    <string msgid="2505727299596357312" name="incall_error_supp_service_conference">"Мәжіліс қоңырауларын өшіру."</string>
+    <string msgid="8998568661508655638" name="incall_error_supp_service_reject">"Қоңырауды қабылдамау мүмкін емес."</string>
+    <string msgid="7434513517153834426" name="incall_error_supp_service_hangup">"Қоңырау(лар)ды босату мүмкін емес."</string>
+    <string msgid="4627849966634578257" name="emergency_enable_radio_dialog_title">"Төтенше қоңырау"</string>
+    <string msgid="207613549344420291" name="emergency_enable_radio_dialog_message">"Радионы қосуда…"</string>
+    <string msgid="5960061579996526883" name="emergency_enable_radio_dialog_retry">"Қызмет жоқ. Әрекет қайталануда…"</string>
+    <string msgid="1509085166367420355" name="dial_emergency_error">"Қоңырау шалу мүмкін емес. <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> жедел нөмір емес."</string>
+    <string msgid="9130194953830414638" name="dial_emergency_empty_error">"Қоңырау шалу мүмкін емес. Жедел нөмірді теріңіз."</string>
+    <string msgid="9192914825413747792" name="dialerKeyboardHintText">"Теру үшін пернетақтаны қолдану"</string>
+    <string msgid="2285258239691145872" name="onscreenHoldText">"Күту"</string>
+    <string msgid="4403855834875398585" name="onscreenEndCallText">"Аяқтау"</string>
+    <string msgid="8561805492659639893" name="onscreenShowDialpadText">"Теру тақтасы"</string>
+    <string msgid="5011369181754261374" name="onscreenMuteText">"Үнсіз"</string>
+    <string msgid="5140385634712287403" name="onscreenAddCallText">"Қоңырау қосу"</string>
+    <string msgid="6640195098064538950" name="onscreenMergeCallsText">"Қоңырауларды біріктіру"</string>
+    <string msgid="1602990689244030047" name="onscreenSwapCallsText">"Алмастыру"</string>
+    <string msgid="5473231160123254154" name="onscreenManageCallsText">"Қоңырауларды басқару"</string>
+    <string msgid="6485935856534311346" name="onscreenManageConferenceText">"Mәжілісті басқару"</string>
+    <string msgid="1710087112800041743" name="onscreenAudioText">"Aудио"</string>
+    <string msgid="4800924186056115442" name="onscreenVideoCallText">"Видео қоңырау"</string>
+    <string msgid="6614358325359736031" name="importSimEntry">"Импорттау"</string>
+    <string msgid="1503181169636198673" name="importAllSimEntries">"Барлығын импорттау"</string>
+    <string msgid="7374056215462575769" name="importingSimContacts">"SIM контактілерін импортттау"</string>
+    <string msgid="2130620207013368580" name="importToFDNfromContacts">"Контактілерден импорттау"</string>
+    <string msgid="8740268574688743289" name="hac_mode_title">"Есту көмектері"</string>
+    <string msgid="6833851160514929341" name="hac_mode_summary">"Есту көмегінің үйлесімділігін қосу"</string>
+  <string-array name="tty_mode_entries">
+    <item msgid="512950011423868021">"Tеле тайп өшірулі"</item>
+    <item msgid="3971695875449640648">"Tелетайп Толық"</item>
+    <item msgid="1937509904407445684">"Tелетайп HCO (есту арқылы тасымалдау)"</item>
+    <item msgid="5644925873488772224">"Tелетайп VCO (дауыс арқылы тасымалдау)"</item>
+  </string-array>
+    <string msgid="5163153771291340803" name="dtmf_tones_title">"Әуенді сигнал әуендері"</string>
+    <string msgid="3351820372864020331" name="dtmf_tones_summary">"Әуенді сигнал ұзақтығын реттеу"</string>
+  <string-array name="dtmf_tone_entries">
+    <item msgid="899650777817315681">"Орташа"</item>
+    <item msgid="2883365539347850535">"Ұзақ"</item>
+  </string-array>
+    <string msgid="7738596060242881930" name="network_info_message">"Желі хабары"</string>
+    <string msgid="3394780436230411413" name="network_error_message">"Қате туралы хабар"</string>
+    <string msgid="8616918561356194398" name="ota_title_activate">"Телефоныңызды іске қосыңыз."</string>
+    <string msgid="6553212803262586244" name="ota_touch_activate">"Телефон қызметін іске қосу үшін бөлек қоңырау шалу қажет. \n\n\"Іске қосу\" пәрменін басқан соң, телефонды іске қосу үшін берілген нұсқауларды тыңдаңыз."</string>
+    <string msgid="2234246934160473981" name="ota_hfa_activation_title">"Іске қосуда..."</string>
+    <string msgid="8092479227918463415" name="ota_hfa_activation_dialog_message">"Телефон ұялы дерекқор қызметін қосуда.\n\nБұған 5 минуттай қажет болуы мүмкін."</string>
+    <string msgid="2943366608272261306" name="ota_skip_activation_dialog_title">"Іске қосу қадамын аттап өтесіз бе?"</string>
+    <string msgid="2440770373498870550" name="ota_skip_activation_dialog_message">"Егер іске қосу қадамынан аттап өтсеңіз, қоңырау шалу немесе ұялы дерекқор желісіне қосылу мүмкін болмайды (бірақ Wi-Fi желілеріне қосылуына мүмкіндігіңіз болады). Телефоныңыз іске қосылғанша телефонды қолданған сайын іске қосу қажет болады."</string>
+    <string msgid="3458532775091563208" name="ota_skip_activation_dialog_skip_label">"Аттап өту"</string>
+    <string msgid="1368528132525626264" name="ota_activate">"Іске қосу"</string>
+    <string msgid="6570240212263372046" name="ota_title_activate_success">"Телефон іске қосылды."</string>
+    <string msgid="7095824491970084367" name="ota_title_problem_with_activation">"Іске қосу барысында мәселе орын алды"</string>
+    <string msgid="162923839877584937" name="ota_listen">"Іске қосылды деген хабарды естігенше нұсқауларды орындай беріңіз."</string>
+    <string msgid="6904589278542719647" name="ota_speaker">"Үндеткіш"</string>
+    <string msgid="460876637828044519" name="ota_progress">"Телефон бағдарламалануда…"</string>
+    <string msgid="7713756181204620397" name="ota_failure">"Телефонды бағдарламалау мүмкін болмады"</string>
+    <string msgid="1880780692887077407" name="ota_successful">"Телефоныңыз іске қосылды. Қызмет көрсету басталғанша 15 минут қажет болуы мүмкін."</string>
+    <string msgid="8072141612635635357" name="ota_unsuccessful">"Телефоныңыз іске қосылмады.\nСізге таратылым аумағы жақсырақ орын табу қажет (терезенің жаны немесе сыртта). \n\n)Қайта әрекеттеніңіз немесе басқа опциялар үшін тұтынушыға қызмет көрсету бөліміне хабарласаңыз."</string>
+    <string msgid="3909983542575030796" name="ota_spc_failure">"ШАМАДАН ТЫС SPC ҚАТЕЛІКТЕРІ"</string>
+    <string msgid="4537279738134612388" name="ota_call_end">"Артқа"</string>
+    <string msgid="7685477206465902290" name="ota_try_again">"Қайта әрекеттеніңіз"</string>
+    <string msgid="3904945374358235910" name="ota_next">"Келесі"</string>
+    <string msgid="4448531867763097533" name="ecm_exit_dialog">"КММтерезесіненШығу"</string>
+    <string msgid="6266424252578731203" name="phone_entered_ecm_text">"Төтенше қоңырауды кері шалу режиміне кірді"</string>
+    <string msgid="3226896828951687085" name="phone_in_ecm_notification_title">"Төтенше қоңырауды кері шалу режимі"</string>
+    <string msgid="4611608947314729773" name="phone_in_ecm_call_notification_text">"Дерекқор байланысы өшірілген"</string>
+  <plurals name="phone_in_ecm_notification_time">
+    <item msgid="4866221796252472622" quantity="one">"<xliff:g id="COUNT">%s</xliff:g> минут ешқандай дерек жинақтау мүмкін болмайды."</item>
+    <item msgid="3122217344579273583" quantity="other">"<xliff:g id="COUNT">%s</xliff:g> минут ешқандай дерек жинақтау мүмкін болмайды."</item>
+  </plurals>
+  <plurals name="alert_dialog_exit_ecm">
+    <item msgid="8060210887681426682" quantity="one">"Телефон Төтенше қоңырауды қайтару режимінде <xliff:g id="COUNT">%s</xliff:g> минут болады. Осы режимде тұрғанда дерек байланысын пайдаланатын қолданбаларды пайдалану мүмкін болмайды. Режимнен қазір шығуды қалайсыз ба?"</item>
+    <item msgid="8617116564023933114" quantity="other">"Телефон Төтенше қоңырауды қайтару режимінде <xliff:g id="COUNT">%s</xliff:g> минут болады. Осы режимде тұрғанда дерек байланысын пайдаланатын қолданбаларды пайдалану мүмкін бомайды. Режимнен қазір шығуды қалайсыз ба?"</item>
+  </plurals>
+  <plurals name="alert_dialog_not_avaialble_in_ecm">
+    <item msgid="2585506997024726599" quantity="one">"Таңдалған әрекет Төтенше қоңырауды қайтару режимі қосылып тұрғанда қол жетімсіз. Телефон бұл режимде <xliff:g id="COUNT">%s</xliff:g> минут болады. Бұл режимнен қазір шығуды қалайсыз ба?"</item>
+    <item msgid="6115622137771382224" quantity="other">"Төтенше қоңырау режимі қосылып тұрғанда таңдалған әрекет қол жетімсіз. Телефон бұл режимде <xliff:g id="COUNT">%s</xliff:g> минут болады. Бұл режимнен қазір шығуды қалайсыз ба?"</item>
+  </plurals>
+    <string msgid="1886723687211887104" name="alert_dialog_in_ecm_call">"Төтенше қоңырау режимінде таңдалған әрекет қол жетімсіз."</string>
+    <string msgid="4835734101617817074" name="progress_dialog_exiting_ecm">"Төтенше қоңырауды кері шалу режимінен шығуда"</string>
+    <string msgid="6674268047820703974" name="alert_dialog_yes">"Иә"</string>
+    <string msgid="1476091437797628703" name="alert_dialog_no">"Жоқ"</string>
+    <string msgid="2491494287075907171" name="alert_dialog_dismiss">"Бас тарту"</string>
+    <string msgid="5135942703327136909" name="voicemail_provider">"Қызмет"</string>
+    <string msgid="72448049107749316" name="voicemail_settings">"Орнату"</string>
+    <string msgid="6724904736891087856" name="voicemail_number_not_set">"&lt;Реттелген жоқt&gt;"</string>
+    <string msgid="3672912580359716394" name="other_settings">"Басқа қоңырау параметрлері"</string>
+    <string msgid="4839419581866928142" name="calling_via_template">"<xliff:g id="PROVIDER_NAME">%s</xliff:g> арқылы қоңырау шалу"</string>
+    <string msgid="4713193418046639466" name="contactPhoto">"контакт фотосуреті"</string>
+    <string msgid="865837794424530980" name="goPrivate">"жеке қоңырауға ауысу"</string>
+    <string msgid="781975788478987237" name="selectContact">"контакт таңдау"</string>
+    <string msgid="2739898841461577811" name="not_voice_capable">"Дауыс арқылы қоңырау шалу қолдауы жоқ"</string>
+    <string msgid="7459705245418435351" name="description_dial_button">"теру"</string>
+    <string msgid="8361970092063604886" name="voicemail_notification_vibrate_when_title">"Тербеліс"</string>
+    <string msgid="5739583146522136440" name="voicemail_notification_vibarte_when_dialog_title">"Тербеліс"</string>
+    <string msgid="2609519527849101590" name="voicemail_notification_ringtone_title">"Дыбыс"</string>
+    <string msgid="7683489952557536398" name="dial_pad_autocomplete">"Теру тақтасын автотолтыру"</string>
+    <string msgid="5197960752529332721" name="preference_category_ringtone">"Рингтон&amp; Тербеліс"</string>
+    <string msgid="1743245930577325900" name="pstn_connection_service_label">"Кірістірілген SIM карталары"</string>
+    <string msgid="7237253660669000899" name="enable_video_calling_title">"Бейне қоңырауларды қосу"</string>
+    <string msgid="8948186136957417948" name="enable_video_calling_dialog_msg">"Бейне қоңырауларды қосу үшін желі параметрлерінде жақсартылған 4G LTE режимін қосу керек."</string>
+    <string msgid="576528473599603249" name="enable_video_calling_dialog_settings">"Желі параметрлері"</string>
+    <string msgid="7411471282167927991" name="enable_video_calling_dialog_close">"Жабу"</string>
+    <string msgid="4847699229529306397" name="sim_label_emergency_calls">"Жедел қоңыраулар"</string>
+    <string msgid="7535215397212301562" name="sim_description_emergency_calls">"Тек жедел қоңыраулар"</string>
+    <string msgid="4778679519938775515" name="sim_description_default">"SIM картасы, ұяшық: <xliff:g id="SLOT_ID">%s</xliff:g>"</string>
+<string name="sim_card_settings">SIM картасының баптаулары</string>
+<string name="voicemail_settings_summary">Менің тасушымның баптаулары</string>
+<string name="network_4G_only">Тек 4G</string>
+<string name="network_3G">3G/2G авто</string>
+<string name="network_3G_only">Тек 3G</string>
+<string name="network_2G">Тек 2G</string>
+<string name="network_2G_explain">Тек 2G (тек дауыс және SMS)</string>
+<string name="cellular_data_always_on_title">Үнемі қосулы ұялы деректерді қосу</string>
+<string name="network_always_on_disable">Кейбір ұялы желілеріне көп қуат қолдану</string>
+<string name="network_always_on_enable">Кейбір ұялы желілеріне аз қуат қолдану</string>
+<string name="network_always_on_warning">Үнемі қосулы ұялы деректерді өшіру кейбір бағдарламаларды қосылым мүмкіндігі мәселелеріне себеп болады. Желілік деректерді жаңарту үшін қолмен жаңарту мүмкіндігін пайдаланыңыз</string>
+<string name="network_always_on">Әрдайым қосулы мобильді деректерді қосу</string>
+<string name="fdn_limited">Контактіні салу мүмкін емес, шегіне жетті.</string>
+<string name="wlan_connect_disconnect">Wi-Fi қолжетімсіз болған жағдайда</string>
+<string name="not_resume_data">Ұялы деректер пайдаланбаңыз</string>
+<string name="auto_resume_data">Ұялы деректер пайдалану</string>
+<string name="reminde_resume_data">Ұялы деректер пайдалану керектігін сұрау</string>
+    <string name="slot_1">SIM 1</string>
+    <string name="slot_2">SIM 2</string>
+    <string name="cellular_data_title">Мобильді дерек</string>
+    <string name="data_usage_disable_mobile">Ұялы деректерді өшіру керек пе?</string>
+    <string name="sim_change_data_message">Ұялы деректер үшін <xliff:g id="OLD_SIM">%2$s</xliff:g> орнына <xliff:g id="NEW_SIM">%1$s</xliff:g> пайдалану керек пе?</string>
+    <string name="network_lte_wcdma_gsm_auto">LTE/WCDMA/GSM авто</string>
+    <string name="network_wcdma_gsm_auto">WCDMA/GSM авто</string>
+    <string name="network_wcdma_only">Тек WCDMA</string>
+    <string name="network_gsm_only">Тек GSM</string>
+</resources>

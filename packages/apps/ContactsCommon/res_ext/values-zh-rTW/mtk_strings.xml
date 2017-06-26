@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
+    <string msgid="1418215926447642260" name="deleteConfirmation_title">"確定要刪除聯絡人？"</string>
+    <string msgid="2896685845822146494" name="add_contact_dlg_title">新增聯絡人</string>
+    <string msgid="8543619259870877473" name="no_sdcard_title" product="nosdcard">"儲存裝置無法使用"</string>
+    <string msgid="5911758680339949273" name="no_sdcard_title" product="default">"無 SD 卡"</string>
+    <string msgid="4970508055399376813" name="searching_vcard_title">"正在搜尋 VCard"</string>
+    <string msgid="4944932641334764942" name="scanning_sdcard_failed_title" product="nosdcard">"無法掃描儲存裝置"</string>
+    <string msgid="6664940444476572612" name="scanning_sdcard_failed_title" product="default">"無法掃描 SD 卡"</string>
+    <string msgid="5578683596010294836" name="cancel_import_confirmation_title">"取消匯入 vCard"</string>
+    <string msgid="6516467140276768528" name="cancel_export_confirmation_title">"取消匯出 vCard"</string>
+    <string msgid="5101735431586050711" name="menu_all_contacts">"所有聯絡人"</string>
+    <string msgid="1012756309632856553" name="search_bar_hint">"搜尋聯絡人"</string>
+    <string msgid="5276699501316246253" name="aggregation_suggestion_join_dialog_title">"合併聯絡人"</string>
+    <string msgid="1064042382692091314" name="aggregation_suggestion_edit_dialog_title">"編輯所選聯絡人"</string>
+    <string msgid="3950463632415908534" name="cancel_confirmation_dialog_title">"捨棄變更"</string>
+
+  <string name="menu_print">列印</string>
+  <string name="printContact">列印聯絡人方式</string>
+    <string name="no_way_to_print">無應用程式可用於列印此一聯絡人。</string>
+  
+    <!--The following lines are provided and maintained by Mediatek Inc.  -->
+    <!-- The title for multiple selection call log activity -->
+    <string name="selected_item_count">
+<xliff:g id="count">%d</xliff:g> 已選擇</string>
+    <!-- Menu item used to start call log multiple selection activity -->
+    <string name="recentCalls_delete">刪除</string>
+    <string name="menu_selectAll">"選擇全部"</string>
+    <string name="menu_clearAll">"取消選擇全部"</string>
+        <!-- Text used to show the dual sim info -->
+    <string name="sim1">SIM1</string>
+    <string name="sim2">SIM2</string>
+    <string name="all_resources">全部資源</string>
+    <string name="choose_resources_header">選擇附件</string>
+    <string name="all_tab_label1">全部</string>
+    <string name="call_log_item_count">(<xliff:g id="count">%1$d</xliff:g>)</string>
+
+    <!-- below strings are used by dialpad -->
+    <string name="call_indicator_3g">3G</string>
+    <string name="call_sipcall">網際網路通話</string>
+    <string name="call_pin_dialog_title">選擇 UIM/SIM 卡</string>
+    <string name="call_people">聯絡人</string>
+    <string name="call_ip_dial">IP 撥號</string>
+    <string name="call_speed_dial">快速撥號</string>
+    <string name="call_video_call">視訊通話</string>
+    <string name="add_speed_dial">輕觸即可新增快速撥號</string>
+    <string name="speed_dial_added">
+<xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) 已新增為快速撥號 <xliff:g id="key">%3$s</xliff:g>
+</string>
+    <string name="speed_dial_added2">
+<xliff:g id="contact_name">%1$s</xliff:g> <xliff:g id="key">%2$s</xliff:g>
+</string>
+    <string name="remove_speed_dial">移除</string>
+    <string name="remove_sd_confirm_1">您確定要將 <xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) 從快速撥號 <xliff:g id="key">%3$s</xliff:g> 中移除?</string>
+    <string name="remove_sd_confirm_2">您確定要將 <xliff:g id="contact_name">%1$s</xliff:g> 從快速撥號 <xliff:g id="key">%2$s</xliff:g> 中移除?</string>
+    <string name="emergencycall">緊急通話</string>
+    <string name="imei_invalid">錯誤的</string>
+    <string name="call_log_filter_all_resources">全部資源</string>
+    <string name="turn_on_3g_service_message">3G 已關閉，是否要開啟？</string>
+    <string name="associate_sim_missing_message">"%1$s不可用，是否全部改用 %2$s 通話？"</string>
+    <string name="associate_sim_missing_other">其他</string>
+    <string name="sim_manage_call_via">通話</string>
+    <string name="callFailed_simError">無SIM卡/SIM卡故障</string>
+    <!-- Speed Dial phase II -->
+    <string name="sd_add">新增</string>
+    <string name="reselect_number">"此號碼已指定速撥鍵，請選擇其他號碼。"</string>
+    <!-- strings are used by dialpad end -->
+    <string name="calllog_today">今天</string>
+    <string name="calllog_yesterday">昨天</string>
+    
+    <!-- strings are used by contact detail -->
+    <string name="menu_association">關聯卡</string>
+    <string name="menu_remove_association">移除卡關聯</string>
+    <string name="remove_association_message">您確定要移除卡關聯到此一號碼？</string>
+    <string name="remove_number_title">移除</string>  
+    <string name="warning_detail">卡關聯會將聯絡人匯入手機，是否繼續執行卡關聯？ </string>
+    <string name="block_incoming_call">封鎖來電</string>
+    <string name="block_video_incoming_call">直接拒絕視訊來電</string>
+
+    <!-- Contacts multi-choice string -->
+    <string name="menu_actionbar_selected_items">
+<xliff:g id="name">%s</xliff:g> 已被選</string>
+
+       <!-- MTK for edit SIM/USIM contact -->
+    <string name="has_double_phone_number">無法重複儲存相同的類型號碼，請檢查。 </string>
+    <string name="phone_book_busy">聯絡人繁忙中，請稍候再試。</string>
+    <string name="sim_invalid">卡錯誤時無法儲存聯絡人。</string>
+    <string name="cannot_insert_null_number">電話號碼空白時無法儲存聯絡人。</string>
+    <string name="AirPlane_mode_on">"飛航模式開啟時，無法儲存聯絡人。"</string>
+    <string name="FDNEnabled">"固定撥號啟用時不能儲存聯絡人。"</string>
+    <string name="sim_invalid_number">無法儲存有誤的號碼。</string>
+    <string name="email_invalid">無法儲存有誤的電子郵件。</string>
+    <string name="email_2g_invalid">無法儲存電子郵件到 2G SIM 卡，請選擇3G SIM 卡。</string>
+    <string name="sim_invalid_fix_number">"無法儲存無效的固定號碼。"</string>
+    <string name="msg_loading_sim_contacts_toast">"正在背景載入 SIM 卡聯絡人，請稍候。"</string>
+    <string name="fix_number_too_long">"固定電話號碼太長。"</string>
+    <string name="name_too_long">"名稱太長"</string>
+    <string name="storage_full">儲存空間已滿</string>
+    <string name="number_too_long">"數字太長"</string>
+    <string name="generic_failure">"一般故障。"</string>
+
+    <string name="send_groupsms_no_number_more">"%1$s 及 %2$s 以上的聯絡人無正確的電話號碼。"</string>
+    <string name="send_groupsms_no_number_1">"%1$s 無正確的電話號碼。"</string>
+    <string name="send_groupsms_no_number_2">"%1$s 及 %2$s 無正確的電話號碼帳號。"</string>
+
+    <!-- Feature Fix by Mediatek Begin -->
+
+    <!-- The local account type to be added, it used to manage SIM contacts. -->
+    <string name="account_type_sim" product="tablet">SIM 卡帳戶</string>
+    <!-- The local account type to be added, it used to manage SIM contacts. -->
+    <string name="account_type_sim" product="default">SIM 卡帳戶</string>
+
+    <!-- The local account type to be added, it used to manage USIM contacts. -->
+    <string name="account_type_usim" product="tablet">USIM 卡帳戶</string>
+    <!-- The local account type to be added, it used to manage USIM contacts. -->
+    <string name="account_type_usim" product="default">USIM 卡帳戶</string>
+
+    <!-- The local account type to be added, it used to manage Phone contacts. -->
+    <string name="account_type_local_phone" product="tablet">手機當地帳戶</string>
+    <!-- The local account type to be added, it used to manage Phone contacts. -->
+    <string name="account_type_local_phone" product="default">電話本機帳號</string>
+
+
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts. -->
+    <string name="local_account_type" product="tablet">當地帳戶</string>
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts. -->
+    <string name="local_account_type" product="default">當地帳戶</string>
+
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts settings. -->
+    <string name="local_account_label" product="tablet">本機帳號</string>
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts settings -->
+    <string name="local_account_label" product="default">本機帳號</string>
+
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the SIM Card
+         and will not be synced. -->
+    <string name="account_type_sim_label" product="tablet">僅限 SIM 卡，未同步</string>
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the SIM Card
+         and will not be synced. -->
+    <string name="account_type_sim_label" product="default">僅限 SIM 卡，未同步</string>
+
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the USIM Card
+         and will not be synced. -->
+    <string name="account_type_usim_label" product="tablet">限USIM，未同步</string>
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the USIM Card
+         and will not be synced. -->
+    <string name="account_type_usim_label" product="default">限USIM，未同步</string>
+
+    <!-- below strings are used by contacts group -->
+    <string name="please_wait">"請稍候..."</string>
+    <string name="move_contacts_to">移動聯絡人到</string>
+    <string name="menu_move_group">"移動群組成員"</string> 
+    <string name="menu_message_group">"傳送群組訊息"</string>
+    <string name="menu_email_group">"發送群組電子郵件"</string>
+    <string name="moving_group_members">"移動群組聯絡人\u2026"</string>
+    <string name="removing_group_members_sucess">"成功移除群組聯絡人"</string>
+    <string name="moving_group_members_sucess">"成功移動群組聯絡人"</string>
+    <string name="moving_group_members_fail">"無法移動群組聯絡人"</string>
+    <string name="no_valid_number_in_group">本群組無聯絡人有正確的電話號碼。</string>
+    <string name="no_valid_email_in_group">"此群組無具有郵件的聯絡人。"</string>
+    <string name="email_error">您必須安裝電子郵件應用程式或設定您的帳戶！</string>
+    <string name="usim_group_name_exceed_limit">"群組名稱長度超過儲存裝置限制。"</string>
+    <string name="usim_group_count_exceed_limit">"已達群組上限，無法再新增群組到儲存裝置。"</string>
+
+    <!-- below strings are used by contacts import/export -->
+    <string name="import_export_title">"匯入/匯出"</string>
+    <string name="next">下一個</string>
+    <string name="imexport_bridge_sd_card">"存儲卡"</string>
+    <string name="tips_source">複製聯絡人，自</string>
+    <string name="tips_target">複製聯絡人到</string>
+    <string name="back">返回</string>
+    <string name="imexport_title">匯入／匯出聯絡人</string>
+    <string name="xport_error_one_account">"請插入 UIM/SIM 卡 或 SD 卡 來匯入/匯出聯絡人。"</string>
+    <!-- previous strings are used by contacts import/export -->
+
+
+    <!-- Title when popup ContactEditorAccountsChangedActivity's dialog -->
+    <string name="store_contact_to">儲存聯絡人到</string>
+
+    <!-- strings are used by people activity -->
+    <string name="menu_delete_contact">刪除聯絡人</string>
+    <string name="menu_conference_call">多方通話</string>
+    
+    <!-- string for multiple choice -->
+
+    <string name="notifier_finish_delete_title">刪除聯絡人完成</string>
+    <string name="notifier_finish_delete_content">已刪除  <xliff:g id="total">%d</xliff:g> 位聯絡人 </string>  
+    <string name="notifier_finish_copy_title">複製聯絡人完成</string>
+    <string name="notifier_finish_copy_content">已成功複製  <xliff:g id="total">%d</xliff:g> 位聯絡人 </string>  
+    <string name="notifier_multichoice_process_report">已完成：  <xliff:g id="items">%d</xliff:g> 筆\n未完成：  <xliff:g id="items">%d</xliff:g> 筆 </string>  
+    <string name="notifier_failure_by_sim_full">失敗原因：SIM 卡儲存空間已滿\n已完成：  <xliff:g id="items">%d</xliff:g> 筆\n未完成：  <xliff:g id="items">%d</xliff:g> 筆 </string>  
+    <string name="notifier_failure_sim_notready">失敗原因：SIM 卡未就緒\n已完成：  <xliff:g id="items">%d</xliff:g> 筆\n未完成：  <xliff:g id="items">%d</xliff:g> 筆 </string>  
+    <string name="notifier_cancel_delete_title">刪除聯絡人已取消</string>
+    <string name="notifier_fail_delete_title">刪除聯絡人失敗</string>  
+    <string name="notifier_cancel_copy_title">複製聯絡人已取消</string>
+    <string name="notifier_fail_copy_title">複製聯絡人失敗</string>  
+    <string name="notifier_progress_delete_message">刪除 <xliff:g id="current_number">%s</xliff:g>/<xliff:g id="total_number">%s</xliff:g>:<xliff:g example="JoeDue" id="name">%s</xliff:g>
+</string>
+    <string name="notifier_progress_delete_description">刪除 <xliff:g example="JoeDue" id="name">%s</xliff:g>
+</string>
+    <string name="notifier_progress_copy_message">正在複製  <xliff:g id="current_number">%s</xliff:g>/  <xliff:g id="total_number">%s</xliff:g>：  <xliff:g example="JoeDue" id="name">%s</xliff:g>  </string>  
+    <string name="notifier_progress_copy_description">正在複製  <xliff:g example="JoeDue" id="name">%s</xliff:g>  </string>  
+    <string name="multichoice_confirmation_title_delete">取消刪除聯絡人 </string>
+    <string name="multichoice_confirmation_message_delete">取消刪除聯絡人？</string>
+    <string name="multichoice_confirmation_title_copy">取消複製聯絡人 </string>
+    <string name="multichoice_confirmation_message_copy">取消複製聯絡人？ </string>
+  <!-- The toast title when storage is full -->
+    <string name="phone_storage_full_create">手機記憶空間已滿，無法再新增聯絡人。</string>
+    <string name="phone_storage_full_edit">手機儲存空間，無法修改聯絡人資料。</string>
+    <!-- Displayed at the top of the call log search, showing the total number of call logs found in call log search result page -->
+    <plurals name="searchFoundCalllogs">
+        <item quantity="one">1 筆通話紀錄</item>
+        <item quantity="other">
+<xliff:g id="count">%d</xliff:g> 筆通話紀錄</item>
+    </plurals>
+        
+    <string name="search_results_for">此項目之搜尋結果：<xliff:g id="QUERY">%s</xliff:g>
+</string>
+    <string name="listFoundAllCalllogZero">找不到通話記錄</string>
+    
+    <string name="calllogList">通話記錄</string>
+    <string name="calllogHint">搜尋通話記錄</string>
+    <string name="calllog_description">來電、去電、及未接來電</string>
+    <string name="noMatchingCalllogs">無相符的通話記錄。</string>
+
+    <string name="menu_videocallNumber">視訊通話<xliff:g id="NAME">%s</xliff:g>
+</string>
+    <string name="menu_ipcallNumber">IP 通話 <xliff:g id="name">%s</xliff:g>
+</string>
+    
+    <string name="deleting_call_log">刪除通話記錄中...</string>
+
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+    
+    <!-- missing voicemail number -->
+    <!-- Title of the "Missing voicemail number" dialog -->
+    <string name="no_vm_number">缺語音郵件號碼</string>
+    <!-- Body text of the "Missing voicemail number" dialog -->
+    <string name="no_vm_number_msg">"SIM 卡中未儲存語音信箱號碼。"</string>
+    <!-- Button label on the "Missing voicemail number" dialog -->
+    <string name="add_vm_number_str">新增號碼</string>
+    
+    <string name="reminder">提醒</string>
+    <string name="enable_sip_dialog_message">網際網路通話已停用，是否要啟用？</string>
+
+    <!-- The toast title for add SIP No. to SIM/USIM contact -->
+    <string name="add_SIP_to_sim">"無法新增 SIP 號碼至 SIM/USIM 卡聯絡人。"</string>
+    <!-- The toast title fot if there has SIP No. can't add new -->
+    <string name="already_has_SIP">無法新增兩個 SIP 號碼到聯絡人，若要繼續，請先刪除舊 SIP 號碼。 </string>
+
+    <string name="multichoice_no_select_alert">"未選擇任何項目。"</string>
+    <string name="multichoice_delete_confirm_message">"確定要刪除所選的聯絡人？"</string>
+    <string name="multichoice_delete_confirm_title">正在刪除聯絡人項目?</string>
+    <string name="multichoice_contacts_limit">"所選的聯絡人不能多於"<xliff:g id="count">%d</xliff:g>
+</string>
+
+    <string name="name_needed">須有名稱</string>
+    <string name="save_group_fail">"儲存群組失敗。"</string>
+    <string name="group_name_exists">群組名稱重複。</string>
+    
+    <string name="contact_delete_all_tips">"正在刪除聯絡人，本操作無法執行。" </string>
+    <string name="notifier_progress__delete_will_start_message">聯絡人即將被刪除</string>
+    <string name="notifier_progress__copy_will_start_message">聯絡人即將被複製。</string>
+    <string name="sum_search_networks">搜尋全部可用的網路</string>
+    <string name="group_discard_member">捨棄</string>  
+    <string name="group_discard_member_reason">由於群組名稱有誤，所做的修改不會儲存。 </string>
+    <string name="share_contacts_limit">"所選的分享聯絡人不能多於 "<xliff:g id="count">%d</xliff:g>
+</string>
+    
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">請先輸入 IP 前置碼於語音通話設定。</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">IP 撥號功能不適用於網際網路通話。</string>
+
+    <!-- Title of the confirmation dialog for deleting the call log -->
+    <string name="deleteCallLogConfirmation_title">刪除通話記錄？</string>
+
+    <!-- Confirmation dialog for deleting the call log -->
+    <string name="deleteCallLogConfirmation_message">確定要刪除所選的通話記錄？</string>
+    
+    <string name="file_already_on_sd_card">SD 卡已有此一檔案。</string>
+    <string name="send_file_sms_error">無法用 SMS 分享檔案，請改用 MMS。</string>
+
+    <string name="error_save_usim_contact_email_lost">"儲存裝置電子郵件空間已滿，無法儲存電子郵件位址。"</string>
+    <string name="error_import_usim_contact_email_lost">"儲存裝置電子郵件空間已滿，某些電子郵件位址未匯入。\n已匯入的：<xliff:g id="items">%d</xliff:g>\n未匯入的：<xliff:g id="items">%d</xliff:g>"</string>
+    <string name="user_profile_cannot_sd_card">此一方法無法分享內容。</string>
+    
+    <string name="type_ip_outgoing">IP 去電 (<xliff:g id="name">%s</xliff:g>)</string>
+    <string name="call_sms">"簡訊"</string>
+    <string name="send_message">傳送訊息</string>
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+
+    <!--The following lines are provided and maintained by Mediatek Inc. 2012-5-16-->
+    <string name="delete_group_failure">"無法刪除群組。"</string>  
+    <string name="call_log_auto_rejected_label">自動拒接</string>
+    <string name="email_too_long">電子郵件太長</string>
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+    
+      <string name="from_account_format"> 
+        <xliff:g example="user@gmail.com" id="source">%1$s</xliff:g> 
+    </string>
+    <string name="AirPlane_mode_on_edit">飛行模式中無法修改聯絡人。</string>
+  <string name="contact_group_list_title">"選擇目標群組"</string> 
+    <string name="look_simstorage">查看SIM 卡可用容量</string>
+    <string name="dlg_simstorage_content">聯絡人記憶空間容量 <xliff:g id="items">%d</xliff:g>，已使用 <xliff:g id="items">%d</xliff:g>。</string>
+    <string name="import_no_vcard_dialog_text"> <xliff:g id="storage_name">%s</xliff:g> 中無 vCard 檔案 </string> 
+  
+    <!--The following lines are provided and maintained by Mediatek Inc. 2012-7-03-->
+    <string name="send_groupemail_no_number_more">"%1$s 及 %2$s 或更多聯絡人無電子郵件。"</string>
+    <string name="send_groupemail_no_number_1">"%1$s 無正確的電子郵件。"</string>
+    <string name="send_groupemail_no_number_2">"%1$s 及 %2$s 無正確的電子郵件帳號。"</string>
+    <!-- The previous lines are provided and maintained by Mediatek Inc. --> 
+  <string msgid="7368429698398624427" name="delete_group_dialog_title">"刪除群組"</string>
+  <string msgid="2111395432187079579" name="dialog_phone_call_prohibited_title">"未送出通話要求"</string>
+  <string msgid="7258109862329777060" name="dialog_voicemail_not_ready_title">"語音信箱號碼無法使用"</string>
+
+    <string name="nickname_too_long">"暱稱太長"</string>
+    <string name="pick_new_photo_from_gallery">選擇新照片</string>  
+    <string name="copy_text_to_dialer">複製到撥號者</string>
+    <string name="account_phone_only" product="tablet">"平板電腦"</string>  
+    <string name="account_phone_only" product="default">"電話聯絡人"</string>  
+
+    <string name="international_dialing_title">國際撥號協助</string>
+    <string name="international_dialing_select_country">您正在撥打國際電話，請選擇目的國。</string>
+    <string name="international_dialing_add_country_code">您正在撥打 <xliff:g id="country_name">%s</xliff:g> 電話號碼，是否要新增國碼 (+<xliff:g id="country_code">%s</xliff:g>)？</string>
+    <string name="international_dialing_add_country_code_and_area_code">您要撥打在<xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g>內的電話號碼，是否加上國碼及區碼(+<xliff:g id="prefix">%3$s</xliff:g>)？</string> 
+    <string name="international_dialing_change_country_prefix">您正在從 <xliff:g id="country_name">%s</xliff:g>撥打電話，請將國際電話前置碼為 \'+\'？ </string>
+    <string name="international_dialing_add_country_code_input_area_code">您正在撥打<xliff:g id="country_name">%s</xliff:g>電話號碼，請輸入區碼。</string>
+    <string name="international_dialing_add_country_code_default_input_area_code">您正在撥打 <xliff:g id="country_name">%s</xliff:g>電話號碼，目的城市若不在<xliff:g id="area_name">%s</xliff:g>內，請輸入區碼。</string>
+    <string name="international_dialing_need_area_code">撥號對方城市須加區碼</string>
+    <string name="international_dialing_input_area_code">輸入區碼於此。</string>
+    <string name="international_dialing_dialed_number">撥打號碼：</string>
+    <string name="international_dialing_confirm_area_code">受話方城市不是<xliff:g id="area_name">%s</xliff:g>時，請於下方輸入受話方的區碼。</string>
+    <string name="international_dialing_click_below_button">點選下方按鈕變更國碼。</string>
+    <string name="international_dialing_yes">是，使用下列號碼：</string>
+    <string name="international_dialing_no">否，請使用原始號碼： </string>
+    <string name="international_dialing_call_button">通話</string>
+    <string name="international_dialing_area_code">區碼</string>
+    <string name="international_dialing_invalid_number">號碼有誤，是否要繼續？仍然撥號？</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">是否要新增國碼及區碼？</string>
+    <string name="no_search_result">無搜尋結果</string>
+
+    <string name="no_match_call_log">"無相符的項目"</string>
+    <string name="no_call_log">"無通話記錄"</string>
+    <string name="share_too_large">總數據量超過上限，請取消選擇某些項目後再試。 </string>
+
+    <string name="err_icc_no_phone_book">%1$s 無法儲存聯絡人</string>
+
+    <string name="contact_detail_group_list_title">"群組"</string>
+    <string name="contact_detail_group_not_assigned">"未指定"</string>
+    <string name="contact_detail_group_list_nogroups">"無現存的群組。是否要新建群組？"</string>
+    <string name="recents">"最近聯絡人"</string>
+    <string name="contact_detail_ip_call">IP 通話</string>
+    <string name="contact_detail_history_mms_received_time">"收到的時間 %1$s"</string>
+    <string name="contact_detail_history_mms_received_from">"自 %1$s 收到"</string>
+    <string name="contact_detail_history_mms_sent_time">"發送的時間  %1$s"</string>
+    <string name="contact_detail_history_mms_sent_to">"發送給  %1$s"</string>
+    <string name="contact_detail_history_calllog">通話記錄</string>
+    <string name="contact_detail_history_mms">訊息</string>
+    <string name="contact_detail_history_duration">"持续時間: "</string>
+    <string name="contact_detail_history_ismms">"多媒體訊息"</string>
+    <string name="contact_detail_history_empty_calllog">"通話記錄空白"</string>
+    <string name="contact_detail_history_empty_message">"無短訊息記錄"</string>
+    <string name="contact_detail_history_empty">"無通訊記錄和短訊息記錄。"</string>
+    <string name="contact_recent_number_limit">"僅限 %1$s聯絡人可用"</string>
+    <string name="contact_no_recents">"無最近聯絡人"</string> 
+    <string name="contact_recent_group_label">"群組"</string>
+    
+    <string name="call_pin_dialog_title_ct">"選擇 UIM/SIM 卡"</string>
+    <string name="callFailed_simError_ct">無電話卡/電話卡故障</string>
+    <string name="msg_loading_sim_contacts_toast_ct">"正在背景載入 UIM/SIM 卡聯絡人，請稍候。"</string>
+    <string name="xport_error_one_account_ct">"要匯入／匯出聯絡人，請先插入電話卡或SD卡。"</string>
+    <string name="notifier_failure_by_sim_full_ct">因 UIM/SIM 儲存已滿失敗。\n已完成的：<xliff:g id="items">%d</xliff:g>\n未完成的：<xliff:g id="items">%d</xliff:g>
+</string>
+    <string name="notifier_failure_sim_notready_ct">因 UIM/SIM 未完全準備好而失敗。\n已完成的：<xliff:g id="items">%d</xliff:g>\n未完成的：<xliff:g id="items">%d</xliff:g>
+</string>
+    <string name="look_simstorage_ct">查看UIM/SIM 卡可用容量</string>
+
+      <string name="account_type_uim_label" product="tablet">僅限 UIM，未同步</string>
+      <string name="account_type_uim_label" product="default">僅限 UIM，未同步</string>
+    <string name="callFailed_cdma_notEmergency">僅限緊急通話</string>
+    <string name="titleJoinContactDataWith">加入通訊錄</string>
+    <string name="menu_select_all">"選擇全部"</string>
+      <string name="list_filter_custom">"自訂"</string>
+      <string name="add_contact_dlg_message_fmt">"要將「<xliff:g id="EMAIL">%s</xliff:g>」加到通訊錄嗎？"</string>
+      <string name="locale_change_in_progress">"正在更新聯絡人清單以反映語言變更。"</string>
+      <string name="noFavoritesHelpText">"您沒有任何最愛。"\n\n"如要將聯絡人新增至最愛清單："\n\n<li>"輕觸 [聯絡人"<b/>"] 標籤"\n</li>" "\n<li>"輕觸要新增至最愛的聯絡人"\n</li>" "\n<li>"輕觸聯絡人名稱旁邊的星號圖示"\n</li>
+</string>
+      <string name="non_phone_caption">"電話號碼"</string>
+      <string name="menu_select_none">"取消全選"</string>
+      <string name="mtk_contact_list_loading">載入中\u2026</string>
+      <string name="vcard_import_failed_v2">無法匯入 </string>
+    <string name="quickcontact_missing_app">無應用程式可處理此一動作。</string>
+      <string name="find_call_logs">搜尋通話記錄</string>
+      <string name="call_log_via_sim_name_notice">通話記錄，經 \"<xliff:g id="sim_name">%s</xliff:g>\"</string>
+
+    <!-- M: TODO for migration, duplicate string -->
+    <string name="call_speed_dial_title">快速撥號</string>
+    <string name="dialog_no_speed_dial_number_message">無簡碼，現在設定？</string>
+    <string name="icc_phone_book_invalid">聯絡人目前無法使用，請稍後再試。</string>
+    <string name="error_edit_join_group">這是一個加入的聯絡人，請在編輯模式修改群組資訊。</string>
+    <string name="local_phone_account" product="tablet">平板電腦</string>
+    <string name="local_phone_account" product="default">﻿手機</string>
+    <string name="imsCallLabelsGroup">IMS 通話</string>
+    <string name="sip_url">SIP 位址</string>
+    <string name="ims_call_disabled">IMS 通話目前無法使用</string>
+    <string name="vcs_menu_voice_contacts_search" product="default">語音聯絡人搜尋</string>
+    <string name="vcs_msg_no_voice_contacts">抱歉，找不到聯絡人。</string>
+
+    <string name="contact_import_export_tips">匯入/匯出聯絡人中，請稍後再試</string>
+<string name="can_not_switch_account_during_call">無法在通話時切換偏好的 SIM 卡以接打電話。</string>
+<string name="can_not_switch_account_temporarily">暫時無法切換偏好的 SIM 卡以接打電話。</string>
+<string name="location_permission_title">安全性警告</string>
+<string name="location_permission_summary">「聯絡人」應用程式正嘗試取得您目前的位置。\n(在 <xliff:g id="time_sec">%1$s</xliff:g> 秒後自動拒絕)</string>
+<string name="location_permission_allow">允許</string>
+<string name="location_permission_deny">拒絕</string>
+</resources>

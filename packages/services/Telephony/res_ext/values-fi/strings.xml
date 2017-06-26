@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">Kohinanvaimennus</string>
+    <string name="dual_mic_summary">Vaimenna taustamelu puheluiden aikana</string>
+    <string name="anc_title">Aktiivinen kohinanvaimennus</string>
+    <string name="anc_on">ANC päällä</string>
+    <string name="anc_off">ANC pois</string>
+    <string name="ip_prefix_setting">IP-etuliitenumero</string>
+    <string name="ip_prefix_setting_lable">IP-etuliitenumero (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">IP-etuliitenumeroasetus</string>
+    <string name="enter_ip_prefix_number">Anna etuliitenumero</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Anna IP-etuliitenumero ensin äänipuheluasetuksissa.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">IP-valintatoiminto ei ole käytettävissä internet-puheluihin.</string>
+    <string name="ip_prefix_edit_default_sum">Anna etuliitenumero IP-puhelulle</string>
+    <string name="lable_call_barring">"Puhelujen esto"</string>
+    <string name="title_call_barring">Puhelujen esto (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">Kaikki lähtevät puhelut</string>
+    <string name="lable_all_outgoing_international">Kansainväliset lähtevät puhelut</string>
+    <string name="lable_all_out_except">Kansainväliset lähtevät puhelut paitsi koti-PLMN</string>
+    <string name="lable_all_incoming">Kaikki saapuvat puhelut</string>
+    <string name="lable_incoming_calls_except">Saapuvat puhelut verkkovierailun aikana</string>
+    <string name="deactivate_all">Peru kaikki</string>
+    <string name="change_password">Muuta estosalasana</string>
+    <string name="call_barring_sum">Äänipuhelun estoasetukset</string>
+    <string name="lable_disable">"Ei käytössä"</string>
+    <string name="lable_enable">"Käytössä"</string>
+    <string name="old_password_label">Vanha salasana (4 numeroa)</string>
+    <string name="new_password_label">Uusi salasana (4 numeroa)</string>
+    <string name="invalid_password">Näppäile nelinumeroinen salasana.</string>
+    <string name="confirm_password_label">Vahvista uusi salasana</string>
+    <string name="mismatch_password">Kirjoittamasi salasanat eivät vastaa toisiaan. Yritä uudelleen.</string>
+    <string name="password_changed">Salasanan muuttaminen onnistui</string>
+    <string name="enter_callbarring_password">Syötä puhelun eston salasana (nelinumeroinen)</string>
+    <string name="wrong_password">Salasanavirhe</string>
+    <string name="error_title">"Virhe"</string>
+    <string name="cell_broadcast">Solulähetys</string>
+    <string name="cell_broadcast_settings">Solulähetyksen asetukset</string>
+    <string name="cb_menu_language">"Kieli"</string>
+    <string name="cb_menu_add_channel">Lisää kanava</string>
+    <string name="cb_menu_channel_list">Kanavaluettelo</string>
+    <string name="cb_dialog_title_language_choice">Valitse kieli</string>
+    <string name="cb_channel_dialog_channel_name">Kanavan nimi (0–10 merkkiä)</string>
+    <string name="cb_channel_dialog_channel_number">Kanavan numero (0–65534)</string>
+    <string name="cb_channel_dialog_channel_state">Ota kanava käyttöön</string>
+    <string name="cb_channel_dialog_edit_channel">Muokkaa kanavaa</string>
+    <string name="cb_menu_edit">"Muokkaa"</string>
+    <string name="cb_menu_delete">"Poista"</string>
+    <string name="cb_error_channel_num">Syötä kanavanumero (0–65534).</string>
+    <string name="cb_error_channel_name">Kanavan nimen pituus ei ole oikea (1–10 merkkiä).</string>
+    <string name="cb_error_language_select">Valitse vähintään yksi kieli.</string>
+    <string name="cb_error_channel_id_exist">Kanavatunnus on olemassa.</string>
+    <string name="cb_all_languages">"Kaikki kielet"</string>
+    <string name="cb_default_new_channel_name">Uusi kanava</string>
+    <string name="fdn_errorcode_unknown_info">Epäonnistui. Ilmeni tuntematon virhe. Yritä uudelleen.</string>
+    <string name="fdn_errorcode_number_info">Epäonnistui. Yhteystiedon numero on liian pitkä.</string>
+    <string name="fdn_errorcode_name_info">Epäonnistui. Yhteystiedon nimi on liian pitkä.</string>
+    <string name="fdn_errorcode_storage_info">Epäonnistui. Tallennustila on täysi.</string>
+    <string name="fdn_errorcode_phb_info">Epäonnistui. Puhelinluettelo ei ole vielä valmis. Yritä myöhemmin uudelleen.</string>
+    <string name="fdn_errorcode_pin2_info">Epäonnistui. PIN2 ei kelpaa.</string>
+    <string name="net_or_simcard_busy">Verkko tai SIM-kortti on varattu. Yritä myöhemmin uudelleen.</string>
+    <string name="plmn_list_setting_title">Ensisijaiset verkot</string>
+    <string name="network_id">Verkkotunnus</string>
+    <string name="plmn_list_setting_add_plmn">Uusi PLMN</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">"Haku..."</string>
+    <string name="sum_search_femtocell_networks">Valitse femtocell manuaalisesti</string>
+    <string name="register_femtocell_point_wait_tip">Rekisteröidään kohdetta <xliff:g id="femto_cell_info">%s</xliff:g> …</string>
+    <string name="register_femtocell_point_result_fail_tip">Tähän verkkoon ei juuri nyt voi muodostaa yhteyttä. Yritä myöhemmin uudelleen.</string>
+    <string name="network_type">Verkkotyyppi</string>
+    <string name="gsm_umts_network_preferences_title">"Verkkotila"</string>
+    <string name="gsm_umts_network_preferneces_summary">Ei vielä otettu käyttöön!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"Verkkotila"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G (automaattinen)</item>
+        <item>Vain 3G</item>
+        <item>Vain 2G</item>
+    </string-array>
+    <string name="notification_voicemail_text">Valitse näyttääksesi äänipostit</string>
+    <string name="notification_network_selection_without_operator">Valittu verkko ei käytettävissä</string>
+    <string name="network_setting_all_forbidden_dialog">Ei käytettävissä olevia verkkoja.</string>
+    <string name="network_forbidden">kielletty</string>
+    <string name="fdn_contact_number_invalid">Yhteystietonumero ei kelpaa.</string>
+    <string name="fdn_puk_need_tips">PIN2 estetty. Muuta PIN2 ja yritä uudelleen!</string>
+    <string name="fdn_phone_book_busy">Puhelinluettelo on nyt varattu. Yritä myöhemmin uudelleen.</string>
+    <string name="one_retry_left">1 yritys jäljellä</string>
+    <string name="retries_left"><xliff:g id="number">%d</xliff:g> yritystä jäljellä</string>
+    <string name="pin_length_indicate">(4–8 numeroa)</string>
+    <string name="puk_length_indicate">(8 numeroa)</string>
+    <string name="unblock_pin2">Kumoa PIN2-koodin esto</string>
+    <string name="sim_permanently_locked">Annettuasi väärän PUK2-koodin yli 10 kertaa, SIM-kortti lukitaan pysyvästi.</string>
+    <string name="magi_conference_title">TaikaKokous</string>
+    <string name="magi_conference_summary">Parantaa äänenlaatua, kun useat henkilöt käyttävät samaa puhelinta toisen puolen kanssa puhumiseen.</string>
+    <string name="volte_is_adding_participants">Lisään kokoukseen osallistujia. Odota…</string>
+    <string name="volte_fail_to_invit_participants">Kaikkien osallistujien lisääminen kokoukseen epäonnistui.</string>
+    <string name="voicemail_lable">Vastaaja (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">Suorittaaksesi toiminnan loppuun, sinun on avattava datayhteys sovelluksella <xliff:g id="sub_name">%s</xliff:g>.</string>
+    <string name="cdma_labelCFU">"Siirrä aina"</string>
+    <string name="cdma_labelCFB">"Siirrä puhelu numeron ollessa varattu"</string>
+    <string name="cdma_labelCFNRy">"Siirrä puhelu, kun numero ei vastaa"</string>
+    <string name="cdma_labelCFNRc">"Siirrä puhelu, kun numeroon ei saada yhteyttä"</string>
+    <string name="cdma_labelCFC">Peruuta kaikki siirrot</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">Ota soittajan numeron yksilöinnin rajoitus pois käytöstä</string> 
+    <string name="cdma_cnir_turnon">Ota soittajan numeron yksilöinnin rajoitus käyttöön</string>
+    <string name="lte_data_only_prompt">Tätä ominaisuutta ei voi käyttää Vain 4G-data -tilan vuoksi. Haluatko poistua Vain 4G-data -tilasta?</string>
+    <string name="lte_data_only_timeout">Vain 4G-data -verkkoa ei ole käytettävissä nykyisessä sijainnissasi. Haluatko lopettaa ja etsiä muita verkkoja?</string>
+    <string name="lte_only_dialog_button_yes">"KYLLÄ"</string>
+    <string name="lte_only_dialog_button_no">"EI"</string>
+    <string name="lte_only_dialog_title_prompt">Kehote</string>
+    <string name="enable_4G_data">Ota 4G-data käyttöön</string>
+    <string name="enable_4G_data_summary">4G pystyy tarjoamaan paremman ja nopeamman internet-yhteyden</string>
+    <string name="only_use_LTE_data">Käytä vain LTE-dataa</string>
+    <string name="only_use_LTE_data_summary">Vain yksittäisen datan käyttöönottoon. Toiminto ei pysty käyttämään puheluita eikä tekstiviestejä.</string>
+</resources>

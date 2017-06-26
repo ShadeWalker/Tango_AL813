@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dm_lock">DM bloquejada</string>
+    <string name="dm_unlock">Desbloqueja DM</string>
+    <string name="start_record">Inicia l’enregistrament</string>
+    <string name="stop_record">Atura l’enregistrament</string>
+    <string name="str_db_playlist_name">"Els meus enregistraments"</string>
+    <string name="alert_device_error">"Error al dispositiu d\'àudio"</string>
+    <string name="ext_media_badremoval_notification_title">"Targeta SD extreta inesperadament"</string>
+    <string name="error_sdcard_access">"No es pot accedir a la targeta SD"</string>
+    <string name="confirm_device_info_full">No queda espai a la targeta SD, s’ha desat l’enregistrament.</string>
+    <string name="confirm_save_info_saved">S’ha desat l’enregistrament.</string>
+    <string name="confirm_save_info_saved_to">"La gravació s\'ha desat a"</string>
+    <string name="recording_saved_sd_full">No queda espai a la targeta SD, s’ha desat l’enregistrament.</string>
+    <string name="sd_not_enough">La targeta SD té poc espai</string>
+    <string name="alert_dialog_dismiss">"Omet"</string>
+    <string name="change_my_pic">Canvia</string>
+    <string name="onscreenHangupAll">Penja-les totes</string>
+    <string name="onscreenHangupHolding">Penja les trucades en espera</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Penja les trucades actives que esperen resposta</string>
+    <string name="menu_ect">Transferència</string>
+    <string name="respond_via_sms_confirmation_format">"Missatge enviat a 
+        <xliff:g id="PHONE_NUMBER">%s</xliff:g>."
+    </string>
+    <string name="volte_add_conference_member_title">Afegeix a la conferència</string>
+    <string name="add_member_msg">Escriu un número o un nom</string>
+    <string name="card_title_incoming_conference">Invitació a la conferència</string>
+    <string name="addConferenceMemeberText">Afegeix un membre</string>
+    <string name="add_conference_member_limit">"No es pot afegir més d'un número simultàniament"</string>
+    <string name="conference_member_join">"<xliff:g id="member_name">%s</xliff:g> s'ha afegit a la conferència."</string>
+    <string name="conference_member_leave">
+<xliff:g id="member_name">%s</xliff:g> ha abandonat la conferència.</string>
+    <string name="conference_member_adding">"S'està afegint <xliff:g id="member_name">%s</xliff:g> ..."</string>
+    <string name="conference_member_add_fail">"No s'ha pogut afegir <xliff:g id="member_name">%s</xliff:g>."</string>
+    <string name="removeMember">"Suprimeix"</string>
+    <string name="memberStatus">"Estat"</string>
+    <string name="volte_call_waiting_indication_text">"L'interlocutor està fent una trucada, espera..."</string>
+    <string name="volte_conf_member_reach_max">La conferència ja ha arribat al número màxim de membres.</string>
+    <string name="add_multi_conference_member_limit">De moment, només poden afegir-se com a màxim <xliff:g id="max_number">%s</xliff:g> membres.</string>
+    <string name="multi_conference_member_adding">"S'estan afegint membres..."</string>
+<string name="ok">"D\'acord"</string>
+<string name="two_incoming_calls">Dues trucades entrants</string>
+<string name="wifi_title">Trucada Wi-Fi i minuts </string>
+<string name="call_drop">Pot ser que la vostra trucada s\'hagi desconnectat</string>
+<string name="call_drop_message">Esteu gairebé fora de l\'abast de la cobertura Wi-Fi</string>
+<string name="view_networks">Veure xarxes</string>
+<string name="wfc_wifi_call_drop_summary">Ui! Sembla que heu sortit de la xarxa Wi-Fi durant una trucada.\n \nUs voleu tornar a connectar a la xarxa Wi-Fi per acabar-la?</string>
+</resources>

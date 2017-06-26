@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- Layout for the Phone app's IccNetworkDepersonalizationPanel. -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="20dip"
+        android:paddingEnd="20dip">
+
+    <LinearLayout
+            android:id="@+id/entry_panel"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+            
+<!--add by zhangjinqiang for HW_SIMLock-start-->
+        <TextView
+        		android:id="@+id/perso_subtype_text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_ndp"
+                android:layout_marginBottom="15dp"/>
+ <!--add by zhangjinqiang for HW_SIMLock-end-->
+
+        <EditText android:id="@+id/pin_entry"
+                android:inputType="textPassword"
+                android:imeOptions="actionDone"
+                android:layout_marginTop="8dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollHorizontally="true" 
+                android:layout_marginBottom="20dp"/>
+
+        <Button android:id="@+id/ndp_unlock"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/sim_ndp_unlock_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dip"
+                android:paddingEnd="20dip" 
+                android:enabled="false"
+	       android:clickable="false"
+	       android:layout_marginBottom="20dp"/>
+
+        <!-- Dismiss button.  (Not present in some products; see
+             sim_network_unlock_allow_dismiss in config.xml.) -->
+        <Button android:id="@+id/ndp_dismiss"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/sim_ndp_dismiss_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dip"
+                android:paddingEnd="20dip" />
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/status_panel"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:colorBackground="#80808080"
+            android:panelColorBackground="#fff">
+
+        <TextView android:id="@+id/status_text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:colorBackground="#80808080"
+            android:text="@string/requesting_unlock" />
+
+        <!--add by zhangjinqiang for HW_SIMLock start-->
+         <TextView 
+	        android:id="@+id/timer_text"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textStyle="bold"
+	        android:visibility="gone"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:colorBackground="#80808080"	/>
+
+	     <TextView 
+	        android:id="@+id/left_times_text"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textStyle="bold"
+	        android:visibility="gone"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:colorBackground="#80808080"	/>
+	        
+         <!--add by yulifeng  for HW_SIMLock HQ01987750 start-->
+	     <Button android:id="@+id/panel_dismiss"
+	        android:text="@string/sim_ndp_dismiss_text"
+	        android:layout_width="wrap_content"
+	        android:gravity="center"
+	        android:layout_gravity="center"
+	        android:visibility="gone"
+	        android:layout_height="wrap_content" />
+         <!--add by yulifeng  for HW_SIMLock HQ01987750 end-->        
+    </LinearLayout>
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" 
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/emergency_call"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/emergency_call_simlock"
+            />
+    </LinearLayout>
+    <!--add by zhangjinqiang end-->
+</RelativeLayout>

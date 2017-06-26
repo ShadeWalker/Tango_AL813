@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/keylock_gestures_title">
+        <!--Gesture switch-->
+        <SwitchPreference 
+            android:key="gesture_enabler" 
+            android:title="@string/gesture_enabler_title"/>
+<!--
+    <PreferenceCategory android:key = "double_click"    
+        android:title = "@string/gesture_double_click_category"/>
+        Gesture double click switch
+        <SwitchPreference 
+            android:key="gesture_doubleclick" 
+            android:title="@string/gestures_doubleclick_title"
+            android:summary="@string/gesture_doubleclick_summary"/>-->
+
+    <PreferenceCategory android:key = "draw_letter"    
+        android:title = "@string/gesture_draw_letter_category"/>
+
+        <!-- HQ_jiazaizheng 2015-10-12 modified for order HQ01389234 begin-->
+        <com.android.settings.IconListPreference
+        android:key="gesture_type_c"
+        android:title="@string/gestures_c_title"
+        />
+
+        <com.android.settings.IconListPreference
+        android:key="gesture_type_e"
+        android:title="@string/gestures_e_title"
+        /> 
+
+        <com.android.settings.IconListPreference
+        android:key="gesture_type_m"
+        android:title="@string/gestures_m_title"
+        />
+
+        <com.android.settings.IconListPreference
+        android:key="gesture_type_w"
+        android:title="@string/gestures_w_title"
+        /> 
+        <!-- HQ_jiazaizheng 2015-10-12 modified end-->
+
+</PreferenceScreen>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+    <TextView
+    android:id="@+id/title"
+    android:layout_width="fill_parent"
+    android:layout_height="40.0dip"
+    android:layout_marginTop="15dp"
+    android:gravity="center"
+    android:text="@string/fingerprint_enter_newname"
+    android:textSize="18sp"
+    android:visibility="visible" />
+    <EditText
+    android:id="@+id/newname"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/edittext_border"  
+    android:gravity="left|center"
+    android:textSize="7pt"
+    android:padding="10px"
+    android:singleLine="true" />
+
+</LinearLayout>

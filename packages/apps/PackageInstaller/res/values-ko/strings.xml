@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="2738748390251381682" name="app_name">"패키지 설치 프로그램"</string>
+    <string msgid="3057143178373252333" name="next">"다음"</string>
+    <string msgid="5896438203900042068" name="install">"설치"</string>
+    <string msgid="3889387558374211719" name="done">"완료"</string>
+    <string msgid="2706691034244052604" name="security_settings_desc">"앱에 허용할 작업:"</string>
+    <string msgid="8360346460165114585" name="cancel">"취소"</string>
+    <string msgid="4742479012767208045" name="unknown">"알 수 없음"</string>
+    <string msgid="8613631001631998372" name="installing">"설치 중..."</string>
+    <string msgid="3682715442154357097" name="install_done">"앱이 설치되었습니다."</string>
+    <string msgid="7295206719219043890" name="install_confirm_question">"이 애플리케이션을 설치하시겠습니까? 애플리케이션이 다음에 액세스할 수 있습니다."</string>
+    <string msgid="5918305641302873520" name="install_confirm_question_no_perms">"이 애플리케이션을 설치하시겠습니까? 특별한 액세스 권한이 필요하지 않습니다."</string>
+    <string msgid="4624159567361487964" name="install_confirm_question_update">"기존 애플리케이션에 업데이트를 설치하시겠습니까? 기존 데이터는 손실되지 않습니다. 업데이트된 애플리케이션이 다음에 액세스할 수 있습니다."</string>
+    <string msgid="1302330093676416336" name="install_confirm_question_update_system">"내장 애플리케이션에 업데이트를 설치하시겠습니까? 기존 데이터는 손실되지 않습니다. 업데이트된 애플리케이션이 다음에 액세스할 수 있습니다."</string>
+    <string msgid="4885928136844618944" name="install_confirm_question_update_no_perms">"기존의 애플리케이션 업데이트를 설치하시겠습니까? 기존의 데이터는 손실되지 않으며 특별한 액세스 권한이 필요하지 않습니다."</string>
+    <string msgid="7676593512694724374" name="install_confirm_question_update_system_no_perms">"내장 애플리케이션 업데이트를 설치하시겠습니까? 기존의 데이터는 손실되지 않으며 특별한 액세스 권한이 필요하지 않습니다."</string>
+    <string msgid="6579998651498970899" name="install_failed">"앱이 설치되지 않았습니다."</string>
+    <string msgid="1287935707565682604" name="install_failed_invalid_apk">"패키지가 손상된 것 같습니다."</string>
+    <string msgid="1517751954440692054" name="install_failed_inconsistent_certificates">"서명이 충돌하는 같은 이름의 기존 패키지가 이미 설치되어 있습니다."</string>
+    <string msgid="7947925824732917665" name="install_failed_older_sdk">"패키지는 상위 버전의 Android에서만 작동합니다."</string>
+    <string msgid="7098684468842750800" name="install_failed_cpu_abi_incompatible" product="tablet">"이 앱은 사용자의 태블릿과 호환되지 않습니다."</string>
+    <string msgid="1309625657882930450" name="install_failed_cpu_abi_incompatible" product="tv">"앱이 현재 연결된 TV와 호환되지 않습니다."</string>
+    <string msgid="4433316303249711331" name="install_failed_cpu_abi_incompatible" product="default">"이 앱은 사용자의 휴대전화와 호환되지 않습니다."</string>
+    <string msgid="1958430133396322619" name="install_failed_file_not_found">"설치가 완료되기 전에 지정된 패키지가 삭제되었습니다."</string>
+    <string msgid="5567372439890440205" name="install_failed_verify_failed">"패키지가 인증을 통과하지 못해 설치할 수 없습니다."</string>
+    <string msgid="7083090219270140373" name="install_failed_verify_timeout">"패키지를 확인하는 동안 시간이 초과했습니다. 나중에 다시 설치해 주세요."</string>
+    <string msgid="8368835262605608787" name="install_failed_msg" product="tablet">"태블릿에 <xliff:g id="APP_NAME">%1$s</xliff:g> 앱을 설치할 수 없습니다."</string>
+    <string msgid="3990457938384021566" name="install_failed_msg" product="tv">"<xliff:g id="APP_NAME">%1$s</xliff:g>을(를) TV에 설치할 수 없습니다."</string>
+    <string msgid="8554909560982962052" name="install_failed_msg" product="default">"휴대전화에 <xliff:g id="APP_NAME">%1$s</xliff:g> 앱을 설치할 수 없습니다."</string>
+    <string msgid="4826921505917605463" name="launch">"열기"</string>
+    <string msgid="2855558586206583032" name="unknown_apps_dlg_title">"설치가 차단됨"</string>
+    <string msgid="7504186369474734767" name="unknown_apps_dlg_text" product="tablet">"보안을 위해 알 수 없는 출처에서 구매한 앱은 태블릿에 설치되지 않도록 설정되어 있습니다."</string>
+    <string msgid="7195713985140602351" name="unknown_apps_dlg_text" product="tv">"보안상의 이유로 TV가 출처를 알 수 없는 앱 설치를 차단하도록 설정되어 있습니다."</string>
+    <string msgid="133213135679009316" name="unknown_apps_dlg_text" product="default">"보안을 위해 알 수 없는 출처에서 구매한 앱은 휴대전화에 설치되지 않도록 설정되어 있습니다."</string>
+    <string msgid="1189146324736698462" name="unknown_apps_admin_dlg_text">"관리자가 알 수 없는 출처의 앱 설치를 허용하지 않습니다."</string>
+    <string msgid="3468756155452870475" name="ok">"확인"</string>
+    <string msgid="6743583734099755409" name="settings">"설정"</string>
+    <string msgid="7568985073502399415" name="allow_source_dlg_title">"앱의 새로운 소스"</string>
+    <string msgid="3927580956764099076" name="allow_source_dlg_text">"<xliff:g id="APP_NAME">%1$s</xliff:g>에서 다른 앱을 설치하려고 합니다.\n\n허용하시겠습니까? 이 설정은 향후에도 적용됩니다."</string>
+    <string msgid="4033876279091996596" name="manage_applications">"앱 관리"</string>
+    <string msgid="1232230739563820951" name="dlg_app_replacement_title">"앱을 바꾸시겠습니까?"</string>
+    <string msgid="2992911899989907492" name="dlg_app_replacement_statement">"설치 중인 앱이 다른 앱을 대체합니다.\n\n이전의 사용자 데이터는 모두 저장됩니다."</string>
+    <string msgid="1900046590819605929" name="dlg_sys_app_replacement_statement">"시스템 앱입니다.\n\n이전의 사용자 데이터는 모두 저장됩니다."</string>
+    <string msgid="7843674437613797326" name="out_of_space_dlg_title">"여유 공간이 없음"</string>
+    <string msgid="4774775404294282216" name="out_of_space_dlg_text">"<xliff:g id="APP_NAME">%1$s</xliff:g> 앱을 설치할 수 없습니다. 여유 공간을 늘린 후에 다시 시도하세요."</string>
+    <string msgid="6944357727705699232" name="dlg_ok">"확인"</string>
+    <string msgid="2692335460569505484" name="app_not_found_dlg_title">"앱을 찾을 수 없음"</string>
+    <string msgid="6107465056055095930" name="app_not_found_dlg_text">"설치된 앱 목록에 앱이 없습니다."</string>
+    <string msgid="1860074100811653963" name="uninstall_application_title">"앱 제거"</string>
+    <string msgid="4146940097553335390" name="uninstall_update_title">"업데이트 제거"</string>
+    <string msgid="6680688689803932550" name="uninstall_activity_text">"<xliff:g id="ACTIVITY_NAME">%1$s</xliff:g>은(는) 다음 앱의 일부입니다."</string>
+    <string msgid="6691975835951187030" name="uninstall_application_text">"이 앱을 제거하시겠습니까?"</string>
+    <string msgid="5574704453233525222" name="uninstall_application_text_all_users">
+<b>"모든"</b>" 사용자에 대해 이 앱을 제거하시겠습니까? 기기를 사용하는 "<b>"모든"</b>" 사용자에 대해 애플리케이션 및 데이터가 삭제됩니다."</string>
+    <string msgid="8766882355635485733" name="uninstall_application_text_user">"<xliff:g id="USERNAME">%1$s</xliff:g>님의 기기에 설치된 앱을 제거하시겠습니까?"</string>
+    <string msgid="2056387942084605027" name="uninstall_update_text">"앱을 초기 버전으로 바꾸시겠습니까?"</string>
+    <string msgid="5556217435895938250" name="uninstalling">"제거 중..."</string>
+    <string msgid="3792487853420281888" name="uninstall_done">"제거를 완료했습니다."</string>
+    <string msgid="631122574306299512" name="uninstall_failed">"제거하지 못했습니다."</string>
+    <string msgid="3493789239037852035" name="uninstall_failed_device_policy_manager">"이 패키지는 사용 중인 기기 관리자이기 때문에 제거할 수 없습니다."</string>
+    <string msgid="5006234166226562439" name="uninstall_blocked_profile_owner">"이 앱은 <xliff:g id="USERNAME">%1$s</xliff:g>님의 프로필에 필요하므로 제거할 수 없습니다."</string>
+    <string msgid="7074175526413453063" name="uninstall_blocked_device_owner">"이 앱은 기기 관리자에게 필요하므로 제거할 수 없습니다."</string>
+    <string msgid="891392489300312370" name="manage_device_administrators">"기기 관리자 관리"</string>
+    <string msgid="8969754702803951175" name="uninstall_failed_msg">"<xliff:g id="APP_NAME">%1$s</xliff:g> 앱을 제거할 수 없습니다."</string>
+    <string msgid="6079580916889596257" name="Parse_error_dlg_title">"구문분석 오류"</string>
+    <string msgid="7623286983621067011" name="Parse_error_dlg_text">"패키지를 파싱하는 중 문제가 발생했습니다."</string>
+    <string msgid="6039428254474104210" name="newPerms">"새 권한"</string>
+    <string msgid="1024385515840703981" name="allPerms">"전체"</string>
+    <string msgid="1850527049572617" name="privacyPerms">"개인정보 보호"</string>
+    <string msgid="6733560207731294504" name="devicePerms">"기기 액세스"</string>
+    <string msgid="6657813692169565975" name="no_new_perms">"이 업데이트에는 새로운 권한이 필요하지 않습니다."</string>
+    <string msgid="4690289297029223742" name="grant_confirm_question">"다음 권한을 부여하시겠습니까? 권한이 부여되면 다음에 액세스할 수 있습니다."</string>
+<string name="delete_apps_text"><xliff:g id="apps_name">%1$s</xliff:g> 설치 패키지의 크기는 <xliff:g id="apps_size">%2$1.2f</xliff:g>MB입니다. 삭제하시겠습니까?</string>
+    <string name="delete_apps_title" msgid="8360346460165114585">설치 파일 삭제</string>
+    <string name="delete" msgid="8360346460165114585">삭제</string>
+</resources>

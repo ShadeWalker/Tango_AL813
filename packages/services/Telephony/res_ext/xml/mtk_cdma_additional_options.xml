@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:phone="http://schemas.android.com/apk/res/com.android.phone"
+     android:title="@string/additional_gsm_call_settings">
+    <Preference
+        android:key="button_cw_key"
+        android:title="@string/labelCW"
+        android:persistent="false"/>
+
+    <CheckBoxPreference
+        android:key="cdma_cnir"
+        android:title="@string/cdma_cnir_title"
+        android:defaultValue="false"
+        android:persistent="true"
+        android:summaryOn="@string/cdma_cnir_turnoff"
+        android:summaryOff="@string/cdma_cnir_turnon"/>
+</PreferenceScreen>

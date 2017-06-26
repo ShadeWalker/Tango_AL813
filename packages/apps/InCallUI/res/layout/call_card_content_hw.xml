@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (C) 2014 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/call_card_content_hw"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	>
+
+    <!-- The main content of the CallCard is either one or two "call info"
+         blocks, depending on whether one or two lines are in use.
+    android:background="@color/incall_call_banner_background_color"
+         The call_info blocks are stacked vertically inside a CallCard (LinearLayout),
+         each with layout_weight="1".  If only one line is in use (i.e. the
+         common case) then the 2nd call info will be GONE and thus the 1st one
+         will expand to fill the full height of the CallCard. -->
+
+    <!-- Primary "call card" block, for the foreground call. -->
+    <!--android:background="@color/incall_call_banner_background_color"-->
+    <LinearLayout
+        android:id="@+id/primary_call_info_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:elevation="@dimen/primary_call_elevation"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="@dimen/call_banner_primary_call_container_top_padding"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+	<include layout="@layout/manage_conference_call_button"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:visibility="gone" />
+	<TextView
+            android:id="@+id/callStateLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="14dp"
+             android:textColor="#ffffff"
+            />
+             <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_marginTop="3dp"
+	        >
+	    	<ImageView 
+	    	    android:id="@+id/sim_img"
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    />
+	    	<TextView 
+	    	    android:id="@+id/sim_txt"
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:textSize="11dp"
+             	    android:textColor="#ffffff"
+	    	    />
+	    </LinearLayout>
+            <RelativeLayout
+		android:layout_width="fill_parent"
+       		 android:layout_height="wrap_content"
+            	>
+		<LinearLayout
+			android:id="@+id/text_info_hw"
+		    	android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:orientation="vertical"
+		     	android:layout_centerInParent="true"
+		     	android:layout_marginTop="30dp"
+		      	android:visibility="gone"
+	    		>
+			    <LinearLayout 
+			        android:id="@+id/firstinfo"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:orientation="horizontal"
+			        >
+			     <LinearLayout
+		            	android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical"
+			        android:layout_weight="1"
+		            >
+			    <TextView 
+			        android:id="@+id/firstname"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:gravity="center"
+			        android:layout_weight="1"
+			         android:textSize="18dp"
+			         android:lines="1"
+        				android:ellipsize="end"
+        				android:maxEms="10"
+			          android:textColor="#ffffff"
+			        />
+			   <TextView 
+			        android:gravity="center"
+			        android:id="@+id/time"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			         android:textColor="#ffffff"
+			         android:visibility="gone"
+			        />
+	   		 </LinearLayout>
+			        
+			    <TextView 
+			        android:id="@+id/firststatus"
+			         android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:gravity="center"
+			        android:layout_weight="1"
+			         android:textSize="18dp"
+			         android:textColor="#ffffff"
+			        />
+			    </LinearLayout>
+			    <LinearLayout 
+			        android:id="@+id/secondcallinfo"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:orientation="horizontal"
+			        android:layout_gravity="center_vertical"
+			        android:layout_marginTop="30dp"
+			        android:clickable="true"
+			        >
+			      <TextView 
+			        android:id="@+id/secondname"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:gravity="center"
+			        android:layout_weight="1"
+			         android:textSize="18dp"
+			         android:textColor="#ffffff"
+			         android:lines="1"
+        				android:ellipsize="end"
+        				android:maxEms="10"
+			        />
+			    <TextView 
+			        android:id="@+id/secondstatus"
+			         android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:gravity="center"
+			        android:layout_weight="1"
+			         android:textSize="18dp"
+			         android:textColor="#ffffff"
+			        />
+			    </LinearLayout>
+			     <LinearLayout 
+			        android:id="@+id/thirdcallinfo"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:orientation="horizontal"
+			        android:layout_gravity="center_vertical"
+			        android:layout_marginTop="30dp"
+			        android:clickable="true"
+			        >
+			      <TextView 
+			        android:id="@+id/thirdname"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:gravity="center"
+			        android:layout_weight="1"
+			         android:textSize="18dp"
+			         android:textColor="#ffffff"
+			         android:lines="1"
+        				android:ellipsize="end"
+        				android:maxEms="10"
+			        />
+			    <TextView 
+			        android:id="@+id/thirdstatus"
+			         android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:gravity="center"
+			        android:layout_weight="1"
+			         android:textSize="18dp"
+			         android:textColor="#ffffff"
+			        />
+			    </LinearLayout>
+	</LinearLayout>
+		<FrameLayout
+			  android:id="@+id/image_info_hw"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:layout_centerInParent="true"
+		           android:layout_gravity="center_horizontal"
+		            >
+			<com.android.incallui.CirclePhoto
+			    android:id="@+id/photo"
+			    android:layout_width="160dp"
+			    android:layout_height="160dp"
+			    android:src="@drawable/img_no_image_automirrored"
+			    />
+			    <FrameLayout
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               >
+			            <TextView
+				                android:id="@+id/elapsedTime"
+				                android:layout_width="wrap_content"
+				                android:layout_height="wrap_content"
+				                android:layout_marginTop="6dp"
+				                android:layout_gravity="center_horizontal"
+				                android:textSize="15dp"
+				                android:textColor="#ffffff"
+				                />   
+				<ImageView android:id="@+id/circle"
+				        android:layout_width="160dp"
+				        android:layout_height="160dp"
+				        android:background="@drawable/ic_circle_xiaoqiu"
+				        />
+				        
+				<com.android.incallui.CircleProgress 
+					    android:id="@+id/circleProgress"
+					    android:layout_width="160dp"
+					    android:layout_height="160dp"
+					    android:visibility="invisible"
+					    />
+			   </FrameLayout>
+		</FrameLayout>
+	</RelativeLayout>
+
+	<LinearLayout
+			android:id="@+id/primayinfo_hw"
+		    	android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:orientation="vertical"
+		     	android:layout_centerInParent="true"
+	    		>
+	<RelativeLayout 
+   			android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+			android:gravity="center_horizontal">
+	 <TextView 
+		   android:id="@+id/digits_number"
+		   android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_horizontal"
+	            android:textSize="20dp"
+	             android:textColor="#ffffff"
+	             android:lines="1"
+	             android:scrollbars="horizontal"
+	             android:bufferType="editable"
+	             android:visibility="gone"
+	             android:textIsSelectable="true"
+	             />
+         <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layoutDirection="ltr"
+            android:textSize="20dp"
+             android:textColor="#ffffff"
+             android:singleLine = "true"
+             android:ellipsize="end"
+             android:maxEms="10"
+            /> 
+            </RelativeLayout>
+	    
+ 	<TextView
+            android:id="@+id/phoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15dp"
+             android:textColor="#ffffff"
+             android:lines="1"
+             android:ellipsize="end"
+             android:maxEms="10"
+            />   
+       	 <TextView
+            android:id="@+id/locator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15dp"
+             android:textColor="#ffffff"
+             android:visibility="gone"
+            /> 
+	</LinearLayout>
+
+        <include layout="@layout/primary_call_info"
+		 android:layout_width="wrap_content"
+        		 android:layout_height="wrap_content"
+		 android:layout_centerHorizontal="true"
+		 android:visibility="gone"
+		/>
+
+        	<include 
+    		android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_centerInParent="true"
+	         android:visibility="gone"
+    		layout="@layout/other_call_info"/>
+
+        <TextView android:id="@+id/connectionServiceMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:visibility="gone"
+            android:padding="@dimen/call_banner_side_padding"
+	    android:background="@android:color/white"
+            />
+
+    </LinearLayout>
+
+    <!-- M: ALPS01844813 primaryCallPhotoOrVideo id is used for RCSe plugin -->
+ <!--	 -->
+
+        <!-- Contact photo for primary call info -->
+	<!--
+        <ImageView android:id="@+id/photo"
+	    android:layout_below="@id/primary_call_info_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="top|center_horizontal"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/contactPhoto"
+            android:src="@drawable/img_no_image_automirrored" />
+	-->
+        <!-- manage conference call button -->
+
+
+        
+
+ <fragment android:name="com.android.incallui.VideoCallFragment"
+        android:id="@+id/videoCallFragment"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Progress spinner, useful for indicating pending operations such as upgrade to video. -->
+    <FrameLayout
+        android:id="@+id/progressSpinner"
+        android:layout_below="@id/primary_call_info_container"
+        android:background="#63000000"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone">
+
+        
+		
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="@android:style/Widget.Material.ProgressBar"
+            android:layout_gravity="center"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:indeterminate="true" />
+    </FrameLayout>
+
+    
+
+
+    <!-- Placeholder for the dialpad which is replaced with the dialpad fragment when shown. -->
+    <FrameLayout
+        android:id="@+id/dialpadFragmentContainer"
+        android:layout_below="@id/primary_call_info_container"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="@dimen/dialpad_elevation"/>
+    <fragment android:name="com.android.incallui.AnswerFragment"
+        android:id="@+id/answerFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/glowpadview_margin_bottom"
+        android:visibility="gone" />
+
+	<RelativeLayout
+	  	android:id="@+id/floating_end_call_action_button_container"
+		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:background="#90000000"
+		 android:layout_alignParentBottom="true" 
+		>
+		    <LinearLayout
+		    	android:id="@+id/keyContainer"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical"
+		        >
+		    </LinearLayout>
+
+<!-- record icon -->
+        <ImageView android:id="@+id/voiceRecorderIcon"
+            android:layout_width="@dimen/incall_record_icon_size"
+            android:layout_height="@dimen/incall_record_icon_size"
+            android:layout_gravity="right"
+            android:layout_marginEnd="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_below="@id/keyContainer"
+            android:visibility="gone" />
+
+	    	<LinearLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@id/keyContainer"
+	            android:orientation="horizontal"
+	            android:padding="10dp"
+	            >
+	            <ImageView 
+	            	android:id="@+id/speakerOn"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:layout_gravity="center_vertical"
+	                android:src="@drawable/hands_free"/>
+	            <ImageButton android:id="@+id/floating_end_call_action_button"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center_vertical"
+		            android:layout_weight="1"
+		            android:background="@drawable/btn_hw_background"
+		            android:src="@drawable/ic_hang_up_notification"
+		            android:contentDescription="@string/onscreenEndCallText" />
+	            <ImageView
+	                 android:id="@+id/dialpd"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:layout_weight="1"
+	                android:src="@drawable/keyboard"/>
+	        </LinearLayout>
+	</RelativeLayout>
+</RelativeLayout>

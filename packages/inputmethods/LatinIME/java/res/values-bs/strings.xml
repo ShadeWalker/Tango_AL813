@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="english_ime_input_options">Opcije unosa</string>
+<string name="use_contacts_for_spellchecking_option_title">Potraži imena kontakata</string>
+<string name="use_contacts_for_spellchecking_option_summary">Provjera pravopisa koristi unose iz spiska kontakata</string>
+<string name="vibrate_on_keypress">Vibr. pri prit. tipki</string>
+<string name="sound_on_keypress">Zvuk pri pritis. tipki</string>
+<string name="popup_on_keypress">Prikaži skočni prozor prilikom pritiska na tipku</string>
+<string name="settings_screen_preferences">Željene postavke</string>
+<string name="settings_screen_appearance">Izgled i raspored</string>
+<string name="settings_screen_multilingual">Višejezične opcije</string>
+<string name="settings_screen_gesture">Ukucavanje gestama</string>
+<string name="settings_screen_correction">Ispravljanje teksta</string>
+<string name="settings_screen_advanced">Napredni</string>
+<string name="settings_screen_theme">Tema</string>
+<string name="include_other_imes_in_language_switch_list">Prebaci se na druge načine unosa</string>
+<string name="include_other_imes_in_language_switch_list_summary">Tipka za prebacivanje jezika pokriva i druge načine unosa</string>
+<string name="show_language_switch_key">Tipka za prebacivanje jezika</string>
+<string name="show_language_switch_key_summary">Prikaži kada je omogućeno više jezika za unos</string>
+<string name="key_preview_popup_dismiss_delay">Odgađanje skočnog obavještenja prilikom otpuštanja tipke</string>
+<string name="key_preview_popup_dismiss_no_delay">Bez odlaganja</string>
+<string name="key_preview_popup_dismiss_default_delay">Zadano</string>
+<string name="abbreviation_unit_milliseconds">
+<xliff:g id="MILLISECONDS">%s</xliff:g>ms</string>
+<string name="settings_system_default">Zadano za sistem</string>
+<string name="use_contacts_dict">Predlaži imena kontakata</string>
+<string name="use_contacts_dict_summary">Koristi imena iz Kontakata za prijedloge i popravke</string>
+<string name="use_personalized_dicts">Personalizirani prijedlozi</string>
+<string name="enable_metrics_logging">"Poboljšaj <xliff:g example="Android Keyboard" id="APPLICATION_NAME">%s</xliff:g>"</string>
+<string name="use_double_space_period">Dvaput razmak za tačku</string>
+<string name="use_double_space_period_summary">Dvostrukim dodirom tipke za razmak unosi se tačka sa praznim mjestom iza nje</string>
+<string name="auto_cap">Automatsko veliko prvo slovo</string>
+<string name="auto_cap_summary">Stavi veliko slovo na početak svake rečenice</string>
+<string name="edit_personal_dictionary">Lični rječnik</string>
+<string name="configure_dictionaries_title">Dodatni rječnici</string>
+<string name="main_dictionary">Glavni rječnik</string>
+<string name="prefs_show_suggestions">Prikaži prijedloge ispravljanja</string>
+<string name="prefs_show_suggestions_summary">Prikaži prijedloge riječi prilikom tipkanja</string>
+<string name="prefs_block_potentially_offensive_title">Blokiraj uvredljive termine</string>
+<string name="prefs_block_potentially_offensive_summary">Ne predlaži potencijalno uvredljive termine</string>
+<string name="auto_correction">Automatsko ispravljanje</string>
+<string name="auto_correction_summary">Razmak i interpunkcija automatski ispravljaju pogrešno napisane riječi</string>
+<string name="auto_correction_threshold_mode_off">Isklj.</string>
+<string name="auto_correction_threshold_mode_modest">Umjereno</string>
+<string name="auto_correction_threshold_mode_aggressive">Agresivno</string>
+<string name="auto_correction_threshold_mode_very_aggressive">Jako agresivno</string>
+<string name="bigram_prediction">Prijedlozi za sljedeću riječ</string>
+<string name="bigram_prediction_summary">Koristi prethodnu riječ za davanje prijedloga</string>
+<string name="gesture_input">Omogući unos pokretima</string>
+<string name="gesture_input_summary">Unesite riječ prevlačenjem po slovima</string>
+<string name="gesture_preview_trail">Prikaži trag pokreta</string>
+<string name="gesture_floating_preview_text">Dinamički ploveći pregled</string>
+<string name="gesture_floating_preview_text_summary">Prikaži predloženu riječ prilikom upotrebe gesti</string>
+<string name="gesture_space_aware">Pokret za frazu</string>
+<string name="gesture_space_aware_summary">Tokom gesti, razmake unosite kližući na tipku za razmak.</string>
+<string name="voice_input">Tipka za govorni unos</string>
+<string name="voice_input_disabled_summary">Nisu omogućeni načini za glasovni unos. Provjerite postavke Jezika i unosa.</string>
+<string name="configure_input_method">Konfiguriraj načine unosa</string>
+<string name="language_selection_title">Jezici</string>
+<string name="help_and_feedback">Pomoć i povratne informacije</string>
+<string name="select_language">Jezici</string>
+<string name="hint_add_to_dictionary">Dodirnite opet da sačuvate</string>
+<string name="hint_add_to_dictionary_without_word">Dodirnite ovdje da sačuvate</string>
+<string name="has_dictionary">Rječnik dostupan</string>
+<string name="keyboard_layout">Tema tastature</string>
+<string name="subtype_en_GB">Engleski (UK)</string>
+<string name="subtype_en_US">Engleski (US)</string>
+<string name="subtype_es_US">Španski (SAD)</string>
+<string name="subtype_with_layout_en_GB">Engleski (UK) (<xliff:g example="QWERTY" id="KEYBOARD_LAYOUT">%s</xliff:g>)</string>
+<string name="subtype_with_layout_en_US">Engleski (US) (<xliff:g example="QWERTY" id="KEYBOARD_LAYOUT">%s</xliff:g>)</string>
+<string name="subtype_with_layout_es_US">Španski (US) (<xliff:g example="QWERTY" id="KEYBOARD_LAYOUT">%s</xliff:g>)</string>
+<string name="subtype_generic_traditional">
+<xliff:g example="Nepali" id="LANGUAGE_NAME">%s</xliff:g> (tradicionalni)</string>
+<string name="subtype_generic_cyrillic">
+<xliff:g example="Serbian" id="LANGUAGE_NAME">%s</xliff:g> (ćirilica)</string>
+<string name="subtype_generic_latin">
+<xliff:g example="Serbian" id="LANGUAGE_NAME">%s</xliff:g> (latinica)</string>
+<string name="subtype_no_language">Bez jezika (Abeceda)</string>
+<string name="subtype_no_language_qwerty">Abeceda (QWERTY)</string>
+<string name="subtype_no_language_qwertz">Abeceda (QWERTZ)</string>
+<string name="subtype_no_language_azerty">Abeceda (AZERTY)</string>
+<string name="subtype_no_language_dvorak">Abeceda (Dvorak)</string>
+<string name="subtype_no_language_colemak">Abeceda (Colemak)</string>
+<string name="subtype_no_language_pcqwerty">Abeceda (PC)</string>
+<string name="subtype_emoji">Emoji</string>
+<string name="keyboard_theme">Tema tastature</string>
+<string name="custom_input_styles_title">Prilagođeni stilovi unosa</string>
+<string name="add_style">Dodaj stil</string>
+<string name="add">Dod.</string>
+<string name="remove">Ukloni</string>
+<string name="save">Sačuvaj</string>
+<string name="subtype_locale">Jezik</string>
+<string name="keyboard_layout_set">Raspored</string>
+<string name="custom_input_style_note_message">"Vaš prilagođeni stil unosa mora biti omogućen prije nego što ga počnete koristiti. Želite li ga omogućiti sada?"</string>
+<string name="enable">Omogući</string>
+<string name="not_now">Ne sada</string>
+<string name="custom_input_style_already_exists">"Isti stil unosa već postoji: <xliff:g example="English (Dvorak)" id="INPUT_STYLE_NAME">%s</xliff:g>"</string>
+<string name="prefs_keypress_vibration_duration_settings">Trajanje vibriranja prilikom pritiska na tipku</string>
+<string name="prefs_keypress_sound_volume_settings">Jačina zvuka prilikom pritiska na tipku</string>
+<string name="button_default">Zadano</string>
+<string name="setup_welcome_title">"Dobro došli u <xliff:g example="Android Keyboard" id="APPLICATION_NAME">%s</xliff:g>"</string>
+<string name="setup_welcome_additional_description">koristeći Unos gestama</string>
+<string name="setup_start_action">Početak rada</string>
+<string name="setup_next_action">Naredni korak</string>
+<string name="setup_steps_title">"Postavljanje <xliff:g example="Android Keyboard" id="APPLICATION_NAME">%s</xliff:g>"</string>
+<string name="setup_step1_title">"Omogući <xliff:g example="Android Keyboard" id="APPLICATION_NAME">%s</xliff:g>"</string>
+<string name="setup_step1_instruction">"Provjerite \"<xliff:g example="Android Keyboard" id="APPLICATION_NAME">%s</xliff:g>\" u opciji Jezik i postavke unosa. Ovim će dobiti ovlaštenje za pokretanje na vašem uređaju."</string>
+<string name="setup_step1_finished_instruction">"<xliff:g example="Android Keyboard" id="APPLICATION_NAME">%s</xliff:g> je već omogućen u opciji Jezik i postavke unosa, tako da je ovaj korak izvršen. Idite na sljedeći korak!"</string>
+<string name="setup_step1_action">Omogući u Postavkama</string>
+<string name="setup_step2_title">"Prebaci na <xliff:g example="Android Keyboard" id="APPLICATION_NAME">%s</xliff:g>"</string>
+<string name="setup_step2_instruction">"Sljedeće, odaberite \"<xliff:g example="Android Keyboard" id="APPLICATION_NAME">%s</xliff:g>\" kao svoj aktivni metod unosa teksta."</string>
+<string name="setup_step2_action">Prebaci na drugi metod unosa</string>
+<string name="setup_step3_title">"Čestitamo, završili ste postavljanje!"</string>
+<string name="setup_step3_instruction">Sada možete tipkati u svim vašim omiljenim aplikacijama koristeći <xliff:g example="Android Keyboard" id="APPLICATION_NAME">%s</xliff:g>.</string>
+<string name="setup_step3_action">Konfiguriraj dodatne jezike</string>
+<string name="setup_finish_action">Okončano</string>
+<string name="show_setup_wizard_icon">Prikaži ikonu aplikacije</string>
+<string name="show_setup_wizard_icon_summary">Prikaži ikonu aplikacije u pokretaču</string>
+<string name="app_name">Pružatelj rječnika</string>
+<string name="dictionary_provider_name">Pružatelj rječnika</string>
+<string name="dictionary_service_name">Usluga rječnika</string>
+<string name="download_description">Informacije za ažuriranje rječnika</string>
+<string name="dictionary_settings_title">Dodatni rječnici</string>
+<string name="dictionary_install_over_metered_network_prompt">Rječnik dostupan</string>
+<string name="dictionary_settings_summary">Postavke za rječnik</string>
+<string name="user_dictionaries">Korisnički rječnici</string>
+<string name="default_user_dict_pref_name">Korisnički rječnik</string>
+<string name="dictionary_available">Rječnik dostupan</string>
+<string name="dictionary_downloading">Trenutno se preuzima</string>
+<string name="dictionary_installed">Instalirano</string>
+<string name="dictionary_disabled">Instalirano, onemogućeno</string>
+<string name="cannot_connect_to_dict_service">Došlo je do problema prilikom povezivanja na uslugu rječnika</string>
+<string name="no_dictionaries_available">Nema dostupnih rječnika</string>
+<string name="check_for_updates_now">Osvježi</string>
+<string name="last_update">Zadnje ažuriranje</string>
+<string name="message_updating">Traženje ažuriranih sadržaja u toku</string>
+<string name="message_loading">Učitavanje…</string>
+<string name="main_dict_description">Glavni rječnik</string>
+<string name="cancel">Otkaži</string>
+<string name="go_to_settings">Postavke</string>
+<string name="install_dict">Instaliraj</string>
+<string name="cancel_download_dict">Otkaži</string>
+<string name="delete_dict">Izbriši</string>
+<string name="should_download_over_metered_prompt">Za jezik odabran na vašem mobilnom uređaju dostupan je rječnik.<br/>Preporučujemo da <b>preuzmete</b> <xliff:g example="English" id="LANGUAGE_NAME">%1$s</xliff:g> rječnik radi ugodnijeg tipkanja.<br/>
+<br/>Preuzimanje bi moglo potrajati minutu do dvije preko 3G mreže. Mogu biti naplaćene važeće tarife ako nemate <b>flat podatkovni paket</b>.<br/>Ako niste sigurni koji podatkovni paket imate, preporučujemo da pronađete Wi-Fi mrežu nakon čega će preuzimanje započeti automatski.<br/>
+<br/>Savjet: Rječnike možete preuzimati i uklanjati tako da odete na opciju <b>Jezik i unos</b> u meniju <b>Postavke</b> vašeg mobilnog uređaja.</string>
+<string name="download_over_metered">Preuzmi sada (<xliff:g example="0.7" id="SIZE_IN_MEGABYTES">%1$.1f</xliff:g> MB)</string>
+<string name="do_not_download_over_metered">Preuzimanje preko Wi-Fi</string>
+<string name="dict_available_notification_title">Rječnik je dostupan za <xliff:g example="English" id="LANGUAGE_NAME">%1$s</xliff:g>
+</string>
+<string name="dict_available_notification_description">Pritisnite za pregled i preuzimanje</string>
+<string name="toast_downloading_suggestions">Preuzimanje: prijedlozi za <xliff:g example="English" id="LANGUAGE_NAME">%1$s</xliff:g> će uskoro biti spremni.</string>
+<string name="version_text">Verzija <xliff:g example="1.0.1864.643521" id="VERSION_NUMBER">%1$s</xliff:g>
+</string>
+<string name="user_dict_settings_add_menu_title">Dod.</string>
+<string name="user_dict_settings_add_dialog_title">Dodaj u rječnik</string>
+<string name="user_dict_settings_add_screen_title">Fraza</string>
+<string name="user_dict_settings_add_dialog_more_options">Više opcija</string>
+<string name="user_dict_settings_add_dialog_less_options">Manje opcija</string>
+<string name="user_dict_settings_add_dialog_confirm">OK</string>
+<string name="user_dict_settings_add_word_option_name">Riječ:</string>
+<string name="user_dict_settings_add_shortcut_option_name">Kratica:</string>
+<string name="user_dict_settings_add_locale_option_name">Jezik:</string>
+<string name="user_dict_settings_add_word_hint">Upišite riječ</string>
+<string name="user_dict_settings_add_shortcut_hint">Opciona kratica</string>
+<string name="user_dict_settings_edit_dialog_title">Uredi riječ</string>
+<string name="user_dict_settings_context_menu_edit_title">Uredi</string>
+<string name="user_dict_settings_context_menu_delete_title">Izbriši</string>
+<string name="user_dict_settings_empty_text">Nemate nijednu riječ u korisničkom rječniku. Dodajte riječ dodirivanjem dugmeta Dodaj (+).</string>
+<string name="user_dict_settings_all_languages">Za sve jezike</string>
+<string name="user_dict_settings_more_languages">Više jezika...</string>
+<string name="user_dict_settings_delete">Izbriši</string>
+<string name="user_dict_fast_scroll_alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

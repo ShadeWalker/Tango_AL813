@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Paket-Installer</string>
+    <string name="next">"Weiter"</string>
+    <string name="install">"Installieren"</string>
+    <string name="done">Erledigt</string>
+    <string name="security_settings_desc">Dieser App erlauben zu:</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="unknown">Unbekannt</string>
+    <string name="installing">Wird installiert\u2026</string>
+    <string name="install_done">App installiert</string>
+    <string name="install_confirm_question">Wollen Sie diese Anwendung installieren? Sie hat Zugriff auf:</string>
+    <string name="install_confirm_question_no_perms">Wollen Sie diese Anwendung installieren? Sie benötigt keine speziellen Zugriffsrechte.</string>
+    <string name="install_confirm_question_update">Wollen Sie eine Aktualisierung einer existierenden Anwendung installieren? Ihre bestehenden Daten werden nicht gelöscht. Die aktualisierte Anwendung hat Zugriff auf:</string>
+    <string name="install_confirm_question_update_system">Wollen Sie eine Aktualisierung für diese integrierte Anwendung installieren? Ihre bestehenden Daten werden nicht gelöscht. Die aktualisierte Anwendung hat Zugriff auf:</string>
+    <string name="install_confirm_question_update_no_perms">Wollen Sie eine Aktualisierung einer existierenden Anwendung installieren? Ihre bestehenden Daten werden nicht gelöscht. Sie benötigt keine speziellen Zugriffsrechte.</string>
+    <string name="install_confirm_question_update_system_no_perms">Wollen Sie eine Aktualisierung für diese integrierte Anwendung installieren? Ihre bestehenden Daten werden nicht gelöscht. Sie benötigt keine speziellen Zugriffsrechte.</string>
+    <string name="install_failed">App nicht installiert.</string>
+    <string name="install_failed_invalid_apk">Das Paket schein beschädigt.</string>
+    <string name="install_failed_inconsistent_certificates">Ein existierendes Paket mit dem gleichen Namen und einer Konfliktsignatur ist bereits installiert.</string>
+    <string name="install_failed_older_sdk">Das Paket arbeitet nur mit neueren Android-Versionen.</string>
+    <string name="install_failed_cpu_abi_incompatible" product="tablet">Diese App ist zu Ihrem Tablet nicht kompatibel.</string>
+    <string name="install_failed_cpu_abi_incompatible" product="tv">Diese App ist zu Ihrem TV nicht kompatibel.</string>
+    <string name="install_failed_cpu_abi_incompatible" product="default">Diese App ist zu Ihrem Telefon nicht kompatibel.</string>
+    <string name="install_failed_file_not_found">Das angegebene Paket wurde gelöscht, bevor die Installation beendet werden konnte.</string>
+    <string name="install_failed_verify_failed">Das Paket konnte nicht verifiziert und daher nicht installiert werden.</string>
+    <string name="install_failed_verify_timeout">Bei der Verifizierung des Pakets ist eine Zeitüberschreitung aufgetreten. Versuchen Sie es später erneut.</string>
+    <string name="install_failed_msg" product="tablet"><xliff:g id="app_name">%1$s</xliff:g> konnte nicht auf Ihrem Tablet installiert werden.</string>
+    <string name="install_failed_msg" product="tv"><xliff:g id="app_name">%1$s</xliff:g> konnte nicht auf Ihrem TV installiert werden.</string>
+    <string name="install_failed_msg" product="default"><xliff:g id="app_name">%1$s</xliff:g> konnte nicht auf Ihrem Telefon installiert werden.</string>
+    <string name="launch">Offen</string>
+    <string name="unknown_apps_dlg_title">Installation gesperrt</string>
+    <string name="unknown_apps_dlg_text" product="tablet">Aus Sicherheitsgründen ist Ihr Tablet für die Installation von Apps aus unbekannten Quellen gesperrt.</string>
+    <string name="unknown_apps_dlg_text" product="TV">Aus Sicherheitsgründen ist Ihr TV für die Installation von Apps aus unbekannten Quellen gesperrt.</string>
+    <string name="unknown_apps_dlg_text" product="default">Aus Sicherheitsgründen ist Ihr Telefon für die Installation von Apps aus unbekannten Quellen gesperrt.</string>
+    <string name="unknown_apps_admin_dlg_text">Ihr Administrator erlaubt keine Installation von Apps aus unbekannten Quellen.</string>
+    <string name="ok">"OK"</string>
+    <string name="settings">Einstellungen</string>
+    <string name="allow_source_dlg_title">Neue Quelle für Apps</string>
+    <string name="allow_source_dlg_text"><xliff:g id="app_name">%1$s</xliff:g> will andere Apps installieren.\n\nDies jetzt und für die Zukunft erlauben?</string>
+    <string name="manage_applications">Apps verwalten</string>
+    <string name="dlg_app_replacement_title">App ersetzen?</string>
+    <string name="dlg_app_replacement_statement">Die App, die Sie installieren, ersetzt eine andere App.\n\nAlle vorhandenen Benutzerdaten werden gespeichert.</string>
+    <string name="dlg_sys_app_replacement_statement">Dies ist eine System-App.\n\nAlle vorhandenen Benutzerdaten werden gespeichert.</string>
+    <string name="out_of_space_dlg_title">Kein Platz</string>
+    <string name="out_of_space_dlg_text"><xliff:g id="app_name">%1$s</xliff:g> konnte nicht installiert werden. Geben Sie Speicherplatz frei und versuchen es erneut.</string>
+    <string name="dlg_ok">"OK"</string>
+    <string name="app_not_found_dlg_title">App nicht gefunden</string>
+    <string name="app_not_found_dlg_text">Die App wurde in der Liste der installierten Apps nicht gefunden.</string>
+    <string name="uninstall_application_title">App deinstallieren</string>
+    <string name="uninstall_update_title">Aktualisierung deinstallieren</string>
+    <string name="uninstall_activity_text"><xliff:g id="activity_name">%1$s</xliff:g> ist Teil der folgenden App:</string>
+    <string name="uninstall_application_text">Wollen Sie diese App deinstallieren?</string>
+    <string name="uninstall_application_text_all_users">Wollen Sie diese App für <b>alle</b> Benutzer deinstallieren? Die Anwendung und ihre Daten werden für <b>alle</b> Benutzer dieses Geräts entfernt.</string>
+    <string name="uninstall_application_text_user">Wollen Sie diese App für den Benutzer <xliff:g id="username">%1$s</xliff:g> deinstallieren?</string>
+    <string name="uninstall_update_text">Wollen Sie diese App durch die werksseitige Version ersetzen?</string>
+    <string name="uninstalling">Wird deinstalliert\u2026</string>
+    <string name="uninstall_done">Deinstallation beendet</string>
+    <string name="uninstall_failed">Deinstallation fehlgeschlagen</string>
+    <string name="uninstall_failed_device_policy_manager">Kann das Paket nicht deinstallieren, da es eine aktive Geräteverwaltung ist.</string>
+    <string name="uninstall_blocked_profile_owner">Die App wird für Ihr <xliff:g id="username">%1$s</xliff:g> Profil benötigt und kann nicht deinstalliert werden.</string>
+    <string name="uninstall_blocked_device_owner">Ihr Geräte-Administrator benötigt diese App. Daher kann sie nicht deinstalliert werden. </string>
+    <string name="manage_device_administrators">Geräteadministratoren verwalten</string>
+    <string name="uninstall_failed_msg"><xliff:g id="app_name">%1$s</xliff:g> konnte nicht deinstalliert werden.</string>
+    <string name="Parse_error_dlg_title">Analysefehler</string>
+    <string name="Parse_error_dlg_text">Bei der Analyse des Pakets ist ein Problem aufgetreten.</string>
+    <string name="newPerms">Neu</string>
+    <string name="allPerms">Alles</string>
+    <string name="privacyPerms">Privatsphäre</string>
+    <string name="devicePerms">Gerätezugriff</string>
+    <string name="no_new_perms">Diese Aktualisierung benötigt keine neuen Rechte.</string>
+    <string name="grant_confirm_question">Wollen Sie die folgenden Rechte gewähren? Sie hat Zugriff auf:</string>
+</resources>

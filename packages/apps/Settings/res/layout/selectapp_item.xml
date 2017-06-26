@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/appitem_icon"
+        android:layout_width="96.0px"
+        android:layout_height="96.0px"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginTop="5.0dip"
+        android:layout_marginBottom="5.0dip"
+        android:scaleType="fitXY" />
+    <ImageView
+        android:id="@+id/appitem_islock"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="5.0dip" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/appitem_islock"
+        android:layout_toRightOf="@id/appitem_icon"
+        android:paddingLeft="5.0dip"
+        android:paddingRight="5.0dip" >
+
+        <TextView
+            android:id="@+id/appitem_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="5.0dip"
+            android:textColor="@color/applist_text_color"
+            android:textSize="17.0sp" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

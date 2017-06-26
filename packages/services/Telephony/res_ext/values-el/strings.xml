@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">Μείωση θορύβου </string>
+    <string name="dual_mic_summary">Απόκρυψη θορύβου παρασκηνίου κατά τη διάρκεια των κλήσεων</string>
+    <string name="anc_title">Ενεργή μείωση θορύβου (ANC)</string>
+    <string name="anc_on">ANC ενεργό</string>
+    <string name="anc_off">ANC ανενεργό</string>
+    <string name="ip_prefix_setting">Αριθμός προθήματος IP</string>
+    <string name="ip_prefix_setting_lable">Αριθμός προθήματος IP (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">Ρυθμίσεις αριθμού προθήματος IP</string>
+    <string name="enter_ip_prefix_number">Εισαγάγετε αριθμό προθήματος</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Πρώτα, εισαγάγετε τον αριθμό προθήματος IP στις ρυθμίσεις φωνητικής κλήσης.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">Η λειτουργία κλήσης IP δεν εφαρμόζεται σε κλήσεις Ιnternet.</string>
+    <string name="ip_prefix_edit_default_sum">Εισαγάγετε αριθμό προθήματος για κλήση IP</string>
+    <string name="lable_call_barring">"Φραγή κλήσεων"</string>
+    <string name="title_call_barring">Φραγή κλήσεων (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">Όλες τις εξερχόμενες κλήσεις</string>
+    <string name="lable_all_outgoing_international">Διεθνείς εξερχόμενες κλήσεις</string>
+    <string name="lable_all_out_except">Διεθνείς εξερχόμενες κλήσεις εκτός από το PLMN εσωτερικού</string>
+    <string name="lable_all_incoming">Όλες τις εισερχόμενες κλήσεις</string>
+    <string name="lable_incoming_calls_except">Εισερχόμενες κλήσεις κατά την περιαγωγή</string>
+    <string name="deactivate_all">Ακύρωση όλων</string>
+    <string name="change_password">Αλλαγή κωδικού πρόσβασης φραγής</string>
+    <string name="call_barring_sum">Ρυθμίσεις φραγής φωνητικής κλήσης</string>
+    <string name="lable_disable">Απενεργοποιήθηκε</string>
+    <string name="lable_enable">"Ενεργοποιημένο"</string>
+    <string name="old_password_label">Παλιός κωδικός πρόσβασης(4 αριθμοί)</string>
+    <string name="new_password_label">Νέος κωδικός πρόσβασης(4 αριθμοί)</string>
+    <string name="invalid_password">Πληκτρολογήστε έναν κωδικό πρόσβασης με 4 αριθμούς.</string>
+    <string name="confirm_password_label">Επιβεβαίωση νέου κωδικού πρόσβασης</string>
+    <string name="mismatch_password">Οι κωδικοί πρόσβασης που πληκτρολογήσατε δεν συμφωνούν. Προσπαθήστε ξανά.</string>
+    <string name="password_changed">Ο κωδικός πρόσβασης άλλαξε με επιτυχία</string>
+    <string name="enter_callbarring_password">Εισαγάγετε κωδικό πρόσβασης φραγής κλήσης(4 αριθμοί)</string>
+    <string name="wrong_password">Σφάλμα κωδικού πρόσβασης</string>
+    <string name="error_title">"Σφάλμα"</string>
+    <string name="cell_broadcast">Εκπομπή κυψέλης</string>
+    <string name="cell_broadcast_settings">Ρυθμίσεις γλώσσας και καναλιού για εκπομπή κυψέλης</string>
+    <string name="cb_menu_language">"Γλώσσα"</string>
+    <string name="cb_menu_add_channel">Προσθήκη καναλιού</string>
+    <string name="cb_menu_channel_list">Λίστα καναλιών</string>
+    <string name="cb_dialog_title_language_choice">Επιλογή γλώσσας</string>
+    <string name="cb_channel_dialog_channel_name">Όνομα καναλιού (0-10 χαρακτήρες)</string>
+    <string name="cb_channel_dialog_channel_number">Αριθμός καναλιού (0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">Ενεργοποίηση καναλιού</string>
+    <string name="cb_channel_dialog_edit_channel">Επεξεργασία καναλιού</string>
+    <string name="cb_menu_edit">"Επεξεργασία"</string>
+    <string name="cb_menu_delete">"Διαγραφή"</string>
+    <string name="cb_error_channel_num">Εισαγάγετε αριθμό καναλιού(0-65534).</string>
+    <string name="cb_error_channel_name">Το μήκος του ονόματος καναλιού δεν είναι σωστό(1-10χαρακτήρες).</string>
+    <string name="cb_error_language_select">Επιλέξτε τουλάχιστον μία γλώσσα.</string>
+    <string name="cb_error_channel_id_exist">Το αναγνωριστικό καναλιού υπάρχει.</string>
+    <string name="cb_all_languages">Όλες οι γλώσσες</string>
+    <string name="cb_default_new_channel_name">Νέο κανάλι</string>
+    <string name="fdn_errorcode_unknown_info">Παρουσιάστηκε άγνωστο σφάλμα, προσπαθήστε ξανά αργότερα.</string>
+    <string name="fdn_errorcode_number_info">Το μήκος του αριθμού επαφής είναι πολύ μεγάλο.</string>
+    <string name="fdn_errorcode_name_info">Το μήκος του ονόματος επαφής είναι πολύ μεγάλο.</string>
+    <string name="fdn_errorcode_storage_info">Ο χώρος αποθήκευσης είναι πλήρης.</string>
+    <string name="fdn_errorcode_phb_info">Το ευρετήριο τηλεφώνων δεν είναι έτοιμο αυτήν τη στιγμή, προσπαθήστε αργότερα.</string>
+    <string name="fdn_errorcode_pin2_info">Μη έγκυρος κωδικός PIN2.</string>
+    <string name="net_or_simcard_busy">Το δίκτυο ή η κάρτα SIM είναι απασχολημένα, προσπαθήστε αργότερα.</string>
+    <string name="plmn_list_setting_title">Προτιμήσεις</string>
+    <string name="network_id">Δίκτυο ID</string>
+    <string name="plmn_list_setting_add_plmn">Προσθήκη νέου PLMN</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">Αναζήτηση…</string>
+    <string name="sum_search_femtocell_networks">Μη αυτόματη επιλογή femtocell</string>
+    <string name="register_femtocell_point_wait_tip">Καταχώρηση <xliff:g id="femto_cell_info">%s</xliff:g> …</string>
+    <string name="register_femtocell_point_result_fail_tip">Δεν είναι δυνατή η σύνδεση με αυτό το δίκτυο αυτή τη στιγμή. Προσπαθήστε ξανά αργότερα.</string>
+    <string name="network_type">Τύπος δικτύου</string>
+    <string name="gsm_umts_network_preferences_title">"Λειτουργία δικτύου"</string>
+    <string name="gsm_umts_network_preferneces_summary">Δεν έχει υλοποιηθεί ακόμα!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"Λειτουργία δικτύου"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>"2G/3G (αυτόματη λειτουργία)"</item>
+        <item>"Μόνο 3G"</item>
+        <item>"Μόνο 2G"</item>
+    </string-array>
+    <string name="notification_voicemail_text">Επιλέξτε για να προβάλετε τα φωνητικά μηνύματα</string>
+    <string name="notification_network_selection_without_operator">Επιλεγμένο δίκτυο μη διαθέσιμο</string>
+    <string name="network_setting_all_forbidden_dialog">Δεν υπάρχουν διαθέσιμα δίκτυα.</string>
+    <string name="network_forbidden">δεν επιτρέπεται</string>
+    <string name="fdn_contact_number_invalid">Μη έγκυρος αριθμός επαφής.</string>
+    <string name="fdn_puk_need_tips">PIN2 μπλοκαρισμένο. Αλλάξτε το PIN2 και δοκιμάστε ξανά!</string>
+    <string name="fdn_phone_book_busy">Το ευρετήριο τηλεφώνων είναι απασχολημένο αυτήν τη στιγμή, προσπαθήστε αργότερα.</string>
+    <string name="one_retry_left">Απομένει 1 επανάληψη</string>
+    <string name="retries_left">Απομένουν <xliff:g id="number">%d</xliff:g> προσπάθειες</string>
+    <string name="pin_length_indicate">(4-8 ψηφία)</string>
+    <string name="puk_length_indicate">(8 ψηφία)</string>
+    <string name="unblock_pin2">Κατάργηση αποκλεισμού PIN2</string>
+    <string name="sim_permanently_locked">Η κάρτα SIM έχει κλειδωθεί οριστικά, επειδή έχει εισαχθεί εσφαλμένος κωδικός PUK2, περισσότερες από 10 φορές</string>
+    <string name="magi_conference_title">MagiConference</string>
+    <string name="magi_conference_summary">Βελτιώνει την ποιότητα ομιλίας όταν πολλά άτομα χρησιμοποιούν το τηλέφωνο για να μιλήσουν με την άλλη πλευρά.</string>
+    <string name="volte_is_adding_participants">Πρόσθεση μελών συνεδρίασης σε εξέλιξη, περιμένετε...</string>
+    <string name="volte_fail_to_invit_participants">Η πρόσθεση μελών στη συνεδρίαση απέτυχε.</string>
+    <string name="voicemail_lable">τηλεφωνητή (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">Για να ολοκληρώσετε την ενέργειά σας, πρέπει να ανοίξετε τη σύνδεση δεδομένων <xliff:g id="sub_name">%s</xliff:g>.</string>
+    <string name="cdma_labelCFU">"Προώθηση πάντα"</string>
+    <string name="cdma_labelCFB">"Προώθηση όταν είμαι απασχολημένος/η"</string>
+    <string name="cdma_labelCFNRy">"Προώθηση όταν δεν απαντάω"</string>
+    <string name="cdma_labelCFNRc">"Προώθηση όταν δεν είμαι διαθέσιμος/η"</string>
+    <string name="cdma_labelCFC">Ακύρωση όλων των προωθήσεων</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">Απενεργοποιήστε τον περιορισμό αναγνώρισης του αριθμού του καλούντος</string> 
+    <string name="cdma_cnir_turnon">Ενεργοποιήστε τον περιορισμό αναγνώρισης του αριθμού του καλούντος</string>
+    <string name="lte_data_only_prompt">Δεν είναι δυνατή η χρήση της λειτουργίας αυτής λόγω της λειτουργίας 4G μόνο για δεδομένα. Θέλετε να γίνει έξοδος από τη λειτουργία 4G μόνο για δεδομένα;</string>
+    <string name="lte_data_only_timeout">Δεν υπάρχει διαθέσιμο δίκτυο 4G μόνο για δεδομένα στην τοποθεσία που βρίσκεστε τώρα. Θέλετε να γίνει έξοδος και αναζήτηση άλλων δικτύων;</string>
+    <string name="lte_only_dialog_button_yes">"ΝΑΙ"</string>
+    <string name="lte_only_dialog_button_no">"ΟΧΙ"</string>
+    <string name="lte_only_dialog_title_prompt">Αίτημα</string>
+    <string name="enable_4G_data">Ενεργοποίηση λειτουργίας 4G για δεδομένα</string>
+    <string name="enable_4G_data_summary">Η λειτουργία 4G μπορεί να σας παρέχει καλύτερη και γρηγορότερη πρόσβαση στο Internet</string>
+    <string name="only_use_LTE_data">Χρήση δεδομένων LTE μόνο</string>
+    <string name="only_use_LTE_data_summary">Για ενεργοποίηση, χρησιμοποιήστε μόνο μεμονωμένα δεδομένα, η λειτουργία δεν θα μπορεί να χρησιμοποιήσει Κλήση μέσω τηλεφώνου και μηνύματα κειμένου.</string>
+</resources>

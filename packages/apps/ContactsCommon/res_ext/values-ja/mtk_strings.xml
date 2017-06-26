@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
+    <string name="menu_print">"印刷"</string>
+    <string name="printContact">以下を経由して連絡先を印刷：</string>
+    <string name="no_way_to_print">連絡先を印刷できるアプリが見つかりません。</string>
+    <string name="no_sdcard_title" product="nosdcard">保存先が見つかりません</string>
+    <string name="no_sdcard_title" product="default">"SDカードがありません"</string>
+    <string name="recentCalls_delete">"削除"</string>
+    <string name="menu_selectAll">"すべて選択"</string>
+    <string name="menu_clearAll">"選択をすべて解除"</string>
+    <string name="all_resources">全てのリソース</string>
+    <string name="choose_resources_header">リソースを選択する</string>
+    <string name="all_tab_label1">"すべて"</string>
+    <string name="call_log_item_count">(<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="call_sipcall">"インターネット通話"</string>
+    <string name="call_pin_dialog_title">SIMカードを選択</string>
+    <string name="call_people">"人物"</string>
+    <string name="call_ip_dial">IPダイヤル</string>
+    <string name="call_speed_dial">短縮ダイヤル</string>
+    <string name="send_message">メッセージ送信</string>
+    <string name="call_video_call">"ビデオハングアウト"</string>
+    <string name="add_speed_dial">タップして短縮ダイヤルを追加</string>
+    <string name="speed_dial_added"><xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>)を短縮ダイヤルに追加しました<xliff:g id="key">%3$s</xliff:g></string>
+    <string name="speed_dial_added2"><xliff:g id="contact_name">%1$s</xliff:g>を短縮ダイヤルに追加しました<xliff:g id="key">%2$s</xliff:g></string>
+    <string name="remove_speed_dial">"削除"</string>
+    <string name="remove_sd_confirm_1"><xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>)を短縮ダイヤルから削除しますか<xliff:g id="key">%3$s</xliff:g>？</string>
+    <string name="remove_sd_confirm_2"><xliff:g id="contact_name">%1$s</xliff:g> を短縮ダイヤルから削除しますか<xliff:g id="key">%2$s</xliff:g>？</string>
+    <string name="emergencycall">"緊急通報"</string>
+    <string name="imei_invalid">無効</string>
+    <string name="call_log_filter_all_resources">全てのリソース</string>
+    <string name="turn_on_3g_service_message">3GサービスがOFFになっています。ONにしますか？</string>
+    <string name="associate_sim_missing_message">"%1$sは使用できません。%2$s経由で通話を試みますか？"</string>
+    <string name="associate_sim_missing_other">"その他"</string>
+    <string name="sim_manage_call_via">以下を経由して通話</string>
+    <string name="callFailed_simError">"SIMがない、またはSIMエラー"</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">音声通話設定にて、IPプレフィックス番号を最初に入力してください。</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">IPダイヤル機能はインターネット通話には適用されません。</string>
+    <string name="sd_add">"追加"</string>
+    <string name="reselect_number">番号は既に短縮ダイヤルキーに割当てられています。別の番号を選択してください。</string>
+    <string name="calllog_today">"今日"</string>
+    <string name="calllog_yesterday">"昨日"</string>
+    <string name="menu_association">カードを関連付ける</string>
+    <string name="menu_remove_association">カードの関連付けを解除する</string>
+    <string name="remove_association_message">この番号とカードの関連付けを解除しますか？</string>
+    <string name="remove_number_title">"削除"</string>  
+    <string name="warning_detail">カードとの関連付けを行うと、携帯端末へ連絡先をインポートできます。カードとの関連付けを続行しますか？</string>
+    <string name="block_incoming_call">着信を拒否する</string>
+    <string name="block_video_incoming_call">ビデオ通話の着信を直接拒否する</string>
+    <string name="menu_actionbar_selected_items"><xliff:g id="name">%s</xliff:g>が選択されています</string>
+    <string name="has_double_phone_number">同じタイプの番号を繰り返し保存することはできません。確認してください。</string>
+    <string name="phone_book_busy">電話帳がビジーです。しばらくしてからもう一度お試しください。</string>
+    <string name="sim_invalid">無効なカードには連絡先を保存できません。</string>
+    <string name="cannot_insert_null_number">電話番号が入力されていない連絡先は保存できません。</string>
+    <string name="AirPlane_mode_on">機内モードがONの間は連絡先を保存できません。</string>
+    <string name="FDNEnabled">FDNが有効の間は連絡先を保存できません。</string>
+    <string name="sim_invalid_number">無効な番号は保存できません。</string>
+    <string name="email_invalid">無効なメールは保存できません。</string>
+    <string name="email_2g_invalid">メールは2GのSIMカードに保存できません。3GのSIMカードを選択してください。</string>
+    <string name="sim_invalid_fix_number">無効な固定電話番号は保存できません。</string>
+    <string name="AirPlane_mode_on_edit">機内モードがONの間は連絡先を編集できません。</string>
+    <string name="msg_loading_sim_contacts_toast">"バックグラウンドでSIM連絡先を読み込んでいます。しばらくお待ちください。"</string>
+    <string name="fix_number_too_long">"固定電話番号が長すぎます。"</string>
+    <string name="name_too_long">"名前が長すぎます。"</string>
+    <string name="storage_full">"空き容量がありません。"</string>
+    <string name="number_too_long">"番号が長すぎます。"</string>
+    <string name="generic_failure">一般的な失敗です。</string>
+    <string name="email_too_long">メールが長すぎます。</string>
+    <string name="send_groupsms_no_number_more">"%1$sや%2$sなどの連絡先には有効な電話番号がありません。"</string>
+    <string name="send_groupsms_no_number_1">"%1$sには有効な電話番号がありません。"</string>
+    <string name="send_groupsms_no_number_2">"%1$sと%2$sには有効な電話番号がありません。"</string>    
+    <string name="account_type_sim" product="tablet">SIMアカウント</string>
+    <string name="account_type_sim" product="default">SIMアカウント</string>
+    <string name="account_type_usim" product="tablet">USIMアカウント</string>
+    <string name="account_type_usim" product="default">USIMアカウント</string>
+    <string name="account_type_local_phone" product="tablet">携帯端末ローカルアカウント</string>
+    <string name="account_type_local_phone" product="default">携帯端末ローカルアカウント</string>
+    <string name="local_account_type" product="tablet">ローカルアカウント</string>
+    <string name="local_account_type" product="default">ローカルアカウント</string>
+    <string name="local_account_label" product="tablet">ローカルアカウント</string>
+    <string name="local_account_label" product="default">ローカルアカウント</string>
+    <string name="account_type_sim_label" product="tablet">SIMのみ、非同期</string>
+    <string name="account_type_sim_label" product="default">SIMのみ、非同期</string>
+    <string name="account_type_usim_label" product="tablet">USIMのみ、非同期</string>
+    <string name="account_type_usim_label" product="default">USIMのみ、非同期</string>
+
+    <string name="move_contacts_to">連絡先を以下へ移動：</string>
+    <string name="menu_move_group">"グループメンバーを移動しました"</string> 
+    <string name="menu_message_group">"グループメッセージを送信"</string>
+    <string name="menu_email_group">"グループメールを送信"</string>    
+    <string name="moving_group_members">"グループメンバー\u2026を移動する"</string>
+    <string name="removing_group_members_sucess">"グループメンバーの削除に成功しました"</string>
+    <string name="moving_group_members_sucess">"グループメンバーを移動しました"</string>
+    <string name="moving_group_members_fail">"グループメンバーを移動できません"</string>
+    <string name="no_valid_number_in_group">このグループには有効な電話番号を持つ連絡先が存在しません</string>
+    <string name="no_valid_email_in_group">このグループにはメールアドレスを持つ連絡先が存在しません</string>
+    <string name="email_error">メールアプリをインストールするか、アカウントを設定してください。</string>
+    <string name="usim_group_name_exceed_limit">"ストレージにはグループ名が長過ぎます。"</string>
+    <string name="usim_group_count_exceed_limit">"ストレージにはこれ以上新しいグループを追加できません。"</string>
+    <string name="name_needed">名前が必要です</string>
+    <string name="save_group_fail">グループを保存できません。</string>
+    <string name="group_name_exists">グループ名は既に存在します。</string>
+    <string name="group_discard_member">"破棄"</string>
+    <string name="group_discard_member_reason">グループ名が無効なため、変更内容は破棄されます。</string>
+    <string name="import_export_title">"インポート/エクスポート"</string>
+    <string name="next">"次へ"</string>
+    <string name="imexport_bridge_sd_card">"SDカード"</string>
+    <string name="tips_source">以下から連絡先をコピーする</string>
+    <string name="tips_target">以下へ連絡先をコピーする</string>
+    <string name="back">"戻る"</string>
+    <string name="imexport_title">連絡先をインポート／エクスポートする</string>
+    <string name="xport_error_one_account">"連絡先をインポート／エクスポートする場合はSIMカードまたはSDカードを挿入してください。"</string>
+    <string name="store_contact_to">以下へ連絡先を保存する：</string>
+    <string name="menu_delete_contact">"連絡先を削除"</string>
+    <string name="menu_conference_call">"グループ通話"</string>
+    <string name="notifier_finish_delete_title">連絡先を削除しました</string>
+    <string name="notifier_finish_delete_content"><xliff:g id="total">%d</xliff:g>人の連絡先をを削除しました</string>
+    <string name="notifier_finish_copy_title">連絡先をコピーしました</string>
+    <string name="notifier_finish_copy_content"><xliff:g id="total">%d</xliff:g>人の連絡先ををコピーしました</string>
+    <string name="notifier_multichoice_process_report">完了：<xliff:g id="items">%d</xliff:g>\nが未完了：<xliff:g id="items">%d</xliff:g></string>
+    <string name="notifier_failure_by_sim_full">SIM容量が一杯なため失敗\n完了：<xliff:g id="items">%d</xliff:g>\nが未完了： <xliff:g id="items">%d</xliff:g></string>
+    <string name="notifier_failure_sim_notready">SIMが準備できていないため失敗\n完了：<xliff:g id="items">%d</xliff:g>\nが未完了： <xliff:g id="items">%d</xliff:g></string>
+    <string name="notifier_cancel_delete_title">連絡先の削除をキャンセルしました</string>
+    <string name="notifier_fail_delete_title">連絡先を削除できません</string>
+    <string name="notifier_cancel_copy_title">連絡先のコピーをキャンセルしました</string>
+    <string name="notifier_fail_copy_title">連絡先をコピーできません</string>
+    <string name="notifier_progress__delete_will_start_message">連絡先はしばらくすると削除されます。</string>
+    <string name="notifier_progress_delete_message"><xliff:g id="current_number">%s</xliff:g>/<xliff:g id="total_number">%s</xliff:g>の削除：<xliff:g id="name" example="JoeDue">%s</xliff:g></string>
+    <string name="notifier_progress_delete_description">削除中<xliff:g id="name" example="JoeDue">%s</xliff:g></string>
+    <string name="notifier_progress__copy_will_start_message">連絡先はしばらくするとコピーされます。</string>
+    <string name="notifier_progress_copy_message"><xliff:g id="current_number">%s</xliff:g>/<xliff:g id="total_number">%s</xliff:g>のコピー：<xliff:g id="name" example="JoeDue">%s</xliff:g></string>
+    <string name="notifier_progress_copy_description"> <xliff:g id="name" example="JoeDue">%s</xliff:g></string>
+    <string name="multichoice_confirmation_title_delete">連絡先の削除をキャンセル中</string>
+    <string name="multichoice_confirmation_message_delete">連絡先の削除をキャンセルしますか？</string>
+    <string name="multichoice_confirmation_title_copy">連絡先のコピーをキャンセル中</string>
+    <string name="multichoice_confirmation_message_copy">連絡先のコピーをキャンセルしますか？</string>
+    <string name="multichoice_no_select_alert">"選択されたアイテムはありません。"</string>
+    <string name="multichoice_delete_confirm_message">"選択された連絡先を削除しますか？"</string>
+    <string name="multichoice_delete_confirm_title">連絡先を削除しますか？</string>
+    <string name="multichoice_contacts_limit">"選択可能な連絡先は"<xliff:g id="count">%d</xliff:g>"までです"</string>
+    <string name="phone_storage_full_create">携帯端末の保存空間は一杯です。新規連絡先を作成できません。</string>
+    <string name="phone_storage_full_edit">携帯端末の保存空間は一杯です。連絡先を編集できません。</string>
+	<string name="add_SIP_to_sim">カードの連絡先にはSIP番号を追加できません。</string>
+	<string name="already_has_SIP">続行しますか？連絡先には2つのSIP番号を追加できません。旧SIP番号をまず削除してください。</string>
+    <plurals name="searchFoundCalllogs">
+        <item quantity="one">1件の通話ログ</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g>件の通話ログ</item>
+    </plurals>
+    <string name="search_results_for">検索結果： <xliff:g id="query">%s</xliff:g></string>
+    <string name="listFoundAllCalllogZero">通話ログが見つかりません</string>
+    <string name="calllogList">"通話履歴"</string>
+    <string name="calllogHint">通話ログを検索</string>
+    <string name="calllog_description">着信、発信、不在着信</string>
+    <string name="noMatchingCalllogs">一致する通話ログは見つかりません。</string>
+    <string name="menu_videocallNumber">ビデオ通話 <xliff:g id="name">%s</xliff:g></string>
+    <string name="menu_ipcallNumber">IP通話 <xliff:g id="name">%s</xliff:g></string>
+    <string name="deleting_call_log">通話ログを削除中…</string>
+    <string name="no_vm_number">"ボイスメール番号がありません"</string>
+    <string name="no_vm_number_msg">"SIMカードにボイスメールの番号がありません。"</string>
+    <string name="add_vm_number_str">"番号を追加"</string>
+    <string name="reminder">通知</string>
+    <string name="enable_sip_dialog_message">インターネット通話は無効です。有効にしますか？</string>
+    <string name="share_contacts_limit">"選択可能な共有連絡先は"<xliff:g id="count">%d</xliff:g>"までです</string>
+    <string name="contact_delete_all_tips">"連絡先の削除を実行中です。作業を行えません。"</string>
+    <string name="sum_search_networks">"利用可能なすべてのネットワークを検索する"</string>
+    <string name="deleteCallLogConfirmation_title">通話ログを削除しますか？</string>
+    <string name="deleteCallLogConfirmation_message">選択された通話ログを削除しますか？</string>
+    <string name="file_already_on_sd_card">ファイルは既にSDカード内に存在します。</string>
+    <string name="send_file_sms_error">SMSではファイル共有ができません。MMSをお使いください。</string>
+    <string name="user_profile_cannot_sd_card">この方法では連絡先を共有できません。</string>
+    <string name="error_save_usim_contact_email_lost">"メール用のストレージがいっぱいのため、メールアドレスを保存できませんでした。"</string>
+    <string name="error_import_usim_contact_email_lost">"メール用のストレージがいっぱいのため、一部の連絡先メールアドレスをインポートできませんでした。\n完了： <xliff:g id="items">%d</xliff:g>\n未完了： <xliff:g id="items">%d</xliff:g>"</string>
+    <string name="type_ip_outgoing">IP発信 <xliff:g id="name">%s</xliff:g></string>
+    <string name="call_sms">"SMS"</string>
+    <string name="delete_group_failure">グループを削除できません。</string>
+    <string name="account_type_uim_label" product="tablet">UIMのみ、非同期</string>
+    <string name="account_type_uim_label" product="default">UIMのみ、非同期</string>
+    <string name="call_log_auto_rejected_label">自動拒否通話一覧</string>
+    <string name="import_no_vcard_dialog_text"><xliff:g id="storage_name">%s</xliff:g>にはvCardファイルが見つかりません</string>
+    <string name="look_simstorage">SIMカードの容量を見る</string>
+
+    <string name="contact_group_list_title">対象グループを選択</string>
+    <string name="send_groupemail_no_number_more">"%1$sや%2$sなどの連絡先には有効なメールがありません。"</string>
+    <string name="send_groupemail_no_number_1">"%1$sには有効なメールがありません。"</string>
+    <string name="send_groupemail_no_number_2">"%1$sや%2$sには有効なメールがありません。"</string>
+    <string name="add_contact_dlg_title">"連絡先を追加"</string>
+    <string name="deleteConfirmation_title">連絡先を削除しますか？</string>
+    <string name="dialog_phone_call_prohibited_title" msgid="4313552620858880999">"発信できません"</string>
+    <string name="dialog_voicemail_not_ready_title">ボイスメールの番号が利用できません</string>
+    <string name="scanning_sdcard_failed_title" product="nosdcard">保存空間をスキャンできません</string>
+    <string name="scanning_sdcard_failed_title" product="default">SDカードをスキャンできません</string>
+    <string name="nickname_too_long">"ニックネームが長すぎます。"</string>
+    <string name="pick_new_photo_from_gallery">新しい写真を選択</string>
+    <string name="copy_text_to_dialer">発信者へコピー</string>
+    <string name="contact_detail_group_list_title">"グループ"</string>
+    <string name="contact_detail_group_not_assigned">割当てられていません</string>
+    <string name="contact_detail_group_list_nogroups">"既存グループがありません。新規グループを作成しますか？"</string>
+    <string name="recents">最近の記録</string>
+    <string name="contact_no_recents">最近の記録がありません</string>
+    <string name="contact_detail_ip_call">IP通話</string>
+    <string name="contact_detail_history_mms_received_time">"着信時%1$s"</string>
+    <string name="contact_detail_history_mms_received_from">"%1$sから着信"</string>
+    <string name="contact_detail_history_mms_sent_time">"送信時%1$s"</string>
+    <string name="contact_detail_history_mms_sent_to">"%1$sへ送信"</string>
+    <string name="contact_detail_history_calllog">"通話履歴"</string>
+    <string name="contact_detail_history_mms">"メッセージ"</string>
+    <string name="contact_detail_history_duration">"再生時間:"</string>
+    <string name="contact_detail_history_ismms">マルチメディアメッセージを取得する</string>
+    <string name="contact_detail_history_empty_calllog">"転送履歴が空です。"</string>
+    <string name="contact_detail_history_empty_message">メッセージ無し</string>
+    <string name="contact_detail_history_empty">"通話メッセージ履歴はありません"</string>
+    <string name="contact_recent_number_limit">"利用可能な連絡先は%1$sだけです"</string>
+
+    <string name="call_pin_dialog_title_ct">UIM/SIMカードを選択</string>
+    <string name="callFailed_simError_ct">UIM/SIMがない、またはUIM/SIMエラー</string>
+    <string name="msg_loading_sim_contacts_toast_ct">"バックグラウンドでUIM/SIM連絡先を読み込んでいます。しばらくお待ちください。"</string>
+    <string name="xport_error_one_account_ct">"連絡先をインポート／エクスポートする場合はUIM/SIMカードまたはSDカードを挿入してください。"</string>
+    <string name="notifier_failure_by_sim_full_ct">UIM/SIM容量が一杯なため失敗\n完了：<xliff:g id="items">%d</xliff:g>\nが未完了：<xliff:g id="items">%d</xliff:g></string>
+    <string name="notifier_failure_sim_notready_ct">UIM/SIMが準備できていないため失敗\n完了：<xliff:g id="items">%d</xliff:g>\nが未完了：<xliff:g id="items">%d</xliff:g></string>
+    <string name="look_simstorage_ct">UIM/SIMカードの容量を見る</string>
+    <string name="callFailed_cdma_notEmergency">"緊急通報のみ可能です。"</string>
+    <string name="international_dialing_title">国際ダイヤルアシスト</string>
+    <string name="international_dialing_select_country">国際電話をかけていることが検出されました。通話先を選択してください。</string>
+    <string name="international_dialing_add_country_code"><xliff:g id="country_name">%s</xliff:g>の番号にかけていることが検出されました。国番号(+<xliff:g id="country_code">%s</xliff:g>)を追加しますか？</string>
+    <string name="international_dialing_add_country_code_and_area_code"><xliff:g id="area_name">%1$s</xliff:g>、<xliff:g id="country_name">%2$s</xliff:g>の番号にかけていることが検出されました。国番号と地域コード(+<xliff:g id="prefix">%3$s</xliff:g>)を追加しますか？</string>
+    <string name="international_dialing_change_country_prefix">"<xliff:g id="country_name">%s</xliff:g>の番号からかけていることが検出されました。国際電話のプレフィックスを'+'に変更しますか？"</string>
+    <string name="international_dialing_add_country_code_input_area_code"><xliff:g id="country_name">%s</xliff:g>の番号にかけていることが検出されました。もしそうであれば、地域コードを入力してください。</string>
+    <string name="international_dialing_add_country_code_default_input_area_code"><xliff:g id="country_name">%s</xliff:g>の番号にかけていることが検出されました。目的地の都市名が<xliff:g id="area_name">%s</xliff:g>でないのであれば、地域コードを入力してください。</string>
+    <string name="international_dialing_need_area_code">通話を行うためには、目的地の都市の地域コードが必要です。</string>
+    <string name="international_dialing_input_area_code">地域コードを入力してください</string>
+    <string name="international_dialing_dialed_number">通話先番号：</string>
+    <string name="international_dialing_confirm_area_code">目的地の都市名が<xliff:g id="area_name">%s</xliff:g>でないのであれば、目的地の地域コードを以下に入力してください。</string>
+    <string name="international_dialing_click_below_button">国番号を変更する場合は、以下のボタンをクリックしてください。</string>
+    <string name="international_dialing_yes">はい。以下の番号を使用します：</string>
+    <string name="international_dialing_no">いいえ。元の番号を使用します：</string>
+    <string name="international_dialing_call_button">"発信"</string>
+    <string name="international_dialing_area_code">地域コード</string>
+    <string name="international_dialing_invalid_number">番号が無効です。発信を継続しますか？</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">国番号と地域コードを追加しますか？</string>
+    <string name="no_search_result">検索結果無し</string>
+    <string name="account_phone_only" product="tablet">"タブレット"</string>
+    <string name="account_phone_only" product="default">携帯端末連絡先</string>
+    <string name="no_match_call_log">"一致するアイテムはありません"</string>
+    <string name="no_call_log">"通話ログはありません"</string>
+    <string name="share_too_large">合計データは上限に達しました。アイテムの選択をいくつか外した後に、再度お試しください。</string>
+    <string name="err_icc_no_phone_book">%1$sには連絡先を保存できません</string>
+    <string name="titleJoinContactDataWith">"連絡先の統合"</string>
+    <string name="menu_select_all">"すべて選択"</string>
+    <string name="list_filter_custom">"カスタム"</string>
+    <string name="add_contact_dlg_message_fmt">"<xliff:g id="EMAIL">%s</xliff:g> を連絡先に追加しますか？"</string>
+    <string name="locale_change_in_progress">"言語の変更に伴い連絡先リストを更新しています。"</string>
+    <string name="noFavoritesHelpText">"お気に入りはありません。"\n\n"お気に入りのリストに連絡先を追加するには: "\n\n<li>"["<b>"連絡先"</b>"]タブをタップします"\n</li>" "\n<li>"お気に入りに追加する連絡先をタップします"\n</li>" "\n<li>"連絡先名の横にあるスターをタップします"\n</li></string>
+
+    <string name="menu_select_none">"選択をすべて解除"</string>
+    <string name="find_call_logs">通話ログを探す</string>
+    <string name="call_log_via_sim_name_notice">\"<xliff:g id="sim_name">%s</xliff:g>\"経由の通話ログ</string>
+    <string name="mtk_contact_list_loading">"読み込み中..."</string>
+    <string name="vcard_import_failed_v2">以下をインポートできません</string>
+    <string name="quickcontact_missing_app">"この操作を行うアプリが見つかりませんでした。"</string>
+    <string name="call_speed_dial_title">短縮ダイヤル</string>
+
+    <string name="icc_phone_book_invalid">電話帳は現在使用できません。後でやり直してください。</string>
+    <string name="error_edit_join_group">共同連絡先です。編集モードにてグループ情報を編集できます。</string>
+    <string name="local_phone_account" product="tablet">インストールの最中はタブレットを使用したり、緊急通話を行うことはできません。バッテリーやSDカードを外したり、タブレットの電源を切ったりしないでください。</string>
+    <string name="local_phone_account" product="default">"電話"</string>
+    <string name="vcs_menu_voice_contacts_search" product="default">音声による連絡先検索</string>
+    <string name="vcs_msg_no_voice_contacts">連絡先が見つかりません。</string>
+    <string name="imsCallLabelsGroup">IMS通話</string>
+    <string name="sip_url">SIP url</string>
+    <string name="ims_call_disabled">IMS通話は利用できません</string>
+    <string name="contact_import_export_tips">連絡先のインポート/エクスポート中です。後で試してください</string>
+    
+    <string name="please_wait">"お待ちください"</string>
+    <string name="dlg_simstorage_content">電話帳容量：<xliff:g id="items">%d</xliff:g>、が使われています <xliff:g id="items">%d</xliff:g>。</string>
+    <string name="contact_recent_group_label">"グループ"</string>
+    <string name="non_phone_caption">"電話番号"</string>
+    <string name="dialog_no_speed_dial_number_message">短縮ダイヤル番号がありません。今すぐ設定しますか？</string>
+    
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> 選択済</string>
+</resources>

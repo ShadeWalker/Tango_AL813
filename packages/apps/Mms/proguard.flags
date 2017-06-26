@@ -1,0 +1,94 @@
+-keep class com.android.mms.ui.AdvancedSearchView {
+*;
+}
+
+-keep class com.android.mms.ui.MmsThumbnailPresenter {
+*;
+}
+
+-keep class com.android.mms.ui.SlideshowPresenter {
+*;
+}
+
+-keep class com.mediatek.mms.ipmessage.message.IpTextMessage {
+*;
+}
+
+-keep class com.mediatek.mms.ipmessage.message.IpAttachMessage {
+*;
+}
+
+-keep class com.mediatek.mms.ipmessage.message.IpImageMessage {
+*;
+}
+
+-keep class com.mediatek.mms.ipmessage.message.IpVideoMessage {
+*;
+}
+
+-keep class com.mediatek.mms.ipmessage.message.IpMessage {
+*;
+}
+
+-keep class com.mediatek.mms.ipmessage.message.IpVCalendarMessage {
+*;
+}
+
+-keep class com.mediatek.mms.ipmessage.message.IpVCardMessage {
+*;
+}
+
+-keep class com.mediatek.mms.ipmessage.message.IpVoiceMessage {
+*;
+}
+
+-keep class com.mediatek.mms.ipmessage.INotificationsListener {
+*;
+}
+
+-keep class com.mediatek.mms.ipmessage.ActivitiesManager {
+*;
+}
+
+-keep class com.mediatek.mms.ipmessage.ChatManager {
+*;
+}
+
+-keep class com.mediatek.mms.ipmessage.ContactManager {
+*;
+}
+
+-keep class com.mediatek.mms.ipmessage.IIpMessagePlugin {
+*;
+}
+
+-keep class com.mediatek.mms.ipmessage.IpMessageConsts {
+*;
+}
+
+-keep class com.mediatek.mms.ipmessage.IpMessagePluginImpl {
+*;
+}
+
+-keep class com.mediatek.mms.ipmessage.NotificationsManager {
+*;
+}
+
+-keep class com.mediatek.mms.ipmessage.ResourceManager {
+*;
+}
+
+-keep class com.mediatek.mms.ipmessage.ServiceManager {
+*;
+}
+
+-keep class com.mediatek.mms.ipmessage.SettingsManager {
+*;
+}
+
+-keep class com.mediatek.mms.ipmessage.MessageManager {
+*;
+}
+
+-dontwarn com.android.mms.ui.**
+-ignorewarnings

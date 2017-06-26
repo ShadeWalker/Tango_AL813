@@ -1,0 +1,466 @@
+/* Copyright Statement:
+ *
+ * This software/firmware and related documentation ("MediaTek Software") are
+ * protected under relevant copyright laws. The information contained herein
+ * is confidential and proprietary to MediaTek Inc. and/or its licensors.
+ * Without the prior written permission of MediaTek inc. and/or its licensors,
+ * any reproduction, modification, use or disclosure of MediaTek Software,
+ * and information contained herein, in whole or in part, shall be strictly prohibited.
+ */
+/* MediaTek Inc. (C) 2010. All rights reserved.
+ *
+ * BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+ * THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
+ * RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER ON
+ * AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
+ * NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH RESPECT TO THE
+ * SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, INCORPORATED IN, OR
+ * SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES TO LOOK ONLY TO SUCH
+ * THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. RECEIVER EXPRESSLY ACKNOWLEDGES
+ * THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES
+ * CONTAINED IN MEDIATEK SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK
+ * SOFTWARE RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
+ * STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND
+ * CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE,
+ * AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE,
+ * OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE CHARGE PAID BY RECEIVER TO
+ * MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+ *
+ * The following software/firmware and/or related documentation ("MediaTek Software")
+ * have been modified by MediaTek Inc. All revisions are subject to any receiver's
+ * applicable license agreements with MediaTek Inc.
+ */
+
+package com.mediatek.telecom.recording;
+
+import android.app.AlertDialog;
+import android.content.ContentResolver;
+import android.content.ContentValues;
+import android.content.Context;
+import android.content.Intent;
+import android.database.Cursor;
+import android.media.MediaRecorder;
+import android.media.MediaScannerConnection;
+import android.net.Uri;
+import android.os.FileObserver;
+import android.os.Handler;
+import android.os.Looper;
+import android.os.Message;
+import android.os.storage.StorageManager;
+import android.os.storage.StorageVolume;
+import android.provider.MediaStore;
+import android.text.format.DateFormat;
+import android.util.Log;
+import android.widget.Toast;
+
+import com.android.server.telecom.*;
+import com.mediatek.telecom.recording.PhoneRecorderHandler;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Date;
+import android.provider.Settings;
+
+
+public class PhoneRecorder extends Recorder {
+
+    private static final String TAG = "PhoneRecorder";
+    private static final String AUDIO_DB_TITLE_FORMAT = "yyyy-MM-dd HH:mm:ss";
+
+    private static final String AUDIO_3GPP = "audio/3gpp";
+    private static final String AUDIO_AMR = "audio/amr";
+    private static final String AUDIO_ANY = "audio/*";
+
+    public static final long LOW_STORAGE_THRESHOLD = 512L * 1024L;
+
+    private static PhoneRecorder sPhoneRecorder;
+    private static byte[] sLock = new byte[0];
+    private static boolean sIsRecording;
+    private static boolean sSDcardFullFlag;
+
+    boolean mSampleInterrupted;
+    String mRequestedType = AUDIO_AMR;//modify by zhangjinqiang 
+    long mMaxFileSize = -1;
+
+    private Context mContext;
+    private AlertDialog mAlertDialog;
+
+    private String mAudioDBPlaylistName;
+
+    private FileObserver mFileObserver;
+    private String mFileName;
+    private boolean mForeStop = false;
+    
+    /**
+     * 
+     * @param context 
+     */
+    private PhoneRecorder(Context context) {
+        super();
+        mContext = context;
+        mAudioDBPlaylistName = mContext.getString(R.string.str_db_playlist_name);
+    }
+
+    /**
+     * 
+     * @param context 
+     */
+    public void setMContext(Context context) {
+        mContext = context;
+    }
+
+    /**
+     * 
+     * @param context 
+     * @return 
+     */
+    public static PhoneRecorder getInstance(Context context) {
+        synchronized (sLock) {
+            if (sPhoneRecorder == null) {
+                sPhoneRecorder = new PhoneRecorder(context);
+            }
+            return sPhoneRecorder;
+        }
+    }
+
+    /**
+     * 
+     * @return boolean
+     */
+    public static boolean isRecording() {
+        return sIsRecording;
+    }
+
+    public static void setRecording(boolean isRecording) {
+        sIsRecording = isRecording;
+    }
+
+    public void startRecord() {
+        /*log("startRecord, mRequestedType = " + mRequestedType + ",sIsRecording=" + sIsRecording);
+        if (sIsRecording) {
+            return;
+        }
+		//add by zhangjinqiang for get recordName --start
+	   String recordName = Settings.System.getString(mContext.getContentResolver(), "record_Name");
+	   //add by zjq end
+        if (!RecorderUtils.isExternalStorageMounted(mContext)) {
+            mSampleInterrupted = true;
+            Log.e(TAG, "-----Please insert an SD card----");
+        } else if (!RecorderUtils.diskSpaceAvailable(
+                PhoneRecorderHandler.PHONE_RECORD_LOW_STORAGE_THRESHOLD)) {
+            mSampleInterrupted = true;
+            Log.e(TAG, "--------Storage is full-------");
+        } else {
+            try {
+                if (AUDIO_AMR.equals(mRequestedType)) {
+                    startRecording(MediaRecorder.OutputFormat.RAW_AMR, ".amr",recordName);
+                } else if (AUDIO_3GPP.equals(mRequestedType)) {
+                    startRecording(MediaRecorder.OutputFormat.THREE_GPP, ".3gpp",recordName);
+
+                } else if (AUDIO_ANY.equals(mRequestedType)) {
+                    // mRequestedType = AUDIO_3GPP;
+                    startRecording(MediaRecorder.OutputFormat.THREE_GPP, ".3gpp",recordName);
+                } else {
+                    throw new IllegalArgumentException("Invalid output file type requested");
+                }
+
+                sIsRecording = true; // start successfully.qintx
+
+                String filePath = mSampleFile.getAbsolutePath();
+				if (mFileObserver == null && mSampleFile.exists()) {
+					mFileName = filePath.substring(filePath.lastIndexOf(File.separator) + 1);
+					String recordPath = getRecordingPath();
+					mFileObserver = new MyFileObserver(recordPath);
+					mFileObserver.startWatching();
+					log("FileObserver startWatching,recordPath=" + recordPath + ",mFileName=" + mFileName);
+				}
+            } catch (IOException oe) {
+                sIsRecording = false;
+            }
+        }*/
+    }
+
+	private class MyFileObserver extends FileObserver {
+
+		public MyFileObserver(String path) {
+			super(path);
+		}
+
+		@Override
+		public void onEvent(int event, String path) {
+			switch (event) {
+			case android.os.FileObserver.DELETE:
+				log("FileObserver event=" + event + ",path=" + path);
+				if (mFileName.equals(path)) {
+					mForeStop = true;
+					stop();
+				}
+				break;
+			default:
+				break;
+			}
+		}
+
+	}
+    
+    public void stop() {
+        /*if (!sIsRecording) {
+            return;
+        }
+        super.stop();
+        sIsRecording = false;
+        if (mFileObserver != null) {
+        	mFileObserver.stopWatching();
+        	mFileObserver = null;
+        	if (mForeStop == true) {
+        		String msg = mContext.getResources().getText(R.string.alert_device_error).toString();
+        		signalFinished(Recorder.SECCESS, msg);
+        		mForeStop = false;
+        	}
+        	log("FileObserver stopWatching");
+        }*/
+    }
+
+    /**
+     * 
+     * @param mount 
+     */
+    public void stopRecord(boolean mount) {
+        /*if (!sIsRecording) {
+            return;
+        }
+        log("stopRecord");
+        stop();
+
+        if (mount) {
+            saveSample();
+            String path = mContext.getResources().getText(R.string.confirm_save_info_saved_to)
+                    + "\n" + getExactRecordingPath(getRecordingPath());
+            signalFinished(Recorder.SECCESS, path);
+        } else {
+            delete();
+            signalFinished(Recorder.STORAGE_UNMOUNTED, null);
+        }*/
+    }
+
+    /**
+     * 
+     * @return boolean
+     */
+    public static boolean sdcardFullFlag() {
+        sSDcardFullFlag = !RecorderUtils.diskSpaceAvailable(
+                PhoneRecorderHandler.PHONE_RECORD_LOW_STORAGE_THRESHOLD);
+        return sSDcardFullFlag;
+    }
+
+    /**
+     * If we have just recorded a smaple, this adds it to the media data base
+     * and sets the result to the sample's URI.
+     * @return boolean
+     */
+    
+    public boolean saveSample() {
+        if (this.sampleLength() == 0L) {
+            return false;
+        }
+        Uri uri = null;
+        try {
+            uri = this.addToMediaDB(this.sampleFile());
+        } catch (UnsupportedOperationException ex) {
+            // Database manipulation failure
+            return false;
+        }
+        if (uri == null) {
+            return false;
+        }
+
+        return true;
+    }
+
+    /**
+     * Adds file and returns content uri.
+     * @param file 
+     * @return 
+     */
+    private Uri addToMediaDB(File file) {
+        ContentValues cv = new ContentValues();
+        long current = System.currentTimeMillis();
+        long modDate = file.lastModified();
+        Date date = new Date(current);
+
+        String sTime = DateFormat.getTimeFormat(mContext).format(date);
+        String sDate = DateFormat.getDateFormat(mContext).format(date);
+        String title = sDate + " " + sTime;
+
+        // Lets label the recorded audio file as NON-MUSIC so that the file
+        // won't be displayed automatically, except for in the playlist.
+        
+        // Currently if scan media, all db information will be cleared
+        // so no need to put all information except MediaStore.Audio.Media.DATA
+        
+        // cv.put(MediaStore.Audio.Media.IS_MUSIC, "0");
+        // cv.put(MediaStore.Audio.Media.TITLE, title);
+        cv.put(MediaStore.Audio.Media.DATA, file.getAbsolutePath());
+        // cv.put(MediaStore.Audio.Media.DATE_ADDED, (int) (current / 1000));
+        cv.put(MediaStore.Audio.Media.MIME_TYPE, mRequestedType);
+
+        // cv.put(MediaStore.Audio.Media.ARTIST,
+        // mContext.getString(R.string.your_recordings));
+        // cv.put(MediaStore.Audio.Media.ALBUM,
+        // mContext.getString(R.string.audio_recordings));
+        // cv.put(MediaStore.Audio.Media.DURATION, this.sampleLength());
+        // Log.d(TAG, "Inserting audio record: " + cv.toString());
+        ContentResolver resolver = mContext.getContentResolver();
+        Uri base = MediaStore.Audio.Media.EXTERNAL_CONTENT_URI;
+        // Log.d(TAG, "ContentURI: " + base);
+        Uri result = resolver.insert(base, cv);
+
+        if (result == null) {
+            Log.e(TAG, "----- Unable to save recorded audio !!");
+            return null;
+        }
+
+        if (getPlaylistId() == -1) {
+            createPlaylist(resolver);
+        }
+        int audioId = Integer.valueOf(result.getLastPathSegment());
+        addToPlaylist(resolver, audioId, getPlaylistId());
+
+        // Notify those applications such as Music listening to the
+        // scanner events that a recorded audio file just created.
+        mContext.sendBroadcast(new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE, result));
+
+        // scan file
+        MediaScannerConnection.scanFile(mContext, new String[] {file.getAbsolutePath()}, null, null);
+
+        return result;
+    }
+
+    /**
+     * Obtain the id for the default play list from the audio_playlists table.
+     * @return int
+     */
+    private int getPlaylistId() {
+        Uri uri = MediaStore.Audio.Playlists.getContentUri("external");
+        final String[] ids = new String[] {
+            MediaStore.Audio.Playlists._ID
+        };
+        final String where = MediaStore.Audio.Playlists.NAME + "=?";
+        mAudioDBPlaylistName = mContext.getString(R.string.str_db_playlist_name);
+        final String[] args = new String[] {
+            mAudioDBPlaylistName
+        };
+        Cursor cursor = query(uri, ids, where, args, null);
+        if (cursor == null) {
+            Log.v(TAG, "query returns null");
+        }
+        int id = -1;
+        if (cursor != null) {
+            cursor.moveToFirst();
+            if (!cursor.isAfterLast()) {
+                id = cursor.getInt(0);
+            }
+            cursor.close();
+        }
+        return id;
+    }
+
+    /**
+     * Create a playlist with the given default playlist name, if no such
+     * playlist exists.
+     * @param resolver
+     * @return Uri
+     */
+    private Uri createPlaylist(ContentResolver resolver) {
+        ContentValues cv = new ContentValues();
+        mAudioDBPlaylistName = mContext.getString(R.string.str_db_playlist_name);
+        cv.put(MediaStore.Audio.Playlists.NAME, mAudioDBPlaylistName);
+        Uri uri = resolver.insert(MediaStore.Audio.Playlists.getContentUri("external"), cv);
+        if (uri == null) {
+            Log.e(TAG, "---- Unable to save recorded audio -----");
+        }
+        return uri;
+    }
+
+    /**
+     * Add the given audioId to the playlist with the given playlistId; and
+     * maintain the play_order in the playlist.
+     * @param resolver 
+     * @param audioId 
+     * @param playlistId 
+     */
+    private void addToPlaylist(ContentResolver resolver, int audioId, long playlistId) {
+        String[] cols = new String[] {  "count(*)"  };
+        Uri uri = MediaStore.Audio.Playlists.Members.getContentUri("external", playlistId);
+        Cursor cur = resolver.query(uri, cols, null, null, null);
+        if (null != cur) {
+            cur.moveToFirst();
+            final int base = cur.getInt(0);
+            cur.close();
+            ContentValues values = new ContentValues();
+            values.put(MediaStore.Audio.Playlists.Members.PLAY_ORDER, Integer.valueOf(base + audioId));
+            values.put(MediaStore.Audio.Playlists.Members.AUDIO_ID, audioId);
+            resolver.insert(uri, values);
+        }
+    }
+
+    /**
+     * A simple utility to do a query into the databases.
+     * @param uri 
+     * @param projection 
+     * @param selection 
+     * @param selectionArgs 
+     * @param sortOrder 
+     * @return Cursor
+     */
+    private Cursor query(Uri uri, String[] projection, String selection, String[] selectionArgs,
+            String sortOrder) {
+        try {
+            ContentResolver resolver = mContext.getContentResolver();
+            if (resolver == null) {
+                return null;
+            }
+            return resolver.query(uri, projection, selection, selectionArgs, sortOrder);
+        } catch (UnsupportedOperationException ex) {
+            return null;
+        }
+    }
+
+    public void onError(MediaRecorder mp, int what, int extra) {
+        Log.e(TAG, "MediaRecorder error...");
+        /*
+         * Intent mRecorderServiceIntent = new
+         * Intent(mContext,PhoneRecorderServices.class);
+         * mContext.stopService(mRecorderServiceIntent); mSDacrdFullFlag=true;
+         */
+    }
+
+    /**
+     * Get exact recording path
+     */
+    private String getExactRecordingPath(String path) {
+        String exactPath = "";
+        log("getExactRecordingPath(): path is: " + path);
+        StorageVolume[] storageVolumeList = ((StorageManager) mContext.getSystemService(Context.STORAGE_SERVICE)).getVolumeList();
+        if (storageVolumeList != null) {
+            for (StorageVolume volume : storageVolumeList) {
+                String volDescription = volume.getDescription(mContext);
+                String volPath = volume.getPath() + "/";
+                log("getExactRecordingPath(): volDes is: " + volDescription + ", volPath is: " + volPath);
+                if (path != null && path.indexOf(volPath) > -1) {
+                    String subPath = path.substring(volPath.length() - 1);
+                    exactPath = volDescription + subPath;
+                    log("getExactRecordingPath(): exactPath is: " + exactPath + ", subPath is: " + subPath);
+                    return exactPath;
+                }
+            }
+        }
+        return exactPath;
+    }
+
+    private void log(String msg) {
+        Log.d(TAG, msg);
+    }
+}

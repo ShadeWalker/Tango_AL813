@@ -1,0 +1,47 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--The string used to represent an unknown location for a phone number in the call log
+        Do not translate.
+    -->
+    <string name="call_log_empty_geocode" translatable="false"></string>
+
+    <!-- M: [Ip Dial] add Ip Call -->
+    <string name="description_ip_call_action">Ip Call <xliff:g id="nameOrNumber" example="John Smith">%1$s</xliff:g></string>
+
+    <!-- M: [VoLTE ConfCall] For Volte Conference call @{ -->
+    <string name="conf_call_member_list">Member List</string>
+    <string name="conf_call_participant_answered">Answered</string>
+    <string name="conf_call_participant_missed">Missed</string>
+    <!-- @} -->
+
+    <!-- Dialog title displayed when choose an account to display in call log screen -->
+    <string name="select_account">Select Account</string>
+
+    <!-- Dialog item displayed when choose an account to display in call log screen
+          this item means diplay call log from all accounts
+    -->
+    <string name="all_accounts">All Accounts</string>
+
+    <!-- The content for displaying a invalid IMEI -->
+    <string name="imei_invalid">Invalid</string>
+     
+    <!-- M: [WFC] For WFC call @{ -->
+    <string name="calls_over_wifi">Calls will be made over Wi-Fi</string>
+    <string name="connect_to_wifi">Connect to Wi-Fi to make calls</string>
+    <string name="wfc_notification_summary">Tap here to access preferences</string>
+    <string name="wfc_notification_summary_fail">Tap Here to View Available Networks</string>
+    <!-- @} -->
+
+    <!-- The message of toast when switch account between two CDMA cards during a call -->
+    <string name = "can_not_switch_account_during_call">Can not switch preferred SIM for calls during the call.</string>
+    <!-- The message of alert dialog when switch account but it is not allowed -->
+    <string name = "can_not_switch_account_temporarily">Can not switch preferred SIM for calls temporarily.</string>
+
+    <!-- M: CTA location permission -->
+    <string name="location_permission_title" translatable="false">Security warning</string>
+    <string name="location_permission_summary" translatable="false">Dialer is trying to obtain your current position.\n
+        (Deny automatically after <xliff:g id="time_sec">%1$s</xliff:g> seconds)
+    </string>
+    <string name="location_permission_allow" translatable="false">ALLOW</string>
+    <string name="location_permission_deny" translatable="false">DENY</string>
+    <!-- @} -->
+</resources>

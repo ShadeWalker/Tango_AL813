@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (C) 2009 The Android Open Source Project
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="calendar_storage">Kalenderspeicher</string>
+    <string name="upgrade_msg">Kalenderdatenbank wird erweitert.</string>
+    <string name="calendar_default_name">Vorgabe</string>
+    <string name="calendar_info">Kalender-Info</string>
+    <string name="calendar_info_error">Fehler</string>
+    <string name="calendar_info_no_calendars">Kein Kalender</string>
+    <string name="calendar_info_events">Ereignisse: <xliff:g id="events">%1$d</xliff:g></string>
+    <string name="calendar_info_events_dirty">Ereignisse: <xliff:g id="events">%1$d</xliff:g>, Nicht gespeichert: <xliff:g id="dirty events">%2$d</xliff:g></string>
+    <string name="provider_label">Kalender</string>
+    <string name="debug_tool_delete_button">Jetzt löschen</string>
+    <string name="debug_tool_start_button">Start</string>
+    <string name="debug_tool_message">Sie sind dabei 1) eine Kopie der Kalenderdatenbank auf SD-Karte /USB-Speicher zu speichern, die durch eine beliebige App gelesen werden kann, und 2) sie per E-Mail zu versenden. Vergessen Sie nicht, die Kopie zu löschen, wenn Sie sie kopiert haben oder die E-Mail empfangen wurde.</string>
+    <string name="debug_tool_email_sender_picker">Wählen Sie ein Programm, um die Datei zu versenden.</string>
+    <string name="debug_tool_email_subject">Kalender-Db ist angehängt</string>
+    <string name="debug_tool_email_body">Im Anhang befindet sich meine Kalenderdatenbank mit allen Terminen und persönlichen Informationen. Bitte vertraulich behandeln.</string>
+</resources>

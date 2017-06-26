@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- 
+  ~ Copyright (C) 2012 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+   --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="9125850639884993690" name="dialpad_0_number">"0"</string>
+    <string msgid="761747742902363751" name="dialpad_1_number">"1"</string>
+    <string msgid="4473872718353086388" name="dialpad_2_number">"2"</string>
+    <string msgid="2631223250001985194" name="dialpad_3_number">"3"</string>
+    <string msgid="5209564123577292452" name="dialpad_4_number">"4"</string>
+    <string msgid="5634625806116989866" name="dialpad_5_number">"5"</string>
+    <string msgid="799658410454143963" name="dialpad_6_number">"6"</string>
+    <string msgid="6998407956591315524" name="dialpad_7_number">"7"</string>
+    <string msgid="7956944519599432140" name="dialpad_8_number">"8"</string>
+    <string msgid="9074552572438193202" name="dialpad_9_number">"9"</string>
+    <string msgid="4853244877599437286" name="description_dialpad_overflow">"Περισσότερες επιλογές"</string>
+    <string msgid="88733669653753441" name="description_delete_button">"backspace"</string>
+    <string msgid="7821061347207448362" name="description_image_button_plus">"συν"</string>
+    <string msgid="6281470684653439120" name="description_voicemail_button">"αυτόματος τηλεφωνητής"</string>
+    <string msgid="6011631627871110785" name="default_notification_description">"Προεπιλεγμένος ήχος (<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"</string>
+    <string msgid="5163219086553610486" name="callFailed_userBusy">"Η γραμμή είναι απασχολημένη"</string>
+    <string msgid="3645995103907418337" name="callFailed_congestion">"Το δίκτυο είναι απασχολημένο"</string>
+    <string msgid="7772951976278867294" name="callFailed_timedOut">"Καμία απάντηση, το χρονικό όριο έληξε"</string>
+    <string msgid="4766146133909799091" name="callFailed_server_unreachable">"Αδυναμία πρόσβασης σε διακομιστή"</string>
+    <string msgid="1243366438388873914" name="callFailed_number_unreachable">"Δεν είναι δυνατή η κλήση του αριθμού"</string>
+    <string msgid="6115412108261660271" name="callFailed_invalid_credentials">"Εσφαλμένο όνομα χρήστη ή κωδικός πρόσβασης"</string>
+    <string msgid="6970725831030399542" name="callFailed_out_of_network">"Κλήση εκτός δικτύου"</string>
+    <string msgid="1391421251190688379" name="callFailed_server_error">"Σφάλμα διακομιστή: Δοκιμάστε ξανά αργότερα."</string>
+    <string msgid="1758972490451048086" name="callFailed_noSignal">"Δεν υπάρχει σήμα"</string>
+    <string msgid="8796663077702587664" name="callFailed_limitExceeded">"Υπέρβαση ορίου ACM"</string>
+    <string msgid="9179061328562234362" name="callFailed_powerOff">"Ο πομπός είναι απενεργοποιημένος"</string>
+    <string msgid="3307159523385380486" name="callFailed_simError">"Δεν υπάρχει κάρτα SIM ή σφάλμα κάρτας SIM"</string>
+    <string msgid="4535901975891969115" name="callFailed_outOfService">"Το δίκτυο κινητής τηλεφωνίας δεν είναι διαθέσιμο"</string>
+    <string msgid="1720606112619022283" name="callFailed_fdn_only">"Οι εξερχόμενες κλήσεις περιορίζονται από το FDN."</string>
+    <string msgid="4745550615395092407" name="callFailed_cb_enabled">"Δεν είναι δυνατή η πραγματοποίηση εξερχόμενων κλήσεων όταν είναι ενεργοποιημένη η φραγή κλήσεων."</string>
+    <string msgid="4087941056515103695" name="callFailed_dsac_restricted">"Οι κλήσεις περιορίζονται από έλεγχο πρόσβασης."</string>
+    <string msgid="9031535611092828510" name="callFailed_dsac_restricted_emergency">"Οι κλήσεις έκτακτης ανάγκης περιορίζονται από έλεγχο πρόσβασης."</string>
+    <string msgid="266947632344387216" name="callFailed_dsac_restricted_normal">"Οι κανονικές κλήσεις περιορίζονται από έλεγχο πρόσβασης."</string>
+    <string msgid="124621797631734731" name="callFailed_unobtainable_number">"Μη έγκυρος αριθμός"</string>
+    <string msgid="3651090591812220874" name="incall_error_missing_voicemail_number">"Για τη r;yumish του αυτόματου τηλεφωνητή, μεταβείτε στο στοιχείο Μενού &gt; Ρυθμίσεις."</string>
+<string name="respond_via_sms_setting_title">Απόρριψη κλήσεων με SMS</string>
+<string name="dialer_menu_send_message">Αποστολή μηνύματος</string>
+<string name="dialer_menu_new_contact">Νέα επαφή</string>
+</resources>

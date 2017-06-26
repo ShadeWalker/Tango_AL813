@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@android:id/summary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="18dip"
+        android:layout_marginStart="18dip"
+        android:layout_marginTop="12dip"
+        android:fontFamily="chnfzxh"
+        android:textColor="@android:color/black"
+        android:textSize="11.0sp" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dip"
+        android:layout_marginTop="24dip"
+        android:layoutDirection="ltr"
+        android:paddingEnd="8dip"
+        android:paddingStart="18dip" >
+
+        <TextView
+            android:id="@+id/img_app_text"
+            android:layout_width="150.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26.0dip"
+            android:layout_marginTop="20.0dip"
+            android:background="@drawable/suspend_button_tutorial_text_background"
+            android:gravity="center_vertical"
+            android:paddingEnd="16.0dip"
+            android:paddingStart="16.0dip"
+            android:text="@string/suspend_button_tutorial_action"
+            android:textColor="@android:color/white"
+            android:textSize="14.0dip" />
+
+        <ImageView
+            android:id="@+id/img_app_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/suspend_button_tutorial_img" />
+    </FrameLayout>
+
+</LinearLayout>

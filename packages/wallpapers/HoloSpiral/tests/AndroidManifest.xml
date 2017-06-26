@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.android.wallpaper.holospiral.test">
+    <uses-permission android:name="android.permission.INJECT_EVENTS"/>
+ 
+
+    <!-- The Test Runner is for FPS auto performance check for HoloSpiral Wallpaper-->
+    <instrumentation android:name="com.android.wallpaper.holospiral.test.HoloSpiralFpsTestRunner"
+                     android:targetPackage="com.android.wallpaper.holospiral"
+                     android:label="HoloSpiral Wallpaper FPS TestRunner"/>
+   
+    <!--
+    <instrumentation android:name="HoloSpiralTestRunner"
+        android:targetPackage="com.android.wallpaper.holospiral" 
+        android:label="holospiral wallpaper Test">
+    </instrumentation>
+    -->
+
+    <instrumentation android:name="com.zutubi.android.junitreport.JUnitReportTestRunner"
+        android:targetPackage="com.android.wallpaper.holospiral"
+        android:label="HoloSpiral Wallpaper Launch Performance">
+    </instrumentation>
+
+    <instrumentation android:name="com.android.wallpaper.holospiral.test.HoloSpiralLaunchPerformance"
+        android:targetPackage="com.android.wallpaper.holospiral"
+        android:label="HoloSpiral Wallpaper Launch Performance">
+    </instrumentation>
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <!-- used for testcase to make sure the LiveWallpapers could be launched  -->
+    <activity
+        android:name=".PreviewStubActivity"
+        android:theme="@style/Preview"
+        android:configChanges="orientation|screenSize">
+    </activity>
+       
+</manifest>

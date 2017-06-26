@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="dm_lock">DM သော့ခတ်ပြီး</string>
+    <string name="dm_unlock">DM သော့ဖွင့်ခြင်း</string>
+    <string name="start_record">အသံဖမ်းယူခြင်းစတင်ပါ</string>
+    <string name="stop_record">အသံဖမ်းယူခြင်းရပ်ပါ</string>
+    <string name="str_db_playlist_name">မိမိအသံဖမ်းယူခြင်းများ</string>
+    <string name="alert_device_error">အသံဆိုင်ရာပစ္စည်းတွင် အမှားဖြစ်ပေါ်သွားသည်</string>
+    <string name="ext_media_badremoval_notification_title">SD ကဒ်အား မမျှော်လင့်ဘဲ ဖယ်ရှားပြီးဖြစ်သည်</string>
+    <string name="error_sdcard_access">SD ကဒ်သို့ ဝင်ရောက်၍ မရနိုင်ပါ</string>
+    <string name="confirm_device_info_full">SD ကဒ်နေရာလွတ်မရှိပါ၊ အသံဖမ်းယူခြင်းအား သိမ်းဆည်းပြီးဖြစ်သည်။</string>
+    <string name="confirm_save_info_saved">အသံဖမ်းယူခြင်းအား သိမ်းဆည်းပြီးဖြစ်သည်</string>
+    <string name="confirm_save_info_saved_to">သို့ မှတ်တမ်းတင်ခြင်းကို သိမ်းပြီးပြီ</string>
+    <string name="recording_saved_sd_full">SD ကဒ်နေရာလွတ်မရှိပါ၊ အသံဖမ်းယူခြင်းအား သိမ်းဆည်းပြီးဖြစ်သည်။</string>
+    <string name="sd_not_enough">SD ကဒ်မှာ \nနေရာကုန်ခါနီးပြီ</string>
+    <string name="alert_dialog_dismiss">ဖယ်ရန်</string>
+    <string name="change_my_pic">ပြောင်းရန်</string>
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">ဖုန်းအားလုံးကို ချပါ</string>
+    <string name="onscreenHangupHolding">ဖုန်းကိုင်ထားခြင်းကို ချပါ</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">ဖုန်းချခြင်း လုပ်ဆောင်နိုင်သည်၊ အဖြေစောင့်ဆိုင်းနေဆဲ</string>
+    <string name="menu_ect">ပေးပို့ပါ</string>
+    <string name="respond_via_sms_confirmation_format">"<xliff:g id="PHONE_NUMBER">%s</xliff:g> ထံ စာတိုပို့လိုက်ပါပြီ"</string>
+    <string name="volte_add_conference_member_title">ကွန်ဖရင့်စ်သို့ ထပ်ထည့်ပါ</string>
+    <string name="add_member_msg">နံပါတ် သို့မဟုတ် အမည်ကို ရိုက်ထည့်ပါ။</string>
+    <string name="card_title_incoming_conference">ကွန်ဖရင့်စ် ဖိတ်ကြားခြင်း</string>
+    <string name="addConferenceMemeberText">အဖွဲ့ဝင်ကို ထပ်ထည့်ပါ</string>
+    <string name="add_conference_member_limit">တစ်ကြိမ်တွင် နံပါတ်တစ်ခုသာ ထည့်နိုင်သည်။</string>
+    <string name="conference_member_join"><xliff:g id="member_name">%s</xliff:g> သည် ကွန်ဖရင့်စ်ကို ပူးပေါင်းခဲ့သည်။</string>
+    <string name="conference_member_leave"><xliff:g id="member_name">%s</xliff:g> သည် ကွန်ဖရင့်စ်မှ ထွက်သွားပြီ။</string>
+    <string name="conference_member_adding"><xliff:g id="member_name">%s</xliff:g> ကို ထပ်ထည့်နေသည်…</string>
+    <string name="conference_member_add_fail"><xliff:g id="member_name">%s</xliff:g> ကို ထပ်ထည့်ရန် မအောင်မြင်ပါ။</string>
+    <string name="removeMember">"ဖယ်ထုတ်ပါ"</string>
+    <string name="memberStatus">"အခြေအနေ"</string>
+    <string name="volte_call_waiting_indication_text">အခြားဘက်တွင် ခေါ်ဆိုမှုပြုလုပ်နေသည်၊ ကျေးဇူးပြု၍ စောင့်ပါ…</string>
+    <string name="volte_conf_member_reach_max">ကွန်ဖရင့်သည် အဖွဲ့ဝင်အများဆုံး အရေအတွက်သို့ ရောက်သွားပြီ။</string>
+    <string name="add_multi_conference_member_limit">ယခု အဖွဲ့ဝင်(များ)အများဆုံး<xliff:g id="max_number">%s</xliff:g> ဦးသာ ထည့်နိုင်သည်။</string>
+    <string name="multi_conference_member_adding">အဖွဲ့ဝင်(များ) ထပ်ထည့်နေသည်...</string>
+</resources>

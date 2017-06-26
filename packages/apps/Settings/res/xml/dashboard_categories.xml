@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<dashboard-categories
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- WIRELESS and NETWORKS -->
+    <dashboard-category
+            android:id="@+id/wireless_section"
+            android:title="@string/header_category_wireless_networks" >
+
+        <!-- <dashboard-tile
+            android:id="@+id/dual_card_settings"
+            android:icon="@drawable/ic_settings_dual_card"
+            android:title="@string/dual_card_manager" >
+        </dashboard-tile> -->
+        <!-- SIM Cards -->
+        <dashboard-tile
+                android:id="@+id/sim_settings"
+                android:title="@string/sim_settings_title"
+                android:fragment="com.android.settings.sim.SimSettings"
+                android:icon="@drawable/ic_settings_dual_card"
+                />
+
+        <!-- Wifi -->
+        <dashboard-tile
+                android:id="@+id/wifi_settings"
+                android:title="@string/wifi_settings_title"
+                android:fragment="com.android.settings.wifi.WifiSettings"
+                android:icon="@drawable/ic_settings_wireless"
+                />
+
+        <!--HetComm-->
+        <dashboard-tile
+                android:id="@+id/hetcomm_settings"
+                android:icon="@drawable/ic_settings_hetcomm"
+                android:title="@string/hetcom_setting_title">
+            <intent android:action="com.android.settings.HETCOMM_SETTINGS" />
+        </dashboard-tile>
+
+        <!-- Bluetooth -->
+        <dashboard-tile
+                android:id="@+id/bluetooth_settings"
+                android:title="@string/bluetooth_settings_title"
+                android:fragment="com.android.settings.bluetooth.BluetoothSettings"
+                android:icon="@drawable/ic_settings_bluetooth2"
+                />
+                
+        <!-- Hotknot -->
+        <dashboard-tile
+                android:id="@+id/hotknot_settings"
+                android:title="@string/hotknot_settings_title"
+                android:fragment="com.mediatek.settings.hotknot.HotKnotSettings"
+                android:icon="@drawable/ic_settings_hotknot" 
+                />
+
+        <!-- Data Usage -->
+        <!-- HQ_jiazaizheng 20150910 modify for HQ01379305 start-->
+        <dashboard-tile
+                android:id="@+id/data_usage_settings"
+                android:title="@string/data_usage_summary_title"
+                android:icon="@drawable/ic_settings_data_usage" >
+                <intent android:action="android.intent.action.DATA_USAGE" />
+                </dashboard-tile>
+                <!-- HQ_jiazaizheng 20150910 modify for HQ01379305 end-->
+
+        <!-- Operator hook -->
+        <dashboard-tile
+                android:id="@+id/operator_settings"
+                android:fragment="com.android.settings.WirelessSettings" >
+            <intent android:action="com.android.settings.OPERATOR_APPLICATION_SETTING" />
+        </dashboard-tile>
+
+        <!-- Other wireless and network controls -->
+        <dashboard-tile
+                android:id="@+id/wireless_settings"
+                android:title="@string/radio_controls_title"
+                android:fragment="com.android.settings.WirelessSettings"
+                android:icon="@drawable/ic_settings_more"
+                />
+
+    </dashboard-category>
+
+    <!-- DEVICE -->
+    <dashboard-category
+            android:id="@+id/device_section"
+            android:title="@string/header_category_device" >
+
+        <dashboard-tile
+            android:id="@+id/home_settings"
+            android:fragment="com.android.settings.HomeSettings"
+            android:icon="@drawable/ic_settings_home"
+            android:title="@string/home_settings" />
+
+        <dashboard-tile
+            android:id="@+id/launcher_mode"
+            android:icon="@drawable/ic_settings_home"
+            android:title="@string/launcher_mode">
+            <intent android:action="com.android.settings.LAUNCH_MODE" />
+        </dashboard-tile>
+
+        <!-- Display -->
+        <dashboard-tile
+                android:id="@+id/display_settings"
+                android:title="@string/display_settings"
+                android:fragment="com.android.settings.DisplaySettings"
+                android:icon="@drawable/ic_settings_display"
+                />
+
+        <!-- Sound -->
+        <dashboard-tile
+                android:id="@+id/notification_settings"
+                android:title="@string/notification_settings"
+                android:fragment="com.mediatek.audioprofile.SoundSettings"
+                android:icon="@drawable/ic_settings_notifications"
+                />
+
+        <!-- Storage -->
+        <dashboard-tile
+                android:id="@+id/storage_settings"
+                android:title="@string/storage_settings"
+                android:fragment="com.android.settings.deviceinfo.Memory"
+                android:icon="@drawable/ic_settings_storage"
+                />
+
+        <!-- Battery -->
+        <dashboard-tile
+                android:id="@+id/battery_settings"
+                android:title="@string/power_usage_summary_title"
+                android:fragment="com.android.settings.fuelgauge.PowerUsageSummary"
+                android:icon="@drawable/ic_settings_battery"
+                />
+
+        <!-- Battery Saving -->
+        <dashboard-tile
+                android:id="@+id/battery_saving_settings"
+                android:title="@string/battery_saving_title"
+                android:icon="@drawable/ic_settings_powersaving">
+             <intent android:action="android.intent.action.BATTERY_SAVING" />
+        </dashboard-tile>
+
+        <!-- Manage users -->
+        <dashboard-tile
+                android:id="@+id/user_settings"
+                android:title="@string/user_settings_title"
+                android:fragment="com.android.settings.users.UserSettings"
+                android:icon="@drawable/ic_settings_multiuser"
+                />
+
+        <!-- Manage NFC payment apps -->
+        <dashboard-tile
+                android:id="@+id/nfc_payment_settings"
+                android:title="@string/nfc_payment_settings_title"
+                android:fragment="com.android.settings.nfc.PaymentSettings"
+                android:icon="@drawable/ic_settings_nfc_payment"
+                />
+
+        <!-- Manufacturer hook -->
+        <dashboard-tile
+                android:id="@+id/manufacturer_settings"
+                android:fragment="com.android.settings.WirelessSettings">
+            <intent android:action="com.android.settings.MANUFACTURER_APPLICATION_SETTING" />
+        </dashboard-tile>
+
+    </dashboard-category>
+
+    <!-- PERSONAL -->
+    <dashboard-category
+            android:id="@+id/personal_section"
+            android:title="@string/header_category_personal" >
+	 <!--HQ_caoxuhao at 20150825 HQ01342097 begin-->
+        <dashboard-tile
+                android:id="@+id/lockscreen_password_settings"
+                android:title="@string/lockscreen_password_title"
+                android:fragment="com.android.settings.ScreenlockPasswordSettings"
+                android:icon="@drawable/ic_settings_unlock_screen"
+                />
+	 <!--HQ_caoxuhao at 20150825 HQ01342097 begin-->
+
+        <!-- Security -->
+        <dashboard-tile
+                android:id="@+id/security_settings"
+                android:title="@string/security_settings_title"
+                android:fragment="com.android.settings.SecuritySettings"
+                android:icon="@drawable/ic_settings_security"
+                />
+
+        <!-- Fingerprint -->
+      <!--   <dashboard-tile
+                android:id="@+id/fingerprint_settings"
+                android:title="@string/fingerprint_settings_title"
+                android:fragment="com.android.settings.fingerprint.FingerprintSettings"
+                android:icon="@drawable/ic_settings_fingerprint"
+                /> -->
+
+        <!-- Location -->
+        <dashboard-tile
+                android:id="@+id/location_settings"
+                android:title="@string/location_settings_title"
+                android:fragment="com.android.settings.location.LocationSettings"
+                android:icon="@drawable/ic_settings_location"
+                />
+
+        <dashboard-tile
+            android:id="@+id/no_disturb_settings"
+            android:icon="@drawable/ic_settings_no_disturb"
+            android:title="@string/no_disturbing_settings" >
+            <intent android:action="android.intent.action.NO_DISTURB" />
+        </dashboard-tile>
+
+        <!--Notification Center  -->
+        <dashboard-tile
+                android:id="@+id/notification_center_settings"
+                android:title="@string/notification_center_title"
+                android:icon="@drawable/ic_settings_notification_manager">
+             <intent android:action="android.intent.action.NOTIFICATION_CENTER" />
+        </dashboard-tile>
+
+        <dashboard-tile
+            android:id="@+id/protected_apps"
+            android:icon="@drawable/ic_settings_protected_apps"
+            android:title="@string/protected_apps_title" >
+             <intent android:action="android.intent.action.PROTECTED_APPS" />
+        </dashboard-tile>
+        <!--  hanchao remove for HQ01343952 begin -->
+        <!--Startup manger  -->
+        <!-- <dashboard-tile
+                android:id="@+id/startup_settings"
+                android:title="@string/startup_settings_title"
+                android:icon="@drawable/ic_settings_startup_manager">
+             <intent android:action="android.intent.action.STARTUP_MANAGER" />   
+        </dashboard-tile> -->
+
+        <!--Permission manager  -->
+        <!-- <dashboard-tile
+                android:id="@+id/permission_manager_settings"
+                android:title="@string/permission_manager_title"
+                android:icon="@drawable/ic_settings_permission_manager">
+             <intent android:action="android.intent.action.PERMISSION_MANAGER" />   
+        </dashboard-tile> -->
+          <!--  hanchao remove for HQ01343952 end -->
+        <!-- ChildMode -->
+        <!--delete Entrance of ChildMode for Tr5
+        <dashboard-tile
+              android:id="@+id/ChildMode_settings"
+              android:title="@string/ChildMode_settings_title"
+              android:icon="@drawable/ic_settings_childmode">
+        <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.settings"
+                android:targetClass="com.android.settings.accessibility.ChildModeSettings"/>
+        </dashboard-tile>-->
+
+        <!-- Backup and reset -->
+        <dashboard-tile
+                android:id="@+id/privacy_settings"
+                android:title="@string/privacy_settings_title"
+                android:fragment="com.android.settings.PrivacySettings"
+                android:icon="@drawable/ic_settings_backup"
+                />
+
+    </dashboard-category>
+
+    <dashboard-category
+        android:id="@+id/account_section"
+        android:title="@string/category_accounts" >
+        
+        <!-- Huawei cloud service -->
+        <dashboard-tile
+                android:id="@+id/hw_cloud_service"
+                android:title="@string/hw_cloud_service_title"
+                android:icon="@drawable/ic_cloud_settings">
+              <intent android:action="android.intent.action.CLOUD_SERVICE" /> 
+       </dashboard-tile>
+
+       <!-- Account -->
+        <dashboard-tile
+                android:id="@+id/account_settings"
+                android:title="@string/account_settings_title"
+                android:fragment="com.android.settings.accounts.AccountSettings"
+                android:icon="@drawable/ic_settings_accounts"
+                />
+    </dashboard-category>
+
+    <dashboard-category
+        android:id="@+id/application_section"
+        android:title="@string/category_apps" >
+
+        <!-- Application Settings -->
+        <dashboard-tile
+                android:id="@+id/application_settings"
+                android:title="@string/manageapplications_settings_title"
+                android:fragment="com.android.settings.applications.ManageApplications"
+                android:icon="@drawable/ic_settings_applications"
+                />
+
+        <!-- Net app management -->
+        <dashboard-tile
+                android:id="@+id/net_app_settings"
+                android:title="@string/net_app_title"
+                android:icon="@drawable/ic_networked_apps">
+             <intent android:action="android.intent.action.NET_APP_MANAGEMENT" />
+        </dashboard-tile>
+    </dashboard-category>    
+
+    <!-- HQ_yuankangbo 2015-08-11 modify for suspend button settings start -->
+    <dashboard-category
+        android:id="@+id/smart_assistance_section"
+        android:title="@string/header_category_smart_assistance" >
+
+        <!-- Phantom touch -->
+        <dashboard-tile
+            android:id="@+id/keylock_gesture"
+            android:icon="@drawable/ic_settings_keylockgesture"
+            android:fragment="com.android.settings.KeylockGesturesSettings"
+            android:title="@string/keylock_gestures_title"/>
+
+        <dashboard-tile
+                android:id="@+id/gesture_settings"
+                android:title="@string/gesture_settings_title"
+                android:icon="@drawable/ic_settings_motion_settings">
+             <intent android:action="android.intent.action.GESTURE_SETTINGS" />
+        </dashboard-tile>
+
+        <dashboard-tile
+            android:id="@+id/Virtual_Key"
+            android:icon="@drawable/ic_settings_navigation_bar"
+            android:fragment="com.android.settings.location.VirtualKeySettings"
+            android:title="@string/Virtual_Key_title"/>
+
+        <!-- HQ_daiwenqiang 20151224 modify for HQ01588720 start-->
+        <!-- Smart More Settings -->
+        <dashboard-tile
+                android:id="@+id/smart_more_settings"
+                android:title="@string/radio_controls_title"
+                android:fragment="com.android.settings.SmartMoreSettings"
+                android:icon="@drawable/ic_settings_more"
+                />
+
+        <!-- HQ_jiazaizheng 20150915 modify for HQ01382934 start-->
+        <!--suspended_button and smart_earphone move to the sub menu
+        <dashboard-tile
+                android:id="@+id/suspended_button_settings"
+                android:title="@string/suspended_button"
+                android:icon="@drawable/ic_settings_suspended_button"
+                android:fragment="com.android.settings.SuspendButtonSettings">
+            <intent
+                android:targetClass="com.android.settings.Settings$SuspendButtonSettingsActivity"
+                android:targetPackage="com.android.settings" />
+        </dashboard-tile>-->
+        <!-- HQ_jiazaizheng 20150915 modify for HQ01382934 end-->
+
+        <!-- HQ_zhangteng modify for smart earphone control settings at 2015-08-26 begin -->
+        <!--Smart Earphone Control-->
+        <!--
+        <dashboard-tile
+            android:id="@+id/smart_earphone_control"
+            android:title="@string/smart_earphone_control_title"
+            android:icon="@drawable/ic_settings_smart_earphone"
+            android:fragment="com.android.settings.SmartEarphoneControlSettings">
+            <intent
+                android:targetClass="com.android.settings.Settings$SmartEarphoneControlActivity"
+                android:targetPackage="com.android.settings" />
+         </dashboard-tile>-->
+        <!-- HQ_zhangteng modify for smart earphone control settings at 2015-08-26 end -->
+        <!-- HQ_daiwenqiang 20151224 modify for HQ01588720 end-->
+    </dashboard-category>
+    <!-- HQ_yuankangbo 2015-08-11 modify for suspend button settings end -->
+
+    <!-- SYSTEM -->
+    <dashboard-category
+        android:id="@+id/system_section"
+        android:title="@string/header_category_system" >
+
+        <!-- Date & Time -->
+        <dashboard-tile
+                android:id="@+id/date_time_settings"
+                android:title="@string/date_and_time_settings_title"
+                android:fragment="com.android.settings.DateTimeSettings"
+                android:icon="@drawable/ic_settings_date_time"
+                />
+
+        <!-- Language -->
+        <dashboard-tile
+                android:id="@+id/language_settings"
+                android:title="@string/language_settings"
+                android:fragment="com.android.settings.inputmethod.InputMethodAndLanguageSettings"
+                android:icon="@drawable/ic_settings_language"
+                />
+
+        <!-- Accessibility feedback -->
+        <dashboard-tile
+                android:id="@+id/accessibility_settings"
+                android:title="@string/accessibility_settings_title"
+                android:fragment="com.android.settings.accessibility.AccessibilitySettings"
+                android:icon="@drawable/ic_settings_accessibility"
+                />
+
+        <!-- Print -->
+        <!-- hanchao remove print menu end -->
+        <!--
+        <dashboard-tile
+                android:id="@+id/print_settings"
+                android:title="@string/print_settings"
+                android:fragment="com.android.settings.print.PrintSettingsFragment"
+                android:icon="@drawable/ic_settings_print"
+                />-->
+
+ 	<!--Scheduled power on&off-->
+        <dashboard-tile
+                android:id="@+id/power_settings"
+                android:icon="@drawable/ic_settings_schpwronoff"
+                android:title="@string/schedule_power_on_off_settings_title">
+            <intent android:action="com.android.settings.SCHEDULE_POWER_ON_OFF_SETTING" />
+        </dashboard-tile> 
+
+        <!-- Development -->
+        <dashboard-tile
+                android:id="@+id/development_settings"
+                android:title="@string/development_settings_title"
+                android:fragment="com.android.settings.DevelopmentSettings"
+                android:icon="@drawable/ic_settings_development"
+                />
+      
+        <!-- systemupdate -->
+        <dashboard-tile 
+                android:id="@+id/system_update_settings"
+                android:icon="@drawable/ic_settings_phone_updates" 
+                android:title="@string/system_update_settings_list_item_title">
+            <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
+        </dashboard-tile> 
+
+        <!-- About Device -->
+        <dashboard-tile
+                android:id="@+id/about_settings"
+                android:title="@string/about_settings"
+                android:fragment="com.android.settings.DeviceInfoSettings"
+                android:icon="@drawable/ic_settings_about"
+                />
+
+    </dashboard-category>
+
+</dashboard-categories>

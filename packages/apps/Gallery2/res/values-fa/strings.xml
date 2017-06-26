@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="1928079047368929634" name="app_name">"گالری"</string>
+    <string msgid="259405922673466798" name="gadget_title">"قاب عکس"</string>
+    <string msgid="940634969189855292" name="details_ms">"%1$02d:%2$02d"</string>
+    <string msgid="3215779248094151255" name="details_hms">"%1$d:%2$02d:%3$02d"</string>
+    <string msgid="3526526872644898229" name="movie_view_label">"پخش کننده ویدئو"</string>
+    <string msgid="4013492720121891585" name="loading_video">"در حال بارگیری ویدئو..."</string>
+    <string msgid="1200894415793838191" name="loading_image">"در حال بارگیری تصویر …"</string>
+    <string msgid="928195413034552034" name="loading_account">"بارگیری حساب؟؟؟"</string>
+    <string msgid="8996677350649355013" name="resume_playing_title">"از سرگیری ویدئو"</string>
+    <string msgid="5184414518126703481" name="resume_playing_message">"‏ادامه پخش از %s ؟"</string>
+    <string msgid="3847915469173852416" name="resume_playing_resume">"از سرگیری پخش"</string>
+    <string msgid="7038208555304563571" name="loading">"در حال بارگیری…"</string>
+    <string msgid="8394392853646664505" name="fail_to_load">"بارگیری نشد"</string>
+    <string msgid="6155388718549782425" name="fail_to_load_image">"تصویر بارگیری نمی‌شود"</string>
+    <string msgid="284723185546429750" name="no_thumbnail">"تصویر کوچکی وجود ندارد"</string>
+    <string msgid="5471008499835769292" name="resume_playing_restart">"شروع مجدد"</string>
+    <string msgid="152200178986698300" name="crop_save_text">"تأیید"</string>
+    <string msgid="5296833083983263293" name="ok">"تأیید"</string>
+    <string msgid="2554690102655855657" name="multiface_crop_help">"برای شروع یک چهره را لمس کنید."</string>
+    <string msgid="7270334453636349407" name="saving_image">"در حال ذخیره عکس..."</string>
+    <string msgid="6659463980581993016" name="filtershow_saving_image">"ذخیره تصویر در <xliff:g id="ALBUM_NAME">%1$s</xliff:g>…"</string>
+    <string msgid="6857408774183654970" name="save_error">"ذخیره تصویر برش‌خورده امکان‌پذیر نیست."</string>
+    <string msgid="521114301871349328" name="crop_label">"برش تصویر"</string>
+    <string msgid="274203231381209979" name="trim_label">"برش ویدیو"</string>
+    <string msgid="7841406150484742140" name="select_image">"انتخاب عکس"</string>
+    <string msgid="4859510992798615076" name="select_video">"انتخاب ویدئو"</string>
+    <string msgid="2816923896202086390" name="select_item">"انتخاب مورد"</string>
+    <string msgid="1557063764849434077" name="select_album">"آلبوم را انتخاب کنید"</string>
+    <string msgid="6744208543323307114" name="select_group">"انتخاب گروه"</string>
+    <string msgid="2331476809308010401" name="set_image">"تنظیم تصویر به‌عنوان"</string>
+    <string msgid="8491121226190175017" name="set_wallpaper">"تنظیم تصویر زمینه"</string>
+    <string msgid="140165383777262070" name="wallpaper">"تنظیم تصویر زمینه..."</string>
+    <string msgid="797463183863414289" name="camera_setas_wallpaper">"تصویر زمینه"</string>
+    <string msgid="2839695998251824487" name="delete">"حذف"</string>
+  <plurals name="delete_selection">
+    <item msgid="6453379735401083732" quantity="one">"مورد انتخابی حذف شود؟"</item>
+    <item msgid="5874316486520635333" quantity="other">"موارد انتخابی حذف شوند؟"</item>
+  </plurals>
+    <string msgid="8646870096527848520" name="confirm">"تأیید"</string>
+    <string msgid="3637516880917356226" name="cancel">"لغو"</string>
+    <string msgid="3619042788254195341" name="share">"اشتراک‌گذاری"</string>
+    <string msgid="2569029972820978718" name="share_panorama">"اشتراک‌گذاری پانوراما"</string>
+    <string msgid="8959225188897026149" name="share_as_photo">"اشتراک‌گذاری به عنوان عکس"</string>
+    <string msgid="6795433049119073871" name="deleted">"پاک شد"</string>
+    <string msgid="2930873956446586313" name="undo">"واگرد"</string>
+    <string msgid="3403283025220282175" name="select_all">"انتخاب همه"</string>
+    <string msgid="5758897506061723684" name="deselect_all">"لغو انتخاب همه"</string>
+    <string msgid="4355906903247112975" name="slideshow">"نمایش اسلاید"</string>
+    <string msgid="8415120088556445230" name="details">"جزئیات"</string>
+    <string msgid="2611396603977441273" name="details_title">"‏%1$d از %2$d مورد:"</string>
+    <string msgid="5585646033158453043" name="close">"بستن"</string>
+    <string msgid="7280111806675169992" name="switch_to_camera">"جابجایی به دوربین"</string>
+  <plurals name="number_of_items_selected">
+    <item msgid="2142579311530586258" quantity="zero">"‏%1$d انتخاب شد"</item>
+    <item msgid="2478365152745637768" quantity="one">"‏%1$d انتخاب شد"</item>
+    <item msgid="754722656147810487" quantity="other">"‏%1$d انتخاب شد"</item>
+  </plurals>
+  <plurals name="number_of_albums_selected">
+    <item msgid="749292746814788132" quantity="zero">"‏%1$d انتخاب شد"</item>
+    <item msgid="6184377003099987825" quantity="one">"‏%1$d انتخاب شد"</item>
+    <item msgid="53105607141906130" quantity="other">"‏%1$d انتخاب شد"</item>
+  </plurals>
+  <plurals name="number_of_groups_selected">
+    <item msgid="3466388370310869238" quantity="zero">"‏%1$d انتخاب شد"</item>
+    <item msgid="5030162638216034260" quantity="one">"‏%1$d انتخاب شد"</item>
+    <item msgid="3512041363942842738" quantity="other">"‏%1$d انتخاب شد"</item>
+  </plurals>
+    <string msgid="6157544221201750980" name="show_on_map">"نمایش در نقشه"</string>
+    <string msgid="5888273317282539839" name="rotate_left">"چرخش به چپ"</string>
+    <string msgid="6776325835923384839" name="rotate_right">"چرخش به راست"</string>
+    <string msgid="5315144556325243400" name="no_such_item">"مورد یافت نشد."</string>
+    <string msgid="1502273844748580847" name="edit">"ویرایش"</string>
+    <string msgid="2792835918347498211" name="simple_edit">"ویرایش ساده"</string>
+    <string msgid="8722939570307386071" name="process_caching_requests">"پردازش درخواست‌های ذخیره در حافظهٔ پنهان"</string>
+    <string msgid="4521059045896269095" name="caching_label">"در حال ذخیره در حافظهٔ پنهان..."</string>
+    <string msgid="3427470284074377001" name="crop_action">"برش"</string>
+    <string msgid="703098114452883524" name="trim_action">"برش"</string>
+    <string msgid="5296241754753306251" name="mute_action">"بی‌صدا"</string>
+    <string msgid="3636764710790507868" name="set_as">"تنظیم به‌عنوان"</string>
+    <string msgid="6392457611270600908" name="video_mute_err">"بیصدا کردن ویدیو انجام نشد."</string>
+    <string msgid="7003051631792271009" name="video_err">"ویدئو پخش نمی‌شود."</string>
+    <string msgid="316641628989023253" name="group_by_location">"بر اساس محل"</string>
+    <string msgid="9046168567717963573" name="group_by_time">"بر اساس زمان"</string>
+    <string msgid="3568731317210676160" name="group_by_tags">"بر اساس برچسب‌ها"</string>
+    <string msgid="1566351636227274906" name="group_by_faces">"براساس افراد"</string>
+    <string msgid="1532818636053818958" name="group_by_album">"بر اساس آلبوم"</string>
+    <string msgid="153766174950394155" name="group_by_size">"بر اساس اندازه"</string>
+    <string msgid="7281481064509590402" name="untagged">"بدون برچسب‌گذاری"</string>
+    <string msgid="4043624857489331676" name="no_location">"مکانی موجود نیست"</string>
+    <string msgid="7164037617297293668" name="no_connectivity">"شناسایی برخی از مکان‌ها به دلیل مشکلات شبکه امکان‌پذیر نیست."</string>
+    <string msgid="1020688062900977530" name="sync_album_error">"عکس‌های این آلبوم را نمی‌توان دانلود کرد. بعداً دوباره امتحان کنید."</string>
+    <string msgid="7263218480867672653" name="show_images_only">"فقط تصاویر"</string>
+    <string msgid="3850394623678871697" name="show_videos_only">"فقط ویدئوها"</string>
+    <string msgid="6963292714584735149" name="show_all">"تصاویر و ویدئوها"</string>
+    <string msgid="6410561146863700411" name="appwidget_title">"گالری عکس"</string>
+    <string msgid="1228925628357366957" name="appwidget_empty_text">"عکسی موجود نیست."</string>
+    <string msgid="1595985909779105158" name="crop_saved">"تصویر بریده شده در <xliff:g id="FOLDER_NAME">%s</xliff:g> ذخیره شد."</string>
+    <string msgid="4111744447491690896" name="no_albums_alert">"آلبومی موجود نیست."</string>
+    <string msgid="4542880442593595494" name="empty_album">"‏O تصویر/ویدئو موجود است."</string>
+    <string msgid="1497721615718760613" name="picasa_posts">"پست‌ها"</string>
+    <string msgid="5157950985488297112" name="make_available_offline">"در دسترس بودن در هنگام آفلاین"</string>
+    <string msgid="8522572542111169872" name="sync_picasa_albums">"بازخوانی"</string>
+    <string msgid="217672440064436595" name="done">"انجام شد"</string>
+    <string msgid="7235465319919457488" name="sequence_in_set">"‏%1$d از %2$d مورد:"</string>
+    <string msgid="7622928349908052569" name="title">"عنوان"</string>
+    <string msgid="3016729318096557520" name="description">"توصیف"</string>
+    <string msgid="1367953006052876956" name="time">"زمان"</string>
+    <string msgid="3432705876921618314" name="location">"موقعیت مکانی"</string>
+    <string msgid="4725740395885105824" name="path">"مسیر"</string>
+    <string msgid="9215847239714321097" name="width">"عرض"</string>
+    <string msgid="3648885449443787772" name="height">"ارتفاع"</string>
+    <string msgid="4958327983165245513" name="orientation">"جهت"</string>
+    <string msgid="8160058911218541616" name="duration">"مدت"</string>
+    <string msgid="8024168704337990470" name="mimetype">"‏نوع MIME"</string>
+    <string msgid="8486169301588318915" name="file_size">"اندازه فایل"</string>
+    <string msgid="7921835498034236197" name="maker">"سازنده"</string>
+    <string msgid="8240207064064337366" name="model">"مدل"</string>
+    <string msgid="2816779031261147723" name="flash">"فلاش"</string>
+    <string msgid="5920657630303915195" name="aperture">"دریچه دیافراگم"</string>
+    <string msgid="1291383769749877010" name="focal_length">"فاصله کانونی"</string>
+    <string msgid="1582509289994216078" name="white_balance">"توازن سفیدی"</string>
+    <string msgid="3990163680281058826" name="exposure_time">"زمان نوردهی"</string>
+    <string msgid="5028296664327335940" name="iso">"ایزو"</string>
+    <string msgid="1125768433254329136" name="unit_mm">"میلیمتر"</string>
+    <string msgid="6608905477477607865" name="manual">"دستی"</string>
+    <string msgid="4296941368722892821" name="auto">"خودکار"</string>
+    <string msgid="7891556231891837284" name="flash_on">"فلاش زده شد"</string>
+    <string msgid="1445443413822680010" name="flash_off">"بدون فلاش"</string>
+    <string msgid="3506693015896912952" name="unknown">"ناشناس"</string>
+    <string msgid="372686331501281474" name="ffx_original">"اصلی"</string>
+    <string msgid="8348759951363844780" name="ffx_vintage">"آنتیک"</string>
+    <string msgid="726968618715691987" name="ffx_instant">"فوری"</string>
+    <string msgid="8946700451603478453" name="ffx_bleach">"سفیدکننده"</string>
+    <string msgid="6034283412305561226" name="ffx_blue_crush">"آبی"</string>
+    <string msgid="517988490066217206" name="ffx_bw_contrast">"سیاه‌/سفید"</string>
+    <string msgid="1343475517872562639" name="ffx_punch">"پانچ"</string>
+    <string msgid="4779398678661811765" name="ffx_x_process">"‏فرآیند X"</string>
+    <string msgid="4594160692176642735" name="ffx_washout">"Latte"</string>
+    <string msgid="8034075742195795219" name="ffx_washout_color">"Litho"</string>
+  <plurals name="make_albums_available_offline">
+    <item msgid="2171596356101611086" quantity="one">"آلبوم را به صورت آفلاین در دسترس قرار دهید."</item>
+    <item msgid="4948604338155959389" quantity="other">"آلبوم‌ها را به صورت آفلاین در دسترس قرار دهید."</item>
+  </plurals>
+    <string msgid="2184754031896160755" name="try_to_set_local_album_available_offline">"این مورد به صورت محلی ذخیره می‌شود و به طور آفلاین در دسترس است."</string>
+    <string msgid="4581863582996336783" name="set_label_all_albums">"همه آلبوم‌ها"</string>
+    <string msgid="6698133661656266702" name="set_label_local_albums">"آلبوم‌های محلی"</string>
+    <string msgid="1283513183744896368" name="set_label_mtp_devices">"‏دستگاه‌های MTP"</string>
+    <string msgid="5356258354953935895" name="set_label_picasa_albums">"‏آلبوم‌های Picasa"</string>
+    <string msgid="8766337315709161215" name="free_space_format">"<xliff:g id="BYTES">%s</xliff:g> آزاد"</string>
+    <string msgid="2074956730721942260" name="size_below">"<xliff:g id="SIZE">%1$s</xliff:g> یا کمتر"</string>
+    <string msgid="5324398253474104087" name="size_above">"<xliff:g id="SIZE">%1$s</xliff:g> یا بیشتر"</string>
+    <string msgid="8779660840898917208" name="size_between">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> تا <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <string msgid="3985447518557474672" name="Import">"وارد کردن"</string>
+    <string msgid="3875040287486199999" name="import_complete">"وارد کردن انجام شد"</string>
+    <string msgid="8497942380703298808" name="import_fail">"وارد کردن ناموفق بود"</string>
+    <string msgid="916021826223448591" name="camera_connected">"دوربین متصل شد."</string>
+    <string msgid="2100559901676329496" name="camera_disconnected">"اتصال دوربین قطع شد."</string>
+    <string msgid="6407959065464291972" name="click_import">"برای وارد کردن اینجا را لمس کنید"</string>
+    <string msgid="6013045393140135468" name="widget_type_album">"انتخاب یک آلبوم"</string>
+    <string msgid="8594622705019763768" name="widget_type_shuffle">"نمایش تصادفی همه تصاویر"</string>
+    <string msgid="6267065337367795355" name="widget_type_photo">"انتخاب یک تصویر"</string>
+    <string msgid="1364653978966343448" name="widget_type">"انتخاب تصاویر"</string>
+    <string msgid="6915963319933437083" name="slideshow_dream_name">"نمایش اسلاید"</string>
+    <string msgid="7320787705180057947" name="albums">"آلبوم‌ها"</string>
+    <string msgid="2023033894889499219" name="times">"دوره"</string>
+    <string msgid="6649297994083130305" name="locations">"مکان‌ها"</string>
+    <string msgid="4114003823747292747" name="people">"افراد"</string>
+    <string msgid="5539648765482935955" name="tags">"نشان‌ها"</string>
+    <string msgid="4308299657902209357" name="group_by">"گروه بندی براساس"</string>
+    <string msgid="1534847740615665736" name="settings">"تنظیمات"</string>
+    <string msgid="4271217504968243974" name="add_account">"افزودن حساب"</string>
+    <string msgid="4714658994809533480" name="folder_camera">"دوربین"</string>
+    <string msgid="7186215137642323932" name="folder_download">"دانلود"</string>
+    <string msgid="6278215510236800181" name="folder_edited_online_photos">"ویرایش آنلاین عکس"</string>
+    <string msgid="2773581395524747099" name="folder_imported">"وارد شده"</string>
+    <string msgid="7200396565864213450" name="folder_screenshot">"عکس صفحه"</string>
+    <string msgid="7368960711153618354" name="help">"راهنما"</string>
+    <string msgid="2408933644249734569" name="no_external_storage_title">"فاقد دستگاه ذخیره‌‌‌سازی"</string>
+    <string msgid="95726173164068417" name="no_external_storage">"هیچ دستگاه ذخیره خارجی دردسترس نیست"</string>
+    <string msgid="8227883354281661548" name="switch_photo_filmstrip">"نمایش نوار فیلم"</string>
+    <string msgid="3681299459107925725" name="switch_photo_grid">"نمای شبکه‌ای"</string>
+    <string msgid="8360489096099127071" name="switch_photo_fullscreen">"نمایش تمام صفحه"</string>
+    <string msgid="9122385768369143997" name="trimming">"کوتاه کردن"</string>
+    <string msgid="5094925919589915324" name="muting">"بیصدا کردن"</string>
+    <string msgid="7296066089146487366" name="please_wait">"لطفاً منتظر بمانید"</string>
+    <string msgid="9155488424829609229" name="save_into">"درحال ذخیره ویدیو در <xliff:g id="ALBUM_NAME">%1$s</xliff:g> ..."</string>
+    <string msgid="751593965620665326" name="trim_too_short">"نمی‌تواند کوتاه شود: ویدیوی موردنظر بسیار کوتاه است"</string>
+    <string msgid="1586851614586678464" name="pano_progress_text">"در حال تولید تصویر پانوراما"</string>
+    <string msgid="613976532235060516" name="save">"ذخیره"</string>
+    <string msgid="1062957108473988971" name="ingest_scanning">"در حال اسکن کردن محتوا..."</string>
+  <plurals name="ingest_number_of_items_scanned">
+    <item msgid="2623289390474007396" quantity="zero">"‏%1$d مورد اسکن شد"</item>
+    <item msgid="4340019444460561648" quantity="one">"‏%1$d مورد اسکن شد"</item>
+    <item msgid="3138021473860555499" quantity="other">"‏%1$d مورد اسکن شد"</item>
+  </plurals>
+    <string msgid="1028652103472581918" name="ingest_sorting">"در حال مرتب‌سازی..."</string>
+    <string msgid="8911916277034483430" name="ingest_scanning_done">"اسکن انجام شد"</string>
+    <string msgid="7456633398378527611" name="ingest_importing">"درحال وارد کردن..."</string>
+    <string msgid="2010470482779872622" name="ingest_empty_device">"هیچ محتوایی برای وارد کردن در این دستگاه، موجود نیست."</string>
+    <string msgid="3054128223131382122" name="ingest_no_device">"‏هیچ دستگاه MTP متصل نیست"</string>
+    <string msgid="6484667504938477337" name="camera_error_title">"خطای دوربین"</string>
+    <string msgid="955440687597185163" name="cannot_connect_camera">"اتصال به دوربین امکان‌پذیر نیست."</string>
+    <string msgid="8923911090533439312" name="camera_disabled">"به دلیل خط مشی‌های امنیتی، دوربین غیرفعال شده است."</string>
+    <string msgid="6346560772074764302" name="camera_label">"دوربین"</string>
+    <string msgid="8600187532323801552" name="wait">"لطفاً منتظر بمانید…"</string>
+    <string msgid="7335975356349008814" name="no_storage" product="nosdcard">"‏قبل از استفاده از دوربین حافظهٔ USB را وصل کنید."</string>
+    <string msgid="5137703033746873624" name="no_storage" product="default">"‏قبل از استفاده از دوربین یک کارت SD وارد کنید."</string>
+    <string msgid="6104019983528341353" name="preparing_sd" product="nosdcard">"‏آماده سازی حافظهٔ USB..."</string>
+    <string msgid="2914969119574812666" name="preparing_sd" product="default">در حال آماده کردن کارت SD</string>
+    <string msgid="8147993984037859354" name="access_sd_fail" product="nosdcard">"‏دسترسی به حافظهٔ USB ممکن نیست."</string>
+    <string msgid="1584968646870054352" name="access_sd_fail" product="default">"‏دسترسی به کارت SD ممکن نیست."</string>
+    <string msgid="8188009385853399254" name="review_cancel">"لغو"</string>
+    <string msgid="1156261588693116433" name="review_ok">"انجام شد"</string>
+    <string msgid="4360632427760662691" name="time_lapse_title">"زمان سپری شده ضبط"</string>
+    <string msgid="4040791582294635851" name="pref_camera_id_title">"انتخاب دوربین"</string>
+    <string msgid="5142699735103692485" name="pref_camera_id_entry_back">"برگشت"</string>
+    <string msgid="5668958706828733669" name="pref_camera_id_entry_front">"جلو"</string>
+    <string msgid="371208839215448917" name="pref_camera_recordlocation_title">"ذخیره موقعیت مکانی"</string>
+    <string msgid="2254270920298609161" name="pref_camera_location_label">"موقعیت مکانی"</string>
+    <string msgid="3105232208281893389" name="pref_camera_timer_title">"تایمر شمارش معکوس"</string>
+  <plurals name="pref_camera_timer_entry">
+    <item msgid="1654523400981245448" quantity="one">"۱ ثانیه"</item>
+    <item msgid="6455381617076792481" quantity="other">"‏%d ثانیه"</item>
+  </plurals>
+    <!-- no translation found for pref_camera_timer_sound_default (7066624532144402253) -->
+    <skip/>
+    <string msgid="2469008631966169105" name="pref_camera_timer_sound_title">"بیپ هنگام شمارش معکوس"</string>
+    <string msgid="4480039384202951946" name="setting_off">خاموش</string>
+    <string msgid="8602246224465348901" name="setting_on">"فعال"</string>
+    <string msgid="8245379279801096922" name="pref_video_quality_title">"کیفیت ویدئو"</string>
+    <string msgid="8664038216234805914" name="pref_video_quality_entry_high">"بالا"</string>
+    <string msgid="7258507152393173784" name="pref_video_quality_entry_low">"کم"</string>
+    <string msgid="6245716906744079302" name="pref_video_time_lapse_frame_interval_title">"زمان سپری شده"</string>
+    <string msgid="2576236450859613120" name="pref_camera_settings_category">"تنظیمات دوربین"</string>
+    <string msgid="460313486231965141" name="pref_camcorder_settings_category">"تنظیمات دوربین فیلمبرداری"</string>
+    <string msgid="4333724936665883006" name="pref_camera_picturesize_title">"اندازه تصویر"</string>
+    <string msgid="675309554194481780" name="pref_camera_picturesize_entry_13mp">"۱۳ مگا پیکسل"</string>
+    <string msgid="259953780932849079" name="pref_camera_picturesize_entry_8mp">"۸ مگاپیکسل"</string>
+    <string msgid="2882928212030661159" name="pref_camera_picturesize_entry_5mp">"۵ مگاپیکسل"</string>
+    <string msgid="933242108272469142" name="pref_camera_picturesize_entry_4mp">"‫۴ مگاپیکسل"</string>
+    <string msgid="741415860337400696" name="pref_camera_picturesize_entry_3mp">"۳ مگاپیکسل"</string>
+    <string msgid="1753709802245460393" name="pref_camera_picturesize_entry_2mp">"۲ مگاپیکسل"</string>
+    <string msgid="5359490802026616612" name="pref_camera_picturesize_entry_2mp_wide">"‫۲ مگاپیکسل (۱۶:۹)‏"</string>
+    <string msgid="829109608140747258" name="pref_camera_picturesize_entry_1_3mp">"۱.۳ مگاپیکسل"</string>
+    <string msgid="1669725616780375066" name="pref_camera_picturesize_entry_1mp">"۱ مگاپیکسل"</string>
+    <string msgid="806934254162981919" name="pref_camera_picturesize_entry_vga">"VGA"</string>
+    <string msgid="8576186463069770133" name="pref_camera_picturesize_entry_qvga">"QVGA"</string>
+    <string msgid="2877248921829329127" name="pref_camera_focusmode_title">"حالت فوکوس"</string>
+    <string msgid="7374820710300362457" name="pref_camera_focusmode_entry_auto">"خودکار"</string>
+    <string msgid="3413922419264967552" name="pref_camera_focusmode_entry_infinity">"بی نهایت"</string>
+    <string msgid="4424489110551866161" name="pref_camera_focusmode_entry_macro">"ماکرو"</string>
+    <string msgid="8547956917516317183" name="pref_camera_focusmode_label_auto">"خودکار"</string>
+    <string msgid="4272904160062531778" name="pref_camera_focusmode_label_infinity">"بی‌نهایت"</string>
+    <string msgid="8749317592620908054" name="pref_camera_focusmode_label_macro">"ماکرو"</string>
+    <string msgid="2287362477238791017" name="pref_camera_flashmode_title">"حالت فلاش"</string>
+    <string msgid="7546741624882856171" name="pref_camera_flashmode_label">"حالت فلاش"</string>
+    <string msgid="7288383434237457709" name="pref_camera_flashmode_entry_auto">"خودکار"</string>
+    <string msgid="5330043918845197616" name="pref_camera_flashmode_entry_on">"روشن"</string>
+    <string msgid="867242186958805761" name="pref_camera_flashmode_entry_off">خاموش</string>
+    <string msgid="8854671890619026197" name="pref_camera_flashmode_label_auto">"فلاش خودکار"</string>
+    <string msgid="7347504762794840140" name="pref_camera_flashmode_label_on">"فلاش روشن"</string>
+    <string msgid="3541596735596053416" name="pref_camera_flashmode_label_off">"فلاش خاموش"</string>
+    <string msgid="677420930596673340" name="pref_camera_whitebalance_title">"توازن سفیدی"</string>
+    <string msgid="7467403405883190920" name="pref_camera_whitebalance_label">"توازن سفیدی"</string>
+    <string msgid="6580665476983469293" name="pref_camera_whitebalance_entry_auto">"خودکار"</string>
+    <string msgid="8856667786449549938" name="pref_camera_whitebalance_entry_incandescent">"تابان"</string>
+    <string msgid="2534757270149561027" name="pref_camera_whitebalance_entry_daylight">"روشنایی روز"</string>
+    <string msgid="2435332872847454032" name="pref_camera_whitebalance_entry_fluorescent">"فلورسنت"</string>
+    <string msgid="3531996716997959326" name="pref_camera_whitebalance_entry_cloudy">"ابری"</string>
+    <string msgid="1479694362310491429" name="pref_camera_whitebalance_label_auto">"خودکار"</string>
+    <string msgid="7427628260209908900" name="pref_camera_whitebalance_label_incandescent">"تابان"</string>
+    <string msgid="1859710806141461399" name="pref_camera_whitebalance_label_daylight">"روشنایی روز"</string>
+    <string msgid="5173251749161337707" name="pref_camera_whitebalance_label_fluorescent">"فلورسنت"</string>
+    <string msgid="8230173517179285320" name="pref_camera_whitebalance_label_cloudy">"ابری"</string>
+    <string msgid="1420535844292504016" name="pref_camera_scenemode_title">"حالت منظره"</string>
+    <string msgid="7113995286836658648" name="pref_camera_scenemode_entry_auto">"خودکار"</string>
+    <string msgid="2923388802899511784" name="pref_camera_scenemode_entry_hdr">"HDR"</string>
+    <string msgid="616748587566110484" name="pref_camera_scenemode_entry_action">"عملکرد"</string>
+    <string msgid="7606898503102476329" name="pref_camera_scenemode_entry_night">"شب"</string>
+    <string msgid="181661154611507212" name="pref_camera_scenemode_entry_sunset">"غروب آفتاب"</string>
+    <string msgid="907053529286788253" name="pref_camera_scenemode_entry_party">"طرف مقابل"</string>
+    <string msgid="4475096836397300237" name="pref_camera_scenemode_label_auto">"هیچکدام"</string>
+    <string msgid="964748409622151496" name="pref_camera_scenemode_label_action">"عملکرد"</string>
+    <string msgid="1269871886845854574" name="pref_camera_scenemode_label_night">"شب"</string>
+    <string msgid="2802732082948866877" name="pref_camera_scenemode_label_sunset">"غروب"</string>
+    <string msgid="1409459091844374828" name="pref_camera_scenemode_label_party">"مهمانی"</string>
+    <string msgid="7592784692450586126" name="pref_camera_countdown_label">"تایمر شمارش معکوس"</string>
+    <string msgid="4987856883590176585" name="pref_camera_countdown_label_off">"تایمر خاموش است"</string>
+    <string msgid="1101814103087928898" name="pref_camera_countdown_label_one">"۱ ثانیه"</string>
+    <string msgid="1047399297342955649" name="pref_camera_countdown_label_three">"۳ ثانیه"</string>
+    <string msgid="6274681535347260279" name="pref_camera_countdown_label_ten">"۱۰ ثانیه"</string>
+    <string msgid="4544824246687597089" name="pref_camera_countdown_label_fifteen">"۱۵ ثانیه"</string>
+    <string msgid="2970291701448555126" name="not_selectable_in_scene_mode">"در حالت صحنه قابل انتخاب نیست."</string>
+    <string msgid="1229093066434614811" name="pref_exposure_title">"نوردهی"</string>
+    <string msgid="552624394642497940" name="pref_exposure_label">"نوردهی"</string>
+    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
+    <skip/>
+    <string msgid="7217211253357027510" name="pref_camera_hdr_label">"HDR"</string>
+    <string msgid="8745553500400332333" name="pref_camera_id_label_back">"دوربین جلو"</string>
+    <string msgid="8699439330056996709" name="pref_camera_id_label_front">"دوربین پشت"</string>
+    <string msgid="6263301364153382152" name="dialog_ok">"تأیید"</string>
+    <string msgid="4401325203349203177" name="spaceIsLow_content" product="nosdcard">"‏حافظهٔ USB پر است. تنظیمات کیفیت را تغییر دهید یا برخی تصاویر یا سایر فایل‌ها را حذف کنید."</string>
+    <string msgid="1732882643101247179" name="spaceIsLow_content" product="default">"‏کارت SD شما پر شده است. تنظیمات کیفیت را تغییر دهید یا برخی تصاویر یا فایل‌های دیگر را حذف کنید."</string>
+    <string msgid="6179877322015552390" name="video_reach_size_limit">"بیش از حداکثر مجاز."</string>
+    <string msgid="2823839093291374709" name="pano_too_fast_prompt">"بسیار سریع"</string>
+    <string msgid="4788441554128083543" name="pano_dialog_prepare_preview">"تهیه پانوراما"</string>
+    <string msgid="2155692796549642116" name="pano_dialog_panorama_failed">"ذخیره پانوراما امکان‌پذیر نیست."</string>
+    <string msgid="5755531234434437697" name="pano_dialog_title">"پانوراما"</string>
+    <string msgid="8248825828264374507" name="pano_capture_indication">"گرفتن عکس پانوراما"</string>
+    <string msgid="7800325815031423516" name="pano_dialog_waiting_previous">"در حال انتظار برای پانورامای قبلی"</string>
+    <string msgid="2054886016665130188" name="pano_review_saving_indication_str">"در حال ذخیره..."</string>
+    <string msgid="2887552964129301902" name="pano_review_rendering">"در حال تولید تصویر پانوراما"</string>
+    <string msgid="8863427645591903760" name="tap_to_focus">"برای فوکوس لمس کنید."</string>
+    <string msgid="8243182968457289488" name="pref_video_effect_title">"جلوه‌ها"</string>
+    <string msgid="3601545724573307541" name="effect_none">"هیچکدام"</string>
+    <string msgid="1207235692524289171" name="effect_goofy_face_squeeze">"کوچک کردن"</string>
+    <string msgid="3945182409691408412" name="effect_goofy_face_big_eyes">"چشمان بزرگ"</string>
+    <string msgid="7528748779754643144" name="effect_goofy_face_big_mouth">"دهان بزرگ"</string>
+    <string msgid="3848209817806932565" name="effect_goofy_face_small_mouth">"دهان کوچک"</string>
+    <string msgid="5180533098740577137" name="effect_goofy_face_big_nose">"بینی بزرگ"</string>
+    <string msgid="1070355596290331271" name="effect_goofy_face_small_eyes">"چشمان کوچک"</string>
+    <string msgid="7935661090723068402" name="effect_backdropper_space">"در فضا"</string>
+    <string msgid="45198943771777870" name="effect_backdropper_sunset">"غروب آفتاب"</string>
+    <string msgid="959158844620991906" name="effect_backdropper_gallery">"ویدئوی شما"</string>
+    <string msgid="9184270738916564608" name="bg_replacement_message">"دستگاه خود را کنار بگذارید.\nبرای یک لحظه از دید خارج شوید."</string>
+    <string msgid="18833576851372483" name="video_snapshot_hint">"برای گرفتن عکس در هنگام ضبط لمس کنید."</string>
+    <string msgid="4132915454417193503" name="video_recording_started">"ضبط ویدیو شروع شد."</string>
+    <string msgid="5086919511555808580" name="video_recording_stopped">"ضبط ویدیو متوقف شد."</string>
+    <string msgid="4957723267826476079" name="disable_video_snapshot_hint">"هنگام فعال بودن جلوه‌های ویژه، عکس فوری از ویدئو غیرفعال است."</string>
+    <string msgid="5485339175014139481" name="clear_effects">"پاک کردن جلوه‌ها"</string>
+    <string msgid="8107732405347155777" name="effect_silly_faces">"چهره‌های احمقانه"</string>
+    <string msgid="6579360207378171022" name="effect_background">"پس‌زمینه"</string>
+    <string msgid="2664037763232556307" name="accessibility_shutter_button">"دکمه شاتر"</string>
+    <string msgid="7140794046259897328" name="accessibility_menu_button">"دکمه منو"</string>
+    <string msgid="8961275263537513017" name="accessibility_review_thumbnail">"جدیدترین عکس"</string>
+    <string msgid="8807945470215734566" name="accessibility_camera_picker">"کلید دوربین جلو و عقب"</string>
+    <string msgid="3278002189966833100" name="accessibility_mode_picker">"انتخابگر دوربین، ویدئو یا پانوراما"</string>
+    <string msgid="3855951632917627620" name="accessibility_second_level_indicators">"کنترل‌های تنظیم بیشتر"</string>
+    <string msgid="5234411571109877131" name="accessibility_back_to_first_level">"بستن کنترل‌های تنظیم"</string>
+    <string msgid="1339909363226825709" name="accessibility_zoom_control">"کنترل بزرگنمایی"</string>
+    <string msgid="1411194318538035666" name="accessibility_decrement">"‏کاهش %1$s"</string>
+    <string msgid="8447850530444401135" name="accessibility_increment">"‏افزایش %1$s"</string>
+    <string msgid="7317447218256584181" name="accessibility_check_box">"‏کادر انتخاب %1$s"</string>
+    <string msgid="5951340774212969461" name="accessibility_switch_to_camera">"رفتن به عکس"</string>
+    <string msgid="4991396355234561505" name="accessibility_switch_to_video">"رفتن به ویدئو"</string>
+    <string msgid="604756878371875836" name="accessibility_switch_to_panorama">"رفتن به پانوراما"</string>
+    <string msgid="8116783308051524188" name="accessibility_switch_to_new_panorama">"تغییر به پانورامای جدید"</string>
+    <string msgid="4539294619557299903" name="accessibility_switch_to_refocus">"تغییر به فوکوس مجدد"</string>
+    <string msgid="9070531914908644686" name="accessibility_review_cancel">"لغو بازبینی"</string>
+    <string msgid="7793302834271343168" name="accessibility_review_ok">"بازبینی انجام شد"</string>
+    <string msgid="659300290054705484" name="accessibility_review_retake">"بازبینی عکس مجدد"</string>
+    <string msgid="7596298365794810207" name="accessibility_play_video">"پخش ویدیو"</string>
+    <string msgid="6526344477133046653" name="accessibility_pause_video">"توقف موقت ویدیو"</string>
+    <string msgid="3250335917598607232" name="accessibility_reload_video">"تازه‌سازی ویدیو"</string>
+    <string msgid="1414029843602604531" name="accessibility_time_bar">"نوار زمان پخش‌کننده ویدیو"</string>
+    <string msgid="5491353494964003567" name="capital_on">"روشن"</string>
+    <string msgid="7231052688467970897" name="capital_off">"خاموش"</string>
+    <string msgid="3490489191038309496" name="pref_video_time_lapse_frame_interval_off">خاموش</string>
+    <string msgid="2949719376111679816" name="pref_video_time_lapse_frame_interval_500">"۰.۵ ثانیه"</string>
+    <string msgid="1672458758823855874" name="pref_video_time_lapse_frame_interval_1000">"۱ ثانیه"</string>
+    <string msgid="3415071702490624802" name="pref_video_time_lapse_frame_interval_1500">"۱.۵ ثانیه"</string>
+    <string msgid="827813989647794389" name="pref_video_time_lapse_frame_interval_2000">"۲ ثانیه"</string>
+    <string msgid="5750464143606788153" name="pref_video_time_lapse_frame_interval_2500">"۲.۵ ثانیه"</string>
+    <string msgid="2664846627499751396" name="pref_video_time_lapse_frame_interval_3000">"۳ ثانیه"</string>
+    <string msgid="7303255804306382651" name="pref_video_time_lapse_frame_interval_4000">"۴ ثانیه"</string>
+    <string msgid="6800566761690741841" name="pref_video_time_lapse_frame_interval_5000">"۵ ثانیه"</string>
+    <string msgid="8545447466540319539" name="pref_video_time_lapse_frame_interval_6000">"۶ ثانیه"</string>
+    <string msgid="3105568489694909852" name="pref_video_time_lapse_frame_interval_10000">"۱۰ ثانیه"</string>
+    <string msgid="6055574367392821047" name="pref_video_time_lapse_frame_interval_12000">"۱۲ ثانیه"</string>
+    <string msgid="2656164845371833761" name="pref_video_time_lapse_frame_interval_15000">"۱۵ ثانیه"</string>
+    <string msgid="2192628967233421512" name="pref_video_time_lapse_frame_interval_24000">"۲۴ ثانیه"</string>
+    <string msgid="5923393773260634461" name="pref_video_time_lapse_frame_interval_30000">"۰.۵ دقیقه"</string>
+    <string msgid="4678581247918524850" name="pref_video_time_lapse_frame_interval_60000">"۱ دقیقه"</string>
+    <string msgid="1187029705069674152" name="pref_video_time_lapse_frame_interval_90000">"۱.۵ دقیقه"</string>
+    <string msgid="145301938098991278" name="pref_video_time_lapse_frame_interval_120000">"۲ دقیقه"</string>
+    <string msgid="793707078196731912" name="pref_video_time_lapse_frame_interval_150000">"۲.۵ دقیقه"</string>
+    <string msgid="1785467676466542095" name="pref_video_time_lapse_frame_interval_180000">"۳ دقیقه"</string>
+    <string msgid="3734507766184666356" name="pref_video_time_lapse_frame_interval_240000">"۴ دقیقه"</string>
+    <string msgid="7442765761995328639" name="pref_video_time_lapse_frame_interval_300000">"۵ دقیقه"</string>
+    <string msgid="6724596937972563920" name="pref_video_time_lapse_frame_interval_360000">"۶ دقیقه"</string>
+    <string msgid="6563665954471001352" name="pref_video_time_lapse_frame_interval_600000">"۱۰ دقیقه"</string>
+    <string msgid="8969801372893266408" name="pref_video_time_lapse_frame_interval_720000">"۱۲ دقیقه"</string>
+    <string msgid="5803172407245902896" name="pref_video_time_lapse_frame_interval_900000">"۱۵ دقیقه"</string>
+    <string msgid="6286246349698492186" name="pref_video_time_lapse_frame_interval_1440000">"۲۴ دقیقه"</string>
+    <string msgid="5042628461448570758" name="pref_video_time_lapse_frame_interval_1800000">"۰.۵ ساعت"</string>
+    <string msgid="6366071632666482636" name="pref_video_time_lapse_frame_interval_3600000">"۱ ساعت"</string>
+    <string msgid="536117788694519019" name="pref_video_time_lapse_frame_interval_5400000">"۱.۵ ساعت"</string>
+    <string msgid="6846617415182608533" name="pref_video_time_lapse_frame_interval_7200000">"۲ ساعت"</string>
+    <string msgid="4242839574025261419" name="pref_video_time_lapse_frame_interval_9000000">"۲.۵ ساعت"</string>
+    <string msgid="2766886102170605302" name="pref_video_time_lapse_frame_interval_10800000">"۳ ساعت"</string>
+    <string msgid="7497934659667867582" name="pref_video_time_lapse_frame_interval_14400000">"۴ ساعت"</string>
+    <string msgid="8783643014853837140" name="pref_video_time_lapse_frame_interval_18000000">"۵ ساعت"</string>
+    <string msgid="5005078879234015432" name="pref_video_time_lapse_frame_interval_21600000">"۶ ساعت"</string>
+    <string msgid="69942198321578519" name="pref_video_time_lapse_frame_interval_36000000">"۱۰ ساعت"</string>
+    <string msgid="285992046818504906" name="pref_video_time_lapse_frame_interval_43200000">"۱۲ ساعت"</string>
+    <string msgid="5740227373848829515" name="pref_video_time_lapse_frame_interval_54000000">"۱۵ ساعت"</string>
+    <string msgid="9040201678470052298" name="pref_video_time_lapse_frame_interval_86400000">"۲۴ ساعت"</string>
+    <string msgid="2105521458391118041" name="time_lapse_seconds">"ثانیه"</string>
+    <string msgid="7738520349259013762" name="time_lapse_minutes">"دقیقه"</string>
+    <string msgid="1776453661704997476" name="time_lapse_hours">"ساعت"</string>
+    <string msgid="2486386210951700943" name="time_lapse_interval_set">"انجام شد"</string>
+    <string msgid="2970567717633813771" name="set_time_interval">"تنظیم فاصله زمانی"</string>
+    <string msgid="6665849510484821483" name="set_time_interval_help">"ویژگی زمان سپری شده خاموش است. برای تنظیم فاصله زمانی آن را روشن کنید."</string>
+    <string msgid="5007708849404589472" name="set_timer_help">"تایمر شمارش معکوس خاموش است. قبل از گرفتن تصویر آن را برای شمارش معکوس روشن کنید."</string>
+    <string msgid="5578035312407161304" name="set_duration">"تنظیم مدت زمان به ثانیه"</string>
+    <string msgid="4976386810910453266" name="count_down_title_text">"شمارش معکوس برای گرفتن یک عکس"</string>
+    <string msgid="9060472929006917810" name="remember_location_title">"موقعیت مکانی عکس به‌خاطر سپرده شود؟"</string>
+    <string msgid="724592331305808098" name="remember_location_prompt">"محل گرفتن عکس‌ها و ویدیوها را به آنها برچسب کنید.\n\n سایر برنامه‌ها می‌توانند به این اطلاعات در کنار تصاویر ذخیره شده شما دسترسی پیدا کنند."</string>
+    <string msgid="7541394381714894896" name="remember_location_no">"نه متشکرم"</string>
+    <string msgid="862884269285964180" name="remember_location_yes">"بله"</string>
+    <string msgid="3476709832879398998" name="menu_camera">"دوربین"</string>
+    <string msgid="7580008232297437190" name="menu_search">"جستجو"</string>
+    <string msgid="9110813680630313419" name="tab_photos">"عکس‌ها"</string>
+    <string msgid="8079449907770685691" name="tab_albums">"آلبوم‌ها"</string>
+    <string msgid="6868642182125198710" name="camera_menu_more_label">"گزینه‌های بیشتر"</string>
+    <string msgid="875454962069404723" name="camera_menu_settings_label">"تنظیمات"</string>
+  <plurals name="number_of_photos">
+    <item msgid="6949174783125614798" quantity="one">"‏%1$d عکس"</item>
+    <item msgid="3813306834113858135" quantity="other">"‏%1$d عکس "</item>
+  </plurals>
+</resources>

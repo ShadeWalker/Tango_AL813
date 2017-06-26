@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">ការបន្ថយសំឡេង</string>
+    <string name="dual_mic_summary">ទប់​សំឡេង​នៅ​ផ្ទៃ​ខាង​ក្រោយ ខណៈ​កំពុង​មាន​ការហៅ</string>
+    <string name="anc_title">ការបន្ថយ​សំឡេង​កំពុង​ដំណើរការ</string>
+    <string name="anc_on">បើក ANC</string>
+    <string name="anc_off">បិទ ANC</string>
+    <string name="ip_prefix_setting">លេខខាងមុខ IP</string>
+    <string name="ip_prefix_setting_lable">លេខខាងមុខ IP (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">ការសិតលេខខាងមុខ IP</string>
+    <string name="enter_ip_prefix_number">បញ្ចូលលេខខាងមុខ</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">សូមបញ្ចូលលេខខាងមុខ IP ជាមុនសិន ក្នុងការសិតការហៅជាសម្លេង ។</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">មុខងារការរវៃ IP មិនអាចប្រើបានចំពោះការហៅអ៊ិនថឺណិតទេ ។</string>
+    <string name="ip_prefix_edit_default_sum">បញ្ចូលលេខខាងមុខ សម្រាប់ការរវៃ IP</string>
+    <string name="lable_call_barring">"រារាំង​ការ​ហៅ"</string>
+    <string name="title_call_barring">រារាំង​ការ​ហៅ (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">គ្រប់ការហៅចេញទាំងអស់</string>
+    <string name="lable_all_outgoing_international">ការហៅចេញទៅក្រៅប្រទេស</string>
+    <string name="lable_all_out_except">ការហៅចេញទៅក្រៅប្រទេស លើកលែងតែការហៅទៅកាន់ទីតាំងរបស់ PLMN</string>
+    <string name="lable_all_incoming">គ្រប់ការហៅចូលទាំងអស់</string>
+    <string name="lable_incoming_calls_except">ការហៅចូលខណៈរ៉ូមិង</string>
+    <string name="deactivate_all">លើកលែងការហៅ</string>
+    <string name="change_password">ប្តូរពាក្យសម្ងាត់រារាំង</string>
+    <string name="call_barring_sum">ការសិតការរាំងលើការហៅជាសម្លេង</string>
+    <string name="lable_disable">អសកម្ម</string>
+    <string name="lable_enable">"បាន​បើក"</string>
+    <string name="old_password_label">ពាក្យសម្ងាត់ចាស់ (4 លេខ)</string>
+    <string name="new_password_label">ពាក្យសម្ងាត់ថ្មី (4 លេខ)</string>
+    <string name="invalid_password">វាយពាក្យសម្ងាត់ដែលមាន 4 លេខ ។</string>
+    <string name="confirm_password_label">បញ្ជាក់ពាក្យសម្ងាត់ថ្មី</string>
+    <string name="mismatch_password">ពាក្យសម្ងាត់ដែលអ្នកបានបញ្ចូល មិនត្រូវគ្នាទេ ។ សូមសាកល្បងម្តងទៀត ។</string>
+    <string name="password_changed">បានប្តូរពាក្យសម្ងាត់ដោយជោគជ័យ</string>
+    <string name="enter_callbarring_password">បញ្ចូលពាក្យសម្ងាត់រារាំងទាំងអស់ (4 លេខ)</string>
+    <string name="wrong_password">កំហុសពាក្យសម្ងាត់</string>
+    <string name="error_title">"កំហុស"</string>
+    <string name="cell_broadcast">ផ្សាយសារ</string>
+    <string name="cell_broadcast_settings">ការសិតការផ្សាយសារ</string>
+    <string name="cb_menu_language">"ភាសា"</string>
+    <string name="cb_menu_add_channel">បន្ថែមប៉ុស្តិ៍</string>
+    <string name="cb_menu_channel_list">បញ្ជីប៉ុស្ត៍វិទ្យុ</string>
+    <string name="cb_dialog_title_language_choice">ជ្រើសរើសភាសា</string>
+    <string name="cb_channel_dialog_channel_name">ឈ្មោះប៉ុស្តិ៍ (0-10 តួ)</string>
+    <string name="cb_channel_dialog_channel_number">លេខប៉ុស្តិ៍ (0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">ធ្វើឲ្យប៉ុស្តិ៍សកម្ម</string>
+    <string name="cb_channel_dialog_edit_channel">កែសម្រួលប៉ុស្តិ៍</string>
+    <string name="cb_menu_edit">"កែសម្រួល"</string>
+    <string name="cb_menu_delete">"លុប"</string>
+    <string name="cb_error_channel_num">សូមបញ្ចូលលេខប៉ុស្តិ៍ (0-65534) ។</string>
+    <string name="cb_error_channel_name">ប្រវែងឈ្មោះប៉ុស្តិ៍មិនត្រឹមត្រូវទេ(1-10 តួ) ។</string>
+    <string name="cb_error_language_select">សូមជ្រើសរើសយ៉ាងហោចណាស់មួយភាសា ។</string>
+    <string name="cb_error_channel_id_exist">អត្តសញ្ញាណប៉ុស្តិ៍មានរួចហើយ</string>
+    <string name="cb_all_languages">គ្រប់ភាសាទាំងអស់</string>
+    <string name="cb_default_new_channel_name">ប៉ុស្តិ៍ថ្មី</string>
+    <string name="fdn_errorcode_unknown_info">បរាជ័យ កំហុសដែលមិនស្គាល់បានកើតឡើង សូមសាកល្បងនាពេលក្រោយ ។</string>
+    <string name="fdn_errorcode_number_info">បរាជ័យ ប្រវែងនៃលេខទំនាក់ទំនងវាវែងពេក ។</string>
+    <string name="fdn_errorcode_name_info">បរាជ័យ ប្រវែងនៃឈ្មោះទំនាក់ទំនងវាវែងពេក ។</string>
+    <string name="fdn_errorcode_storage_info">បរាជ័យ កន្លែងផ្ទុកឯកសារពេញហើយ ។</string>
+    <string name="fdn_errorcode_phb_info">បរាជ័យ ឥឡូវសៀវភៅទូរស័ព្ទមិនទាន់រួចរាល់នៅឡើយទេ សូមសាកល្បងនាពេលក្រោយ ។</string>
+    <string name="fdn_errorcode_pin2_info">បរាជ័យ PIN2 ដែលមិនមានសុពលភាព ។</string>
+    <string name="net_or_simcard_busy">បណ្តាញ ឬ SIM កាតជាប់រវល់ សូមសាកល្បងពេលក្រោយ ។</string>
+    <string name="plmn_list_setting_title">ចំណូលចិត្ត</string>
+    <string name="network_id">បណ្តាញ ID</string>
+    <string name="plmn_list_setting_add_plmn">បន្ថែម PLMN ថ្មី</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">ស្វែងរក...</string>
+    <string name="sum_search_femtocell_networks">ជ្រើសរើស Femtocell ដោយដៃ</string>
+    <string name="register_femtocell_point_wait_tip">កំពុងចុះឈ្មោះ <xliff:g id="femto_cell_info">%s</xliff:g> ...</string>
+    <string name="register_femtocell_point_result_fail_tip">មិនអាចភ្ជាប់បណ្ដាញ​នេះ​បាន​ទេ ឥឡូវនេះ។ ព្យាយាម​ម្ដងទៀត​នៅពេលក្រោយ។</string>
+    <string name="network_type">ប្រភេទបណ្តាញ </string>
+    <string name="gsm_umts_network_preferences_title">"របៀប​បណ្ដាញ"</string>
+    <string name="gsm_umts_network_preferneces_summary">មិនទាន់បានអនុវត្តទេ!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"របៀប​បណ្ដាញ"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G (ម៉ូដស្វ័យប្រវត្តិ)</item>
+        <item>ចូលចិត្តតែ 3G ទេ</item>
+        <item>ចូលចិត្តតែ 2G ទេ</item>
+    </string-array>
+    <string name="notification_voicemail_text">ជ្រើសចុច​មើល​សារ​ជា​សំឡេង</string>
+    <string name="notification_network_selection_without_operator">គ្មាន​បណ្ដាញ​ដែល​ជ្រើសរើស​យក</string>
+    <string name="network_setting_all_forbidden_dialog">គ្មាន​បណ្ដាញ។</string>
+    <string name="network_forbidden">បានហាមឃាត់</string>
+    <string name="fdn_contact_number_invalid">លេខទំនាក់ទំនងដែលមិនមានសុពលភាព ។</string>
+    <string name="fdn_puk_need_tips">PIN2 ជាប់ប្លុក។ សូមប្ដូរ PIN2 ហើយព្យាយាមម្ដងទៀត!</string>
+    <string name="fdn_phone_book_busy">សៀវភៅលេខទូរស័ព្ទកំពុងជាប់រវល់ សូមសាកល្បងពេលក្រោយ ។</string>
+    <string name="one_retry_left">1 សាកល្បងទៅឆ្វេង</string>
+    <string name="retries_left">នៅសល់ការសាកល្បង  <xliff:g id="number">%d</xliff:g> ដងទៀត </string>
+    <string name="pin_length_indicate">(4-8 ខ្ទង់)</string>
+    <string name="puk_length_indicate">(8 ខ្ទង់)</string>
+    <string name="unblock_pin2">ដោះសោ PIN2</string>
+    <string name="sim_permanently_locked">បញ្ចូលកូដ PUK2 មិនត្រឹមត្រូវច្រើនជាង 10 ដង SIM កាតត្រូវបានចាក់សោជាអចិន្ត្រៃយ៍</string>
+    <string name="magi_conference_title">មុខងារកែគុណភាព​សំឡេង</string>
+    <string name="magi_conference_summary">កែ​គុណភាព​សំឡេង​ពេល​មាន​មនុស្ស​ច្រើន​ប្រើ​ទូរសព្ទ​ដើម្បី​និយាយ​ជាមួយ​ភាគី​ផ្សេង​ទៀត។</string>
+    <string name="volte_is_adding_participants">កំពុង​បន្ថែម​សមាជិក​(នានា)​នៃអង្គប្រជុំ, សូម​រង់ចាំ…</string>
+    <string name="volte_fail_to_invit_participants">ការថែម​សមាជិក​ទាំងអស់​កាន់​អង្គ​ប្រជុំ​មិន​បាន​សម្រេច។</string>
+    <string name="voicemail_lable">សារ​ជា​សំឡេង (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">ដើម្បីបញ្ចប់ប្រតិបត្តិការ​នេះ​បាន អ្នកចាំបាច់ត្រូវបើក​ការភ្ជាប់​ទិន្នន័យ​របស់ <xliff:g id="sub_name">%s</xliff:g>។</string>
+    <string name="cdma_labelCFU">"បញ្ជូន​បន្ត​ជានិច្ច"</string>
+    <string name="cdma_labelCFB">"បញ្ជូន​បន្ត​នៅ​ពេល​ជាប់រវល់"</string>
+    <string name="cdma_labelCFNRy">"បញ្ជូន​បន្ត​នៅ​ពេល​ដែល​មិន​បាន​ឆ្លើយតប"</string>
+    <string name="cdma_labelCFNRc">"បញ្ជូន​បន្ត​នៅ​ពេល​ដែល​មិន​អាច​ហៅ​ចូល"</string>
+    <string name="cdma_labelCFC">លើកលែងការបញ្ជូនទាំងអស់</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">បិទ​ការកម្រិត​អត្តលេខ​នៃ​មុខ​ហៅ​ទូរសព្ទ</string> 
+    <string name="cdma_cnir_turnon">បើក​​ការកម្រិត​អត្តលេខ​នៃ​មុខ​ហៅ​ទូរសព្ទ</string>
+    <string name="lte_data_only_prompt">មិន​អាច​ប្រើ​មុខងារ​ពិសេស​នេះ​បាន ដោយសារ​ម៉ូដ​ប្រើ​តែ​ទិន្នន័យ 4G។ តើ​អ្នក​ចង់​ចាកចេញ​ពី​ម៉ូដ​ប្រើ​តែ​ទិន្នន័យ 4G ឬ?</string>
+    <string name="lte_data_only_timeout">គ្មាន​បណ្ដាញ​ប្រើ​តែ​ទិន្នន័យ 4G អា​ចរក​បាន​នៅ​ទីតាំង​បច្ចុប្បន្ន​របស់អ្នក​ទេ តើ​អ្នក​ចង់​ចាកចេញ និង​ស្វែងរក​បណ្ដាញ​ផ្សេង​ទៀត​ឬ?</string>
+    <string name="lte_only_dialog_button_yes">"បាទ/ចាស"</string>
+    <string name="lte_only_dialog_button_no">"ទេ"</string>
+    <string name="lte_only_dialog_title_prompt">សួររក</string>
+    <string name="enable_4G_data">បើក​ទិន្នន័យ 4G</string>
+    <string name="enable_4G_data_summary">ប្រព័ន្ធ 4G អាច​ផ្ដល់​លទ្ធភាព​ប្រើ​អ៊ីនធឺណិត​បាន​ល្អ និង​លឿន​ជាង</string>
+    <string name="only_use_LTE_data">ប្រើ​តែ​ទិន្នន័យ LTE</string>
+    <string name="only_use_LTE_data_summary">ដើម្បី​បើក​មុខងារ​ប្រើតែ​ទិន្នន័យ​ទោល មុខងារ​នេះ​នឹង​មិន​អាច​ប្រើ​មុខងារ​ហៅ​ទូរសព្ទ និង​សារជា​អក្សរ​បាន​ទេ។</string>
+</resources>

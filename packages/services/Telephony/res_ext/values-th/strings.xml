@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">การลดเสียงรบกวน</string>
+    <string name="dual_mic_summary">ตัดเสียงเบื้องหลังระหว่างการโทร</string>
+    <string name="anc_title">การลดสัญญาณรบกวนแบบแอกทีฟ</string>
+    <string name="anc_on">ANC เปิด</string>
+    <string name="anc_off">ANC ปิด</string>
+    <string name="ip_prefix_setting">Mã số đầu IP</string>
+    <string name="ip_prefix_setting_lable">Mã số đầu IP (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">Cài đặt mã số đầu IP</string>
+    <string name="enter_ip_prefix_number">Nhập mã số đầu</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">โปรดป้อนหมายเลขรหัสนำ IP ก่อนในการตั้งค่าสายวิดีโอ</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">ฟังก์ชั่นโทร IP ใช้ไม่ได้สำหรับสายที่ตั้งใจ</string>
+    <string name="ip_prefix_edit_default_sum">ป้อนตัวเลขนำหน้าสำหรับการโทร IP</string>
+    <string name="lable_call_barring">"ระงับการโทร"</string>
+    <string name="title_call_barring">ระงับการโทร (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">สายโทรออกทั้งหมด</string>
+    <string name="lable_all_outgoing_international">สายโทรออกระหว่างประเทศ</string>
+    <string name="lable_all_out_except">สายโทรออกระหว่างประเทศยกเว้นไปเครือข่ายโฮม PLMN</string>
+    <string name="lable_all_incoming">สายเรียกเข้าทั้งหมด</string>
+    <string name="lable_incoming_calls_except">สายเรียกเข้าขณะโรมมิ่ง</string>
+    <string name="deactivate_all">ยกเลิกทั้งหมด</string>
+    <string name="change_password">เปลี่ยนรหัสผ่านการห้ามโทร</string>
+    <string name="call_barring_sum">การตั้งค่าการห้ามโทรสายสนทนา</string>
+    <string name="lable_disable">ปิดทำงานแล้ว</string>
+    <string name="lable_enable">"เปิดใช้งานแล้ว"</string>
+    <string name="old_password_label">รหัสผ่านเดิม (ตัวเลข 4 ตัว)</string>
+    <string name="new_password_label">รหัสผ่านใหม่ (ตัวเลข 4 ตัว)</string>
+    <string name="invalid_password">พิมพ์รหัสผ่านที่มีตัวเลข 4 ตัว</string>
+    <string name="confirm_password_label">ยืนยันรหัสผ่านใหม่</string>
+    <string name="mismatch_password">รหัสผ่านที่คุณป้อนไม่ตรงกัน โปรดลองอีกครั้ง</string>
+    <string name="password_changed">รหัสผ่านเปลี่ยนสำเร็จแล้ว</string>
+    <string name="enter_callbarring_password">ป้อนรหัสผ่านการห้ามโทร (ตัวเลข 4 ตัว)</string>
+    <string name="wrong_password">รหัสผ่านผิดพลาด</string>
+    <string name="error_title">"ข้อผิดพลาด"</string>
+    <string name="cell_broadcast">การเผยแพร่ผ่านเซลล์</string>
+    <string name="cell_broadcast_settings">การตั้งค่าการเผยแพร่ผ่านเซลล์</string>
+    <string name="cb_menu_language">"ภาษา"</string>
+    <string name="cb_menu_add_channel">เพิ่มแชนเนล</string>
+    <string name="cb_menu_channel_list">รายการสถานี</string>
+    <string name="cb_dialog_title_language_choice">เลือกภาษา</string>
+    <string name="cb_channel_dialog_channel_name">ชื่อแชนเนล</string>
+    <string name="cb_channel_dialog_channel_number">หมายเลขแชนเนล (0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">เปิดทำงานแชนเนล</string>
+    <string name="cb_channel_dialog_edit_channel">แก้ไขแชนเนล</string>
+    <string name="cb_menu_edit">"แก้ไข"</string>
+    <string name="cb_menu_delete">"ลบ"</string>
+    <string name="cb_error_channel_num">โปรดป้อนหมายเลขแชนเนล (0-65534)</string>
+    <string name="cb_error_channel_name">ความยาวของชื่อแชนเนลไม่ถูกต้อง (1-10 ตัวอักษร)</string>
+    <string name="cb_error_language_select">โปรดเลือกอย่างน้อยหนึ่งภาษา</string>
+    <string name="cb_error_channel_id_exist">ID แชนเนลมีอยู่แล้ว</string>
+    <string name="cb_all_languages">ทุกภาษา</string>
+    <string name="cb_default_new_channel_name">สถานีใหม่</string>
+    <string name="fdn_errorcode_unknown_info">ล้มเหลว, เกิดข้อผิดพลาดที่ไม่รู้จัก, โปรดลองใหม่ภายหลัง</string>
+    <string name="fdn_errorcode_number_info">ล้มเหลว, ความยาวของหมายเลขผู้ติดต่อยาวเกินไป</string>
+    <string name="fdn_errorcode_name_info">ล้มเหลว, ความยาวของชื่อผู้ติดต่อยาวเกินไป</string>
+    <string name="fdn_errorcode_storage_info">ล้มเหลว, ที่เก็บเต็ม</string>
+    <string name="fdn_errorcode_phb_info">ล้มเหลว, ขณะนี้สมุดโทรศัพท์ไม่พร้อม, โปรดลองใหม่ภายหลัง</string>
+    <string name="fdn_errorcode_pin2_info">ล้มเหลว, PIN2 ไม่ถูกต้อง</string>
+    <string name="net_or_simcard_busy">เครือข่ายหรือ SIM การ์ดไม่ว่าง, โปรดลองใหม่ภายหลัง</string>
+    <string name="plmn_list_setting_title">การปรับแต่งค่า</string>
+    <string name="network_id">ID เครือข่าย</string>
+    <string name="plmn_list_setting_add_plmn">เพิ่ม PLMN ใหม่</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">ค้นหา...</string>
+    <string name="sum_search_femtocell_networks">เลือก femtocell ด้วยตัวเอง</string>
+    <string name="register_femtocell_point_wait_tip">กำลังลงทะเบียน <xliff:g id="femto_cell_info">%s</xliff:g> ...</string>
+    <string name="register_femtocell_point_result_fail_tip">ไม่สามารถเชื่อมต่อไปยังเครือข่ายนี้ได้ในขณะนี้ ลองอีกครั้งในภายหลัง</string>
+    <string name="network_type">ประเภทเครือข่าย</string>
+    <string name="gsm_umts_network_preferences_title">"โหมดเครือข่าย"</string>
+    <string name="gsm_umts_network_preferneces_summary">ยังไม่ได้นำมาใช้งาน!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"โหมดเครือข่าย"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>"2G/3G (โหมดอัตโนมัติ)"</item>
+        <item>3G เท่านั้น</item>
+        <item>2G เท่านั้น</item>
+    </string-array>
+    <string name="notification_voicemail_text">เลือกเพื่อดูวอยซ์เมล</string>
+    <string name="notification_network_selection_without_operator">เครือข่ายที่เลือกใช้ไม่ได้</string>
+    <string name="network_setting_all_forbidden_dialog">ไม่มีเครือข่ายที่ใช้ได้</string>
+    <string name="network_forbidden">ปิดทำงาน</string>
+    <string name="fdn_contact_number_invalid">หมายเลขผู้ติดต่อไม่ถูกต้อง</string>
+    <string name="fdn_puk_need_tips">PIN2 ถูกบล็อก โปรดเปลี่ยน PIN2 และลองใหม่!</string>
+    <string name="fdn_phone_book_busy">ขณะนี้สมุดโทรศัพท์ไม่ว่าง โปรดลองใหม่ในภายหลัง</string>
+    <string name="one_retry_left">เหลือการลอง 1 ครั้ง</string>
+    <string name="retries_left">เหลือการลอง <xliff:g id="number">%d</xliff:g> ครั้ง</string>
+    <string name="pin_length_indicate">(4-8 หลัก)</string>
+    <string name="puk_length_indicate">(8 หลัก)</string>
+    <string name="unblock_pin2">ปลดบล็อก PIN2</string>
+    <string name="sim_permanently_locked">การป้อนรหัส PUK ที่ไม่ถูกต้องมากกว่า 10 ครั้ง จะทำให้ SIM การ์ดถูกล็อคอย่างถาวร</string>
+    <string name="magi_conference_title">เมจิคอนเฟอเรนซ์</string>
+    <string name="magi_conference_summary">ปรับปรุงคุณภาพเสียงเมื่อมีหลายคนใช้โทรศัพท์เพื่อคุยกับอีกฝ่ายหนึ่ง</string>
+    <string name="volte_is_adding_participants">กำลังเพิ่มสมาชิกการประชุม โปรดรอ...</string>
+    <string name="volte_fail_to_invit_participants">ไม่สามารถเพิ่มสมาชิกทั้งหมดไปยังการประชุมได้</string>
+    <string name="voicemail_lable">ข้อความเสียง (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">เพื่อดำเนินการให้สมบูรณ์ คุณจำเป็นต้องเปิดการเชื่อมต่อข้อมูลของ <xliff:g id="sub_name">%s</xliff:g></string>
+    <string name="cdma_labelCFU">"โอนสายทุกครั้ง"</string>
+    <string name="cdma_labelCFB">"โอนสายเมื่อสายไม่ว่าง"</string>
+    <string name="cdma_labelCFNRy">"โอนสายเมื่อไม่มีผู้รับ"</string>
+    <string name="cdma_labelCFNRc">"โอนสายเมื่อติดต่อไม่ได้"</string>
+    <string name="cdma_labelCFC">ยกเลิกทั้งหมด</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">ปิดทำงานการจำกัดการระบุเลขหมายเรียกเข้า</string> 
+    <string name="cdma_cnir_turnon">เปิดทำงานการจำกัดการระบุเลขหมายเรียกเข้า</string>
+    <string name="lte_data_only_prompt">ไม่สามารถใช้คุณสมบัตินี้ได้เนื่องจากอยู่ในโหมดข้อมูล 4G เท่านั้น คุณต้องการออกจากโหมดข้อมูล 4G เท่านั้นหรือไม่?</string>
+    <string name="lte_data_only_timeout">ไม่มีเครือข่ายข้อมูล 4G เท่านั้นในตำแหน่งปัจจุบันของคุณ คุณต้องการออก และค้นหาเครือข่ายอื่นหรือไม่?</string>
+    <string name="lte_only_dialog_button_yes">"ใช่"</string>
+    <string name="lte_only_dialog_button_no">"ไม่"</string>
+    <string name="lte_only_dialog_title_prompt">ถาม</string>
+    <string name="enable_4G_data">เปิดทำงานข้อมูล 4G</string>
+    <string name="enable_4G_data_summary">4G สามารถให้การเข้าถึงอินเทอร์เน็ตที่ดีกว่าและเร็วกว่า</string>
+    <string name="only_use_LTE_data">ใช้เฉพาะข้อมูล LTE</string>
+    <string name="only_use_LTE_data_summary">ในการเปิดทำงานโหมดการใช้ข้อมูลอย่างเดียว คุณจะไม่สามารถทำการโทรศัพท์ และใช้ข้อความตัวอักษรได้</string>
+    <string name="network_current">ลงทะเบียน</string>
+    <string name="network_available">มีอยู่</string>
+    <string name="gsm_network">เครือข่าย GSM</string>
+    <string name="cdma_network">เครือข่าย CDMA</string>
+    <string name="no_sim_card">ไม่มีซิมการ์ด</string>
+    <string name="no_sim_card_cdma">ไม่มีการ์ด UIM</string>
+    <string name="airplane_mode_on">เปิดใช้งานโหมดเครื่องบินอยู่</string>
+    <string name="wifi_off_summary">ปิด Wi-Fi แล้ว</string>
+    <string name="wfc_enabling_summary">กำลังเปิดใช้งาน…</string>
+    <string name="wfc_unknown_error_summary">เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุ</string>
+</resources>

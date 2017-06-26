@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+** Copyright 2007, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="8336826100414159413" name="onesong">"1 cançó"</string>
+  <plurals name="Nsongs">
+    <item msgid="5798230388116542981" quantity="other">" 
+            <xliff:g id="COUNT">%d</xliff:g> cançons"
+        </item>
+  </plurals>
+  <plurals name="Nsongscomp">
+    <item msgid="7162294486622945550" quantity="other">" 
+            <xliff:g id="COUNT_FOR_ARTIST">%2$d</xliff:g> de 
+            <xliff:g id="TOTAL_COUNT">%1$d</xliff:g> cançons"
+        </item>
+  </plurals>
+  <plurals name="Nalbums">
+    <item msgid="3798955510439465932" quantity="one">"1 àlbum"</item>
+    <item msgid="3047615499770811984" quantity="other">" 
+            <xliff:g id="COUNT">%d</xliff:g> àlbums"
+        </item>
+  </plurals>
+    <string msgid="8979658707407220934" name="goto_start">"Biblioteca"</string>
+    <string msgid="8213359225506006168" name="party_shuffle">Sessió aleatòria</string>
+    <string msgid="1828744483354711679" name="party_shuffle_off">Sessió aleatòria desactivada</string>
+    <string msgid="3363330144534750601" name="delete_item">"Suprimeix"</string>
+    <string msgid="1388193611787878773" name="shuffle_all">"Reproducció aleatòria de tot"</string>
+    <string msgid="6309622568869321842" name="play_all">"Reprodueix-ho tot"</string>
+    <string msgid="8665759524898379194" name="delete_artist_desc">"Vols suprimir totes les cançons de 
+        <xliff:g id="ARTIST">%s</xliff:g> de la targeta SD de manera permanent?"
+    </string>
+    <string msgid="5729059309796497914" name="delete_artist_desc_nosdcard">"Vols suprimir totes les cançons de 
+        <xliff:g id="ARTIST">%s</xliff:g> de l\'emmagatzematge USB de manera permanent?"
+    </string>
+    <string msgid="8172412873562794429" name="delete_album_desc">"Vols suprimir l\'àlbum complet \" 
+        <xliff:g id="ALBUM">%s</xliff:g>\" de la targeta SD de manera permanent?"
+    </string>
+    <string msgid="8612559166069885285" name="delete_album_desc_nosdcard">"Vols suprimir l\'àlbum complet \" 
+        <xliff:g id="ALBUM">%s</xliff:g>\" de l\'emmagatzematge USB de manera permanent?"
+    </string>
+    <string msgid="1842681623848282205" name="delete_song_desc">"Vols suprimir \" 
+        <xliff:g id="SONG">%s</xliff:g>\" de la targeta SD de manera permanent?"
+    </string>
+    <string msgid="5064973032624148730" name="delete_song_desc_nosdcard">"Vols suprimir \" 
+        <xliff:g id="SONG">%s</xliff:g>\" de l\'emmagatzematge USB de manera permanent?"
+    </string>
+    <string msgid="7008121194944357274" name="delete_confirm_button_text">"D\'acord"</string>
+  <plurals name="NNNtracksdeleted">
+    <item msgid="8560276109508404217" quantity="one">"S\'ha suprimit 1 cançó."</item>
+    <item msgid="5156740163031225200" quantity="other">"S\'han suprimit 
+            <xliff:g id="SONGS_TO_DELETE">%d</xliff:g> cançons."
+        </item>
+  </plurals>
+    <string msgid="3529383847223198502" name="scanning">"S\'està cercant a la targeta SD..."</string>
+    <string msgid="8105284774487360148" name="scanning_nosdcard">"S\'està explorant l\'emmagatzematge USB…"</string>
+    <string msgid="8342523844307751761" name="nowplaying_title">"Reproducció actual"</string>
+    <string msgid="6582413231529992125" name="partyshuffle_title">Reprod. aleatòria per festa</string>
+    <string msgid="8490372367259160067" name="artists_title">"Intèrprets"</string>
+    <string msgid="5807982055590211900" name="albums_menu">"Àlbums"</string>
+    <string msgid="8773880394961378035" name="albums_title">"Àlbums"</string>
+    <string msgid="6942246568246092330" name="tracks_menu">"Cançons"</string>
+    <string msgid="3229389424532295124" name="tracks_title">"Cançons"</string>
+    <string msgid="5382792649771928849" name="playlists_menu">"Llistes de reproducció"</string>
+    <string msgid="5094238486322957927" name="playlists_title">"Llistes de reproducció"</string>
+    <string msgid="2066741954354129115" name="videos_title">"Vídeos"</string>
+    <string msgid="6880186414437237653" name="all_title">"Tots els fitxers multimèdia"</string>
+    <string msgid="5248122473075843289" name="browse_menu">"Intèrprets"</string>
+    <string msgid="1016971653383739344" name="search_title">"Cerca"</string>
+    <string msgid="8805805388271238471" name="no_tracks_title">"Cap cançó"</string>
+    <string msgid="6218814130364793104" name="no_videos_title">"Cap vídeo"</string>
+    <string msgid="4456351945617594418" name="no_playlists_title">"Cap llista de reproducció"</string>
+    <string msgid="8998637685583495247" name="delete_playlist_menu">"Suprimeix"</string>
+    <string msgid="571618502105370684" name="edit_playlist_menu">"Edita"</string>
+    <string msgid="3133463747389494668" name="rename_playlist_menu">"Canvia el nom"</string>
+    <string msgid="9008053828193961455" name="playlist_deleted_message">"S\'ha suprimit la llista de reproducció."</string>
+    <string msgid="7187580192703005990" name="playlist_renamed_message">"S\'ha canviat el nom de la llista de reproducció."</string>
+    <string msgid="110978416756366953" name="recentlyadded">"Afegits recentment"</string>
+    <string msgid="3153322287249901914" name="recentlyadded_title">"Afegits recentment"</string>
+    <string msgid="8657809279717670634" name="podcasts_listitem">"Podcasts"</string>
+    <string msgid="4928414142496858304" name="podcasts_title">"Podcasts"</string>
+    <string msgid="9008284946643270850" name="sdcard_missing_title">"No hi ha cap targeta SD"</string>
+    <string msgid="7984839174824243958" name="sdcard_missing_title_nosdcard">"Sense emmagatzematge USB"</string>
+    <string msgid="2100061456003981823" name="sdcard_missing_message">"El telèfon no té cap targeta SD inserida."</string>
+    <string msgid="4459620970330194881" name="sdcard_missing_message_nosdcard">"El telèfon no té emmagatzematge USB."</string>
+    <string msgid="1162763571147174655" name="sdcard_busy_title">"La targeta SD no està disponible"</string>
+    <string msgid="3319125156566499501" name="sdcard_busy_title_nosdcard">"Emmagatzematge USB no disponible"</string>
+    <string msgid="579981082201215537" name="sdcard_busy_message">"La targeta SD està ocupada."</string>
+    <string msgid="1493449756827869166" name="sdcard_busy_message_nosdcard">"L\'emmagatzematge USB està ocupat."</string>
+    <string msgid="165682155008600643" name="sdcard_error_title">"Error de targeta SD"</string>
+    <string msgid="7564338137076303931" name="sdcard_error_title_nosdcard">"Error d\'emmagatzematge USB"</string>
+    <string msgid="4574563894036627855" name="sdcard_error_message">"S\'ha detectat un error a la targeta SD."</string>
+    <string msgid="4983430848526821234" name="sdcard_error_message_nosdcard">"S\'ha detectat un error a l\'emmagatzematge USB."</string>
+    <string msgid="5567811106415855219" name="unknown_artist_name">"Intèrpret desconegut"</string>
+    <string msgid="8525145988941244727" name="unknown_album_name">"Àlbum desconegut"</string>
+    <string msgid="5453708337808483943" name="shuffle_on_notif">"Ordre aleatori activat"</string>
+    <string msgid="4251189610017886263" name="shuffle_off_notif">"Ordre aleatori desactivat."</string>
+    <string msgid="1149406899083479716" name="repeat_off_notif">"La repetició està desactivada."</string>
+    <string msgid="1227153936360904196" name="repeat_current_notif">"S\'està repetint la cançó actual."</string>
+    <string msgid="6443293055987316642" name="repeat_all_notif">"S\'estan repetint totes les cançons."</string>
+    <string msgid="2737472190159134599" name="ringtone_menu">"Utilitza com a to del telèfon"</string>
+    <string msgid="3367622038867238133" name="ringtone_menu_short">"Utilitza com a to"</string>
+    <string msgid="5325818347613843130" name="ringtone_set">"S\'ha establert \" 
+        <xliff:g id="NAME">%s</xliff:g>\" com a to del telèfon."
+    </string>
+    <string msgid="2854921021814550018" name="play_selection">"Reprodueix"</string>
+    <string msgid="7110273488645072783" name="add_to_playlist">"Afegeix a la llista de reproducció"</string>
+    <string msgid="2937629819482787704" name="queue">"Llista de reproducció actual"</string>
+    <string msgid="7588112979692632867" name="new_playlist">"Nou"</string>
+    <string msgid="905710296728900597" name="new_playlist_name_template">"Llista de reproducció nova 
+        <xliff:g id="NUMBER">%d</xliff:g>"
+    </string>
+  <plurals name="NNNtrackstoplaylist">
+    <item msgid="422388042993582235" quantity="one">"S\'ha afegit 1 cançó a la llista de reproducció."</item>
+    <item msgid="7662771987109627255" quantity="other">"S\'ha afegit 
+            <xliff:g id="NUMBER">%d</xliff:g> cançons a la llista de reproducció."
+        </item>
+  </plurals>
+    <string msgid="6711555673997896344" name="emptyplaylist">"La llista de reproducció seleccionada és buida."</string>
+    <string msgid="8149755205483279143" name="create_playlist_create_text">"Desa"</string>
+    <string msgid="2007808383561024706" name="create_playlist_overwrite_text">"Sobreescriu"</string>
+    <string msgid="8649916852210198813" name="service_start_error_title">"Problema de reproducció"</string>
+    <string msgid="7061754255330276478" name="service_start_error_msg">"No s\'ha pogut reproduir la cançó."</string>
+    <string msgid="480888406592240723" name="service_start_error_button">"D\'acord"</string>
+  <string-array name="weeklist">
+    <item msgid="7005918873419323862">"1 setmana"</item>
+    <item msgid="7487749116155425822">"2 setmanes"</item>
+    <item msgid="1565338360539555185">"3 setmanes"</item>
+    <item msgid="2142986059836933072">"4 setmanes"</item>
+    <item msgid="4332403875260507291">"5 setmanes"</item>
+    <item msgid="3847281907869868565">"6 setmanes"</item>
+    <item msgid="2942654998558867799">"7 setmanes"</item>
+    <item msgid="2115529325850052227">"8 setmanes"</item>
+    <item msgid="1396675336665198092">"9 setmanes"</item>
+    <item msgid="3178819129208998649">"10 setmanes"</item>
+    <item msgid="2727959579637914171">"11 setmanes"</item>
+    <item msgid="8708754966127584739">"12 setmanes"</item>
+  </string-array>
+    <string msgid="7636608790418067496" name="weekpicker_set">"Fet"</string>
+    <string msgid="699535378922101701" name="weekpicker_title">"Defineix l\'hora"</string>
+    <string msgid="5180413608901885255" name="save_as_playlist">"Anomena i desa com a llista de reproducció"</string>
+    <string msgid="4565515100924905315" name="clear_playlist">"Esborra la llista de reproducció"</string>
+    <string msgid="3162022214114562892" name="musicbrowserlabel">"Música"</string>
+    <string msgid="2602980193508150226" name="musicshortcutlabel">"Llista de reproducció de música"</string>
+    <string msgid="6733604841530940397" name="mediaplaybacklabel">"Música"</string>
+    <string msgid="8522326678447494657" name="videobrowserlabel">"Vídeos"</string>
+    <string msgid="4549836003229914299" name="mediapickerlabel">"Música"</string>
+    <string msgid="3811851150820251398" name="playback_failed">"El reproductor no és compatible amb aquest tipus de fitxer d\'àudio."</string>
+    <string msgid="886559484711947520" name="cancel">"Cancel·la"</string>
+    <string msgid="2548577514849026354" name="remove_from_playlist">"Elimina de la llista de reproducció"</string>
+    <string msgid="8842426517396356215" name="streamloadingtext">"S\'està connectant a 
+        <xliff:g id="HOST">%s</xliff:g>…"
+    </string>
+    <string msgid="959222971261132292" name="mediasearch">"Cerca 
+        <xliff:g id="TERM">%s</xliff:g> mitjançant:"
+    </string>
+    <string msgid="8678357432732156580" name="working_artists">"Intèrprets..."</string>
+    <string msgid="8713273699401457426" name="working_albums">"Àlbums..."</string>
+    <string msgid="2201491972050410684" name="working_songs">"Cançons..."</string>
+    <string msgid="4424950806134653351" name="working_playlists">"Llistes de reproducció..."</string>
+    <string msgid="1991660396037155453" name="loading">"S\'està carregant..."</string>
+    <string msgid="7662999005554152565" name="sort_by_track">"Pistes"</string>
+    <string msgid="2912837715658975248" name="sort_by_album">"Àlbums"</string>
+    <string msgid="4607024967813199992" name="sort_by_artist">"Intèrprets"</string>
+    <string msgid="4143865470317360605" name="music_picker_title">"Tria una pista de música"</string>
+    <string msgid="6520975349259883368" name="search_settings_description">"Intèrprets, àlbums i pistes"</string>
+    <string msgid="3766854898072633001" name="search_hint">"Cerca a la música"</string>
+    <string msgid="5548732936480723311" name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string msgid="3166878738860903586" name="widget_initial_text">"Toca per triar música."</string>
+    <string msgid="8804547581593509614" name="effectspanel">"Efectes de so"</string>
+</resources>

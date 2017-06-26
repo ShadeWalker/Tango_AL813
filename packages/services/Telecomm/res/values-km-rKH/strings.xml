@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="3477737022166975496" name="telecommAppLabel" product="default">"ទូរស័ព្ទ"</string>
+    <string msgid="6878797917991465859" name="unknown">"មិន​ស្គាល់"</string>
+    <string msgid="7554385905572364535" name="notification_missedCallTitle">"ខកខាន​ទទួល"</string>
+    <string msgid="1361677948941502522" name="notification_missedCallsTitle">"ខកខាន​ទទួល"</string>
+    <string msgid="4575787816055205600" name="notification_missedCallsMsg">"<xliff:g id="NUM_MISSED_CALLS">%s</xliff:g> ខកខាន​ការ​​ទទួល"</string>
+    <string msgid="504686252427747209" name="notification_missedCallTicker">"ខកខាន​ទទួល​ពី <xliff:g id="MISSED_CALL_FROM">%s</xliff:g>"</string>
+    <string msgid="2684890353590890187" name="notification_missedCall_call_back">"ហៅ​ទៅ​វិញ"</string>
+    <string msgid="3049928912736917988" name="notification_missedCall_message">"សារ"</string>
+    <string msgid="2776111226185342220" name="accessibility_call_muted">"ការ​ហៅ​បិទ​សំឡេង។"</string>
+    <string msgid="1988512040421036359" name="accessibility_speakerphone_enabled">"បាន​បើក​អូប៉ាល័រ​ទូរស័ព្ទ។"</string>
+    <string msgid="2461606462788380215" name="respond_via_sms_canned_response_1">"មិន​អាច​និយាយ​បាន​ឥឡូវ​នេះ។ មាន​អ្វី​កើត​ឡើង?"</string>
+    <string msgid="4074450431532859214" name="respond_via_sms_canned_response_2">"ខ្ញុំ​នឹង​ហៅ​​​​ទៅ​អ្នក​​វិញ។"</string>
+    <string msgid="3496079065723960450" name="respond_via_sms_canned_response_3">"ខ្ញុំ​នឹង​ហៅ​ទៅ​អ្នក​នៅ​ពេល​ក្រោយ។"</string>
+    <string msgid="1698989243040062190" name="respond_via_sms_canned_response_4">"មិន​អាច​និយាយ​បាន​ទេ​ឥឡូវ​នេះ។ ហៅ​​​​មក​ខ្ញុំ​ពេល​ក្រោយ?"</string>
+    <string msgid="3754000371039709383" name="respond_via_sms_setting_title">"ការ​ឆ្លើយតប​រហ័ស"</string>
+    <string msgid="6104662227299493906" name="respond_via_sms_setting_title_2">"កែ​ការ​ឆ្លើយតប​រហ័ស"</string>
+    <string msgid="9150281183930613065" name="respond_via_sms_setting_summary"/>
+    <string msgid="20379890418289778" name="respond_via_sms_edittext_dialog_title">"ឆ្លើយតប​រហ័ស"</string>
+    <string msgid="7229149977515784269" name="respond_via_sms_confirmation_format">"បាន​ផ្ញើ​សារ​ទៅ <xliff:g id="PHONE_NUMBER">%s</xliff:g> ។"</string>
+    <string msgid="1435394568102165287" name="outgoing_call_not_allowed">"ការហៅពេលមានអាសន្នដែលត្រូវបានអនុញ្ញាតដោយម្ចាស់ឧបករណ៍តែប៉ុណ្ណោះ។"</string>
+    <string msgid="1940125199802007505" name="outgoing_call_error_no_phone_number_supplied">"ដើម្បីធ្វើការហៅ បញ្ចូលលេខដែលមានសុពលភាព។"</string>
+    <string msgid="3749211605014548386" name="duplicate_video_call_not_allowed">"មិន​អាច​បន្ថែម​​​នៅ​ពេល​នេះ​​បាន​ទេ។"</string>
+    <string msgid="4164780423805688336" name="no_vm_number">"បាត់​​ចំនួន​​សារ​ជា​សំឡេង"</string>
+    <string msgid="1300729501030053828" name="no_vm_number_msg">"គ្មាន​ចំនួន​សារ​ជា​សំឡេង​​ត្រូវ​បាន​រក្សា​ទុក​នៅ​លើ​ស៊ី​ម​កាត​ទេ​។"</string>
+    <string msgid="4676479471644687453" name="add_vm_number_str">"បន្ថែម​លេខ"</string>
+    <string name="outgoing_call_error_limit_exceeded">ការហៅមិនបានបញ្ជូន, លើសដែនកំណត់។</string>
+    <string name="handle_restricted">"បាន​ដាក់​កម្រិត"</string>
+    <string msgid="2991054870745666038" name="incall_error_supp_service_unknown">"សេវាកម្ម​​ដែល​មិន​បាន​គាំទ្រ​។"</string>
+    <string msgid="3503552565745872241" name="incall_error_supp_service_switch">"មិន​អាច​ប្ដូរ​ការ​ហៅ។"</string>
+    <string msgid="914362338192301746" name="incall_error_supp_service_separate">"មិន​អាច​បែងចែក​​ការ​ហៅ។"</string>
+    <string msgid="2509871374644921632" name="incall_error_supp_service_transfer">"មិន​អាច​ផ្ទេរ​ការ​ហៅ​។"</string>
+    <string msgid="2505727299596357312" name="incall_error_supp_service_conference">"មិន​អាច​ហៅ​ជា​សន្និសីទ។"</string>
+    <string msgid="7055164130563826216" name="incall_error_supp_service_reject">"មិន​អាច​បដិសេធ​ការ​ហៅ​។"</string>
+    <string msgid="7417583238334762737" name="incall_error_supp_service_hangup">"មិន​អាច​ហៅ​បាន​ទេ។"</string>
+    <string name="mo_code_unconditional_cf_active">ការបញ្ចូនការហៅ\nធ្វើឲ្យសកម្មក្រៅផ្លូវការ</string>
+    <string name="mo_code_some_cf_active">ការបញ្ជូនការហៅ\nលើលក្ខ័ណ្ឌ</string>
+    <string name="mo_code_call_forwarded">ការហៅបានបញ្ជូន</string>
+    <string name="mo_code_call_is_waiting">ការហៅរងចាំ</string>
+    <string name="mo_code_cug_call">បិទក្រុមអ្នកប្រើ</string>
+    <string name="mo_code_outgoing_calls_barred">រារាំងការហៅចេញ</string>
+    <string name="mo_code_incoming_calls_barred">ការហៅចូលត្រូវរារាំងនៅផ្នែកម្ខាងទៀត </string>
+    <string name="mo_code_clir_suppression_rejected">ឆែកមើលអត្តសញ្ញាណអ្នកហៅ សេវាកម្មការផ្ញើ</string>
+    <string name="mo_code_call_deflected">បានផ្ទេរការហៅ</string>
+    <string name="mt_code_forwarded_call">វាជាការហៅដែលបានបញ្ជូន</string>
+    <string name="mt_code_cug_call">បិទក្រុមអ្នកប្រើ</string>
+    <string name="mt_code_call_on_hold">ចាំការហៅ</string>
+    <string name="mt_code_call_retrieved">ទាញយកការហៅ</string>
+    <string name="mt_code_multi_party_call">ការហៅជាខនហ្វឺរេន</string>
+    <string name="mt_code_on_hold_call_released">កាន់ការបញ្ចេញការហៅ</string>
+    <string name="mt_code_forward_check_received">បញ្ជូនការឆែកមើលសារ SS ដែលបានទទួល</string>
+    <string name="mt_code_call_connecting_ect">ការផ្ទេរការហៅ</string>
+    <string name="mt_code_call_connected_ect">ការផ្ទេរការហៅសកម្ម</string>
+    <string name="mt_code_deflected_call">វាជាការឡងចំពោះការហៅ</string>
+    <string name="mt_code_additional_call_forwarded">ការហៅចូលបន្ថែមត្រូវបានបញ្ជូន</string>
+    <string name="mt_code_forwarded_cf">ការហៅបានបញ្ជូន</string>
+    <string name="mt_code_forwarded_cf_uncond">បញ្ជូនការហៅដោយគ្មានលក្ខ័ណ្ឌ</string>
+    <string name="mt_code_forwarded_cf_cond">បញ្ជូនការហៅដោយមានលក្ខ័ណ្ឌ</string>
+    <string name="mt_code_forwarded_cf_busy">បញ្ជូនការហៅជាប់រវល់</string>
+    <string name="mt_code_forwarded_cf_no_reply">ការបញ្ជូនការហៅមិនបានឆ្លើយតប</string>
+    <string name="mt_code_forwarded_cf_not_reachable">ការបញ្ជូនការហៅមិនអាចចូលបាន</string>
+
+</resources>

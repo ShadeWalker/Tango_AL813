@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="camera_error_title">"Kaamera viga"</string>
+    <string name="cannot_connect_camera">"Ei saa kaameraga ühendada."</string>
+    <string name="camera_disabled">"Kaamera on keelatud turvaeeskirjade tõttu."</string>
+    <string name="camera_label">"Kaamera"</string>
+    <string name="video_camera_label">"Videokaamera"</string>
+    <string name="gallery_camera_bucket_name">"Kaamera pildid"</string>
+    <string name="gallery_camera_videos_bucket_name">"Kaamera videod"</string>
+    <string name="wait">"Oodake ..."</string>
+    <string name="no_storage" product="nosdcard">Enne kaamera kasutamist ühendage USB-mälu.</string>
+    <string name="no_storage" product="default">Enne kaamera kasutamist sisestage microSD-kaart.</string>
+    <string name="not_enough_space" product="nosdcard">USB-mälu on täis.</string>
+    <string name="not_enough_space" product="default">SD-kaart on täis.</string>
+    <string name="preparing_sd" product="nosdcard">USB-mälu ettevalmistamine\u2026</string>
+    <string name="preparing_sd" product="default">SD-kaardi ettevalmistamine\u2026</string>
+    <string name="access_sd_fail" product="nosdcard">Ei saa juurdepääsu USB-mälule.</string>
+    <string name="access_sd_fail" product="default">Ei saa juurdepääsu microSD-kaardile.</string>
+    <string name="confirm_restore_message">"Kas soovite taastada kaamera vaikesätted?"</string>
+    <string name="review_play">"Taasesita"</string>
+    <string name="review_cancel">"Tühista"</string>
+    <string name="review_ok">"Valmis"</string>
+    <string name="review_retake">"TEE UUESTI"</string>
+    <string name="camera_gallery_photos_text">"Galerii"</string>
+    <string name="time_lapse_title">"Aeglase filmimise salvestamine"</string>
+    <string name="pref_camera_id_title">"Vali kaamera"</string>
+    <string name="pref_camera_id_entry_back">"Tagasi"</string>
+    <string name="pref_camera_id_entry_front">"Eestvaade"</string>
+    <string name="pref_camera_recordlocation_title">GPS-i asukohainfo</string>
+    <string name="pref_camera_recordlocation_entry_off">"väljas"</string>
+    <string name="pref_camera_recordlocation_entry_on">"sees"</string>
+    <string name="pref_video_quality_title">"Video kvaliteet"</string>
+    <string name="pref_video_time_lapse_frame_interval_title">"Aeglase filmimise ajavahemik"</string>
+    <string name="pref_camera_settings_category">"Kaamera seaded"</string>
+    <string name="pref_camcorder_settings_category">"Videokaamera seaded"</string>
+    <string name="pref_camera_picturesize_title">"Pildi suurus"</string>
+    <string name="pref_camera_picturesize_entry_2592x1936">"5 miljonit pikslit"</string>
+    <string name="pref_camera_picturesize_entry_2048x1536">"3 miljonit pikslit"</string>
+    <string name="pref_camera_picturesize_entry_1600x1200">"2 miljonit pikslit"</string>
+    <string name="pref_camera_picturesize_entry_1280x960">"1,3 miljonit pikslit"</string>
+    <string name="pref_camera_picturesize_entry_1024x768">"1M pikslit"</string>
+    <string name="pref_camera_picturesize_entry_640x480">"VGA"</string>
+    <string name="pref_camera_picturesize_entry_320x240">"QVGA"</string>
+    <string name="pref_camera_focusmode_title">"Teravustamisrežiim"</string>
+    <string name="pref_camera_focusmode_entry_auto">"automaatne"</string>
+    <string name="pref_camera_focusmode_entry_infinity">"LÕPMATUS"</string>
+    <string name="pref_camera_focusmode_entry_macro">"MAKRO"</string>
+    <string name="pref_camera_flashmode_title">"VÄLGUREŽIIM"</string>
+    <string name="pref_camera_flashmode_entry_auto">"automaatne"</string>
+    <string name="pref_camera_flashmode_entry_on">"sees"</string>
+    <string name="pref_camera_flashmode_entry_off">"väljas"</string>
+    <string name="pref_camera_whitebalance_title">"VALGE TASAKAAL"</string>
+    <string name="pref_camera_whitebalance_entry_auto">"automaatne"</string>
+    <string name="pref_camera_whitebalance_entry_incandescent">"HÕÕGLAMP"</string>
+    <string name="pref_camera_whitebalance_entry_daylight">"PÄEVAVALGUS"</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent">"PÄEVAVALGUSLAMP"</string>
+    <string name="pref_camera_whitebalance_entry_cloudy">"Pilves"</string>
+    <string name="pref_camera_scenemode_title">"Stseenirežiim"</string>
+    <string name="pref_camera_scenemode_entry_auto">"automaatne"</string>
+    <string name="pref_camera_scenemode_entry_action">"TOIMING"</string>
+    <string name="pref_camera_scenemode_entry_night">"ÖÖ"</string>
+    <string name="pref_camera_scenemode_entry_sunset">"Päikeseloojang"</string>
+    <string name="pref_camera_scenemode_entry_party">"PIDU"</string>
+    <string name="not_selectable_in_scene_mode">"Seda ei saa stseenirežiimis valida."</string>
+    <string name="pref_restore_title">"Kaamera seaded"</string>
+    <string name="pref_restore_detail">"Taasta vaikeseaded"</string>
+    <string name="pref_exposure_title">"SÄRIAEG"</string>
+    <string name="dialog_ok">"OK"</string>
+    <string name="spaceIsLow_content" product="nosdcard">USB-mälu hakkab täituma. Muutke kvaliteedisätet või kustutage mõni pilt või muu fail.</string>
+    <string name="spaceIsLow_content" product="default">microSD-kaart hakkab täituma. Muutke kvaliteedisätteid või kustutage mõni fail mäluruumi vabastamiseks.</string>
+    <string name="video_reach_size_limit">"Suuruspiirang on saavutatud."</string>
+    <string name="share_picture_via">"Pildi jagamine rakenduse kaudu:"</string>
+    <string name="share_video_via">"Video jagamine rakenduse kaudu:"</string>
+    <string name="no_picture_to_share">"Jagatavad pildid puuduvad."</string>
+    <string name="no_video_to_share">"Jagatavad videod puuduvad."</string>
+    <string name="pano_too_fast_prompt">"Liiga kiire"</string>
+    <string name="pano_dialog_prepare_preview">"Panoraami ettevalmistus"</string>
+    <string name="pano_dialog_panorama_failed">"Panoraami ei saanud salvestada."</string>
+    <string name="pano_dialog_title">"Panoraam"</string>
+    <string name="pano_capture_indication">"Panoraami jäädvustamine"</string>
+    <string name="pano_dialog_waiting_previous">"Eelmise panoraami ootel"</string>
+    <string name="pano_review_saving_indication_str">"Salvestamine..."</string>
+    <string name="tap_to_focus">"Puudutage fokuseerimiseks."</string>
+    <string name="pref_video_effect_title">"Efektid"</string>
+    <string name="effect_none">Vaba käsi</string>
+    <string name="effect_goofy_face_squeeze">"Pitsita"</string>
+    <string name="effect_goofy_face_big_eyes">"Suured silmad"</string>
+    <string name="effect_goofy_face_big_mouth">"Suur suu"</string>
+    <string name="effect_goofy_face_small_mouth">"Väike suu"</string>
+    <string name="effect_goofy_face_big_nose">"Suur nina"</string>
+    <string name="effect_goofy_face_small_eyes">"Väiksed silmad"</string>
+    <string name="effect_backdropper_space">"Kosmoses"</string>
+    <string name="effect_backdropper_sunset">"Päikeseloojang"</string>
+    <string name="effect_backdropper_gallery">"Teie video"</string>
+    <string name="not_selectable_in_effect">Ei saa valida, kui efekt on sisse lülitatud.</string>
+    <string name="video_snapshot_hint">"Puudutage salvestamise ajal foto jäädvustamiseks."</string>
+    <string name="disable_video_snapshot_hint">"Kui eriefektid on sisse lülitatud, on video hetktõmmis keelatud."</string>
+    <string name="clear_effects">"Nulli efektid"</string>
+    <string name="effect_silly_faces">"NALJAKAD NÄOD"</string>
+    <string name="effect_background">"Taust"</string>
+    <string name="accessibility_shutter_button">"Päästiku nupp"</string>
+    <string name="accessibility_review_thumbnail">"Viimane foto"</string>
+    <string name="accessibility_camera_picker">"Eesmise ja tagumise kaamera lüliti"</string>
+    <string name="accessibility_mode_picker">"Kaamera, video või panoraami valija"</string>
+    <string name="accessibility_second_level_indicators">"Rohkem seadete juhtnuppe"</string>
+    <string name="accessibility_back_to_first_level">"Sule seadete juhtnupud"</string>
+    <string name="accessibility_zoom_control">"Suumi juhtimine"</string>
+    <string name="accessibility_decrement">"Vähenda %1$s"</string>
+    <string name="accessibility_increment">"Suurenda %1$s"</string>
+    <string name="accessibility_switch">"Lüliti %1$s"</string>
+</resources>

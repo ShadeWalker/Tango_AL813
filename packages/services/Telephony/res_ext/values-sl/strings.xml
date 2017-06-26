@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">Zmanjševanje šuma</string>
+    <string name="dual_mic_summary">Zadušitev šuma vašega ozadja med klicem</string>
+    <string name="anc_title">Aktivno zmanjšanje šuma (ANC)</string>
+    <string name="anc_on">Vklopi ANC</string>
+    <string name="anc_off">Izklopi ANC</string>
+    <string name="ip_prefix_setting">Številka predpone IP</string>
+    <string name="ip_prefix_setting_lable">Številka predpone IP (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">Nastavitve številke predpone IP</string>
+    <string name="enter_ip_prefix_number">Vnesite številko predpone</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">V nastavitvah glasovnega klica najprej vnesite številko predpone IP.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">Funkcija klicanja IP ne velja za internetne klice.</string>
+    <string name="ip_prefix_edit_default_sum">Vnesite številko predpone za klicanje IP</string>
+    <string name="lable_call_barring">"Zapora klicev"</string>
+    <string name="title_call_barring">Zapora klicev (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">Vsi odhodni klici</string>
+    <string name="lable_all_outgoing_international">Mednarodni odhodni klici</string>
+    <string name="lable_all_out_except">Mednarodni odhodni klici, razen v domači PLMN</string>
+    <string name="lable_all_incoming">Vsi dohodni klici</string>
+    <string name="lable_incoming_calls_except">Dohodni klici med gostovanjem</string>
+    <string name="deactivate_all">Prekliči vse</string>
+    <string name="change_password">Spremeni geslo zapore</string>
+    <string name="call_barring_sum">Nastavitve zapore glasovnih klicev</string>
+    <string name="lable_disable">Onemogočeno</string>
+    <string name="lable_enable">"Omogočeno"</string>
+    <string name="old_password_label">Staro geslo (4 števke)</string>
+    <string name="new_password_label">Novo geslo (4 števke)</string>
+    <string name="invalid_password">Vnesite geslo, ki ima 4 števke.</string>
+    <string name="confirm_password_label">Potrdi novo geslo</string>
+    <string name="mismatch_password">Vneseno geslo se ne ujema. Poskusite znova.</string>
+    <string name="password_changed">Geslo je bilo uspešno spremenjeno</string>
+    <string name="enter_callbarring_password">Vnesite geslo za zaporo klicev (4 števke)</string>
+    <string name="wrong_password">Napaka gesla</string>
+    <string name="error_title">"Napaka"</string>
+    <string name="cell_broadcast">Oddajanje v celici</string>
+    <string name="cell_broadcast_settings">Nastavitve oddajanja v celici</string>
+    <string name="cb_menu_language">"Jezik"</string>
+    <string name="cb_menu_add_channel">Dodaj kanal</string>
+    <string name="cb_menu_channel_list">Seznam kanalov</string>
+    <string name="cb_dialog_title_language_choice">Izberi jezik</string>
+    <string name="cb_channel_dialog_channel_name">Ime kanala (0–10 znakov)</string>
+    <string name="cb_channel_dialog_channel_number">Številka kanala (0–65534)</string>
+    <string name="cb_channel_dialog_channel_state">Omogoči kanal</string>
+    <string name="cb_channel_dialog_edit_channel">Urejanje kanala</string>
+    <string name="cb_menu_edit">"Uredi"</string>
+    <string name="cb_menu_delete">"Izbriši"</string>
+    <string name="cb_error_channel_num">Vnesite številko kanala (0–65534).</string>
+    <string name="cb_error_channel_name">Dolžina imena kanala ni pravilna (1–10 znakov).</string>
+    <string name="cb_error_language_select">Izberite najmanj en jezik.</string>
+    <string name="cb_error_channel_id_exist">ID kanala že obstaja.</string>
+    <string name="cb_all_languages">"Vsi jeziki"</string>
+    <string name="cb_default_new_channel_name">Nov kanal</string>
+    <string name="fdn_errorcode_unknown_info">Ni uspelo, prišlo je do neznane napake, poskusite kasneje.</string>
+    <string name="fdn_errorcode_number_info">Ni uspelo, številka stika je predolga.</string>
+    <string name="fdn_errorcode_name_info">Ni uspelo, ime stika je predolgo.</string>
+    <string name="fdn_errorcode_storage_info">Ni uspelo, pomnilnik je poln.</string>
+    <string name="fdn_errorcode_phb_info">Ni uspelo, telefonski imenik trenutno ni pripravljen, poskusite znova kasneje.</string>
+    <string name="fdn_errorcode_pin2_info">Ni uspelo, neveljaven PIN2.</string>
+    <string name="net_or_simcard_busy">Zasedeno omrežje ali kartica SIM, poskusite znova kasneje.</string>
+    <string name="plmn_list_setting_title">Prednostna omrežja</string>
+    <string name="network_id">ID omrežja</string>
+    <string name="plmn_list_setting_add_plmn">Nov PLMN</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">Iskanje...</string>
+    <string name="sum_search_femtocell_networks">Ročno izberite femtocell</string>
+    <string name="register_femtocell_point_wait_tip">Izvajam registracijo <xliff:g id="femto_cell_info">%s</xliff:g> ...</string>
+    <string name="register_femtocell_point_result_fail_tip">Povezave s tem omrežjem trenutno ni mogoče vzpostaviti. Poskusite znova pozneje.</string>
+    <string name="network_type">Vrsta omrežja</string>
+    <string name="gsm_umts_network_preferences_title">"Način omrežja"</string>
+    <string name="gsm_umts_network_preferneces_summary">Še ni uveljavljeno!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"Način omrežja"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G (samodejno)</item>
+        <item>Samo 3G</item>
+        <item>Samo 2G</item>
+    </string-array>
+    <string name="notification_voicemail_text">Izberite glasovna sporočila, ki si jih želite ogledati</string>
+    <string name="notification_network_selection_without_operator">Izbrano omrežje ni na voljo</string>
+    <string name="network_setting_all_forbidden_dialog">Na voljo ni nobeno omrežje.</string>
+    <string name="network_forbidden">prepovedano</string>
+    <string name="fdn_contact_number_invalid">Neveljavna številka stika.</string>
+    <string name="fdn_puk_need_tips">PIN2 blokiran. Spremenite PIN2 in poskusite znova!</string>
+    <string name="fdn_phone_book_busy">Telefonski imenik je zaseden, poskusite znova kasneje.</string>
+    <string name="one_retry_left">Še 1 poskus</string>
+    <string name="retries_left">Preostalih poskusov: <xliff:g id="number">%d</xliff:g></string>
+    <string name="pin_length_indicate">(4–8 števk)</string>
+    <string name="puk_length_indicate">(8 števk)</string>
+    <string name="unblock_pin2">Odblokiraj PIN2</string>
+    <string name="sim_permanently_locked">Če kodo PUK2 napačno vnesete več kot 10-krat, se kartica SIM trajno zaklene</string>
+    <string name="magi_conference_title">MagiKonferenca</string>
+    <string name="magi_conference_summary">Izboljšana kakovost glasu, kadar telefon uporablja več oseb, da govorijo s sogovornikom na drugi strani.</string>
+    <string name="volte_is_adding_participants">Potek dodajanje članov konference. Prosimo, počakajte ...</string>
+    <string name="volte_fail_to_invit_participants">Dodajanje članov konferenci ni uspelo.</string>
+    <string name="voicemail_lable">Glasovna pošta (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">Za dokončanje operacije morate odpreti podatkovno povezavo <xliff:g id="sub_name">%s</xliff:g>.</string>
+    <string name="cdma_labelCFU">"Vedno preusmeri"</string>
+    <string name="cdma_labelCFB">"Preusmeri, kadar je zasedeno"</string>
+    <string name="cdma_labelCFNRy">"Preusmeri, ko ni odgovora"</string>
+    <string name="cdma_labelCFNRc">"Preusmeri, ko ni dosegljivo."</string>
+    <string name="cdma_labelCFC">Prekliči vse preusmeritve</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">Onemogoči omejitev prepoznavanja številke klicatelja</string> 
+    <string name="cdma_cnir_turnon">Omogoči prepoznavanje številke klicatelja</string>
+    <string name="lte_data_only_prompt">Te funkcije ni mogoče uporabiti zaradi načina podatkov 4G. Želite zapreti način podatkov 4G?</string>
+    <string name="lte_data_only_timeout">Omrežje 4G na vaši trenutni lokaciji ni na voljo. Želite končati in poiskati druga omrežja?</string>
+    <string name="lte_only_dialog_button_yes">"DA"</string>
+    <string name="lte_only_dialog_button_no">"NE"</string>
+    <string name="lte_only_dialog_title_prompt">Poziv</string>
+    <string name="enable_4G_data">Omogoči podatke 4G</string>
+    <string name="enable_4G_data_summary">4G omogoča boljšo in hitrejšo internetno povezavo</string>
+    <string name="only_use_LTE_data">Uporabi samo podatke LTE</string>
+    <string name="only_use_LTE_data_summary">Če omogočite samo uporabo posameznih podatkov, funkcija ne bo omogočala klicev in sporočil.</string>
+    <string name="network_current">registracija</string>
+    <string name="network_available">Na voljo</string>
+    <string name="network_unkown">Neznano</string>
+</resources>

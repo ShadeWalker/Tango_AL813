@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Kontaktspeicher</string>
+    <string name="provider_label">Kontakte</string>
+    <string name="upgrade_msg">Kontaktdatenbank wird erweitert.</string>
+    <string name="upgrade_out_of_memory_notification_ticker">Die Kontaktdatenbankerweiterung benötigt mehr Speicher.</string>
+    <string name="upgrade_out_of_memory_notification_title">Speicher für Kontakte wird erweitert</string>
+    <string name="upgrade_out_of_memory_notification_text">Antippen, um den Vorgang abzuschließen.</string>
+    <string name="default_directory">Kontakte</string>
+    <string name="local_invisible_directory">Andere</string>
+    <string name="read_write_all_voicemail_label">Auf alle Voicemails zugreifen</string>
+    <string name="read_write_all_voicemail_description">Erlaubt es der App alle Voicemails, auf die das Gerät Zugriff hat, zu speichern und abzurufen.</string>
+    <string name="voicemail_from_column">Sie haben eine Sprachnachricht von <xliff:g id="voicemail_sim_display_name">%s</xliff:g>. Wollen Sie sie jetzt abhören?</string>
+    <string name="debug_dump_title">Kontaktdatenbank kopieren</string>
+    <string name="debug_dump_database_message">Sie sind dabei 1) eine Kopie Ihrer Datenbank mit allen Kontaktinformationen und Anrufprotokollen in den internen Speicher abzulegen und 2) sie per E-Mail zu versenden. Vergessen Sie nicht, die Kopie zu löschen, wenn Sie sie kopiert haben oder die E-Mail empfangen wurde.</string>
+    <string name="debug_dump_delete_button">Jetzt löschen</string>
+    <string name="debug_dump_email_sender_picker">Wählen Sie ein Programm, um die Datei zu versenden.</string>
+    <string name="debug_dump_email_subject">Kalender-Db ist angehängt</string>
+    <string name="debug_dump_email_body">Im Anhang befindet sich meine Kontaktdatenbank mit allen Kontaktinformationen. Bitte vertraulich behandeln.</string>
+    
+    <string name="sharedUserLabel">Android-Kernapplikationen</string>
+    <string name="debug_dump_start_button">Start</string>
+</resources>

@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="1107073389495104784" name="phoneAppLabel" product="tablet">"Мобильные данные"</string>
+    <string msgid="906161039445636857" name="phoneAppLabel" product="default">"Телефон"</string>
+    <string msgid="7812140032168171053" name="emergencyDialerIconLabel">"Экстренный вызов"</string>
+    <string msgid="2331230813161304895" name="phoneIconLabel">"Телефон"</string>
+    <string msgid="8630418672279521003" name="fdnListLabel">"Разрешенные номера"</string>
+    <string msgid="6878797917991465859" name="unknown">"Неизвестный абонент"</string>
+    <string msgid="6713286113000232309" name="private_num">"Скрытый номер"</string>
+    <string msgid="4793877574636445118" name="payphone">"Телефон-автомат"</string>
+    <string msgid="9035493194749959955" name="onHold">На удержании</string>
+    <string msgid="6347869857061147003" name="mmiStarted">"Код MMI запущен"</string>
+    <string msgid="485588686340541690" name="ussdRunning">"Выполняется запрос USSD…"</string>
+    <string msgid="2771923949751842276" name="mmiCancelled">"Код MMI отменен"</string>
+    <string msgid="5044513931633602634" name="cancel">"Отмена"</string>
+    <string msgid="1810529547726803893" name="enter_input">"Допустимая длина USSD-сообщения: <xliff:g id="MIN_LEN">%d</xliff:g>–<xliff:g id="MAX_LEN">%d</xliff:g> символов. Повторите попытку."</string>
+    <string msgid="4691922394301969053" name="manageConferenceLabel">"Управление конференц-вызовом"</string>
+    <string msgid="3811371167865772377" name="ok">"ОК"</string>
+    <string msgid="27649582100085266" name="audio_mode_speaker">"Динамик"</string>
+    <string msgid="4156527186373869107" name="audio_mode_earpiece">"Динамик гарнитуры"</string>
+    <string msgid="1465350758489175975" name="audio_mode_wired_headset">"Проводная гарнитура"</string>
+    <string msgid="3047641300848211128" name="audio_mode_bluetooth">"Bluetooth"</string>
+    <string msgid="7601815427707856238" name="wait_prompt_str">"Отправить следующие тоны?\n"</string>
+    <string msgid="1789964702154314806" name="pause_prompt_str">"Отправка тональных сигналов\n"</string>
+    <string msgid="4106860097497818751" name="send_button">"Позвонить"</string>
+    <string msgid="3564467212025151797" name="pause_prompt_yes">"Да"</string>
+    <string msgid="6686238803236884877" name="pause_prompt_no">"Нет"</string>
+    <string msgid="5543521676355533577" name="wild_prompt_str">"Заменить универсальный символ на"</string>
+    <string msgid="4164780423805688336" name="no_vm_number">"Не указан номер голосовой почты"</string>
+    <string msgid="1300729501030053828" name="no_vm_number_msg">"На SIM-карте нет ни одного номера голосовой почты."</string>
+    <string msgid="4676479471644687453" name="add_vm_number_str">"Добавить номер"</string>
+    <string msgid="2284912838477558454" name="puk_unlocked">"SIM-карта разблокирована. Осуществляется разблокировка телефона..."</string>
+    <string msgid="780479633159517250" name="label_ndp">"PIN для разблокировки сети SIM-карты"</string>
+    <string msgid="683628237760543009" name="sim_ndp_unlock_text">"Разблокировать"</string>
+    <string msgid="1604823375752456947" name="sim_ndp_dismiss_text">"Закрыть"</string>
+    <string msgid="6412629401033249351" name="requesting_unlock">"Запрос разблокировки сети..."</string>
+    <string msgid="6490531697031504225" name="unlock_failed">"Запрос на разблокировку сети не выполнен."</string>
+    <string msgid="6770085622238180152" name="unlock_success">"Разблокировка сети успешно завершена."</string>
+    <string msgid="3831911315358856062" name="mobile_network_settings_not_available">"Настройки мобильных сетей недоступны этому пользователю."</string>
+    <string msgid="5930842194056092106" name="labelGSMMore">"Настройки вызовов GSM"</string>
+    <string msgid="1630676740428229339" name="labelCDMAMore">"Настройки вызовов CDMA"</string>
+    <string msgid="9043423184895642077" name="apn_settings">"Точки доступа (APN)"</string>
+    <string msgid="3876743539816984008" name="settings_label">"Настройки сети"</string>
+    <string msgid="6376603393888116364" name="phone_accounts">"Аккаунты для звонков"</string>
+    <string msgid="1969188078933152231" name="phone_accounts_make_calls_with">"Выбрать аккаунт для звонков"</string>
+    <string msgid="4677789312053828493" name="phone_accounts_make_sip_calls_with">"Выбрать аккаунт для звонков через SIP"</string>
+    <string msgid="4346499067149985702" name="phone_accounts_ask_every_time">"Сначала спрашивать"</string>
+    <string msgid="4141710640883261094" name="phone_accounts_settings_header">"Настройки"</string>
+    <string msgid="5232948804226424002" name="phone_accounts_choose_accounts">"Выбрать аккаунты"</string>
+    <string msgid="1365215726106915865" name="phone_accounts_selection_header">"Аккаунты для звонков"</string>
+    <string msgid="2023821743341923271" name="phone_accounts_add_sip_account">"Добавить SIP-аккаунт"</string>
+    <string msgid="1361715069911607109" name="phone_accounts_configure_account_settings">"Задать настройки аккаунта"</string>
+    <string msgid="1840272538233414629" name="phone_account_wifi_calling">"Звонок через Wi-Fi"</string>
+    <string msgid="7491443219113013323" name="wifi_calling_do_not_use">"Не использовать Wi-Fi для звонков"</string>
+    <string msgid="5420257095556091770" name="wifi_calling_do_not_use_call_assistant">"Не использовать ассистент"</string>
+    <string msgid="6283702349285593683" name="wifi_calling_call_assistant_none">"Не использовать"</string>
+    <string msgid="229102032881680320" name="wifi_calling_call_assistant">"Ассистент для звонков"</string>
+    <string msgid="8460024827012666199" name="wifi_calling_use_call_assistant">"Использовать ассистент"</string>
+    <string msgid="9296558058772293" name="wifi_calling_select_call_assistant">"Выбрать ассистент для звонков"</string>
+    <string msgid="164985727137156474" name="wifi_calling_select_call_assistant_summary">"Настройка сети для звонков"</string>
+    <string msgid="6599987137133339698" name="wifi_calling_use_call_assistant_summary">"Разрешить приложениям или сервисам управлять сетями, которые используются для звонков"</string>
+    <string msgid="1092639708949670031" name="wifi_calling_call_assistant_configure">"Настроить"</string>
+    <string msgid="1498481943805913754" name="connection_service_default_label">"Встроенная служба подключения"</string>
+    <string msgid="8693759337917898954" name="voicemail">"Голосовая почта"</string>
+    <string msgid="2215592488517217448" name="voicemail_abbreviated">"ГП:"</string>
+    <string msgid="8873030692174541976" name="networks">"Операторы связи"</string>
+    <string msgid="8740238216690502563" name="cell_broadcast_settings">"Уведомления о чрезвычайных ситуациях"</string>
+    <string msgid="6112441768261754562" name="call_settings">Настройки</string>
+    <string msgid="1391795981938800617" name="additional_gsm_call_settings">"Дополнительные настройки"</string>
+    <string msgid="1385241520708457376" name="additional_gsm_call_settings_with_label">"Дополнительные настройки (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string msgid="4076647190996778012" name="sum_gsm_call_settings">"Дополнительные настройки только для вызовов GSM"</string>
+    <string msgid="8628958775721886909" name="additional_cdma_call_settings">"Дополнительные настройки вызовов CDMA"</string>
+    <string msgid="284753265979035549" name="sum_cdma_call_settings">"Дополнительные настройки только для вызовов CDMA"</string>
+    <string msgid="4699970172021870983" name="labelNwService">"Настройки сетевой службы"</string>
+    <string msgid="3888899447379069198" name="labelCallerId">"АОН"</string>
+    <string msgid="1826692909391168620" name="sum_loading_settings">"Загрузка настроек…"</string>
+    <string msgid="1071407020290873782" name="sum_hide_caller_id">"Скрывать номер при исходящих вызовах"</string>
+    <string msgid="6768534125447290401" name="sum_show_caller_id">"Номер, отображающийся при исходящих вызовах"</string>
+    <string msgid="1954518825510901365" name="sum_default_caller_id">"При исходящих вызовах использовать для отображения моего номера настройки, предоставляемые оператором"</string>
+    <string msgid="6120513814915920200" name="labelCW">"Ожидание вызова"</string>
+    <string msgid="8083061901633671397" name="sum_cw_enabled">"Извещать меня о входящих вызовах во время разговора"</string>
+    <string msgid="3648693907300104575" name="sum_cw_disabled">"Извещать меня о входящих вызовах во время разговора"</string>
+    <string msgid="3378927671091537173" name="call_forwarding_settings">"Настройки переадресации вызова"</string>
+    <string msgid="8569489414006897127" name="call_forwarding_settings_with_label">"Настройки переадресации вызовов (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string msgid="2574386948026924737" name="labelCF">"Переадресация вызова"</string>
+    <string msgid="8147177368148660600" name="labelCFU">"Всегда на номер"</string>
+    <string msgid="3560082430662923687" name="messageCFU">"Всегда переадресовывать вызов на этот номер"</string>
+    <string msgid="4014187342724130197" name="sum_cfu_enabled_indicator">"Переадресация всех вызовов"</string>
+    <string msgid="2450052502198827927" name="sum_cfu_enabled">"Переадресация всех вызовов на номер <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string msgid="6591985777096823616" name="sum_cfu_enabled_no_number">"Номер не указан"</string>
+    <string msgid="8384177689501334080" name="sum_cfu_disabled">"Выкл."</string>
+    <string msgid="6139853033106283172" name="labelCFB">"Если занят"</string>
+    <string msgid="3711089705936187129" name="messageCFB">"Номер для переадресации, если абонент занят"</string>
+    <string msgid="5984198104833116690" name="sum_cfb_enabled">"Переадресация на номер <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string msgid="4913145177320506827" name="sum_cfb_disabled">"Выкл."</string>
+    <string msgid="3506984333877998061" name="disable_cfb_forbidden">"Ваш оператор не позволяет отключать переадресацию вызовов, если телефон занят."</string>
+    <string msgid="1736067178393744351" name="labelCFNRy">"Если не отвечает"</string>
+    <string msgid="672317899884380374" name="messageCFNRy">"Номер для переадресации при отсутствии ответа"</string>
+    <string msgid="6955775691317662910" name="sum_cfnry_enabled">"Переадресация на номер <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string msgid="3884684060443538097" name="sum_cfnry_disabled">"Выкл."</string>
+    <string msgid="4308233959150658058" name="disable_cfnry_forbidden">"Ваш оператор не позволяет отключать переадресацию вызовов, если нет ответа."</string>
+    <string msgid="2614827454402079766" name="labelCFNRc">"Если не доступен"</string>
+    <string msgid="6380695421020295119" name="messageCFNRc">"Номер для переадресации, если абонент недоступен"</string>
+    <string msgid="7010898346095497421" name="sum_cfnrc_enabled">"Переадресация на номер <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string msgid="7222141261321276464" name="sum_cfnrc_disabled">"Отключено"</string>
+    <string msgid="5646361343094064333" name="disable_cfnrc_forbidden">"Ваш оператор не позволяет отключать переадресацию вызовов, если телефон находится вне зоны доступа."</string>
+    <string msgid="6146755386174019046" name="updating_title">"Настройки вызовов"</string>
+    <string msgid="5679923943740900965" name="call_settings_primary_user_only">"Настройки вызовов может изменить только основной пользователь."</string>
+    <string msgid="89359812614544532" name="call_settings_with_label">"Настройки SIM-карты (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string msgid="7970259216988931777" name="error_updating_title">"Ошибка настройки вызовов"</string>
+    <string msgid="1920291699287055284" name="reading_settings">"Чтение настроек…"</string>
+    <string msgid="8171225533884883252" name="updating_settings">"Обновление настроек…"</string>
+    <string msgid="4752151682666912828" name="reverting_settings">"Возврат к предыдущим настройкам…"</string>
+    <string msgid="6674110501330139405" name="response_error">"Неожиданный отклик сети."</string>
+    <string msgid="7027667130619518211" name="exception_error">"Ошибка сети или SIM-карты."</string>
+    <string msgid="18200614306525434" name="fdn_check_failure">"Разрешенные номера в приложении \"Телефон\" включены. В результате некоторые функции вызовов недоступны."</string>
+    <string msgid="2304459933248513376" name="radio_off_error">"Чтобы увидеть настройки, включите приемопередатчик."</string>
+    <string msgid="2365884406356986917" name="close_dialog">"ОК"</string>
+    <string msgid="7248657275000173526" name="enable">"Включить"</string>
+    <string msgid="4678348128118573672" name="disable">"Выключить"</string>
+    <string msgid="239476305819844391" name="change_num">"Обновить"</string>
+  <string-array name="clir_display_values">
+    <item msgid="5560134294467334594">"Настройки сети по умолчанию"</item>
+    <item msgid="7876195870037833661">"Скрыть номер"</item>
+    <item msgid="1108394741608734023">"Показывать номер"</item>
+  </string-array>
+    <string msgid="380744030726254139" name="vm_changed">"Номер голосовой почты изменен."</string>
+    <string msgid="3352934863246208918" name="vm_change_failed">"Не удалось изменить номер голосовой почты.\nЕсли проблема не будет решена, обратитесь к оператору связи."</string>
+    <string msgid="5298103228470214665" name="fw_change_failed">"Не удалось изменить номер переадресации.\nЕсли проблема не будет решена, обратитесь к оператору связи."</string>
+    <string msgid="8862896836093833973" name="fw_get_in_vm_failed">"Не удалось сохранить текущие настройки переадресации.\nВсе равно сменить провайдера?"</string>
+    <string msgid="3186040086622435212" name="no_change">"Номер не изменен."</string>
+    <string msgid="59911196126278922" name="sum_voicemail_choose_provider">"Выберите службу голосовой почты"</string>
+    <string msgid="2001233554889016880" name="voicemail_default">"Мой оператор"</string>
+    <string msgid="2843854043339307375" name="mobile_networks">"Настройки мобильных сетей"</string>
+    <string msgid="1181658289009300430" name="label_available">"Доступные сети"</string>
+    <string msgid="5230707536168902952" name="load_networks_progress">"Поиск…"</string>
+    <string msgid="4249426905018815316" name="empty_networks_list">"Сети не найдены."</string>
+    <string msgid="1601136049300882441" name="search_networks">"Поиск сетей"</string>
+    <string msgid="6828516148953325006" name="network_query_error">"Ошибка поиска сетей."</string>
+    <string msgid="9055203954040805084" name="register_on_network">"Регистрация в сети <xliff:g id="NETWORK">%s</xliff:g>…"</string>
+    <string msgid="5613353860205691579" name="not_allowed">"Ваша SIM-карта не поддерживает подключение к этой сети."</string>
+    <string msgid="2308119155752343975" name="connect_later">"Не удалось подключиться к сети. Повторите попытку позже."</string>
+    <string msgid="495135664535876612" name="registration_done">"Регистрация в сети завершена."</string>
+    <string msgid="3494252551249882718" name="sum_carrier_select">"Выберите оператора связи"</string>
+    <string msgid="2921092249873272715" name="sum_search_networks">"Поиск всех доступных сетей"</string>
+    <string msgid="5628402124471810174" name="select_automatically">"Автоматически"</string>
+    <string msgid="5614890115123292400" name="sum_select_automatically">"Автоматически выбирать предпочтительную сеть"</string>
+    <string msgid="6017849844573519637" name="register_automatically">"Автоматическая регистрация..."</string>
+    <string msgid="2336624679902659306" name="preferred_network_mode_title">"Тип сети"</string>
+    <string msgid="1434820673166126609" name="preferred_network_mode_summary">"Изменить режим работы сети"</string>
+    <string msgid="4048082093347807230" name="preferred_network_mode_dialogtitle">"Тип сети"</string>
+    <string msgid="8521677230113533809" name="preferred_network_mode_wcdma_perf_summary">"Предпочтительная сеть: WCDMA"</string>
+    <string msgid="3352445413437453511" name="preferred_network_mode_gsm_only_summary">"Предпочтительная сеть: только GSM"</string>
+    <string msgid="2836897236221063413" name="preferred_network_mode_wcdma_only_summary">"Предпочтительная сеть: только WCDMA"</string>
+    <string msgid="3161255745326408587" name="preferred_network_mode_gsm_wcdma_summary">"Предпочтительная сеть: GSM или WCDMA"</string>
+    <string msgid="3175690187294334241" name="preferred_network_mode_cdma_summary">"Предпочтительная сеть: CDMA"</string>
+    <string msgid="8332063064712726618" name="preferred_network_mode_cdma_evdo_summary">"Предпочтительная сеть: CDMA/EvDo"</string>
+    <string msgid="1309770926198634150" name="preferred_network_mode_cdma_only_summary">"Предпочтительная сеть: только CDMA"</string>
+    <string msgid="8472220691721269155" name="preferred_network_mode_evdo_only_summary">"Предпочтительная сеть: только EvDo"</string>
+    <string msgid="4726682079415227330" name="preferred_network_mode_cdma_evdo_gsm_wcdma_summary">"Предпочтительный режим: CDMA/EvDo/GSM/WCDMA"</string>
+    <string msgid="574752287596469136" name="preferred_network_mode_lte_summary">"Предпочтительный режим: LTE"</string>
+    <string msgid="8455358514068283935" name="preferred_network_mode_lte_gsm_wcdma_summary">"Предпочтительный режим: GSM/WCDMA/LTE"</string>
+    <string msgid="228702246343742853" name="preferred_network_mode_lte_cdma_evdo_summary">"Предпочтительный режим: CDMA и LTE/EvDo"</string>
+    <string msgid="1633134285545730364" name="preferred_network_mode_global_summary">"Предпочтительный режим: весь мир"</string>
+    <string msgid="9180775701594742750" name="preferred_network_mode_lte_wcdma_summary">"Предпочтительный режим: LTE/WCDMA"</string>
+    <string msgid="633315028976225026" name="preferred_network_mode_lte_gsm_umts_summary">"Предпочтительный режим: LTE/GSM/UMTS"</string>
+    <string msgid="3722647806454528426" name="preferred_network_mode_lte_cdma_summary">"Предпочтительная сеть: LTE или CDMA"</string>
+  <string-array name="preferred_network_mode_choices">
+    <item msgid="7886739962255042385">"LTE/WCDMA"</item>
+    <item msgid="577652050447385699">"LTE"</item>
+    <item msgid="6813597571293773656">"Весь мир"</item>
+    <item msgid="127064712132619032">"GSM/WCDMA/LTE"</item>
+    <item msgid="1126767511633425977">"CDMA и LTE/EvDo"</item>
+    <item msgid="6389676313771670660">"CDMA/EvDo/GSM/WCDMA"</item>
+    <item msgid="545430093607698090">"Только EvDo"</item>
+    <item msgid="1508557726283094448">"CDMA без EvDo"</item>
+    <item msgid="4341433122263841224">"CDMA/EvDo (авторежим)"</item>
+    <item msgid="5958053792390386668">"GSM/WCDMA (авторежим)"</item>
+    <item msgid="7913148405605373434">Только WCDMA</item>
+      <item msgid="1524224863879435516">Только GSM</item>
+    <item msgid="3817924849415716259">"GSM/WCDMA (предпочтительно)"</item>
+  </string-array>
+    <string msgid="522191650223239171" name="enhanced_4g_lte_mode_title">"Режим 4G LTE"</string>
+    <string msgid="2332175070522125850" name="enhanced_4g_lte_mode_summary">"Использовать сервисы LTE, чтобы улучшить качество связи (рекомендуется)"</string>
+    <string msgid="5972538663568715366" name="data_enabled">"Передача данных"</string>
+    <string msgid="2382798156640007971" name="data_enable_summary">"Разрешить использование данных"</string>
+    <string msgid="8871412572928323707" name="roaming">"Интернет-роуминг"</string>
+    <string msgid="7331106985174381987" name="roaming_enable">"Подключаться к службам передачи данных в роуминге"</string>
+    <string msgid="1843417228755568110" name="roaming_disable">"Подключаться к службам передачи данных в роуминге"</string>
+    <string msgid="8913735676127858115" name="roaming_reenable_message">"Мобильный Интернет в роуминге отключен. Вы можете включить интернет-роуминг в настройках."</string>
+    <string msgid="7126227198294007907" name="roaming_warning">"Разрешить передачу данных в роуминге? Может взиматься повышенная плата."</string>
+    <string msgid="6538311689850981686" name="gsm_umts_options">"Параметры GSM/UMTS"</string>
+    <string msgid="4016822858172249884" name="cdma_options">"Параметры CDMA"</string>
+    <string msgid="3715677828160555808" name="throttle_data_usage">"Передача данных"</string>
+    <string msgid="8762280193043815361" name="throttle_current_usage">"Передача данных в текущем периоде"</string>
+    <string msgid="1915198770363734685" name="throttle_time_frame">"Время передачи данных"</string>
+    <string msgid="4710388992676803508" name="throttle_rate">"Скорость передачи данных"</string>
+    <string msgid="243651091785169900" name="throttle_help">"Подробнее"</string>
+    <string msgid="1657318943142085170" name="throttle_status_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪) из <xliff:g id="USED_2">%3$s</xliff:g> (максимум)\nСледующий период начнется в течение <xliff:g id="USED_3">%4$d</xliff:g> дн. (<xliff:g id="USED_4">%5$s</xliff:g>)"</string>
+    <string msgid="6029276011123694701" name="throttle_data_usage_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪) из <xliff:g id="USED_2">%3$s</xliff:g> (максимум)"</string>
+    <string msgid="7492763592720107737" name="throttle_data_rate_reduced_subtext">"Превышен лимит в <xliff:g id="USED_0">%1$s</xliff:g>.\nСкорость передачи данных снижена до <xliff:g id="USED_1">%2$d</xliff:g> кбит/с."</string>
+    <!-- String.format failed for translation -->
+    <!-- no translation found for throttle_time_frame_subtext (7732763021560399960) -->
+    <skip/>
+    <string msgid="2149102656120726855" name="throttle_rate_subtext">"Превышение лимита снижает скорость передачи данных до <xliff:g id="USED">%1$d</xliff:g> кбит/с"</string>
+    <string msgid="3633091498168446044" name="throttle_help_subtext">"Подробнее о политике передачи данных вашего оператора мобильной связи…"</string>
+    <string msgid="5584192824053625842" name="cell_broadcast_sms">"Широковещательные SMS-службы"</string>
+    <string msgid="4851147873691392255" name="enable_disable_cell_bc_sms">"Широковещательные SMS-службы"</string>
+    <string msgid="6441688565738921084" name="cell_bc_sms_enable">"Широковещательные SMS-службы включены"</string>
+    <string msgid="3398365088309408749" name="cell_bc_sms_disable">"Широковещательные SMS-службы отключены"</string>
+    <string msgid="651715019785107312" name="cb_sms_settings">"Настройки широковещательных SMS-служб"</string>
+    <string msgid="2157014609041245335" name="enable_disable_emergency_broadcast">"Оповещения о чрезвычайных ситуациях"</string>
+    <string msgid="2645980025414010211" name="emergency_broadcast_enable">"Оповещения о чрезвычайных ситуациях включены"</string>
+    <string msgid="3665199821267569426" name="emergency_broadcast_disable">"Оповещения о чрезвычайных ситуациях отключены"</string>
+    <string msgid="6501582322182059412" name="enable_disable_administrative">"Административные функции"</string>
+    <string msgid="1750086122962032235" name="administrative_enable">"Административные функции включены"</string>
+    <string msgid="8433273857248698539" name="administrative_disable">"Административные функции отключены"</string>
+    <string msgid="1819693083025106678" name="enable_disable_maintenance">"Поддержка"</string>
+    <string msgid="8566636458770971189" name="maintenance_enable">"Поддержка включена"</string>
+    <string msgid="7340189100885066077" name="maintenance_disable">"Поддержка отключена"</string>
+    <string msgid="4968779723948432978" name="general_news_settings">"Основные новости"</string>
+    <string msgid="3935593091894685267" name="bf_news_settings">"Финансовые и деловые новости"</string>
+    <string msgid="7649399631270052835" name="sports_news_settings">"Новости спорта"</string>
+    <string msgid="5051153952959405035" name="entertainment_news_settings">"Калейдоскоп"</string>
+    <string msgid="7890281063123416120" name="enable_disable_local">"Местные"</string>
+    <string msgid="6370463247609136359" name="local_enable">"Местные новости включены"</string>
+    <string msgid="4405691986943795798" name="local_disable">"Местные новости отключены"</string>
+    <string msgid="4905652414535565872" name="enable_disable_regional">"Региональные"</string>
+    <string msgid="4434680415437834759" name="regional_enable">"Региональные новости включены"</string>
+    <string msgid="5359325527213850077" name="regional_disable">"Региональные новости отключены"</string>
+    <string msgid="236278090206880734" name="enable_disable_national">"Национальные"</string>
+    <string msgid="1172443648912246952" name="national_enable">"Национальные новости включены"</string>
+    <string msgid="326018148178601166" name="national_disable">"Национальные новости отключены"</string>
+    <string msgid="7535348799604565592" name="enable_disable_international">"Международные"</string>
+    <string msgid="5855356769925044927" name="international_enable">"Международные новости включены"</string>
+    <string msgid="2850648591041088931" name="international_disable">"Международные новости отключены"</string>
+    <string msgid="2841683501919760043" name="list_language_title">"Язык"</string>
+    <string msgid="8109546531071241601" name="list_language_summary">"Выбрать язык для новостей"</string>
+  <string-array name="list_language_entries">
+    <item msgid="6137851079727305485">"английский"</item>
+    <item msgid="1151988412809572526">"Французский"</item>
+    <item msgid="577840534704312665">"испанский"</item>
+    <item msgid="8385712091143148180">"японский"</item>
+    <item msgid="1858401628368130638">"корейский"</item>
+    <item msgid="1933212028684529632">"китайский"</item>
+    <item msgid="1908428006803639064">"иврит"</item>
+  </string-array>
+  <string-array name="list_language_values">
+    <item msgid="1804908636436467150">"1"</item>
+    <item msgid="289708030346890334">"2"</item>
+    <item msgid="1121469729692402684">"3"</item>
+    <item msgid="2614093115912897722">"4"</item>
+    <item msgid="2411164639857960614">"5"</item>
+    <item msgid="5884448729274543324">"6"</item>
+    <item msgid="5511864807618312598">"7"</item>
+  </string-array>
+    <string msgid="5442908726538951934" name="list_language_dtitle">"Языки"</string>
+    <string msgid="986967454867219114" name="enable_disable_local_weather">"Местный прогноз погоды"</string>
+    <string msgid="6199315114382448922" name="local_weather_enable">"Местный прогноз погоды включен"</string>
+    <string msgid="2510158089142626480" name="local_weather_disable">"Местный прогноз погоды отключен"</string>
+    <string msgid="8339572391278872343" name="enable_disable_atr">"Информация о пробках"</string>
+    <string msgid="5541757457789181799" name="atr_enable">"Информация о пробках включена"</string>
+    <string msgid="7085558154727596455" name="atr_disable">"Информация о пробках отключена"</string>
+    <string msgid="668189073721277199" name="enable_disable_lafs">"Расписание рейсов местного аэропорта"</string>
+    <string msgid="2791978667205137052" name="lafs_enable">"Расписание рейсов местного аэропорта включено"</string>
+    <string msgid="2391212397725495350" name="lafs_disable">"Расписание рейсов местного аэропорта отключено"</string>
+    <string msgid="6240381945336814024" name="enable_disable_restaurants">"Рестораны"</string>
+    <string msgid="5137657479469118847" name="restaurants_enable">"Рестораны включены"</string>
+    <string msgid="3678480270938424092" name="restaurants_disable">"Рестораны отключены"</string>
+    <string msgid="1822029172658551202" name="enable_disable_lodgings">"Аренда жилья"</string>
+    <string msgid="3230042508992850322" name="lodgings_enable">"Аренда жилья включена"</string>
+    <string msgid="3387879742320682391" name="lodgings_disable">"Аренда жилья отключена"</string>
+    <string msgid="1357809784475660303" name="enable_disable_retail_directory">"Торговый каталог"</string>
+    <string msgid="3280626290436111496" name="retail_directory_enable">"Торговый каталог включен"</string>
+    <string msgid="6479739816662879027" name="retail_directory_disable">"Торговый каталог отключен"</string>
+    <string msgid="5999495926176182128" name="enable_disable_advertisements">"Реклама"</string>
+    <string msgid="2050305021264683786" name="advertisements_enable">"Реклама включена"</string>
+    <string msgid="8350985908788707935" name="advertisements_disable">"Реклама отключена"</string>
+    <string msgid="6397810445293533603" name="enable_disable_stock_quotes">"Котировки ценных бумаг"</string>
+    <string msgid="4384802470887170543" name="stock_quotes_enable">"Котировки ценных бумаг включены"</string>
+    <string msgid="4781450084565594998" name="stock_quotes_disable">"Котировки ценных бумаг отключены"</string>
+    <string msgid="4863043263443942494" name="enable_disable_eo">"Вакансии"</string>
+    <string msgid="8623559062015685813" name="eo_enable">"Вакансии включены"</string>
+    <string msgid="3863812478090907609" name="eo_disable">"Вакансии отключены"</string>
+    <string msgid="908214593528968522" name="enable_disable_mhh">"Медицинские учреждения"</string>
+    <string msgid="5544500632306446815" name="mhh_enable">"Медицинские учреждения (включено)"</string>
+    <string msgid="8998210550117117437" name="mhh_disable">"Медицинские учреждения (отключено)"</string>
+    <string msgid="3517184627114999149" name="enable_disable_technology_news">"Новости технологий"</string>
+    <string msgid="7995209394210455181" name="technology_news_enable">"Новости технологий включены"</string>
+    <string msgid="5483490380561851946" name="technology_news_disable">"Новости технологий отключены"</string>
+    <string msgid="626771003122899280" name="enable_disable_multi_category">"Подборка из нескольких категорий"</string>
+    <string msgid="1179299804641721768" name="multi_category_enable">"Подборка из нескольких категорий включена"</string>
+    <string msgid="880104702904139505" name="multi_category_disable">"Подборка из нескольких категорий отключена"</string>
+    <string msgid="7702681952521375754" name="network_lte">"LTE (рекомендуется)"</string>
+    <string msgid="2723512640529983138" name="network_4G">"Авто 4G/3G/2G"</string>
+    <string name="network_4G_only">Только 4G</string>
+    <string name="network_3G" translatable="false">Авто 3G/2G</string>
+    <string name="network_3G_only" translatable="false">Только WCDMA</string>
+    <string name="network_2G" translatable="false">Только GSM</string>
+    <string name="network_1x" translatable="false">1x</string>
+    <string msgid="1323190488685355309" name="network_global">"Все"</string>
+    <string msgid="5757657769327732833" name="cdma_system_select_title">"Выбор системы"</string>
+    <string msgid="60460043745797517" name="cdma_system_select_summary">"Изменить режим роуминга CDMA"</string>
+    <string msgid="6083355415165359075" name="cdma_system_select_dialogtitle">"Выбор системы"</string>
+  <string-array name="cdma_system_select_choices">
+    <item msgid="176474317493999285">"Только домашняя"</item>
+    <item msgid="1205664026446156265">"Автоматически"</item>
+  </string-array>
+    <string msgid="1162564010076763284" name="cdma_subscription_title">"CDMA subscription"</string>
+    <string msgid="2530890766115781140" name="cdma_subscription_summary">"Переключение между RUIM/SIM и NV"</string>
+    <string msgid="2699527950523333110" name="cdma_subscription_dialogtitle">"подписка"</string>
+  <string-array name="cdma_subscription_choices">
+    <item msgid="2258014151300708431">"RUIM/SIM"</item>
+    <item msgid="5127722015571873880">"NV"</item>
+  </string-array>
+  <string-array name="cdma_subscription_values">
+    <item msgid="7494167883478914080">"0"</item>
+    <item msgid="6043847456049107742">"1"</item>
+  </string-array>
+    <string msgid="3793805892364814518" name="cdma_activate_device">"Активировать устройство"</string>
+    <string msgid="4255018217292548962" name="cdma_lte_data_service">"Настроить передачу данных"</string>
+    <string msgid="9028166176523012300" name="carrier_settings_title">"Настройки оператора"</string>
+    <string msgid="7878832555095183202" name="fdn">"Разрешенные номера"</string>
+    <string msgid="187084204115493366" name="fdn_with_label">"Разрешенные номера (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string msgid="8777755791892122369" name="manage_fdn_list">"Разрешенные номера"</string>
+    <string msgid="7437232552210469217" name="fdn_list_with_label">"Список разрешенных номеров (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string msgid="2156479741307463576" name="fdn_activation">"Активация разреш. номеров"</string>
+    <string msgid="5238109009915521240" name="fdn_enabled">"Разрешенные номера включены"</string>
+    <string msgid="4700049736675368279" name="fdn_disabled">"Разрешенные номера отключены"</string>
+    <string msgid="3740191529180493851" name="enable_fdn">"Вкл. разреш. номера"</string>
+    <string msgid="7944020890722540616" name="disable_fdn">"Откл. разреш. номера"</string>
+    <string msgid="2153563695382176676" name="change_pin2">"Изменить PIN2"</string>
+    <string msgid="7215588870329688132" name="enable_fdn_ok">"Откл. разреш. номера"</string>
+    <string msgid="5727046928930740173" name="disable_fdn_ok">"Вкл. разреш. номера"</string>
+    <string msgid="1959399454900272878" name="sum_fdn">"Управление списком разрешенных номеров"</string>
+    <string msgid="6666549734792827932" name="sum_fdn_change_pin">"Изменить PIN для доступа к списку разрешенных номеров"</string>
+    <string msgid="8431088265332628316" name="sum_fdn_manage_list">"Управление списком разрешенных номеров"</string>
+    <string msgid="3776841382844614716" name="voice_privacy">"Конфиденциальность"</string>
+    <string msgid="3159383389833516214" name="voice_privacy_summary">"Включить усиленный режим конфиденциальности"</string>
+    <string msgid="9033098925144434669" name="tty_mode_option_title">"Режим телетайпа"</string>
+    <string msgid="1073835131534808732" name="tty_mode_option_summary">"Установить режим телетайпа"</string>
+    <string msgid="4073265511427813322" name="auto_retry_mode_title">"Автодозвон"</string>
+    <string msgid="4973886004067532288" name="auto_retry_mode_summary">"Включить режим автодозвона"</string>
+    <string msgid="1882023737425114762" name="menu_add">"Добавить контакт"</string>
+    <string msgid="7143003705504672374" name="menu_edit">"Изменить контакт"</string>
+    <string msgid="3977150783449642851" name="menu_delete">"Удалить"</string>
+    <string msgid="8204677063922225311" name="get_pin2">"Введите PIN2"</string>
+    <string msgid="7329028332786872378" name="name">"Имя"</string>
+    <string msgid="7905950798349903858" name="number">"Номер"</string>
+    <string msgid="4094274636321939086" name="save">"Сохранить"</string>
+    <string msgid="2481915899633353976" name="add_fdn_contact">"Добавить номер ограниченного набора"</string>
+    <string msgid="7627379633721940991" name="adding_fdn_contact">"Выполняется добавление номера ограниченного набора..."</string>
+    <string msgid="7458335758501736665" name="fdn_contact_added">"Номер ограниченного набора добавлен."</string>
+    <string msgid="7976936035587081480" name="edit_fdn_contact">"Изменить номер ограниченного набора"</string>
+    <string msgid="8370929876849803600" name="updating_fdn_contact">"Выполняется обновление номера ограниченного набора..."</string>
+    <string msgid="5497828782609005017" name="fdn_contact_updated">"Номер ограниченного набора обновлен."</string>
+    <string msgid="6668958073074151717" name="delete_fdn_contact">"Удалить номер ограниченного набора"</string>
+    <string msgid="5669163206349319969" name="deleting_fdn_contact">"Выполняется удаление номера ограниченного набора…"</string>
+    <string msgid="7154162327112259569" name="fdn_contact_deleted">"Номер ограниченного набора удален."</string>
+    <string msgid="5470854099230755944" name="pin2_invalid">"Разрешенный номер не обновлен, так как введен неверный PIN-код."</string>
+    <string msgid="1494755047900009147" name="fdn_invalid_number">"Разрешенный номер не обновлен, т. к. не может содержать более 20 цифр."</string>
+    <string msgid="6025144083384701197" name="pin2_or_fdn_invalid">"Список разрешенных номеров не обновлен. Указан неверный PIN2 или номер телефона."</string>
+    <string msgid="540018079008319747" name="fdn_failed">"Не удалось включить FDN"</string>
+    <string msgid="2203331234764498011" name="simContacts_emptyLoading">"Считывание с SIM-карты…"</string>
+    <string msgid="5270660846489561932" name="simContacts_empty">"На SIM-карте нет контактов."</string>
+    <string msgid="1861472842524839921" name="simContacts_title">"Выберите контакты для импорта"</string>
+    <string msgid="1846161429087789936" name="simContacts_airplaneMode">"Чтобы перенести контакты с SIM-карты, отключите режим полета."</string>
+    <string msgid="5422767284133234860" name="enable_pin">"Включить/отключить запрос PIN SIM-карты"</string>
+    <string msgid="9174186126330785343" name="change_pin">"Изменить PIN SIM-карты"</string>
+    <string msgid="8532615714751931951" name="enter_pin_text">"PIN SIM-карты:"</string>
+    <string msgid="5287773661246368314" name="oldPinLabel">"Прежний PIN"</string>
+    <string msgid="207488227285336897" name="newPinLabel">"Новый PIN"</string>
+    <string msgid="257597715098070206" name="confirmPinLabel">"Подтвердите новый PIN"</string>
+    <string msgid="8955102849303984935" name="badPin">"Прежний PIN-код указан неверно. Повторите попытку."</string>
+    <string msgid="5923253370683071889" name="mismatchPin">"Введенные PIN-коды не совпадают. Повторите попытку."</string>
+    <string msgid="5981171102258684792" name="invalidPin">"Введите PIN, содержащий от 4 до 8 цифр."</string>
+    <string msgid="3419351358300716472" name="disable_sim_pin">"Удаление PIN-кода SIM-карты"</string>
+    <string msgid="4845145659651484248" name="enable_sim_pin">"Настройка PIN-кода SIM-карты"</string>
+    <string msgid="3417917024688497010" name="enable_in_progress">"Настройка PIN-кода…"</string>
+    <string msgid="2918545971413270063" name="enable_pin_ok">"PIN-код задан"</string>
+    <string msgid="2109571368635883688" name="disable_pin_ok">"PIN-код удален"</string>
+    <string msgid="5644377896213584760" name="pin_failed">"Неверный PIN-код"</string>
+    <string msgid="4455736268023261662" name="pin_changed">"PIN-код обновлен"</string>
+    <string msgid="5921393215789090200" name="puk_requested">"Неверный пароль. PIN-код заблокирован. Введите PUK-код."</string>
+    <string msgid="8339444124477720345" name="enter_pin2_text">"PIN2"</string>
+    <string msgid="8559146795026261502" name="oldPin2Label">"Прежний PIN2"</string>
+    <string msgid="4573956902204349054" name="newPin2Label">"Новый PIN2"</string>
+    <string msgid="8100319484454787708" name="confirmPin2Label">"Подтвердите новый PIN2"</string>
+    <string msgid="7910064009531541708" name="badPuk2">"Неверный код PUK2. Повторите попытку."</string>
+    <string msgid="6646896629970023109" name="badPin2">"Предыдущий код PIN2 указан неверно. Повторите попытку."</string>
+    <string msgid="4177967478551851117" name="mismatchPin2">"Неверный код PIN2. Повторите попытку."</string>
+    <string msgid="1757045131429105595" name="invalidPin2">"Введите код PIN2 (4–8 цифр)."</string>
+    <string msgid="7059081153334815973" name="invalidPuk2">"Введите код PUK2 (8 цифр)."</string>
+    <string msgid="3724522579945610956" name="pin2_changed">"Код PIN2 обновлен"</string>
+    <string msgid="4688069961795341948" name="label_puk2_code">"Введите код PUK2"</string>
+    <string msgid="4991074891459554705" name="fdn_enable_puk2_requested">"Неверный пароль. Код PIN2 заблокирован. Смените его, чтобы продолжить работу."</string>
+    <string msgid="5831015200030161434" name="puk2_requested">"Неверный пароль. SIM-карта заблокирована. Введите код PUK2."</string>
+    <string msgid="3150263853077280049" name="puk2_blocked">"Код PUK2 заблокирован навсегда"</string>
+    <string msgid="720736232885011507" name="pin2_attempts">\n"Осталось попыток: <xliff:g id="NUMBER">%d</xliff:g>."</string>
+    <string msgid="7791600368153469078" name="pin2_unblocked">"Код PIN2 разблокирован"</string>
+    <string msgid="2859593360997984240" name="doneButton">"Готово"</string>
+    <string msgid="8524164258691887790" name="voicemail_settings_number_label">"Номер голосовой почты"</string>
+    <string msgid="5769417478498348054" name="card_title_dialing">"Набор номера"</string>
+    <string msgid="8253487008234167266" name="card_title_redialing">"Повторный набор"</string>
+    <string msgid="1162980346189744501" name="card_title_conf_call">"Конференц-вызов"</string>
+    <string msgid="7364539451234646909" name="card_title_incoming_call">"Входящий вызов"</string>
+    <string msgid="5544730338889702298" name="card_title_call_ended">"Вызов завершен"</string>
+    <string msgid="821463117892339942" name="card_title_on_hold">На удержании</string>
+    <string msgid="3999101620995182450" name="card_title_hanging_up">"Завершение разговора"</string>
+    <string msgid="6346543933068225205" name="card_title_in_call">"Разговор"</string>
+    <string msgid="2107666444937350731" name="notification_dialing">"Набор номера"</string>
+    <string msgid="7554385905572364535" name="notification_missedCallTitle">"Пропущенный вызов"</string>
+    <string msgid="1361677948941502522" name="notification_missedCallsTitle">"Пропущенные вызовы"</string>
+    <string msgid="4575787816055205600" name="notification_missedCallsMsg">"Пропущенных вызовов: <xliff:g id="NUM_MISSED_CALLS">%s</xliff:g>"</string>
+    <string msgid="504686252427747209" name="notification_missedCallTicker">"Пропущенные вызовы от абонента <xliff:g id="MISSED_CALL_FROM">%s</xliff:g>"</string>
+    <string msgid="7068688957273482989" name="notification_ongoing_call">"Текущий вызов"</string>
+    <string msgid="3480694969511790465" name="notification_on_hold">На удержании</string>
+    <string msgid="2820429205043529642" name="notification_incoming_call">"Входящий вызов"</string>
+    <string msgid="8933468752045550523" name="notification_voicemail_title">"Новое сообщение голосовой почты"</string>
+    <string msgid="4366360747660929916" name="notification_voicemail_title_count">"Новое сообщение голосовой почты (<xliff:g id="COUNT">%d</xliff:g>)"</string>
+    <string msgid="4447323569453981685" name="notification_voicemail_text_format">"Позвонить <xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g>"</string>
+    <string msgid="760963466895609716" name="notification_voicemail_no_vm_number">"Номер голосовой почты неизвестен"</string>
+    <string msgid="4224455487793492772" name="notification_network_selection_title">"Сеть не найдена"</string>
+    <string msgid="2607085729661923269" name="notification_network_selection_text">"Выбранная сеть (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) недоступна."</string>
+    <string msgid="6069460915123531620" name="notification_action_end_call">"Завершить разговор"</string>
+    <string msgid="2684890353590890187" name="notification_missedCall_call_back">"Позвонить"</string>
+    <string msgid="3049928912736917988" name="notification_missedCall_message">"Написать"</string>
+    <string msgid="6550191216405193368" name="incall_error_power_off">"Перед тем как звонить, отключите режим полета."</string>
+    <string msgid="4678640422710818317" name="incall_error_emergency_only">"Нет регистрации в сети."</string>
+    <string msgid="4100065333878929223" name="incall_error_out_of_service">"Мобильная сеть недоступна."</string>
+    <string msgid="1150414018684246528" name="incall_error_no_phone_number_supplied">"Недействительный номер."</string>
+    <string msgid="6302746943230078197" name="incall_error_call_failed">"Не удалось позвонить."</string>
+    <string msgid="3672498861336189563" name="incall_status_dialed_mmi">"Запуск последовательности MMI..."</string>
+    <string msgid="655570339115407698" name="incall_error_supp_service_unknown">"Сервис не поддерживается"</string>
+    <string msgid="5237002176899962862" name="incall_error_supp_service_switch">"Не удалось переключить вызов."</string>
+    <string msgid="7224393405134545246" name="incall_error_supp_service_separate">"Не удалось разделить вызов."</string>
+    <string msgid="7235952238189391438" name="incall_error_supp_service_transfer">"Не удалось перенести."</string>
+    <string msgid="2505727299596357312" name="incall_error_supp_service_conference">"Не удается создать конференц-вызов."</string>
+    <string msgid="8998568661508655638" name="incall_error_supp_service_reject">"Не удалось отклонить вызов."</string>
+    <string msgid="7434513517153834426" name="incall_error_supp_service_hangup">"Не удалось разъединить."</string>
+    <string msgid="4627849966634578257" name="emergency_enable_radio_dialog_title">"Экстренный вызов"</string>
+    <string msgid="207613549344420291" name="emergency_enable_radio_dialog_message">"Включение радио…"</string>
+    <string msgid="5960061579996526883" name="emergency_enable_radio_dialog_retry">"Нет сигнала. Повторная попытка…"</string>
+    <string msgid="1509085166367420355" name="dial_emergency_error">"Не удалось позвонить. Номер <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> не принадлежит экстренным службам."</string>
+    <string msgid="9130194953830414638" name="dial_emergency_empty_error">"Не удалось позвонить. Наберите номер экстренных служб."</string>
+    <string msgid="9192914825413747792" name="dialerKeyboardHintText">"Используйте клавиатуру для набора номера"</string>
+    <string msgid="2285258239691145872" name="onscreenHoldText">"Удерживать"</string>
+    <string msgid="4403855834875398585" name="onscreenEndCallText">"Завершить"</string>
+    <string msgid="8561805492659639893" name="onscreenShowDialpadText">"Кнопки"</string>
+    <string msgid="5011369181754261374" name="onscreenMuteText">"Откл. звук"</string>
+    <string msgid="5140385634712287403" name="onscreenAddCallText">"+ вызов"</string>
+    <string msgid="6640195098064538950" name="onscreenMergeCallsText">"Соединить"</string>
+    <string msgid="1602990689244030047" name="onscreenSwapCallsText">"Перевод звонка"</string>
+    <string msgid="5473231160123254154" name="onscreenManageCallsText">"Управление вызовами"</string>
+    <string msgid="6485935856534311346" name="onscreenManageConferenceText">"Управление конференцией"</string>
+    <string msgid="1710087112800041743" name="onscreenAudioText">"Аудио"</string>
+    <string msgid="4800924186056115442" name="onscreenVideoCallText">"Видео"</string>
+    <string msgid="6614358325359736031" name="importSimEntry">"Импортировать"</string>
+    <string msgid="1503181169636198673" name="importAllSimEntries">"Импортировать все"</string>
+    <string msgid="7374056215462575769" name="importingSimContacts">"Импорт контактов с SIM-карты"</string>
+    <string msgid="2130620207013368580" name="importToFDNfromContacts">"Импортировать из контактов"</string>
+    <string msgid="8740268574688743289" name="hac_mode_title">"Слуховые аппараты"</string>
+    <string msgid="6833851160514929341" name="hac_mode_summary">"Включить слуховой аппарат"</string>
+  <string-array name="tty_mode_entries">
+    <item msgid="512950011423868021">"Телетайп выключен"</item>
+    <item msgid="3971695875449640648">"Полнофункциональный телетайп"</item>
+    <item msgid="1937509904407445684">"Телетайп с возможностью слышать собеседника"</item>
+    <item msgid="5644925873488772224">"Телетайп с возможностью передачи голоса"</item>
+  </string-array>
+    <string msgid="5163153771291340803" name="dtmf_tones_title">"DTMF-сигналы"</string>
+    <string msgid="3351820372864020331" name="dtmf_tones_summary">"Настроить длительность тональных сигналов DTMF"</string>
+  <string-array name="dtmf_tone_entries">
+    <item msgid="899650777817315681">"Обычные"</item>
+    <item msgid="2883365539347850535">"Длинные"</item>
+  </string-array>
+    <string msgid="7738596060242881930" name="network_info_message">"Сообщение сети"</string>
+    <string msgid="3394780436230411413" name="network_error_message">"Ошибка"</string>
+    <string msgid="8616918561356194398" name="ota_title_activate">"Активировать телефон"</string>
+    <string msgid="6553212803262586244" name="ota_touch_activate">"Необходим специальный звонок для активации службы телефона. \n\nПосле нажатия кнопки \"Активировать\" прослушайте инструкции по активации телефона."</string>
+    <string msgid="2234246934160473981" name="ota_hfa_activation_title">"Активация..."</string>
+    <string msgid="8092479227918463415" name="ota_hfa_activation_dialog_message">"Активация мобильного Интернета…\n\nВсе будет готово в течение 5 мин."</string>
+    <string msgid="2943366608272261306" name="ota_skip_activation_dialog_title">"Пропустить активацию?"</string>
+    <string msgid="2440770373498870550" name="ota_skip_activation_dialog_message">"Если вы пропустите активацию, вы не сможете совершать вызовы и подключаться к мобильным сетям передачи данных (хотя вы сможете подключаться к сетям Wi-Fi). Пока вы не активируете свой телефон, запрос активации будет отображаться при каждом его включении."</string>
+    <string msgid="3458532775091563208" name="ota_skip_activation_dialog_skip_label">"Пропустить"</string>
+    <string msgid="1368528132525626264" name="ota_activate">"Активировать"</string>
+    <string msgid="6570240212263372046" name="ota_title_activate_success">"Телефон активирован."</string>
+    <string msgid="7095824491970084367" name="ota_title_problem_with_activation">"Неполадки при активации"</string>
+    <string msgid="162923839877584937" name="ota_listen">"Следуйте голосовым инструкциям, пока вам не сообщат, что активация завершена."</string>
+    <string msgid="6904589278542719647" name="ota_speaker">"Динамик"</string>
+    <string msgid="460876637828044519" name="ota_progress">"Программирование телефона…"</string>
+    <string msgid="7713756181204620397" name="ota_failure">"Не удалось запрограммировать телефон"</string>
+    <string msgid="1880780692887077407" name="ota_successful">"Ваш телефон активирован. Включение службы может занять до 15 минут."</string>
+    <string msgid="8072141612635635357" name="ota_unsuccessful">"Телефон не был активирован.\nВозможно, вам следует найти зону с более высоким уровнем сигнала (у окна или на улице).\n\nПовторите попытку или свяжитесь со службой поддержки."</string>
+    <string msgid="3909983542575030796" name="ota_spc_failure">"ПРЕВЫШЕНИЕ ЧИСЛА ОШИБОК SPC"</string>
+    <string msgid="4537279738134612388" name="ota_call_end">"Назад"</string>
+    <string msgid="7685477206465902290" name="ota_try_again">"Повторите попытку"</string>
+    <string msgid="3904945374358235910" name="ota_next">"Далее"</string>
+    <string msgid="4448531867763097533" name="ecm_exit_dialog">"ДиалогВыходаРАЭВ"</string>
+    <string msgid="6266424252578731203" name="phone_entered_ecm_text">"Телефон переведен в режим экстренных обратных вызовов"</string>
+    <string msgid="3226896828951687085" name="phone_in_ecm_notification_title">"Режим экстренных обратных вызовов"</string>
+    <string msgid="4611608947314729773" name="phone_in_ecm_call_notification_text">"Передача данных отключена"</string>
+  <plurals name="phone_in_ecm_notification_time">
+    <item msgid="4866221796252472622" quantity="one">"Подключение для передачи данных отсутствует <xliff:g id="COUNT">%s</xliff:g> мин."</item>
+    <item msgid="3122217344579273583" quantity="other">"Подключение для передачи данных отсутствует <xliff:g id="COUNT">%s</xliff:g> мин."</item>
+  </plurals>
+  <plurals name="alert_dialog_exit_ecm">
+    <item msgid="8060210887681426682" quantity="one">"Телефон будет оставаться в режиме экстренных обратных вызовов еще <xliff:g id="COUNT">%s</xliff:g> мин. При этом будут недоступны приложения с поддержкой передачи данных. Выйти?"</item>
+    <item msgid="8617116564023933114" quantity="other">"Телефон будет оставаться в режиме экстренных обратных вызовов еще <xliff:g id="COUNT">%s</xliff:g> мин. При этом будут недоступны приложения с поддержкой передачи данных. Выйти?"</item>
+  </plurals>
+  <plurals name="alert_dialog_not_avaialble_in_ecm">
+    <item msgid="2585506997024726599" quantity="one">"Выбранное действие невозможно при экстренных обратных вызовах. Телефон будет оставаться в этом режиме еще <xliff:g id="COUNT">%s</xliff:g> мин. Выйти?"</item>
+    <item msgid="6115622137771382224" quantity="other">"Выбранное действие невозможно при экстренных обратных вызовах. Телефон будет оставаться в этом режиме еще <xliff:g id="COUNT">%s</xliff:g> мин. Выйти?"</item>
+  </plurals>
+    <string msgid="1886723687211887104" name="alert_dialog_in_ecm_call">"Выбранное действие невозможно при экстренном вызове."</string>
+    <string msgid="4835734101617817074" name="progress_dialog_exiting_ecm">"Выход из режима экстренных обратных вызовов"</string>
+    <string msgid="6674268047820703974" name="alert_dialog_yes">"Да"</string>
+    <string msgid="1476091437797628703" name="alert_dialog_no">"Нет"</string>
+    <string msgid="2491494287075907171" name="alert_dialog_dismiss">"Закрыть"</string>
+    <string msgid="5135942703327136909" name="voicemail_provider">"Служба"</string>
+    <string msgid="72448049107749316" name="voicemail_settings">"Настройка"</string>
+    <string msgid="6724904736891087856" name="voicemail_number_not_set">"&lt;Не задано&gt;"</string>
+    <string msgid="3672912580359716394" name="other_settings">"Другие настройки вызовов"</string>
+    <string msgid="4839419581866928142" name="calling_via_template">"Звонок через <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
+    <string msgid="4713193418046639466" name="contactPhoto">"фотография контакта"</string>
+    <string msgid="865837794424530980" name="goPrivate">"приватная конференция"</string>
+    <string msgid="781975788478987237" name="selectContact">"выбрать контакт"</string>
+    <string msgid="2739898841461577811" name="not_voice_capable">"Голосовые вызовы не поддерживаются"</string>
+    <string msgid="7459705245418435351" name="description_dial_button">"набор номера"</string>
+    <string msgid="8361970092063604886" name="voicemail_notification_vibrate_when_title">"Вибросигнал"</string>
+    <string msgid="5739583146522136440" name="voicemail_notification_vibarte_when_dialog_title">"Вибросигнал"</string>
+    <string msgid="2609519527849101590" name="voicemail_notification_ringtone_title">"Звук"</string>
+    <string msgid="7683489952557536398" name="dial_pad_autocomplete">"Автозаполнение номера"</string>
+    <string msgid="5197960752529332721" name="preference_category_ringtone">"Рингтон и вибросигнал"</string>
+    <string msgid="1743245930577325900" name="pstn_connection_service_label">"Встроенные SIM-карты"</string>
+    <string msgid="7237253660669000899" name="enable_video_calling_title">"Включить видеовстречи"</string>
+    <string msgid="8948186136957417948" name="enable_video_calling_dialog_msg">"Чтобы включить видеовызовы, активируйте режим 4G LTE в настройках сети."</string>
+    <string msgid="576528473599603249" name="enable_video_calling_dialog_settings">"Настройки сети"</string>
+    <string msgid="7411471282167927991" name="enable_video_calling_dialog_close">"Закрыть"</string>
+    <string msgid="4847699229529306397" name="sim_label_emergency_calls">"Экстренные вызовы"</string>
+    <string msgid="7535215397212301562" name="sim_description_emergency_calls">"Только экстренные вызовы"</string>
+    <string msgid="4778679519938775515" name="sim_description_default">"SIM-карта, разъем: <xliff:g id="SLOT_ID">%s</xliff:g>"</string>
+
+<!-- HQ_qianwei 2015-09-24 add for HQ01395135 begin -->
+    <string name="network_lte_wcdma_gsm_auto">LTE/WCDMA/GSM автоматически</string>
+    <string name="network_wcdma_gsm_auto">WCDMA/GSM автоматически</string>
+    <string name="network_wcdma_only">Только WCDMA</string>
+    <string name="network_gsm_only">Только GSM </string>
+    <string name="cellular_data_title">Передача данных</string>
+    <string name="cellular_data_summary">При включении мобильной передачи данных оператор будет взимать соответствующую плату</string>
+	<string name="voicemail_settings_summary">Настройки (Мой оператор)</string>
+	<string name="sim_card_settings">Настройки SIM-карты</string> 
+	<string name="wlan_connect_disconnect">Когда Wi-Fi недоступна</string>
+	<string name="reminde_resume_data">Спрашивать перед использованием моб. передачи данных</string>
+	<string name="auto_resume_data">Использовать моб. передачу данных</string>
+	<string name="not_resume_data">Не использовать моб. передачу данных</string>
+	<string name="data_usage_disable_mobile">Выключить моб. передачу данных?</string>
+	<string name="wlan_data_use_reminder">Переключение Wi-Fi/моб. передача</string>
+    <string name="remind_whether_switch">Переключение на мобильную передачу данных при выключении Wi-Fi</string>
+    <string name="slot_1">карта 1</string>
+    <string name="slot_2">карта 2</string>
+    <string name="cf_card_title">карта\u0020</string>
+<string name="fdn_limited">Достигнут лимит. Невозможно добавить контакт.</string>
+<string name="auto_wlan_state">При отключении сети Wi-Fi использовать моб. передачу данных</string>
+    <string name="cellular_data_always_on_title">Постоянная передача данных</string>
+    <string name="network_always_on">Постоянная передача данных</string>
+    <string name="network_always_on_disable">Снижение энергопотребления в некоторых мобильных сетях</string>
+    <string name="network_always_on_enable">Повышение энергопотребления в некоторых мобильных сетях</string>
+    <string name="network_always_on_warning">Выключение услуги постоянной передачи данных приведет к сбою функции передачи данных в некоторых приложениях. Используйте в этих приложениях функцию обновления вручную для получения актуальных данных.</string>
+    <!--add by yulifeng SW_GLOBAL_EUROPE_111 HQ01473598-->
+    <string name="respond_buttonnetworkmode_4Gonly_tip">Это устройство не поддерживает голосовые вызовы в режиме 4G</string>
+    <string name="network_wcdma_only_claro">Только WCDMA</string>
+    <string name="network_gsm_only_claro">Только GSM</string>
+    <string name="sim_change_data_title">"SIM-карта для передачи данных"</string>
+    <string name="sim_change_data_message">"Использовать для передачи данных по мобильной сети эту SIM-карту: <xliff:g id="NEW_SIM">%1$s</xliff:g> (вместо <xliff:g id="OLD_SIM">%2$s</xliff:g>)?"</string>
+    <!--add by zhangjinqiang for HW_SIMLock start-->
+    <plurals name="timer_update_string">
+	<item quantity="one">Повторите попытку через: %d сек.</item>
+        <item quantity="other">Повторите попытку через: %d сек.</item>
+    </plurals>
+    <string name="left_times_string">Осталось:</string>
+    <string name="sml_no_times">SIM-карта заблокирована.</string>
+    <string name="emergency_call_simlock">Экстренный вызов</string>
+    <!--add by zhangjinqiang end-->
+</resources>

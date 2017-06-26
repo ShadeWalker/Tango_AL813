@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
+    
+    <string name="menu_print">پرنٹ کریں</string>
+    <string name="printContact">رابطوں کو پرنٹ کریں بذریعہ</string>
+    <string name="no_way_to_print">رابطے کو پرنٹ کرنے کیلئے کوئی اطلاق دستیاب نہیں ہے۔</string>
+    
+    <string name="no_sdcard_title" product="nosdcard">USB ذحیرہ دستیاب نہيں ہے</string>
+    
+    <string name="no_sdcard_title" product="default">کوئی SD کارڈ نہيں</string>
+    
+    
+    <string name="selected_item_count">  <xliff:g id="count">%d</xliff:g> منتخب </string>
+    
+    <string name="recentCalls_delete">حذف کرنا</string>
+    <string name="menu_selectAll">تمام منتخب کریں</string>
+    <string name="menu_clearAll">تمام غیرمنتخب کریں</string>
+        
+    
+    
+    <string name="all_resources">سبھی وسائل</string>
+    <string name="choose_resources_header">ذرائع منتخب کریں</string>
+    
+    <string name="all_tab_label1">سبھی</string>
+    <string name="call_log_item_count">                           (<xliff:g id="count">%1$d</xliff:g>)</string>
+
+    
+    
+    <string name="call_sipcall">انٹرنیٹ کال</string>
+    <string name="call_pin_dialog_title">SIM کارڈ منتخب کریں</string>
+    <string name="call_people">افراد</string>
+    <string name="call_ip_dial">IP ڈائل</string>
+    <string name="call_speed_dial">اسپیڈ ڈائل</string>
+    <string name="send_message">پیغام بھیجیں</string>
+    <string name="call_video_call">ویڈیو کال</string>
+    <string name="add_speed_dial">اسپیڈ ڈائل شامل کرنے کیلئے انگلی سے تھپکیں</string>
+    <string name="speed_dial_added"><xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) added to speed dial <xliff:g id="key">%3$s</xliff:g></string>
+    <string name="speed_dial_added2"><xliff:g id="contact_name">%1$s</xliff:g> added to speed dial <xliff:g id="key">%2$s</xliff:g></string>
+    <string name="remove_speed_dial">ہٹائيں</string>
+    <string name="remove_sd_confirm_1">کیا آپ واقعی <xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) کو اسپیڈ ڈائل <xliff:g id="key">%3$s</xliff:g> سے ہٹانا چاہتے ہیں؟</string>
+    <string name="remove_sd_confirm_2">کیا آپ کو یقین ہے کہ آپ فوری ڈائل  <xliff:g id="key">%2$s</xliff:g> سے  <xliff:g id="contact_name">%1$s</xliff:g> کو ہٹا دینا چاہتے ہیں؟ </string>
+    <string name="emergencycall">ہنگامی کال</string>
+    <string name="imei_invalid">غلط</string>
+    <string name="call_log_filter_all_resources">سبھی وسائل</string>
+    <string name="turn_on_3g_service_message">"3G خدمت بند ہے، کیا آپ اسے آن کرنا چاہیں گے؟"</string>
+    <string name="associate_sim_missing_message">"%1$s دستیاب نہیں ہے۔ کیا آپ %2$s کے ذریعہ کال کرنا چاہیں گے"</string>
+    <string name="associate_sim_missing_other">دیگر</string>
+    <string name="sim_manage_call_via">بذریعہ کال کریں</string>
+    <string name="callFailed_simError">سم موجود نہیں، یا سم کا نقص</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">برائے مہربانی وائس کال ترتیبات میں IP سابقے کا نمبر پہلے درج کریں۔</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">مطلوبہ کال کے لئے IP ڈائل کا فنکشن قابل اطلاق نہيں</string>
+
+    
+    <string name="sd_add">اضافہ کریں</string>
+    <string name="reselect_number">اس نمبر کو پہلے کی کسی فوری ڈائل کے نمبر کو متعین کیا گیا ہے، برائے مہربانی کوئی دوسرا نمبر منتخب کریں۔</string>
+    
+    <string name="calllog_today">آج</string>
+    <string name="calllog_yesterday">کل</string>
+    
+    
+    <string name="menu_association">کارڈ وابستہ کریں</string>
+    <string name="menu_remove_association">کارڈ کی وابستگی ختم کریں</string>
+    <string name="remove_association_message">کیا آپ واقعی اس نمبر سے کارڈ کی وابستگی ختم کرنا چاہتے ہیں؟</string>
+    <string name="remove_number_title">ہٹائيں</string>  
+    <string name="warning_detail">کارڈ جوڑنے سے رابطہ فون میں درآمد ہوجائے گا۔ کیا آپ کارڈ سے وابستگی جاری رکھنا چاہیں گے؟</string>
+    <string name="block_incoming_call">آنے والی کالیں بلاک کررہا ہے</string>
+    <string name="block_video_incoming_call">آنے والی ویڈیو کالوں کو براہ راست مسدود کریں</string>
+
+    
+    <string name="menu_actionbar_selected_items">  <xliff:g id="name">%s</xliff:g> منتخب </string>
+
+       
+    <string name="has_double_phone_number">اسی قسم کے نمبر کو دو دفعہ محفوظ نہيں کرسکتے ہيں، برائے مہربانی اسے چیک کریں۔</string>
+    <string name="phone_book_busy">فون بک اس وقت مصروف ہے، بعد میں کوشش کریں۔</string>
+    <string name="sim_invalid">کارڈ غلط ہونے پر رابطہ محفوظ نہیں ہوسکتا۔</string>
+    <string name="cannot_insert_null_number">ایسا رابطہ محفوظ نہيں کیا جاسکتا ہے جس کا نمبر خالی ہو۔</string>
+    <string name="AirPlane_mode_on">رابطے کو اس وقت محفوظ نہيں کیا جاسکتا ہے جب ہوائی جہاز کی وضع آن ہو۔</string>
+    <string name="FDNEnabled">رابطے کو اس وقت محفوظ نہيں کیا جاسکتا ہے جب FDN فعال ہو۔</string>
+    <string name="sim_invalid_number">ناجائز نمبر محفوظ کرنے سے قاصر۔</string>
+    <string name="email_invalid">ناجائز ای میل محفوظ کرنے سے قاصر۔</string>
+    <string name="email_2g_invalid">ای میل کو 2G SIM میں محفوظ نہیں کرسکتا ہے، براہ کرم محفوظ کرنے کیلئے 3G SIM منتخب کریں۔</string>
+    <string name="sim_invalid_fix_number">ناجائز فکس نمبر کو محفوظ کرنے سے قاصر۔</string>
+    <string name="AirPlane_mode_on_edit">رابطے کو اس وقت ترمیم نہيں کیا جاسکتا ہے جب ہوائی جہاز کی وضع آن ہو۔</string>
+    <string name="msg_loading_sim_contacts_toast">"SIM رابطہ پس منظر میں لوڈ ہورہا ہے، براہ کرم ایک لمحہ انتظار کریں۔"</string>
+    <string name="fix_number_too_long">"فکس نمبر بہت لمبا ہے"</string>
+    <string name="name_too_long">"نام بہت لمبا ہے۔"</string>
+    <string name="storage_full">ذخیرہ بھر گيا ہے۔</string>
+    <string name="number_too_long">"نمبر رہنے کی جگہ۔"</string>
+    <string name="generic_failure">عمومی غلطی۔</string>
+    <string name="email_too_long">ای میل کافی لمبا ہے</string>
+
+    <string name="send_groupsms_no_number_more">"%1$s اور مزید %2$s روابط کے پاس کوئی جائز فون نمبر نہيں ہے."</string>
+    <string name="send_groupsms_no_number_1">"%1$s کا کوئی جائز فون نمبر نہيں ہے"</string>
+    <string name="send_groupsms_no_number_2">"%1$s اور %2$s کے پاس کوئی جائز فون نمبر نہیں ہے۔"</string>    
+
+    
+
+    
+    <string name="account_type_sim" product="tablet">SIM اکاؤنٹ</string>
+    
+    <string name="account_type_sim" product="default">SIM اکاؤنٹ</string>
+
+    
+    <string name="account_type_usim" product="tablet">USIM اکاؤنٹ</string>
+    
+    <string name="account_type_usim" product="default">USIM اکاؤنٹ</string>
+
+    
+    <string name="account_type_local_phone" product="tablet">فون مقامی اکاؤنٹ</string>
+    
+    <string name="account_type_local_phone" product="default">فون کا مقامی اکاؤنٹ</string>
+
+
+    
+    <string name="local_account_type" product="tablet">مقامی اکاؤنٹ</string>
+    
+    <string name="local_account_type" product="default">مقامی اکاؤنٹ</string>
+
+    
+    <string name="local_account_label" product="tablet">مقامی اکاؤنٹ</string>
+    
+    <string name="local_account_label" product="default">مقامی اکاؤنٹ</string>
+
+    
+    <string name="account_type_sim_label" product="tablet">صرف SIM، ان سنک</string>
+    
+    <string name="account_type_sim_label" product="default">صرف SIM، ان سنک</string>
+
+    
+    <string name="account_type_usim_label" product="tablet">صرف USIM,ان سنک</string>
+    
+    <string name="account_type_usim_label" product="default">صرف USIM,ان سنک</string>
+
+    
+    <string name="please_wait">"برائے مہربانی انتظار کریں..."</string>
+    <string name="move_contacts_to">روابط کو یہاں منتقل کريں</string>
+    <string name="menu_move_group">"گروپ کے ممبران ہٹائيں"</string> 
+    <string name="menu_message_group">"گروپ کا پیغام بھیجیں"</string>
+    <string name="menu_email_group">"گروپ ای میل بھیجیں"</string>    
+    <string name="moving_group_members">"گروپ کے ممبران کو ہٹایا جارہا ہےu2026"</string>
+    <string name="removing_group_members_sucess">"گروپ کے ممبران کو کامیاب طور پر نکالا جارہا ہے"</string>
+    <string name="moving_group_members_sucess">"گروپ کے ممبران کو کامیاب طور پر نکنتقل کیا جارہا ہے"</string>
+    <string name="moving_group_members_fail">"گروپ کے ممبران کو ہٹانا ناکام"</string>
+    <string name="no_valid_number_in_group">اس گروپ میں جائز فون نمبر رکھنے والا کوئی رابطہ نہيں ہے۔</string>
+    <string name="no_valid_email_in_group">اس گروپ کے پاس ای میل والا کوئی رابطہ نہیں ہے۔</string>
+    <string name="email_error">آپ کو ای میل ایپلیکیسن نصب کرنے یا اپنے اکاؤنٹ کی تشکیل کرنے کی ضرورت ہے!</string>
+    <string name="usim_group_name_exceed_limit">"اسٹوریج کے لیے گروپ کا نام بہت لمبا ہے۔"</string>
+    <string name="usim_group_count_exceed_limit"> "اسٹوریج میں مزید نئے گروپوں کو شامل نہیں کیا جاسکتا۔"</string>
+    <string name="name_needed">نام درکار ہے</string>
+    <string name="save_group_fail">گروپ محفوظ کرنا ناکام</string>
+    <string name="group_name_exists">گروپ کا نام پہلے سے موجود ہے۔</string>
+    <string name="group_discard_member">رد کریں</string>
+    <string name="group_discard_member_reason">ترمیمات کو رد کردیا جائے گا کیونکہ گروپ کا نام غلط ہے۔</string>
+
+    
+    <string name="import_export_title">درآمد/برآمد</string>
+    <string name="next">اگلا</string>
+    <string name="imexport_bridge_sd_card">SD کارڈ</string>
+    <string name="tips_source">سے روابط نقل کریں</string>
+    <string name="tips_target">پر روابط نقل کریں</string>
+    <string name="back">واپس</string>
+    <string name="imexport_title">روابط درآمد/برآمد کریں</string>
+    <string name="xport_error_one_account">"رابطوں کو درآمد/ برآمد کرنے کیلئے براہ کرم کوئي SIM کارڈ یا SD کارڈ داخل کریں۔"</string>
+    
+
+
+    
+    <string name="store_contact_to">رابطہ یہاں ذخیرہ کریں</string>
+
+    
+    <string name="menu_delete_contact">رابطہ مٹائيں</string>
+
+    <string name="menu_conference_call">کانفرنس کال</string>
+
+    <string name="notifier_finish_delete_title">روابط مٹانا کامیاب</string>
+    <string name="notifier_finish_delete_content">  <xliff:g id="total">%d</xliff:g> روابط مٹائے گئے </string>
+
+    <string name="notifier_finish_copy_title">روابط نقل کرنا کامیاب</string>
+    <string name="notifier_finish_copy_content"><xliff:g id="total">%d</xliff:g> رابطہ (رابطے) کاپی ہوگئے</string>
+
+    <string name="notifier_multichoice_process_report">مکمل:  <xliff:g id="items">%d</xliff:g>\nنامکمل:  <xliff:g id="items">%d</xliff:g>  </string>
+
+    <string name="notifier_failure_by_sim_full">SIM کا ذخیرہ بھرجانے کی وجہ سے ناکامی\nمکمل:  <xliff:g id="items">%d</xliff:g>\nنامکمل:  <xliff:g id="items">%d</xliff:g>  </string>
+    <string name="notifier_failure_sim_notready">SIMتیار نہ ہونے کی وجہ سے ناکامی\nمکمل:  <xliff:g id="items">%d</xliff:g>\nنامکمل:  <xliff:g id="items">%d</xliff:g>  </string>
+
+    <string name="notifier_cancel_delete_title">روابط مٹانا منسوخ</string>
+    <string name="notifier_fail_delete_title">روابط مٹانا ناکام</string>
+
+    <string name="notifier_cancel_copy_title">روابط نقل کرنا منسوخ</string>
+    <string name="notifier_fail_copy_title">روابط نقل کرنا ناکام</string>
+
+    <string name="notifier_progress__delete_will_start_message">رابطوں کو کچھ دیر میں حذف کر دیا جائے گا۔</string>
+    <string name="notifier_progress_delete_message">مٹارہا ہے  <xliff:g id="current_number">%s</xliff:g>/  <xliff:g id="total_number">%s</xliff:g>:  <xliff:g id="name" example="JoeDue">%s</xliff:g>  </string>
+    <string name="notifier_progress_delete_description">مٹارہا ہے  <xliff:g id="name" example="JoeDue">%s</xliff:g>  </string>
+
+    <string name="notifier_progress__copy_will_start_message">رابطوں کو کچھ دیر میں نقل کر دیا جائے گا۔</string>
+    <string name="notifier_progress_copy_message">نقل کررہا ہے  <xliff:g id="current_number">%s</xliff:g>/  <xliff:g id="total_number">%s</xliff:g>:  <xliff:g id="name" example="JoeDue">%s</xliff:g>  </string>
+    <string name="notifier_progress_copy_description">نقل کررہا ہے  <xliff:g id="name" example="JoeDue">%s</xliff:g>  </string>
+
+    <string name="multichoice_confirmation_title_delete">روابط مٹانا منسوخ کررہا ہے</string>
+    <string name="multichoice_confirmation_message_delete">روابط مٹانا منسوخ کریں؟</string>
+
+    <string name="multichoice_confirmation_title_copy">روابط نقل کرنا منسوخ کررہا ہے</string>
+    <string name="multichoice_confirmation_message_copy">روابط نقل کرنا منسوخ کریں؟</string>
+    
+    <string name="multichoice_no_select_alert">"کوئی شے منتخب شدہ نہیں۔"</string>
+    <string name="multichoice_delete_confirm_message">"کیا آپ واقعی منتخب روابط مٹانا چاہتے ہیں؟"</string>
+    <string name="multichoice_delete_confirm_title">"روابط مٹارہا ہے"</string>
+    <string name="multichoice_contacts_limit">"منتخب رابطوں کی تعداد "<xliff:g id="count">%d</xliff:g>" سے زیادہ نہیں ہوسکتی"</string>
+
+    
+    <string name="phone_storage_full_create">فون کا ذخیرہ بھر گيا ہے، آپ نیا رابطہ نہيں بناسکتے ہيں۔</string>
+    <string name="phone_storage_full_edit">فون کا ذخیرہ بھر گیا ہے، آپ رابطہ ترمیم نہيں کرسکتے ہيں۔</string>
+
+	
+	<string name="add_SIP_to_sim">کارڈ رابطے میں SIP نمبر شامل نہیں کیا جاسکتا۔</string>
+	
+	<string name="already_has_SIP">رابطے میں دو SIP نمبر شامل نہیں کر سکتے، اگر آپ جاری رکھنا چاہتے ہیں۔ براہ مہربانی پہلے پرانا SIP نمبر حذف کریں۔</string>
+        
+
+    
+       
+    <plurals name="searchFoundCalllogs">
+        <item quantity="one">1 کال لاگ</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> کال کے لاگ</item>
+    </plurals>
+        
+    <string name="search_results_for">تلاش نتائج برائے: <xliff:g id="query">%s</xliff:g></string>
+    <string name="listFoundAllCalllogZero">کال لاگ نہيں ملا</string>
+    
+    <string name="calllogList">کال ہسٹری</string>
+    <string name="calllogHint">کال لاگ تلاش کریں</string>
+    <string name="calllog_description">آنے والے، جانے والے اور مسڈ کال</string>
+    <string name="noMatchingCalllogs">کوئی ملتا ہوا کال لاگ نہيں ملا۔</string>
+    
+    <string name="menu_videocallNumber">ویڈیو کال \u200e<xliff:g id="name">%s</xliff:g></string>
+    <string name="menu_ipcallNumber">IP کال \u200e <xliff:g id="name">%s</xliff:g>  </string>
+    
+    <string name="deleting_call_log">کال لاگ حذف کر رہا ہے...</string>
+    
+    
+    
+    
+    <string name="no_vm_number">وائس میل نمبر غائب ہے</string>
+    
+    <string name="no_vm_number_msg">SIM کارڈ پر کوئی وائس میل نمبر ذخیرہ نہیں کیا گيا ہے۔</string>
+    
+    <string name="add_vm_number_str">نمبر کا اضافہ کریں</string>
+    
+    <string name="reminder">یاددہانی</string>
+    <string name="enable_sip_dialog_message">انٹرنیٹ کال غیرفعال ہے، کیا آپ اسے فعال کرنا چاہتے ہيں؟</string>
+    <string name="share_contacts_limit">"اشتراک کے لیے منتخب رابطوں کی تعداد "<xliff:g id="count">%d</xliff:g>" سے زیادہ نہیں ہوسکتی"</string>
+    
+    <string name="contact_delete_all_tips">"رابطے کی تنسیخ ہو رہی ہے، عمل انجام نہیں دے سکتا ہے۔"</string>
+    <string name="sum_search_networks">تمام دستیاب نیٹورک تلاش کریں</string>
+
+    
+    <string name="deleteCallLogConfirmation_title">کال لاگ مٹائيں؟</string>
+
+    
+    <string name="deleteCallLogConfirmation_message">کیا آپ کو واقغی منتخب کردہ کال کی روداد (رودادیں) حذف کرنا چاہتے ہیں؟</string>
+    
+    <string name="file_already_on_sd_card">یہ فائل پہلے سے ہی SD کارڈ میں ہے۔</string>
+    <string name="send_file_sms_error">SMS کے ساتھ فائل کا اشتراک نہیں ہوسکتا، براہ کرم MMS استعمال کریں۔</string>
+    <string name="user_profile_cannot_sd_card">اس طرحقے سے مواد کا اشتراک نہیں ہوسکتا۔</string>
+    
+    <string name="error_save_usim_contact_email_lost">"ای میل پتہ محفوظ کرنے میں ناکام کیونکہ  اسٹوریج برائے ای میل بھر گیا ہے۔"</string>
+    <string name="error_import_usim_contact_email_lost">"کچھ رابطوں کے ای میل پتے درآمد کرنے میں ناکام ہوگیا کیونکہ اسٹوریج برائے ای میل بھرا ہوا ہے۔\nمکمل ہوگیا: <xliff:g id="آئٹمز">%d</xliff:g>\nنامکمل: <xliff:g id="items">%d</xliff:g>"</string>
+    <string name="type_ip_outgoing">IP باہر جانے والی کال (<xliff:g id="name">%s</xliff:g>)</string>
+    
+    <string name="call_sms">SMS</string>
+    
+    
+    <string name="delete_group_failure">گروپ کو حذف کرنے میں ناکام۔</string>
+    
+    <string name="account_type_uim_label" product="tablet">صرف - UIM، غیر موافقت پذیر</string>
+    
+    <string name="account_type_uim_label" product="default">صرف - UIM، غیر موافقت پذیر</string>
+    <string name="call_log_auto_rejected_label">از خود مسترد شدہ کالیں</string>
+    <string name="import_no_vcard_dialog_text"><xliff:g id="storage_name">%s</xliff:g> میں کوئی وی کارڈ فائل نہیں ملی</string>
+    <string name="look_simstorage">SIM کارڈ کی گنجائش دکھائیں</string>
+    <string name="dlg_simstorage_content">phone number book Storage Capacity <xliff:g id="items">%d</xliff:g>，has been used <xliff:g id="items">%d</xliff:g>.</string>
+
+    
+
+    <string name="contact_group_list_title">"اہدافی گروپ چنیں"</string>
+    
+    
+    <string name="send_groupemail_no_number_more">"%1$s اور %2$s مزید رابطوں کا درست ای میل نہیں ہے۔"</string>
+    <string name="send_groupemail_no_number_1">"%1$s کا درست ای میل نہیں ہے۔"</string>
+    <string name="send_groupemail_no_number_2">"%1$s اور %2$s کا درست ای میل نہیں ہے۔"</string>
+    
+    
+    <string name="add_contact_dlg_title">رابطہ شامل کریں</string>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+    <string name="deleteConfirmation_title">رابطہ حذف کریں؟</string>
+    
+    <string name="dialog_phone_call_prohibited_title" msgid="4313552620858880999">کال نہیں بھیجی گئی</string>
+    
+    <string name="dialog_voicemail_not_ready_title">وائس میل کا نمبر دستیاب نہیں</string>
+    
+    
+    <string name="scanning_sdcard_failed_title" product="nosdcard">USB ذخیرے کی اسکیننگ ناکام</string>
+    
+    <string name="scanning_sdcard_failed_title" product="default">SD کارڈ کی اسکیننگ ناکام</string>
+    
+    
+
+    
+    <string name="nickname_too_long">"عرفی نام کافی لمبا ہے۔"</string>
+    
+    <string name="pick_new_photo_from_gallery">نئی تصویر منتخب کریں</string>
+    <string name="copy_text_to_dialer">ڈائلر میں کاپی کریں</string>
+    
+    
+    <string name="contact_detail_group_list_title">----------------</string>
+    <string name="contact_detail_group_not_assigned">تفویض نہیں کیا گیا</string>
+    <string name="contact_detail_group_list_nogroups">"کوئی موجودہ گروپز نہیں۔ کیا آپ ایک نیا گروپ بنانا چاہتے ہیں؟"</string>
+    <string name="recents">حالیہ</string>
+    <string name="contact_no_recents">کوئی حالیہ واقعہ نہیں</string>
+    <string name="contact_detail_detail">تفصیل</string>
+    <string name="contact_detail_update">تجدید</string>
+    <string name="contact_detail_history">ہسٹری</string>
+    <string name="contact_detail_ip_call">IP کال</string>
+    <string name="contact_detail_history_mms_received_time">"وصولی کا وقت %1$s"</string>
+    <string name="contact_detail_history_mms_received_from">"موصولہ از %1$s"</string>
+    <string name="contact_detail_history_mms_sent_time">"بھیجنے کا وقت %1$s"</string>
+    <string name="contact_detail_history_mms_sent_to">"مرسلہ بنام %1$s"</string>
+    
+    <string name="contact_detail_history_calllog">کال ہسٹری</string>
+    
+    <string name="contact_detail_history_mms">پیغامات</string>
+    <string name="contact_detail_history_duration">دورانیہ:</string>
+    <string name="contact_detail_history_ismms">ملٹی میڈیا پیغام بازیافت کرنا</string>
+    <string name="contact_detail_history_empty_calllog">"کال کی تاریخ خالی ہے"</string>
+    <string name="contact_detail_history_empty_message">کوئی پیغام نہیں</string>
+    <string name="contact_detail_history_empty">"کال، پیغام کیلئے کوئی تاریخ نہیں ہے"</string>
+    <string name="contact_recent_number_limit">"صرف %1$s  رابطے ہی دستیاب ہیں"</string>
+    <string name="contact_recent_group_label">----------------</string>
+        
+    
+    <string name="call_pin_dialog_title_ct">UIM/SIM کارڈ منتخب کریں</string>
+    <string name="callFailed_simError_ct">UIM/SIM نہیں ہے، یا UIM/SIM کی خرابی</string>
+    <string name="msg_loading_sim_contacts_toast_ct">"پس منظر میں UIM/SIM رابطے لوڈ ہورہے ہیں، براہ کرم ایک لمحہ انتظار کریں۔"</string>
+    <string name="xport_error_one_account_ct">"رابطوں کو درآمد/ برآمد کرنے کے لیے براہ کرم ایک UIM/SIM کارڈ یا SD کارڈ داخل کریں۔"</string>
+    <string name="notifier_failure_by_sim_full_ct">UIM/SIM اسٹوریج بھرا ہونے کے سبب ناکام\nمکمل ہوگیا: <xliff:g id="items">%d</xliff:g>\nنامکمل: <xliff:g id="items">%d</xliff:g></string>
+    <string name="notifier_failure_sim_notready_ct">UIM/SIM کے تیار نہ ہونے کے سبب ناکام\nمکمل ہوگیا: <xliff:g id="items">%d</xliff:g>\nنامکمل: <xliff:g id="items">%d</xliff:g></string>
+    <string name="look_simstorage_ct">UIM/SIM کارڈ کی گنجائش دیکھیں</string>
+
+    <string name="callFailed_cdma_notEmergency">صرف ہنگامی کالیں ممکن ہيں۔</string>
+
+    
+    <string name="international_dialing_title">بین الاقوامی ڈائلنگ اعانت</string>
+    <string name="international_dialing_select_country">پتہ چلا ہے کہ آپ ایک بین الاقوامی کال کررہے ہیں۔ براہ کم اپنی منزل مقصود چنیں۔</string>
+    <string name="international_dialing_add_country_code">یہ پتہ چلا ہے کہ آپ ایک <xliff:g id="country_name">%s</xliff:g> نمبر ڈائل کررہے ہیں۔ کیا آپ ملک کا کوڈ شامل کرنا چاہتے ہیں  (+<xliff:g id="country_code">%s</xliff:g>)؟</string>
+    <string name="international_dialing_add_country_code_and_area_code">یہ پتہ چلا ہے کہ آپ <xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g> میں ایک نمبر ڈائل کررہے ہیں۔ کیا آپ ملک کا کوڈ اور علاقائی کوڈ شامل کرنا چاہتے ہیں (+<xliff:g id="prefix">%3$s</xliff:g>)؟</string>
+    <string name="international_dialing_change_country_prefix">یہ پتہ چلا ہے کہ آپ <xliff:g id="country_name">%s</xliff:g> سے ڈائل کررہے ہیں۔ بین الاقوامی کال کا سابقہ تبدیل کرکے \'+\' کریں؟</string>
+    <string name="international_dialing_add_country_code_input_area_code">یہ پتہ چلا ہے کہ آپ <xliff:g id="country_name">%s</xliff:g> میں ایک نمبر ڈائل کررہے ہیں۔ اگر ایسا ہے تو، براہ کرم علاقائی کوڈ درج کریں۔</string>
+    <string name="international_dialing_add_country_code_default_input_area_code">یہ پتہ چلا ہے کہ آپ <xliff:g id="country_name">%s</xliff:g> میں ایک نمبر ڈائل کررہے ہیں۔ اگر آپ کا مطلوبہ شہر <xliff:g id="area_name">%s</xliff:g> نہیں ہے تو، براہ کرم علاقائی کوڈ درج کریں۔</string>
+    <string name="international_dialing_need_area_code">کال کیلئے آپ کے مطلوبہ شہر کا علاقائی کوڈ ضروری ہے۔</string>
+    <string name="international_dialing_input_area_code">علاقائی کوڈ یہاں درج کریں</string>
+    <string name="international_dialing_dialed_number">ڈائلنگ نمبر:</string>
+    <string name="international_dialing_confirm_area_code">اگر آپ کا مطلوبہ شہر <xliff:g id="area_name">%s</xliff:g> نہیں ہے تو، براہ کرم ذیل میں اپنے مطلوبہ شہر کا علاقائی کوڈ درج کریں۔</string>
+    <string name="international_dialing_click_below_button">ملک کا کوڈ نمبر تبدیل کرنے کیلئے ذیل کے بٹن پر کلک کریں۔</string>
+    <string name="international_dialing_yes">ہاں۔ ذیل کا نمبر استعمال کریں:</string>
+    <string name="international_dialing_no">نہیں۔ اصل نمبر استعمال کریں:</string>
+    <string name="international_dialing_call_button">کال کریں</string>
+    <string name="international_dialing_area_code">علاقائی کوڈ</string>
+    <string name="international_dialing_invalid_number">یہ نمبر غلط ہے۔ کیا آپ پھر بھی ڈائلنگ جاری رکھنا چاہتے ہیں؟</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">کیا آپ ملک کا کوڈ اور علاقائی کوڈ شامل کرنا چاہتے ہیں؟</string>
+    <string name="no_search_result">تلاش کے کوئی نتائج نہیں</string>
+
+    <string name="account_phone_only" product="tablet">ٹیبلیٹ</string>
+    <string name="account_phone_only" product="default">فون کا رابطہ</string>
+    
+    
+    
+    <string name="no_match_call_log">"کوئی مماثل آئٹمز نہیں"</string>
+    <string name="no_call_log">"کال لاگز نہیں"</string>
+    <string name="share_too_large">کل ڈیٹا اوپری حد سے زیادہ ہوگیا، براہ کرم کچھ آئٹمز کو غیرمنتخب کریں اور دوبارہ کوشش کریں۔</string>
+
+    
+    
+
+    <string name="err_icc_no_phone_book">%1$s رابطے کو ذخیرہ کرنے میں ناکام ہے</string>
+
+    
+    
+    <string name="titleJoinContactDataWith">روابط جوڑیں</string>
+
+    
+    <string name="menu_select_all">تمام منتخب کریں</string>
+
+    
+    <string name="list_filter_custom">ذاتی</string>
+
+    
+    <string name="add_contact_dlg_message_fmt">روابط میں \"<xliff:g id="email">%s</xliff:g>\" شامل کریں؟</string>
+
+    
+    <string name="locale_change_in_progress">زبان کی تبدیلی کی عکاسی کے لئے رابطے کی فہرست کی تجدید کی جارہی ہے۔\n\nبرائے مہربانی انتظار کریں...</string>
+
+    
+    <string name="noFavoritesHelpText">"آپ کے کوئی پسندیدگان نہيں ہيں۔\n\nاپنے پسندیدگان کی فہرست میں رابطے کے اضافے کے لئے:\n <li> <b>رابطے</b> کے ٹیب کو چھوئيں\n</li> \n<li>اس رابطے کو چھوئيں جسے آپ اپنے پسندیدگان میں شامل کرنا چاہتے ہيں۔\n</li> \n<li>رابطے کے نام کے برابر موجود ستارے کو چھوئيں۔\n</li>"</string>
+
+    
+    <string name="non_phone_caption">فون نمبر</string>
+
+    
+    <string name="menu_select_none">تمام غیرمنتخب کریں</string>
+
+    <string name="find_call_logs">کال لاگز تلاش کریں</string>
+    <string name="call_log_via_sim_name_notice">کال لاگز بذریعہ \"<xliff:g id="sim_name">%s</xliff:g>\"</string>
+    
+
+    
+    <string name="mtk_contact_list_loading">لوڈ کررہا ہے\u2026</string>
+    <string name="vcard_import_failed_v2">برآمد نہیں کرسکا</string>
+    <string name="quickcontact_missing_app">اس عمل کے لئے کوئی ایپلیکیشن نہيں ملا</string>
+    <string name="imsCallLabelsGroup">IMS کال</string>
+    <string name="sip_url">SIP url</string>
+    <string name="ims_call_disabled">IMS دستیاب نہیں ہے</string>
+    <string name="vcs_menu_voice_contacts_search" product="default">صوتی رابطے کی تلاش</string>
+    <string name="vcs_msg_no_voice_contacts">افوہ، رابطہ نہیں  ملا۔</string>
+
+<string name="call_speed_dial_title">اسپیڈ ڈائل</string>
+    <string name="dialog_no_speed_dial_number_message">کوئی اسپیڈ ڈائل نمبر نہیں ہے، کیا ابھی ترتیب دیں؟</string>
+    <string name="icc_phone_book_invalid">فون بک ابھی دستیاب نہیں ہے، براہ کرم بعد میں کوشش کریں۔</string>
+    <string name="error_edit_join_group">یہ ایک مشترکہ رابطہ ہے۔ آپ ترمیم والی وضع میں گروپ کی معلومات میں ترمیم کرسکتے ہیں۔</string>
+    <string name="local_phone_account" product="tablet">"ٹیبلٹ"</string>
+    <string name="local_phone_account" product="default">فون</string>
+    <string name="contact_import_export_tips">رابطوں کو درآمد/ برآمد کررہا ہے، براہ کرم بعد میں کوشش کریں</string>
+</resources>

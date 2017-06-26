@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="application_name">Launcher3</string>
+    <string name="home">Home</string>
+    <string name="uid_name">Android-Kernapplikationen</string>
+    <string name="activity_not_found">App nicht installiert</string>
+    <string name="safemode_shortcut_error">Im Sicherheitsmodus ist die heruntergeladene App deaktiviert</string>
+    <string name="widgets_tab_label">Widgets</string>
+    <string name="widget_adder">Widgets</string>
+    <string name="toggle_weight_watcher">Speicher anzeigen</string>
+    <string name="long_press_widget_to_add">Zur Auswahl eines Widgets berühren und halten.</string>
+    <string name="market">Shop</string>
+    <string name="external_drop_widget_error">Element konnte nicht auf Startseite abgelegt werden.</string>
+    <string name="external_drop_widget_pick_title">Widget zur Erstellung auswählen</string>
+    <string name="rename_folder_label">Ordnername</string>
+    <string name="rename_folder_title">Ordner umbenennen</string>
+    <string name="rename_action">"OK"</string>
+    <string name="cancel_action">"Abbrechen"</string>
+    <string name="menu_item_add_item">Zum Startbildschirm zufügen</string>
+    <string name="group_applications">Apps</string>
+    <string name="group_shortcuts">Verknüpfung</string>
+    <string name="group_widgets">Widgets</string>
+    <string name="completely_out_of_space">Kein Platz in Ihren Startbildschirmen.</string>
+    <string name="out_of_space">Kein Platz in diesem Startbildschirm.</string>
+    <string name="hotseat_out_of_space">Kein Platz in der Favoritenablage</string>
+    <string name="invalid_hotseat_item">Dieses Widget ist zu groß für die Favoritenablage</string>
+    <string name="shortcut_installed">Verknüpfung \"<xliff:g id="name" example="Browser">%s</xliff:g>\" erstellt.</string>
+    <string name="shortcut_uninstalled">Verknüpfung \"<xliff:g id="name" example="Browser">%s</xliff:g>\" wurde entfernt.</string>
+    <string name="shortcut_duplicate">Verknüpfung \"<xliff:g id="name" example="Browser">%s</xliff:g>\" bereits vorhanden.</string>
+    <string name="title_select_shortcut">Verknüpfung wählen</string>
+    <string name="title_select_application">App wählen</string>
+    <string name="all_apps_button_label">Apps</string>
+    <string name="all_apps_home_button_label">Home</string>
+    <string name="delete_zone_label_workspace">"Entfernen"</string>
+    <string name="delete_zone_label_all_apps">Deinstallieren</string>
+    <string name="delete_target_label">"Entfernen"</string>
+    <string name="delete_target_uninstall_label">Deinstallieren</string>
+    <string name="info_target_label">App-Info</string>
+    <string name="accessibility_search_button">Suchen</string>
+    <string name="accessibility_voice_search_button">"Sprachsuche"</string>
+    <string name="accessibility_all_apps_button">Apps</string>
+    <string name="accessibility_delete_button">"Entfernen"</string>
+    <string name="delete_zone_label_all_apps_system_app">Aktualisierung deinstallieren</string>
+    <string name="cab_menu_delete_app">App deinstallieren</string>
+    <string name="cab_menu_app_info">App-Details</string>
+    <string name="cab_app_selection_text">1 App ausgewählt</string>
+    <string name="cab_widget_selection_text">1 Widget ausgewählt</string>
+    <string name="cab_folder_selection_text">1 Ordner ausgewählt</string>
+    <string name="cab_shortcut_selection_text">1 Verknüpfung ausgewählt</string>
+    <string name="permlab_install_shortcut">"Verknüpfungen installieren"</string>
+    <string name="permdesc_install_shortcut">Ermöglicht einer App, Verknüpfungen ohne Benutzereingriff zuzufügen.</string>
+    <string name="permlab_uninstall_shortcut">"Verknüpfungen deinstallieren"</string>
+    <string name="permdesc_uninstall_shortcut">Ermöglicht einer App, Verknüpfungen ohne Benutzereingriff zu entfernen.</string>
+    <string name="permlab_read_settings">Startseiteneinstellungen und Verknüpfungen lesen</string>
+    <string name="permdesc_read_settings">Ermöglicht der App, Startbildschirmeinstellungen und -verknüpfungen zu lesen.</string>
+    <string name="permlab_write_settings">Startseiteneinstellungen und Verknüpfungen schreiben</string>
+    <string name="permdesc_write_settings">Ermöglicht der App, Startbildschirmeinstellungen und -verknüpfungen zu ändern.</string>    
+    <string name="gadget_error_text">Problem beim Laden des Widgets</string>
+    <string name="gadget_setup_text">Setup</string>
+    <string name="uninstall_system_app_text">Dies ist eine System-App und kann daher nicht deinstalliert werden.</string>
+    <string name="dream_name">Raketenwerfer</string>
+    <string name="folder_hint_text">Unbenannter Ordner</string>
+    <string name="workspace_description_format">Startbildschirm %1$d</string>
+    <string name="default_scroll_format">Seite %1$d von %2$d</string>
+    <string name="workspace_scroll_format">Startbildschirm %1$d von %2$d</string>
+    <string name="apps_customize_apps_scroll_format">Apps-Seite %1$d von %2$d</string>
+    <string name="apps_customize_widgets_scroll_format">Widgets-Seite %1$d von %2$d</string>
+    <string name="first_run_cling_title">Willkommen</string>
+    <string name="first_run_cling_description">Machen Sie es sich bequem.</string>
+    <string name="first_run_cling_create_screens_hint">Mehr Bildschirme für Apps und Ordner schaffen</string>
+    <string name="migration_cling_title">Kopieren Sie Ihre App-Symbole</string>
+    <string name="migration_cling_description">Sybole/Ordner vom alten Startbildschirm importieren?</string>
+    <string name="migration_cling_copy_apps">SYMBOLE KOPIEREN</string>
+    <string name="migration_cling_use_default">MIT VORGABEEINSTELLUNG STARTEN</string>
+    <string name="workspace_cling_title">Organisieren Sie Ihr Umfeld</string>
+    <string name="workspace_cling_move_item">Zum Verwalten von Hintergrundbildern, Widgets und Einstellungen den Hintergrund angetippt halten.</string>
+    <string name="workspace_cling_longpress_title">Wallpaper, Widgets &amp; Einstellungen</string>
+    <string name="workspace_cling_longpress_description">Hintergrund zur Optimierung antippen &amp; halten</string>
+    <string name="workspace_cling_longpress_dismiss">HAB ES!</string>
+    <string name="folder_cling_title">Hier ist ein Ordner</string>
+    <string name="folder_cling_create_folder">Um so etwas zu erstellen, eine App angetippt halten und dann auf eine andere ziehen.</string>
+    <string name="cling_dismiss">"OK"</string>
+    <string name="folder_opened">Ordner geöffnet, <xliff:g id="width" example="5">%1$d</xliff:g> x <xliff:g id="height" example="3">%2$d</xliff:g></string>
+    <string name="folder_tap_to_close">Zum Schließen des Ordners antippen</string>
+    <string name="folder_tap_to_rename">Zum Speichern des neuen Namens berühren</string>
+    <string name="folder_closed">Ordner geschlossen</string>
+    <string name="folder_renamed">Ordner in <xliff:g id="name" example="Games">%1$s</xliff:g> umbenannt</string>
+    <string name="folder_name_format">Ordner: <xliff:g id="name" example="Games">%1$s</xliff:g></string>
+    <string name="widget_button_text">Widgets</string>
+    <string name="wallpaper_button_text">Hintergründe</string>
+    <string name="settings_button_text">Einstellungen</string>
+    <string name="package_state_enqueued">Warten</string>
+    <string name="package_state_downloading">Wird heruntergeladen</string>
+    <string name="package_state_installing">Installieren</string>
+    <string name="package_state_unknown">Unbekannt</string>
+    <string name="package_state_error">Nicht wiederhergestellt</string>
+    <string name="abandoned_clean_all">Alle löschen</string>
+    <string name="abandoned_clean_this">"Entfernen"</string>
+    <string name="abandoned_search">Suchen</string>
+    <string name="abandoned_promises_title">Diese App ist nicht installiert</string>
+    <string name="abandoned_promise_explanation">Die App mit diesem Ikon ist nicht installiert. Sie können es löschen oder nach der App suchen und die Verknüpfung manuell erstellen.</string>
+</resources>

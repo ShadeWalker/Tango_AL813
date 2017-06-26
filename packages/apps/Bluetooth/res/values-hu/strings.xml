@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="311492132450338925" name="permlab_bluetoothShareManager">"Hozzáférés a letöltéskezelőhöz."</string>
+    <string msgid="8930572979123190223" name="permdesc_bluetoothShareManager">"Lehetővé teszi az alkalmazás számára a BluetoothShare kezelő elérését és használatát fájlátvitelre."</string>
+    <string msgid="7091552898592306386" name="permlab_bluetoothWhitelist">"Bluetooth-eszköz hozzáférésének engedélyezése."</string>
+    <string msgid="5494513855192170109" name="permdesc_bluetoothWhitelist">"Lehetővé teszi az alkalmazás számára egy Bluetooth-eszköz ideiglenesen engedélyezését, amely így a felhasználó jóváhagyása nélkül küldhet fájlokat erre a készülékre."</string>
+    <string msgid="6268100924487046932" name="bt_share_picker_label">"Bluetooth"</string>
+    <string msgid="9221903979877041009" name="unknown_device">"Ismeretlen eszköz"</string>
+    <string msgid="4994750948072751566" name="unknownNumber">"Ismeretlen"</string>
+    <string msgid="2683839635115739939" name="airplane_error_title">"Repülőgép üzemmód"</string>
+    <string msgid="8698965595254137230" name="airplane_error_msg">"A Bluetooth nem használható Repülőgép üzemmódban."</string>
+    <string msgid="8657832550503456572" name="bt_enable_title"/>
+    <string msgid="7203551583048149" name="bt_enable_line1">"A Bluetooth-szolgáltatásokhoz használatához először be kell kapcsolnia a Bluetooth-funkciót."</string>
+    <string msgid="4341936569415937994" name="bt_enable_line2">"Bekapcsolja most a Bluetooth-funkciót?"</string>
+    <string msgid="1988832367505151727" name="bt_enable_cancel">"Mégse"</string>
+    <string msgid="3432462749994538265" name="bt_enable_ok">"Bekapcsolás"</string>
+    <string msgid="8139874248612182627" name="incoming_file_confirm_title">"Fájlátvitel"</string>
+    <string msgid="2752605552743148036" name="incoming_file_confirm_content">"Fogadja a bejövő fájlt?"</string>
+    <string msgid="2973321832477704805" name="incoming_file_confirm_cancel">"Elutasítás"</string>
+    <string msgid="281462442932231475" name="incoming_file_confirm_ok">"Elfogadás"</string>
+    <string msgid="1414676773249857278" name="incoming_file_confirm_timeout_ok">"OK"</string>
+    <string msgid="172779756093975981" name="incoming_file_confirm_timeout_content">"Időtúllépés történt \" 
+        <xliff:g id="SENDER">%1$s</xliff:g>\" feladótól érkező fájl fogadása során"
+    </string>
+    <string msgid="2958227698135117210" name="incoming_file_confirm_Notification_title">"BT-megosztás: Beérkező fájl"</string>
+    <string msgid="6671081128475981157" name="incoming_file_confirm_Notification_caption">"Szeretné fogadni ezt a fájlt?"</string>
+    <string msgid="1733710749992901811" name="incoming_file_toast_msg">"Fájl érkezik egy másik készülékről. Erősítse meg, hogy szeretné megkapni ezt a fájlt."</string>
+    <string msgid="4674648179652543984" name="notification_receiving">"Bluetooth megosztás: 
+        <xliff:g id="FILE">%1$s</xliff:g> fogadása"
+    </string>
+    <string msgid="3324588019186687985" name="notification_received">"Bluetooth megosztás: 
+        <xliff:g id="FILE">%1$s</xliff:g> fogadva"
+    </string>
+    <string msgid="3619350997285714746" name="notification_received_fail">"Bluetooth megosztás: 
+        <xliff:g id="FILE">%1$s</xliff:g> fájl fogadása nem sikerült"
+    </string>
+    <string msgid="3035748958534983833" name="notification_sending">"Bluetooth megosztás: 
+        <xliff:g id="FILE">%1$s</xliff:g> küldése"
+    </string>
+    <string msgid="9218710861333027778" name="notification_sent">"Bluetooth megosztás: 
+        <xliff:g id="FILE">%1$s</xliff:g> elküldve"
+    </string>
+    <string msgid="302943281067557969" name="notification_sent_complete">"100% kész"</string>
+    <string msgid="6696082233774569445" name="notification_sent_fail">"Bluetooth megosztás: 
+        <xliff:g id="FILE">%1$s</xliff:g> fájl küldése nem sikerült"
+    </string>
+    <string msgid="3353228219772092586" name="download_title">"Fájlátvitel"</string>
+    <string msgid="4926604799202134144" name="download_line1">"Feladó: \" 
+        <xliff:g id="SENDER">%1$s</xliff:g>\""
+    </string>
+    <string msgid="5876973543019417712" name="download_line2">"Fájl: 
+        <xliff:g id="FILE">%1$s</xliff:g>"
+    </string>
+    <string msgid="4384821622908676061" name="download_line3">"Fájlméret: 
+        <xliff:g id="SIZE">%1$s</xliff:g>"
+    </string>
+    <string msgid="8535996869722666525" name="download_line4"/>
+    <string msgid="3069560415845295386" name="download_line5">"Fájl fogadása | Befejezve: "</string>
+    <string msgid="9177305996747500768" name="download_cancel">"Leállítás"</string>
+    <string msgid="5000360731674466039" name="download_ok">"Elrejtés"</string>
+    <string msgid="2127419875681087545" name="incoming_line1">"Küldő"</string>
+    <string msgid="3348994249285315873" name="incoming_line2">"Fájlnév"</string>
+    <string msgid="7954237069667474024" name="incoming_line3">"Méret"</string>
+    <string msgid="3846450148862894552" name="download_fail_line1">"A fájl fogadása nem sikerült"</string>
+    <string msgid="8950394574689971071" name="download_fail_line2">"Fájl: 
+        <xliff:g id="FILE">%1$s</xliff:g>"
+    </string>
+    <string msgid="3451040656154861722" name="download_fail_line3">"Indoklás: 
+        <xliff:g id="REASON">%1$s</xliff:g>"
+    </string>
+    <string msgid="1521733664438320300" name="download_fail_ok">"OK"</string>
+    <string msgid="4509944688281573595" name="download_succ_line5">"A fájl megérkezett"</string>
+    <string msgid="7053688246357050216" name="download_succ_ok">"Megnyitás"</string>
+    <string msgid="2055952074059709052" name="upload_line1">"Címzett: \" 
+        <xliff:g id="RECIPIENT">%1$s</xliff:g>\""
+    </string>
+    <string msgid="4920689672457037437" name="upload_line3">"Fájltípus: 
+        <xliff:g id="TYPE">%1$s</xliff:g> ( 
+        <xliff:g id="SIZE">%2$s</xliff:g>)"
+    </string>
+    <string msgid="7759322537674229752" name="upload_line5">"Fájl küldése | Befejezve: "</string>
+    <string msgid="5687317197463383601" name="upload_succ_line5">"A fájl elküldve"</string>
+    <string msgid="7705428476405478828" name="upload_succ_ok">"OK"</string>
+    <string msgid="7899394672421491701" name="upload_fail_line1">"A fájlt nem sikerült elküldeni a következőnek: \" 
+        <xliff:g id="RECIPIENT">%1$s</xliff:g>\"."
+    </string>
+    <string msgid="2108129204050841798" name="upload_fail_line1_2">"Fájl: 
+        <xliff:g id="FILE">%1$s</xliff:g>"
+    </string>
+    <string msgid="5807702461606714296" name="upload_fail_ok">"Próbálkozzon újra"</string>
+    <string msgid="9118496285835687125" name="upload_fail_cancel">"Bezárás"</string>
+    <string msgid="5965151173011534240" name="bt_error_btn_ok">"OK"</string>
+    <string msgid="6092727753965095366" name="unknown_file">"Ismeretlen fájl"</string>
+    <string msgid="480434281415453287" name="unknown_file_desc">"Nincs alkalmazás a fájltípus kezeléséhez. "\n</string>
+    <string msgid="3489434189599716133" name="not_exist_file">"Nincs fájl"</string>
+    <string msgid="4059531573790529229" name="not_exist_file_desc">"A fájl nem létezik. "\n</string>
+    <string msgid="436157952334723406" name="enabling_progress_title">"Kérjük, várjon..."</string>
+    <string msgid="4601542238119927904" name="enabling_progress_content">"Bluetooth bekapcsolása..."</string>
+    <string msgid="972182708034353383" name="bt_toast_1">"A fájl fogadható. Az átvitel haladását az Értesítések párbeszédpanelen kísérheti figyelemmel."</string>
+    <string msgid="8602553334099066582" name="bt_toast_2">"A fájlt nem lehet fogadni."</string>
+    <string msgid="6707884165086862518" name="bt_toast_3">"A fájl fogadása \" 
+        <xliff:g id="SENDER">%1$s</xliff:g>\" feladótól leállítva"
+    </string>
+    <string msgid="4678812947604395649" name="bt_toast_4">"Fájl küldése a következőnek: \" 
+        <xliff:g id="RECIPIENT">%1$s</xliff:g>\""
+    </string>
+    <string msgid="2846870992823019494" name="bt_toast_5">" 
+        <xliff:g id="NUMBER">%1$s</xliff:g> fájl küldése a következőnek: \" 
+        <xliff:g id="RECIPIENT">%2$s</xliff:g>\""
+    </string>
+    <string msgid="1855266596936622458" name="bt_toast_6">"A fájl küldése \" 
+        <xliff:g id="RECIPIENT">%1$s</xliff:g>\" címzettnek leállítva"
+    </string>
+    <string msgid="352165168004521000" name="bt_sm_2_1" product="nosdcard">"Nincs elég hely az USB-tárolón a(z) \" 
+        <xliff:g id="SENDER">%1$s</xliff:g>\" által küldött fájl mentéséhez"
+    </string>
+    <string msgid="1989018443456803630" name="bt_sm_2_1" product="default">"Nincs elég hely az SD-kártyán a(z) \" 
+        <xliff:g id="SENDER">%1$s</xliff:g>\" által küldött fájl mentéséhez"
+    </string>
+    <string msgid="2965243265852680543" name="bt_sm_2_2">"Szükséges tárterület: 
+        <xliff:g id="SIZE">%1$s</xliff:g>"
+    </string>
+    <string msgid="8578277541472944529" name="ErrorTooManyRequests">"Túl sok kérés áll feldolgozás alatt. Próbálja újra később."</string>
+    <string msgid="2503691772030877944" name="status_pending">"A fájlátvitel még nem kezdődött el."</string>
+    <string msgid="6562808920311008696" name="status_running">"A fájlátvitel folyamatban van."</string>
+    <string msgid="239573225847565868" name="status_success">"A fájlátvitel sikeresen befejeződött."</string>
+    <string msgid="1695082417193780738" name="status_not_accept">"A tartalom nem támogatott."</string>
+    <string msgid="613956401054050725" name="status_forbidden">"A céleszköz letiltotta az átvitelt."</string>
+    <string msgid="6664490318773098285" name="status_canceled">"A felhasználó visszavonta az átvitelt."</string>
+    <string msgid="3671917770630165299" name="status_file_error">"Tárolási probléma."</string>
+    <string msgid="1112125377088421469" name="status_no_sd_card" product="nosdcard">"Nincs SD-kártya. A küldött fájlok mentéséhez helyezzen be SD-kártyát."</string>
+    <string msgid="5760944071743325592" name="status_no_sd_card" product="default">No SD card. Insert an SD card to save transferred files.</string>
+    <string msgid="947681831523219891" name="status_connection_error">"A kapcsolódás sikertelen."</string>
+    <string msgid="3245444473429269539" name="status_protocol_error">"A kérést nem lehet megfelelően kezelni."</string>
+    <string msgid="8156660554237824912" name="status_unknown_error">"Ismeretlen hiba."</string>
+    <string msgid="7967791481444474554" name="btopp_live_folder">"Fogadott fájlok"</string>
+    <string msgid="7036160438766730871" name="download_success">" 
+        <xliff:g id="FILE_SIZE">%1$s</xliff:g> A fogadás kész."
+    </string>
+    <string msgid="4014469387779648949" name="upload_success">" 
+        <xliff:g id="FILE_SIZE">%1$s</xliff:g> A küldés kész.."
+    </string>
+    <string msgid="6940914942271327563" name="inbound_history_title">"Bejövő átvitelek"</string>
+    <string msgid="4279418703178140526" name="outbound_history_title">"Kimenő átvitelek"</string>
+    <string msgid="3482965619151865672" name="no_transfers">"Az átviteli napló üres."</string>
+    <string msgid="1712376797268438075" name="transfer_clear_dlg_msg">"Minden elem törlésre kerül a listáról."</string>
+    <string msgid="8051906709452260849" name="outbound_noti_title">"BT-megosztás: Elküldött fájlok"</string>
+    <string msgid="4143352641953027595" name="inbound_noti_title">"BT-megosztás: Fogadott fájlok"</string>
+    <string msgid="7508708288885707365" name="noti_caption">" 
+        <xliff:g id="SUCCESSFUL_NUMBER_0">%1$s</xliff:g> sikeres, 
+        <xliff:g id="UNSUCCESSFUL_NUMBER">%2$s</xliff:g> sikertelen."
+    </string>
+    <string msgid="790017462957873132" name="transfer_menu_clear_all">"Lista törlése"</string>
+    <string msgid="3368984869083107200" name="transfer_menu_open">"Megnyitás"</string>
+    <string msgid="5854038118831427492" name="transfer_menu_clear">"Törlés a listáról"</string>
+    <string msgid="2953444575556460386" name="transfer_clear_dlg_title">"Törlés"</string>
+    <string msgid="5349902976213455385" name="bluetooth_map_email_settings_save">"Mentés"</string>
+    <string msgid="5019472404940038118" name="bluetooth_map_email_settings_cancel">"Mégse"</string>
+    <string msgid="6219461401455143988" name="bluetooth_map_email_settings_intro">"Válassza ki a Bluetooth-kapcsolaton keresztül megosztani kívánt e-mail fiókokat. Csatlakozáskor továbbra is el kell fogadnia a fiókokhoz való hozzáférést."</string>
+    <string msgid="8884933619108905375" name="bluetooth_map_email_settings_count">"Szabadon maradt helyek száma:"</string>
+    <string msgid="6905622365985483669" name="bluetooth_map_email_settings_app_icon">"Alkalmazás ikonja"</string>
+    <string msgid="2181388147513118336" name="bluetooth_map_email_settings_title">"Bluetooth-kapcsolaton keresztüli üzenetmegosztás beállításai"</string>
+    <string msgid="5989596869950397488" name="bluetooth_map_email_settings_no_account_slots_left">"A fiók kiválasztása sikertelen. 0 hely maradt"</string>
+    <string name="incoming_file_confirm_content1" msgid="6673812334377911289">"\"<xliff:g id="SENDER">%1$s</xliff:g>\" a következő fájlt szeretné elküldeni: <xliff:g id="FILE">%2$s</xliff:g> (<xliff:g id="SIZE">%3$s</xliff:g>). \n\n Fogadja?"</string><!--add by lihaizhou for HQ01488268 at 20151109-->
+</resources>

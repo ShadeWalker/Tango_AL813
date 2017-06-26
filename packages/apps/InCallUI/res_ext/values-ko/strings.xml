@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dm_lock">DM 잠금</string>
+    <string name="dm_unlock">DM 잠금 해제</string>
+    <string name="start_record">녹화 시작</string>
+    <string name="stop_record">녹음 정지</string>
+    <string name="str_db_playlist_name">내 녹음</string>
+    <string name="alert_device_error">오디오 장치에서 오류 발생</string>
+    <string name="ext_media_badremoval_notification_title">"SD 카드가 예상치 않게 제거되었습니다."</string>
+    <string name="error_sdcard_access">SD 카드에 액세스할 수 없음</string>
+    <string name="confirm_device_info_full">SD 카드 공간이 부족합니다. 녹음이 저장되었습니다.</string>
+    <string name="confirm_save_info_saved">녹음이 저장되었습니다.</string>
+    <string name="confirm_save_info_saved_to">녹화가 다음 위치에 저장되었습니다</string>
+    <string name="recording_saved_sd_full">SD 카드 공간이 부족합니다. 녹음이 저장되었습니다.</string>
+    <string name="sd_not_enough">SD 카드\n공간 부족</string>
+    <string name="alert_dialog_dismiss">무시</string>
+    <string name="change_my_pic">변경</string>
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">모두 끊기</string>
+    <string name="onscreenHangupHolding">대기 중 끊기</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">현지, 대기 중 응답 끊기</string>
+    <string name="menu_ect">전송</string>
+    <string name="respond_via_sms_confirmation_format">"<xliff:g id="PHONE_NUMBER">%s</xliff:g>(으)로 메시지를 보냈습니다."</string>
+    <string name="volte_add_conference_member_title">컨퍼런스에 추가</string>
+    <string name="add_member_msg">번호 또는 이름 입력</string>
+    <string name="card_title_incoming_conference">컨퍼런스 초대</string>
+    <string name="addConferenceMemeberText">회원 추가</string>
+    <string name="add_conference_member_limit">한 번에 1개의 번호만 추가 가능</string>
+    <string name="conference_member_join">
+<xliff:g id="member_name">%s</xliff:g> 컴퍼런스에 참가함.</string>
+    <string name="conference_member_leave">
+<xliff:g id="member_name">%s</xliff:g> 컴퍼런스를 종료함.</string>
+    <string name="conference_member_adding">
+<xliff:g id="member_name">%s</xliff:g> 을(를) 추가하는 중 ...</string>
+    <string name="conference_member_add_fail">
+<xliff:g id="member_name">%s</xliff:g> 을(를) 추가하는 데 실패 .</string>
+    <string name="removeMember">"삭제"</string>
+    <string name="memberStatus">"상태"</string>
+    <string name="volte_call_waiting_indication_text">상대방이 통화 중입니다.</string>
+    <string name="volte_conf_member_reach_max">전화 회의가 이미 최대 구성원에 도달했습니다.</string>
+    <string name="add_multi_conference_member_limit">현재는 최대 <xliff:g id="max_number">%s</xliff:g>명의 구성원만 추가할 수 있습니다.</string>
+    <string name="multi_conference_member_adding">구성원을 추가하는 중…</string>
+<string name="two_incoming_calls">2건의 수신 전화</string>
+<string name="wifi_title">Wi-Fi 통화 및 기록 </string>
+<string name="call_drop">전화가 끊어질 수 있습니다.</string>
+<string name="call_drop_message">Wi-Fi 수신 지역 범위를 거의 벗어났습니다.</string>
+<string name="view_networks">네트워크 보기</string>
+<string name="wfc_wifi_call_drop_summary">죄송합니다. 통화 중에 Wi-Fi 네트워크 바깥으로 나간 것 같습니다.\n \n통화를 마칠 수 있도록 Wi-Fi 네트워크에 다시 연결할까요?</string>
+</resources>

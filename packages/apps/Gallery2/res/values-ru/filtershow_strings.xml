@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="2036539130684382763" name="title_activity_filter_show">"Графический редактор"</string>
+    <string msgid="5023634941212959976" name="cannot_load_image">"Не удалось загрузить изображение."</string>
+    <string msgid="5890293845882609388" name="cannot_edit_original">"Не удалось загрузить оригинал"</string>
+    <!-- no translation found for original_picture_text (3076213290079909698) -->
+    <skip/>
+    <string msgid="4679087092300036632" name="setting_wallpaper">"Установка обоев…"</string>
+    <string msgid="5923323939788582895" name="download_failure">"Не удалось скачать фото: сеть недоступна."</string>
+    <string msgid="3524493791230430897" name="original">"Оригинал"</string>
+    <string msgid="2067345080568684614" name="borders">"Рамка"</string>
+    <string msgid="8679893731790931871" name="custom_border">"Пользовательский"</string>
+    <string msgid="6781743189243585101" name="filtershow_undo">"Отмена"</string>
+    <string msgid="4219489910543059747" name="filtershow_redo">"Повторить"</string>
+    <string msgid="281932769701043015" name="show_imagestate_panel">"Отобразить эффекты"</string>
+    <string msgid="7207643485811695257" name="hide_imagestate_panel">"Скрыть эффекты"</string>
+    <string msgid="3202835713172222134" name="export_image">"Экспортировать"</string>
+    <string msgid="1942989216591621413" name="print_image">"Печать"</string>
+    <string msgid="9046192331465915411" name="export_flattened">"Экспорт с объединением слоев"</string>
+    <string msgid="1268532018080310748" name="select_output_settings">"Экспортированное изображение будет копией без истории изменений"</string>
+    <string msgid="179292110309050529" name="quality">"Качество"</string>
+    <string msgid="4639404642236356037" name="size">"Размер"</string>
+    <string msgid="6810256999024563662" name="x">"x"</string>
+    <string msgid="6428291655769260831" name="menu_settings">"Настройки"</string>
+    <string msgid="8704442449002374375" name="unsaved">"У вас есть несохраненные изменения."</string>
+    <string msgid="2680660633675916712" name="save_before_exit">"Сохранить изменения?"</string>
+    <string msgid="3628425023766687419" name="save_and_exit">"Сохранить и закрыть"</string>
+    <string msgid="6371565035837463194" name="save_and_processing">"Сохранение..."</string>
+    <string msgid="242642957038770113" name="exit">"Закрыть"</string>
+    <string msgid="455767361472692409" name="history">"История"</string>
+    <string msgid="9013181350779592937" name="reset">"Сброс"</string>
+    <!-- no translation found for history_original (150973253194312841) -->
+    <skip/>
+    <string msgid="8632586742752891968" name="imageState">"Эффекты"</string>
+    <string msgid="8140838959007796977" name="compare_original">"Сравнить"</string>
+    <string msgid="1218288221200568947" name="apply_effect">Применить</string>
+    <string msgid="7712605581024929564" name="reset_effect">"Сброс"</string>
+    <string msgid="4025244950820813059" name="aspect">"Формат"</string>
+    <string msgid="1159104543795779123" name="aspect1to1_effect">"1:1"</string>
+    <string msgid="7968067847241223578" name="aspect4to3_effect">"4:3"</string>
+    <string msgid="7078163990979248864" name="aspect3to4_effect">"3:4"</string>
+    <string msgid="1410129351686165654" name="aspect4to6_effect">"4:6"</string>
+    <string msgid="5122395569059384741" name="aspect5to7_effect">"5:7"</string>
+    <string msgid="5780001758108328143" name="aspect7to5_effect">"7:5"</string>
+    <string msgid="7740468012919660728" name="aspect9to16_effect">"16:9"</string>
+    <string msgid="6263330561046574134" name="aspectNone_effect">"Вручную"</string>
+    <!-- no translation found for aspectOriginal_effect (5678516555493036594) -->
+    <skip/>
+    <string msgid="8017376448916924565" name="Fixed">"Постоянное"</string>
+    <string msgid="2783694326474415761" name="tinyplanet">"Закругление"</string>
+    <string msgid="6526397045949374905" name="exposure">"Экспозиция"</string>
+    <string msgid="6463103068318055412" name="sharpness">"Резкость"</string>
+    <string msgid="2310908487756769019" name="contrast">"Контраст"</string>
+    <string msgid="3326744578577835915" name="vibrance">"Vibrance"</string>
+    <string msgid="7026791551032438585" name="saturation">"Насыщенность"</string>
+    <string msgid="8927492494576933793" name="bwfilter">"Ч/Б"</string>
+    <string msgid="6346581563387083613" name="wbalance">"Авторежим"</string>
+    <string msgid="6231252147971086030" name="hue">"Оттенок"</string>
+    <string msgid="3928572915300287152" name="shadow_recovery">"Тени"</string>
+    <string msgid="8262208470735204243" name="highlight_recovery">"Блики"</string>
+    <string msgid="915010781090477550" name="curvesRGB">"Кривые"</string>
+    <string msgid="934721068851885390" name="vignette">"Виньетирование"</string>
+    <string msgid="6046495605390665423" name="vignette_main">"Виньетирование"</string>
+    <string msgid="6862058227309534094" name="vignette_exposure">"Выдержка"</string>
+    <string msgid="1617055207565719771" name="vignette_saturation">"Насыщенность"</string>
+    <string msgid="955732121756799897" name="vignette_contrast">"Контрастность"</string>
+    <string msgid="690918055030064199" name="vignette_falloff">"Уровень"</string>
+    <string msgid="4508883127049472069" name="redeye">"Красные глаза"</string>
+    <string msgid="6918552177844486656" name="imageDraw">"Рисование"</string>
+    <string msgid="26025591664983528" name="straighten">"Выровнять"</string>
+    <string msgid="5781263790107850771" name="crop">"Кадрировать"</string>
+    <string msgid="2796802553793795371" name="rotate">"Повернуть"</string>
+    <string msgid="5482518108154883096" name="mirror">"Отразить"</string>
+    <string msgid="6998313764388022201" name="negative">"Негатив"</string>
+    <string msgid="6633966646410296520" name="none">"Оригинал"</string>
+    <string msgid="7036064886242147551" name="edge">"Края"</string>
+    <string msgid="2080952022674981541" name="kmeans">"Постеризация"</string>
+    <string msgid="3552938534146980104" name="downsample">"Уменьшить"</string>
+    <string msgid="546774853424848655" name="grad">"Градиент"</string>
+    <string msgid="5937316734380235741" name="editor_grad_brightness">"Яркость"</string>
+    <string msgid="3454456673401803360" name="editor_grad_contrast">"Контраст"</string>
+    <string msgid="3760247354109521726" name="editor_grad_saturation">"Насыщенность"</string>
+    <string msgid="4427652337797121940" name="editor_chan_sat_main">"Основной"</string>
+    <string msgid="1699222266490540696" name="editor_chan_sat_red">"Красный"</string>
+    <string msgid="1488997071882154179" name="editor_chan_sat_yellow">"Желтый"</string>
+    <string msgid="1514055896212975167" name="editor_chan_sat_green">"Зеленый"</string>
+    <string msgid="1367634650172508288" name="editor_chan_sat_cyan">"Голубой"</string>
+    <string msgid="384409736863387895" name="editor_chan_sat_blue">"Синий"</string>
+    <string msgid="6689215719351415546" name="editor_chan_sat_magenta">"Пурпурный"</string>
+    <string msgid="2168414479007745179" name="editor_grad_style">"Стиль"</string>
+    <string msgid="4857265951369377379" name="editor_grad_new">"новый"</string>
+    <string msgid="7909209509638333690" name="curves_channel_rgb">"RGB"</string>
+    <string msgid="4199710104162111357" name="curves_channel_red">"Красный"</string>
+    <string msgid="3733003466905031016" name="curves_channel_green">"Зеленый"</string>
+    <string msgid="9129211507395079371" name="curves_channel_blue">"Синий"</string>
+    <string msgid="2036125061987325389" name="draw_style">"Стиль"</string>
+    <string msgid="4360005386104151209" name="draw_size">"Размер"</string>
+    <string msgid="4975135843189267133" name="draw_hue">"Тон"</string>
+    <string msgid="5394395648014454882" name="draw_saturation">"Насыщенность"</string>
+    <string msgid="6571604055161538273" name="draw_value">"Яркость"</string>
+    <string msgid="2119030386987211193" name="draw_color">"Цвет"</string>
+    <string msgid="9216476853904429628" name="draw_style_line">"Линии"</string>
+    <string msgid="7612691122932981554" name="draw_style_brush_spatter">"Маркер"</string>
+    <string msgid="8468302322165644292" name="draw_style_brush_marker">"Распыление"</string>
+    <string msgid="6728155515454921052" name="draw_clear">"Очистить"</string>
+    <string msgid="1086895807615869290" name="color_border_size">"Ширина"</string>
+    <string msgid="7637235159438869979" name="color_border_corner_size">"Границы"</string>
+    <string msgid="8765458414425980711" name="color_border_color">"Цвет"</string>
+    <string msgid="4418261191091091722" name="color_border_clear">"Удалить"</string>
+    <string msgid="734312818059057394" name="color_pick_select">"Выбрать свой цвет"</string>
+    <string msgid="6195567431995308876" name="color_pick_title">"Выберите цвет"</string>
+    <string msgid="3121649039610273977" name="draw_size_title">"Выберите размер"</string>
+    <string msgid="6781529716526190028" name="draw_size_accept">"ОК"</string>
+    <string msgid="9069584409934164419" name="state_panel_original">"Как в оригинале"</string>
+    <string msgid="318640531123298676" name="state_panel_result">"Результат"</string>
+    <string msgid="1653168445525855247" name="filtershow_notification_label">"Сохранение…"</string>
+    <string msgid="2661871765484036286" name="filtershow_notification_message">"Обработка…"</string>
+    <string msgid="3933550455577927439" name="filtershow_save_preset">"Сохранить этот набор настроек"</string>
+    <string msgid="3872896753708921286" name="filtershow_manage_preset">"Управление настройками"</string>
+    <string msgid="8923930134923416617" name="filtershow_new_preset">"Новый набор настроек"</string>
+    <string msgid="7015939727047649866" name="filtershow_preset_name">"Название шаблона"</string>
+    <string msgid="5773036746043711115" name="filtershow_show_info_panel">"О фото"</string>
+    <string msgid="5908258517140549439" name="filtershow_show_info_panel_name">"Название"</string>
+    <string msgid="1714666849204493017" name="filtershow_show_info_panel_size">"Размер"</string>
+    <string msgid="2669188469897955809" name="filtershow_show_info_panel_histogram">"Гистограмма"</string>
+    <string msgid="4965486882625125154" name="filtershow_show_info_panel_exif">"Данные EXIF"</string>
+    <string msgid="8630823661416925426" name="filtershow_add_button_looks">"Добавить"</string>
+    <string msgid="7620107266685809612" name="filtershow_add_button_versions">"Добавить"</string>
+    <string msgid="1413894292200912828" name="filtershow_version_original">"Оригинал"</string>
+    <string msgid="6609334422797468952" name="filtershow_version_current">"Текущая"</string>
+    <string msgid="3543206476046267466" name="filtershow_exif_model">"Модель"</string>
+    <string msgid="5076571522763604380" name="filtershow_exif_aperture">"Диафрагма"</string>
+    <string msgid="5925151469731623706" name="filtershow_exif_focal_length">"Фокусное расстояние"</string>
+    <string msgid="5822494416955625317" name="filtershow_exif_iso">"ISO"</string>
+    <string msgid="4920632253433906646" name="filtershow_exif_subject_distance">"Расстояние до объекта"</string>
+    <string msgid="8882402253732028544" name="filtershow_exif_date">"Дата съемки"</string>
+    <string msgid="6081797865604483139" name="filtershow_exif_f_stop">"Единица диафрагмы"</string>
+    <string msgid="4099067062781294115" name="filtershow_exif_exposure_time">"Выдержка"</string>
+    <string msgid="8801875918803737581" name="filtershow_exif_copyright">"Авторское право"</string>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">Støjreduktion</string>
+    <string name="dual_mic_summary">Undertryk baggrundsstøjen under dine opkald</string>
+    <string name="anc_title">Aktiv støjreduktion</string>
+    <string name="anc_on">ANC til</string>
+    <string name="anc_off">ANC fra</string>
+    <string name="ip_prefix_setting">IP-præfiksnummer</string>
+    <string name="ip_prefix_setting_lable">IP-præfiksnummer (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">Indstillinger for IP-præfiksnummer</string>
+    <string name="enter_ip_prefix_number">Indtast præfiksnummer</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Indtast først IP-præfiksnummer i indstillingerne for stemmeopkald.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">IP-opkaldsfunktionen er ikke relevant ved internetopkald.</string>
+    <string name="ip_prefix_edit_default_sum">Indtast præfiksnummer for IP-opkald</string>
+    <string name="lable_call_barring">"Opkaldsspærring"</string>
+    <string name="title_call_barring">Opkaldsspærring (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">Alle udgående opkald</string>
+    <string name="lable_all_outgoing_international">Internationale udgående opkald</string>
+    <string name="lable_all_out_except">Internationale udgående opkald, bortset fra til hjemlige PLMN</string>
+    <string name="lable_all_incoming">Alle indgående opkald</string>
+    <string name="lable_incoming_calls_except">Indgående opkald under roaming</string>
+    <string name="deactivate_all">Annuller alt</string>
+    <string name="change_password">Skift adgangskode til spærring</string>
+    <string name="call_barring_sum">Indstillinger for stemmeopkaldsspærring</string>
+    <string name="lable_disable">"Deaktiveret"</string>
+    <string name="lable_enable">"Aktiveret"</string>
+    <string name="old_password_label">Gammel adgangskode (4 cifre)</string>
+    <string name="new_password_label">Ny adgangskode (4 cifre)</string>
+    <string name="invalid_password">Indtast en adgangskode på 4 cifre.</string>
+    <string name="confirm_password_label">Bekræft ny adgangskode</string>
+    <string name="mismatch_password">De indtastede adgangskoder matcher ikke. Prøv igen.</string>
+    <string name="password_changed">Adgangskode ændret</string>
+    <string name="enter_callbarring_password">Indtast adgangskode for opkaldsspærring (4 cifre)</string>
+    <string name="wrong_password">Fejl i adgangskode</string>
+    <string name="error_title">"Fejl"</string>
+    <string name="cell_broadcast">Mobil-broadcast (CB)</string>
+    <string name="cell_broadcast_settings">Indstillinger for CB</string>
+    <string name="cb_menu_language">"Sprog"</string>
+    <string name="cb_menu_add_channel">Tilføj kanal</string>
+    <string name="cb_menu_channel_list">Kanalliste</string>
+    <string name="cb_dialog_title_language_choice">Vælg sprog</string>
+    <string name="cb_channel_dialog_channel_name">Kanalnavn (0-10 tegn)</string>
+    <string name="cb_channel_dialog_channel_number">Kanalnummer (0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">Aktiver kanalen</string>
+    <string name="cb_channel_dialog_edit_channel">Rediger kanal</string>
+    <string name="cb_menu_edit">"Rediger"</string>
+    <string name="cb_menu_delete">"Slet"</string>
+    <string name="cb_error_channel_num">Indtast kanalnummer (0-65534).</string>
+    <string name="cb_error_channel_name">Kanalnavnets længde er ikke korrekt (1-10 tegn).</string>
+    <string name="cb_error_language_select">Vælg mindst ét sprog.</string>
+    <string name="cb_error_channel_id_exist">"Kanal-id'et findes i forvejen."</string>
+    <string name="cb_all_languages">"Alle sprog"</string>
+    <string name="cb_default_new_channel_name">Ny kanal</string>
+    <string name="fdn_errorcode_unknown_info">Fejl. Der opstod en ukendt fejl. Prøv igen senere.</string>
+    <string name="fdn_errorcode_number_info">Fejl. Kontaktnummeret er for langt.</string>
+    <string name="fdn_errorcode_name_info">Fejl. Kontaktnavnet er for langt.</string>
+    <string name="fdn_errorcode_storage_info">Fejl. Lageret er fyldt.</string>
+    <string name="fdn_errorcode_phb_info">Fejl. Telefonbogen er ikke klar nu. Prøv igen senere.</string>
+    <string name="fdn_errorcode_pin2_info">Fejl. Ugyldig PIN2.</string>
+    <string name="net_or_simcard_busy">Netværket eller SIM-kortet er optaget. Prøv igen senere.</string>
+    <string name="plmn_list_setting_title">Foretrukne netværk</string>
+    <string name="network_id">Netværks-ID</string>
+    <string name="plmn_list_setting_add_plmn">Ny PLMN</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">"Søg..."</string>
+    <string name="sum_search_femtocell_networks">Vælg femtocell manuelt</string>
+    <string name="register_femtocell_point_wait_tip">Registrerer <xliff:g id="femto_cell_info">%s</xliff:g> …</string>
+    <string name="register_femtocell_point_result_fail_tip">Kan ikke oprette forbindelse til dette netværk lige nu. Prøv igen senere.</string>
+    <string name="network_type">Netværkstype</string>
+    <string name="gsm_umts_network_preferences_title">"Netværkstilstand"</string>
+    <string name="gsm_umts_network_preferneces_summary">Endnu ikke implementeret!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"Netværkstilstand"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G (auto)</item>
+        <item>Kun 3G</item>
+        <item>Kun 2G</item>
+    </string-array>
+    <string name="notification_voicemail_text">Vælg for at vise telefonbeskeder</string>
+    <string name="notification_network_selection_without_operator">Det valgte netværk er utilgængeligt</string>
+    <string name="network_setting_all_forbidden_dialog">Der er ingen tilgængelige netværk.</string>
+    <string name="network_forbidden">forbudt</string>
+    <string name="fdn_contact_number_invalid">Ugyldigt kontaktnummer.</string>
+    <string name="fdn_puk_need_tips">PIN2 blokeret. Skift PIN2 og prøv igen!</string>
+    <string name="fdn_phone_book_busy">Telefonbogen er optaget nu. Prøv senere.</string>
+    <string name="one_retry_left">1 forsøg tilbage</string>
+    <string name="retries_left"><xliff:g id="number">%d</xliff:g> forsøg tilbage</string>
+    <string name="pin_length_indicate">(4-8 cifre)</string>
+    <string name="puk_length_indicate">(8 cifre)</string>
+    <string name="unblock_pin2">Fjern blokering af PIN2</string>
+    <string name="sim_permanently_locked">Hvis du indtaster en forkert PUK2-kode mere end 10 gange, låses SIM-kortet permanent.</string>
+    <string name="magi_conference_title">MagiKonference</string>
+    <string name="magi_conference_summary">Forbedr stemmekvalitet, når flere personer bruger telefonen til at tale sammen.</string>
+    <string name="volte_is_adding_participants">Tilføjer konferencemedlemmer - vent...</string>
+    <string name="volte_fail_to_invit_participants">Kunne ikke tilføje alle medlemmer til konferencen.</string>
+    <string name="voicemail_lable">Telefonsvarer (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">Afslut handlingen ved at åbne dataforbindelsen til <xliff:g id="sub_name">%s</xliff:g>.</string>
+    <string name="cdma_labelCFU">"Viderestil altid"</string>
+    <string name="cdma_labelCFB">"Viderestil ved optaget"</string>
+    <string name="cdma_labelCFNRy">"Viderestil ved ubesvaret"</string>
+    <string name="cdma_labelCFNRc">"Viderestil ved utilgængelig"</string>
+    <string name="cdma_labelCFC">Annuller al viderestilling</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">Deaktiver begrænsning af identifikation af opkaldsnummer</string> 
+    <string name="cdma_cnir_turnon">Aktiver begrænsning af identifikation af opkaldsnummer</string>
+    <string name="lte_data_only_prompt">Kan ikke bruge denne funktion pga. kun 4G.Vil du forlade tilstanden med data kun over 4G?</string>
+    <string name="lte_data_only_timeout">Intet netværk til kun data over 4G tilgængeligt på din aktuelle placering. Vil du forlade og lede efter andre netværk?</string>
+    <string name="lte_only_dialog_button_yes">"JA"</string>
+    <string name="lte_only_dialog_button_no">"NEJ"</string>
+    <string name="lte_only_dialog_title_prompt">Prompt</string>
+    <string name="enable_4G_data">Aktivér 4G data</string>
+    <string name="enable_4G_data_summary">4G kan give dig bedre og hurtigere internetadgang</string>
+    <string name="only_use_LTE_data">Brug kun LTE-data</string>
+    <string name="only_use_LTE_data_summary">"Hvis du aktiverer kun brug af enkelte data, kan du ikke bruge telefonopkald eller SMS'er."</string>
+</resources>

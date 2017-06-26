@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dm_lock">DM bloķēts</string>
+    <string name="dm_unlock">DM atbloķēts</string>
+    <string name="start_record">Sākt ierakstīšanu</string>
+    <string name="stop_record">Pārtraukt ierakstīšanu</string>
+    <string name="str_db_playlist_name">"Mani ieraksti"</string>
+    <string name="alert_device_error">"Kļūda radās audio ierīcē"</string>
+    <string name="ext_media_badremoval_notification_title">"SD karte tika negaidīti izņemta."</string>
+    <string name="error_sdcard_access">"Nevar piekļūt SD kartei"</string>
+    <string name="confirm_device_info_full">SD kartē nav vietas, ieraksts ir saglabāts.</string>
+    <string name="confirm_save_info_saved">Ieraksts ir saglabāts</string>
+    <string name="confirm_save_info_saved_to">Ieraksts ir saglabāts:</string>
+    <string name="recording_saved_sd_full">SK kartē nav vietas, ieraksts ir saglabāts.</string>
+    <string name="sd_not_enough">SD kartē sākt trūkt\nvietas</string>
+    <string name="alert_dialog_dismiss">"Noraidīt"</string>
+    <string name="change_my_pic">Mainīt</string>
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">Atvienot visus zvanus</string>
+    <string name="onscreenHangupHolding">Nolikt klausuli, atvienojot aizturēto zvanu</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Nolikt klausuli, atvienojot aktīvo zvanu vai zvanu, kas gaida</string>
+    <string name="menu_ect">Pārsūtīt</string>
+    <string name="respond_via_sms_confirmation_format">"Ziņojums nosūt. uz šādu tālr. nr.:  
+        <xliff:g id="PHONE_NUMBER">%s</xliff:g>."
+    </string>
+    <string name="volte_add_conference_member_title">Pievienot konferencei</string>
+    <string name="add_member_msg">Ievadiet numuru vai vārdu</string>
+    <string name="card_title_incoming_conference">Konferences ielūgums</string>
+    <string name="addConferenceMemeberText">Pievienot dalībnieku</string>
+    <string name="add_conference_member_limit">Vienlaikus var pievienot tikai vienu numuru.</string>
+    <string name="conference_member_join">
+<xliff:g id="member_name">%s</xliff:g> pievienojās konferencei.</string>
+    <string name="conference_member_leave">
+<xliff:g id="member_name">%s</xliff:g> atstāja konferenci.</string>
+    <string name="conference_member_adding">Pievieno <xliff:g id="member_name">%s</xliff:g> ...</string>
+    <string name="conference_member_add_fail">Neizdevās pievienot <xliff:g id="member_name">%s</xliff:g>.</string>
+    <string name="removeMember">"Noņemt"</string>
+    <string name="memberStatus">"Statuss"</string>
+    <string name="volte_call_waiting_indication_text">Otra pusei notiek saruna, lūdzu, uzgaidiet…</string>
+    <string name="volte_conf_member_reach_max">Konferencē jau sasniegts maksimālais dalībnieku skaits.</string>
+    <string name="add_multi_conference_member_limit">Šobrīd var pievienot maksimāli <xliff:g id="max_number">%s</xliff:g> dalībniekus.</string>
+    <string name="multi_conference_member_adding">Pievieno dalībnieku(s)…</string>
+<string name="ok">"Labi"</string>
+<string name="two_incoming_calls">Divi ienākošie zvani</string>
+<string name="wifi_title">Wi-Fi zvans un minūtes </string>
+<string name="call_drop">Jūsu zvans var tikt atvienots</string>
+<string name="call_drop_message">Jūs esat sasniedzis Wi-Fi pārklājuma zonas ārējo robežu</string>
+<string name="view_networks">Skatīt tīklus</string>
+<string name="wfc_wifi_call_drop_summary">Šķiet, ka zvana laikā esat pametis savu Wi-Fi tīklu.\n \nVai atkārtoti izveidot savienojumu ar Wi-Fi tīklu, lai pabeigtu zvanu?</string>
+</resources>

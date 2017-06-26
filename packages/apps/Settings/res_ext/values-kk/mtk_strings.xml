@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- AudioProfile Settings start -->
+   <string name="ring_summary">Қоңырау</string>
+  <string name="ring_vibrate_summary">Қоңырау және діріл</string>
+  <string name="silent_summary">Тек дыбыссыз</string>
+  <string name="meeting_summary">Тек діріл</string>
+  <string name="outdoor_summary">Ең жоғарғы дыбыс және діріл</string>
+  <string name="audio_profile_reset">Қалпына келтіру</string>
+  <string name="audio_profile_add">Қосу</string>
+  <string name="audio_profile_enable">Қосу</string>
+  <string name="audio_profile_rename">Атын өзгерту</string>
+  <string name="audio_profile_delete">Жою</string>
+  <string name="audio_profile_message_reset">Аудио профиль параметрлерінің барлық әдепкі мәндері қалпына келтіріледі</string>
+  <string name="audio_profile_message_rename">Жаңа профиль атын енгізіңіз</string>
+  <string name="audio_profile_message_name_error">Енгізілген ат бұрыннан бар</string>
+  <string name="audio_profile_message_name_length_wrong">Аты кемінде бір таңбамен қамтылуы қажет</string>
+  <string name="audio_profile_message_delete"><xliff:g id="profile">%s</xliff:g> профилі жойылады</string>
+  <string name="audio_profile_message_overflow">Тек 6 пайдаланушы профилін қосуға рұқсат етіледі</string>
+  <string name="audio_profile_category_custom_title">Пайдаланушы профильдері</string>
+  <string name="audio_profile_category_predefine_title">Стандартты профильдер</string>
+  <string name="audio_profile_error">Қате</string>
+  <string name="audio_profile_others">Хабарландыру және басқалар</string>
+  <string name="general_settings_title">Жалпы</string>
+  <string name="silent_settings_title">Дыбыссыз</string>
+  <string name="meeting_settings_title">Кездесу</string>
+  <string name="outdoor_settings_title">Сыртқы жақ</string>
+  <string name="sound_category_feedback_title">Жүйе</string>
+  <string name="sound_category_calls_title">Кіріс қоңыраулар</string>
+  <string name="voice_call_title">Дыбыстық қоңырау рингтоны</string>
+  <string name="voice_call_summary">"Дыбыстық қоңырау рингтонын әдепкі бойынша орнатыңыз"</string>
+  <string name="video_call_title">Бейне қоңырау рингтоны</string>
+  <string name="video_call_summary">Бейне қоңырау рингтонын әдепкі бойынша орнатыңыз</string>
+  <string name="sip_call_title">SIP қоңырау рингтоны</string>
+  <string name="sip_call_summary">SIP қоңырау рингтонын әдепкі бойынша орнатыңыз</string>
+  <string name="Phone_vibrate_summary">Кіріс қоңыраулар кезіндегі діріл</string>
+  <string name="vibrate_title">Діріл</string>
+  <string name="audio_profile_settings_title">Аудио профильдер</string>
+  <string name="audio_profile_bes_loudness_summary">Динамикке арналған дауыс зорайтқышы</string>
+  <string name="sound_enhancement_title">Дыбысты жақсарту</string>
+  <string name="music_plus_summary">Құлаққапқа арналған дыбыс зорайтқыш</string>
+  <string name="lossless_title">Жоғалмайтын BT режимі</string>
+  <string name="lossless_summary">Жоғары сапалы BT аудио</string>
+  <string name="lossless_connect_summary">Жоғалмайтын BT режимін қосу арқылы Wi-Fi ақаулануы мүмкін. Қосуға сенімдісіз бе?</string>
+  <string name="lossless_on">Lossless BT режимі қосулы</string>
+  <string name="lossless_playing">Жоғалмайтын музыка ойнату</string>
+  <string name="lossless_toastmessage">Жүйе дыбыстары телефон динамигі арқылы ойнатылады</string>
+  <string name="lossless_volume_max">Жүйелік томды максималды деңгейде сақтаңыз</string>
+  <string name="lossless_cannot_found_device">Дерек ысырабынсыз ВТ құрылғысын табу мүмкін емес</string>
+  <string name="audio_profile_bes_surround_title">BesSurround</string>
+  <string name="audio_profile_bes_surround_summary">Аудио көлемді дыбысы</string>
+  <string name="audio_profile_bes_surround_mode_movie">Бейнефильм режимі</string>
+  <string name="audio_profile_bes_surround_mode_music">Музыка режимі</string>
+  <string name="zen_mode_option_title_novoice" msgid="6680706009915204785">"Хабарландырулар келгенде"</string>
+  <!-- AudioProfile Settings end -->
+ 
+  <!-- MTK Wi-Fi settings start -->
+   <string name="wifi_no_cert_for_wapi">Ағымдағы қатынас орнының сертификатын анықтау мүмкін емес</string>
+  <string name="sim_slot">SIM карта ұяшығы</string>
+  <string name="eap_sim_slot_0">1-SIM карта ұяшығы</string>
+  <string name="eap_sim_slot_1">2-SIM карта ұяшығы</string>
+  <string name="eap_sim_aka_airplanemode">EAP-SIM/AKA пайдалану үшін, "Ұшақ режимін" өшіріңіз</string>
+  <string name="eap_sim_aka_no_sim_error">EAP-SIM/AKA пайдалану үшін, SIM картаны енгізу қажет</string>
+  <string name="eap_sim_aka_no_sim_slot_selected">EAP-SIM/AKA пайдалану үшін, SIM карта ұяшығын таңдау қажет</string>
+  <string name="wifi_security_wapi_certificate">WAPI сертификаты</string>
+  <string name="wapi_user_certificate">Пайдаланушы сертификаты</string>
+  <string name="wapi_as_certificate">ASE сертификаты</string>
+  <string name="wifi_hex_password">Он алтылық құпия сөз.</string>
+  <string name="wifi_WEP_transmit_key">Тасымалдау кілті</string>
+  <string name="wifi_WEP_secury_key">Қауіпсіздік кілті</string>
+  <string name="wifi_tether_auto_disable_title">Wi-Fi кіру орнын сақтау</string>
+  <string name="wifi_tether_auto_channel_text">Авто</string>
+  <string name="wifi_tether_auto_channel_width_text">Авто 20/40 МГц</string>
+  <string name="wifi_channel">Ұсынылатын арна</string>
+  <string name="wifi_channel_width">Арнаның ені</string>
+  <string name="wifi_advanced_ipv4_address_title">IPv4 мекенжайы</string>
+  <string name="wifi_advanced_ipv6_address_title">IPv6 мекенжайы</string>
+  <string name="wifi_ipv4_address">IPv4 мекенжайы</string>
+  <string name="wifi_ipv6_address">IPv6 мекенжайы</string>
+  <string name="wifi_ap_auto_join_available">Автоқосылу</string>
+  <string name="wifi_ap_auto_join_available_summary">Байланысқан кезде қосылу үшін сканерлеу барысында жақсы Wi-Fi желісін автотаңдау</string>
+  <!-- MTK Wi-Fi settings end -->
+ 
+  <!-- Wi-Fi hotspot client start -->
+   <string name="wifi_tether_setting_title">Негізгі параметрлер</string>
+  <string name="wifi_tether_wps_connect_title">WPS қосу</string>
+  <string name="wifi_tether_wps_connect_summary">Таңдалған Wi-Fi қорғалған реттеу режимін жалғастыру</string>
+  <string name="wifi_tether_wps_pin_error">Жарамсыз PIN коды</string>
+  <string name="wifi_tethering_title">Wi-Fi кіру орны</string>
+  <string name="wifi_ap_wps_dialog_title">WPS қосу</string>
+  <string name="wifi_ap_wps_mode_title">WPS режимі</string>
+  <string name="wifi_ap_wps_pin_title">Клиент PIN кодын енгізіңіз</string>
+  <string name="wifi_ap_reset_OOB_title">Әдепкі желі SSID, қауіпсіздігін және құпия сөзін қалпына келтіру (WPS зауыттық конфигурациясы)</string>
+  <string name="wifi_ap_reset_OOB">ООВ қалпына келтіру</string>
+  <string name="wifi_ap_max_connection_title">Қосылымдардың максималды саны</string>
+  <string name="wifi_ap_connected_title">Қосылған пайдаланушылар</string>
+  <string name="wifi_ap_blocked_title">Құлыпталған пайдаланушылар</string>
+  <string name="wifi_ap_client_block_title">Құлыптау</string>
+  <string name="wifi_ap_client_unblock_title">Құлыптан босату</string>
+  <string name="wifi_ap_client_details_title">Толық мәлімет</string>
+  <string name="wifi_ap_client_mac_label">MAC мекенжайы:</string>
+  <string name="wifi_ap_client_ip_label">ІР мекенжайы:</string>
+  <string name="wifi_ap_bandwidth_title">Өткізу мүмкіндігін пайдалану</string>
+  <string name="wifi_ap_bandwidth_enable">Өткізу мүмкіндігін реттеу режимін қосу</string>
+  <string name="wifi_ap_bandwidth_chart_title">Нақты уақыттағы деректерді беру жылдамдығы</string>
+  <string name="wifi_ap_bandwidth_chart_summary">Телефондағы деректерді беру жылдамдығының көрсеткіші әртүрлі болуы мүмкін.</string>
+  <string name="wifi_wps_fail_error">Қорғалған Wi-Fi реттеуі сәтсіз аяқталды, әрекетті қайталаңыз.</string>
+  <string name="wifi_ap_title">Статистика</string>
+  <string name="wifi_ap_time_duration">Ұзақтығы: <xliff:g id="time">%1$s</xliff:g></string>
+  <string name="wifi_ap_total_data">Жалпы пайдаланылған деректер:<xliff:g id="time">%1$s</xliff:g></string>
+  <string name="wifi_ap_no_connected">0 қосылған пайдаланушы</string>
+  <string name="wifi_ap_no_blocked">0 құлыпталған пайдаланушы</string>
+  <!-- Wi-Fi hotspot client end -->
+ 
+  <!-- MTK Beam plus start -->
+   <string name="beam_mgmt_tab_download_title">Алған кезде қызметті жүктеу (SL) туралы хабарды автоматты түрде іске қосу</string>
+  <string name="beam_mgmt_tab_upload_title">Электрондық хабар ретінде жіберу үшін, ол ағымдағы құрылғы күйі туралы ақпарат жинайды. Жіберілмес бұрын қате туралы есепті дайындауға біраз уақыт кетеді.</string>
+  <string name="beam_share_mgmt_notification_ticker">Сәулені ортақ пайдалану журналы</string>
+  <string name="beam_share_mgmt_notification_title">Сәулені ортақ пайдалану журналы</string>
+  <string name="beam_share_mgmt_notification_message">"Сәулені ортақ пайдалану журналын көру үшін таңдаңыз."</string>
+  <string name="beam_share_mgmt_tab_menu_clear">Барлық ескертпелерді жою.</string>
+  <string name="beam_share_open_file_dialog_title">Файлды ашу мүмкін емес</string>
+  <string name="beam_share_open_file_unsupported_message">Файл пішіміне қолдау көрсетілмейді.</string>
+  <string name="beam_share_open_file_not_found_message">"Файл табылмады: <xliff:g id="file_name">%1$s</xliff:g>"</string>
+  <string name="beam_share_transfer_fail_dialog_title">"Сәуле сәтсіз аяқталды"</string>
+  <string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> файлы сәтті жіберілмеді."</string>
+  <string name="beam_share_resend_dialog_ok_button">Әрекетті қайталаңыз</string>
+  <string name="beam_share_show_received_files_menu">Алынған файлдарды көрсету</string>
+  <string name="beam_share_history_title">Сәулені ортақ пайдалану журналы</string>
+  <string name="beam_share_clear_confirm_dialog_title">Барлығын тазалау</string>
+  <string name="beam_share_clear_confirm_dialog_message">Барлық тарихты тазалау қажет пе?</string>
+  <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> файлы сәтті алынбады."</string>
+  <string name="beam_share_clear_item_dailog_title">Жою</string>
+  <string name="beam_share_clear_item_dailog_message">Элемент жойылады.</string>
+  <!-- MTK Beam plus end -->
+ 
+  <!-- MTK NFC settings start -->
+   <string name="nfc_p2p_mode">Р2Р режимі</string>
+  <string name="nfc_p2p_mode_summary">Қолданба мазмұнын жібері немесе алу</string>
+  <string name="nfc_tag_mode_category">Тег режимі</string>
+  <string name="nfc_rw_tag_title">Тегті оқу және жазу</string>
+  <string name="nfc_rw_tag_summary">Тегтен оқу немесе тегке жазу</string>
+  <string name="nfc_card_emulation_category_title">карта эмуляциясының режимі</string>
+  <string name="nfc_card_emulation">Карта эмуляциясы</string>
+  <string name="card_emulation_settings_category_title">қолжетімді қауіпсіздік элементі</string>
+  <string name="card_emulation_settings_no_element_found">Қолжетімді қауіпсіздік элементі жоқ.</string>
+  <string name="card_emulation_settings_off_text">Қолжетімді қауіпсіздік элементін көру үшін, Карта эмуляциясының режимін қосыңыз.</string>
+  <string name="card_emulation_turning_off_text">Карта эмуляциясының режимін өшіру...</string>
+  <string name="card_emulation_turning_on_text">Карта эмуляциясының режимін қосу...</string>
+  <string name="card_emulation_switch_error_title">Қате</string>
+  <string name="card_emulation_switch_error_message"><xliff:g id="card_mode">%1$s</xliff:g> режимін қосу сәтсіз аяқталды.</string>
+  <string name="card_emulation_sim_not_supported_message">NFC картасының эмуляциясы функциясына <xliff:g id="sim_description">%1$s</xliff:g> қолдау көрсетпейді.</string>
+  <string name="card_emulation_two_sim_not_supported_message">SIM1, SIM2 карталары NFC картасын эмуляциялау функциясына қолдау көрсетпейді.</string>
+  <string name="nfc_hce_pay_summary">Құрылғыны Google есепшоты, кредиттік карта, т.б. ретінде пайдаланып, ТҮРТІП ТӨЛЕУ.</string>
+  <!-- MTK NFC settings end -->
+ 
+  <!-- MTK WIFI Passpoint start -->
+   <string name="passpoint_summary">Passpoint арқылы іске қосылған кіру орындарына автоматты түрде қосылу</string>
+  <string name="passpoint_append_summary">(Passpoint арқылы)</string>
+  <string name="passpoint_config_credential_type">Тіркелгі деректерінің түрі</string>
+  <string name="passpoint_config_eap_method">ЕАР әдісі</string>
+  <string name="passpoint_supported">Қолдау көрсетілген</string>
+  <string name="passpoint_username_pw">Пайдаланушы аты/Құпия сөз</string>
+  <string name="passpoint_certificate">Сертификат</string>
+  <!-- MTK WIFI Passpoint end -->
+ 
+  <!-- MTK WFD start -->
+   <string name="wfd_change_resolution_menu_title">Ажыратымдылықты өзгерту</string>
+  <string name="wfd_sink_summary">Басқалар зерттеуі мүмкін</string>
+  <string name="wfd_device_category">ҚҰРЫЛҒЫЛАР ТІЗІМІ</string>
+  <string name="wfd_sink_toast_enjoy">Басқа құрылғыдан экранды ортақ пайдаланыңыз.</string>
+  <string name="wfd_sink_toast_disconnect">Көшірме экран ажыратылды</string>
+  <string name="wfd_sink_disconnecting">Ажыратылуды\u2026</string>
+  <string name="wfd_sink_guide_btn">Алу</string>
+  <string name="wfd_sink_guide_title">Қалай шығуға болады?</string>
+  <string name="wfd_sink_guide_content">Басқа құрылғының көрсетілімінен шығу үшін экранда <xliff:g id="seconds">%s</xliff:g> секунд ұзақ басыңыз.</string>
+  <!-- MTK WFD end -->
+ 
+  <!-- MTK Storage Settings start -->
+   <string name="mtp_transfer_unmount_error_text">Файлды тасымалдау барысында SD картасын шығару мүмкін емес</string>
+  <string name="mtp_transfer_erase_error_text">Файлды тасымалдау барысында SD картасын өшіру мүмкін емес</string>
+  <string name="launch_error">"Бағдарламаны іске қосу мүмкін болмады!"</string>
+  <string name="dlg_confirm_unmount_usb_title" product="default">USB жадын өшіру қажет пе?</string>
+  <string name="dlg_confirm_unmount_usb_text" product="default">USB жадын өшірсеңіз, кейбір пайдаланылатын қолданбалар тоқтайды және USB жадын қайта қоспағанша қолжетімді болмауы мүмкін.</string>
+  <string name="dlg_error_unmount_usb_text" product="default">USB жадын өшіру мүмкін болмады. Әрекетті кейінірек қайталаңыз.</string>
+  <string name="unmount_usb_inform_text" product="default">USB жады өшіріледі.</string>
+  <string name="sd_eject_usbstorage" product="default">USB жадыны өшіру</string>
+  <string name="sd_eject_usbstorage_summary" product="default">USB жадын өшіріңіз, сол себептен оны алып тастауға болады</string>
+  <string name="sd_mount_usbstorage" product="default">USB жадын қосу</string>
+  <string name="sd_insert_usb_summary" product="default">Қосу үшін USB жадын енгізу</string>
+  <string name="usb_ums_title">USB жады</string>
+  <string name="usb_ums_summary">"XP ОЖ ұсынылады. Компьютер мен Android құрылғысы арасындағы файлдарды тасымалдауға мүмкіндік береді."</string>
+  <string name="usb_charge_title">Тек зарядтау</string>
+  <string name="usb_connect_as_cdrom_category">CD-ROM ретінде қосу</string>
+  <string name="usb_charge_summary">USB құрылғысының барлық функцияларын тоқтатыңыз. Ол USB зарядтауын жылдамдатуға және қуат тұтынуды азайтуға мүмкіндік береді.</string>
+  <string name="akp_installer_settings_title">APK орнатушысы</string>
+  <string name="akp_installer_settings_summary">APK файлын телефон жадынан және SD картасынан орнатыңыз</string>
+  <string name="usb_bicr_title">Бекітілген CD-ROM</string>
+  <string name="usb_bicr_summary">Кейбір пайдалы бағдарламалық жасақтаманы қамтитын виртуалды CD-ROM дискісін көрсету.</string>
+  <string name="select_memory">Әдепкі жазу дискісі</string>
+  <string name="dlg_mount_external_sd_title" product="default">SD картасын қосу қажет пе?</string>
+  <string name="dlg_mount_external_sd_summary" product="default">SD картасын қосу кезінде қолданыстағы кейбір қолданбалар жұмысын тоқтатады.</string>
+  <!-- MTK Storage Settings end -->
+ 
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">HDMI параметрлері</string>
+  <string name="hdmi_settings_summary">HDMI теңшеу үшін басыңыз</string>
+  <string name="hdmi_audio_toggler">Аудио</string>
+  <string name="hdmi_video_toggler">Видео</string>
+  <string name="hdmi_video_resolution">Бейне ажыратымдылығы</string>
+  <string name="hdmi_auto">Авто</string>
+  <string name="hdmi_scale_control">Бейнені масштабтау параметрлері</string>
+  <string name="hdmi_scale_no_scale">Масштабтаусыз</string>
+  <string name="hdmi_scale_scale_down">Масштабын кішірейту <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">Аудио шығысы</string>
+  <string name="hdmi_audio_output_stereo">Стерео</string>
+  <string name="hdmi_audio_output_multi_channel">Бірнеше канал</string>
+  <!-- MTK HDMI end -->
+ 
+  <!-- MTK Display Settings start -->
+   <string name="landscape_launcher_title">Мәзір белгішелерін іске қосу құралы</string>
+  <string name="landscape_launcher_none">Жоқ</string>
+  <string name="display_settings_scences_title">Көріністер</string>
+  <string name="default_name">Әдепкі</string>
+  <string name="custom_theme_name">Жаңа [%1$s]</string>
+  <string name="loading">Жүктелуде...</string>
+  <string name="auto_backlight_title">Үнемді жарықтандыру</string>
+  <string name="auto_backlight_summary">Артқы жарықты автоматты түрде қуатты сақтау үшін бейімдеу</string>
+  <string name="display_personalize">Дербестендіру</string>
+  <string name="display_default">ДИСПЛЕЙ</string>
+  <string name="clear_motion_summary">Бейне жылдамдығын күшейткіш</string>
+  <string name="on_text">Қосу</string>
+  <string name="off_text">Өшіру</string>
+  <string name="mira_vision_summary">Ең тиімді визуалды әсерлерді жеткізуші</string>
+  <!-- MTK Display Settings end -->
+ 
+  <!--MTK Security Settings start -->
+   <string name="voice_unlock_backup_info_summary">Дауысты құлыптан босату функциясы дауысыңызды танымаған кезде, құлыптан босату үшін не істеу қажет?</string>
+  <string name="unlock_set_unlock_mode_voice_weak">Дауыспен құлыптан босату</string>
+  <string name="mtk_lock_screen_notifications_title">Экранды құлыптау хабарландырулары</string>
+  <string name="lock_screen_notifications_summary">Экранды құлыптау кезінде хабарландыруларды көрсету</string>
+  <string name="lock_screen_style_title">Экранды құлыпту стилі</string>
+  <string name="current_suffix">"(Ағымдағы)"</string>
+  <string name="lockscreen_style_default_desc">"Құлыпталған экрандағы қолданбаларға жылдам қатынасу"</string>
+  <string name="security_not_set">Қауіпсіздік орнатылмаған</string>
+  <string name="voice_ui_title">Дауыспен басқару</string>
+  <!--MTK Security Settings end -->
+ 
+  <!-- MTK Wireless settings start -->
+   <string name="pch_toggle_title">GPRS арқылы жіберу</string>
+  <string name="pch_data_prefer_summary_off">Ұсынылатын деректер</string>
+  <string name="pch_call_prefer_summary_on">Ұсынылатын қоңырау</string>
+  <string name="pch_warning_message">Деректерді беру жылдамдығы төмендейді.</string>
+  <string name="tethered_ipv6_title">Кіру орны және тетеринг параметрлері</string>
+  <string name="tethered_ipv4v6">(IPv6 протоколы қолжетімді)</string>
+  <string name="tethered_ipv6">(Тек IPv6 протоколы қолжетімді)</string>
+  <string name="tethered_ipv4">(IPv6 протоколы қолжетімсіз)</string>
+  <string name="tethering_apn_settings_title">APN параметрлері</string>
+  <string name="tethering_apn_settings_summary">Тетеринг үшін APN теңшеу</string>
+  <string name="usb_tether_type_title">USB тетеринг түрі</string>
+  <string name="usb_tethering_select_version">ДК жүйесінің нұсқасын таңдау</string>
+  <string name="apn_port_warning">Порт мәні 1-65535 болуы қажет!</string>
+  <string name="apn_predefine_change_dialog_notice">Расымен сақтау қажет пе? Әдепкі APN өзгертулері қосылым ақаулығына әкелуі мүмкін!"</string>
+  <string name="lockdown_vpn_already_connected">Әрқашан VPN желісінде режимі байланысу үшін қосылды.</string>
+  <!-- MTK Wireless settings end -->
+ 
+  <!-- MTK Feature MISC start -->
+   <string name="schedule_power_on_off_settings_title">Жоспарланған қуатты қосу/өшіру режимі</string>
+  <string name="ipo_title">Жылдам іске қосу</string>
+  <string name="ipo_summary_on">Жылдам іске қосуды өшіру</string>
+  <string name="ipo_summary_off">Жылдам іске қосуды қосу</string>
+  <string name="hotknot_explained_description">Экран басқа құрылғыға тигенде деректер алмасуына рұқсат ету</string>
+  <string name="mouse_primary_button_title">Негізгі және қосалқы түймелерді ауыстыру</string>
+  <string name="mouse_primary_button_dialog_title">Негізгі түймені ауыстыру</string>
+  <string name="double_click_title">Екі рет басу жылдамдығы</string>
+  <string name="test_area">ТЕКСЕРУ АЙМАҒЫ:</string>
+  <string name="double_click_tip">Осы жерде екі рет басу</string>
+  <!-- MTK Feature MISC end -->
+ 
+  <!-- MTK Bluetooth Settings start -->
+   <string name="bluetooth_advanced_settings">Қосымша параметрлер</string>
+  <string name="bluetooth_profile_ftp">Файлды тасымалдау</string>
+  <string name="bluetooth_ftp_profile_summary_use_for">Файлды тасымалдау үшін пайдалану</string>
+  <string name="bluetooth_ftp_profile_summary_connected">"Файлды тасымалдау үшін қосылған"</string>
+  <!-- MTK Bluetooth Settings end -->
+ 
+  <!--MTK DateTime start-->
+   <string name="gps_time_sync_attention_gps_on">GPS координатын алу үшін көп дегенде 1 минут қажет. Алайда, нашар сигнал себебінен уақыт жетпеуі мүмкін.\n\nБерілген GPS уақыты жеткілікті ме?</string>
+  <string name="gps_time_sync_attention_gps_off">Берілген GPS уақытын пайдалану үшін, алдымен GPS белсендіріңіз. GPS координатын алу көп дегенде үшін 1 минут қажет. Алайда, нашар сигнал себебінен уақыт жетпеуі мүмкін.\n\nGPS қазір қосып, берілген GPS уақытын күту қажет пе?</string>
+  <!--MTK DateTime end-->
+ 
+  <!--MTK DRM settings start -->
+   <string name="drm_settings_title">DRM қалпына келтіру</string>
+  <string name="drm_settings_summary">Барлық DRM лицензияларын жояды</string>
+  <string name="drm_reset_dialog_msg">Бұл әрекет осы құрылғыдағы барлық лицензиялардың жойылуына әкеледі. Жалғастыру қажет пе?</string>
+  <string name="drm_reset_toast_msg">Лицензиялар сәтті жойылды</string>
+  <!--MTK DRM settings end -->
+ 
+  <!-- MTK APPS settings start -->
+   <string name="launch_main_label">Қолданбаны іске қосу</string>
+  <string name="launch_main">Негізгі әрекет бойынша қолданбаны іске қосу</string>
+  <string name="launch_activitie">Іске қосу</string>
+  <string name="move_app_to_where"><xliff:g id="location">%s</xliff:g> бойынша өтіңіз</string>
+  <!-- MTK APPS settings end -->
+ 
+  <!-- MTK Battery MISC start -->
+   <string name="bg_power_saving_title">Өңдік интеллектуалды қуатты үнемдеу</string>
+  <!-- MTK Battery MISC end -->
+ 
+  <!-- MTK  Datausage  start -->
+   <string name="mtk_datausage_overview_tab">Шолу</string>
+  <string name="mtk_datausage_overview_wifi_today">Бүгін</string>
+  <string name="mtk_datausage_overview_wifi_total">"Барлығы"</string>
+  <string name="mtk_datausage_overview_mobile_title">Ұялы телефон</string>
+  <string name="mtk_datausage_overview_mobile_usage"><xliff:g id="limit">%s</xliff:g> ішіндегі <xliff:g id="actual">%s</xliff:g></string>
+  <string name="mtk_datausage_overview_mobile_usage_warning">Шектен тыс <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%s</xliff:g></string>
+  <string name="data_saving_title">Деректі сақтау</string>
+  <!-- MTK  Dtausage  end -->
+ 
+  <!-- MTK About phone start -->
+   <string name="status_imei_slot1">IMEI(Ұяшық 1)</string>
+  <string name="status_imei_slot2">IMEI(Ұяшық 2)</string>
+  <string name="custom_build_version">Пайдаланушы тапсырысы бойынша нұсқа</string>
+  <string name="mota_system_update_summary">"Сервердегі жүйе жаңартылуын тексеріңіз"</string>
+  <string name="software_updates_more_title">Бағдарламалық жасақтама жаңартулары</string>
+  <string name="software_updates_more_summary">Бағдарламалық жасақтаманың жаңа нұсқасын тексеру</string>
+  <!-- MTK About phone end -->
+ 
+  <!-- MTK sim cards start -->
+   <string name="sim_cards_celluar_data_dialog_title">Ұялы деректермен пайдалану үшін SIM картасын таңдаңыз</string>
+  <string name="sim_cards_data_sms_dialog_title">SMS хабарларымен пайдалану үшін SIM картасын таңдаңыз</string>
+  <string name="sim_cards_calls_dialog_title">Телефон қоңырауларымен пайдалану үшін тіркелгіні таңдаңыз</string>
+  <string name="sim_cards_other_calls_dialog_title">Басқа тіркелгіні таңдаңыз</string>
+  <string name="sim_cards_other_calls_item_title">Басқа тіркелгі</string>
+  <string name="data_connection_progress_message">SIM картаны ауыстырып қосу шамамен 10 секунд ішінде орындалады. Күте тұрыңыз...</string>
+  <string name="gemini_sim_mode_progress_activating_message">Белсендірілуде\u2026</string>
+  <string name="gemini_sim_mode_progress_deactivating_message">Ажыратылуда\u2026</string>
+  <string name="simui_intenet_call">Интернет арқылы қоңырау шалу</string>
+  <!-- MTK sim cards end -->
+ 
+  <!-- MTK SIM Status start -->
+   <string name="imei_information_title">"IMEI ақпараты"</string>
+  <string name="imei_information_summary">"IMEI жөніндегі ақпарат"</string>
+  <string name="slot_number">(Ұя<xliff:g id="slot_num">%1$d</xliff:g>)</string>
+  <string name="sim_info_editor_color">"Артқы фон түсі"</string>
+  <string name="sim_cards_notify_title">"SIM карталары өзгерді"</string>
+  <string name="sim_cards_notify_summary">Арнайы қалауларды орнату үшін түртіңіз.</string>
+  <string name="no_sim_cards_notify_title">SIM картасы қосылмады</string>
+  <string name="cellular_data_notify_title">"Ұялы деректер қол жетімді емес"</string>
+  <string name="cellular_data_notify_summary">Деректер SIM картасын орнату үшін түртіңіз.</string>
+  <!-- MTK SIM Status end -->
+ 
+  <!-- IMS/SMS Settings start -->
+   <string name="ims_toggle_summary">ІР мультимедиа ішкі жүйесінің қызметтерін қамтамасыз ету</string>
+  <string name="sms_vibrate_summary">sms үшін құрылғыларды дірілдету</string>
+  <!-- IMS/SMS Settings end -->
+    <string name="default_data_switch_err_msg1">Қоңырау барысында қажет SIM картаны ұялы деректер байланысына ауыстыру мүмкін емес.</string>
+  <string name="two_cdma_dialog_msg">1-түйiспе және 2-түйiспе CDMA байланысына бір уақытта қолдау көрсете алмайды.</string>
+  <string name="hetcom_setting_title">Жылдам жүктеу</string>
+</resources>

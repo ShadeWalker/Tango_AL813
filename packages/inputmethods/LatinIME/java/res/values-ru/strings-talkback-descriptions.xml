@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- 
+/*
+**
+** Copyright 2014, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4313642710742229868" name="spoken_use_headphones">"Подключите гарнитуру, чтобы услышать пароль."</string>
+    <string msgid="4240549866156675799" name="spoken_current_text_is">"Введенный текст: %s."</string>
+    <string msgid="1711276837961785646" name="spoken_no_text_entered">"Текст не введен"</string>
+    <string msgid="8989324692167993804" name="spoken_auto_correct">"При нажатии клавиши <xliff:g id="KEY_NAME">%1$s</xliff:g> слово <xliff:g id="ORIGINAL_WORD">%2$s</xliff:g> будет исправлено на <xliff:g id="CORRECTED_WORD">%3$s</xliff:g>."</string>
+    <string msgid="7769449372355268412" name="spoken_auto_correct_obscured">"Клавиша <xliff:g id="KEY_NAME">%1$s</xliff:g> выполняет автоисправление."</string>
+    <string msgid="5139930082759824442" name="spoken_description_unknown">"Неизвестный символ."</string>
+    <string msgid="7209798151676638728" name="spoken_description_shift">"Клавиша верхнего регистра"</string>
+    <string msgid="3483198879916435717" name="spoken_description_symbols_shift">"Дополнительные символы."</string>
+    <string msgid="3122704922642232605" name="spoken_description_shift_shifted">"Клавиша верхнего регистра."</string>
+    <string msgid="5179175466878186081" name="spoken_description_symbols_shift_shifted">"Символы."</string>
+    <string msgid="1224851412185975036" name="spoken_description_caps_lock">"Клавиша верхнего регистра."</string>
+    <string msgid="3878902286264983302" name="spoken_description_delete">"Клавиша удаления"</string>
+    <string msgid="8244903740201126590" name="spoken_description_to_symbol">"Клавиша символов"</string>
+    <string msgid="4081215210530031950" name="spoken_description_to_alpha">"Буквы"</string>
+    <string msgid="4560261331530795682" name="spoken_description_to_numeric">"Цифры"</string>
+    <string msgid="7281251004003143204" name="spoken_description_settings">"Настройки"</string>
+    <string msgid="8210782459446866716" name="spoken_description_tab">"Клавиша табуляции"</string>
+    <string msgid="5908716896642059145" name="spoken_description_space">"Пробел"</string>
+    <string msgid="6153138783813452464" name="spoken_description_mic">"Голосовой ввод"</string>
+    <string msgid="7990051553008088470" name="spoken_description_emoji">"Смайлики."</string>
+    <string msgid="3183692287397645708" name="spoken_description_return">"Клавиша \"Ввод\""</string>
+    <string msgid="5099937658231911288" name="spoken_description_search">"Поиск"</string>
+    <string msgid="5644176501632325560" name="spoken_description_dot">"Точка"</string>
+    <string msgid="6818666779313544553" name="spoken_description_language_switch">"Сменить язык"</string>
+    <string msgid="431761808119616962" name="spoken_description_action_next">"Далее"</string>
+    <string msgid="2919072174697865110" name="spoken_description_action_previous">"Назад"</string>
+    <string msgid="5107180516341258979" name="spoken_description_shiftmode_on">"Верхний регистр включен"</string>
+    <string msgid="7307477738053606881" name="spoken_description_shiftmode_locked">"Caps Lock включен"</string>
+    <string msgid="111186851131446691" name="spoken_description_mode_symbol">"Режим добавления символов"</string>
+    <string msgid="4305607977537665389" name="spoken_description_mode_symbol_shift">"Режим дополнительных символов."</string>
+    <string msgid="4676004119618778911" name="spoken_description_mode_alpha">"Режим ввода текста"</string>
+    <string msgid="2061220553756692903" name="spoken_description_mode_phone">"Режим набора номера"</string>
+    <string msgid="7879963803547701090" name="spoken_description_mode_phone_shift">"Режим телефонных символов"</string>
+    <string msgid="2313574218950517779" name="announce_keyboard_hidden">"Клавиатура скрыта"</string>
+    <string msgid="6698257917367823205" name="announce_keyboard_mode">"Включен режим <xliff:g id="KEYBOARD_MODE">%s</xliff:g>."</string>
+    <string msgid="6597407244976713364" name="keyboard_mode_date">"ввода даты"</string>
+    <string msgid="3642804408726668808" name="keyboard_mode_date_time">"ввода даты и времени"</string>
+    <string msgid="1239682082047693644" name="keyboard_mode_email">"ввода адреса электронной почты"</string>
+    <string msgid="3812086215529493501" name="keyboard_mode_im">"ввода сообщения"</string>
+    <string msgid="5395042245837996809" name="keyboard_mode_number">"ввода цифр"</string>
+    <string msgid="2486230278064523665" name="keyboard_mode_phone">"набора номера"</string>
+    <string msgid="9138789594969187494" name="keyboard_mode_text">"ввода текста"</string>
+    <string msgid="8558297845514402675" name="keyboard_mode_time">"ввода времени"</string>
+    <string msgid="8072011652949962550" name="keyboard_mode_url">"ввода URL"</string>
+    <string msgid="4185344945205590692" name="spoken_descrption_emoji_category_recents">"Недавно использованные."</string>
+    <string msgid="8414196269847492817" name="spoken_descrption_emoji_category_people">"Люди."</string>
+    <string msgid="6116297906606195278" name="spoken_descrption_emoji_category_objects">"Объекты."</string>
+    <string msgid="5018340512472354640" name="spoken_descrption_emoji_category_nature">"Природа."</string>
+    <string msgid="1163315840948545317" name="spoken_descrption_emoji_category_places">"Места."</string>
+    <string msgid="474680659024880601" name="spoken_descrption_emoji_category_symbols">"Символы."</string>
+    <string msgid="456737544787823539" name="spoken_descrption_emoji_category_emoticons">"Смайлики."</string>
+    <string msgid="4904835255229433916" name="spoken_description_upper_case">"Заглавная <xliff:g id="LOWER_LETTER">%s</xliff:g>."</string>
+    <string msgid="4743162182646977944" name="spoken_letter_0049">"Заглавная латинская I."</string>
+    <string msgid="4766619646231612274" name="spoken_letter_0130">"Заглавная латинская I с точкой сверху."</string>
+    <string msgid="717298227061173706" name="spoken_symbol_unknown">"Неизвестный символ."</string>
+    <string msgid="5981009928135394306" name="spoken_emoji_unknown">"Неизвестный смайлик."</string>
+    <string msgid="6832897688371903747" name="spoken_open_more_keys_keyboard">"Доступны дополнительные символы."</string>
+    <string msgid="3524914657934712026" name="spoken_close_more_keys_keyboard">"Дополнительные символы скрыты."</string>
+    <string msgid="4231720702882969760" name="spoken_open_more_suggestions">"Доступны дополнительные подсказки."</string>
+    <string msgid="9118455416075032839" name="spoken_close_more_suggestions">"Дополнительные подсказки скрыты."</string>
+</resources>

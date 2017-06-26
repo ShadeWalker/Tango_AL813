@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">Bawasan ang Ingay</string>
+    <string name="dual_mic_summary">Pigilin ang iyong ingay sa background kapag tumatawag</string>
+    <string name="anc_title">Aktibong Noise Reduction</string>
+    <string name="anc_on">Maka-on ang ANC</string>
+    <string name="anc_off">Naka-off ang ANC</string>
+    <string name="ip_prefix_setting">Numero ng IP prefix</string>
+    <string name="ip_prefix_setting_lable">Numero ng IP prefix (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">Mga setting ng numero ng IP prefix</string>
+    <string name="enter_ip_prefix_number">Ipasok ang numero ng prefix</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Pakipasok ng numero ng IP prefix muna sa mga setting ng voice call.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">Ang IP dial na paggamit ay hindi angkop sa internet call.</string>
+    <string name="ip_prefix_edit_default_sum">Ipasok ang prefix para sa IP dial</string>
+    <string name="lable_call_barring">"Pag-bar ng tawag"</string>
+    <string name="title_call_barring">Pag-bar ng tawag (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">Lahat ng mga papalabas na tawag</string>
+    <string name="lable_all_outgoing_international">Mga pandaigdigang papalabas na tawag</string>
+    <string name="lable_all_out_except">Mga pandaigdigang papalabas na tawag maliban sa tahanang PLMN</string>
+    <string name="lable_all_incoming">Lahat ng mga papasok na tawag</string>
+    <string name="lable_incoming_calls_except">Mga pandaigdigang papasok na tawag habang naka-roaming</string>
+    <string name="deactivate_all">Kanselahin lahat</string>
+    <string name="change_password">Palitan ang pangharang na password</string>
+    <string name="call_barring_sum">Mga setting sa pagharang sa boses na tawag</string>
+    <string name="lable_disable">Hindi pinagagana</string>
+    <string name="lable_enable">"Pinagana"</string>
+    <string name="old_password_label">Lumang password(4 na numero)</string>
+    <string name="new_password_label">Bagong password(4 na numero)</string>
+    <string name="invalid_password">Mag-type ng password na 4 na numero.</string>
+    <string name="confirm_password_label">Kumpirmahin ang bagong password</string>
+    <string name="mismatch_password">Hindi tugma ang password na pinasok mo. Pakisubukan muli.</string>
+    <string name="password_changed">Tagumpay na nabago ang password</string>
+    <string name="enter_callbarring_password">Ipasok ang password sa pagharang ng tawag(4 na numero)</string>
+    <string name="wrong_password">Error sa password</string>
+    <string name="error_title">"Error"</string>
+    <string name="cell_broadcast">Cell Broadcast</string>
+    <string name="cell_broadcast_settings">Mga cell broadcast setting</string>
+    <string name="cb_menu_language">"Wika"</string>
+    <string name="cb_menu_add_channel">Magdagdag ng Channel</string>
+    <string name="cb_menu_channel_list">Listahan ng channel</string>
+    <string name="cb_dialog_title_language_choice">Piliin ang wika</string>
+    <string name="cb_channel_dialog_channel_name">Pangalan ng channel (0-10 character)</string>
+    <string name="cb_channel_dialog_channel_number">Numero ng channel (0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">Paganahin ang channel</string>
+    <string name="cb_channel_dialog_edit_channel">I-edit ang Channel</string>
+    <string name="cb_menu_edit">"I-edit"</string>
+    <string name="cb_menu_delete">"Tanggalin"</string>
+    <string name="cb_error_channel_num">Pakipasok ang numero ng channel(0-65534).</string>
+    <string name="cb_error_channel_name">Ang haba ng pangalan ng Channel ay mali(1-10character).</string>
+    <string name="cb_error_language_select">Pakipili ng isa man lang na wika.</string>
+    <string name="cb_error_channel_id_exist">Umiiral ang channel id.</string>
+    <string name="cb_all_languages">Lahat ng mga wika</string>
+    <string name="cb_default_new_channel_name">Bagong Channel</string>
+    <string name="fdn_errorcode_unknown_info">Nabigo, hindi kilalang error ang naganap, pakisubukan mamaya.</string>
+    <string name="fdn_errorcode_number_info">Nabigo, masyadong mahaba ng numero ng kontak.</string>
+    <string name="fdn_errorcode_name_info">Nabigo, masyadong mahaba ng pangalan ng kontak.</string>
+    <string name="fdn_errorcode_storage_info">Nabigo, puno na ang imbakan.</string>
+    <string name="fdn_errorcode_phb_info">Nabigo, ang phone book ay hindi handa ngayon, pakisubukan muli mamaya.</string>
+    <string name="fdn_errorcode_pin2_info">Nabigo, hindi wastong PIN2.</string>
+    <string name="net_or_simcard_busy">Busy ang network o SIM card, pakisubukan muli mamaya.</string>
+    <string name="plmn_list_setting_title">Mga kagustuhan</string>
+    <string name="network_id">Network ID</string>
+    <string name="plmn_list_setting_add_plmn">Magdagdag ng bagong PLMN</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">Maghanap...</string>
+    <string name="sum_search_femtocell_networks">Mano-manong piliin ang femtocell </string>
+    <string name="register_femtocell_point_wait_tip">Nirerehistro ang <xliff:g id="femto_cell_info">%s</xliff:g> ...</string>
+    <string name="register_femtocell_point_result_fail_tip">Hindi makakonekta sa network na ito sa ngayon. Subukan muli mamaya.</string>
+    <string name="network_type">Uri ng network</string>
+    <string name="gsm_umts_network_preferences_title">"Network Mode"</string>
+    <string name="gsm_umts_network_preferneces_summary">Hindi pa napapatupad!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"Network Mode"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>"2G/3G (auto mode)"</item>
+        <item>3G lang</item>
+        <item>2G lang</item>
+    </string-array>
+    <string name="notification_voicemail_text">Piliin para tingnan ang mga voicemail</string>
+    <string name="notification_network_selection_without_operator">Hindi magagamit ang napiling network</string>
+    <string name="network_setting_all_forbidden_dialog">Walang mga available na network.</string>
+    <string name="network_forbidden">bawal</string>
+    <string name="fdn_contact_number_invalid">Hindi wastong numero ng pakikipag-ygnayan.</string>
+    <string name="fdn_puk_need_tips">Naka-block ang PIN2. Pakipalitan ang PIN2 at subukan muli.</string>
+    <string name="fdn_phone_book_busy">Abala ang phone book ngayon, pakisubukan mamaya.</string>
+    <string name="one_retry_left">1 pagsubok natitira</string>
+    <string name="retries_left"><xliff:g id="number">%d</xliff:g> muling pagsubok ang natitira</string>
+    <string name="pin_length_indicate">(4-8 digit)</string>
+    <string name="puk_length_indicate">(8 digit)</string>
+    <string name="unblock_pin2">I-unblock ang PIN2</string>
+    <string name="sim_permanently_locked">Ang pagpasok ng maling PUK2 code nang mahigit sa 10 beses,ang SIM card ay permanenteng na-lock</string>
+    <string name="magi_conference_title">MagiConference</string>
+    <string name="magi_conference_summary">Pahusayin ang kalidad ng boses kapag maraming tao ang gumamit ng telepono para makipag-usap sa kabila.</string>
+    <string name="volte_is_adding_participants">Nagdadagdag ng (mga) miyembro ng komperensiya, pakihintay...</string>
+    <string name="volte_fail_to_invit_participants">Nabigong idagdag lahat ng mga miyembro sa komperensiya.</string>
+    <string name="voicemail_lable">Voicemail (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">Para kumpletuhin ang operasyon, kailangan mong buksan ang koneksyon ng data ng <xliff:g id="sub_name">%s</xliff:g>.</string>
+    <string name="cdma_labelCFU">"Palaging ipasa"</string>
+    <string name="cdma_labelCFB">"Ipasa kapag abala"</string>
+    <string name="cdma_labelCFNRy">"Ipasa kapag hindi nasagot"</string>
+    <string name="cdma_labelCFNRc">"Ipasa kapag hindi maabot"</string>
+    <string name="cdma_labelCFC">Kanselahin lahat ng pagpasa</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">Huwag paganahin ang paglimita ng pagkilala sa numero ng tumatawag</string> 
+    <string name="cdma_cnir_turnon">Paganahin ang paglimita ng pagkilala sa numero ng tumatawag</string>
+    <string name="lte_data_only_prompt">Hindi magamit ang tampok na ito dahil sa 4G data only na mode. Gusto mo bang lumabas sa 4G data lang na mode?</string>
+    <string name="lte_data_only_timeout">Walang 4G data lang na network sa kasalukuyan mong lokasyon,Gusto mo bang lumabas ay maghanap ng mga ibang networks?</string>
+    <string name="lte_only_dialog_button_yes">"OO"</string>
+    <string name="lte_only_dialog_button_no">"HINDI"</string>
+    <string name="lte_only_dialog_title_prompt">Prompt</string>
+    <string name="enable_4G_data">Paganahon ang 4G data</string>
+    <string name="enable_4G_data_summary">Ang 4G ay makakapagbigay ng mas mahusay at mas mabilis na Internet access</string>
+    <string name="only_use_LTE_data">Gamitin Lang ang LTE Data</string>
+    <string name="only_use_LTE_data_summary">Para paganahin ang gamitin lang ang single data, ang function ay hindi makakagamit ng pagtawag sa Telepono at mga text message.</string>
+</resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">雜訊抑制</string>
+    <string name="dual_mic_summary">減少通話時的背景噪音</string>
+    <string name="anc_title">啟動雜訊抑制功能</string>
+    <string name="anc_on">ANC開啟</string>
+    <string name="anc_off">ANC關閉</string>
+<!-- added by guofeiyao for HQ01307563 -->
+    <string name="ip_switch">IP撥號開關</string>
+    <string name="ip_prefix_null">IP號碼前綴未設置！</string>
+<!-- end -->
+    <string name="ip_prefix_setting">IP撥號</string>
+    <string name="ip_prefix_setting_lable">IP 首碼號碼 (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">IP 首碼號碼設定</string>
+    <string name="enter_ip_prefix_number">IP首碼號碼</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">請於語音電話設定先輸入 IP 首碼號碼。</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected"> IP 撥號功能不適用於網絡電話。</string>
+    <string name="ip_prefix_edit_default_sum"> IP 撥號輸入首碼號碼</string>
+    <string name="lable_call_barring">"通話限制設定"</string>
+    <string name="title_call_barring">通話限制 (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">所有撥出電話</string>
+    <string name="lable_all_outgoing_international">國際撥出電話</string>
+    <string name="lable_all_out_except">國際撥出電話除了對住家PLMN</string>
+    <string name="lable_all_incoming">所有撥入電話</string>
+    <string name="lable_incoming_calls_except">在漫遊時撥入電話</string>
+    <string name="deactivate_all">全部取消</string>
+    <string name="change_password">更改限制密碼</string>
+    <string name="call_barring_sum">語音電話限制設定</string>
+    <string name="lable_disable">已禁用</string>
+    <string name="lable_enable">"已啟用"</string>
+    <string name="old_password_label">舊密碼 (4號碼)</string>
+    <string name="new_password_label">新密碼 (4號碼)</string>
+    <string name="invalid_password">鍵入的密碼是 4 個數字。</string>
+    <string name="confirm_password_label">確認新密碼</string>
+    <string name="mismatch_password">您輸入的密碼不符合。請再試一次。</string>
+    <string name="password_changed">已成功更改密碼</string>
+    <string name="enter_callbarring_password">輸入通話限制密碼 (4號碼)</string>
+    <string name="wrong_password">密碼錯誤</string>
+    <string name="error_title">"錯誤"</string>
+    <string name="cell_broadcast">手機廣播</string>
+    <string name="cell_broadcast_settings">手機廣播設定</string>
+    <string name="cb_menu_language">"語言"</string>
+    <string name="cb_menu_add_channel">添加通道</string>
+    <string name="cb_menu_channel_list">頻道清單</string>
+    <string name="cb_dialog_title_language_choice">選擇語言</string>
+    <string name="cb_channel_dialog_channel_name">頻道名稱（0-10 個字元）</string>
+    <string name="cb_channel_dialog_channel_number">頻道編號 （0-65534）</string>
+    <string name="cb_channel_dialog_channel_state">啟用頻道</string>
+    <string name="cb_channel_dialog_edit_channel">編輯通道</string>
+    <string name="cb_menu_edit">"編輯"</string>
+    <string name="cb_menu_delete">"刪除"</string>
+    <string name="cb_error_channel_num">請輸入頻道編號(0-65534)。</string>
+    <string name="cb_error_channel_name">頻道名稱長度不正確(1-10個字元)。</string>
+    <string name="cb_error_language_select">請選擇至少一種語言。</string>
+    <string name="cb_error_channel_id_exist">頻道 id 已存在。</string>
+    <string name="cb_all_languages">所有語言</string>
+    <string name="cb_default_new_channel_name">新頻道</string>
+    <string name="fdn_errorcode_unknown_info">失敗，出現未知的錯誤，請稍後嘗試。</string>
+    <string name="fdn_errorcode_number_info">失敗，聯絡號碼長度太長。</string>
+    <string name="fdn_errorcode_name_info">失敗，聯絡人姓名長度太長。</string>
+    <string name="fdn_errorcode_storage_info">失敗，存儲空間已滿。</string>
+    <string name="fdn_errorcode_phb_info">失敗了，現在聯絡人還沒有準備好，請稍後再試。</string>
+    <string name="fdn_errorcode_pin2_info">失敗，無效的PIN2。</string>
+    <string name="net_or_simcard_busy">網路或 SIM 卡正忙，請稍後再試。</string>
+    <string name="plmn_list_setting_title">首選的網絡</string>
+    <string name="network_id">網絡識別碼</string>
+    <string name="plmn_list_setting_add_plmn">新的PLMN</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">搜尋中...</string>
+    <string name="sum_search_femtocell_networks">手動選擇 femtocell</string>
+    <string name="register_femtocell_point_wait_tip">正在註冊 <xliff:g id="femto_cell_info">%s</xliff:g> ...</string>
+    <string name="register_femtocell_point_result_fail_tip">目前無法連接這個網絡，請稍後再試。 </string>
+    <string name="network_type">網絡類型</string>
+    <string name="gsm_umts_network_preferences_title">"網絡模式"</string>
+    <string name="gsm_umts_network_preferneces_summary">還未執行 ！</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"網絡模式"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G（自動）</item>
+        <item>僅限 3G</item>
+        <item>僅限 2G</item>
+    </string-array>
+    <string name="notification_voicemail_text">點選以查看留言</string>
+    <string name="notification_network_selection_without_operator">不能使用所選的網絡</string>
+    <string name="network_setting_all_forbidden_dialog">沒有可用的網絡。</string>
+    <string name="network_forbidden">禁止</string>
+    <string name="fdn_contact_number_invalid">不正確的聯絡人號碼</string>
+    <string name="fdn_puk_need_tips">PIN2被封鎖。請更改PIN2並重試！</string>
+    <string name="fdn_phone_book_busy">聯絡人現在正忙，請稍後再試。</string>
+    <string name="one_retry_left">剩一次重試</string>
+    <string name="retries_left">重試次數剩餘<xliff:g id="number">%d</xliff:g></string>
+    <string name="pin_length_indicate">(4-8數位)</string>
+    <string name="puk_length_indicate">(8數位)</string>
+    <string name="unblock_pin2">解鎖PIN2碼</string>
+    <string name="sim_permanently_locked">輸入不正確的 PUK2 碼超過 10 次，SIM 卡已被永久鎖定</string>
+    <string name="magi_conference_title">多人通話增強</string>
+    <string name="magi_conference_summary">當多人使用電話與對方通話時改良聲音品質。</string>
+
+    <string name="volte_is_adding_participants">正在增添會議成員，請稍候...</string>
+    <string name="volte_fail_to_invit_participants">未能加入所有成員到會議。</string>
+
+    <!-- support for C2K Call Settings -->
+    <string name="cdma_labelCFU">"無條件呼叫轉移"</string>
+    <string name="cdma_labelCFB">"遇忙呼叫轉移"</string>
+    <string name="cdma_labelCFNRy">"無應答呼叫轉移"</string>
+    <string name="cdma_labelCFNRc">"隱含呼叫轉移"</string>
+    <string name="cdma_labelCFC">取消所有呼叫轉移</string>
+    <string name="cdma_cnir_title">主叫號碼識別限制</string> 
+    <string name="cdma_cnir_turnoff">關閉主叫號碼識別限制</string> 
+    <string name="cdma_cnir_turnon">開啟主叫號碼識別限制</string>
+    <string name="voicemail_lable">留言信箱 (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">要完成操作，你需要打開 <xliff:g id="sub_name">%s</xliff:g> 的網絡</string>
+    <string name="cdma_labelCFU">"一律轉接"</string>
+    <string name="cdma_labelCFB">"在手機忙線時啟用轉接"</string>
+    <string name="cdma_labelCFNRy">"未接聽時轉接通話"</string>
+    <string name="cdma_labelCFNRc">"隱含呼叫轉移"</string>
+    <string name="cdma_labelCFC">取消所有轉發</string>
+    <string name="cdma_cnir_title">禁止來電顯示</string> 
+    <string name="cdma_cnir_turnoff">取消禁止來電顯示</string> 
+    <string name="cdma_cnir_turnon">啟動禁止來電顯示</string>
+    <string name="lte_data_only_prompt">因處於只限4G數據模式而不能使用此功能。你希望退出只限4G數據模式嗎？</string>
+    <string name="lte_data_only_timeout">沒有可用的只限4G數據網絡於你現在的位置。你希望退出並搜尋其他網絡嗎？</string>
+    <string name="lte_only_dialog_button_yes">"是"</string>
+    <string name="lte_only_dialog_button_no">"否"</string>
+    <string name="lte_only_dialog_title_prompt">提示</string>
+    <string name="enable_4G_data">啟用4G數據</string>
+    <string name="enable_4G_data_summary">4G可提供更佳更快的上網體驗</string>
+    <string name="only_use_LTE_data">只用LTE數據</string>
+    <string name="only_use_LTE_data_summary">啟用只限單一數據，此功能會讓你不能使用電話及信息。</string>
+    <!-- HQ_fengsimin add for HQ00055994 start -->
+    <string name="network_forbidden">禁止</string>
+    <string name="network_current">註冊</string>
+    <string name="network_unkown">不明</string>
+    <string name="network_available">可用的</string>
+    <!-- HQ_fengsimin add for HQ00055994 end -->
+</resources>

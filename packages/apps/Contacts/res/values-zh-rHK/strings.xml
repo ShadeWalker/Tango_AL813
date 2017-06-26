@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="3906689777043645443" name="applicationLabel">"通訊錄"</string>
+    <string msgid="6497230399032392417" name="launcherActivityLabel">"通訊錄"</string>
+    <string msgid="8661624236494819731" name="contactsList">"通訊錄"</string>
+    <string msgid="749243779392912958" name="shortcutContact">"聯絡人"</string>
+    <string msgid="746622101599186779" name="shortcutDialContact">"直接撥號"</string>
+    <string msgid="2460337253595976198" name="shortcutMessageContact">"私人訊息"</string>
+    <string msgid="6642877210643565436" name="shortcutActivityTitle">"選擇聯絡人捷徑"</string>
+    <string msgid="6065749861423648991" name="callShortcutActivityTitle">"選擇撥打號碼"</string>
+    <string msgid="3084542316620335911" name="messageShortcutActivityTitle">"選擇傳訊號碼"</string>
+    <string msgid="6527505405325862674" name="contactInsertOrEditActivityTitle">"新增至通訊錄"</string>
+    <string msgid="4301062192337417640" name="contactPickerActivityTitle">"選擇聯絡人"</string>
+    <string msgid="2436981165830115659" name="header_entry_contact_list_adapter_header_title">"建立新聯絡人"</string>
+    <string msgid="4817256136413959463" name="starredList">"已加星號"</string>
+    <string msgid="7154768136473953056" name="frequentList">"常用聯絡人"</string>
+    <string msgid="5640192862059373511" name="strequentList">"我的最愛"</string>
+    <string msgid="7989394521836644384" name="viewContactTitle">"聯絡人詳細資料"</string>
+    <string msgid="2947202828256214947" name="editContactDescription">"編輯聯絡人"</string>
+    <string msgid="4709878105452681987" name="insertContactDescription">"建立聯絡人"</string>
+    <string msgid="6321161304201540561" name="editGroupDescription">"編輯群組"</string>
+    <string msgid="5658512271662210139" name="insertGroupDescription">"建立群組"</string>
+    <string msgid="5430408883907061400" name="contactDetailAbout">"關於"</string>
+    <string msgid="3780588624763446941" name="contactDetailUpdates">"更新"</string>
+    <string msgid="8482945356247760701" name="searchHint">"搜尋聯絡人"</string>
+    <string msgid="2795575601596468581" name="menu_viewContact">"查看聯絡人"</string>
+    <string msgid="2908478235715404876" name="menu_addStar">"新增至我的最愛"</string>
+    <string msgid="5844227078364227030" name="menu_removeStar">"從「我的最愛」中移除"</string>
+    <string msgid="4699640108012265178" name="description_action_menu_remove_star">"已從我的最愛中移除"</string>
+    <string msgid="3327186327234177456" name="description_action_menu_add_star">"已加到我的最愛"</string>
+    <string msgid="9042415603857662633" name="menu_editContact">"編輯"</string>
+    <string msgid="6788644058868189393" name="menu_deleteContact">"刪除"</string>
+    <string msgid="1217971915748509640" name="menu_create_contact_shortcut">"新增到主畫面上"</string>
+    <string msgid="3992595586042260618" name="menu_call">"致電聯絡人"</string>
+    <string msgid="5535886767547006515" name="menu_sendSMS">"傳送簡訊至聯絡人"</string>
+    <string msgid="8368636463748691868" name="menu_splitAggregate">"分割"</string>
+    <string msgid="5062005185370983720" name="menu_editGroup">"編輯"</string>
+    <string msgid="3486380004411482874" name="menu_deleteGroup">"刪除"</string>
+    <string msgid="7263362129442119188" name="menu_new_contact_action_bar">"新增聯絡人"</string>
+    <string msgid="3520232877587377175" name="menu_new_group_action_bar">"新增群組"</string>
+    <string msgid="633640935430370530" name="splitConfirmation_title">"要分拆聯絡人記錄嗎？"</string>
+    <string msgid="740190210499587175" name="splitConfirmation">"這個聯絡人記錄即將分拆為多個。"</string>
+    <string msgid="5027981918265667970" name="menu_joinAggregate">"加入"</string>
+    <string msgid="7684875775798635354" name="titleJoinContactDataWith">"合併聯絡人"</string>
+    <string msgid="8736488417422708236" name="blurbJoinContactDataWith">"選擇要與<xliff:g id="NAME">%s</xliff:g>合併的聯絡人："</string>
+    <string msgid="2189695051430392383" name="showAllContactsJoinItem">"顯示所有聯絡人"</string>
+    <string msgid="2831414448851313345" name="separatorJoinAggregateSuggestions">"建議的聯絡人"</string>
+    <string msgid="7939932265026181043" name="separatorJoinAggregateAll">"所有聯絡人"</string>
+    <string msgid="7208148163607047389" name="contactsJoinedMessage">"已合併聯絡人"</string>
+    <string msgid="8728345772068064946" name="menu_set_ring_tone">"設定鈴聲"</string>
+    <string msgid="4181789196416396656" name="menu_redirect_calls_to_vm">"所有來電轉到留言信箱"</string>
+    <string msgid="7808825687289848259" name="readOnlyContactWarning">"您無法刪除唯讀帳戶的聯絡人，但可在聯絡人名單中隱藏這些聯絡人。"</string>
+    <string msgid="2137170726670196909" name="readOnlyContactDeleteConfirmation">"這個聯絡人包含來自多個帳戶的資訊。您的聯絡人清單不會顯示唯讀帳戶的資訊 (這些資訊並不會被刪除)。"</string>
+    <string msgid="938900978442960800" name="multipleContactDeleteConfirmation">"刪除這個聯絡人將刪除多個帳戶的資訊。"</string>
+    <string msgid="811706994761610640" name="deleteConfirmation">"刪除此聯絡人？"</string>
+    <string msgid="6854657936970228164" name="menu_discard">"放棄變更"</string>
+    <string msgid="8215051456181842274" name="invalidContactMessage">"聯絡人已刪除。"</string>
+    <string msgid="7874133287558150877" name="createContactShortcutSuccessful">"聯絡人小工具已新增到主畫面上。"</string>
+    <string msgid="7750705279843568147" name="pickerNewContactHeader">"建立新聯絡人"</string>
+    <string msgid="6166997164401048211" name="pickerNewContactText">"建立新聯絡人"</string>
+  <string-array name="otherLabels">
+    <item msgid="8287841928119937597">"機構"</item>
+    <item msgid="7196592230748086755">"備註"</item>
+  </string-array>
+    <string msgid="6247290728908599701" name="photoPickerNotFoundText" product="tablet">"平板電腦中沒有相片可供選用。"</string>
+    <string msgid="431331662154342581" name="photoPickerNotFoundText" product="default">"手機中沒有相片可供選用。"</string>
+    <string msgid="5599827035558557169" name="attach_photo_dialog_title">"聯絡人相片"</string>
+    <string msgid="1081475101983255212" name="customLabelPickerTitle">"自訂標籤名稱"</string>
+    <string msgid="9001686764070676353" name="send_to_voicemail_checkbox">"直接將來電轉到留言信箱"</string>
+    <string msgid="4898105274130284565" name="removePhoto">"移除相片"</string>
+    <string msgid="8579310973261953559" name="noContacts">"沒有聯絡人。"</string>
+    <string msgid="8614664663561385253" name="noGroups">"沒有群組。"</string>
+    <string msgid="7768267764545265909" name="noAccounts">"如要建立群組，您需要有一個帳戶。"</string>
+    <string msgid="7502116218697177370" name="emptyGroup">"這個群組中沒有成員。"</string>
+    <string msgid="7879585947222263516" name="addPeopleToGroup">"如要新增成員，請編輯群組。"</string>
+    <string msgid="4075751076741924939" name="savingContact">"正在儲存聯絡人…"</string>
+    <string msgid="7152589189385441091" name="contactSavedToast">"聯絡人已儲存。"</string>
+    <string msgid="3207250533172944892" name="contactSavedErrorToast">"無法儲存聯絡人變更。"</string>
+    <string msgid="1168756874239833756" name="groupSavedToast">"群組已儲存。"</string>
+    <string msgid="7984466936615304740" name="groupSavedErrorToast">"無法儲存群組變更。"</string>
+  <plurals name="listTotalPhoneContacts">
+    <item msgid="3015357862286673986" quantity="one">"1 個有電話號碼的聯絡人"</item>
+    <item msgid="3299954047880968205" quantity="other">"<xliff:g id="COUNT">%d</xliff:g> 個有電話號碼的聯絡人"</item>
+  </plurals>
+    <string msgid="6968813857632984319" name="listTotalPhoneContactsZero">"所有聯絡人資訊都沒有電話號碼"</string>
+  <plurals name="listFoundAllContacts">
+    <item msgid="5517063038754171134" quantity="one">"找到 1 位聯絡人"</item>
+    <item msgid="3852668542926965042" quantity="other">"找到 <xliff:g id="COUNT">%d</xliff:g> 位聯絡人"</item>
+  </plurals>
+    <string msgid="922980883593159444" name="listFoundAllContactsZero">"沒有聯絡人"</string>
+  <plurals name="searchFoundContacts">
+    <item msgid="4826918429708286628" quantity="one">"找到 1 位聯絡人"</item>
+    <item msgid="7988132539476575389" quantity="other">"找到 <xliff:g id="COUNT">%d</xliff:g> 位聯絡人"</item>
+  </plurals>
+    <string msgid="6250372293594147703" name="all_contacts_tab_label">"所有聯絡人"</string>
+    <string msgid="1524869648904016414" name="favorites_tab_label">"最愛聯絡人"</string>
+    <string msgid="5498224409038809224" name="callBack">"回撥電話"</string>
+    <string msgid="3197312117049874778" name="callAgain">"重撥"</string>
+    <string msgid="8171961914203617813" name="returnCall">"回覆來電"</string>
+    <string msgid="7986472669444326576" name="add_contact_dlg_message_fmt">"要將「<xliff:g id="EMAIL">%s</xliff:g>」加到通訊錄嗎？"</string>
+    <string msgid="3387458082667894062" name="description_contact_photo">"聯絡人相片"</string>
+    <string msgid="515164827856229880" name="description_plus_button">"加號"</string>
+    <string msgid="560522409559101193" name="exporting_contact_list_progress">"第 <xliff:g id="CURRENT_NUMBER">%s</xliff:g> 位聯絡人，共 <xliff:g id="TOTAL_NUMBER">%s</xliff:g> 位"</string>
+    <string msgid="2675223022992445813" name="search_settings_description">"您的聯絡人姓名"</string>
+    <string msgid="358168575340921552" name="quickcontact_missing_app">"找不到可以處理這個操作的應用程式。"</string>
+    <string msgid="987959416759562455" name="quickcontact_transparent_view_description">"按一下即可返回上一個畫面"</string>
+    <string msgid="731665835910658965" name="quickcontact_add_phone_number">"新增電話號碼"</string>
+    <string msgid="739298028384348482" name="quickcontact_add_email">"新增電郵"</string>
+    <string msgid="1466111003546611387" name="missing_app">"找不到可以處理這個操作的應用程式。"</string>
+    <string msgid="943789700636542260" name="menu_share">"分享"</string>
+    <string msgid="3198704337220892684" name="menu_add_contact">"加入通訊錄"</string>
+    <string msgid="563121028023030093" name="share_via">"使用下列應用程式分享聯絡人資訊："</string>
+    <string msgid="2318032089273496830" name="dialog_new_group_account">"選擇帳戶以建立群組"</string>
+    <string msgid="2535716629358298691" name="audio_chat">"話音通訊"</string>
+    <string msgid="1872255818640336072" name="video_chat">"視像通訊"</string>
+    <string msgid="8098440723172028350" name="connections">"聯繫"</string>
+    <string msgid="4861308615789601727" name="add_connection_button">"加入聯繫"</string>
+    <string msgid="2659189233141493004" name="recent">"近況"</string>
+    <string msgid="4267258535615860710" name="recent_updates">"近期動態"</string>
+    <string msgid="718948015590343010" name="account_type_format">"<xliff:g id="SOURCE">%1$s</xliff:g> 聯絡人"</string>
+    <!-- no translation found for from_account_format (4469138575127580203) -->
+    <skip/>
+    <string msgid="7421346527289472273" name="contact_read_only">"無法以這個應用程式編輯。"</string>
+    <string msgid="1061762906115697637" name="group_read_only">"無法在這部裝置上編輯。"</string>
+    <string msgid="7496128293167402354" name="take_photo">"拍照"</string>
+    <string msgid="7341354729436576304" name="take_new_photo">"拍攝新相片"</string>
+    <string msgid="2129509985223564942" name="pick_photo">"選擇相片"</string>
+    <string msgid="9122450996263688237" name="pick_new_photo">"選取新相片"</string>
+    <string msgid="7583992153091537467" name="locale_change_in_progress">"正在更新聯絡人名單，以反映語言變更。"</string>
+    <string msgid="474511436863451061" name="upgrade_in_progress">"正在更新聯絡人清單。"</string>
+    <string msgid="1209994418877625940" name="upgrade_out_of_memory">"正在升級通訊錄。\n\n升級程序需要大約 <xliff:g id="SIZE_IN_MEGABYTES">%s</xliff:g> MB 的內部儲存空間。\n\n請選擇下列其中一個選項："</string>
+    <string msgid="1721798828992091432" name="upgrade_out_of_memory_uninstall">"解除安裝部分應用程式"</string>
+    <string msgid="8431289830472724609" name="upgrade_out_of_memory_retry">"重試升級"</string>
+    <string msgid="3984833028938569930" name="search_results_searching">"正在搜尋..."</string>
+    <string msgid="6470001164297969034" name="menu_display_selected">"顯示已選取的項目"</string>
+    <string msgid="8887488642609786198" name="menu_display_all">"顯示全部"</string>
+    <string msgid="621719255150713545" name="menu_select_all">"全選"</string>
+    <string msgid="7093222469852132345" name="menu_select_none">"全部取消選取"</string>
+    <string msgid="5223080690667565044" name="add_new_entry_for_section">"新增"</string>
+    <string msgid="7311893231158291197" name="add_organization">"新增機構"</string>
+    <string msgid="5794424930242630477" name="event_edit_field_hint_text">"日期"</string>
+    <string msgid="3966441850870457808" name="group_edit_field_hint_text">"群組名稱"</string>
+    <string msgid="8530597935483526383" name="change_photo">"變更"</string>
+    <string msgid="8517942231868516999" name="primary_photo">"主要相片"</string>
+    <string msgid="2605854427360036550" name="description_star">"我的最愛"</string>
+    <string msgid="7529281274005689512" name="edit_contact">"編輯聯絡人"</string>
+  <plurals name="merge_info">
+    <item msgid="148365587896371969" quantity="one">"未合併"</item>
+    <item msgid="425683718017380845" quantity="other">"從 <xliff:g id="COUNT">%0$d</xliff:g> 個來源合併"</item>
+  </plurals>
+    <string msgid="3842757977671434836" name="aggregation_suggestion_join_dialog_message">"要將目前聯絡人與所選聯絡人合併嗎？"</string>
+    <string msgid="6549585283910518095" name="aggregation_suggestion_edit_dialog_message">"要切換至編輯所選聯絡人嗎？您目前已輸入的資訊將會被複製。"</string>
+    <string msgid="1573960845106822639" name="menu_copyContact">"複製到我的通訊錄"</string>
+    <string msgid="1068274916793627723" name="add_to_my_contacts">"新增至通訊錄"</string>
+    <string msgid="683398073603909119" name="contact_directory_description">"名錄 <xliff:g id="TYPE">%1$s</xliff:g>"</string>
+    <string msgid="8910173055702057002" name="list_filter_custom">"自訂"</string>
+    <string msgid="5464130076132770781" name="activity_title_settings">"設定"</string>
+    <string msgid="377929915873428211" name="menu_settings">"設定"</string>
+    <string msgid="5123887102216637725" name="menu_help">"說明"</string>
+    <string msgid="1341720270148252393" name="preference_displayOptions">"顯示選項"</string>
+    <string msgid="6718207751363732025" name="organization_company_and_title">"<xliff:g id="COMPANY_0">%2$s</xliff:g>，<xliff:g id="COMPANY_1">%1$s</xliff:g>"</string>
+    <string msgid="1541655052330027380" name="non_phone_caption">"電話號碼"</string>
+    <string msgid="6590985286250471169" name="non_phone_add_to_contacts">"加入通訊錄"</string>
+    <string msgid="4065089866210730616" name="activity_title_confirm_add_detail">"加入聯絡人記錄"</string>
+    <string msgid="7608506439725515667" name="non_phone_close">"關閉"</string>
+    <string msgid="8739586586600099979" name="widget_name_and_phonetic">"<xliff:g id="DISPLAY_NAME">%1$s</xliff:g> (<xliff:g id="PHONETIC_NAME">%2$s</xliff:g>)"</string>
+    <string msgid="7356532842767854606" name="date_year_toggle">"提供年份"</string>
+    <string msgid="6378905543028924592" name="social_widget_label">"聯絡人"</string>
+    <string msgid="5327336597364074608" name="social_widget_loading">"正在載入..."</string>
+    <string msgid="7014525713871959208" name="contacts_unavailable_create_contact">"建立新聯絡人"</string>
+    <string msgid="7911101713860139754" name="contacts_unavailable_add_account">"登入帳戶"</string>
+    <string msgid="4957393255392437529" name="contacts_unavailable_import_contacts">"匯入通訊錄"</string>
+    <string msgid="6874527142828424475" name="create_group_dialog_title">"建立新群組"</string>
+    <string msgid="4411981763169654825" name="create_group_item_label">"建立新群組"</string>
+  <plurals name="num_groups_in_account">
+    <item msgid="2944819210288517794" quantity="one">"1 個群組"</item>
+    <item msgid="1276758425904917367" quantity="other">"<xliff:g id="COUNT">%0$d</xliff:g> 個群組"</item>
+  </plurals>
+    <string msgid="7586856514337560529" name="delete_group_dialog_message">"要刪除「<xliff:g id="GROUP_LABEL">%1$s</xliff:g>」群組嗎？(這並不會刪除聯絡人本身。)"</string>
+  <plurals name="num_contacts_in_group">
+    <item msgid="1352418549951013448" quantity="one">"<xliff:g id="ACCOUNT_TYPE">%2$s</xliff:g> 中有 <xliff:g id="COUNT_0">%1$d</xliff:g> 人"</item>
+    <item msgid="8146027769011086349" quantity="other">"<xliff:g id="ACCOUNT_TYPE">%2$s</xliff:g> 中有 <xliff:g id="COUNT_0">%1$d</xliff:g> 人"</item>
+  </plurals>
+  <plurals name="group_list_num_contacts_in_group">
+    <item msgid="3323065321661972446" quantity="one">"<xliff:g id="COUNT">%1$d</xliff:g> 人"</item>
+    <item msgid="6251996206137048525" quantity="other">"<xliff:g id="COUNT">%1$d</xliff:g> 人"</item>
+  </plurals>
+    <string msgid="2238581529864542985" name="toast_join_with_empty_contact">"請先輸入聯絡人姓名，然後才能與另一個聯絡人合併。"</string>
+    <string msgid="3257145021583508761" name="copy_text">"複製到剪貼簿"</string>
+    <string msgid="4417505153468300351" name="set_default">"設為預設"</string>
+    <string msgid="7193185801596678067" name="clear_default">"清除預設值"</string>
+    <string msgid="5143776250008541719" name="toast_text_copied">"文字已複製"</string>
+    <string msgid="5885724679874403115" name="cancel_confirmation_dialog_message">"要丟棄更改嗎？"</string>
+    <string msgid="747163730039311423" name="call_type_and_date">"<xliff:g id="CALL_TYPE">%1$s</xliff:g> <xliff:g id="CALL_SHORT_DATE">%2$s</xliff:g>"</string>
+    <string msgid="4127389543625918771" name="profile_display_name">"設定我的個人資料"</string>
+    <string msgid="1738391320566349924" name="enter_contact_name">"輸入聯絡人名字"</string>
+    <string msgid="238359485263401293" name="group_name_hint">"群組名稱"</string>
+    <string msgid="2021416826991393684" name="local_profile_title">"我的本機個人資料"</string>
+    <string msgid="8034998767621359438" name="external_profile_title">"我的 <xliff:g id="EXTERNAL_SOURCE">%1$s</xliff:g> 個人資料"</string>
+    <string msgid="2737388783898593875" name="toast_displaying_all_contacts">"顯示所有聯絡人"</string>
+    <string msgid="6424883302325061025" name="no_account_prompt">"聯絡人與 Google 帳戶搭配使用的效能更卓越。\n\n• 透過任何網絡瀏覽器皆可存取。\n• 安全備份您的聯絡人。"</string>
+    <string msgid="7218827704367325460" name="generic_no_account_prompt">"即使丟失手機，也要確保通訊錄安全：與網上服務保持同步。"</string>
+    <string msgid="753783911899054860" name="generic_no_account_prompt_title">"新增帳戶"</string>
+    <string msgid="1785345895691886499" name="contact_editor_prompt_zero_accounts">"您的新聯絡人資料不會備份。要新增可在網上備份聯絡人資料的帳戶嗎？"</string>
+    <string msgid="8669032699767375976" name="contact_editor_prompt_one_account">"您的新聯絡人資料將與 <xliff:g id="ACCOUNT_NAME">%1$s</xliff:g> 同步處理。"</string>
+    <string msgid="611828200100438242" name="contact_editor_prompt_multiple_accounts">"您可以透過下列其中一個帳戶同步處理您的新聯絡人資料。要使用哪個帳戶？"</string>
+    <string msgid="7192223018128934940" name="contact_editor_title_new_contact">"新增聯絡人"</string>
+    <string msgid="4898475703683187798" name="contact_editor_title_existing_contact">"編輯聯絡人"</string>
+    <string msgid="1258761699192993322" name="keep_local">"保留在本機中"</string>
+    <string msgid="8201790677994503186" name="add_account">"新增帳戶"</string>
+    <string msgid="5748627740680940264" name="add_new_account">"新增帳戶"</string>
+    <string msgid="2659719297530170820" name="menu_export_database">"匯出資料庫檔案"</string>
+    <string msgid="3180222523336380017" name="action_menu_add_new_contact_button">"新增聯絡人"</string>
+    <string msgid="3779194067124758079" name="expanding_entry_card_view_see_more">"顯示更多"</string>
+    <string msgid="5344160551629714168" name="expanding_entry_card_view_see_less">"顯示較少"</string>
+    <string msgid="3845258737661412627" name="expanding_entry_card_view_see_all">"顯示全部"</string>
+    <string msgid="8982782042698001695" name="recent_card_title">"近期"</string>
+    <string msgid="2920942314212825637" name="about_card_title">"關於"</string>
+    <string msgid="8938418965550543196" name="send_message">"傳送訊息"</string>
+    <string msgid="6137651078366797938" name="toast_making_personal_copy">"正在建立個人副本…"</string>
+    <string msgid="6840858548955018569" name="yesterday">"昨天"</string>
+    <string msgid="6241969467795308581" name="tomorrow">"明天"</string>
+    <string msgid="8041090779381781781" name="today">"今天"</string>
+    <string msgid="605665249491030460" name="today_at_time_fmt">"今天<xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string msgid="4856497969617819421" name="tomorrow_at_time_fmt">"明天<xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string msgid="5053178726906863812" name="date_time_fmt">"<xliff:g id="DATE">%s</xliff:g>
+<xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string msgid="3484859385405939366" name="untitled_event">"(未命名活動)"</string>
+    <string msgid="4761419824439606690" name="date_time_set">"設定"</string>
+    <string msgid="3581720979640225615" name="header_im_entry">"即時通訊"</string>
+    <string msgid="8515394955666265406" name="header_organization_entry">"組織"</string>
+    <string msgid="6743561883967451485" name="header_nickname_entry">"暱稱"</string>
+    <string msgid="4320190426480612344" name="header_note_entry">"備註"</string>
+    <string msgid="1411467850000824745" name="header_website_entry">"網站"</string>
+    <string msgid="6738250422744401460" name="header_event_entry">"活動"</string>
+    <string msgid="1520292958088146460" name="header_relation_entry">"關係"</string>
+    <string msgid="2684318506427891827" name="header_account_entry">"帳戶"</string>
+    <string msgid="1592791008096288306" name="header_name_entry">"名稱"</string>
+    <string msgid="8666093061171624478" name="header_email_entry">"電郵"</string>
+    <string msgid="8450980572274173570" name="header_phone_entry">"電話"</string>
+    <string msgid="4438023151411853238" name="header_photo_entry">"相片"</string>
+    <string msgid="1111381475901897470" name="content_description_expand_editor">"按一下以展開聯絡人編輯器。"</string>
+    <string msgid="7598061318022977825" name="content_description_collapse_editor">"按一下以收合聯絡人編輯器。"</string>
+    <string msgid="2686791825798189335" name="content_description_directions">"規劃前往特定地點的路線"</string>
+    <string msgid="1666389577263317445" name="content_description_recent_sms">"最近短訊 (<xliff:g id="MESSAGE_BODY">%s</xliff:g>、<xliff:g id="PHONE_NUMBER">%s</xliff:g>、<xliff:g id="DATE">%s</xliff:g>)。按一下即可回覆"</string>
+    <string msgid="5210739096863511410" name="content_description_recent_call_type_incoming">"來電"</string>
+    <string msgid="5156553338985232744" name="content_description_recent_call_type_outgoing">"致電"</string>
+    <string msgid="7371810920196048204" name="content_description_recent_call_type_missed">"未接來電"</string>
+    <string msgid="5183800406316723676" name="content_description_recent_call">"最近通話 (<xliff:g id="CALL_TYPE">%s</xliff:g>、<xliff:g id="PHONE_NUMBER">%s</xliff:g>、<xliff:g id="DATE">%s</xliff:g>)。按一下即可回電"</string>
+    <string msgid="7180706529908434482" name="message_from_you_prefix">"您：<xliff:g id="SMS_BODY">%s</xliff:g>"</string>
+    <string msgid="114855385615225735" name="contact_editor_hangouts_im_alert">"當您在電郵欄或手機欄中輸入個人的 Hangouts 識別碼時，Hangouts 會提供更卓越的服務。"</string>
+    
+<!-- HQ_zhangjinqiang add for dialer merge to contact begin --> 
+   <string name="call_type_hw">檢視通話類型</string>
+    <string name="cancel_hw">取消</string>
+    <string name="confirm_hw">確定</string>
+    <string name="black_list_manager_exception">找不到手機總管，請先安裝手機總管才使用此功能。</string>
+    <string name="sim_log_hw">SIM 記錄</string>
+    <string name="sim_all_hw">SIM 1 和 SIM 2</string>
+    <string name="sim_one_hw">SIM 1</string>
+    <string name="sim_two_hw">SIM 2</string>
+
+    <string name="call_type">通話類型</string>
+    <string name="all_call_hw">所有通話</string>
+    <string name="miss_call_hw">未接來電</string>
+    <string name="answer_call_hw">已接來電</string>
+    <string name="dialer_call_hw">撥出電話</string>
+
+<!-- HQ_zhangjinqiang add for dialer merge to contact end --> 
+
+
+    <!-- added by guofeiyao -->
+    <string name="dial_keypad">撥號</string>
+    <string name="dial_menu">功能表</string>
+    <string name="dial_delete">刪除</string>
+    <string name="dial_emergency">緊急撥號</string>
+    <string name="emergency_only">僅限緊急呼叫</string>
+    <string name="no_service">無服務</string>
+    <!-- end -->
+
+    <!--HQ_wuruijun add for HQ01352450 start -->
+    <string name="am_time">上午</string>
+    <string name="pm_time">下午</string>
+    <!--HQ_wuruijun add end -->
+
+    <string name="dial_tab_label">撥號</string>
+    <string name="mms_tab_label">"短訊"</string>
+
+    <!--HQ_wuruijun add for HQ01359517 start -->
+    <string name="menu_send_number">發送號碼</string>
+    <string name="menu_delete_call_log">刪除通話記錄</string>
+    <!--HQ_wuruijun add end -->
+
+    <!--added by zhenghao HQ01320081, add a tring about sim card slot-->
+    <string name="hq_sim_slot_position_1">卡 1</string>
+    <string name="hq_sim_slot_position_2">卡 2</string>
+
+    <string name="send_sms">發送資訊</string>
+    <string name="hour_hw">時</string>
+    <string name="minute_hw">分</string>
+    <string name="seconds_hw">秒</string>
+<string name="dial_tab_label">撥號</string>
+<string name="launcherActivityLabelForPhone">撥號</string>
+<string name="join_same_name">合併聯絡人</string>
+<string name="same_name_join_hint">
+<li>輕觸開始以合併姓名相同的聯絡人；</li>\n<li>輕觸取消以停止合併；</li>\n<li>過程將需時一定時間。</li>
+</string>
+<string name="join_action_start">開始</string>
+<string name="join_title_total">總共</string>
+<string name="join_title_single">目前</string>
+<string name="join_status_unstarted">就緒</string>
+<string name="join_status_waiting">等待中…</string>
+<string name="join_status_checking">檢查中…請稍候</string>
+<string name="join_status_join_start">合併中…</string>
+<string name="join_status_join_progress">已合併群組：%1$s。群組總數：%2$s </string>
+<string name="join_status_joining">合併\n</string>
+<string name="join_status_single_joining">合併中：%1$s\n相同姓名總數：%2$s </string>
+<string name="join_status_canceled">已取消</string>
+<string name="join_cancel_confirm_msg">停止合併</string>
+<string name="menu_done">完成</string>
+<string name="cancel">已取消</string>
+<string name="ok">確定</string>
+<string name="dataservice_title">流動數據服務</string>
+<string name="open_dataservice_confirm">裝置的流動數據連接已關閉，為了獲得更優質的體驗，我們建議您開啟流動數據連接。\n\n當開啟流動數據連接，您可以使用您的 SIM 卡存取互聯網，開啟流動數據連接？</string>
+<string name="open_confirm">開啟</string>
+<string name="open_cancel">取消</string>
+
+    <string name="menu_add_to_black_list">加入黑名單</string>
+    <string name="add_to_black_list">已添加到黑名單</string>
+    <string name="menu_remove_from_black_list">從黑名單中移除</string>
+    <string name="remove_from_black_list">已從黑名單中移除</string>
+    <!--HQ_wuruijun add for HQ01404605 start-->
+    <string name="outgoing_calltype">撥出電話 </string>
+    <string name="incoming_type">來電 </string>
+    <string name="missed_type">未接號碼 </string>
+    <!--HQ_wuruijun add end-->
+    <!--HQ_wuruijun add for HQ01382377 start-->
+    <string name="menu_copy_number">複製號碼</string>
+    <!--HQ_wuruijun add end-->
+    <!--HQ_wuruijun add for HQ01431674 start-->
+    <string name="date_format_year">年</string>
+    <string name="date_format_month">月</string>
+    <!--HQ_wuruijun add end-->
+
+    <string-array name="phone_contact_menu">
+        <item>通話</item>
+        <item>發送資訊</item>
+        <item>發送郵件</item>
+        <item>編輯</item>
+        <item>刪除</item>
+        <item>分享聯絡人</item>
+        <item>新增至我的最愛</item>
+        <item>加入黑名單</item>
+        <item>創建快捷方式</item>
+    </string-array>
+    <string-array name="sim_contact_menu">
+        <item>通話</item>
+        <item>發送資訊</item>
+        <item>編輯</item>
+        <item>刪除</item>
+        <item>分享聯絡人</item>
+        <item>新增至我的最愛</item>
+        <item>加入黑名單</item>
+        <item>創建快捷方式</item>
+    </string-array>
+   <string-array name="Portugal_Sdn_contact_menu">
+        <item>通話</item>
+        <item>發送資訊</item>
+        <item>發送郵件</item>
+        <item>分享聯絡人</item>
+        <item>新增至我的最愛</item>
+        <item>加入黑名單</item>
+        <item>創建快捷方式</item>
+    </string-array>
+    
+    <!--HQ_wuruijun add for HQ01496357 start-->
+    <string name="no_contact_to_display">沒有重複聯繫人存在</string>
+    <!--HQ_wuruijun add end-->
+
+    <string name="sim_card">SIM卡</string>
+    <string name="stared_contacts">我的最愛</string>
+    <string name="flight_mode_turned_on">飛行模式已開啟</string>
+
+<string name="chubaoMessage">1. 智能識別和黃頁服務可能需要存取互聯網，可能須收取使用流動數據用量費。\n2. 此服務由 TouchPal 提供，所有相關資料的準確性和可靠性由它們負責。\n3. 標示號碼的相關資訊將上載至伺服器。\n4. 此項服務將會存取您的位置資訊。\n輕觸「同意」，表示您接受上述資訊；輕觸「取消」，表示此項服務不接入互聯網或取得您的位置資訊。</string>
+<string name="user_aggreement">用户協議</string>
+<string name="hotline_name">熱線</string>
+<string name="hotline_phone">4008308300</string>
+<string name="hotline_email">mobile@huawei.com</string>
+ <string name="discard_change_contacts">丟棄</string>
+     <string name="save_change_contacts">保存</string>
+<!--HQ_wangmingyue add for HQ01550005 start-->
+     <string name="contacts_setting_Advanced">高級</string>
+    <string name="merge_duplicate_contacts">合併重複的聯繫人</string>
+    <string name="set_up_my_profile">建立我的個人資料</string>
+    <string name="mem_status">存儲狀態</string>
+    <string name="howManyContacts"> 聯繫人</string>
+    <string name="menu_copyContactsToCard1">複製聯絡人至卡 1</string>
+    <string name="menu_copyContactsToCard2">複製聯絡人至卡 2</string>
+<string name="menu_copyContactsToSIM">複製聯絡人至SIM卡</string>
+    <string name="menu_copyContactsToPhone">複製聯絡人至手機</string>
+    <string msgid="7464453023659824700" name="menu_search">"搜尋"</string>
+    <!--HQ_wangmingyue add for HQ01550005 end-->
+     <!-- HQ_fengsimin add for HQ00055994 start -->
+    <string name="menu_actionbar_not_selected_items">未選擇</string>
+    <!-- HQ_fengsimin add for HQ00055994 end -->
+    <string name="contact_editor_account_selection_title">"選取帳戶"</string>
+</resources>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="camera_error_title">"相機發生錯誤"</string>
+    <string name="cannot_connect_camera">無法連接相機。</string>
+    <string name="camera_disabled">"由於安全性政策規定，相機已遭停用。"</string>
+    <string name="camera_label">"相機"</string>
+    <string name="video_camera_label">"攝錄機"</string>
+    <string name="gallery_camera_bucket_name">"相機圖片"</string>
+    <string name="gallery_camera_videos_bucket_name">"相機影片"</string>
+    <string name="wait">請等待\u2026</string>
+    <string name="no_storage" product="nosdcard">"使用相機前，請先裝上 USB 儲存裝置。"</string>
+    <string name="no_storage" product="default">"使用相機前，請先插入 SD 記憶卡。"</string>
+    <string name="not_enough_space" product="nosdcard">你的USB儲存器已滿。</string>
+    <string name="not_enough_space" product="default">"您的 SD 卡空間已滿。"</string>
+    <string name="preparing_sd" product="nosdcard">"正在準備 USB 儲存裝置..."</string>
+    <string name="preparing_sd" product="default">"正在準備 SD 卡..."</string>
+    <string name="access_sd_fail" product="nosdcard">無法存取 USB 記憶體。</string>
+    <string name="access_sd_fail" product="default">無法存取 SD 卡。</string>
+    <string name="confirm_restore_message">您要復原相機預設設定嗎？</string>
+    <string name="review_play">"播放"</string>
+    <string name="review_cancel">"取消"</string>
+    <string name="review_ok">"完成"</string>
+    <string name="review_retake">重拍</string>
+    <string name="camera_gallery_photos_text">"圖片庫"</string>
+    <string name="time_lapse_title">"延時攝影錄製"</string>
+    <string name="pref_camera_id_title">"選擇相機"</string>
+    <string name="pref_camera_id_entry_back">"返回"</string>
+    <string name="pref_camera_id_entry_front">"前置鏡頭"</string>
+    <string name="pref_camera_recordlocation_title">GPS 位置資訊</string>
+    <string name="pref_camera_recordlocation_entry_off">"關閉"</string>
+    <string name="pref_camera_recordlocation_entry_on">"開啟"</string>
+    <string name="pref_video_quality_title">"影片品質"</string>
+    <string name="pref_video_time_lapse_frame_interval_title">間歇間隔</string>
+    <string name="pref_camera_settings_category">"相機設定"</string>
+    <string name="pref_camcorder_settings_category">"攝錄影機設定"</string>
+    <string name="pref_camera_picturesize_title">"相片大小"</string>
+    <string name="pref_camera_picturesize_entry_2592x1936">"500 萬像素"</string>
+    <string name="pref_camera_picturesize_entry_2048x1536">"300 萬像素"</string>
+    <string name="pref_camera_picturesize_entry_1600x1200">"200 萬像素"</string>
+    <string name="pref_camera_picturesize_entry_1280x960">"130 萬像素"</string>
+    <string name="pref_camera_picturesize_entry_1024x768">"100 萬像素"</string>
+    <string name="pref_camera_picturesize_entry_640x480">"VGA"</string>
+    <string name="pref_camera_picturesize_entry_320x240">"QVGA"</string>
+    <string name="pref_camera_focusmode_title">"對焦模式"</string>
+    <string name="pref_camera_focusmode_entry_auto">"自動"</string>
+    <string name="pref_camera_focusmode_entry_infinity">"無限"</string>
+    <string name="pref_camera_focusmode_entry_macro">"微距"</string>
+    <string name="pref_camera_flashmode_title">"閃光燈模式"</string>
+    <string name="pref_camera_flashmode_entry_auto">"自動"</string>
+    <string name="pref_camera_flashmode_entry_on">"開啟"</string>
+    <string name="pref_camera_flashmode_entry_off">"關閉"</string>
+    <string name="pref_camera_whitebalance_title">"白平衡"</string>
+    <string name="pref_camera_whitebalance_entry_auto">"自動"</string>
+    <string name="pref_camera_whitebalance_entry_incandescent">"鎢絲燈"</string>
+    <string name="pref_camera_whitebalance_entry_daylight">"日光"</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent">"光管"</string>
+    <string name="pref_camera_whitebalance_entry_cloudy">"陰天"</string>
+    <string name="pref_camera_scenemode_title">"場景模式"</string>
+    <string name="pref_camera_scenemode_entry_auto">"自動"</string>
+    <string name="pref_camera_scenemode_entry_action">"動作"</string>
+    <string name="pref_camera_scenemode_entry_night">"夜景"</string>
+    <string name="pref_camera_scenemode_entry_sunset">"日落"</string>
+    <string name="pref_camera_scenemode_entry_party">"派對"</string>
+    <string name="not_selectable_in_scene_mode">"在場景模式中無法選取。"</string>
+    <string name="pref_restore_title">"相機設定"</string>
+    <string name="pref_restore_detail">"還原預設值"</string>
+    <string name="pref_exposure_title">"曝光"</string>
+    <string name="dialog_ok">"確定"</string>
+    <string name="spaceIsLow_content" product="nosdcard">"您的 USB 儲存裝置的空間即將用盡，請變更相片的品質設定，或是刪除部分相片或其他檔案。"</string>
+    <string name="spaceIsLow_content" product="default">"您 SD 記憶卡的空間即將用盡，請變更相片的品質設定，或是刪除部分相片或其他檔案。"</string>
+    <string name="video_reach_size_limit">"已達大小上限。"</string>
+    <string name="share_picture_via">"相片分享方式"</string>
+    <string name="share_video_via">"影片分享方式"</string>
+    <string name="no_picture_to_share">沒有可以分享的相片。</string>
+    <string name="no_video_to_share">沒有可以分享的影片。</string>
+    <string name="pano_too_fast_prompt">"太快"</string>
+    <string name="pano_dialog_prepare_preview">"正在準備全景預覽"</string>
+    <string name="pano_dialog_panorama_failed">無法儲存全景相片。</string>
+    <string name="pano_dialog_title">"全景"</string>
+    <string name="pano_capture_indication">"全景拍攝中"</string>
+    <string name="pano_dialog_waiting_previous">"正在等待先前的全景處理完成"</string>
+    <string name="pano_review_saving_indication_str">"正在儲存相片…"</string>
+    <string name="tap_to_focus">"輕觸即可對焦。"</string>
+    <string name="pref_video_effect_title">"效果"</string>
+    <string name="effect_none">"無"</string>
+    <string name="effect_goofy_face_squeeze">"擠壓"</string>
+    <string name="effect_goofy_face_big_eyes">"大眼睛"</string>
+    <string name="effect_goofy_face_big_mouth">"大嘴巴"</string>
+    <string name="effect_goofy_face_small_mouth">"小嘴巴"</string>
+    <string name="effect_goofy_face_big_nose">"大鼻子"</string>
+    <string name="effect_goofy_face_small_eyes">"小眼睛"</string>
+    <string name="effect_backdropper_space">"太空"</string>
+    <string name="effect_backdropper_sunset">"日落"</string>
+    <string name="effect_backdropper_gallery">"您的影片"</string>
+    <string name="not_selectable_in_effect">選用效果時無法選擇。</string>
+    <string name="video_snapshot_hint">"輕觸即可在攝錄期間拍照。"</string>
+    <string name="disable_video_snapshot_hint">"於開啟特效時停用快照。"</string>
+    <string name="clear_effects">"清除效果"</string>
+    <string name="effect_silly_faces">"趣怪臉"</string>
+    <string name="effect_background">"背景"</string>
+    <string name="accessibility_shutter_button">"[快門] 按鈕"</string>
+    <string name="accessibility_review_thumbnail">"最近的相片"</string>
+    <string name="accessibility_camera_picker">"前置和後置鏡頭開關"</string>
+    <string name="accessibility_mode_picker">"相機、影片或全景選取工具"</string>
+    <string name="accessibility_second_level_indicators">"更多設定控制"</string>
+    <string name="accessibility_back_to_first_level">"關閉設定控制"</string>
+    <string name="accessibility_zoom_control">"縮放控制"</string>
+    <string name="accessibility_decrement">"減少%1$s"</string>
+    <string name="accessibility_increment">"增加%1$s"</string>
+    <string name="accessibility_switch">%1$s 切換</string>
+</resources>

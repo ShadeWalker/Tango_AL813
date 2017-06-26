@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">Khử ồn</string>
+    <string name="dual_mic_summary">Tắt nhạc nền trong khi gọi</string>
+    <string name="anc_title">Giảm tiếng ồn hoạt động</string>
+    <string name="anc_on">ANC bật</string>
+    <string name="anc_off">ANC tắt</string>
+    <string name="ip_prefix_setting">Mã số đầu IP</string>
+    <string name="ip_prefix_setting_lable">Mã số đầu IP (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">Cài đặt mã số đầu IP</string>
+    <string name="enter_ip_prefix_number">Nhập mã số đầu</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Hãy nhập mã số đầu IP trong cài đặt Cuộc gọi thoại.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">Chức năng gọi IP sẽ không áp dụng cho cuộc gọi qua internet.</string>
+    <string name="ip_prefix_edit_default_sum">Nhập số mã đầu để gọi IP</string>
+    <string name="lable_call_barring">"Chặn cuộc gọi"</string>
+    <string name="title_call_barring">Chặn cuộc gọi (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">Mọi cuộc gọi đi</string>
+    <string name="lable_all_outgoing_international">Cuộc gọi đi quốc tế</string>
+    <string name="lable_all_out_except">Các c.gọi đi quốc tế trừ c.gọi trong nước qua PLMN</string>
+    <string name="lable_all_incoming">Mọi cuộc gọi đến</string>
+    <string name="lable_incoming_calls_except">C.gọi đến khi chuyển vùng</string>
+    <string name="deactivate_all">Hủy tất cả</string>
+    <string name="change_password">Đổi mã chặn</string>
+    <string name="call_barring_sum">Cài đặt chặn c.gọi thoại</string>
+    <string name="lable_disable">Đã tắt</string>
+    <string name="lable_enable">"Đã bật"</string>
+    <string name="old_password_label">Mật mã cũ (4 số)</string>
+    <string name="new_password_label">Mật mã mới (4 số)</string>
+    <string name="invalid_password">Nhập mật mã gồm 4 số.</string>
+    <string name="confirm_password_label">Xác nhận mật mã mới</string>
+    <string name="mismatch_password">Mật mã vừa nhập không khớp nhau. Hãy thử lại.</string>
+    <string name="password_changed">Đã đổi mật mã thành công</string>
+    <string name="enter_callbarring_password">Nhập mã chặn cuộc gọi (4 số)</string>
+    <string name="wrong_password">Lỗi mật mã</string>
+    <string name="error_title">"Lỗi"</string>
+    <string name="cell_broadcast">Tin quảng cáo</string>
+    <string name="cell_broadcast_settings">Cài đặt tin quảng cáo</string>
+    <string name="cb_menu_language">"Ngôn ngữ"</string>
+    <string name="cb_menu_add_channel">Thêm kênh</string>
+    <string name="cb_menu_channel_list">D.sách kênh</string>
+    <string name="cb_dialog_title_language_choice">Chọn ngôn ngữ</string>
+    <string name="cb_channel_dialog_channel_name">Tên kênh</string>
+    <string name="cb_channel_dialog_channel_number">Số kênh (0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">Bật kênh</string>
+    <string name="cb_channel_dialog_edit_channel">Sửa kênh</string>
+    <string name="cb_menu_edit">"Chỉnh sửa"</string>
+    <string name="cb_menu_delete">"Xóa"</string>
+    <string name="cb_error_channel_num">Hãy nhập số kênh (0-65534).</string>
+    <string name="cb_error_channel_name">Độ dài tên kênh không đúng (từ 1-10 ký tự).</string>
+    <string name="cb_error_language_select">Hãy chọn ít nhất một ngôn ngữ.</string>
+    <string name="cb_error_channel_id_exist">Kênh đã có.</string>
+    <string name="cb_all_languages">Mọi ngôn ngữ</string>
+    <string name="cb_default_new_channel_name">Kênh mới</string>
+    <string name="fdn_errorcode_unknown_info">Bị lỗi, đã xảy ra lỗi không x.định, hãy thử lại sau.</string>
+    <string name="fdn_errorcode_number_info">Bị lỗi, độ dài số liên lạc quá dài.</string>
+    <string name="fdn_errorcode_name_info">Bị lỗi, độ dài tên số liên lạc quá dài.</string>
+    <string name="fdn_errorcode_storage_info">Bị lỗi, bộ nhớ đã đầy.</string>
+    <string name="fdn_errorcode_phb_info">Bị lỗi, danh bạ hiện chưa có sẵn, hãy thử lại sau.</string>
+    <string name="fdn_errorcode_pin2_info">Bị lỗi, mã PIN2 k.hợp lệ.</string>
+    <string name="net_or_simcard_busy">Mạng hoặc SIM đang bận, hãy thử lại sau.</string>
+    <string name="plmn_list_setting_title">Ưu tiên</string>
+    <string name="network_id">ID Mạng</string>
+    <string name="plmn_list_setting_add_plmn">Thêm PDMN mới</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">Tìm kiếm...</string>
+    <string name="sum_search_femtocell_networks">Chọn femtocell cách thủ công</string>
+    <string name="register_femtocell_point_wait_tip">Đang đăng ký <xliff:g id="femto_cell_info">%s</xliff:g> ...</string>
+    <string name="register_femtocell_point_result_fail_tip">Không thể kết nối với mạng này ngay bây giờ. Hãy thử lại sau.</string>
+    <string name="network_type">Loại mạng</string>
+    <string name="gsm_umts_network_preferences_title">"Chế độ Mạng"</string>
+    <string name="gsm_umts_network_preferneces_summary">Chưa thực hiện!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"Chế độ Mạng"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G (chế độ tự động)</item>
+        <item>Chỉ 3G</item>
+        <item>Chỉ 2G</item>
+    </string-array>
+    <string name="notification_voicemail_text">Chọn để xem thư thoại</string>
+    <string name="notification_network_selection_without_operator">Mạng vừa chọn không có sẵn</string>
+    <string name="network_setting_all_forbidden_dialog">Mạng không có sẵn.</string>
+    <string name="network_forbidden">Tắt</string>
+    <string name="fdn_contact_number_invalid">Số l.lạc không hợp lệ.</string>
+    <string name="fdn_puk_need_tips">Đã chặn mã PIN2. Hãy đổi mã PIN2 và thử lại!</string>
+    <string name="fdn_phone_book_busy">Danh bạ hiện đang bận, hãy thử lại sau.</string>
+    <string name="one_retry_left">Còn lại 1 nhập</string>
+    <string name="retries_left">Còn lại <xliff:g id="number">%d</xliff:g> lần nhập</string>
+    <string name="pin_length_indicate">(4-8 số)</string>
+    <string name="puk_length_indicate">(8 số)</string>
+    <string name="unblock_pin2">Mở khóa mã PIN2</string>
+    <string name="sim_permanently_locked">Nhập sai mã PUK hơn 10 lần, thẻ SIM sẽ bị khóa vĩnh viễn</string>
+    <string name="magi_conference_title">Hội nghị ảo</string>
+    <string name="magi_conference_summary">Nâng cao chất lượng thoạt khi có nhiều người sử dụng điện thoại để nói chuyện với người bên kia.</string>
+    <string name="volte_is_adding_participants">Đang thêm thành viên hội nghị, xin hãy đợi...</string>
+    <string name="volte_fail_to_invit_participants">Không thể thêm tất cả các thành viên vào hội nghị.</string>
+    <string name="voicemail_lable">Thư thoại (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">Để hoàn tất thao tác, bạn cần mở kết nối dữ liệu <xliff:g id="sub_name">%s</xliff:g>.</string>
+    <string name="cdma_labelCFU">"Luôn chuyển tiếp"</string>
+    <string name="cdma_labelCFB">"Chuyển tiếp khi bận"</string>
+    <string name="cdma_labelCFNRy">"Chuyển tiếp khi không trả lời"</string>
+    <string name="cdma_labelCFNRc">"Chuyển tiếp khi không thể kết nối"</string>
+    <string name="cdma_labelCFC">Hủy mọi c.gọi chuyển tiếp</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">Tắt giới hạn nhận dạng số người gọi</string> 
+    <string name="cdma_cnir_turnon">Bật giới hạn nhận dạng số người gọi</string>
+    <string name="lte_data_only_prompt">Ko thể dùng tính năng này do chế độ chỉ dữ liệu 4G. Bạn muốn thoát chế độ chỉ dữ liệu 4G?</string>
+    <string name="lte_data_only_timeout">Ko có sẵn mạng chỉ dữ liệu 4G ở địa điểm hiện hành của bạn. Bạn muốn thoát và dò tìm các mạng khác?</string>
+    <string name="lte_only_dialog_button_yes">"CÓ"</string>
+    <string name="lte_only_dialog_button_no">"KHÔNG"</string>
+    <string name="lte_only_dialog_title_prompt">Lệnh nhắc</string>
+    <string name="enable_4G_data">Bật dữ liệu 4G</string>
+    <string name="enable_4G_data_summary">4G có thể cho phép truy cập internet tốt và nhanh hơn</string>
+    <string name="only_use_LTE_data">Chỉ dùng dữ liệu LTE</string>
+    <string name="only_use_LTE_data_summary">Để bật Chỉ dùng dữ liệu riêng, chức năng này sẽ không thể dùng Gọi điện và tin nhắn văn bản.</string>
+<string name="network_current">Đăng ký</string>
+       <string name="network_available">khả dụng</string>
+<string name="gsm_network">Mạng GSM</string>
+    <string name="cdma_network">MẠNG CDMA</string>
+    <string name="no_sim_card">Không có thẻ SIM</string>
+    <string name="no_sim_card_cdma">Không có thẻ UIM</string>
+ <string name="wfc_quick_toggle_title">Gọi qua Wi-Fi</string>
+<string name="Wfc_off_summary">Đã tắt</string>
+<string name="airplane_mode_on">Đã bật chế độ trên máy bay</string>
+<string name="wifi_off_summary">Đã tắt Wi-Fi.</string>
+<string name="wfc_unknown_error_summary">Lỗi không xác định</string>
+</resources>

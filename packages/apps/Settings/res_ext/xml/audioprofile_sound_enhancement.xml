@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orderingFromXml="true"
+    android:persistent="false" >
+
+    <SwitchPreference
+        android:key="music_plus"
+        android:persistent="false"
+        android:summary="@string/music_plus_summary"
+        android:title="@string/music_plus_title" />
+    <SwitchPreference
+        android:key="bes_loudness"
+        android:persistent="false"
+        android:summary="@string/audio_profile_bes_loudness_summary"
+        android:title="@string/audio_profile_bes_loudness_title" />
+    <Preference
+        android:key="bes_surround"
+        android:title="@string/audio_profile_bes_surround_title"
+        android:summary="@string/audio_profile_bes_surround_summary"
+        android:persistent="false" />
+    <SwitchPreference
+        android:key="bes_lossless"
+        android:persistent="false"
+        android:summary="@string/lossless_summary"
+        android:title="@string/lossless_title" />
+
+</PreferenceScreen>

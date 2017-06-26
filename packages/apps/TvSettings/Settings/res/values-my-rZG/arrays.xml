@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <skip/>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>စကင္ဖတ္ေနသည္\u2026</item>
+        <item>ခ်ိတ္ဆက္ေနသည္္\u2026 </item>
+        <item>စစ္မွန္ေၾကာင္း အတည္ျပဳေနသည္\u2026</item>
+        <item>IP လိပ္စာကို ရယူေနသည္\u2026</item>
+        <item>ခ်ိတ္ဆက္ၿပီး</item>
+        <item>ဆိုင္းထားသည္</item>
+        <item>ခ်ိတ္ဆက္မႈကို ျဖတ္ေနသည္\u2026</item>
+        <item>ခ်ိတ္ဆက္မႈျပတ္ေတာက္ခဲ့သည္</item>
+        <item>မေအာင္ျမင္ပါ</item>
+        <item>ပိတ္ဆို႔ခဲ့သည္</item>
+        <item>အားနည္းေသာ ခ်ိတ္ဆက္မႈကို ယာယီ ေရွာင္ရွားေနသည္</item>
+    </string-array>
+    <skip/>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>စကင္ဖတ္ေနသည္\u2026</item>
+        <item>  <xliff:g id="network_name">%1$s</xliff:g>သို႔ ခ်ိတ္ဆက္ေနသည္\u2026 </item>
+        <item>  <xliff:g id="network_name">%1$s</xliff:g>ႏွင့္ စစ္မွန္ေၾကာင္း အတည္ျပဳေနသည္\u2026 </item>
+        <item>  <xliff:g id="network_name">%1$s</xliff:g>မွ IP လိပ္စာကို ရယူေနသည္\u2026 </item>
+        <item>  <xliff:g id="network_name">%1$s</xliff:g>သို႔ ခ်ိတ္ဆက္ခဲ့သည္ </item>
+        <item>ဆိုင္းထားသည္</item>
+        <item>  <xliff:g id="network_name">%1$s</xliff:g>မွ ျဖတ္ေနသည္\u2026 </item>
+        <item>ခ်ိတ္ဆက္မႈျပတ္ေတာက္ခဲ့သည္</item>
+        <item>မေအာင္ျမင္ပါ</item>
+        <item>ပိတ္ဆို႔ခဲ့သည္</item>
+        <item>အားနည္းေသာ ခ်ိတ္ဆက္မႈကို ယာယီ ေရွာင္ရွားေနသည္</item>
+    </string-array>
+    <string-array name="sleep_timeout_entries">
+        <item>ပိတ္သည္</item>
+        <item>၅ မိနစ္</item>
+        <item>၁၀ မိနစ္</item>
+        <item>၂၅ မိနစ္</item>
+        <item>၁ နာရီ</item>
+    </string-array>
+    <string-array name="screen_off_timeout_entries">
+        <item>၂၅ မိနစ္</item>
+        <item>၁ နာရီ</item>
+        <item>၃ နာရီ</item>
+        <item>၆ နာရီ</item>
+        <item>၁၂ နာရီ</item>
+        <item>ဘယ္ေတာ့မွ်</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>ပိတ္သည္</item>
+        <item>အားစိုက္သည့္ ဧရိယာ ျပပါ</item>
+        <item>အားစိုက္သည့္ အေရအတြက္ ျပပါ</item>
+    </string-array>
+    <string-array name="hdmi_optimization_entries">
+        <item>အေကာင္းဆုံး ျပတ္သားမႈ</item>
+        <item>အေကာင္းဆုံး ေဘာင္ႏႈန္း</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>မူလပံုစံ</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif condensed</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Casual</item>
+        <item>Cursive</item>
+        <item>စာလုံးႀကီးအေသးစား</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>အလြန္ငယ္</item>
+        <item>ေသးငယ္</item>
+        <item>ပံုမွန္</item>
+        <item>ႀကီး</item>
+        <item> အလွန်ကြီ</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>အသံတိတ္</item>
+        <item>ေအာက္လုိင္း</item>
+        <item>အစက္ အရိပ္</item>
+        <item>ျမႇင့္တင္ရန္</item>
+        <item>ႏွိမ့္ခ်ရန္</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles" >
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>အမဲတြင္ အျဖဴ</item>
+        <item>အျဖဴတြင္ အမဲ</item>
+        <item>အမဲတြင္ အဝါ</item>
+        <item>အျပာတြင္ အဝါ</item>
+        <item>စိတ္ႀကိဳက္</item>
+    </string-array>
+</resources>

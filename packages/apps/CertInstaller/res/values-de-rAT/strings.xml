@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Zertifikat-Installer</string>
+    <string name="pick_file_title">Ein Zertifikat wählen</string>
+    <string name="pkcs12_password_dialog_title">Zertifikat extrahieren</string>
+    <string name="extracting_pkcs12">Wird extrahiert\u2026</string>
+    <string name="pkcs12_file_password_dialog_title">Extrahieren aus %s</string>
+    <string name="name_credential_dialog_title">Zertifikatname</string>
+    <string name="credential_name">Zertifikatname:</string>
+    <string name="credential_password">Geben Sie das Kennwort ein, um die Zertifikate zu extrahieren.</string>
+    <string name="credential_info">Das Paket enthält:</string>
+    <string name="p12_description">Zertifikate im PKCS12-Key-Store.</string>
+    <string name="one_userkey">Ein Benutzerschlüssel</string>
+    <string name="one_usercrt">Ein Benutzerzertifikat</string>
+    <string name="one_cacrt">Ein CA-Zertifikat</string>
+    <string name="n_cacrts">Vertrauenswürdige CA-Zertifikate anzeigen</string>
+    <string name="password_error">Geben Sie das richtige Kennwort ein.</string>
+    <string name="password_empty_error">Kennwort eingeben</string>
+    <string name="name_empty_error">Name eingeben</string>
+    <string name="name_char_error">Namen eingeben, der nur Buchstaben und Ziffern enthält.</string>
+    <string name="storage_error">Kann Zertifikat nicht speichern. Zum Wiederholen OK antippen.</string>
+    <string name="unable_to_save_cert">Kann Zertifikat nicht speichern. Der persönliche Speicher ist nicht aktiviert oder nicht korrekt initialisiert.</string>
+    <string name="cert_not_saved">Das Zertifikat wurde nicht installiert.</string>
+    <string name="no_cert_to_saved">Keine Zertifikat, das installiert werden kann.</string>
+    <string name="invalid_cert">Das Zertifikat ist ungültig.</string>
+    <string name="cert_is_added"><xliff:g id="credential">%s</xliff:g> ist installiert.</string>
+    <string name="cert_too_large_error">Konnte nicht installieren, da das Zertifikat zu groß ist.</string>
+    <string name="cert_missing_error">Konnte nicht installieren, da das Zertifikat nicht gefunden wurde.</string>
+    <string name="cert_read_error">Konnte nicht installieren, da das Zertifikat nicht gelesen werden konnte.</string>
+    <string name="no_cert_file_found" product="nosdcard">Kein Zertifikat im USB-Speicher gefunden.</string>
+    <string name="no_cert_file_found" product="default">Kein Zertifikat im Telefonspeicher gefunden.</string>
+    <string name="sdcard_not_present" product="nosdcard">Kein USB-Speicher vorhanden.</string>
+    <string name="sdcard_not_present" product="default">Keine SD-Karte vorhanden</string>
+    <string name="only_primary_user_allowed">Nur der Besitzer dieses Geräts kann Zertifikate installieren.</string>
+    <string name="credential_usage_label">Berechtigung verwenden:</string>
+    <string-array name="credential_usage">
+        <item>VPN und Apps</item>
+        <item>Wi-Fi</item>
+    </string-array>
+</resources>

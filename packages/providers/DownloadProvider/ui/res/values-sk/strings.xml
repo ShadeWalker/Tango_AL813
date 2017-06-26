@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="3070921713463294774" name="app_label">"Prevzaté súbory"</string>
+    <string msgid="5898014492155434221" name="download_title_sorted_by_date">"Prevzatia – zoradené podľa dátumu"</string>
+    <string msgid="1417193166677094813" name="download_title_sorted_by_size">"Prevzatia – zoradené podľa veľkosti"</string>
+    <string msgid="1029667411186146836" name="no_downloads">"Žiadne preberania"</string>
+    <string msgid="830115697868833773" name="missing_title">"</string>
+    <string msgid="7331549713691146251" name="button_sort_by_size">"Zoradiť podľa veľkosti"</string>
+    <string msgid="8800842892684101528" name="button_sort_by_date">"Zoradiť podľa dátumu"</string>
+    <string msgid="104973307780629904" name="download_queued">"V poradí"</string>
+    <string msgid="4656462962155580641" name="download_running">"Prebieha"</string>
+    <string msgid="7006048006543495236" name="download_success">"Dokončené"</string>
+    <string msgid="8081329546008568251" name="download_error">"Neúspešné"</string>
+    <string msgid="5746317632356158515" name="dialog_title_not_available">"Nepodarilo sa prevziať"</string>
+    <string msgid="587545111677064427" name="dialog_failed_body">"Chcete tento súbor skúsiť znova prevziať neskôr, alebo ho chcete zo zoznamu odstrániť?"</string>
+    <string msgid="6760681913815015219" name="dialog_title_queued_body">"Súbor v poradí"</string>
+    <string msgid="708552801635572720" name="dialog_queued_body">"Súbor zatiaľ nie je k dispozícii, pretože je v poradí na budúce prevzatie."</string>
+    <string msgid="3223012612774276284" name="dialog_file_missing_body">"Prevzatý súbor sa nepodarilo nájsť."</string>
+    <string msgid="8692452156251449195" name="dialog_insufficient_space_on_external">"Preberanie nie je možné dokončiť. V externom úložisku nie je dostatok miesta."</string>
+    <string msgid="6313630206163908994" name="dialog_insufficient_space_on_cache">"Preberanie nie je možné dokončiť. V internom úložisku na prevzaté súbory nie je dostatok miesta."</string>
+    <string msgid="8664509751358983543" name="dialog_cannot_resume">"Preberanie bolo prerušené a nie je možné v ňom pokračovať."</string>
+    <string msgid="8308563940663449590" name="dialog_file_already_exists">"Nepodarilo sa prevziať. Cieľový súbor už existuje."</string>
+    <string msgid="4468088418758018765" name="dialog_media_not_found">"Nepodarilo sa prevziať. Externé médium nie je k dispozícii."</string>
+    <string msgid="7024782176657362251" name="download_no_application_title">"Súbor nie je možné otvoriť"</string>
+    <string msgid="6372920256257247857" name="remove_download">"Odstrániť"</string>
+    <string msgid="76629022653866471" name="delete_download">"Odstrániť"</string>
+    <string msgid="5144882786014818569" name="keep_queued_download">"Zachovať"</string>
+    <string msgid="5232704030969221112" name="cancel_running_download">"Zrušiť"</string>
+    <string msgid="7617100787922717912" name="retry_download">"Skúsiť znova"</string>
+    <string msgid="6348198946254776764" name="deselect_all">"Zrušiť výber"</string>
+    <string msgid="634074918366265804" name="select_all">"Vybrať všetko"</string>
+    <string msgid="2101564570019753277" name="selected_count">"Vybraté: 
+        <xliff:g id="NUMBER">%1$d</xliff:g> z 
+        <xliff:g id="TOTAL">%2$d</xliff:g>"
+    </string>
+    <string msgid="3355867339806448955" name="download_share_dialog">"Zdieľať prostredníctvom"</string>
+</resources>

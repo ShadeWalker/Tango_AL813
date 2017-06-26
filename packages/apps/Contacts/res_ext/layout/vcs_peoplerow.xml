@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="@dimen/vcs_people_row_width"
+	android:layout_height="@dimen/vcs_people_row_height"
+	android:background="@android:color/white" android:orientation="vertical">
+
+	<View android:id="@+id/spacertop" 
+	    android:layout_width="match_parent"
+		android:layout_height="1dp" 
+		android:background="@android:color/darker_gray">
+	</View>
+	<RelativeLayout android:layout_width="match_parent"
+		android:layout_height="@dimen/vcs_people_text_height" 
+		android:background="@drawable/vcs_rows">
+		<ImageView android:id="@+id/peopleicon"
+			android:layout_width="@dimen/vcs_people_icon" 
+			android:layout_height="@dimen/vcs_people_icon"
+			android:layout_marginTop="1dp"
+			android:layout_marginStart="@dimen/vcs_people_name_margin"
+			android:contentDescription="@null" 
+			android:gravity="center"
+			android:layout_gravity="center_vertical" 
+			android:scaleType="fitCenter" />
+
+		<TextView android:id="@+id/peoplename" 
+		    android:layout_width="match_parent"
+			android:layout_height="@dimen/vcs_people_row_height"
+			android:layout_marginStart="@dimen/vcs_people_name_margin"
+			android:layout_toEndOf="@+id/peopleicon" 
+			android:gravity="center_vertical"
+			android:layout_gravity="center_vertical" 
+			android:textColor="@color/vcs_people_name"
+			style="@style/LongStringSupportSingleLine"
+			android:textSize="@dimen/vcs_people_name" />
+	</RelativeLayout>
+</LinearLayout>

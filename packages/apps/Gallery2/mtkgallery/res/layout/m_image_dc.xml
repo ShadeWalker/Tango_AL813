@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    >
+<RelativeLayout
+        android:id="@+id/linearLayoutMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50px"
+        android:orientation="vertical">
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" 
+        >
+        <RadioButton
+            android:id="@+id/m_dc_open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/m_dc_open"
+            />
+        <RadioButton
+            android:id="@+id/m_dc_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:text="@string/m_dc_close"
+            />
+    </RadioGroup>
+ </RelativeLayout>
+</RelativeLayout>

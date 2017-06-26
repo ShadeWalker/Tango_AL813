@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+
+<resources>
+    <string-array name="proxy_error">
+        <item>Host field can not be empty</item>
+        <item>Port field can not be empty</item>
+        <item>Invalid host</item>
+        <item>Invalid port</item>
+    </string-array>
+
+   <!--  Add for mtk video player -->
+    <string-array name="text_color">
+        <item>@string/subtitle_text_color_black</item>
+        <item>@string/subtitle_text_color_dkgray</item>
+        <item>@string/subtitle_text_color_gray</item>
+        <item>@string/subtitle_text_color_ltgray</item>
+        <item>@string/subtitle_text_color_white</item>
+        <item>@string/subtitle_text_color_red</item>
+        <item>@string/subtitle_text_color_green</item>
+        <item>@string/subtitle_text_color_blue</item>
+        <item>@string/subtitle_text_color_yellow</item>
+        <item>@string/subtitle_text_color_cyan</item>
+        <item>@string/subtitle_text_color_magenta</item>
+        <item>@string/subtitle_text_color_translucent</item>
+    </string-array>
+
+    <!-- add for subtitle setting text Font-->
+    <string-array name="text_font">
+        <item>Default</item>
+        <item>Mono</item>
+        <item>Sans Serif</item>
+        <item>Serif</item>
+    </string-array>
+
+
+    <string-array name="alignment">
+        <item>@string/subtitle_layout_alignment_left</item>
+        <item>@string/subtitle_layout_alignment_center</item>
+        <item>@string/subtitle_layout_alignment_right</item>
+    </string-array>
+
+      <!-- add for subtitle setting text encoding-->
+    <string-array name="text_encoding">
+        <item>@string/subtitle_text_encoding_default</item>
+        <item>Arabic(ISO-8859-6)</item>
+        <item>Arabic(Cp1256)</item>
+        <item>Baltic(Cp1257)</item>
+        <item>Baltic(ISO-8859-13)</item>
+        <item>Baltic,Scandinavia(ISO-8859-4)</item>
+        <item>Celtic(ISO-8859-14)</item>
+        <item>Central European,Slavic(ISO-8859-2)</item>
+        <item>Chinese,Simplified(MS936)</item>
+        <item>Chinese,Simplified(GB18030)</item>
+        <item>Chinese,Simplified(EUC_CN)</item>
+        <item>Chinese,Simplified(GBK)</item>
+        <item>Chinese,Simplified(ISO-2022-CN)</item>
+        <item>Chinese,Traditional(Big5)</item>
+        <item>Chinese,Traditional(HongKong)(Big5-HKSCS)</item>
+        <item>Cyrillic(Cp1251)</item>
+        <item>Cyrillic(ISO-8859-5)</item>
+        <item>Eastern European(Cp1250)</item>
+        <item>Greek(ISO-8859-7)</item>
+        <item>Hebrew(ISO-8859-8)</item>
+        <item>Hebrew(Cp1255)</item>
+        <item>Japanese(MS932)</item>
+        <item>Japanese(ECU_JP)</item>
+        <item>Japanese(Shift_JIS)</item>
+        <item>Japanese(ISO-2022-JP)</item>
+        <item>Korean(MS949)</item>
+        <item>Korean(ECU_KR)</item>
+        <item>Korean(ISO-2022-KR)</item>
+        <item>Nordic(ISO-8859-10)</item>
+        <item>Romanian(ISO-8859-16)</item>
+        <item>Russian(KOI8-R)</item>
+        <item>South European(ISO-8859-3)</item>
+        <item>Thai(TIS-620)</item>
+        <item>Thai(ISO-8859-11)</item>
+        <item>Turkish(Cp1254)</item>
+        <item>Turkish(ISO-8859-9)</item>
+        <item>Unicode(UTF-8)</item>
+        <item>Unicode(UTF-16)</item>
+        <item>Unicode(UTF-16BE)</item>
+        <item>Unicode(UTF-32)</item>
+        <item>Unicode(UTF-32BE)</item>
+        <item>Unicode(UTF-32LE)</item>
+        <item>US-ASCII(US-ASCII)</item>
+        <item>Vietnamese(Cp1258)</item>
+        <item>Western European(ISO-8859-1)</item>
+        <item>Western European(ISO-8859-15)</item>
+        <item>Western European(Cp1252)</item>        
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- AudioProfile Settings start -->
+   <string name="ring_summary">Звънене</string>
+  <string name="ring_vibrate_summary">Звънене и вибриране</string>
+  <string name="silent_summary">Само беззвучно</string>
+  <string name="meeting_summary">Само вибриране</string>
+  <string name="outdoor_summary">Силен звън и вибриране</string>
+  <string name="audio_profile_reset">"Повторно задаване"</string>
+  <string name="audio_profile_add">"Добавяне"</string>
+  <string name="audio_profile_enable">"Активиране"</string>
+  <string name="audio_profile_rename">"Преименуване"</string>
+  <string name="audio_profile_delete">"Изтриване"</string>
+  <string name="audio_profile_message_reset">Връщане на всички настройки на аудио профили към началните</string>
+  <string name="audio_profile_message_rename">Въведете ново име на профила</string>
+  <string name="audio_profile_message_name_error">Въведеното име съществува</string>
+  <string name="audio_profile_message_name_length_wrong">Името трябва да има поне един символ</string>
+  <string name="audio_profile_message_delete">Профилът <xliff:g id="profile">%s</xliff:g> ще бъде изтрит</string>
+  <string name="audio_profile_message_overflow">Разрешено е да добавите само 6 потребителски профила</string>
+  <string name="audio_profile_category_custom_title">Зададени от потребителя профили</string>
+  <string name="audio_profile_category_predefine_title">Пре-настроени профили</string>
+  <string name="audio_profile_error">"Грешка"</string>
+  <string name="audio_profile_others">Известия и други</string>
+  <string name="general_settings_title">"Общи"</string>
+  <string name="silent_settings_title">"Тих режим"</string>
+  <string name="meeting_settings_title">Събрание</string>
+  <string name="outdoor_settings_title">Навън</string>
+  <string name="sound_category_feedback_title">"Система"</string>
+  <string name="sound_category_calls_title">Входящи повиквания</string>
+  <string name="voice_call_title">Звънене за гласови повиквания</string>
+  <string name="voice_call_summary">"Задайте мелодия на звънене по подразбиране за гласови повиквания"</string>
+  <string name="video_call_title">Звънене за видео повиквания</string>
+  <string name="video_call_summary">Задайте мелодия на звънене по подразбиране за видео повиквания</string>
+  <string name="sip_call_title">Мелодия на звънене за SIP повиквания</string>
+  <string name="sip_call_summary">Задайте мелодия на звънене по подразбиране за SIP повиквания</string>
+  <string name="Phone_vibrate_summary">Вибриране за входящи повиквания</string>
+  <string name="vibrate_title">"Вибриране"</string>
+  <string name="audio_profile_settings_title">Аудио профили</string>
+  <string name="audio_profile_bes_loudness_summary">Сила на звука бустер за високоговорител</string>
+  <string name="sound_enhancement_title">Подобряване на звука</string>
+  <string name="music_plus_summary">Аудио подобрител за слушалки</string>
+  <string name="lossless_title">Режим ВТ без загуби</string>
+  <string name="lossless_summary">ВТ аудио високо кач-во</string>
+  <string name="lossless_connect_summary">Wi-Fi ще бъде влошено при включване на режим ВТ без загуби. Настоявате ли да го включим?</string>
+  <string name="lossless_on">Режим ВТ без загуби включен</string>
+  <string name="lossless_playing">Слушане музика без загуби</string>
+  <string name="lossless_toastmessage">Звукът от системата ще се излъчва от говорителя на телефона</string>
+  <string name="lossless_volume_max">Поддържайте звука на системата на максимум</string>
+  <string name="lossless_cannot_found_device">Не мога да намеря ВТ устройство без загуби</string>
+  <string name="audio_profile_bes_surround_title">Отличнсреда</string>
+  <string name="audio_profile_bes_surround_summary">Аудио среда</string>
+  <string name="audio_profile_bes_surround_mode_movie">Режим кино</string>
+  <string name="audio_profile_bes_surround_mode_music">Режим музика</string>
+  <string msgid="6680706009915204785" name="zen_mode_option_title_novoice">"При получаване на известия"</string>
+  <!-- AudioProfile Settings end -->
+ 
+  <!-- MTK Wi-Fi settings start -->
+   <string name="wifi_no_cert_for_wapi">Не мога да открия сертификация за текущото свързване на АР</string>
+  <string name="sim_slot">Гнездо за SIM</string>
+  <string name="eap_sim_slot_0">Гнездо 1 за SIM</string>
+  <string name="eap_sim_slot_1">Гнездо 2 за SIM</string>
+  <string name="eap_sim_aka_airplanemode">Изключете режим самолет, за да ползвате EAP-SIM/AKA</string>
+  <string name="eap_sim_aka_no_sim_error">Трябва да вкарате SIM карта за ползване на EAP-SIM/AKA</string>
+  <string name="eap_sim_aka_no_sim_slot_selected">Трябва да изберете SIM карта за ползване на EAP-SIM/AKA</string>
+  <string name="wifi_security_wapi_certificate">Сретификат WAPI</string>
+  <string name="wapi_user_certificate">"Потребителски сертификат"</string>
+  <string name="wapi_as_certificate">Сертификат ASE</string>
+  <string name="wifi_hex_password">Шестнадесетична парола.</string>
+  <string name="wifi_WEP_transmit_key">Клавиш Предаване</string>
+  <string name="wifi_WEP_secury_key">Клавиш сигурност</string>
+  <string name="wifi_tether_auto_disable_title">Точката за Wi-Fi да е включена</string>
+  <string name="wifi_tether_auto_channel_text">Автом.</string>
+  <string name="wifi_tether_auto_channel_width_text">Автом 20/40 MHz</string>
+  <string name="wifi_channel">Предпочитан канал</string>
+  <string name="wifi_channel_width">Честотна лента на канал</string>
+  <string name="wifi_advanced_ipv4_address_title">IPv4 адрес</string>
+  <string name="wifi_advanced_ipv6_address_title">IPv6 адрес</string>
+  <string name="wifi_ipv4_address">IPv4 адрес</string>
+  <string name="wifi_ipv6_address">IPv6 адрес</string>
+  <string name="wifi_ap_auto_join_available">Автоматично свързване</string>
+  <string name="wifi_ap_auto_join_available_summary">Автом. избор на по-добра Wi-Fi мрежа при сканиране за присъединяване след свързване</string>
+  <!-- MTK Wi-Fi settings end -->
+ 
+  <!-- Wi-Fi hotspot client start -->
+   <string name="wifi_tether_setting_title">Основни настройки</string>
+  <string name="wifi_tether_wps_connect_title">Свързване WPS</string>
+  <string name="wifi_tether_wps_connect_summary">Избран режим защитено Wi-FI за работа</string>
+  <string name="wifi_tether_wps_pin_error">Невалиден ПИН</string>
+  <string name="wifi_tethering_title">Точка на Wi-Fi</string>
+  <string name="wifi_ap_wps_dialog_title">Свързване WPS</string>
+  <string name="wifi_ap_wps_mode_title">Режим WPS</string>
+  <string name="wifi_ap_wps_pin_title">Въвеждане PIN от клиент</string>
+  <string name="wifi_ap_reset_OOB_title">Възстановяване към начални стойности на мрежови SSID, защита и парола (блокирана конфигурация за WPS)</string>
+  <string name="wifi_ap_reset_OOB">Възстановяване на ООВ</string>
+  <string name="wifi_ap_max_connection_title">Максимум връзки</string>
+  <string name="wifi_ap_connected_title">Свързани потребители</string>
+  <string name="wifi_ap_blocked_title">Блокирани потребители</string>
+  <string name="wifi_ap_client_block_title">Блокиране</string>
+  <string name="wifi_ap_client_unblock_title">Разблокиране</string>
+  <string name="wifi_ap_client_details_title">Подробности</string>
+  <string name="wifi_ap_client_mac_label">МАС адрес:</string>
+  <string name="wifi_ap_client_ip_label">ІР адрес:</string>
+  <string name="wifi_ap_bandwidth_title">Работа с честотна лента</string>
+  <string name="wifi_ap_bandwidth_enable">Огранич. на честотн. лента</string>
+  <string name="wifi_ap_bandwidth_chart_title">Скорост на данни в реално време</string>
+  <string name="wifi_ap_bandwidth_chart_summary">Измерената скорост на данни от вашия телефон, може да се различава от отчетите на доставчика за скорост на данни.</string>
+  <string name="wifi_wps_fail_error">Неуспешна настройка на защитен Wi-Fi, опитайте пак.</string>
+  <string name="wifi_ap_title">Статистика</string>
+  <string name="wifi_ap_time_duration">Продължителност:<xliff:g id="time">%1$s</xliff:g>
+</string>
+  <string name="wifi_ap_total_data">Общо използвани данни:<xliff:g id="time">%1$s</xliff:g>
+</string>
+  <string name="wifi_ap_no_connected">0 свързани потребители</string>
+  <string name="wifi_ap_no_blocked">0 блокирани потребители</string>
+  <!-- Wi-Fi hotspot client end -->
+ 
+  <!-- MTK Beam plus start -->
+   <string name="beam_mgmt_tab_download_title">Получено SS съобщение за проверка на препращане</string>
+  <string name="beam_mgmt_tab_upload_title">"По този начин ще се събере информация за текущото състояние на устройството ви, която да се изпрати като имейл съобщение. След стартирането на процеса ще мине известно време, докато сигналът за програмна грешка бъде готов за подаване. Моля, имайте търпение."</string>
+  <string name="beam_share_mgmt_notification_ticker">История на споделено предаване</string>
+  <string name="beam_share_mgmt_notification_title">История на споделено предаване</string>
+  <string name="beam_share_mgmt_notification_message">"Изберете за показване историята на споделено предаване"</string>
+  <string name="beam_share_mgmt_tab_menu_clear">Изтриване на цялата история?</string>
+  <string name="beam_share_open_file_dialog_title">Файлът не може да се отвори</string>
+  <string name="beam_share_open_file_unsupported_message">Форматът на файла не се поддържа.</string>
+  <string name="beam_share_open_file_not_found_message">"Файлът не е открит: <xliff:g id="file_name">%1$s</xliff:g>
+</string>
+  <string name="beam_share_transfer_fail_dialog_title">"Неуспешно предаване"</string>
+  <string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> не е предаден успешно."</string>
+  <string name="beam_share_resend_dialog_ok_button">"Опитайте отново"</string>
+  <string name="beam_share_show_received_files_menu">"Показване на получени файлове"</string>
+  <string name="beam_share_history_title">История на споделено предаване</string>
+  <string name="beam_share_clear_confirm_dialog_title">Изчисти всички</string>
+  <string name="beam_share_clear_confirm_dialog_message">Изтриване на цялата история?</string>
+  <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> не е получен успешно."</string>
+  <string name="beam_share_clear_item_dailog_title">"Изтриване"</string>
+  <string name="beam_share_clear_item_dailog_message">Елементът ще бъде изтрит.</string>
+  <!-- MTK Beam plus end -->
+ 
+  <!-- MTK NFC settings start -->
+   <string name="nfc_p2p_mode">Режим Р2Р</string>
+  <string name="nfc_p2p_mode_summary">Изпращане или получаване съдържание на приложения</string>
+  <string name="nfc_tag_mode_category">Режим тагове</string>
+  <string name="nfc_rw_tag_title">Четене и писане на тагове</string>
+  <string name="nfc_rw_tag_summary">Четене от или присане в таг</string>
+  <string name="nfc_card_emulation_category_title">режим емулиране на карта</string>
+  <string name="nfc_card_emulation">Емулиране на карта</string>
+  <string name="card_emulation_settings_category_title">достъпен защитен елемент</string>
+  <string name="card_emulation_settings_no_element_found">Няма достъпен защитен елемент.</string>
+  <string name="card_emulation_settings_off_text">За показване на достъпните защитни елементи включете Емулиране на карта.</string>
+  <string name="card_emulation_turning_off_text">Изключване на емулация на карта…</string>
+  <string name="card_emulation_turning_on_text">Включване на емулация на карта…</string>
+  <string name="card_emulation_switch_error_title">"Грешка"</string>
+  <string name="card_emulation_switch_error_message">Неуспешен преход към <xliff:g id="card_mode">%1$s</xliff:g>.</string>
+  <string name="card_emulation_sim_not_supported_message">
+<xliff:g id="sim_description">%1$s</xliff:g> не поддържа функцията емулиране на NFC карта.</string>
+  <string name="card_emulation_two_sim_not_supported_message">SIM1, SIM2 не поддържат функцията емулиране на NFC карта.</string>
+  <string name="nfc_hce_pay_summary">Използване на у-вото за ЧУКНИ и ПЛАТИ като Гугъл портфейл, кредитна карта и др.</string>
+  <!-- MTK NFC settings end -->
+ 
+  <!-- MTK WIFI Passpoint start -->
+   <string name="passpoint_summary">Автом свързване с точки за достъп с разрешение за междинна точка</string>
+  <string name="passpoint_append_summary">(през междинна точка)</string>
+  <string name="passpoint_config_credential_type">Тип препоръка</string>
+  <string name="passpoint_config_eap_method">"Метод за редактиране на точка за достъп"</string>
+  <string name="passpoint_supported">Поддържан</string>
+  <string name="passpoint_username_pw">Потреб. име/Парола</string>
+  <string name="passpoint_certificate">Сертификат</string>
+  <!-- MTK WIFI Passpoint end -->
+ 
+  <!-- MTK WFD start -->
+   <string name="wfd_change_resolution_menu_title">Промяна на разрешителна способност</string>
+  <string name="wfd_sink_summary">Видими за другите</string>
+  <string name="wfd_device_category">СПИСЪК УСТРОЙСТВА</string>
+  <string name="wfd_sink_toast_enjoy">Насладете се на преобразуването на екрана от друго у-во</string>
+  <string name="wfd_sink_toast_disconnect">Преобразуваният екран е изключен</string>
+  <string name="wfd_sink_disconnecting">Откачане…</string>
+  <string name="wfd_sink_guide_btn">Вземете го</string>
+  <string name="wfd_sink_guide_title">Как се излиза?</string>
+  <string name="wfd_sink_guide_content">Натиснете екрана и задръжте <xliff:g id="seconds">%s</xliff:g> секунди за излизане от екрана на друго у-во</string>
+  <!-- MTK WFD end -->
+ 
+  <!-- MTK Storage Settings start -->
+   <string name="mtp_transfer_unmount_error_text">SD картата не трябва да се изважда по време на трансфера</string>
+  <string name="mtp_transfer_erase_error_text">SD картата не трябва да се изтрива по време на трансфера</string>
+  <string name="launch_error">"Не мога да стартирам приложението!"</string>
+  <string name="dlg_confirm_unmount_usb_title" product="default">Откачане на USB памет?</string>
+  <string name="dlg_confirm_unmount_usb_text" product="default">Ако откачите USB паметта, някои приложения ще спрат и няма да са достъпни, докато не я поставите обратно.</string>
+  <string name="dlg_error_unmount_usb_text" product="default">"USB хранилището не можа да бъде спряно. Опитайте отново по-късно."</string>
+  <string name="unmount_usb_inform_text" product="default">USB паметта ще бъде откачена.</string>
+  <string name="sd_eject_usbstorage" product="default">"Спиране на USB"</string>
+  <string name="sd_eject_usbstorage_summary" product="default">USB паметта е откачена, за да я извадите сигурно</string>
+  <string name="sd_mount_usbstorage" product="default">"Свързване на USB"</string>
+  <string name="sd_insert_usb_summary" product="default">"Вмъкнете USB за свързване"</string>
+  <string name="usb_ums_title">USB памет</string>
+  <string name="usb_ums_summary">"Препоръчва се ХР. Позволява трансфер на файлове между компютъра и у-вото с Android."</string>
+  <string name="usb_charge_title">Само зареждане</string>
+  <string name="usb_connect_as_cdrom_category">"Свържи като CD-ROM"</string>
+  <string name="usb_charge_summary">Спиране на всички USB функции. Позволява ускоряване на USB зареждането и намалява консумацията на енергия.</string>
+  <string name="akp_installer_settings_title">Инсталатор на АРК (автом. фазова манипулация)</string>
+  <string name="akp_installer_settings_summary">Инсталиране на АРК от паметта на телефона и SD картата</string>
+  <string name="usb_bicr_title">Вграден CD-ROM</string>
+  <string name="usb_bicr_summary">Показване на виртуален CD-ROM с полезен софтуер.</string>
+  <string name="select_memory">Диск за запис по подразбиране</string>
+  <string name="dlg_mount_external_sd_title" product="default">Монтиране на SD карта?</string>
+  <string name="dlg_mount_external_sd_summary" product="default">Ако монтирате SD карта, някои работещи приложения ще спрат.</string>
+  <!-- MTK Storage Settings end -->
+ 
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">Настройки HDMI</string>
+  <string name="hdmi_settings_summary">Щракнете за конфигуриране на HDMI</string>
+  <string name="hdmi_audio_toggler">Аудио</string>
+  <string name="hdmi_video_toggler">"Видео"</string>
+  <string name="hdmi_video_resolution">Разрешителна способност</string>
+  <string name="hdmi_auto">"автоматична"</string>
+  <string name="hdmi_scale_control">Настройки мащаб на видео</string>
+  <string name="hdmi_scale_no_scale">Без промяна</string>
+  <string name="hdmi_scale_scale_down">Намаляване <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">Аудио изход</string>
+  <string name="hdmi_audio_output_stereo">Стерео</string>
+  <string name="hdmi_audio_output_multi_channel">Мултиканален</string>
+  <!-- MTK HDMI end -->
+ 
+  <!-- MTK Display Settings start -->
+   <string name="landscape_launcher_title">Стартер на ландшафт</string>
+  <string name="landscape_launcher_none">"Няма"</string>
+  <string name="display_settings_scences_title">Сцени</string>
+  <string name="default_name">"По подразбиране"</string>
+  <string name="custom_theme_name">Нова [%1$s]</string>
+  <string name="loading">Зареждане…</string>
+  <string name="auto_backlight_title">Икономична подсветка</string>
+  <string name="auto_backlight_summary">Автоматично адаптиране на подсветката за икономия</string>
+  <string name="display_personalize">Персонализиране</string>
+  <string name="display_default">"Дисплей"</string>
+  <string name="clear_motion_summary">Подобрител на плавността на видео</string>
+  <string name="on_text">"включено"</string>
+  <string name="off_text">"изключена"</string>
+  <string name="mira_vision_summary">Осигурява отлични визуални ефекти</string>
+  <!-- MTK Display Settings end -->
+ 
+  <!--MTK Security Settings start -->
+   <string name="voice_unlock_backup_info_summary">Ако гласовото отключване не може да ви разпознае, как искате да отключите?</string>
+  <string name="unlock_set_unlock_mode_voice_weak">Гласово отключване</string>
+  <string name="mtk_lock_screen_notifications_title">Известия за заключване на екрана</string>
+  <string name="lock_screen_notifications_summary">Показване известията на заключен екран</string>
+  <string name="lock_screen_style_title">Стил на заключване на екрана</string>
+  <string name="current_suffix">"(Текущ)"</string>
+  <string name="lockscreen_style_default_desc">"Бърз достъп до приложения при заключен екран"</string>
+  <string name="security_not_set">Не е зададена защита</string>
+  <string name="voice_ui_title">"Гласово управление"</string>
+  <!--MTK Security Settings end -->
+ 
+  <!-- MTK Wireless settings start -->
+   <string name="pch_toggle_title">Режим предпочитане GPRS трансфер</string>
+  <string name="pch_data_prefer_summary_off">Предпочитане данни</string>
+  <string name="pch_call_prefer_summary_on">Предпочитане повикване</string>
+  <string name="pch_warning_message">Скоростта за предаване на данни ще спадне.</string>
+  <string name="tethered_ipv6_title">Хотспот и тетъринг настройки</string>
+  <string name="tethered_ipv4v6">(достъпен IPv6)</string>
+  <string name="tethered_ipv6">(достъпен само IPv6)</string>
+  <string name="tethered_ipv4">(недостъпен IPv6)</string>
+  <string name="tethering_apn_settings_title">Настройки APN</string>
+  <string name="tethering_apn_settings_summary">Конфигуриране на APN за обвързване</string>
+  <string name="usb_tether_type_title">Тип обвързване на USB</string>
+  <string name="usb_tethering_select_version">Изберете версия на компютърната система</string>
+  <string name="apn_port_warning">Стойността на порта трябва да е 1-65535!</string>
+  <string name="apn_predefine_change_dialog_notice">Настоявате ли да запазите? Измененията на APN по подразбиране могат да причинят проблеми при свързване!"</string>
+  <string name="lockdown_vpn_already_connected">Винаги вкл. VPN е разрешен за връзка.</string>
+  <!-- MTK Wireless settings end -->
+ 
+  <!-- MTK Feature MISC start -->
+   <string name="schedule_power_on_off_settings_title">График на вкл/изкл</string>
+  <string name="ipo_title">Бързо зареждане</string>
+  <string name="ipo_summary_on">Отказ от бързо зареждане</string>
+  <string name="ipo_summary_off">Разрешено бързо зареждане</string>
+  <string name="hotknot_explained_description">Разрешаване на обмяна на данни при допир на екрана с друго у-во</string>
+  <string name="mouse_primary_button_title">Превключване на първичен и вторичен бутон</string>
+  <string name="mouse_primary_button_dialog_title">Включване на първичен бутон</string>
+  <string name="double_click_title">Скорост двойно щракване</string>
+  <string name="test_area">ТЕСТОВА ЗОНА:</string>
+  <string name="double_click_tip">Щракнете два пъти тук</string>
+  <!-- MTK Feature MISC end -->
+ 
+  <!-- MTK Bluetooth Settings start -->
+   <string name="bluetooth_advanced_settings">"Разширени настройки"</string>
+  <string name="bluetooth_profile_ftp">"Прехвърляне на файл"</string>
+  <string name="bluetooth_ftp_profile_summary_use_for">Използване за трансфер на файлове</string>
+  <string name="bluetooth_ftp_profile_summary_connected">"Свързано към трансфера на файлове"</string>
+  <!-- MTK Bluetooth Settings end -->
+ 
+  <!--MTK DateTime start-->
+   <string name="gps_time_sync_attention_gps_on">Получаването на GPS засечка трае макс. 1 минута. Обаче GPS може да не успее да осигури време поради слаб сигнал.\n\nНастоявате ли да използвате времето от GPS?</string>
+  <string name="gps_time_sync_attention_gps_off">За използване на осигуреното от GPS време първо трябва да разрешите GPS. След това трябва макс. 1 минута за получаване на GPS засечка. Обаче GPS може да не успее да осигури време поради слаб сигнал.\n\nНастоявате ли сега да разрешите GPS и да използвате времето от GPS?</string>
+  <!--MTK DateTime end-->
+ 
+  <!--MTK DRM settings start -->
+   <string name="drm_settings_title">Възстановяване на DRM</string>
+  <string name="drm_settings_summary">Изтриване на всички DRM лицензи</string>
+  <string name="drm_reset_dialog_msg">Тази операция ще изтрие всички лицензи от у-вото. Да продължаваме ли?</string>
+  <string name="drm_reset_toast_msg">Успешно изтриване на лицензите.</string>
+  <!--MTK DRM settings end -->
+ 
+  <!-- MTK APPS settings start -->
+   <string name="launch_main_label">Старт на приложението</string>
+  <string name="launch_main">Старт на приложението с главно действие</string>
+  <string name="launch_activitie">Старт</string>
+  <string name="move_app_to_where">Преминаване към <xliff:g id="location">%s</xliff:g>
+</string>
+  <!-- MTK APPS settings end -->
+ 
+  <!-- MTK Battery MISC start -->
+   <string name="bg_power_saving_title">Готовност интелигентен пестене на енергия</string>
+  <!-- MTK Battery MISC end -->
+ 
+  <!-- MTK  Datausage  start -->
+   <string name="mtk_datausage_overview_tab">Преглед</string>
+  <string name="mtk_datausage_overview_wifi_today">"Днес"</string>
+  <string name="mtk_datausage_overview_wifi_total">Общо</string>
+  <string name="mtk_datausage_overview_mobile_title">"Мобилен"</string>
+  <string name="mtk_datausage_overview_mobile_usage">
+<xliff:g id="actual">%s</xliff:g> от <xliff:g id="limit">%s</xliff:g>
+</string>
+  <string name="mtk_datausage_overview_mobile_usage_warning">Извън лимита <xliff:g>%s</xliff:g>
+</string>
+  <string name="data_saving_title">Запазване на данни</string>
+  <!-- MTK  Dtausage  end -->
+ 
+  <!-- MTK About phone start -->
+   <string name="status_imei_slot1">IMEI(гнездо1)</string>
+  <string name="status_imei_slot2">IMEI(гнездо2)</string>
+  <string name="custom_build_version">Версия, създадена от потребител</string>
+  <string name="mota_system_update_summary">"Проверете за системни актуализации на сървъра"</string>
+  <string name="software_updates_more_title">Актуализации на софтуер</string>
+  <string name="software_updates_more_summary">Проверете за нова версия на софтуера</string>
+  <!-- MTK About phone end -->
+ 
+  <!-- MTK sim cards start -->
+   <string name="sim_cards_celluar_data_dialog_title">Изберете SIM за работа с клетъчни данни</string>
+  <string name="sim_cards_data_sms_dialog_title">Изберете SIM за SMS съобщения</string>
+  <string name="sim_cards_calls_dialog_title">Изберете акаунт за телефонни повиквания</string>
+  <string name="sim_cards_other_calls_dialog_title">Изберете друг акаунт</string>
+  <string name="sim_cards_other_calls_item_title">Друг акаунт</string>
+  <string name="data_connection_progress_message">Превключването на SIM картите трае около 10 секунди. Изчакайте…</string>
+  <string name="gemini_sim_mode_progress_activating_message">Активиране\u2026</string>
+  <string name="gemini_sim_mode_progress_deactivating_message">Деактивиране\u2026</string>
+  <string name="simui_intenet_call">Интернет повикване</string>
+  <!-- MTK sim cards end -->
+ 
+  <!-- MTK SIM Status start -->
+   <string name="imei_information_title">"Информация за IMEI"</string>
+  <string name="imei_information_summary">"Информация относно IMEI"</string>
+  <string name="slot_number">"(слот <xliff:g id="SLOT_NUM">%1$d</xliff:g>)"</string>
+  <string name="sim_info_editor_color">"Цвят на фона"</string>
+  <string name="sim_cards_notify_title">"SIM картите са променени"</string>
+  <string name="sim_cards_notify_summary">Чукнете за задаване на предпочитания.</string>
+  <string name="no_sim_cards_notify_title">Няма вкарана SIM карта</string>
+  <string name="cellular_data_notify_title">"Няма налични мобилни данни"</string>
+  <string name="cellular_data_notify_summary">Чукнете за задаване на SIM за данни.</string>
+  <!-- MTK SIM Status end -->
+ 
+  <!-- IMS/SMS Settings start -->
+   <string name="ims_toggle_summary">Осигуряване на услуги от ІР мултимедийна подсистема</string>
+  <string name="sms_vibrate_summary">вибриране на у-вата за sms</string>
+  <!-- IMS/SMS Settings end -->
+    <string name="default_data_switch_err_msg1">Не може да се превключи на предпочитаната SIM карта за клетъчни данни по време на повикването.</string>
+  <string name="two_cdma_dialog_msg">Гнезда 1 и 2 не могат едновременно да поддържат CDMA.</string>
+  <string name="hetcom_setting_title">Турбо сваляне</string>
+<string name="voice_call_sim2_title">Мелодия при гласово обаждане от SIM 2</string>
+<string name="ringtone_sim2_title">Мелодия на телеф. за SIM 2</string>
+<string name="wfc_quick_toggle_title">Wi-Fi обаждане</string>
+<string name="Help">Помощ</string>
+<string name="Tutorials">Ръковод.</string>
+<string name="Top_questions">Основни въпроси</string>
+<string name="Wifi_wfc_dialog_title">Wi-Fi обаждане</string>
+<string name="Wifi_wfc_dialog_top_wording">Вие сте свързани към WLAN мрежа</string>
+<string name="Wifi_wfc_dialog_bottom_wording">Този символ в горната част на екрана ви показва, че сте свързани към Wi-Fi мрежа. Можете да правите обаждания и да изпращате съобщение през Wi-Fi.</string>
+<string name="Skip">Проп.</string>
+<string name="Learn_more">Научете още</string>
+<string name="Next">След.</string>
+<string name="Switch_not_in_use_string">Превключването е временно недостъпно. Моля, опитайте по-късно.</string>
+<string name="Done">Готово</string>
+<string name="Wfc_questions">Помощ при Wi-Fi обаждане</string>
+<string name="Wfc_off_summary">Забранен</string>
+<string name="wfc_on_summary">Включено Wi-Fi обаждане</string>
+<string name="connection_preference">Предпочитания за връзка</string>
+<string name="WiFi_preferred">Предпочита се Wi-Fi</string>
+<string name="Cellular_network_preferred">Предпочита се клетъчна мрежа</string>
+<string name="Never_use_cellular_network">Никога не използвай клетъчна мрежа</string>
+<string name="WiFi_preferred_summary">Използвай Wi-Fi за обаждания. Ако няма Wi-Fi, използвай клетъчна мрежа (подразбираща се).</string>
+<string name="Cellular_network_preferred_summary">Използвай клетъчна мрежа за обаждания. Използвай Wi-Fi, ако няма достъпна клетъчна мрежа.</string>
+<string name="Never_use_cellular_network_summary">Използвай само Wi-Fi за обаждания. Не използвай клетъчна мрежа, дори и ако е достъпна.</string>
+<string name="no_sim_present_error">Няма налична SIM</string>
+<string name="inavlid_sim_error">Грешка 05: Невалидна SIM</string>
+<string name="airplane_mode_on">Режим „Самолет“ е включен</string>
+<string name="cellular_prefered_summary">Вашият предпочитан режим на връзка е клетъчна мрежа</string>
+<string name="wifi_off_summary">Wi-Fi е изключена</string>
+<string name="not_connected_to_wifi_summary">Няма връзка с Wi-Fi</string>
+<string name="poor_wifi_signal_summary">Слаб Wi-Fi сигнал</string>
+<string name="wfc_enabling_summary">Активиране...</string>
+<string name="wfc_disabling_summary">Деактивиране...</string>
+<string name="wfc_ready_for_calls_summary">Готовност за обаждания</string>
+<string name="wfc_unknown_error_summary">Неизв. грешка</string>
+<string name="wfc_tutorial_heading">Научете всичко за Wi-Fi обажданията</string>
+<string name="wfc_tutorial_content_second_page_part1">След като видите иконата за Wi-Fi обаждане на лентата за състоянието, вашият телефон е готов за Wi-Fi обаждания.</string>
+<string name="wfc_tutorial_content_second_page_part2">За да останете в едно Wi-Fi обаждане, не излизайте извън диапазона на Wi-Fi мрежата. Ще чуете звуков сигнал и ще получите съобщение на екрана, ако обаждането е прекъснато поради излизане от обхвата на мрежата.</string>
+<string name="wfc_incorrect_sim_alert_title">Грешка 05: Невалидна SIM карта</string>
+<string name="wfc_invalid_sim_alert_message">Важна бележка\nВашата SIM карта трябва да се актуализира за съвместимост с услугата за Wi-Fi обаждания. Моля, посетете магазин на T-Mobile или наберете 611 от телефона си, за да се свържете с центъра за обслужване на клиенти.</string>
+<string name="ok_string">ОК</string>
+<string name="wifi_ap_help_title">Помощ</string>
+<string name="help_document">1. Вашето устройство може да се използва като точка за достъп до Интернет чрез функцията за преносима точка Wi-Fi достъп. Към устройството ви могат да се включат периферни устройства и да имат достъп до Интернет чрез връзката ви за мобилни данни.\n2. Преди да използвате преносимата точка Wi-Fi достъп, активирайте мобилни данни. Възможно е да се начисляват приложимите такси за данни.\n3. Използването на преносимата точка Wi-Fi достъп ще изразходва повече енергия.</string>
+<string name="bg_power_percent_title">Покажи процент на батерия</string>
+<string name="bg_power_percent_summary">Покажи оставащия процент на батерията в лентата за състоянието</string>
+<string name="wfc_tutorial_content_first_page">С Wi-Fi обажданията се сбогувате с лошия обхват. С Wi-Fi обажданията можете да изпращате и получавате обаждания и съобщения по Wi-Fi мрежа с помощта на съществуващия план T-Mobile. Не е необходима специална настройка за Wi-Fi обаждания. В менюто за настройки отидете на „Безжични и други мрежи“ и се свържете с Wi-Fi, за да започнете.</string>
+<string name="storage_internal_storage_title">Вътрешна памет</string>
+<string name="storage_cleaner_preference_title">Чистач на хранилището</string>
+  <string name="mira_vision_title" translatable="false">Ефект на дисплея</string>
+  <string name="music_plus_title" translatable="false">Оптимизиране на звука от слушалките</string>
+  <string name="audio_profile_bes_loudness_title" translatable="false">Усилвател на звука на високоговорителя</string>
+</resources>

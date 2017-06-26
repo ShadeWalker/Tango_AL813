@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/*
+**
+** Copyright 2014, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="spoken_use_headphones">အသံထြက္၍ ေျပာဆိုေသာ စကားဝွက္နံပါတ္မ်ားကို နားေထာင္ရန္ နားၾကပ္တပ္ဆင္ပါ။</string>
+    <string name="spoken_current_text_is">လက္ရွိစာသားမွာ "%s" ျဖစ္သည္</string>
+    <string name="spoken_no_text_entered">ထည့္သြင္းထားေသာ စာသားမရွိပါ</string>
+    <string name="spoken_auto_correct">
+<xliff:g example="Space" id="KEY_NAME">%1$s</xliff:g> အမွန္ျပင္ <xliff:g id="ORIGINAL_WORD">%2$s</xliff:g> သို႔ <xliff:g id="CORRECTED_WORD">%3$s</xliff:g>
+</string>
+    <string name="spoken_auto_correct_obscured">
+<xliff:g example="Space" id="KEY_NAME">%1$s</xliff:g> အလိုအေလ်ာက္ အမွန္ျပင္</string>
+    <string name="spoken_description_unknown">မသိသည့္ အကၡရာ</string>
+    <string name="spoken_description_shift">Shift ခလုတ္</string>
+    <string name="spoken_description_symbols_shift">ပိုမ်ားေသာ သေကၤတမ်ား </string>
+    <string name="spoken_description_shift_shifted">Shift ခလုတ္</string>
+    <string name="spoken_description_symbols_shift_shifted">သေကၤတမ်ား</string>
+    <string name="spoken_description_caps_lock">Shift ခလုတ္</string>
+    <string name="spoken_description_delete">ဖ်က္ပါ</string>
+    <string name="spoken_description_to_symbol">သေကၤတမ်ား</string>
+    <string name="spoken_description_to_alpha">အကၡရာမ်ား</string>
+    <string name="spoken_description_to_numeric">နံပါတ္မ်ား</string>
+    <string name="spoken_description_settings">အျပင္အဆင္မ်ား</string>
+    <string name="spoken_description_tab">Tab ခလုတ္</string>
+    <string name="spoken_description_space">စေပ့စ္</string>
+    <string name="spoken_description_mic">အသံအသြင္း</string>
+    <string name="spoken_description_emoji">ခံစားမႈျပပံုမ်ား</string>
+    <string name="spoken_description_return">ေနာက္သို႔ျပန္ရန္</string>
+    <string name="spoken_description_search">ရွာေဖြပါ</string>
+    <string name="spoken_description_dot">အစက္</string>
+    <string name="spoken_description_language_switch">ဘာသာစကား ေျပာင္းလဲပါ။</string>
+    <string name="spoken_description_action_next">ေရွ႕သို႔</string>
+    <string name="spoken_description_action_previous">အရင္တစ္ခုသို႔</string>
+    <string name="spoken_description_shiftmode_on">Shift ခလုတ္ဖြင့္ၿပီး</string>
+    <string name="spoken_description_shiftmode_locked">Caps lock စာလံုးႀကီးခလုတ္ဖြင့္ၿပီး</string>
+    <string name="spoken_description_mode_symbol">သေကၤတပံုစံ</string>
+    <string name="spoken_description_mode_symbol_shift">ပိုမ်ားေသာ သေကၤတမ်ား စနစ္</string>
+    <string name="spoken_description_mode_alpha">အကၡရာပံုစံ</string>
+    <string name="spoken_description_mode_phone">ဖုန္းပံုစံ</string>
+    <string name="spoken_description_mode_phone_shift">ဖုန္းသေကၤတမ်ားပံုစံ</string>
+    <string name="announce_keyboard_hidden">ကီးဘုတ္ ဝွက္ထားသည္</string>
+    <string name="announce_keyboard_mode">ျပသေနသည္ <xliff:g example="email" id="KEYBOARD_MODE">%s</xliff:g> ကီးဘုတ္</string>
+    <string name="keyboard_mode_date">ရက္စြဲ</string>
+    <string name="keyboard_mode_date_time">ရက္စြဲႏွင့္အခ်ိန္</string>
+    <string name="keyboard_mode_email">အီးေမး(လ္)</string>
+    <string name="keyboard_mode_im">မက္ေဆ့(ခ်္)ေပးပို႔ျခင္း</string>
+    <string name="keyboard_mode_number">နံပါတ္</string>
+    <string name="keyboard_mode_phone">ဖုန္း</string>
+    <string name="keyboard_mode_text">စာသား ေပးပို႔သည္</string>
+    <string name="keyboard_mode_time">အခ်ိန္</string>
+    <string name="keyboard_mode_url">URL</string>
+    <string name="spoken_descrption_emoji_category_recents">ယခင္က</string>
+    <string name="spoken_descrption_emoji_category_people">လူမ်ား</string>
+    <string name="spoken_descrption_emoji_category_objects">အရာဝတၳဳမ်ား</string>
+    <string name="spoken_descrption_emoji_category_nature">သဘာဝ</string>
+    <string name="spoken_descrption_emoji_category_places">ေနရာမ်ား</string>
+    <string name="spoken_descrption_emoji_category_symbols">သေကၤတမ်ား</string>
+    <string name="spoken_descrption_emoji_category_emoticons">စိတ္လႈပ္ရွားမႈမ်ား (စိတ္လႈပ္ရွားမႈမ်ားျပ အိုင္ကြန္မ်ား)</string>
+    <string name="spoken_description_upper_case">အကၡရာ စာလံုးႀကီး<xliff:g example="A,E,ligature" id="LOWER_LETTER">%s</xliff:g>
+</string>
+    <string name="spoken_letter_0049">အိုင္ စာလံုးအႀကီး</string>
+    <string name="spoken_letter_0130">အိုင္ စာလံုးအႀကီး</string>
+    <string name="spoken_symbol_unknown">မသိသည့္ သေကၤတ</string>
+    <string name="spoken_emoji_unknown">မသိသည့္ emoji</string>
+    <string name="spoken_open_more_keys_keyboard">အျခားေသာ ေရြးခ်ယ္စရာ အကၡရာမ်ား ရႏုိင္သည္</string>
+    <string name="spoken_close_more_keys_keyboard">အျခားေသာ ေရြးခ်ယ္စရာ အကၡရာမ်ား ထုတ္ပစ္ခဲ့သည္</string>
+    <string name="spoken_open_more_suggestions">အျခားေသာ ေရြးခ်ယ္စရာ အႀကံျပဳခ်က္မ်ား ရႏုိင္သည္</string>
+    <string name="spoken_close_more_suggestions">အျခားေသာ ေရြးခ်ယ္စရာ အႀကံျပဳခ်က္မ်ား ထုတ္ပစ္ခဲ့သည္။</string>
+</resources>

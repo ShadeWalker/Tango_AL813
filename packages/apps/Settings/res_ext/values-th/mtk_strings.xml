@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- AudioProfile Settings start -->
+   <string name="ring_summary">ส่งเสียงกริ่ง</string>
+  <string name="ring_vibrate_summary">ส่งเสียงกริ่งและสั่น</string>
+  <string name="silent_summary">โหมดเงียบเท่านั้น</string>
+  <string name="meeting_summary">สั่นเท่านั้น</string>
+  <string name="outdoor_summary">ส่งเสียงกริ่งดังสุดและสั่น</string>
+  <string name="audio_profile_reset">รีเซ็ต</string>
+  <string name="audio_profile_add">เพิ่ม</string>
+  <string name="audio_profile_enable">เปิดทำงาน</string>
+  <string name="audio_profile_rename">"เปลี่ยนชื่อ"</string>
+  <string name="audio_profile_delete">"ลบ"</string>
+  <string name="audio_profile_message_reset">การตั้งค่าโปรไฟล์เสียงทั้งหมดจะถูกรีเซ็ตกลับเป็นค่าเริ่มต้น</string>
+  <string name="audio_profile_message_rename">โปรดป้อนชื่อโปรไฟล์ใหม่</string>
+  <string name="audio_profile_message_name_error">ชื่อที่ป้อนมีอยู่แล้ว</string>
+  <string name="audio_profile_message_name_length_wrong">ชื่อต้องประกอบด้วยตัวอักษรอย่างน้อยหนึ่งตัว</string>
+  <string name="audio_profile_message_delete">โปรไฟล์ 
+        <xliff:g id="profile">%s</xliff:g> จะถูกลบ</string>
+  <string name="audio_profile_message_overflow">คุณได้รับอนุญาตให้เพิ่มโปรไฟล์ที่กำหนดเอง 6 โปรไฟล์เท่านั้น</string>
+  <string name="audio_profile_category_custom_title">โปรไฟล์ที่กำหนดโดยผู้ใช้</string>
+  <string name="audio_profile_category_predefine_title">โปรไฟล์ที่กำหนดไว้ล่วงหน้า</string>
+  <string name="audio_profile_error">ผิดพลาด</string>
+  <string name="audio_profile_others">การแจ้งเตือน &amp; อื่น ๆ</string>
+  <string name="general_settings_title">"ผลิตภัณฑ์"</string>
+  <string name="silent_settings_title">"เงียบ"</string>
+  <string name="meeting_settings_title">ประชุม</string>
+  <string name="outdoor_settings_title">นอกอาคาร</string>
+  <string name="sound_category_feedback_title">"ระบบ"</string>
+  <string name="sound_category_calls_title">"สายโทรเข้า"</string>
+  <string name="voice_call_title">ริงโทนสายสนทนา</string>
+  <string name="voice_call_summary">ตั้งค่าริงโทนมาตรฐานสำหรับสายสนทนาเรียกเข้าของคุณ</string>
+  <string name="video_call_title">ริงโทนสายวิดีโอ</string>
+  <string name="video_call_summary">ตั้งค่าริงโทนมาตรฐานสำหรับสายวิดีโอเรียกเข้าของคุณ</string>
+  <string name="sip_call_title">ริงโทนสาย SIP</string>
+  <string name="sip_call_summary">ตั้งค่าริงโทนสาย SIP เริ่มต้น</string>
+  <string name="Phone_vibrate_summary">โทรศัพท์สั่นเมื่อมีสายเรียกเข้า</string>
+  <string name="vibrate_title">ระบบสั่น</string>
+  <string name="audio_profile_settings_title">โปรไฟล์เสียง</string>
+  <string name="audio_profile_bes_loudness_summary">ตัวเร่งระดับเสียงสำหรับลำโพง</string>
+  <string name="sound_enhancement_title">การปรับปรุงเสียง</string>
+  <string name="music_plus_summary">ตัวปรับปรุงเสียงสำหรับหูฟัง</string>
+  <string name="lossless_title">โหมดลอสเลส BT</string>
+  <string name="lossless_summary">เสียง BT คุณภาพสูง</string>
+  <string name="lossless_connect_summary">Wi-Fi จะได้รับผลกระทบเมื่อเปิดโหมดลอสเลส BT แน่ใจที่จะเปิดทำงานหรือไม่?</string>
+  <string name="lossless_on">โหมดลอสเลส BT เปิด</string>
+  <string name="lossless_playing">การเล่นเพลงที่ไม่สูญเสียคุณภาพ</string>
+  <string name="lossless_toastmessage">เสียงระบบจะถูกเล่นผ่านลำโพงโทรศัพท์</string>
+  <string name="lossless_volume_max">โปรดปรับระดับเสียงของระบบไปที่ค่าสูงสุด</string>
+  <string name="lossless_cannot_found_device">ไม่พบอุปกรณ์ลอสเลส BT</string>
+  <string name="audio_profile_bes_surround_title">BesSurround</string>
+  <string name="audio_profile_bes_surround_summary">เสียงเซอร์ราวนด์</string>
+  <string name="audio_profile_bes_surround_mode_movie">โหมดภาพยนตร์</string>
+  <string name="audio_profile_bes_surround_mode_music">โหมดดนตรี</string>
+  <string msgid="6680706009915204785" name="zen_mode_option_title_novoice">"เมื่อมีการแจ้งเตือน"</string>
+  <!-- AudioProfile Settings end -->
+ 
+  <!-- MTK Wi-Fi settings start -->
+   <string name="wifi_no_cert_for_wapi">ไม่พบใบรับรองสำหรับ AP ที่กำลังเชื่อมต่ออยู่</string>
+  <string name="sim_slot">สล็อตซิม</string>
+  <string name="eap_sim_slot_0">ช่องซิม 1</string>
+  <string name="eap_sim_slot_1">ช่องซิม 2</string>
+  <string name="eap_sim_aka_airplanemode">โปรดปิดโหมดเครื่องบินเพื่อใช้ EAP-SIM/AKA</string>
+  <string name="eap_sim_aka_no_sim_error">คุณต้องใส่ซิมการ์ดเพื่อใช้ EAP-SIM/AKA</string>
+  <string name="eap_sim_aka_no_sim_slot_selected">คุณต้องเลือกสล็อตซิมเพื่อใช้ EAP-SIM/AKA</string>
+  <string name="wifi_security_wapi_certificate">ใบรับรอง WAPI</string>
+  <string name="wapi_user_certificate">ใบรับรองผู้ใช้งาน</string>
+  <string name="wapi_as_certificate">ใบรับรอง ASE</string>
+  <string name="wifi_hex_password">รหัสผ่านเลขฐานสิบหก</string>
+  <string name="wifi_WEP_transmit_key">"ปุ่มส่ง"</string>
+  <string name="wifi_WEP_secury_key">"ปุ่มระบบป้องกัน"</string>
+  <string name="wifi_tether_auto_disable_title">เปิด Wi-Fi ไว้ตลอด</string>
+  <string name="wifi_tether_auto_channel_text">อัตโนมัติ</string>
+  <string name="wifi_tether_auto_channel_width_text">อัตโนมัติ 20/40 MHz</string>
+  <string name="wifi_channel">ช่องที่ต้องการ</string>
+  <string name="wifi_channel_width">ความกว้างของช่องสัญญาณ</string>
+  <string name="wifi_advanced_ipv4_address_title">ที่อยู่ IPv4</string>
+  <string name="wifi_advanced_ipv6_address_title">ที่อยู่ IPv6</string>
+  <string name="wifi_ipv4_address">ที่อยู่ IPv4</string>
+  <string name="wifi_ipv6_address">ที่อยู่ IPv6</string>
+  <string name="wifi_ap_auto_join_available">เข้าร่วมอัตโนมัติ</string>
+  <string name="wifi_ap_auto_join_available_summary">เลือกเครือข่าย Wi-Fi ที่ดีกว่าในขณะที่สแกนเพื่อเข้าร่วมเมื่อเชื่อมต่อโดยอัตโนมัติ</string>
+  <!-- MTK Wi-Fi settings end -->
+ 
+  <!-- Wi-Fi hotspot client start -->
+   <string name="wifi_tether_setting_title">การตั้งค่าพื้นฐาน</string>
+  <string name="wifi_tether_wps_connect_title">"WPS เชื่อมต่อ"</string>
+  <string name="wifi_tether_wps_connect_summary">ดำเนินการต่อในโหมดการตั้งค่า Wi-Fi แบบมีการป้องกันที่เลือก</string>
+  <string name="wifi_tether_wps_pin_error">PIN ไม่ถูกต้อง</string>
+  <string name="wifi_tethering_title">Wi-Fi ฮอตสปอต</string>
+  <string name="wifi_ap_wps_dialog_title">"WPS เชื่อมต่อ"</string>
+  <string name="wifi_ap_wps_mode_title">โหมด WPS</string>
+  <string name="wifi_ap_wps_pin_title">พิมพ์ PIN จากไคลเอนต์</string>
+  <string name="wifi_ap_reset_OOB_title">รีเซต SSID เครือข่าย ความปลอดภัย และรหัสผ่านให้เป็นค่าเริ่มต้น ( การตั้งค่าเริ่มต้นสำหรับ WPS )</string>
+  <string name="wifi_ap_reset_OOB">รีเซต OOB</string>
+  <string name="wifi_ap_max_connection_title">การเชื่อมต่อสูงสุด</string>
+  <string name="wifi_ap_connected_title">ผู้ใช้ที่มีการเชื่อมต่อ</string>
+  <string name="wifi_ap_blocked_title">ผู้ใช้ที่ถูกบล็อก</string>
+  <string name="wifi_ap_client_block_title">บล็อก</string>
+  <string name="wifi_ap_client_unblock_title">ยกเลิกการบล็อก</string>
+  <string name="wifi_ap_client_details_title">รายละเอียด</string>
+  <string name="wifi_ap_client_mac_label">ที่อยู่ MAC:</string>
+  <string name="wifi_ap_client_ip_label">ที่อยู่ IP:</string>
+  <string name="wifi_ap_bandwidth_title">การใช้แบนด์วิดท์</string>
+  <string name="wifi_ap_bandwidth_enable">เปิดใช้งานการควบคุมแบนด์วิดท์</string>
+  <string name="wifi_ap_bandwidth_chart_title">ความเร็วของข้อมูลในเวลาจริง</string>
+  <string name="wifi_ap_bandwidth_chart_summary">วัดโดยโทรศัพท์ของคุณ การคำนวณความเร็ว\ข้อมูลของผู้ให้บริการของคุณอาจแตกต่างไปจากนี้</string>
+  <string name="wifi_wps_fail_error">การตั้งค่าการปกป้อง Wi-Fi ล้มเหลว โปรดลองอีกครั้ง</string>
+  <string name="wifi_ap_title">สถิติ</string>
+  <string name="wifi_ap_time_duration">ช่วงเวลา: 
+        <xliff:g id="time">%1$s</xliff:g>
+</string>
+  <string name="wifi_ap_total_data">ข้อมูลที่ใช้ทั้งหมด:
+        <xliff:g id="time">%1$s</xliff:g>
+</string>
+  <string name="wifi_ap_no_connected">0 ผู้ใช้ที่มีการเชื่อมต่อ</string>
+  <string name="wifi_ap_no_blocked">0 ผู้ใช้ที่ถูกบล็อก</string>
+  <!-- Wi-Fi hotspot client end -->
+ 
+  <!-- MTK Beam plus start -->
+   <string name="beam_mgmt_tab_download_title">สายที่ได้รับ</string>
+  <string name="beam_mgmt_tab_upload_title">"3. คลิกที่แท็บการแชร์ แล้วเลือก 'อนุญาตให้ผู้ใช้เครือข่ายคนอื่นเชื่อมต่อผ่านการเชื่อมต่ออินเตอร์เน็ตของคอมพิวเตอร์เครื่องนี้'(เลือกเครือข่ายที่เพิ่มเข้าไปใหม่ ซึ่งจะแสดงการเชื่อมต่ออินเตอร์เน็ตผ่าน USB ถ้า'การเชื่อมต่อเครือข่ายภายในบ้าน' ปรากฏขึ้น)"</string>
+  <string name="beam_share_mgmt_notification_ticker">บีมการแชร์ประวัติ</string>
+  <string name="beam_share_mgmt_notification_title">บีมการแชร์ประวัติ</string>
+  <string name="beam_share_mgmt_notification_message">"เลือกเพื่อดูบีมการแชร์ประวัติ"</string>
+  <string name="beam_share_mgmt_tab_menu_clear">ล้างการตั้งค่าเว็บไซต์ทั้งหมด?</string>
+  <string name="beam_share_open_file_dialog_title">ไม่สามารถเปิดไฟล์ได้</string>
+  <string name="beam_share_open_file_unsupported_message">ไม่สามารถเปิดไฟล์ได้</string>
+  <string name="beam_share_open_file_not_found_message">"ไม่พบไฟล์: <xliff:g id="file_name">%1$s</xliff:g>
+</string>
+  <string name="beam_share_transfer_fail_dialog_title">"บีมไม่สำเร็จ"</string>
+  <string name="beam_share_resend_dialog_message">"ส่ง <xliff:g id="file_name">%1$s</xliff:g> ไม่สำเร็จ"</string>
+  <string name="beam_share_resend_dialog_ok_button">"ลองใหม่อีกครั้ง"</string>
+  <string name="beam_share_show_received_files_menu">"แสดงไฟล์ที่ได้รับ"</string>
+  <string name="beam_share_history_title">บีมการแชร์ประวัติ</string>
+  <string name="beam_share_clear_confirm_dialog_title">ล้างทั้งหมด</string>
+  <string name="beam_share_clear_confirm_dialog_message">ล้างประวัติทั้งหมดหรือไม่</string>
+  <string name="beam_share_receive_fail_dialog_message">"รับ <xliff:g id="file_name">%1$s</xliff:g> ไม่สำเร็จ"</string>
+  <string name="beam_share_clear_item_dailog_title">"ลบ"</string>
+  <string name="beam_share_clear_item_dailog_message">รายการจะถูกลบ</string>
+  <!-- MTK Beam plus end -->
+ 
+  <!-- MTK NFC settings start -->
+   <string name="nfc_p2p_mode">โหมด P2P</string>
+  <string name="nfc_p2p_mode_summary">ส่งหรือรับเนื้อหาแอป</string>
+  <string name="nfc_tag_mode_category">โหมดแท็ก</string>
+  <string name="nfc_rw_tag_title">อ่าน &amp; เขียนแท็ก</string>
+  <string name="nfc_rw_tag_summary">อ่านจากแท็กหรือบันทึกลงแท็ก</string>
+  <string name="nfc_card_emulation_category_title">โหมดการจำลองการ์ด</string>
+  <string name="nfc_card_emulation">การจำลองการ์ด</string>
+  <string name="card_emulation_settings_category_title">ส่วนประกอบด้านความปลอดภัยที่มี</string>
+  <string name="card_emulation_settings_no_element_found">ไม่มีส่วนประกอบด้านความปลอดภัย</string>
+  <string name="card_emulation_settings_off_text">เพื่อดูส่วนประกอบด้านความปลอดภัยที่มี, เปิดการจำลองการ์ด</string>
+  <string name="card_emulation_turning_off_text">กำลังปิดการจำลองการ์ด...</string>
+  <string name="card_emulation_turning_on_text">กำลังเปิดการจำลองการ์ด...</string>
+  <string name="card_emulation_switch_error_title">ผิดพลาด</string>
+  <string name="card_emulation_switch_error_message">ไม่สามารถเปลี่ยนไปยัง <xliff:g id="card_mode">%1$s</xliff:g>
+</string>
+  <string name="card_emulation_sim_not_supported_message">
+<xliff:g id="sim_description">%1$s</xliff:g> ไม่สนับสนุนฟังก์ชั่นการจำลอง NFC การ์ด</string>
+  <string name="card_emulation_two_sim_not_supported_message">SIM1, SIM2 ไม่สนับสนุนฟังก์ชั่นการจำลอง NFC การ์ด</string>
+  <string name="nfc_hce_pay_summary">การใช้อุปกรณ์เพื่อ แตะ &amp; จ่าย เป็น Google Wallet, บัตรเครดิต, ฯลฯ</string>
+  <!-- MTK NFC settings end -->
+ 
+  <!-- MTK WIFI Passpoint start -->
+   <string name="passpoint_summary">เชื่อมต่อไปยัง AP ที่เปิดใช้งาน passpoint โดยอัตโนมัติ</string>
+  <string name="passpoint_append_summary">(ผ่าน Passpoint)</string>
+  <string name="passpoint_config_credential_type">ชนิดชื่อและรหัสผ่าน</string>
+  <string name="passpoint_config_eap_method">"วิธีการ EAP"</string>
+  <string name="passpoint_supported">สนับสนุน</string>
+  <string name="passpoint_username_pw">ชื่อผู้ใช้/รหัสผ่าน</string>
+  <string name="passpoint_certificate">ใบรับรอง</string>
+  <!-- MTK WIFI Passpoint end -->
+ 
+  <!-- MTK WFD start -->
+   <string name="wfd_change_resolution_menu_title">เปลี่ยนความละเอียด</string>
+  <string name="wfd_sink_summary">สามารถพบได้โดยอุปกรณ์อื่น</string>
+  <string name="wfd_device_category">รายการอุปกรณ์</string>
+  <string name="wfd_sink_toast_enjoy">สนุกสนานกับการส่งหน้าจอจากอุปกรณ์อื่น</string>
+  <string name="wfd_sink_toast_disconnect">การส่งหน้าจอตัดการเชื่อมต่อแล้ว</string>
+  <string name="wfd_sink_disconnecting">"กำลังตัดการเชื่อมต่อ…"</string>
+  <string name="wfd_sink_guide_btn">รับ</string>
+  <string name="wfd_sink_guide_title">วิธีเลิก?</string>
+  <string name="wfd_sink_guide_content">กดค้างเป็นเวลา <xliff:g id="seconds">%s</xliff:g> วินาทีบนหน้าจอเพื่อเลิกการแสดงผลของอุปกรณ์อื่น</string>
+  <!-- MTK WFD end -->
+ 
+  <!-- MTK Storage Settings start -->
+   <string name="mtp_transfer_unmount_error_text">ไม่สามารถอันเมาท์ SD การ์ดได้ในระหว่างการถ่ายโอนไฟล์</string>
+  <string name="mtp_transfer_erase_error_text">ไม่สามารถลบ SD การ์ดได้ในระหว่างการถ่ายโอนไฟล์</string>
+  <string name="launch_error">"เปิดใช้แอพพลิเคชั่นไม่ได้!"</string>
+  <string name="dlg_confirm_unmount_usb_title" product="default">อันเมาท์ที่เก็บ USB หรือไม่?</string>
+  <string name="dlg_confirm_unmount_usb_text" product="default">ถ้าคุณอันเมาท์ที่เก็บข้อมูล USB แอพบางแอพที่คุณกำลังใช้อยู่จะหยุดการทำงาน และอาจใช้งานไม่ได้จนกกว่าคุณจะเมาท์ที่เก็บข้อมูล USB ใหม่อีกครั้ง</string>
+  <string name="dlg_error_unmount_usb_text" product="default">อันเมาท์\ที่เก็บข้อมูล USB ไม่ได้ โปรดลองใหม่ภายหลัง</string>
+  <string name="unmount_usb_inform_text" product="default">จะอันเมาท์ที่เก็บข้อมูล USB</string>
+  <string name="sd_eject_usbstorage" product="default">"ยกเลิกการต่อเชื่อมที่เก็บข้อมูล USB"</string>
+  <string name="sd_eject_usbstorage_summary" product="default">"ยกเลิกการต่อเชื่อมที่เก็บข้อมูล USB ภายใน"</string>
+  <string name="sd_mount_usbstorage" product="default">"ต่อเชื่อมที่เก็บข้อมูล USB"</string>
+  <string name="sd_insert_usb_summary" product="default">"ใส่ที่เก็บข้อมูล USB เพื่อต่อเชื่อม"</string>
+  <string name="usb_ums_title">ที่เก็บข้อมูล USB</string>
+  <string name="usb_ums_summary">"แนะนำให้ใช้ XP ทำให้คุณสามารถถ่ายโอนไฟล์ระหว่างคอมพิวเตอร์กับที่เก็บข้อมูล USB ของ Android ของคุณ"</string>
+  <string name="usb_charge_title">ชาร์จเท่านั้น</string>
+  <string name="usb_connect_as_cdrom_category">"เชื่อมต่อแบบ CD-ROM"</string>
+  <string name="usb_charge_summary">หยุดฟังก์ชั่น USB ทั้งหมด ให้คุณเพิ่มความเร็วการชาร์จผ่าน USB และลดการใช้พลังงาน</string>
+  <string name="akp_installer_settings_title">ตัวติดตั้ง APK</string>
+  <string name="akp_installer_settings_summary">ติดตั้ง APK ของคุณจากที่เก็บข้อมูลของโทรศัพท์และ SD การ์ด</string>
+  <string name="usb_bicr_title">ไม่มีซีดีรอมในตัว</string>
+  <string name="usb_bicr_summary">แสดงซีดีรอมเสมือนซึ่งมีซอฟต์แวร์ที่มีประโยชน์</string>
+  <string name="select_memory">ดิสก์การเขียนมาตรฐาน</string>
+  <string name="dlg_mount_external_sd_title" product="default">เมาท์ SD การ์ดหรือไม่</string>
+  <string name="dlg_mount_external_sd_summary" product="default">ถ้าคุณเมาท์ SD การ์ด บางแอพที่กำลังใช้จะหยุดทำงาน</string>
+  <!-- MTK Storage Settings end -->
+ 
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">การตั้งค่า HDMI</string>
+  <string name="hdmi_settings_summary">คลิกเพื่อตั้งค่า HDMI</string>
+  <string name="hdmi_audio_toggler">"เสียง"</string>
+  <string name="hdmi_video_toggler">"วิดีโอ"</string>
+  <string name="hdmi_video_resolution">ความละเอียดของภาพ</string>
+  <string name="hdmi_auto">อัตโนมัติ</string>
+  <string name="hdmi_scale_control">การตั้งค่าระดับเสียง</string>
+  <string name="hdmi_scale_no_scale">ไม่มีการปรับ</string>
+  <string name="hdmi_scale_scale_down">ไต่ลง <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">เอาต์พุตเสียง</string>
+  <string name="hdmi_audio_output_stereo">"สเตอริโอ"</string>
+  <string name="hdmi_audio_output_multi_channel">หลายแชนเนล</string>
+  <!-- MTK HDMI end -->
+ 
+  <!-- MTK Display Settings start -->
+   <string name="landscape_launcher_title">Launcher แบบแนวนอน</string>
+  <string name="landscape_launcher_none">"ไม่มี"</string>
+  <string name="display_settings_scences_title">ซีน</string>
+  <string name="default_name">ค่าเริ่มต้น</string>
+  <string name="custom_theme_name">ใหม่ [%1$s]</string>
+  <string name="loading">กำลังโหลด...</string>
+  <string name="auto_backlight_title">ไฟหน้าจอแบบประหยัด</string>
+  <string name="auto_backlight_summary">ปรับไฟหน้าจออัตโนมัติเพื่อประหยัดพลังงาน</string>
+  <string name="display_personalize">ปรับแต่ง</string>
+  <string name="display_default">"การแสดงผล"</string>
+  <string name="clear_motion_summary">ตัวเพิ่มความลื่นไหลวิดีโอ</string>
+  <string name="on_text">"เปิด"</string>
+  <string name="off_text">"ปิด"</string>
+  <string name="mira_vision_summary">ให้เอฟเฟ็กต์การแสดงผลที่ดีที่สุด</string>
+  <!-- MTK Display Settings end -->
+ 
+  <!--MTK Security Settings start -->
+   <string name="voice_unlock_backup_info_summary">ถ้าการปลดล็อกด้วยเสียง\ระบุตัวคุณไม่ได้ คุณต้องการปลดล็อกอย่างไร</string>
+  <string name="unlock_set_unlock_mode_voice_weak">ปลดล็อกด้วยเสียง</string>
+  <string name="mtk_lock_screen_notifications_title">การแจ้งเตือนที่หน้าจอล็อก</string>
+  <string name="lock_screen_notifications_summary">แสดงการแจ้งเตือนบนหน้าจอล็อก</string>
+  <string name="lock_screen_style_title">รูปแบบหน้าจอล็อก</string>
+  <string name="current_suffix">"(ปัจจุบัน)"</string>
+  <string name="lockscreen_style_default_desc">"การเข้าถึงแอปพลิเคชั่นแบบเร็วในหน้าจอล็อก"</string>
+  <string name="security_not_set">ยังไม่ได้ตั้งค่าความปลอดภัย</string>
+  <string name="voice_ui_title">ควบคุมเสียง</string>
+  <!--MTK Security Settings end -->
+ 
+  <!-- MTK Wireless settings start -->
+   <string name="pch_toggle_title">เลือกใช้การโอน GPRS</string>
+  <string name="pch_data_prefer_summary_off">เลือกใช้ข้อมูล</string>
+  <string name="pch_call_prefer_summary_on">เลือกใช้สาย</string>
+  <string name="pch_warning_message">อัตราการรับส่งข้อมูลจะปฏิเสธ.</string>
+  <string name="tethered_ipv6_title">การตั้งค่าฮอตสปอต &amp; การแชร์อินเตอร์เน็ต</string>
+  <string name="tethered_ipv4v6">(มี IPv6)</string>
+  <string name="tethered_ipv6">(มีเฉพาะ IPv6)</string>
+  <string name="tethered_ipv4">(ไม่มี IPv6)</string>
+  <string name="tethering_apn_settings_title">การตั้งค่า APN</string>
+  <string name="tethering_apn_settings_summary">ตั้งค่า APN สำหรับการแชร์อินเตอร์เน็ต</string>
+  <string name="usb_tether_type_title">ชนิดการแชร์อินเตอร์เน็ตทาง USB</string>
+  <string name="usb_tethering_select_version">เลือกเวอร์ชั่นระบบ PC</string>
+  <string name="apn_port_warning">ค่าพอร์ตต้องอยู่มีค่า 1-65535!</string>
+  <string name="apn_predefine_change_dialog_notice">คุณต้องการบันทึกหรือไม่ การดัดแปลง APNs เริ่มต้นอาจทำให้เกิดปัญหาการเชื่อมต่อ!"</string>
+  <string name="lockdown_vpn_already_connected">ได้เปิดการออนไลน์บน VPN เสมอสำหรับการเชื่อมต่อแล้ว</string>
+  <!-- MTK Wireless settings end -->
+ 
+  <!-- MTK Feature MISC start -->
+   <string name="schedule_power_on_off_settings_title">กำหนดเวลาเปิด/ปิด</string>
+  <string name="ipo_title">บูตด่วน</string>
+  <string name="ipo_summary_on">ปิดทำงานการบูตด่วน</string>
+  <string name="ipo_summary_off">เปิดทำงานการบูตด่วน</string>
+  <string name="hotknot_explained_description">อนุญาตการแลกเปลี่ยนข้อมูลเมื่อหน้าจอสัมผัสอีกอุปกรณ์หนึ่ง</string>
+  <string name="mouse_primary_button_title">สลับปุ่มหลักและรอง</string>
+  <string name="mouse_primary_button_dialog_title">สลับปุ่มหลัก</string>
+  <string name="double_click_title">ความเร็วการดับเบิลคลิก</string>
+  <string name="test_area">พื้นที่ทดสอบ:</string>
+  <string name="double_click_tip">ดับเบิลคลิกที่นี่</string>
+  <!-- MTK Feature MISC end -->
+ 
+  <!-- MTK Bluetooth Settings start -->
+   <string name="bluetooth_advanced_settings">"การตั้งค่าขั้นสูงของบลูทูธ"</string>
+  <string name="bluetooth_profile_ftp">การถ่ายโอนไฟล์</string>
+  <string name="bluetooth_ftp_profile_summary_use_for">ใช้สำหรับการถ่ายโอนไฟล์</string>
+  <string name="bluetooth_ftp_profile_summary_connected">"เชื่อมต่อไปยังการถ่ายโอนไฟล์"</string>
+  <!-- MTK Bluetooth Settings end -->
+ 
+  <!--MTK DateTime start-->
+   <string name="gps_time_sync_attention_gps_on">ส่วนใหญ่จะใช้เวลาสูงสุด 1 นาที ในการรับสัญญาณ GPS นอกจากนี้ GPS อาจไม่สามารถส่งเวลาได้เนื่องจากสัญญาณแวดล้อมที่อ่อนแรง\n\nคุณแน่ใจว่าต้องการใช้เวลาที่ส่งจาก GPS หรือไม่</string>
+  <string name="gps_time_sync_attention_gps_off">ในการใช้เวลาที่ส่งจาก GPS คุณต้องเปิดใช้งาน GPS ก่อน ส่วนใหญ่จะใช้เวลาสูงสุด 1 นาที ในการรับสัญญาณ GPS นอกจากนี้ GPS อาจไม่สามารถส่งเวลาได้เนื่องจากสัญญาณแวดล้อมที่อ่อนแรง\n\nคุณแน่ใจว่าต้องการใช้เวลาที่ส่งจาก GPS ขณะนี้หรือไม่ และต้องการรอเวลาจาก GPS หรือไม่</string>
+  <!--MTK DateTime end-->
+ 
+  <!--MTK DRM settings start -->
+   <string name="drm_settings_title">รีเซต DRM</string>
+  <string name="drm_settings_summary">ลบไลเซนส์ทั้งหมดของ DRM</string>
+  <string name="drm_reset_dialog_msg">การทำงานนี้จะลบไลเซนส์ทั้งหมดบนอุปกรณ์นี้ ดำเนินการต่อหรือไม่</string>
+  <string name="drm_reset_toast_msg">ลบไลเซนส์สำเร็จแล้ว</string>
+  <!--MTK DRM settings end -->
+ 
+  <!-- MTK APPS settings start -->
+   <string name="launch_main_label">เปิดแอพพลิเคชั่น</string>
+  <string name="launch_main">เปิดแอพพลิเคชั่นโดยกิจกรรมหลัก</string>
+  <string name="launch_activitie">เปิด</string>
+  <string name="move_app_to_where">ย้ายไปที่ 
+        <xliff:g id="location">%s</xliff:g>
+</string>
+  <!-- MTK APPS settings end -->
+ 
+  <!-- MTK Battery MISC start -->
+   <string name="bg_power_saving_title">การประหยัดพลังงานอัจฉริยะสแตนด์บาย</string>
+  <!-- MTK Battery MISC end -->
+ 
+  <!-- MTK  Datausage  start -->
+   <string name="mtk_datausage_overview_tab">ภาพรวม</string>
+  <string name="mtk_datausage_overview_wifi_today">วันนี้</string>
+  <string name="mtk_datausage_overview_wifi_total">"รวม"</string>
+  <string name="mtk_datausage_overview_mobile_title">มือถือ</string>
+  <string name="mtk_datausage_overview_mobile_usage">
+<xliff:g id="actual">%s</xliff:g> จาก 
+        <xliff:g id="limit">%s</xliff:g>
+</string>
+  <string name="mtk_datausage_overview_mobile_usage_warning">เกินขีดจำกัด <xliff:g>%s</xliff:g>
+</string>
+  <string name="data_saving_title">การบันทึกข้อมูล</string>
+  <!-- MTK  Dtausage  end -->
+ 
+  <!-- MTK About phone start -->
+   <string name="status_imei_slot1">IMEI(สล็อต1)</string>
+  <string name="status_imei_slot2">IMEI(สล็อต2)</string>
+  <string name="custom_build_version">เวอร์ชั่นบิลด์แบบกำหนดเอง</string>
+  <string name="mota_system_update_summary">"เช็คการอัพเดทระบบบนเซิร์ฟเวอร์"</string>
+  <string name="software_updates_more_title">การอัพเดทซอฟท์แวร์</string>
+  <string name="software_updates_more_summary">ค้นหาซอฟต์แวร์เวอร์ชั่นใหม่</string>
+  <!-- MTK About phone end -->
+ 
+  <!-- MTK sim cards start -->
+   <string name="sim_cards_celluar_data_dialog_title">เลือก SIM เพื่อใช้สำหรับข้อมูลเซลลูล่าร์</string>
+  <string name="sim_cards_data_sms_dialog_title">เลือก SIM เพื่อใช้สำหรับข้อความ SMS</string>
+  <string name="sim_cards_calls_dialog_title">เลือกบัญชีเพื่อใช้สำหรับสายโทรศัพท์</string>
+  <string name="sim_cards_other_calls_dialog_title">เลือกบัญชีอื่น</string>
+  <string name="sim_cards_other_calls_item_title">บัญชีอื่น</string>
+  <string name="data_connection_progress_message">"การสลับ SIM จะใช้เวลาประมาณ 10 วินาทีจึงจะสมบูรณ์ โปรดรอ…"</string>
+  <string name="gemini_sim_mode_progress_activating_message">กำลังเปิดใช้งาน\u2026</string>
+  <string name="gemini_sim_mode_progress_deactivating_message">กำลังปิดการใช้งาน\u2026</string>
+  <string name="simui_intenet_call">การโทรทางอินเทอร์เน็ต</string>
+  <!-- MTK sim cards end -->
+ 
+  <!-- MTK SIM Status start -->
+   <string name="imei_information_title">"ข้อมูล IMEI"</string>
+  <string name="imei_information_summary">"ข้อมูลที่เกี่ยวข้องกับ IMEI"</string>
+  <string name="slot_number">"(ช่อง<xliff:g id="SLOT_NUM">%1$d</xliff:g>)"</string>
+  <string name="sim_info_editor_color">"สีพื้นหลัง"</string>
+  <string name="sim_cards_notify_title">"ซิมการ์ดมีการเปลี่ยนแปลง"</string>
+  <string name="sim_cards_notify_summary">แทปเพื่อตั้งค่าการกำหนดลักษณะ</string>
+  <string name="no_sim_cards_notify_title">ไม่ได้เสียบ SIM การ์ด</string>
+  <string name="cellular_data_notify_title">"ข้อมูลมือถือไม่พร้อมใช้งาน"</string>
+  <string name="cellular_data_notify_summary">แทปเพื่อตั้งค่า SIM ข้อมูล</string>
+  <!-- MTK SIM Status end -->
+ 
+  <!-- IMS/SMS Settings start -->
+   <string name="ims_toggle_summary">การให้บริการระบบย่อย IP มัลติมีเดีย</string>
+  <string name="sms_vibrate_summary">สั่นเมื่อได้รับ sms</string>
+  <!-- IMS/SMS Settings end -->
+    <string name="default_data_switch_err_msg1">ไม่สามารถสลับ SIM ที่เลือกใช้สำหรับข้อมูลเซลลูลาร์ระหว่างการโทรได้</string>
+  <string name="two_cdma_dialog_msg">สล็อต 1 และสล็อต 2 ไม่สามารถสนับสนุน CDMA พร้อมกัน</string>
+  <string name="hetcom_setting_title">เทอร์โบดาวน์โหลด</string>
+<string name="voice_call_sim2_title">เสียงเรียกเข้าการโทรด้วยเสียงสำหรับซิม 2</string>
+<string name="ringtone_sim2_title">เสียงเรียกเข้าของโทรศัพท์สำหรับซิม 2</string>
+<string name="wfc_quick_toggle_title">การโทรผ่าน Wi-Fi</string>
+<string name="Help">วิธีใช้</string>
+<string name="Tutorials">บทแนะนำ</string>
+<string name="Top_questions">คำถามยอดฮิต</string>
+<string name="Wifi_wfc_dialog_title">การโทรผ่าน Wi-Fi</string>
+<string name="Wifi_wfc_dialog_top_wording">ขณะนี้คุณกำลังเชื่อมต่อกับเครือข่าย WLAN</string>
+<string name="Wifi_wfc_dialog_bottom_wording">สัญลักษณ์นี้ที่ด้านบนของหน้าจอบ่งชี้ว่าคุณกำลังเชื่อมต่อกับเครือข่าย Wi-Fi คุณสามารถโทรออก และส่งข้อความผ่าน Wi-Fi</string>
+<string name="Skip">ข้าม</string>
+<string name="Learn_more">เรียนรู้เพิ่มเติม</string>
+<string name="Next">ถัดไป</string>
+<string name="Switch_not_in_use_string">สวิตซ์ไม่สามารถใช้งานได้ชั่วคราว กรุณาลองใหม่ในภายหลัง</string>
+<string name="Done">เสร็จสิ้น</string>
+<string name="Wfc_questions">วิธีใช้การโทรผ่าน Wi-Fi</string>
+<string name="Wfc_off_summary">ปิดใช้งานแล้ว</string>
+<string name="wfc_on_summary">เปิดการโทรผ่าน Wi-Fi</string>
+<string name="connection_preference">การกำหนดลักษณะการเชื่อมต่อ</string>
+<string name="WiFi_preferred">Wi-Fi ที่ต้องการ</string>
+<string name="Cellular_network_preferred">เครือข่ายโทรศัพท์มือถือที่ต้องการ</string>
+<string name="Never_use_cellular_network">ไม่ใช้เครือข่ายโทรศัพท์มือถือ</string>
+<string name="WiFi_preferred_summary">ใช้ Wi-Fi สำหรับการโทร หาก Wi-Fi ไม่สามารถใช้ได้ ใช้เครือข่ายโทรศัพท์มือถือ (ค่าเริ่มต้น)</string>
+<string name="Cellular_network_preferred_summary">ใช้เครือข่ายโทรศัพท์มือถือสำหรับการโทร ใช้ Wi-Fi หากเครือข่ายโทรศัพท์มือถือไม่สามารถใช้ได้</string>
+<string name="Never_use_cellular_network_summary">ใช้ Wi-Fi เท่านั้นสำหรับการโทร ห้ามใช้เครือข่ายโทรศัพท์มือถือแม้ว่าจะใช้งานได้</string>
+<string name="no_sim_present_error">ไม่มีซิม</string>
+<string name="inavlid_sim_error">Error 05: ซิมไม่ถูกต้อง</string>
+<string name="airplane_mode_on">เปิดโหมดเครื่องบิน</string>
+<string name="cellular_prefered_summary">โทรศัพท์มือถือเป็นโหมดการเชื่อมต่อที่ต้องการของคุณ</string>
+<string name="wifi_off_summary">ปิด Wi-Fi แล้ว</string>
+<string name="not_connected_to_wifi_summary">ไม่ได้เชื่อมต่อกับ Wi-Fi </string>
+<string name="poor_wifi_signal_summary">สัญญาณ Wi-Fi ไม่ดี</string>
+<string name="wfc_enabling_summary">กำลังเปิดใช้งาน…</string>
+<string name="wfc_disabling_summary">กำลังปิดใช้งาน…</string>
+<string name="wfc_ready_for_calls_summary">พร้ิอมแล้วสำหรับการโทร</string>
+<string name="wfc_unknown_error_summary">เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุ</string>
+<string name="wfc_tutorial_heading">เรียนรู้เกี่ยวกับการโทรผ่าน Wi-Fi</string>
+<string name="wfc_tutorial_content_second_page_part1">เมื่อคุณเห็นไอคอนการโทรผ่าน Wi-Fi บนแถบสถานะ แสดงว่าโทรศัพท์ของคุณพร้อมแล้วสำหรับการโทรผ่าน Wi-Fi</string>
+<string name="wfc_tutorial_content_second_page_part2">หากต้องการคงการโทรผ่าน Wi-Fi ไว้ ให้อยู่ในระยะของเครือข่าย Wi-Fi คุณจะได้ยินเสียงบี๊บและได้รับข้อความบนหน้าจอเพื่อแจ้งให้คุณทราบ เมื่อสายหลุด เนื่องจากคุณออกนอกระยะของเครือข่าย</string>
+<string name="wfc_incorrect_sim_alert_title">Error 05: ซิมการ์ดใช้ไม่ได้</string>
+<string name="wfc_invalid_sim_alert_message">ประกาศสำคัญ\nซิมการ์ดของคุณจำเป็นต้องอัปเดตเพื่อความเข้ากันได้ของบริการโทรผ่าน Wi-Fi กรุณาเยี่ยมชมร้าน T-Mobile หรือกด 611 จากโทรศัพท์ของคุณไปยังศูนย์บริการลูกค้า</string>
+<string name="ok_string">ตกลง</string>
+<string name="wifi_ap_help_title">วิธีใช้</string>
+<string name="help_document">1. อุปกรณ์ของคุณไม่สามารถใช้เป็นจุดเข้าใช้งานระบบอินเทอร์เน็ตผ่านทางฟีเจอร์ Wi-Fi ฮอตสปอตแบบพกพา สามารถต่ออุปกรณ์ต่อพ่วงเข้ากับอุปกรณ์ของคุณและเข้าถึงอินเทอร์เน็ตโดยผ่านการเชื่อมต่อข้อมูลโทรศัพท์เคลื่อนที่ของคุณ\n2 ก่อนใช้ฟีเจอร์ Wi-Fi ฮอตสปอตแบบพกพา โปรดเปิดใช้งานข้อมูลโทรศัพท์เคลื่อนที่ อาจมีค่าธรรมเนียมการใช้ข้อมูลเพิ่มเติม\n3 การใช้ฟีเจอร์ Wi-Fi ฮอตสปอตแบบพกพาจะทำให้ใช้ไฟมากขึ้น</string>
+<string name="bg_power_percent_title">แสดงเปอร์เซ็นต์แบตเตอรี</string>
+<string name="bg_power_percent_summary">แสดงเปอร์เซ็นต์แบตเตอรีที่เหลืออยู่บนแถบสถานะ</string>
+<string name="wfc_tutorial_content_first_page">การโทรผ่าน Wi-Fi ช่วยแก้ปัญหาเรื่องพื้นที่ที่มีสัญญาณที่ไม่สม่ำเสมอ ด้วยระบบการโทรผ่าน Wi-Fi คุณจะสามารถรับส่งข้อความและโทรศัพท์ผ่านทางเครือข่าย Wi-Fi ได้โดยใช้แผน T-Mobile ที่มีอยู่ ไม่จำเป็นต้องมีการตั้งค่าพิเศษสำหรับการโทรผ่าน Wi-Fi จากเมนู การตั้งค่า ให้ไปที่ ไร้สายและเครือข่าย แล้วเชื่อมต่อกับเครือข่าย Wi-Fi เพื่อเริ่มต้นใช้งาน</string>
+<string name="storage_internal_storage_title">ที่เก็บข้อมูลภายในเครื่อง</string>
+<string name="storage_cleaner_preference_title">ตัวทำความสะอาดที่เก็บข้อมูล</string>
+<string name="mira_vision_title">แสดงเอฟเฟ็กต์</string>
+</resources>

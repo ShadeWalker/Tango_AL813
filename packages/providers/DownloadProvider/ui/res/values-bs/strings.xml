@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_label">Pružatelj pretraživanja aplikacija</string>
+<string name="download_title_sorted_by_date">Preuzimanja - Razvrstana po datumu</string>
+<string name="download_title_sorted_by_size">Preuzimanja - Razvrstana po veličini</string>
+<string name="no_downloads">Nema preuzimanja.</string>
+<string name="missing_title">&lt;Nepoznato&gt;</string>
+<string name="button_sort_by_size">Razvrstaj po veličini</string>
+<string name="button_sort_by_date">Razvrstaj po datumu</string>
+<string name="download_queued">Stavljeno u red čekanja</string>
+<string name="download_running">U toku</string>
+<string name="download_success">Završeno</string>
+<string name="download_error">Neuspješno</string>
+<string name="dialog_title_not_available">Nije moguće preuzeti</string>
+<string name="dialog_failed_body">Da li želite da kasnije ponovo pokušate preuzimanje datoteke ili da je izbrišete iz reda čekanja?</string>
+<string name="dialog_title_queued_body">Datoteka u redu čekanja</string>
+<string name="dialog_queued_body">Ova datoteka je stavljena u red čekanja za buduće preuzimanje, pa još nije dostupna.</string>
+<string name="dialog_file_missing_body">Nije moguće pronaći preuzetu datoteku.</string>
+<string name="dialog_insufficient_space_on_external">Nije moguće dovršiti preuzimanje. Nema dovoljno prostora u vanjskoj pohrani.</string>
+<string name="dialog_insufficient_space_on_cache">Nije moguće dovršiti preuzimanje. Nema dovoljno prostora u unutrašnjoj pohrani za preuzimanje.</string>
+<string name="dialog_cannot_resume">Preuzimanje je prekinuto i nije ga moguće nastaviti.</string>
+<string name="dialog_file_already_exists">Nije moguće preuzeti. Ciljna datoteka već postoji.
+    </string>
+<string name="dialog_media_not_found">Nije moguće preuzeti. Vanjski medij nije dostupan.
+    </string>
+<string name="download_no_application_title">Datoteka se ne može otvoriti</string>
+<string name="remove_download">Ukloni</string>
+<string name="delete_download">Izbriši</string>
+<string name="keep_queued_download">Zadrži</string>
+<string name="cancel_running_download">Otkaži</string>
+<string name="retry_download">Pokuš. pon.</string>
+<string name="deselect_all">Poništi odabir za sve</string>
+<string name="select_all">Odaberi sve</string>
+<string name="selected_count">Odabrano <xliff:g example="3" id="number">%1$d</xliff:g> od <xliff:g example="15" id="total">%2$d</xliff:g>
+</string>
+<string name="download_share_dialog">Podijeli putem</string>
+</resources>

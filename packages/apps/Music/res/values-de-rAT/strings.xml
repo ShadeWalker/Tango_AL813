@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2007, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    
+    <string name="onesong">1 Stück</string>
+    
+    <plurals name="Nsongs">
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> Stücke</item>
+    </plurals>
+
+    
+    <plurals name="Nsongscomp">
+        <item quantity="other"><xliff:g id="count_for_artist">%2$d</xliff:g> von <xliff:g id="total_count">%1$d</xliff:g> Stücken</item>
+    </plurals>
+
+    
+    <plurals name="Nalbums">
+        
+        <item quantity="one">1 Album</item>
+        
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> Albums</item>
+    </plurals>
+
+    
+    <skip/>
+    
+    
+    
+    
+
+    
+    <string name="goto_start">Bibliothek</string>
+    
+    <string name="party_shuffle">Party-Mix</string>
+    
+    <string name="party_shuffle_off">Party-Mix aus</string>
+    
+    <string name="delete_item">Löschen</string>
+    
+    <string name="shuffle_all">Alle mischen</string>
+    
+    <string name="play_all">Alle wiedergeben</string>
+
+    
+    <string name="delete_artist_desc">Alle Stücke von <xliff:g id="artist">%s</xliff:g> werden gelöscht.</string>
+    
+    <string name="delete_artist_desc_nosdcard">Alle Stücke von <xliff:g id="artist">%s</xliff:g> werden dauerhaft vom USB-Speicher gelöscht.</string>
+
+    
+    <string name="delete_album_desc">Das ganze Album \"<xliff:g id="album">%s</xliff:g>\" wird gelöscht.</string>
+    
+    <string name="delete_album_desc_nosdcard">Das ganze Album \"<xliff:g id="album">%s</xliff:g>\" wird dauerhaft vom USB-Speicher gelöscht.</string>
+
+    
+    <string name="delete_song_desc">\"<xliff:g id="song">%s</xliff:g>\" wird gelöscht.</string>
+    
+    <string name="delete_song_desc_nosdcard">\"<xliff:g id="song">%s</xliff:g>\" dauerhaft vom USB-Speicher löschen?</string>
+
+    
+    <string name="delete_confirm_button_text">OK</string>
+    
+    <plurals name="NNNtracksdeleted">
+        
+        <item quantity="one">1 Stück wurde gelöscht.</item>
+        
+        <item quantity="other"><xliff:g id="songs_to_delete">%d</xliff:g> Stücke wurden gelöscht.</item>
+    </plurals>
+
+    
+    <string name="scanning">SD-Karte wird gescannt\u2026</string>
+    
+    <string name="scanning_nosdcard">USB-Speicher wird gescannt\u2026</string>
+
+    
+    <string name="nowplaying_title">Gerade läuft</string>
+    
+    <string name="partyshuffle_title">Party-Mix</string>
+    
+    <string name="artists_title">Künstler</string>
+    
+    <string name="albums_menu">Albums</string>
+    
+    <string name="albums_title">Albums</string>
+    
+    <string name="tracks_menu">Musikstücke</string>
+    
+    <string name="tracks_title">Musikstücke</string>
+    
+    <string name="playlists_menu">Playlists</string>
+    
+    <string name="playlists_title">Playlists</string>
+    
+    <string name="videos_title">Videos</string>
+    
+    <string name="all_title">Alle Medien</string>
+    
+    <string name="browse_menu">Künstler</string>
+    
+    <string name="search_title">Suchen</string>
+    
+    <string name="no_tracks_title">Keine Musikstücke</string>
+    
+    <string name="no_videos_title">Keine Videos</string>
+    
+    <string name="no_playlists_title">Keine Playlist</string>
+    
+    <string name="delete_playlist_menu">Löschen</string>
+    
+    <string name="edit_playlist_menu">Editieren</string>
+    
+    <string name="rename_playlist_menu">Umbenennen</string>
+    
+    <string name="playlist_deleted_message">Playlist gelöscht</string>
+    
+    <string name="playlist_renamed_message">Playlist umbenannt</string>
+    
+    <string name="recentlyadded">Kürzlich hinzugefügt</string>
+    
+    <string name="recentlyadded_title">Kürzlich hinzugefügt</string>
+    
+    <string name="podcasts_listitem">Podcasts</string>
+    
+    <string name="podcasts_title">Podcasts</string>
+    
+    <string name="sdcard_missing_title">Keine SD-Karte</string>
+    
+    <string name="sdcard_missing_title_nosdcard">Kein USB-Speicher</string>
+    
+    <string name="sdcard_missing_message">In Ihrem Telefon ist keine SD-Karte installiert.</string>
+    
+    <string name="sdcard_missing_message_nosdcard">In Ihrem Telefon befindet sich kein USB-Speicher.</string>
+    
+    <string name="sdcard_busy_title">SD-Karte nicht verfügbar</string>
+    
+    <string name="sdcard_busy_title_nosdcard">USB-Speicher nicht verfügbar</string>
+    
+    <string name="sdcard_busy_message">Ihr Medienspeicher ist beschäftigt.</string>
+    
+    <string name="sdcard_busy_message_nosdcard">Ihr USB-Speicher ist beschäftigt.</string>
+    
+    <string name="sdcard_error_title">SD-Kartenfehler</string>
+    
+    <string name="sdcard_error_title_nosdcard">USB-Speicherfehler</string>
+    
+    <string name="sdcard_error_message">Auf Ihrer SD-Karte wurde ein Fehler erkannt.</string>
+    
+    <string name="sdcard_error_message_nosdcard">Auf Ihrem USB-Speicher wurde ein Fehler erkannt.</string>
+    
+    <string name="unknown_artist_name">Unbekannter Künstler</string>
+    
+    <string name="unknown_album_name">Unbekanntes Album</string>
+    
+    <string name="shuffle_on_notif">Zufällige Wiedergabe ist an.</string>
+    
+    <string name="shuffle_off_notif">Zufällige Wiedergabe ist aus.</string>
+    
+    <string name="repeat_off_notif">Wiederholen ist aus.</string>
+    
+    <string name="repeat_current_notif">Aktuelles Stück wiederholen</string>
+    
+    <string name="repeat_all_notif">Alle Stücke wiederholen</string>
+    
+    <string name="ringtone_menu">Als Klingelton verwenden</string>
+    
+    <string name="ringtone_menu_short">Als Klingelton verwenden</string>
+    
+    <string name="ringtone_set">\"<xliff:g id="name" example="AlarmBell">%s</xliff:g>\" als Klingelton einrichten.</string>
+    
+    <string name="play_selection">Wiedergeben</string>
+    
+    <string name="add_to_playlist">Zum Playlist hinzufügen</string>
+    
+    <string name="queue">Aktuelle Playlist</string>
+    
+    <string name="new_playlist">Neu</string>
+    
+    <string name="new_playlist_name_template">Neue Playlist <xliff:g id="number">%d</xliff:g></string>
+    
+    <plurals name="NNNtrackstoplaylist">
+        
+        <item quantity="one">1 Stück der Playlist hinzufügt</item>
+        
+        <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> Stücke zu Playlist hinzugefügt.</item>
+    </plurals>
+    
+    <string name="emptyplaylist">Ausgewählte Playlist ist leer.</string>
+    
+    <string name="create_playlist_create_text">Speichern</string>
+    
+    <string name="create_playlist_overwrite_text">Überschreiben</string>
+    
+    <string name="service_start_error_title">Wiedergabeprobleme</string>
+    
+    <string name="service_start_error_msg">Stück konnte nicht wiedergegeben werden.</string>
+    
+    <string name="service_start_error_button">OK</string>
+    
+    
+    <string-array name="weeklist">
+        <item>"1 Woche"</item>
+        <item>"2 Wochen"</item>
+        <item>"3 Wochen"</item>
+        <item>"4 Wochen"</item>
+        <item>"5 Wochen"</item>
+        <item>"6 Wochen"</item>
+        <item>"7 Wochen"</item>
+        <item>"8 Wochen"</item>
+        <item>"9 Wochen"</item>
+        <item>"10 Wochen"</item>
+        <item>"11 Wochen"</item>
+        <item>"12 Wochen"</item>
+    </string-array>
+    
+    <string name="weekpicker_set">Erledigt</string>
+    
+    <string name="weekpicker_title">Zeit einstellen</string>
+    
+    <color name="dragndrop_background">#e0103010</color>
+    
+    <color name="expanding_child_background">#ff404040</color>
+
+    
+    <string name="save_as_playlist">Als Playlist speichern</string>
+    
+    <string name="clear_playlist">Playlist löschen</string>
+
+    
+    <string name="musicbrowserlabel">Musik</string>
+    
+    <string name="musicshortcutlabel">Musik-Playlist</string>
+    
+    <string name="mediaplaybacklabel">Musik</string>
+    
+    <string name="videobrowserlabel">Videos</string>
+    
+    <string name="mediapickerlabel">Musik</string>
+
+    
+    <string name="playback_failed">Konnte Datei nicht öffnen.</string>
+
+    
+    <string name="cancel">Abbrechen</string>
+
+    
+    <string name="remove_from_playlist">Aus Playlist löschen</string>
+
+    
+    <string name="streamloadingtext">Mit <xliff:g id="host">%s</xliff:g> verbinden\u2026</string>
+
+    
+    <string name="mediasearch">Suchen nach <xliff:g id="term" example="Beethoven">%s</xliff:g> mit Hilfe von:</string>
+
+    
+    <string name="working_artists">Künstler\u2026</string>
+    
+    <string name="working_albums">Albums\u2026</string>
+    
+    <string name="working_songs">Stücke\u2026</string>
+    
+    <string name="working_playlists">Playlists\u2026</string>
+
+    
+    <string name="loading">Lade \u2026</string>
+    
+    <string name="sort_by_track">Musikstücke</string>
+    
+    <string name="sort_by_album">Albums</string>
+    
+    <string name="sort_by_artist">Künstler</string>
+    
+    <string name="music_picker_title">Musikstück auswählen</string>
+
+    
+    <string name="search_settings_description">Künstler, Albums und Stück</string>
+
+    
+    <string name="search_hint">Musik suchen</string>
+
+    
+    <string name="fast_scroll_alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    
+    <string name="widget_initial_text">Antippen, um Musik auszuwählen.</string>
+
+    
+    <string name="effectspanel">Sound-Effekte</string>
+</resources>

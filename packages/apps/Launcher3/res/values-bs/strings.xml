@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="application_name">Pokretač3</string>
+<string name="home">Početna</string>
+<string name="uid_name">Android Core aplikacije</string>
+<string name="activity_not_found">Aplikacija nije instalirana.</string>
+<string name="activity_not_available">Aplikacija nije dostupna.</string>
+<string name="safemode_shortcut_error">Preuzeta aplikacija onemogućena u sigurnom načinu rada</string>
+<string name="safemode_widget_error">Vidžeti onemogućeni u sigurnom načinu rada</string>
+<string name="widgets_tab_label">Vidžeti</string>
+<string name="widget_adder">Vidžeti</string>
+<string name="toggle_weight_watcher">Prikaži Mem</string>
+<string name="long_press_widget_to_add">Dodirnite i držite da podignete vidžet.</string>
+<string name="external_drop_widget_error">Spuštanje stavke na ovaj Početni ekran nije bilo moguće.</string>
+<string name="external_drop_widget_pick_title">Odaberite vidžet za kreiranje</string>
+<string name="rename_folder_label">Ime fascikle</string>
+<string name="rename_folder_title">Preimenuj fasciklu</string>
+<string name="rename_action">OK</string>
+<string name="cancel_action">Otkaži</string>
+<string name="menu_item_add_item">Dodaj na Početni ekran</string>
+<string name="group_applications">Aplik.</string>
+<string name="group_shortcuts">Prečice</string>
+<string name="group_widgets">Vidžeti</string>
+<string name="completely_out_of_space">Nema više mjesta na vašim Početnim ekranima.</string>
+<string name="out_of_space">Nema više mjesta na ovom Početnom ekranu.</string>
+<string name="hotseat_out_of_space">Nema više mjesta u prostoru za Omiljene aplikacije</string>
+<string name="invalid_hotseat_item">Ovaj vidžet je prevelik za prostor za Omiljene aplikacije.</string>
+<string name="shortcut_installed">Prečica \"<xliff:g example="Browser" id="name">%s</xliff:g>\" kreirana.</string>
+<string name="shortcut_uninstalled">Prečica \"<xliff:g example="Browser" id="name">%s</xliff:g>\" uklonjena.</string>
+<string name="shortcut_duplicate">Prečica \"<xliff:g example="Browser" id="name">%s</xliff:g>\" već postoji.</string>
+<string name="title_select_shortcut">Odaberite prečicu</string>
+<string name="title_select_application">Odaberite aplikaciju</string>
+<string name="all_apps_button_label">Aplik.</string>
+<string name="all_apps_home_button_label">Početna</string>
+<string name="delete_zone_label_workspace">Ukloni</string>
+<string name="delete_zone_label_all_apps">Deinstaliraj</string>
+<string name="delete_target_label">Ukloni</string>
+<string name="delete_target_uninstall_label">Deinstaliraj</string>
+<string name="info_target_label">Informacije o aplikaciji</string>
+<string name="accessibility_all_apps_button">Aplik.</string>
+<string name="accessibility_delete_button">Ukloni</string>
+<string name="delete_zone_label_all_apps_system_app">Deinstaliraj ažuriranje</string>
+<string name="cab_menu_delete_app">Deinstaliraj aplikaciju</string>
+<string name="cab_menu_app_info">Detalji o aplikaciji</string>
+<string name="cab_app_selection_text">1 aplikacija odabrana</string>
+<string name="cab_widget_selection_text">1 vidžet odabran</string>
+<string name="cab_folder_selection_text">1 fascikla odabrana</string>
+<string name="cab_shortcut_selection_text">1 prečica odabrana</string>
+<string name="permlab_install_shortcut">instaliranje prečica</string>
+<string name="permdesc_install_shortcut">Omogućava aplikaciji da dodaje prečice bez intervencije korisnika.</string>
+<string name="permlab_uninstall_shortcut">deinstaliranje prečica</string>
+<string name="permdesc_uninstall_shortcut">Omogućava aplikaciji da uklanja prečice bez intervencije korisnika.</string>
+<string name="permlab_read_settings">čitaj postavke Početnog ekrana i prečice</string>
+<string name="permdesc_read_settings">Omogućava aplikaciji da čita postavke i prečice na Početnom ekranu.</string>
+<string name="permlab_write_settings">piši postavke Početnog ekrana i prečice</string>
+<string name="permdesc_write_settings">Omogućava aplikaciji da mijenja postavke i prečice na Početnom ekranu.</string>
+<string name="gadget_error_text">Problem s učitavanjem vidžeta</string>
+<string name="gadget_setup_text">Postavljanje</string>
+<string name="uninstall_system_app_text">Ovo je sistemska aplikacija i ne može se deinstalirati.</string>
+<string name="dream_name">Lansirna rampa</string>
+<string name="folder_hint_text">Neimenovana fascikla</string>
+<string name="workspace_description_format">Početni ekran %1$d</string>
+<string name="default_scroll_format">Stranica %1$d od %2$d</string>
+<string name="workspace_scroll_format">Početni ekran %1$d od %2$d</string>
+<string name="apps_customize_apps_scroll_format">Stranica aplikacija %1$d od %2$d</string>
+<string name="apps_customize_widgets_scroll_format">Stranica vidžeta %1$d od %2$d</string>
+<string name="first_run_cling_title">Dobrodošli</string>
+<string name="first_run_cling_description">Osjećajte se kao kod kuće.</string>
+<string name="first_run_cling_create_screens_hint">Kreirajte dodatne ekrane za aplikacije i fascikle</string>
+<string name="migration_cling_title">Kopirajte ikone aplikacija</string>
+<string name="migration_cling_description">Uvezite ikone i fascikle sa starih Početnih ekrana?</string>
+<string name="migration_cling_copy_apps">KOPIRAJ IKONE</string>
+<string name="migration_cling_use_default">POČNI IZNOVA</string>
+<string name="workspace_cling_title">Organizirajte svoj prostor</string>
+<string name="workspace_cling_move_item">Dodirnite i držite pozadinu kako biste upravljali pozadinom, vidžetima i postavkama.</string>
+<string name="workspace_cling_longpress_title">Pozadine, vidžeti i postavke</string>
+<string name="workspace_cling_longpress_description">Dodirnite i držite pozadinu za prilagođavanje</string>
+<string name="workspace_cling_longpress_dismiss">RAZUMIJEM</string>
+<string name="folder_cling_title">Ovdje je fascikla</string>
+<string name="folder_cling_create_folder">Da biste kreirali jednu poput ove, dodirnite i držite jednu aplikaciju, zatim je pomjerite iznad neke druge.</string>
+<string name="cling_dismiss">OK</string>
+<string name="folder_opened">Fascikla otvorena, <xliff:g example="5" id="width">%1$d</xliff:g> od <xliff:g example="3" id="height">%2$d</xliff:g>
+</string>
+<string name="folder_tap_to_close">Dodirnite da zatvorite fasciklu</string>
+<string name="folder_tap_to_rename">Dodirnite da sačuvate preimenovanje</string>
+<string name="folder_closed">Fascikla zatvorena</string>
+<string name="folder_renamed">Fascikla preimenovana u <xliff:g example="Games" id="name">%1$s</xliff:g>
+</string>
+<string name="folder_name_format">Fascikla: <xliff:g example="Games" id="name">%1$s</xliff:g>
+</string>
+<string name="widget_button_text">Vidžeti</string>
+<string name="wallpaper_button_text">Pozadine</string>
+<string name="settings_button_text">Postavke</string>
+<string name="package_state_enqueued">Čekanje</string>
+<string name="package_state_downloading">Preuzimanje</string>
+<string name="package_state_installing">Instaliranje</string>
+<string name="package_state_unknown">Nepoznato</string>
+<string name="package_state_error">Nije obnovljeno</string>
+<string name="abandoned_clean_all">Ukloni sve</string>
+<string name="abandoned_clean_this">Ukloni</string>
+<string name="abandoned_search">Pretraži</string>
+<string name="abandoned_promises_title">Ova aplikacija nije instalirana</string>
+<string name="abandoned_promise_explanation">Aplikacija za ovu ikonu nije instalirana. Možete je ukloniti ili pretražiti i ručno instalirati.
+    </string>
+</resources>

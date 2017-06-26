@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">Ruisvermindering</string>
+    <string name="dual_mic_summary">Onderdrukt achtergrondgeluiden tijdens een gesprek</string>
+    <string name="anc_title">Actieve geluidsonderdrukking</string>
+    <string name="anc_on">AGO aan</string>
+    <string name="anc_off">AGO uit</string>
+    <string name="ip_prefix_setting">IP-voorvoegsel</string>
+    <string name="ip_prefix_setting_lable">IP-voorvoegsel (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">Instellingen IP-voorvoegsel</string>
+    <string name="enter_ip_prefix_number">Voorvoegsel invoeren</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Geef eerst het IP- voorvoegsel op in de instellingen voor Spraakoproep.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">De functie IP kiezen is niet van toepassing op bedoelde oproep.</string>
+    <string name="ip_prefix_edit_default_sum">Voer het voorvoegsel in voor IP kiezen</string>
+    <string name="lable_call_barring">"Oproep blokkeren"</string>
+    <string name="title_call_barring">Oproep blokkeren (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">Alle uitgaande oproepen</string>
+    <string name="lable_all_outgoing_international">Internationale uitgaande oproepen</string>
+    <string name="lable_all_out_except">Internationale uitgaande oproepen, behalve naar thuis PLMN</string>
+    <string name="lable_all_incoming">Alle binnenkomende oproepen</string>
+    <string name="lable_incoming_calls_except">Binnenkomende oproepen tijdens roamen</string>
+    <string name="deactivate_all">Alles annuleren</string>
+    <string name="change_password">Blokkeerwachtwoord wijzigen</string>
+    <string name="call_barring_sum">Instellingen blokkering spraakoproep</string>
+    <string name="lable_disable">Uitschakelen</string>
+    <string name="lable_enable">"Inschakelen"</string>
+    <string name="old_password_label">Oud wachtwoord (4 cijfers)</string>
+    <string name="new_password_label">Nieuw wachtwoord (4 cijfers)</string>
+    <string name="invalid_password">Voer een wachtwoord in van 4 cijfers.</string>
+    <string name="confirm_password_label">Nieuw wachtwoord bevestigen</string>
+    <string name="mismatch_password">De ingevoerde wachtwoorden komen niet overeen. Probeer het opnieuw.</string>
+    <string name="password_changed">Wachtwoord gewijzigd</string>
+    <string name="enter_callbarring_password">Wachtwoord voor blokkeren wachtwoord invoeren (4 cijfers)</string>
+    <string name="wrong_password">Wachtwoordfout</string>
+    <string name="error_title">"Fout"</string>
+    <string name="cell_broadcast">Cell broadcast</string>
+    <string name="cell_broadcast_settings">Cell broadcast-instellingen</string>
+    <string name="cb_menu_language">"Taal"</string>
+    <string name="cb_menu_add_channel">Kanaal toevoegen</string>
+    <string name="cb_menu_channel_list">Kanalenlijst</string>
+    <string name="cb_dialog_title_language_choice">Taal selecteren</string>
+    <string name="cb_channel_dialog_channel_name">Kanaalnaam(0-10 tekens)</string>
+    <string name="cb_channel_dialog_channel_number">Kanaalnummer (0 - 65534)</string>
+    <string name="cb_channel_dialog_channel_state">Het kanaal inschakelen</string>
+    <string name="cb_channel_dialog_edit_channel">Kanaal bewerken</string>
+    <string name="cb_menu_edit">"Bewerken"</string>
+    <string name="cb_menu_delete">Verwijderen</string>
+    <string name="cb_error_channel_num">Kanaalnummer invoeren (0 - 65534).</string>
+    <string name="cb_error_channel_name">Onjuiste lengte kanaalnaam (1-10 tekens).</string>
+    <string name="cb_error_language_select">Selecteer minstens één taal.</string>
+    <string name="cb_error_channel_id_exist">De kanaal-ID bestaat.</string>
+    <string name="cb_all_languages">Alle talen</string>
+    <string name="cb_default_new_channel_name">Nieuw kanaal</string>
+    <string name="fdn_errorcode_unknown_info">Mislukt. Onbekend fout opgetreden. Probeer het later opnieuw.</string>
+    <string name="fdn_errorcode_number_info">Mislukt. Het contactnummer is te lang.</string>
+    <string name="fdn_errorcode_name_info">Mislukt. De contactnaam is te lang.</string>
+    <string name="fdn_errorcode_storage_info">Mislukt. Opslag is vol.</string>
+    <string name="fdn_errorcode_phb_info">Mislukt. Het telefoonboek is niet gereed. Probeer het later.</string>
+    <string name="fdn_errorcode_pin2_info">Mislukt. Ongeldige PIN2</string>
+    <string name="net_or_simcard_busy">Netwerk of SIM-kaart bezet. Probeer het later.</string>
+    <string name="plmn_list_setting_title">Voorkeuren</string>
+    <string name="network_id">ID van netwerk</string>
+    <string name="plmn_list_setting_add_plmn">Nieuwe PLMN toevoegen</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">Zoeken...</string>
+    <string name="sum_search_femtocell_networks">Selecteer femtocell handmatig</string>
+    <string name="register_femtocell_point_wait_tip">Registreren <xliff:g id="femto_cell_info">%s</xliff:g> …</string>
+    <string name="register_femtocell_point_result_fail_tip">Kan geen verbinding maken met dit netwerk nu. Probeer het later opnieuw.</string>
+    <string name="network_type">Netwerktype</string>
+    <string name="gsm_umts_network_preferences_title">"Netwerkmodus"</string>
+    <string name="gsm_umts_network_preferneces_summary">Nog niet geïmplementeerd.</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"Netwerkmodus"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>"2G/3G (automatische modus)"</item>
+        <item>Alleen 3G</item>
+        <item>Alleen 2G</item>
+    </string-array>
+    <string name="notification_voicemail_text">Selecteren voor weergave voicemails</string>
+    <string name="notification_network_selection_without_operator">Geselecteerd netwerk niet beschikbaar</string>
+    <string name="network_setting_all_forbidden_dialog">Geen netwerken beschikbaar.</string>
+    <string name="network_forbidden">Uitschakelen</string>
+    <string name="fdn_contact_number_invalid">Ongeldig telefoonnummer contact.</string>
+    <string name="fdn_puk_need_tips">PIN2 geblokkeerd. Wijzig PIN2 en probeer het opnieuw.</string>
+    <string name="fdn_phone_book_busy">Het telefoonboek is bezet. Probeer het later.</string>
+    <string name="one_retry_left">1 poging resterend</string>
+    <string name="retries_left"><xliff:g id="number">%d</xliff:g> pogingen resterend</string>
+    <string name="pin_length_indicate">(4-8 cijfers)</string>
+    <string name="puk_length_indicate">(8 cijfers)</string>
+    <string name="unblock_pin2">Blokkering PIN2 opheffen</string>
+    <string name="sim_permanently_locked">Wanneer meer dan 10 keer een onjuiste PUK2-code is ingevoerd, wordt een SIM-kaart permanent vergrendeld.</string>
+    <string name="magi_conference_title">MagiVergader</string>
+    <string name="magi_conference_summary">Verbetert de spraakkwaliteit als meerdere mensen de telefoon gebruiken om met anderen te praten.</string>
+    <string name="volte_is_adding_participants">Deelnemers aan de vergadering toevoegen, een ogenblik….</string>
+    <string name="volte_fail_to_invit_participants">Toevoegen van alle deelnemers aan de vergadering is mislukt.</string>
+    <string name="voicemail_lable">Voicemail (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">Om de handeling te voltooien, moet u de gegevensverbinding van <xliff:g id="sub_name">%s</xliff:g> openen.</string>
+    <string name="cdma_labelCFU">"Altijd doorschakelen"</string>
+    <string name="cdma_labelCFB">"Doorsch. bij in gesprek"</string>
+    <string name="cdma_labelCFNRy">"Doorsch. bij onbeantwoord"</string>
+    <string name="cdma_labelCFNRc">"Doorsch. bij onbereikbaar"</string>
+    <string name="cdma_labelCFC">Alles doorsturen annuleren</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">Beperking op identificatie nummer beller uitschakelen</string> 
+    <string name="cdma_cnir_turnon">Beperking op identificatie nummer beller inschakelen</string>
+    <string name="lte_data_only_prompt">Kan deze functie niet gebruiken vanwege de modus 4G uitsluitend data. Wilt u de modus 4G uitsluitend data afsluiten?</string>
+    <string name="lte_data_only_timeout">Geen 4G uitsluitend data netwerk beschikbaar op de huidige locatie. Wilt u afsluiten en naar andere netwerken zoeken?</string>
+    <string name="lte_only_dialog_button_yes">"JA"</string>
+    <string name="lte_only_dialog_button_no">"NEE"</string>
+    <string name="lte_only_dialog_title_prompt">Melding</string>
+    <string name="enable_4G_data">4G-data inschakelen</string>
+    <string name="enable_4G_data_summary">4 G kan betere en snellere internettoegang bieden</string>
+    <string name="only_use_LTE_data">Alleen LTE-data gebruiken</string>
+    <string name="only_use_LTE_data_summary">Om alleen het gebruik van enkele gegevens in te schakelen, kan deze functie geen telefoongesprekken en SMS-berichten verwerken.</string>
+    <string name="network_current">Geregistreerd</string>
+    <string name="network_available">Beschikbaar</string>
+</resources>

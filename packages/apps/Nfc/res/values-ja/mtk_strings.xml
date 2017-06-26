@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="mtk_notification_string">タップして詳細設定を表示します。</string>
+    <string name="mtk_beam_cancel_title">転送をキャンセルする</string>    
+    <string name="mtk_beam_cancel">転送をキャンセルしますか？</string>
+    <string name="mtk_yes">"はい"</string>
+    <string name="mtk_no">"いいえ"</string>
+    <string name="mtk_se_sim1">SIM1</string>
+    <string name="mtk_se_sim2">SIM2</string>
+    <string name="mtk_se_ssd">スマートSDカード</string>
+    <string name="mtk_se_ese">組み込みSE</string>
+    <string name="mtk_se_na">"利用可能なセキュリティ要素がありません。" "NFCカードエミュレーションはOFFにされます。"</string>
+    <string name="mtk_se_alt">"は利用できません。以下へ切り替えますか？"</string>
+    <string name="mtk_nfc_card_emulation">NFCカードエミュレーション</string>
+    <string name="mtk_disallow_in_wfd">この操作はワイヤレスディスプレイの最中は利用できません</string>
+    <string name="mtk_disallow_in_wfd_KK">この操作はスクリーンキャストの最中は利用できません</string>    
+    <string name="mtk_landing_wps_connect_AP_confirm_title">"ネットワークに接続"</string>
+    <string name="mtk_landing_wps_connect_AP_confirm_context">あなたは次への接続を試みています：</string>
+    <string name="mtk_landing_wps_connect_AP_confirm_default_network">"ネットワーク"</string>
+    <string name="mtk_landing_wps_connect_AP_confirm_positive">"接続"</string>
+    <string name="mtk_landing_wps_connect_AP_confirm_negative">"キャンセル"</string>
+    <string name="mtk_landing_wps_connect_AP_confirm_already_connected">あなたはすでに接続しています\n<xliff:g id="connected">%1$s</xliff:g></string>  
+    <string name="mtk_landing_wfa_p2p_turn_wifi_on">Wi-Fiをオンにしています…</string>  
+    <string name="mtk_landing_HotSpot_exclusive">Wi-Fiホットスポットが有効のため、利用できません。</string>      
+    <string name="mtk_wfa_activity_title">NFC WFAフォアグラウンドディスパッチ</string>
+    <string name="mtk_wfa_user_indication">このデバイスをNDEFタグ/P2Pデバイスの近くに置きます</string>
+    <string name="mtk_wfa_sigma_activity_title">NFCシグマフォアグラウンドディスパッチ</string>
+    <string name="mtk_wfa_sigma_user_indication">このデバイスをNDEFタグの近くに置きます</string>    
+</resources>

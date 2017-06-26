@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">تقليل التشويش</string>
+    <string name="dual_mic_summary">منع الضوضاء الخلفية أثناء المكالمات</string>
+    <string name="anc_title">الحد من الضوضاء النشطة</string>
+    <string name="anc_on">تشغيل وظيفة الحد من الضوضاء النشطة</string>
+    <string name="anc_off">إيقاف تشغيل وظيفة الحد من الضوضاء النشطة</string>
+    <string name="ip_prefix_setting">رقم IP المبدئي</string>
+    <string name="ip_prefix_setting_lable">رقم IP المبدئي (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">إعدادات رقم IP المبدئي</string>
+    <string name="enter_ip_prefix_number">أدخل الرقم المبدئي</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">يرجى إدخال رقم IP المبدئي في إعدادات المكالمات الصوتية.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">لا تتوفر وظيفة طلب IP مع مكالمة الإنترنت.</string>
+    <string name="ip_prefix_edit_default_sum">أدخل رقم بادئة اتصال IP</string>
+    <string name="lable_call_barring">"حظر الاتصال"</string>
+    <string name="title_call_barring">حظر الاتصال (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">كل المكالمات الصادرة</string>
+    <string name="lable_all_outgoing_international">المكالمات الدولية الصادرة</string>
+    <string name="lable_all_out_except">المكالمات الدولية الصادرة باستثناء الصادرة إلى الوطن PLMN</string>
+    <string name="lable_all_incoming">كل المكالمات الواردة</string>
+    <string name="lable_incoming_calls_except">المكالمات الواردة أثناء التجوال</string>
+    <string name="deactivate_all">إلغاء الكل</string>
+    <string name="change_password">تغيير كلمة المرور الخاصة بحظر الاتصال</string>
+    <string name="call_barring_sum">إعدادات حظر المكالمات الصوتية</string>
+    <string name="lable_disable">تم الإيقاف</string>
+    <string name="lable_enable">"تم التمكين"</string>
+    <string name="old_password_label">كلمة المرور القديمة (4 أرقام) </string>
+    <string name="new_password_label">كلمة مرور جديدة ( 4 أرقام)</string>
+    <string name="invalid_password">أدخل كلمة المرور المكونة من 4 أرقام.</string>
+    <string name="confirm_password_label">تأكيد كلمة المرور الجديدة</string>
+    <string name="mismatch_password">كلمة المرور التي أدخلتها ليست متوافقة. يُرجى إعادة المحاولة مرة أخرى.</string>
+    <string name="password_changed">تم تغيير كلمة المرور بنجاح</string>
+    <string name="enter_callbarring_password">أدخل كلمة المرور الخاصة بحظر الاتصال (4 أرقام)</string>
+    <string name="wrong_password">خطأ في كلمة المرور</string>
+    <string name="error_title">"خطأ"</string>
+    <string name="cell_broadcast">بث خلوي</string>
+    <string name="cell_broadcast_settings">إعدادات البث الخلوي</string>
+    <string name="cb_menu_language">"اللغة"</string>
+    <string name="cb_menu_add_channel">إضافة قناة</string>
+    <string name="cb_menu_channel_list">قائمة القنوات</string>
+    <string name="cb_dialog_title_language_choice">اختر اللغة</string>
+    <string name="cb_channel_dialog_channel_name">اسم القناة (0-10 أحرف)</string>
+    <string name="cb_channel_dialog_channel_number">رقم القناة (0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">تشغيل القناة</string>
+    <string name="cb_channel_dialog_edit_channel">تحرير القناة</string>
+    <string name="cb_menu_edit">"تعديل"</string>
+    <string name="cb_menu_delete">"حذف"</string>
+    <string name="cb_error_channel_num">يُرجى إدخال رقم القناة (0-65534).</string>
+    <string name="cb_error_channel_name">طول اسم القناة غير صحيح (1-10 حرف).</string>
+    <string name="cb_error_language_select">يُرجى اختيار لغة واحدة على الأقل.</string>
+    <string name="cb_error_channel_id_exist">رقم تعريف القناة موجود.</string>
+    <string name="cb_all_languages">كل اللغات</string>
+    <string name="cb_default_new_channel_name">قناة جديدة</string>
+    <string name="fdn_errorcode_unknown_info">فشل، حدث خطأ غير معروف، يُرجى إعادة المحاولة فيما بعد.</string>
+    <string name="fdn_errorcode_number_info">فشل، الرقم المدخل أطول من اللازم.</string>
+    <string name="fdn_errorcode_name_info">فشل، الاسم المدخل أطول من اللازم.</string>
+    <string name="fdn_errorcode_storage_info">فشل، وحدة التخزين مكتملة.</string>
+    <string name="fdn_errorcode_phb_info">فشل، قائمة الأسماء ليست جاهزة الآن، يُرجى المحاولة فيما بعد.</string>
+    <string name="fdn_errorcode_pin2_info">فشل، رقم تعريف شخصي2 غير صحيح.</string>
+    <string name="net_or_simcard_busy">الشبكة أو شريحة البطاقة مشغولة، يُرجى المحاولة فيما بعد.</string>
+    <string name="plmn_list_setting_title">التفضيلات</string>
+    <string name="network_id">ID للشبكة</string>
+    <string name="plmn_list_setting_add_plmn">إضافة PLMN جديد</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">جار البحث...</string>
+    <string name="sum_search_femtocell_networks">اختر Femtocell من يدويا</string>
+    <string name="register_femtocell_point_wait_tip">جار تسجيل <xliff:g id="femto_cell_info">%s</xliff:g> …</string>
+    <string name="register_femtocell_point_result_fail_tip">تعذر الاتصال بالشبكة الآن. أعد المحاولة لاحقًا.</string>
+    <string name="network_type">نوع الشبكة</string>
+    <string name="gsm_umts_network_preferences_title">"وضع الشبكة"</string>
+    <string name="gsm_umts_network_preferneces_summary">لم يتم التنفيذ بعد!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"وضع الشبكة"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>"2G/3G (وضع تلقائي)"</item>
+        <item>3G فقط</item>
+        <item>2G فقط</item>
+    </string-array>
+    <string name="notification_voicemail_text">حدد لعرض رسائل البريد الصوتي</string>
+    <string name="notification_network_selection_without_operator">الشبكة المحددة غير متاحة</string>
+    <string name="network_setting_all_forbidden_dialog">لا توجد شبكات متاحة.</string>
+    <string name="network_forbidden">تعطيل</string>
+    <string name="fdn_contact_number_invalid">رقم جهة الاتصال غير صالح.</string>
+    <string name="fdn_puk_need_tips">2PIN معطل. الرجاء تغيير PIN2 وإعادة المحاولة!</string>
+    <string name="fdn_phone_book_busy">قائمة الأسماء مشغولة الآن، يُرجى المحاولة فيما بعد.</string>
+    <string name="one_retry_left">عدد 1 محاولة متبقية</string>
+    <string name="retries_left">لديك <xliff:g id="number">%d</xliff:g> مرات متبقية للمحاولة</string>
+    <string name="pin_length_indicate">(4-8 رقم)</string>
+    <string name="puk_length_indicate">(8 أرقام)</string>
+    <string name="unblock_pin2">فك الإغلاق برقم التعريف الشخصي 2</string>
+    <string name="sim_permanently_locked">يؤدي إدخال رقم إقفال شخصي 2 غير صحيح لأكثر من 10 مرات، إلى إقفال شريحة البطاقة بصفة دائمة</string>
+    <string name="magi_conference_title">جماعية محسنة</string>
+    <string name="magi_conference_summary">تحسين جودة الصوت عند استخدام الهاتف من عدة أشخاص للتحدث من الطرف الآخر.</string>
+    <string name="volte_is_adding_participants">جار إضافة عضو للمكالمة الجماعية، يرجى الانتظار...</string>
+    <string name="volte_fail_to_invit_participants">تعذر إضافة جميع الأعضاء إلى المكالمة الجماعية.</string>
+    <string name="voicemail_lable">البريد الصوتي (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">لإتمام العملية, يتطلب فتح اتصال بيانات <xliff:g id="sub_name">%s</xliff:g>.</string>
+    <string name="cdma_labelCFU">"إعادة التوجيه دومًا"</string>
+    <string name="cdma_labelCFB">"إعادة التوجيه عندما يكون مشغول"</string>
+    <string name="cdma_labelCFNRy">"إعادة التوجيه عند عدم الرد"</string>
+    <string name="cdma_labelCFNRc">"إعادة التوجيه عندما لا يمكن الوصول"</string>
+    <string name="cdma_labelCFC">إلغاء إعادة توجيه كل المكالمات</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">تعطيل قيد التعرف على رقم المتصل</string> 
+    <string name="cdma_cnir_turnon">تمكين قيد التعرف على رقم المتصل</string>
+    <string name="lte_data_only_prompt">يتعذر استخدام هذه الميزة بسبب وضع بيانات 4G فقط، هل تود الخروج من وضع بيانات 4G فقط؟</string>
+    <string name="lte_data_only_timeout">لا توجد شبكة بيانات 4G فقط متاحة في موقعك الحالي، هل تود الخروج والبحث عن شبكات أخرى؟</string>
+    <string name="lte_only_dialog_button_yes">"نعم"</string>
+    <string name="lte_only_dialog_button_no">"لا"</string>
+    <string name="lte_only_dialog_title_prompt">طلب</string>
+    <string name="enable_4G_data">تمكين بيانات 4G</string>
+    <string name="enable_4G_data_summary">يمكنك 4G من الوصول إلى الإنترنت بصورة أفضل وأسرع</string>
+    <string name="only_use_LTE_data">استخدم بيانات LTE فقط</string>
+    <string name="only_use_LTE_data_summary">لتمكين استخدام بيانات مفردة فقط، لن تصبح الوظيفة قادرة على استخدام مكالمات هاتفية ورسائل نصية.</string>
+</resources>

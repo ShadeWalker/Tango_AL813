@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="applicationLabel">পরিচিতজন</string>
+    <string name="launcherActivityLabel">পরিচিতজন</string>
+    <string name="contactsList">পরিচিতজন</string>
+    <string name="shortcutContact">পরিচিতজন</string>
+    <string name="shortcutDialContact">সরাসরি ডায়াল</string>
+    <string name="shortcutMessageContact">সরাসরি বার্তা</string>
+    <string name="shortcutActivityTitle">একটি কনটাক্ট শর্টকাট বাছুন </string>
+    <string name="callShortcutActivityTitle">কল  করার জন্য একটি নম্বর বাছুন</string>
+    <string name="messageShortcutActivityTitle">বার্তা পাঠানোর জন্য একটি নম্বর বাছুন</string>
+    <string name="contactInsertOrEditActivityTitle">পরিচিতজনে যোগ করুন</string>
+    <string name="contactPickerActivityTitle">পরিচিতজন নির্বাচন করুন</string>
+    <string name="header_entry_contact_list_adapter_header_title">নতুন পরিচিতজন তৈরি করুন</string>
+    <string name="starredList">স্টার্ড</string>
+    <string name="frequentList">ঘনঘন</string>
+    <string name="strequentList">প্রিয়</string>
+    <string name="viewContactTitle">পরিচিতজনের বিস্তারিত তথ্য</string>
+    <string name="editContactDescription">পরিচিতজন সম্পাদনা করুন</string>
+    <string name="insertContactDescription">যোগাযোগের ব্যক্তি তৈরি করুন</string>
+    <string name="editGroupDescription">দল সম্পাদনা করুন</string>
+    <string name="insertGroupDescription">গ্রুপ তৈরি করুন</string>
+    <string name="contactDetailAbout">সম্পর্কে</string>
+    <string name="contactDetailUpdates">আপডেট</string>
+    <string name="searchHint">পরিচিতজন অনুসন্ধান করুন</string>
+    <string name="menu_viewContact">পরিচিতজন দেখুন</string>
+    <string name="menu_addStar">প্রিয়-তে যোগ করুন</string>
+    <string name="menu_removeStar"> প্রিয় তালিকা থেকে মুছে ফেলুন</string>
+    <string name="description_action_menu_remove_star">প্রিয় তালিকা থেকে সরানো হয়েছে</string>
+    <string name="description_action_menu_add_star">প্রিয় তালিকায় যোগ করা হয়েছে</string>
+    <string name="menu_editContact">সম্পাদনা করুন</string>
+    <string name="menu_deleteContact">"মুছুন"</string>
+    <string name="menu_create_contact_shortcut">হোমস্ক্রিনে আনুন</string>
+    <string name="menu_call">পরিচিতজনকে কল করুন</string>
+    <string name="menu_sendSMS">পরিচিতজনকে বার্তা পাঠান</string>
+    <string name="menu_splitAggregate">পৃথক</string>
+    <string name="menu_editGroup">সম্পাদনা করুন</string>
+    <string name="menu_deleteGroup">"মুছুন"</string>
+    <string name="menu_new_contact_action_bar">পরিচিতজন যোগ করুন</string>
+    <string name="menu_new_group_action_bar">নতুন</string>
+    <string name="splitConfirmation_title">পৃথক পরিচিতজন</string>
+    <string name="splitConfirmation">  আপনি কি নিশ্চিত আপনি এই একক পরিচিতজনকে বহু পরিচিতজনে বিভক্ত করতে চান: প্রত্যেক সেট যোগাযোগ তথ্যের জন্য একটি যা এর যাথে যুক্ত ছিল?</string>
+    <string name="menu_joinAggregate">যুক্ত করুন</string>
+    <string name="titleJoinContactDataWith">পরিচিতজনদের যুক্ত করুন</string>
+    <string name="blurbJoinContactDataWith">আপনি যে পরিচিতজনের সাথে যুক্ত হতে চান তা নির্বাচন করুন <xliff:g id="name">%s</xliff:g>।</string>
+    <string name="showAllContactsJoinItem">সব পরিচিতজন দেখান</string>
+    <string name="separatorJoinAggregateSuggestions">সাজেস্ট করা কনটাক্ট</string>
+    <string name="separatorJoinAggregateAll">সব পরিচিতজন</string>
+    <string name="contactsJoinedMessage">পরিচিতজনেরা যুক্ত হয়েছেন</string>
+    <string name="menu_set_ring_tone">রিংটোন সেট করুন</string>
+    <string name="menu_redirect_calls_to_vm">সব কল ভয়েসমেইলে</string>
+    <string name="readOnlyContactWarning">কেবল-পাঠযোগ্য একাউন্ট থেকে আপনি পরিচিতজন মুছে ফেলতে পারবেন না, তবে আপনি আপনার পরিচিতজনের তালিকায় সেগুলোকে লুকাতে রাখতে পারবেন।</string>
+    <string name="readOnlyContactDeleteConfirmation">এই পরিচিতজনে একাধিক একাউন্ট থেকে তথ্য রয়েছে। আপনার পরিচিতজনের তালিকায় কেবল- পাঠযোগ্য একাউন্টের তথ্য লুকিয়ে রাখা হবে, তা মুছে ফেলা হবে না।</string>
+    <string name="multipleContactDeleteConfirmation">এই পরিচিতজন মুছে ফেললে একাধিক একাউন্ট থেকে তথ্য মুছে যাবে।</string>
+    <string name="deleteConfirmation">এই পরিচিতজন মুছে ফেলা হবে।</string>
+    <string name="menu_discard">বাতিল করুন</string>
+    <string name="invalidContactMessage">পরিচিতজন নেই</string>
+    <string name="createContactShortcutSuccessful">হোমস্ক্রিনে উইজেড পরিচিতজন যুক্ত করা হয়েছে।</string>
+    <string name="pickerNewContactHeader">নতুন পরিচিতজন তৈরি করুন</string>
+    <string name="pickerNewContactText">নতুন পরিচিতজন তৈরি করুন</string>
+    <skip/>
+    <string-array name="otherLabels">
+        <item>সংস্থা</item>
+        <item>নোট</item>
+    </string-array>
+    <string name="photoPickerNotFoundText" product="tablet">ট্যাবলেটে কোন ছবি পাওয়া যাচ্ছে না ।</string>
+    <string name="photoPickerNotFoundText" product="default">ফোনে কোন ছবি পাওয়া যাচ্ছে না ।</string>
+    <string name="attach_photo_dialog_title">পরিচিতজনের ছবি</string>
+    <string name="customLabelPickerTitle">নামের লেবেল কাস্টম করুন</string>
+    <string name="send_to_voicemail_checkbox">সরাসরি ভয়েসমেইলে কল পাঠান</string>
+    <string name="removePhoto">ছবি সরিয়ে ফেলুন</string>
+    <string name="noContacts">কোনো দৃশ্যমান পরিচিতজন নেই</string>
+    <string name="noGroups">কোন গ্রুপ নেই।</string>
+    <string name="noAccounts">গ্রুপ তৈরির জন্য আপনার একটি একাউন্ট প্রয়োজন</string>
+    <string name="emptyGroup">এই গ্রুপে কোন লোক নেই।</string>
+    <string name="addPeopleToGroup">কিছু লোক যোগ করতে গ্রুপটি সম্পাদনা করুন।</string>
+    <string name="savingContact">পরিচিতজন সংরক্ষণ করছে\u2026</string>
+    <string name="contactSavedToast">পরিচিতজন সংরক্ষণ হয়েছে</string>
+    <string name="contactSavedErrorToast">ত্রুটি, পরিচিতজনের পরিবর্তন সংরক্ষণ করতে অক্ষম</string>
+    <string name="groupSavedToast">গ্রুপ সংরক্ষিত হয়েছে।</string>
+    <string name="groupSavedErrorToast">গ্রুপের পরিবর্তনগুলো সংরক্ষণ করতে পারিনি।</string>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="one">ফোন নম্বরসহ ১জন পরিচিতজন দেখাচ্ছে</item>
+        <item quantity="other">দেখাচ্ছে <xliff:g id="count">%d</xliff:g> ফোন নম্বরসহ পরিচিতজন </item>
+    </plurals>
+    <string name="listTotalPhoneContactsZero">ফোন নম্বরসহ কোনো দেৃশ্যমান পরিচিতজন নেই</string>
+    <plurals name="listFoundAllContacts">
+        <item quantity="one">১টি পরিচিতজন </item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> পরিচিতজন</item>
+    </plurals>
+    <string name="listFoundAllContactsZero">পুরিচিতজন পাওয়া যায়নি</string>
+    <plurals name="searchFoundContacts">
+        <item quantity="one">১টি পরিচিতজন </item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> পরিচিতজন</item>
+    </plurals>
+    <string name="all_contacts_tab_label">সব পরিচিতজন</string>
+    <string name="favorites_tab_label">প্রিয়</string>
+    <string name="callBack">কলব্যাক</string>
+    <string name="callAgain">আবার কল করুন</string>
+    <string name="returnCall">ফিরতি কল</string>
+    <string name="add_contact_dlg_message_fmt">পরিচিতজনের সাথে \"<xliff:g id="email">%s</xliff:g>\"- যোগ করবেন?</string>
+    <string name="description_contact_photo">পরিচিতজনের ছবি</string>
+    <string name="description_plus_button">যোগ</string>
+    <string name="exporting_contact_list_progress"><xliff:g id="current_number">%1$s</xliff:g> of <xliff:g id="total_number">%2$s</xliff:g>পরিচিতজন</string>
+    <string name="search_settings_description">আপনার পরিচিতজনদের নাম</string>
+    <string name="quickcontact_missing_app">এই পদক্ষেপটি সামলানোর জন্য কোন অ্যাপ্লিকেশন নেই</string>
+    <string name="quickcontact_transparent_view_description">পূর্ববর্তী স্ক্রিনে ফেরত যেতে ক্লিক করুন</string>
+    <string name="quickcontact_add_phone_number">ফোন নম্বর যোগ করুন</string>
+    <string name="quickcontact_add_email">ইমেইল যোগ করুন</string>
+    <string name="missing_app">এই পদক্ষেপটি সামলানোর জন্য কোন অ্যাপ্লিকেশন নেই</string>
+    <string name="menu_share">শেয়ার করুন</string>
+    <string name="menu_add_contact">পরিচিতিজনে যোগ করুন</string>
+    <string name="share_via">পরিচিতজন শেয়ার করুন</string>
+    <string name="dialog_new_group_account">অ্যাকাউন্টের অধীনে গ্রুপ তৈরী করুন</string>
+    <string name="audio_chat">ভয়েস চ্যাট</string>
+    <string name="video_chat">ভিডিও চ্যাট</string>
+    <string name="connections">সংযোগ</string>
+    <string name="add_connection_button">সংযোগ যোগ করুন</string>
+    <string name="recent" msgid="2062236709538790412">সাম্প্রতিক</string>
+    <string name="recent_updates" msgid="2018245636796411442">সাম্প্রতিক আপডেট</string>
+    <string name="account_type_format"><xliff:g id="source" example="Gmail">%1$s</xliff:g> যোগাযোগ করুন</string>
+    <string name="contact_read_only"><xliff:g id="source" example="Gmail">%1$s</xliff:g> এই ডিভাইসে যোগাযোগের তথ্য সম্পাদনার যোগ্য নয়।</string>
+    <string name="group_read_only">এই ডিভাইসে সম্পাদনার যোগ্য নয়।</string>
+    <string name="take_photo">ছবি তুলুন</string>
+    <string name="take_new_photo">নতুন ছবি তুলুন</string>
+    <string name="pick_photo">গ্যালারি থেকে ছবি বাছাই করুন</string>
+    <string name="pick_new_photo">নতুন ছবি নির্বাচন করুন</string>
+    <string name="locale_change_in_progress">ভাষার পরিবর্তনের প্রতিফলন ঘটানোর জন্য পরিচিতজনের তালিকা আপডেট করা হয়েছে।\n\n অপেক্ষা করুন...</string>
+    <string name="upgrade_in_progress">পরিচিতজনের তালিকা আপডেট করা হয়েছে। \n\nঅপেক্ষা করুন...</string>
+    <string name="upgrade_out_of_memory">পরিচিতজনদের নম্বর আপগ্রেড হওয়ার প্রক্রিয়ার মধ্যে রয়েছে। \n\n আপগ্রেড প্রক্রিয়ার প্রায় <xliff:g id="size_in_megabytes">%d</xliff:g>এমবি অভ্যন্তরীণ ফোন স্টোরেজ আবশ্যক। \n\n নিম্নলিখিত যেকোন একটি বিকল্প বাছাই করুন:</string>
+    <string name="upgrade_out_of_memory_uninstall">কিছু অ্যাপ্লিকেশন আনইন্সটল করুন</string>
+    <string name="upgrade_out_of_memory_retry">পুনরায় আপগ্রেড করার চেষ্টা করুন</string>
+    <string name="search_results_searching">ওয়াই-ফাই নেটওয়ার্কের জন্য অনুসন্ধান চলছে\u2026</string>
+    <string name="menu_display_selected">"নির্বাচিতগুলো দেখান"</string>
+    <string name="menu_display_all">সব এএনআর দেখান</string>
+    <string name="menu_select_all">সব নির্বাচন করুন</string>
+    <string name="menu_select_none">সব নির্বাচনমুক্ত করুন</string>
+    <string name="add_new_entry_for_section">নতুন যোগ করুন</string>
+    <string name="add_organization">সংস্থা যোগ করুন</string>
+    <string name="event_edit_field_hint_text">তারিখ</string>
+    <string name="group_edit_field_hint_text">দলের নাম</string>
+    <string name="change_photo">পরিবর্তন করুন</string>
+    <string name="primary_photo">প্রাথমিক ছবি</string>
+    <string name="description_star">প্রিয়</string>
+    <string name="edit_contact">পরিচিতজন সম্পাদনা করুন</string>
+    <plurals name="merge_info">
+        <item quantity="one">একত্রিত করা হয়নি</item>
+        <item quantity="other">উত্থিত হয়েছে   <xliff:g id="count">%0$d</xliff:g> রিসোর্স থেকে </item>
+    </plurals>
+    <string name="aggregation_suggestion_join_dialog_message">নির্বাচিত পরিচিতজনের সাথে বর্তমান পরিচিতজন যুক্ত করবেন?</string>
+    <string name="aggregation_suggestion_edit_dialog_message">নির্বাচিত পরিচিতজন সম্পাদনায় সুইচ করবেন? আপনি এ পর্যন্ত যা তথ্য প্রবেশ করিয়েছেন তা কপি করা হবে।</string>
+    <string name="menu_copyContact">আমার পরিচিতজনে কপি করুন</string>
+    <string name="add_to_my_contacts">আমার পরিচিতজনে যোগ করুন</string>
+    <string name="contact_directory_description">ডিরেক্টরি  <xliff:g id="type" example="CorporateDirectory">%1$s</xliff:g></string>
+    <string name="list_filter_custom">কাস্টম</string>
+    <string name="activity_title_settings">সেটিং</string>
+    <string name="menu_settings" msgid="377929915873428211">সেটিং</string>
+    <string name="menu_help">সাহায্য</string>
+    <string name="preference_displayOptions">প্রদর্শনের অপশন</string>
+    <string name="organization_company_and_title"><xliff:g id="company" example="TechnicalProgramManager">%2$s</xliff:g>,  <xliff:g id="company" example="GoogleInc.">%1$s</xliff:g></string>
+    <string name="non_phone_caption">ফোন নম্বর</string>
+    <string name="non_phone_add_to_contacts">পরিচিতিজনে যোগ করুন</string>
+    <string name="activity_title_confirm_add_detail">পরিচিতজনে যোগ করুন</string>
+    <string name="non_phone_close">বন্ধ করুন</string>
+    <string name="widget_name_and_phonetic"><xliff:g id="display_name" example="JohnHuber">%1$s</xliff:g> (  <xliff:g id="phonetic_name">%2$s</xliff:g>) </string>
+    <string name="date_year_toggle">বছর দিন</string>
+    <string name="social_widget_label">পরিচিতজন</string>
+    <string name="social_widget_loading">লোড হচ্ছে\u2026</string>
+    <string name="contacts_unavailable_create_contact">নতুন পরিচিতজন তৈরি করুন</string>
+    <string name="contacts_unavailable_add_account">একাউন্টে সাইনইন করুন</string>
+    <string name="contacts_unavailable_import_contacts">ফাইল থেকে পরিচিতজন আমদানি করুন</string>
+    <string name="create_group_dialog_title">[নতুন গ্রুপ তৈরি করুন]</string>
+    <string name="create_group_item_label">[নতুন গ্রুপ তৈরি করুন]</string>
+    <plurals name="num_groups_in_account">
+        <item quantity="one">১ গ্রুপ</item>
+        <item quantity="other"><xliff:g id="count">%0$d</xliff:g> গ্রুপ </item>
+    </plurals>
+    <string name="delete_group_dialog_message">\"  <xliff:g id="group_label" example="Friends">%1$s</xliff:g>\" গ্রুপ মুছে ফেলবেন? (মূল পরিচিতজন মুছে যাবে না।) </string>
+    <plurals name="num_contacts_in_group">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> ব্যক্তি থেকে   <xliff:g id="account_type">%2$s</xliff:g></item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> জনগণ থেকে   <xliff:g id="account_type">%2$s</xliff:g></item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> ব্যক্তি </item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> জনগণ </item>
+    </plurals>
+    <string name="toast_join_with_empty_contact">আরেকটির সাথে যুক্ত করার পূর্বে পরিচিতজনের নাম টাইপ করুন।</string>
+    <string name="copy_text">ক্লিপবোর্ডে কপি করুন</string>
+    <string name="set_default">ডিফল্ট সেট করুন</string>
+    <string name="clear_default">ডিফল্ট মুছে ফেলুন</string>
+    <string name="toast_text_copied">টেক্সট কপি করা হয়েছে</string>
+    <string name="cancel_confirmation_dialog_message">আপনার পরিবর্তন বাতিল করবেন?</string>
+    <string name="call_type_and_date"><xliff:g id="call_type" example="Friends">%1$s</xliff:g><xliff:g id="call_short_date" example="Friends">%2$s</xliff:g></string>
+    <string name="profile_display_name">আমার প্রোফাইল সেট আপ করুন</string>
+    <string name="enter_contact_name">ব্যক্তির নাম টাইপ করুন</string>
+    <string name="group_name_hint">গ্রুপের নাম</string>
+    <string name="local_profile_title">মাই লোকাল প্রোফাইল</string>
+    <string name="external_profile_title">আমার  <xliff:g id="external_source">%1$s</xliff:g> প্রোফাইল </string>
+    <string name="toast_displaying_all_contacts">সব পরিচিতজন প্রদর্শন করা হচ্ছে</string>
+    <string name="no_account_prompt">গুগল একাউন্টের সাথে ব্যক্তিরা ভালো কাজ করে।\n\n\u2022 ওয়েব ব্রাউজারের থেকে প্রবেশ করুন।\n\u2022 নিরাপদে আপনার পরিচিতজনের ব্যাকআপ নিন।</string>
+    <string name="generic_no_account_prompt">আপনার পরিচিতজন নিরাপদে রাখুন এমনকি আপনি ফোন হারিয়ে ফেললেও: অনলাইন সার্ভিসের সাথে সিঙ্ক করুন।</string>
+    <string name="generic_no_account_prompt_title">একাউন্ট যোগ করুন</string>
+    <string name="contact_editor_prompt_zero_accounts">আপনার নতুন পরিচিতজনের ব্যাকআপ থাকবে না। একটি একাউন্ট যোগ করুন যা অনলাইনে ব্যাকআপ রাখে?</string>
+    <string name="contact_editor_prompt_one_account">আপনার নতুন পরিচিতজন  <xliff:g id="account_name">%1$s</xliff:g>-এর সাথে সিঙ্ক হবে। </string>
+    <string name="contact_editor_prompt_multiple_accounts">নিম্নোক্ত একাউন্টগুলোর একটির সাথে আপনার নতুন পরিচিতজন সিঙ্ক করতে পারেন। কোনটা আপনি ব্যবহার করতে চান?</string>
+    <string name="contact_editor_title_new_contact">নতুন পরিচিতজন যোগ করুন</string>
+    <string name="contact_editor_title_existing_contact">পরিচিতজন সম্পাদনা করুন</string>
+    <string name="keep_local">স্থানীয় রাখুন</string>
+    <string name="add_account">একাউন্ট যোগ করুন</string>
+    <string name="add_new_account">নতুন একাউন্ট যোগ করুন</string>
+    <string name="menu_export_database">ডাটাবেইজ ফাইল রপ্তানি করুন</string>
+    <string name="action_menu_add_new_contact_button">নতুন পরিচিতজন যোগ করুন</string>
+    <string name="expanding_entry_card_view_see_more">বেশি দেখুন</string>
+    <string name="expanding_entry_card_view_see_less">কম দেখুন</string>
+    <string name="expanding_entry_card_view_see_all">সব দেখুন</string>
+    <string name="recent_card_title">সাম্প্রতিক</string>
+    <string name="about_card_title">সম্পর্কে</string>
+    <string name="send_message">বার্তা পাঠান</string>
+    <string name="toast_making_personal_copy">একটি ব্যক্তিগত কপি তৈরি করা হচ্ছে\u2026</string>
+    <string name="yesterday">গতবার</string>
+    <string name="tomorrow">আগামীকাল</string>
+    <string name="today">আজ</string>
+    <string name="today_at_time_fmt">"আজ  <xliff:g id="time_interval">%s</xliff:g>" </string>
+    <string name="tomorrow_at_time_fmt">"আগামীকাল  <xliff:g id="time_interval">%s</xliff:g>" </string>
+    <string name="date_time_fmt">"  <xliff:g id="date">%s</xliff:g>,  <xliff:g id="time_interval">%s</xliff:g>" </string>
+    <string name="untitled_event">(শিরোনামহীন ঘটনা)</string>
+    <string name="date_time_set">সেট করুন</string>
+    <string name="header_im_entry">আইএম</string>
+    <string name="header_organization_entry">সংস্থা</string>
+    <string name="header_nickname_entry">ডাক নাম</string>
+    <string name="header_note_entry">নোট</string>
+    <string name="header_website_entry">ওয়েবসাইট</string>
+    <string name="header_event_entry">ঘটনা</string>
+    <string name="header_relation_entry">সম্পর্ক</string>
+    <string name="header_account_entry">একাউন্ট</string>
+    <string name="header_name_entry">নাম</string>
+    <string name="header_email_entry">ইমেইল</string>
+    <string name="header_phone_entry">ফোন</string>
+    <string name="header_photo_entry">ছবি</string>
+    <string name="content_description_expand_editor">পরিচিতজনের এডিটর সম্প্রসারণ করতে ক্লিক করুন।</string>
+    <string name="content_description_collapse_editor">পরিচিতজনের এডিটর সংকুচিত করতে ক্লিক করুন।</string>
+    <string name="content_description_directions">লোকেশনের দিকে নির্দেশনা</string>
+    <string name="content_description_recent_sms">সাম্প্রতিক এসএমএস। <xliff:g id="message_details">%s</xliff:g> । জবাব দিতে ক্লিক করুন</string>
+    <string name="content_description_recent_call_type_incoming">ইনকামিং</string>
+    <string name="content_description_recent_call_type_outgoing">আউটগোয়িং</string>
+    <string name="content_description_recent_call_type_missed">মিস হয়েছে</string>
+    <string name="content_description_recent_call">কেবল-পাঠযোগ্য একাউন্ট থেকে আপনি পরিচিতজন মুছে ফেলতে পারবেন না, তবে আপনি আপনার পরিচিতজনের তালিকায় সেগুলোকে লুকাতে রাখতে পারবেন।</string>
+    <string name="message_from_you_prefix">আপনি: <xliff:g id="sms_body">%s</xliff:g></string>
+    <string name="contact_editor_hangouts_im_alert">হ্যাংআউট ভালো কাজ করে যখন আপনি ব্যক্তির হ্যাংআউট সনাক্তকারী ইমেইল ফিল্ডে বা ফোন ফিল্ডে প্রবেশ করান।</string>
+    <string name="stared_contacts">পছন্দসই</string>
+   <string name="emergency_only">জরুরি শুধুমাত্র কল</string>
+    <string name="flight_mode_turned_on">ফ্লাইট মোড চালু করা হয়</string>
+     <string name="discard_change_contacts">অগ্রাহ্য করা</string>
+     <string name="save_change_contacts">সংরক্ষণ</string>
+     <string name="dial_tab_label">ডায়ালার</string>
+     <string name="mms_tab_label">মেসেজিং</string>
+<string name="menu_copyContactsToCard1">কার্ড 1-এ পরিচিতি প্রতিলিপি করুন</string>
+<string name="menu_copyContactsToCard2">কার্ড 2-এ পরিচিতি প্রতিলিপি করুন</string>
+<string name="menu_copyContactsToPhone">ফোনে পরিচিতিসমূহ প্রতিলিপি করুন</string>
+    <string name="dial_delete">মুছুন</string>
+    <string name="cancel">বাতিল করুন</string>
+    <string name="ok">ঠিক আছে</string>
+    <string name="slot_1">কার্ড 1</string>
+    <string name="slot_2">কার্ড 2</string>
+    <string name="cf_card_title">কার্ড\u0020</string>
+    <string name="phone_local">ফোন</string>
+    <string name="contacts_setting_Advanced">অগ্রণী</string>
+    <string name="merge_duplicate_contacts">সদৃশ পরিচিতিগুলি মার্জ করুন</string>
+    <string name="set_up_my_profile">আমার প্রোফাইল সেট আপ করুন</string>
+    <string name="mem_status">মেমোরির স্থিতি</string>
+    <string name="howManyContacts"> (পরিচিতিগুলির সংখ্যা)</string>
+    <string name="join_same_name">পরিচিতিগুলি মার্জ করুন</string>
+    <string name="same_name_join_hint"><li>একই নামে পরিচিতিগুলি মার্জ করতে শুরু করুন স্পর্শ করুন।</li>\n<li>মার্জিং করা বন্ধ করতে বাতিল করুন স্পর্শ করুন।</li>\n<li>এই প্রক্রিয়াটি কিছু সময় নেবে।</li></string>
+    <string name="join_action_start">আরম্ভ</string>
+    <string name="join_title_total">সমষ্টি</string>
+    <string name="join_title_single">বর্তমান</string>
+    <string name="join_status_unstarted">প্রস্তুত</string>
+    <string name="join_status_waiting">প্রতীক্ষারত…</string>
+    <string name="join_status_checking">পরীক্ষা করা হচ্ছে… অনুগ্রহ করে অপেক্ষা করুন</string>
+    <string name="join_status_join_start">মার্জ করা হচ্ছে…</string>
+    <string name="join_status_join_progress">গোষ্ঠীগুলি মার্জ করা হয়েছে: %1$s।\n মোট গোষ্ঠী: %2$s </string>
+    <string name="join_status_joining">মার্জ করা হচ্ছে\n</string>
+    <string name="join_status_single_joining">মার্জ করা হচ্ছে: %1$s\n একই নামে সর্বমোট: %2$s</string>
+    <string name="join_status_canceled">বাতিল হয়েছে</string>
+    <string name="join_cancel_confirm_msg">মার্জিং থামান?</string>
+    <string name="menu_done">সম্পন্ন</string>
+    <string-array name="phone_contact_menu">
+        <item>কল</item>
+        <item>বার্তা পাঠান</item>
+        <item>ইমেল পাঠান</item>
+        <item>সম্পাদনা</item>
+        <item>মোছা</item>
+        <item>শেয়ার</item>
+        <item>পছন্দসইগুলিতে যোগ করুন</item>
+        <item>অবরুদ্ধ তালিকাটিতে যোগ করুন</item>
+        <item>হোম স্ক্রিনে স্থাপন করুন</item>
+    </string-array>
+    <string-array name="sim_contact_menu">
+        <item>কল</item>
+        <item>বার্তা পাঠান</item>
+        <item>সম্পাদনা</item>
+        <item>মোছা</item>
+        <item>শেয়ার</item>
+        <item>অবরুদ্ধ তালিকাটিতে যোগ করুন</item>
+        <item>হোম স্ক্রিনে স্থাপন করুন</item>
+    </string-array>
+    <string name="add_to_black_list">অবরুদ্ধ তালিকাটিতে যোগ হয়েছে</string>
+    <string name="remove_from_black_list">অবরুদ্ধ তালিকা থেকে অপসারিত</string>
+    <string name="menu_add_to_black_list">অবরুদ্ধ তালিকাটিতে যোগ করুন</string>
+    <string name="menu_remove_from_black_list">অবরুদ্ধ তালিকা থেকে অপসারণ করুন</string>
+    <string name="menu_delete_call_log">কল লগ এন্ট্রি মুছুন</string>
+    <string name="hq_sim_slot_position_1">কার্ড 1</string>
+    <string name="hq_sim_slot_position_2">কার্ড 2</string>
+   <string name="delete_group_dialog_title">গোষ্ঠী মুছুন</string>
+   <string name="menu_actionbar_not_selected_items">নির্বাচিত নেই</string>
+    <string name="dial_keypad">ডায়াল</string>
+    <string name="dial_menu">মেনু</string>
+    <string name="no_contact_to_display">কোনো সদৃশ পরিচিতি নেই</string>
+    <string name="menu_send_number">নম্বর প্রেরণ করুন</string>
+    <string name="send_sms">বার্তা পাঠান</string>
+    <string name="switch_dual_card_slots_summary_emui">এই স্লট আরো ব্যান্ড সমর্থন করে এবং ভাল সংকেত সমাদর আছে</string>
+    <string name="switch_dual_card_slots_with_data">4G / 3G এবং ডিফল্ট মোবাইল ডেটা স্লট</string>
+    <string name="default_call">ডিফল্ট কলিং</string>
+    <string name="default_call_message_summary">তৃতীয় পক্ষের অ্যাপ্লিকেশনের জন্য ডিফল্ট SIM কলিং নির্বাচন করুন</string>
+    <string name="default_message">ডিফল্ট মেসেজিং</string>
+    <string name="default_sms_message_summary">তৃতীয় পক্ষের অ্যাপ্লিকেশনের জন্য ডিফল্ট SIM মেসেজিং নির্বাচন করুন</string>
+    <string name="empty_app">"খালি"</string>
+    <string name="contact_editor_account_selection_title">একাউন্ট নির্বাচন করুন</string>
+<string name="menu_copyContactsToSIM">সিম কার্ডে বার্তা সংরক্ষণ করুন</string>
+</resources>

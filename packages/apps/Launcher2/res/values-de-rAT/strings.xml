@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <skip/>
+    
+    <string name="application_name">Launcher</string>
+    
+    <string name="home">Startseite</string>
+    
+    <string name="uid_name">Android-Kernapplikationen</string>
+    
+    <string name="folder_name"/>
+    
+    <string name="chooser_wallpaper">Hintergrundbild wählen aus</string>
+    
+    <string name="wallpaper_instructions">Hintergrundbild einstellen</string>
+    
+    <string name="pick_wallpaper">Hintergrundbilder</string>
+    
+    <string name="activity_not_found">App ist nicht installiert.</string>
+    
+    <string name="widgets_tab_label">Widgets</string>
+
+    
+    
+    <string name="long_press_widget_to_add">Zur Auswahl eines Widgets berühren und halten.</string>
+    
+    <string name="market">Shop</string>
+    
+    
+    <string name="widget_dims_format">%1$d \u00d7 %2$d</string>
+
+    
+    
+    
+    <string name="external_drop_widget_error">Element konnte nicht auf dieser Startseite abgelegt werden.</string>
+    
+    <string name="external_drop_widget_pick_title">Widget zur Erstellung auswählen</string>
+
+    
+    <skip/>
+    
+    <string name="rename_folder_label">Ordnername</string>
+    
+    <string name="rename_folder_title">Ordner umbenennen</string>
+    
+    <string name="rename_action">OK</string>
+    
+    <string name="cancel_action">Abbrechen</string>
+
+    
+    <skip/>
+    
+    <string name="menu_item_add_item">Zum Startbildschirm zufügen</string>
+    
+    <string name="group_applications">Apps</string>
+    
+    <string name="group_shortcuts">Verknüpfungen</string>
+    
+    <string name="group_widgets">Widgets</string>
+    
+    <string name="group_wallpapers">Hintergrundbilder</string>
+    
+    <string name="completely_out_of_space">Kein Platz in Ihren Startbildschirmen.</string>
+    
+    <string name="out_of_space">Kein Platz in diesem Startbildschirm.</string>
+    
+    <string name="hotseat_out_of_space">Platz im Hotseat belegt.</string>
+    
+    <string name="invalid_hotseat_item">Dieses Widget ist zu groß für den Hotseat.</string>
+    
+    <string name="shortcut_installed">Verknüpfung \"<xliff:g id="name" example="Browser">%s</xliff:g>\" erstellt.</string>
+    
+    <string name="shortcut_uninstalled">Verknüpfung \"<xliff:g id="name" example="Browser">%s</xliff:g>\" wurde entfernt.</string>
+    
+    <string name="shortcut_duplicate">Verknüpfung \"<xliff:g id="name" example="Browser">%s</xliff:g>\" bereits vorhanden.</string>
+
+    
+    <string name="title_select_shortcut">Verknüpfung wählen</string>
+    
+    <string name="title_select_application">App wählen</string>
+
+    
+    <string name="all_apps_button_label">Apps</string>
+    
+    <string name="all_apps_home_button_label">Startseite</string>
+    
+    <string name="delete_zone_label_workspace">Entfernen</string>
+    
+    <string name="delete_zone_label_all_apps">Deinstallieren</string>
+
+    
+    <string name="delete_target_label">Entfernen</string>
+    
+    <string name="delete_target_uninstall_label">Deinstallieren</string>
+    
+    <string name="info_target_label">App-Info</string>
+
+    
+    <string name="accessibility_search_button">Suche</string>
+    
+    <string name="accessibility_voice_search_button">Sprachsuche</string>
+    
+    <string name="accessibility_all_apps_button">Apps</string>
+    
+    <string name="accessibility_delete_button">Entfernen</string>
+
+    
+    <string name="delete_zone_label_all_apps_system_app">Aktualisierung deinstallieren</string>
+
+    
+    <skip/>
+    
+    <string name="menu_add">Zufügen</string>
+    
+    <string name="menu_manage_apps">Apps verwalten</string>
+    
+    <string name="menu_wallpaper">Hintergrundbild</string>
+    
+    <string name="menu_search">Suche</string>
+    
+    <string name="menu_notifications">Benachrichtigungen</string>
+    
+    <string name="menu_settings">Systemeinstellungen</string>
+    
+    <string name="menu_help">Hilfe</string>
+
+    
+    
+
+    
+    <skip/>
+    
+    <string name="cab_menu_delete_app">App deinstallieren</string>
+    
+    <string name="cab_menu_app_info">App-Details</string>
+    
+    <string name="cab_app_selection_text">1 App ausgewählt</string>
+    
+    <string name="cab_widget_selection_text">1 Widget ausgewählt</string>
+    
+    <string name="cab_folder_selection_text">1 Ordner ausgewählt</string>
+    
+    <string name="cab_shortcut_selection_text">1 Verknüpfung ausgewählt</string>
+
+    
+    <skip/>
+    
+    <string name="permlab_install_shortcut">Verknüpfungen installieren</string>
+    
+    <string name="permdesc_install_shortcut">Ermöglicht einer App, Verknüpfungen ohne Benutzereingriff zuzufügen.</string>
+    
+    <string name="permlab_uninstall_shortcut">Verknüpfungen deinstallieren</string>
+    
+    <string name="permdesc_uninstall_shortcut">Ermöglicht einer App, Verknüpfungen ohne Benutzereingriff zu entfernen.</string>
+    
+    <string name="permlab_read_settings">Startseiteneinstellungen und Verknüpfungen lesen</string>
+    
+    <string name="permdesc_read_settings">Ermöglicht der App, Startbildschirmeinstellungen und -verknüpfungen zu lesen.</string>
+    
+    <string name="permlab_write_settings">Startseiteneinstellungen und Verknüpfungen schreiben</string>
+    
+    <string name="permdesc_write_settings">Ermöglicht der App, Startbildschirmeinstellungen und -verknüpfungen zu ändern.</string>
+
+    
+    <skip/>
+
+    
+    <string name="gadget_error_text">Problem beim Laden des Widgets</string>
+
+    
+    <string name="uninstall_system_app_text">Dies ist eine Systemapplikation, die nicht deinstalliert werden kann.</string>
+
+    
+    <string name="dream_name">Raketenwerfer</string>
+
+    
+    <string name="folder_hint_text">Unbenannter Ordner</string>
+
+    
+    <skip/>
+
+    
+    <string name="workspace_description_format">Startbildschirm %1$d</string>
+
+    
+    <string name="default_scroll_format">Seite %1$d von %2$d</string>
+    
+    <string name="workspace_scroll_format">Startbildschirm %1$d von %2$d</string>
+    
+    <string name="apps_customize_apps_scroll_format">Apps-Seite %1$d von %2$d</string>
+    
+    <string name="apps_customize_widgets_scroll_format">Widgets-Seite %1$d von %2$d</string>
+
+    
+    
+    <string name="workspace_cling_title">Machen Sie es sich bequem</string>
+    
+    <string name="workspace_cling_move_item">Hier können Sie Ihre Lieblings-Apps ablegen.</string>
+    
+    <string name="workspace_cling_open_all_apps">Tippen Sie zum Anzeigen all Ihrer Apps auf den Kreis.</string>
+    
+    <string name="all_apps_cling_title">Wählen Sie ein paar Apps</string>
+    
+    <string name="all_apps_cling_add_item">Zum Zufügen zum Startbildschirm halten Sie eine App angetippt.</string>
+    
+    <string name="folder_cling_title">Organisieren Sie Ihre Apps mit Ordnern</string>
+    
+    <string name="folder_cling_move_item">Zum Verschieben halten Sie eine App angetippt.</string>
+    
+    <string name="folder_cling_create_folder">Um einen neuen Ordner auf der Startseite anzulegen, ziehen Sie eine App auf eine andere.</string>
+    
+    <string name="cling_dismiss">OK</string>
+    
+    <string name="dummy_custom_cling_error_message">Error: custom workspace layout passed in but custom cling was not overwritten</string>
+    <add-resource type="string" name="default_folder_name"/>
+
+    
+    
+    <string name="folder_opened">Ordner geöffnet, <xliff:g id="width" example="5">%1$d</xliff:g> x <xliff:g id="height" example="3">%2$d</xliff:g></string>
+    
+    <string name="folder_tap_to_close">Zum Schließen des Ordners antippen</string>
+    
+    <string name="folder_tap_to_rename">Zum Speichern des neuen Namens berühren</string>
+    
+    <string name="folder_closed">Ordner geschlossen</string>
+    
+    <string name="folder_renamed">Ordner in <xliff:g id="name" example="Games">%1$s</xliff:g> umbenannt</string>
+    
+    <string name="folder_name_format">Ordner: <xliff:g id="name" example="Games">%1$s</xliff:g></string>
+
+    
+
+    
+    
+    <string name="custom_workspace_cling_title_1"/>
+    
+    <string name="custom_workspace_cling_description_1"/>
+    
+    <string name="custom_workspace_cling_title_2"/>
+    
+    <string name="custom_workspace_cling_description_2"/>
+</resources>

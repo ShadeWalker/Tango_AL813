@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
+    
+    <string name="menu_print">Spausdinti</string>
+    <string name="printContact">Spausdinti adresatą naudojant</string>
+    <string name="no_way_to_print">Nėra programos, skirtos spausdinti šį adresatą.</string>
+    
+    <string name="no_sdcard_title" product="nosdcard">Atmintinė nepasiekiama</string>
+    
+    <string name="no_sdcard_title" product="default">Nėra SD kortelės</string>
+    
+    
+    <string name="selected_item_count">Pasirinkta: <xliff:g id="count">%d</xliff:g>
+    </string>
+    
+    <string name="recentCalls_delete">Ištrinti</string>
+    <string name="menu_selectAll">"Pasirinkti visus"</string>
+    <string name="menu_clearAll">"Panaikint žym."</string>
+        
+    
+    
+    <string name="all_resources">Visi resursai</string>
+    <string name="choose_resources_header">Pasirinkti resursus</string>
+    
+    <string name="all_tab_label1">VISI</string>
+    <string name="call_log_item_count">(<xliff:g id="count">%1$d</xliff:g>)</string>
+
+    
+    
+    <string name="call_sipcall">"Skambutis internetu"</string>
+    <string name="call_pin_dialog_title">Pasirinkti SIM kortelę</string>
+    <string name="call_people">Žmonės</string>
+    <string name="call_ip_dial">IP rinkimas</string>
+    <string name="call_speed_dial">Greitasis numerio rinkimas</string>
+    <string name="send_message">Siųsti pranešimą</string>
+    <string name="call_video_call">"Vaizdo sk."</string>
+    <string name="add_speed_dial">Spustelėkite, kad priskirtumėte greitojo numerio rinkimo klavišą</string>
+    <string name="speed_dial_added"> 
+        <xliff:g id="contact_name">%1$s</xliff:g> ( 
+        <xliff:g id="phone_label">%2$s</xliff:g>) priskirtas greitojo numerio rinkimo klavišas 
+        <xliff:g id="key">%3$s</xliff:g> 
+    </string>
+    <string name="speed_dial_added2"> 
+        <xliff:g id="contact_name">%1$s</xliff:g> priskirtas greitojo numerio rinkimo klavišas 
+        <xliff:g id="key">%2$s</xliff:g> 
+    </string>
+    <string name="remove_speed_dial">"Pašalinti"</string>
+    <string name="remove_sd_confirm_1">Ar tikrai norite atsieti 
+        <xliff:g id="contact_name">%1$s</xliff:g> ( 
+        <xliff:g id="phone_label">%2$s</xliff:g>) nuo greitojo numerio rinkimo klavišo 
+        <xliff:g id="key">%3$s</xliff:g>?
+    </string>
+    <string name="remove_sd_confirm_2">A tikrai norite atsieti 
+        <xliff:g id="contact_name">%1$s</xliff:g> nuo greitojo numerio rinkimo klavišo 
+        <xliff:g id="key">%2$s</xliff:g>?
+    </string>
+    <string name="emergencycall">"Skambutis pagalbos numeriu"</string>
+    <string name="imei_invalid">Klaidinga</string>
+    <string name="call_log_filter_all_resources">Visi resursai</string>
+    <string name="turn_on_3g_service_message">"3G paslauga dabar išjungta; ar norėtumėte įjungti?"</string>
+    <string name="associate_sim_missing_message">"%1$s nepasiekiamas. Ar norėtumėte paskambinti per %2$s"</string>
+    <string name="associate_sim_missing_other">"Kita"</string>
+    <string name="sim_manage_call_via">"Skambinti per"</string>
+    <string name="callFailed_simError">"Nėra SIM kortelės arba SIM kortelės klaida"</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">"Pirmiausia įveskite IP prefikso numerį balso skambučio nustatymuose."</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">"IP rinkimo funkcija netaikoma internetiniams skambučiams."</string>
+
+    
+    <string name="sd_add">"Pridėti"</string>
+    <string name="reselect_number">Numeris jau priskirtas greitojo rinkimo klavišui; pasirinkite kitą numerį.</string>
+    
+    <string name="calllog_today">"Šiandien"</string>
+    <string name="calllog_yesterday">Vakar</string>
+    
+    
+    <string name="menu_association">Susieti kortelę</string>
+    <string name="menu_remove_association">Panaikinti kortelės susiejimą</string>
+    <string name="remove_association_message">Ar tikrai norite pašalinti kortelės susiejimą su šiuo numeriu?</string>
+    <string name="remove_number_title">"Pašalinti"</string>  
+    <string name="warning_detail">Susiejus kortelę, adresatas bus importuotas į telefoną. Norite tęsti kortelės susiejimą?</string>
+    <string name="block_incoming_call">Blokuoti įeinančiuosius skambučius</string>
+    <string name="block_video_incoming_call">Tiesiogiai blokuoti įeinančiuosius vaizdo skambučius</string>
+
+    
+    <string name="menu_actionbar_selected_items">pasirinkta 
+        <xliff:g id="name">%s</xliff:g> 
+    </string>
+
+       
+    <string name="has_double_phone_number">Negalima dukart išsaugoti to paties tipo numerio; patikrinkite jį.</string>
+    <string name="phone_book_busy">Telefonų knyga dabar užimta; bandykite vėliau.</string>
+    <string name="sim_invalid">Negalima išsaugoti adresato, jei kortelė klaidinga.</string>
+    <string name="cannot_insert_null_number">Negalima išsaugoti adresato, kurio numeris yra tuščias.</string>
+    <string name="AirPlane_mode_on">Negalima išsaugoti adresato veikiant skrydžio režimui.</string>
+    <string name="FDNEnabled">Negalima išsaugoti adresato, kai įjungta FDN.</string>
+    <string name="sim_invalid_number">Negalima išsaugoti klaidingo numerio.</string>
+    <string name="email_invalid">Negalima išsaugoti klaidingo el. pašto adreso.</string>
+    <string name="email_2g_invalid">Negalima išsaugoti el. pašto adreso 2G SIM; išsaugojimui pasirinkite 3G SIM.</string>
+    <string name="sim_invalid_fix_number">Negalima išsaugoti klaidingo fiksuotojo ryšio telefono numerio.</string>
+    <string name="AirPlane_mode_on_edit">Negalima redaguoti adresato veikiant skrydžio režimui.</string>
+    <string name="msg_loading_sim_contacts_toast">"Vyksta SIM adresatų įkėlimas; palaukite."</string>
+    <string name="fix_number_too_long">"Fiksuotojo tinklo numeris yra per ilgas."</string>
+    <string name="name_too_long">"Fiksuotojo ryšio telefono numeris yra per ilgas."</string>
+    <string name="storage_full">"Atmintis pilna."</string>
+    <string name="number_too_long">"Numeris per ilgas."</string>
+    <string name="generic_failure">"Bendroji klaida."</string>
+    <string name="email_too_long">El. pašto adresas per ilgas</string>
+
+    <string name="send_groupsms_no_number_more">"%1$s ir dar %2$s adresatai neturi galiojančio telefono numerio."</string>
+    <string name="send_groupsms_no_number_1">"%1$s neturi galiojančio telefono numerio."</string>
+    <string name="send_groupsms_no_number_2">"%1$s ir %2$s neturi galiojančio telefono numerio."</string>    
+
+    
+
+    
+    <string name="account_type_sim" product="tablet">SIM paskyra</string>
+    
+    <string name="account_type_sim" product="default">SIM paskyra</string>
+
+    
+    <string name="account_type_usim" product="tablet">USIM paskyra</string>
+    
+    <string name="account_type_usim" product="default">USIM paskyra</string>
+
+    
+    <string name="account_type_local_phone" product="tablet">Telefono vietinė paskyra</string>
+    
+    <string name="account_type_local_phone" product="default">Telefono vietinė paskyra</string>
+
+
+    
+    <string name="local_account_type" product="tablet">Vietinė paskyra</string>
+    
+    <string name="local_account_type" product="default">Vietinė paskyra</string>
+
+    
+    <string name="local_account_label" product="tablet">Vietinė paskyra</string>
+    
+    <string name="local_account_label" product="default">Vietinė paskyra</string>
+
+    
+    <string name="account_type_sim_label" product="tablet">Tik SIM, nesinch.</string>
+    
+    <string name="account_type_sim_label" product="default">Tik SIM, nesinch.</string>
+
+    
+    <string name="account_type_usim_label" product="tablet">Tik USIM, nesinch.</string>
+    
+    <string name="account_type_usim_label" product="default">Tik USIM, nesinch.</string>
+
+    
+    <string name="please_wait">"Prašome palaukti"</string>
+    <string name="move_contacts_to">Perkelti adresatus į</string>
+    <string name="menu_move_group">"Perkelti grupės narius"</string> 
+    <string name="menu_message_group">"Siųsti grupinį pranešimą"</string>
+    <string name="menu_email_group">"Siųsti grupinį el. pranešimą"</string>    
+    <string name="moving_group_members">"Perkeliami grupės nariai\u2026"</string>
+    <string name="removing_group_members_sucess">"Grupės nariai sėkmingai pašalinti"</string>
+    <string name="moving_group_members_sucess">"Grupės nariai sėkmingai perkelti"</string>
+    <string name="moving_group_members_fail">"Grupės narių perkelti nepavyko"</string>
+    <string name="no_valid_number_in_group">Ši grupės neturi adresatų su galiojančiu telefono numeriu.</string>
+    <string name="no_valid_email_in_group">Ši grupės neturi adresato su galiojančiu el. pašto adresu.</string>
+    <string name="email_error">Privalote įdiegti el. pašto programą arba konfigūruoti savo paskyrą!</string>
+    <string name="usim_group_name_exceed_limit">"Grupės pavadinimas per ilgas atminties įrenginiui."</string>
+    <string name="usim_group_count_exceed_limit">"Į atminties įrenginį nebegalima įtraukti daugiau naujų grupių."</string>
+    <string name="name_needed">Reikia nurodyti pavadinimą</string>
+    <string name="save_group_fail">Grupės išsaugoti nepavyko.</string>
+    <string name="group_name_exists">Toks grupės pavadinimas jau yra.</string>
+    <string name="group_discard_member">Išmesti</string>
+    <string name="group_discard_member_reason">Pakeitimai bus pašalinti, nes grupės pavadinimas yra klaidingas.</string>
+
+    
+    <string name="import_export_title">"Importuoti / eksportuoti"</string>
+    <string name="next">"Kitas"</string>
+    <string name="imexport_bridge_sd_card">SD kortelė</string>
+    <string name="tips_source">"Kopijuoti kontaktus iš"</string>
+    <string name="tips_target">Kopijuoti adresatus į</string>
+    <string name="back">"Atgal"</string>
+    <string name="imexport_title">Importuoti /eksportuoti adresatus</string>
+    <string name="xport_error_one_account">"Įdėkite SIM arba SD kortelę, kad galėtumėte importuoti/eksportuoti adresatus."</string>
+    
+
+
+    
+    <string name="store_contact_to">Išsaugoti adresatą</string>
+
+    
+    <string name="menu_delete_contact">Ištrinti adresatą</string>
+
+    <string name="menu_conference_call">Konferencinis skambutis</string>
+
+    <string name="notifier_finish_delete_title">Adresatai sėkmingai ištrinti</string>
+    <string name="notifier_finish_delete_content">Ištrinta 
+        <xliff:g id="total">%d</xliff:g> adresatai(-ų)
+    </string>
+
+    <string name="notifier_finish_copy_title">Adresatai sėkmingai nukopijuoti</string>
+    <string name="notifier_finish_copy_content">Nukopijuoti 
+        <xliff:g id="total">%d</xliff:g> adresatai(-ų)
+    </string>
+
+    <string name="notifier_multichoice_process_report">Nukopijuota: 
+        <xliff:g id="items">%d</xliff:g>\nNenukopijuota: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+
+    <string name="notifier_failure_by_sim_full">Nepavyko, nes SIM atmintinė pilna\nNukopijuota: 
+        <xliff:g id="items">%d</xliff:g>\nNenukopijuota: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+    <string name="notifier_failure_sim_notready">Nepavyko, nes SIM neparengta\nNukopijuota: 
+        <xliff:g id="items">%d</xliff:g>\nNenukopijuota: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+
+    <string name="notifier_cancel_delete_title">Adresato(-ų) ištrynimas atšauktas</string>
+    <string name="notifier_fail_delete_title">Adresato(-ų) ištrinti nepavyko</string>
+
+    <string name="notifier_cancel_copy_title">Adresato(-ų) kopijavimas atšauktas</string>
+    <string name="notifier_fail_copy_title">Adresato(-ų) nukopijuoti nepavyko</string>
+
+    <string name="notifier_progress__delete_will_start_message">Netrukus adresatas(-ai) bus ištrinti.</string>
+    <string name="notifier_progress_delete_message">Ištrinamas 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g>: 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> 
+    </string>
+    <string name="notifier_progress_delete_description">Ištrinamas 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> 
+    </string>
+
+    <string name="notifier_progress__copy_will_start_message">Netrukus adresatas(-ai) bus nukopijuoti.</string>
+    <string name="notifier_progress_copy_message">Kopijuojami 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g>: 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> 
+    </string>
+    <string name="notifier_progress_copy_description">Kopijuojamas 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> 
+    </string>
+
+    <string name="multichoice_confirmation_title_delete">Adresato(-ų) ištrynimo atšaukimas</string>
+    <string name="multichoice_confirmation_message_delete">Atšaukti adresato(-ų) ištrynimą?</string>
+
+    <string name="multichoice_confirmation_title_copy">Atšaukiamas adresato(-ų) kopijavimas</string>
+    <string name="multichoice_confirmation_message_copy">Atšaukti adresato(-ų) kopijavimą?</string>
+    
+    <string name="multichoice_no_select_alert">"Nepasirinktas joks elementas."</string>
+    <string name="multichoice_delete_confirm_message">"Ar tikrai norite ištrinti pasirinktą adresatą(-us)?"</string>
+    <string name="multichoice_delete_confirm_title">Ištrinti adresatą(-us)?</string>
+    <string name="multichoice_contacts_limit">"Pasirinktų adresatų ne\gali būti daugiau nei "<xliff:g id="count">%d</xliff:g>
+</string>
+
+    
+    <string name="phone_storage_full_create">Telefono atmintinė pilna, todėl negalite sukurti naujo adresato.</string>
+    <string name="phone_storage_full_edit">Telefono atmintinė pilna, todėl negalite redaguoti adresato.</string>
+
+	
+	<string name="add_SIP_to_sim">Negalima įtraukti SIP numerio į kortelės adresatą.</string>
+	
+	<string name="already_has_SIP">Negalima pridėti dviejų SIP numerių adresatui; jeigu norite tęsti, pirmiausiai ištrinkite seną SIP numerį.</string>
+        
+
+    
+       
+    <plurals name="searchFoundCalllogs">
+        <item quantity="one">1 skambučių žurnalas</item>
+        <item quantity="other">
+<xliff:g id="count">%d</xliff:g> skambučių žurnalai</item>
+    </plurals>
+        
+    <string name="search_results_for">Paieškos rezultatai: 
+        <xliff:g id="query">%s</xliff:g> 
+    </string>
+    <string name="listFoundAllCalllogZero">Skambučių žurnalo nerasta</string>
+    
+    <string name="calllogList">"Skambučių istorija"</string>
+    <string name="calllogHint">Ieškoti skambučių žurnalų</string>
+    <string name="calllog_description">Įeinantieji, išeinantieji ir praleisti skambučiai</string>
+    <string name="noMatchingCalllogs">Nerasta derančio skambučių žurnalo.</string>
+    
+    <string name="menu_videocallNumber">Vaizdo skambutis 
+        <xliff:g id="name">%s</xliff:g> 
+    </string>
+    <string name="menu_ipcallNumber">IP skambutis 
+        <xliff:g id="name">%s</xliff:g> 
+    </string>
+    
+    <string name="deleting_call_log">Trinamas skambučių žurnalas...</string>
+    
+    
+    
+    
+    <string name="no_vm_number">"Trūksta balso pašto numerio"</string>
+    
+    <string name="no_vm_number_msg">"SIM kortelėje nėra išsaugoto balso pašto numerio."</string>
+    
+    <string name="add_vm_number_str">"Pridėti numerį"</string>
+    
+    <string name="reminder">"Priminimas"</string>
+    <string name="enable_sip_dialog_message">"Internetiniai skambučiai išjungti. Ar norėtumėte įjungti?"</string>
+    <string name="share_contacts_limit">"Bendrinimui pasirinktų adresatų ne\gali būti daugiau nei 1000 "</string>
+    
+    <string name="contact_delete_all_tips">"Vyksta adresatų trynimas; negalima atlikti šio veiksmo."</string>
+    <string name="sum_search_networks">"Ieškoti galimų tinklų"</string>
+
+    
+    <string name="deleteCallLogConfirmation_title">Ištrinti skambučių žurnalą(-us)?</string>
+
+    
+    <string name="deleteCallLogConfirmation_message">"Ar tikrai norite ištrinti pasirinktą žurnalą(-us)?"</string>
+    
+    <string name="file_already_on_sd_card">"Failas jau yra SD kortelėje."</string>
+    <string name="send_file_sms_error">Negalima bendrinti failo siunčiant SMS; naudokite MMS.</string>
+    <string name="user_profile_cannot_sd_card">"Negalima bendrinti turinio šiuo metodu."</string>
+    
+    <string name="error_save_usim_contact_email_lost">"Nepavyko išsaugoti el. pašto adreso, nes el. paštui skirtas atminties įrenginys yra pilnas."</string>
+    <string name="error_import_usim_contact_email_lost">"Nepavyko importuoti kelių adresatų\' el. pašto adresų, nes el. paštui skirtas atminties įrenginys yra pilnas.\nImportuota: <xliff:g id="items">%d</xliff:g>\nNeatlikta: <xliff:g id="items">%d</xliff:g>"</string>
+    <string name="type_ip_outgoing">IP išeinantysis skambutis ( 
+        <xliff:g id="name">%s</xliff:g>)
+    </string>
+    
+    <string name="call_sms">"SMS"</string>
+    
+    
+    <string name="delete_group_failure">Nepavyko ištrinti grupės.</string>
+    
+    <string name="account_type_uim_label" product="tablet">Tik UIM, nesinch.</string>
+    
+    <string name="account_type_uim_label" product="default">Tik UIM, nesinch.</string>
+    <string name="call_log_auto_rejected_label">Automatiškai atmesti skambučiai</string>
+    <string name="import_no_vcard_dialog_text">
+<xliff:g id="storage_name">%s</xliff:g> nerasta vCard failo 
+    </string>
+    <string name="look_simstorage">Peržiūrėti SIM kortelės talpą</string>
+    <string name="dlg_simstorage_content">Telefonų numerių knygos atmintinė 
+        <xliff:g id="items">%d</xliff:g> išnaudota 
+        <xliff:g id="items">%d</xliff:g>.
+    </string>
+
+    
+
+    <string name="contact_group_list_title">"Pasirinkite numatytąją grupę"</string>
+    
+    
+    <string name="send_groupemail_no_number_more">"%1$s ir dar %2$s adresatai neturi galiojančio el. pašto adreso."</string>
+    <string name="send_groupemail_no_number_1">"%1$s neturi galiojančio el. pašto adreso."</string>
+    <string name="send_groupemail_no_number_2">"%1$s ir %2$s neturi galiojančio el. pašto adreso."</string>
+    
+    
+    <string name="add_contact_dlg_title">Pridėti adresatą</string>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+    <string name="deleteConfirmation_title">Ištrinti adresatą?</string>
+    
+    <string msgid="4313552620858880999" name="dialog_phone_call_prohibited_title">Skambutis neišsiųstas</string>
+    
+    <string name="dialog_voicemail_not_ready_title">Balso pašto numeris nepasiekiamas</string>
+    
+    
+    <string name="scanning_sdcard_failed_title" product="nosdcard">Ne\pavyko nuskaityti SD kortelės</string>
+    
+    <string name="scanning_sdcard_failed_title" product="default">Ne\pavyko nuskaityti SD kortelės</string>
+    
+    
+
+    
+    <string name="nickname_too_long">"Pravardė per ilga."</string>
+    
+    <string name="pick_new_photo_from_gallery">Pasirinkti naują nuotrauką</string>
+    <string name="copy_text_to_dialer">Kopijuoti į numerio rinkiklį</string>
+    
+    
+    <string name="contact_detail_group_list_title">"Grupės"</string>
+    <string name="contact_detail_group_not_assigned">Nepaskirta</string>
+    <string name="contact_detail_group_list_nogroups">"Grupių nėra. Norite sukurti naują grupę?"</string>
+    <string name="recents">Paskiausieji</string>
+    <string name="contact_no_recents">Paskiausiųjų nėra</string>
+    <string name="contact_detail_ip_call">IP skambutis</string>
+    <string name="contact_detail_history_mms_received_time">"Gavimo laikas %1$s"</string>
+    <string name="contact_detail_history_mms_received_from">"Gauta iš %1$s"</string>
+    <string name="contact_detail_history_mms_sent_time">"Siuntimo laikas %1$s"</string>
+    <string name="contact_detail_history_mms_sent_to">"Išsiųsta %1$s"</string>
+    
+    <string name="contact_detail_history_calllog">"Skambučių istorija"</string>
+    
+    <string name="contact_detail_history_mms">Pranešimai</string>
+    <string name="contact_detail_history_duration">"Trukmė:"</string>
+    <string name="contact_detail_history_ismms">Multimedijos pranešimas</string>
+    <string name="contact_detail_history_empty_calllog">"Skambučių žurnalas tuščias"</string>
+    <string name="contact_detail_history_empty_message">Pranešimų nėra</string>
+    <string name="contact_detail_history_empty">"Nėra skambučio, pranešimo istorijos"</string>
+    <string name="contact_recent_number_limit">"Pasiekiami tik %1$s adresatai"</string>
+    <string name="contact_recent_group_label">"Grupė"</string>
+        
+    
+    <string name="call_pin_dialog_title_ct">Pasirinkti UIM/SIM kortelę</string>
+    <string name="callFailed_simError_ct">Nėra UIM/SIM arba UIM/SIM klaida</string>
+    <string name="msg_loading_sim_contacts_toast_ct">"Vyksta UIM/SIM adresatų įkėlimas; palaukite."</string>
+    <string name="xport_error_one_account_ct">"Įdėkite UIM/SIM arba SD kortelę, kad galėtumėte importuoti/eksportuoti adresatus."</string>
+    <string name="notifier_failure_by_sim_full_ct">Nepavyko, nes UIM/SIM atmintinė pilna\nAtlikta: 
+        <xliff:g id="items">%d</xliff:g>\nNeatlikta: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+    <string name="notifier_failure_sim_notready_ct">Nepavyko, nes UIM/SIM neparengta\nAtlikta: 
+        <xliff:g id="items">%d</xliff:g>\nNeatlikta: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+    <string name="look_simstorage_ct">Peržiūrėti UIM/SIM kortelės talpą</string>
+
+    <string name="callFailed_cdma_notEmergency">"Galimi tik pagalbos skambučiai."</string>
+
+    
+    <string name="international_dialing_title">"Tarptautinio numerio rinkimo pagalba"</string>
+    <string name="international_dialing_select_country">"Nustatyta, kad skambinate į užsienį. Pasirinkite paskirties vietą."</string>
+    <string name="international_dialing_add_country_code">Aptikta, kad jūs renkate 
+        <xliff:g id="country_name">%s</xliff:g> numerį. Norite pridėti šios šalies kodą (+ 
+        <xliff:g id="country_code">%s</xliff:g>)?
+    </string>
+    <string name="international_dialing_add_country_code_and_area_code">Aptikta, kad jūs renkate numerį 
+        <xliff:g id="area_name">%1$s</xliff:g>, 
+        <xliff:g id="country_name">%2$s</xliff:g>. Norite pridėti šalies kodą ir rajono kodą (+ 
+        <xliff:g id="prefix">%3$s</xliff:g>)?
+    </string>
+    <string name="international_dialing_change_country_prefix">Aptikta, kad jūs skambinate iš 
+        <xliff:g id="country_name">%s</xliff:g> numerį. Pakeisti tarptautinio skambučio priešdėlį į \'+\'?
+    </string>
+    <string name="international_dialing_add_country_code_input_area_code">Aptikta, kad jūs renkate numerį 
+        <xliff:g id="country_name">%s</xliff:g>. Jeigu taip, įveskite rajono kodą.
+    </string>
+    <string name="international_dialing_add_country_code_default_input_area_code">Aptikta, kad jūs renkate numerį 
+        <xliff:g id="country_name">%s</xliff:g>. Jeigu skambinate ne į 
+        <xliff:g id="area_name">%s</xliff:g> miestą, įrašykite rajono kodą.
+    </string>
+    <string name="international_dialing_need_area_code">"Reikalingas skambinamo miesto regioninis kodas, kad galėtumėte paskambinti."</string>
+    <string name="international_dialing_input_area_code">"Įveskite regiono kodą čia"</string>
+    <string name="international_dialing_dialed_number">"Rinkimo numeris:"</string>
+    <string name="international_dialing_confirm_area_code">Jeigu skambinate ne į 
+        <xliff:g id="area_name">%s</xliff:g> miestą, įveskite apačioje miesto, į kurį skambinate, rajono kodą.
+    </string>
+    <string name="international_dialing_click_below_button">"Spragtelėkite tolesnį mygtuką, kad pakeistumėte šalies kodo numerį."</string>
+    <string name="international_dialing_yes">"Taip. Naudoti tolesnį numerį:"</string>
+    <string name="international_dialing_no">"Ne. Naudoti pirminį numerį:"</string>
+    <string name="international_dialing_call_button">"Skambinti"</string>
+    <string name="international_dialing_area_code">"regiono kodas"</string>
+    <string name="international_dialing_invalid_number">"Numeris yra negaliojantis. Ar vis tiek norite rinkti?"</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">"Ar norite pridėti šalies kodą ir regiono kodą?"</string>
+    <string name="no_search_result">"Nėra paieškos rezultatų"</string>
+
+    <string name="account_phone_only" product="tablet">"Planšetinis kompiuteris"</string>
+    <string name="account_phone_only" product="default">Adresinė</string>
+    
+    
+    
+    <string name="no_match_call_log">"Nėra derančių elementų"</string>
+    <string name="no_call_log">Nėra skambučių žurnalų"</string>
+    <string name="share_too_large">Visų duomenų kiekis viršija leistiną ribą; panaikinkite kelis elementus ir bandykite dar kartą.</string>
+
+    
+    
+
+    <string name="err_icc_no_phone_book">%1$s negali išsaugoti adresato</string>
+
+    
+    
+    <string name="titleJoinContactDataWith">"Jungti adresatus"</string>
+
+    
+    <string name="menu_select_all">"Pasirinkti visus"</string>
+
+    
+    <string name="list_filter_custom">"Priskirtas"</string>
+
+    
+    <string name="add_contact_dlg_message_fmt">"Pridėti „ 
+        <xliff:g id="EMAIL">%s</xliff:g>“ prie adresatų?"
+    </string>
+
+    
+    <string name="locale_change_in_progress">"Kontaktų sąrašas yra atnaujinamas, kad atspindėtų kalbos pakeitimą."</string>
+
+    
+    <string name="noFavoritesHelpText">"Jūs ne\turite mėgstamųjų.\n\nNorėdami įtraukti adresatą į mėgstamųjų sąrašą:\n 
+        <li>Palieskite 
+            <b>Adresatų</b> skirtuką\n
+        </li> \n 
+        <li>Palieskite adresatą, kurį norite pridėti prie savo mėgstamųjų\n</li> \n 
+        <li>Palieskite žvaigždutę šalia adresa\to vardo\n</li>"
+    </string>
+
+    
+    <string name="non_phone_caption">"Telefono numeris"</string>
+
+    
+    <string name="menu_select_none">"Atšaukti visų pasirinkimą"</string>
+
+    <string name="find_call_logs">Rasti skambučių žurnalus</string>
+    <string name="call_log_via_sim_name_notice">SKAMBUČIŲ ŽURNALAI PER \" 
+        <xliff:g id="sim_name">%s</xliff:g>\"
+    </string>
+    
+
+    
+    <string name="mtk_contact_list_loading">Įkeliama\u2026</string>
+    <string name="vcard_import_failed_v2">Ne\pavyko importuoti</string>
+    <string name="quickcontact_missing_app">"Nerasta jokių programų šiam veiksmui apdoroti."</string>
+    
+    
+    <string name="call_speed_dial_title">Greitasis numerio rinkimas</string>
+    <string name="dialog_no_speed_dial_number_message">Joks greitojo rinkimo numeris dabar nenustatytas?</string>
+    <string name="icc_phone_book_invalid">Dabar telefonų knyga nepasiekiama; bandykite vėliau.</string>
+    <string name="error_edit_join_group">Tai bendras adresatas. Galite redaguoti grupės informaciją veikia redagavimo režimui.</string>
+    
+    <string name="local_phone_account" product="tablet">"Planšetė"</string>
+    <string name="local_phone_account" product="default">"Telefonas"</string>
+    <string name="imsCallLabelsGroup">ISM skambutis</string>
+    <string name="sip_url">SIP url</string>
+    <string name="ims_call_disabled">IMS skambutis nepasiekiamas</string>
+    <string name="vcs_menu_voice_contacts_search" product="default">Adresatų paieška balsu</string>
+    <string name="vcs_msg_no_voice_contacts">Oi, adresatas nerastas.</string>
+    <string name="contact_import_export_tips">Importuojami/eksportuojami adresatai; bandykite vėliau dar kartą</string>
+<string name="can_not_switch_account_during_call">Pokalbio metu negalima perjungti pageidaujamos skambučių SIM kortelės.</string>
+<string name="can_not_switch_account_temporarily">Laikinai negalima perjungti pageidaujamos skambučių SIM kortelės.</string>
+<string name="location_permission_title">Saugumo įspėjimas</string>
+<string name="location_permission_summary">Adresatų programa mėgina pasiekti jūsų dabartinę buvimo vietą.\n(Automatiškai uždrausti po <xliff:g id="time_sec">%1$s</xliff:g> sek.)</string>
+<string name="location_permission_allow">Leisti</string>
+<string name="location_permission_deny">Drausti</string>
+</resources>

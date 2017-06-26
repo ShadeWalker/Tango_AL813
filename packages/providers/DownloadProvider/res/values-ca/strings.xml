@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="3658948994665187911" name="app_label">"Gestor de baixades"</string>
+    <string msgid="7779544811202855500" name="permlab_downloadManager">"Accediu al gestor de baixades."</string>
+    <string msgid="4237406545998908947" name="permdesc_downloadManager">"Permet que l\'aplicació accedeixi al gestor de baixades i que el faci servir per baixar fitxers. Les aplicacions malicioses poden fer-ho servir per interrompre baixades i per accedir a informació privada."</string>
+    <string msgid="7103642833308809655" name="permlab_downloadManagerAdvanced">"Funcions avançades del gestor de baixades."</string>
+    <string msgid="2659546004160962761" name="permdesc_downloadManagerAdvanced">"Permet que l\'aplicació accedeixi a les funcions avançades del gestor de baixades. Les aplicacions malicioses poden fer-ho servir per interrompre les baixades i per accedir a informació privada."</string>
+    <string msgid="945913803765675685" name="permlab_downloadCompletedIntent">"Envia notificacions de baixades."</string>
+    <string msgid="2094706189855699533" name="permdesc_downloadCompletedIntent">"Permet que l\'aplicació enviï notificacions sobre les baixades completades. Les aplicacions malicioses poden fer-ho servir per confondre altres aplicacions que baixen fitxers."</string>
+    <string msgid="4084575448409212628" name="permlab_seeAllExternal" product="nosdcard">"Mostra totes les baixades a l\'emmagatzematge USB"</string>
+    <string msgid="140058400609165726" name="permlab_seeAllExternal" product="default">"Visualitza totes les baixades a la targeta SD"</string>
+    <string msgid="1672759909065511233" name="permdesc_seeAllExternal">"Permet que l\'aplicació vegi totes les baixades que s\'han fet a la targeta SD, sigui quina sigui l\'aplicació que les ha baixades."</string>
+    <string msgid="3069534308882047412" name="permlab_downloadCacheNonPurgeable">"Reserva espai a la memòria cau de baixada"</string>
+    <string msgid="2408760720334570420" name="permdesc_downloadCacheNonPurgeable">"Permet que l\'aplicació baixi fitxers a la memòria cau de baixada que no es poden suprimir automàticament quan el gestor de baixades necessita més espai."</string>
+    <string msgid="8837971946078327262" name="permlab_downloadWithoutNotification">"baixa fitxers sense notificació"</string>
+    <string msgid="8483135034298639727" name="permdesc_downloadWithoutNotification">"Permet que l\'aplicació baixi fitxers mitjançant el gestor de baixades sense que l\'usuari en rebi cap notificació."</string>
+    <string msgid="2436240495424393717" name="permlab_accessAllDownloads">"Accedeix a totes les baixades del sistema"</string>
+    <string msgid="1871832254578267128" name="permdesc_accessAllDownloads">"Permet que l\'aplicació consulti i modifiqui totes les baixades iniciades per una aplicació al sistema."</string>
+    <string msgid="7015124071247271585" name="download_unknown_title">"&lt;Sense títol&gt;"</string>
+    <string msgid="5443563299253103667" name="notification_download_complete">"Baixada completa."</string>
+    <string msgid="8612136111952014978" name="notification_download_failed">"Baixada incorrecta."</string>
+    <string msgid="2556172885154833575" name="notification_need_wifi_for_size">"Mida baixad. req. Wi-Fi."</string>
+    <string msgid="4328508073283591772" name="notification_paused_in_background">"Posada en pausa de fons."</string>
+    <string msgid="1995971416871498179" name="wifi_required_title">"Baixada massa gran per a la xarxa de l\'operador"</string>
+    <string msgid="3067694630143784449" name="wifi_required_body">"Has de fer servir Wi-Fi per completar aquesta baixada de <xliff:g id="SIZE">%s </xliff:g>. \n\nToca <xliff:g id="QUEUE_TEXT">%s </xliff:g> per iniciar aquesta baixada la propera vegada que estiguis connectat a una xarxa Wi-Fi."</string>
+    <string msgid="7441589306734687400" name="wifi_recommended_title">"Vols posar-lo en cua per baixar-lo més tard?"</string>
+    <string msgid="1314735166699936073" name="wifi_recommended_body">"Si inic. la baixada (<xliff:g id="SIZE">%s </xliff:g>), pot escurçar-se la durada de la bat. i/o fer-se ús excessiu de la conn. de dades mòb., amb càrrecs de l\'oper. segons el pla de dades.\n\n Toca <xliff:g id="QUEUE_TEXT">%s</xliff:g> per inic. baix. quan hi hagi Wi-Fi."</string>
+    <string msgid="422576726189179221" name="button_queue_for_wifi">"Cua"</string>
+    <string msgid="2430166148737975604" name="button_cancel_download">"Cancel·la"</string>
+    <string msgid="792123674007840864" name="button_start_now">"Inicia ara"</string>
+  <plurals name="notif_summary_active">
+    <item msgid="8475775855911967027" quantity="one">"S\'està baixant 1 fitxer"</item>
+    <item msgid="9087228371320573153" quantity="other">"S\'estan baixant <xliff:g id="NUMBER">%d</xliff:g> fitxers"</item>
+  </plurals>
+  <plurals name="notif_summary_waiting">
+    <item msgid="5537481763963544278" quantity="one">"S\'està esperant 1 fitxer"</item>
+    <item msgid="549229034166062887" quantity="other">"S\'estan esperant <xliff:g id="NUMBER">%d</xliff:g> fitxers"</item>
+  </plurals>
+    <string msgid="3139295890887972718" name="download_remaining">"Temps restant: <xliff:g id="DURATION">%s</xliff:g>"</string>
+    <string msgid="7935659741162801699" name="download_no_application_title">"No es pot obrir el fitxer"</string>
+    <string msgid="4098414876292351487" name="root_downloads">"Baixades"</string>
+    <string msgid="3302638231377947451" name="download_queued">"En cua"</string>
+    <string msgid="3925050393361158266" name="download_running">"En curs"</string>
+    <string msgid="5144180777324573236" name="download_error">"Incorrecta"</string>
+    <string msgid="4305080769167320204" name="download_running_percent">"En curs, <xliff:g id="PERCENTAGE">%s</xliff:g>"</string>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- 
+  ~ Copyright (C) 2012 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+   --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="9125850639884993690" name="dialpad_0_number">"0"</string>
+    <string msgid="761747742902363751" name="dialpad_1_number">"1"</string>
+    <string msgid="4473872718353086388" name="dialpad_2_number">"2"</string>
+    <string msgid="2631223250001985194" name="dialpad_3_number">"3"</string>
+    <string msgid="5209564123577292452" name="dialpad_4_number">"4"</string>
+    <string msgid="5634625806116989866" name="dialpad_5_number">"5"</string>
+    <string msgid="799658410454143963" name="dialpad_6_number">"6"</string>
+    <string msgid="6998407956591315524" name="dialpad_7_number">"7"</string>
+    <string msgid="7956944519599432140" name="dialpad_8_number">"8"</string>
+    <string msgid="9074552572438193202" name="dialpad_9_number">"9"</string>
+    <string msgid="4853244877599437286" name="description_dialpad_overflow">"Más opciones"</string>
+    <string msgid="88733669653753441" name="description_delete_button">"retroceso"</string>
+    <string msgid="7821061347207448362" name="description_image_button_plus">"más"</string>
+    <string msgid="6281470684653439120" name="description_voicemail_button">"buzón de voz"</string>
+    <string msgid="6011631627871110785" name="default_notification_description">"Sonido predeterminado (<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"</string>
+    <string msgid="5163219086553610486" name="callFailed_userBusy">"Línea ocupada"</string>
+    <string msgid="3645995103907418337" name="callFailed_congestion">"Red ocupada"</string>
+    <string msgid="7772951976278867294" name="callFailed_timedOut">"No hay respuesta; se agotó el tiempo de espera."</string>
+    <string msgid="4766146133909799091" name="callFailed_server_unreachable">"Servidor inaccesible"</string>
+    <string msgid="1243366438388873914" name="callFailed_number_unreachable">"No se puede establecer conexión con el número."</string>
+    <string msgid="6115412108261660271" name="callFailed_invalid_credentials">"Nombre de usuario o contraseña incorrectos"</string>
+    <string msgid="6970725831030399542" name="callFailed_out_of_network">"Llamada fuera de la red"</string>
+    <string msgid="1391421251190688379" name="callFailed_server_error">"Se produjo un error de servidor. Vuelve a intentarlo más tarde."</string>
+    <string msgid="1758972490451048086" name="callFailed_noSignal">"No hay señal."</string>
+    <string msgid="8796663077702587664" name="callFailed_limitExceeded">"Se excedió el límite de ACM."</string>
+    <string msgid="9179061328562234362" name="callFailed_powerOff">"Radio desactivada"</string>
+    <string msgid="3307159523385380486" name="callFailed_simError">"No se encuentra la tarjeta SIM o se produjo un error relacionado con ella."</string>
+    <string msgid="4535901975891969115" name="callFailed_outOfService">"Red móvil no disponible"</string>
+    <string msgid="1720606112619022283" name="callFailed_fdn_only">"Las llamadas salientes están restringidas por NMF."</string>
+    <string msgid="4745550615395092407" name="callFailed_cb_enabled">"No se puede realizar llamadas salientes mientras está activado el bloqueo de llamadas."</string>
+    <string msgid="4087941056515103695" name="callFailed_dsac_restricted">"Llamadas restringidas por el control de acceso"</string>
+    <string msgid="9031535611092828510" name="callFailed_dsac_restricted_emergency">"Llamadas de emergencia restringidas por el control de acceso"</string>
+    <string msgid="266947632344387216" name="callFailed_dsac_restricted_normal">"Llamadas habituales restringidas por el control de acceso"</string>
+    <string msgid="124621797631734731" name="callFailed_unobtainable_number">"El número no es válido."</string>
+    <string msgid="3651090591812220874" name="incall_error_missing_voicemail_number">"Para configurar el buzón de voz, ve a a Menú &gt; Configuración."</string>
+    <string name="respond_via_sms_setting_title">Rechazar llamadas con SMS</string>
+    <string name="dialer_menu_send_message">Enviar mensaje</string>
+    <string name="dialer_menu_new_contact">Contacto nuevo</string>
+
+<!-- Added by guofeiyao -->
+<!-- For Telcel clear code -->
+     <string name="disconnection_cause_telcel_1">MARCACION NO DISPONIBLE -01-</string>
+     <string name="disconnection_cause_telcel_3">USUARIO NO DISPONIBLE -03-</string>
+     <string name="disconnection_cause_telcel_6">LLAMADA TERMINADA -6-</string>
+     <string name="disconnection_cause_telcel_8">USUARIO NO DISPONIBLE -08-</string>
+     <string name="disconnection_cause_telcel_16">--sin texto--</string>
+     <string name="disconnection_cause_telcel_17">USUARIO OCUPADO</string>
+     <string name="disconnection_cause_telcel_18">USUARIO NO RESPONDE -18-</string>
+     <string name="disconnection_cause_telcel_19">USUARIO NO RESPONDE -19-</string>
+     <string name="disconnection_cause_telcel_21">USUARIO NO DISPONIBLE -21-</string>
+     <string name="disconnection_cause_telcel_22">MARCACION NO DISPONIBLE -22-</string>
+     <string name="disconnection_cause_telcel_24">LLAMADA TERMINADA -24-</string>
+     <string name="disconnection_cause_telcel_25">LLAMADA TERMINADA -25-</string>
+     <string name="disconnection_cause_telcel_26">LLAMADA TERMINADA -26-</string>
+     <string name="disconnection_cause_telcel_27">USUARIO NO DISPONIBLE -27-</string>
+     <string name="disconnection_cause_telcel_28">MARCACION NO DISPONIBLE -28-</string>
+     <string name="disconnection_cause_telcel_29">LLAMADA TERMINADA -29-</string>
+     <string name="disconnection_cause_telcel_30">LLAMADA TERMINADA -30-</string>
+     <string name="disconnection_cause_telcel_31">LLAMADA TERMINADA -31-</string>
+     <string name="disconnection_cause_telcel_34">LLAMADA TERMINADA -34-</string>
+     <string name="disconnection_cause_telcel_38">LLAMADA TERMINADA -38-</string>
+     <string name="disconnection_cause_telcel_41">LLAMADA TERMINADA -41-</string>
+     <string name="disconnection_cause_telcel_42">LLAMADA TERMINADA -42-</string>
+     <string name="disconnection_cause_telcel_43">LLAMADA TERMINADA -43-</string>
+     <string name="disconnection_cause_telcel_44">LLAMADA TERMINADA -44-</string>
+     <string name="disconnection_cause_telcel_47">LLAMADA TERMINADA -47-</string>
+     <string name="disconnection_cause_telcel_49">LLAMADA TERMINADA -49-</string>    
+     <string name="disconnection_cause_telcel_50">LLAMADA TERMINADA -50-</string>
+     <string name="disconnection_cause_telcel_55">LLAMADA TERMINADA -55-</string>
+     <string name="disconnection_cause_telcel_57">LLAMADA TERMINADA -57-</string>
+     <string name="disconnection_cause_telcel_58">LLAMADA TERMINADA -58-</string>
+     <string name="disconnection_cause_telcel_63">LLAMADA TERMINADA -63-</string>
+     <string name="disconnection_cause_telcel_65">LLAMADA TERMINADA -65-</string>
+     <string name="disconnection_cause_telcel_68">LLAMADA TERMINADA -68-</string>
+     <string name="disconnection_cause_telcel_69">LLAMADA TERMINADA -69-</string>
+     <string name="disconnection_cause_telcel_70">LLAMADA TERMINADA -70-</string>
+     <string name="disconnection_cause_telcel_79">LLAMADA TERMINADA -79-</string>
+     <string name="disconnection_cause_telcel_81">LLAMADA TERMINADA -81-</string>
+     <string name="disconnection_cause_telcel_87">LLAMADA TERMINADA -87-</string>
+     <string name="disconnection_cause_telcel_88">LLAMADA TERMINADA -88-</string>
+     <string name="disconnection_cause_telcel_91">LLAMADA TERMINADA -91-</string>
+     <string name="disconnection_cause_telcel_95">LLAMADA TERMINADA -95-</string>
+     <string name="disconnection_cause_telcel_96">LLAMADA TERMINADA -96-</string>
+     <string name="disconnection_cause_telcel_97">LLAMADA TERMINADA -97-</string>
+     <string name="disconnection_cause_telcel_98">LLAMADA TERMINADA -98-</string>
+     <string name="disconnection_cause_telcel_99">LLAMADA TERMINADA -99-</string>
+     <string name="disconnection_cause_telcel_100">LLAMADA TERMINADA -100-</string>
+     <string name="disconnection_cause_telcel_101">LLAMADA TERMINADA -101-</string>
+     <string name="disconnection_cause_telcel_102">LLAMADA TERMINADA -102-</string>
+     <string name="disconnection_cause_telcel_111">LLAMADA TERMINADA -111-</string>
+     <string name="disconnection_cause_telcel_127">LLAMADA TERMINADA -127-</string>
+
+     <!--add by huangshuo for HQ01454913-->
+   <string name="disconnection_cause_outer_1">NUMERO NO ESTA EN USO</string>
+   <string name="disconnection_cause_outer_17">NUMERO OCUPADO</string>
+   <string name="disconnection_cause_outer_18">NO HAY RESPUESTA</string>
+   <string name="disconnection_cause_outer_19">USUARIO NO CONTESTA</string>
+   <string name="disconnection_cause_outer_31">LLAMADA TERMINADA</string>
+   <string name="disconnection_cause_outer_34">RED OCUPADA</string>
+   <string name="disconnection_cause_outer_44">RED OCUPADA</string>
+</resources>

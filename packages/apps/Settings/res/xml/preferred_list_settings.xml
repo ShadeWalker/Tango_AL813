@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:settings="http://schemas.android.com/apk/res/com.android.phone"
+        android:title="@string/title_preferred_list_settings">
+
+    <PreferenceScreen
+        android:key="key_preference_home"
+        android:layout="@layout/preferencestyle_gesture_layout"
+        android:title="@string/preference_home_title"
+        android:summary="@string/app_default_summary"/>
+    <PreferenceScreen
+        android:key="key_preference_call"
+        android:layout="@layout/preferencestyle_gesture_layout"
+        android:title="@string/preference_call_title"
+        android:summary="@string/app_default_summary"/>
+    <PreferenceScreen
+        android:key="key_preference_message"
+        android:layout="@layout/preferencestyle_gesture_layout"
+        android:title="@string/preference_message_title"
+        android:summary="@string/app_default_summary"/>
+    <PreferenceScreen
+        android:key="key_preference_camera"
+        android:layout="@layout/preferencestyle_gesture_layout"
+        android:title="@string/preference_camera_title"
+        android:summary="@string/app_default_summary"/>
+    <PreferenceScreen
+        android:key="key_preference_gallery"
+        android:layout="@layout/preferencestyle_gesture_layout"
+        android:title="@string/preference_gallery_title"
+        android:summary="@string/app_default_summary"/>
+    <PreferenceScreen
+        android:key="key_preference_music"
+        android:layout="@layout/preferencestyle_gesture_layout"
+        android:title="@string/preference_music_title"
+        android:summary="@string/app_default_summary"/>
+    <PreferenceScreen
+        android:key="key_preference_video"
+        android:layout="@layout/preferencestyle_gesture_layout"
+        android:title="@string/preference_video_title"
+        android:summary="@string/app_default_summary"/>
+    <PreferenceScreen
+        android:key="key_preference_email"
+        android:layout="@layout/preferencestyle_gesture_layout"
+        android:title="@string/preference_email_title"
+        android:summary="@string/app_default_summary"/>
+    <PreferenceScreen
+        android:key="key_preference_browser"
+        android:layout="@layout/preferencestyle_gesture_layout"
+        android:title="@string/preference_browser_title"
+        android:summary="@string/app_default_summary"/>
+</PreferenceScreen>
+

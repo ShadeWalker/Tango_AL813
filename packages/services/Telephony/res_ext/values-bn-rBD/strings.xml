@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">শব্দ কমানো</string>
+    <string name="dual_mic_summary">কলের সময় ব্যাকগ্রাউন্ডের কোলাহল থামিয়ে রাখুন</string>
+    <string name="anc_title">শব্দ হ্রাস সক্রিয় করুন</string>
+    <string name="anc_on">এএনসি চালু</string>
+    <string name="anc_off">এএনসি বন্ধ</string>
+    <string name="ip_switch">IP ডায়াল স্যুইচ</string>
+    <string name="ip_prefix_null">IP প্রেফিক্স নম্বরটি খালি।</string>
+    <string name="ip_prefix_setting">আইপি প্রিফিক্স নম্বর</string>
+    <string name="ip_prefix_setting_lable">আইপি প্রিফিক্স নম্বর (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">আইপি প্রেফিক্স নম্বর সেটিং</string>
+    <string name="enter_ip_prefix_number">প্রেফিক্স নম্বর প্রবেশ করান</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">ভয়েস কল সেটিংয়ে প্রথমে আইপি প্রেফিক্স নম্বর প্রবেশ করান</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">ইন্টারনেট কলের ক্ষেত্রে আইপি ডায়াল কার্যক্রম প্রযোজ্য নয়</string>
+    <string name="ip_prefix_edit_default_sum">আইপি ডায়ালের জন্য প্রেফিক্স নম্বর প্রবেশ করান</string>
+    <string name="lable_call_barring">কল বারিং</string>
+    <string name="title_call_barring">কল বারিং (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">সব আউটগোয়িং কল</string>
+    <string name="lable_all_outgoing_international">আন্তর্জাতিক আউটগোয়িং কল</string>
+    <string name="lable_all_out_except">হোম পিএলএমএন ছাড়া সব আন্তর্জাতিক আউটগোয়িং কল</string>
+    <string name="lable_all_incoming">সব ইনকামিং কল</string>
+    <string name="lable_incoming_calls_except">রোমিংয়ের সময় ইনকামিং কল</string>
+    <string name="deactivate_all">সব বাতিল করুন</string>
+    <string name="change_password">বাধাপ্রদানের পাসওয়ার্ড পরিবর্তন করুন</string>
+    <string name="call_barring_sum">ভয়েসমেইলে বাধাপ্রদানের সেটিং</string>
+    <string name="lable_disable">নিষ্ক্রিয় করুন</string>
+    <string name="lable_enable">সক্রিয়</string>
+    <string name="old_password_label">পুরাতন পাসওয়ার্ড(৪ অংকবিশিষ্ট)</string>
+    <string name="new_password_label">নতুন পাসওয়ার্ড(৪ অংকবিশিষ্ট)</string>
+    <string name="invalid_password">৪ অংকবিশিষ্ট একটি পাসওয়ার্ড টাইপ করুন।</string>
+    <string name="confirm_password_label">নতুন পাসওয়ার্ড নিশ্চিত করুন</string>
+    <string name="mismatch_password">আপনি যে পাসওয়ার্ড প্রবেশ করেছেন তা মিলছে না। আবার চেষ্টা করুন।</string>
+    <string name="password_changed">সফলভাবে পাসওয়ার্ড পরিবর্তন করা হয়েছে</string>
+    <string name="enter_callbarring_password">কলে বাধাদান পাসওয়ার্ড প্রবেশ করান (চার অংকবিশিষ্ট)</string>
+    <string name="wrong_password">পাসওয়ার্ড ত্রুটি</string>
+    <string name="error_title">"ত্রুটি"</string>
+    <string name="cell_broadcast">সেল সম্প্রচার</string>
+    <string name="cell_broadcast_settings">সেল সম্প্রচার সেটিং</string>
+    <string name="cb_menu_language">"ভাষা"</string>
+    <string name="cb_menu_add_channel">চ্যানেল যোগ করুন</string>
+    <string name="cb_menu_channel_list">চ্যানেলের তালিকা</string>
+    <string name="cb_dialog_title_language_choice">ভাষা নির্বাচন করুন</string>
+    <string name="cb_channel_dialog_channel_name">চ্যানেলের নাম (০ থেকে ১০ ক্যারেক্টারের)</string>
+    <string name="cb_channel_dialog_channel_number">চ্যানেল নম্বর (০-৬৫৫৩৪)</string>
+    <string name="cb_channel_dialog_channel_state">চ্যানেলকে সক্রিয় করুন</string>
+    <string name="cb_channel_dialog_edit_channel">চ্যানেল সম্পাদনা</string>
+    <string name="cb_menu_edit">সম্পাদনা করুন</string>
+    <string name="cb_menu_delete">"মুছে ফেলুন"</string>
+    <string name="cb_error_channel_num">চ্যানেল নম্বর প্রবেশ করান (০-৬৫৫৩৪)</string>
+    <string name="cb_error_channel_name">চ্যানেলের নামের দৈর্ঘ্য সঠিক নয় (১-১০ ক্যারেক্টারের)।</string>
+    <string name="cb_error_language_select">অন্তত একটি ভাষা নির্বাচন করুন।</string>
+    <string name="cb_error_channel_id_exist">চ্যানেল আইডি রয়েছে।</string>
+    <string name="cb_all_languages">সব ভাষা</string>
+    <string name="cb_default_new_channel_name">নতুন চ্যানেল</string>
+    <string name="fdn_errorcode_unknown_info">অসফল হয়েছে, অজানা ত্রুটি ঘটেছে, পরে আবার চেষ্টা করুন।</string>
+    <string name="fdn_errorcode_number_info">অসফল হয়েছে, পরিচিকজনের নম্বরের দৈর্ঘ্য অনেক বেশি লম্বা।</string>
+    <string name="fdn_errorcode_name_info">অসফল হয়েছে, পরিচিকজনের নাম অনেক বেশি লম্বা।</string>
+    <string name="fdn_errorcode_storage_info">অসফল হয়েছে, স্টোরেজ পূর্ণ।</string>
+    <string name="fdn_errorcode_phb_info">ব্যর্থ হয়েছে, ফোনবই এখন প্রস্তুত নয়, পরে আবার চেষ্টা করুন।</string>
+    <string name="fdn_errorcode_pin2_info">ব্যর্থ হয়েছে,অকার্যকর পিন২।</string>
+    <string name="net_or_simcard_busy">নেটওয়ার্ক অথবা সিম কার্ড ব্যস্ত, পরে আবার চেষ্টা করুন।</string>
+    <string name="plmn_list_setting_title">অগ্রাধিকার</string>
+    <string name="network_id">নেটওয়ার্ক আইডি</string>
+    <string name="plmn_list_setting_add_plmn">নতুন পিএলএমএন যোগ করুন</string>
+    <string name="femtocell_point_list_title">ফেমটোসেলগুলি</string>
+    <string name="in_search_femtocell_networks_wait_tip">অনুসন্ধান করুন...</string>
+    <string name="sum_search_femtocell_networks">ম্যানুয়েলি ফেমটোসেল নির্বাচন করুন</string>
+    <string name="register_femtocell_point_wait_tip"><xliff:g id="femto_cell_info">%s</xliff:g> ...নিবন্ধন করা হচ্ছে</string>
+    <string name="register_femtocell_point_result_fail_tip">এই নেটওয়ার্কের সাথে এখনই সংযুক্ত হতে পারবে না। পরবর্তীতে আবার চেষ্টা করুন।</string>
+    <string name="network_type">নেটওয়ার্কের ধরন</string>
+    <string name="gsm_umts_network_preferences_title">নেটওয়ার্ক মোড</string>
+    <string name="gsm_umts_network_preferneces_summary">এখনও বাস্তবায়িত হয়নি</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">নেটওয়ার্ক মোড</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G (স্বয়ংক্রিয় মোড)</item>
+        <item>কেবল 3G</item>
+        <item>কেবল 2G</item>
+    </string-array>
+    <string name="notification_voicemail_text">ভয়েসমেইল দেখতে নির্বাচন করুন</string>
+    <string name="notification_network_selection_without_operator">নির্বাচিত নেটওয়ার্ক নাই</string>
+    <string name="network_setting_all_forbidden_dialog">কোন নেটওয়ার্ক নেই।</string>
+    <string name="network_forbidden">নিষ্ক্রিয় করুন</string>
+    <string name="network_unkown">অজানা</string>
+    <string name="fdn_contact_number_invalid">অকার্যকর পরিচিতজনের নম্বর।</string>
+    <string name="fdn_puk_need_tips">পিন২ ব্লক করা হয়েছে। পিন২ পরিবর্তন করে আবার চেষ্টা করুন!</string>
+    <string name="fdn_phone_book_busy">ফোনবুক এখন ব্যস্ত, পরে আবার চেষ্টা করুন।</string>
+    <string name="one_retry_left">১ বার চেষ্টা বাকি</string>
+    <string name="retries_left"><xliff:g id="number">%d</xliff:g> পুনরায় চেষ্টা বাকী রয়েছে</string>
+    <string name="pin_length_indicate">(৪-৮ সংখ্যা)</string>
+    <string name="puk_length_indicate">(৮ সংখ্যা)</string>
+    <string name="unblock_pin2">পিন২ আনব্লক করুন</string>
+    <string name="sim_permanently_locked"> ১০ বারের বেশি ভুল পাক২ কোড প্রবেশ করানোর কারণে সিম কার্ড স্থায়ীভাবে লক হয়ে গেছে</string>
+    <string name="magi_conference_title">ম্যাজিককনফারেন্সকল</string>
+    <string name="magi_conference_summary">একাধিক ব্যক্তি যখন অন্য দিকে কথা বলার সময়ে ফোন ব্যবহার করেন তখন ভয়েসের গুণমান বাড়ান।</string>
+    <string name="volte_is_adding_participants">কনফারেন্সের সদস্য যোগ করা হচ্ছে, অপেক্ষা করুন...</string>
+    <string name="volte_fail_to_invit_participants">কনফারেন্সে সব সদস্য যোগ করতে ব্যর্থ হয়েছে।</string>
+    <string name="voicemail_lable">ভয়েসমেইল (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">অপারেশন সম্পন্ন করার জন্য, আপনার <xliff:g id="sub_name">%s</xliff:g> এর ডাটা সংযোগ চালু করা প্রয়োজন।</string>
+    <string name="cdma_labelCFU">সবসময় ফরওয়ার্ড করুন</string>
+    <string name="cdma_labelCFB">ব্যস্ত পেলে ফরওয়ার্ড করুন</string>
+    <string name="cdma_labelCFNRy">জবাব না পেলে ফরওয়ার্ড করুন</string>
+    <string name="cdma_labelCFNRc">যখন কল পৌছায় না তখন ফরওয়ার্ড করুন</string>
+    <string name="cdma_labelCFC">সব ফরওয়ার্ডিং বাতিল করুন</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">কলার নম্বর আইডেনটিফিকেশন বিধিনিষেধ নিষ্ক্রিয় করুন</string> 
+    <string name="cdma_cnir_turnon">কলার নম্বর আইডেনটিফিকেশন বিধিনিষেধ সক্রিয় করুন</string>
+    <string name="lte_data_only_prompt">কেবল ৪জি ডাটা মোডের কারণে এই ফিচারটি ব্যবহার করতে পারছে না। আপনি কি কেবল ৪জি ডাটা মোড পরিত্যাগ করতে চান?</string>
+    <string name="lte_data_only_timeout">আপনার বর্তমান লোকেশনে কোন কেবল ৪জি ডাটা মোড পাওয়া যায় না, আপনি কি বের হয়ে অন্যান্য নেটওয়ার্কের জন্য অনুসন্ধান করতে চান?</string>
+    <string name="lte_only_dialog_button_yes">হ্যা</string>
+    <string name="lte_only_dialog_button_no">না </string>
+    <string name="lte_only_dialog_title_prompt">প্রম্পট</string>
+    <string name="enable_4G_data">৪জি ডাটা সক্রিয় করুন</string>
+    <string name="enable_4G_data_summary">৪জি আরো ভালো ও দ্রুততর ইন্টারনেট সুবিধা প্রদান করতে পারে</string>
+    <string name="only_use_LTE_data">কেবল এলটিই ডাটা ব্যবহার করুন</string>
+    <string name="only_use_LTE_data_summary">সক্রিয় করতে কেবল একক ডাটা ব্যবহার করুন, ফাংশনটি ফোন কল এবং টেক্সট বার্তা ব্যবহার করতে পারবে না।</string>
+    <string name="can_not_switch_enhanced_4g_lte_mode_tips">স্যূইচ সাময়িকভাবে অনুপব্ধ। অনুগ্রহ করে পরে আবার চেষ্টা করুন।</string>
+    <string name="ecc_select_tittle">এর মাধ্যমে আপৎকালীন কলগুলি</string>
+    <string name="no_sim_card_cdma">কোনও UIM কার্ড নেই</string>
+    <string name="description_dial_button_left">বামে ডায়াল করুন</string>
+    <string name="description_dial_button_right">ডানে ডায়াল করুন</string>
+
+    <string name="wfc_on_summary">Wi-Fi কলিং চালু আছে</string>
+    <string name="inavlid_sim_error">ত্রুটি 05: অবৈধ SIM</string>
+    <string name="cellular_prefered_summary">সেলুলার হল আপনার পছন্দের সংযোগের মোড</string>
+    <string name="not_connected_to_wifi_summary">Wi-Fi -এ সংযোগ হয় নি</string>
+    <string name="poor_wifi_signal_summary">খারাপ Wi-Fi সিগন্যাল</string>
+    <string name="wfc_enabling_summary">সক্রিয় হচ্ছে…</string>
+    <string name="wfc_disabling_summary">নিষ্ক্রিয় হচ্ছে…</string>
+    <string name="wfc_ready_for_calls_summary">কলের জন্য তৈরি</string>
+    <string name="wfc_wifi_call_drop">Wi-Fi কল কেটে গেছে</string>
+    <string name="wfc_internet_connection_lost">ইন্টারনেট সংযোগ বিচ্ছিন্ন হয়ে গেছে</string>
+    <string name="wfc_no_network">কোনো উপযুক্ত মোবাইল নেটওয়ার্ক উপলব্ধ নেই</string>
+    <string name="wfc_wifi_call_drop_summary">ওপস! কল চলার সময়েই আপনি হয়তো আপনার Wi-Fi নেটওয়ার্কের বাইরে চলে এসেছেন।\n\nআপনার কল শেষ করতে আপনার Wi-Fi নেটওয়ার্কে আবার সংযোগ করবেন?</string>
+    <string name="wfc_internet_lost_summary">ওপস! আপনার Wi-Fi সংযুক্ত রয়েছে, তবে আপনার ইন্টারনেট সংযোগ বিচ্ছিন্ন হয়েছে বলে মনে হচ্ছে।\n\nঅনুগ্রহ করে আপনার Wi-Fi রাউটারে ইন্টারনেট সংযোগটি পরীক্ষা করে নিন ও আবার সংযোগ করার চেষ্টা করুন।</string>
+    <string name="wfc_wifi_handover_fail">ওপস! আপনার কলটি সম্পন্ন করা গেল না।</string>
+    <string name="wfc_wifi_lte_handover_fail">ওপস! আপনার কল অবিরত রাখতে কোনো LTE নেটওয়ার্ক উপলব্ধ নেই।</string>
+    <string name="wfc_volte_switch_title">VoLTE</string>
+</resources>

@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
+    
+    <string name="menu_print">Drukāt</string>
+    <string name="printContact">Drukāt kontaktu, izmantojot</string>
+    <string name="no_way_to_print">Nav pieejama neviena lietojumprogramma, kas varētu drukāt kontaktu.</string>
+    
+    <string name="no_sdcard_title" product="nosdcard">Atmiņa nav pieejama</string>
+    
+    <string name="no_sdcard_title" product="default">Nav SD kartes</string>
+    
+    
+    <string name="selected_item_count"> 
+        <xliff:g id="count">%d</xliff:g> atlasīts(-i)
+    </string>
+    
+    <string name="recentCalls_delete">Dzēst</string>
+    <string name="menu_selectAll">"Atlasīt visu"</string>
+    <string name="menu_clearAll">"Atcelt atlasi"</string>
+        
+    
+    
+    <string name="all_resources">Visi resursi</string>
+    <string name="choose_resources_header">Izvēlēties resursus</string>
+    
+    <string name="all_tab_label1">VISS</string>
+    <string name="call_log_item_count">(<xliff:g id="count">%1$d</xliff:g>)</string>
+
+    
+    
+    <string name="call_sipcall">"Interneta zvans"</string>
+    <string name="call_pin_dialog_title">Atlasīt SIM karti</string>
+    <string name="call_people">Personas</string>
+    <string name="call_ip_dial">IP zvans</string>
+    <string name="call_speed_dial">Ātrā numura sastādīšana</string>
+    <string name="send_message">Sūtīt īsziņu</string>
+    <string name="call_video_call">"Videozvans"</string>
+    <string name="add_speed_dial">Pieskarieties, lai pievienotu ātro numura sastādīšanu</string>
+    <string name="speed_dial_added"> 
+        <xliff:g id="contact_name">%1$s</xliff:g> ( 
+        <xliff:g id="phone_label">%2$s</xliff:g>) pievienots ātro numuru sastādīšanai 
+        <xliff:g id="key">%3$s</xliff:g> 
+    </string>
+    <string name="speed_dial_added2"> 
+        <xliff:g id="contact_name">%1$s</xliff:g> pievienots ātro numuru sastādīšanai 
+        <xliff:g id="key">%2$s</xliff:g> 
+    </string>
+    <string name="remove_speed_dial">"Noņemt"</string>
+    <string name="remove_sd_confirm_1">Vai tiešām vēlaties 
+        <xliff:g id="contact_name">%1$s</xliff:g> ( 
+        <xliff:g id="phone_label">%2$s</xliff:g>) noņemt no ātro numuru sastādīšanas 
+        <xliff:g id="key">%3$s</xliff:g>?
+    </string>
+    <string name="remove_sd_confirm_2">Vai tiešām vēlaties 
+        <xliff:g id="contact_name">%1$s</xliff:g> noņemt no ātro numuru sastādīšanas 
+        <xliff:g id="key">%2$s</xliff:g>?
+    </string>
+    <string name="emergencycall">"Ārkārtas zvans"</string>
+    <string name="imei_invalid">Nederīgs</string>
+    <string name="call_log_filter_all_resources">Visi resursi</string>
+    <string name="turn_on_3g_service_message">"3G pakalpojums pašlaik ir izslēgts. Vai vēlaties to ieslēgt?"</string>
+    <string name="associate_sim_missing_message">"%1$s nav pieejama. Vai vēlaties veikt zvanu, izmantojot %2$s?"</string>
+    <string name="associate_sim_missing_other">"Citi"</string>
+    <string name="sim_manage_call_via">"Zvanīt, izmantojot"</string>
+    <string name="callFailed_simError">"Nav SIM vai SIM kļūda"</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">"Vispirms balss zvana iestatījumos ievadiet IP prefiksa numuru."</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">"IP numura sastādīšanas funkcija nav iespējama interneta zvaniem."</string>
+
+    
+    <string name="sd_add">"Pievienošana"</string>
+    <string name="reselect_number">Numurs jau ir piešķirts ātrās numura sastādīšanas taustiņam. Atlasiet citu numuru.</string>
+    
+    <string name="calllog_today">"Šodien"</string>
+    <string name="calllog_yesterday">Vakardiena</string>
+    
+    
+    <string name="menu_association">Sasaistīt karti</string>
+    <string name="menu_remove_association">Noņemt kartes saistīšanu</string>
+    <string name="remove_association_message">Vai tiešām vēlaties šim numuram noņemt kartes sasaisti?</string>
+    <string name="remove_number_title">"Noņemt"</string>  
+    <string name="warning_detail">Kartes sasaiste importēs kontaktu tālrunī. Vai vēlaties turpināt kartes sasaisti?</string>
+    <string name="block_incoming_call">Bloķēt ienākošos zvanus</string>
+    <string name="block_video_incoming_call">Tieši bloķēt ienākošos video zvanus</string>
+
+    
+    <string name="menu_actionbar_selected_items">
+<xliff:g id="name">%s</xliff:g> ir atlasīts</string>
+
+       
+    <string name="has_double_phone_number">Nevar divreiz saglabāt tādu pašu numuru, pārbaudiet to.</string>
+    <string name="phone_book_busy">Tālruņa grāmata ir aizņemta, mēģiniet vēlāk.</string>
+    <string name="sim_invalid">Nevar saglabāt kontaktu, kad karte ir nederīga.</string>
+    <string name="cannot_insert_null_number">Nevar saglabāt kontaktu, kura numurs ir tukšs.</string>
+    <string name="AirPlane_mode_on">Nevar saglabāt kontaktu, kad ieslēgts lidmašīnas režīms.</string>
+    <string name="FDNEnabled">Nevar saglabāt kontaktu, kad iespējots FDN.</string>
+    <string name="sim_invalid_number">Nevar saglabāt nederīgu numuru.</string>
+    <string name="email_invalid">Nevar saglabāt nederīgu e-pasta adresi.</string>
+    <string name="email_2g_invalid">E-pasta adresi nevar saglabāt 2G SIM kartē, saglabāšanai atlasiet 3G SIM karti.</string>
+    <string name="sim_invalid_fix_number">Nevar saglabāt nederīgu fiksēto numuru.</string>
+    <string name="AirPlane_mode_on_edit">Nevar rediģēt kontaktu, kad ieslēgts lidmašīnas režīms.</string>
+    <string name="msg_loading_sim_contacts_toast">"Ielādē SIM kartes kontaktus fonā, uzgaidiet kādu brīdi."</string>
+    <string name="fix_number_too_long">"Fiksētais numurs ir pārāk garš."</string>
+    <string name="name_too_long">"Vārds ir pārāk garš."</string>
+    <string name="storage_full">"Atmiņa ir pilna."</string>
+    <string name="number_too_long">"Numurs ir pārāk garš."</string>
+    <string name="generic_failure">"Vispārēja kļūme."</string>
+    <string name="email_too_long">E-pasta adrese ir pārāk gara</string>
+
+    <string name="send_groupsms_no_number_more">"%1$s un vēl %2$s kontaktiem nav derīgu tālruņa numura."</string>
+    <string name="send_groupsms_no_number_1">"%1$s nav derīga tālruņa numura."</string>
+    <string name="send_groupsms_no_number_2">"%1$s un %2$s nav derīga tālruņa numura."</string>    
+
+    
+
+    
+    <string name="account_type_sim" product="tablet">SIM konts</string>
+    
+    <string name="account_type_sim" product="default">SIM konts</string>
+
+    
+    <string name="account_type_usim" product="tablet">USIM konts</string>
+    
+    <string name="account_type_usim" product="default">USIM konts</string>
+
+    
+    <string name="account_type_local_phone" product="tablet">Tālruņa lokālais konts</string>
+    
+    <string name="account_type_local_phone" product="default">Tālruņa lokālais konts</string>
+
+
+    
+    <string name="local_account_type" product="tablet">Lokālais konts</string>
+    
+    <string name="local_account_type" product="default">Lokālais konts</string>
+
+    
+    <string name="local_account_label" product="tablet">Lokālais konts</string>
+    
+    <string name="local_account_label" product="default">Lokālais konts</string>
+
+    
+    <string name="account_type_sim_label" product="tablet">Tikai SIM, bez sinhronizācijas</string>
+    
+    <string name="account_type_sim_label" product="default">Tikai SIM, bez sinhronizācijas</string>
+
+    
+    <string name="account_type_usim_label" product="tablet">Tikai USIM, bez sinhronizācijas</string>
+    
+    <string name="account_type_usim_label" product="default">Tikai USIM, bez sinhronizācijas</string>
+
+    
+    <string name="please_wait">"Lūdzu, uzgaidiet"</string>
+    <string name="move_contacts_to">Pārvietot kontaktus uz</string>
+    <string name="menu_move_group">"Pārvietot grupas dalībniekus"</string> 
+    <string name="menu_message_group">"Sūtīt grupas ziņojumu"</string>
+    <string name="menu_email_group">"Sūtīt grupas e-pastu"</string>    
+    <string name="moving_group_members">"Pārvieto grupas dalībniekus\u2026"</string>
+    <string name="removing_group_members_sucess">"Grupas dalībnieki noņemti sekmīgi"</string>
+    <string name="moving_group_members_sucess">"Grupas dalībnieki pārvietoti sekmīgi"</string>
+    <string name="moving_group_members_fail">"Grupas dalībnieku pārvietošana neizdevās"</string>
+    <string name="no_valid_number_in_group">Šai grupai nav kontakta ar derīgu tālruņa numuru.</string>
+    <string name="no_valid_email_in_group">Šai grupai nav kontakta ar derīgu e-pasta adresi.</string>
+    <string name="email_error">Nepieciešams instalēt e-pasta lietojumprogrammu vai konfigurēt kontu!</string>
+    <string name="usim_group_name_exceed_limit">"Grupas nosaukums ir pārāk garš, lai saglabātu."</string>
+    <string name="usim_group_count_exceed_limit">"Krātuvei vairs nevar pievienot jaunas grupas."</string>
+    <string name="name_needed">Nepieciešams nosaukums</string>
+    <string name="save_group_fail">Neizdevās saglabāt grupu.</string>
+    <string name="group_name_exists">Grupas nosaukums jau pastāv.</string>
+    <string name="group_discard_member">Atmest</string>
+    <string name="group_discard_member_reason">Modifikācijas tiks atmestas, jo grupas nosaukums ir nederīgs.</string>
+
+    
+    <string name="import_export_title">"Importēt/eksportēt"</string>
+    <string name="next">"Tālāk"</string>
+    <string name="imexport_bridge_sd_card">SD karte</string>
+    <string name="tips_source">"Kopēt kontaktus no"</string>
+    <string name="tips_target">Kopēt kontaktus uz</string>
+    <string name="back">"Atpakaļ"</string>
+    <string name="imexport_title">Importēt/eksportēt kontaktus</string>
+    <string name="xport_error_one_account">"Lai importētu/eksportētu kontaktus, ievietojiet SIM karti vai SD karti."</string>
+    
+
+
+    
+    <string name="store_contact_to">Saglabāt kontaktu:</string>
+
+    
+    <string name="menu_delete_contact">Dzēst kontaktu</string>
+
+    <string name="menu_conference_call">Konferences zvans</string>
+
+    <string name="notifier_finish_delete_title">Kontaktu dzēšana veiksmīga</string>
+    <string name="notifier_finish_delete_content">Dzēsts(-i) 
+        <xliff:g id="total">%d</xliff:g> kontakts(-i)
+    </string>
+
+    <string name="notifier_finish_copy_title">Kontaktu kopēšana sekmīga</string>
+    <string name="notifier_finish_copy_content">Kopēts(-i) 
+        <xliff:g id="total">%d</xliff:g> kontakts(-i)
+    </string>
+
+    <string name="notifier_multichoice_process_report">Pabeigts(-i): 
+        <xliff:g id="items">%d</xliff:g>\nNepabeigts(-i): 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+
+    <string name="notifier_failure_by_sim_full">Kļūme radās, jo SIM kartes atmiņa ir pilna\nPabeigts(-i): 
+        <xliff:g id="items">%d</xliff:g>\nNepabeigts(-i): 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+    <string name="notifier_failure_sim_notready">Kļūme radās, jo SIM karte nav gatava\nPabeigts(-i): 
+        <xliff:g id="items">%d</xliff:g>\nNepabeigts(-i): 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+
+    <string name="notifier_cancel_delete_title">Kontakta(-u) dzēšana atcelta</string>
+    <string name="notifier_fail_delete_title">Kontakta(-u) dzēšanas kļūme</string>
+
+    <string name="notifier_cancel_copy_title">Kontakta(-u) kopēšana atcelta</string>
+    <string name="notifier_fail_copy_title">Kontakta(-u) kopēšanas kļūme</string>
+
+    <string name="notifier_progress__delete_will_start_message">Kontakts(-i) drīzumā tiks dzēsts(-i).</string>
+    <string name="notifier_progress_delete_message">Dzēš 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g>: 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> 
+    </string>
+    <string name="notifier_progress_delete_description">Dzēš 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> 
+    </string>
+
+    <string name="notifier_progress__copy_will_start_message">Kontakts(-i) drīzumā tiks kopēts(-i).</string>
+    <string name="notifier_progress_copy_message">Kopē 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g>: 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> 
+    </string>
+    <string name="notifier_progress_copy_description">Kopē 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> 
+    </string>
+
+    <string name="multichoice_confirmation_title_delete">Atceļ kontakta(-u) dzēšanu</string>
+    <string name="multichoice_confirmation_message_delete">Vai atcelt kontakta(-u) dzēšanu?</string>
+
+    <string name="multichoice_confirmation_title_copy">Atceļ kontakta(-u) kopēšanu</string>
+    <string name="multichoice_confirmation_message_copy">Vai atcelt kontakta(-u) kopēšanu?</string>
+    
+    <string name="multichoice_no_select_alert">"Nav atlasīts neviens vienums."</string>
+    <string name="multichoice_delete_confirm_message">"Vai tiešām vēlaties dzēst atlasīto(s) kontaktu(s)?"</string>
+    <string name="multichoice_delete_confirm_title">Vai dzēst kontaktu(s)?</string>
+    <string name="multichoice_contacts_limit">"Nevar būt atlasīti vairāk nekā "<xliff:g id="count">%d</xliff:g>" kontaktu"</string>
+
+    
+    <string name="phone_storage_full_create">Tālruņa atmiņa ir pilna, nevarat izveidot jaunu kontaktu.</string>
+    <string name="phone_storage_full_edit">Tālruņa atmiņa ir pilna, nevarat rediģēt kontaktu.</string>
+
+	
+	<string name="add_SIP_to_sim">Kartes kontaktam nevar pievienot SIP numuru.</string>
+	
+	<string name="already_has_SIP">Ja nepieciešams turpināt, kontaktam nevar pievienot divus SIP numurus. Vispirms dzēsiet veco SIP numuru.</string>
+        
+
+    
+       
+    <plurals name="searchFoundCalllogs">
+        <item quantity="one">1 zvanu žurnāls</item>
+        <item quantity="other">
+<xliff:g id="count">%d</xliff:g> zvanu žurnāli</item>
+    </plurals>
+        
+    <string name="search_results_for">Meklēšanas rezultāti: 
+        <xliff:g id="query">%s</xliff:g> 
+    </string>
+    <string name="listFoundAllCalllogZero">Zvanu žurnāls netika atrasts</string>
+    
+    <string name="calllogList">"Zvanu vēsture"</string>
+    <string name="calllogHint">Meklēt zvanu žurnālus</string>
+    <string name="calllog_description">Ienākošie, izejošie un neatbildētie zvani</string>
+    <string name="noMatchingCalllogs">Netika atrasts atbilstošs zvanu žurnāls.</string>
+    
+    <string name="menu_videocallNumber">Video zvans 
+        <xliff:g id="name">%s</xliff:g> 
+    </string>
+    <string name="menu_ipcallNumber">IP zvans 
+        <xliff:g id="name">%s</xliff:g> 
+    </string>
+    
+    <string name="deleting_call_log">Notiek zvanu žurnāla dzēšana...</string>
+    
+    
+    
+    
+    <string name="no_vm_number">"Trūkst balss pasta numura"</string>
+    
+    <string name="no_vm_number_msg">"SIM kartē neviens balss pasta numurs nav saglabāts."</string>
+    
+    <string name="add_vm_number_str">"Pievienot numuru"</string>
+    
+    <string name="reminder">"Atgādinātājs"</string>
+    <string name="enable_sip_dialog_message">"Interneta zvanīšana ir atspējota. Vai iespējot to?"</string>
+    <string name="share_contacts_limit">"Koplietošanai nevar būt atlasīti vairāk par 1000 kontaktiem"</string>
+    
+    <string name="contact_delete_all_tips">"Notiek kontaktu dzēšana, darbību nevar izpildīt."</string>
+    <string name="sum_search_networks">"Meklēt visus pieejamos tīklus"</string>
+
+    
+    <string name="deleteCallLogConfirmation_title">Vai dzēst zvanu žurnālu(s)?</string>
+
+    
+    <string name="deleteCallLogConfirmation_message">Vai tiešām vēlaties dzēst atlasīto(s) zvanu žurnālu(s)?</string>
+    
+    <string name="file_already_on_sd_card">"Fails pašlaik atrodas SD kartē."</string>
+    <string name="send_file_sms_error">Failu nevar koplietot, izmantojot SMS; izmantojiet MMS.</string>
+    <string name="user_profile_cannot_sd_card">"Izmantojot šo metodi, nevar koplietot saturu."</string>
+    
+    <string name="error_save_usim_contact_email_lost">"Neizdevās saglabāt e-pasta adresi, jo e-pasta adrešu krātuve ir pilna."</string>
+    <string name="error_import_usim_contact_email_lost">"Neizdevās importēt dažus kontaktus\e-pasta adreses, jo e-pasta adrešu krātuve ir pilna.\nPabeigti: <xliff:g id="items">%d</xliff:g>\nNepabeigti: <xliff:g id="items">%d</xliff:g>"</string>
+    <string name="type_ip_outgoing">IP izejošais zvans ( 
+        <xliff:g id="name">%s</xliff:g>)
+    </string>
+    
+    <string name="call_sms">"Īsziņa"</string>
+    
+    
+    <string name="delete_group_failure">Neizdevās dzēst grupu.</string>
+    
+    <string name="account_type_uim_label" product="tablet">Tikai UIM, bez sinhronizācijas</string>
+    
+    <string name="account_type_uim_label" product="default">Tikai UIM, bez sinhronizācijas</string>
+    <string name="call_log_auto_rejected_label">Automātiski noraidītie zvani</string>
+    <string name="import_no_vcard_dialog_text">
+<xliff:g id="storage_name">%s</xliff:g> nav atrasts vCard fails</string>
+    <string name="look_simstorage">Skatīt SIM kartes kapacitāti</string>
+    <string name="dlg_simstorage_content">Tālruņa grāmatas atmiņas kapacitāte 
+        <xliff:g id="items">%d</xliff:g>, izmantoti 
+        <xliff:g id="items">%d</xliff:g>.
+    </string>
+
+    
+
+    <string name="contact_group_list_title">"Izvēlēties mērķa grupu"</string>
+    
+    
+    <string name="send_groupemail_no_number_more">"%1$s un vēl %2$s kontaktiem nav derīgas e-pasta adreses."</string>
+    <string name="send_groupemail_no_number_1">"%1$s nav derīgas e-pasta adreses."</string>
+    <string name="send_groupemail_no_number_2">"%1$s un %2$s nav derīgas e-pasta adreses."</string>
+    
+    
+    <string name="add_contact_dlg_title">Piev. kontaktpers.</string>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+    <string name="deleteConfirmation_title">Vai dzēst kontaktu?</string>
+    
+    <string msgid="4313552620858880999" name="dialog_phone_call_prohibited_title">Zvans nav nosūtīts</string>
+    
+    <string name="dialog_voicemail_not_ready_title">Nav pieejams balss pasta numurs</string>
+    
+    
+    <string name="scanning_sdcard_failed_title" product="nosdcard">Nevarēja pārmeklēt SD karti</string>
+    
+    <string name="scanning_sdcard_failed_title" product="default">Nevarēja pārmeklēt SD karti</string>
+    
+    
+
+    
+    <string name="nickname_too_long">"Aizstājvārds ir pārāk garš."</string>
+    
+    <string name="pick_new_photo_from_gallery">Atlasīt jaunu fotoattēlu</string>
+    <string name="copy_text_to_dialer">Kopēt numuru sastādītājā</string>
+    
+    
+    <string name="contact_detail_group_list_title">"Grupas"</string>
+    <string name="contact_detail_group_not_assigned">Nav piešķirts</string>
+    <string name="contact_detail_group_list_nogroups">"Nav esošu grupu. Vai vēlaties izveidot jaunu grupu?"</string>
+    <string name="recents">Pēdējais</string>
+    <string name="contact_no_recents">Nav pēdējā</string>
+    <string name="contact_detail_ip_call">IP zvans</string>
+    <string name="contact_detail_history_mms_received_time">"Saņemšanas laiks: %1$s"</string>
+    <string name="contact_detail_history_mms_received_from">"Saņemts no: %1$s"</string>
+    <string name="contact_detail_history_mms_sent_time">"Nosūtīšanas laiks: %1$s"</string>
+    <string name="contact_detail_history_mms_sent_to">"Nosūtīts: %1$s"</string>
+    
+    <string name="contact_detail_history_calllog">"Zvanu vēsture"</string>
+    
+    <string name="contact_detail_history_mms">Īsziņas</string>
+    <string name="contact_detail_history_duration">"Ilgums:"</string>
+    <string name="contact_detail_history_ismms">Multiziņa</string>
+    <string name="contact_detail_history_empty_calllog">"Zvanu vēsture ir tukša"</string>
+    <string name="contact_detail_history_empty_message">Nav ziņojuma</string>
+    <string name="contact_detail_history_empty">"Nav zvanu, īsziņu vēstures"</string>
+    <string name="contact_recent_number_limit">"Pieejami tikai %1$s kontakti"</string>
+    <string name="contact_recent_group_label">"Grupa"</string>
+        
+    
+    <string name="call_pin_dialog_title_ct">Atlasīt UIM/SIM karti</string>
+    <string name="callFailed_simError_ct">Nav UIM/SIM vai UIM/SIM kļūda</string>
+    <string name="msg_loading_sim_contacts_toast_ct">"Ielādē UIM/SIM kartes kontaktus fonā, uzgaidiet kādu brīdi."</string>
+    <string name="xport_error_one_account_ct">"Lai importētu/eksportētu kontaktus, ievietojiet UIM/SIM karti vai SD karti."</string>
+    <string name="notifier_failure_by_sim_full_ct">Kļūme radās, jo UIM/SIM kartes atmiņa ir pilna\nPabeigts(-i): 
+        <xliff:g id="items">%d</xliff:g>\nNepabeigts(-i): 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+    <string name="notifier_failure_sim_notready_ct">Kļūme radās, jo UIM/SIM karte nav gatava\nPabeigts(-i): 
+        <xliff:g id="items">%d</xliff:g>\nNepabeigts(-i): 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+    <string name="look_simstorage_ct">Skatīt UIM/SIM kartes kapacitāti</string>
+
+    <string name="callFailed_cdma_notEmergency">"Iespējami ir tikai ārkārtas zvani."</string>
+
+    
+    <string name="international_dialing_title">"Starptautiskas numura sastādīšanas palīdzība"</string>
+    <string name="international_dialing_select_country">"Tika noteikts, ka veicat starptautisku zvanu. Izvēlieties mērķa vietu."</string>
+    <string name="international_dialing_add_country_code">Konstatēts, ka zvanāt uz 
+        <xliff:g id="country_name">%s</xliff:g> numuru. Vai vēlaties pievienot valsts kodu (+ 
+        <xliff:g id="country_code">%s</xliff:g>)?
+    </string>
+    <string name="international_dialing_add_country_code_and_area_code">Konstatēts, ka zvanāt uz numuru valstī 
+        <xliff:g id="area_name">%1$s</xliff:g>, 
+        <xliff:g id="country_name">%2$s</xliff:g>. Vai vēlaties pievienot valsts kodu un apgabala kodu (+ 
+        <xliff:g id="prefix">%3$s</xliff:g>)?
+    </string>
+    <string name="international_dialing_change_country_prefix">Konstatēts, ka zvanāt no 
+        <xliff:g id="country_name">%s</xliff:g>. Vai mainīt starptautiskā zvana prefiksu uz \'+\'?
+    </string>
+    <string name="international_dialing_add_country_code_input_area_code">Konstatēts, ka zvanāt uz numuru valstī 
+        <xliff:g id="country_name">%s</xliff:g>. Ja jā, ievadiet apgabala kodu.
+    </string>
+    <string name="international_dialing_add_country_code_default_input_area_code">Konstatēts, ka zvanāt uz numuru valstī 
+        <xliff:g id="country_name">%s</xliff:g>. Ja mērķa valsts ir 
+        <xliff:g id="area_name">%s</xliff:g>, ievadiet apgabala kodu.
+    </string>
+    <string name="international_dialing_need_area_code">"Zvanam ir nepieciešams mērķa pilsētas apgabala kods."</string>
+    <string name="international_dialing_input_area_code">"Apgabala kodu ievadiet šeit"</string>
+    <string name="international_dialing_dialed_number">"Iezvanes numurs:"</string>
+    <string name="international_dialing_confirm_area_code">Ja mērķa valsts ir 
+        <xliff:g id="area_name">%s</xliff:g>, tālāk ievadiet mērķa pilsētas apgabala kodu.
+    </string>
+    <string name="international_dialing_click_below_button">"Noklikšķiniet uz pogas tālāk, lai mainītu valsts koda numuru."</string>
+    <string name="international_dialing_yes">"Jā. Lietojiet numuru tālāk:"</string>
+    <string name="international_dialing_no">"Nē. Lietojiet sākotnējo numuru:"</string>
+    <string name="international_dialing_call_button">"Zvanīt"</string>
+    <string name="international_dialing_area_code">"apgabala kods"</string>
+    <string name="international_dialing_invalid_number">"Numurs nav derīgs. Vai vienalga vēlaties turpināt ar zvanu?"</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">"Vai vēlaties pievienot valsts kodu un apgabala kodu?"</string>
+    <string name="no_search_result">"Nav meklēšanas rezultātu"</string>
+
+    <string name="account_phone_only" product="tablet">"Planšetdators"</string>
+    <string name="account_phone_only" product="default">Tālruņa kontakts</string>
+    
+    
+    
+    <string name="no_match_call_log">"Nav atbilstošu vienumu"</string>
+    <string name="no_call_log">"Nav zvanu žurnālu"</string>
+    <string name="share_too_large">Kopējie dati pārsniedz augšējo ierobežojumu, atceliet atlasi dažiem vienumiem un mēģiniet vēlreiz.</string>
+
+    
+    
+
+    <string name="err_icc_no_phone_book">%1$s nevar saglabāt kontaktus</string>
+
+    
+    
+    <string name="titleJoinContactDataWith">"Kontaktpersonu apvienošana"</string>
+
+    
+    <string name="menu_select_all">"Atlasīt visas"</string>
+
+    
+    <string name="list_filter_custom">"Pielāgotas"</string>
+
+    
+    <string name="add_contact_dlg_message_fmt">"Vai pievienot “ 
+        <xliff:g id="EMAIL">%s</xliff:g>” kontaktpersonām?"
+    </string>
+
+    
+    <string name="locale_change_in_progress">"Kontaktpersonu saraksts tiek atjaunināts, lai atspoguļotu valodas maiņu."</string>
+
+    
+    <string name="noFavoritesHelpText">"Jūs neesat izveidojis izlasi.\n\nLai pievienotu kontaktu izlasei, rīkojieties šādi:\n 
+        <li>Pieskarieties cilnei</li> \n 
+        <li>Pieskarieties kontaktam, kuru vēlaties pievienot izlasei\n</li> \n 
+        <li>Pieskarieties zvaigznītei blakus kontakta vārdam\n</li>"
+    </string>
+
+    
+    <string name="non_phone_caption">"Tālruņa numurs"</string>
+
+    
+    <string name="menu_select_none">"Noņemt atlasi visam"</string>
+
+    <string name="find_call_logs">Atrast zvanu žurnālus</string>
+    <string name="call_log_via_sim_name_notice">ZVANU ŽURNĀLI NO \" 
+        <xliff:g id="sim_name">%s</xliff:g>\"
+    </string>
+    
+
+    
+    <string name="mtk_contact_list_loading">Ielādē\u2026</string>
+    <string name="vcard_import_failed_v2">Nevar importēt</string>
+    <string name="quickcontact_missing_app">"Netika atrasta neviena lietotne šīs darbības veikšanai."</string>
+    
+    
+    <string name="call_speed_dial_title">Ātrā numura sastādīšana</string>
+    <string name="dialog_no_speed_dial_number_message">Vai neviens ātrās numuru sastādīšanas numurs nav iestatīts?</string>
+    <string name="icc_phone_book_invalid">Tālruņa grāmata pašlaik nav pieejama. Mēģiniet vēlāk.</string>
+    <string name="error_edit_join_group">Šis ir apvienotais kontakts. Grupas informāciju varat rediģēt rediģēšanas režīmā.</string>
+    
+    <string name="local_phone_account" product="tablet">"Planšetdators"</string>
+    <string name="local_phone_account" product="default">"Tālrunis"</string>
+    <string name="imsCallLabelsGroup">IMS zvans</string>
+    <string name="sip_url">SIP URL</string>
+    <string name="ims_call_disabled">IMS zvans nav pieejams</string>
+    <string name="vcs_menu_voice_contacts_search" product="default">Kontaktu meklēšana ar balsti</string>
+    <string name="vcs_msg_no_voice_contacts">Diemžēl kontakts netika atrasts.</string>
+    <string name="contact_import_export_tips">Notiek kontaktu importēšana/eksportēšana. Mēģiniet vēlāk</string>
+<string name="can_not_switch_account_during_call">Zvana laikā nevar pārslēgt vēlamo zvanu SIM.</string>
+<string name="can_not_switch_account_temporarily">Īslaicīgi nevar pārslēgt vēlamo zvanu SIM.</string>
+<string name="location_permission_title">Drošības brīdinājums</string>
+<string name="location_permission_summary">Kontaktpersonas mēģina iegūt jūsu pašreizējo atrašanās vietu.\n(Automātiski liegt pēc <xliff:g id="time_sec">%1$s</xliff:g> sekundēm)</string>
+<string name="location_permission_allow">Atļaut</string>
+<string name="location_permission_deny">Liegt</string>
+</resources>

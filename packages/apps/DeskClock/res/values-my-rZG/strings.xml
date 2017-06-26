@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">နာရီ</string>
+    <string name="alarm_list_title">ႏိႈးစက္မ်ား</string>
+    <string name="add_alarm">ႏႈိးစက္ခ်ိန္ ေပါင္းထည့္ပါ</string>
+    <string name="alarm_timeline_title_text">NEXT ALARMS</string>
+    <string name="menu_desk_clock">စားပြဲတင္ နာရီ</string>
+    <string name="menu_edit_alarm">ႏိႈးစက္ခ်ိန္ ျပင္ဆင္ပါ</string>
+    <string name="delete_alarm">ႏိႈးစက္ခ်ိန္ကို ဖ်က္ပါ</string>
+    <string name="enable_alarm">ႏိႈးစက္ခ်ိန္ကို ဖြင့္ပါ</string>
+    <string name="disable_alarm">ႏိႈးစက္ခ်ိန္ကို ပိတ္ပါ</string>
+    <string name="delete_alarm_confirm">ဤႏိႈးစက္ခ်ိန္ ဖ်က္မည္လား။</string>
+    <string name="show_clock">နာရီကို ျပထားပါ</string>
+    <string name="hide_clock">နာရီကို ေဖ်ာက္ထားပါ</string>
+    <string name="label">ေလဘယ္လ္</string>
+    <string name="default_label">ႏိႈးစက္</string>
+    <string name="set_alarm">ႏိႈးစက္ အခ်ိန္ ေပးထားသည္</string>
+    <string name="alarm_vibrate">တုန္ခါပါ</string>
+    <string name="alarm_repeat">ေနာက္တစ္ခါ ျပဳလုပ္သည္</string>
+    <string name="alert">ဖုန္းျမည္သံ</string>
+    <string name="ringtone">ဖုန္းေခၚဆိုမႈတီးလံုးေရြးခ်ယ္ပါ</string>
+    <string name="time">အခ်ိန္</string>
+    <string name="alarm_alert_dismiss_text">"ပယ္ခ်ပါ"</string>
+    <string name="alarm_alert_dismiss_now_text">Dismiss Now</string>
+    <string name="alarm_missed_title">Missed alarm</string>
+    <string name="alarm_missed_text"><xliff:g id="alarm_time">%s</xliff:g> - <xliff:g id="alarm_label">%s</xliff:g></string>
+    <string name="alarm_alert_snooze_text">ဘယ္ဟာမွ်မဟုတ္ပါ</string>
+    <plurals name="alarm_alert_snooze_set">
+        <item quantity="one">Snoozing for 1 minute.</item>
+        <item quantity="other"> <xliff:g id="minutes">%d</xliff:g>မိနစ္ အတြက္ တစ္ေမွးထားသည္။ </item>
+    </plurals>
+    <string name="alarm_alert_snooze_until"><xliff:g id="time">%s</xliff:g> တိုင္ေအာင္ ခဏျပန္အိပ္မည္</string>
+    <string name="alarm_alert_predismiss_title">Upcoming alarm</string>
+    <string name="missed_alarm_has_been_deleted">Your missed alarm has been deleted</string>
+    <skip/>
+    <string-array name="timer_notifications">
+        <item>တစ္မိနစ္ေအာက္က်န္</item>
+        <item><xliff:g id="HOURS" example="2hours">%1$s</xliff:g> <xliff:g id="MINUTES" example="2minutes">%2$s</xliff:g> က်န္</item>
+        <item><xliff:g id="MINUTES" example="2minutes">%2$s</xliff:g> က်န္</item>
+        <item><xliff:g id="HOURS" example="2hours">%1$s</xliff:g> <xliff:g id="MINUTES" example="2minutes">%2$s</xliff:g> က်န္</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>ယခုမွစ၍ ၁ မိနစ္ ေလ်ာ့ၿပီး ႏိႈးစက္ အခ်ိန္ေပးထားသည္။</item>
+        <item>ယခု မွစ၍ <xliff:g id="DAYS" example="2days">%1$s</xliff:g>and <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>အတြက္ ႏိႈးစက္အခ်ိန္ ေပးထားသည္။ </item>
+        <item>ယခု မွစ၍ <xliff:g id="DAYS" example="2days">%1$s</xliff:g>and <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>အတြက္ ႏိႈးစက္အခ်ိန္ ေပးထားသည္။ </item>
+        <item>ယခု မွစ၍ <xliff:g id="DAYS" example="2days">%1$s</xliff:g>and <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>အတြက္ ႏိႈးစက္အခ်ိန္ ေပးထားသည္။ </item>
+        <item>ယခု မွစ၍ <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g>အတြက္ ႏိႈးစက္ အခ်ိန္ ေပးထားသည္။ </item>
+        <item>ယခု မွစ၍ <xliff:g id="DAYS" example="2days">%1$s</xliff:g>and <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g>အတြက္ ႏိႈးစက္ အခ်ိန္ ေပးထားသည္။ </item>
+        <item>ယခု မွစ၍ <xliff:g id="DAYS" example="2days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>,and <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g>အတြက္ ႏိႈးစက္ အခ်ိန္ ေပးထားသည္။ </item>
+        <item>ယခု မွစ၍ <xliff:g id="DAYS" example="2days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>,and <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g>အတြက္ ႏိႈးစက္ အခ်ိန္ ေပးထားသည္။ </item>
+    </string-array>
+    <string name="day">"၁ ရက္"</string>
+    <string name="days">"<xliff:g id="days">%s</xliff:g> ရက္" </string>
+    <string name="hour">၁ နာရီ</string>
+    <string name="hours">  <xliff:g id="hours">%s</xliff:g> နာရီ</string>
+    <string name="minute">"၁ မိနစ္"</string>
+    <string name="minutes">"<xliff:g id="minutes">%s</xliff:g> မိနစ္" </string>
+    <string name="every_day">ေန႔စဥ္</string>
+    <string name="never">ဘယ္ေတာ့မွ်</string>
+    <string name="day_concat">", "</string>
+    <string name="clock_instructions">နာရီ ေရြးခ်ယ္ပါ</string>
+    <string name="analog_gadget">အင္နာေလာ့ခ္ နာရီ</string>
+    <string name="help">အကူအညီ</string>
+    <string name="settings">အျပင္အဆင္မ်ား</string>
+    <string name="snooze_duration_title">တေမွးအိပ္သည့္ ၾကာခ်ိန္</string>
+    <plurals name="snooze_duration">
+        <item quantity="one">၁ မိနစ္</item>
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> minutes</item>
+    </plurals>
+    <plurals name="snooze_picker_label">
+        <item quantity="one">မိနစ္</item>
+        <item quantity="other">မိနစ္</item>
+    </plurals>
+    <string name="auto_silence_title">အလိုအေလ်ာက္ အသံတိတ္သည္</string>
+    <string name="auto_silence_summary"> <xliff:g id="minutes">%d</xliff:g>မိနစ္ ၿပီးေနာက္ ႏိႈးစက္ေပးထားသည့္ အခ်ိန္သည္ အလိုအေလ်ာက္ အသံတိတ္လိမ့္မည္ </string>
+    <string name="auto_silence_never">ဘယ္ေတာ့မွ်</string>
+    <string-array name="auto_silence_entries">
+      <item>ပိတ္သည္</item>
+      <item>၅ မိနစ္</item>
+      <item>၁၀ မိနစ္</item>
+      <item>၁၅ မိနစ္</item>
+      <item>၂၀ မိနစ္</item>
+      <item>၂၅ မိနစ္</item>
+      <item>ဘယ္ေတာ့မွ်</item>
+      </string-array>
+    <string name="done">ၿပီးၿပီ</string>
+    <string name="revert">မူရင္းသို႔ျပန္ထားရန္</string>
+    <string name="delete">ဖ်က္ပါ</string>
+    <string name="alarm_volume_title">ႏိႈးစက္ အသံ</string>
+    <string name="silent_alarm_summary">အသံတိတ္</string>
+    <string name="alarm_notify_text">ႏိႈးစက္အခ်ိန္ေပးထား သည္ကို တစ္ေမွး ထားသည္ သို႔မဟုတ္ ျဖဳတ္သည္။</string>
+    <string name="alarm_notify_snooze_label"> <xliff:g id="label">%s</xliff:g> (တေမွးထားခဲ့သည္) </string>
+    <string name="alarm_notify_snooze_text"> <xliff:g id="time">%s</xliff:g>အတြက္ ႏိႈးစက္ အခ်ိန္ေပးထားသည္။ ဖ်က္ရန္ ထိပါ။ </string>
+    <string name="volume_button_setting_title">အသံ အတိုး၊ အက်ယ္ ခလုတ္မ်ား</string>
+    <string name="volume_button_dialog_title">ခလုတ္ အထူးျပဳလုပ္ခ်က္</string>
+    <string-array name="volume_button_setting_entries">
+      <item>ဘယ္ဟာမွ်မဟုတ္ပါ</item>
+      <item>"ပယ္ခ်ပါ"</item>
+      <item>ျဖဳတ္သည္</item>
+      </string-array>
+    <string name="default_ringtone_setting_title">သတ္မွတ္ထားေသာ ဖုန္းျမည္သံ တပ္ဆင္သည္</string>
+    <skip/>
+    <string name="alarm_button_description">ႏိႈးစက္မ်ား</string>
+    <string name="gallery_button_description">စကားေျပာထားသည့္ မွတ္တမ္း အားလံုးအား ဤစကားေျပာခန္းမွ ရွင္းလင္းမည္</string>
+    <string name="music_button_description">ဂီတ</string>
+    <string name="nightmode_button_description">မႈန္ဝါးေသာ</string>
+    <string name="home_button_description">လုပ္ငန္းတစ္ခု အစပ်ဳိးျခင္း</string>
+    <string name="desk_clock_button_description">နာရီ ေဖာ္ျပျခင္း</string>
+    <string name="label_description">ေလဘယ္လ္</string>
+    <string name="ringtone_description">ဖုန္းေခၚဆိုမႈတီးလံုးေရြးခ်ယ္ပါ</string>
+    <string name="battery_charging_level"><xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+    <string name="weather_fetch_failure">မိုးေလဝသအေျခအေနအခ်က္အလက္သည္ ယခု မရႏိုင္ပါ။</string>
+    <string name="alarm_klaxon_service_desc">နာရီ တြင္ တပ္ဆင္ထားေသာ ႏိႈးစက္မ်ား အတြက္ ေနာက္ခံအသံဖြင့္ျခင္း ဝန္ေဆာင္မႈလုပ္သည္။</string>
+    <string name="loading_ringtone">ဖုန္းျမည္သံ တင္ေနသည္\u2026</string>
+    <string name="timer_ring_service_desc">အခ်ိန္သတ္မွတ္ခ်က္ အတြက္ အသံျပန္လည္ဖြင့္ျခင္း ဝန္ေဆာင္မႈအား နာရီတြင္း ထားရွိၿပီးျဖစ္သည္။</string>
+    <string name="control_set_alarm">ႏိႈးစက္ အခ်ိန္ ေပးထားသည္</string>
+    <string name="menu_alarm">ႏိႈးစက္</string>
+    <string name="menu_timer">စံခ်ိန္ယူ အခ်ိန္တုိင္းတာမႈ </string>
+    <string name="menu_clock">နာရီ</string>
+    <string name="menu_stopwatch">အခ်ိန္မွတ္သည့္နာရီ</string>
+    <string name="button_alarms">ႏိႈးစက္မ်ား</string>
+    <string name="button_cities">ၿမိဳ႕မ်ား</string>
+    <string name="button_menu">ေနာက္ထပ္ ေရြးခ်ယ္စရာမ်ား</string>
+    <string name="menu_item_settings">အျပင္အဆင္မ်ား</string>
+    <string name="menu_item_help">အကူအညီ</string>
+    <string name="menu_item_night_mode">ညဘက္ပံုစံ</string>
+    <string name="menu_item_sort_by_gmt_offset">Sort by time</string>
+    <string name="menu_item_sort_by_name">အမည္အလိုက္စီပါ</string>
+    <string name="selected_cities_label">Selected Cities</string>
+    <string name="sw_resume_button">ျပန္လည္စတင္ရန္</string>
+    <string name="sw_start_button">စတင္ပါ</string>
+    <string name="sw_stop_button">ရပ္ပါ</string>
+    <string name="sw_lap_button">ေက်ာ္ပါ</string>
+    <string name="sw_reset_button">ျပန္လည္သတ္မွတ္ပါ</string>
+    <string name="sw_share_button">ေဝမွ်ပါ</string>
+    <string name="hours_label">နာရီ</string>
+    <string name="minutes_label">မတ္</string>
+    <string name="seconds_label">စက္</string>
+    <string name="hours_label_description">နာရီ</string>
+    <string name="minutes_label_description">မိနစ္</string>
+    <string name="seconds_label_description">စကၠန္႔</string>
+    <string name="zero">0</string>
+    <string name="sw_share_main">မိမိအခ်ိန္မွာ <xliff:g id="time">%s</xliff:g> ျဖစ္သည္</string>
+    <string name="sw_share_laps">ရစ္ပတ္အၾကိမ္မ်ား-</string>
+    <string name="sw_notification_lap_number">ရစ္ပတ္မႈ <xliff:g id="number">%d</xliff:g>ႀကိမ္</string>
+    <plurals name="Nhours_description">
+        <item quantity="one">၁ နာရီ</item>
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> နာရီ</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <item quantity="one">၁ မိနစ္</item>
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> minutes</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <item quantity="one">၁ စကၠန္႔</item>
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> စကၠန္႔</item>
+    </plurals>
+    <string name="timer_add_timer">စံခ်ိန္ယူ အခ်ိန္တုိင္းတာမႈ ထည့္ပါ</string>
+    <string name="timer_start">စတင္ပါ</string>
+    <string name="timer_delete">ဖ်က္ပါ</string>
+    <string name="timer_plus_one">၁ မိနစ္ထည့္ပါ</string>
+    <string name="timer_plus_1_min">Add 1 min</string>
+    <string name="timer_stop">ရပ္ပါ</string>
+    <string name="timer_done">ၿပီးၿပီ</string>
+    <string name="timer_reset">ျပန္လည္သတ္မွတ္ပါ</string>
+    <string name="timer_cancel">မလုပ္ပါ</string>
+    <string name="timer_times_up">အခ်ိန္ျပည့္ၿပီ</string>
+    <string name="timer_notification_label">စံခ်ိန္ယူ အခ်ိန္တုိင္းတာမႈ </string>
+    <string-array name="sw_share_strings" translatable="true">
+        <item>သင္သည္ အေတာ္အသင့္ ဒီမြန္ျဖစ္သည္။</item>
+        <item>သင့္လုပ္အား၏ အသီးအပြင့္မ်ားကို ခံစားပါ။</item>
+        <item>အဲန္ဒ႐ိုက္ မ်ားမွာ ျမန္သည္ဟု လူသိမ်ားေသာ္လည္း သင့္ေလာက္ေတာ့ မျမန္ေခ်။</item>
+        <item>ဝူး။</item>
+        <item>L33t ႀကိမ္။</item>
+        <item>ျမန္လိုက္တဲ့အလ်င္။</item>
+        <item>အခ်ိန္ကို ထပ္၍ ျပန္စရေအာင္</item>
+        <item>ဘယ္ဘက္သို႔ ေျပာင္းလိုက္႐ံုသာ ျဖစ္သည္။</item>
+        <item>အလ်င္စလိုျပဳလုပ္ရန္ သင့္တြင္ ေရာင္စံုဘုတ္ျပား ရွိသည္။</item>
+        <item>အလင္းအမႈန္အလ်င္။</item>
+    </string-array>
+    <plurals name="timers_num">
+        <item quantity="one">၁ မိနစ္</item>
+        <item quantity="other">စံခ်ိန္ယူ အခ်ိန္တုိင္းတာမႈ  <xliff:g id="number" example="7">%d</xliff:g> ခု</item>
+    </plurals>
+    <string name="home_label">အိမ္</string>
+    <string name="cities_activity_title">ၿမိဳ႕မ်ား</string>
+    <string name="clock_settings">နာရီ</string>
+    <string name="clock_style">စတိုင္</string>
+    <string-array name="clock_style_entries">
+      <item>အန္နာေလာ့ဂ္</item>
+      <item>ဒစ္ဂ်စ္တယ္</item>
+    </string-array>
+    <string name="automatic_home_clock">အလိုအေလ်ာက္ အိမ္သံုးနာရီ</string>
+    <string name="automatic_home_clock_summary">အခ်ိန္မတူညီသည့္ ေနရာသို႔ ခရီးသြားစဥ္ မိမိႏိုင္ငံ၏ နာရီကို ထည့္ပါ</string>
+    <string name="home_time_zone">သင့္ႏိုင္ငံအခ်ိန္ဇုန္</string>
+    <string name="home_time_zone_title">သင့္ႏိုင္ငံအခ်ိန္ဇုန္</string>
+    <string name="time_picker_cancel">မလုပ္ပါ</string>
+    <string name="time_picker_set">အိုေက</string>
+    <string name="time_picker_time_seperator">:</string>
+    <string name="time_picker_ampm_label">--</string>
+    <string name="time_picker_00_label">:00</string>
+    <string name="time_picker_30_label">:30</string>
+    <string-array name="timezone_labels">
+        <item>"မာရွယ္ ကၽြန္းမ်ား"</item>
+        <item>"မစ္ဒ္ေဝး ကၽြန္း"</item>
+        <item>"ဟာဝိုင္အီ"</item>
+        <item>အန္းကားေရ႕ဂ်္ (အလားစကား)</item>
+        <item>"ပစိဖတ္ အခ်ိန္"</item>
+        <item>"တီဟြမ္နာ"</item>
+        <item>"အာရီဇိုးနား"</item>
+        <item>"ခ်ီဟြားဟြား"</item>
+        <item>"ေတာင္ အခ်ိန္"</item>
+        <item>"အေမရိက အလယ္ပိုင္း"</item>
+        <item>"အလယ္ပိုင္း အခ်ိန္"</item>
+        <item>"မကၠဆီကို စီးတီး"</item>
+        <item>"စာစကတ္ခ်ီဝမ္"</item>
+        <item>"ဘိုဂိုတာ"</item>
+        <item>"အေရွ႕ပိုင္း အခ်ိန္"</item>
+        <item>"ဗင္နီဇြဲလား"</item>
+        <item>"အတၱလန္တိတ္ အခ်ိန္ (ဘာေဘးဒိုးစ္)"</item>
+        <item>"အတၱလန္တိတ္ အခ်ိန္ (ကေနဒါ)"</item>
+        <item>"မန္ေနာက္စ္"</item>
+        <item>"ဆန္တီေရးဂိုး"</item>
+        <item>"နယူးေဖာင္းလန္း"</item>
+        <item>"ဘရာစီးလီးယား"</item>
+        <item>"ဘူႏိုစ္ေအးရီးစ္"</item>
+        <item>"ဂရင္းလန္း"</item>
+        <item>"မြန္တီဗီဒီယို"</item>
+        <item>"အလယ္ - အတၱလန္တိတ္"</item>
+        <item>"အာဇိုးရပ္စ္"</item>
+        <item>"ကိတ္ပ္ဗာတီ ကၽြန္းမ်ား"</item>
+        <item>"ကာဆာဘလန္ကာ"</item>
+        <item>"လန္ဒန္၊ ဒပ္ဘလင္"</item>
+        <item>"အမ္စတာဒမ္၊ ဘာလင္"</item>
+        <item>"ဘဲလ္ဂရိတ္"</item>
+        <item>"ဘရပ္ဆဲလ္"</item>
+        <item>"ဆာရာေယဗို"</item>
+        <item>"ဝင္းေဒါ့ခ္"</item>
+        <item>"အေနာက္ အာဖရိက အခ်ိန္"</item>
+        <item>"အာမန္း၊ ေဂ်ာ္ဒန္"</item>
+        <item>"ေအသင္စ္၊ အစ္စတန္ဘူလ္"</item>
+        <item>"ေဘရြတ္၊ လက္ဘႏြန္"</item>
+        <item>"ကိုင္႐ို"</item>
+        <item>"ဟယ္လ္ဆင္းကီ"</item>
+        <item>"ေယ႐ုရွလင္"</item>
+        <item>"မင့္စ္ခ္"</item>
+        <item>"ဟာရရီ"</item>
+        <item>"ဘဂၢဒက္"</item>
+        <item>"ေမာ္စကို"</item>
+        <item>ကူဝိတ္ၿမိဳ႕ေတာ္</item>
+        <item>"နာ႐ိုဘီ"</item>
+        <item>"တီဟီရန္"</item>
+        <item>"ဘာကူး"</item>
+        <item>"တီဘစ္လီစီ"</item>
+        <item>"ရဲရဗန္"</item>
+        <item>"ဒူဘိုင္း"</item>
+        <item>"ကာဘူးလ္"</item>
+        <item>"အစၥလမ္မာဘက္၊ ကာရာခ်ီ"</item>
+        <item>"ယူရယ္လ္စ္ခ္"</item>
+        <item>"ရဲကာတာရင္ဘက္"</item>
+        <item>"ကိုလ္ကာတာ"</item>
+        <item>"သီရိလကၤာ"</item>
+        <item>"ခတၱမႏၵဴ"</item>
+        <item>"အာစတန္နာ"</item>
+        <item>"ရန္ကုန္"</item>
+        <item>"ကရပ္စ္ႏိုယာ့စ္ခ္"</item>
+        <item>"ဘန္ေကာက္"</item>
+        <item>"ေဘဂ်င္း"</item>
+        <item>"ေဟာင္ေကာင္"</item>
+        <item>"အီယာကြတ္စ္ခ္"</item>
+        <item>"ကြာလာလမ္ပူ"</item>
+        <item>"ပါ့သ္"</item>
+        <item>"တိုင္ေပ"</item>
+        <item>"ဆိုးလ္"</item>
+        <item>"တိုက်ဳိ၊ အိုဆာကာ"</item>
+        <item>"ယာကြတ္စ္ခ္"</item>
+        <item>"အာဒလိတ္"</item>
+        <item>"ဒါဝင္"</item>
+        <item>"ဘရစ္စ္ဘိန္း"</item>
+        <item>"ဟိုဘာ့တ္"</item>
+        <item>"ဆစ္ဒနီ၊ ကန္ဘာရာ"</item>
+        <item>ဗလက္ဒီဗက္စေတာ့ခ္</item>
+        <item>"ဂူရမ္"</item>
+        <item>"မာဂါဒန္"</item>
+        <item>"ေအာ့ခ္လန္"</item>
+        <item>"ဖီဂ်ီ"</item>
+        <item>"တြန္ဂါ"</item>
+        <item>ဂ်ာကာတာ(ဂ်ာကာတာ)</item>
+    </string-array>
+     <string name="alarm_settings">ႏိႈးစက္မ်ား</string>
+     <string name="see_all">See all…</string>
+     <string name="stopwatch_service_desc">အခ်က္ေပးခ်က္ဖြင့္ရန္ အခ်ိန္ဖမ္းနာရီ ဝန္ေဆာင္မႈ။</string>
+     <string name="swn_stopped">ရပ္ဆိုင္းၿပီး</string>
+    <string name="description_direction_right">ပယ္ခ်ရန္ ညာဘက္သို႔ ပြတ္ဆြဲပါ</string>
+    <string name="description_direction_left">ခဏျပန္အိပ္ရန္ ဘယ္ဘက္သို႔ ပြတ္ဆြဲပါ</string>
+    <string name="description_direction_up">ပယ္ခ်ရန္ အေပၚသို႔ ပြတ္ဆြဲပါ</string>
+    <string name="description_direction_down">တစ္ေရးျပန္ႏိႈးရန္ ေအာက္သို႔ ဆြဲခ်ပါ</string>
+    <string name="timer_stopped">စံခ်ိန္ယူ အခ်ိန္တုိင္းတာမႈ </string>
+    <string name="timers_stopped">အခ်ိန္သတ္မွတ္ခ်က္ <xliff:g id="number" example="7">%d</xliff:g> ခု ရပ္ၿပီး</string>
+    <string name="all_timers_stopped_notif">သင့္စံခ်ိန္ယူ အခ်ိန္တုိင္းတာမႈ ၾကည့္ရန္ ထိပါ</string>
+    <string name="timers_in_use">စံခ်ိန္ယူ အခ်ိန္တုိင္းတာမႈ  <xliff:g id="number" example="7">%d</xliff:g> ခု</string>
+    <string name="next_timer_notif">ေနာက္ထပ္အခ်ိန္ သတ္မွတ္ခ်က္- <xliff:g id="time_remaining" example="2minutesremaining">%s</xliff:g></string>
+    <string name="screensaver_settings">အိပ္မက္ အဆင္အျပင္မ်ား</string>
+    <string name="night_mode_title">ညဘက္ပံုစံ</string>
+    <string name="night_mode_summary">အလြန္ေမွးမွိန္သည္ ့ျပသခ်က္ (အေမွာင္ခန္းမ်ား အတြက္)</string>
+    <string name="expand_alarm">ႏိႈးစက္ကို အက်ယ္ခ်ဲ႕ပါ</string>
+    <string name="collapse_alarm">ႏိႈးစက္ကိုခ်ဳံ႕ပါ</string>
+    <string name="alarm_undo">မလုပ္ပါ</string>
+    <string name="alarm_deleted">ႏိႈးစက္ဖ်က္ၿပီး။</string>
+    <string name="slash"> / </string>
+    <string name="world_day_of_week_label">/ <xliff:g id="label">%s</xliff:g></string>
+    <string name="next_alarm_description">ေနာက္တစ္ႀကိမ္ႏိႈးစက္- <xliff:g id="alarm_time" example="Wed8:00am">%s</xliff:g></string>
+    <string name="label_unlabeled"/>
+    <string name="alarms_selected"><xliff:g id="alarms">%d</xliff:g> ေရြးၿပီး</string>
+    <string name="deleted_message">ဖ်က္ၿပီး</string>
+    <plurals name="alarm_delete_confirmation">
+        <item quantity="one">ေရြးထားေသာ ႏိႈးစက္ဖ်က္မလား။</item>
+        <item quantity="other">ေရြးထားေသာ ႏိႈးစက္မ်ားဖ်က္မလား။</item>
+    </plurals>
+    <string name="timer_delete_confirmation">ဤအခ်ိန္သတ္မွတ္ခ်က္ဖ်က္မလား။</string>
+    <string name="city_delete_confirmation">ဤၿမိဳ႕ကို ဖယ္ရွားမလား။</string>
+    <string name="digital_gadget">"时钟数字"</string>
+    <string name="no_alarms">No Alarms</string>
+    <string name="no_upcoming_alarms">NO UPCOMING ALARMS</string>
+    <string name="alarm_tomorrow">မနက္ျဖန္</string>
+    <string name="alarm_alert_off_action_text">ပိတ္သည္</string>
+    <plurals name="alarm_alert_snooze_duration">
+        <item quantity="one">၁ မိနစ္</item>
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> မိနစ္</item>
+    </plurals>
+    <string name="alarm_today">ယေန႔</string>
+    <string name="alarm_alert_wake_up">ႏိႈးလာပါ</string>
+    <string name="alarm_alert_snoozed_text">ေမွးေန</string>
+    <string name="alarm_alert_off_text">ႏိႈးစက္ ပိတ္ထား</string>
+    <string name="timers_max_count_reached">တိုင္မား အမ်ားဆံုး ၄ ခု</string>
+    <string name="no_alarms_set">ႏိႈးစက္မ်ာ သတ္မွတ္ မထား</string>
+    <string name="swipe_dismiss_instruction">ပယ္ခ်ရန္ ညာဘက္သို႔ ပြတ္ဆြဲပါ</string>
+    <string name="swipe_snooze_instruction">ခဏျပန္အိပ္ရန္ ဘယ္ဘက္သို႔ ပြတ္ဆြဲပါ</string>
+</resources>

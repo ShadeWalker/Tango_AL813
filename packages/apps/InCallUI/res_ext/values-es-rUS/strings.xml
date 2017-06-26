@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dm_lock">DM bloqueado</string>
+    <string name="dm_unlock">DM no bloqueado</string>
+    <string name="start_record">Iniciar grabación</string>
+    <string name="stop_record">Detener grabación</string>
+    <string name="str_db_playlist_name">"Mis grabaciones"</string>
+    <string name="alert_device_error">Ocurrió un error en el dispositivo de audio</string>
+    <string name="ext_media_badremoval_notification_title">"Tarjeta SD extraíada de forma imprevista"</string>
+    <string name="error_sdcard_access">No se puede acceder a la tarjeta SD</string>
+    <string name="confirm_device_info_full">Tarjeta SD sin espacio, se ha guardado la grabación.</string>
+    <string name="confirm_save_info_saved">Se ha guardado la grabación.</string>
+    <string name="confirm_save_info_saved_to">Se ha guardado la grabación en</string>
+    <string name="recording_saved_sd_full">Tarjeta SD sin espacio, se ha guardado la grabación.</string>
+    <string name="sd_not_enough">Se está ejecutando la tarjeta SD\nsin espacio</string>
+    <string name="alert_dialog_dismiss">Descartar</string>
+    <string name="change_my_pic">Cambiar</string>
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">Colgar todo</string>
+    <string name="onscreenHangupHolding">Esperar colgado</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Colgar activo, se espera respuesta</string>
+    <string name="menu_ect">Transferir</string>
+    <string name="respond_via_sms_confirmation_format">"Mensaje enviado a <xliff:g id="PHONE_NUMBER">%s</xliff:g>"</string>
+    <string name="volte_add_conference_member_title">Añadir a conferencia</string>
+    <string name="add_member_msg">Ingresar número o nombre</string>
+    <string name="card_title_incoming_conference">Invitación a conferencia</string>
+    <string name="addConferenceMemeberText">Añadir miembro</string>
+    <string name="add_conference_member_limit">Solo se puede añadir un número por vez.</string>
+    <string name="conference_member_join">
+<xliff:g id="member_name">%s</xliff:g> se unió a la conferencia.</string>
+    <string name="conference_member_leave">
+<xliff:g id="member_name">%s</xliff:g> dejó la conferencia.</string>
+    <string name="conference_member_adding">Añadiendo <xliff:g id="member_name">%s</xliff:g> ...</string>
+    <string name="conference_member_add_fail">No se pudo añadir a <xliff:g id="member_name">%s</xliff:g> .</string>
+    <string name="removeMember">"Eliminar"</string>
+    <string name="memberStatus">"Estado"</string>
+    <string name="volte_call_waiting_indication_text">El receptor está en una llamada, espere…</string>
+    <string name="volte_conf_member_reach_max">La conferencia ya ha alcanzado el límite máximo de miembros.</string>
+    <string name="add_multi_conference_member_limit">Sólo puede añadir  el máximo de <xliff:g id="max_number">%s</xliff:g> miembro(s) por el momento.</string>
+    <string name="multi_conference_member_adding">Añadiendo miembro(s)…</string>
+<string name="two_incoming_calls">Dos llamadas entrantes</string>
+<string name="wifi_title">Minutos y llamada vía Wi-Fi </string>
+<string name="call_drop">Su llamada puede interrumpirse</string>
+<string name="call_drop_message">Se encuentra prácticamente fuera del área de cobertura Wi-Fi.</string>
+<string name="view_networks">Ver redes</string>
+<string name="wfc_wifi_call_drop_summary">Disculpe. Se debe haber movido fuera del alcance de la red Wi-Fi durante una llamada.\n \n¿Confirma volver a conectarse a la red Wi-Fi para finalizar la llamada?</string>
+</resources>

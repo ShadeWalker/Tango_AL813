@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_label">Upravljač preuzimanjima</string>
+<string name="permlab_downloadManager">Pristup upravljaču preuzimanja.</string>
+<string name="permdesc_downloadManager">Dozvoljava aplikaciji pristup upravitelju preuzimanja i njegovo korištenje za preuzimanje datoteka. Zlonamjerne aplikacije mogu iskoristiti ovu funkcionalnost za ometanje preuzimanja i pristup privatnim informacijama.</string>
+<string name="permlab_downloadManagerAdvanced">Napredne funkcije upravitelja preuzimanjima.</string>
+<string name="permdesc_downloadManagerAdvanced">Dozvoljava aplikaciji pristup naprednim funkcijama upravitelja preuzimanja. Zlonamjerne aplikacije mogu iskoristiti ovu funkcionalnost za ometanje preuzimanja i pristup privatnim informacijama.</string>
+<string name="permlab_downloadCompletedIntent">Slanje obavještenja o preuzimanjima.</string>
+<string name="permdesc_downloadCompletedIntent">Dozvoljava aplikaciji da šalje obavještenja o dovršenim preuzimanjima. Zlonamjerne aplikacije to mogu iskoristiti da zbune ostale aplikacije koje preuzimaju datoteke.</string>
+<string name="permlab_seeAllExternal" product="nosdcard">Spremi sva preuzimanja u USB pohranu</string>
+<string name="permlab_seeAllExternal" product="default">Spremi sva preuzimanja na SD karticu</string>
+<string name="permdesc_seeAllExternal">Dozvoljava aplikaciji da vidi sva preuzimanja na SD karticu, bez obzira na to koja ih je aplikacija preuzela.</string>
+<string name="permlab_downloadCacheNonPurgeable">Rezerviranje prostora u skrivenoj memoriji preuzimanja</string>
+<string name="permdesc_downloadCacheNonPurgeable">Dozvoljava aplikaciji da preuzima datoteke u skrivenu memoriju preuzimanja koja se ne može automatski izbrisati kada upravitelju preuzimanjima zatreba još prostora.</string>
+<string name="permlab_downloadWithoutNotification">preuzima datoteke bez obavještenja</string>
+<string name="permdesc_downloadWithoutNotification">Dozvoljava aplikaciji da preuzima datoteke putem upravitelja preuzimanjima bez prikazivanja ikakvog obavještenja korisniku.</string>
+<string name="permlab_accessAllDownloads">Pristup svim sistemskim preuzimanjima</string>
+<string name="permdesc_accessAllDownloads">Dozvoljava aplikaciji da prikazuje i mijenja sva preuzimanja koja vrši bilo koja aplikacija u sistemu.</string>
+<string name="download_unknown_title">&lt;Bez naslova&gt;</string>
+<string name="notification_download_complete">Preuzimanje dovršeno.</string>
+<string name="notification_download_failed">Neuspješno preuzimanje.</string>
+<string name="notification_need_wifi_for_size">Veličina preuzimanja iziskuje Wi-Fi.</string>
+<string name="notification_paused_in_background">Pauzirano u pozadini.</string>
+<string name="wifi_required_title">Preuzimanje je preveliko za mrežu operatera</string>
+<string name="wifi_required_body">Morate koristiti Wi-Fi vezu da dovršite ovo <xliff:g example="12.3KB" id="size">%s</xliff:g> preuzimanje. \n\nDodirnite <xliff:g example="Queue" id="queue_text">%s</xliff:g> da započnete ovo preuzimanje kada se sljedeći put povežete na Wi-Fi mrežu.</string>
+<string name="wifi_recommended_title">Staviti u red čekanja za kasnije preuzimanje?</string>
+<string name="wifi_recommended_body">Pokretanje ovog <xliff:g example="12.3KB" id="size">%s</xliff:g> preuzimanja sada može skratiti trajanje baterije i/ili dovesti do prekomjerne upotrebe mobilne mreže za prenos podataka i operater može zaračunati troškove ovisno o pretplati.\n\nDodirnite <xliff:g example="Queue" id="queue_text">%s</xliff:g> kako biste pokrenuli preuzimanje sljedeći put kad se povežete s Wi-Fi mrežom.</string>
+<string name="button_queue_for_wifi">Stavi u red čekanja</string>
+<string name="button_cancel_download">Otkaži</string>
+<string name="button_start_now">Započni sada</string>
+<plurals name="notif_summary_active">
+<item quantity="one">1 datoteka se preuzima</item>
+<item quantity="other">
+<xliff:g id="number">%d</xliff:g> datoteka se preuzima</item>
+</plurals>
+<plurals name="notif_summary_waiting">
+<item quantity="one">1 datoteka na čekanju</item>
+<item quantity="other">
+<xliff:g id="number">%d</xliff:g> datoteka na čekanju</item>
+</plurals>
+<string name="download_remaining">preostalo <xliff:g example="3 minutes" id="duration">%s</xliff:g>
+</string>
+<string name="download_no_application_title">Datoteka se ne može otvoriti</string>
+<string name="root_downloads">Preuzimanja</string>
+<string name="download_queued">Stavljeno u red čekanja</string>
+<string name="download_running">U toku</string>
+<string name="download_error">Neuspješno</string>
+<string name="download_running_percent">U toku, <xliff:g example="50%" id="percentage">%s</xliff:g></string>
+</resources>

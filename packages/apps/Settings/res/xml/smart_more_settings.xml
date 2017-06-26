@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+     
+     HQ_daiwenqiang 20151224 add for HQ01588720 
+     modify by wangwenjia 20160115
+-->
+
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--Suspended Button Settings-->
+    <!--<PreferenceScreen
+        android:id="@+id/suspended_button_settings"
+        android:title="@string/suspended_button"
+        android:widgetLayout="@layout/arrow_img_layout"
+        android:fragment="com.android.settings.SuspendButtonSettings">
+        <intent
+            android:targetClass="com.android.settings.Settings$SuspendButtonSettingsActivity"
+            android:targetPackage="com.android.settings" />
+    </PreferenceScreen>-->
+    <!--add by wangwenjia -->
+    <com.android.settings.SuspendButtonPreference
+            android:layout="@layout/preference_suspendbutton_item"
+            android:title="@string/suspended_button"
+            android:key="suspended_button_settings"
+            android:fragment="com.android.settings.SuspendButtonSettings" />
+    <!--
+    <SwitchPreference
+        android:key="suspend_button_switch"
+        android:persistent="false"
+        android:title="@string/suspend_button_title" />
+        -->
+    <!--Touch Proof Settings-->
+    <SwitchPreference
+        android:key="touch_disable_mode_switch"
+        android:persistent="false"
+        android:summary="@string/touch_disable_mode_summary"
+        android:title="@string/smart_touch_proof_settings_title" />
+    <!--Smart Earphone Control-->
+    <!--<PreferenceScreen
+        android:id="@+id/smart_earphone_control"
+        android:title="@string/smart_earphone_control_title"
+        android:widgetLayout="@layout/arrow_img_layout"
+        android:fragment="com.android.settings.SmartEarphoneControlSettings">
+        <intent
+            android:targetClass="com.android.settings.Settings$SmartEarphoneControlActivity"
+            android:targetPackage="com.android.settings" />
+    </PreferenceScreen>-->
+    <!--add by wangwenjia -->
+    <com.android.settings.SmartHeadsetControlPreference
+            android:layout="@layout/preference_smartheadset_item"
+            android:title="@string/smart_earphone_control_title"
+            android:key="smart_earphone_control"
+            android:fragment="com.android.settings.SmartEarphoneControlSettings" />
+    
+    <!--
+    <SwitchPreference
+        android:key="smart_earphone_control_switch"
+        android:persistent="true"
+        android:title="@string/smart_earphone_control_title" />
+        -->
+<!-- HQ_daiwenqiang remove for HQ01653704
+    <PreferenceScreen
+        android:id="@+id/suspended_button_settings"
+        android:title="@string/suspended_button"
+        android:icon="@drawable/ic_settings_suspended_button"
+        android:fragment="com.android.settings.SuspendButtonSettings">
+        <intent
+            android:targetClass="com.android.settings.Settings$SuspendButtonSettingsActivity"
+            android:targetPackage="com.android.settings" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:id="@+id/touch_proof_settings_menu"
+        android:title="@string/smart_touch_proof_settings_title"
+        android:fragment="com.android.settings.TouchProofSettings"
+        android:icon="@drawable/ic_settings_consonance_finger"/>
+    <PreferenceScreen
+        android:id="@+id/smart_earphone_control"
+        android:title="@string/smart_earphone_control_title"
+        android:icon="@drawable/ic_settings_smart_earphone"
+        android:fragment="com.android.settings.SmartEarphoneControlSettings">
+        <intent
+            android:targetClass="com.android.settings.Settings$SmartEarphoneControlActivity"
+            android:targetPackage="com.android.settings" />
+    </PreferenceScreen>
+HQ_daiwenqiang remove for HQ01653704 -->
+</PreferenceScreen>

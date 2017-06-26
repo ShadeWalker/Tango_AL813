@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
+    <string name="menu_print">Басып шығару</string>
+    <string name="printContact">Файлды келесі арқылы басып шығару</string>
+    <string name="no_way_to_print">Файлды басып шығару үшін қолжетімді қолданба жоқ.</string>
+    <string name="no_sdcard_title" product="nosdcard">Сақтау мүмкін емес</string>
+    <string name="no_sdcard_title" product="default">SD карта жоқ</string>
+    <string name="recentCalls_delete">Жою</string>
+    <string name="menu_selectAll">Барлығын белгілеу</string>
+    <string name="menu_clearAll">"Барлық белгілерді алу"</string>
+    <string name="all_resources">Барлық ресурстар</string>
+    <string name="choose_resources_header">Ресурстарды таңдау</string>
+    <string name="all_tab_label1">Барлығы</string>
+    <string name="call_log_item_count">(<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="call_sipcall">Интернет арқылы қоңырау шалу</string>
+    <string name="call_pin_dialog_title">SIM картаны таңдау</string>
+    <string name="call_people">Адамдар</string>
+    <string name="call_ip_dial">IP мекенжайын теру</string>
+    <string name="call_speed_dial">Жылдам теру</string>
+    <string name="send_message">Хабар жіберу</string>
+    <string name="call_video_call">Видео қоңырау</string>
+    <string name="add_speed_dial">Жылдам теруге қосу үшін басыңыз</string>
+    <string name="speed_dial_added"><xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) жылдам теру <xliff:g id="key">%3$s</xliff:g> тізіміне қосылды</string>
+    <string name="speed_dial_added2"><xliff:g id="contact_name">%1$s</xliff:g> жылдам теру <xliff:g id="key">%2$s</xliff:g> тізіміне қосылды</string>
+    <string name="remove_speed_dial">Жою</string>
+    <string name="remove_sd_confirm_1"><xliff:g id="key">%3$s</xliff:g> жылдам теру тізімінен <xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) жою қажеттігін растайсыз ба?</string>
+    <string name="remove_sd_confirm_2"><xliff:g id="key">%2$s</xliff:g> жылдам теру тізімінен <xliff:g id="contact_name">%1$s</xliff:g> жою қажеттігін растайсыз ба?</string>
+    <string name="emergencycall">Төтенше жағдай қызметіне қоңырау шалу</string>
+    <string name="imei_invalid">Жарамсыз</string>
+    <string name="call_log_filter_all_resources">Барлық ресурстар</string>
+    <string name="turn_on_3g_service_message">3G қызметі қазір өшірулі, оны қосу қажет пе?</string>
+    <string name="associate_sim_missing_message">"%1$s қолжетімді емес. %2$s арқылы қоңырау шалғыңыз келе ме?"</string>
+    <string name="associate_sim_missing_other">Басқа</string>
+    <string name="sim_manage_call_via">Келесі арқылы қоңырау шалу</string>
+    <string name="callFailed_simError">SIM карта жоқ немесе SIM карта қатесі</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">IP префикс нөмірін алдымен дауыс қоңырауының параметрлерінде енгізіңіз.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">IP нөмірін теру функциясы интернет қоңырауында қолданыла алмайды.</string>
+    <string name="sd_add">Қосу</string>
+    <string name="reselect_number">Бұл нөмір жылдам теру пернесіне тағайындалған, басқа нөмірді таңдаңыз.</string>
+    <string name="calllog_today">Бүгін</string>
+    <string name="calllog_yesterday">кеше</string>
+    <string name="menu_association">Байланыстырылған SIM карта</string>
+    <string name="menu_remove_association">SIM карта байланысын жою</string>
+    <string name="remove_association_message">Осы нөмірге тағайындалған SIM карта байланысын жою қажет пе?</string>
+    <string name="remove_number_title">Жою</string>  
+    <string name="warning_detail">Карта байланысы контактіні телефонға импорттайды. Картаның байланыстырылуын жалғастыру қажет пе?</string>
+    <string name="block_incoming_call">Кіріс қоңырауларды құлыптау</string>
+    <string name="block_video_incoming_call">Кіріс бейне қоңырауларды тікелей құлыптау</string>
+    <string name="menu_actionbar_selected_items"><xliff:g id="name">%s</xliff:g> таңдалды</string>
+    <string name="has_double_phone_number">Бір түрдегі нөмірді екі рет сақтау мүмкін емес, тексеріңіз.</string>
+    <string name="phone_book_busy">Телефон кітабы қазір бос емес, кейінірек қайталап көріңіз.</string>
+    <string name="sim_invalid">SIM карта жарамсыз болған кезде контактіні сақтау мүмкін емес.</string>
+    <string name="cannot_insert_null_number">Нөмірі жоқ контактіні сақтау мүмкін емес.</string>
+    <string name="AirPlane_mode_on">Ұшақ режимі қосулы болған кезде контактіні сақтау мүмкін емес.</string>
+    <string name="FDNEnabled">FDN қосулы болған кезде контактіні сақтау мүмкін емес.</string>
+    <string name="sim_invalid_number">Жарамсыз нөмірді сақтау мүмкін емес.</string>
+    <string name="email_invalid">Жарамсыз эл. пошта мекенжайын сақтау мүмкін емес .</string>
+    <string name="email_2g_invalid">Электрондық хатты 2G SIM картасына сақтау мүмкін емес, сақтау үшін 3G SIM картасын таңдаңыз.</string>
+    <string name="sim_invalid_fix_number">Жарамсыз бекітілген нөмірді сақтау мүмкін емес.</string>
+    <string name="AirPlane_mode_on_edit">Ұшақ режимі қосулы болған кезде контактіні өңдеу мүмкін емес.</string>
+    <string name="msg_loading_sim_contacts_toast">"SIM контактілері фондық режимде жүктелуде, күте тұрыңыз."</string>
+    <string name="fix_number_too_long">"Бекітілген нөмір тым ұзын."</string>
+    <string name="name_too_long">"Аты тым ұзын."</string>
+    <string name="storage_full">Жад толған.</string>
+    <string name="number_too_long">"Нөмір тым ұзын."</string>
+    <string name="generic_failure">Жалпы ақаулық.</string>
+    <string name="email_too_long">Электрондық пошта мекенжайы тым ұзын</string>
+    <string name="send_groupsms_no_number_more">"Бірнеше %1$s және %2$s контактілерінің телефон нөмірлері жарамсыз."</string>
+    <string name="send_groupsms_no_number_1">"%1$s жарамды телефон нөмірі жоқ."</string>
+    <string name="send_groupsms_no_number_2">"%1$s және %2$s жарамды телефон нөмірі жоқ."</string>    
+    <string name="account_type_sim" product="tablet">SIM тіркелгісі</string>
+    <string name="account_type_sim" product="default">SIM тіркелгісі</string>
+    <string name="account_type_usim" product="tablet">USIM тіркелгісі</string>
+    <string name="account_type_usim" product="default">USIM тіркелгісі</string>
+    <string name="account_type_local_phone" product="tablet">Телефонның жергілікті тіркелгісі</string>
+    <string name="account_type_local_phone" product="default">Телефонның жергілікті тіркелгісі</string>
+    <string name="local_account_type" product="tablet">Жергілікті тіркелгі</string>
+    <string name="local_account_type" product="default">Жергілікті тіркелгі</string>
+    <string name="local_account_label" product="tablet">Жергілікті тіркелгі</string>
+    <string name="local_account_label" product="default">Жергілікті тіркелгі</string>
+    <string name="account_type_sim_label" product="tablet">Тек SIM картасы, синхрондалмаған</string>
+    <string name="account_type_sim_label" product="default">Тек SIM картасы, синхрондалмаған</string>
+    <string name="account_type_usim_label" product="tablet">Тек USIM картасы, синхрондалмаған</string>
+    <string name="account_type_usim_label" product="default">Тек USIM картасы, синхрондалмаған</string>
+
+    <string name="move_contacts_to">Контактілердің орнын келесі жерге ауыстыру</string>
+    <string name="menu_move_group">"Топ мүшелерінің орны сәтті ауыстырылды"</string> 
+    <string name="menu_message_group">"Топтық хабар жіберу"</string>
+    <string name="menu_email_group">"Топтық эл. хат жіберу" </string>    
+    <string name="moving_group_members">"Топ мүшелерінің орнын ауыстырылуда\u2026"</string>
+    <string name="removing_group_members_sucess">"Топ нөмірлерін жою сәтті орындалды"</string>
+    <string name="moving_group_members_sucess">"Топ мүшелерінің орны сәтті ауыстырылды"</string>
+    <string name="moving_group_members_fail">"Топ мүшелерінің орны ауыстырылмады"</string>
+    <string name="no_valid_number_in_group">Бұл топта жарамды телефон нөмірі бар контакті жоқ.</string>
+    <string name="no_valid_email_in_group">Бұл топта эл. поштасы бар контакті жоқ.</string>
+    <string name="email_error">Электрондық пошта қолданбасын орнату қажет немесе тіркелгіңізді теңшеу қажет!</string>
+    <string name="usim_group_name_exceed_limit">"Топ атауы жады үшін тым ұзын."</string>
+    <string name="usim_group_count_exceed_limit">"Жадыға қосымша топтарды қосу мүмкін емес."</string>
+    <string name="name_needed">Аты қажет</string>
+    <string name="save_group_fail">Топты сақтау сәтсіз аяқталды.</string>
+    <string name="group_name_exists">Топтың аты бұрыннан бар.</string>
+    <string name="group_discard_member">Жою</string>
+    <string name="group_discard_member_reason">Өзгерістер қабылданбайды, себебі топтың аты жарамсыз.</string>
+    <string name="import_export_title">Импорттау/экспорттау</string>
+    <string name="next">Келесі</string>
+    <string name="imexport_bridge_sd_card">SD карта</string>
+    <string name="tips_source">Контактілерді келесіден көшіру</string>
+    <string name="tips_target">Контактілерді келесіге көшіру</string>
+    <string name="back">Артқа</string>
+    <string name="imexport_title">Контактілерді импорттау/экспорттау</string>
+    <string name="xport_error_one_account">"Контактілерді импорттау/экспорттау үшін SIM карта немесе SD картаны енгізіңіз."</string>
+    <string name="store_contact_to">Контактіні келесіде сақтау</string>
+    <string name="menu_delete_contact">Контактіні жою</string>
+    <string name="menu_conference_call">Конференция қоңырауы</string>
+    <string name="notifier_finish_delete_title">Контактілер сәтті жойылды</string>
+    <string name="notifier_finish_delete_content"><xliff:g id="total">%d</xliff:g>контакт жойылды </string>
+    <string name="notifier_finish_copy_title">Контактілер сәтті көшірілді</string>
+    <string name="notifier_finish_copy_content"><xliff:g id="total">%d</xliff:g> контакт көшірілді </string>
+    <string name="notifier_multichoice_process_report">Аяқталды: <xliff:g id="items">%d</xliff:g>\nIncompleted: <xliff:g id="items">%d</xliff:g></string>
+    <string name="notifier_failure_by_sim_full">SIM картаның толып кетуіне байланысты орын алған ақаулық\nАяқталды: <xliff:g id="items">%d</xliff:g>\nIncompleted: <xliff:g id="items">%d</xliff:g></string>
+    <string name="notifier_failure_sim_notready">SIM картаның дайын болмағанына байланысты орын алған ақаулық\nАяқталды: <xliff:g id="items">%d</xliff:g>\nIncompleted: <xliff:g id="items">%d</xliff:g></string>
+    <string name="notifier_cancel_delete_title">Контакт(ілер)ді жою болдырылмады</string>
+    <string name="notifier_fail_delete_title">Контакт(ілер)ді жою сәтсіз аяқталды</string>
+    <string name="notifier_cancel_copy_title">Контакт(ілер)ді көшіру болдырылмады</string>
+    <string name="notifier_fail_copy_title">Контакт(ілер)ді көшіру сәтсіз аяқталды</string>
+    <string name="notifier_progress__delete_will_start_message">Контакт(ілер) жақын арада жойылады.</string>
+    <string name="notifier_progress_delete_message"><xliff:g id="current_number">%s</xliff:g>/<xliff:g id="total_number">%s</xliff:g>: <xliff:g id="name" example="JoeDue">%s</xliff:g> жою</string>
+    <string name="notifier_progress_delete_description"><xliff:g id="name" example="JoeDue">%s</xliff:g> жою</string>
+    <string name="notifier_progress__copy_will_start_message">Контактілер жақын арада көшіріледі.</string>
+    <string name="notifier_progress_copy_message"><xliff:g id="current_number">%s</xliff:g>/<xliff:g id="total_number">%s</xliff:g>: <xliff:g id="name" example="JoeDue">%s</xliff:g> көшіру</string>
+    <string name="notifier_progress_copy_description"> <xliff:g id="name" example="JoeDue">%s</xliff:g> көшіру</string>
+    <string name="multichoice_confirmation_title_delete">Контакт(ілер)дің жойылуын болдырмау</string>
+    <string name="multichoice_confirmation_message_delete">Контакт(ілер)дің жойылуын болдырмау қажет пе?</string>
+    <string name="multichoice_confirmation_title_copy">Контакт(ілер)дің көшірілуін болдырмау</string>
+    <string name="multichoice_confirmation_message_copy">Контакт(ілер)дің көшірілуін болдырмау қажет пе?</string>
+    <string name="multichoice_no_select_alert">"Элементтер таңдалмады."</string>
+    <string name="multichoice_delete_confirm_message">"Таңдалған контакт(ілер)ді жою қажет пе?"</string>
+    <string name="multichoice_delete_confirm_title">Контакт(ілер)ді жою қажет пе?</string>
+    <string name="multichoice_contacts_limit">"Таңдалған файлдардың саны "<xliff:g id="count">%d</xliff:g>" көп болуы мүмкін емес"</string>
+    <string name="phone_storage_full_create">Телефон жады толық, жаңа контактіні жасау мүмкін емес.</string>
+    <string name="phone_storage_full_edit">Телефон жады толық, жаңа контактіні өңдеу мүмкін емес.</string>
+	<string name="add_SIP_to_sim">SIP нөмірін карта контактісіне қосу мүмкн емес.</string>
+	<string name="already_has_SIP">Жалғастыру қажет болса, екі SIP нөмірін контактіге қосу мүмкін емес. Алдымен ескі SIP нөмірін жойыңыз.</string>
+    <plurals name="searchFoundCalllogs">
+        <item quantity="one">1 қоңыраулар журналы</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> қоңыраулар журналы</item>
+    </plurals>
+    <string name="search_results_for">Келесіге арналған іздеу нәтижелері: <xliff:g id="query">%s</xliff:g></string>
+    <string name="listFoundAllCalllogZero">Қоңыраулар журналы табылмады</string>
+    <string name="calllogList">Қоңыраулар тарихы</string>
+    <string name="calllogHint">Қоңыраулар журналдарын іздеу</string>
+    <string name="calllog_description">Кіріс, шығыс және қабылданбаған қоңыраулар </string>
+    <string name="noMatchingCalllogs">Сәйкес қоңыраулар журналы табылмады.</string>
+    <string name="menu_videocallNumber"><xliff:g id="name">%s</xliff:g> бейне қоңырауы</string>
+    <string name="menu_ipcallNumber"><xliff:g id="name">%s</xliff:g> IP қоңырауы</string>
+    <string name="deleting_call_log">Қоңыраулар журналы жойылуда...</string>
+    <string name="no_vm_number">Дауыс поштасының нөмірі жоғалды</string>
+    <string name="no_vm_number_msg">Дауыс поштасының нөмірі SIM картасында сақталған жоқ.</string>
+    <string name="add_vm_number_str">Нөмірді қосу</string>
+    <string name="reminder">Еске салғыш</string>
+    <string name="enable_sip_dialog_message">Интернет қоңырауы өшірулі, оны қосу қажет пе?</string>
+    <string name="share_contacts_limit">"Бөлісу үшін таңдалған файлдардың саны "<xliff:g id="count">%d</xliff:g>" көп болуы мүмкін емес" </string>
+    <string name="contact_delete_all_tips">"Контактілердің жойылуы орындалуда, операцияны орындау мүмкін емес."</string>
+    <string name="sum_search_networks">Барлық қолжетімді желілерді іздеу</string>
+    <string name="deleteCallLogConfirmation_title">Қоңыраулар журнал(дар)ын жою қажет пе?</string>
+    <string name="deleteCallLogConfirmation_message">Таңдалған қоңыраулар журнал(дар)ын жою қажеттігін растайсыз ба?</string>
+    <string name="file_already_on_sd_card">Файл SD картасында бұрыннан бар.</string>
+    <string name="send_file_sms_error">Файлмен SMS арқылы бөлісу мүмкін емес, MMS пайдаланыңыз. </string>
+    <string name="user_profile_cannot_sd_card">Осы әдіс арқылы контентпен бөлісу мүмкін емес.</string>
+    <string name="error_save_usim_contact_email_lost">"Электрондық пошта жадысы толып кетуіне байланысты электрондық пошта мекенжайын сақтау мүмкін емес."</string>
+    <string name="error_import_usim_contact_email_lost">"Электрондық пошта жадысы толып кетуіне байланысты кейбір контактілердің электрондық пошта мекенжайларын импорттау мүмкін емес.\nОрындалды: <xliff:g id="items">%d</xliff:g>\nОрындалмады: <xliff:g id="items">%d</xliff:g>"</string>
+    <string name="type_ip_outgoing">IP шығыс қоңырауы (<xliff:g id="name">%s</xliff:g>)</string>
+    <string name="call_sms">SMS</string>
+    <string name="delete_group_failure">Топты жою сәтсіз аяқталды.</string>
+    <string name="account_type_uim_label" product="tablet">Тек UIM, синхрондалмаған</string>
+    <string name="account_type_uim_label" product="default">Тек UIM, синхрондалмаған</string>
+    <string name="call_log_auto_rejected_label">Автоматты түрде қабылданбаған қоңыраулар</string>
+    <string name="import_no_vcard_dialog_text"><xliff:g id="storage_name">%s</xliff:g> ішінде электрондық визит картасының файлы табылмады</string>
+    <string name="look_simstorage">SIM карта сыйымдылығын көру</string>
+
+    <string name="contact_group_list_title">"Мақсатты топты таңдаңыз"</string>
+    <string name="send_groupemail_no_number_more">"%1$s және %2$s контактілерінің жарамды электрондық поштасы жоқ."</string>
+    <string name="send_groupemail_no_number_1">"%1$s жарамды электрондық поштасы жоқ."</string>
+    <string name="send_groupemail_no_number_2">"%1$s және %2$s жарамды электрондық поштасы жоқ."</string>
+    <string name="add_contact_dlg_title">Контакт қосу</string>
+    <string name="deleteConfirmation_title">Контактіні жою қажет пе?</string>
+    <string name="dialog_phone_call_prohibited_title" msgid="4313552620858880999">Қоңырау жіберілмеді</string>
+    <string name="dialog_voicemail_not_ready_title">Дауыстық пошта қолжетімді емес</string>
+    <string name="scanning_sdcard_failed_title" product="nosdcard">Жадты сканерлеу мүмкін болмады</string>
+    <string name="scanning_sdcard_failed_title" product="default">SD картасын сканерлеу мүмкін болмады</string>
+    <string name="nickname_too_long">"Лақап ат тым ұзын."</string>
+    <string name="pick_new_photo_from_gallery">Жаңа фотосурет таңдау</string>
+    <string name="copy_text_to_dialer">Нөмір терушіге көшіру</string>
+    <string name="contact_detail_group_list_title">Топтар</string>
+    <string name="contact_detail_group_not_assigned">Тағайындалмады</string>
+    <string name="contact_detail_group_list_nogroups">"Топтар жоқ. Жаңа топ құру қажет пе?"</string>
+    <string name="recents">Жуырдағылар</string>
+    <string name="contact_no_recents">Жуырда қоңыраулар болмады</string>
+    <string name="contact_detail_ip_call">IP қоңырауы</string>
+    <string name="contact_detail_history_mms_received_time">"қабылданған уақыты %1$s"</string>
+    <string name="contact_detail_history_mms_received_from">"Келесіден қабылданды: %1$s"</string>
+    <string name="contact_detail_history_mms_sent_time">"Жіберілген уақыты %1$s"</string>
+    <string name="contact_detail_history_mms_sent_to">"Келесіге жіберілді: %1$s"</string>
+    <string name="contact_detail_history_calllog">Қоңыраулар тарихы</string>
+    <string name="contact_detail_history_mms">Хабарлар</string>
+    <string name="contact_detail_history_duration">Ұзақтығы:</string>
+    <string name="contact_detail_history_ismms">Мультимедиа хабарын алу</string>
+    <string name="contact_detail_history_empty_calllog">"қоңыраулар тарихы бос"</string>
+    <string name="contact_detail_history_empty_message">Хабар жоқ</string>
+    <string name="contact_detail_history_empty">"Қоңырау, хабар үшін тарих жоқ"</string>
+    <string name="contact_recent_number_limit">" Тек %1$s контакт қолжетімді"</string>
+
+    <string name="call_pin_dialog_title_ct">UIM/SIM картасын таңдау</string>
+    <string name="callFailed_simError_ct">UIM/SIM-карта жоқ немесе UIM/SIM-карта қате</string>
+    <string name="msg_loading_sim_contacts_toast_ct">"UIM/SIM контактілері фондық режимде жүктелуде, күте тұрыңыз."</string>
+    <string name="xport_error_one_account_ct">"Контактілерді импорттау/экспорттау үшін UIM/SIM картасын немесе SD картасын енгізіңіз."</string>
+    <string name="notifier_failure_by_sim_full_ct">UIM/SIM жадының толуынан туындаған ақаулық\nОрындалды: <xliff:g id="items">%d</xliff:g>\nОрындалмады: <xliff:g id="items">%d</xliff:g></string>
+    <string name="notifier_failure_sim_notready_ct">UIM/SIM дайын болмауынан туындаған ақаулық\nОрындалды: <xliff:g id="items">%d</xliff:g>\nОрындалмады: <xliff:g id="items">%d</xliff:g></string>
+    <string name="look_simstorage_ct">UIM/SIM картасының сыйымдылығын көрсету</string>
+    <string name="callFailed_cdma_notEmergency">Тек апаттық қоңыраулар рұқсат етілген.</string>
+    <string name="international_dialing_title">Халықаралық нөмірді теру көмекшісі</string>
+    <string name="international_dialing_select_country">Халықаралық қоңырау шалайын деп жатқаныңыз анықталды. Межелі орынды таңдаңыз.</string>
+    <string name="international_dialing_add_country_code"><xliff:g id="country_name">%s</xliff:g> нөмірін теріп жатқаныңыз анықталды. Мемлекеттің кодын қосу қажет пе (+<xliff:g id="country_code">%s</xliff:g>)?</string>
+    <string name="international_dialing_add_country_code_and_area_code"><xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g> ішіндегі нөмірді теріп жатқаныңыз анықталды. Мемлекет коды мен аймақ кодын қосу қажет пе (+<xliff:g id="prefix">%3$s</xliff:g>)?</string>
+    <string name="international_dialing_change_country_prefix">"<xliff:g id="country_name">%s</xliff:g> мемлекетінен қоңырау шалайын деп жатқандығыңыз анықталды. Халықаралық қоңырау префиксін '+' етіп өзгерту қажет пе?"</string>
+    <string name="international_dialing_add_country_code_input_area_code">Нөмірді <xliff:g id="country_name">%s</xliff:g> мемлекетінде теріп жатқандығыңыз анықталды. Солай болған жағдайда, аймақ кодын енгізіңіз.</string>
+    <string name="international_dialing_add_country_code_default_input_area_code">Нөмірді <xliff:g id="country_name">%s</xliff:g> мемлекетінде теріп жатқандығыңыз анықталды. Межелі қала <xliff:g id="area_name">%s</xliff:g> болмаса, аймақ кодын енгізіңіз.</string>
+    <string name="international_dialing_need_area_code">Қоңырау шалу үшін мақсатты қаланың аумақ коды қажет.</string>
+    <string name="international_dialing_input_area_code">Аумақ кодын мұнда енгізіңіз</string>
+    <string name="international_dialing_dialed_number">Қоңырау шалу нөмірі:</string>
+    <string name="international_dialing_confirm_area_code">Егер мақсатты қала <xliff:g id="area_name">%s</xliff:g> болмаса, төменде мақсатты қалаңыздың аумақ кодын енгізіңіз.</string>
+    <string name="international_dialing_click_below_button">Мемлекет кодының нөмірін өзгерту үшін төмендегі түймешікті басыңыз.</string>
+    <string name="international_dialing_yes">Иә. Төмендегі нөмірді пайдалану:</string>
+    <string name="international_dialing_no">Жоқ. Бастапқы нөмірді пайдалану:</string>
+    <string name="international_dialing_call_button">Қоңырау шалу</string>
+    <string name="international_dialing_area_code">аумақ коды</string>
+    <string name="international_dialing_invalid_number">Нөмір жарамсыз. Нөмір теруді бәрібір жалғастыру қажет пе?</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">Мемлекет коды және аумақ кодын қосу қажет пе?</string>
+    <string name="no_search_result">Іздеу нәтижелері жоқ</string>
+    <string name="account_phone_only" product="tablet">Планшет</string>
+    <string name="account_phone_only" product="default">Телефон</string>
+    <string name="no_match_call_log">"Сәйкес элементтер жоқ"</string>
+    <string name="no_call_log">"Қоңыраулар журналдары жоқ"</string>
+    <string name="share_too_large">Деректердің жалпы саны жоғарғы шектен асады, кейбір элементтердің белгілеуін алып, қайталап көріңіз.</string>
+    <string name="err_icc_no_phone_book">%1$s контактіні сақтай алмайды</string>
+    <string name="titleJoinContactDataWith">Контактілерді біріктіру</string>
+    <string name="menu_select_all">Барлығын белгілеу</string>
+    <string name="list_filter_custom">Ерекше</string>
+    <string name="add_contact_dlg_message_fmt">\"<xliff:g id="email">%s</xliff:g>\" мекенжайын контактілерге қосу керек пе?</string>
+    <string name="locale_change_in_progress">Тілдің өзгергендігін көрсету үшін контакт тізімі жаңартылды</string>
+    <string name="noFavoritesHelpText">"Таңдаулы контакт жоқ.\n\nТаңдаулылар тізіміне контакт қосу үшін\n <li><b>Contacts</b> қойындысын түртіңіз\n</li> \n<li>Таңдаулылар тізіміне қосқыңыз келетін контактіні түртіңіз\n</li> \n<li>Контакт атының қасындағы жұлдызшаны түртіңіз\n</li>"</string>
+
+    <string name="menu_select_none">"Барлық белгілерді алу"</string>
+    <string name="find_call_logs">Қоңыраулар журналдарын табу</string>
+    <string name="call_log_via_sim_name_notice">\"<xliff:g id="sim_name">%s</xliff:g>\" бойынша ҚОҢЫРАУЛАР ЖУРНАЛДАРЫ</string>
+    <string name="mtk_contact_list_loading">Жүктеу\u2026</string>
+    <string name="vcard_import_failed_v2">Импорттау мүмкін болмады</string>
+    <string name="quickcontact_missing_app">Бұл әрекетті орындау үшін қолданба табылмады.</string>
+    <string name="call_speed_dial_title">Жылдам теру</string>
+
+    <string name="icc_phone_book_invalid">Мекенжай кітабы қазір қолжетімсіз, кейінірек қайталап көріңіз.</string>
+    <string name="error_edit_join_group">Бұл біріктірілген контакт. Топ туралы ақпаратты өңдеу режимінде өңдеуге болады.</string>
+    <string name="local_phone_account" product="tablet">Орнату кезінде планшетіңізді қолданып, төтенше жағдай қызметіне қоңырау шала алмайсыз. Батареяны,SD картаны алмаңыз немесе планшетті өшірмеңіз.</string>
+    <string name="local_phone_account" product="default">Қоңырау шалу</string>
+    <string name="vcs_menu_voice_contacts_search" product="default">Дауыстық файлдарды іздеу</string>
+    <string name="vcs_msg_no_voice_contacts">Файл табылмады.</string>
+    <string name="imsCallLabelsGroup">IMS қоңырауы</string>
+    <string name="sip_url">SIP url</string>
+    <string name="ims_call_disabled">IMS қоңырауы қолжетімді емес</string>
+    <string name="contact_import_export_tips">Контактілер импортталуда/экспортталуда, әрекетті кейінірек қайталаңыз</string>
+    
+    <string name="please_wait">"Күте тұрыңыз"</string>
+    <string name="dlg_simstorage_content">телефон нөмірлері кітабы жадының сыйымдылығы <xliff:g id="items">%d</xliff:g>,has been used <xliff:g id="items">%d</xliff:g>.</string>
+    <string name="contact_recent_group_label">"Топ"</string>
+    <string name="non_phone_caption">Телефон нөмірі</string>
+    <string name="dialog_no_speed_dial_number_message">Жылдам нөмірді теру орнатылмаған, қазір орнату керек пе?</string>
+    
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> таңдалды</string>
+</resources>

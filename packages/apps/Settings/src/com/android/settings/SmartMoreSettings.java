@@ -1,0 +1,67 @@
+/* Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+     
+     HQ_daiwenqiang 20151224 add for HQ01588720 
+*/
+
+package com.android.settings;
+
+import android.os.Bundle;
+import android.provider.Settings;
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
+import android.preference.Preference;
+import android.preference.SwitchPreference;
+import android.preference.PreferenceActivity;
+import android.preference.Preference.OnPreferenceChangeListener;
+
+import android.util.Log;
+
+
+public class SmartMoreSettings extends SettingsPreferenceFragment {
+
+    public static final String TAG = "SmartMoreSettings";
+
+    public static final String TOUCH_DISABLE_MODE_SWITCH = "touch_disable_mode_switch";
+
+    private SwitchPreference touchDisableModeSwitch;
+
+    private int isChecked;
+
+    public void onCreate(Bundle paramBundle) {
+        super.onCreate(paramBundle);
+        addPreferencesFromResource(R.xml.smart_more_settings);
+        touchDisableModeSwitch = (SwitchPreference) findPreference(TOUCH_DISABLE_MODE_SWITCH);
+	//modify by wangwenjia   
+        isChecked = Settings.System.getInt(getContentResolver(), "touch_disable_mode",1);
+	touchDisableModeSwitch.setChecked(isChecked == 1);
+	touchDisableModeSwitch.setOnPreferenceChangeListener(mOnPreferenceChangeListener);
+
+    }
+
+    OnPreferenceChangeListener mOnPreferenceChangeListener = new OnPreferenceChangeListener() {
+		@Override
+		public boolean onPreferenceChange(Preference preference, Object objValue) {
+                        //modify by wangwenjia start
+		        //touchDisableModeSwitch.setChecked(!touchDisableModeSwitch.isChecked());
+                        boolean status = (boolean)objValue;
+                        Log.d(TAG,"onPreferenceChange:"+status);
+			touchDisableModeSwitch.setChecked(status);
+			Settings.System.putInt(getContentResolver(), Settings.System.TOUCH_DISABLE_MODE, status ? 1 : 0);
+                        //modify by wangwenjia end
+			return false;
+		}
+    };
+
+}

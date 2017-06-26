@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- AudioProfile Settings start -->
+   <string name="ring_summary">Bellen</string>
+  <string name="ring_vibrate_summary">Bellen en trillen</string>
+  <string name="silent_summary">Alleen stil</string>
+  <string name="meeting_summary">Alleen trillen</string>
+  <string name="outdoor_summary">Luidste beltoon en trillen</string>
+  <string name="audio_profile_reset">Reset</string>
+  <string name="audio_profile_add">Toevoegen</string>
+  <string name="audio_profile_enable">Inschakelen</string>
+  <string name="audio_profile_rename">Naam wijzigen</string>
+  <string name="audio_profile_delete">Verwijderen</string>
+  <string name="audio_profile_message_reset">Alle instellingen voor audioprofielen worden naar de standaardwaarden hersteld.</string>
+  <string name="audio_profile_message_rename">Voer de nieuwe profielnaam in</string>
+  <string name="audio_profile_message_name_error">De naam bestaat reeds</string>
+  <string name="audio_profile_message_name_length_wrong">Naam moet minimaal een teken bevatten</string>
+  <string name="audio_profile_message_delete">Het profiel 
+        <xliff:g id="profile">%s</xliff:g> wordt verwijderd</string>
+  <string name="audio_profile_message_overflow">U mag slechts 6 aangepaste profielen toevoegen</string>
+  <string name="audio_profile_category_custom_title">Door gebruiker gedefinieerde profielen</string>
+  <string name="audio_profile_category_predefine_title">Voorgedefinieerde profielen</string>
+  <string name="audio_profile_error">Fout</string>
+  <string name="audio_profile_others">Melding en overige</string>
+  <string name="general_settings_title">"Algemeen"</string>
+  <string name="silent_settings_title">Stil</string>
+  <string name="meeting_settings_title">Vergadering</string>
+  <string name="outdoor_settings_title">Buitenshuis</string>
+  <string name="sound_category_feedback_title">"Systeem"</string>
+  <string name="sound_category_calls_title">"Inkomende oproepen"</string>
+  <string name="voice_call_title">Beltoon gesprek</string>
+  <string name="voice_call_summary">"Standaard beltoon bij inkomende gesprekken instellen."</string>
+  <string name="video_call_title">Beltoon voor videogesprek</string>
+  <string name="video_call_summary">Standaard beltoon bij inkomende videogesprekken instellen.</string>
+  <string name="sip_call_title">SIP beltoon</string>
+  <string name="sip_call_summary">Standaard SIP-beltoon instellen</string>
+  <string name="Phone_vibrate_summary">Trillende telefoon voor binnenkomende oproepen</string>
+  <string name="vibrate_title">Trillen</string>
+  <string name="audio_profile_settings_title">Audioprofielen</string>
+  <string name="audio_profile_bes_loudness_summary">Volumeversterking voor luidspreker</string>
+  <string name="sound_enhancement_title">Geluidsverbetering</string>
+  <string name="music_plus_summary">Geluidsverbetering voor oortelefoon</string>
+  <string name="lossless_title">Verliesvrije BT-modus</string>
+  <string name="lossless_summary">BT-geluid van hoge kwaliteit</string>
+  <string name="lossless_connect_summary">Wi-Fi wordt beïnvloed door het inschakelen van Verliesvrije BT-modus. Weet u zeker dat u wilt doorgaan?</string>
+  <string name="lossless_on">Verliesvrije BT-modus AAN</string>
+  <string name="lossless_playing">Verliesvrije muziek speelt</string>
+  <string name="lossless_toastmessage">Systeemgeluiden klinken door de telefoonluidspreker</string>
+  <string name="lossless_volume_max">Houd het systeemvolume maximaal</string>
+  <string name="lossless_cannot_found_device">Kan loslessBT-apparaat niet vinden.</string>
+  <string name="audio_profile_bes_surround_title">BesSurround</string>
+  <string name="audio_profile_bes_surround_summary">Surround sound</string>
+  <string name="audio_profile_bes_surround_mode_movie">Filmmodus</string>
+  <string name="audio_profile_bes_surround_mode_music">Muziekmodus</string>
+  <string msgid="6680706009915204785" name="zen_mode_option_title_novoice">"Bij inkomende meldingen"</string>
+  <!-- AudioProfile Settings end -->
+ 
+  <!-- MTK Wi-Fi settings start -->
+   <string name="wifi_no_cert_for_wapi">Kan geen certificatie voor huidige verbonden AP vinden</string>
+  <string name="sim_slot">SIM-sleuf</string>
+  <string name="eap_sim_slot_0">SIM-sleuf 1</string>
+  <string name="eap_sim_slot_1">SIM-sleuf 2</string>
+  <string name="eap_sim_aka_airplanemode">Schakel de Vliegtuigmodus uit om EAP-SIM/AKA te gebruiken</string>
+  <string name="eap_sim_aka_no_sim_error">U moet een SIM-kaart plaatsen om EAP-SIM/AKA te gebruiken</string>
+  <string name="eap_sim_aka_no_sim_slot_selected">U moet een SIM-sleuf selecteren om EAP-SIM/AKA te gebruiken</string>
+  <string name="wifi_security_wapi_certificate">WAPI-certificaat</string>
+  <string name="wapi_user_certificate">Gebruikerscertificaat</string>
+  <string name="wapi_as_certificate">ASE-certificaat</string>
+  <string name="wifi_hex_password">Hexadecimaal wachtwoord</string>
+  <string name="wifi_WEP_transmit_key">Verzendcode</string>
+  <string name="wifi_WEP_secury_key">Beveiligingscode</string>
+  <string name="wifi_tether_auto_disable_title">Wi-Fi hotspot ingeschakeld houden</string>
+  <string name="wifi_tether_auto_channel_text">Autom.</string>
+  <string name="wifi_tether_auto_channel_width_text">Auto 20/40 MHz</string>
+  <string name="wifi_channel">Voorkeurskanaal</string>
+  <string name="wifi_channel_width">Kanaalbreedte</string>
+  <string name="wifi_advanced_ipv4_address_title">IPv4-adres</string>
+  <string name="wifi_advanced_ipv6_address_title">IPv6-adres</string>
+  <string name="wifi_ipv4_address">IPv4-adres</string>
+  <string name="wifi_ipv6_address">IPv6-adres</string>
+  <string name="wifi_ap_auto_join_available">Automatisch deelnemen</string>
+  <string name="wifi_ap_auto_join_available_summary">Kies automatisch een beter netwerk bij het zoeken om deel te nemen nadat verbinding is gemaakt</string>
+  <!-- MTK Wi-Fi settings end -->
+ 
+  <!-- Wi-Fi hotspot client start -->
+   <string name="wifi_tether_setting_title">Basisinstellingen</string>
+  <string name="wifi_tether_wps_connect_title">WPS verbinden</string>
+  <string name="wifi_tether_wps_connect_summary">Wi-Fi beschermde instelmodus geselecteerd om door te gaan</string>
+  <string name="wifi_tether_wps_pin_error">Ongeldige PIN-code</string>
+  <string name="wifi_tethering_title">Wi-Fi hotspot</string>
+  <string name="wifi_ap_wps_dialog_title">WPS verbinden</string>
+  <string name="wifi_ap_wps_mode_title">WPS-modus</string>
+  <string name="wifi_ap_wps_pin_title">PIN-code van client typen</string>
+  <string name="wifi_ap_reset_OOB_title">Standaardwaarden terugzetten voor netwerk-SSID, beveiliging en wachtwoord (fabrieksinstellingen voor WPS)</string>
+  <string name="wifi_ap_reset_OOB">OOB resetten</string>
+  <string name="wifi_ap_max_connection_title">Maximaal aantal verbindingen</string>
+  <string name="wifi_ap_connected_title">Verbonden gebruikers</string>
+  <string name="wifi_ap_blocked_title">Geblokkeerde gebruikers</string>
+  <string name="wifi_ap_client_block_title">"Blokkeren"</string>
+  <string name="wifi_ap_client_unblock_title">Blokkering opheffen</string>
+  <string name="wifi_ap_client_details_title">Details</string>
+  <string name="wifi_ap_client_mac_label">MAC adres:</string>
+  <string name="wifi_ap_client_ip_label">IP-adres:</string>
+  <string name="wifi_ap_bandwidth_title">Bandbreedtegebruik</string>
+  <string name="wifi_ap_bandwidth_enable">Bandbreedtebeperking inschakelen</string>
+  <string name="wifi_ap_bandwidth_chart_title">Real-time gegevenssnelheid</string>
+  <string name="wifi_ap_bandwidth_chart_summary">Gemeten door uw telefoon - de berekening van de gegevenssnelheid door uw provider kan afwijken.</string>
+  <string name="wifi_wps_fail_error">Instellen beveiligde Wi-Fi mislukt, probeer het nogmaals.</string>
+  <string name="wifi_ap_title">Statistieken</string>
+  <string name="wifi_ap_time_duration">Tijdsduur:<xliff:g id="time">%1$s</xliff:g>
+</string>
+  <string name="wifi_ap_total_data">Tot. gebruikte data:
+        <xliff:g id="time">%1$s</xliff:g>
+    </string>
+  <string name="wifi_ap_no_connected">0 verbonden gebruiker</string>
+  <string name="wifi_ap_no_blocked">0 geblokkeerde gebruiker</string>
+  <!-- Wi-Fi hotspot client end -->
+ 
+  <!-- MTK Beam plus start -->
+   <string name="beam_mgmt_tab_download_title">Ontvangen oproepen</string>
+  <string name="beam_mgmt_tab_upload_title">"3. Klik op de tab Delen en selecteer \’Andere gebruikers toestaan om verbinding te maken via de internetverbinding van deze computer\’(kies het nieuw toegevoegde netwerk dat het USB-internet weergeeft als \’Verbinding voor thuisnetwerk\’ verschijnt)”.</string>
+  <string name="beam_share_mgmt_notification_ticker">Geschiedenis delen door beamen</string>
+  <string name="beam_share_mgmt_notification_title">Geschiedenis delen door beamen</string>
+  <string name="beam_share_mgmt_notification_message">"Selecteer Geschiedenis delen door beamen."</string>
+  <string name="beam_share_mgmt_tab_menu_clear">"Alle instellingen voor de website wissen?"</string>
+  <string name="beam_share_open_file_dialog_title">Kan het bestand niet openen.</string>
+  <string name="beam_share_open_file_unsupported_message">Kan het bestand niet openen.</string>
+  <string name="beam_share_open_file_not_found_message">"Bestand niet gevonden: <xliff:g id="file_name">%1$s</xliff:g>
+</string>
+  <string name="beam_share_transfer_fail_dialog_title">"Beamen mislukt"</string>
+  <string name="beam_share_resend_dialog_message">"Verzenden <xliff:g id="file_name">%1$s</xliff:g> mislukt."</string>
+  <string name="beam_share_resend_dialog_ok_button">"Opnieuw proberen"</string>
+  <string name="beam_share_show_received_files_menu">"Ontvangen bestanden weergeven"</string>
+  <string name="beam_share_history_title">Geschiedenis delen door beamen</string>
+  <string name="beam_share_clear_confirm_dialog_title">"Alles wissen"</string>
+  <string name="beam_share_clear_confirm_dialog_message">Geschiedenis wissen?</string>
+  <string name="beam_share_receive_fail_dialog_message">"Ontvangst <xliff:g id="file_name">%1$s</xliff:g> is mislukt."</string>
+  <string name="beam_share_clear_item_dailog_title">"Delete"</string>
+  <string name="beam_share_clear_item_dailog_message">Het item wordt verwijderd.</string>
+  <!-- MTK Beam plus end -->
+ 
+  <!-- MTK NFC settings start -->
+   <string name="nfc_p2p_mode">P2P-modus</string>
+  <string name="nfc_p2p_mode_summary">App-inhoud verzenden of ontvangen</string>
+  <string name="nfc_tag_mode_category">Tag-modus</string>
+  <string name="nfc_rw_tag_title">Tag lezen en schrijven</string>
+  <string name="nfc_rw_tag_summary">Uit een tag lezen of er naar schrijven</string>
+  <string name="nfc_card_emulation_category_title">modus kaartemulatie</string>
+  <string name="nfc_card_emulation">Kaartemulatie</string>
+  <string name="card_emulation_settings_category_title">beschikbaar beveiligingselement</string>
+  <string name="card_emulation_settings_no_element_found">Geen beveiligingselement beschikbaar</string>
+  <string name="card_emulation_settings_off_text">Schakel kaartemulatie in om beschikbare beveiligingselementen weer te geven</string>
+  <string name="card_emulation_turning_off_text">Kaartemulatie wordt uitgeschakeld…</string>
+  <string name="card_emulation_turning_on_text">Kaartemulatie wordt ingeschakeld…</string>
+  <string name="card_emulation_switch_error_title">Fout</string>
+  <string name="card_emulation_switch_error_message">Omwisselen naar <xliff:g id="card_mode">%1$s</xliff:g> mislukt.</string>
+  <string name="card_emulation_sim_not_supported_message">
+<xliff:g id="sim_description">%1$s</xliff:g> ondersteunt geen NFC-kaartemulatie.</string>
+  <string name="card_emulation_two_sim_not_supported_message">SIM1, SIM2 ondersteunen niet de de emulatiefunctie voor de NFC-kaart.</string>
+  <string name="nfc_hce_pay_summary">Apparaat gebruiken als TIK EN BETAAL als Google wallet, credit card, enz.</string>
+  <!-- MTK NFC settings end -->
+ 
+  <!-- MTK WIFI Passpoint start -->
+   <string name="passpoint_summary">"Automatisch verbinden met AP's die passpoint ondersteunen"</string>
+  <string name="passpoint_append_summary">(via Passpoint)</string>
+  <string name="passpoint_config_credential_type">Soort referentie</string>
+  <string name="passpoint_config_eap_method">"EAP-methode"</string>
+  <string name="passpoint_supported">Ondersteund</string>
+  <string name="passpoint_username_pw">Gebruikersnaam/wachtwoord</string>
+  <string name="passpoint_certificate">Certificaat</string>
+  <!-- MTK WIFI Passpoint end -->
+ 
+  <!-- MTK WFD start -->
+   <string name="wfd_change_resolution_menu_title">Resolutie wijzigen</string>
+  <string name="wfd_sink_summary">Kan door anderen ontdekt worden</string>
+  <string name="wfd_device_category">APPARAATLIJST</string>
+  <string name="wfd_sink_toast_enjoy">Veel plezier met de schermweergave van het andere apparaat</string>
+  <string name="wfd_sink_toast_disconnect">Schermweergave afgebroken</string>
+  <string name="wfd_sink_disconnecting">Verbinding wordt verbroken...</string>
+  <string name="wfd_sink_guide_btn">Ophalen</string>
+  <string name="wfd_sink_guide_title">Hoe stop ik?</string>
+  <string name="wfd_sink_guide_content">Gedurende <xliff:g id="seconds">%s</xliff:g> seconden indrukken op het scherm om weergave van een ander apparaat te stoppen.</string>
+  <!-- MTK WFD end -->
+ 
+  <!-- MTK Storage Settings start -->
+   <string name="mtp_transfer_unmount_error_text">Tijdens bestandsoverdracht kan de SD-kaart niet ontkoppeld worden</string>
+  <string name="mtp_transfer_erase_error_text">Tijdens bestandsoverdracht kan de SD-kaart niet gewist worden</string>
+  <string name="launch_error">"Kan de toepassing niet starten!"</string>
+  <string name="dlg_confirm_unmount_usb_title" product="default">USB-opslag ontkoppelen?</string>
+  <string name="dlg_confirm_unmount_usb_text" product="default">Als u de USB-opslag ontkoppelt, worden enkele geactiveerde applicaties gestopt en kunt u deze wellicht niet meer gebruiken totdat u de usb-opslag weer koppelt.</string>
+  <string name="dlg_error_unmount_usb_text" product="default">Kan de USB-opslag niet ontkoppelen. Probeer het later opnieuw.</string>
+  <string name="unmount_usb_inform_text" product="default">Usb-opslag wordt ontkoppeld.</string>
+  <string name="sd_eject_usbstorage" product="default">"USB-opslag ontkoppelen"</string>
+  <string name="sd_eject_usbstorage_summary" product="default">"Interne USB-opslag ontkoppelen"</string>
+  <string name="sd_mount_usbstorage" product="default">"USB-opslag koppelen"</string>
+  <string name="sd_insert_usb_summary" product="default">"USB-opslag plaatsen voor koppelen"</string>
+  <string name="usb_ums_title">USB-opslag</string>
+  <string name="usb_ums_summary">"XP aanbevolen. Laat u bestanden overzetten tussen uw computer en de USB-opslag van Android."</string>
+  <string name="usb_charge_title">Alleen opladen</string>
+  <string name="usb_connect_as_cdrom_category">"Verbinding maken als CD-ROM"</string>
+  <string name="usb_charge_summary">Stop alle USB-functies. Hiermee versnelt het opladen via USB en het vermindert het energiegebruik.</string>
+  <string name="akp_installer_settings_title">APK-installatieprogramma</string>
+  <string name="akp_installer_settings_summary">Installeer uw APK vanuit de telefoonopslag en de SD-kaart</string>
+  <string name="usb_bicr_title">Ingebouwde cd-rom</string>
+  <string name="usb_bicr_summary">Geef een virtuele CD-ROM weer met nuttige software.</string>
+  <string name="select_memory">Standaard opslaglocatie</string>
+  <string name="dlg_mount_external_sd_title" product="default">SD-kaart koppelen?</string>
+  <string name="dlg_mount_external_sd_summary" product="default">Als u de SD-kaart koppelt, stoppen sommige apps die u gebruikt.</string>
+  <!-- MTK Storage Settings end -->
+ 
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">HDMI-instellingen</string>
+  <string name="hdmi_settings_summary">Klik hier om HDMI in te stellen</string>
+  <string name="hdmi_audio_toggler">Audio</string>
+  <string name="hdmi_video_toggler">Video</string>
+  <string name="hdmi_video_resolution">Videoresolutie</string>
+  <string name="hdmi_auto">Autom.</string>
+  <string name="hdmi_scale_control">Instellingen videoschaal</string>
+  <string name="hdmi_scale_no_scale">Niet schalen</string>
+  <string name="hdmi_scale_scale_down">Verkleinen <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">Audio-uitvoer</string>
+  <string name="hdmi_audio_output_stereo">Stereo</string>
+  <string name="hdmi_audio_output_multi_channel">Meerkanaals</string>
+  <!-- MTK HDMI end -->
+ 
+  <!-- MTK Display Settings start -->
+   <string name="landscape_launcher_title">Landschapstarter</string>
+  <string name="landscape_launcher_none">Geen</string>
+  <string name="display_settings_scences_title">Scènes</string>
+  <string name="default_name">Standaard</string>
+  <string name="custom_theme_name">Nieuw [%1$s]</string>
+  <string name="loading">Bezig met laden…</string>
+  <string name="auto_backlight_title">Economische verlichting</string>
+  <string name="auto_backlight_summary">Past verlichting automatisch aan om energie te sparen</string>
+  <string name="display_personalize">Personaliseren</string>
+  <string name="display_default">"Weergave"</string>
+  <string name="clear_motion_summary">Verbetering vloeiende video</string>
+  <string name="on_text">"aan"</string>
+  <string name="off_text">"uit"</string>
+  <string name="mira_vision_summary">Levert de beste visuele effecten</string>
+  <!-- MTK Display Settings end -->
+ 
+  <!--MTK Security Settings start -->
+   <string name="voice_unlock_backup_info_summary">Als Stemontgrendeling u niet kan herkennen, hoe wilt u dan ontgrendelen?</string>
+  <string name="unlock_set_unlock_mode_voice_weak">Stemontgrendeling</string>
+  <string name="mtk_lock_screen_notifications_title">Meldingen vergrendelscherm</string>
+  <string name="lock_screen_notifications_summary">Meldingen weergeven op vergrendelscherm</string>
+  <string name="lock_screen_style_title">Stijl vergrendelscherm</string>
+  <string name="current_suffix">"(Huidig)"</string>
+  <string name="lockscreen_style_default_desc">"Snelle toegang tot toepassingen op het vergrendelscherm"</string>
+  <string name="security_not_set">Beveiliging niet ingesteld</string>
+  <string name="voice_ui_title">Spraakbesturing</string>
+  <!--MTK Security Settings end -->
+ 
+  <!-- MTK Wireless settings start -->
+   <string name="pch_toggle_title">Voorkeur GPRS-overdracht</string>
+  <string name="pch_data_prefer_summary_off">Gegevensvoorkeur</string>
+  <string name="pch_call_prefer_summary_on">Oproepvoorkeur</string>
+  <string name="pch_warning_message">Gegevensoverdrachtsnelheid zal afnemen.</string>
+  <string name="tethered_ipv6_title">Instellingen voor hotspot en tethering</string>
+  <string name="tethered_ipv4v6">(IPv6 beschikbaar)</string>
+  <string name="tethered_ipv6">(Alleen IPv6 beschikbaar)</string>
+  <string name="tethered_ipv4">(IPv6 niet beschikbaar)</string>
+  <string name="tethering_apn_settings_title">APN-instellingen</string>
+  <string name="tethering_apn_settings_summary">APN voor tethering instellen</string>
+  <string name="usb_tether_type_title">Type USB-tethering</string>
+  <string name="usb_tethering_select_version">Selecteer versie PC-systeem</string>
+  <string name="apn_port_warning">De poort waarde moet tussen 1 en 655351 liggen!</string>
+  <string name="apn_predefine_change_dialog_notice">Weet u zeker dat u wilt opslaan? Wijzigingen aan standaard APNs kunnen verbindingsproblemen veroorzaken!</string>
+  <string name="lockdown_vpn_already_connected">VPN altijd-aan is reeds ingeschakeld voor verbinding.</string>
+  <!-- MTK Wireless settings end -->
+ 
+  <!-- MTK Feature MISC start -->
+   <string name="schedule_power_on_off_settings_title">Batterij in-/uitschakelen</string>
+  <string name="ipo_title">Snel opstarten</string>
+  <string name="ipo_summary_on">Snel opstarten uitschakelen</string>
+  <string name="ipo_summary_off">Snel opstarten inschakelen</string>
+  <string name="hotknot_explained_description">Gegevensuitwisseling toestaan als het scherm een ander apparaat raakt</string>
+  <string name="mouse_primary_button_title">Primaire en secundaire knoppen verwisselen</string>
+  <string name="mouse_primary_button_dialog_title">Primaire knop verwisselen</string>
+  <string name="double_click_title">Dubbelkliksnelheid</string>
+  <string name="test_area">TESTGEBIED:</string>
+  <string name="double_click_tip">Dubbelklik hier</string>
+  <!-- MTK Feature MISC end -->
+ 
+  <!-- MTK Bluetooth Settings start -->
+   <string name="bluetooth_advanced_settings">Geavanceerde Bluetooth-instellingen</string>
+  <string name="bluetooth_profile_ftp">Bestandsoverdracht</string>
+  <string name="bluetooth_ftp_profile_summary_use_for">Gebruiken voor bestandsoverdracht</string>
+  <string name="bluetooth_ftp_profile_summary_connected">"Verbonden met bestandsoverdracht"</string>
+  <!-- MTK Bluetooth Settings end -->
+ 
+  <!--MTK DateTime start-->
+   <string name="gps_time_sync_attention_gps_on">Het duurt ongeveer 1 minuut om de positie met GPS te bepalen. GPS levert mogelijk niet de juiste tijd als gevolg van een zwak omgevingssignaal.\nWeet u zeker dat u de tijd van GPS wilt gebruiken?</string>
+  <string name="gps_time_sync_attention_gps_off">Om de tijd van GPS te gebruiken, moet u GPS eerst inschakelen. Het duurt daarna hoogstens 1 minuut om de positie met GPS te bepalen. GPS levert mogelijk niet de juiste tijd als gevolg van een zwak omgevingssignaal. \n\nWeet u zeker dat u de tijd van GPS wilt gebruiken?</string>
+  <!--MTK DateTime end-->
+ 
+  <!--MTK DRM settings start -->
+   <string name="drm_settings_title">DRM reset</string>
+  <string name="drm_settings_summary">Verwijder alle DRM-licenties</string>
+  <string name="drm_reset_dialog_msg">Deze handeling verwijdert alle licenties van dit apparaat. Doorgaan?</string>
+  <string name="drm_reset_toast_msg">Licenties zijn verwijderd.</string>
+  <!--MTK DRM settings end -->
+ 
+  <!-- MTK APPS settings start -->
+   <string name="launch_main_label">Toepassing starten</string>
+  <string name="launch_main">Start de toepassing via de hoofdactiviteit</string>
+  <string name="launch_activitie">Starten</string>
+  <string name="move_app_to_where">Verplaatsen naar 
+        <xliff:g id="location">%s</xliff:g>
+</string>
+  <!-- MTK APPS settings end -->
+ 
+  <!-- MTK Battery MISC start -->
+   <string name="bg_power_saving_title">Stand-by intelligente energiebesparing</string>
+  <!-- MTK Battery MISC end -->
+ 
+  <!-- MTK  Datausage  start -->
+   <string name="mtk_datausage_overview_tab">Overzicht</string>
+  <string name="mtk_datausage_overview_wifi_today">Vandaag</string>
+  <string name="mtk_datausage_overview_wifi_total">Totaal</string>
+  <string name="mtk_datausage_overview_mobile_title">MOBIEL</string>
+  <string name="mtk_datausage_overview_mobile_usage">
+<xliff:g id="actual">%s</xliff:g> van 
+        <xliff:g id="limit">%s</xliff:g>
+</string>
+  <string name="mtk_datausage_overview_mobile_usage_warning">Voorbij de grenswaarde <xliff:g>%s</xliff:g>
+</string>
+  <string name="data_saving_title">Opslaan gegevens</string>
+  <!-- MTK  Dtausage  end -->
+ 
+  <!-- MTK About phone start -->
+   <string name="status_imei_slot1">IMEI (Sleuf 1)</string>
+  <string name="status_imei_slot2">IMEI (Sleuf 2)</string>
+  <string name="custom_build_version">"Versie aangepast model"</string>
+  <string name="mota_system_update_summary">"Controleer systeemupdate op de server"</string>
+  <string name="software_updates_more_title">Software-updates</string>
+  <string name="software_updates_more_summary">Controleer op nieuwe versie software</string>
+  <!-- MTK About phone end -->
+ 
+  <!-- MTK sim cards start -->
+   <string name="sim_cards_celluar_data_dialog_title">Kies SIM voor gebruik met mobiele gegevens</string>
+  <string name="sim_cards_data_sms_dialog_title">Kies SIM voor gebruik met SMS-berichten</string>
+  <string name="sim_cards_calls_dialog_title">Kies account voor gebruik met telefoongesprekken</string>
+  <string name="sim_cards_other_calls_dialog_title">Kies andere account</string>
+  <string name="sim_cards_other_calls_item_title">Andere account</string>
+  <string name="data_connection_progress_message">"Het schakelen naar een SIM duurt ongeveer 10 seconden. Een ogenblik geduld…"</string>
+  <string name="gemini_sim_mode_progress_activating_message">Bezig met activeren\u2026</string>
+  <string name="gemini_sim_mode_progress_deactivating_message">Bezig met deactiveren\u2026</string>
+  <string name="simui_intenet_call">Internetgesprek</string>
+  <!-- MTK sim cards end -->
+ 
+  <!-- MTK SIM Status start -->
+   <string name="imei_information_title">"IMEI-informatie"</string>
+  <string name="imei_information_summary">"Relatieve IMEI-informatie"</string>
+  <string name="slot_number">"(Positie <xliff:g id="SLOT_NUM">%1$d</xliff:g>)"</string>
+  <string name="sim_info_editor_color">"Achtergrondkleur"</string>
+  <string name="sim_cards_notify_title">"Simkaarten zijn gewijzigd"</string>
+  <string name="sim_cards_notify_summary">Tik hier om voorkeuren in te stellen.</string>
+  <string name="no_sim_cards_notify_title">Geen SIM-kaart ingestoken</string>
+  <string name="cellular_data_notify_title">"Mobiele gegevens niet beschikbaar"</string>
+  <string name="cellular_data_notify_summary">Tik hier om een gegevens-SIM in te stellen.</string>
+  <!-- MTK SIM Status end -->
+ 
+  <!-- IMS/SMS Settings start -->
+   <string name="ims_toggle_summary">Levert IP Multimedia subsysteemdiensten</string>
+  <string name="sms_vibrate_summary">apparaten laten trillen voor SMS</string>
+  <!-- IMS/SMS Settings end -->
+    <string name="default_data_switch_err_msg1">Kan tijdens een gesprek niet wisselen naar voorkeurs-SIM voor mobiele gegevens.</string>
+  <string name="two_cdma_dialog_msg">Sleuf 1 en sleuf 2 kunnen CDMA niet tegelijk ondersteunen.</string>
+  <string name="hetcom_setting_title">Turbo-downloaden</string>
+<string name="ringtone_sim2_title">Beltoon SIM 2</string>
+<string name="wfc_quick_toggle_title">Wi-Fi-oproep</string>
+<string name="Help">Hulp</string>
+<string name="Tutorials">Inleiding</string>
+<string name="Top_questions">Topvragen</string>
+<string name="Wifi_wfc_dialog_title">Wi-Fi-oproep</string>
+<string name="Wifi_wfc_dialog_top_wording">U bent nu verbonden met het WLAN-netwerk</string>
+<string name="Wifi_wfc_dialog_bottom_wording">Dit symbool bovenaan uw scherm geeft aan dat u met het Wi-Fi-netwerk verbonden bent. U kunt oproepen doen en berichten verzenden via Wi-Fi.</string>
+<string name="Skip">Overslaan</string>
+<string name="Learn_more">Meer informatie</string>
+<string name="Next">Volgende</string>
+<string name="Switch_not_in_use_string">De schakelaar is tijdelijk niet beschikbaar. Probeer het later nog eens.</string>
+<string name="Done">Klaar</string>
+<string name="Wfc_questions">Wi-Fi-oproepen hulp</string>
+<string name="Wfc_off_summary">Uitschakelen</string>
+<string name="wfc_on_summary">Wi-Fi-oproep aan</string>
+<string name="connection_preference">Verbindingsvoorkeuren</string>
+<string name="WiFi_preferred">Bij voorkeur Wi-Fi</string>
+<string name="Cellular_network_preferred">Bij voorkeur mobiel netwerk</string>
+<string name="Never_use_cellular_network">Mobiel netwerk nooit gebruiken</string>
+<string name="WiFi_preferred_summary">Wi-Fi gebruiken voor gesprekken. Als Wi-Fi niet beschikbaar is, gebruik het gsm-netwerk (standaard).</string>
+<string name="Cellular_network_preferred_summary">Het gsm-netwerk gebruiken voor gesprekken. Wi-Fi gebruiken als het gsm-netwerk niet beschikbaar is.</string>
+<string name="Never_use_cellular_network_summary">Alleen Wi-Fi gebruiken voor gesprekken. Niet het gsm-netwerk gebruiken, zelfs als die beschikbaar is.</string>
+<string name="no_sim_present_error">Geen SIM aanwezig</string>
+<string name="inavlid_sim_error">Fout 05: Ongeldige SIM</string>
+<string name="airplane_mode_on">Vliegtuigmodus is aan</string>
+<string name="cellular_prefered_summary">Mobiel is uw voorkeursverbindingsmodus</string>
+<string name="wifi_off_summary">Wi-Fi uitgeschakeld</string>
+<string name="not_connected_to_wifi_summary">Niet verbonden met Wi-Fi</string>
+<string name="poor_wifi_signal_summary">Slecht Wi-Fi-signaal</string>
+<string name="wfc_enabling_summary">Aan het inschakelen...</string>
+<string name="wfc_disabling_summary">Aan het uitschakelen...</string>
+<string name="wfc_ready_for_calls_summary">Klaar voor oproepen</string>
+<string name="wfc_unknown_error_summary">Onbekende fout</string>
+<string name="wfc_tutorial_heading">Leer alles over Wi-Fi-oproepen</string>
+<string name="wfc_tutorial_content_second_page_part1">Zodra u het pictogram voor bellen via Wi-Fi in de statusbalk ziet, is uw telefoon klaar om te bellen via Wi-Fi.</string>
+<string name="wfc_tutorial_content_second_page_part2">Om in een Wi-Fi-gesprek te blijven, blijft u binnen het bereik van het Wi-Fi-netwerk. U hoort een pieptoon en ontvangt een bericht op het scherm wanneer een oproep is weggevallen omdat u zich buiten het bereik heeft begeven.</string>
+<string name="wfc_incorrect_sim_alert_title">Fout 05: Ongeldige SIM-kaart</string>
+<string name="wfc_invalid_sim_alert_message">Belangrijke melding\nUw SIM-kaart moet worden bijgewerkt voor compatibiliteit met de Wi-Fi-oproependienst. Bezoek een T-Mobile-winkel of bel 611 vanaf uw telefoon om de Klantendienst te bereiken.</string>
+<string name="ok_string">OK</string>
+<string name="wifi_ap_help_title">Help</string>
+<string name="help_document">1. Uw apparaat kan als internettoegangpunt worden gebruikt via de draagbare Wi-Fi-hotspotfunctie. Randapparaten kunnen met uw apparaat verbinding maken en hebben via uw mobiele gegevensverbinding toegang tot internet.\n2. Schakel mobiele gegevens in voordat u de draagbare Wi-Fi-hotspotfunctie gebruikt. Er kunnen kosten voor gegevensoverdracht in rekening worden gebracht.\n3. Het gebruik van de draagbare Wi-Fi-hotspotfunctie verbruikt meer energie.</string>
+<string name="bg_power_percent_title">Batterijpercentage weergeven</string>
+<string name="bg_power_percent_summary">Het resterende batterijpercentage weergeven op de statusbalk</string>
+<string name="wfc_tutorial_content_first_page">Met bellen via Wi-Fi hebt u nooit meer last van een matige dekking. Met bellen via Wi-Fi kunt u met uw bestaande T-Mobile-abonnement oproepen en sms-berichten ontvangen via een Wi-Fi-netwerk. Bellen via Wi-Fi vereist geen speciale instellingen. Ga in het instellingenmenu naar Draadloos en netwerken en maak verbinding met een Wi-Fi-netwerk om aan de slag te gaan.</string>
+<string name="storage_internal_storage_title">Interne opslag</string>
+<string name="storage_cleaner_preference_title">Geheugenopruimer</string>
+</resources>

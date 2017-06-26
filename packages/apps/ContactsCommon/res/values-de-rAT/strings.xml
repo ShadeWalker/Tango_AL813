@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2012 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  --><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="toast_text_copied">Text kopiert</string>
+    <string name="call_custom"><xliff:g id="custom">%s</xliff:g> anrufen</string>
+    <string name="call_home">Anruf Privat</string>
+    <string name="call_mobile">Anruf Handy</string>
+    <string name="call_work">Anruf Arbeit</string>
+    <string name="call_fax_work">Anruf Fax Arbeit</string>
+    <string name="call_fax_home">Anruf Fax Privat</string>
+    <string name="call_pager">Anruf Pager</string>
+    <string name="call_other">Anruf</string>
+    <string name="call_callback">Anruf Rückruf</string>
+    <string name="call_car">Anruf Auto</string>
+    <string name="call_company_main">Anruf Firma Hauptnummer</string>
+    <string name="call_isdn">ISDN/Anruf</string>
+    <string name="call_main">Anruf Hauptnummer</string>
+    <string name="call_other_fax">Anruf Fax</string>
+    <string name="call_radio">Anruf Radio</string>
+    <string name="call_telex">Anruf Telex</string>
+    <string name="call_tty_tdd">Anruf TTY/TDD</string>
+    <string name="call_work_mobile">Anruf Arbeit Handy</string>
+    <string name="call_work_pager">Anruf Arbeit Pager</string>
+    <string name="call_assistant">Anruf <xliff:g id="assistant">%s</xliff:g></string>
+    <string name="call_mms">Anruf MMS</string>
+    <string name="sms_custom">Text <xliff:g id="custom">%s</xliff:g></string>
+    <string name="sms_home">Text Privat</string>
+    <string name="sms_mobile">Text Handy</string>
+    <string name="sms_work">Text Arbeit</string>
+    <string name="sms_fax_work">Text Fax Arbeit</string>
+    <string name="sms_fax_home">Fax Privat</string>
+    <string name="sms_pager">Text Pager</string>
+    <string name="sms_other">Text</string>
+    <string name="sms_callback">Text Rückruf</string>
+    <string name="sms_car">Text Auto</string>
+    <string name="sms_company_main">Text Firma Hauptnummer</string>
+    <string name="sms_isdn">Text ISDN</string>
+    <string name="sms_main">Text Hauptnummer</string>
+    <string name="sms_other_fax">Text Fax</string>
+    <string name="sms_radio">Text Radio</string>
+    <string name="sms_telex">Text Telex</string>
+    <string name="sms_tty_tdd">Text TTY/TDD</string>
+    <string name="sms_work_mobile">Text Handy Arbeit</string>
+    <string name="sms_work_pager">Text Pager Arbeit</string>
+    <string name="sms_assistant">Text <xliff:g id="assistant">%s</xliff:g></string>
+    <string name="sms_mms">Text MMS</string>
+    <string name="description_video_call">Video-Anruf machen</string>
+    <string name="clearFrequentsConfirmation_title">Regelmäßig Kontaktierte löschen?</string>
+    <string name="clearFrequentsConfirmation">Sie löschen die Liste der regelmäßig Kontaktierten in den Personen- und Telefon-Apps. Hierdurch zwingen Sie die E-Mail-App Ihre Adressierung von Beginn an neu zu erlernen.</string>
+    <string name="clearFrequentsProgress_title">Regelmäßig Kontaktierte werden gelöscht\u2026</string>
+    <string name="status_available">"Verfügbar"</string>
+    <string name="status_away">Entfernt</string>
+    <string name="status_busy">Beschäftigt</string>
+    <string name="contactsList">Kontakte</string>
+    <string name="local_invisible_directory">"Sonstige"</string>
+    <string name="directory_search_label">Verzeichnis</string>
+    <string name="local_search_label">Alle Kontakte</string>
+    <string name="user_profile_contacts_list_header" msgid="9154761216179882405">Ich</string>
+    <string name="search_results_searching">Nach Wi-Fi-Netzwerken wird gesucht\u2026</string>
+    <string name="foundTooManyContacts">Mehr als <xliff:g id="count">%d</xliff:g> gefunden.</string>
+    <string name="listFoundAllContactsZero">Keine Kontakte</string>
+    <plurals name="searchFoundContacts">
+        <item quantity="one">1 gefunden</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> gefunden</item>
+    </plurals>
+    <string name="description_quick_contact_for">Schnellkontakt für <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="missing_name">(Kein Name)</string>
+    <string name="favoritesFrequentCalled">Regelmäßig angerufen</string>
+    <string name="favoritesFrequentContacted">Regelmäßig kontaktiert</string>
+    <string name="description_view_contact_detail" msgid="2795575601596468581">Kontakt anzeigen</string>
+    <string name="list_filter_phones">Alle Kontakte mit Rufnummern</string>
+    <string name="view_updates_from_group">Aktualisierungen anzeigen</string>
+    <string name="account_phone" product="tablet">Nur Tablet, nicht synchronisiert</string>
+    <string name="account_phone" product="default">Nur Telefon, nicht synchronisiert</string>
+    <string name="nameLabelsGroup">NAME</string>
+    <string name="nicknameLabelsGroup">Nick</string>
+    <string name="full_name">NAME</string>
+    <string name="name_given">Vorname</string>
+    <string name="name_family">Nachname</string>
+    <string name="name_prefix">Namensvorsatz</string>
+    <string name="name_middle">Mittelname</string>
+    <string name="name_suffix">Namensnachsatz</string>
+    <string name="name_phonetic">Phonetischer Name</string>
+    <string name="name_phonetic_given">Phonetischer Vorname</string>
+    <string name="name_phonetic_middle">Phonetischer Mittelname</string>
+    <string name="name_phonetic_family">Phonetischer Nachname</string>
+    <string name="phoneLabelsGroup">Telefon</string>
+    <string name="emailLabelsGroup">E-Mail</string>
+    <string name="postalLabelsGroup">ADRESSE</string>
+    <string name="imLabelsGroup">Ich bin</string>
+    <string name="organizationLabelsGroup">Organisation</string>
+    <string name="relationLabelsGroup">Verhältnis</string>
+    <string name="eventLabelsGroup">Spezielle Daten</string>
+    <string name="sms">Textnachricht</string>
+    <string name="postal_address">ADRESSE</string>
+    <string name="ghostData_company">Firma</string>
+    <string name="ghostData_title">Titel</string>
+    <string name="label_notes">Notizen</string>
+    <string name="label_sip_address">Internetanruf</string>
+    <string name="websiteLabelsGroup">WEBSITE</string>
+    <string name="groupsLabel">Gruppen</string>
+    <string name="email_home">E-Mail Privat</string>
+    <string name="email_mobile">E-Mail mobil</string>
+    <string name="email_work">E-Mail Arbeit</string>
+    <string name="email_other">E-Mail</string>
+    <string name="email_custom">E-Mail <xliff:g id="custom">%s</xliff:g></string>
+    <string name="email">E-Mail</string>
+    <string name="postal_street">Straße</string>
+    <string name="postal_pobox">Postfach</string>
+    <string name="postal_neighborhood">Nachbarschaft</string>
+    <string name="postal_city">Stadt</string>
+    <string name="postal_region">"Bundesstaat/-land"</string>
+    <string name="postal_postcode">"Postleitzahl"</string>
+    <string name="postal_country">Land</string>
+    <string name="map_home">Privatadresse anzeigen</string>
+    <string name="map_work">Arbeitsadresse anzeigen</string>
+    <string name="map_other">Adresse anzeigen</string>
+    <string name="map_custom">Adresse <xliff:g id="custom">%s</xliff:g> Anzeigen</string>
+    <string name="chat_aim">Chat über AIM</string>
+    <string name="chat_msn">Chat über Windows Live</string>
+    <string name="chat_yahoo">Chat über Yahoo</string>
+    <string name="chat_skype">Chat über Skype</string>
+    <string name="chat_qq">Chat über QQ</string>
+    <string name="chat_gtalk">Chat über Google Talk</string>
+    <string name="chat_icq">Chat über ICQ</string>
+    <string name="chat_jabber">Chat über Jabber</string>
+    <string name="chat">Chat</string>
+    <string name="description_minus_button">Löschen</string>
+    <string name="expand_collapse_name_fields_description">Namensfelder aufklappen oder reduzieren</string>
+    <string name="list_filter_all_accounts">Alle Kontakte</string>
+    <string name="list_filter_all_starred">Mit Stern gekennzeichnet</string>
+    <string name="list_filter_customize">Anpassen</string>
+    <string name="list_filter_single">Kontakt</string>
+    <string name="display_ungrouped">Alle anderen Kontakte</string>
+    <string name="display_all_contacts">Alle Kontakte</string>
+    <string name="menu_sync_remove">Sync-Gruppe entfernen</string>
+    <string name="dialog_sync_add">Sync-Gruppe hinzufügen</string>
+    <string name="display_more_groups">Mehr Gruppen\u2026</string>
+    <string name="display_warn_remove_ungrouped">Erntfernen von \"<xliff:g id="group" example="Starred">%s</xliff:g>\" aus der Synchronisation entfernt auch nicht gruppierte Kontakte daraus.</string>
+    <string name="savingDisplayGroups">Anzeigeoptionen werden gespeichert\u2026</string>
+    <string name="menu_done">Erledigt</string>
+    <string name="menu_doNotSave">Abbrechen</string>
+    <string name="listAllContactsInAccount">Kontakte in <xliff:g id="name" example="abc@gmail.com">%s</xliff:g></string>
+    <string name="listCustomView">Kontakte in anwenderspez. Ansicht</string>
+    <string name="listSingleContact">Einzelner Kontakt</string>
+    <string name="dialog_new_contact_account">Kontakt unter Konto erstellen</string>
+    <string name="import_from_sim">Von SIM-Karte importieren</string>
+    <string name="import_from_sim_summary">Von SIM <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g> importieren</string>
+    <string name="import_from_sim_summary_no_number">Von SIM <xliff:g id="sim_name">%1$s</xliff:g> importieren</string>
+    <string name="import_from_sdcard" product="default">Aus Speicher importieren</string>
+    <string name="cancel_import_confirmation_message">Import von <xliff:g id="filename" example="import.vcf">%s</xliff:g> abbrechen?</string>
+    <string name="cancel_export_confirmation_message">Export von <xliff:g id="filename" example="export.vcf">%s</xliff:g> abbrechen?</string>
+    <string name="cancel_vcard_import_or_export_failed">Kann vCard-Import/Export nicht abbrechen</string>
+    <string name="fail_reason_unknown">Unbekannter Fehler</string>
+    <string name="fail_reason_could_not_open_file">Konnte \"<xliff:g id="file_name">%s</xliff:g>\" nicht öffnen: <xliff:g id="exact_reason">%s</xliff:g>.</string>
+    <string name="fail_reason_could_not_initialize_exporter">Konnte Exportvorgang nicht starten: \"<xliff:g id="exact_reason">%s</xliff:g>\".</string>
+    <string name="fail_reason_no_exportable_contact">Keine exportierbaren Kontakte vorhanden</string>
+    <string name="fail_reason_error_occurred_during_export">Fehler beim Export aufgetreten: \"<xliff:g id="exact_reason">%s</xliff:g>\".</string>
+    <string name="fail_reason_too_long_filename">Erforderlicher Dateiname ist zu lang (\"<xliff:g id="filename">%s</xliff:g>\").</string>
+    <string name="fail_reason_too_many_vcard" product="nosdcard">Zu viele vCard-Dateien im Speicher.</string>
+    <string name="fail_reason_too_many_vcard" product="default">Zu viele vCard-Dateien auf der SD-Karte.</string>
+    <string name="fail_reason_io_error">E/A-Fehler</string>
+    <string name="fail_reason_low_memory_during_import">Unzureichender Speicherplatz Die Datei ist vermutlich zu groß.</string>
+    <string name="fail_reason_vcard_parse_error">vCard konnte aus unerwartetem Grund nicht analysiert werden.</string>
+    <string name="fail_reason_not_supported">Das Format wird nicht unterstützt.</string>
+    <string name="fail_reason_failed_to_collect_vcard_meta_info">Kann Meta-Informationen der festgelegten vCard Datei(en) nicht ermitteln.</string>
+    <string name="fail_reason_failed_to_read_files">Eine oder mehrere Dateien können nicht importiert werden (%s).</string>
+    <string name="exporting_vcard_finished_title">Exportieren beendet <xliff:g id="filename" example="export.vcf">%s</xliff:g>.</string>
+    <string name="exporting_vcard_canceled_title">Exportieren <xliff:g id="filename" example="export.vcf">%s</xliff:g> abgebrochen.</string>
+    <string name="exporting_contact_list_title">Kontaktdaten werden exportiert</string>
+    <string name="exporting_contact_list_message">Ihre Kontaktdaten werden exportiert nach: <xliff:g id="file_name">%s</xliff:g>.</string>
+    <string name="composer_failed_to_get_database_infomation">Kann Datenbank-Informationen nicht abrufen.</string>
+    <string name="composer_has_no_exportable_contact" product="tablet">Keine exportierbaren Kontakte vorhanden Sollten Sie Kontakte auf Ihrem Tablet haben, kann es daran liegen, dass manche Provider nicht erlauben, Kontakte vom Tablett zu exportieren.</string>
+    <string name="composer_has_no_exportable_contact" product="default">Keine exportierbaren Kontakte vorhanden Sollten Sie Kontakte auf Ihrem Telefon haben, kann es daran liegen, dass manche Provider nicht erlauben, Kontakte vom Telefon zu exportieren.</string>
+    <string name="composer_not_initialized">Die vCard-Erstellungshilfe konnte nicht korrekt gestartet werden.</string>
+    <string name="exporting_contact_failed_title">Kann nicht exportieren</string>
+    <string name="exporting_contact_failed_message">Die Kontaktdaten wurden nicht exportiert.\nGrund: \"<xliff:g id="fail_reason">%s</xliff:g>\"</string>
+    <string name="no_sdcard_message" product="nosdcard">Keinen Speicher gefunden</string>
+    <string name="no_sdcard_message" product="default">Keine SD-Karte gefunden</string>
+    <string name="confirm_export_message">Ihre Kontaktliste wird in eine Datei exportiert: <xliff:g id="vcard_filename">%s</xliff:g>.</string>
+    <string name="importing_vcard_description">Importiere <xliff:g id="current_number">%s</xliff:g>/<xliff:g id="total_number">%s</xliff:g>: <xliff:g id="name" example="JoeDue">%s</xliff:g></string>
+    <string name="reading_vcard_failed_title">vCard-Daten konnten nicht gelesen werden.</string>
+    <string name="reading_vcard_canceled_title">Lesen der vCard-Daten abgebrochen</string>
+    <string name="importing_vcard_finished_title">vCard <xliff:g id="filename" example="import.vcf">%s</xliff:g> importieren beendet</string>
+    <string name="importing_vcard_canceled_title">Importieren von <xliff:g id="filename" example="import.vcf">%s</xliff:g> abgebrochen</string>
+    <string name="vcard_import_will_start_message"><xliff:g id="filename" example="import.vcf">%s</xliff:g> wird in Kürze importiert.</string>
+    <string name="vcard_import_will_start_message_with_default_name">Datei wird in Kürze importiert.</string>
+    <string name="vcard_import_request_rejected_message">vCard-Importanfrage zurückgewiesen Versuchen Sie es später.</string>
+    <string name="vcard_export_will_start_message"><xliff:g id="filename" example="import.vcf">%s</xliff:g> wird in Kürze exportiert.</string>
+    <string name="vcard_export_request_rejected_message">vCard-Exportanfrage zurückgewiesen Versuchen Sie es später.</string>
+    <string name="vcard_unknown_filename">Kontakt</string>
+    <string name="caching_vcard_message">vCard(s) wird (werden) im lokalen temporären Speicher zwischengespeichert. Der aktuelle Import startet in Kürze</string>
+    <string name="vcard_import_failed">Kann vCard nicht importieren</string>
+    <string name="import_failure_no_vcard_file" product="nosdcard">Keine vCard-Datei im Speicher gefunden</string>
+    <string name="import_failure_no_vcard_file" product="default">Keine vCard-Datei auf der SD-Karte gefunden.</string>
+    <string name="nfc_vcard_file_name">Kontakt über NFC empfangen</string>
+    <string name="confirm_export_title">Kontakte exportieren?</string>
+    <string name="select_vcard_title">vCard-Datei wählen</string>
+    <string name="import_one_vcard_string">Eine vCard-Datei importieren</string>
+    <string name="import_multiple_vcard_string">Mehrere vCard-Dateien importieren</string>
+    <string name="import_all_vcard_string">Alle vCard-Dateien importieren</string>
+    <string name="searching_vcard_message" product="nosdcard">Suche nach vCard-Daten im SPeicher\u2026</string>
+    <string name="searching_vcard_message" product="default">Suche nach vCard-Daten auf SD-Karte\u2026</string>
+    <string name="caching_vcard_title">Zwischenspeichern</string>
+    <string name="scanning_sdcard_failed_message" product="nosdcard">Der Speicher konnte nicht gescannt werden. (Grund: \"<xliff:g id="fail_reason">%s</xliff:g>\")</string>
+    <string name="scanning_sdcard_failed_message" product="default">Die SD-Karte konnte nicht gescannt werden. (Grund: \"<xliff:g id="fail_reason">%s</xliff:g>\")</string>
+    <string name="progress_notifier_message">Importiere <xliff:g id="current_number">%s</xliff:g>/<xliff:g id="total_number">%s</xliff:g>: <xliff:g id="name" example="JoeDue">%s</xliff:g></string>
+    <string name="export_to_sdcard" product="default">Exportieren in Speicher</string>
+    <string name="display_options_sort_list_by">Sortieren nach</string>
+    <string name="display_options_sort_by_given_name">Vorname</string>
+    <string name="display_options_sort_by_family_name">Nachname</string>
+    <string name="display_options_view_names_as">Namensformat</string>
+    <string name="display_options_view_given_name_first">Vorname zuerst</string>
+    <string name="display_options_view_family_name_first">Nachname zuerst</string>
+    <string name="share_visible_contacts">Angezeigte Kontakt teilen</string>
+    <string name="dialog_import_export">Kontakte im-/exportieren</string>
+    <string name="dialog_import">Kontakte importieren</string>
+    <string name="share_error">Dieser Kontakt kann nicht geteilt werden.</string>
+    <string name="menu_search">Suchen</string>
+    <string name="menu_contacts_filter">Anzuzeigende Kontakte</string>
+    <string name="activity_title_contacts_filter">Anzuzeigende Kontakte</string>
+    <string name="custom_list_filter">Anwenderspez. Ansicht definieren</string>
+    <string name="hint_findContacts">Kontakte suchen</string>
+    <string name="contactsFavoritesLabel">Favoriten</string>
+    <string name="listTotalAllContactsZero">Keine Kontakte</string>
+    <string name="listTotalAllContactsZeroCustom">Keine sichtbaren Kontakte</string>
+    <string name="listTotalAllContactsZeroStarred">Keine Favoriten</string>
+    <string name="listTotalAllContactsZeroGroup">Keine Kontakte in <xliff:g id="name" example="Friends">%s</xliff:g></string>
+    <string name="menu_clear_frequents">Häufige löschen</string>
+    <string name="menu_select_sim">SIM-Karte wählen</string>
+    <string name="menu_accounts">Konten</string>
+    <string name="menu_import_export">Import/Export</string>
+    <string name="contact_status_update_attribution">über <xliff:g id="source" example="GoogleTalk">%1$s</xliff:g></string>
+    <string name="contact_status_update_attribution_with_date"><xliff:g id="date" example="3hoursago">%1$s</xliff:g> über <xliff:g id="source" example="GoogleTalk">%2$s</xliff:g></string>
+    <string name="action_menu_back_from_search">Suche stoppen</string>
+    <string name="description_clear_search">Suche löschen</string>
+    <string name="settings_contact_display_options_title">Kontaktanzeigeoptionen</string>
+    <string name="select_account_dialog_title">Konto</string>
+    <string name="set_default_account">Immer diese für Anrufe verwenden</string>
+    <string name="select_phone_account_for_calls">Anrufen mit</string>
+    <string name="family_group">Familien</string>
+    <string name="colleague_group">Kollege</string>
+    <string name="friend_group">Freundin</string>
+    <string name="schoolmate_group">Schulkamerad</string>
+  <string name="Local_phone">Telefon</string>
+</resources>

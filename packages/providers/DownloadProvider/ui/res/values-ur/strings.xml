@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="app_label">ڈاؤن لوڈز</string>
+    
+    <string name="download_title_sorted_by_date">تاریخ کی طرف سے ڈاؤن لوڈ ، اتارنا ترتیب</string>
+    
+    <string name="download_title_sorted_by_size">سائز کی طرف سے ڈاؤن لوڈ ، اتارنا ترتیب</string>
+
+    
+    <string name="no_downloads">کوئی ڈاؤن لوڈز نہیں۔</string>
+
+    
+    <string name="missing_title">&lt;Unknown&gt;</string>
+
+    
+    <string name="button_sort_by_size">بطور سائز چھانٹنا</string>
+    
+    <string name="button_sort_by_date">بطور وقت چھانٹنا</string>
+
+    
+
+    
+    <string name="download_queued">قطار شدہ</string>
+    
+    <string name="download_running">ترقی پذیر</string>
+    
+    <string name="download_success">مکمل</string>
+    
+    <string name="download_error">ناکام</string>
+
+    
+
+    
+    <string name="dialog_title_not_available">ڈاؤن لوڈ نہیں کرسکتا</string>
+    
+    <string name="dialog_failed_body">کیا آپ فائل ڈاؤن لوڈ کرنے کے لئے دوبارہ کوشش کرنا یا اسے قطار سے حذف کرنا چاہتے ہیں؟</string>
+    
+    <string name="dialog_title_queued_body">فائل ابھی دستیاب نہیں ہے</string>
+    
+    <string name="dialog_queued_body">یہ فائل آئندہ ڈاؤن لوڈ کے لیے قطار میں ہے لہذا یہ ابھی تک دستیاب نہیں ہے۔</string>
+    
+    <string name="dialog_file_missing_body">ڈاؤن لوڈ کردہ فائل تلاش نہیں کرسکتا۔</string>
+    
+    <string name="dialog_insufficient_space_on_external">ڈاؤن لوڈ مکمل نہیں کرسکتا۔ خارجی اسٹوریج میں اتنی زیادہ خالی جگہ نہیں ہے۔</string>
+    
+    <string name="dialog_insufficient_space_on_cache">ڈاؤن لوڈ مکمل نہیں کرسکتا۔ داخلی ڈاؤن لوڈ اسٹوریج میں اتنی زیادہ خالی جگہ نہیں ہے۔</string>
+    
+    <string name="dialog_cannot_resume">ڈاؤن لوڈ کو روک دیا گیا تھا اور اسے دوبارہ شروع نہیں کیا جاسکتا۔</string>
+    
+    <string name="dialog_file_already_exists">ڈاؤن لوڈ نہیں کرسکتا۔ اہدافی فائل پہلے سے ہی موجود ہے۔</string>
+    
+    <string name="dialog_media_not_found">ڈاؤن لوڈ نہیں کرسکتا۔ خارجی میڈیا دستیاب نہیں ہے۔</string>
+    
+    <string name="download_no_application_title">فائل نہیں کھول سکتا</string>
+
+    
+
+    
+    <string name="remove_download">خارج کرنا</string>
+    
+    <string name="delete_download">حذف کرنا</string>
+    
+    <string name="keep_queued_download">باقی رکھنا</string>
+    
+    <string name="cancel_running_download">منسوخ</string>
+    
+    <string name="retry_download">دوبارہ کوشش کرنا</string>
+    
+    <string name="deselect_all">انتخاب صاف کرنا</string>
+    
+    <string name="select_all">سبھی کو منتخب کریں</string>
+    
+    <string name="selected_count">منتخب کردہ  <xliff:g id="number" example="3">%1$d</xliff:g> میں سے  <xliff:g id="total" example="15">%2$d</xliff:g>  </string>
+    
+    <string name="download_share_dialog">اشتراک کریں بذریعہ</string>
+
+</resources>

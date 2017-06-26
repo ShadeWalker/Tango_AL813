@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dm_lock">DM lukustatud</string>
+    <string name="dm_unlock">Ava DM</string>
+    <string name="start_record">Alusta salvestamist</string>
+    <string name="stop_record">Peata salvestamine</string>
+    <string name="str_db_playlist_name">"Minu salvestised"</string>
+    <string name="alert_device_error">"Audioseadme viga"</string>
+    <string name="ext_media_badremoval_notification_title">"SD-kaart eemaldati ootamatult"</string>
+    <string name="error_sdcard_access">"Juurdepääs SD-kaardile pole võimalik"</string>
+    <string name="confirm_device_info_full">SD kaardil pole ruumi, salvestus on salvestatud.</string>
+    <string name="confirm_save_info_saved">Salvestus on salvestatud</string>
+    <string name="confirm_save_info_saved_to">Salvestis talletati</string>
+    <string name="recording_saved_sd_full">SD kaardil pole ruumi, salvestus on salvestatud.</string>
+    <string name="sd_not_enough">SD-kaart on peagi\ntäis</string>
+    <string name="alert_dialog_dismiss">"Kõrvalda"</string>
+    <string name="change_my_pic">Vaheta</string>
+    <string name="onscreenHangupAll">Lõpeta kõik kõned</string>
+    <string name="onscreenHangupHolding">Lõpeta ootel kõne</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Lõpeta aktiivne kõne, vasta ootel kõnele</string>
+    <string name="menu_ect">Edastamine</string>
+    <string name="respond_via_sms_confirmation_format">"Sõnum on saadetud numbrile 
+        <xliff:g id="PHONE_NUMBER">%s</xliff:g>."
+    </string>
+    <string name="volte_add_conference_member_title">Lisa konverentsile</string>
+    <string name="add_member_msg">Sisesta number või nimi</string>
+    <string name="card_title_incoming_conference">Kutse konverentsile</string>
+    <string name="addConferenceMemeberText">Lisa liige</string>
+    <string name="add_conference_member_limit">Korraga saab lisada ainult ühe numbri.</string>
+    <string name="conference_member_join">
+<xliff:g id="member_name">%s</xliff:g> liitus konverentsiga.</string>
+    <string name="conference_member_leave">
+<xliff:g id="member_name">%s</xliff:g> lahkus konverentsist.</string>
+    <string name="conference_member_adding">Lisan <xliff:g id="member_name">%s</xliff:g> …</string>
+    <string name="conference_member_add_fail">
+<xliff:g id="member_name">%s</xliff:g> lisamine ebaõnnestus.</string>
+    <string name="removeMember">"Eemalda"</string>
+    <string name="memberStatus">"Olek"</string>
+    <string name="volte_call_waiting_indication_text">Teisel poolel on kõne pooleli, palun oota…</string>
+    <string name="volte_conf_member_reach_max">Konverentsil osalejate arv on juba maksimumi saavutanud.</string>
+    <string name="add_multi_conference_member_limit">Praegu saab lisada mitte rohkem kui <xliff:g id="max_number">%s</xliff:g> liiget.</string>
+    <string name="multi_conference_member_adding">Liikme(te) lisamine…</string>
+<string name="ok">"OK"</string>
+<string name="two_incoming_calls">Kaks sissetulevat kõnet</string>
+<string name="wifi_title">Wi-Fi kõne ja minutid </string>
+<string name="call_drop">Teie kõne võidakse katkestada</string>
+<string name="call_drop_message">Te olete peaaegu väljaspool Wi-Fi katteala</string>
+<string name="view_networks">Kuva võrkusid</string>
+<string name="wfc_wifi_call_drop_summary">Ups! Te olete ilmselt kõne ajal liikunud väljaspoole Wi-Fi võrku.\n \nÜhendan uuesti Wi-Fi võrku kõne lõpetamiseks?</string>
+</resources>

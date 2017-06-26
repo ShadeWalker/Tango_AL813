@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="dialpad_0_number">"0"</string>
+<string name="dialpad_1_number">"1"</string>
+<string name="dialpad_2_number">"2"</string>
+<string name="dialpad_3_number">"3"</string>
+<string name="dialpad_4_number">"4"</string>
+<string name="dialpad_5_number">"5"</string>
+<string name="dialpad_6_number">"6"</string>
+<string name="dialpad_7_number">"7"</string>
+<string name="dialpad_8_number">"8"</string>
+<string name="dialpad_9_number">"9"</string>
+<string name="description_dialpad_overflow">"Más opciones"</string>
+<string name="description_delete_button">"retroceso"</string>
+<string name="description_image_button_plus">"más"</string>
+<string name="description_voicemail_button">"buzón de voz"</string>
+<string name="default_notification_description">"Sonido predeterminado (<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"</string>
+<string name="callFailed_userBusy">"Línea ocupada"</string>
+<string name="callFailed_congestion">"Red ocupada"</string>
+<string name="callFailed_timedOut">"No hay respuesta; se ha agotado el tiempo de espera"</string>
+<string name="callFailed_server_unreachable">"No se puede establecer conexión con el servidor"</string>
+<string name="callFailed_number_unreachable">"No se puede establecer la llamada"</string>
+<string name="callFailed_invalid_credentials">"Contraseña o nombre de usuario incorrectos"</string>
+<string name="callFailed_out_of_network">"Llamada fuera de red"</string>
+<string name="callFailed_server_error">"Error del servidor. Vuelve a intentarlo más tarde."</string>
+<string name="callFailed_noSignal">"No hay señal"</string>
+<string name="callFailed_limitExceeded">"Se ha superado el límite de ACM"</string>
+<string name="callFailed_powerOff">"Radio desconectada"</string>
+<string name="callFailed_simError">"No hay tarjeta SIM o se ha producido un error de SIM"</string>
+<string name="callFailed_outOfService">"Red móvil no disponible"</string>
+<string name="callFailed_fdn_only">"Las llamadas salientes están limitadas por el número de marcación fija (FDN)."</string>
+<string name="callFailed_cb_enabled">"No se pueden realizar llamadas mientras está activada la restricción de llamadas."</string>
+<string name="callFailed_dsac_restricted">"Llamadas restringidas por control de acceso."</string>
+<string name="callFailed_dsac_restricted_emergency">"Llamadas de emergencia restringidas por control de acceso."</string>
+<string name="callFailed_dsac_restricted_normal">"Llamadas normales restringidas por control de acceso."</string>
+<string name="callFailed_unobtainable_number">"Número no válido"</string>
+<string name="incall_error_missing_voicemail_number">"Para configurar el buzón de voz, toca la tecla de menú y, a continuación, toca Ajustes."</string>
+<string name="respond_via_sms_setting_title">Rechazar llamadas con SMS</string>
+<string name="dialer_menu_send_message">Enviar mensaje</string>
+<string name="dialer_menu_new_contact">Contacto nuevo</string>
+ <!--add by huangshuo for HQ01454913-->
+<string name="disconnection_cause_outer_1">NUMERO NO ESTA EN USO</string>
+<string name="disconnection_cause_outer_17">NUMERO OCUPADO</string>
+<string name="disconnection_cause_outer_18">NO HAY RESPUESTA</string>
+<string name="disconnection_cause_outer_19">USUARIO NO CONTESTA</string>
+<string name="disconnection_cause_outer_31">LLAMADA TERMINADA</string>
+<string name="disconnection_cause_outer_34">RED OCUPADA</string>
+<string name="disconnection_cause_outer_44">RED OCUPADA</string>
+<!--end by huangshuo for HQ01454913-->
+</resources>

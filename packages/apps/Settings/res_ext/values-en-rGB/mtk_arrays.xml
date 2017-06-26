@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string-array name="sim_slot">
+    <item>"(unspecified)"</item>
+    <item>Sim Slot 1</item>
+    <item>Sim Slot 2</item>
+  </string-array>
+  <string-array name="wifi_WEP_security_type">
+    <item>"auto"</item>
+    <item>WEP ASCII</item>
+    <item>WEP hexadecimal</item>
+  </string-array>
+  <string-array name="wifi_hotspot_disable_policy_entries">
+    <item>Always</item>
+    <item>Turn off when idle for 5 min</item>
+    <item>Turn off when idle for 10 min</item>
+  </string-array>
+  <string-array name="wifi_ap_wps_mode_entries">
+    <item>"Push button"</item>
+    <item>PIN from client</item>
+  </string-array>
+  <string-array name="wifi_ap_max_connection_entries">
+    <item>1 user</item>
+    <item>2 users</item>
+    <item>3 users</item>
+    <item>4 users</item>
+    <item>5 users</item>
+    <item>6 users</item>
+    <item>7 users</item>
+    <item>8 users</item>
+  </string-array>
+  <string-array name="wfd_720p_resolution_entry">
+    <item>720p (60 frames/sec)</item>
+    <item>﻿720p (30 frames/sec)</item>
+  </string-array>
+  <string-array name="wfd_1080p_resolution_entry">
+    <item>1080p (30 frames/sec)</item>
+    <item>720p (60 frames/sec)</item>
+    <item>720p (30 frames/sec)</item>
+  </string-array>
+  <string-array name="wfd_resolution_entry">
+    <item>1080p FHD (For videos)</item>
+    <item>720p HD (For games)</item>
+  </string-array>
+  <string-array name="mouse_primary_button_titles">
+    <item>Right-hand mouse</item>
+    <item>Left-hand mouse</item>
+  </string-array>
+  <string-array name="auto_time_entries">
+    <item>"Use network-provided time"</item>
+    <item>Use GPS-provided time</item>
+    <item>"Off"</item>
+  </string-array>
+</resources>

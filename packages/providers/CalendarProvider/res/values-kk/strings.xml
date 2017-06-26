@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="calendar_storage">Күнтізбе жады</string>
+    <string name="upgrade_msg">Күнтізбе дереқорын жаңарту</string>
+    <string name="calendar_default_name">Әдепкі</string>
+    <string name="calendar_info">Күнтізбе ақпараты</string>
+    <string name="calendar_info_error">Қате</string>
+    <string name="calendar_info_no_calendars">Күнтізбелер жоқ</string>
+    <string name="calendar_info_events">Оқиғалар: <xliff:g id="events">%1$d</xliff:g></string>
+    <string name="calendar_info_events_dirty">Оқиғалар: <xliff:g id="events">%1$d</xliff:g>, Сақталмаған: <xliff:g id="dirty events">%2$d</xliff:g></string>
+    <string name="provider_label">Күнтізбе</string>
+    <string name="debug_tool_delete_button">Қазір жою</string>
+    <string name="debug_tool_start_button">Бастау</string>
+    <string name="debug_tool_message">Сіз орындағалы жатырсыз: 1) кез келген бағдарлама арқылы оқылатын SD картасы/USB жадысына күнтізбе дереқорының көшірмесін жасау; 2) оны электрондық пошта арқылы жіберу. Оны құрылғыдан сәтті көшірген соң немесе электрондық пошта арқылы жіберілгеннен кейін жоюды ұмытпаңыз.</string>
+    <string name="debug_tool_email_sender_picker">Файлды жіберу үшін қолданба таңдаңыз</string>
+    <string name="debug_tool_email_subject">Күнтізбе Дқ тіркелді</string>
+    <string name="debug_tool_email_body">Тіркемеде барлық кездесулер және жеке ақпарат көрсетілген күнтізбе дерекқоры берілген. Аса мұқият пайдаланыңыз.</string>
+</resources>

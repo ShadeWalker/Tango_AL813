@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">ဆူညံသံလျှော့ချချက်</string>
+    <string name="dual_mic_summary">ဖုန်းခေါ်စဉ် နောက်ခံဆူညံသံကို လျှော့ချပါ</string>
+    <string name="anc_title">ထိရောက်သော ဆူညံသံလျော့ခြင်း</string>
+    <string name="anc_on">ANC ဖွင့်ပါ</string>
+    <string name="anc_off">ANC ပိတ်ပါ</string>
+    <string name="ip_prefix_setting">IP ရှေ့တွင်ထားရှိချက်နံပါတ်</string>
+    <string name="ip_prefix_setting_lable">IP ရှေ့တွင်ထားရှိချက်နံပါတ် (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">IP ရှေ့တွင်ထားရှိချက်နံပါတ် အဆင်အပြင်များ</string>
+    <string name="enter_ip_prefix_number">ရှေ့တွင်ထားရှိချက်နံပါတ်ကို ထည့်သွင်းပါ</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">အသံဖုန်းခေါ်ဆိုမှုအဆင်အပြင်များတွင် ရှေ့တွင်ထားရှိချက်နံပါတ်ကို အရင်ထည့်သွင်းပါ။</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">IP ခေါ်ဆိုမှုလုပ်ဆောင်ချက်မှာ အင်တာနက်ဖြင့် ဖုန်းခေါ်ဆိုခြင်းသို့ မလုပ်ဆောင်နိုင်ပါ။</string>
+    <string name="ip_prefix_edit_default_sum">IP ခေါ်ဆိုချက်အတွက် ရှေ့တွင်ထားရှိချက်နံပါတ်ကို ထည့်သွင်းပါ</string>
+    <string name="lable_call_barring">"အဝင်ခေါ်ဆိုမှုအားတားဆီးခြင်း"</string>
+    <string name="title_call_barring">အဝင်ခေါ်ဆိုမှုအားတားဆီးခြင်း (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">အထွက်ဖုန်းခေါ်ဆိုမှုအားလုံး</string>
+    <string name="lable_all_outgoing_international">ပြည်ပအထွက်ဖုန်းခေါ်ဆိုမှုအားလုံး</string>
+    <string name="lable_all_out_except">ပင်မအများပြည်သူသုံးမိုဘိုင်းဆက်သွယ်ရေးကွန်ယက်မှလွဲ၍ ပြည်ပအထွက်ဖုန်းခေါ်ဆိုမှုအားလုံး</string>
+    <string name="lable_all_incoming">အဝင်ဖုန်းခေါ်ဆိုမှုအားလုံး</string>
+    <string name="lable_incoming_calls_except">ပြင်ပကွန်ယက်သို့ ဝင်ရောက်စဉ် အဝင်ဖုန်းခေါ်ဆိုမှုအားလုံး</string>
+    <string name="deactivate_all">အားလုံးကို ပယ်ဖျက်ပါ</string>
+    <string name="change_password">ဖုန်းခေါ်ဆိုမှုတားမြစ်ခြင်းဆိုင်ရာ စကားဝှက်ကို ပြောင်းပါ</string>
+    <string name="call_barring_sum">အသံဖုန်းခေါ်ဆိုမှုတားမြစ်ခြင်းဆိုင်ရာ အဆင်အပြင်များ</string>
+    <string name="lable_disable">ပိတ်ထားပြီး</string>
+    <string name="lable_enable">ဖွင့်ထားပြီး</string>
+    <string name="old_password_label">စကားဝှက်အဟောင်း(နံပါတ် 4 လုံး)</string>
+    <string name="new_password_label">စကားဝှက်အသစ်(နံပါတ် 4 လုံး)</string>
+    <string name="invalid_password">နံပါတ် 4 လုံးရှိသော စကားဝှက်ကို ရိုက်ပါ။</string>
+    <string name="confirm_password_label">စကားဝှက်အသစ်ကို အတည်ပြုပါ</string>
+    <string name="mismatch_password">သင်ထည့်သွင်းထားသည့် စကားဝှက်မှာ မတူညီပါ။ ပြန်ထည့်သွင်းပါ။</string>
+    <string name="password_changed">စကားဝှက် အောင်မြင်စွာ ပြောင်းလဲပြီးဖြစ်သည်</string>
+    <string name="enter_callbarring_password">ဖုန်းခေါ်ဆိုမှုတားမြစ်ခြင်းဆိုင်ရာ စကားဝှက် (နံပါတ် 4 လုံး)ကို ထည့်သွင်းပါ</string>
+    <string name="wrong_password">စကားဝှက်အမှားပြနေသည်</string>
+    <string name="error_title">"အမှား"</string>
+    <string name="cell_broadcast">အသုံးပြုသူအမြောက်အမြားထံသို့ တစ်ပြိုင်နက်မက်ဆေ့ပေးပို့ခြင်း</string>
+    <string name="cell_broadcast_settings">အသုံးပြုသူအမြောက်အမြားထံသို့ တစ်ပြိုင်နက်မက်ဆေ့ပေးပို့ခြင်းဆိုင်ရာ အဆင်အပြင်များ</string>
+    <string name="cb_menu_language">"ဘာသာစကား"</string>
+    <string name="cb_menu_add_channel">လိုင်းထည့်ပါ</string>
+    <string name="cb_menu_channel_list">ချန်နယ် စာရင်း</string>
+    <string name="cb_dialog_title_language_choice">ဘာသာစကားရွေးချယ်ပါ</string>
+    <string name="cb_channel_dialog_channel_name">လိုင်းအမည် (စကားလုံး 0-10 လုံး)</string>
+    <string name="cb_channel_dialog_channel_number">လိုင်းနံပါတ် (0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">လိုင်းဖွင့်ပါ</string>
+    <string name="cb_channel_dialog_edit_channel">ချန်နယ်ကို တည်းဖြတ်ရန်</string>
+    <string name="cb_menu_edit">"ပြင်ဆင်ရန်"</string>
+    <string name="cb_menu_delete">"ဖျက်ပါ"</string>
+    <string name="cb_error_channel_num">လိုင်းနံပါတ် (0-65534) ထည့်ပါ။</string>
+    <string name="cb_error_channel_name">လိုင်းအမည်အရှည်မှာ မမှန်ကန်ပါ (စကားလုံး 1-10)။</string>
+    <string name="cb_error_language_select">အနည်းဆုံးဘာသာစကားတစ်မျိုးရွေးချယ်ပါ။</string>
+    <string name="cb_error_channel_id_exist">လိုင်းအိုင်ဒီမှာ ရှိပြီးဖြစ်သည်။</string>
+    <string name="cb_all_languages">ဘာသာစကားအားလုံး</string>
+    <string name="cb_default_new_channel_name">ချန်နယ်အသစ်</string>
+    <string name="fdn_errorcode_unknown_info">မအောင်မြင်ပါ၊ အမည်မသိအမှားဖြစ်ပေါ်နေသည်၊ နောက်မှပြန်ကြိုးစားကြည့်ပါ။</string>
+    <string name="fdn_errorcode_number_info">မအောင်မြင်ပါ၊ လိပ်စာနံပါတ်အရှည်မှာ ရှည်လွန်းနေသည်။</string>
+    <string name="fdn_errorcode_name_info">မအောင်မြင်ပါ၊ လိပ်စာအမည်အရှည်မှာ ရှည်လွန်းနေသည်။</string>
+    <string name="fdn_errorcode_storage_info">မအောင်မြင်ပါ၊ သိမ်းဆည်းမှုပြည့်နေပြီ။</string>
+    <string name="fdn_errorcode_phb_info">မအောင်မြင်ပါ၊ ဖုန်းစာအုပ်မှာ ယခုအဆင်သင့် မဖြစ်သေးပါ၊ နောက်မှပြန်ကြိုးစားကြည့်ပါ။</string>
+    <string name="fdn_errorcode_pin2_info">မအောင်မြင်ပါ၊ အသုံးမရှိသော PIN2။</string>
+    <string name="net_or_simcard_busy">ကွန်ယက် သို့မဟုတ် SIM ကဒ် မအားပါ၊ နောက်မှပြန်ကြိုးစားကြည့်ပါ။</string>
+    <string name="plmn_list_setting_title">နှစ်သက်ရာများ</string>
+    <string name="network_id">ကွန်ယက် ID</string>
+    <string name="plmn_list_setting_add_plmn">PLMN အများပြည်သူသုံးမိုဘိုင်းဆက်သွယ်ရေးကွန်ယက်အသစ်ထည့်ပါ</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">ရှာပါ…</string>
+    <string name="sum_search_femtocell_networks">femtocell ကို ကိုယ်တိုင် ရွေးပါ</string>
+    <string name="register_femtocell_point_wait_tip"><xliff:g id="femto_cell_info">%s</xliff:g> ကို မှတ်ပုံတင်နေသည်…</string>
+    <string name="register_femtocell_point_result_fail_tip">ဤကွန်ရက်ကို ယခုချက်ချင်း မချိတ်ဆက်နိုင်ပါ။ နောက်မှ ထပ်ကြိုးစားပါ။</string>
+    <string name="network_type">ကွန်ယက်အမျိုးအစာ -</string>
+    <string name="gsm_umts_network_preferences_title">ကွန်ယက်ပုံစံ</string>
+    <string name="gsm_umts_network_preferneces_summary">မလုပ်ဆောင်ရသေးပါ!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">ကွန်ယက်ပုံစံ</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G (အလိုအလျောက်ပုံစံ)</item>
+        <item>3G သာ</item>
+        <item>2G သာ</item>
+    </string-array>
+    <string name="notification_voicemail_text">အသံမေးလ်များကို ကြည့်ရန် ရွေးပါ</string>
+    <string name="notification_network_selection_without_operator">ရွေးထားသောကွန်ရက် မရနိုင်</string>
+    <string name="network_setting_all_forbidden_dialog">ရနိုင်သော ကွန်ရက်များ မရှိ</string>
+    <string name="network_forbidden">တားမြစ်ထားသော</string>
+    <string name="fdn_contact_number_invalid">အသုံးမရှိသည့်လိပ်စာနံပါတ်။</string>
+    <string name="fdn_puk_need_tips">PIN2 ကို တားဆီးထားသည်။ ကျေးဇူးပြု၍ PIN2 ကို ပြောင်းပြီး ပြန်ကြိုးစားပါ။</string>
+    <string name="fdn_phone_book_busy">ဖုန်းစာအုပ်မှာ ယခုမအားပါ၊ နောက်မှပြန်ကြိုးစားကြည့်ပါ။</string>
+    <string name="one_retry_left">နောက်ထပ်ကြိုးစားဖို့ ၁ ခါကျန်သည်</string>
+    <string name="retries_left">ပြန်လည်ကြိုးစားရန်  <xliff:g id="number">%d</xliff:g> ကြိမ် ကျန်ရှိ </string>
+    <string name="pin_length_indicate">(ဂဏန်း ၄-၈ လုံး)</string>
+    <string name="puk_length_indicate">(ဂဏန်း ၈ လုံး)</string>
+    <string name="unblock_pin2">ပင်၂ကို သော့ဖွင့်ရန်</string>
+    <string name="sim_permanently_locked">မမှန်ကန်သော PUK2 ကုဒ်အား 10 ကြိမ်ထက်ပို၍ သွင်းထားခြင်းကြောင့် SIM ကဒ်မှာ အပြီးအပိုင် သော့ခတ်သွားပြီးဖြစ်သည်</string>
+    <string name="magi_conference_title">မဂ္ဂီကွန်ဖရင့်</string>
+    <string name="magi_conference_summary">အခြားဘက်နှင့်ပြောရန် လူအများသည် ဖုန်းကိုသုံးသောအခါ အသံအရည်အသွေးကို ပိုကောင်းအောင် ပြုလုပ်ပါ။</string>
+    <string name="voicemail_lable">အသံစာပို့စနစ် (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_is_adding_participants">ကွန်ဖရင့်အဖွဲ့ဝင်(များ) ထပ်ထည့်နေသည်၊ ကျေးဇူးပြု၍ စောင့်ပါ...</string>
+    <string name="volte_fail_to_invit_participants">ကွန်ဖရင့်သို့ အဖွဲ့အားလုံးကို ထပ်ထည့်ရန် မအောင်မြင်ပါ။</string>
+    <string name="volte_ss_not_available_tips">လုပ်ဆောင်မှု ပြီးစီးရန်အတွက် <xliff:g id="sub_name">%s</xliff:g> ၏ဒေတာချိတ်ဆက်မှုဖွင့်ရန် လိုအပ်မည်။</string>
+    <string name="cdma_labelCFU">အမြဲတမ်းဖုန်းလိုင်းလွှဲပါ</string>
+    <string name="cdma_labelCFB">မအားပါက လိုင်းလွှဲပါ</string>
+    <string name="cdma_labelCFNRy">မဖြေဆိုပါက လိုင်းလွှဲပါ</string>
+    <string name="cdma_labelCFNRc">မရောက်ရှိနိုင်ပါက လိုင်းလွှဲပါ</string>
+    <string name="cdma_labelCFC">ဖုန်းလိုင်းလွှဲချက်အားလုံးကို ပယ်ဖျက်ပါ</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">ခေါ်ဆိုသူနံပါတ် ခွဲခြားရွေးထုတ်ခြင်း ကန့်သတ်ခြင်းကို ပိတ်ပါ</string> 
+    <string name="cdma_cnir_turnon">ခေါ်ဆိုသူနံပါတ် ခွဲခြားရွေးထုတ်ခြင်းကန့်သတ်ခြင်းကို ဖွင့်ပါ</string>
+    <string name="lte_data_only_prompt">4G ဒေတာတစ်မျိုးတည်းမုဒ်ကြောင့် ဤအင်္ဂါရပ်ကို မသုံးနိုင်ပါ။ 4G ဒေတာတစ်မျိုးတည်းမုဒ်မှ ထွက်လိုပါသလား။</string>
+    <string name="lte_data_only_timeout">4G ဒေတာတစ်မျိုးတည်းမုဒ်သည် သင့်လက်ရှိတည်နေရာတွင် မရနိုင်ပါ၊ ထွက်၍ အခြားကွန်ယက်များအတွက် ရှာလိုပါသလား။</string>
+    <string name="lte_only_dialog_button_yes">"လုပ်မည်"</string>
+    <string name="lte_only_dialog_button_no">"မလုပ်"</string>
+    <string name="lte_only_dialog_title_prompt">တုံ့ပြန်မှု</string>
+    <string name="enable_4G_data">4G ဒေတာ ဖွင့်ပါ</string>
+    <string name="enable_4G_data_summary">4G သည် အင်တာနက်သုံးစွဲမှုအတွက် ပိုကောင်း၍ မြန်ဆန်ရန် ထောက်ပံ့ထားသည်</string>
+    <string name="only_use_LTE_data">LTE ဒေတာသာသုံးပါ</string>
+    <string name="only_use_LTE_data_summary">ဒေတာတစ်မျိုးတည်းသုံးရန်သာ ဖွင့်ပါက ဖုန်းခေါ်ဆိုမှုနှင့် စာသားမက်ဆေ့ချ်သုံးရန် မလုပ်ဆောင်နိုင်ပါ။</string>
+</resources>

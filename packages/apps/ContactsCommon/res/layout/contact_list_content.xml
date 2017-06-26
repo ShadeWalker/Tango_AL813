@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+
+<!--
+     android:paddingTop is used instead of android:layout_marginTop. It looks
+     android:layout_marginTop is ignored when used with <fragment></fragment>, which
+     only happens in Tablet UI since we rely on ViewPager in Phone UI.
+     Instead, android:layout_marginTop inside <fragment /> is effective.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ContactListContenLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/pinned_header_list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/contact_browser_background"
+        android:orientation="vertical"
+        android:layout_above="@+id/MyDock_layout" >
+
+        <LinearLayout
+            android:id="@+id/search_view_lnl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:background="#f7f7f7"
+            android:paddingLeft="15dip" 
+            android:paddingRight="15dip">
+
+            <EditText
+                android:id="@+id/search_view"
+                android:layout_width="match_parent"
+                android:layout_height="35dip"
+                android:hint="@string/search_contacts"
+                android:visibility="visible"
+                android:background="@drawable/recipient_editor_bg"
+                android:paddingLeft="4dip"
+                android:layoutDirection="ltr"
+				/>
+        </LinearLayout>
+        <!--
+         Shown only when an Account filter is set.
+         - paddingTop should be here to show "shade" effect correctly.
+        -->
+
+        <include layout="@layout/account_filter_header" />
+
+        <!-- M: Show wait cursor when data is loading @{ -->
+
+        <include layout="@layout/mtk_wait_cursor" />
+        <!-- M: @} -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" >
+
+            <include layout="@layout/contact_list_card" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <view
+                    android:id="@android:id/list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/contact_browser_list_padding_right"
+                    android:layout_marginLeft="@dimen/contact_browser_list_padding_left"
+                    android:layout_marginRight="@dimen/contact_browser_list_padding_right"
+                    android:layout_marginStart="@dimen/contact_browser_list_padding_left"
+                    class="com.android.contacts.common.list.PinnedHeaderListView"
+                    android:clipToPadding="false"
+                    android:fadingEdge="none"
+                    android:fastScrollEnabled="false"
+                    android:paddingTop="@dimen/list_item_padding_top"
+                    android:scrollbarThumbVertical="@drawable/a_z"
+                    android:scrollbars="none" />
+
+                <TextView
+                    android:id="@+id/fast_position"
+                    android:layout_width="70dip"
+                    android:layout_height="70dip"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_horizontal|top"
+                    android:layout_margin="34dip"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textColor="#404040"
+                    android:textSize="48dip"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+            <ProgressBar
+                android:id="@+id/search_progress"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <!-- add  by tanghuaizhe for f*g huawei ui  start -->
+
+    <LinearLayout
+        android:id="@+id/MyDock_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fabs_height"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/boder"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e3e3e3" />
+            
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+            <Space
+                android:layout_width="@dimen/menu_space_width"
+                android:layout_height="match_parent" />
+            
+            <RelativeLayout
+                android:id="@+id/newContatcsView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" 
+                android:gravity="center" >
+
+				<ImageView
+                    android:id="@+id/newContact_Imv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_menu_new_contact" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/newContact_Imv"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/HQ_new_contact"
+                    android:textSize="@dimen/menu_text_size"
+                    android:textColor="@color/menu_text_color"/>
+              
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/SearchView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" 
+                android:gravity="center" >
+			 <ImageView
+                    android:id="@+id/searchContact_Imv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_search_normal_contact" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/searchContact_Imv"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/HQ_search_contact"
+                    android:textSize="@dimen/menu_text_size" 
+                    android:textColor="@color/menu_text_color"/>
+                
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/menuView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" 
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/menuView_Imv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_menu_more_contact" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/menuView_Imv"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/HQ_contact_Menu"
+                    android:textSize="@dimen/menu_text_size"
+                    android:textColor="@color/menu_text_color"/>
+            </RelativeLayout>
+            
+            <Space
+                android:layout_width="@dimen/menu_space_width"
+                android:layout_height="match_parent" />
+    </LinearLayout>
+
+    </LinearLayout>
+    <!-- add  by tanghuaizhe for f*g huawei ui  end -->
+
+
+<com.android.contacts.common.widget.SideBar
+        android:id="@+id/sideBar"
+        android:layout_width="20dip"
+        android:layout_height="400dip"
+        android:layout_above="@id/MyDock_layout"
+        android:layout_alignParentRight="true"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/dialog"
+        android:layout_width="80.0dip"
+        android:layout_height="80.0dip"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/show_head_toast_bg"
+        android:gravity="center"
+        android:textColor="#ffffffff"
+        android:textSize="30.0dip"
+        android:visibility="invisible" />
+
+</RelativeLayout>

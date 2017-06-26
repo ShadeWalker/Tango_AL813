@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dm_lock">DM مغلق</string>
+    <string name="dm_unlock">فتح DM</string>
+    <string name="start_record">بدء التسجيل</string>
+    <string name="stop_record">إيقاف التسجيل</string>
+    <string name="str_db_playlist_name">تسجيلاتي</string>
+    <string name="alert_device_error">حدث خطأ في جهاز الصوت</string>
+    <string name="ext_media_badremoval_notification_title">تمت إزالة بطاقة الذاكرة المؤقتة بشكل غير متوقع</string>
+    <string name="error_sdcard_access">غير قادر على الدخول على وحدة التخزين SD</string>
+    <string name="confirm_device_info_full">لا يوجد مساحة على بطاقة SD، تم حفظ السجل تلقائيًا</string>
+    <string name="confirm_save_info_saved">تم حفظ السجل</string>
+    <string name="confirm_save_info_saved_to">تم حفظ التسجيل في</string>
+    <string name="recording_saved_sd_full">لا يوجد مساحة على بطاقة SD، تم حفظ السجل تلقائيًا</string>
+    <string name="sd_not_enough">لا يوجد مساحة على بطاقة SD</string>
+    <string name="alert_dialog_dismiss">"استبعاد"</string>
+    <string name="change_my_pic">تغيير</string>
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">قطع جميع الاتصالات</string>
+    <string name="onscreenHangupHolding">استمرار قطع الاتصالات</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">تنشيط قطع الاتصالات، وخاصية انتظار الرد</string>
+    <string name="menu_ect">تحويل</string>
+    <string name="respond_via_sms_confirmation_format">"تم إرسال الرسالة إلى <xliff:g id="PHONE_NUMBER">%s</xliff:g>"</string>
+    <string name="volte_add_conference_member_title">إضافة مرجع</string>
+    <string name="add_member_msg">اكتب الرقم أو الاسم</string>
+    <string name="card_title_incoming_conference">دعوة لمكالمة جماعية</string>
+    <string name="addConferenceMemeberText">إضافة عضو</string>
+    <string name="add_conference_member_limit">يمكن إضافة رقم واحدة في كل مرة.</string>
+    <string name="conference_member_join">
+<xliff:g id="member_name">%s</xliff:g> انضم للمكالمة الجماعية.</string>
+    <string name="conference_member_leave">
+<xliff:g id="member_name">%s</xliff:g> ترك المكالمة الجماعية.</string>
+    <string name="conference_member_adding">جار إضافة <xliff:g id="member_name">%s</xliff:g> ...</string>
+    <string name="conference_member_add_fail">فشل إضافة <xliff:g id="member_name">%s</xliff:g>.</string>
+    <string name="removeMember">"إزالة"</string>
+    <string name="memberStatus">"الحالة"</string>
+    <string name="volte_call_waiting_indication_text">يرجي الطرف الآخر مكالمة، يرجى الانتظار...</string>
+    <string name="volte_conf_member_reach_max">لقد وصل المؤتمر بالفعل إلى الحد الأقصى من الأعضاء.</string>
+    <string name="add_multi_conference_member_limit">يمكن إضافة <xliff:g id="max_number">%s</xliff:g> عضو كحد أقصى في الوقت الحالي.</string>
+    <string name="multi_conference_member_adding">جار إضافة الأعضاء...</string>
+<string name="ok">"موافق"</string>
+<string name="two_incoming_calls">مكالمتان واردتان</string>
+<string name="wifi_title">مكالمات الشبكة اللاسلكية والدقائق </string>
+<string name="call_drop">قد يتم قطع اتصالك</string>
+<string name="call_drop_message">أنت على وشك الخروج من نطاق تغطية الشبكة اللاسلكية</string>
+<string name="view_networks">عرض الشبكات</string>
+<string name="wfc_wifi_call_drop_summary">هناك مشكلة! يبدوا أنك قد خرجت من نطاق تغطية الشبكة اللاسلكية أثناء الاتصال.\n \nهل تريد إعادة الاتصال بالشبكة اللاسلكية لإتمام المكالمة؟</string>
+</resources>

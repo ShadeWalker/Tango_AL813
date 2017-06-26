@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_height="@dimen/setup_add_network_item_height"
+    android:background="?android:attr/selectableItemBackground"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"  >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_settings_wireless"
+        android:layout_gravity="left|center_vertical" />
+    <Switch android:id="@+id/switch_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="13sp"
+        android:text="@string/wifi_setup_wizard_header_switch_title"
+        android:paddingLeft="15dip"
+    />
+</LinearLayout>

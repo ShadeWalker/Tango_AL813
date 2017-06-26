@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
+    <string msgid="1418215926447642260" name="deleteConfirmation_title">"Törli a partnert?"</string>
+    <string msgid="2896685845822146494" name="add_contact_dlg_title">Partner hozzáadása</string>
+    <string msgid="8543619259870877473" name="no_sdcard_title" product="nosdcard">"A tárhely nem érhető el"</string>
+    <string msgid="5911758680339949273" name="no_sdcard_title" product="default">"Hiányzó SD-kártya"</string>
+    <string msgid="4970508055399376813" name="searching_vcard_title">"vCard keresése"</string>
+    <string msgid="4944932641334764942" name="scanning_sdcard_failed_title" product="nosdcard">"Nem lehet beolvasni az SD-kártyát"</string>
+    <string msgid="6664940444476572612" name="scanning_sdcard_failed_title" product="default">Couldn\'t scan SD card</string>
+    <string msgid="5578683596010294836" name="cancel_import_confirmation_title">"vCard importálásának megszakítása"</string>
+    <string msgid="6516467140276768528" name="cancel_export_confirmation_title">"vCard exportálásának megszakítása"</string>
+    <string msgid="5101735431586050711" name="menu_all_contacts">"Összes névjegy"</string>
+    <string msgid="1012756309632856553" name="search_bar_hint">"Keresés a névjegyek között"</string>
+    <string msgid="5276699501316246253" name="aggregation_suggestion_join_dialog_title">"Névjegyek összekapcsolása"</string>
+    <string msgid="1064042382692091314" name="aggregation_suggestion_edit_dialog_title">"A kiválasztott névjegyek szerkesztése"</string>
+    <string msgid="3950463632415908534" name="cancel_confirmation_dialog_title">"Módosítások elvetése"</string>
+    
+    <string name="menu_ipcallNumber">  <xliff:g id="name">%s</xliff:g> IP-hívása </string>  
+    <string name="deleting_call_log">Híváslista törlése…</string>  
+    <string name="add_SIP_to_sim">SIP-szám nem adható SIM/USIM partnerhez.</string>  
+    <string name="already_has_SIP">Két SIP-szám nem adható a partnerhez. A folytatáshoz törölje a régi SIP-számot.</string>  
+    <string name="multichoice_no_select_alert">"Nincs kijelölt elem."</string> 
+    <string name="sum_search_networks">"Az összes elérhető hálózat megkeresése"</string>    
+    <string name="notifier_progress__delete_will_start_message">Hamarosan megtörténik a partner(ek) törlése.</string>  
+    <string name="notifier_progress__copy_will_start_message">Hamarosan megtörténik a partner(ek) másolása.</string>
+    
+    <string name="remove_sd_confirm_2">
+<xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) eltávolításra kerül erről a gyorstárcsázó gombról:
+<xliff:g id="key">%3$s</xliff:g>.Folytatja?
+    </string>  
+    <string name="callFailed_simError">"Hiányzó vagy hibás SIM-kártya"</string>  
+    <string name="group_discard_member">Elvetés</string>  
+    <string name="group_discard_member_reason">A módosítások elvetésre kerülnek, mert a csoportnév nem érvényes.</string>  
+    <string name="share_contacts_limit">"A megosztandó partnerek száma nem haladhatja meg az " 
+        <xliff:g id="count">%d</xliff:g>"-t"
+    </string>  
+    <string name="contact_delete_all_tips">"A háttérben már folyik a partner(ek) törlése. Ha újabbakat kíván törölni, meg kell szakítania.”</string> 
+
+    <string name="deleteCallLogConfirmation_title">Törli a híváslistá(ka)t?</string>  
+    <string name="deleteCallLogConfirmation_message">Biztosan törli a kijelölt híváslistá(ka)t?</string>
+    
+    <!--The following lines are provided and maintained by Mediatek Inc.  --> 
+    <string name="selected_item_count">  <xliff:g id="count">%d</xliff:g> kiválasztva </string> 
+    <string name="menu_actionbar_selected_items">
+<xliff:g id="name">%s</xliff:g> kiválasztva</string>
+    <string name="recentCalls_delete">"Törlés"</string>
+    <string name="menu_clearAll">"Minden kijelölés megszüntetése"</string>
+    <string name="sim1">SIM1</string>
+    <string name="sim2">SIM2</string>
+    <string name="call_log_item_count">(<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="call_indicator_3g">3G</string>
+    <string name="has_double_phone_number">Ugyanolyan típusú számot nem lehet kétszer menteni. Kérjük, ellenőrizze.</string>
+    <string name="msg_loading_sim_contacts_toast">"SIM partnerek betöltése a háttérben. Kérjük, várjon."</string>
+    <string name="account_type_sim" product="tablet">SIM-fiók</string>
+    <string name="account_type_sim" product="default">SIM Account</string>
+    <string name="account_type_usim" product="tablet">USIM-fiók</string>
+    <string name="account_type_usim" product="default">USIM Account</string>
+    <string name="account_type_local_phone" product="tablet">Helyi telefon-előfizetés</string>
+    <string name="account_type_local_phone" product="default">Phone Local Account</string>
+    <string name="local_account_type" product="tablet">Helyi fiók</string>
+    <string name="local_account_type" product="default">Local Account</string>
+    <string name="local_account_label" product="tablet">Helyi fiók</string>
+    <string name="local_account_label" product="default">Local Account</string>
+    <string name="account_type_sim_label" product="tablet">Csak SIM, nem szinkr.</string>
+    <string name="account_type_sim_label" product="default">SIM-only, unsynced</string>
+    <string name="account_type_usim_label" product="tablet">Csak USIM, nem szinkr.</string>
+    <string name="account_type_usim_label" product="default">USIM-only, unsynced</string>
+    <string name="menu_move_group">"Csoporttagok áthelyezése"</string>
+    <string name="menu_message_group">"Csoportos üzenet küldése"</string>
+    <string name="usim_group_name_exceed_limit">"A csoportnév túl hosszú a tároló számára."</string>
+    <string name="usim_group_count_exceed_limit">"A tárolóhoz nem lehet több csoportot hozzáadni."</string>
+    <string name="store_contact_to">Névjegy létrehozása itt:</string>
+    <string name="notifier_finish_delete_title">Partnerek törlése sikeres </string>  
+    <string name="notifier_finish_delete_content">  <xliff:g id="total">%d</xliff:g> partner törölve </string>  
+    <string name="notifier_finish_copy_title">Partnerek másolása sikeres </string>  
+    <string name="notifier_finish_copy_content">  <xliff:g id="total">%d</xliff:g> partner másolva </string>  
+    <string name="notifier_multichoice_process_report">Kész: 
+        <xliff:g id="items">%d</xliff:g>\nNincs kész: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>  
+    <string name="notifier_failure_by_sim_full">A hibát a megtelt SIM tároló okozta\nKész: 
+        <xliff:g id="items">%d</xliff:g>\nNincs kész: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>  
+    <string name="notifier_failure_sim_notready">A hibát oka, hogy a SIM nincs kész\nKész: 
+        <xliff:g id="items">%d</xliff:g>\nNincs kész: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>  
+    <string name="notifier_cancel_delete_title">Partner(ek) törlése megszakítva</string>  
+    <string name="notifier_fail_delete_title">Partner(ek) törlése nem sikerült</string>  
+    <string name="notifier_cancel_copy_title">Partner(ek) másolása megszakítva</string>  
+    <string name="notifier_fail_copy_title">Partner(ek) másolása nem sikerült</string>  
+    <string name="notifier_progress_delete_message"> 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g> törlése: 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> 
+    </string>  
+    <string name="notifier_progress_delete_description">  <xliff:g example="JoeDue" id="name">%s</xliff:g> törlése </string>  
+    <string name="notifier_progress_copy_message"> 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g> másolása: 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> 
+    </string>  
+    <string name="notifier_progress_copy_description">  <xliff:g example="JoeDue" id="name">%s</xliff:g> másolása </string>  
+    <string name="multichoice_confirmation_title_delete">Partner(ek) törlésének megszakítása</string>  
+    <string name="multichoice_confirmation_message_delete">Megszakítja a partner(ek) törlését?</string>  
+    <string name="multichoice_confirmation_title_copy">Partner(ek) másolásának megszakítása</string>  
+    <string name="multichoice_confirmation_message_copy">Megszakítja a partner(ek) másolását?</string> 
+
+    <string name="menu_print">Nyomtatás</string>  
+    <string name="printContact">Partner nyomtatása itt:</string>  
+    <string name="no_way_to_print">Nincs elérhető alkalmazás a partner nyomtatásához.</string>  
+    <string name="from_account_format"> 
+        <xliff:g example="user@gmail.com" id="source">%1$s</xliff:g> 
+    </string>  
+    <string name="menu_selectAll">"Összes kijelölése"</string>  
+    <string name="all_resources">Minden forrás</string>  
+    <string name="choose_resources_header">Forrás választása</string>  
+    <string name="all_tab_label1">MIND</string>  
+    <string name="call_sipcall">Internethívás</string>  
+    <string name="call_pin_dialog_title">SIM-kártya választása</string>  
+    <string name="call_people">Személyek</string>  
+    <string name="call_ip_dial">IP-tárcsázás</string>  
+    <string name="call_speed_dial">Gyorstárcsázás</string>  
+    <string name="call_video_call">Videohívás</string>  
+    <string name="add_speed_dial">Hozzáadáshoz érintse meg itt</string>
+    <string name="speed_dial_added"> 
+        <xliff:g id="contact_name">%1$s</xliff:g> ( 
+       <xliff:g id="phone_label">%2$s</xliff:g>) felvéve erre a gyorstárcsázó gombra: <xliff:g id="key">%3$s</xliff:g> 
+    </string>  
+    <string name="speed_dial_added2"> 
+        <xliff:g id="contact_name">%1$s</xliff:g> felvéve a(z) 
+        <xliff:g id="key">%2$s</xliff:g> gyorstárcsázó gombra
+    </string>  
+    <string name="remove_speed_dial">Eltávolítás</string>  
+    <string name="remove_sd_confirm_1">
+<xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) eltávolításra kerül erről a gyorstárcsázó gombról:
+<xliff:g id="key">%3$s</xliff:g>.Folytatja?
+    </string>  
+    <string name="emergencycall">Segélyhívás</string>  
+    <string name="imei_invalid">Érvénytelen</string>  
+    <string name="call_log_filter_all_resources">Minden forrás</string>  
+    <string name="turn_on_3g_service_message">A 3G szolgáltatás ki van kapcsolva. Szeretné most bekapcsolni?</string>  
+    <string name="associate_sim_missing_message">"A(z) %1$s SIM nem elérhető. A hívást elindítja innen %2$s"</string>  
+    <string name="associate_sim_missing_other">egyéb</string>  
+    <string name="sim_manage_call_via">"Hívás:"</string>  
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Előbb adja meg az IP-előhívót a beszédhívás beállításokban.</string>  
+    <string name="ip_dial_error_toast_for_sip_call_selected">Az IP-tárcsázás funkció nem érvényes internethívásra.</string>  
+    <string name="sd_add">Hozzáadás</string>  
+    <string name="reselect_number">Ezt a számot már gyorstárcsázó billentyűhöz rendelték. Válaszon másik számot.</string>  
+    <string name="calllog_today">Ma</string>  
+    <string name="calllog_yesterday">Tegnap</string>  
+    <string name="menu_association">"SIM társítása"</string>  
+    <string name="menu_remove_association">SIM-társítás eltávolítása</string>  
+    <string name="remove_association_message">Biztosan el akarja távolítani e szám SIM-társítását?</string>  
+    <string name="remove_number_title">Eltávolítás</string>   
+    <string name="block_incoming_call">Bejövő hívások közvetlen tiltása</string>  
+    <string name="block_video_incoming_call">Bejövő videohívások közvetlen tiltása</string>  
+    <string name="phone_book_busy">A telefonkönyv pillanatnyilag foglalt. Próbálja meg később.</string>  
+    <string name="sim_invalid">A partner nem menthető érvénytelen SIM-kártya esetén.</string>  
+    <string name="cannot_insert_null_number">A partner nem menthető üres telefonszámmal.</string>  
+    <string name="AirPlane_mode_on">A partner nem menthető bekapcsolt Repülőgép üzemmód mellett.</string>  
+    <string name="FDNEnabled">A partner nem menthető engedélyezett FDN mellett.</string>  
+    <string name="sim_invalid_number">Érvénytelen szám nem menthető.</string>  
+    <string name="email_invalid">Az érvénytelen e-mail nem menthető.</string>  
+    <string name="email_2g_invalid">Az e-mail nem menthető 2G SIM-re. A mentéshez válasszon 3G SIM-et.</string>  
+    <string name="sim_invalid_fix_number">Érvénytelen rögzített szám nem menthető.</string>  
+    <string name="AirPlane_mode_on_edit">A partner nem szerkeszthető bekapcsolt Repülőgép üzemmód mellett.</string>  
+    <string name="fix_number_too_long">"A rögzített szám túl hosszú."</string>  
+    <string name="name_too_long">"A név túl hosszú."</string>  
+    <string name="storage_full">Megtelt a tároló.</string>  
+    <string name="number_too_long">"A szám túl hosszú."</string>  
+    <string name="generic_failure">Általános hiba.</string>  
+    <string name="send_groupsms_no_number_more">"%1$s és %2$s további partner nem rendelkezik érvényes telefonszámmal."</string>  
+    <string name="send_groupsms_no_number_1">"%1$s nem rendelkezik érvényes telefonszámmal."</string>  
+    <string name="send_groupsms_no_number_2">"%1$s és %2$ nem rendelkezik érvényes telefonszámmal."</string>  
+    <string name="please_wait">Kérjük, várjon...</string>  
+    <string name="move_contacts_to">Partnerek áthelyezése ide</string>  
+    <string name="menu_email_group">"Csoportos e-mail küldése"</string>  
+    <string name="moving_group_members">"Csoporttagok áthelyezése\u2026"</string>  
+    <string name="removing_group_members_sucess">"Csoporttagok sikeresen eltávolítva"</string>  
+    <string name="moving_group_members_sucess">"Csoporttagok sikeresen áthelyezve"</string>  
+    <string name="moving_group_members_fail">"Csoporttagok áthelyezése nem sikerült"</string>  
+    <string name="no_valid_number_in_group">Ez a csoport nem tartalmaz érvényes telefonszámmal rendelkező partnert.</string>  
+    <string name="no_valid_email_in_group">Ez a csoport nem tartalmaz e-maillel rendelkező partnert.</string>  
+    <string name="email_error">Telepítsen e-mail alkalmazást, vagy konfigurálja fiókját!</string>  
+    <string name="name_needed">Név szükséges</string>  
+    <string name="save_group_fail">A csoport mentése nem sikerült.</string>  
+    <string name="group_name_exists">Ez a csoportnév már létezik.</string>  
+    <string name="import_export_title">"Importálás/exportálás"</string>  
+    <string name="next">"Tovább"</string>  
+    <string name="imexport_bridge_sd_card">SD-kártya</string>  
+    <string name="tips_source">Partnerek másolása innen</string>  
+    <string name="tips_target">Partnerek másolása ide</string>  
+    <string name="back">Vissza</string>  
+    <string name="imexport_title">Partnerek importálása/exportálása</string>  
+    <string name="menu_delete_contact">"Névjegy törlése"</string>
+    <string name="menu_conference_call">"Konferenciahívás"</string>  
+    <string name="multichoice_delete_confirm_message">"Biztosan törli a kijelölt partner(eke)t?”</string>  
+    <string name="multichoice_delete_confirm_title">Törli a partner(eke)t?</string>  
+    <string name="multichoice_contacts_limit">"A kijelölt partnerek száma nem haladhatja meg az "<xliff:g id="count">%d</xliff:g>"-t"</string>  
+    <plurals name="searchFoundCalllogs"> 
+        <item quantity="one">1 hívásnapló</item>  
+        <item quantity="other">  <xliff:g id="count">%d</xliff:g> hívásnapló </item> 
+    </plurals>  
+    <string name="search_results_for">  <xliff:g id="query">%s</xliff:g> keresési eredményei </string>  
+    <string name="listFoundAllCalllogZero">A hívásnapló nem található</string>  
+    <string name="calllogList">Híváslista</string>  
+    <string name="calllogHint">Hívásnaplók keresése</string>  
+    <string name="calllog_description">Bejövő, kimenő és nem fogadott hívások</string>  
+    <string name="noMatchingCalllogs">Nem található egyező hívásnapló.</string>  
+    <string name="menu_videocallNumber">  <xliff:g id="name">%s</xliff:g> videohívása </string>  
+    <string name="no_vm_number">"Hiányzik a hangposta száma"</string>  
+    <string name="no_vm_number_msg">"Nincs hangpostaszám a SIM-kártyán."</string>  
+    <string name="add_vm_number_str">"Szám hozzáadása"</string>  
+    <string name="reminder">Emlékeztető</string>  
+    <string name="enable_sip_dialog_message">Az internethívás le van tiltva. Szeretné engedélyezni?</string>  
+    <string name="file_already_on_sd_card">A fájl már az SD-kártyán van.</string>  
+    <string name="send_file_sms_error">A fájl nem osztható meg SMS-ben. Használjon MMS-t.</string>  
+    <string name="error_save_usim_contact_email_lost">"Az e-mail cím mentése nem sikerült, mert az e-mail tároló megtelt."</string>
+    <string name="error_import_usim_contact_email_lost">"Egyes partnerek e-mail címének mentése nem sikerült, mert az e-mail tároló megtelt.\nKész: <xliff:g id="items">%d</xliff:g>\nNincs kész: <xliff:g id="items">%d</xliff:g>"</string>
+   <string name="user_profile_cannot_sd_card">A tartalom nem osztható meg ezzel a módszerrel.</string> 
+    <string name="email_too_long">Az e-mail cím túl hosszú</string> 
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+    <!--The following lines are provided and maintained by Mediatek Inc. 2012-5-16-->  
+    <string name="delete_group_failure">A csoport törlése sikertelen.</string>  
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+     <string name="call_sms">SMS</string> 
+    <string name="contact_group_list_title">"Célcsoport választása"</string> 
+    <string name="import_no_vcard_dialog_text">Nem található vCard fájl itt: 
+        <xliff:g id="storage_name">%s</xliff:g> 
+    </string> 
+  <string name="send_groupemail_no_number_more">"%1$s és %2$s több kapcsolatnak nincs érvényes e-mail címe."</string>
+  <string name="send_groupemail_no_number_1">"%1$s nincs érvényes e-mail címe."</string>
+  <string name="send_groupemail_no_number_2">"%1$s és %2$s nincs érvényes e-mail címe."</string>
+  <string name="send_message">Üzenet küldése</string>
+  <string name="type_ip_outgoing">IP kimenő hívás ( 
+        <xliff:g id="name">%s</xliff:g>)
+    </string>
+  <string name="call_log_auto_rejected_label">Automatikusan visszautasított hívás</string>
+  <string name="look_simstorage">SIM kapacitásának megtekintése</string>
+  <string name="dlg_simstorage_content">Phone number book Storage Capacity 
+        <xliff:g id="items">%d</xliff:g>，has been used 
+        <xliff:g id="items">%d</xliff:g>.
+    </string>
+  <string msgid="7368429698398624427" name="delete_group_dialog_title">"Csoport törlése"</string>
+  <string msgid="2111395432187079579" name="dialog_phone_call_prohibited_title">"A hívás nem indítható."</string>
+  <string msgid="7258109862329777060" name="dialog_voicemail_not_ready_title">"A hangpostaszám nem érhető el"</string>
+
+    <string name="nickname_too_long">"A becenév túl hosszú."</string>
+    <string name="pick_new_photo_from_gallery">Új fotó választása</string>  
+    <string name="copy_text_to_dialer">Másolás a tárcsázóba</string> 
+    <string name="account_phone_only" product="tablet">"Táblagép"</string>  
+    <string name="account_phone_only" product="default">Telefon</string>  
+
+    <string name="international_dialing_title">Nemzetközi tárcsázási segítség</string>
+    <string name="international_dialing_select_country">Észleltük, hogy nemzetközi hívást kíván indítani. Válasszon célt.</string>
+    <string name="international_dialing_add_country_code">Észleltük, hogy a következő országban található számot tárcsáz: 
+        <xliff:g id="country_name">%s</xliff:g>. Szeretné hozzáadni a következő országhívó kódot: (+ 
+        <xliff:g id="country_code">%s</xliff:g>)?
+    </string>
+    <string name="international_dialing_add_country_code_and_area_code">Észleltük, hogy a következő helyen található számot tárcsáz: 
+        <xliff:g id="area_name">%1$s</xliff:g>, 
+        <xliff:g id="country_name">%2$s</xliff:g>. Szeretné hozzáadni a következő országhívó és területi kódot: (+ 
+        <xliff:g id="prefix">%3$s</xliff:g>)?
+    </string> 
+    <string name="international_dialing_change_country_prefix">Észleltük, hogy a következő országból tárcsáz: 
+        <xliff:g id="country_name">%s</xliff:g>. Módosítja a nemzetközi előtagot erre: \'+\'?
+    </string>
+    <string name="international_dialing_add_country_code_input_area_code">Észleltük, hogy a következő országban található számot tárcsáz: 
+        <xliff:g id="country_name">%s</xliff:g>. Amennyiben igen, adja meg a területi kódot.
+    </string>   
+    <string name="international_dialing_add_country_code_default_input_area_code">Észleltük, hogy a következő országban található számot tárcsáz: 
+        <xliff:g id="country_name">%s</xliff:g>. Amennyiben célvárosa nem 
+        <xliff:g id="area_name">%s</xliff:g>, adja meg a területi kódot.
+    </string>
+    <string name="international_dialing_need_area_code">"A híváshoz szükség van a hívott város körzetszámára."</string>
+    <string name="international_dialing_input_area_code">Itt adja meg a területi kódot</string>
+    <string name="international_dialing_dialed_number">"Hívott szám:"</string>
+    <string name="international_dialing_confirm_area_code">Amennyiben célvárosa nem 
+        <xliff:g id="area_name">%s</xliff:g>, adja meg alább célvárosa területi kódját.
+    </string>
+    <string name="international_dialing_click_below_button">Az országhívó kód módosításához kattintson az alábbi gombra.</string>
+    <string name="international_dialing_yes">"Igen. Használja a lenti számot:"</string>
+    <string name="international_dialing_no">"Nem. Használja az eredeti számot:"</string>
+    <string name="international_dialing_call_button">"Hívás"</string>
+    <string name="international_dialing_area_code">"körzetszám"</string>
+    <string name="international_dialing_invalid_number">A szám érvénytelen. Mégis folytatja a tárcsázást?</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">Hozzá akarja adni az országhívó és a területi kódot?</string>
+    <string name="no_search_result">Nincs keresési eredmény</string>
+
+    <string name="share_too_large">Az adatok teljes mennyisége meghaladja a felső korlátot. Kérjük, törölje néhány elem kijelölését, és próbálja újra.</string>
+
+
+      <string name="warning_detail">A kártya társításával importálni fogja a partnert a telefonkészülékre. Folytatja a kártya társítását?</string>
+      <string name="xport_error_one_account">"Illesszen be egy SIM-kártyát vagy SD-kártyát a partnerek importálásához/exportálásához."</string>
+      <string name="phone_storage_full_create">A telefon tárolója megtelt, ezért nem hozható létre új partner.</string>
+      <string name="phone_storage_full_edit">A telefon tárolója megtelt, ezért nem szerkeszthető a partner.</string>
+      <string name="account_type_uim_label" product="tablet">Csak UIM, nem szinkr.</string>
+      <string name="account_type_uim_label" product="default">UIM-only, unsynced</string>
+      <string name="contact_detail_group_list_title">"Csoportok"</string>
+      <string name="contact_detail_group_not_assigned">Nem társított</string>
+      <string name="contact_detail_group_list_nogroups">"Nincs létező csoport. Szeretne új csoportot létrehozni?"</string>
+      <string name="recents">Legutóbbiak</string>
+      <string name="contact_no_recents">Nincsenek legutóbbiak</string>
+      <string name="contact_detail_detail">Részlet</string>
+      <string name="contact_detail_update">"Beállítás"</string>
+      <string name="contact_detail_history">"Előzmények"</string>
+      <string name="contact_detail_ip_call">IP-hívás</string>
+      <string name="contact_detail_history_mms_received_time">"Beérkezés ideje: %1$s"</string>
+      <string name="contact_detail_history_mms_received_from">"Küldő: %1$s"</string>
+      <string name="contact_detail_history_mms_sent_time">"Küldés ideje: %1$s"</string>
+      <string name="contact_detail_history_mms_sent_to">"Címzett: %1$s"</string>
+      <string name="contact_detail_history_calllog">Híváslista</string>
+      <string name="contact_detail_history_mms">Üzenetek</string>
+      <string name="contact_detail_history_duration">"Időtartam:"</string>
+      <string name="contact_detail_history_ismms">Multimédia üzenet letöltése</string>
+      <string name="contact_detail_history_empty_calllog">"A hívásnapló üres"</string>
+      <string name="contact_detail_history_empty_message">Nincs üzenet</string>
+      <string name="contact_detail_history_empty">"Nincs előzmény a hívásokból, üzenetekből"</string>
+      <string name="contact_recent_number_limit">"Csak %1$s partner áll rendelkezésre"</string>
+      <string name="contact_recent_group_label">"Csoportok"</string>
+      <string name="call_pin_dialog_title_ct">UIM/SIM-kártya kijelölése</string>
+      <string name="callFailed_simError_ct">Nincs UIM/SIM-kártya, vagy UIM/SIM-hiba történt.</string>
+      <string name="msg_loading_sim_contacts_toast_ct">"Az UIM/SIM-kártyán lévő partnerek betöltése van folyamatban a háttérben. Kérjük, várjon."</string>
+      <string name="xport_error_one_account_ct">"Kérjük, helyezzen be egy UIM/SIM-kártyát vagy SD-kártyát a partnerek importálásához/exportálásához."</string>
+      <string name="notifier_failure_by_sim_full_ct">Hiba történt, mivel az UIM/SIM-tárhely megtelt\nBefejezett: 
+        <xliff:g id="items">%d</xliff:g>\nBefejezetlen: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+      <string name="notifier_failure_sim_notready_ct">Hiba történt, mivel az UIM/SIM nincs kész\nBefejezett: 
+        <xliff:g id="items">%d</xliff:g>\nBefejezetlen: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+      <string name="look_simstorage_ct">UIM/SIM-kártya kapacitásának megtekintése</string>
+      <string name="callFailed_cdma_notEmergency">"Csak segélyhívás lehetséges."</string>
+      <string name="no_match_call_log">"Nincs egyező elem"</string>
+      <string name="no_call_log">"Nincs hívásnapló"</string>
+      <string name="err_icc_no_phone_book">A(z) %1$s nem érhető el el a partner mentésére</string>
+      <string name="titleJoinContactDataWith">"Névjegyek összekapcsolása"</string>
+      <string name="menu_select_all">"Összes kijelölése"</string>
+      <string name="list_filter_custom">"Egyéni"</string>
+      <string name="add_contact_dlg_message_fmt">Hozzáadja a Címtárhoz ezt:"        <xliff:g id="EMAIL">%s</xliff:g>"?</string>
+      <string name="locale_change_in_progress">"Az ismerőslista frissítése folyamatban van, hogy tükrözze a nyelv módosítását."</string>
+      <string name="noFavoritesHelpText">"Nincsenek kedvencei."\n\n"Így adhat hozzá névjegyet a kedvencek listájához:"\n\n" " 
+        <li>"Érintse meg a " 
+            <b>"Címtár"</b>" lapot"\n
+        </li>" "\n 
+        <li>"Érintse meg a kedvencekhez hozzáadni kívánt névjegyet"\n</li>" "\n 
+        <li>"Érintse meg az ismerős neve melletti csillagot"\n</li> 
+    </string>
+      <string name="non_phone_caption">"Telefonszám"</string>
+      <string name="menu_select_none">"Összes kijelölés megszüntetése"</string>
+      <string name="mtk_contact_list_loading">Betöltés\u2026</string>
+      <string name="vcard_import_failed_v2">Az importálás sikertelen</string>
+      <string name="quickcontact_missing_app">"Nincs megfelelő alkalmazás a művelet elvégzésére."</string>
+      <string name="find_call_logs">Hívásnaplók keresése</string>
+      <string name="imsCallLabelsGroup">IMS-hívás</string>
+      <string name="sip_url">SIP url</string>
+      <string name="ims_call_disabled">Az IMS-hívás nem elérhető</string>
+      <string name="vcs_menu_voice_contacts_search" product="default">Partner hangkeresése</string>
+      <string name="vcs_msg_no_voice_contacts">Hoppá! Sajnos a partner nem található.</string>
+      <string name="call_log_via_sim_name_notice">\"<xliff:g id="sim_name">%s</xliff:g>\" hívásnaplói</string>
+<string name="call_speed_dial_title">Gyorstárcsázás</string>
+    <string name="dialog_no_speed_dial_number_message">Nincs gyorstárcsázási szám. Beállítja most?</string>
+    <string name="icc_phone_book_invalid">A telefonkönyv pillanatnyilag foglalt. Próbálja meg később.</string>
+    <string name="error_edit_join_group">Ez egy csatlakozott partner. A csoportadatokat szerkesztés módban szerkesztheti.</string>
+    <string name="local_phone_account" product="tablet">"Táblagép"</string>
+    <string name="local_phone_account" product="default">TELEFON</string>
+    <string name="contact_import_export_tips">Partnerek importálása/exportálása van folyamatban, próbálja meg később</string>
+<string name="can_not_switch_account_during_call">Nem lehet átváltani a hívásokhoz preferált SIM kártyát hívás közben.</string>
+<string name="can_not_switch_account_temporarily">Átmenetileg nem lehet átváltani a hívásokhoz preferált SIM kártyát.</string>
+<string name="location_permission_title">Biztonsági figyelmeztetés</string>
+<string name="location_permission_summary">A Névjegyzék megpróbálja megszerezni az Ön jelenlegi pozícióját.\n(Elutasítás automatikusan <xliff:g id="time_sec">%1$s</xliff:g> másodperc elteltével)</string>
+<string name="location_permission_allow">Engedélyezés</string>
+<string name="location_permission_deny">Elutasítás</string>
+</resources>

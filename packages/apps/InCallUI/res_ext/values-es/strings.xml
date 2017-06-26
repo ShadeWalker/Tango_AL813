@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="dm_lock">DM bloqueado</string>
+    <string name="dm_unlock">Desbloqueo de DM</string>
+    <string name="start_record">Iniciar grabación</string>
+    <string name="stop_record">Detener grabación</string>
+    <string name="str_db_playlist_name">Mis grabaciones</string>
+    <string name="alert_device_error">Error en el dispositivo de audio</string>
+    <string name="ext_media_badremoval_notification_title">"La tarjeta SD se ha extraído inesperadamente."</string>
+    <string name="error_sdcard_access">"No se puede acceder a la tarjeta SD."</string>
+    <string name="confirm_device_info_full">La tarjeta SD no tiene espacio. La grabación se ha guardado.</string>
+    <string name="confirm_save_info_saved">La grabación se ha guardado.</string>
+    <string name="confirm_save_info_saved_to">La grabación se ha guardado en</string>
+    <string name="recording_saved_sd_full">La tarjeta SD no tiene espacio. La grabación se ha guardado.</string>
+    <string name="sd_not_enough">La tarjeta SD se ha quedado</string>
+    <string name="alert_dialog_dismiss">Descartar</string>
+    <string name="change_my_pic">Cambiar</string>
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">Desconectar todas</string>
+    <string name="onscreenHangupHolding">Desconectar las que estén en espera</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Desconectar las activas, responder a las que estén en espera</string>
+    <string name="menu_ect">Transferir</string>
+    <string name="respond_via_sms_confirmation_format">"Mensaje enviado a <xliff:g id="PHONE_NUMBER">%s</xliff:g>"</string>
+    <string name="volte_add_conference_member_title">Agregar a la conferencia</string>
+    <string name="add_member_msg">Escribir número nombre</string>
+    <string name="card_title_incoming_conference">Invitación a la conferencia</string>
+    <string name="addConferenceMemeberText">Agregar miembro</string>
+    <string name="add_conference_member_limit">Solamente puede agregar un número en cada momento.</string>
+    <string name="conference_member_join"><xliff:g id="member_name">%s</xliff:g> se unió a la conferencia.</string>
+    <string name="conference_member_leave"><xliff:g id="member_name">%s</xliff:g> abandonó la conferencia.</string>
+    <string name="conference_member_adding">Agregando <xliff:g id="member_name">%s</xliff:g>...</string>
+    <string name="conference_member_add_fail">No se pudo agregar <xliff:g id="member_name">%s</xliff:g>.</string>
+    <string name="removeMember">"Eliminar"</string>
+    <string name="memberStatus">"Estado"</string>
+    <string name="volte_call_waiting_indication_text">El otro interlocutor se encuentra en una llamada, espere...</string>
+    <string name="volte_conf_member_reach_max">La conferencia ya alcanzó el número máximo de miembros.</string>
+    <string name="add_multi_conference_member_limit">Por ahora, solamente se pueden agregar este número de miembros: <xliff:g id="max_number">%s</xliff:g>.</string>
+    <string name="multi_conference_member_adding">Agregando miembros...</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">পরিচিতজনের সংরক্ষণাগার</string>
+    <string name="provider_label">পরিচিতজন</string>
+    <string name="upgrade_msg">পরিচিতজনের ডাটাবেস আপগ্রেড করছে</string>
+    <string name="upgrade_out_of_memory_notification_ticker">পরিচিতজন আপগ্রেডে আরো মেমোরি প্রয়োজন।</string>
+    <string name="upgrade_out_of_memory_notification_title">পরিচিতজনের স্টোরেজ আপগ্রেড করছে</string>
+    <string name="upgrade_out_of_memory_notification_text">আপগ্রেড সম্পন্ন করতে স্পর্শ করুন।</string>
+    <string name="default_directory">পরিচিতজন</string>
+    <string name="local_invisible_directory">অন্যান্য</string>
+    <string name="read_write_all_voicemail_label">সব ভয়েসমেইলে প্রবেশাধিকার</string>
+    <string name="read_write_all_voicemail_description">এই ডিভাইস যেসব ভয়েসমেইলে প্রবেশ করতে পারে তার সব্গুলো সংরক্ষণ করতে এবং পুনরুদ্ধার করতে অ্যাপকে অনুমতি দেয়।</string>
+    <string name="voicemail_from_column"><xliff:g id="voicemail_sim_display_name">%s</xliff:g>-এর কাছ থেকে আপনার জন্য নতুন ভয়েসমেইল আছে। আপনি কি সেগুলো এখন পেতে চান?</string>
+    <string name="debug_dump_title">পরিচিতজনের ডাটাবেইজ কপি করুন</string>
+    <string name="debug_dump_database_message">আপনি অভ্যন্তরীণ স্টোরেজে ১) আপনার ডাটাবেইজের একটি কপি তৈরি করতে যাচ্ছিলেন যাতে পরিচিতজন সম্পর্কিত সকল তথ্য এবং সব কল তালিকা অন্তর্ভুক্ত রয়েছে এবং ২) তা ইমেইল করতে যাচ্ছিলেন। ডিভাইস থেকে কপি করা মাত্র বা ইমেইলটি পাওয়া মাত্র কপিটি মুছে ফেলতে ভুলবেন না।</string>
+    <string name="debug_dump_delete_button">এখনই মুছুন</string>
+    <string name="debug_dump_email_sender_picker">আপনার ফাইল পাঠানোর জন্য একটি প্রোগ্রাম বাছাই করুন</string>
+    <string name="debug_dump_email_subject">পরিচিতজনের ডাটাবেস সংযুক্ত করা হয়েছে</string>
+    <string name="debug_dump_email_body">আমার পরিচিতজনদের সব তথ্যসহ আমার পরিচিতজনের ডাটাবেইজ সংযুক্ত করা হল।এটি যত্ন সহকারে রাখবেন।</string>
+    
+    <string name="sharedUserLabel">অ্যান্ড্রয়ড কোর অ্যাপ</string>
+    <string name="debug_dump_start_button">শুরু </string>
+</resources>

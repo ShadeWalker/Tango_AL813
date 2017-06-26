@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--STRING FOR VIDEO PLAYER -->
+    <string name="audio_not_supported">Failed to play audio.</string>
+    <string name="VideoView_info_text_network_interrupt">Network error and streaming video stopped.</string>
+    <string name="VideoView_error_text_connection_failed">Network connection failed,please check your network connection.</string>
+    <string name="audio_only_video">No image in this video.</string>
+    <!-- Strings for trim video -->
+    <string name="can_not_trim">Error occurs,the video cannot be trimmed.</string>
+    <!-- Strings for BPP -->
+    <string name="m_camera_print">Bluetooth print</string>
+    <string name="no_way_to_print">No application available to print the file(s).</string>
+    <string name="printFile">Print file via</string>
+
+    <!-- Title of no storage dialog -->
+    <string name="no_storage_title">No Storage</string>
+
+    <!-- Message of no storage dialog -->
+    <string name="no_storage_message">Please insert an SD card</string>
+
+    <!-- Toast for load image fail -->
+    <string name="load_image_fail">Failed to load image</string>
+
+    <!--STRING TRANSLATION START [add for ICS porting streaming] -->
+    <string name="proxy_host">Host</string>
+    <string name="proxy_port">Port</string>
+    <string name="apn_settings">Access Point Names</string>
+    <string name="rtsp_proxy_settings">"RTSP Proxy Settings"</string>
+    <string name="rtsp_proxy_settings_summary">"Setup and manage RTSP proxy settings"</string>
+    <string name="enable_rtsp_proxy">"Enable RTSP proxy"</string>
+    <string name="enable_rtsp_proxy_summary">"Enable/Disable RTSP proxy"</string>
+    <string name="http_proxy_settings">"HTTP Proxy Settings"</string>
+    <string name="http_proxy_settings_summary">"Setup and manage HTTP proxy settings"</string>
+    <string name="enable_http_proxy">"Enable HTTP proxy"</string>
+    <string name="enable_http_proxy_summary">"Enable/Disable HTTP proxy"</string>
+    <string name="apn_settings_summary">"Current SIM: %1$s\nCurrent APN: %2$s"</string>
+    <string name="apn_settings_not_valid">"SIM's Data Connectivity is closed, cann't set APN"</string>
+    <string name="wifi_network_no_need_apn">WIFI network, no need to set APN</string>
+    <string name="apn_settings_no_default_apn">none</string>
+    <string name="udp_port_settings">"RTP/RTCP Port Range"</string>
+    <string name="udp_port_settings_summary">"Set Max and Min Port Number"</string>
+    <string name="max_udp_port">"Max Port Number"</string>
+    <string name="min_udp_port">"Min Port Number"</string>
+    <string name="server_timeout_title">"Server Timeout"</string>
+    <string name="server_timeout_message">"Reconnect the server to play the video or not?"</string>
+    <string name="streaming_settings">"Streaming Settings"</string>
+    <string name="VideoView_info_text_video_not_supported">"This video is not supported."</string>
+    <string name="VideoView_error_text_cannot_connect_retry">"Connection failed, try to reconnect %1$d"</string>
+	<string name="VideoView_info_buffering">"Buffering..."</string>
+    <string name="stop">"Stop"</string>
+    <string name="loop">"Loop"</string>
+    <string name="single">"Single"</string>
+    <string name="clear_motion">"ClearMotion"</string>
+    <string name="pqdc">"PQDC"</string>
+    <string name="slow_motion_speed">"Speed"</string>	
+
+    <!--STRING FOR SUBTITLE & AUDIO CHANGE -->
+    <string name="SubtitleSetting">"Subtitle"</string>
+    <string name="SubtitleSetting_text">"TEXT"</string>
+    <string name="SubtitleSetting_layout">"LAYOUT"</string>
+    <string name="subtitle_layout_alignment">"Alignment"</string>
+    <string name="subtitle_layout_bottom_margins">"Bottom margins"</string>
+    <string name="subtitle_layout_alignment_left">"Left"</string>
+    <string name="subtitle_layout_alignment_center">"Center"</string>
+    <string name="subtitle_layout_alignment_right">"Right"</string>
+    <string name="subtitle_text_font">"Font"</string>
+    <string name="subtitle_text_color">"Color"</string>
+    <string name="subtitle_text_size">"Size"</string>
+    <string name="subtitle_text_encoding">"Character Encoding"</string>
+    <string name="subtitle_text_color_black">"Black"</string>
+    <string name="subtitle_text_color_dkgray">"Dark Gray"</string>
+    <string name="subtitle_text_color_gray">"Gray"</string>
+    <string name="subtitle_text_color_ltgray">"Light Gray"</string>
+    <string name="subtitle_text_color_white">"White"</string>
+    <string name="subtitle_text_color_red">"Red"</string>
+    <string name="subtitle_text_color_green">"Green"</string>
+    <string name="subtitle_text_color_blue">"Blue"</string>
+    <string name="subtitle_text_color_yellow">"Yellow"</string>
+    <string name="subtitle_text_color_cyan">"Cyan"</string>
+    <string name="subtitle_text_color_magenta">"Magenta"</string>
+    <string name="subtitle_text_color_translucent">"Translucent"</string>
+    <string name="subtitle_text_encoding_default">"Default"</string>
+    <string name="closeSubtitle">"Close Subtitle"</string>
+    <string name="subTitleChange">"subTitleChange"</string>
+    <string name="subtitleTrackChange">"SubtitleChange"</string>
+    
+    <string name="audioTrackChange">"AudioTrackChange"</string>
+    <string name="audioTrack">"AudioTrack"</string>
+    <string name="noAvailableeTrack">"No Available Track Information"</string>
+    <string name="noAvailableeAudioTrack">"No Available Audio Track"</string>
+    <string name="audioChange">"audioChange"</string>
+
+    <!--STRING TRANSLATION END [add for ICS porting streaming] -->
+
+    <string name="bookmark_empty">"No bookmarks"</string>
+    <string name="bookmark_exist">"Same bookmark in history"</string>
+    <string name="bookmark_add_success">"Add bookmark success"</string>
+    <string name="bookmark_list">"Bookmarks"</string>
+    <string name="bookmark_title">"Title"</string>
+    <string name="bookmark_location">"Location"</string>
+    <string name="http_buffer_size">"HTTP buffer size"</string>
+    <string name="http_buffer_size_summary">"Set HTTP buffer size for streaming"</string>
+    <string name="http_buffer_size_text">"Current HTTP buffer size: %1$d(s)"</string>
+    <string name="rtsp_buffer_size">"RTSP buffer size"</string>
+    <string name="rtsp_buffer_size_summary">"Set RTSP buffer size for streaming"</string>
+    <string name="rtsp_buffer_size_text">"Current RTSP buffer size: %1$d(s)"</string>
+    <string name="buffer_size_tip">"Valid value range: %1$d - %2$d seconds"</string>
+    <string name="media_detail">"Media details"</string>
+    <string name="detail_title">"Title: %1$s"</string>
+    <string name="detail_copyright">"Copyright: %1$s"</string>
+    <string name="detail_session">"Session Info: %1$s"</string>
+    <string name="stereo">"Stereo"</string>
+    <string name="delete_all">"Delete all"</string>
+    <string name="default_title">"Default title"</string>
+
+    <!--strings for MAV viewer(enhancement)-->
+    <string name="mav_firstRunTitle">How to view multi-angle image</string>
+    <string name="mav_firstRunText">Swipe left or right to view multi-angle image</string>
+
+    <!-- strings for Photo widget failure handling -->
+    <string name="widget_load_failed">Failed to load widget</string>
+
+    <!--strings for Picture Quality Tool support -->
+
+    <string name="m_pq_label" translatable="false">picture</string>
+    <string name="m_pq_save_text" translatable="false">PQ</string>
+    <string name="m_picture_quality" translatable="false">PQ</string>
+    <string name="m_image_dc" translatable="false">ImageDC</string>
+    <string name="number_zero" translatable="false">"  0"</string>
+    <string name="SkinTone" translatable="false">"Skin tone(Hue): 5"</string>
+    <string name="GrassTone" translatable="false">"Grass tone(Hue): 5"</string>
+    <string name="Sharpness" translatable="false">"Sharpness: 5"</string>
+    <string name="SkyTone" translatable="false">"Sky tone(Hue): 5"</string>
+    <string name="Color" translatable="false">"Global Sat.: 0"</string>
+
+    <!-- strings for background text shown on AlbumSetPage -->
+    <string name="albumset_empty_text">"No albums."</string>
+    <string name="step_option_default_value" translatable="false">0</string>
+
+    <!--added for container begin -->
+    <string name="m_conshots_title">"Continuous shot"</string>
+    <string name="m_best_shots">Extract best shots</string>
+    <string name="m_best_shots_confirm">Delete all unmarked pictures.</string>
+    <string name="m_empty_conshots">O continuous shots images available.</string>
+    <string name="m_motion_title">"Motion track"</string>
+    <string name="m_make_motion">"Done"</string>
+    <string name="m_motion_at_least">"At least %1$s photos are required to compose the effect."</string>
+    <string name="m_motion_at_most">"At most %1$s photos can be selected."</string>
+    <string name="m_generate_animation">"Generating animation..."</string>
+    <!-- container end -->
+
+    <!-- strings for WFD about DRM Images play -->
+    <string name="Warning_WFD_Dialog">"Warning"</string>
+    <string name="Text_WFD_Dialog">"All copy-protected content will be hidden when Wi-Fi Display is connected."</string>
+    <string name="Disconnecd_WFD">"Turn off Wi-Fi Display"</string>
+    <string name="Hind_DRMImage_WFD">"Continue"</string>
+    <string name="wfd_finishGallery_Warning">"Cannot open it while wireless display is on."</string>
+    <string name="wfd_protected_warning1">"The content is copy-protected,"</string>
+    <string name="wfd_protected_warning2">"To see it on the phone,"</string>
+    <string name="wfd_protected_warning3">"please disconnect Wireless Display."</string>
+    <string name="wfd_disconnected">"Wireless display disconnect."</string>
+    <string name="wfd_connected">"Cast screen connected. Replay the video manually if needed."</string>
+    <string name="smb_protected_warning">"please unplug your phone from Smartbook."</string>
+    <string name="hdmi_protected_warning">"please disconnect with HDMI."</string>
+    <string name="Not_supported_the_video_in_wfd">"Not support the video when Wireless display is connected. Disconnect it and enjoy the video playing?"</string>
+    <string name="Not_supported_the_video_in_bluetooth">"Bluetooth headset cannot play the sound of the video.Disconnect it and enjoy the video playing?"</string>
+    <string name="Not_supported_the_video_in_mhl">"MHL cannot play the video. Disconnect it and enjoy the video playing?"</string>
+    <string name="Not_supported_the_video_in_hdmi">"HDMI cannot play the video. Disconnect it and enjoy the video playing?"</string>
+    <string name="Not_supported_the_video">"External output cannot play the video. Disconnect it and enjoy the video playing?"</string>
+    <string name="storage_not_enough">"The storage does not have enough space."</string>
+    <string name="not_support_share_hint_for_16x">"Not available for 1/16x slow motion video sharing. Please share video as other speeds."</string>	
+    <string name="Text_HDMI_Dialog">"All copy-protected content will be hidden when HDMI Display is connected."</string>
+
+    <!-- strings for invalid mpo-->
+    <string name="mav_invalid">"Multi-angle view is not available."</string>
+
+    <string name="save_fail">Memory card full or no memory card.</string>
+    <string name="appwidget_error_text">Gallery widget error.</string>
+    <string name="empty_conshots">O continuous shots images available.</string>
+    <string name="share_limit">Cannot share more than 300 files.</string>
+
+    <!-- strings for hotKnot -->
+    <string name="turn_on_hotknot">"HotKnot is OFF. Please turn on HotKnot in Settings"</string>
+    <string name="hotknot_toast">"Please use screen to touch another device."</string>
+    <string name="hotknot">"HotKnot"</string>	
+    <!-- Toast/alert that the image is being saved after refocus. -->
+    <string name="m_refocus_label">Refocus image</string>
+    <string name="m_refocus_saving_image">Saving picture to <xliff:g id="album_name">%1$s</xliff:g> \u2026</string>
+    <string name="m_refocus_save_fail">Failed to save !</string>
+
+    <string name="file_deleted">The file has been deleted.</string>
+</resources>

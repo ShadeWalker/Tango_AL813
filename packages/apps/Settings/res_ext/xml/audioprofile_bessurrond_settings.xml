@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="@string/audio_profile_bes_surround_title">
+
+	<com.mediatek.audioprofile.BesSurroundItem
+		android:key="movie_mode" 
+		android:title="@string/audio_profile_bes_surround_mode_movie"
+		android:persistent="false" />
+	<com.mediatek.audioprofile.BesSurroundItem
+		android:key="music_mode" 
+		android:title="@string/audio_profile_bes_surround_mode_music"
+		android:persistent="false" />
+
+</PreferenceScreen>

@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="emergency_only">Hitni pozivi samo</string>
+    <string name="flight_mode_turned_on">Flight mode je uključen</string>
+     <string name="discard_change_contacts">odbaciti</string>
+     <string name="save_change_contacts">Spasiti</string>
+     <string name="cancel_confirmation_dialog_message">Odbaciti promjene?</string>
+<string name="applicationLabel">Kontakti</string>
+<string name="launcherActivityLabel">Kontakti</string>
+<string name="contactsList">Kontakti</string>
+<string name="shortcutContact">Kontakti</string>
+<string name="shortcutDialContact">Direktno biranje</string>
+<string name="shortcutMessageContact">Direktna poruka</string>
+<string name="shortcutActivityTitle">Odaberi prečicu za kontakt</string>
+<string name="callShortcutActivityTitle">Odaberi broj za poziv</string>
+<string name="messageShortcutActivityTitle">Odaberi broj za poruku</string>
+<string name="contactInsertOrEditActivityTitle">Dod. u kontakte</string>
+<string name="contactPickerActivityTitle">Odaberi kontakt</string>
+<string name="header_entry_contact_list_adapter_header_title">Stvori novi kontakt</string>
+<string name="starredList">Sa zvjezdicom</string>
+<string name="frequentList">Često</string>
+<string name="strequentList">Omiljeni</string>
+<string name="viewContactTitle">Detalji kontakta</string>
+<string name="editContactDescription">Uredi kontakt</string>
+<string name="insertContactDescription">Stvaranje kontakta</string>
+<string name="editGroupDescription">Uredi grupu</string>
+<string name="insertGroupDescription">Kreiraj grupu</string>
+<string name="contactDetailAbout">Osnovne inf.</string>
+<string name="contactDetailUpdates">Ažuriranja</string>
+<string name="searchHint">Pretraživanje kontakata</string>
+<string name="menu_viewContact">Prikaz kontakta</string>
+<string name="menu_addStar">Dodaj u omiljene</string>
+<string name="menu_removeStar">Ukloni iz omiljenih</string>
+<string name="description_action_menu_remove_star">Uklonjeno iz omiljenih</string>
+<string name="description_action_menu_add_star">Dodano u omiljene</string>
+<string name="menu_editContact">Uredi</string>
+<string name="menu_deleteContact">Izbriši</string>
+<string name="menu_create_contact_shortcut">Postavi na Početni ekran</string>
+<string name="menu_call">Pozovi kontakt</string>
+<string name="menu_sendSMS">Pošalji SMS kontaktu</string>
+<string name="menu_splitAggregate">Razdvoji</string>
+<string name="menu_editGroup">Uredi</string>
+<string name="menu_deleteGroup">Izbriši</string>
+<string name="menu_new_contact_action_bar">Novi kontakt</string>
+<string name="menu_new_group_action_bar">Nova grupa</string>
+<string name="splitConfirmation_title">Razdvoji kontakt?</string>
+<string name="splitConfirmation">Ovaj kontakt će biti razdvojen u više kontakata.</string>
+<string name="menu_joinAggregate">Spoji</string>
+<string name="titleJoinContactDataWith">Spoji kontakte</string>
+<string name="blurbJoinContactDataWith">Odaberite kontakt koji želite spojiti sa <xliff:g id="name">%s</xliff:g>:</string>
+<string name="showAllContactsJoinItem">Prikaži sve kontakte</string>
+<string name="separatorJoinAggregateSuggestions">Predloženi kontakti</string>
+<string name="separatorJoinAggregateAll">Svi kontakti</string>
+<string name="contactsJoinedMessage">Spojeni kontakti</string>
+<string name="menu_set_ring_tone">Postavi ton zvona</string>
+<string name="menu_redirect_calls_to_vm">Svi pozivi na govornu poštu</string>
+<string name="readOnlyContactWarning">Ne možete izbrisati kontakte iz računa samo za čitanje, ali ih možete sakriti na listama kontakata.</string>
+<string name="readOnlyContactDeleteConfirmation">Ovaj kontakt sadrži informacije sa višestrukih računa. Informacije sa računa samo za čitanje će biti sakrivene na vašem spisku kontakata, ne i izbrisane.</string>
+<string name="multipleContactDeleteConfirmation">Brisanjem ovog kontakta izbrisat će se podaci iz više računa.</string>
+<string name="deleteConfirmation">Ovaj kontakt će biti izbrisan.</string>
+<string name="menu_discard">Odbaci promjene</string>
+<string name="invalidContactMessage">Kontakt ne postoji.</string>
+<string name="createContactShortcutSuccessful">Vidžet kontakta dodan na Početni ekran.</string>
+<string name="pickerNewContactHeader">Stvori novi kontakt</string>
+<string name="pickerNewContactText">Stvori novi kontakt</string>
+<string-array name="otherLabels">
+<item>Organizacija</item>
+<item>Napomena</item>
+</string-array>
+<string name="photoPickerNotFoundText" product="default">Nema dostupnih slika na telefonu.</string>
+<string name="attach_photo_dialog_title">Fotografija kontakta</string>
+<string name="customLabelPickerTitle">Prilag. ime oznake</string>
+<string name="send_to_voicemail_checkbox">Pošalji pozive direktno na govornu poštu</string>
+<string name="removePhoto">Ukloni fotografiju</string>
+<string name="noContacts">Nema kontakata.</string>
+<string name="noGroups">Nema grupa.</string>
+<string name="noAccounts">Da biste kreirali grupe, treba vam račun.</string>
+<string name="emptyGroup">Nema ljudi u ovoj grupi.</string>
+<string name="addPeopleToGroup">Da biste ih dodali, uredite grupu.</string>
+<string name="savingContact">Čuvam kontakt\u2026</string>
+<string name="contactSavedToast">Kontakt je sačuvan.</string>
+<string name="contactSavedErrorToast">Nije bilo moguće sačuvati promjene kontakata.</string>
+<string name="groupSavedToast">Grupa sačuvana.</string>
+<string name="groupSavedErrorToast">Nije bilo moguće sačuvati promjene grupe.</string>
+<plurals name="listTotalPhoneContacts">
+<item quantity="one">1 kontakt sa brojem telefona</item>
+<item quantity="other">
+<xliff:g id="count">%d</xliff:g> kontakata s brojevima telefona</item>
+</plurals>
+<string name="listTotalPhoneContactsZero">Nema kontakata s brojevima telefona</string>
+<plurals name="listFoundAllContacts">
+<item quantity="one">1 pronađen</item>
+<item quantity="other">Pronađeno <xliff:g id="count">%d</xliff:g> stavki</item>
+</plurals>
+<string name="listFoundAllContactsZero">Nema kontakata</string>
+<plurals name="searchFoundContacts">
+<item quantity="one">1 pronađen</item>
+<item quantity="other">Pronađeno <xliff:g id="count">%d</xliff:g> stavki</item>
+</plurals>
+<string name="dial_tab_label">Birač broja</string>
+<string name="all_contacts_tab_label">Kontakti</string>
+<string name="mms_tab_label">Poruke</string>
+<string name="favorites_tab_label">Omiljeni</string>
+<string name="callBack">Uzvrati poziv</string>
+<string name="callAgain">Ponovi poziv</string>
+<string name="returnCall">Uzvrati poziv</string>
+<string name="add_contact_dlg_message_fmt">Dodati \"<xliff:g id="email">%s</xliff:g>\" u kontakte?</string>
+<string name="description_contact_photo">fotografija kontakta</string>
+<string name="description_plus_button">plus</string>
+<string name="exporting_contact_list_progress">
+<xliff:g id="current_number">%s</xliff:g> od <xliff:g id="total_number">%s</xliff:g> kontakata</string>
+<string name="search_settings_description">Imena kontakata</string>
+<string name="quickcontact_missing_app">Aplikacija za obradu ove aktivnosti nije pronađena.</string>
+<string name="quickcontact_transparent_view_description">Kliknite za povratak na prethodni ekran</string>
+<string name="quickcontact_add_phone_number">Dodaj broj telefona</string>
+<string name="quickcontact_add_email">Dodaj adresu e-pošte</string>
+<string name="missing_app">Aplikacija za obradu ove aktivnosti nije pronađena.</string>
+<string name="menu_share">Dijeli</string>
+<string name="menu_add_contact">Dod. u kontakte</string>
+<string name="share_via">Podijeli kontakte putem</string>
+<string name="dialog_new_group_account">Stvori grupu unutar računa</string>
+<string name="audio_chat">Govorno ćaskanje</string>
+<string name="video_chat">Video ćaskanje</string>
+<string name="connections">Veze</string>
+<string name="add_connection_button">Dodaj vezu</string>
+<string name="recent">Nedavno</string>
+<string name="recent_updates">Nedavna ažuriranja</string>
+<string name="account_type_format">
+<xliff:g example="Gmail" id="source">%1$s</xliff:g> kontakt</string>
+<string name="contact_read_only">Ne može se uređivati iz ove aplikacije.</string>
+<string name="group_read_only">Ne može se uređivati na ovom uređaju.</string>
+<string name="take_photo">Snimi fotogr.</string>
+<string name="take_new_photo">Snimi novu fotografiju</string>
+<string name="pick_photo">Odaberite fotografiju</string>
+<string name="pick_new_photo">Odaberite novu fotografiju</string>
+<string name="locale_change_in_progress">Spisak kontakata se ažurira kako bi odražavao promjenu jezika.</string>
+<string name="upgrade_in_progress">Spisak kontakata se ažurira.</string>
+<string name="upgrade_out_of_memory">U toku je proces nadogradnje kontakata.\n\nZa proces nadogradnje neophodno je približno <xliff:g id="size_in_megabytes">%s</xliff:g> MB interne memorije.\n\nOdaberite jednu od sljedećih opcija:</string>
+<string name="upgrade_out_of_memory_uninstall">Deinstalirajte neke aplikacije</string>
+<string name="upgrade_out_of_memory_retry">Ponovno pokušaj nadogradnju</string>
+<string name="search_results_searching">Pretraživanje\u2026</string>
+<string name="menu_display_selected">"Prikaži odabrane"</string>
+<string name="menu_display_all">"Pokaži sve"</string>
+<string name="menu_select_all">"Odaberi sve"</string>
+<string name="menu_select_none">"Poništi odabir za sve"</string>
+<string name="add_new_entry_for_section">Dodaj novo</string>
+<string name="add_organization">Dodaj organizaciju</string>
+<string name="event_edit_field_hint_text">Datum</string>
+<string name="group_edit_field_hint_text">Naziv grupe</string>
+<string name="change_photo">Promijeni</string>
+<string name="primary_photo">Primarna fotografija</string>
+<string name="description_star">omiljeni</string>
+<string name="edit_contact">Uredi kontakt</string>
+<plurals name="merge_info">
+<item quantity="one">nije spojen</item>
+<item quantity="other">Spojeno iz <xliff:g id="count">%0$d</xliff:g> izvora</item>
+</plurals>
+<string name="aggregation_suggestion_join_dialog_message">Spojiti trenutni kontakt sa odabranim kontaktom?</string>
+<string name="aggregation_suggestion_edit_dialog_message">Preći na uređivanje odabranog kontakta? Informacije koje ste do sada unijeli će biti kopirane.</string>
+<string name="menu_copyContact">Kopiraj u Moje kontakte</string>
+<string name="add_to_my_contacts">Dodaj u Moje kontakte</string>
+<string name="contact_directory_description">Direktorij <xliff:g example="Corporate Directory" id="type">%1$s</xliff:g>
+</string>
+<string name="list_filter_custom">Prilagođeno</string>
+<string name="activity_title_settings">Postavke</string>
+<string name="menu_settings">Postavke</string>
+<string name="menu_help">Pomoć</string>
+<string name="preference_displayOptions">Opcije prikaza</string>
+<string name="organization_company_and_title">
+<xliff:g example="Technical Program Manager" id="company">%2$s</xliff:g>, <xliff:g example="Google Inc." id="company">%1$s</xliff:g>
+</string>
+<string name="non_phone_caption">Broj telefona</string>
+<string name="non_phone_add_to_contacts">Dod. u kontakte</string>
+<string name="activity_title_confirm_add_detail">Dodaj u kontakte</string>
+<string name="non_phone_close">Zatvori</string>
+<string name="widget_name_and_phonetic">
+<xliff:g example="John Huber" id="display_name">%1$s</xliff:g> (<xliff:g id="phonetic_name">%2$s</xliff:g>)</string>
+<string name="date_year_toggle">Unesite godinu</string>
+<string name="social_widget_label">Kontakt</string>
+<string name="social_widget_loading">Učitavanje\u2026</string>
+<string name="contacts_unavailable_create_contact">Stvori novi kontakt</string>
+<string name="contacts_unavailable_add_account">Prijavi se u račun</string>
+<string name="contacts_unavailable_import_contacts">Uvezi kontakte</string>
+<string name="create_group_dialog_title">Kreiraj novu grupu</string>
+<string name="create_group_item_label">Kreiraj novu grupu</string>
+<plurals name="num_groups_in_account">
+<item quantity="one">1 grupa</item>
+<item quantity="other">
+<xliff:g id="count">%0$d</xliff:g> grupa</item>
+</plurals>
+<string name="delete_group_dialog_message">Izbrisati grupu \"<xliff:g example="Friends" id="group_label">%1$s</xliff:g>\"?(Sami kontakti neće biti izbrisani.)
+    </string>
+<plurals name="num_contacts_in_group">
+<item quantity="one">
+<xliff:g id="count">%1$d</xliff:g> osoba iz <xliff:g id="account_type">%2$s</xliff:g>
+</item>
+<item quantity="other">
+<xliff:g id="count">%1$d</xliff:g> osoba iz <xliff:g id="account_type">%2$s</xliff:g>
+</item>
+</plurals>
+<plurals name="group_list_num_contacts_in_group">
+<item quantity="one">
+<xliff:g id="count">%1$d</xliff:g> osoba</item>
+<item quantity="other">
+<xliff:g id="count">%1$d</xliff:g> osoba</item>
+</plurals>
+<string name="toast_join_with_empty_contact">Utipkaj ime kontakta prije udruživanja s drugim.
+    </string>
+<string name="copy_text">Kopiraj u međuspremnik</string>
+<string name="set_default">Postavi zadano</string>
+<string name="clear_default">Obriši zadano</string>
+<string name="toast_text_copied">Kopirano u međuspremnik</string>
+<string name="call_type_and_date">
+<xliff:g example="Friends" id="call_type">%1$s</xliff:g> <xliff:g example="Friends" id="call_short_date">%2$s</xliff:g>
+    </string>
+<string name="profile_display_name">Postavi moj profil</string>
+<string name="enter_contact_name">Unesite naziv osobe</string>
+<string name="group_name_hint">Naziv grupe</string>
+<string name="local_profile_title">Moj lokalni profil</string>
+<string name="external_profile_title">Moj <xliff:g id="external_source">%1$s</xliff:g> profil</string>
+<string name="toast_displaying_all_contacts">Prikaz svih kontakata</string>
+<string name="no_account_prompt">Aplikacija Kontakti bolje radi sa Google računom.\n\n\u2022 Pristupite mu iz bilo kojeg web preglednika.\n\u2022 Bezbjedno napravite rezervne kopije svojih kontakata.</string>
+<string name="generic_no_account_prompt">Čuvajte kontakte na sigurnom čak i ako izgubite telefon: sinhronizirajte ih sa uslugom na mreži.</string>
+<string name="generic_no_account_prompt_title">Dodajte račun</string>
+<string name="contact_editor_prompt_zero_accounts">Neće biti napravljena rezervna kopija vašeg novog kontakta. Želite dodati račun koji pravi rezervnu kopiju kontakata na mreži?</string>
+<string name="contact_editor_prompt_one_account">Vaš novi kontakt će biti sinhroniziran sa <xliff:g id="account_name">%1$s</xliff:g>.</string>
+<string name="contact_editor_prompt_multiple_accounts">Možete sinhronizirati novi kontakt sa jednim od sljedećih računa. Koji želite koristiti?</string>
+<string name="contact_editor_title_new_contact">Novi kontakt</string>
+<string name="contact_editor_title_existing_contact">Uredi kontakt</string>
+<string name="keep_local">Drži lokalno</string>
+<string name="add_account">Dodaj račun</string>
+<string name="add_new_account">Dodaj novi račun</string>
+<string name="menu_export_database">Izvezi datoteke baze podataka</string>
+<string name="action_menu_add_new_contact_button">dodaj novi kontakt</string>
+<string name="expanding_entry_card_view_see_more">Prikaži više</string>
+<string name="expanding_entry_card_view_see_less">Prikaži manje</string>
+<string name="expanding_entry_card_view_see_all">Vidi sve</string>
+<string name="recent_card_title">Nedavno</string>
+<string name="about_card_title">Osnovne inf.</string>
+<string name="send_message">Pošalji poruku</string>
+<string name="toast_making_personal_copy">Kreiranje lične kopije…</string>
+<string name="yesterday">Jučer</string>
+<string name="tomorrow">Sutra</string>
+<string name="today">Danas</string>
+<string name="today_at_time_fmt">"Danas u <xliff:g id="time_interval">%s</xliff:g>"</string>
+<string name="tomorrow_at_time_fmt">"Sutra u <xliff:g id="time_interval">%s</xliff:g>"</string>
+<string name="date_time_fmt">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g>"</string>
+<string name="untitled_event">(Neimenovani događaj)</string>
+<string name="date_time_set">Postavi</string>
+<string name="header_im_entry">IM</string>
+<string name="header_organization_entry">Organizacija</string>
+<string name="header_nickname_entry">Nadimak</string>
+<string name="header_note_entry">Napomena</string>
+<string name="header_website_entry">Web lokac.</string>
+<string name="header_event_entry">Događaj</string>
+<string name="header_relation_entry">Odnos</string>
+<string name="header_account_entry">Račun</string>
+<string name="header_name_entry">Naziv</string>
+<string name="header_email_entry">E-pošta</string>
+<string name="header_phone_entry">Telefon</string>
+<string name="header_photo_entry">Fotografija</string>
+<string name="content_description_expand_editor">Kliknite da proširite uređivač kontakta.</string>
+<string name="content_description_collapse_editor">Kliknite da skupite uređivač kontakta.</string>
+<string name="content_description_directions">uputstva za kretanje do lokacije</string>
+<string name="content_description_recent_sms">nedavni sms. <xliff:g id="message_body">%s</xliff:g>. <xliff:g id="phone_number">%s</xliff:g>. <xliff:g id="date">%s</xliff:g>. kliknite da odgovorite</string>
+<string name="content_description_recent_call_type_incoming">dolazni</string>
+<string name="content_description_recent_call_type_outgoing">izlazni</string>
+<string name="content_description_recent_call_type_missed">propušteni</string>
+<string name="content_description_recent_call">nedavni poziv. <xliff:g id="call_type">%s</xliff:g>. <xliff:g id="phone_number">%s</xliff:g>. <xliff:g id="date">%s</xliff:g>. kliknite da uzvratite poziv</string>
+<string name="message_from_you_prefix">Vi: <xliff:g id="sms_body">%s</xliff:g>
+</string>
+<string name="contact_editor_hangouts_im_alert">Hangouts bolje funkcioniše kada unesete Hangouts identifikator osobe u polje za adresu e-pošte ili za broj telefona.</string>
+<string name="launcherActivityLabelForPhone">Biraj</string>
+<string name="join_same_name">Spoji kontakte</string>
+<string name="same_name_join_hint">&lt;li&gt;Dodirnite da spojite kontakte sa istim imenom.&lt;/li&gt;\n&lt;li&gt;Dodirnite otkaži da zaustavite spajanje.&lt;/li&gt;\n&lt;li&gt;Ovaj proces će potrajati.&lt;/li&gt;</string>
+<string name="join_action_start">Pokreni</string>
+<string name="join_title_total">Ukupno</string>
+<string name="join_title_single">Trenutna</string>
+<string name="join_status_unstarted">Spremno</string>
+<string name="join_status_waiting">Čekanje...</string>
+<string name="join_status_checking">Provjera... Pričekajte</string>
+<string name="join_status_join_start">Spajanje...</string>
+<string name="join_status_join_progress">Grupa spojeno: %1$s. Ukupno grupa: %2$s </string>
+<string name="join_status_joining">Spajam\n</string>
+<string name="join_status_single_joining">Spajam: %1$s\n Ukupno sa istim imenom: %2$s </string>
+<string name="join_status_canceled">otkazano</string>
+<string name="join_cancel_confirm_msg">Zaustavi spajanje</string>
+<string name="menu_done">Završeno</string>
+<string name="cancel">otkazano</string>
+<string name="ok">OK</string>
+<string name="dial_keypad">Birač broja</string>
+<string name="dial_menu">Meni</string>
+<string name="dial_delete">Izbriši</string>
+<string name="dial_emergency">Hitni pozivi</string>
+<string name="no_service">Nema usluge</string>
+<string name="dataservice_title">Podatkovna usluga</string>
+<string name="open_dataservice_confirm">"Podatkovna veza za vaš uređaj je isključena. Za bolje iskustvo, preporučujemo da uključite podatkovnu vezu.\n\nKada je podatkovna veza uključena, možete koristiti svoje SIM kartice za pristup internetu. Uključi podatkovnu vezu?"</string>
+<string name="open_confirm">Uključiti</string>
+<string name="open_cancel">Otkaži</string>
+<string name="hour_hw">hh</string>
+<string name="minute_hw">mm</string>
+<string name="seconds_hw">ss</string>
+<string name="call_type_hw">Način prikaza</string>
+<string name="cancel_hw">Otkaži</string>
+<string name="confirm_hw">OK</string>
+<string name="black_list_manager_exception">Upravitelj telefona nije pronađen. Instalirajte ga prije korištenja ove funkcije.</string>
+<string name="sim_log_hw">SIM zapisnik</string>
+<string name="sim_all_hw">SIM 1 i SIM 2</string>
+<string name="sim_one_hw">SIM 1</string>
+<string name="sim_two_hw">SIM 2</string>
+<string name="call_type">Vrsta poziva</string>
+<string name="all_call_hw">Svi pozivi</string>
+<string name="miss_call_hw">Propušteni pozivi</string>
+<string name="answer_call_hw">Odgovoreni pozivi</string>
+<string name="dialer_call_hw">Odlazni pozivi</string>
+<string name="date_format_year">godina</string>
+<string name="date_format_month">Mjesec</string>
+<string name="outgoing_calltype">Odlazni pozivi</string>
+<string name="incoming_type">Dolazni pozivi</string>
+<string name="send_sms">Pošalji poruku</string>
+<string name="am_time">AM</string>
+<string name="pm_time">PM</string>
+<string name="chubaoMessage">1. Pametna identifikacija i usluge direktorija mogu zahtijevati pristup internetu, pa se može obračunavati naknada za korištenje podataka.\n2. Ovu uslugu nudi aplikacija TouchPal Contacts, i oni će biti odgovorni za tačnost i pouzdanost svih relevantnih podataka.\n3. Informacije o brojevima koje označite će biti prenesene na server.\n4.Ova usluga će pristupiti informacijama o vašoj lokaciji.\nDodirivanje dugmeta Pristajem znači da prihvatate gornje informacije, dok dodirivanje dugmeta Otkaži znači da ova usluga neće dobiti pristup internetu odnosno neće dobijati informacije o vašoj lokaciji.</string>
+<string name="user_aggreement">Korisnički sporazum</string>
+<string name="menu_add_to_black_list">Dodaj na crnu listu.</string>
+<string name="add_to_black_list">Dodano na crnu listu</string>
+<string name="menu_remove_from_black_list">Ukloni sa crne liste</string>
+<string name="remove_from_black_list">Uklonjeno s crne liste</string>
+<string name="menu_send_number">Pošalji broj</string>
+<string name="menu_delete_call_log">Izbriši unos</string>
+<string name="hotline_name">Linija za pomoć</string>
+<string name="hotline_phone">4008308300</string>
+<string name="hotline_email">mobile@huawei.com</string>
+<string name="hq_sim_slot_position_1">SIM 1</string>
+<string name="hq_sim_slot_position_2">SIM 2</string>
+<string name="menu_copy_number">Kopiraj broj</string>
+<string name="cootek_dlg_no_show_again">Ne podsjećaj ponovo</string>
+<string name="contacts_setting_Advanced">Napredni</string>
+<string name="merge_duplicate_contacts">Spoji duple kontakte</string>
+<string name="set_up_my_profile">Postavi moj profil</string>
+<string name="mem_status">Status memorije</string>
+<string name="phone_local">Telefon</string>
+<string name="howManyContacts"> Kontakt(i)</string>
+<string name="sar_mobile_phone_title">SAR mobitela</string>
+<string name="sar_mobile_phone_heading">Huawei mobitel</string>
+<string name="sar_mobile_phone_review">Informacije o specifičnom nivou apsorpcije</string>
+<string name="sar_mobile_phone_contents">Ovaj uređaj usklađen je sa smjernicama o izlaganju radio talasima. Vaš uređaj je radio predajnik i prijemnik male snage. U skladu sa preporukama datim u međunarodnim smjernicama, uređaj je projektovan tako da ne premašuje ograničenja za izlaganje radio talasima. Navedene smjernice pripremila je nezavisna naučna organizacija Međunarodna komisija za zaštitu od nejonizućeg zračenja (ICNIRP) i sadrže sigurnosne mjere kojima se osigurava sigurnost svih korisnika, bez obzira na dob i zdravstveno stanje.\n\nSAR granica koju je usvojila Indija iznosi 1,6 watta/kilogramu (W/kg) kao prosjek dobiven po gramu tkiva. Najviša SAR vrijednost za ovaj uređaj iznosi 1,0 W/kg.</string>
+<string-array name="phone_contact_menu">
+<item>Poziv</item>
+<item>Pošalji poruku</item>
+<item>Slanje e-pošte</item>
+<item>Uredi</item>
+<item>Izbriši</item>
+<item>Podijeli kontakte</item>
+<item>omiljeni</item>
+<item>Dodaj na crnu listu.</item>
+<item>Postavi na početni ekran</item>
+</string-array>
+<string-array name="sim_contact_menu">
+<item>Poziv</item>
+<item>Pošalji poruku</item>
+<item>Uredi</item>
+<item>Izbriši</item>
+<item>Podijeli kontakte</item>
+<item>Dodaj na crnu listu.</item>
+<item>Kreiraj prečicu</item>
+</string-array>
+<string name="menu_copyContactsToCard1">Kopiraj na SIM 1</string>
+<string name="menu_copyContactsToCard2">Kopiraj na SIM 2</string>
+<string name="menu_copyContactsToPhone">Kopiraj na telefon</string>
+<string name="stared_contacts">Omiljeni</string>
+<string name="stared_contacts_counts"> (broj ljudi)</string>
+<string name="select_sim">Odaberite SIM karticu</string>
+<string name="menu_sdnlist">Lista SDN</string>
+<string name="simContacts_emptyLoading_ex">Čitanje kontakata sa %s\u2026</string>
+<string name="simContacts_emptyLoading">Čitanje sa SIM kartice\u2026</string>
+<string name="sim1Contacts_emptyLoading">Čitanje kontakata sa SIM1\u2026</string>
+<string name="sim2Contacts_emptyLoading">Čitanje kontakata sa SIM2\u2026</string>
+<string name="simContacts_empty">Na vašoj SIM kartici nema kontakata.</string>
+<string name="sdn_list_title">Brojevi</string>
+<string name="no_contact_to_display">Nema duplih kontakata</string>
+<string name="no_contacts_query">Nema pronađenih kontakata.</string>
+<string name="exit_sameNumber_contacts">Broj već postoji. Ipak sačuvaj?</string>
+<string name="exit_sameName_contacts">Naziv već postoji. Sačuvaj?</string>
+<string name="sdn_list">Servisni brojevi</string>
+<string name="delete_group_dialog_title">Izbriši grupu</string>
+<string name="menu_actionbar_not_selected_items">Nije odabrano</string>
+<string name="menu_copyContactsToSIM">Kopiraj na SIM karticu</string>
+<string name="contact_editor_account_selection_title">"Odaberite račun"</string>
+    <string name="missed_type">Propušteni pozivi</string>
+</resources>

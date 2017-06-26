@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dm_lock">DM заключена</string>
+    <string name="dm_unlock">Отключване на DM</string>
+    <string name="start_record">Старт на запис</string>
+    <string name="stop_record">Стоп на запис</string>
+    <string name="str_db_playlist_name">"Моите записи"</string>
+    <string name="alert_device_error">Грешка в аудио у-вото</string>
+    <string name="ext_media_badremoval_notification_title">"SD картата бе премахната неочаквано."</string>
+    <string name="error_sdcard_access">Достъпът до SD карта невъзможен</string>
+    <string name="confirm_device_info_full">На SD картата няма място, записът е запаметен.</string>
+    <string name="confirm_save_info_saved">Записът е запаметен</string>
+    <string name="confirm_save_info_saved_to">Записът е запаметен на</string>
+    <string name="recording_saved_sd_full">SD картата е пълна, записът е запаметен.</string>
+    <string name="sd_not_enough">SD картата е почти\nсъвсем пълна</string>
+    <string name="alert_dialog_dismiss">"Отхвърляне"</string>
+    <string name="change_my_pic">Промяна</string>
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">Прекъсване на всички</string>
+    <string name="onscreenHangupHolding">Прекъсване на задържани</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Активно прекъсване, чака отговор</string>
+    <string name="menu_ect">Трансфер</string>
+    <string name="respond_via_sms_confirmation_format">"До <xliff:g id="PHONE_NUMBER">%s</xliff:g> бе изпратено съобщение."</string>
+    <string name="volte_add_conference_member_title">Добави в конферентен</string>
+    <string name="add_member_msg">Въведете номер или име</string>
+    <string name="card_title_incoming_conference">Покана за конферентен</string>
+    <string name="addConferenceMemeberText">Добавяне на член</string>
+    <string name="add_conference_member_limit">Номера се добавят само един по един.</string>
+    <string name="conference_member_join">
+<xliff:g id="member_name">%s</xliff:g> се включи в конференцията.</string>
+    <string name="conference_member_leave">
+<xliff:g id="member_name">%s</xliff:g> напусна конференцията.</string>
+    <string name="conference_member_adding">Добавяне на <xliff:g id="member_name">%s</xliff:g> …</string>
+    <string name="conference_member_add_fail">Неуспешно добавяне на <xliff:g id="member_name">%s</xliff:g>.</string>
+    <string name="removeMember">"Премахване"</string>
+    <string name="memberStatus">"Състояние"</string>
+    <string name="volte_call_waiting_indication_text">Абонатът разговаря, изчакайте…</string>
+    <string name="volte_conf_member_reach_max">Вече е достигнат максималният брой участници в конференцията.</string>
+    <string name="add_multi_conference_member_limit">Сега могат да се добавят само <xliff:g id="max_number">%s</xliff:g> члена макс.</string>
+    <string name="multi_conference_member_adding">Добавяне на членове…</string>
+<string name="ok">"OK"</string>
+<string name="two_incoming_calls">Две входящи обаждания</string>
+<string name="wifi_title">Wi-Fi обаждане и минути </string>
+<string name="call_drop">Вашето обаждане може да се прекъсне</string>
+<string name="call_drop_message">Вие сте почти извън обхвата на Wi-Fi покритието</string>
+<string name="view_networks">Преглед на мрежи</string>
+<string name="wfc_wifi_call_drop_summary">Вероятно сте излезли извън обхвата на вашата Wi-Fi мрежа по време на обаждане.\n \nДа се извърши ли повторно свързване към вашата Wi-Fi мрежа за довършване на обаждането?</string>
+</resources>

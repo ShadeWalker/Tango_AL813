@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">"کلاک"</string>
+    <string name="alarm_list_title">"الارمز"</string>
+    <string name="add_alarm">الارم شامل کریں</string>
+    <string name="menu_desk_clock">ڈیسک گھڑی</string>
+    <string name="menu_edit_alarm">الارم ترمیم کریں</string>
+    <string name="delete_alarm">الارم مٹائيں</string>
+    <string name="enable_alarm">الارم آن کریں</string>
+    <string name="disable_alarm">الارم آف کریں</string>
+    <string name="delete_alarm_confirm">اس الارم کو مٹادیا جائے گا۔</string>
+    <string name="show_clock">گھڑی دکھائيں</string>
+    <string name="hide_clock">گھڑی چھپائيں</string>
+    <string name="label">دیا گیا نام</string>
+    <string name="default_label">"الارم"</string>
+    <string name="set_alarm">الارم سیٹ کریں</string>
+    <string name="alarm_vibrate">وائبریٹ</string>
+    <string name="alarm_repeat">"دہرائیں"</string>
+    <string name="alert">رنگ ٹون</string>
+    <string name="ringtone">"رنگ ٹون"</string>
+    <string name="time">"وقت"</string>
+    <string name="alarm_tomorrow">"آنے والا کل"</string>
+    <string name="alarm_today">آج</string>
+    <string name="alarm_alert_wake_up">"جاگیں!"</string>
+    <string name="alarm_alert_off_action_text">بند</string>
+    <string name="alarm_alert_dismiss_text">"مسترد"</string>
+    <string name="alarm_alert_dismiss_now_text">ابھی ضائع کریں</string>
+    <string name="alarm_missed_title">چھوٹا ہوا الارم</string>
+    <string name="alarm_missed_text"><xliff:g id="alarm_time">%s</xliff:g> - <xliff:g id="alarm_label">%s</xliff:g></string>
+    <string name="alarm_alert_snoozed_text">اسنوز شدہ</string>
+    <plurals name="alarm_alert_snooze_duration">
+        <item quantity="one">1 منٹ</item>
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> منٹ</item>
+    </plurals>
+    <string name="alarm_alert_off_text">الارم بند</string>
+    <string name="alarm_alert_snooze_text">وئی نہیں</string>
+    <plurals name="alarm_alert_snooze_set">
+        <item quantity="one">1 منٹ تک اسنوزنگ.</item>
+        <item quantity="other"><xliff:g id="minutes">%d</xliff:g> منٹ کے لئے اسنوز کررہا ہے۔</item>
+    </plurals>
+    <string name="alarm_alert_snooze_until"><xliff:g id="time">%s</xliff:g> تک اسنوز کر رہا ہے</string>
+    <string name="alarm_alert_predismiss_title">آئندہ الارم</string>
+    <string name="missed_alarm_has_been_deleted">آپ کا چھوٹا ہوا الارم حذف کردیا گیا ہے</string>
+    <skip/>
+    <string-array name="timer_notifications">
+        <item>ایک منٹ سے بھی کم باقی بچا ہے</item>
+        <item><xliff:g id="HOURS" example="2hours">%1$s</xliff:g> <xliff:g id="MINUTES" example="2minutes">%2$s</xliff:g> باقی بچے ہیں</item>
+        <item><xliff:g id="MINUTES" example="2minutes">%2$s</xliff:g> باقی بچے ہیں</item>
+        <item><xliff:g id="HOURS" example="2hours">%1$s</xliff:g> <xliff:g id="MINUTES" example="2minutes">%2$s</xliff:g> باقی بچے ہیں</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>یہ الارم اب سے ایک منٹ سے بھی کم عرصے کے لئے سیٹ کیا گیا ہے۔</item>
+        <item>یہ الارم اپ سے <xliff:g id="DAYS" example="2days">%1$s</xliff:g> اور <xliff:g id="HOURS" example="2hours">%2$s</xliff:g> کے لئے سیٹ کیا گيا ہے۔</item>
+        <item>یہ الارم اپ سے <xliff:g id="DAYS" example="2days">%1$s</xliff:g> اور <xliff:g id="HOURS" example="2hours">%2$s</xliff:g> کے لئے سیٹ کیا گيا ہے۔</item>
+        <item>یہ الارم اپ سے <xliff:g id="DAYS" example="2days">%1$s</xliff:g> اور <xliff:g id="HOURS" example="2hours">%2$s</xliff:g> کے لئے سیٹ کیا گيا ہے۔</item>
+        <item>یہ الارم اب سے <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> کے لئے سیٹ کیا گيا ہے۔</item>
+        <item>یہ الارم اب سے<xliff:g id="DAYS" example="2days">%1$s</xliff:g> اور <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> کے لئے سیٹ کیا گيا ہے۔</item>
+        <item>یہ الارم اب سے<xliff:g id="DAYS" example="2days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>, اور <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g>کے لئے سیٹ کیا گيا ہے۔</item>
+        <item>یہ الارم اب سے<xliff:g id="DAYS" example="2days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>, اور <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g>کے لئے سیٹ کیا گيا ہے۔</item>
+    </string-array>
+    <string name="day">"1 دن"</string>
+    <string name="days">"  <xliff:g id="days">%s</xliff:g> دن" </string>
+    <string name="hour">"1 گھنٹہ"</string>
+    <string name="hours">  <xliff:g id="hours">%s</xliff:g> گھنٹے </string>
+    <string name="minute">"1 منٹ"</string>
+    <string name="minutes">"  <xliff:g id="minutes">%s</xliff:g> منٹ" </string>
+    <string name="every_day">روزانہ</string>
+    <string name="never">"کبھی نہیں"</string>
+    <string name="day_concat">", "</string>
+    <string name="clock_instructions">دکھانے کے لئے گھڑی منتخب کریں۔</string>
+    <string name="analog_gadget">انالاگ گھڑی</string>
+    <string name="help">مدد</string>
+    <string name="settings">"ترتیبات"</string>
+    <string name="snooze_duration_title">اسنوز کا دورانیہ</string>
+    <plurals name="snooze_duration">
+        <item quantity="one">"1 منٹ"</item>
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> منٹ</item>
+    </plurals>
+    <plurals name="snooze_picker_label">
+        <item quantity="one">منٹ</item>
+        <item quantity="other">"منٹ"</item>
+    </plurals>
+    <string name="auto_silence_title">خود کار خاموشی</string>
+    <string name="auto_silence_summary">الارم  <xliff:g id="minutes">%d</xliff:g> منٹ کے بعد خاموش ہوجائیں گے </string>
+    <string name="auto_silence_never">"کبھی نہیں"</string>
+    <string-array name="auto_silence_entries">
+      <item>5 منٹ</item>
+      <item>"10 منٹ"</item>
+      <item>"15 منٹ"</item>
+      <item>15 منٹ</item>
+      <item>20 منٹ</item>
+      <item>"30 منٹ"</item>
+      <item>"کبھی نہیں"</item>
+      </string-array>
+    <string name="done">"ہوگیا"</string>
+    <string name="revert">کالعدم کریں</string>
+    <string name="delete">"حذف کریں"</string>
+    <string name="alarm_volume_title">"الارم والیوم"</string>
+    <string name="silent_alarm_summary">"خاموش"</string>
+    <string name="alarm_notify_text">اس الارم کو اسنوز يا مسترد کرنے کيلئے منتخب کريں</string>
+    <string name="alarm_notify_snooze_label"><xliff:g id="label">%s</xliff:g> (اسنوز)</string>
+    <string name="alarm_notify_snooze_text"> <xliff:g id="time">%s</xliff:g> کے لئے الارم سیٹ کیا گیا ہے۔ منسوخ کرنے کے لئے منتخب کریں۔</string>
+    <string name="volume_button_setting_title">والیوم اور کیمرہ</string>
+    <string name="volume_button_dialog_title">بٹن کا اثر</string>
+    <string-array name="volume_button_setting_entries">
+      <item>وئی نہیں</item>
+      <item>"مسترد"</item>
+      <item>رد</item>
+      </string-array>
+    <string name="default_ringtone_setting_title">طے شدہ رنگ ٹون سیٹ کریں</string>
+    <skip/>
+    <string name="alarm_button_description">"الارمز"</string>
+    <string name="gallery_button_description">گیلری</string>
+    <string name="music_button_description">میوزک</string>
+    <string name="nightmode_button_description">شور</string>
+    <string name="home_button_description">"لانچر"</string>
+    <string name="desk_clock_button_description">گھڑی کا ڈسپلے</string>
+    <string name="label_description">دیا گیا نام</string>
+    <string name="ringtone_description">"رنگ ٹون"</string>
+    <string name="battery_charging_level"><xliff:g id="نمبر">%d</xliff:g><xliff:g id="پرسنٹ">%%</xliff:g></string>
+    <string name="weather_fetch_failure">موسم کی معلومات اس وقت دستیاب نہیں ہے</string>
+    <string name="alarm_klaxon_service_desc">ڈیسک کلاک میں الارم کے لئے آواز پلے بیک کی خدمت کو سیٹ کیا گيا ہے</string>
+    <string name="loading_ringtone">\u2026 رنگ ٹون لوڈ کر رہا ہے</string>
+    <string name="timer_ring_service_desc">کلاک میں ٹائمرز سیٹ کیلئے آواز کے پلے بیک کی سروس۔</string>
+    <string name="control_set_alarm">الارم سیٹ کریں</string>
+    <string name="menu_alarm">"الارم"</string>
+    <string name="menu_timer">ٹائمر</string>
+    <string name="menu_clock">"کلاک"</string>
+    <string name="menu_stopwatch">اسٹاپ واچ</string>
+    <string name="button_alarms">الارم شامل کریں</string>
+    <string name="button_cities">شہر</string>
+    <string name="button_menu">"مزید اختیارات"</string>
+    <string name="menu_item_settings">"ترتیبات"</string>
+    <string name="menu_item_help">مدد</string>
+    <string name="menu_item_night_mode">رات کا طرز</string>
+    <string name="menu_item_sort_by_gmt_offset">وقت کے لحاظ سے ترتیب دیں</string>
+    <string name="menu_item_sort_by_name">بمطابق نام چھانٹیں</string>
+    <string name="selected_cities_label">منتخب کردہ شہر</string>
+    <string name="sw_resume_button">دوبارہ شروع کریں</string>
+    <string name="sw_start_button">"شروع کریں"</string>
+    <string name="sw_stop_button">"روکیں"</string>
+    <string name="sw_lap_button">لیپ</string>
+    <string name="sw_reset_button">دوبارہ سیٹ</string>
+    <string name="sw_share_button">تقسیم کریں</string>
+    <string name="hours_label">h</string>
+    <string name="minutes_label">M</string>
+    <string name="seconds_label">S</string>
+    <string name="hours_label_description">"گھنٹے"</string>
+    <string name="minutes_label_description">"منٹ"</string>
+    <string name="seconds_label_description">"سیکنڈز"</string>
+    <string name="zero">0</string>
+    <string name="sw_share_main">میرا وقت ہے <xliff:g id="time">%s</xliff:g></string>
+    <string name="sw_share_laps">لیپ کے اوقات:</string>
+    <string name="sw_notification_lap_number">لیپ <xliff:g id="number">%d</xliff:g></string>
+    <plurals name="Nhours_description">
+        <item quantity="one">"1 گھنٹہ"</item>
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> گھنٹے</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <item quantity="one">"1 منٹ"</item>
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> منٹ</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <item quantity="one"> 1 سیکنڈ</item>
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> سیکنڈز</item>
+    </plurals>
+    <string name="timer_add_timer">ٹائمر شامل کریں</string>
+    <string name="timer_start">"شروع کریں"</string>
+    <string name="timer_delete">"حذف کریں"</string>
+    <string name="timer_plus_one">1 منٹ شامل کریں</string>
+    <string name="timer_plus_1_min">1 منٹ شامل کریں</string>
+    <string name="timer_stop">"روکیں"</string>
+    <string name="timer_done">"ہوگیا"</string>
+    <string name="timer_reset">دوبارہ سیٹ</string>
+    <string name="timer_cancel">"منسوخ کریں"</string>
+    <string name="timer_times_up">وقت ختم ہوگیا</string>
+    <string name="timer_notification_label">ٹائمر</string>
+    <string name="timers_max_count_reached">زیادہ سے زیادہ 4 بار</string>
+    <string-array name="sw_share_strings" translatable="true">
+        <item>آپ کافی جلد باز ہیں۔</item>
+        <item>اپنی محنت کے پھل کا مزہ لیں۔</item>
+        <item>Android تیز ہونے کیلئے جانے جاتے ہیں، لیکن آپ کی طرح تیز نہیں ہیں!</item>
+        <item>پہیو۔</item>
+        <item>L33t بار۔</item>
+        <item>اس قدر مؤثر کشش ثقل۔</item>
+        <item>ہمیں دوبارہ وقت لینے دیں۔</item>
+        <item>بس ایک چھلانگ اور باقی ہے۔</item>
+        <item>آپ کے پاس جلد بازی کیلئے ایک تھاپی ہے۔</item>
+        <item>ضیائی کشش ثقل۔</item>
+    </string-array>
+    <plurals name="timers_num">
+        <item quantity="one">"1 منٹ"</item>
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> ٹائمرز</item>
+    </plurals>
+    <string name="home_label">"ہوم"</string>
+    <string name="cities_activity_title">شہر</string>
+    <string name="clock_settings">"کلاک"</string>
+    <string name="clock_style">طرز</string>
+    <string-array name="clock_style_entries">
+      <item>انالاگ</item>
+      <item>ڈیجیٹل</item>
+    </string-array>
+    <string name="automatic_home_clock">خودکار ہوم کلاک</string>
+    <string name="automatic_home_clock_summary">کسی ایسے علاقے میں سفر کرتے وقت جہاں وقت مختلف ہو، گھر کیلئے ایک گھڑی شامل کریں</string>
+    <string name="home_time_zone">مقامی منطقہ وقت</string>
+    <string name="home_time_zone_title">مقامی منطقہ وقت</string>
+    <string name="time_picker_cancel">"منسوخ کریں"</string>
+    <string name="time_picker_set">"ٹھیک ہے"</string>
+    <string name="time_picker_time_seperator"/>
+    <string name="time_picker_ampm_label"/>
+    <string name="time_picker_00_label"/>
+    <string name="time_picker_30_label"/>
+    <string-array name="timezone_labels">
+        <item>"جزائر مارشل"</item>
+        <item>"مڈوے آئلینڈ"</item>
+        <item>"ہوائی"</item>
+        <item>اینکوریج (الاسکا)</item>
+        <item>"پیسیفک ٹائم"</item>
+        <item>"تیجوانا"</item>
+        <item>"اریزونا"</item>
+        <item>"چیہوآہو"</item>
+        <item>"ماؤنٹین ٹائم"</item>
+        <item>"وسطی امریکہ"</item>
+        <item>"سنٹرل ٹائم"</item>
+        <item>"میکسیکو سٹی"</item>
+        <item>"سسکیچوان"</item>
+        <item>"بگوٹا"</item>
+        <item>"ایسٹرن ٹائم"</item>
+        <item>"وینزویلا"</item>
+        <item>"اٹلانٹک ٹائم (بارباڈوس)"</item>
+        <item>"اٹلانٹک ٹائم (کینیڈا)"</item>
+        <item>"مناؤس"</item>
+        <item>"سینٹیاگو"</item>
+        <item>"نیو فاؤنڈلینڈ"</item>
+        <item>"براسیلیا"</item>
+        <item>"بیونس آئرس"</item>
+        <item>"گرین لینڈ"</item>
+        <item>"مونٹیویڈیو"</item>
+        <item>"وسط اٹلانٹک"</item>
+        <item>"ازوریس"</item>
+        <item>"کیپ ورڈی آئلینڈز"</item>
+        <item>"کاسا بلنکا"</item>
+        <item>"لندن، ڈبلن"</item>
+        <item>"ایمسٹرڈم، برلن"</item>
+        <item>"بلغراد"</item>
+        <item>"بروسیلز"</item>
+        <item>"سیراجیوو"</item>
+        <item>"ونڈہوک"</item>
+        <item>"ویسٹ افریقہ ٹائم"</item>
+        <item>"عمان، اردن"</item>
+        <item>"ایتھنز، استنبول"</item>
+        <item>"بیروت، لبنان"</item>
+        <item>"قاہرہ"</item>
+        <item>"ہیلنسکی"</item>
+        <item>"یروشلم"</item>
+        <item>"مینک"</item>
+        <item>"ہرارے"</item>
+        <item>"بغداد"</item>
+        <item>"ماسکو"</item>
+        <item>"کویت سٹی"</item>
+        <item>"نیروبی"</item>
+        <item>"تہران"</item>
+        <item>"باکو"</item>
+        <item>"طبلیسی"</item>
+        <item>"یریون"</item>
+        <item>"دبئی"</item>
+        <item>"کابل"</item>
+        <item>"اسلام آباد، کراچی"</item>
+        <item>"ارالسک"</item>
+        <item>"یکاٹرین برگ"</item>
+        <item>"کولکاتہ"</item>
+        <item>"سری لنکا"</item>
+        <item>"کاٹھمنڈو"</item>
+        <item>"استانہ"</item>
+        <item>"یانگون"</item>
+        <item>"کراسنویارسک"</item>
+        <item>"بنکاک"</item>
+        <item>"بیجنگ"</item>
+        <item>"ہانگ کانگ"</item>
+        <item>"ایرکوسک"</item>
+        <item>"کوالا لمپور"</item>
+        <item>"پرتھ"</item>
+        <item>"تائیپی"</item>
+        <item>"سیؤل"</item>
+        <item>"ٹوکیو، اوساکا"</item>
+        <item>"یاکوسک"</item>
+        <item>"ایڈیلیڈ"</item>
+        <item>"ڈاروین"</item>
+        <item>"برسبین"</item>
+        <item>"ہوبارٹ"</item>
+        <item>"سڈنی، کینبرا"</item>
+        <item>"ولادی ووستوک"</item>
+        <item>"گوام"</item>
+        <item>"مگادان"</item>
+        <item>"آکلینڈ"</item>
+        <item>"فیجی"</item>
+        <item>"ٹونگا"</item>
+        <item>"جکارتہ"</item>
+    </string-array>
+     <string name="alarm_settings">"الارمز"</string>
+     <string name="stopwatch_service_desc">اطلاع چلانے کیلئے اسٹاپ واچ سروس۔</string>
+     <string name="swn_stopped">رک گیا</string>
+    <string name="description_direction_right">منسوخ کرنے کے لیے دائیں سوائپ کریں</string>
+    <string name="description_direction_left">اسنوز کرنے کے لیے بائیں سوائپ کریں</string>
+    <string name="timer_stopped">ٹائمر رک گیا</string>
+    <string name="timers_stopped"><xliff:g id="number" example="7">%d</xliff:g> ٹائمرز رک گئے</string>
+    <string name="all_timers_stopped_notif">اپنا ٹائمر دیکھنے کیلئے چھوئیں</string>
+    <string name="timers_in_use"><xliff:g id="number" example="7">%d</xliff:g> ٹائمرز</string>
+    <string name="next_timer_notif">اگلا ٹائمر: <xliff:g id="time_remaining" example="2minutesremaining">%s</xliff:g></string>
+    <string name="screensaver_settings">ڈریم کی ترتیبات</string>
+    <string name="night_mode_title">رات کا طرز</string>
+    <string name="night_mode_summary">کافی مدھم ڈسپلے (اندھیرے کمروں کیلئے)</string>
+    <string name="expand_alarm">الارم بڑھائیں</string>
+    <string name="collapse_alarm">الارم ختم کریں</string>
+    <string name="alarm_undo">رد کریں</string>
+    <string name="alarm_deleted">الارم حذف ہوگیا۔</string>
+    <string name="slash"> / </string>
+    <string name="world_day_of_week_label">/ <xliff:g id="label">%s</xliff:g></string>
+    <string name="next_alarm_description">اگلا الارم: <xliff:g id="alarm_time" example="Wed8:00am">%s</xliff:g></string>
+    <string name="label_unlabeled"/>
+    <string name="alarms_selected"><xliff:g id="alarms">%d</xliff:g> منتخب کیا گیا</string>
+    <string name="deleted_message">حذف کردہ</string>
+    <plurals name="alarm_delete_confirmation">
+        <item quantity="one">منتخب کیا ہوا الارم حذف کریں؟</item>
+        <item quantity="other">منتخب کیے ہوئے الارمز حذف کریں؟</item>
+    </plurals>
+    <string name="timer_delete_confirmation">یہ ٹائمر حذف کریں؟</string>
+    <string name="city_delete_confirmation">یہ شہر ہٹائیں؟</string>
+    <string name="digital_gadget">ڈیجیٹل گھڑی</string>
+    <string name="no_alarms">کوئی الارمز نہیں ہیں</string>
+    <string name="no_alarms_set">کوئی الارمز سیٹ نہیں ہوئے</string>
+    <string name="no_upcoming_alarms">کوئی آئندہ الارمز نہیں ہیں</string>
+</resources>

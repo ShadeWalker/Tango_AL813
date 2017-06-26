@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Контактілерді сақтау</string>
+    <string name="provider_label">Контактілер</string>
+    <string name="upgrade_msg">Контактілер дерекқорын жаңарту.</string>
+    <string name="upgrade_out_of_memory_notification_ticker">Контактілерді жаңарту үшін көбірек жад қажет.</string>
+    <string name="upgrade_out_of_memory_notification_title">Контактілерді сақтау үшін жаңарту</string>
+    <string name="upgrade_out_of_memory_notification_text">Жаңартуды аяқтау үшін түртіңіз.</string>
+    <string name="default_directory">Контактілер</string>
+    <string name="local_invisible_directory">Басқа</string>
+    <string name="read_write_all_voicemail_label">Барлық дауыстық хабарламаларға қол жеткізу</string>
+    <string name="read_write_all_voicemail_description">Қолданбаға осы құрылғыда қолжетімді барлық дауыстық хабарламаларды сақтау және қалпына келтіруге мүмкіндік береді.</string>
+    <string name="voicemail_from_column"><xliff:g id="voicemail_sim_display_name">%s</xliff:g> дауыстық пошта қабылданды. Оны қазір қабылдау қажет пе?</string>
+    <string name="debug_dump_title">Контактілер дерекқорын көшіру</string>
+    <string name="debug_dump_database_message">Сіз 1) ақпаратқа қатысты барлық контактілерден тұратын дерекқорды және барлық қоңырауды ішкі жадқа көшірмексіз және 2) оларды электрондық поштамен жібермексіз. Құрылғыдан көшіріп біткен соң немесе электрондық хабарлама қабылданған соң міндетті түрде көшірмесін өшіріңіз.</string>
+    <string name="debug_dump_delete_button">Қазір жою</string>
+    <string name="debug_dump_email_sender_picker">Файлды жіберу үшін қолданба таңдаңыз</string>
+    <string name="debug_dump_email_subject">Контактілер дерекқоры бекітілді</string>
+    <string name="debug_dump_email_body">Бекітілген файл - барлық контактілер туралы ақпараттан тұратын контактілер дерекқоры. Абайлап пайдаланыңыз.</string>
+    
+    <string name="sharedUserLabel">Android негізгі қолданбалары</string>
+    <string name="debug_dump_start_button">Бастау</string>
+</resources>

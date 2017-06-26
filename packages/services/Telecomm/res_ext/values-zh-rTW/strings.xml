@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="str_db_playlist_name">我的錄製</string>
+    <string name="alert_device_error">音訊裝置發生錯誤</string>
+    <string name="ext_media_badremoval_notification_title">"SD 卡未正常移除"</string>
+    <string name="error_sdcard_access">"無法存取 SD 卡"</string>
+    <string name="confirm_device_info_full">SD 卡空間不足，錄製內容已儲存。</string>
+    <string name="confirm_save_info_saved">錄音已儲存</string>
+    <string name="confirm_save_info_saved_to">錄音已儲存到</string>
+    <string name="select_account_dialog_title">"選取帳戶"</string>
+    <string name="reminder">提醒</string>
+    <string name="enable_ims_dialog_message">IMS 通話已停用，是否啟用？</string>
+    <string name="ip_dial_error_for_sip_call">"IP 撥號功能不適用 Internt 通話。"</string>
+    <string name="call_duration_title">"通話結束"</string>
+    <string name="call_duration_format">"<xliff:g id="HOURS">%1$s</xliff:g> 小時 <xliff:g id="MINUTES">%2$s</xliff:g> 分 <xliff:g id="SECONDS">%3$s</xliff:g> 秒"</string>
+    <string name="volte_ss_not_avaliable_tips">執行作業前，請先開啟數據連接。</string>
+    <string name="outgoing_call_failed">"撥號未送出。"</string>
+    <string name="volte_ss_not_available_tips">請先開啟數據連接 <xliff:g id="sub_name">%s</xliff:g> 才能完成作業。</string>
+    <string name="call_waiting_indication">對方通話中，請稍候…</string>
+    <!-- HQ_fengsimin add for HQ00055994 start -->
+    <string name="call_waiting_indication_east">您欲通話的號碼忙線中，請稍候。</string>
+    <!-- HQ_fengsimin add for HQ00055994 end -->
+</resources>

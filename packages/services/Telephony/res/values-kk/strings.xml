@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="phoneAppLabel" product="tablet">Мобильді дерек</string>
+    <string name="phoneAppLabel" product="default">Қоңырау шалу</string>
+    <string name="emergencyDialerIconLabel">Төтенше жағдайда нөмір теру</string>
+    <string name="phoneIconLabel">Қоңырау шалу</string>
+    <string name="fdnListLabel">FDN тізімі</string>
+    <string name="unknown">Белгісіз</string>
+    <string name="private_num">Жасырын нөмір</string>
+    <string name="payphone">Автомат-телефон</string>
+    <string name="onHold">Күту күйі</string>
+    <skip/>
+    <string name="mmiStarted">MMI коды іске қосылды</string>
+    <string name="ussdRunning">USSD кодының сауалы орындалуда\u2026</string>
+    <string name="mmiCancelled">MMI коды болдырылмады</string>
+    <string name="cancel">Болдырмау</string>
+    <string name="enter_input">USSD хабарламасы <xliff:g id="min_len">%d</xliff:g> және <xliff:g id="max_len">%d</xliff:g> арасында болу керек. Кейінірек қайталап көріңіз.</string>
+    <string name="manageConferenceLabel">Конференция қоңырауын басқару</string>
+    <string name="ok">OK</string>
+    <string name="audio_mode_speaker">Динамик</string>
+    <string name="audio_mode_earpiece">Гарнитура құлаққабы</string>
+    <string name="audio_mode_wired_headset">Сымды құлаққап</string>
+    <string name="audio_mode_bluetooth">Bluetooth</string>
+    <string name="wait_prompt_str">Келесі дыбыстарды жіберу керек пе?\n</string>
+    <string name="pause_prompt_str">Әуендерді жіберу\n</string>
+    <string name="send_button">Жіберу</string>
+    <string name="pause_prompt_yes">Иә</string>
+    <string name="pause_prompt_no">Жоқ</string>
+    <string name="wild_prompt_str">Әмбебап таңбаны келесімен ауыстыру:</string>
+    <string name="no_vm_number">Дауыс поштасының нөмірі жоғалды</string>
+    <string name="no_vm_number_msg">SIM картаға дауыстық пошта нөмірі сақталмайды.</string>
+    <string name="add_vm_number_str">Нөмірді қосу</string>
+    <string name="puk_unlocked">SIM-карта құлыптан босатылды. Телефонды құлыптан босату орындалуда\u2026</string>
+    <string name="label_ndp">SIM картасын желілік құлыптан босату PIN коды</string>
+    <string name="sim_ndp_unlock_text">Құлыптан босату</string>
+    <string name="sim_ndp_dismiss_text">Бас тарту</string>
+    <string name="requesting_unlock">Желіні құлыптан босатуға сауал жіберу\u2026</string>
+    <string name="unlock_failed">Желілік құлыптан босату сұрауы орындалмады.</string>
+    <string name="unlock_success">Желілік құлыптан босату сұрауы орындалды.</string>
+    <string name="mobile_network_settings_not_available">Бұл пайдаланушы үшін мобильді желі параметрлері жоқ</string>
+    <string name="labelGSMMore">GSM қоңырауының параметрлері</string>
+    <string name="labelCDMAMore">CDMA қоңырауының параметрлері</string>
+    <string name="apn_settings">Қатынасу нүктелері (APN)</string>
+    <string name="settings_label">Желілік параметрлер</string>
+    <string name="phone_accounts">Телефон тіркелгісінің параметрлері</string>
+    <string name="phone_accounts_make_calls_with">Қоңырау шалу тіркелгісі</string>
+    <string name="phone_accounts_ask_every_time">Бірінші сұраңыз</string>
+    <string name="phone_account_wifi_calling">Wi-Fi қоңырауы</string>
+    <string name="wifi_calling_do_not_use">Wi-Fi қоңырауын қолданбау</string>
+    <string name="wifi_calling_call_assistant">Қоңырау көмекшісі</string>
+    <string name="wifi_calling_use_call_assistant">Қоңырау көмекшісін пайдалану</string>
+    <string name="wifi_calling_use_call_assistant_summary">Қоңырауларға арналған желілерді қолданбалардың немесе қызметтердің басқаруына мүмкіндік беру</string>
+    <string name="connection_service_default_label">Built-in байланыс қызметі</string>
+    <string name="voicemail">Дауыстық пошта</string>
+    <string name="voicemail_abbreviated">ДП:</string>
+    <string name="networks">Желілік операторлар</string>
+    <string name="cell_broadcast_settings">Төтенше хабар таратылымдары</string>
+    <string name="call_settings">Қоңырау параметрлері</string>
+    <string name="additional_gsm_call_settings">Қосымша параметрлер</string>
+    <string name="sum_gsm_call_settings">Тек GSM қоңырау шалудың қосымша параметрлері</string>
+    <string name="additional_cdma_call_settings">CDMA қоңырау шалудың қосымша параметрлері</string>
+    <string name="sum_cdma_call_settings">Тек CDMA қоңырау шалудың қосымша параметрлері</string>
+    <string name="labelNwService">Желілік қызмет параметрлері</string>
+    <string name="labelCallerId">Қоңырау шалушы идентификаторы </string>
+    <string name="sum_loading_settings">Параметрлерді жүктеу\u2026</string>
+    <string name="sum_hide_caller_id">Шығыс қоңырауларында нөмір жасырылады</string>
+    <string name="sum_show_caller_id">Шығыс қоңырауларында нөмір көрсетіледі</string>
+    <string name="sum_default_caller_id">Шығыс қоңырауларында менің нөмірімді көрсету үшін оператордың әдепкі параметрлерін пайдалану</string>
+    <string name="labelCW">Қоңырауды күту</string>
+    <string name="sum_cw_enabled">Қоңырау кезінде кіріс қоңыраулар туралы хабарландыру</string>
+    <string name="sum_cw_disabled">Қоңырау кезінде кіріс қоңыраулар туралы хабарландыру</string>
+    <string name="call_forwarding_settings">Қоңырау бағытын өзгерту параметрлері</string>
+    <string name="labelCF">Қоңырау бағытын өзгерту</string>
+    <string name="labelCFU">Әрқашан бағытын өзгерту</string>
+    <string name="messageCFU">Бұл нөмірді әрқашан пайдалану</string>
+    <string name="sum_cfu_enabled_indicator">Барлық қоңыраулардың бағытын өзгерту</string>
+    <string name="sum_cfu_enabled"><xliff:g id="phonenumber" example="555-1212">{0}</xliff:g> нөміріне барлық қоңыраулар бағытын өзгерту</string>
+    <string name="sum_cfu_enabled_no_number">Нөмір қолжетімсіз</string>
+    <string name="sum_cfu_disabled">Өшіру</string>
+    <string name="labelCFB">Бос емес кезде</string>
+    <string name="messageCFB">Бос болмаған кезде пайдаланылатын нөмір</string>
+    <string name="sum_cfb_enabled"><xliff:g id="phonenumber" example="555-1212">{0}</xliff:g> нөміріне бағытын өзгерту</string>
+    <string name="sum_cfb_disabled">Өшіру</string>
+    <string name="disable_cfb_forbidden">Телефоныңыз бос емес кезде, операторыңыз қоңырау бағытын өзгерту функциясын өшіре алмайды.</string>
+    <string name="labelCFNRy">Жауап бермеген кезде</string>
+    <string name="messageCFNRy">Жауап болмаған кезде пайдаланылатын нөмір</string>
+    <string name="sum_cfnry_enabled"><xliff:g id="phonenumber" example="555-1212">{0}</xliff:g> нөміріне бағытын өзгерту</string>
+    <string name="sum_cfnry_disabled">Өшіру</string>
+    <string name="disable_cfnry_forbidden">Телефоныңыз жауап бермеген кезде, операторыңыз қоңырау бағытын өзгерту функциясын өшіре алмайды.</string>
+    <string name="labelCFNRc">Байланыстан тыс кезде</string>
+    <string name="messageCFNRc">Қолжетімсіз болған кезде пайдаланылатын нөмір</string>
+    <string name="sum_cfnrc_enabled"><xliff:g id="phonenumber" example="555-1212">{0}</xliff:g> нөміріне бағытын өзгерту</string>
+    <string name="sum_cfnrc_disabled">Өшірулі</string>
+    <string name="disable_cfnrc_forbidden">Телефоныңыз байланыстан тыс кезде, операторыңыз қоңырау бағытын өзгерту функциясын өшіре алмайды.</string>
+    <string name="updating_title">Қоңырау параметрлері</string>
+    <string name="error_updating_title">Қоңырау параметрлерінің қатесі</string>
+    <string name="reading_settings">Параметрлерді оқу\u2026</string>
+    <string name="updating_settings">Параметрлерді жаңарту\u2026</string>
+    <string name="reverting_settings">Алдыңғы параметрлерге оралу\u2026</string>
+    <string name="response_error">Желіден күтілмеген жауап.</string>
+    <string name="exception_error">Желі немесе SIM картасының қатесі.</string>
+    <string name="fdn_check_failure">Телефоныңызда "Бекітілген теру нөмірлері" параметрі қосылған. Нәтижесінде, қоңырауға байланысты кейбір мүмкіндіктер істемейді.</string>
+    <string name="radio_off_error">Бұл параметрлерді көруден бұрын сигнал қабылдағышты қосыңыз.</string>
+    <string name="close_dialog">OK</string>
+    <string name="enable">Қосу</string>
+    <string name="disable">Өшіру</string>
+    <string name="change_num">Жаңарту</string>
+    <string-array name="clir_display_values">
+        <item>Әдепкі желілік параметрлер</item>
+        <item>Нөмірді жасыру</item>
+        <item>Нөмірді көрсету</item>
+    </string-array>
+    <skip/>
+    <string name="vm_changed">Дауыс поштасының нөмірі өзгерген.</string>
+    <string name="vm_change_failed">Дауыстық хабарлама нөмірін өзгерту мүмкін болмады.\nЕгер бұл мәселе әлі де өз шешімін таппаса, операторыңызға хабарласыңыз. </string>
+    <string name="fw_change_failed">Қоңырау бағыты өзгертілетін нөмірді өзгерту мүмкін болмады. \nЕгер бұл мәселе әлі де өз шешімін таппаса, операторыңызға хабарласыңыз. </string>
+    <string name="fw_get_in_vm_failed">Қоңырау бағыты өзгертілетін нөмір параметрлерін алу немесе сақтау мүмкін болмады.\nСонда да басқа провайдерге ауысу қажет пе?</string>
+    <string name="no_change">Ешқандай өзгеріс жасалмады.</string>
+    <string name="sum_voicemail_choose_provider">Дауыс поштасы қызметін таңдаңыз</string>
+    <string name="voicemail_default">Сіздің операторыңыз</string>
+    <skip/>
+    <string name="mobile_networks">Мобильдік желі параметрлері</string>
+    <string name="label_available">Қолжетімді желілер</string>
+    <string name="load_networks_progress">Іздеуде\u2026</string>
+    <string name="empty_networks_list">Желілер табылмады.</string>
+    <string name="search_networks">Желілерді іздеу</string>
+    <string name="network_query_error">Желілерді іздеу кезіндегі қате.</string>
+    <string name="register_on_network"><xliff:g id="network">%s</xliff:g> желісіне тіркелуде\u2026</string>
+    <string name="not_allowed">SIM картаңыз бұл желіге қосылуға рұқсат етпейді.</string>
+    <string name="connect_later">Қазір бұл желіге қосылу мүмкін емес. Кейінірек қайталаңыз.</string>
+    <string name="registration_done">Желіге тіркелді.</string>
+    <string name="sum_carrier_select">Желі операторын таңдау</string>
+    <string name="sum_search_networks">Барлық қолжетімді желілерді іздеу</string>
+    <string name="select_automatically">Автоматты түрде таңдау</string>
+    <string name="sum_select_automatically">Қолайлы желіні автоматты түрде таңдау</string>
+    <string name="register_automatically">Автоматты тіркеу\u2026</string>
+    <string name="preferred_network_mode_title">Ұсынылатын желі түрі</string>
+    <string name="preferred_network_mode_summary">Желі жұмысының режимін өзгерту</string>
+    <string name="preferred_network_mode_dialogtitle">Ұсынылатын желі түрі</string>
+    <string name="preferred_network_mode_wcdma_perf_summary">Қолайлы желі режимі: WCDMA</string>
+    <string name="preferred_network_mode_gsm_only_summary">Қолайлы желі режимі: тек GSM</string>
+    <string name="preferred_network_mode_wcdma_only_summary">Қолайлы желі режимі: тек WCDMA</string>
+    <string name="preferred_network_mode_gsm_wcdma_summary">Қолайлы желі режимі: GSM / WCDMA</string>
+    <string name="preferred_network_mode_cdma_summary">Қолайлы желі режимі: CDMA</string>
+    <string name="preferred_network_mode_cdma_evdo_summary">Қолайлы желі режимі: CDMA / EvDo</string>
+    <string name="preferred_network_mode_cdma_only_summary">Қолайлы желі режимі: тек CDMA </string>
+    <string name="preferred_network_mode_evdo_only_summary">Қолайлы желі режимі: тек EvDo </string>
+    <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_summary">Ұсынылатын желі режимі: CDMA/EvDo/GSM/WCDMA</string>
+    <string name="preferred_network_mode_lte_summary">Ұсынылатын желі режимі: LTE</string>
+    <string name="preferred_network_mode_lte_gsm_wcdma_summary">Ұсынылатын желі режимі: GSM/WCDMA/LTE</string>
+    <string name="preferred_network_mode_lte_cdma_evdo_summary">Ұсынылатын желі режимі: CDMA+LTE/EVDO</string>
+    <string name="preferred_network_mode_global_summary">Ұсынылатын желі режимі: глобалдық </string>
+    <string name="preferred_network_mode_lte_wcdma_summary">Ұсынылатын желі режимі: LTE / WCDMA</string>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE / WCDMA</item>
+        <item>LTE</item>
+        <item>Жалпы</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>Тек EvDo</item>
+        <item>EvDo жоқ CDMA </item>
+        <item>CDMA/EvDo авто</item>
+        <item>GSM/WCDMA авто</item>
+        <item>Тек WCDMA</item>
+        <item>Тек GSM </item>
+        <item>Қалаулы GSM/WCDMA </item>
+    </string-array>
+    <string name="enhanced_4g_lte_mode_title">Кеңейтілген 4G LTE режимі</string>
+    <string name="enhanced_4g_lte_mode_summary">Дыбысын жақсарту және басқа байланыстар үшін LTE қызметтерін қолдану (ұсынылған)</string>
+    <string name="data_enabled">Деректер іске қосылды</string>
+    <string name="data_enable_summary">Дерек қолданысына мүмкіндік беру</string>
+    <string name="roaming">Деректер роумингісі</string>
+    <string name="roaming_enable">Роумингтегі деректер қызметтерін қосу</string>
+    <string name="roaming_disable">Роумингтегі деректер қызметтерін қосу</string>
+    <string name="roaming_reenable_message">Сіз басты желіңіздегі дерек роумингісі өшірулі күйде қалдырғандықтан, дерек байланысын жоғалттыңыз.</string>
+    <string name="roaming_warning">Дерек роумингісін рұқсат ету керек пе? Роуминг түпкілікті түрде өзгеріп кетуі мүмкін!</string>
+    <string name="gsm_umts_options">GSM/UMTS опциялары</string>
+    <string name="cdma_options">CDMA опциялары</string>
+    <string name="throttle_data_usage">Деректер қолданысы</string>
+    <string name="throttle_current_usage">Ағымдағы кезеңде қолданылатын деректер</string>
+    <string name="throttle_time_frame">Деректерді қолдану кезеңі</string>
+    <string name="throttle_rate">Деректерді қолдану жылдамдығының ережесі</string>
+    <string name="throttle_help">Қосымша ақпараттар</string>
+    <string name="throttle_status_subtext"><xliff:g id="used">%3$s</xliff:g> максималды кезеңде <xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A)\nКелесі кезең <xliff:g id="used">%4$d</xliff:g> күнде (<xliff:g id="used">%5$s</xliff:g>) басталады</string>
+    <string name="throttle_data_usage_subtext"><xliff:g id="used">%3$s</xliff:g> максималды кезеңде <xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A)</string>
+    <string name="throttle_data_rate_reduced_subtext"><xliff:g id="used">%1$s</xliff:g> максималды артқан\nДеректер көлемі <xliff:g id="used">%2$d</xliff:g> Кб/сек-қа дейін азайтылды</string>
+    <string name="throttle_time_frame_subtext"><xliff:g id="used">%1$d</xliff:g>\u066A айналым өтті\nКелесі кезең <xliff:g id="used">%2$d</xliff:g> күнде (<xliff:g id="used">%3$s</xliff:g>) басталады</string>
+    <string name="throttle_rate_subtext">Деректі пайдалану шегінен асса, дерек жылдамдығы <xliff:g id="used">%1$d</xliff:g> Кб/с-қа дейін төмендейді</string>
+    <string name="throttle_help_subtext">Өз операторыңыздың мобильдік желісінің дерегін қолдану ережесі туралы ақпарат алу</string>
+    <string name="cell_broadcast_sms">Кең таратылатын SMS қызметтері</string>
+    <string name="enable_disable_cell_bc_sms">Кең таратылатын SMS қызметтері</string>
+    <string name="cell_bc_sms_enable">Кең таратылатын SMS қызметтері іске қосылды</string>
+    <string name="cell_bc_sms_disable">Кең таратылатын SMS қызметтері өшірілді </string>
+    <string name="cb_sms_settings">Кең таратылатын SMS қызметтерінің параметрлері</string>
+    <string name="enable_disable_emergency_broadcast">Төтенше жағдай туралы хабарлау</string>
+    <string name="emergency_broadcast_enable">Төтенше жағдай туралы хабарлау іске қосылды</string>
+    <string name="emergency_broadcast_disable">Төтенше жағдай туралы хабарлау өшірілді</string>
+    <string name="enable_disable_administrative">Әкімшілік</string>
+    <string name="administrative_enable">Әкімшілік функциясы іске қосылды</string>
+    <string name="administrative_disable">Әкімшілік функциясы өшірілді</string>
+    <string name="enable_disable_maintenance">Қолдау көрсету</string>
+    <string name="maintenance_enable">Қолдау көрсету іске қосылды</string>
+    <string name="maintenance_disable">Қолдау көрсету өшірілді</string>
+    <string name="general_news_settings">Негізгі жаңалықтар</string>
+    <string name="bf_news_settings">Бизнес және қаржы жаңалықтары</string>
+    <string name="sports_news_settings">Спорт жаңалықтары</string>
+    <string name="entertainment_news_settings">Ойын-сауық туралы жаңалықтар</string>
+    <string name="enable_disable_local">Жергілікті</string>
+    <string name="local_enable">Жергілікті жаңалықтар іске қосылды</string>
+    <string name="local_disable">Жергілікті жаңалықтар өшірілді</string>
+    <string name="enable_disable_regional">Аймақтық</string>
+    <string name="regional_enable">Аймақтық жаңалықтар іске қосылды</string>
+    <string name="regional_disable">Аймақтық жаңалықтар өшірілді</string>
+    <string name="enable_disable_national">Ұлттық</string>
+    <string name="national_enable">Ұлттық жаңалықтар іске қосылды</string>
+    <string name="national_disable">Ұлттық жаңалықтар өшірілді</string>
+    <string name="enable_disable_international">Халықаралық</string>
+    <string name="international_enable">Халықаралық жаңалықтар іске қосылды</string>
+    <string name="international_disable">Халықаралық жаңалықтар өшірілді</string>
+    <string name="list_language_title">Тіл</string>
+    <string name="list_language_summary">Жаңалықтар тілін таңдау</string>
+    <string-array name="list_language_entries">
+        <item>Ағылшын</item>
+        <item>Француз тілі</item>
+        <item>Испан тілі</item>
+        <item>Жапон</item>
+        <item>Корей</item>
+        <item>Қытай</item>
+        <item>Иврит</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+    </string-array>
+    <string name="list_language_dtitle">Тілдер</string>
+    <string name="enable_disable_local_weather">Жергілікті ауа райы</string>
+    <string name="local_weather_enable">Жергілікті ауа райы іске қосылды</string>
+    <string name="local_weather_disable">Жергілікті ауа райы өшірілді</string>
+    <string name="enable_disable_atr">Аймақ кептелісі туралы есептер</string>
+    <string name="atr_enable">Аймақ кептелісі туралы есептер іске қосылды</string>
+    <string name="atr_disable">Аймақ кептелісі туралы есептер өшірілді</string>
+    <string name="enable_disable_lafs">Жергілікті әуежайдың ұшу кестелері</string>
+    <string name="lafs_enable">Жергілікті әуежайдың ұшу кестелері іске қосылды</string>
+    <string name="lafs_disable">Жергілікті әуежайдың ұшу кестелері өшірілді</string>
+    <string name="enable_disable_restaurants">Мейрамханалар</string>
+    <string name="restaurants_enable">Мейрамханалар іске қосылды</string>
+    <string name="restaurants_disable">Мейрамханалар өшірілді</string>
+    <string name="enable_disable_lodgings">Тұрғын үйді жалға алу</string>
+    <string name="lodgings_enable">Тұрғын үйді жалға алу іске қосылды</string>
+    <string name="lodgings_disable">Тұрғын үйді жалға алу өшірілді</string>
+    <string name="enable_disable_retail_directory">Сауда каталогі</string>
+    <string name="retail_directory_enable">Сауда каталогі іске қосылды</string>
+    <string name="retail_directory_disable">Сауда каталогі өшірілді</string>
+    <string name="enable_disable_advertisements">Жарнамалар</string>
+    <string name="advertisements_enable">Жарнамалар іске қосылды</string>
+    <string name="advertisements_disable">Жарнамалар өшірілді</string>
+    <string name="enable_disable_stock_quotes">Бағалы қағаздарды белгілеу</string>
+    <string name="stock_quotes_enable">Бағалы қағаздарды белгілеу іске қосылды</string>
+    <string name="stock_quotes_disable">Бағалы қағаздарды белгілеу өшірілді</string>
+    <string name="enable_disable_eo">Бос қызмет орындары</string>
+    <string name="eo_enable">Бос қызмет орындары іске қосылды </string>
+    <string name="eo_disable">Бос қызмет орындары өшірілді</string>
+    <string name="enable_disable_mhh">Медицина, денсаулық және аурухана</string>
+    <string name="mhh_enable">Медицина, денсаулық және аурухана іске қосылды</string>
+    <string name="mhh_disable">Медицина, денсаулық және аурухана өшірілді</string>
+    <string name="enable_disable_technology_news">Технология жаңалықтары</string>
+    <string name="technology_news_enable">Технология жаңалықтары іске қосылды</string>
+    <string name="technology_news_disable">Технология жаңалықтары өшірілді</string>
+    <string name="enable_disable_multi_category">Мультикатегория</string>
+    <string name="multi_category_enable">Мультикатегория іске қосылды</string>
+    <string name="multi_category_disable">Мультикатегория өшірілді</string>
+    <string name="network_lte">LTE (ұсынылады)</string>
+    <string name="network_4G">4G (ұсынылады)</string>
+    <string name="network_global">Жалпы</string>
+    <string name="cdma_system_select_title">Жүйені таңдау</string>
+    <string name="cdma_system_select_summary">CDMA роуминг режимін өзгерту</string>
+    <string name="cdma_system_select_dialogtitle">Жүйені таңдау</string>
+    <string-array name="cdma_system_select_choices">
+        <item>Тек жергілікті жүйе</item>
+        <item>Автоматты</item>
+    </string-array>
+    <string name="cdma_subscription_title">CDMA жазылымы</string>
+    <string name="cdma_subscription_summary">RUIM/SIM және NV арасында ауыстыру</string>
+    <string name="cdma_subscription_dialogtitle">жазылым</string>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item/>
+        <item/>
+    </string-array>
+    <string name="cdma_activate_device">Құрылғыны белсендіру</string>
+    <string name="cdma_lte_data_service">Деректер қызметін орнату</string>
+    <string name="carrier_settings_title">Оператор параметрлері</string>
+    <string name="fdn">Белгіленген теру нөмірлері</string>
+    <string name="manage_fdn_list">FDN тізімі</string>
+    <string name="fdn_activation">FDN белсендіру</string>
+    <string name="fdn_enabled">Белгіленген теру нөмірлері іске қосылды</string>
+    <string name="fdn_disabled">Белгіленген теру нөмірлері өшірілді</string>
+    <string name="enable_fdn">FDN қосу</string>
+    <string name="disable_fdn">FDN өшіру</string>
+    <string name="change_pin2">PIN2 өзгерту</string>
+    <string name="enable_fdn_ok">FDN өшіру</string>
+    <string name="disable_fdn_ok">FDN қосу</string>
+    <string name="sum_fdn">Белгіленген теру нөмірлерін басқару</string>
+    <string name="sum_fdn_change_pin">FDN экранына қатынасу үшін PIN кодын өзгерту</string>
+    <string name="sum_fdn_manage_list">Телефон нөмірлері тізімін басқару</string>
+    <string name="voice_privacy">Қоңыраулар құпиялылығы</string>
+    <string name="voice_privacy_summary">Кеңейтілген құпиялылық режимін іске қосу</string>
+    <string name="tty_mode_option_title">TTY режимі</string>
+    <string name="tty_mode_option_summary">TTY режимін орнату</string>
+    <string name="auto_retry_mode_title">Қоңырауды автоматты қайталау</string>
+    <string name="auto_retry_mode_summary">Қоңырауды автоматты қайталау режимін қосу</string>
+    <string name="menu_add">Контакт қосу</string>
+    <string name="menu_edit">Контактіні өңдеу</string>
+    <string name="menu_delete">Контактіні жою</string>
+    <string name="get_pin2">PIN2 теріңіз</string>
+    <string name="name">Аты</string>
+    <string name="number">Нөмір</string>
+    <string name="save">Сақтау</string>
+    <string name="add_fdn_contact">Белгіленген теру нөмірін қосу</string>
+    <string name="adding_fdn_contact">Бекітілген теретін нөмірді қосу\u2026</string>
+    <string name="fdn_contact_added">Белгіленген теру нөмірі қосылды.</string>
+    <string name="edit_fdn_contact">Белгіленген теру нөмірін өңдеу</string>
+    <string name="updating_fdn_contact">Бекітілген теру нөмірін жаңарту\u2026</string>
+    <string name="fdn_contact_updated">Белгіленген теру нөмірі жаңартылды.</string>
+    <string name="delete_fdn_contact">Белгіленген теру нөмірін жою</string>
+    <string name="deleting_fdn_contact">Бекітілген теру нөмірін жою\u2026</string>
+    <string name="fdn_contact_deleted">Белгіленген теру нөмірі жойылды.</string>
+    <string name="pin2_invalid">PIN кодты дұрыс термегендіктен, FDN жаңартылмады.</string>
+    <string name="fdn_invalid_number">Нөмір 20 саннан аспауы қажет болғандықтан, FDN жаңартылмады.</string>
+    <string name="pin2_or_fdn_invalid">FDN жаңартылмады. PIN2 дұрыс терілмеді немесе телефон нөмірі қабылданбады.</string>
+    <string name="fdn_failed">FDN әрекеті қосылмады.</string>
+    <string name="simContacts_emptyLoading">SIM-картадан оқу\u2026</string>
+    <string name="simContacts_empty">SIM картада контактілер жоқ.</string>
+    <string name="simContacts_title">Импорттау үшін контактілерді таңдау</string>
+    <string name="simContacts_airplaneMode">Контактілерді SIM картадан импорттау үшін, алдымен ұшу режимін өшіріңіз.</string>
+    <string name="enable_pin">SIM картаның PIN кодын іске қосу/өшіру</string>
+    <string name="change_pin">SIM PIN өзгерту</string>
+    <string name="enter_pin_text">SIM картаның PIN коды:</string>
+    <string name="oldPinLabel">Ескі PIN</string>
+    <string name="newPinLabel">Жаңа PIN коды</string>
+    <string name="confirmPinLabel">Жаңа PIN кодын растау</string>
+    <string name="badPin">Сіз терген ескі PIN дұрыс емес. Әрекетті қайталаңыз.</string>
+    <string name="mismatchPin">Сіз терген PIN сәйкес келмейді. Қайта теріңіз.</string>
+    <string name="invalidPin">PIN код 4 -8 сан аралығында болуы қажет.</string>
+    <string name="disable_sim_pin">SIM картаның PIN кодын өшіру</string>
+    <string name="enable_sim_pin">SIM картаның PIN кодын іске қосу</string>
+    <string name="enable_in_progress">Күте тұрыңыз\u2026</string>
+    <string name="enable_pin_ok">SIM картаның PIN коды іске қосылды.</string>
+    <string name="disable_pin_ok">SIM картаның PIN коды өшірілді.</string>
+    <string name="pin_failed">Сіз терген PIN коды дұрыс емес.</string>
+    <string name="pin_changed">SIM картаның PIN коды сәтті түрде өзгертілді.</string>
+    <string name="puk_requested">Құпия сөз дұрыс емес. PIN-код құлыпталды! PUK-кодқа сауал жіберілді.</string>
+    <string name="enter_pin2_text">PIN2</string>
+    <string name="oldPin2Label">Ескі PIN2</string>
+    <string name="newPin2Label">Жаңа PIN2</string>
+    <string name="confirmPin2Label">Жаңа PIN2 кодын растау</string>
+    <string name="badPuk2">Сіз терген PUK2 коды дұрыс емес. Қайта теріңіз.</string>
+    <string name="badPin2">Сіз терген ескі PIN2 дұрыс емес. Қайта теріңіз.</string>
+    <string name="mismatchPin2">Сіз терген PIN2s сәйкес келмейді. Қайта теріңіз.</string>
+    <string name="invalidPin2">4-тен 8-ге дейінгі саннан тұратын PIN2 кодын теріңіз.</string>
+    <string name="invalidPuk2">8 санды PUK2 кодын теріңіз.</string>
+    <string name="pin2_changed">PIN2 коды сәтті түрде өзгертілді.</string>
+    <string name="label_puk2_code">PUK2 кодын теріңіз</string>
+    <string name="fdn_enable_puk2_requested">Құпия сөз дұрыс емес, PIN2-коды құлыпталды. PIN2-кодын өзгертіп, қайталап көріңіз!</string>
+    <string name="puk2_requested">Құпиясөз дұрыс емес, SIM құлыпталды. PUK2 кодын енгізіңіз.</string>
+    <string name="puk2_blocked">PUK2-коды біржола құлыпталды.</string>
+    <string name="pin2_attempts">\n<xliff:g id="number">%d</xliff:g> әрекет қалды.</string>
+    <string name="pin2_unblocked">PIN2-коды құлыпталды!</string>
+    <string name="doneButton">Дайын</string>
+    <string name="caller_manage_header">Конференция қоңырауы: <xliff:g id="conf_call_time">%s</xliff:g></string>
+    <string name="voicemail_settings_number_label">Дауыс поштасының нөмірі</string>
+    <string name="card_title_dialing">Нөмірді теру</string>
+    <string name="card_title_redialing">Қайталау әрекеті</string>
+    <string name="card_title_conf_call">Конференция қоңырауы</string>
+    <string name="card_title_incoming_call">Кіріс қоңырау</string>
+    <string name="card_title_call_ended">Қоңырау аяқталды</string>
+    <string name="card_title_on_hold">Күту күйі</string>
+    <string name="card_title_hanging_up">Қоңырауды аяқтау</string>
+    <string name="card_title_in_call">Кіріс қоңырау</string>
+    <string name="card_title_my_phone_number">Менің нөмірім: <xliff:g id="my_phone_number">%s</xliff:g></string>
+    <string name="notification_dialing">Нөмірді теру</string>
+    <string name="notification_missedCallTitle">Қабылданбаған қоңырау</string>
+    <string name="notification_missedCallsTitle">Қабылданбаған қоңыраулар</string>
+    <string name="notification_missedCallsMsg"><xliff:g id="num_missed_calls">%s</xliff:g> қабылданбаған қоңырау</string>
+    <string name="notification_missedCallTicker"><xliff:g id="missed_call_from">%s</xliff:g> абонентінен қабылданбаған қоңырау</string>
+    <string name="notification_ongoing_call">Ағымдағы қоңырау</string>
+    <string name="notification_on_hold">Күту күйі</string>
+    <string name="notification_incoming_call">Кіріс қоңырау</string>
+    <string name="notification_voicemail_title">Жаңа дауыс поштасы</string>
+    <string name="notification_voicemail_title_count">Жаңа дыбыстық хабарлама (<xliff:g id="count">%d</xliff:g>)</string>
+    <string name="notification_voicemail_text_format"><xliff:g id="voicemail_number">%s</xliff:g> нөмірін теру</string>
+    <string name="notification_voicemail_no_vm_number">Дауыс поштасының нөмірі белгісіз</string>
+    <string name="notification_network_selection_title">Қызмет қолжетімсіз</string>
+    <string name="notification_network_selection_text">Таңдалған (<xliff:g id="operator_name">%s</xliff:g>) желісі қолжетімсіз</string>
+    <string name="notification_action_end_call">Қоңырауды аяқтау</string>
+    <string name="notification_missedCall_call_back">Қайта қоңырау шалу</string>
+    <string name="notification_missedCall_message">Хабар</string>
+    <string name="incall_error_power_off">Қоңырау шалу үшін, ұшу режимін өшіріңіз.</string>
+    <string name="incall_error_emergency_only">Желіге тіркелмеді.</string>
+    <string name="incall_error_out_of_service">Мобильді желі жоқ.</string>
+    <string name="incall_error_no_phone_number_supplied">Қоңырау жіберілмеді, жарамды нөмір енгізілмеді.</string>
+    <string name="incall_error_call_failed">Қоңырау жіберілмеді.</string>
+    <string name="incall_status_dialed_mmi">MMI бірізділігін іске қосу\u2026</string>
+    <string name="incall_error_supp_service_unknown">Қызметке қолдау көрсетілмейді.</string>
+    <string name="incall_error_supp_service_switch">Қоңырауларды қосу мүмкін емес.</string>
+    <string name="incall_error_supp_service_separate">Қоңырауларды бөлу мүмкін емес.</string>
+    <string name="incall_error_supp_service_transfer">Қоңырауды ауыстыру мүмкін емес.</string>
+    <string name="incall_error_supp_service_conference">Конференциялық қоңырауларды шалу мүмкін емес.</string>
+    <string name="incall_error_supp_service_reject">Қоңыраудан бас тарту мүмкін емес.</string>
+    <string name="incall_error_supp_service_hangup">Қоңырау(лар)ды ажырату мүмкін емес.</string>
+    <string name="emergency_enable_radio_dialog_title">Төтенше жағдай қызметіне қоңырау шалу</string>
+    <string name="emergency_enable_radio_dialog_message">Радионы қосу\u2026</string>
+    <string name="emergency_enable_radio_dialog_retry">Қызмет көрсету аймағынан тыс жерде, қайталап көру\u2026</string>
+    <string name="dial_emergency_error">Жіберу мүмкін емес <xliff:g id="non_emergency_number">%s</xliff:g> төтенше қоңырау нөмірі емес!</string>
+    <string name="dial_emergency_empty_error">Қоңырау шалынбады. Төтенше нөмірді теріңіз!</string>
+    <string name="dialerKeyboardHintText">Нөмірді теру үшін пернетақтаны пайдаланыңыз</string>
+    <string name="onscreenHoldText">Ұстап тұру</string>
+    <string name="onscreenEndCallText">Аяқтау</string>
+    <string name="onscreenShowDialpadText">Пернетақта</string>
+    <string name="onscreenMuteText">ДЫБЫСТЫ ӨШІРУ</string>
+    <string name="onscreenAddCallText">Қоңырау қосу</string>
+    <string name="onscreenMergeCallsText">Қоңырауларды біріктіру</string>
+    <string name="onscreenSwapCallsText">Қоңырауды ауыстыру</string>
+    <string name="onscreenManageCallsText">Қоңырауларды басқару</string>
+    <string name="onscreenManageConferenceText">Конференцияны басқару</string>
+    <string name="onscreenAudioText">Аудио</string>
+    <string name="onscreenVideoCallText">Видео қоңырау</string>
+    <string name="importSimEntry">Импорттау</string>
+    <string name="importAllSimEntries">Барлығын импорттау</string>
+    <string name="importingSimContacts">SIM карта контактілерін импорттау</string>
+    <string name="importToFDNfromContacts">Контактілерден импорттау</string>
+    <string name="hac_mode_title">Есту аппараттары</string>
+    <string name="hac_mode_summary">Есту аппараттарының сыйысымдылығын іске қосу</string>
+    <string-array name="tty_mode_entries">
+        <item>TTY өшірулі</item>
+        <item>TTY толық</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string name="dtmf_tones_title">DTMF дыбыстары</string>
+    <string name="dtmf_tones_summary">DTMF дыбыстарының ұзақтығын орнату</string>
+    <string-array name="dtmf_tone_entries">
+      <item>Қалыпты</item>
+      <item>Ұзақ</item>
+    </string-array>
+    <string name="network_message">Желі хабары</string>
+    <string name="ota_title_activate">Телефонды белсендіру</string>
+    <string name="ota_touch_activate">Телефон жұмысын белсендіру үшін арнайы қоңырау шалу қажет.\n\nТелефонды белсендіру үшін \u201CActivate\u201D басқан соң берілген нұсқаулықтарды тыңдаңыз.</string>
+    <string name="ota_hfa_activation_title">Белсендіру...</string>
+    <string name="ota_hfa_activation_dialog_message">Телефон мобильді деректер қызметін белсендіруде.\n\nБұған 5 минуттай кетуі мүмкін.</string>
+    <string name="ota_skip_activation_dialog_title">Белсендіру әрекетін өткізіп жібересіз бе?</string>
+    <string name="ota_skip_activation_dialog_message">Белсендіруді өткізіп жіберсеңіз, қоңырау шала алмайсыз немесе мобильді дерек желілеріне қосыла алмайсыз (алайда, Wi-Fi желісіне қосылу мүмкіндігіңіз бар). Телефоныңызды белсендіргенге дейін, оны қосқан сайын белсендіруіңіз қажет болады.</string>
+    <string name="ota_skip_activation_dialog_skip_label">Өткізіп жіберу</string>
+    <string name="ota_activate">Белсендіру</string>
+    <string name="ota_title_activate_success">Телефон белсендірілді.</string>
+    <string name="ota_title_problem_with_activation">Белсендіру кезіндегі қате</string>
+    <string name="ota_listen">Белсендірудің аяқталғандығын естігенше, дауыс нұсқауларын орындаңыз.</string>
+    <string name="ota_speaker">Динамик</string>
+    <string name="ota_progress">Телефоныңыз бағдарламаланғанша күтіңіз.</string>
+    <string name="ota_failure">Бағдарламалау сәтсіз аяқталды</string>
+    <string name="ota_successful">Телефоныңыз қазір белсендірілді. Қызметті іске қосу үшін 15 минутқа дейін уақыт кетеді.</string>
+    <string name="ota_unsuccessful">Телефоныңыз белсендірілмеді. \nБайланыс аясы жақсырақ аймақты табуыңыз қажет (терезенің жанында немесе сыртта). \n\nӘрекетті қайталаңыз немесе басқа опцияларды қолдану үшін, тұтынушыларға қызме көрсету орталығына хабарласыңыз.</string>
+    <string name="ota_spc_failure">SPC АҚАУЛЫҚТАРЫ ШАМАДАН ТЫС</string>
+    <string name="ota_call_end">Артқа</string>
+    <string name="ota_try_again">Әрекетті қайталаңыз</string>
+    <string name="ota_next">Келесі</string>
+    <string name="ecm_exit_dialog">EcmExitDialog</string>
+    <string name="phone_entered_ecm_text">Енгізілген төтенше жағдайдағы кері қоңырау режимі </string>
+    <string name="phone_in_ecm_notification_title">Төтенше жағдайдағы кері қоңырау режимі</string>
+    <string name="phone_in_ecm_call_notification_text">Деректер байланысы өшірілді</string>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="one"><xliff:g id="count">%s</xliff:g> минут аралығында дерек байланысы жоқ</item>
+        <item quantity="other"><xliff:g id="count">%s</xliff:g> минут аралығында дерек байланысы жоқ</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="one">Телефон <xliff:g id="count">%s</xliff:g> минут аралығында Төтенше қоңырау режимінде болады. Бұл режимде дерек байланысын қолданатын қолданбаны пайдалануға болмайды. Қазір шығу қажет пе?</item>
+        <item quantity="other">Телефон <xliff:g id="count">%s</xliff:g> минут аралығында Төтенше қоңырау режимінде болады. Бұл режимде дерек байланысын қолданатын қолданбаны пайдалануға болмайды. Қазір шығу қажет пе?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="one">Төтенше қоңырау режимінде таңдалған әрекеттер жоқ. Телефон бұл режимде <xliff:g id="count">%s</xliff:g> минут болады. Қазір шығу қажет пе?</item>
+        <item quantity="other">Төтенше қоңырау режимінде таңдалған әрекеттер жоқ. Телефон бұл режимде <xliff:g id="count">%s</xliff:g> минут болады. Қазір шығу қажет пе?</item>
+    </plurals>
+    <string name="alert_dialog_in_ecm_call">Таңдалған әрекет төтенше қоңырауда қолжетімді емес.</string>
+    <string name="progress_dialog_exiting_ecm">Төтенше жағдайдағы кері қоңырау режимінен шығу</string>
+    <string name="alert_dialog_yes">Иә</string>
+    <string name="alert_dialog_no">Жоқ</string>
+    <string name="alert_dialog_dismiss">Бас тарту</string>
+    <string name="voicemail_provider">Қызмет</string>
+    <string name="voicemail_settings">Орнату</string>
+    <string name="voicemail_number_not_set">&lt;Орнатылмады&gt;</string>
+    <string name="other_settings">Басқа қоңырау шалу параметрлері</string>
+    <string name="calling_via_template"><xliff:g id="provider_name">%s</xliff:g> арқылы қоңырау шалу</string>
+    <string name="contactPhoto">контакт фотосуреті</string>
+    <string name="goPrivate">құпия қоңырау шалу</string>
+    <string name="selectContact">контактіні таңдау</string>
+    <string name="not_voice_capable">Дауыстық қоңырауларға қолдау көрсетілмейді</string>
+    <string name="description_dial_button">нөмір теру</string>
+    <string name="voicemail_notification_vibrate_when_title" msgid="8731372580674292759">Вибросигнал</string>
+    <string name="voicemail_notification_vibarte_when_dialog_title" msgid="8995274609647451109">Вибросигнал</string>
+    <string name="voicemail_notification_ringtone_title">Дыбыс</string>
+    <string name="dial_pad_autocomplete">Нөмірді автоматты түрде теру</string>
+    <string name="preference_category_ringtone">Рингтон және вибросигнал</string>
+    <string name="call_settings_title_font_family"/>
+    <string name="pstn_connection_service_label">Кірістірілген SIM карталар</string>
+    <string name="enable_video_calling_title">Бейне қоңырауды қосу</string>
+    <string name="enable_video_calling_dialog_msg">Бейне қоңырауды қосу үшін, жүйе параметрлерінде кеңейтілген  4G LTE режимін қосуыңыз қажет.</string>
+    <string name="enable_video_calling_dialog_settings">Желілік параметрлер</string>
+    <string name="enable_video_calling_dialog_close">Жабу</string>
+    <string name="phone_accounts_make_sip_calls_with">SIP қоңырауларын орындау</string>
+	<string name="phone_accounts_accounts_header">"Есептік жазбалар"</string>
+	<string name="phone_accounts_choose_accounts">Тіркелгілерді таңдау</string>
+	<string name="phone_accounts_selection_header">Телефон тіркелгілері</string>
+	<string name="phone_accounts_add_sip_account">SIP тіркелгісін қосу</string>
+	<string name="phone_accounts_configure_account_settings">Тіркелгі параметрлерін теңшеу</string>
+	<string name="wifi_calling_do_not_use_call_assistant">Қоңырау шалу көмекші құралын пайдаланбау</string>
+	<string name="wifi_calling_select_call_assistant">Қоңырау шалу көмекші құралын таңдау</string>
+	<string name="wifi_calling_select_call_assistant_summary">Қоңыраулар үшін пайдаланылған желілерді басқару үшін қолданбаны не қызметті таңдау</string>
+	<string name="wifi_calling_call_assistant_configure">"Конфигурациялау"</string>
+	<string name="wifi_calling_call_assistant_configure_no_selection">Қоңырау шалу көмекші құралы өшірулі</string>
+	<string name="phone_account_settings">Телефон тіркелгісінің параметрлері</string>
+	<string name="sim_label_emergency_calls">Жедел қоңыраулар</string>
+	<string name="sim_description_emergency_calls">Тек жедел қоңырау шалу</string>
+	<string name="sim_description_default">SIM картасы, науа: <xliff:g id="slot_id">%s</xliff:g></string>
+    <string name="wifi_calling_call_assistant_none">"Ешқандай"</string>
+    <string name="cellular_data_title">Мобильді дерек</string>
+    <string name="data_usage_disable_mobile">Ұялы деректерді өшіру керек пе?</string>
+    <string name="sim_change_data_message">Ұялы деректер үшін <xliff:g id="OLD_SIM">%2$s</xliff:g> орнына <xliff:g id="NEW_SIM">%1$s</xliff:g> пайдалану керек пе?</string>
+    <string name="network_lte_wcdma_gsm_auto">LTE/WCDMA/GSM авто</string>
+    <string name="network_wcdma_gsm_auto">WCDMA/GSM авто</string>
+    <string name="network_wcdma_only">Тек WCDMA</string>
+    <string name="network_gsm_only">Тек GSM</string>
+</resources>

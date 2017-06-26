@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingRight="1dip"
+    android:paddingLeft="1dip"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:paddingRight="4dip"
+	    android:paddingLeft="4dip"
+	    android:orientation="vertical"
+	    android:layout_weight="1">
+        
+
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical|center_horizontal"
+	        android:gravity="center_vertical|center_horizontal"
+	        android:orientation="horizontal"
+	        android:paddingLeft="22dip">
+
+	        <TextView
+	            android:id="@+id/tv_top_title"
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1.0"
+	            android:singleLine="true"
+	            android:requiresFadingEdge="horizontal"
+	            android:ellipsize="none"
+	        	android:layout_gravity="center_vertical"
+                android:layoutDirection="ltr"
+	        	android:gravity="center_vertical|center_horizontal"
+	            android:textColor="@color/white"
+	            android:textSize="14sp" />
+	        <ImageView
+	            android:id="@+id/iv_full_integrated"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="4dip"
+	            android:visibility="gone"/>
+	        <ImageView
+	            android:id="@+id/iv_silent"
+	            android:layout_width="16dip"
+	            android:layout_height="16dip"
+	            android:layout_marginLeft="4dip"
+	            android:visibility="gone"
+	            android:src="@drawable/ipmsg_actionbar_silent" />
+	     </LinearLayout>
+
+	    <TextView
+	        android:id="@+id/tv_top_subtitle"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:singleLine="true"
+	        android:requiresFadingEdge="horizontal"
+	        android:ellipsize="none"
+	        android:textColor="@color/white"
+	        android:layout_gravity="center_vertical"
+	        android:gravity="center_vertical|center_horizontal"
+	        android:textSize="12sp"
+	        android:visibility="gone"
+	        android:paddingLeft="22dip"/>
+
+        
+     </LinearLayout>
+
+     <!--  HQ_zhangjing 2015-08-10 modified for MMS merge begin-->
+        <ImageView
+            android:id="@+id/menu_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dip"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:src="@drawable/ic_menu_more_light" />
+        <!--  HQ_zhangjing 2015-08-10 modified for MMS merge end-->
+
+</LinearLayout>

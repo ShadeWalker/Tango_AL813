@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.android.musicvis.test"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-permission android:name="android.permission.INJECT_EVENTS"/>
+    <uses-permission android:name="android.permission.RUN_INSTRUMENTATION"/>
+
+    <!-- The Test Runner is for FPS auto performance check for Visualization Wallpaper-->
+    <instrumentation android:name="com.android.musicvis.test.MusicVisualizationFpsTestRunner"
+                     android:targetPackage="com.android.musicvis"
+                     android:label="Visualization Wallpaper FPS TestRunner"/>
+
+    <!--
+    <instrumentation android:targetPackage="com.android.musicvis" android:name="com.android.musicvis.test.MusicVisInstrumentationTestRunner" 
+                     android:label="Music Visualization"/>
+    -->
+
+    <instrumentation android:targetPackage="com.android.musicvis" android:name="com.zutubi.android.junitreport.JUnitReportTestRunner" 
+                     android:label="Music Visualization"/>
+
+    <instrumentation android:name="com.android.musicvis.test.MusicVisLaunchPerformance"
+        android:targetPackage="com.android.musicvis"
+        android:label="MusicVis Wallpaper Launch Performance">
+    </instrumentation>
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+
+    <uses-library android:name="android.test.runner" />
+    </application>
+    <!-- used for testcase to make sure the LiveWallpapers could be launched  -->
+    <activity
+        android:name=".PreviewStubActivity"
+        android:theme="@style/Preview"
+        android:configChanges="orientation|screenSize">
+    </activity>
+       
+</manifest>

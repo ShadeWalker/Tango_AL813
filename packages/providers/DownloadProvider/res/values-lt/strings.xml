@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="3658948994665187911" name="app_label">"Atsisiuntimo tvarkyklė"</string>
+    <string msgid="7779544811202855500" name="permlab_downloadManager">"Pasiekti atsisiuntimo tvarkyklę."</string>
+    <string msgid="4237406545998908947" name="permdesc_downloadManager">"Leidžiama programai pasiekti atsisiuntimų tvarkyklę ir naudoti ją failams atsisiųsti. Kenkėjiškos programos gali naudoti šią funkciją atsisiuntimams stabdyti ir asmeninei informacijai pasiekti."</string>
+    <string msgid="7103642833308809655" name="permlab_downloadManagerAdvanced">"Išplėstinės atsisiuntimo tvarkyklės funkcijos."</string>
+    <string msgid="2659546004160962761" name="permdesc_downloadManagerAdvanced">"Leidžiama programai pasiekti išplėstines atsisiuntimų tvarkyklės funkcijas. Kenkėjiškos programos gali naudoti šią funkciją atsisiuntimams stabdyti ir asmeninei informacijai gauti."</string>
+    <string msgid="945913803765675685" name="permlab_downloadCompletedIntent">"Siųsti atsisiuntimo pranešimus."</string>
+    <string msgid="2094706189855699533" name="permdesc_downloadCompletedIntent">"Leidžiama programai siųsti pranešimus apie baigtus atsisiuntimus. Kenkėjiškos programos gali naudoti šią funkciją, kad supainiotų kitas programas, kurias naudojant siunčiami failai."</string>
+    <string msgid="4084575448409212628" name="permlab_seeAllExternal" product="nosdcard">"Žr. visus atsis. į USB atm."</string>
+    <string msgid="140058400609165726" name="permlab_seeAllExternal" product="default">"Žiūrėti visus atsisiuntimus į SD kortelę"</string>
+    <string msgid="1672759909065511233" name="permdesc_seeAllExternal">"Leidžiama programai matyti visus atsisiuntimus į SD kortelę, neatsižvelgiant į tai, kokia programa jie buvo atsiųsti."</string>
+    <string msgid="3069534308882047412" name="permlab_downloadCacheNonPurgeable">"Rezervuoti vietą atsisiuntimo talpykloje"</string>
+    <string msgid="2408760720334570420" name="permdesc_downloadCacheNonPurgeable">"Leidžiama programai atsisiųsti failus į atsisiuntimo talpyklą, kurios negalima automatiškai ištrinti, kai atsisiuntimo tvarkyklei prireikia daugiau vietos."</string>
+    <string msgid="8837971946078327262" name="permlab_downloadWithoutNotification">"atsisiųsti failus be pranešimo"</string>
+    <string msgid="8483135034298639727" name="permdesc_downloadWithoutNotification">"Leidžiama programai atsisiųsti failus naudojant atsisiuntimo tvarkyklę, naudotojui nepateikus jokio pranešimo."</string>
+    <string msgid="2436240495424393717" name="permlab_accessAllDownloads">"Pasiekti visus sistemos atsisiuntimus"</string>
+    <string msgid="1871832254578267128" name="permdesc_accessAllDownloads">"Leidžiama programai žiūrėti ir keisti visus atsisiuntimus, pradėtus naudojant bet kokią sistemos programą."</string>
+    <string msgid="7015124071247271585" name="download_unknown_title">"&lt;Be pavadinimo&gt;"</string>
+    <string msgid="5443563299253103667" name="notification_download_complete">"Atsisiuntimas baigtas."</string>
+    <string msgid="8612136111952014978" name="notification_download_failed">"Atsisiuntimas nesėkmingas."</string>
+    <string msgid="2556172885154833575" name="notification_need_wifi_for_size">"Did. f., reikia „Wi-Fi“."</string>
+    <string msgid="4328508073283591772" name="notification_paused_in_background">"Pristabdyta fone."</string>
+    <string msgid="1995971416871498179" name="wifi_required_title">"Atsisiuntimas per didelis operatoriaus tinklui"</string>
+    <string msgid="3067694630143784449" name="wifi_required_body">"Jei norite baigti šį <xliff:g id="SIZE">%s </xliff:g> atsisiuntimą, turite naudoti „Wi-Fi“. \n\nPalieskite <xliff:g id="QUEUE_TEXT">%s </xliff:g>, jei norite pradėti šį atsisiuntimą kitą kartą prisijungę prie „Wi-Fi“."</string>
+    <string msgid="7441589306734687400" name="wifi_recommended_title">"Įtraukti į eilę, norint vėliau atsisiųsti?"</string>
+    <string msgid="1314735166699936073" name="wifi_recommended_body">"Siunč. šį <xliff:g id="SIZE">%s </xliff:g> failą eikv. daug energ. ir (arba) mob. duom., todėl pagal naud. duom. planą gali būti taik. oper. mokesč.\n\n Palies. <xliff:g id="QUEUE_TEXT">%s</xliff:g>, jei nor. siųsti šį failą kitą k. prisij. prie „Wi-Fi“."</string>
+    <string msgid="422576726189179221" name="button_queue_for_wifi">"Eilė"</string>
+    <string msgid="2430166148737975604" name="button_cancel_download">"Atšaukti"</string>
+    <string msgid="792123674007840864" name="button_start_now">"Pradėti dabar"</string>
+  <plurals name="notif_summary_active">
+    <item msgid="8475775855911967027" quantity="one">"Atsisiunčiama failų: 1"</item>
+    <item msgid="9087228371320573153" quantity="other">"Atsisiunčiama failų: <xliff:g id="NUMBER">%d</xliff:g>"</item>
+  </plurals>
+  <plurals name="notif_summary_waiting">
+    <item msgid="5537481763963544278" quantity="one">"Laukiama failų: 1"</item>
+    <item msgid="549229034166062887" quantity="other">"Laukiama failų: <xliff:g id="NUMBER">%d</xliff:g>"</item>
+  </plurals>
+    <string msgid="3139295890887972718" name="download_remaining">"Liko: <xliff:g id="DURATION">%s</xliff:g>"</string>
+    <string msgid="7935659741162801699" name="download_no_application_title">"Nepavyksta atidaryti failo"</string>
+    <string msgid="4098414876292351487" name="root_downloads">"Atsisiuntimai"</string>
+    <string msgid="3302638231377947451" name="download_queued">"Eilėje"</string>
+    <string msgid="3925050393361158266" name="download_running">"Vykdoma"</string>
+    <string msgid="5144180777324573236" name="download_error">"Nepavyko"</string>
+    <string msgid="4305080769167320204" name="download_running_percent">"Procesas vyksta, <xliff:g id="PERCENTAGE">%s</xliff:g>"</string>
+</resources>

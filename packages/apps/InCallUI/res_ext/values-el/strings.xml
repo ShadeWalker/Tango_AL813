@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dm_lock">Κλειδωμένο DM</string>
+    <string name="dm_unlock">Ξεκλείδωμα DM</string>
+    <string name="start_record">Έναρξη εγγραφής</string>
+    <string name="stop_record">Διακοπή εγγραφής</string>
+    <string name="str_db_playlist_name">Οι εγγραφές μου</string>
+    <string name="alert_device_error">Παρουσιάστηκε σφάλμα στη συσκευή ήχου</string>
+    <string name="ext_media_badremoval_notification_title">Μη αναμενόμενη αποσύνδεση κάρτας SD</string>
+    <string name="error_sdcard_access">"Δεν είναι δυνατή η πρόσβαση στην κάρτα SD"</string>
+    <string name="confirm_device_info_full">Δεν υπάρχει χώρος στην κάρτα SD, η εγγραφή έχει αποθηκευτεί.</string>
+    <string name="confirm_save_info_saved">Η εγγραφή έχει αποθηκευτεί</string>
+    <string name="confirm_save_info_saved_to">Η εγγραφή έχει αποθηκευτεί σε</string>
+    <string name="recording_saved_sd_full">Δεν υπάρχει χώρος στην κάρτα SD, η εγγραφή έχει αποθηκευτεί.</string>
+    <string name="sd_not_enough">Ο διαθέσιμος χώρος στην\nκάρτα SD είναι ελάχιστος</string>
+    <string name="alert_dialog_dismiss">"Απόρριψη"</string>
+    <string name="change_my_pic">Αλλαγή</string>
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">Διακοπή όλων</string>
+    <string name="onscreenHangupHolding">Διακοπή αναμονής</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Διακοπή ενεργής, απάντηση σε αναμονή</string>
+    <string name="menu_ect">Μεταφορά</string>
+    <string name="respond_via_sms_confirmation_format">"Το μήνυμα εστάλη στο <xliff:g id="PHONE_NUMBER">%s</xliff:g>."</string>
+    <string name="volte_add_conference_member_title">Προσθήκη σε συνδιάσκεψη</string>
+    <string name="add_member_msg">Πληκτρολογήστε αριθμό ή όνομα</string>
+    <string name="card_title_incoming_conference">Πρόσκληση σε συνδιάσκεψη</string>
+    <string name="addConferenceMemeberText">Προσθήκη μέλους</string>
+    <string name="add_conference_member_limit">Είναι δυνατή η προσθήκη μόνο ενός αριθμού κάθε φορά.</string>
+    <string name="conference_member_join">
+<xliff:g id="member_name">%s</xliff:g> άρχισε να συμμετέχει στη συνδιάσκεψη.</string>
+    <string name="conference_member_leave">
+<xliff:g id="member_name">%s</xliff:g> αποχώρησε από τη συνδιάσκεψη.</string>
+    <string name="conference_member_adding">Προσθήκη <xliff:g id="member_name">%s</xliff:g> …</string>
+    <string name="conference_member_add_fail">Απέτυχε η προσθήκη <xliff:g id="member_name">%s</xliff:g>.</string>
+    <string name="removeMember">"Κατάργηση"</string>
+    <string name="memberStatus">"Κατάσταση"</string>
+    <string name="volte_call_waiting_indication_text">Η άλλη πλευρά είναι σε κλήση, περιμένετε…</string>
+    <string name="volte_conf_member_reach_max">Ο μέγιστος αριθμός μελών του συνεδρίου έχει ήδη επιτευχθεί.</string>
+    <string name="add_multi_conference_member_limit">Προς το παρόν μπορείτε να προσθέσετε μέχρι <xliff:g id="max_number">%s</xliff:g> μέλη.</string>
+    <string name="multi_conference_member_adding">Πρόσθεση μελών σε εξέλιξη…</string>
+<string name="ok">"OK"</string>
+<string name="two_incoming_calls">Δύο εισερχόμενες κλήσεις</string>
+<string name="wifi_title">Κλήση Wi-Fi και λεπτά </string>
+<string name="call_drop">Η κλήση σας ενδέχεται να έχει αποσυνδεθεί</string>
+<string name="call_drop_message">Βρίσκεστε σχεδόν εκτός της εμβέλειας κάλυψης Wi-Fi</string>
+<string name="view_networks">Προβολή δικτύων</string>
+<string name="wfc_wifi_call_drop_summary">Πρόβλημα! Πρέπει να μετακινηθήκατε εκτός του δικτύου σας Wi-Fi κατά τη διάρκεια μιας κλήσης.\n \nΝα γίνει επανασύνδεση στο δίκτυό σας Wi-Fi για να ολοκληρωθεί η κλήση σας;</string>
+</resources>

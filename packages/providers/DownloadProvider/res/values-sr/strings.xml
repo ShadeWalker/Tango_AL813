@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="3658948994665187911" name="app_label">"Menadžer za preuzimanje"</string>
+    <string msgid="7779544811202855500" name="permlab_downloadManager">"Pristupanje menadžeru za preuzimanje."</string>
+    <string msgid="4237406545998908947" name="permdesc_downloadManager">"Omogućava aplikaciji da pristupa menadžeru preuzimanja i koristi ga za preuzimanje datoteka. Zlonamerne aplikacije mogu pomoću toga da ometaju preuzimanja i pristupaju privatnim informacijama."</string>
+    <string msgid="7103642833308809655" name="permlab_downloadManagerAdvanced">"Napredne funkcije menadžera preuzimanja."</string>
+    <string msgid="2659546004160962761" name="permdesc_downloadManagerAdvanced">"Omogućava aplikaciji da pristupa naprednim funkcijama menadžera preuzimanja. Zlonamerne aplikacije mogu pomoću toga da ometaju preuzimanja i pristupaju privatnim informacijama."</string>
+    <string msgid="945913803765675685" name="permlab_downloadCompletedIntent">"Šaljite obaveštenja o preuzimanjima."</string>
+    <string msgid="2094706189855699533" name="permdesc_downloadCompletedIntent">"Omogućava aplikaciji da šalje obaveštenja o dovršenim preuzimanjima. Zlonamerne aplikacije mogu pomoću toga da zbune ostale aplikacije koje preuzimaju datoteke."</string>
+    <string msgid="4084575448409212628" name="permlab_seeAllExternal" product="nosdcard">"Pogledajte sva preuzimanja u USB memoriju"</string>
+    <string msgid="140058400609165726" name="permlab_seeAllExternal" product="default">"Sva preuzimanja na SD karticu"</string>
+    <string msgid="1672759909065511233" name="permdesc_seeAllExternal">"Omogućava aplikaciji da vidi sve stavke preuzete na SD karticu, bez obzira na to koja aplikacija ih je preuzela."</string>
+    <string msgid="3069534308882047412" name="permlab_downloadCacheNonPurgeable">"Rezerviši prostor u kešu za preuzimanje"</string>
+    <string msgid="2408760720334570420" name="permdesc_downloadCacheNonPurgeable">"Omogućava aplikaciji da preuzima datoteke u keš za preuzimanje koji ne može automatski da se izbriše kada je menadžeru preuzimanja potrebno još prostora."</string>
+    <string msgid="8837971946078327262" name="permlab_downloadWithoutNotification">"preuzmi datoteke bez obaveštenja"</string>
+    <string msgid="8483135034298639727" name="permdesc_downloadWithoutNotification">"Omogućava aplikaciji da preuzima datoteke preko menadžera preuzimanja bez prikazivanja ikakvog obaveštenja korisniku."</string>
+    <string msgid="2436240495424393717" name="permlab_accessAllDownloads">"Pristupi svim sistemskim preuzimanjima"</string>
+    <string msgid="1871832254578267128" name="permdesc_accessAllDownloads">"Omogućava aplikaciji da pregleda i menja sva preuzimanja koja je pokrenula bilo koja aplikacija u sistemu."</string>
+    <string msgid="7015124071247271585" name="download_unknown_title">"</string>
+    <string msgid="5443563299253103667" name="notification_download_complete">"Preuzimanje je dovršeno"</string>
+    <string msgid="8612136111952014978" name="notification_download_failed">"Preuzimanje nije uspelo"</string>
+    <string msgid="2556172885154833575" name="notification_need_wifi_for_size">"Veličina stavke zahteva Wi-Fi."</string>
+    <string msgid="4328508073283591772" name="notification_paused_in_background">"Pauzirano u pozadini."</string>
+    <string msgid="1995971416871498179" name="wifi_required_title">"Preuzimanje je preveliko za mrežu operatera"</string>
+    <string msgid="3067694630143784449" name="wifi_required_body">"Morate da koristite Wi-Fi da biste dovršili ovo preuzimanje od 
+        <xliff:g id="SIZE">%s</xliff:g>. \n\nDodirnite 
+        <xliff:g id="QUEUE_TEXT">%s</xliff:g> da biste započeli ovo preuzimanje kada se sledeći put povežete sa Wi-Fi mrežom."
+    </string>
+    <string msgid="7441589306734687400" name="wifi_recommended_title">"Staviti u red čekanja za kasnije preuzimanje?"</string>
+    <string msgid="1314735166699936073" name="wifi_recommended_body">"Ovim preuzimanjem od 
+        <xliff:g id="SIZE">%s</xliff:g> možete da skratite vek trajanja baterije i/ili preterano koristite mobilnu vezu za prenos podataka, što može da dovede do troškova kod mobilnog operatera shodno tarifnom paketu.\n\n Dodirnite 
+        <xliff:g id="QUEUE_TEXT">%s</xliff:g> da biste započeli ovo preuzimanje kada se ponovo povežete sa Wi-Fi mrežom."
+    </string>
+    <string msgid="422576726189179221" name="button_queue_for_wifi">"Red čekanja"</string>
+    <string msgid="2430166148737975604" name="button_cancel_download">"Otkaži"</string>
+    <string msgid="792123674007840864" name="button_start_now">"Počni sada"</string>
+  <plurals name="notif_summary_active">
+    <item msgid="8475775855911967027" quantity="one">"Preuzima se 1 datoteka"</item>
+    <item msgid="9087228371320573153" quantity="other">"Preuzimaju se datoteke ( 
+            <xliff:g id="NUMBER">%d</xliff:g>)"
+        </item>
+  </plurals>
+  <plurals name="notif_summary_waiting">
+    <item msgid="5537481763963544278" quantity="one">"Čeka se 1 datoteka"</item>
+    <item msgid="549229034166062887" quantity="other">"Čekaju se datoteke ( 
+            <xliff:g id="NUMBER">%d</xliff:g>)"
+        </item>
+  </plurals>
+    <string msgid="3139295890887972718" name="download_remaining">"Još 
+        <xliff:g id="DURATION">%s</xliff:g>"
+    </string>
+    <string msgid="7935659741162801699" name="download_no_application_title">"Nije moguće otvoriti datoteku"</string>
+    <string msgid="4098414876292351487" name="root_downloads">"Preuzimanja"</string>
+    <string msgid="3302638231377947451" name="download_queued">"Stavljeno na čekanje"</string>
+    <string msgid="3925050393361158266" name="download_running">"U toku"</string>
+    <string msgid="5144180777324573236" name="download_error">"Neuspešno"</string>
+    <string msgid="4305080769167320204" name="download_running_percent">"У току, <xliff:g id="PERCENTAGE">%s</xliff:g>"</string>
+</resources>

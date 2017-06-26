@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
+    
+    <string name="menu_print">ছাপানো</string>
+    <string name="printContact">পরিচিতজনের নম্বর ছাপান</string>
+    <string name="no_way_to_print">এই পরিচিতজনের নম্বর ছাপানোর জন্য কোন অ্যাপ্লিকেশন নেই।</string>
+    
+    <string name="no_sdcard_title" product="nosdcard">ইউএসবি স্টোরেজ পাওয়া যাচ্ছে না</string>
+    
+    <string name="no_sdcard_title" product="default">কোন এসডি কার্ড নেই</string>
+    
+    
+    <string name="selected_item_count">  <xliff:g id="count">%d</xliff:g> নির্বাচিত </string>
+    
+    <string name="recentCalls_delete">মুছে ফেলুন</string>
+    <string name="menu_selectAll">সব নির্বাচন করুন</string>
+    <string name="menu_clearAll">সব নির্বাচনমুক্ত করুন</string>
+        
+    
+    
+    <string name="all_resources">সব রিসোর্স</string>
+    <string name="choose_resources_header">রিসোর্স পছন্দ করুন</string>
+    
+    <string name="all_tab_label1">সব</string>
+    <string name="call_log_item_count">(  <xliff:g id="count">%1$d</xliff:g>) </string>
+
+    
+    
+    <string name="call_sipcall">ইন্টারনেট কল </string>
+    <string name="call_pin_dialog_title">সিম কার্ড নির্বাচন করুন</string>
+    <string name="call_people">লোক</string>
+    <string name="call_ip_dial">আইপি ডায়াল</string>
+    <string name="call_speed_dial">স্পিড ডায়াল</string>
+    <string name="send_message">বার্তা পাঠান ।</string>
+    <string name="call_video_call">ভিডিও কল</string>
+    <string name="add_speed_dial">স্পিড ডায়াল যোগ করার জন্য ট্যাপ</string>
+    <string name="speed_dial_added"><xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) স্পিড ডায়ালে যোগ করা হয়েছে <xliff:g id="key">%3$s</xliff:g></string>
+    <string name="speed_dial_added2">  <xliff:g id="contact_name">%1$s</xliff:g>স্পিড ডায়ালে যোগ করা হয়েছে  <xliff:g id="key">%2$s</xliff:g>  </string>
+    <string name="remove_speed_dial">সরান</string>
+    <string name="remove_sd_confirm_1">আপনি কি নিশ্চিত আপনি স্পিড ডায়াল থেকে <xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) মুছে ফেলতে চান <xliff:g id="key">%3$s</xliff:g>?</string>
+    <string name="remove_sd_confirm_2">আপনি কি নিশ্চিত আপনি  <xliff:g id="contact_name">%1$s</xliff:g> সরাতে চান  <xliff:g id="key">%2$s</xliff:g>স্পিড ডায়াল থেকে? </string>
+    <string name="emergencycall">জরুরি কল</string>
+    <string name="imei_invalid">অকার্যকর</string>
+    <string name="call_log_filter_all_resources">সব রিসোর্স</string>
+    <string name="turn_on_3g_service_message">"থ্রিজি সেবা এখন বন্ধ রয়েছে, আপনি কি তা চালু করতে চান?"</string>
+    <string name="associate_sim_missing_message">"%1$s পাওয়া যাচ্ছে না। আপনি কি %2$s-এর মাধ্যমে কলটি করতে চান"</string>
+    <string name="associate_sim_missing_other">অন্যান্য</string>
+    <string name="sim_manage_call_via">কল ভায়া</string>
+    <string name="callFailed_simError">সিম নেই বা সিমে ত্রুটি</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">ভয়েস কল সেটিংয়ে প্রথমে আইপি প্রেফিক্স নম্বর প্রবেশ করান</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">ইন্টারনেট কলের ক্ষেত্রে আইপি ডায়াল কার্যক্রম প্রযোজ্য নয়</string>
+
+    
+    <string name="sd_add">যোগ করুন</string>
+    <string name="reselect_number">"এই নম্বরটি ইতিমধ্যেই একটি স্পিড ডায়াল কি'র সাথে যুক্ত করা হয়েছে, অন্য আরেকটি নম্বর নির্বাচন করুন।"</string>
+    
+    <string name="calllog_today">আজ</string>
+    <string name="calllog_yesterday">গতকাল</string>
+    
+    
+    <string name="menu_association">কার্ড সংশ্লিষ্ট করুন</string>
+    <string name="menu_remove_association">কার্ড সংশ্লিষ্টতা সরিয়ে ফেলুন</string>
+    <string name="remove_association_message">আপনি কি নিশ্চিত আপনি এই নম্বরের সাথে কার্ডের সংশ্লিষ্টতা সরিয়ে ফেলতে চান? </string>
+    <string name="remove_number_title">সরান</string>  
+    <string name="warning_detail">কার্ডের অ্যাসোসিয়েশন ফোনে পরিচিতজন আমদানি করবে। আপনি কি কার্ডের অ্যাসোসিয়েশন অব্যাহত রাখতে চান?</string>
+    <string name="block_incoming_call">ইনকামিং কল ব্লক করুন</string>
+    <string name="block_video_incoming_call">সরাসরি ভিডিও ইনকামিং কল ব্লক করুন</string>
+
+    
+    <string name="menu_actionbar_selected_items">  <xliff:g id="name">%s</xliff:g> নির্বাচিত </string>
+
+       
+    <string name="has_double_phone_number">"একই ধরনের নম্বর দু'বার সংরক্ষণ করা যাবে না, অনুগ্রহ করে এটি যাচাই করুন । "</string>
+    <string name="phone_book_busy">ফোনবুক এখন ব্যস্ত, পরে আবার চেষ্টা করুন।</string>
+    <string name="sim_invalid">যখন কার্ড অকার্যকর থাকে তখন পরিচিতজন সংরক্ষণ করা যায় না।</string>
+    <string name="cannot_insert_null_number">পরিচিতজনের নম্বর সংরক্ষণ করা যাচ্ছে না যার নম্বর:</string>
+    <string name="AirPlane_mode_on">পরিচিতজন সংরক্ষণ করা যাচ্ছে না যখন উড়োজাহাজ মোড চালু আছে</string>
+    <string name="FDNEnabled">পরিচিতজন সংরক্ষণ করা যাচ্ছে না যখন এফডিএন সক্রিয় আছে</string>
+    <string name="sim_invalid_number">অবৈধ নম্বর সংরক্ষণ করা যাচ্ছে না</string>
+    <string name="email_invalid">অকার্যকর ইমেইল সংরক্ষণ করতে পারছে না।</string>
+    <string name="email_2g_invalid">২জি সিমে ইমেইল সংরক্ষণ করতে পারছে না, সংরক্ষণের জন্য থ্রিজি সিম নির্বাচন করুন।</string>
+    <string name="sim_invalid_fix_number">অকার্যকর ফিক্স নম্বর সংরক্ষণ করতে পারছে না।</string>
+    <string name="AirPlane_mode_on_edit">পরিচিতজন সম্পাদনা করা যাচ্ছে না যখন উড়োজাহাজ মোড চালু আছে</string>
+    <string name="msg_loading_sim_contacts_toast">"সিমের পরিচিতজন ব্যাকগ্রাউন্ডে লোড করা হচ্ছে, এক মিনিট অপেক্ষা করুন।"</string>
+    <string name="fix_number_too_long">"ফিক্স নম্বর অনেক দীর্ঘ"</string>
+    <string name="name_too_long">"নাম খুব বেশি দীর্ঘ"</string>
+    <string name="storage_full">স্টোরেজ পূর্ণ</string>
+    <string name="number_too_long">"নম্বর খুব বেশি দীর্ঘ"</string>
+    <string name="generic_failure">জেনেরিক ব্যর্থতা</string>
+    <string name="email_too_long">ইমেইল অনেক দীর্ঘ</string>
+
+    <string name="send_groupsms_no_number_more">"%1$s এবং %2$s আরো পরিচিতজনের কোন বৈধ ফোন নম্বর নেই।"</string>
+    <string name="send_groupsms_no_number_1">"%1$s-এর কোন বৈধ ফোন নম্বর নেই।"</string>
+    <string name="send_groupsms_no_number_2">"%1$s এবং %2$s -এর কোন বৈধ ফোন নম্বর নেই।"</string>    
+
+    
+
+    
+    <string name="account_type_sim" product="tablet">সিম একাউন্ট</string>
+    
+    <string name="account_type_sim" product="default">সিম একাউন্ট</string>
+
+    
+    <string name="account_type_usim" product="tablet">ইউসিম একাউন্ট</string>
+    
+    <string name="account_type_usim" product="default">ইউসিম একাউন্ট</string>
+
+    
+    <string name="account_type_local_phone" product="tablet">ফোন স্থানীয় একাউন্ট</string>
+    
+    <string name="account_type_local_phone" product="default">ফোন লোকাল একাউন্ট</string>
+
+
+    
+    <string name="local_account_type" product="tablet">স্থানীয় একাউন্ট</string>
+    
+    <string name="local_account_type" product="default">স্থানীয় একাউন্ট</string>
+
+    
+    <string name="local_account_label" product="tablet">লোকাল একাউন্ট</string>
+    
+    <string name="local_account_label" product="default">লোকাল একাউন্ট</string>
+
+    
+    <string name="account_type_sim_label" product="tablet">শুধুমাত্র সিমে, সিঙ্ক করা নেই</string>
+    
+    <string name="account_type_sim_label" product="default">শুধুমাত্র সিমে, সিঙ্ক করা নেই</string>
+
+    
+    <string name="account_type_usim_label" product="tablet">কেবল ইউসিম, সিঙ্ক না করা</string>
+    
+    <string name="account_type_usim_label" product="default">কেবল ইউসিম, সিঙ্ক না করা</string>
+
+    
+    <string name="please_wait">" অপেক্ষা করুন..."</string>
+    <string name="move_contacts_to">পরিচিতজন সরিয়ে ফেলুন</string>
+    <string name="menu_move_group">"দলের সদস্যদেরকে সরান"</string> 
+    <string name="menu_message_group">"দলগত বার্তা পাঠান"</string>
+    <string name="menu_email_group">গ্রুপ ইমেইল পাঠান</string>    
+    <string name="moving_group_members">"দলের সদস্যদের সরানো\u2026"</string>
+    <string name="removing_group_members_sucess">"দলের সদস্যদের সফলভাবে মুছে ফেলেছে"</string>
+    <string name="moving_group_members_sucess">"দলের সদস্যদের সফলভাবে সরিয়েছে"</string>
+    <string name="moving_group_members_fail">"দলের সদস্যদের সরাতে ব্যর্থ হয়েছে"</string>
+    <string name="no_valid_number_in_group">দলের কার্যকর ফোন নম্বরের সাথে কোন যোগাযোগ নেই।</string>
+    <string name="no_valid_email_in_group">দলের ইমেইলের সাথে কোন যোগাযোগ নেই।</string>
+    <string name="email_error">আপনার উচিত ইমেইল অ্যাপ্লিকেশন ইন্সটল করা , অথবা আপনার একাউন্ট কনফিগার করা!</string>
+    <string name="usim_group_name_exceed_limit">" গ্রুপের নাম এত লম্বা যে স্টোরেজ সম্ভব নয়।"</string>
+    <string name="usim_group_count_exceed_limit">" স্টোরেজে আর কোন নতুন গ্রুপ যোগ করা সম্ভব নয়।"</string>
+    <string name="name_needed">নাম প্রয়োজন</string>
+    <string name="save_group_fail">দল সংরক্ষণ করতে ব্যর্থ হয়েছে।</string>
+    <string name="group_name_exists">দলের নাম ইতিমধ্যেই রয়েছে।</string>
+    <string name="group_discard_member">বাতিল করুন</string>
+    <string name="group_discard_member_reason">পরিবর্তন বাতিল করা হবে কারণ গ্রুপের নামটি বৈধ নয়।</string>
+
+    
+    <string name="import_export_title">আমদানি/রপ্তানি করুন</string>
+    <string name="next">পরবর্তী</string>
+    <string name="imexport_bridge_sd_card">এসডি কার্ড</string>
+    <string name="tips_source">পরিচিতজন কপি করুন</string>
+    <string name="tips_target">পরিচিতজন কপি করুন</string>
+    <string name="back">পেছনে</string>
+    <string name="imexport_title">পরিচিতজন আমদানি/রপ্তানি</string>
+    <string name="xport_error_one_account">"পরিচিতজন আমদানি/রপ্তানি করতে সিম কার্ড বা এসডি কার্ড প্রবেশ করান।"</string>
+    
+
+
+    
+    <string name="store_contact_to">পরিচিতজন সংরক্ষণ করুন</string>
+
+    
+    <string name="menu_delete_contact">পরিচিতজন মুছুন</string>
+
+    <string name="menu_conference_call">কনফারেন্স কল</string>
+
+    <string name="notifier_finish_delete_title">পরিচিতজন সফলতার সাথে মুছে ফেলা হয়েছে</string>
+    <string name="notifier_finish_delete_content">মুছে ফেলা হয়েছে  <xliff:g id="total">%d</xliff:g> পরিচিতজন </string>
+
+    <string name="notifier_finish_copy_title">সফলতার সাথে পরিচিতজন কপি করা হয়েছে</string>
+    <string name="notifier_finish_copy_content">কপি করা হয়েছে  <xliff:g id="total">%d</xliff:g> পরিচিতজন </string>
+
+    <string name="notifier_multichoice_process_report">সম্পন্ন:  <xliff:g id="items">%d</xliff:g>\nIncompleted:  <xliff:g id="items">%d</xliff:g>  </string>
+
+    <string name="notifier_failure_by_sim_full">ব্যর্থতার কারণ সিম স্টোরেজ পূর্ণ।\nসম্পন্ন:  <xliff:g id="items">%d</xliff:g>\n অসম্পন্ন:  <xliff:g id="items">%d</xliff:g>  </string>
+    <string name="notifier_failure_sim_notready">ব্যর্থতার কারণ সিম প্রস্তুত না থাকা \nসম্পন্ন:  <xliff:g id="items">%d</xliff:g>\nঅসম্পন্ন:  <xliff:g id="items">%d</xliff:g>  </string>
+
+    <string name="notifier_cancel_delete_title">পরিচিতজন মুছে ফেলা বাতিল করা হয়েছে</string>
+    <string name="notifier_fail_delete_title">পরিচিতজন মুছে ফেলা ব্যর্থ</string>
+
+    <string name="notifier_cancel_copy_title">পরিচিতজন কপি করা বাতিল করা হয়েছে</string>
+    <string name="notifier_fail_copy_title">পরিচিতজন কপি করা ব্যর্থ হয়েছে</string>
+
+    <string name="notifier_progress__delete_will_start_message">পরিচিতি(গুলি) শীগ্রই মুছে ফেলা হবে।</string>
+    <string name="notifier_progress_delete_message">মুছে ফেলা হচ্ছে  <xliff:g id="current_number">%s</xliff:g>/  <xliff:g id="total_number">%s</xliff:g>:  <xliff:g id="name" example="JoeDue">%s</xliff:g>  </string>
+    <string name="notifier_progress_delete_description">মুছে ফেলা হচ্ছে  <xliff:g id="name" example="JoeDue">%s</xliff:g>  </string>
+
+    <string name="notifier_progress__copy_will_start_message">পরিচিতি(গুলি) শীগ্রই কপি করা হবে।</string>
+    <string name="notifier_progress_copy_message">কপি করা হচ্ছে  <xliff:g id="current_number">%s</xliff:g>/  <xliff:g id="total_number">%s</xliff:g>:  <xliff:g id="name" example="JoeDue">%s</xliff:g>  </string>
+    <string name="notifier_progress_copy_description">কপি করা হচ্ছে  <xliff:g id="name" example="JoeDue">%s</xliff:g>  </string>
+
+    <string name="multichoice_confirmation_title_delete">পরিচিতজন বাতিল করা মুছে গেছে</string>
+    <string name="multichoice_confirmation_message_delete">পরিচিতজন মুছে ফেলা বাতিল করবেন?</string>
+
+    <string name="multichoice_confirmation_title_copy">পরিচিতজন কপি করা বাতিল করা হচ্ছে</string>
+    <string name="multichoice_confirmation_message_copy">পরিচিতজন কপি করা বাতিল করবেন?</string>
+    
+    <string name="multichoice_no_select_alert">"কোন আইটেম নির্বাচন করা হয়নি।"</string>
+    <string name="multichoice_delete_confirm_message">"আপনি কি নিশ্চিত যে আপনি নির্বাচিত পরিচিতজন (দের)মুছে ফেলতে চান?"</string>
+    <string name="multichoice_delete_confirm_title">"পরিচিতজন মুছা হচ্ছে"</string>
+    <string name="multichoice_contacts_limit">"নির্বাচিত পরিচিতজন "<xliff:g id="count">%d</xliff:g>"-এর বেশি হতে পারবে না" </string>
+
+    
+    <string name="phone_storage_full_create">ফোনের সংরক্ষণাগার পূর্ণ, আপনি নতুন কোন পরিচিতজন তৈরি করতে পারবেন না।</string>
+    <string name="phone_storage_full_edit">ফোনের সংরক্ষণাগার পূর্ণ, আপনি পরিচিতজন সম্পাদনা করতে পারবেন না।</string>
+
+	
+	<string name="add_SIP_to_sim">সিপ নম্বর কার্ডের পরিচিতজনে যোগ করতে পারেনি।</string>
+	
+	<string name="already_has_SIP">অব্যাহত রাথার প্রয়োজনে অপনি দুটি এসআইপি নম্বর পরিচিতজনে যোগ করতে পারবেন না। প্রথমে পুরাতন এসআইপি নম্বর মুছে ফেলুন।</string>
+        
+
+    
+       
+    <plurals name="searchFoundCalllogs">
+        <item quantity="one">১ কল তালিকা</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> কল তালিকা</item>
+    </plurals>
+        
+    <string name="search_results_for"><xliff:g id="query">%s</xliff:g>এর জন্য অনুসন্ধানের ফলাফল</string>
+    <string name="listFoundAllCalllogZero">কল তালিকা পাওয়া যায়নি</string>
+    
+    <string name="calllogList">কল ইতিহাস</string>
+    <string name="calllogHint">কল তালিকা অনুসন্ধান করুন</string>
+    <string name="calllog_description">ইনকামিং,আউটগোয়িং এবং ব্যর্থ কল</string>
+    <string name="noMatchingCalllogs">মেলে এমন কোন কল তালিকা পাওয়া যায়নি।</string>
+    
+    <string name="menu_videocallNumber">ভিডিও কল <xliff:g id="name">%s</xliff:g></string>
+    <string name="menu_ipcallNumber">আইপি কল  <xliff:g id="name">%s</xliff:g>  </string>
+    
+    <string name="deleting_call_log">কল তালিকা মুছে ফেলা হচ্ছে...</string>
+    
+    
+    
+    
+    <string name="no_vm_number">হারিয়ে যাওয়া ভয়েসমেইল নম্বর</string>
+    
+    <string name="no_vm_number_msg">সিমকার্ডে কোন ভয়েসমেইল নম্বর মজুত করা নেই।</string>
+    
+    <string name="add_vm_number_str">নম্বর যোগ করুন</string>
+    
+    <string name="reminder">রিমাইন্ডার</string>
+    <string name="enable_sip_dialog_message">ইন্টারনেট কল নিষ্ক্রিয় করা আছে, আপনি কি তা সক্রিয় করতে চান?</string>
+    <string name="share_contacts_limit">" শেয়ার করার জন্য নির্বাচিত পরিচিতজন ৩৫০০ এর বেশি হতে পারবে না"</string>
+    
+    <string name="contact_delete_all_tips">"ইতিমধ্যে পরিচিতজন মুছে ফেলা ব্যাকগ্রাউন্ডে চলছে। আপনি যদি আরেকটি নতুন পরিচিতজন মুছতে চান, তাহলে প্রথমে এটি বাতিল করুন।"</string>
+    <string name="sum_search_networks">সকল লভ্য নেটওয়ার্কের জন্য অনুসন্ধান করুন</string>
+
+    
+    <string name="deleteCallLogConfirmation_title">কল তালিকা মুছবেন?</string>
+
+    
+    <string name="deleteCallLogConfirmation_message">আপনি কি নিশ্চিত আপনি নির্বাচিত কলতালিকা মুছতে চান?</string>
+    
+    <string name="file_already_on_sd_card">এই ফাইল ইতিমধ্যে এসডি কার্ডে আছে।</string>
+    <string name="send_file_sms_error">এসএমএস’র মাধ্যমে ফাইল শেয়ার করতে পারিনি, এমএমএস ব্যবহার করুন।</string>
+    <string name="user_profile_cannot_sd_card">এই পদ্ধতিতে বিষয়বস্তু শেয়ার করতে পারছি না।</string>
+    
+    <string name="error_save_usim_contact_email_lost">" ইমেলের স্টোরেজ পূর্ণ হয়ে গেছে তাই ইমেইল ঠিকানা সংরক্ষণ করতে পারেনি।"</string>
+    <string name="error_import_usim_contact_email_lost">" ইমেলের স্টোরেজ পূর্ণ হয়ে যাওয়ায় কিছু পরিচিতজনের ইমেইল ঠিকানা আমদানি করতে পারেনি।\nসম্পন্ন: <xliff:g id="items">%d</xliff:g>\nঅসম্পূর্ণ: <xliff:g id="items">%d</xliff:g></string>
+    <string name="type_ip_outgoing">আইপি আউটগোয়িং কল (<xliff:g id="name">%s</xliff:g>)</string>
+    
+    <string name="call_sms">এসএমএস</string>
+    
+    
+    <string name="delete_group_failure">দল মুছতে ব্যর্থ হয়েছে।</string>
+    
+    <string name="account_type_uim_label" product="tablet">কেবল UIM, সিনক্রোনাইজ করা নয় </string>
+    
+    <string name="account_type_uim_label" product="default">কেবল UIM, সিনক্রোনাইজ করা নয় </string>
+    <string name="call_log_auto_rejected_label">স্বয়ংক্রিয়ভাবে প্রত্যাখাত কল</string>
+    <string name="import_no_vcard_dialog_text">কোন ভিকার্ড ফাইল পাওয়া যায়নি <xliff:g id="storage_name">%s</xliff:g> </string>
+    <string name="look_simstorage">সিম কার্ডের ধারণক্ষমতা দেখুন</string>
+    <string name="dlg_simstorage_content">phone number book Storage Capacity <xliff:g id="items">%d</xliff:g>，has been used <xliff:g id="items">%d</xliff:g>.</string>
+
+    
+
+    <string name="contact_group_list_title">" টার্গেট গ্রুপ পছন্দ করুন"</string>
+    
+    
+    <string name="send_groupemail_no_number_more">"%1$s ও %2$s আরো পরিচিতজনের কোন বৈধ ইমেইল নেই ।"</string>
+    <string name="send_groupemail_no_number_1">"%1$s এর কোন বৈধ ইমেইল নেই।"</string>
+    <string name="send_groupemail_no_number_2">"%1$s ও %2$s এর কোন বৈধ ইমেইল নেই।"</string>
+    
+    
+    <string name="add_contact_dlg_title">পরিচিতজন যোগ করুন</string>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+    <string name="deleteConfirmation_title">পরিচিতজন মুছে ফেলবেন?
+</string>
+    
+    <string name="dialog_phone_call_prohibited_title" msgid="4313552620858880999">কল পাঠানো হয়নি</string>
+    
+    <string name="dialog_voicemail_not_ready_title">ভয়েসমেইল নম্বর নেই</string>
+    
+    
+    <string name="scanning_sdcard_failed_title" product="nosdcard">ইউএসবি স্টোরেজ স্ক্যান করতে ব্যর্থ হয়েছে</string>
+    
+    <string name="scanning_sdcard_failed_title" product="default">এসডি কার্ড স্ক্যান করতে ব্যর্থ হয়েছে</string>
+    
+    
+
+    
+    <string name="nickname_too_long">"ডাকনাম খুবই বড়"</string>
+    
+    <string name="pick_new_photo_from_gallery">নতুন ছবি নির্বাচন করুন</string>
+    <string name="copy_text_to_dialer">ডায়ালারে কপি করুন</string>
+    
+    
+    <string name="contact_detail_group_list_title">----------------</string>
+    <string name="contact_detail_group_not_assigned">নির্ধারিত করা হয়নি</string>
+    <string name="contact_detail_group_list_nogroups">"কোন গ্রুপ বিদ্যমান নেই। আপনি কি নতুন গ্রুপ সৃষ্টি করতে চান?"</string>
+    <string name="recents">সাম্প্রতিক </string>
+    <string name="contact_no_recents">সাম্প্রতিক কোন তথ্য নেই</string>
+    <string name="contact_detail_detail">বিস্তারিত</string>
+    <string name="contact_detail_update">আপডেট করুন</string>
+    <string name="contact_detail_history">ইতিহাস</string>
+    <string name="contact_detail_ip_call">আইপি কল</string>
+    <string name="contact_detail_history_mms_received_time">"পাওয়ার সময় %1$s"</string>
+    <string name="contact_detail_history_mms_received_from">"%1$s থেকে গ্রহণ করা হয়েছে"</string>
+    <string name="contact_detail_history_mms_sent_time">"পাঠানোর সময় %1$s"</string>
+    <string name="contact_detail_history_mms_sent_to">"%1$s এর কাছে পাঠানো হয়েছে"</string>
+    
+    <string name="contact_detail_history_calllog">কল ইতিহাস</string>
+    
+    <string name="contact_detail_history_mms">বার্তা</string>
+    <string name="contact_detail_history_duration">ব্যপ্তি:</string>
+    <string name="contact_detail_history_ismms">মাল্টিমিডিয়া বার্তা পুনরুদ্ধার করুন</string>
+    <string name="contact_detail_history_empty_calllog">"কল ইতিহাস খালি"</string>
+    <string name="contact_detail_history_empty_message">কোন বার্তা নেই</string>
+    <string name="contact_detail_history_empty">"কল, বার্তার কোন ইতিহাস নেই"</string>
+    <string name="contact_recent_number_limit">"শুধুমাত্র %1$s পরিচিতজন পাওয়া যাচ্ছে"</string>
+    <string name="contact_recent_group_label">----------------</string>
+        
+    
+    <string name="call_pin_dialog_title_ct">ইউআইএম/সিম কার্ড নির্বাচন করুন</string>
+    <string name="callFailed_simError_ct">কোন ইউআইএম/সিম নেই বা ইউআইএম/সিমে ভুল</string>
+    <string name="msg_loading_sim_contacts_toast_ct">"ব্যাকগ্রাউন্ডে ইউআইএম/সিমের পরিচিতজন লোড হচ্ছে, কিছুক্ষণ অপেক্ষা করুন"</string>
+    <string name="xport_error_one_account_ct">"ইউআইএম/সিম কার্ড প্রবেশ করান বা এসডি কার্ডে পরিচিতজন আমদানি/রপ্তানি করুন"</string>
+    <string name="notifier_failure_by_sim_full_ct">ইউআইএম/সিম স্টোরেজ পূর্ণ হবার কারণে ব্যর্থ হয়েছে\nসম্পন্ন: <xliff:g id="items">%d</xliff:g>\nঅসম্পূণ: <xliff:g id="items">%d</xliff:g></string>
+    <string name="notifier_failure_sim_notready_ct">ইউআইএম/সিম প্রস্তুত না হওয়ার কারণে ব্যর্থ হয়েছে\nসম্পন্ন: <xliff:g id="items">%d</xliff:g>\nঅসম্পূণ: <xliff:g id="items">%d</xliff:g></string>
+    <string name="look_simstorage_ct">ইউআইএম/সিম কার্ডের ধারণক্ষমতা দেখুন</string>
+
+    <string name="callFailed_cdma_notEmergency">কেবল জরুরি কল করা সম্ভব।</string>
+
+    
+    <string name="international_dialing_title">আন্তর্জাতিক ডায়ালিং সহায়তা</string>
+    <string name="international_dialing_select_country">এটি সনাক্ত করেছে যে আপনি একটি আন্তর্জাতিক কল করছেন। আপনার গন্তব্য বেছে নিন।</string>
+    <string name="international_dialing_add_country_code">এটি সনাক্ত করেছে যে আপনি একটি <xliff:g id="country_name">%s</xliff:g> নম্বর ডায়াল করছেন। আপনি কি দেশের কোড নম্বর  (+<xliff:g id="country_code">%s</xliff:g>) যোগ করতে চান?</string>
+    <string name="international_dialing_add_country_code_and_area_code">এটি সনাক্ত করেছে যে আপনি <xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g>এর একটি নম্বর ডায়াল করছেন। আপনি কি দেশের ও অঞ্চলের কোড(+<xliff:g id="prefix">%3$s</xliff:g>) যোগ করতে চান?</string>
+    <string name="international_dialing_change_country_prefix">এটি সনাক্ত করেছে যে আপনি <xliff:g id="country_name">%s</xliff:g> থেকে ডায়াল করছেন। আন্তর্জাতিক কলের প্রেফিক্স \'+\'তে পরিবর্তন করবেন?</string>
+    <string name="international_dialing_add_country_code_input_area_code">এটি সনাক্ত করেছে যে আপনি <xliff:g id="country_name">%s</xliff:g>এর একটি নম্বর ডায়াল করছেন। যদি তাই হয়, তাহলে অঞ্চলের কোড প্রবেশ করান।</string>
+    <string name="international_dialing_add_country_code_default_input_area_code">এটি সনাক্ত করেছে যে আপনি <xliff:g id="country_name">%s</xliff:g>এর একটি নম্বর ডায়াল করছেন।আপনার গন্তব্য শহর যদি  <xliff:g id="area_name">%s</xliff:g> না হয়, তাহলে অঞ্চলের কোড প্রবেশ করান।</string>
+    <string name="international_dialing_need_area_code">কলের জন্য আপনার গন্তব্য শহরের অঞ্চল কোড প্রয়োজন।</string>
+    <string name="international_dialing_input_area_code">এখানে অঞ্চল কোড লিখুন</string>
+    <string name="international_dialing_dialed_number">ডায়ালকৃত নম্বর:</string>
+    <string name="international_dialing_confirm_area_code">আপনার গন্তব্য শহর যদি  <xliff:g id="area_name">%s</xliff:g> না হয় তাহলে নিম্নে আপনার গন্তব্য শহরের অঞ্চল কোড প্রবেশ করান।</string>
+    <string name="international_dialing_click_below_button">দেশের কোড নম্বর পরিবর্তন করতে নিচের বাটনে ক্লিক করুন</string>
+    <string name="international_dialing_yes">হ্যা। নিচে আপনার নম্বর ব্যবহার করুন:</string>
+    <string name="international_dialing_no">না। মূল নম্বর ব্যবহার করুন:</string>
+    <string name="international_dialing_call_button">ফোন করুন</string>
+    <string name="international_dialing_area_code">অঞ্চল কোড</string>
+    <string name="international_dialing_invalid_number">নম্বর অকার্যকর। আপনি কি তবুও ডায়াল অব্যাহত রাখতে চান?</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">আপনি কি দেশ ও অঞ্চল কোড যোগ করতে চান?</string>
+    <string name="no_search_result">অনুসন্ধানের কোন ফলাফল নেই</string>
+
+    <string name="account_phone_only" product="tablet">ট্যাবলেট</string>
+    <string name="account_phone_only" product="default">ফোনের পরিচিতজন</string>
+    
+    
+    
+    <string name="no_match_call_log">" মিল হওয়া কোন আইটেম নেই"</string>
+    <string name="no_call_log">" কোন কল লগ নেই"</string>
+    <string name="share_too_large">মোট ডাটা ওপরের সীমা অতিক্রম করেছে, কিছু আইটেমকে নির্বাচন থেকে বাদ দিয়ে আবার চেষ্টা করুন।</string>
+
+    
+    
+
+    <string name="err_icc_no_phone_book">%1$s পরিচিতজন স্টোর করতে সক্ষম নয়</string>
+
+    
+    
+    <string name="titleJoinContactDataWith">পরিচিতজনদের যুক্ত করুন</string>
+
+    
+    <string name="menu_select_all">সব নির্বাচন করুন</string>
+
+    
+    <string name="list_filter_custom">কাস্টম</string>
+
+    
+    <string name="add_contact_dlg_message_fmt">পরিচিতজনের সাথে \"<xliff:g id="email">%s</xliff:g>\"- যোগ করবেন?</string>
+
+    
+    <string name="locale_change_in_progress">ভাষার পরিবর্তনের প্রতিফলন ঘটানোর জন্য পরিচিতজনের তালিকা আপডেট করা হয়েছে।\n\n অপেক্ষা করুন...</string>
+
+    
+    <string name="noFavoritesHelpText">"আপনার কোনো প্রিয় নেই।\n\nআপনার প্রিয় তালিকায় কোনো পরিচিতজন যোগ করতে:\n <li>স্পর্শ করুন <b>পরিচিতজন</b> ট্যাব\n</li> \n<li>আপনার প্রিয়তে যোগ করতে আপনার ইচ্ছানুযায়ী পরিচিতজনে স্পর্শ করুন\n</li> \n<li>আপনার পরিচিতজনের নামের পাশে তারকা স্পর্শ করুন।\n</li>"</string>
+
+    
+    <string name="non_phone_caption">ফোন নম্বর</string>
+
+    
+    <string name="menu_select_none">সব নির্বাচনমুক্ত করুন</string>
+
+    <string name="find_call_logs">কল তালিকা বের করুন</string>
+    <string name="call_log_via_sim_name_notice">\"<xliff:g id="sim_name">%s</xliff:g>\"-এর মাধ্যমে কল তালিকা</string>
+    
+
+    
+    <string name="mtk_contact_list_loading">লোড হচ্ছে\u2026</string>
+    <string name="vcard_import_failed_v2">আমদানি করা যায়নি</string>
+    <string name="quickcontact_missing_app">এই পদক্ষেপটি সামলানোর জন্য কোন অ্যাপ্লিকেশন নেই</string>
+    <string name="imsCallLabelsGroup">আইএমএস কল</string>
+    <string name="sip_url">এসআইপি ইউআরএল</string>
+    <string name="ims_call_disabled">আইএমএস কল নেই</string>
+    <string name="vcs_menu_voice_contacts_search" product="default">ভয়েস কনটাক্ট অনুসন্ধান</string>
+    <string name="vcs_msg_no_voice_contacts">ইস, কনটাক্ট পাওয়া গেল না।</string>
+
+<string name="call_speed_dial_title">স্পিড ডায়াল</string>
+    <string name="dialog_no_speed_dial_number_message">কোনো স্পিড ডায়াল নম্বর নেই, এখন সেট করবেন?</string>
+    <string name="icc_phone_book_invalid">ফোনবুক এখন পাওয়া যাচ্ছে না, পরে চেষ্টা করুন।</string>
+    <string name="error_edit_join_group">এটি একটি সংযুক্ত পরিচিতজন। আপনি সম্পাদন মোডে গ্রুপ তথ্য সম্পাদনা করতে পারেন।</string>
+    <string name="local_phone_account" product="tablet">"ট্যাবলেট"</string>
+    <string name="local_phone_account" product="default">ফোন</string>
+
+    <string name="contact_import_export_tips">পরিচিতজন আমদানি/রপ্তানি করতে, পরে চেষ্টা করুন</string>
+</resources>

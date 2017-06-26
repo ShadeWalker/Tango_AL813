@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">Pengurang Bising</string>
+    <string name="dual_mic_summary">Minimalkan kebisingan latar belakang selama panggilan berlangsung</string>
+    <string name="anc_title">Aktifkan Pengurang Noise</string>
+    <string name="anc_on">ANC aktif</string>
+    <string name="anc_off">ANC tidak aktif</string>
+    <string name="ip_prefix_setting">Nomor awal IP</string>
+    <string name="ip_prefix_setting_lable">Nomor awal IP (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">Pengaturan nomor awal IP</string>
+    <string name="enter_ip_prefix_number">Masukkan nomor awal</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Masukkan nomor awal IP terlebih dulu di pengaturan Panggilan suara.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">Fungsi panggilan IP tidak tersedia untuk Panggilan disengaja.</string>
+    <string name="ip_prefix_edit_default_sum">Masukkan nomor awal untuk panggilan IP</string>
+    <string name="lable_call_barring">"Pemblokiran panggilan"</string>
+    <string name="title_call_barring">Pemblokiran panggilan (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">Semua panggilan keluar</string>
+    <string name="lable_all_outgoing_international">Panggilan keluar internasional</string>
+    <string name="lable_all_out_except">Panggilan keluar internasional kecuali ke rumah PLMN</string>
+    <string name="lable_all_incoming">Semua panggilan masuk</string>
+    <string name="lable_incoming_calls_except">Panggilan masuk saat roaming</string>
+    <string name="deactivate_all">Batalkan semua</string>
+    <string name="change_password">Ganti sandi pencegahan</string>
+    <string name="call_barring_sum">Pengaturan pembatasan panggilan suara</string>
+    <string name="lable_disable">Tidak aktif</string>
+    <string name="lable_enable">"Diaktifkan"</string>
+    <string name="old_password_label">Sandi lama(4 angka)</string>
+    <string name="new_password_label">Sandi baru(4 angka)</string>
+    <string name="invalid_password">Ketik sandi yang terdiri atas 4 angka</string>
+    <string name="confirm_password_label">Konfirmasikan sandi baru</string>
+    <string name="mismatch_password">Sandi yang Anda masukkan tidak cocok. Coba lagi.</string>
+    <string name="password_changed">Sandi berhasil diubah</string>
+    <string name="enter_callbarring_password">Masukkan sandi pencegahan panggilan(4 angka)</string>
+    <string name="wrong_password">Sandi salah</string>
+    <string name="error_title">"Kesalahan"</string>
+    <string name="cell_broadcast">Siaran selular</string>
+    <string name="cell_broadcast_settings">Pengaturan siaran selular</string>
+    <string name="cb_menu_language">"Bahasa"</string>
+    <string name="cb_menu_add_channel">Tambah saluran</string>
+    <string name="cb_menu_channel_list">Daftar saluran</string>
+    <string name="cb_dialog_title_language_choice">Pilih bahasa</string>
+    <string name="cb_channel_dialog_channel_name">Nama saluran (0-10karakter)</string>
+    <string name="cb_channel_dialog_channel_number">Nomor saluran(0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">Aktifkan saluran</string>
+    <string name="cb_channel_dialog_edit_channel">Edit Saluran</string>
+    <string name="cb_menu_edit">"Edit"</string>
+    <string name="cb_menu_delete">"Hapus"</string>
+    <string name="cb_error_channel_num">Masukkan nomor saluran(0-65534)</string>
+    <string name="cb_error_channel_name">Panjang nama saluran salah(1-10karakter).</string>
+    <string name="cb_error_language_select">Pilih sekurangnya satu bahasa.</string>
+    <string name="cb_error_channel_id_exist">ID saluran ada.</string>
+    <string name="cb_all_languages">Semua Bahasa</string>
+    <string name="cb_default_new_channel_name">Saluran Baru</string>
+    <string name="fdn_errorcode_unknown_info">Gagal, terjadi kesalahan tidak dikenal, coba lagi nanti.</string>
+    <string name="fdn_errorcode_number_info">Gagal, panjang nomor kontak terlalu panjang.</string>
+    <string name="fdn_errorcode_name_info">Gagal, panjang nama kontak terlalu panjang.</string>
+    <string name="fdn_errorcode_storage_info">Gagal, penyimpanan penuh</string>
+    <string name="fdn_errorcode_phb_info">Gagal, Buku telepon tidak siap sekarang, coba lagi nanti.</string>
+    <string name="fdn_errorcode_pin2_info">Gagal, PIN2 tidak valid.</string>
+    <string name="net_or_simcard_busy">Jaringan atau kartu SIM sibuk, harap coba lagi nanti.</string>
+    <string name="plmn_list_setting_title">Preferensi</string>
+    <string name="network_id">ID jaringan</string>
+    <string name="plmn_list_setting_add_plmn">Tambahkan PLMN baru</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">Cari...</string>
+    <string name="sum_search_femtocell_networks">Pilih femtocell secara manual</string>
+    <string name="register_femtocell_point_wait_tip">Mendaftar <xliff:g id="femto_cell_info">%s</xliff:g> …</string>
+    <string name="register_femtocell_point_result_fail_tip">Tidak dapat menyambung ke jaringan saat ini. Coba lagi nanti.</string>
+    <string name="network_type">Jenis jaringan</string>
+    <string name="gsm_umts_network_preferences_title">"Mode Jaringan"</string>
+    <string name="gsm_umts_network_preferneces_summary">Belum diterapkan!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"Mode Jaringan"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>"2G/3G (mode otomatis)"</item>
+        <item>3G saja</item>
+        <item>2G saja</item>
+    </string-array>
+    <string name="notification_voicemail_text">Pilih untuk melihat pesan suara</string>
+    <string name="notification_network_selection_without_operator">Jaringan yang dipilih tidak tersedia</string>
+    <string name="network_setting_all_forbidden_dialog">Jaringan tidak tersedia.</string>
+    <string name="network_forbidden">Menonaktifkan</string>
+    <string name="fdn_contact_number_invalid">Nomor kontak tidak valid.</string>
+    <string name="fdn_puk_need_tips">PIN2 Diblokir. Ubah PIN2 dan coba lagi!</string>
+    <string name="fdn_phone_book_busy">Buku telepon sedang sibuk, harap coba lagi nanti.</string>
+    <string name="one_retry_left">1 percobaan lagi</string>
+    <string name="retries_left"><xliff:g id="number">%d</xliff:g> percobaan lagi</string>
+    <string name="pin_length_indicate">(4-8 digit)</string>
+    <string name="puk_length_indicate">(8 digit)</string>
+    <string name="unblock_pin2">Batalkan pemblokiran PIN2</string>
+    <string name="sim_permanently_locked">Memasukkan kode PUK yang salah lebih dari 10 kali, kartu SIM dikunci secara permanen</string>
+    <string name="magi_conference_title">Konferensi Ajaib</string>
+    <string name="magi_conference_summary">Meningkatkan kualitas suara bila beberapa orang menggunakan ponsel untuk mengobrol dengan lawan bicara.</string>
+    <string name="volte_is_adding_participants">Menambahkan anggota konferensi, tunggu…</string>
+    <string name="volte_fail_to_invit_participants">Gagal menambahkan semua anggota ke dalam konferensi.</string>
+    <string name="voicemail_lable">Kotak Pesan (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">Untuk menyelesaikan operasi, Anda harus membuka sambungan data <xliff:g id="sub_name">%s</xliff:g>.</string>
+    <string name="cdma_labelCFU">"Selalu teruskan"</string>
+    <string name="cdma_labelCFB">"Teruskan ketika sibuk"</string>
+    <string name="cdma_labelCFNRy">"Teruskan ketika tidak dijawab"</string>
+    <string name="cdma_labelCFNRc">"Teruskan ketika tidak dapat dihubungi"</string>
+    <string name="cdma_labelCFC">Batalkan semua</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">Nonaktifkan pembatasan identifikasi nomor pemanggil</string> 
+    <string name="cdma_cnir_turnon">Aktifkan pembatasan identifikasi nomor pemanggil</string>
+    <string name="lte_data_only_prompt">Tidak dapat menggunakan fitur ini karena mode hanya data 4G. Apakah Anda ingin keluar dari mode hanya data 4G?</string>
+    <string name="lte_data_only_timeout">Tidak ada jaringan hanya data 4G yang tersedia dalam lokasi saat ini, Apakah Anda ingin keluar dan mencari jaringan lainnya?</string>
+    <string name="lte_only_dialog_button_yes">"YA"</string>
+    <string name="lte_only_dialog_button_no">"TIDAK"</string>
+    <string name="lte_only_dialog_title_prompt">Segera</string>
+    <string name="enable_4G_data">Aktifkan data 4G</string>
+    <string name="enable_4G_data_summary">4G dapat memberikan akses internet yang lebih baik dan lebih cepat</string>
+    <string name="only_use_LTE_data">Hanya Menggunakan Data LTE</string>
+    <string name="only_use_LTE_data_summary">Saat mengaktifkan hanya menggunakan data tunggal, fungsi tidak akan dapat menggunakan panggilan Telepon dan pesan teks.</string>
+<!-- HQ_fengsimin add for HQ00055994 start -->
+     <string name="network_current">Daftar</string>
+      <string name="network_unkown">tidak diketahui</string>
+       <string name="network_available">tersedia</string>
+<string name="gsm_network">Jaringan GSM</string>
+    <string name="cdma_network">JARINGAN CDMA</string>
+    <string name="no_sim_card">Tak ada kartu SIM</string>
+    <string name="no_sim_card_cdma">Tak ada kartu UIM</string>
+ <string name="wfc_quick_toggle_title">Panggilan Wi-Fi</string>
+<string name="Wfc_off_summary">Dinonaktifkan</string>
+<string name="airplane_mode_on">Modus pesawat aktif</string>
+<string name="wifi_off_summary">Wi-Fi dimatikan.</string>
+<string name="wfc_unknown_error_summary">Galat tidak dikenal</string>
+<!-- HQ_fengsimin add for HQ00055994 end -->
+</resources>

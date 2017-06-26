@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Official label of the Telecomm/Phone app, as seen in "Manage Applications"
+         and other settings UIs. This is the "app name" used in notification, recents,
+         and app info screens. -->
+    <string name="telecommAppLabel" product="default">Phone</string>
+
+    <!-- Name for an "unknown" caller. -->
+    <string name="unknown">Unknown</string>
+
+    <!-- Notification strings -->
+    <!-- Missed call notification label, used when there's exactly one missed call -->
+    <string name="notification_missedCallTitle">Missed call</string>
+    <!-- Missed call notification label, used when there are two or more missed calls -->
+    <string name="notification_missedCallsTitle">Missed calls</string>
+    <!-- Missed call notification message used when there are multiple missed calls -->
+    <string name="notification_missedCallsMsg"><xliff:g id="num_missed_calls">%s</xliff:g> missed calls</string>
+    <!-- Missed call notification message used for a single missed call, including
+         the caller-id info from the missed call -->
+    <string name="notification_missedCallTicker">Missed call from <xliff:g id="missed_call_from">%s</xliff:g></string>
+    <!-- Message for "call back" Action, which is displayed in the missed call notificaiton.
+         The user will be able to call back to the person or the phone number.
+         [CHAR LIMIT=60] -->
+    <string name="notification_missedCall_call_back">Call back</string>
+    <!-- Message for "reply via sms" action, which is displayed in the missed call notification.
+         The user will be able to send text messages using the phone number.
+         [CHAR LIMIT=60] -->
+    <string name="notification_missedCall_message">Message</string>
+
+    <!-- Content description of the call muted notification icon for
+         accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_call_muted">Call muted.</string>
+
+    <!-- Content description of the speakerphone enabled notification icon for
+         accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_speakerphone_enabled">Speakerphone enabled.</string>
+
+    <!-- Canned response for the "Respond via SMS" feature for incoming calls. [CHAR LIMIT=35] -->
+    <string name="respond_via_sms_canned_response_1">I\'m busy right now.Please call me later.</string>
+    <!-- Canned response for the "Respond via SMS" feature for incoming calls. [CHAR LIMIT=35] -->
+    <string name="respond_via_sms_canned_response_2">I\'m not available at the moment, and will get back to you soon.</string>
+    <!-- Canned response for the "Respond via SMS" feature for incoming calls. [CHAR LIMIT=35] -->
+    <string name="respond_via_sms_canned_response_3">I\'m driving.</string>
+    <!-- Canned response for the "Respond via SMS" feature for incoming calls. [CHAR LIMIT=35] -->
+    <string name="respond_via_sms_canned_response_4">I\'m in a metting.</string>
+
+    <!-- Title of settings screen for managing the "Respond via SMS" feature. [CHAR LIMIT=30] -->
+    <string name="respond_via_sms_setting_title">Reject calls with SMS</string>
+    <string name="respond_via_sms_setting_title_summary">Customize messages used to reject incoming calls</string><!-- add by wangmingyue for HQ01612467 -->
+    <!-- Slightly more verbose title of settings screen for managing the
+         "Respond via SMS" feature. [CHAR LIMIT=30] -->
+    <string name="respond_via_sms_setting_title_2">Edit quick responses</string>
+    <!-- Settings summary string for the "Respond via SMS" feature. [CHAR LIMIT=40] -->
+    <string name="respond_via_sms_setting_summary"></string>
+    <!-- Dialog title when changing a string for the "Respond via SMS" feature. [CHAR LIMIT=30] -->
+    <string name="respond_via_sms_edittext_dialog_title">Quick response</string>
+
+    <!-- "Respond via SMS": Confirmation message shown after sending
+        a text response. [CHAR LIMIT=40] -->
+    <string name="respond_via_sms_confirmation_format">Message sent to <xliff:g id="phone_number">%s</xliff:g>.</string>
+
+    <!-- Message indicating that the user is not allowed to make non-emergency outgoing phone calls
+         due to a user restriction -->
+    <string name="outgoing_call_not_allowed">Only emergency calls are allowed by the device owner</string>
+
+    <!-- Call failure message displayed in an error dialog used to indicate that a phone number was not provided -->
+    <string name="outgoing_call_error_no_phone_number_supplied">To place a call, enter a valid number.</string>
+
+    <!-- Message shown when the user tries to make a video call when already in a video call. -->
+    <string name ="duplicate_video_call_not_allowed">Call cannot be added at this time.</string>
+    <!-- Call failure message displayed in an error dialog used to indicate that a phone number was not provided -->
+    <string name="outgoing_call_error_limit_exceeded">Call not sent, limit exceeded.</string>
+
+    <!-- missing voicemail number -->
+    <!-- Title of the "Missing voicemail number" dialog -->
+    <string name="no_vm_number">Missing voicemail number</string>
+    <!-- Body text of the "Missing voicemail number" dialog -->
+    <string name="no_vm_number_msg">No voicemail number is stored on the SIM card.</string>
+    <!-- Button label on the "Missing voicemail number" dialog -->
+    <string name="add_vm_number_str">Add number</string>
+
+    <!-- DO NOT TRANSLATE. Label for test Subscription 0. -->
+    <string name="test_account_0_label">Q Mobile</string>
+    <!-- DO NOT TRANSLATE. Label for test Subscription 1. -->
+    <string name="test_account_1_label">Market Wireless</string>
+    <!-- DO NOT TRANSLATE. Label for test Subscription 2. -->
+    <string name="test_account_2_label">Sonoma Circles Talk Plus</string>
+    <!-- DO NOT TRANSLATE. Label for test Subscription 3. -->
+    <string name="test_account_3_label">Bay Voice Chat Pro</string>
+
+    <!-- DO NOT TRANSLATE. Short description for test Subscription 0. -->
+    <string name="test_account_0_short_description">Account with Q Mobile</string>
+    <!-- DO NOT TRANSLATE. Short description for test Subscription 1. -->
+    <string name="test_account_1_short_description">Account with Market Wireless</string>
+    <!-- DO NOT TRANSLATE. Short description for test Subscription 2. -->
+    <string name="test_account_2_short_description">Talk to everyone in your Circles!</string>
+    <!-- DO NOT TRANSLATE. Short description for test Subscription 3. -->
+    <string name="test_account_3_short_description">Chat with Chat Network users</string>
+
+    <!-- DO NOT TRANSLATE. Hardcoded number used for restricted incoming phone numbers. -->
+    <string name="handle_restricted">RESTRICTED</string>
+            <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_unknown">Unsupported service.</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_switch">Unable to switch calls.</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_separate">Unable to separate call.</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_transfer">Unable to transfer call.</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_conference">Unable to conference calls.</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_reject">Unable to reject call.</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_hangup">Unable to release call(s).</string>
+    <!-- call settings toast, MO -->
+    <string name="mo_code_unconditional_cf_active">Call forwarding\nunconditional activated</string>
+    <string name="mo_code_some_cf_active">Call Forwarding\nOn Conditional</string>
+    <string name="mo_code_call_forwarded">Call forwarded</string>
+    <string name="mo_code_call_is_waiting">Waiting call</string>
+    <string name="mo_code_cug_call">Closed User Group</string>
+    <string name="mo_code_no_cug_call"></string>
+    <string name="mo_code_outgoing_calls_barred">Outgoing call barred</string>
+    <string name="mo_code_incoming_calls_barred">Incoming call barred in the other side</string>
+    <string name="mo_code_clir_suppression_rejected">Check caller ID sending service</string>
+    <string name="mo_code_call_deflected">call Call transferred</string>
+    <string name="mo_code_call_forwarding">Call forwarding...</string>
+    <!-- call settings toast, MT -->
+    <string name="mt_code_forwarded_call">It is a forwarded call</string>
+    <string name="mt_code_cug_call">Closed User Group</string>
+    <string name="mt_code_no_cug_call"></string>
+    <string name="mt_code_call_on_hold">Call on hold</string>
+    <string name="mt_code_call_retrieved">Call retrieved</string>
+    <string name="mt_code_multi_party_call">Conference call</string>
+    <string name="mt_code_on_hold_call_released">Held call released</string>
+    <string name="mt_code_forward_check_received">Forward check SS message received</string>
+    <string name="mt_code_call_connecting_ect">Call transferring</string>
+    <string name="mt_code_call_connected_ect">Call transfer active</string>
+    <string name="mt_code_deflected_call">It is a deflected call</string>
+    <string name="mt_code_additional_call_forwarded">Additional incoming call forwarded</string>
+    <string name="mt_code_forwarded_cf">Call forwarded</string>
+    <string name="mt_code_forwarded_cf_uncond">Call forwarded on unconditional</string>
+    <string name="mt_code_forwarded_cf_cond">Call forwarded on conditional</string>
+    <string name="mt_code_forwarded_cf_busy">Call busy forwarded</string>
+    <string name="mt_code_forwarded_cf_no_reply">Call forwarded on not reply</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Call forwarded on not reachable</string>
+    <string name="Prohibit_Send">Children mode disables sending messages</string><!--add by lihaizhou for ChildMode-->
+</resources>

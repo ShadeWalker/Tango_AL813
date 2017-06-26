@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">သက္ေသခံလက္မွတ္ တပ္ဆင္သူ</string>
+    <string name="pick_file_title">သက္ေသခံ လက္မွတ္တစ္ခုကို ေရြးရန္</string>
+    <string name="pkcs12_password_dialog_title">သက္ေသခံလက္မွတ္ကို ထုတ္ယူရန္</string>
+    <string name="extracting_pkcs12">ထုတ္ယူေနသည္\u2026</string>
+    <string name="pkcs12_file_password_dialog_title">%s မွထုတ္ယူရန္</string>
+    <string name="name_credential_dialog_title">သက္ေသခံလက္မွတ္ကို အမည္ေပးရန္</string>
+    <string name="credential_name">သက္ေသခံလက္မွတ္ အမည္-</string>
+    <string name="credential_password">သက္ေသခံ လက္မွတ္မ်ားကို ထုတ္ယူရန္အတြက္ စကားဝွက္ကို ႐ိုက္ထည့္ပါ။</string>
+    <string name="credential_info">ပက္ေက့ခ်္တြင္ ပါဝင္သည့္အရာ -</string>
+    <string name="p12_description">PKCS12 ကီးစတိုးရွိ သက္ေသခံ လက္မွတ္မ်ား။</string>
+    <string name="one_userkey">အသံုးျပဳသူ တစ္ဦးတည္း ခလုတ္</string>
+    <string name="one_usercrt">အသံုးျပဳသူတစ္ဦးတည္း သက္ေသခံလက္မွတ္</string>
+    <string name="one_cacrt">CA သက္ေသခံ လက္မွတ္တစ္ခု</string>
+    <string name="n_cacrts">ယံုၾကည္စိတ္ခ်ရေသာ CA အေထာက္ အထားမ်ားကို ျပသပါ</string>
+    <string name="password_error">စကားဝွက္အမွန္ကို ႐ိုက္ထည့္ပါ။</string>
+    <string name="password_empty_error">စကားဝွက္ကို ႐ိုက္ထည့္ပါ။</string>
+    <string name="name_empty_error">အမည္တစ္ခုကို ႐ိုက္ထည့္ပါ။</string>
+    <string name="name_char_error">အကၡရာစာလံုးမ်ားႏွင့္ နံပါတ္မ်ားသာပါေသာ အမည္တစ္ခုကို ႐ိုက္ထည့္ပါ။</string>
+    <string name="storage_error">သက္ေသခံလက္မွတ္ကို မသိမ္းဆည္းႏိုင္ပါ။ ထပ္မံႀကိဳးစားရန္ အိုေက ကိုထိပါ။</string>
+    <string name="unable_to_save_cert">သက္ေသခံလက္မွတ္ကို မသိမ္းဆည္းႏိုင္ပါ။ သင့္ေတာ္သည့္ သိမ္းဆည္းေနရာမွာ အလုပ္မလုပ္ႏိုင္ပါ သို႔မဟုတ္ ယင္းကို ေသခ်ာစြာ အစမျပဳႏိုင္ပါ။</string>
+    <string name="cert_not_saved">သက္ေသခံလက္မွတ္ကို ထည့္သြင္းမထားပါ။</string>
+    <string name="no_cert_to_saved">ထည့္သြင္းရမည့္ သက္ေသခံလက္မွတ္ မရွိပါ။</string>
+    <string name="invalid_cert">သက္ေသခံလက္မွတ္မွာ တရားမဝင္ပါ။</string>
+    <string name="cert_is_added">  <xliff:g id="credential">%s</xliff:g> ကို ထည့္သြင္းထားသည္။ </string>
+    <string name="cert_too_large_error">သက္ေသခံလက္မွတ္ အရြယ္အစားမွာ ႀကီးလြန္းေသာေၾကာင့္ ထည့္သြင္း၍မရႏိုင္ပါ။</string>
+    <string name="cert_missing_error">သက္ေသခံလက္မွတ္ ဖိုင္ကို ရွာမေတြ႕ေသာေၾကာင့္ ထည့္သြင္း၍မရႏိုင္ပါ။</string>
+    <string name="cert_read_error">သက္ေသခံလက္မွတ္ ဖိုင္ကို ဖတ္၍ မရႏိုင္ေသာေၾကာင့္ ထည့္သြင္း၍မရႏိုင္ပါ။</string>
+    <string name="no_cert_file_found" product="nosdcard">USB သိမ္းဆည္းေနရာတြင္ သက္ေသခံလက္မွတ္ ဖိုင္ ရွာမေတြ႕ပါ။</string>
+    <string name="no_cert_file_found" product="default">No certificate file found in phone storage.</string>
+    <string name="sdcard_not_present" product="nosdcard">USB သိမ္းဆည္းေနရာ မရရွိႏိုင္ပါ။</string>
+    <string name="sdcard_not_present" product="default">SD ကတ္မရွိပါ။</string>
+    <string name="only_primary_user_allowed">Only the owner of this device may install certificates.</string>
+    <string name="credential_usage_label">Credential use:</string>
+    <string-array name="credential_usage">
+        <item>VPN and apps</item>
+        <item>ဝိုင္-ဖိုင္  </item>
+    </string-array>
+</resources>

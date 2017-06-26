@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- header也可以通过intent唤起其他activity，而不只限于preference fragment，本例将通过浏览器打开某网页 -->
+    <header 
+            android:title="@string/respond_via_sms_setting_title" 
+            > 
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.server.telecom"
+                android:targetClass="com.android.server.telecom.RespondViaSmsSettings$Settings" />
+    </header> 
+    
+</preference-headers>

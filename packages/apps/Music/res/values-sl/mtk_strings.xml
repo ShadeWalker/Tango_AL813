@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/*
+** Copyright 2007, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="search_empty">Ni ujemanj.</string>
+    <string name="audiofocus_request_failed_message">Med klicem se ne more predvajati glasba.</string>
+    <string name="delete_progress_title">Izbriši skladbe</string>
+    <string name="delete_progress_message">Brisanje skladb ... Počakajte.</string>
+    <string name="menu_search">"Iskanje"</string>
+    <string name="fail_to_start_stream">Neuspešno predvajanje zahtevanega toka.</string>
+    <string name="music_fm_transmiter">FM predajnik</string>
+    <string name="effects_list_title">"Zvočni učinki"</string>
+    <string name="usb_in_using">Seznam predvajanja ni na voljo, če je omogočen pomnilnik USB.</string>
+    <string name="shuffle_menu_item_desc">Naključno</string>
+    <string name="repeat_menu_item_desc">"Ponovi"</string>
+    <string name="delete_track_failed">"Brisanje ni uspelo."</string>
+    <string name="no_music_title">Ni glasbe.</string>
+    <string name="voice_command_indicator_ticker">Rečete lahko 
+        <xliff:g id="first">%1$s</xliff:g> in 
+        <xliff:g id="second">%2$s</xliff:g> za nadzor predvajanja glasbe.
+    </string>
+    <string name="voice_command_indicator_content_title">Govorni nadzor</string>
+    <string name="voice_command_indicator_content_text">Za glasbo je omogočen govorni nadzor</string>
+    <string name="add_folder_to_play">Predvajaj mapo</string>
+    <string name="add_folder_as_playlist">Dodajte mapo kot seznam predvajanja</string>
+    <string name="add_song_to_play">Predvajaj datoteko</string>
+    <string name="add_file">Dodaj datoteko</string>
+    <string name="fl_invalid">Ni dovoljenja za predvajanje te datoteke.</string>
+    <string name="save_playlist_error">Seznama predvajanja ni bilo mogoče shraniti.</string>
+    <string name="soundrecord_playlist_name">Moji posnetki</string>
+    <string name="fmrecord_playlist_name">FM posnetki</string>
+    <string name="phonerecord_playlist_name">Telefonski posnetki</string>
+</resources>

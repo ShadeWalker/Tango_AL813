@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="3658948994665187911" name="app_label">"Upravitelj prenosov"</string>
+    <string msgid="7779544811202855500" name="permlab_downloadManager">"Dostop do upravitelja prenosov."</string>
+    <string msgid="4237406545998908947" name="permdesc_downloadManager">"Dovoli programu dostopanje do upravitelja prenosov in njegovo uporabo za prenos datotek. Zlonamerni programi lahko s tem motijo prenose in dostopajo do zasebnih podatkov."</string>
+    <string msgid="7103642833308809655" name="permlab_downloadManagerAdvanced">"Dodatne funkcije upravitelja prenosov."</string>
+    <string msgid="2659546004160962761" name="permdesc_downloadManagerAdvanced">"Dovoli programu dostopanje do dodatnih funkcij upravitelja prenosov. Zlonamerni programi lahko s tem motijo prenose in dostopajo do zasebnih podatkov."</string>
+    <string msgid="945913803765675685" name="permlab_downloadCompletedIntent">"Pošlji obvestila o prenosih."</string>
+    <string msgid="2094706189855699533" name="permdesc_downloadCompletedIntent">"Dovoli programu pošiljanje obvestil o končanih prenosih. Zlonamerni programi lahko s tem zmedejo druge programe, ki prenašajo datoteke."</string>
+    <string msgid="4084575448409212628" name="permlab_seeAllExternal" product="nosdcard">"Prikaži vse prenose v pomnilnik USB"</string>
+    <string msgid="140058400609165726" name="permlab_seeAllExternal" product="default">"Prikaži vse prenose na kartico SD"</string>
+    <string msgid="1672759909065511233" name="permdesc_seeAllExternal">"Dovoli programu ogled vseh prenosov na kartico SD ne glede na to, kateri program jih je prenesel."</string>
+    <string msgid="3069534308882047412" name="permlab_downloadCacheNonPurgeable">"Rezerviraj prostor v predpomnilniku za prenose"</string>
+    <string msgid="2408760720334570420" name="permdesc_downloadCacheNonPurgeable">"Dovoli programu prenašanje datotek v predpomnilnik za prenose, ki ga ni mogoče samodejno izbrisati, ko upravitelj prenosov potrebuje več prostora."</string>
+    <string msgid="8837971946078327262" name="permlab_downloadWithoutNotification">"prenos datotek brez obvestila"</string>
+    <string msgid="8483135034298639727" name="permdesc_downloadWithoutNotification">"Dovoli programu prenos datotek z upraviteljem prenosov, brez prikaza obvestila uporabniku."</string>
+    <string msgid="2436240495424393717" name="permlab_accessAllDownloads">"Dostop do vseh sistemskih prenosov"</string>
+    <string msgid="1871832254578267128" name="permdesc_accessAllDownloads">"Dovoli programu prikaz in spreminjanje vseh prenosov, ki jih je začel poljubni program v sistemu."</string>
+    <string msgid="7015124071247271585" name="download_unknown_title">"&lt;Brez naslova&gt;"</string>
+    <string msgid="5443563299253103667" name="notification_download_complete">"Prenos je končan."</string>
+    <string msgid="8612136111952014978" name="notification_download_failed">"Prenos ni uspel."</string>
+    <string msgid="2556172885154833575" name="notification_need_wifi_for_size">"Zahtev. je povez. Wi-Fi."</string>
+    <string msgid="4328508073283591772" name="notification_paused_in_background">"Začas. ustav. v ozadju."</string>
+    <string msgid="1995971416871498179" name="wifi_required_title">"Prenos je prevelik za operaterjevo omrežje"</string>
+    <string msgid="3067694630143784449" name="wifi_required_body">"Če želite dokončati prenos, velik <xliff:g id="SIZE">%s </xliff:g>, morate uporabiti povezavo Wi-Fi. \n\nDotaknite se možnosti <xliff:g id="QUEUE_TEXT">%s </xliff:g>, če želite začeti ta prenos naslednjič, ko boste povezani v omrežje Wi-Fi."</string>
+    <string msgid="7441589306734687400" name="wifi_recommended_title">"Želite postaviti v čakalno vrsto za poznejši prenos?"</string>
+    <string msgid="1314735166699936073" name="wifi_recommended_body">"Zaradi prenosa, velikega <xliff:g id="SIZE">%s </xliff:g>, se lahko porabi baterija in/ali prekomerno uporabijo mobilni podatki, kar vam lahko operater glede na naročnino zaračuna.\n\nDotaknite se <xliff:g id="QUEUE_TEXT">%s</xliff:g>, če želite prenesti, ko boste povezani v Wi-Fi."</string>
+    <string msgid="422576726189179221" name="button_queue_for_wifi">"Čakalna vrsta"</string>
+    <string msgid="2430166148737975604" name="button_cancel_download">"Prekliči"</string>
+    <string msgid="792123674007840864" name="button_start_now">"Začni zdaj"</string>
+  <plurals name="notif_summary_active">
+    <item msgid="8475775855911967027" quantity="one">"Poteka prenos 1 datoteke"</item>
+    <item msgid="9087228371320573153" quantity="other">"Poteka prenos toliko datotek: <xliff:g id="NUMBER">%d</xliff:g>"</item>
+  </plurals>
+  <plurals name="notif_summary_waiting">
+    <item msgid="5537481763963544278" quantity="one">"Na čakanju je 1 datoteka"</item>
+    <item msgid="549229034166062887" quantity="other">"Št. datotek na čakanju: <xliff:g id="NUMBER">%d</xliff:g>"</item>
+  </plurals>
+    <string msgid="3139295890887972718" name="download_remaining">"Še <xliff:g id="DURATION">%s</xliff:g>"</string>
+    <string msgid="7935659741162801699" name="download_no_application_title">"Datoteke ni mogoče odpreti"</string>
+    <string msgid="4098414876292351487" name="root_downloads">"Prenosi"</string>
+    <string msgid="3302638231377947451" name="download_queued">"V čakalni vrsti"</string>
+    <string msgid="3925050393361158266" name="download_running">"Poteka"</string>
+    <string msgid="5144180777324573236" name="download_error">"Neuspešno"</string>
+    <string msgid="4305080769167320204" name="download_running_percent">"Poteka – <xliff:g id="PERCENTAGE">%s</xliff:g>"</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="network_current">Registriranje</string>
+<string name="lable_call_barring">Postavke zabrane poziva</string>
+<string name="lable_all_outgoing">Svi odlazni pozivi</string>
+<string name="lable_all_outgoing_international">Međunarodni odlazni pozivi</string>
+<string name="lable_all_out_except">Međunarodni odlazni pozivi osim na kućni PLMN</string>
+<string name="lable_all_incoming">Svi dolazni pozivi</string>
+<string name="lable_incoming_calls_except">Dolazni pozivi u roamingu</string>
+<string name="deactivate_all">Otkaži sve</string>
+<string name="change_password">Promjena lozinke za zabranu</string>
+<string name="dual_mic_title">Smanjenje šuma</string>
+<string name="ip_prefix_setting_sum">Postavke broja IP prefiksa</string>
+<string name="enter_ip_prefix_number">Broj IP prefiksa</string>
+<string name="call_barring_sum">Postavke za zabranu govornih poziva</string>
+<string name="lable_disable">Onemogućeno</string>
+<string name="lable_enable">Omogućeno</string>
+<string name="confirm_password_label">Potvrdi novu lozinku</string>
+<string name="error_title">Greška</string>
+<string name="cell_broadcast">Informacije o području</string>
+<string name="cell_broadcast_settings">Postavke informacija o području</string>
+<string name="cb_menu_add_channel">Dodaj kanal</string>
+<string name="cb_menu_channel_list">Lista kanala</string>
+<string name="cb_dialog_title_language_choice">Odaberite jezik</string>
+<string name="cb_channel_dialog_channel_state">Omogući kanal</string>
+<string name="cb_channel_dialog_edit_channel">Uredi kanal</string>
+<string name="cb_menu_edit">Uredi</string>
+<string name="cb_menu_delete">Izbriši</string>
+<string name="cb_all_languages">Svi jezici</string>
+<string name="cb_default_new_channel_name">Novi kanal</string>
+<string name="plmn_list_setting_title">Preferirane mreže</string>
+<string name="network_id">ID mreže</string>
+<string name="plmn_list_setting_add_plmn">Novi PLMN</string>
+<string name="in_search_femtocell_networks_wait_tip">Pretraži...</string>
+<string name="register_femtocell_point_result_fail_tip">Povezivanje s ovom mrežom trenutno nije moguće. Pokušajte ponovo kasnije.</string>
+<string name="network_type">Vrsta mobilne mreže</string>
+<string name="gsm_umts_network_preferences_title">Način rada mreže</string>
+<string name="gsm_umts_network_preferences_dialogtitle">Način rada mreže</string>
+<string name="notification_network_selection_without_operator">Odabrana pošta nije dostupna</string>
+<string name="network_setting_all_forbidden_dialog">Nema dostupnih mreža.</string>
+<string name="network_current">Registrujte se</string>
+<string name="network_available">Dostupan/na</string>
+    <string name="network_forbidden">Zabranjeno</string>
+    <string name="network_unkown">nepoznate</string>
+<string name="fdn_contact_number_invalid">Nevažeći broj kontakta.</string>
+<string name="puk_length_indicate">(8 cifara)</string>
+<string name="unblock_pin2">Deblokiraj PIN2</string>
+<string name="lte_only_dialog_button_yes">Da</string>
+<string name="lte_only_dialog_button_no">Ne</string>
+<string name="lte_only_dialog_title_prompt">Odzivni znak</string>
+<string name="cdma_labelCFU">Uvijek proslijedi</string>
+<string name="cdma_labelCFB">Proslijedi kada je zauzeto</string>
+<string name="cdma_labelCFNRy">Proslijedi kada nije odgovoreno</string>
+<string name="cdma_labelCFNRc">Proslijedi kada je nedostupno</string>
+<string name="cdma_labelCFC">Otkaži sva preusmjeravanja</string>
+<string name="gsm_network">GSM mreža</string>
+<string name="cdma_network">CDMA MREŽA</string>
+<string name="no_sim_card">Nema SIM kartice</string>
+<string name="no_sim_card_cdma">Nema UIM kartice</string>
+<string name="wfc_quick_toggle_title">Wi-Fi pozivanje</string>
+<string name="Wfc_off_summary">Onemogućeno</string>
+<string name="airplane_mode_on">Način rada za let je uključen</string>
+<string name="wfc_unknown_error_summary">Nepoznata greška</string>
+    <string name="title_call_barring">zabrane poziva (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="deactivate_all">Otkaži sve</string>
+    <string name="change_password">Promjena lozinke za zabranu</string>
+    <string name="lable_disable">Onemogućeno</string>
+    <string name="lable_enable">Omogućeno</string>
+    <string name="card_title_call_ended">Poziv je završen</string>
+    <string name="dual_mic_title">Smanjenje šuma</string>
+    <string name="voicemail_lable">Govorna pošta (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="retries_left">Preostalo <xliff:g id="number">%d</xliff:g> pokušaja.</string>
+</resources>

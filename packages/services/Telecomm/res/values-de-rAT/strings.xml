@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="telecommAppLabel" product="default">Telefon</string>
+    <string name="unknown">"Unbekannt"</string>
+    <string name="notification_missedCallTitle">Verpasster Anruf</string>
+    <string name="notification_missedCallsTitle">Verpasste Anrufe</string>
+    <string name="notification_missedCallsMsg"><xliff:g id="num_missed_calls">%s</xliff:g> verpasste Anrufe</string>
+    <string name="notification_missedCallTicker">Verpasster Anruf von <xliff:g id="missed_call_from">%s</xliff:g></string>
+    <string name="notification_missedCall_call_back">Rückruf</string>
+    <string name="notification_missedCall_message">NACHRICHT</string>
+    <string name="accessibility_call_muted">Anruf stumm geschaltet</string>
+    <string name="accessibility_speakerphone_enabled">Lautsprecher aktiviert</string>
+    <string name="respond_via_sms_canned_response_1">Kann nicht sprechen. Was ist?</string>
+    <string name="respond_via_sms_canned_response_2">Rufe gleich zurück.</string>
+    <string name="respond_via_sms_canned_response_3">Rufe Dich später an.</string>
+    <string name="respond_via_sms_canned_response_4">Kann nicht sprechen. Ruf später an?</string>
+    <string name="respond_via_sms_setting_title">Schnellantworten</string>
+    <string name="respond_via_sms_setting_title_2">Schnellantworten editieren</string>
+    <string name="respond_via_sms_setting_summary"></string>
+    <string name="respond_via_sms_edittext_dialog_title">Schnellantwort</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Standardeinstellungen wiederherstellen</string>
+    <string name="respond_via_sms_confirmation_format">Nachricht gesendet an <xliff:g id="phone_number">%s</xliff:g>.</string>
+    <string name="phone_account_preferences_title">Einstellung Telefonkonto</string>
+    <string name="default_outgoing_account_title">Vorgabekonto ausgehend</string>
+    <string name="sim_call_manager_account">Wi-Fi-Anrufs-Konto</string>
+    <string name="account_ask_every_time">Jedesmal fragen</string>
+    <string name="do_not_use_sim_call_manager">Wi-Fi-Anrufe nicht verwenden</string>
+    <string name="outgoing_call_not_allowed">Dieser Benutzer darf nur Notrufe tätigen.</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Anruf nicht gesendet, keine gültige Nummer eingegeben.</string>
+    <string name="duplicate_video_call_not_allowed">Kann im Moment nicht hinzugefügt werden.</string>
+    <string name="no_vm_number">Fehlende Voicemail-Nummer</string>
+    <string name="no_vm_number_msg">Auf der SIM-Karte ist keine Voicemail-Nummer gespeichert.</string>
+    <string name="add_vm_number_str">Nummer hinzufügen</string>
+    <string name="outgoing_call_error_limit_exceeded">Anruf nicht gesendet, Limit überschritten.</string>
+    <string name="handle_restricted">Beschränkt</string>
+    <string name="incall_error_supp_service_unknown">Dienst nicht unterstützt</string>
+    <string name="incall_error_supp_service_switch">Umschalten der Anrufe nicht möglich</string>
+    <string name="incall_error_supp_service_separate">Trennen der Anrufe nicht möglich</string>
+    <string name="incall_error_supp_service_transfer">Übertragen der Anrufe nicht möglich</string>
+    <string name="incall_error_supp_service_conference">Konferenzschaltung der Anrufe nicht möglich</string>
+    <string name="incall_error_supp_service_reject">Zurückweisen des Anrufs nicht möglich</string>
+    <string name="incall_error_supp_service_hangup">Freigabe des (der) Anrufs(e) nicht möglich</string>
+    <string name="mo_code_unconditional_cf_active">Anrufweiterleitung\nvorbehaltlos aktiviert</string>
+    <string name="mo_code_some_cf_active">Anrufweiterleitung\nunter Bedingungen</string>
+    <string name="mo_code_call_forwarded">Anruf weitergeleitet</string>
+    <string name="mo_code_call_is_waiting">Wartender Anruf</string>
+    <string name="mo_code_cug_call">Geschlossene Benutzergruppe</string>
+    <string name="mo_code_outgoing_calls_barred">Ausgehender Anruf gesperrt</string>
+    <string name="mo_code_incoming_calls_barred">Eingehender Anruf auf der anderen Seite gesperrt</string>
+    <string name="mo_code_clir_suppression_rejected">Anruferkennung prüfen</string>
+    <string name="mo_code_call_deflected">call Call transferred</string>
+    
+    <string name="mt_code_forwarded_call">Es ist ein weitergeleiteter Anruf</string>
+    <string name="mt_code_cug_call">Geschlossene Benutzergruppe</string>
+    <string name="mt_code_call_on_hold">Anruf gehalten</string>
+    <string name="mt_code_call_retrieved">Anruf abgerufen</string>
+    <string name="mt_code_multi_party_call">Konferenzanruf</string>
+    <string name="mt_code_on_hold_call_released">Gehaltener Anruf freigegeben</string>
+    <string name="mt_code_forward_check_received">Weiterleitungsprüfung SS-Nachricht erhalten</string>
+    <string name="mt_code_call_connecting_ect">Anruf wird übermittelt</string>
+    <string name="mt_code_call_connected_ect">Anrufübermittlung aktiviert</string>
+    <string name="mt_code_deflected_call">Es ist ein umgeleiteter Anruf</string>
+    <string name="mt_code_additional_call_forwarded">Zusätzlichen eingehenden Anruf weitergeleitet</string>
+    <string name="mt_code_forwarded_cf">Anruf weitergeleitet</string>
+    <string name="mt_code_forwarded_cf_uncond">Anruf vorbehaltlos weitergeleitet</string>
+    <string name="mt_code_forwarded_cf_cond">Anruf mit Vorbehalt weitergeleitet</string>
+    <string name="mt_code_forwarded_cf_busy">Besetzt, Anruf weitergeleitet</string>
+    <string name="mt_code_forwarded_cf_no_reply">Keine Antwort, Anruf weitergeleitet</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Nicht erreichbar, Anruf weitergeleitet</string>
+</resources>

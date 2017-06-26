@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
+    <string name="menu_print">បោះពុម្ព</string>
+    <string name="printContact">បោះពុម្ពលេខទំនាក់ទំនងតាមរយៈ</string>
+    <string name="no_way_to_print">មិនមានកម្មវិធីដើម្បីបោះពុម្ពលេខទំនាក់ទំនងទេ ។</string>
+    
+    <string name="no_sdcard_title" product="nosdcard">មិនមានឧបករណ៍ ទេ</string>
+    
+    <string name="no_sdcard_title" product="default">មិនមានកាត SD ។</string>
+    
+    
+    <string name="selected_item_count">  <xliff:g id="count">%d</xliff:g> បានជ្រើសរើស </string>
+    
+    <string name="recentCalls_delete">លុបចោល</string>
+    <string name="menu_selectAll">"ជ្រើសរើសទាំងអស់"</string>
+    <string name="menu_clearAll">មិនជ្រើសរើសទាំងអស់</string>
+        
+    
+    
+    <string name="all_resources">ធនធានទាំងអស់</string>
+    <string name="choose_resources_header">ជ្រើសរើសធនធាន</string>
+    
+    <string name="all_tab_label1">ទាំងអស់</string>
+    <string name="call_log_item_count">(<xliff:g id="count">%1$d</xliff:g>)</string>
+
+    
+    
+    <string name="call_sipcall">ការហៅអ៊ិនថឺណិត</string>
+    <string name="call_pin_dialog_title">ជ្រើសរើស SIM កាត</string>
+    <string name="call_people">មនុស្ស</string>
+    <string name="call_ip_dial">រវៃ IP</string>
+    <string name="call_speed_dial">រវៃលឿន</string>
+    <string name="send_message">ផ្ញើសារ</string>
+    <string name="call_video_call">ការហៅជាវីដេអូ</string>
+    <string name="add_speed_dial">ថេបដើម្បីបន្ថែមការរវៃលឿន</string>
+    <string name="speed_dial_added">
+<xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) បានបន្ថែមទៅក្នុងការរវៃលឿន <xliff:g id="key">%3$s</xliff:g>
+</string>
+    <string name="speed_dial_added2">
+<xliff:g id="contact_name">%1$s</xliff:g> បានបន្ថែមទៅក្នុងការរវៃលឿន <xliff:g id="key">%2$s</xliff:g>
+</string>
+    <string name="remove_speed_dial">លុបចោល</string>
+    <string name="remove_sd_confirm_1">តើអ្នកពិតជាចង់លុប <xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) ចេញពីការរវៃលឿន <xliff:g id="key">%3$s</xliff:g> មែនទេ?</string>
+    <string name="remove_sd_confirm_2">តើអ្នកពិតជាចង់លុប <xliff:g id="contact_name">%1$s</xliff:g> ចេញពីការរវៃលឿន <xliff:g id="key">%2$s</xliff:g> មែនទេ?</string>
+    <string name="emergencycall">ការហៅក្នុងគ្រាអាសន្ន</string>
+    <string name="imei_invalid">មិនមានសុពលភាព</string>
+    <string name="call_log_filter_all_resources">ធនធានទាំងអស់</string>
+    <string name="turn_on_3g_service_message">ឥឡូវសេវា​ 3G បានបិទហើយ តើអ្នកចង់បើកវាទេ?</string>
+    <string name="associate_sim_missing_message">"មិន​មាន %1$s។ តើ​អ្នក​ចង់ដាក់ការហៅតាមរយៈ %2$s ឬ៊"</string>
+    <string name="associate_sim_missing_other">ផ្សេងទៀត</string>
+    <string name="sim_manage_call_via">ហៅតាមរយៈ</string>
+    <string name="callFailed_simError">មិនមាន SIM ទេ ឬកំហុស SIM </string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">សូមបញ្ចូលលេខខាងមុខ IP ជាមុនសិន ក្នុងការសិតការហៅជាសម្លេង ។</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">មុខងារការរវៃ IP មិនអាចប្រើបានចំពោះការហៅអ៊ិនថឺណិតទេ ។</string>
+
+    
+    <string name="sd_add">បន្ថែម</string>
+    <string name="reselect_number">លេខនេះបានចាត់ទៅក្នុងប៊ូតុងការវៃលឿនហើយ  សូមជ្រើសយកលេខផ្សេងទៀត ។</string>
+    
+    <string name="calllog_today">ថ្ងៃនេះ</string>
+    <string name="calllog_yesterday">ម្សិលមិញ</string>
+    
+    
+    <string name="menu_association">ភ្ជាប់​កាដ</string>
+    <string name="menu_remove_association">ដោះ​ការភ្ជាប់កាដ</string>
+    <string name="remove_association_message">តើ​អ្នក​ប្រាកដ​ទេ​ថា អ្នក​ចង់ដោះ​ការភ្ជាប់​កាដ​ទៅ​លេខនេះ?</string>
+    <string name="remove_number_title">លុបចោល</string>  
+    <string name="warning_detail">ការ​បញ្ចូល​កាដ​រួម​គ្នា​នឹង​នាំចូល​ទិន្នន័យ​ឈ្មោះ​មនុស្ស​ទំនាក់ទំនង​ក្នុង​ទូរសព្ទ។ តើ​អ្នក​ចង់​បន្ត​ការ​បញ្ចូល​កាដ​រួម​គ្នា​ឬ?</string>
+    <string name="block_incoming_call">ទប់ស្កាត់ការហៅចូល</string>
+    <string name="block_video_incoming_call">រារាំងការហៅចូលជាវីដេអូដោយផ្ទាល់</string>
+
+    
+    <string name="menu_actionbar_selected_items">
+<xliff:g id="name">%s</xliff:g> បានជ្រើសរើស</string>
+
+       
+    <string name="has_double_phone_number">មិនអាចរក្សាទុកលេខប្រភេទដូចគ្នាពីរដងបានទេ សូមឆែកមើល ។</string>
+    <string name="phone_book_busy">សៀវភៅលេខទូរស័ព្ទកំពុងជាប់រវល់ សូមសាកល្បងពេលក្រោយ ។</string>
+    <string name="sim_invalid">មិន​អាច​រក្សាទុក​ឈ្មោះ​មនុស្ស​ទំនាក់ទំនង នៅពេល​កាដ​គ្មាន​សុពលភាព។</string>
+    <string name="cannot_insert_null_number">មិនអាចរក្សាលេខទំនាក់ទំនងដែលមិនមានលេខនោះទេ ។</string>
+    <string name="AirPlane_mode_on">មិនអាចរក្សាលេខទំនាក់ទំនងបានទេ ពេលដែលម៉ូដការជិះយន្តហោះបានបើក ។</string>
+    <string name="FDNEnabled">មិនអាចរក្សាលេខទំនាក់ទំនងបានទេ ពេលដែល FDN វាសកម្ម ។</string>
+    <string name="sim_invalid_number">មិនអាចរក្សាលេខដែលមិនមានសុពលភាពបានទេ ។</string>
+    <string name="email_invalid">មិនអាចរក្សាអ៊ីម៉េលដែលមិនមានសុពលភាពបានទេ ។</string>
+    <string name="email_2g_invalid">មិនអាចរក្សាអ៊ីម៉េលទៅក្នុង SIM 2G បានទេ សូមជ្រើសរើស SIM 3G ដើម្បីរក្សា ។</string>
+    <string name="sim_invalid_fix_number">មិនអាចរក្សាលេខលើតុដែលមិនមានសុពលភាពបានទេ ។</string>
+    <string name="AirPlane_mode_on_edit">មិនអាចកែសម្រួលលេខទំនាក់ទំនងបានទេ ពេលម៉ូដជិះយន្តហោះបានបើក ។</string>
+    <string name="msg_loading_sim_contacts_toast">"កំពុង​ផ្ទុក​បញ្ជី​ឈ្មោះ​មនុស្ស​ទំនាក់ទំនង​លើ SIM នៅ​ផ្ទៃ​ខាង​ក្រោយ សូម​រង់ចជាំ​បន្តិច។"</string>
+    <string name="fix_number_too_long">"លេខលើតុវែងពេក ។"</string>
+    <string name="name_too_long">"លេខវែងពេក ។"</string>
+    <string name="storage_full">កន្លែងផ្ទុកឯកសារពេញហើយ ។ </string>
+    <string name="number_too_long">"លេខវែងពេក ។"</string>
+    <string name="generic_failure">បរាជ័យទូទៅ ។</string>
+    <string name="email_too_long">អ៊ីម៉េលវែងពេក</string>
+
+    <string name="send_groupsms_no_number_more">"%1$s និង %2$s លេខទំនាក់ទំនងច្រើនថែមទៀត មិនមានលេខទូរស័ព្ទដែលមានសុពលភាពទេ"</string>
+    <string name="send_groupsms_no_number_1">"%1$s មិនមានលេខទូរស័ព្ទដែលមិនមានសុពលភាពទេ ។"</string>
+    <string name="send_groupsms_no_number_2">"%1$s និង %2$s មិនមានលេខទូរស័ព្ទដែលមានសុពលភាពទេ ។"</string>    
+
+    
+
+    
+    <string name="account_type_sim" product="tablet">គណនី SIM</string>
+    
+    <string name="account_type_sim" product="default">គណនី SIM</string>
+
+    
+    <string name="account_type_usim" product="tablet">គណនី USIM</string>
+    
+    <string name="account_type_usim" product="default">គណនី USIM</string>
+
+    
+    <string name="account_type_local_phone" product="tablet">គណនីនៅក្នុងទូរស័ព្ទ </string>
+    
+    <string name="account_type_local_phone" product="default">គណនីនៅក្នុងទូរស័ព្ទ </string>
+
+
+    
+    <string name="local_account_type" product="tablet">គណនីក្នុងម៉ាស៊ីន</string>
+    
+    <string name="local_account_type" product="default">គណនីក្នុងម៉ាស៊ីន</string>
+
+    
+    <string name="local_account_label" product="tablet">គណនីក្នុងម៉ាស៊ីន</string>
+    
+    <string name="local_account_label" product="default">គណនីក្នុងម៉ាស៊ីន</string>
+
+    
+    <string name="account_type_sim_label" product="tablet">តែ SIM ទេ មិនបានធ្វើសមកាលកម្មទេ </string>
+    
+    <string name="account_type_sim_label" product="default">តែ SIM ទេ មិនបានធ្វើសមកាលកម្មទេ </string>
+
+    
+    <string name="account_type_usim_label" product="tablet">តែ USIM ទេ មិនបានធ្វើសមកាលកម្មទេ </string>
+    
+    <string name="account_type_usim_label" product="default">តែ USIM ទេ មិនបានធ្វើសមកាលកម្មទេ </string>
+
+    
+    <string name="please_wait">"សូមរង់ចាំ ..."</string>
+    <string name="move_contacts_to">ដូរកន្លែងលេខទំនាក់ទំនងទៅកាន់</string>
+    <string name="menu_move_group">"ដូរកន្លែងសមាជិកក្រុម"</string> 
+    <string name="menu_message_group">"ផ្ញើសារជាក្រុម"</string>
+    <string name="menu_email_group">"ផ្ញើអ៊ីម៉េលជាក្រុម"</string>    
+    <string name="moving_group_members">"កំពុងដូរកន្លែងសមាជិកក្រុម\u2026"</string>
+    <string name="removing_group_members_sucess">"លុបសមាជិកក្រុមបានជោគជ័យ"</string>
+    <string name="moving_group_members_sucess">"ដូរកន្លែងសមាជិកក្រុមបានជោគជ័យ"</string>
+    <string name="moving_group_members_fail">"ដូរកន្លែងសមាជិកក្រុមបរាជ័យ"</string>
+    <string name="no_valid_number_in_group">ក្រុមនេះមិនមានលេខទំនាក់ទំនងដែលលេខទំនាក់ទំនងមានសុពលភាពឡើយ ។</string>
+    <string name="no_valid_email_in_group">ក្រុមនេះមិនមានលេខទំនាក់ទំនងជាមួយអ៊ីម៉េលឡើយ ។</string>
+    <string name="email_error">អ្នកគួរតម្លើងកម្មវិធីអ៊ីម៉េល ឬធ្វើរូបសណ្ឋានគណនីរបស់អ្នក!</string>
+    <string name="usim_group_name_exceed_limit">"ឈ្មោះក្រុមវែងពេកសម្រាប់ឧបករណ៍​ផ្ទុក។"</string>
+    <string name="usim_group_count_exceed_limit">"ក្រុមថ្មីមិនអាចបន្ថែមចូលទៅកាន់ឧបករណ៍​ផ្ទុកបានទៀតទេ។"</string>
+    <string name="name_needed">ត្រូវការឈ្មោះ</string>
+    <string name="save_group_fail">បរាជ័យក្នុងការរក្សាក្រុម ។</string>
+    <string name="group_name_exists">ឈ្មោះក្រុមមានរួចហើយ ។</string>
+    <string name="group_discard_member">បោះចោល</string>
+    <string name="group_discard_member_reason">ការសម្រួលនឹងត្រូវបោះចោលដោយសារឈ្មោះក្រុមមិនមានសុពលភាព ។</string>
+
+    
+    <string name="import_export_title">នាំចូល/នាំចេញ</string>
+    <string name="next">"បន្ទាប់"</string>
+    <string name="imexport_bridge_sd_card">កាត SD</string>
+    <string name="tips_source">ចម្លងលេខទំនាក់ទំនងពី</string>
+    <string name="tips_target">ចម្លងលេខទំនាក់ទំនងទៅកាន់</string>
+    <string name="back">ថយក្រោយ</string>
+    <string name="imexport_title">នាំចូល/នាំចេញលេខទំនាក់ទំនង</string>
+    <string name="xport_error_one_account">"សូមស៊កបញ្ចូល SIM កាត ឬកាត SD ដើម្បីនាំចូល/នាំចេញលេខទំនាក់ទំនង ។"</string>
+    
+
+
+    
+    <string name="store_contact_to">ផ្ទុកលេខទំនាក់ទំនងទៅក្នុង</string>
+
+    
+    <string name="menu_delete_contact">លុបលេខទំនាក់ទំនង</string>
+
+    <string name="menu_conference_call">"ការ​ហៅ​ជា​សន្និសីទ"</string>
+
+    <string name="notifier_finish_delete_title">លុបលេខទំនាក់ទំនងបានដោយជោគជ័យ</string>
+    <string name="notifier_finish_delete_content">បានលុប <xliff:g id="total">%d</xliff:g> លេខទំនាក់ទំនង</string>
+
+    <string name="notifier_finish_copy_title">ចម្លងលេខទំនាក់ទំនងបានដោយជោគជ័យ</string>
+    <string name="notifier_finish_copy_content">បានចម្លង <xliff:g id="total">%d</xliff:g> លេខទំនាក់ទំនង</string>
+
+    <string name="notifier_multichoice_process_report">បានបញ្ចប់ ៖ <xliff:g id="items">%d</xliff:g>\nមិនបានបញ្ចប់ ៖ <xliff:g id="items">%d</xliff:g>
+</string>
+
+    <string name="notifier_failure_by_sim_full">បរាជ័យបណ្តាលមកពីកន្លែងផ្ទុកទិន្នន័យរបស់ SIM វាពេញ ៖ full\nបានបញ្ចប់ ៖ <xliff:g id="items">%d</xliff:g>\nមិនបានបញ្ចប់ ៖ <xliff:g id="items">%d</xliff:g>
+</string>
+    <string name="notifier_failure_sim_notready">បរាជ័យបណ្តាលពី SIM មិនទាន់ត្រៀមខ្លួនរួចរាល់\nបានបញ្ចប់ ៖ <xliff:g id="items">%d</xliff:g>\nមិនបានបញ្ចប់ ៖ <xliff:g id="items">%d</xliff:g>
+</string>
+
+    <string name="notifier_cancel_delete_title">ការលុបលេខទំនាក់ទំនងបានលើកលែង </string>
+    <string name="notifier_fail_delete_title">ការលុបលេខទំនាក់ទំនងបរាជ័យ</string>
+
+    <string name="notifier_cancel_copy_title">ការចម្លងលេខទំនាក់ទំនងបានលើកលែង</string>
+    <string name="notifier_fail_copy_title">ការចម្លងលេខទំនាក់ទំនងបរាជ័យ</string>
+
+    <string name="notifier_progress__delete_will_start_message">លេខទំនាក់ទំនងនឹងត្រូវលុបចេញក្នុងពេលបន្តិចទៀត ។</string>
+    <string name="notifier_progress_delete_message">ការលុប <xliff:g id="current_number">%s</xliff:g>/<xliff:g id="total_number">%s</xliff:g>: <xliff:g example="JoeDue" id="name">%s</xliff:g>
+</string>
+    <string name="notifier_progress_delete_description">ការលុប <xliff:g example="JoeDue" id="name">%s</xliff:g>
+</string>
+
+    <string name="notifier_progress__copy_will_start_message">លេខទំនាក់ទំនងនឹងត្រូវចម្លងក្នុងពេលបន្តិចទៀត ។</string>
+    <string name="notifier_progress_copy_message">ការចម្លង <xliff:g id="current_number">%s</xliff:g>/<xliff:g id="total_number">%s</xliff:g>: <xliff:g example="JoeDue" id="name">%s</xliff:g>
+</string>
+    <string name="notifier_progress_copy_description">ការចម្លង <xliff:g example="JoeDue" id="name">%s</xliff:g>
+</string>
+
+    <string name="multichoice_confirmation_title_delete">កំពុងលើកលែងការលុបលេខទំនាក់ទំនង</string>
+    <string name="multichoice_confirmation_message_delete">លើកលែងការលុបលេខទំនាក់ទំនងទេ?</string>
+
+    <string name="multichoice_confirmation_title_copy">កំពុងលើកលែងការចម្លងលេខទំនាក់ទំនង</string>
+    <string name="multichoice_confirmation_message_copy">លើកលែងការចម្លងលេខទំនាក់ទំនងមែនទេ?</string>
+    
+    <string name="multichoice_no_select_alert">"មិនមានរបស់អ្វីត្រូវបានជ្រើសរើសឡើយ ។"</string>
+    <string name="multichoice_delete_confirm_message">"តើអ្នកពិតជាចង់លុបលេខទំនាក់ទំនងដែលបានជ្រើសរើសមែនទេ?"</string>
+    <string name="multichoice_delete_confirm_title">លុបលេខទំនាក់ទំនងចោលមែនទេ?</string>
+    <string name="multichoice_contacts_limit">"ឈ្មោះទំនាក់ទំនងដែលបានជ្រើស​មិនអាចលើសពី "<xliff:g id="count">%d</xliff:g>" បានទេ"</string>
+
+    
+    <string name="phone_storage_full_create">កន្លែងផ្ទុកទិន្នន័យរបស់ទូរស័ព្ទពេញហើយ អ្នកមិនអាចបង្កើតលេខទំនាក់ទំនងថ្មីបានទេ ។</string>
+    <string name="phone_storage_full_edit">កន្លែងផ្ទុកទិន្នន័យរបស់ទូរស័ព្ទពេញហើយ អ្នកមិនអាចកែសម្រួលលេខទំនាក់ទំនងបានទេ។</string>
+
+	
+	<string name="add_SIP_to_sim">មិន​អាច​ថែម​លេខ SIP ទៅ​ក្នុង​បញ្ជី​ឈ្មោះ​ទំនាក់ទំនង​លើ​កាដ​បាន:</string>
+	
+	<string name="already_has_SIP">មិនអាចបន្ថែមលេខ SIP ពីរទៅក្នុងលេខទំនាក់ទំនងបានទេ បើអ្នកចង់បន្ត ។ ជាដំបូងត្រូវលុបលេខ SIP ចាស់ចោលសិន ។</string>
+        
+
+    
+       
+    <plurals name="searchFoundCalllogs">
+        <item quantity="one">កំណត់ត្រាសកម្មភាពហៅ 1</item>
+        <item quantity="other">
+<xliff:g id="count">%d</xliff:g> កំណត់ត្រាសកម្មភាពហៅ</item>
+    </plurals>
+        
+    <string name="search_results_for">លទ្ធផលរាវរកសម្រាប់ ៖ <xliff:g id="query">%s</xliff:g>
+</string>
+    <string name="listFoundAllCalllogZero">កំណត់ត្រាសកម្មភាពហៅរកមិនឃើញទេ</string>
+    
+    <string name="calllogList">ប្រវត្តិការហៅ</string>
+    <string name="calllogHint">រាវរកកំណត់ត្រាសកម្មភាពហៅ</string>
+    <string name="calllog_description">ការហៅចូល ការហៅចេញ និងការហៅដែលមិនបានទទួល</string>
+    <string name="noMatchingCalllogs">រកកំណត់ត្រាសកម្មភាពការហៅដែលត្រូវគ្នាមិនឃើញឡើយ</string>
+    
+    <string name="menu_videocallNumber">ការហៅជាវីដេអូ <xliff:g id="name">%s</xliff:g>
+</string>
+    <string name="menu_ipcallNumber">ការហៅ IP <xliff:g id="name">%s</xliff:g>
+</string>
+    
+    <string name="deleting_call_log">កំពុងលុបកំណត់ត្រាសកម្មភាពការហៅ ...</string>
+    
+    
+    
+    
+    <string name="no_vm_number">បាត់លេខសំបុត្រសម្លេង</string>
+    
+    <string name="no_vm_number_msg">មិនមានលេខសំបុត្រសម្លេងបានផ្ទុកនៅក្នុង SIM កាតទេ ។</string>
+    
+    <string name="add_vm_number_str">បន្ថែមលេខ</string>
+    
+    <string name="reminder">អ្នករម្លឹក</string>
+    <string name="enable_sip_dialog_message">ការហៅអ៊ិនថឺណិតត្រូវបានអសកម្ម តើអ្នកចង់ធ្វើវាឲ្យសកម្មទេ?</string>
+    <string name="share_contacts_limit">"បានជ្រើសរើសដើម្បីចែករំលែកឈ្មោះទំនាក់ទំនង​ដែលមិនអាចលើសពី "<xliff:g id="count">%d</xliff:g>" បាន"</string>
+    
+    <string name="contact_delete_all_tips">"ការលុបលេខទំនាក់ទំនងកំពុងរត់ មិនអាចប្រតិបត្តិការបានឡើយ ។"</string>
+    <string name="sum_search_networks">រាវរាកបណ្តាញទាំងអស់ដែលមាន</string>
+
+    
+    <string name="deleteCallLogConfirmation_title">លុបកំណត់ត្រាសកម្មភាពការហៅចោលទេ?</string>
+
+    
+    <string name="deleteCallLogConfirmation_message">តើអ្នកប្រាកដទេថាចង់លុបកំណត់ត្រាសកម្មភាពការហៅដែលបានជ្រើសរើសចោល?</string>
+    
+    <string name="file_already_on_sd_card">ឯកសារនេះមាននៅក្នុងកាត SD រួចហើយ ។</string>
+    <string name="send_file_sms_error">មិនអាចចែករំលែកឯកសារជាមួយ SMS បានទេ សូមប្រើ MMS ។</string>
+    <string name="user_profile_cannot_sd_card">មិនអាចចែករំលែកមាតិការជាមួយនឹងវិធីនេះបានទេ ។</string>
+    
+    <string name="error_save_usim_contact_email_lost">"រក្សារទុកអាយដ្ឋានអ៊ីម៉ែលមិនបានសម្រេច ព្រោះចន្លោះ​ក្នុងឧបករណ៍​ផ្ទុកអ៊ីម៉ែលបានពេញ។"</string>
+    <string name="error_import_usim_contact_email_lost">"នាំចូលឈ្មោះទំនាក់ទំនង\' អាយដ្ឋានខ្លះមិនបានសម្រេចព្រោះចន្លោះ​ក្នុងឧបករណ៍​ផ្ទុក អ៊ីម៉ែលនេះបានពេញ។\nបានបញ្ចប់: <xliff:g id="items">%d</xliff:g>\nមិន​បាន​បញ្ចប់: <xliff:g id="items">%d</xliff:g>"</string>
+    <string name="type_ip_outgoing">ការហៅចេញ IP (<xliff:g id="name">%s</xliff:g>)</string>
+    
+    <string name="call_sms">​ផ្ញើ​សារ</string>
+    
+    
+    <string name="delete_group_failure">បរាជ័យក្នុងការលុបក្រុម ។</string>
+    
+    <string name="account_type_uim_label" product="tablet">តែ UIM ទេ មិនបានធ្វើសមកាលកម្មឡើយ</string>
+    
+    <string name="account_type_uim_label" product="default">តែ UIM ទេ មិនបានធ្វើសមកាលកម្មឡើយ</string>
+    <string name="call_log_auto_rejected_label">បដិសេធការហៅដោយស្វ័យប្រវត្តិ</string>
+    <string name="import_no_vcard_dialog_text">មិនមានឯកសារ vCard ត្រូវបានរកឃើញក្នុង <xliff:g id="storage_name">%s</xliff:g> ឡើយ</string>
+    <string name="look_simstorage">មើលសមត្ថភាព SIM កាត</string>
+    <string name="dlg_simstorage_content">phone number book Storage Capacity <xliff:g id="items">%d</xliff:g>，has been used <xliff:g id="items">%d</xliff:g>.</string>
+
+    
+
+    <string name="contact_group_list_title">"ជ្រើសរើសក្រុមគោលដៅ"</string>
+    
+    
+    <string name="send_groupemail_no_number_more">"%1$s និង %2$s លេខទំនាក់ទំនងបន្ថែម មិនមានអ៊ីមែលដែលមានសុពលភាពទេ ។"</string>
+    <string name="send_groupemail_no_number_1">"%1$s មិនមានអ៊ីម៉េលដែលមានសុពលភាពទេ ។"</string>
+    <string name="send_groupemail_no_number_2">"%1$s និង %2$s មិនមានអ៊ីម៉េលដែលមានសុពលភាពទេ ។"</string>
+    
+    
+    <string name="add_contact_dlg_title">បន្ថែមលេខទំនាក់ទំនង</string>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+    <string name="deleteConfirmation_title">លុបលេខទំនាក់ទំនងចោលទេ?</string>
+    
+    <string msgid="4313552620858880999" name="dialog_phone_call_prohibited_title">ការហៅមិនបានផ្ញើចេញទេ</string>
+    
+    <string name="dialog_voicemail_not_ready_title">គ្មានលេខសារជាសំឡេង</string>
+    
+    
+    <string name="scanning_sdcard_failed_title" product="nosdcard">មិនអាចស្កែនបន្ទុកបាន</string>
+    
+    <string name="scanning_sdcard_failed_title" product="default">មិនអាចស្កែនកាដ​SD បាន</string>
+    
+    
+
+    
+    <string name="nickname_too_long">"ឈ្មោះហៅក្រៅវែងពេក ។"</string>
+    
+    <string name="pick_new_photo_from_gallery">ជ្រើសរើសរូបថតថ្មី</string>
+    <string name="copy_text_to_dialer">ចម្លងទៅកាន់ការរវៃ</string>
+    
+    
+    <string name="contact_detail_group_list_title">ក្រុម</string>
+    <string name="contact_detail_group_not_assigned">មិនបានចាត់ចែង</string>
+    <string name="contact_detail_group_list_nogroups">"មិនមានក្រុមដែលមានស្រាប់ទេ ។ តើអ្នកចង់បង្កើតក្រុមថ្មីទេ?"</string>
+    <string name="recents">ថ្មីៗ</string>
+    <string name="contact_no_recents">គ្មាន​អ្វី​ថ្មី</string>
+    <string name="contact_detail_detail">លំអិត</string>
+    <string name="contact_detail_update">ធ្វើបច្ចុប្បន្នភាព</string>
+    <string name="contact_detail_history">ប្រវត្តិ</string>
+    <string name="contact_detail_ip_call">ហៅ IP</string>
+    <string name="contact_detail_history_mms_received_time">"ពេលទទួល %1$s"</string>
+    <string name="contact_detail_history_mms_received_from">"បានទទួលពី %1$s"</string>
+    <string name="contact_detail_history_mms_sent_time">"ពេលផ្ញើ %1$s"</string>
+    <string name="contact_detail_history_mms_sent_to">"ផ្ញើទៅកាន់ %1$s"</string>
+    
+    <string name="contact_detail_history_calllog">ប្រវត្តិការហៅ</string>
+    
+    <string name="contact_detail_history_mms">សារ</string>
+    <string name="contact_detail_history_duration">រយៈពេលៈ</string>
+    <string name="contact_detail_history_ismms">ទាញយកសារមុលធិមេឌា</string>
+    <string name="contact_detail_history_empty_calllog">"ប្រវត្តិហៅទទេ"</string>
+    <string name="contact_detail_history_empty_message">មិនមានសារទេ</string>
+    <string name="contact_detail_history_empty">"មិនមានប្រវត្តិសម្រាប់ការហៅ ឬផ្ញើសារឡើយ"</string>
+    <string name="contact_recent_number_limit">"គ្រាន់​តែ​អាច​រក​បាន​ឈ្មោះ​មនុស្ស​ទំនាក់ទំនង​ចំនួន %1$s នាក់​ប៉ុណ្ណោះ"</string>
+    <string name="contact_recent_group_label">ក្រុម</string>
+        
+    
+    <string name="call_pin_dialog_title_ct">ជ្រើសរើស UIM/SIM កាដ</string>
+    <string name="callFailed_simError_ct">គ្មាន UIM/SIM, មាន​កំហុស​ពី UIM/SIM</string>
+    <string name="msg_loading_sim_contacts_toast_ct">"កំពុង​ផ្ទុក​ឈ្មោះ​មនុស្ស​ទំនាក់ទំនង​​ដែល​មាន​លើ UIM/SIM នៅ​ផ្ទៃ​ខាង​ក្រោយ សូម​រង់ចាំ​បន្តិច។"</string>
+    <string name="xport_error_one_account_ct">"សូម​ស៊ក​បញ្ចូល​ UIM/SIM ឬ​កាត SD ដើម្បី​នាំ​ចូល​/​នាំចេញ​ទិន្នន័យ​ឈ្មោះ​មនុស្ស​ទំនាក់ទំនង។"</string>
+    <string name="notifier_failure_by_sim_full_ct">បញ្ហា​មិន​បាន​សម្រេច​គឺ​បាន​បណ្ដាល​មក​ពី​ចន្លោះ​ផ្ទុក​នៃ UIM/SIM ពេញ\nបាន​ចប់​សព្វគ្រប់: <xliff:g id="items">%d</xliff:g>\nមិន​បាន​ចប់​សព្វគ្រប់: <xliff:g id="items">%d</xliff:g>
+</string>
+    <string name="notifier_failure_sim_notready_ct">បញ្ហា​មិន​បាន​សម្រេច​គឺ​បាន​បណ្ដាល​មក​ពី​ UIM/SIM កាដ​មិន​ទាន់​ស្រេច​បាច់\nបាន​ចប់​សព្វគ្រប់: <xliff:g id="items">%d</xliff:g>\nមិន​បាន​ចប់​សព្វគ្រប់: <xliff:g id="items">%d</xliff:g>
+</string>
+    <string name="look_simstorage_ct">មើល​សមត្ថភាព​ផ្ទុក​នៃ UIM/SIM កាដ</string>
+
+    <string name="callFailed_cdma_notEmergency">មានតែការហៅក្នុងគ្រាអាសន្នទេដែលអាចធ្វើបាន ។</string>
+
+    
+    <string name="international_dialing_title">ជំនួយការរវៃលេខហៅទៅក្រៅប្រទេស</string>
+    <string name="international_dialing_select_country">វាត្រូវរកឃើញថា អ្នកកំពុងហៅទៅក្រៅប្រទេស ។ សូមជ្រើសយកទីដៅរបស់អ្នក ។</string>
+    <string name="international_dialing_add_country_code">វាត្រូវបានរកឃើញថា អ្នកកំពុងរវៃលេខប្រទេស <xliff:g id="country_name">%s</xliff:g> ។ តើអ្នកចង់បន្ថែមលេខកូដប្រទេស (+<xliff:g id="country_code">%s</xliff:g>)ទេ?</string>
+    <string name="international_dialing_add_country_code_and_area_code">វាត្រូវបានរកឃើញថា អ្នកកំពុងតែរវៃលេខក្នុងប្រទេស <xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g> ។ តើអ្នកចង់បន្ថែមលេខកូដប្រទេស និងលេខកូដតំបន់ (+<xliff:g id="prefix">%3$s</xliff:g>)ទេ?</string>
+    <string name="international_dialing_change_country_prefix">វាត្រូវបានរកឃើញថា អ្នកកំពុងរវៃលេខចេញពីប្រទេស <xliff:g id="country_name">%s</xliff:g>។ ចង់ប្តូរលេខហៅទៅក្រៅប្រទេសទៅជា \'+\'ទេ?</string>
+    <string name="international_dialing_add_country_code_input_area_code">វាត្រូវបានរកឃើញថា អ្នកកំពុងរវៃលេខក្នុងប្រទេស <xliff:g id="country_name">%s</xliff:g> ។ បើដូច្នេះមែន សូមបញ្ចូលលេខតំបន់ ។</string>
+    <string name="international_dialing_add_country_code_default_input_area_code">វា\ត្រូវបានរកឃើញថា អ្ន\កកំពុងរវៃលេខក្នុងប្រទេស <xliff:g id="country_name">%s</xliff:g> ។ ប្រសិនបើទីក្រុងទិសដៅរបស់អ្នកមិនមែនជា <xliff:g id="area_name">%s</xliff:g> សូមបញ្ចូលលេខកូដតំបន់ ។</string>
+    <string name="international_dialing_need_area_code">ត្រូវការលេខកូដតំបន់នៃទីក្រុងទិសដៅរបស់អ្នក ទើបអាចហៅចេញបាន ។</string>
+    <string name="international_dialing_input_area_code">បញ្ចូលលេខកូដតំបន់ទីនេះ</string>
+    <string name="international_dialing_dialed_number">លេខកំពុងរវៃ ៖</string>
+    <string name="international_dialing_confirm_area_code">បើទីក្រុងទិសដៅរស់អ្នកមិនមែនជាទីក្រុង <xliff:g id="area_name">%s</xliff:g> សូមបញ្ចូលលេខកូដតំបន់ នៃទីក្រុងទិសដៅរបស់អ្នកខាងក្រោម ។</string>
+    <string name="international_dialing_click_below_button">ចុចប៊ូតុងខាងក្រោម ដើម្បីប្តូរលេខកូដប្រទេស ។</string>
+    <string name="international_dialing_yes">បាទ ។ សូមប្រើលេខខាងក្រោម ៖</string>
+    <string name="international_dialing_no">ទេ ។ សូមប្រើលេខដើម ៖</string>
+    <string name="international_dialing_call_button">ហៅ</string>
+    <string name="international_dialing_area_code">លេខកូដតំបន់</string>
+    <string name="international_dialing_invalid_number">លេខមិនមានសុពលភាព ។ តើអ្នកនៅតែបន្តរវៃមែនទេ?</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">តើអ្នកចង់បន្ថែមលេខកូដប្រទេស និងលេខកូដតំបន់មែនទេ?</string>
+    <string name="no_search_result">គ្មានលទ្ធផល​ស្វែងរក​ទេ</string>
+
+    <string name="account_phone_only" product="tablet">កូនកុំព្យូទ័រ</string>
+    <string name="account_phone_only" product="default">ទំនាក់ទំនង​តាមទូរសព្ទ</string>
+    
+    
+    
+    <string name="no_match_call_log">"គ្មានធាតុដែលត្រូវគ្នា"</string>
+    <string name="no_call_log">"គ្មានកំណត់ហេតុហៅ"</string>
+    <string name="share_too_large">ទិន្នន័យសរុបលើសដែនកំណត់អតិបរមា សូមបោះចោលការជ្រើសរើសវត្ថុខ្លះ ហើយព្យាយាមម្តងទៀត ។</string>
+
+    
+    
+
+    <string name="err_icc_no_phone_book">%1$s មិនអាចផ្ទុកឈ្មោះទំនាក់ទំនងបានទេ</string>
+
+    
+    
+    <string name="titleJoinContactDataWith">ចូលរួមលេខទំនាក់ទំនង</string>
+
+    
+    <string name="menu_select_all">ជ្រើសរើសយកទាំងអស់</string>
+
+    
+    <string name="list_filter_custom">តាមចំណូលចិត្ត</string>
+
+    
+    <string name="add_contact_dlg_message_fmt">បន្ថែម \"  <xliff:g id="email">%s</xliff:g>\" ទៅក្នុងលេខទំនាក់ទំនងទេ? </string>
+
+    
+    <string name="locale_change_in_progress">បញ្ជីលេខទំនាក់ទំនង កំពុងតែធ្វើបច្ចុប្បន្នភាព ដើម្បីឲ្យវាត្រូវគ្នានឹងការផ្លាស់ប្តូរនៃភាសា ។</string>
+
+    
+    <string name="noFavoritesHelpText">"អ្នកមិនមានការចូលចិត្តណាមួយឡើយ ។\n\nដើម្បីបន្ថែមលេខទំនាក់ទំនងទៅក្នុងបញ្ជីលេខដែលអ្នកចូលចិត្ត ៖\n  <li>យកម្រាមដៃប៉ះ  <b>ទំនាក់ទំនង</b> tab\n </li> \n  <li>ប៉ះលេខទំនាក់ទំនងដែលអ្នកចង់បន្ថែមទៅក្នុងការចូលចិត្តរបស់អ្នក\n</li> \n  <li>យកម្រាមដៃប៉ះលើសញ្ញាផ្កាយដែលនៅបន្ទាប់ពីឈ្មោះរបស់លេ\ខ ទំនាក់ទំនង\n</li>" </string>
+
+    
+    <string name="non_phone_caption">លេខទូរស័ព្ទ</string>
+
+    
+    <string name="menu_select_none">មិនជ្រើសរើសទាំងអស់</string>
+
+    <string name="find_call_logs">រក​មើល​កំណត់ហេតុ​ហៅ</string>
+    <string name="call_log_via_sim_name_notice">កំណត់ហេតុ​ហៅ​នៅ​លើ \"<xliff:g id="sim_name">%s</xliff:g>\"</string>
+    
+
+    
+    <string name="mtk_contact_list_loading">កំពុងឡូត\u2026</string>
+    <string name="vcard_import_failed_v2">មិន​អាច​នាំ​ចូលបាន</string>
+    <string name="quickcontact_missing_app">មិនមានកម្មវិធីបានរកឃើញ ដើម្បីចាត់ចែងសកម្មភាពនេះឡើយ ។</string>
+    <string name="imsCallLabelsGroup">ការហៅដោយប្រើ IMS</string>
+    <string name="sip_url">SIP url</string>
+    <string name="ims_call_disabled">គ្មានសេវា​សម្រាប់ការហៅដោយប្រើ IMS</string>
+    <string name="vcs_menu_voice_contacts_search" product="default">ការស្វែងរកឈ្មោះទំនាក់ទំនង​ដោយ​ប្រើ​សំឡេង</string>
+    <string name="vcs_msg_no_voice_contacts">អូហ៍! រកមិនឃើញ​មាន​ឈ្មោះ​ទំនាក់ទំនង​ទេ</string>
+
+<string name="call_speed_dial_title">រវៃលឿន</string>
+    <string name="dialog_no_speed_dial_number_message">គ្មានលេខ​សម្រាប់ការហៅទូរសព្ទ​រហ័ស។ ដាក់​កំណត់​ឥឡូវ​ឬ?</string>
+    <string name="icc_phone_book_invalid">សៀវភៅទូរសព្ទមិនអាចរកបានទេពេលនេះ សូមព្យាយាមពេលក្រោយ។</string>
+    <string name="error_edit_join_group">នេះ​មិនមែនជា​ឈ្មោះ​ទំនាក់ទំនង​រួមគ្នា​ទេ។ អ្នកអាច​កែសម្រួល​ព័ត៌មាន​ក្រុម​នៅ​ក្នុង​ម៉ូដ​កែសម្រួល​បាន។</string>
+    <string name="local_phone_account" product="tablet">"ថេប្លេត (កុំព្យូទ័រ​ស្ដើង)"</string>
+    <string name="local_phone_account" product="default">"ទូរស័ព្ទ"</string>
+    <string name="contact_import_export_tips">កំពុង​នាំចេញ/នាំចូល​បញ្ជី​ឈ្មោះ​ទំនាក់ទំនង សូម​ព្យាយាម​ម្ដង​ទៀត</string>
+<string name="can_not_switch_account_during_call">មិនអាចប្តូរស៊ីមដែលពេញចិត្តបានដើម្បីហៅ ក្នុងអំឡុងពេលការហៅមួយ។</string>
+<string name="can_not_switch_account_temporarily">មិនអាចប្តូរស៊ីមដែលពេញចិត្តបាន សម្រាប់ការហៅជាបណ្តោះអាសន្ន។</string>
+<string name="location_permission_title">ការព្រមានសន្តិសុខ</string>
+<string name="location_permission_summary">ឈ្មោះទំនាក់ទំនងកំពុងព្យាយាមទទួលយកទីតាំងបច្ចុប្បន្នរបស់អ្នក។\n(បដិសេធដោយស្វ័យប្រវត្តិបន្ទាប់ <xliff:g id="time_sec">%1$s</xliff:g> វិនាទី)</string>
+<string name="location_permission_allow">អនុញ្ញាត</string>
+<string name="location_permission_deny">បដិសេធ</string>
+</resources>

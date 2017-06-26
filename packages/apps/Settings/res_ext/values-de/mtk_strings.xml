@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- AudioProfile Settings start -->
+   <string name="ring_summary">Klingeln</string>
+  <string name="ring_vibrate_summary">Klingeln und vibrieren</string>
+  <string name="silent_summary">Nur lautlos</string>
+  <string name="meeting_summary">Nur vibrieren</string>
+  <string name="outdoor_summary">Lautester Klingelton und Vibration</string>
+  <string name="audio_profile_reset">Rücksetzen</string>
+  <string name="audio_profile_add">"Hinzufügen"</string>
+  <string name="audio_profile_enable">"Aktivieren"</string>
+  <string name="audio_profile_rename">"Umbenennen"</string>
+  <string name="audio_profile_delete">"Löschen"</string>
+  <string name="audio_profile_message_reset">Alle Audioprofileinstellungen werden auf die Standardwerte zurückgesetzt</string>
+  <string name="audio_profile_message_rename">Bitte neuen Profilnamen eingeben</string>
+  <string name="audio_profile_message_name_error">Der eingegebene Name existiert bereits</string>
+  <string name="audio_profile_message_name_length_wrong">Der Name muss mindestens ein Zeichen enthalten</string>
+  <string name="audio_profile_message_delete">Das Profil 
+        <xliff:g id="profile">%s</xliff:g> wird gelöscht</string>
+  <string name="audio_profile_message_overflow">Sie dürfen nur 6 angepasste Profile hinzufügen</string>
+  <string name="audio_profile_category_custom_title">Benutzerdefinierte Profile</string>
+  <string name="audio_profile_category_predefine_title">Vordefinierte Profile</string>
+  <string name="audio_profile_error">Fehler</string>
+  <string name="audio_profile_others">Benachrichtigungen und Sonstiges</string>
+  <string name="general_settings_title">"Allgemein"</string>
+  <string name="silent_settings_title">Lautlos</string>
+  <string name="meeting_settings_title">Besprechung</string>
+  <string name="outdoor_settings_title">Im Freien</string>
+  <string name="sound_category_feedback_title">"System"</string>
+  <string name="sound_category_calls_title">"Eingehende Anrufe"</string>
+  <string name="voice_call_title">"Sprachanruf-Rufton"</string>
+  <string name="voice_call_summary">Standardrufton bei eingehenden Sprachanrufen einstellen</string>
+  <string name="video_call_title">Videoanruf-Rufton</string>
+  <string name="video_call_summary">Standardrufton bei eingehenden Videoanrufen einstellen</string>
+  <string name="sip_call_title">SIP-Klingelton</string>
+  <string name="sip_call_summary">Legt Ihren SIP-Standardklingelton fest</string>
+  <string name="Phone_vibrate_summary">Vibrationsalarm bei eingehenden Anrufen</string>
+  <string name="vibrate_title">Vibrieren</string>
+  <string name="audio_profile_settings_title">Audioprofile</string>
+  <string name="audio_profile_bes_loudness_summary">Lautstärkeanhebung für Lautsprecher</string>
+  <string name="sound_enhancement_title">Klangverstörung</string>
+  <string name="music_plus_summary">Klangverstärker für Kopfhörer</string>
+  <string name="lossless_title">Verlustfreier BT-Modus</string>
+  <string name="lossless_summary">Hochqualitatives BT-Audio</string>
+  <string name="lossless_connect_summary">Wi-Fi wird durch Einschalten von Verlustfreier BT-Modus beeinträchtigt. Wirklich aktivieren?</string>
+  <string name="lossless_on">Verlustfreier BT-Modus ein</string>
+  <string name="lossless_playing">Verlustfreie Musikwiedergabe</string>
+  <string name="lossless_toastmessage">Systemtöne werden per Telefonlautsprecher wiedergegeben</string>
+  <string name="lossless_volume_max">Systemlautstärke bitte bei der Maximaleinstellung belassen</string>
+  <string name="lossless_cannot_found_device">Lossless-BT-Gerät konnte nicht gefunden werden</string>
+  <string name="audio_profile_bes_surround_title">BesSurround</string>
+  <string name="audio_profile_bes_surround_summary">Audio-Surrounding</string>
+  <string name="audio_profile_bes_surround_mode_movie">Filmmodus</string>
+  <string name="audio_profile_bes_surround_mode_music">Musikmodus</string>
+  <string msgid="6680706009915204785" name="zen_mode_option_title_novoice">"Wenn Benachrichtigungen eingehen"</string>
+  <!-- AudioProfile Settings end -->
+ 
+  <!-- MTK Wi-Fi settings start -->
+   <string name="wifi_no_cert_for_wapi">Konnte Zertifizierung für aktuell verbundenen AP nicht finden</string>
+  <string name="sim_slot">SIM-Steckplatz</string>
+  <string name="eap_sim_slot_0">SIM-Steckplatz 1</string>
+  <string name="eap_sim_slot_1">SIM-Steckplatz 2</string>
+  <string name="eap_sim_aka_airplanemode">Flugzeugmodus zur Nutzung von EAP-SIM/AKA bitte ausschalten</string>
+  <string name="eap_sim_aka_no_sim_error">Sie müssen zur Nutzung von EAP-SIM/AKA eine SIM-Karte einstecken</string>
+  <string name="eap_sim_aka_no_sim_slot_selected">Sie müssen zur Nutzung von EAP-SIM/AKA einen SIM-Steckplatz wählen</string>
+  <string name="wifi_security_wapi_certificate">WAPI-Zertifikat</string>
+  <string name="wapi_user_certificate">Benutzerzertifikat</string>
+  <string name="wapi_as_certificate">ASE-Zertifikat</string>
+  <string name="wifi_hex_password">Hexadezimal-Kennwort.</string>
+  <string name="wifi_WEP_transmit_key">Übertragungsschlüssel</string>
+  <string name="wifi_WEP_secury_key">"Sicherheitsschlüssel"</string>
+  <string name="wifi_tether_auto_disable_title">Wi-Fi-Hotspot eingeschaltet lassen</string>
+  <string name="wifi_tether_auto_channel_text">Automatisch</string>
+  <string name="wifi_tether_auto_channel_width_text">Auto 20/40 MHz</string>
+  <string name="wifi_channel">Bevorzugter Kanal</string>
+  <string name="wifi_channel_width">Kanalbreite</string>
+  <string name="wifi_advanced_ipv4_address_title">IPv4-Adresse</string>
+  <string name="wifi_advanced_ipv6_address_title">IPv6-Adresse</string>
+  <string name="wifi_ipv4_address">IPv4-Adresse</string>
+  <string name="wifi_ipv6_address">IPv6-Adresse</string>
+  <string name="wifi_ap_auto_join_available">Automatisch beitreten</string>
+  <string name="wifi_ap_auto_join_available_summary">Automatisch ein besseres Wi-Fi-Netzwerk während der Suche zum Beitreten bei Verbindung wählen</string>
+  <!-- MTK Wi-Fi settings end -->
+ 
+  <!-- Wi-Fi hotspot client start -->
+   <string name="wifi_tether_setting_title">Grundeinstellungen</string>
+  <string name="wifi_tether_wps_connect_title">"WPS-Verbindung"</string>
+  <string name="wifi_tether_wps_connect_summary">Ausgewählter Wi-Fi Protected Setup-Modus zum Fortfahren</string>
+  <string name="wifi_tether_wps_pin_error">Ungültige PIN</string>
+  <string name="wifi_tethering_title">Wi-Fi-Hotspot</string>
+  <string name="wifi_ap_wps_dialog_title">"WPS-Verbindung"</string>
+  <string name="wifi_ap_wps_mode_title">WPS-Modus</string>
+  <string name="wifi_ap_wps_pin_title">Client-PIN eingeben</string>
+  <string name="wifi_ap_reset_OOB_title">Netzwerk-SSID, Verschlüsselung und Kennwort auf Standardwerte zurücksetzen (WPS-Auslieferungszustand)</string>
+  <string name="wifi_ap_reset_OOB">OOB rücksetzen</string>
+  <string name="wifi_ap_max_connection_title">Verbindungen maximal</string>
+  <string name="wifi_ap_connected_title">Verbundene Nutzer</string>
+  <string name="wifi_ap_blocked_title">Blockierte Nutzer</string>
+  <string name="wifi_ap_client_block_title">"Blockieren"</string>
+  <string name="wifi_ap_client_unblock_title">Freigeben</string>
+  <string name="wifi_ap_client_details_title">Details</string>
+  <string name="wifi_ap_client_mac_label">MAC-Adresse:</string>
+  <string name="wifi_ap_client_ip_label">IP-Adresse:</string>
+  <string name="wifi_ap_bandwidth_title">Bandbreitennutzung</string>
+  <string name="wifi_ap_bandwidth_enable">Bandbreitendrosselung aktivieren</string>
+  <string name="wifi_ap_bandwidth_chart_title">Echtzeit-Datengeschwindigkeit</string>
+  <string name="wifi_ap_bandwidth_chart_summary">Die mit Ihrem Telefon gemessene Datengeschwindigkeit Ihres Anbieters kann variieren.</string>
+  <string name="wifi_wps_fail_error">Wi-Fi-geschützte Einrichtung fehlgeschlagen, noch einmal versuchen.</string>
+  <string name="wifi_ap_title">Statistik</string>
+  <string name="wifi_ap_time_duration">Dauer: 
+        <xliff:g id="time">%1$s</xliff:g>
+</string>
+  <string name="wifi_ap_total_data">Gesamtheit genutzter Daten: <xliff:g id="time">%1$s</xliff:g>
+</string>
+  <string name="wifi_ap_no_connected">0 verbundene Nutzer</string>
+  <string name="wifi_ap_no_blocked">0 blockierte Nutzer</string>
+  <!-- Wi-Fi hotspot client end -->
+ 
+  <!-- MTK Beam plus start -->
+   <string name="beam_mgmt_tab_download_title">Empfangene Anrufe</string>
+  <string name="beam_mgmt_tab_upload_title">"3. Klicken Sie auf das Freigabe-Register und wählen Sie 'Anderen Netzwerkbenutzern die Verbindung über die Internetverbindung dieses Computers erlauben'(neu hinzugefügtes Netzwerk wählen, das USB-Internet repräsentiert, wenn 'Heimnetzwerkverbindung' erscheint)."</string>
+  <string name="beam_share_mgmt_notification_ticker">Übertragungsfreigabeverlauf</string>
+  <string name="beam_share_mgmt_notification_title">Übertragungsfreigabeverlauf</string>
+  <string name="beam_share_mgmt_notification_message">"Zur Anzeige des Übertragungsfreigabeverlaufs wählen."</string>
+  <string name="beam_share_mgmt_tab_menu_clear">"Sollen alle Website-Einstellungen gelöscht werden?"</string>
+  <string name="beam_share_open_file_dialog_title">Datei kann nicht geöffnet werden.</string>
+  <string name="beam_share_open_file_unsupported_message">Datei kann nicht geöffnet werden.</string>
+  <string name="beam_share_open_file_not_found_message">"Datei nicht gefunden: 
+        <xliff:g id="file_name">%1$s</xliff:g> 
+    </string>
+  <string name="beam_share_transfer_fail_dialog_title">"Übertragung fehlgeschlagen"</string>
+  <string name="beam_share_resend_dialog_message">" 
+        <xliff:g id="file_name">%1$s</xliff:g> wurde nicht erfolgreich gesendet."
+    </string>
+  <string name="beam_share_resend_dialog_ok_button">"Erneut versuchen"</string>
+  <string name="beam_share_show_received_files_menu">"Erhaltene Dateien anzeigen"</string>
+  <string name="beam_share_history_title">Übertragungsfreigabeverlauf</string>
+  <string name="beam_share_clear_confirm_dialog_title">"Alles löschen"</string>
+  <string name="beam_share_clear_confirm_dialog_message">Gesamten Verlauf löschen?</string>
+  <string name="beam_share_receive_fail_dialog_message">" 
+        <xliff:g id="file_name">%1$s</xliff:g> wurde nicht erfolgreich empfangen."
+    </string>
+  <string name="beam_share_clear_item_dailog_title">"Löschen"</string>
+  <string name="beam_share_clear_item_dailog_message">Dieses Element wird gelöscht.</string>
+  <!-- MTK Beam plus end -->
+ 
+  <!-- MTK NFC settings start -->
+   <string name="nfc_p2p_mode">P2P-Modus</string>
+  <string name="nfc_p2p_mode_summary">App-Inhalt senden oder empfangen</string>
+  <string name="nfc_tag_mode_category">Tag-Modus</string>
+  <string name="nfc_rw_tag_title">Tag-Lesen &amp; -Schreiben</string>
+  <string name="nfc_rw_tag_summary">Von einem Tag lesen oder es beschreiben</string>
+  <string name="nfc_card_emulation_category_title">Kartenemulationsmodus</string>
+  <string name="nfc_card_emulation">Kartenemulation</string>
+  <string name="card_emulation_settings_category_title">verfügbares Sicherheitselement</string>
+  <string name="card_emulation_settings_no_element_found">Kein verfügbares Sicherheitselement</string>
+  <string name="card_emulation_settings_off_text">Zum Anzeigen verfügbarer Sicherheitselemente schalten Sie die Kartenemulation ein.</string>
+  <string name="card_emulation_turning_off_text">Kartenemulation ausschalten…</string>
+  <string name="card_emulation_turning_on_text">Kartenemulation einschalten…</string>
+  <string name="card_emulation_switch_error_title">""Fehler""</string>
+  <string name="card_emulation_switch_error_message">Umschalten zu 
+        <xliff:g id="card_mode">%1$s</xliff:g> fehlgeschlagen.
+    </string>
+  <string name="card_emulation_sim_not_supported_message">
+<xliff:g id="sim_description">%1$s</xliff:g> unterstützt keine NFC-Kartenemulation.</string>
+  <string name="card_emulation_two_sim_not_supported_message">SIM 1, SIM 2 unterstützen keine NFC-Emulation.</string>
+  <string name="nfc_hce_pay_summary">Gerät zum Tippen &amp; Bezahlen als Google Wallet, Kreditkarte etc. verwenden</string>
+  <!-- MTK NFC settings end -->
+ 
+  <!-- MTK WIFI Passpoint start -->
+   <string name="passpoint_summary">Automatisch mit Passpoint-fähigen APs verbinden</string>
+  <string name="passpoint_append_summary">(per Passpoint)</string>
+  <string name="passpoint_config_credential_type">Zugangsdatentyp</string>
+  <string name="passpoint_config_eap_method">"EAP-Methode"</string>
+  <string name="passpoint_supported">Unterstützt</string>
+  <string name="passpoint_username_pw">Benutzername/Kennwort</string>
+  <string name="passpoint_certificate">Zertifikat</string>
+  <!-- MTK WIFI Passpoint end -->
+ 
+  <!-- MTK WFD start -->
+   <string name="wfd_change_resolution_menu_title">Auflösung ändern</string>
+  <string name="wfd_sink_summary">Durch Andere auffindbar</string>
+  <string name="wfd_device_category">Geräteliste</string>
+  <string name="wfd_sink_toast_enjoy">Bildschirm-Casting von dem anderen Gerät genießen</string>
+  <string name="wfd_sink_toast_disconnect">Cast-Bildschirm getrennt</string>
+  <string name="wfd_sink_disconnecting">"Verbindung wird getrennt…"</string>
+  <string name="wfd_sink_guide_btn">Beziehen</string>
+  <string name="wfd_sink_guide_title">Wie verlasse ich den Vorgang?</string>
+  <string name="wfd_sink_guide_content">Zum Verlassen der Anzeige eines anderen Gerätes <xliff:g id="seconds">%s</xliff:g> Sekunden lang am Bildschirm drücken.</string>
+  <!-- MTK WFD end -->
+ 
+  <!-- MTK Storage Settings start -->
+   <string name="mtp_transfer_unmount_error_text">SD-Karte kann während Dateiübertragung nicht ausgeworfen werden</string>
+  <string name="mtp_transfer_erase_error_text">SD-Karte kann während Dateiübertragung nicht gelöscht werden</string>
+  <string name="launch_error">"Konnte Anwendung nicht starten!"</string>
+  <string name="dlg_confirm_unmount_usb_title" product="default">USB-Speicher auswerfen?</string>
+  <string name="dlg_confirm_unmount_usb_text" product="default">Wenn Sie den USB-Speicher auswerfen, werden einige von Ihnen verwendete Apps möglicherweise beendet und sind nicht mehr verfügbar, bis Sie den USB-Speicher wieder einbinden.</string>
+  <string name="dlg_error_unmount_usb_text" product="default">Konnte USB-Speicher nicht auswerfen. Später noch einmal versuchen.</string>
+  <string name="unmount_usb_inform_text" product="default">USB-Speicher wird ausgeworfen.</string>
+  <string name="sd_eject_usbstorage" product="default">"USB-Speicher trennen"</string>
+  <string name="sd_eject_usbstorage_summary" product="default">"Internen USB-Speicher trennen"</string>
+  <string name="sd_mount_usbstorage" product="default">"USB-Speicher bereitst."</string>
+  <string name="sd_insert_usb_summary" product="default">"USB-Sp. für Bereitst. einlegen"</string>
+  <string name="usb_ums_title">USB-Speicher</string>
+  <string name="usb_ums_summary">"XP empfohlen. Ermöglicht Dateiübertragung zwischen Ihrem Computer und dem USB-Speicher Ihres Android."</string>
+  <string name="usb_charge_title">Nur laden</string>
+  <string name="usb_connect_as_cdrom_category">"Verbinden als CD-ROM"</string>
+  <string name="usb_charge_summary">Alle USB-Funktionen beenden. Ermöglicht die Beschleunigung des USB-Ladevorgangs und die Verringerung des Stromverbrauchs.</string>
+  <string name="akp_installer_settings_title">APK-Installationsprogramm</string>
+  <string name="akp_installer_settings_summary">Ihre APK von Telefonspeicher und SD-Karte installieren</string>
+  <string name="usb_bicr_title">Integriertes CD-Laufwerk</string>
+  <string name="usb_bicr_summary">Virtuelle CD-ROM anzeigen, die praktische Software enthält.</string>
+  <string name="select_memory">STANDARD SPEICHER</string>
+  <string name="dlg_mount_external_sd_title" product="default">SD-Karte einbinden?</string>
+  <string name="dlg_mount_external_sd_summary" product="default">Wenn Sie die SD-Karte einbinden werden einige von Ihnen verwendete Apps beendet.</string>
+  <!-- MTK Storage Settings end -->
+ 
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">HDMI-Einstellungen</string>
+  <string name="hdmi_settings_summary">Zur HDMI-Konfiguration klicken</string>
+  <string name="hdmi_audio_toggler">"Audio"</string>
+  <string name="hdmi_video_toggler">"Video"</string>
+  <string name="hdmi_video_resolution">Video-Auflösung</string>
+  <string name="hdmi_auto">Auto</string>
+  <string name="hdmi_scale_control">Videoskalierungseinstellungen</string>
+  <string name="hdmi_scale_no_scale">Keine Skalierung</string>
+  <string name="hdmi_scale_scale_down">Herunterskalieren <xliff:g id="scale_percent">%s</xliff:g> %%</string>
+  <string name="hdmi_audio_output">Audioausgang</string>
+  <string name="hdmi_audio_output_stereo">Stereo</string>
+  <string name="hdmi_audio_output_multi_channel">Mehrkanal</string>
+  <!-- MTK HDMI end -->
+ 
+  <!-- MTK Display Settings start -->
+   <string name="landscape_launcher_title">Querformat-Starter</string>
+  <string name="landscape_launcher_none">Keine</string>
+  <string name="display_settings_scences_title">Szenen</string>
+  <string name="default_name">Standard</string>
+  <string name="custom_theme_name">Neu [%1$s]</string>
+  <string name="loading">Wird geladen…</string>
+  <string name="auto_backlight_title">Sparsame Hintergrundbeleuchtung</string>
+  <string name="auto_backlight_summary">Automatische Helligkeitsanpassung zum Energiesparen</string>
+  <string name="display_personalize">Personalisieren</string>
+  <string name="display_default">"Display"</string>
+  <string name="clear_motion_summary">Videoflüssigkeitsverbesserung</string>
+  <string name="on_text">"an"</string>
+  <string name="off_text">"aus"</string>
+  <string name="mira_vision_summary">Bietet beste visuelle Effekte</string>
+  <!-- MTK Display Settings end -->
+ 
+  <!--MTK Security Settings start -->
+   <string name="voice_unlock_backup_info_summary">Falls die Sprachfreigabe Sie nicht erkennt: Wie möchten soll die Freigabe erfolgen?</string>
+  <string name="unlock_set_unlock_mode_voice_weak">Sprachfreigabe</string>
+  <string name="mtk_lock_screen_notifications_title">Sperrbildschirmbenachrichtigungen</string>
+  <string name="lock_screen_notifications_summary">Benachrichtigungen bei gesperrtem Display anzeigen</string>
+  <string name="lock_screen_style_title">Sperrbildschirmstil</string>
+  <string name="current_suffix">"(Aktuell)"</string>
+  <string name="lockscreen_style_default_desc">"Schnellzugriff auf Applikationen im Sperrbildschirm"</string>
+  <string name="security_not_set">Sicherheit ist nicht eingestellt</string>
+  <string name="voice_ui_title">Sprachsteuerung</string>
+  <!--MTK Security Settings end -->
+ 
+  <!-- MTK Wireless settings start -->
+   <string name="pch_toggle_title">GPRS-Transferpräf.</string>
+  <string name="pch_data_prefer_summary_off">Daten bevorzugt</string>
+  <string name="pch_call_prefer_summary_on">Anruf bevorzugt</string>
+  <string name="pch_warning_message">Datenübertragungsrate nimmt ab.</string>
+  <string name="tethered_ipv6_title">Hotspot- &amp; Tethering-Einstellungen</string>
+  <string name="tethered_ipv4v6">(IPv6 verfügbar)</string>
+  <string name="tethered_ipv6">(Nur IPv6 verfügbar)</string>
+  <string name="tethered_ipv4">(IPv6 nicht verfügbar)</string>
+  <string name="tethering_apn_settings_title">APN settings</string>
+  <string name="tethering_apn_settings_summary">Configure APN for tethering</string>
+  <string name="usb_tether_type_title">USB-Tethering-Typ</string>
+  <string name="usb_tethering_select_version">PC-Systemversion wählen</string>
+  <string name="apn_port_warning">Portbereich muss zwischen 1 und 65535 liegen!</string>
+  <string name="apn_predefine_change_dialog_notice">Wirklich speichern? Änderungen an den Standard-APNs können Verbindungsprobleme verursachen!</string>
+  <string name="lockdown_vpn_already_connected">Immer an VPN wurde bereits zur Verbindung aktiviert.</string>
+  <!-- MTK Wireless settings end -->
+ 
+  <!-- MTK Feature MISC start -->
+   <string name="schedule_power_on_off_settings_title">Ein-/Abschaltung nach Zeitplan</string>
+  <string name="ipo_title">Schnellstart</string>
+  <string name="ipo_summary_on">Schnellstart deaktivieren</string>
+  <string name="ipo_summary_off">Schnellstart aktivieren</string>
+  <string name="hotknot_explained_description">Datenaustausch zulassen, wenn der Bildschirm ein anderes Gerät berührt</string>
+  <string name="mouse_primary_button_title">Primäre und sekundäre Tasten umschalten</string>
+  <string name="mouse_primary_button_dialog_title">Primärtaste umschalten</string>
+  <string name="double_click_title">Doppelklickgeschwindigkeit</string>
+  <string name="test_area">TESTFLÄCHE:</string>
+  <string name="double_click_tip">Hier doppelklicken</string>
+  <!-- MTK Feature MISC end -->
+ 
+  <!-- MTK Bluetooth Settings start -->
+   <string name="bluetooth_advanced_settings">Erweiterte Bluetooth-Einstellungen</string>
+  <string name="bluetooth_profile_ftp">Dateitransfer</string>
+  <string name="bluetooth_ftp_profile_summary_use_for">Für Dateitransfer verwenden</string>
+  <string name="bluetooth_ftp_profile_summary_connected">"Verbunden mit Dateitransfer"</string>
+  <!-- MTK Bluetooth Settings end -->
+ 
+  <!--MTK DateTime start-->
+   <string name="gps_time_sync_attention_gps_on">Bis zur GPS-Ortung dauert es maximal 1 Minute. Außerdem kann es GPS aufgrund schwacher Umgebungssignale misslingen, die Zeitangabe bereitzustellen.\n\nWirklich die von GPS bereitgestellte Zeitangabe verwenden?</string>
+  <string name="gps_time_sync_attention_gps_off">Zur Nutzung der per GPS bereitgestellten Zeitangabe müssen Sie GPS zuerst aktivieren. Bis zur GPS-Ortung dauert es maximal 1 Minute. Außerdem kann es GPS aufgrund schwacher Umgebungssignale misslingen, die Zeitangabe bereitzustellen. \n\nGPS jetzt wirklich aktivieren und auf die von GPS bereitgestellte Zeitangabe warten?</string>
+  <!--MTK DateTime end-->
+ 
+  <!--MTK DRM settings start -->
+   <string name="drm_settings_title">DRM-Rücksetzung</string>
+  <string name="drm_settings_summary">Löscht alle DRM-Lizenzen</string>
+  <string name="drm_reset_dialog_msg">Dieser Vorgang löscht alle Lizenzen auf diesem Gerät. Fortfahren?</string>
+  <string name="drm_reset_toast_msg">Lizenzen wurden erfolgreich gelöscht.</string>
+  <!--MTK DRM settings end -->
+ 
+  <!-- MTK APPS settings start -->
+   <string name="launch_main_label">Anwendung ausführen</string>
+  <string name="launch_main">Anwendung durch Hauptaktivität ausführen</string>
+  <string name="launch_activitie">Ausführen</string>
+  <string name="move_app_to_where">Nach 
+        <xliff:g id="location">%s</xliff:g> verschieben</string>
+  <!-- MTK APPS settings end -->
+ 
+  <!-- MTK Battery MISC start -->
+   <string name="bg_power_saving_title">Intelligentes Energiesparen im Bereitschaftsmodus</string>
+  <!-- MTK Battery MISC end -->
+ 
+  <!-- MTK  Datausage  start -->
+   <string name="mtk_datausage_overview_tab">Übersicht</string>
+  <string name="mtk_datausage_overview_wifi_today">Heute</string>
+  <string name="mtk_datausage_overview_wifi_total">Gesamt</string>
+  <string name="mtk_datausage_overview_mobile_title">Mobil</string>
+  <string name="mtk_datausage_overview_mobile_usage">
+<xliff:g id="actual">%s</xliff:g> von 
+        <xliff:g id="limit">%s</xliff:g>
+</string>
+  <string name="mtk_datausage_overview_mobile_usage_warning">Außerhalb des Limits 
+        <xliff:g>%s</xliff:g> 
+    </string>
+  <string name="data_saving_title">Daten werden gespeichert</string>
+  <!-- MTK  Dtausage  end -->
+ 
+  <!-- MTK About phone start -->
+   <string name="status_imei_slot1">IMEI (Steckplatz 1)</string>
+  <string name="status_imei_slot2">IMEI (Steckplatz 2)</string>
+  <string name="custom_build_version">"Erstellungsversion anpassen"</string>
+  <string name="mota_system_update_summary">"Systemaktualisierung auf Server prüfen"</string>
+  <string name="software_updates_more_title">Softwareaktualisierungen</string>
+  <string name="software_updates_more_summary">Nach neuer Softwareversion suchen</string>
+  <!-- MTK About phone end -->
+ 
+  <!-- MTK sim cards start -->
+   <string name="sim_cards_celluar_data_dialog_title">SIM zur Nutzung für Mobilfunkdaten wählen</string>
+  <string name="sim_cards_data_sms_dialog_title">SIM zur Nutzung für SMS-Nachrichten wählen</string>
+  <string name="sim_cards_calls_dialog_title">Konto zur Nutzung für Telefonanrufe wählen</string>
+  <string name="sim_cards_other_calls_dialog_title">Anderes Konto wählen</string>
+  <string name="sim_cards_other_calls_item_title">Anderes Konto</string>
+  <string name="data_connection_progress_message">"Das Umschalten der SIM dauert etwa 10 Sekunden. Bitte warten…"</string>
+  <string name="gemini_sim_mode_progress_activating_message">Wird aktiviert\u2026</string>
+  <string name="gemini_sim_mode_progress_deactivating_message">Wird deaktiviert\u2026</string>
+  <string name="simui_intenet_call">Internetanruf</string>
+  <!-- MTK sim cards end -->
+ 
+  <!-- MTK SIM Status start -->
+   <string name="imei_information_title">"IMEI-Informationen"</string>
+  <string name="imei_information_summary">"Informationen zur relativen IMEI"</string>
+  <string name="slot_number">"(Slot <xliff:g id="SLOT_NUM">%1$d</xliff:g>)"</string>
+  <string name="sim_info_editor_color">"Hintergrundfarbe"</string>
+  <string name="sim_cards_notify_title">"SIM-Karten wurden ausgetauscht."</string>
+  <string name="sim_cards_notify_summary">Zum Festlegen von Präferenzen antippen.</string>
+  <string name="no_sim_cards_notify_title">Keine SIM-Karte eingesteckt in</string>
+  <string name="cellular_data_notify_title">"Mobilfunkdaten sind nicht verfügbar."</string>
+  <string name="cellular_data_notify_summary">Zum Festlegen einer Daten-SIM antippen.</string>
+  <!-- MTK SIM Status end -->
+ 
+  <!-- IMS/SMS Settings start -->
+   <string name="ims_toggle_summary">IP-Multimedia-Subsystemservices werden zur Verfügung gestellt</string>
+  <string name="sms_vibrate_summary">Geräte bei SMS vibrieren lassen</string>
+  <!-- IMS/SMS Settings end -->
+    <string name="default_data_switch_err_msg1">Kann während eines Anrufs die bevorzugte SIM für Mobilfunkdaten nicht wechseln.</string>
+  <string name="two_cdma_dialog_msg">Steckplatz 1 und Steckplatz 2 können CDMA nicht gleichzeitig unterstützen.</string>
+  <string name="hetcom_setting_title">Turbo-Download</string>
+<string name="voice_call_sim2_title">Klingelton der Karte 2</string>
+<string name="ringtone_sim2_title">Klingelton der Karte 2</string>
+<string name="wfc_quick_toggle_title">Wi-Fi-Anruf</string>
+<string name="Help">Hilfe</string>
+<string name="Tutorials">Anleitung</string>
+<string name="Top_questions">Wichtigste Fragen</string>
+<string name="Wifi_wfc_dialog_title">Wi-Fi-Anruf</string>
+<string name="Wifi_wfc_dialog_top_wording">Sie sind jetzt mit dem Wi-Fi-Netzwerk verbunden.</string>
+<string name="Wifi_wfc_dialog_bottom_wording">Dieses Symbol im oberen Bereich Ihres Bildschirms zeigt an, dass Sie mit dem Wi-Fi-Netzwerk verbunden sind. Sie können über Wi-Fi Anrufe tätigen und Nachrichten senden.</string>
+<string name="Skip">Überspringen</string>
+<string name="Learn_more">Weitere Informationen</string>
+<string name="Next">Weiter</string>
+<string name="Switch_not_in_use_string">Der Schalter ist vorübergehend nicht verfügbar. Versuchen Sie es später erneut.</string>
+<string name="Done">Fertig</string>
+<string name="Wfc_questions">Hilfe zu Wi-Fi-Calling</string>
+<string name="Wfc_off_summary">Deaktiviert</string>
+<string name="wfc_on_summary">Wi-Fi-Anruf aktiviert</string>
+<string name="connection_preference">Verbindungseinstellungen</string>
+<string name="WiFi_preferred">Wi-Fi bevorzugt</string>
+<string name="Cellular_network_preferred">Mobilfunknetz bevorzugt</string>
+<string name="Never_use_cellular_network">Niemals ein Mobilfunknetz verwenden</string>
+<string name="WiFi_preferred_summary">Wi-Fi für Anrufe verwenden. Wenn Wi-Fi nicht verfügbar ist, Mobilfunknetz verwenden (Standard).</string>
+<string name="Cellular_network_preferred_summary">Mobilfunknetz für Anrufe verwenden. Wi-Fi verwenden, wenn das Mobilfunknetz nicht verfügbar ist.</string>
+<string name="Never_use_cellular_network_summary">Nur Wi-Fi für Anrufe verwenden. Mobilfunknetz auch bei Verfügbarkeit nicht verwenden.</string>
+<string name="no_sim_present_error">Keine SIM vorhanden</string>
+<string name="inavlid_sim_error">Fehler 05: Ungültige SIM</string>
+<string name="airplane_mode_on">Flugmodus ist an</string>
+<string name="cellular_prefered_summary">Mobilfunk ist Ihr bevorzugter Verbindungsmodus.</string>
+<string name="wifi_off_summary">Wi-Fi ausgeschaltet</string>
+<string name="not_connected_to_wifi_summary">Nicht mit Wi-Fi verbunden</string>
+<string name="poor_wifi_signal_summary">Schwaches Wi-Fi-Signal</string>
+<string name="wfc_enabling_summary">Aktivieren…</string>
+<string name="wfc_disabling_summary">Deaktivieren…</string>
+<string name="wfc_ready_for_calls_summary">Bereit für Anrufe</string>
+<string name="wfc_unknown_error_summary">Unbekannter Fehler</string>
+<string name="wfc_tutorial_heading">Erfahren Sie mehr über Wi-Fi-Calling.</string>
+<string name="wfc_tutorial_content_second_page_part1">Sobald das Wi-Fi-Calling-Symbol in der Statusleiste angezeigt wird, ist das Telefon für Wi-Fi-Calling bereit.</string>
+<string name="wfc_tutorial_content_second_page_part2">Um einen Wi-Fi-Anruf zu halten, verlassen Sie nicht das Wi-Fi-Netzwerk. Sie hören einen Signalton und erhalten eine Nachricht auf dem Bildschirm, wenn ein Anruf beendet wurde, weil Sie den Bereich verlassen haben.</string>
+<string name="wfc_incorrect_sim_alert_title">Fehler 05: Ungültige SIM-Karte</string>
+<string name="wfc_invalid_sim_alert_message">Wichtiger Hinweis\nIhre SIM-Karte muss für eine Kompatibilität mit dem Wi-Fi-Calling-Dienst aktualisiert werden. Gehen Sie in Ihren T-Mobile-Store oder wählen Sie auf Ihrem Telefon die 611, um den Kundendienst anzurufen.</string>
+<string name="ok_string">OK</string>
+<string name="wifi_ap_help_title">"Hilfe"</string>
+<string name="help_document">1. Ihr Gerät kann über die mobile Wi-Fi-Hotspot-Funktion als Internetzugriffpunkt genutzt werden. Peripheriegeräte können eine Verbindung zu Ihrem Gerät herstellen und über Ihre Mobildatenverbindung auf das Internet zugreifen.\n2. Aktivieren Sie die Mobildaten, bevor Sie die Wi-Fi-Hotspot-Funktion verwenden. Für die Datennutzung können Gebühren anfallen.\n3. Die Verwendung des mobilen Wi-Fi-Hotspots verbraucht mehr Strom.</string>
+<string name="bg_power_percent_title">Akkustand (in %) anzeigen</string>
+<string name="bg_power_percent_summary">Verbleibenden Akkustand in % in der Statusleiste anzeigen</string>
+<string name="wfc_tutorial_content_first_page">Mit Wi-Fi-Calling ist die Zeit von unregelmäßigem Empfang vorüber. Mit Wi-Fi-Calling können Sie Anrufe und Nachrichten mit Ihrem bestehenden T-Mobil-Tarif über ein Wi-Fi-Netzwerk senden und empfangen. Für Wi-Fi-Calling ist keine besondere Einrichtung erforderlich. Gehen Sie über das Menü „Einstellungen“ zu „Wireless“ und "Netzwerke" und verbinden Sie sich zum Starten mit einem Wi-Fi.</string>
+<string name="storage_internal_storage_title">Interner Speicher</string>
+<string name="storage_cleaner_preference_title">Speicherbereiniger</string>
+</resources>

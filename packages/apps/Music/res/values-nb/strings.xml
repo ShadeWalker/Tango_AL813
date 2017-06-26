@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- 
+/*
+** Copyright 2007, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="8336826100414159413" name="onesong">"1 sang"</string>
+  <plurals name="Nsongs">
+    <item msgid="5798230388116542981" quantity="other">" 
+            <xliff:g id="COUNT">%d</xliff:g> sanger"
+        </item>
+  </plurals>
+  <plurals name="Nsongscomp">
+    <item msgid="7162294486622945550" quantity="other">" 
+            <xliff:g id="COUNT_FOR_ARTIST">%2$d</xliff:g> av 
+            <xliff:g id="TOTAL_COUNT">%1$d</xliff:g> sanger"
+        </item>
+  </plurals>
+  <plurals name="Nalbums">
+    <item msgid="3798955510439465932" quantity="one">"1 album"</item>
+    <item msgid="3047615499770811984" quantity="other">" 
+            <xliff:g id="COUNT">%d</xliff:g> album"
+        </item>
+  </plurals>
+    <string msgid="8979658707407220934" name="goto_start">"Bibliotek"</string>
+    <string msgid="8213359225506006168" name="party_shuffle">"Tilfeldig"</string>
+    <string msgid="1828744483354711679" name="party_shuffle_off">"Tilfeldig av"</string>
+    <string msgid="3363330144534750601" name="delete_item">"Slett"</string>
+    <string msgid="1388193611787878773" name="shuffle_all">"Stokk alle"</string>
+    <string msgid="6309622568869321842" name="play_all">"Spill alle"</string>
+    <string msgid="8665759524898379194" name="delete_artist_desc">"Vil du slette alle sanger av 
+        <xliff:g id="ARTIST">%s</xliff:g> fra SD-kortet for godt?"
+    </string>
+    <string msgid="5729059309796497914" name="delete_artist_desc_nosdcard">"Vil du slette alle sanger av 
+        <xliff:g id="ARTIST">%s</xliff:g> fra USB-lagringen for godt?"
+    </string>
+    <string msgid="8172412873562794429" name="delete_album_desc">"Vil du slette hele albumet « 
+        <xliff:g id="ALBUM">%s</xliff:g>» fra SD-kortet for godt?"
+    </string>
+    <string msgid="8612559166069885285" name="delete_album_desc_nosdcard">"Vil du slette hele albumet « 
+        <xliff:g id="ALBUM">%s</xliff:g>» fra USB-lagringen godt?"
+    </string>
+    <string msgid="1842681623848282205" name="delete_song_desc">"Vil du slette « 
+        <xliff:g id="SONG">%s</xliff:g>» fra SD-kortet for godt?"
+    </string>
+    <string msgid="5064973032624148730" name="delete_song_desc_nosdcard">"Vil du slette « 
+        <xliff:g id="SONG">%s</xliff:g>» fra USB-lagringen for godt?"
+    </string>
+    <string msgid="7008121194944357274" name="delete_confirm_button_text">"OK"</string>
+  <plurals name="NNNtracksdeleted">
+    <item msgid="8560276109508404217" quantity="one">"1 sang ble slettet."</item>
+    <item msgid="5156740163031225200" quantity="other">" 
+            <xliff:g id="SONGS_TO_DELETE">%d</xliff:g> sang ble slettet."
+        </item>
+  </plurals>
+    <string msgid="3529383847223198502" name="scanning">"Søker i minnekort…"</string>
+    <string msgid="8105284774487360148" name="scanning_nosdcard">"Skanner USB-lagring ..."</string>
+    <string msgid="8342523844307751761" name="nowplaying_title">"Spilles nå"</string>
+    <string msgid="6582413231529992125" name="partyshuffle_title">"Tilfeldig"</string>
+    <string msgid="8490372367259160067" name="artists_title">"Artister"</string>
+    <string msgid="5807982055590211900" name="albums_menu">"Album"</string>
+    <string msgid="8773880394961378035" name="albums_title">"Album"</string>
+    <string msgid="6942246568246092330" name="tracks_menu">"Sanger"</string>
+    <string msgid="3229389424532295124" name="tracks_title">"Sanger"</string>
+    <string msgid="5382792649771928849" name="playlists_menu">"Spillelister"</string>
+    <string msgid="5094238486322957927" name="playlists_title">"Spillelister"</string>
+    <string msgid="2066741954354129115" name="videos_title">"Videoer"</string>
+    <string msgid="6880186414437237653" name="all_title">"Alle medier"</string>
+    <string msgid="5248122473075843289" name="browse_menu">"Artister"</string>
+    <string msgid="1016971653383739344" name="search_title">"Søk"</string>
+    <string msgid="8805805388271238471" name="no_tracks_title">"Ingen sanger"</string>
+    <string msgid="6218814130364793104" name="no_videos_title">"Ingen videoer"</string>
+    <string msgid="4456351945617594418" name="no_playlists_title">"Ingen spillelister"</string>
+    <string msgid="8998637685583495247" name="delete_playlist_menu">"Slett"</string>
+    <string msgid="571618502105370684" name="edit_playlist_menu">"Rediger"</string>
+    <string msgid="3133463747389494668" name="rename_playlist_menu">"Gi nytt navn"</string>
+    <string msgid="9008053828193961455" name="playlist_deleted_message">"Spillelisten ble slettet."</string>
+    <string msgid="7187580192703005990" name="playlist_renamed_message">"Spillelisten fikk nytt navn."</string>
+    <string msgid="110978416756366953" name="recentlyadded">"Nylig lagt til"</string>
+    <string msgid="3153322287249901914" name="recentlyadded_title">"Nylig lagt til"</string>
+    <string msgid="8657809279717670634" name="podcasts_listitem">"Podcasts"</string>
+    <string msgid="4928414142496858304" name="podcasts_title">"Podcasts"</string>
+    <string msgid="9008284946643270850" name="sdcard_missing_title">"Mangler minnekort"</string>
+    <string msgid="7984839174824243958" name="sdcard_missing_title_nosdcard">"Ingen USB-lagring"</string>
+    <string msgid="2100061456003981823" name="sdcard_missing_message">"Telefonen har ikke SD-kort innsatt."</string>
+    <string msgid="4459620970330194881" name="sdcard_missing_message_nosdcard">"Telefonen har ikke USB-lagring."</string>
+    <string msgid="1162763571147174655" name="sdcard_busy_title">"Minnekort utilgjengelig"</string>
+    <string msgid="3319125156566499501" name="sdcard_busy_title_nosdcard">"USB-lagring utilgjengelig"</string>
+    <string msgid="579981082201215537" name="sdcard_busy_message">"SD-kortet er opptatt."</string>
+    <string msgid="1493449756827869166" name="sdcard_busy_message_nosdcard">"USB-lagringen er opptatt."</string>
+    <string msgid="165682155008600643" name="sdcard_error_title">"Feil i minnekort"</string>
+    <string msgid="7564338137076303931" name="sdcard_error_title_nosdcard">"USB-lagringsfeil"</string>
+    <string msgid="4574563894036627855" name="sdcard_error_message">"En feil oppsto i minnekortet."</string>
+    <string msgid="4983430848526821234" name="sdcard_error_message_nosdcard">"Det oppstod en feil på USB-lagringsenheten."</string>
+    <string msgid="5567811106415855219" name="unknown_artist_name">"Ukjent artist"</string>
+    <string msgid="8525145988941244727" name="unknown_album_name">"Ukjent album"</string>
+    <string msgid="5453708337808483943" name="shuffle_on_notif">"Tilfeldig avspilling er på."</string>
+    <string msgid="4251189610017886263" name="shuffle_off_notif">"Tilfeldig avspilling er av."</string>
+    <string msgid="1149406899083479716" name="repeat_off_notif">"Ingen gjentagelse."</string>
+    <string msgid="1227153936360904196" name="repeat_current_notif">"Gjentar denne sangen."</string>
+    <string msgid="6443293055987316642" name="repeat_all_notif">"Gjentar alle sanger."</string>
+    <string msgid="2737472190159134599" name="ringtone_menu">"Bruk som telefonringetone"</string>
+    <string msgid="3367622038867238133" name="ringtone_menu_short">"Bruk som ringetone"</string>
+    <string msgid="5325818347613843130" name="ringtone_set">"« 
+        <xliff:g id="NAME">%s</xliff:g>» valgt som telefonringetone."
+    </string>
+    <string msgid="2854921021814550018" name="play_selection">"Spill"</string>
+    <string msgid="7110273488645072783" name="add_to_playlist">"Legg til spillelisten"</string>
+    <string msgid="2937629819482787704" name="queue">"Gjeldende spilleliste"</string>
+    <string msgid="7588112979692632867" name="new_playlist">"Ny"</string>
+    <string msgid="905710296728900597" name="new_playlist_name_template">"Ny spilleliste 
+        <xliff:g id="NUMBER">%d</xliff:g>"
+    </string>
+  <plurals name="NNNtrackstoplaylist">
+    <item msgid="422388042993582235" quantity="one">"1 sang ble lagt til spillelisten."</item>
+    <item msgid="7662771987109627255" quantity="other">" 
+            <xliff:g id="NUMBER">%d</xliff:g> sanger ble lagt til i spillelisten."
+        </item>
+  </plurals>
+    <string msgid="6711555673997896344" name="emptyplaylist">"Den valgte spillelisten er tom."</string>
+    <string msgid="8149755205483279143" name="create_playlist_create_text">"Lagre"</string>
+    <string msgid="2007808383561024706" name="create_playlist_overwrite_text">"Erstatt"</string>
+    <string msgid="8649916852210198813" name="service_start_error_title">"Avspillingsproblem"</string>
+    <string msgid="7061754255330276478" name="service_start_error_msg">"Sangen kunne ikke spilles av."</string>
+    <string msgid="480888406592240723" name="service_start_error_button">"OK"</string>
+  <string-array name="weeklist">
+    <item msgid="7005918873419323862">"1 uke"</item>
+    <item msgid="7487749116155425822">"2 uker"</item>
+    <item msgid="1565338360539555185">"3 uker"</item>
+    <item msgid="2142986059836933072">"4 uker"</item>
+    <item msgid="4332403875260507291">"5 uker"</item>
+    <item msgid="3847281907869868565">"6 uker"</item>
+    <item msgid="2942654998558867799">"7 uker"</item>
+    <item msgid="2115529325850052227">"8 uker"</item>
+    <item msgid="1396675336665198092">"9 uker"</item>
+    <item msgid="3178819129208998649">"10 uker"</item>
+    <item msgid="2727959579637914171">"11 uker"</item>
+    <item msgid="8708754966127584739">"12 uker"</item>
+  </string-array>
+    <string msgid="7636608790418067496" name="weekpicker_set">"Ferdig"</string>
+    <string msgid="699535378922101701" name="weekpicker_title">"Velg tid"</string>
+    <string msgid="5180413608901885255" name="save_as_playlist">"Lagre som spilleliste"</string>
+    <string msgid="4565515100924905315" name="clear_playlist">"Tøm spilleliste"</string>
+    <string msgid="3162022214114562892" name="musicbrowserlabel">"Musikk"</string>
+    <string msgid="2602980193508150226" name="musicshortcutlabel">"Musikk-spilleliste"</string>
+    <string msgid="6733604841530940397" name="mediaplaybacklabel">"Musikk"</string>
+    <string msgid="8522326678447494657" name="videobrowserlabel">"Videoer"</string>
+    <string msgid="4549836003229914299" name="mediapickerlabel">"Musikk"</string>
+    <string msgid="3811851150820251398" name="playback_failed">"Avspilleren støtter ikke denne typen lydfil."</string>
+    <string msgid="886559484711947520" name="cancel">"Avbryt"</string>
+    <string msgid="2548577514849026354" name="remove_from_playlist">"Fjern fra spilleliste"</string>
+    <string msgid="8842426517396356215" name="streamloadingtext">"Kobler til 
+        <xliff:g id="HOST">%s</xliff:g> …"
+    </string>
+    <string msgid="959222971261132292" name="mediasearch">"Søk etter 
+        <xliff:g id="TERM">%s</xliff:g> ved hjelp av:"
+    </string>
+    <string msgid="8678357432732156580" name="working_artists">"Artister…"</string>
+    <string msgid="8713273699401457426" name="working_albums">"Album…"</string>
+    <string msgid="2201491972050410684" name="working_songs">"Sanger…"</string>
+    <string msgid="4424950806134653351" name="working_playlists">"Spillelister…"</string>
+    <string msgid="1991660396037155453" name="loading">"Laster inn …"</string>
+    <string msgid="7662999005554152565" name="sort_by_track">"Spor"</string>
+    <string msgid="2912837715658975248" name="sort_by_album">"Album"</string>
+    <string msgid="4607024967813199992" name="sort_by_artist">"Artister"</string>
+    <string msgid="4143865470317360605" name="music_picker_title">"Velg sang"</string>
+    <string msgid="6520975349259883368" name="search_settings_description">"Artister, album og spor"</string>
+    <string msgid="3766854898072633001" name="search_hint">"Søk i musikk"</string>
+    <string msgid="5548732936480723311" name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ"</string>
+    <string msgid="3166878738860903586" name="widget_initial_text">"Trykk for å velge musikk."</string>
+    <string msgid="8804547581593509614" name="effectspanel">"Lydeffekter"</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/Virtual_Key_title" >
+
+    <SwitchPreference
+        android:key="KeyHide"
+        android:title="@string/Virtual_Key_Hide" 
+        android:persistent="false"/>
+
+    <PreferenceCategory
+        android:key="predefine"
+        android:title="@string/virtual_key_combination" />
+
+    <com.android.settings.location.ImgRadioButtonPreference
+        android:key="mode1"
+        android:persistent="true"
+        android:icon="@drawable/mode1" />
+    <com.android.settings.location.ImgRadioButtonPreference
+        android:key="mode2"
+        android:persistent="false"
+        android:icon="@drawable/mode2" />
+
+</PreferenceScreen>

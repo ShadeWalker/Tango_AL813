@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="3658948994665187911" name="app_label">"Download Manager"</string>
+    <string msgid="7779544811202855500" name="permlab_downloadManager">"Piekļuve lietojumprogrammai Download Manager."</string>
+    <string msgid="4237406545998908947" name="permdesc_downloadManager">"Ļauj lietotnei piekļūt lejupielāžu pārvaldniekam un izmantot to failu lejupielādei. Ļaunprātīgas lietotnes var izmantot šo atļauju, lai traucētu lejupielādes un piekļūtu privātai informācijai."</string>
+    <string msgid="7103642833308809655" name="permlab_downloadManagerAdvanced">"Izvērstas Download Manager funkcijas."</string>
+    <string msgid="2659546004160962761" name="permdesc_downloadManagerAdvanced">"Ļauj lietotnei piekļūt lejupielāžu pārvaldnieka papildu funkcijām. Ļaunprātīgas lietotnes var izmantot šo atļauju, lai traucētu lejupielādes un piekļūtu privātai informācijai."</string>
+    <string msgid="945913803765675685" name="permlab_downloadCompletedIntent">"Lejupielāžu paziņojumu sūtīšana."</string>
+    <string msgid="2094706189855699533" name="permdesc_downloadCompletedIntent">"Ļauj lietotnei sūtīt paziņojumus par pabeigtām lejupielādēm. Ļaunprātīgas lietotnes var izmantot šo atļauju, lai maldinātu citas lietotnes, kurās tiek lejupielādēti faili."</string>
+    <string msgid="4084575448409212628" name="permlab_seeAllExternal" product="nosdcard">"Sk. visas lejup. USB atm."</string>
+    <string msgid="140058400609165726" name="permlab_seeAllExternal" product="default">"Skatīt visus SD kartē lejupielādētos failus"</string>
+    <string msgid="1672759909065511233" name="permdesc_seeAllExternal">"Ļauj lietotnei skatīt visas lejupielādes SD kartē neatkarīgi no lejupielādei izmantotās lietotnes."</string>
+    <string msgid="3069534308882047412" name="permlab_downloadCacheNonPurgeable">"Rezervēt vietu lejupielādes kešatmiņā"</string>
+    <string msgid="2408760720334570420" name="permdesc_downloadCacheNonPurgeable">"Ļauj lietotnei lejupielādes kešatmiņā lejupielādēt failus, kurus nevar automātiski izdzēst, ja lejupielāžu pārvaldniekam nepieciešama papildu vieta."</string>
+    <string msgid="8837971946078327262" name="permlab_downloadWithoutNotification">"lejupielādēt failus bez brīdinājuma"</string>
+    <string msgid="8483135034298639727" name="permdesc_downloadWithoutNotification">"Ļauj lietotnei lejupielādēt failus, izmantojot lejupielāžu pārvaldnieku, nerādot nekādus paziņojumus lietotājam."</string>
+    <string msgid="2436240495424393717" name="permlab_accessAllDownloads">"Piekļuve visām sistēmas lejupielādēm"</string>
+    <string msgid="1871832254578267128" name="permdesc_accessAllDownloads">"Ļauj lietotnei skatīt un pārveidot visas lejupielādes, kas veiktas, izmantojot jebkuru sistēmas lietotni."</string>
+    <string msgid="7015124071247271585" name="download_unknown_title">"&lt;Bez nosaukuma&gt;"</string>
+    <string msgid="5443563299253103667" name="notification_download_complete">"Lejupielāde ir pabeigta."</string>
+    <string msgid="8612136111952014978" name="notification_download_failed">"Lejupielāde neizdevās."</string>
+    <string msgid="2556172885154833575" name="notification_need_wifi_for_size">"Lejupiel. nepiec. Wi-Fi."</string>
+    <string msgid="4328508073283591772" name="notification_paused_in_background">"Pārtraukta fonā."</string>
+    <string msgid="1995971416871498179" name="wifi_required_title">"Lejupielāde ir pārāk liela operatora tīklam."</string>
+    <string msgid="3067694630143784449" name="wifi_required_body">"Lai pabeigtu šo lejupielādi (<xliff:g id="SIZE">%s </xliff:g>), ir jāizmanto Wi-Fi. \n\nPieskarieties <xliff:g id="QUEUE_TEXT">%s </xliff:g>, lai sāktu šo lejupielādi, kad tiks izveidots savienojums ar Wi-Fi tīklu."</string>
+    <string msgid="7441589306734687400" name="wifi_recommended_title">"Vai ievietot rindā, lai lejupielādētu vēlāk?"</string>
+    <string msgid="1314735166699936073" name="wifi_recommended_body">"Sākot šo lejupiel. (<xliff:g id="SIZE">%s </xliff:g>) tūlīt, var samaz. akum. darb. ilg. un/vai var tikt pārslog. mob. datu pārr. sav. Ja sav. tiek pārslog., jūsu mob. sak. oper. var no jums iekasēt maksu atkarībā no izmant. datu pārr. apjoma plāna.\n\nPieskarieties <xliff:g id="QUEUE_TEXT">%s</xliff:g>, lai sāktu šo lejupiel., kad tiks izveidots sav. ar Wi-Fi tīklu."</string>
+    <string msgid="422576726189179221" name="button_queue_for_wifi">"Rinda"</string>
+    <string msgid="2430166148737975604" name="button_cancel_download">"Atcelt"</string>
+    <string msgid="792123674007840864" name="button_start_now">"Sākt tūlīt"</string>
+  <plurals name="notif_summary_active">
+    <item msgid="8475775855911967027" quantity="one">"Notiek 1 faila lejupielāde"</item>
+    <item msgid="9087228371320573153" quantity="other">"Notiek <xliff:g id="NUMBER">%d</xliff:g> failu lejupielāde"</item>
+  </plurals>
+  <plurals name="notif_summary_waiting">
+    <item msgid="5537481763963544278" quantity="one">"Rindā: 1 fails"</item>
+    <item msgid="549229034166062887" quantity="other">"Rindā: <xliff:g id="NUMBER">%d</xliff:g> faili"</item>
+  </plurals>
+    <string msgid="3139295890887972718" name="download_remaining">"Atlikušais laiks: <xliff:g id="DURATION">%s</xliff:g>"</string>
+    <string msgid="7935659741162801699" name="download_no_application_title">"Nevar atvērt failu."</string>
+    <string msgid="4098414876292351487" name="root_downloads">"Lejupielādes"</string>
+    <string msgid="3302638231377947451" name="download_queued">"Rindā"</string>
+    <string msgid="3925050393361158266" name="download_running">"Augšupiel."</string>
+    <string msgid="5144180777324573236" name="download_error">"Neizdevās"</string>
+    <string msgid="4305080769167320204" name="download_running_percent">"Notiek (<xliff:g id="PERCENTAGE">%s</xliff:g>)"</string>
+</resources>

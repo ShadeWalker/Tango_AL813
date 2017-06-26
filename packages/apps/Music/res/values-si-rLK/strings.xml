@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="onesong">1 ගීතය</string>
+<plurals name="Nsongs">
+<item quantity="other">
+<xliff:g id="count">%d</xliff:g> ගීත</item>
+</plurals>
+<plurals name="Nsongscomp">
+<item quantity="other">
+<xliff:g id="count_for_artist">%2$d</xliff:g> ගීත <xliff:g id="total_count">%1$d</xliff:g> අතුරින්</item>
+</plurals>
+<plurals name="Nalbums">
+<item quantity="one">1 ඇල්බමය</item>
+<item quantity="other">
+<xliff:g id="count">%d</xliff:g> ඇල්බම</item>
+</plurals>
+<string name="goto_start">පුස්තකාලය</string>
+<string name="party_shuffle">සාදය සඳහා කළවම් කරන ලද ගීත</string>
+<string name="party_shuffle_off">සාදය සඳහා කළවම් කරන ලද ගීත ඕෆ්</string>
+<string name="delete_item">මකන්න</string>
+<string name="shuffle_all">සියල්ල කළවම් කරන්න</string>
+<string name="play_all">සියල්ල වාදනය කරන්න</string>
+<string name="delete_artist_desc">
+<xliff:g id="artist">%s</xliff:g> ගේ සියළු ගීත මකා දැමෙනු ඇත.</string>
+<string name="delete_artist_desc_nosdcard">
+<xliff:g id="artist">%s</xliff:g> ගේ සියළු ගීත ස්ථීර ලෙසම USB ගබඩාවෙන් මකා දමන්නද?</string>
+<string name="delete_album_desc">\"<xliff:g id="album">%s</xliff:g>\" සම්පූර්ණ ඇල්බමයම මකා දැමෙනු ඇත.</string>
+<string name="delete_album_desc_nosdcard">\"<xliff:g id="album">%s</xliff:g>\" සම්පූර්ණ ඇල්බමයම ස්ථීර ලෙසම USB ගබඩාවෙන් මකා දමන්නද?</string>
+<string name="delete_song_desc">\"<xliff:g id="song">%s</xliff:g>\" මකා දැමෙනු ඇත.</string>
+<string name="delete_song_desc_nosdcard">\"<xliff:g id="song">%s</xliff:g>\" ස්ථීර ලෙසම USB ගබඩාවෙන් මකා දමන්නද?</string>
+<string name="delete_confirm_button_text">හරි</string>
+<plurals name="NNNtracksdeleted">
+<item quantity="one">ගීත 1 ක් මකා දැමිණි.</item>
+<item quantity="other">
+<xliff:g id="songs_to_delete">%d</xliff:g> ගීත මකා දැමිණි.</item>
+</plurals>
+<string name="scanning">SD කාඩ්පත ස්කෑන් කරමින්\u2026 </string>
+<string name="scanning_nosdcard">USB ගබඩාව ස්කෑන් කරමින්\u2026 </string>
+<string name="nowplaying_title">දැන් වාදනය වෙයි</string>
+<string name="partyshuffle_title">සාදය සඳහා කළවම් කරන ලද ගීත</string>
+<string name="artists_title">කලාකරුවන්</string>
+<string name="albums_menu">ඇල්බම්</string>
+<string name="albums_title">ඇල්බම</string>
+<string name="tracks_menu">ගීත</string>
+<string name="tracks_title">ගීත</string>
+<string name="playlists_menu">ගීත ලැයිස්තු</string>
+<string name="playlists_title">ගීත ලැයිස්තු</string>
+<string name="videos_title">වීඩියෝ</string>
+<string name="all_title">සියළු මාධ්‍ය</string>
+<string name="browse_menu">කලාකරුවන්</string>
+<string name="search_title">සොයන්න</string>
+<string name="no_tracks_title">ගීත නැත</string>
+<string name="no_videos_title">වීඩියෝ නැත</string>
+<string name="no_playlists_title">ගීත ලැයිස්තු නැත</string>
+<string name="delete_playlist_menu">මකා දමන්න</string>
+<string name="edit_playlist_menu">සංස්කරණය කරන්න</string>
+<string name="rename_playlist_menu">නැවත නම් කරන්න</string>
+<string name="playlist_deleted_message">ගීත ලැයිස්තුව මකා දැමිණි.</string>
+<string name="playlist_renamed_message">ගීත ලැයිස්තුව නැවත නම් කෙරිණි.</string>
+<string name="recentlyadded">මෑතකාලීනව එක් කළ</string>
+<string name="recentlyadded_title">මෑතකාලීනව එක් කෙරිණි</string>
+<string name="podcasts_listitem">පොඩ්කාස්ට්</string>
+<string name="podcasts_title">පොඩ්කාස්ට්</string>
+<string name="sdcard_missing_title">SD කාඩ්පත නොමැත</string>
+<string name="sdcard_missing_title_nosdcard">USB ගබඩාව නොමැත</string>
+<string name="sdcard_missing_message">ඔබගේ දුරකථනයට SD කාඩ්පතක් ඇතුල් කර නැත.</string>
+<string name="sdcard_missing_message_nosdcard">ඔබගේ දුරකථනයට USB ගබඩාවක් නැත.</string>
+<string name="sdcard_busy_title">SD කාඩ්පත ලද නොහැකිය</string>
+<string name="sdcard_busy_title_nosdcard">USB ගබඩාව ලද නොහැකිය</string>
+<string name="sdcard_busy_message">ඔබගේ මාධ්‍ය ගබඩාව කාර්‍යබහුලය.</string>
+<string name="sdcard_busy_message_nosdcard">ඔබගේ USB ගබඩාව කාර්‍යබහුලය.</string>
+<string name="sdcard_error_title">SD කාඩ්පත් දෝෂය</string>
+<string name="sdcard_error_title_nosdcard">USB ගබඩා දෝෂය</string>
+<string name="sdcard_error_message">ඔබගේ SD කාඩ්පතේ දෝෂයක් ඇතිවිය.</string>
+<string name="sdcard_error_message_nosdcard">ඔබගේ USB ගබඩාවේ දෝෂයක් ඇතිවිය.</string>
+<string name="unknown_artist_name">නොදන්නා කලාකරු</string>
+<string name="unknown_album_name">නොදන්නා ඇල්බමය</string>
+<string name="shuffle_on_notif">කළවම් කිරීම ඔන් කර ඇත.</string>
+<string name="shuffle_off_notif">කළවම් කිරීම ඕෆ් කර ඇත.</string>
+<string name="repeat_off_notif">නැවත වාදනය අක්‍රිය කර ඇත</string>
+<string name="repeat_current_notif">මෙම ගීතය නැවත වාදනය කරමින්.</string>
+<string name="repeat_all_notif">සියළුම ගීත නැවත වාදනය කරමින්.</string>
+<string name="ringtone_menu">දුරකථන නාදරටාව ලෙස භාවිතා කරන්න</string>
+<string name="ringtone_menu_short">නාදරටාව ලෙස භාවිතා කරන්න</string>
+<string name="ringtone_set">\"<xliff:g example="Alarm Bell" id="name">%s</xliff:g>\" දුරකථන නාදරටාව ලෙස සැකසිණි.</string>
+<string name="play_selection">වාදනය</string>
+<string name="add_to_playlist">ගීත ලැයිස්තුවට එක් කරන්න</string>
+<string name="queue">වර්තමාන ගීත ලැයිස්තුව</string>
+<string name="new_playlist">නව</string>
+<string name="new_playlist_name_template">නව ගීත ලැයිස්තුව <xliff:g id="number">%d</xliff:g>
+</string>
+<plurals name="NNNtrackstoplaylist">
+<item quantity="one">ගීත ලැයිස්තුවට 1 ගීතයක් එක් කෙරිණි.</item>
+<item quantity="other">
+<xliff:g example="27" id="number">%d</xliff:g> ගීත ලැයිස්තුවට ගීත එක් කෙරිණි.</item>
+</plurals>
+<string name="emptyplaylist">තේරූ ගීත ලැයිස්තුව හිස් ය.</string>
+<string name="create_playlist_create_text">සුරකින්න</string>
+<string name="create_playlist_overwrite_text">මත ලියන්න</string>
+<string name="service_start_error_title">ප්‍රතිවාදන ගැටළුව</string>
+<string name="service_start_error_msg">ගීත වාදනය කළ නොහැකි විය.</string>
+<string name="service_start_error_button">හරි</string>
+<string-array name="weeklist">
+<item>"සති 1"</item>
+<item>"සති 2"</item>
+<item>"සති 3"</item>
+<item>"සති 4"</item>
+<item>"සති 5"</item>
+<item>"සති 6"</item>
+<item>"සති 7"</item>
+<item>"සති 8"</item>
+<item>"සති 9"</item>
+<item>"සති 10"</item>
+<item>"සති 11"</item>
+<item>"සති 12"</item>
+</string-array>
+<string name="weekpicker_set">ඉටු කරන ලදී</string>
+<string name="weekpicker_title">වේලාව සකසන්න</string>
+<string name="save_as_playlist">ගීත ලැයිස්තුව ලෙස සුරකින්න</string>
+<string name="clear_playlist">ගීත ලැයිස්තුව හිස් කරන්න</string>
+<string name="musicbrowserlabel">සංගීතය</string>
+<string name="musicshortcutlabel">සංගීත ලැයිස්තුව</string>
+<string name="mediaplaybacklabel">සංගීතය</string>
+<string name="videobrowserlabel">වීඩියෝ</string>
+<string name="mediapickerlabel">සංගීතය</string>
+<string name="playback_failed">ගොනුව විවෘත කිරීමට අසමත් විය.</string>
+<string name="cancel">අවලංගු කරන්න</string>
+<string name="remove_from_playlist">ගීත ලැයිස්තුවෙන් ඉවත් කරන්න</string>
+<string name="streamloadingtext">වෙත සම්බන්ධ වෙමින් <xliff:g id="host">%s</xliff:g>\u2026 </string>
+<string name="mediasearch">
+<xliff:g example="Beethoven" id="term">%s</xliff:g> භාවිතය සඳහා සොයන්න:</string>
+<string name="working_artists">කලාකරුවන්\u2026 </string>
+<string name="working_albums">ඇල්බම\u2026 </string>
+<string name="working_songs">ගීත\u2026 </string>
+<string name="working_playlists">ගීත ලැයිස්තු\u2026 </string>
+<string name="loading">පැටවෙමින්\u2026 </string>
+<string name="sort_by_track">ගීතය</string>
+<string name="sort_by_album">ඇල්බම</string>
+<string name="sort_by_artist">කලාකරුවන්</string>
+<string name="music_picker_title">සංගීතය තෝරන්න</string>
+<string name="search_settings_description">කලාකරුවන්, ඇල්බම හා ගීත</string>
+<string name="search_hint">සංගීතය සොයන්න</string>
+<string name="fast_scroll_alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+<string name="widget_initial_text">සංගීතය තේරීමට ස්පර්ශ කරන්න.</string>
+<string name="effectspanel">ශබ්ද ප්‍රයෝග</string>
+</resources>

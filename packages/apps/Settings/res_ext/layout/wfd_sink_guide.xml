@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/dialog_fullscreen"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#cc000000" >
+
+    <TextView
+        android:id="@+id/wfd_sink_guide_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="48dp"
+        android:ellipsize="marquee"
+        android:text="@string/wfd_sink_guide_title"
+        android:textColor="#49c0ec"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/wfd_sink_guide_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/wfd_sink_guide_title"
+        android:layout_below="@id/wfd_sink_guide_title"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="21dp"
+        android:ellipsize="marquee"
+        android:text="@string/wfd_sink_guide_content"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/wfd_sink_guide_ok_btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/wfd_sink_guide_content"
+        android:layout_marginEnd="21dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/cling_button_bg"
+        android:gravity="center"
+        android:text="@string/wfd_sink_guide_btn"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+</RelativeLayout>

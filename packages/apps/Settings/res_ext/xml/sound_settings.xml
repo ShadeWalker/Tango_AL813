@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project Licensed under the 
+    Apache License, Version 2.0 (the "License"); you may not use this file except 
+    in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
+    Unless required by applicable law or agreed to in writing, software distributed 
+    under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES 
+    OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
+    the specific language governing permissions and limitations under the License. -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:persistent="false" android:orderingFromXml="true"
+    android:key="sound_settings"
+    android:title="@string/sound_settings">
+
+    <PreferenceCategory android:key="category_volume"
+        android:title="@string/all_volume_title">
+        <Preference android:key="ring_volume" android:title="@string/all_volume_title"
+            android:widgetLayout="@layout/arrow_img_layout">
+
+            <intent android:action="android.intent.action.TOOLBOX_ADJUST_VOLUME" />
+        </Preference>
+
+        <SwitchPreference android:key="ring_volume_silent"
+            android:title="@string/silent_mode_title" />
+        <SwitchPreference android:defaultValue="false"
+            android:key="vibirate_when_silent" android:title="@string/vibirate_when_silent_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:key="category_calls_and_notification"
+        android:title="@string/sound_category_call_ringtone_vibrate_title"/>
+
+        <com.mediatek.audioprofile.DefaultRingtonePreferenceHq
+            android:key="ringtone1" android:title="@string/ringtone_sim1_title"
+            android:dialogTitle="@string/ringtone_title" android:persistent="false"
+            android:widgetLayout="@layout/arrow_img_layout"
+             />
+        <com.mediatek.audioprofile.DefaultRingtonePreferenceHq
+            android:key="ringtone2" android:title="@string/ringtone_sim2_title"
+            android:dialogTitle="@string/ringtone_sim2_title" android:persistent="false"
+            android:widgetLayout="@layout/arrow_img_layout"
+             />
+        <!-- phone vibrat -->
+        <!-- <SwitchPreference android:key="phone_vibrate"
+            android:title="@string/vibrate_title" android:summary="@string/Phone_vibrate_summary" /> -->
+        <SwitchPreference android:key="vibrate_when_ringing"
+            android:persistent="false" android:title="@string/vibrate_when_ringing_title" />
+        <!-- <SwitchPreference android:key="vibrate_when_ringing_sim2"
+            android:persistent="false" android:title="@string/vibrate_when_ringing_sim2_title" /> -->
+        <!-- <com.mediatek.audioprofile.DefaultRingtonePreferenceHq
+            android:key="video_call_ringtone" android:title="@string/video_call_title"
+            android:persistent="false" />
+        <com.mediatek.audioprofile.DefaultRingtonePreferenceHq
+            android:key="sip_call_ringtone" android:title="@string/sip_call_title"
+            android:persistent="false" /> -->
+
+    <!-- <PreferenceCategory android:key="sound_category_singing"
+        android:title="@string/sound_category_singsing_title">
+        <Preference android:key="singsing_effects" android:title="@string/singsing_effects_title"
+            android:summary="@string/singsing_effects_summary">
+        </Preference>
+    </PreferenceCategory> -->
+
+    <PreferenceCategory android:key="feedback"
+        android:title="@string/sound_category_feedback_title">
+        <com.mediatek.audioprofile.DefaultRingtonePreferenceHq
+            android:key="notification_sound" android:title="@string/notification_sound_title"
+            android:dialogTitle="@string/notification_ringtone_title"
+            android:persistent="false" android:ringtoneType="notification"
+            android:widgetLayout="@layout/arrow_img_layout" />
+        <!-- <SwitchPreference 
+            android:key="dts_effect" 
+            android:title="@string/dts_mode_enable_title"
+            android:persistent="false"/> -->
+        <!-- Dial pad tones -->
+        <SwitchPreference android:key="dtmf_tone"
+            android:title="@string/dtmf_tone_enable_title" android:switchTextOff=""
+            android:switchTextOn="" android:persistent="false" />
+        <!-- Touch sounds -->
+        <SwitchPreference android:key="sound_effects"
+            android:title="@string/sound_effects_enable_title"
+            android:switchTextOff="" android:switchTextOn="" android:persistent="false" />
+        <!-- Screen locking sounds -->
+        <SwitchPreference android:key="lock_sounds"
+            android:title="@string/lock_sounds_enable_title"
+            android:switchTextOff="" android:switchTextOn="" android:persistent="false" />
+        <!-- Vibrate on touch -->
+        <SwitchPreference
+            android:key="haptic_feedback"
+            android:summary="@string/haptic_feedback_enable_summary"
+            android:title="@string/haptic_feedback_enable_title" />
+    </PreferenceCategory>
+    
+    <!-- Sound Enhancement -->
+    <PreferenceCategory
+        android:key="sound_enhancement"
+        android:title="@string/sound_enhancement_title" />
+        <SwitchPreference
+            android:key="music_plus"
+            android:persistent="false"
+            android:summary="@string/music_plus_summary"
+            android:title="@string/music_plus_title" />
+        <SwitchPreference
+            android:key="bes_loudness"
+            android:persistent="false"
+            android:summary="@string/audio_profile_bes_loudness_summary"
+            android:title="@string/audio_profile_bes_loudness_title" />
+        <Preference
+            android:key="bes_surround"
+            android:title="@string/audio_profile_bes_surround_title"
+            android:summary="@string/audio_profile_bes_surround_summary"
+            android:persistent="false"
+            android:widgetLayout="@layout/arrow_img_layout" />
+        <SwitchPreference
+            android:key="bes_lossless"
+            android:persistent="false"
+            android:summary="@string/lossless_summary"
+            android:title="@string/lossless_title" />
+</PreferenceScreen>

@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="more_recipients">ຜູ້ຮັບ</string>
+<string-array name="language_list_values" translatable="false">
+        <item>ທຸກ​ພາ​ສາ</item>
+        <item>ຝຣັ່ງ</item>
+        <item>ອັງກິດ</item>
+        <item>ອິຕາລຽນ</item>
+        <item>ຝຣັ່ງ</item>
+        <item>ສະເປນ</item>
+        <item>Dutch</item>
+        <item>ສະວີດິຊ</item>
+        <item>"ເດັນນິຊ"</item>
+        <item>"ປໍຕູກີສ"</item>
+        <item>"ຟິນນິຊ"</item>
+        <item>"ນໍເວກຽນ"</item>
+        <item>"ກ​ຣີກ"</item>
+        <item>"ເຕີກິສ"</item>
+        <item>"ຮັງກາຣຽນ"</item>
+        <item>Polish</item>
+        <item>"ເຊກ"</item>
+        <item>"ອາຣັບ"</item>
+        <item>"ຣັດເຊຍ"</item>
+        <item>"ໄອສແລນດິກ"</item>
+    </string-array>
+      <string name="call_mms">ສົ່ງຂໍ້ຄວາມ</string>
+<string name="Insert_sdcard">ກະ​ລຸ​ນາ​​ສຽບແຜ່ນ SD ເຂົ້າ​ໄປ.</string>
+<string name="pref_title_mms_enable_to_send_delivery_reports">ສົ່ງລາຍງານການ​ສົ່ງ</string>
+<string name="pref_summary_mms_enable_to_send_delivery_reports">ສົ່ງລາຍ​ງານ​ການ​ສົ່ງ​ສຳ​ລັບ​ແຕ່​ລະ​ຂໍ້​ຄວາມ​​ທີ່​ທ່ານຮັບ</string>
+<string name="set_service_center_OK">ຕັ້ງ​ສູນ​ບໍ​ລິ​ການ SMS ແລ້ວ</string>
+<string name="set_service_center_fail">ຕັ້ງ​ສູນ​ບໍ​ລິ​ການ SMS ​ບໍ່​ສຳ​ເລັດ</string>
+<string name="OK">ຕົກລົງ</string>
+<string name="Cancel">ຍົກເລີກ</string>
+<string name="sms_save_location">ທີ່ຕັ້ງ​ບ່ອນຈັດ​ເກັບ​ຂໍ້​ມູນ SMS</string>
+<string name="sms_service_center">​ສູນ​ບໍ​ລິ​ການ SMS</string>
+<string name="sms_validity_period">​ໄລ​ຍະ​ເວ​ລາໃຊ້​ໄດ້ SMS</string>
+<string name="sms_validity_period_nosetting">ບໍ່​ໄດ້ຕັ້ງ​</string>
+<string name="sms_validity_period_1hour">1 ຊົ່ວ​ໂມງ</string>
+<string name="sms_validity_period_6hours">6 ຊົ່ວ​ໂມງ</string>
+<string name="sms_validity_period_12hours">12 ຊົ່ວ​ໂມງ</string>
+<string name="sms_validity_period_1day">1 ວັນ</string>
+<string name="sms_validity_period_max">ສູງສຸດ</string>
+<string name="service_center_label">ສູນ​ບໍ​ລິ​ການ:\u0020</string>
+<string name="cu_subject">China Unicom Music Media</string>
+<string name="pref_title_mms_creation_mode">ໂໝດ​ການ​ສ້າງ</string>
+<string name="pref_summary_mms_creation_mode">ເລືອກວ່າ​ທ່ານ​ຕ້ອງ​ການ​ສ້າງ ແລະ ຂຽນ​ຂໍ້​ຄວາມ MMS ແນວ​ໃດ</string>
+<string name="pref_title_mms_size_limit">​ຂີດ​ຈຳ​ກັດຂະ​ໜາດ</string>
+<string name="pref_summary_mms_size_limit">ຂີດ​ຈຳ​ກັດ​ຂະ​ໜາດ​ສຳ​ລັບ​ຂໍ້​ຄວາມ​ມັ​ລ​ຕິ​ມີ​ເດຍ</string>
+<string name="confirm_restricted_audio">ປະ​ເພດ​ສຽງ​ທີ່​ຈຳ​ກັດ​ແລ້ວ. ແນວ​ໃດ​ກໍ່​ຄັດ​ຕິດ​ບໍ?</string>
+<string name="confirm_restricted_image">ປະ​ເພດຮູບ​ທີ່​ຈຳ​ກັດ​ແລ້ວ. ແນວ​ໃດ​ກໍ່​ຄັດ​ຕິດ​ບໍ?</string>
+<string name="confirm_restricted_video">ປະ​ເພດວິ​ດີ​ໂອ​ທີ່​ຈຳ​ກັດ​ແລ້ວ. ແນວ​ໃດ​ກໍ່​ຄັດ​ຕິດ​ບໍ?</string>
+<string name="unsupport_media_type">ປະເພດມີ​ເດຍບໍ່ຖືກຮອງຮັບ</string>
+<string name="select_different_media_type">ເລືອກມີ​ເດຍໃໝ່</string>
+<string name="image_resolution_too_large">ຄວາມ​ລະ​ອຽດ​ຮູບ​ຫຼາຍ​ເກີນ​ໄປ​ທີ່​ຈະ​ແຊກ​ໃສ່​ໄດ້</string>
+<string name="wp_msg_type">ຂໍ້ຄວາມບໍລິການ</string>
+<string name="wp_msg_created_label">ສ້າງ​ແລ້ວ:\u0020</string>
+<string name="wp_msg_created_unknown">ບໍ່ຮູ້ຈັກ</string>
+<string name="wp_msg_priority_label">ບຸ​ລິ​ມະ​ສິດ:\u0020</string>
+<string name="wp_msg_priority_low">ຕໍ່າ</string>
+<string name="wp_msg_priority_medium">ປານກາງ</string>
+<string name="wp_msg_priority_high">ສູງ</string>
+<string name="menu_goto_browser">ເປີດບຣາວເຊີ</string>
+<string name="menu_add_to_bookmark">ເພີ່ມໃສ່ບຸກ​ມາກສ໌</string>
+<string name="wp_msg_expiration_label">ໝົດອາຍຸ​ແລ້ວ: <xliff:g id="DATE">%s</xliff:g>
+</string>
+<string name="error_unsupported_scheme">ປະ​ຈຸ​ບັນ​ການ​ດຳ​ເນີນ​ການ​ນີ້​ບໍ່ຖືກຮອງຮັບ.</string>
+<string name="pref_title_wappush_settings">ການຕັ້ງຄ່າຂໍ້ຄວາມບໍ​ລິ​ການ</string>
+<string name="pref_title_wappush_enable">ເປີດ​ໃຊ້​ງານພຸ​ຊ​ WAP</string>
+<string name="pref_summary_wappush_enable">ອະ​ນຸ​ຍາດ​ໃຫ້ຮັບ​ຂໍ້​ຄວາມພຸ​ຊ WAP</string>
+<string name="pref_title_wappush_sl_autoloading">ເປີດ​ໃຊ້ SL ອັດ​ຕະ​ໂນ​ມັດ</string>
+<string name="pref_summary_wappush_sl_autoloading">ເປີດ​ໃຊ້​ຂໍ້​ຄວາມ​ໂຫຼດ​ການ​ບໍ​ລິ​ການ (SL) ໂດຍ​ອັດ​ຕະ​ໂນ​ມັດ ເມື່ອ​ໄດ້​ຮັບ​ພວກ​ມັນ​ແລ້ວ</string>
+<string name="create_new_message">ສ້າງຂໍ້ຄວາມໃໝ່</string>
+<string name="menu_send_sms">ສົ່​ງ​ຂໍ້​ຄວາມ​ຫາ <xliff:g id="name">%s</xliff:g>
+</string>
+<string name="menu_omacp">ຂໍ້ຄວາມການ​ປັບ​ຕັ້ງ</string>
+<string name="menu_undelivered_messages">ຂໍ້ຄວາມ​ສົ່ງ​ໄປ​ບໍ່​ໄດ້</string>
+<string name="broadcast_from_to">
+<xliff:g example="me" id="sender">%1$s</xliff:g> ຫາ <xliff:g example="Megan" id="recipient">%2$s</xliff:g>
+</string>
+<string name="anonymous_recipient">ນິ​ລະ​ນາມ</string>
+<string name="view_picture">ເບິ່ງຮູບ</string>
+<string name="save_message_to_sim">ບັນ​ທຶກຂໍ້​ຄວາມ​ໃສ່​ແຜ່ນ SIM</string>
+<string name="sent_on">ສົ່ງແລ້ວ: <xliff:g id="date">%s</xliff:g>
+</string>
+<string name="received_on">ຮັບ​ແລ້ວ: <xliff:g id="date">%s</xliff:g>
+</string>
+<string name="save_message_to_sim_successful">​ບັນ​ທຶກ​ສຳ​ເລັດ​ແລ້ວ</string>
+<string name="save_message_to_sim_unsuccessful">ບັນທຶກບໍ່ສໍາເລັດ</string>
+<string name="transmission_transiently_failed">ການ​ສົ່ງບໍ່​ສຳ​ເລັດ. ໂທ​ລະ​ສັບ​ຂອງ​ທ່ານ​ຈະ​ລອງ​ໃໝ່​ພາຍ​​ຫຼັງ.</string>
+<string name="download_failed_due_to_full_memory">​​ບ່ອນ​ຈັດ​ເກັບຂໍ້​ມູນເຕັມ. ດາວ​ໂຫຼດຂໍ້​ຄວາມ​ບໍ່​ສຳ​ເລັດ.</string>
+<string name="mms_too_big_to_download">ຂໍ້​ຄວາມ​ໃຫຍ່​ເກີນ​ໄປ​ທີ່​ຈະ​ໃຫ້​ດາວ​ໂຫຼດ​ຈາກ​ເຄືອ​ຂ່າຍ​ໄດ້.</string>
+<string name="menu_reply">ຕອບຄືນ</string>
+<string name="menu_sim_sms">SIM SMS</string>
+<string name="name_colon">
+<b>
+<xliff:g example="Me" id="name">%s</xliff:g>
+</b>": "</string>
+<string name="compose_title">ສ້າງຂຶ້ນ</string>
+<string name="image_too_large">ຮູບ​ໃຫຍ່​ເກີນ​ໄປ</string>
+<string name="ask_for_automatically_resize">ປ່ຽນ​ຂະ​ໜາດ​ຮູບ​ໂດຍ​ອັດ​ຕະ​ໂນ​ມັດ​ກ່ອນ​ສົ່ງ​ມັນ​ບໍ?</string>
+<string name="cannot_load_message">ບໍ່​ສາ​ມາດ​ໂຫຼດຂໍ້ຄວາມ​ໄດ້.</string>
+<string name="locked_message_cannot_be_deleted">ຂໍ້​ຄວາມ​ທີ່​ລັອກ​ໄວ້​ແມ່ນບໍ່​ສາ​ມາດ​ລຶບ​ໄດ້.</string>
+<string name="cannot_add_recipient">ຮອດ​ຈຳ​ນວນ​ສູງ​ສຸດ​ຂອງຜູ້​ຮັບ​ແລ້ວ. ບໍ່​ສາ​ມາດ​ເພີ່ມ​ຜູ້​ຮັບ​ຕື່ມ​ອີກ​ໄດ້.</string>
+<string name="multiple_recipients">ຜູ້​ຮັບ <xliff:g id="recipientCount">%1$s</xliff:g> ຄົນ</string>
+<string name="resize">ປ່ຽນຂະໜາດ</string>
+<string name="to_label">ເຖິງ </string>
+<string name="confirm_delete_all_messages">ລຶບ​ທັງ​ໝົດການ​ສົນ​ທະ​ນາບໍ?</string>
+<string name="mms_priority_label">ບຸ​ລິ​ມະ​ສິດ\u0020</string>
+<string name="menu_retry_sending">ລອງສົ່ງໃໝ່</string>
+<string name="menu_retry_sending_all">ລອງສົ່ງໃໝ່ທັງ​ໝົດ</string>
+<string name="retrying_dialog_body">ຂໍ້​ຄວາມ​ນີ້ <xliff:g id="message">%s</xliff:g> ບໍ່​ຖືກ​ສົ່ງ​ອອກ​ໄປ ເນື່ອງ​ຈາກ​ມີ​ບັນ​ຫາ​ການ​ເຊື່ອມ​ຕໍ່.\r\nກຳ​ລັງລອງສົ່ງໃໝ່\u2026</string>
+<string name="status_expired">ໝົດອາຍຸ​ແລ້ວ</string>
+<string name="status_deferred">ຫັນ​ປ່ຽນ​ແລ້ວ</string>
+<string name="status_unrecognized">ບໍ່​ຮູ້​ຈັກ</string>
+<string name="status_indeterminate">ບໍ່​ກຳ​ນົດ​ແນ່ນອນ</string>
+<string name="status_unreachable">ບໍ່​ສາ​ມາດ​ເຂົ້າ​ຮອດ​ໄດ້</string>
+<string name="attach_ringtone">ສຽງ​ໂທ​ເຂົ້າ</string>
+<string name="notification_multiple_cb">
+<xliff:g id="count">%s</xliff:g> ຂໍ້​ຄວາມ CB ຍັງ​ບໍ່​ໄດ້​ອ່ານ</string>
+<string name="notification_multiple_cb_title">ຂໍ້​ຄວາມ​​ການສົ່ງ​ສັນ​ຍານມືຖືໃໝ່</string>
+<string name="dl_expired_notification">ຂໍ້​ຄວາມ​ນີ້ໝົດ​ອາ​ຍຸ​ແລ້ວ ແລະ ຈະ​ຖືກ​ລຶບ.</string>
+<string name="add_attachment_activity">ເພີ່ມໄຟ​ລ໌​ຄັດ​ຕິດ:</string>
+<string name="select_layout_activity">ເລືອກແຜນ​ຜັງ</string>
+<string name="edit_text_activity">ແກ້​ໄຂຂໍ້​ຄວາມ</string>
+<string name="pick_numbers_activity">ເລືອກ​ເບີ</string>
+<string name="send_using_mms_activity">ສົ່ງ​ເປັນຂໍ້​ຄວາມມັ​ລ​ຕິ​ມີ​ເດຍ\u2026</string>
+<string name="select_contact_method_activity">ເລືອກວິທີຕິດ​ຕໍ່</string>
+<string name="fdn_enabled">FDN ເປີດ​ໃຊ້​ງານ​ແລ້ວ</string>
+<string name="cannot_send_message_reason_no_content">ບໍ່​ມີ​ເນື້ອ​ໃນ​ທີ່​ຈະ​ສົ່ງໄປ</string>
+<string name="ok">ຕົກລົງ</string>
+<string name="cancel">ຍົກເລີກ</string>
+<string name="enable">ເປີດ​ໃຊ້​ງານ</string>
+<string name="disable">ປິດໃຊ້ງານ</string>
+<string name="cb_read_message">ຂໍ້​ຄວາມ CB ອ່ານ​ແລ້ວ</string>
+<string name="cb_read_message2">ຂໍ້​ຄວາມ​​ການສົ່ງ​ສັນ​ຍານມືຖືທີ່​ອ່ານ​ແລ້ວ</string>
+<string name="cb_message">ຂໍ້​ຄວາມ​​ການສົ່ງ​ສັນ​ຍານມືຖື</string>
+<string name="cb_default_channel_name">ຈາກຊ່ອງ​</string>
+<string name="cell_broadcast_setting">ການຕັ້ງຄ່າ​ສົ່ງ​ສັນ​ຍານມືຖື</string>
+<string name="cb_menu_language">ພາສາ</string>
+<string name="cb_menu_add_channel">ເພີ່ມຊ່ອງ</string>
+<string name="cb_menu_channel_list">​ລາຍ​ຊື່ຊ່ອງ</string>
+<string name="cb_dialog_title_language_choice">ເລືອກພາສາ</string>
+<string name="cb_channel_dialog_channel_name">ຊື່​ຊ່ອງ (0-10 ຕົວ​ອັກ​ສອນ)</string>
+<string name="cb_channel_dialog_channel_number">ເລກ​ຊ່ອງ (0-65534)</string>
+<string name="cb_channel_dialog_channel_state">ເປີດ​ໃຊ້​ງານຊ່ອງ​</string>
+<string name="cb_channel_dialog_edit_channel">ແກ້ໄຂຊ່ອງ</string>
+<string name="cb_menu_edit">ແກ້ໄຂ</string>
+<string name="cb_menu_delete">ລຶບ</string>
+<string name="cb_error_channel_num">ກະ​ລຸ​ນາ​ປ້ອນເລກ​ຊ່ອງເຂົ້າ​ໄປ (0-65534).</string>
+<string name="cb_error_channel_name">ຄວາມ​ຍາວ​ຂອງຊື່​ຊ່ອງບໍ່​ຖືກ​ຕ້ອງ (1-10 ຕົວ​ອັກ​ສອນ).</string>
+<string name="cb_error_language_select">ກະ​ລຸ​ນາ​ເລືອກ​ຢ່າງ​ໜ້ອຍໜຶ່ງ​ພາ​ສາ.</string>
+<string name="cb_error_channel_id_exist">ມີຊື່​ຊ່ອງຢູ່​ຮຽບ​ຮ້ອຍ​ແລ້ວ.</string>
+<string name="cb_all_languages">ທຸກ​ພາ​ສາ</string>
+<string name="cb_default_new_channel_name">ຊ່ອງໃໝ່​</string>
+<string name="sum_cell_broadcast_control_on">ເປີດ​ໃຊ້​ງານ​​ການສົ່ງ​ສັນ​ຍານມືຖື</string>
+<string name="sum_cell_broadcast_control_off">ປິດ​ໃຊ້​ງານ​​ການສົ່ງ​ສັນ​ຍານມືຖື</string>
+<string name="sum_cell_broadcast_setting">ການ​ຕັ້ງ​ຄ່າ​ພາ​ສາ ແລະ ຊ່ອງ​ສຳ​ລັບ​ການ​ສົ່ງ​ສັນ​ຍານ​ມື​ຖື</string>
+<string name="message_open_email_fail">ຂໍ​ອະ​ໄພ, ກະ​ລຸ​ນາ​ຕັ້ງ​ບັນ​ຊີ​ອີ​ເມວ​ຂອງ​ທ່ານ​ກ່ອນ.</string>
+<string name="add_contacts">ລາຍຊື່​ຕິດ​ຕໍ່</string>
+<string name="close_dialog">ຕົກລົງ</string>
+<string name="updating_title">ການຕັ້ງຄ່າການໂທ</string>
+<string name="error_updating_title">ການຕັ້ງຄ່າການໂທ​ຜິດ​ພາດ</string>
+<string name="reading_settings">ກຳ​ລັງ​ອ່ານການຕັ້ງຄ່າ\u2026</string>
+<string name="updating_settings">ກຳ​ລັງອັບ​ເດດການຕັ້ງຄ່າ\u2026</string>
+<string name="reverting_settings">ກຳ​ລັງ​ກັບ​ຄືນການຕັ້ງຄ່າ\u2026</string>
+<string name="exception_error">ເຄືອ​ຂ່າຍ ຫຼື​ ແຜ່ນ SIM ​ຜິດ​ພາດ.</string>
+<string name="me">ຂ້ອຍ</string>
+<string name="send_by_sim2">ສົ່ງ​ໂດຍ SIM 2</string>
+<string name="send_by_sim1">ສົ່ງ​ໂດຍ SIM 1</string>
+<string name="menu_item_send_by">ສົ່ງໂດຍ</string>
+<string name="data_connected_confirm_title">ຢືນຢັນການ​ສົ່ງ</string>
+<string name="data_connected_confirm_message">ການ​ສົ່ງ MMS ດ້ວຍ​ແຜ່ນ SIM ນີ້​ອາດ​ຈະ​ງົດ​ການ​ດາວ​ໂຫຼດ​ຂໍ້​ມູນ​ປະ​ຈຸ​ບັນ​ຂອງ​ທ່ານ​ໄປ​ຊົ່ວ​ໄລ​ຍະ​ໜຶ່ງ. ສືບຕໍ່ບໍ?</string>
+<string name="no_sim_1">SIM 1 ບໍ່​ໄດ້​ໃສ່ເຂົ້າ​ໄປ.</string>
+<string name="no_sim_2">SIM 2 ບໍ່​ໄດ້​ໃສ່ເຂົ້າ​ໄປ.</string>
+<string name="no_sim">SIM %d ບໍ່​ໄດ້​ໃສ່ເຂົ້າ​ໄປ.</string>
+<string name="sim1_full_title">SIM 1 ເຕັມ</string>
+<string name="sim2_full_title">SIM 2 ເຕັມ</string>
+<string name="select_all">ເລືອກທັງ​ໝົດ</string>
+<string name="confirm_delete_selected_messages">ລຶບຂໍ້​ຄວາມທີ່​ເລືອກ​ໄວ້​ບໍ?</string>
+<string name="confirm_delete_selected_theads">ລຶບການ​ສົນ​ທະ​ນາທີ່​ເລືອກ​ໄວ້​ບໍ?</string>
+<string name="restricted_forward_title">ຂໍ້​ຄວາມມັ​ລ​​ຕິ​ມີ​ເດຍ</string>
+<string name="restricted_forward_message">ມີ​ເດຍ​ນີ້​ອາດ​ຈະ​ບໍ່​ຖືກ​ສະ​ແດງ​ຂຶ້ນ​ຕໍ່​ຜູ້​ຮັບ​ຢ່າງ​ຖືກ​ຕ້ອງ. ສືບຕໍ່ບໍ?</string>
+<string name="strOk">ສົ່ງຂໍ້​ຄວາມ​ແລ້ວ</string>
+<string name="strFail">ສົ່ງຂໍ້​ຄວາມ​ບໍ່​ສຳ​ເລັດ</string>
+<string name="menu_insert_text_vcard">ສອດລາຍ​ຊື່ຕິດ​ຕໍ່ເຂົ້າ​ໄປ</string>
+<string name="contact_name">ຊື່</string>
+<string name="contact_tel">ໂທ</string>
+<string name="contact_email">ອີເມວ</string>
+<string name="contact_organization">​ອົງການ​ຈັດ​ຕັ້ງ</string>
+<string name="contact_address">ທີ່​ຢູ່</string>
+<string name="max_recipients_title">ຮອດ​ຕົວ​ເລກ​ສູງ​ສຸດ​ແລ້ວ</string>
+<string name="max_recipients_message">MMS ອະ​ນຸ​ຍາດ​ໃຫ້​ຜູ້​ຮັບ​ໄດ້​​ສູງ​ສຸດ <xliff:g id="maxLimit">%s</xliff:g> ຄົນ. ຜູ້​ຮັບ​ບາງ​ຄົນ​ຈະ​ຖືກ​ກຳ​ຈັດ​ໄປ. ສືບຕໍ່ບໍ?</string>
+<string name="via_without_time_for_send">ຜ່ານ</string>
+<string name="via_without_time_for_recieve">ຜ່ານ</string>
+<string name="sim_selected_dialog_title">ເລືອກ SIM</string>
+<string name="suggested">ແນະ​ນຳ​ແລ້ວ</string>
+<string name="add_contact_dialog_message">ເພີ່ມເບີ %s ໃສ່​ລາຍ​ຊື່​ຕິດ​ຕໍ່ທີ່​ມີ​ຢູ່ ຫຼື ໃໝ່​ບໍ?</string>
+<string name="add_contact_dialog_new">ໃໝ່</string>
+<string name="add_contact_dialog_existing">ມີ​ຢູ່</string>
+<string name="deleting">​ກຳ​ລັງລຶບ</string>
+<string name="pref_title_storage_status">ການໃຊ້​​ບ່ອນຈັດ​ເກັບ​ຂໍ້​ມູນ​ປະ​ຈຸ​ບັນ</string>
+<string name="storage_dialog_mms">ຂໍ້​ຄວາມ MMS:\u0020<xliff:g id="number">%s</xliff:g>
+</string>
+<string name="storage_dialog_sms">ຂໍ້​ຄວາມ SMS:\u0020<xliff:g id="number">%s</xliff:g>
+</string>
+<string name="storage_dialog_attachments">ໄຟ​ລ໌​ຄັດ​ຕິດ MMS:\u0020</string>
+<string name="storage_dialog_database">ຖານ​ຂໍ້​ມູນ:\u0020</string>
+<string name="storage_dialog_available_space">ພື້ນ​ທີ່​ທີ່​ມີ​ຢູ່:\u0020</string>
+<string name="menu_show_icc_sms_capacity">ເບິ່ງຄວາມ​ຈຸ</string>
+<string name="show_icc_sms_capacity_title">ຄວາມ​ຈຸ</string>
+<string name="icc_sms_used">ໃຊ້​ແລ້ວ:</string>
+<string name="icc_sms_total">ລວມ:</string>
+<string name="get_icc_sms_capacity_failed">ຮັບ​ເອົາ​ຄວາມ​ຈຸ SIM ບໍ່​ສຳ​ເລັດ.</string>
+<plurals name="read_report_toast_msg">
+<item quantity="one">ກຳ​ລັງສົ່ງ %d ລາຍງານອ່ານ</item>
+<item quantity="other">ກຳ​ລັງສົ່ງ %d ລາຍງານອ່ານ</item>
+</plurals>
+<string name="pref_title_mms_auto_reply_read_reports">ສົ່ງລາຍງານອ່ານ</string>
+<string name="pref_summary_mms_auto_reply_read_reports">ສົ່ງ​ລາຍ​ງານ​ການ​ອ່ານ ຖ້າ​ຜູ້​ສົ່ງ MMS ຂໍ​ເອົາ</string>
+<string name="exceed_subject_length_limitation">ຮອດຄວາມຍາວສູງສຸດແລ້ວ</string>
+<plurals name="message_view_selected_message_count">
+<item quantity="one">
+<xliff:g example="1" id="message_count">%d</xliff:g> ຖືກ​ເລືອກ​ແລ້ວ</item>
+<item quantity="other">
+<xliff:g example="9" id="message_count">%d</xliff:g> ຖືກ​ເລືອກ​ແລ້ວ</item>
+</plurals>
+<string name="disable_notifications_dialog_message">"ຕ້ອງການຢຸດການແຈ້ງເຕືອນຂໍ້ຄວາມຊ້ຳກັນ ຈາກແອັບຯຂໍ້ຄວາມເລີ່ມຕົ້ນ?"</string>
+<string name="sms_input_mode_title">ໂໝດ​ການ​ປ້ອນຂໍ້​ມູນ</string>
+<string name="sms_input_mode_dialog_title">ເລືອກໂໝດ​ການ​ປ້ອນຂໍ້​ມູນ</string>
+<string name="sms_input_mode_summary">ໂໝດ​ການ​ປ້ອນ​ຂໍ້​ມູນ​ ເພື່ອ​ສ້າງ​ຂໍ້​ຄວາມ SMS</string>
+<string name="pref_title_io_settings">ນໍາເຂົ້າ​/ສົ່ງ​ອອກ SMS</string>
+<string name="pref_summary_import_msg">ນຳ​ SMS ເຂົ້າ​ຈາກ​ແຜ່ນ SD</string>
+<string name="pref_title_import_msg">ນໍາເຂົ້າ SMS</string>
+<string name="pref_summary_export_msg">ສົ່ງ SMS ອອກ​ໄປ​ໃສ່​ແຜ່ນ SD</string>
+<string name="pref_title_export_msg">ສົ່ງ​ອອກ SMS</string>
+<string name="no_sd_card">ແຜ່ນ SD ບໍ່​ພ້ອມ</string>
+<string name="export_message_ongoing">ກຳ​ລັງສົ່ງ SMS ອອກ​ໄປ​ໃສ່​ແຜ່ນ SD… ກະ​ລຸ​ນາ​ລໍ​ຖ້າ.</string>
+<string name="import_message_ongoing">ກຳ​ລັງນຳ SMS ເຂົ້າ​ມາ​ຈາກ​ແຜ່ນ SD… ກະ​ລຸ​ນາ​ລໍ​ຖ້າ.</string>
+<string name="export_message_success">ສົ່ງ SMS ອອກ​ໄປ​ໃສ່​ແຜ່ນ SD ແລ້ວ</string>
+<string name="import_message_success">ນຳ SMS ເຂົ້າ​ມາ​ຈາກ​ແຜ່ນ SD ແລ້ວ</string>
+<string name="import_message_fail">ນຳ​ SMS ເຂົ້າ​ຈາກ​ແຜ່ນ SD ບໍ່​ສຳ​ເລັດ</string>
+<string name="export_message_fail">ສົ່ງ​ SMS ອອກ​ໄປ​ໃສ່​ແຜ່ນ SD ບໍ່​ສຳ​ເລັດ</string>
+<string name="import_message_list">ລາຍ​ການ​ສຳ​ຮອງ SMS ຢູ່​ໃນ​ແຜ່ນ SD</string>
+<string name="import_message_list_empty">ບໍ່​ພົບ​ໄຟ​ລ໌​ສຳ​ຮອງ SMS ຢູ່​ໃນ​ແຜ່ນ SD</string>
+<string name="export_message_empty">ບໍ່​ມີ​ SMS ທີ່​ຈະ​ສົ່ງອອກ</string>
+<string name="whether_export_item">ສົ່ງ SMS ອອກ​ໄປ​ໃສ່​ແຜ່ນ SD ບໍ?</string>
+<string name="whether_import_item">ນຳ​ SMS ເຂົ້າ​ຈາກ​ແຜ່ນ SD ບໍ?</string>
+<string name="export_disk_problem">ແຜ່ນ SIM ເ​ຕັມ ຫຼື ບໍ່ສາ​ມາດ​ຂຽນ​ໄດ້</string>
+<string name="select_text">ເລືອກ​ຂໍ້​ຄວາມ</string>
+<string name="unselect_all">ຖອນ​ເລືອກທັງ​ໝົດ</string>
+<string name="forward_from">ສົ່ງ​ຕໍ່ແລ້ວ​ຈາກ:</string>
+<string name="sms_forward_setting">ການຕັ້ງຄ່າການສົ່ງ​ຕໍ່ SMS</string>
+<string name="sms_forward_setting_summary">ສົ່ງ​ຕໍ່ SMS ດ້ວຍ​ຊື່ ແລະ ເບີ​ຂອງ​ຜູ້​ສົ່ງ</string>
+<string name="forward_byself">ຂ້ອຍ</string>
+<string name="file_attachment_vcalendar_name">vCalendar (<xliff:g id="text">%s</xliff:g>)</string>
+<string name="file_attachment_vcard_name">vCard (<xliff:g id="text">%s</xliff:g>)</string>
+<string name="attach_vcalendar">ປະຕິທິນ</string>
+<string name="file_attachment_import_vcard">ນຳ​ vCard ເຂົ້າ</string>
+<string name="attach_vcard">ຕິດຕໍ່</string>
+<string name="type_common_file">ໄຟ​ລ໌</string>
+<string name="please_wait">ກະລຸນາລໍຖ້າ…</string>
+<string name="failed_to_parse_vcard">​ແຍກ​ສ່ວນໄຟລ໌ vCard ບໍ່ສຳເລັດ.</string>
+<string name="empty_vcard">ບໍ່​ມີລາຍ​ຊື່​ຢູ່​ໃນ vCard</string>
+<string name="parse_vcard">ແຍກ​ສ່ວນ vCard</string>
+<string name="vcard_no_details">ບໍ່​ມີ​ຂໍ້​ມູນ​ເພີ່ມ​ເຕີມ​ສຳ​ລັ​ບ​ລາຍ​ຊື່​​ຕິດ​ຕໍ່ນີ້</string>
+<string name="note">ໝາຍເຫດ</string>
+<string name="organization">​ອົງການ​ຈັດ​ຕັ້ງ</string>
+<string name="website">ເວັບ​ໄຊ​ທ໌:\u0020</string>
+<string name="nickname">ຊື່ຫຼິ້ນ</string>
+<string name="call_home">ບ້ານ</string>
+<string name="call_mobile">ມືຖື</string>
+<string name="call_work">ວຽກ</string>
+<string name="call_fax_work">ແຟັກບ່ອນເຮັດວຽກ</string>
+<string name="call_fax_home">ແຟັກບ້ານ</string>
+<string name="call_pager">ເພດເຈີ</string>
+<string name="call_other">ອື່ນໆ</string>
+<string name="call_callback">ໂທກັບ</string>
+<string name="call_car">ລົດ</string>
+<string name="call_company_main">​​ບໍ​ລິ​ສັດຕົ້ນ​ຕໍ</string>
+<string name="call_main">ຕົ້ນ​ຕໍ</string>
+<string name="call_other_fax">ແຟັກ</string>
+<string name="call_radio">ວິທະຍຸ</string>
+<string name="call_telex">ໂທລະເລກ</string>
+<string name="call_work_mobile">ມື​ຖືບ່ອນ​ເຮັດ​ວຽກ</string>
+<string name="call_work_pager">ເພດ​ເຈີບ່ອນ​ເຮັດ​ວຽກ</string>
+<string name="email_home">ອີ​ເມວບ້ານ</string>
+<string name="email_mobile">ອີ​ເມວມື​ຖື</string>
+<string name="email_work">ອີ​ເມວວຽກ</string>
+<string name="email_other">ອີເມວ</string>
+<string name="email_custom">ອີ​ເມວ <xliff:g id="custom">%s</xliff:g>
+</string>
+<string name="email">ອີເມວ</string>
+<string name="map_home">ເບິ່ງ​ທີ່​ຢູ່ບ້ານ</string>
+<string name="map_work">ເບິ່ງ​ທີ່​ຢູ່ວຽກ</string>
+<string name="map_other">ເບິ່ງ​ທີ່​ຢູ່</string>
+<string name="map_custom">ເບິ່ງ​ທີ່​ຢູ່ <xliff:g id="custom">%s</xliff:g>
+</string>
+<string name="chat_aim">ແຊັດ​ດ້ວຍ​ການ​ໃຊ້ AIM</string>
+<string name="chat_msn">ແຊັດ​ດ້ວຍ​ການ​ໃຊ້ Windows Live</string>
+<string name="chat_yahoo">ແຊັດ​ດ້ວຍ​ການ​ໃຊ້ Yahoo</string>
+<string name="chat_skype">ແຊັດ​ດ້ວຍ​ການ​ໃຊ້ Skype</string>
+<string name="chat_qq">ແຊັດ​ດ້ວຍ​ການ​ໃຊ້ QQ</string>
+<string name="chat_gtalk">ແຊັດ​ດ້ວຍ​ການ​ໃຊ້ Google Talk</string>
+<string name="chat_icq">ແຊັດ​ດ້ວຍ​ການ​ໃຊ້ ICQ</string>
+<string name="chat_jabber">ແຊັດ​ດ້ວຍ​ການ​ໃຊ້ Jabber</string>
+<string name="chat">ແຊັດ</string>
+<string name="inbox">ກ່ອງເຂົ້າ</string>
+<string name="outbox">ກ່ອງອອກ</string>
+<string name="draftbox">ຮ່າງ</string>
+<string name="sentbox">ສົ່ງແລ້ວ</string>
+<string name="simbox">ກ່ອງ SIM</string>
+<string name="changeview">ປ່ຽນໂໝດ​</string>
+<string name="viewer_title_sms">SMS</string>
+<string name="viewer_title_wappush">ພຸ​ຊ​ WAP</string>
+<string name="viewer_title_cb">​​ການສົ່ງ​ສັນ​ຍານມືຖື</string>
+<string name="slideshow_details">ລາຍ​ລະ​ອຽດຂໍ້​ຄວາມ</string>
+<string name="open">ເປີດ</string>
+<string name="delete_all_confirm">ລຶບ​ທຸກ​ຂໍ້​ຄວາມ​ຈາກ​ໂຟ​ລ​ເດີ​ນີ້​ບໍ?</string>
+<string name="folder_recipient">ຜູ້ຮັບ:</string>
+<string name="folder_recieve_date">ວັນທີ:</string>
+<string name="folder_download">ກຳ​ລັງດາວໂຫຼດ MMS…</string>
+<string name="confirm_download_message">ຢືນ​ຢັນ​ການ​ດາວ​ໂຫຼດ​ຂໍ້​ຄວາມ</string>
+<string name="download_disabled_toast">ບໍ່​ສາ​ມາດ​ດາວ​ໂຫຼດ​ຂໍ້​ຄວາມ​ມັ​ລ​ຕິ​ມີ​ເດຍ​ໄດ້ ເພາະ​ວ່າ​ແອັບ​ນີ້​ບໍ່​ແມ່ນ​ແອັບ​ສົ່ງ​ຂໍ້​ຄວາມ​ມາດ​ຕະ​ຖານ.</string>
+<string name="play_as_slideshow">ຫຼິ້ນ MMS ເປັນ​ສະ​ໄລ​ດ໌​ໂຊ</string>
+<string name="invalid_contact_message">ບໍ່​ມີລາຍ​ຊື່​ຕິດ​ຕໍ່​ຢູ່.</string>
+<string name="by_card">ໂດຍ:</string>
+<string name="page">ໜ້າ %d</string>
+<string name="space_not_enough">ພື້ນ​ທີ່​ຈະ​ບັນ​ທຶກວິ​ດີ​ໂອ​ບໍ່​ພຽງ​ພໍ</string>
+<string name="space_not_enough_for_audio">ພື້ນ​ທີ່​ຈະ​ບັນ​ທຶກສຽງ​ບໍ່​ພຽງ​ພໍ</string>
+<string name="no_messages">ບໍ່ມີຂໍ້ຄວາມ</string>
+<string name="call_video_call">ໂທວິດີໂອ</string>
+<string name="storage_dialog_mms_size">ຂະ​ໜາດ MMS:\u0020</string>
+<string name="error_add_attachment">ຄວາມຜິດ​ພາດບໍ່ຮູ້ຈັກ. ບໍ່​ສາ​ມາດ​ເພີ່ມ <xliff:g id="name">%1$s</xliff:g> ໃສ່​ຂໍ້​ຄວາມ​ຂອງ​ທ່ານ​ໄດ້.</string>
+<string name="no_application_response">ບໍ່​ມີ​ແອັບ​ພ​ລິ​ເຄ​ຊັນທີ່​ຈະ​ຈັດ​ການ​ຄຳ​ຂໍ​</string>
+<string name="cdma_not_support">CDMA ບໍ່​ຮອງ​ຮັບ​ຟີ​ເຈີ​ນີ້</string>
+<string name="allmessage">ທຸກຂໍ້ຄວາມ​</string>
+<string name="select_message">ເລືອກຂໍ້ຄວາມ</string>
+<string name="confirm_delete_allmessage">ລຶບທຸກຂໍ້ຄວາມ​​ບໍ?</string>
+<string name="mark_as_read_btn_str">ໝາຍວ່າອ່ານແລ້ວ</string>
+<string name="delete_btn_str">ລຶບ</string>
+<string name="reply_send">ສົ່ງ</string>
+<string name="via_test">ຜ່ານ </string>
+<string name="received_header">ຮັບ​ແລ້ວ:</string>
+<string name="no_item_selected">ບໍ່​ມີ​ລາຍ​ການ​ຖືກ​ເລືອກ​ໄວ້.</string>
+<string name="sync_mms_to_db">ກໍາລັງໂຫຼດ…</string>
+<string name="pref_title_font_size_setting">ການ​ຕັ້ງ​ຄ່າຂະ​ໜາດ​ຕົວ​ໜັງ​ສື​</string>
+<string name="pref_title_message_font_size">​ຂະ​ໜາດຕົວ​ໜັງ​ສື​ຂໍ້​ຄວາມ</string>
+<string name="pref_summary_message_font_size">​ຂະ​ໜາດຕົວ​ໜັງ​ສື​ຂໍ້​ຄວາມ</string>
+<string name="message_font_size_dialog_title">​ຂະ​ໜາດຕົວ​ໜັງ​ສື​ຂໍ້​ຄວາມ</string>
+<string name="message_font_size_dialog_cancel">ຍົກເລີກ</string>
+<string name="finish">ສໍາເລັດ</string>
+<string name="change">​ປ່ຽນ​ແປງ</string>
+<string name="change_default_disk">ບ່ອນ​ຈັດ​ເກັບ​ຂໍ້​ມູນ​ໂທ​ລະ​ສັບ​ບໍ່​ມີ​ພື້ນ​ທີ່​ພຽງ​ພໍ. ກະ​ລຸ​ນາ​ປ່ອຍ​ບ່ອນ​ຈັດ​ເກັບ​ບາງ​ອັນ​ໄປ ຫຼື ປ່ຽນ​ທີ່​ຕັ້ງ​ບ່ອນ​ຈັດ​ເກັບ​ມາດ​ຕະ​ຖານ​ຈາກ​ການ​ຕັ້ງ​ຄ່າ.</string>
+<string name="failed_to_add_image">ຮອດ​ຂີດ​ຈຳ​ກັດ​ຂະ​ໜາດ​ຂໍ້​ຄວາມ​ແລ້ວ, ບາງ​ສ່ວນ​ບໍ່​ຖືກ​ເພີ່ມ​ເຂົ້າ.</string>
+<string name="ipmsg_conversation_list_all">ຂໍ້​ຄວາມ</string>
+<string name="ipmsg_conversation_list_important">ສິ່ງສໍາຄັນ</string>
+<string name="ipmsg_conversation_list_group_chats">ແຊັດເປັນກຸ່ມ</string>
+<string name="ipmsg_conversation_list_spam">ສະແປມ</string>
+<string name="ipmsg_create_group_chat">ສ້າງ​ການແຊັດເປັນກຸ່ມ</string>
+<string name="ipmsg_send_invitation">ສົ່ງຄຳ​ເຊີນ</string>
+<string name="str_ipmsg_download_history_dlg">ກໍາລັງດາວໂຫຼດ…</string>
+<string name="to_hint_ipmsg">ເຖິງ</string>
+<string name="type_to_compose_text_enter_to_send_ipmsg">ປ້ອນ​ຂໍ້​ຄວາມ SMS/iSMS ເຂົ້າ​ໄປ</string>
+<string name="ipmsg_ipmsg_hint">ປ້ອນ​ຂໍ້​ຄວາມ iSMS ເຂົ້າ​ໄປ</string>
+<string name="ipmsg_sms_hint">ປ້ອນ​ຂໍ້​ຄວາມເຂົ້າ​ໄປ</string>
+<string name="ipmsg_caption_hint">ປ້ອນຄຳ​ອະ​ທິ​ບາຍ​ພາບ​ເຂົ້າ​ໄປ</string>
+<string name="ipmsg_cancel">ຍົກເລີກ</string>
+<string name="ipmsg_invite_chat_frequently">
+<b>ແຊັດ​ເລື້ອຍໆ​ກັບ %s ບໍ?</b>\nເປັນ​ຫຍັງ​ບໍ່​ເຊີນ %s ໃຫ້​ໃຊ້ iSMS ເພື່ອ​​ປະ​ຢັດ​ທັງ​ເງິນ​ຂອງ​ທ່ານ?</string>
+<string name="ipmsg_enable_chat_frequently">
+<b>%s ກຳ​ລັງ​ໃຊ້ iSMS!</b>\nເປັນ​ຫຍັງເປີດ​ໃຊ້​ງານການ​ບໍ​ລິ​ການ iSMS ຂອງ​ທ່ານ ແລະ ​​ປະ​ຢັດ​ທັງ​ເງິນ​ຂອງ​ທ່ານ?</string>
+<string name="ipmsg_invite">ເຊີນ</string>
+<string name="ipmsg_dismiss">ປິດ​ໄວ້</string>
+<string name="ipmsg_enable">ເປີດ​ໃຊ້​ງານ</string>
+<string name="ipmsg_enable_notice">ເປີດ​ໃຊ້​ງານການ​ບໍ​ລິ​ການ iSMS ບໍ?</string>
+<string name="ipmsg_activate">ເປີດນຳໃຊ້</string>
+<string name="ipmsg_activate_chat_frequently">
+<b>ແຊັດ​ເລື້ອຍໆ​ກັບໝູ່ບໍ?</b>\nເປັນ​ຫຍັງເປີດນຳໃຊ້​ການ​ບໍ​ລິ​ການ iSMS ເພື່ອ​ແຊັດ​ໂດຍ​ບໍ່​ມີ​ອັດ​ຕາ SMS?</string>
+<string name="ipmsg_activate_note">ເປີດ​ນຳໃຊ້ iSMS ບໍ?</string>
+<string name="ipmsg_dismiss_content">ປິດ​ບັນ​ທຶກ​ໄວ້​ບໍ?</string>
+<string name="ipmsg_ipmsg">ຂໍ້ຄວາມ IP</string>
+<string name="ipmsg_dailog_multi_forward">ກຳ​ລັງ​ສົ່ງ​ຕໍ່ຂໍ້ຄວາມ​</string>
+<string name="ipmsg_dialog_send_result">ສົ່ງຜົນ​ໄດ້​ຮັ​ບ</string>
+<string name="ipmsg_dlg_send_all">ທັງໝົດ: %s</string>
+<string name="ipmsg_dlg_send_sucess">ສົ່ງແລ້ວ: %s</string>
+<string name="ipmsg_dlg_send_failed">ບໍ່​ສຳ​ເລັດ: %s</string>
+<string name="multi_forward_sim_info">ກຳ​ລັງ​ເອົາ​ຂໍ້​ມູນ SIM</string>
+<string name="ipmsg_multi_forward_no_sim">ບໍ່​ມີ​ຂໍ້​ມູນ SIM</string>
+<string name="ipmsg_divider_online">%s ອອນ​ລາຍ​ຢູ່</string>
+<string name="ipmsg_divider_offline">ເວ​ລາ​ອອນ​ລາຍ​ຄັ້ງ​ຫຼ້າ​ສຸດ​ແມ່ນ %s</string>
+<string name="ipmsg_divider_never_online">ບໍ່​ເຄີຍອອນ​ລາຍ</string>
+<string name="ipmsg_vcard_file_name">%s ລາຍຊື່​ຕິດ​ຕໍ່</string>
+<string name="ipmsg_getsim_failed">ເອົາ​ຂໍ້​ມູນ SIM ບໍ່​ສຳ​ເລັດ</string>
+<string name="ipmsg_sim_status_error">ສະ​ຖາ​ນະ SIM ຂັດ​ຂ້ອງ</string>
+<string name="ipmsg_forward_failed">ສົ່ງ​ຕໍ່ບໍ່​ສຳ​ເລັດ</string>
+<string name="ipmsg_forward_norecipients">ກະ​ລຸ​ນາ​ເລືອກຜູ້​ຮັບ</string>
+<string name="ipmsg_multiforward_no_message">​ກະ​ລຸ​ເລືອກ​ຂໍ້​ຄວາມ​ທີ່​ທ່ານ​ຕ້ອງ​ການສົ່ງ​ຕໍ່</string>
+<string name="ipmsg_need_input_recipients">ກະ​ລຸ​ນາລະ​ບຸ​ຜູ້​ຮັບຢ່າງ​ໜ້ອຍຄົນ</string>
+<string name="str_ipmsg_unread_format">%1$d ຂໍ້​ຄວາມບໍ່​ໄດ້​ອ່ານ</string>
+<string name="str_ipmsg_not_delivered_title">ບໍ່​ໄດ້​ສົ່ງ​ໄປ​ເທື່ອ</string>
+<string name="str_ipmsg_failed_title">ສົ່ງບໍ່ສໍາເລັດ</string>
+<string name="ipmsg_try_again">ລອງໃໝ່ອີກ</string>
+<string name="ipmsg_try_all_again">​ລອງ​​ທັງ​ໝົດ​ອີກ</string>
+<string name="ipmsg_resend_via_sms">ສົ່ງ​ SMS ແທນ</string>
+<string name="ipmsg_resend_via_mms">ສົ່ງ​ MMS ແທນ</string>
+<string name="str_ipmsg_cant_share">ບໍ່​ມີ​ແຜ່ນ SD ຢູ່. ບໍ່​ສາ​ມາດ​ແບ່ງ​​ປັນຂໍ້​ຄວາມ​ມີ​ເດຍໄດ້</string>
+<string name="str_ipmsg_file_limit">ໃຫຍ່​ເກີນ​ໄປ</string>
+<string name="str_ipmsg_no_app">ບໍ່​ມີ​ແອັບ​ພ​ລິ​ເຄ​ຊັນ​ໃດສາ​ມາດ​ເຮັດ​ການ​ດຳ​ເນີນ​ການ​ນີ້​ໄດ້.</string>
+<string name="str_ipmsg_today">ມື້ນີ້</string>
+<string name="str_ipmsg_yesterday">ມື້ວານນີ້</string>
+<string name="ip_message_typing_text">ກຳ​ລັງ​ພິມ</string>
+<string name="str_ipmsg_no_such_file">ບໍ່ພົບໄຟລ໌</string>
+<string name="str_ipmsg_over_file_limit">ຂະ​ໜາດ​ໄຟ​ລ໌​ເກີນ​ຂີດ​ຈຳ​ກັດ</string>
+<string name="str_ipmsg_invalid_file_type">ປະເພດໄຟລ໌ບໍ່ຮອງຮັບ</string>
+<string name="invite_friends_to_ipmsg">ເຊີນ​ໝູ່​ມາ​ໃຊ້ iSMS</string>
+<string name="invite_friends_to_chat">ເຊີນ​ໝູ່​ມາ​ແຊັດ</string>
+<string name="invite_friends_to_ipmsg_dialog_msg">ເພື່ອ​ສົ່ງ​ຄຳ​ເຊີນ, ການ​ສ້າງ​ຂໍ້​ຄວາມ​ຂອງ​ທ່ານ​ຈະ​ຖືກ​ລຶບ​ຖິ້ມ.</string>
+<string name="invite_friends_to_ipmsg_content">ສະ​ບາຍ​ດີ, iSMS ແມ່ນ​ເຄື່ອງ​ມື​ການ​ແຊັດ​ທີ່​ຄັກ​ຫຼາຍ. ມັນ​ຟ​ຣີ ແລະ ສະ​ດວກ​ສະ​ບາຍ. ກະ​ລຸ​ນາ​ກວດ​ເບິ່ງ http://isms.hissage.com ເພື່ອ​ຊອກ​ຫາ​ເພີ່ມ​ເຕີມ.</string>
+<string name="export">ສົ່ງອອກ</string>
+<string name="mark_as_spam">ຍ້າຍໄປໃສ່​ລາຍ​ການ​ສະ​ແປມ</string>
+<string name="mark_as_spam_tips">ຂໍ້​ຄວາມ​ໝາຍ​ໄວ້​ເປັນ​ສະ​ແປມ​ຈະ​ຖືກ​ຍ້າຍ​ໄປ​ໃສ່​ລາຍ​ການ​ສະ​ແປມ ແລະ ການ​ແຈ້ງ​ເຕືອນ​ສຳ​ລັບ​ຂໍ້​ຄວາມ​ໃໝ່​ຈາກ​ຕົວ​ເລກ​ເຫຼົ່າ​ນັ້ນ​ຈະ​ຖືກ​ປິດ.</string>
+<string name="remove_frome_spam">ເອົາ​ອອກ​ຈາກ​ລາຍການ​ສະ​ແປມ</string>
+<string name="add_shortcut">ເພີ່ມທາງ​ລັດ</string>
+<string name="view_all_media">ເບິ່ງທຸກ​ມີ​ເດຍ</string>
+<string name="view_all_location">ເບິ່ງທຸກ​ທີ່​ຕັ້ງ</string>
+<string name="ipmsg_export_to_sdcard">ສົ່ງອອກ​ໄປ​ໃສ່​ແຜ່ນ SD</string>
+<string name="ipmsg_copy">ອັດ​ສຳ​ເນົາ</string>
+<string name="ipmsg_send_via_text_msg">ສົ່ງຜ່ານ​ຂໍ້​ຄວາມ</string>
+<string name="ipmsg_send_via_mms">ສົ່ງຜ່ານຂໍ້​ຄວາມມັ​ລ​ຕິ​ມີ​ເດຍ</string>
+<string name="ipmsg_retry">ລອງໃໝ່ອີກ</string>
+<string name="ipmsg_delete">ລຶບ</string>
+<string name="ipmsg_share">​ແບ່ງ​ປັນ</string>
+<string name="ipmsg_mark_as_important">ໃສ່​ທຸງວ່າ​ສຳ​ຄັນ</string>
+<string name="ipmsg_remove_from_important">ເອົາທຸງ​ສຳ​ຄັນອອກ</string>
+<string name="str_ipmsg_save_file">ໄຟ​ລ໌​ຖືກບັ​ນ​ທຶກ​ໄປ​ໃສ່ %1$s ແລ້ວ</string>
+<string name="continue_str">ສືບຕໍ່</string>
+<string name="convert_to_mms">ປ່ຽນ​ເປັນ MMS</string>
+<string name="convert_to_sms">ປ່ຽນ​ເປັນ SMS</string>
+<string name="ipmsg_convert_to_ipmsg">ປ່ຽນ​ເປັນ iSMS</string>
+<string name="ip_message_convert_to_mms_message_for_service">ບໍ່​ມີ​ການ​ບໍ​ລິ​ການ iSMS ຢູ່​ໃນ​ແຜ່ນ SIM ທີ່​ເລືອກ​ໄວ້ນີ້. ຂໍ້​ຄວາມ​ນີ້​ສາ​ມາດ​ສົ່ງ​ໄປ​ໄດ້​ຜ່ານ MMS ຢູ່​ໃນ​ແຜ່ນ SIM ນີ້​ເທົ່າ​ນັ້ນ. ແນວ​ໃດ​ກໍ່ສືບ​ຕໍ່ບໍ?</string>
+<string name="ip_message_convert_to_sms_message_for_service">ບໍ່​ມີ​ການ​ບໍ​ລິ​ການ iSMS ຢູ່​ໃນ​ແຜ່ນ SIM ທີ່​ເລືອກ​ໄວ້ນີ້. ຂໍ້​ຄວາມ​ນີ້​ສາ​ມາດ​ສົ່ງ​ໄປ​ໄດ້​ຜ່ານ SMS ຢູ່​ໃນ​ແຜ່ນ SIM ນີ້​ເທົ່າ​ນັ້ນ. ແນວ​ໃດ​ກໍ່ສືບ​ຕໍ່ບໍ?</string>
+<string name="ip_message_convert_to_mms_message_for_recipients">ຜູ້​ຮັບ​ບໍ່​ແມ່ນ​ຜູ້​ໃຊ້ iSMS. ຂໍ້​ຄວາມ​ນີ້​ສາ​ມາດ​ສົ່ງ​ໄປ​ໄດ້​ຜ່ານ MMS ​ເທົ່າ​ນັ້ນ. ແນວ​ໃດ​ກໍ່ສືບ​ຕໍ່ບໍ?</string>
+<string name="ip_message_convert_to_sms_message_for_recipients">ຜູ້​ຮັບ​ບໍ່​ແມ່ນ​ຜູ້​ໃຊ້ iSMS. ຂໍ້​ຄວາມ​ນີ້​ສາ​ມາດ​ສົ່ງ​ໄປ​ໄດ້​ຜ່ານ SMS ​ເທົ່າ​ນັ້ນ. ແນວ​ໃດ​ກໍ່ສືບ​ຕໍ່ບໍ?</string>
+<string name="ipmsg_sms_convert_to_ipmsg">​ມີ​ການ​ບໍ​ລິ​ການ iSMS ຢູ່​ໃນ​ແຜ່ນ SIM ທີ່​ເລືອກ​ໄວ້ນີ້. ເພື່ອ​ບັນ​ທຶກ​ອັດ​ຕາ SMS, ​ແນະ​ນຳ​ໃຫ້​ສະ​ຫຼັບ​ຂໍ້​ຄວາມ​ເປັນ iSMS. ສະ​ຫຼັບ​ດຽວ​ນີ້​ບໍ?</string>
+<string name="ipmsg_mms_convert_to_ipmsg">​ມີ​ການ​ບໍ​ລິ​ການ iSMS ຢູ່​ໃນ​ແຜ່ນ SIM ທີ່​ເລືອກ​ໄວ້ນີ້. ເພື່ອ​ບັນ​ທຶກ​ອັດ​ຕາ MMS, ​ແນະ​ນຳ​ໃຫ້​ສະ​ຫຼັບ​ຂໍ້​ຄວາມ​ເປັນ iSMS. ສະ​ຫຼັບ​ດຽວ​ນີ້​ບໍ?</string>
+<string name="keep_mms">ຮັກ​ສາ MMS</string>
+<string name="keep_sms">ຮັກ​ສາ SMS</string>
+<string name="switch_ipmsg">ສະ​ຫຼັບ</string>
+<string name="ip_message_load_all_message">ໂຫຼດທຸກຂໍ້ຄວາມ​</string>
+<string name="str_ipmsg_replace_attach">ປ່ຽນ​ແທນໄຟ​ລ໌​ຄັດ​ຕິດ</string>
+<string name="str_ipmsg_replace_attach_msg">ມີ​ໄຟ​ລ໌​ຄັດ​ຕິດ​ທີ່​ຍັງ​ເຫຼືອ​ຢູ່. ປ່ຽນແທນບໍ?</string>
+<string name="ipmsg_err_file">ເປີດໄຟ​ລ໌ບໍ່​ສຳ​ເລັດ</string>
+<string name="pref_title_display_preference_settings">​ການ​ສະ​ແດງ ແລະ ຄວາມ​ມັກ</string>
+<string name="pref_chat_wallpaper">ພື້ນ​ຫຼັງ​ການ​ແຊັດ</string>
+<string name="pref_auto_rotation">ການ​ໝຸນອັດ​ຕະ​ໂນ​ມັດ</string>
+<string name="pref_show_email_address">ສະແດງທີ່​ຢູ່​ອີ​ເມວ</string>
+<string name="pref_summary_show_email_address">ລວມ​ເອົາ​ທີ່​ຢູ່​ອີ​ເມວ ເມື່ອ​ເລືອກ​ລາຍ​ຊື່​ຕິດ​ຕໍ່</string>
+<string name="pref_title_backup_restore_settings">ການສຳ​ຮອງ ແລະ ​ກູ້​ຄືນ</string>
+<string name="pref_backage_message">ສຳ​ຮອງຂໍ້ຄວາມ​</string>
+<string name="pref_summary_backup_message">ສຳ​ຮອງ​ຫຼ້າ​ສຸດ: ບໍ່​ມີ</string>
+<string name="pref_restore_message">ກູ້​ຄືນ​ຂໍ້​ຄວາມ</string>
+<string name="pref_summary_restore_message">ກູ້​ຄືນ​ຂໍ້​ຄວາມສຳ​ຮອງ​ຂອງ​ທ່ານ</string>
+<string name="pref_mute">ປິດສຽງ</string>
+<string name="pref_summary_mute">ປິດ</string>
+<string name="pref_vibrate">ສັ່ນ</string>
+<string name="pref_summary_vibrate">ສັ່ນ​ເມື່ອ​ໄດ້​ຮັບ​ຂໍ້​ຄວາມ</string>
+<string name="pref_popup_notification">ປັອບ​ອັບການ​ແຈ້ງ​ເຕືອນ</string>
+<string name="pref_summary_popup_notification">ສະ​ແດງ​ການ​ແຈ້ງ​ເຕືອນສຳ​ລັບ​ຂໍ້​ຄວາມ​ໃໝ່</string>
+<string name="pref_title_display_settings">ສະແດງ</string>
+<string name="pref_title_actions_settings">ການກະ​ທຳ</string>
+<string name="pref_download_chat_history">ດາວ​ໂ​ຫຼດປະ​ຫວັດ​ການແຊັດ</string>
+<string name="pref_summary_download_chat_history">ບັນ​ທຶກ​ໃສ່ແຜ່ນ SD ໃນ​ຟໍ​ແມັດ ZIP</string>
+<string name="pref_email_chat_history">ສົ່ງອີ​ເມວປະ​ຫວັດ​ການແຊັດ</string>
+<string name="pref_summary_email_chat_history">ສົ່ງອີ​ເມວປະ​ຫວັດ​ການແຊັດໃນ​ຟໍ​ແມັດ ZIP</string>
+<string name="pref_clear_chat_history">ລ້າງປະ​ຫວັດ​ການແຊັດ</string>
+<string name="pref_summary_notification_ringtone">ຕັ້ງ​ສຽງ​ເຂົ້າ​ມາ​ສຳ​ລັບ​ການ​ແຈ້ງ​ເຕືອນ​ໃໝ່</string>
+<string name="pref_setting_title">ການ​ຕັ້ງ​ຄ່າຂໍ້​ຄວາມ</string>
+<string name="pref_setting_sms">​ຂໍ້​ຄວາມ​ (SMS)</string>
+<string name="pref_setting_mms">​ຂໍ້​ຄວາມມັ​ລ​ຕິ​ມີ​ເດຍ​ (MMS)</string>
+<string name="pref_setting_notification">ການແຈ້ງເຕືອນ</string>
+<string name="pref_setting_general">ທົ່ວ​ໄປ</string>
+<string name="pref_setting_chat">ການ​ຕັ້ງ​ຄ່າ​ການ​ແຊັດ</string>
+<string name="chat_setting_saving">ກຳ​ລັງ​ບັນ​ທຶກ…</string>
+<string name="chat_setting_updating">ກໍາລັງອັບເດດ…</string>
+<string name="chat_setting_sending">ກໍາລັງສົ່ງ…</string>
+<string name="dialog_save_title">ບັນ​ທຶກໄປ​ໃສ່​ແຜ່ນ SD</string>
+<string name="dialog_save_description">ບັນ​ທຶກ​ການ​ສົນ​ທະ​ນາ​ແຊັດ​ນີ້ໃສ່ແຜ່ນ SD ເປັນ​ໄຟ​ລ໌ ZIP</string>
+<string name="dialog_email_title">ແບ່ງ​ປັນ​ຜ່ານອີເມວ</string>
+<string name="dialog_email_description">ແບ່ງ​ປັນ​​ການ​ສົນ​ທະ​ນາ​ແຊັດ​ນີ້ເປັນ​ໄຟ​ລ໌​ຄັດ​ຕິດ​ຜ່ານ​ອີ​ເມວໃນ​ຟໍ​ແມັດ ZIP</string>
+<string name="dialog_clear_title">ລ້າງ</string>
+<string name="dialog_clear_description">ທຸກ​ປະ​ຫວັດ​ການ​ແຊັດ​ຈະ​ຖືກ​ລ້າງ​ຢູ່​ໃນ​ຫ້ອງ​ແຊັດ​ນີ້</string>
+<string name="dialog_wallpaper_chooser_wallpapers">ພາບ​ພື້ນ​ຫຼັງ</string>
+<string name="dialog_wallpaper_chooser_gallery">ແກເລີຣີ</string>
+<string name="dialog_wallpaper_chooser_take">ຖ່າຍ​ຮູບ</string>
+<string name="dialog_wallpaper_chooser_default">ຄ່າມາດຕະຖານ</string>
+<string name="dialog_wallpaper_title">ເລືອກ​ພາບ​ພື້ນ​ຫຼັງ</string>
+<string name="mute_one_hour">1 ຊົ່ວ​ໂມງ</string>
+<string name="mute_four_hours">4 ຊົ່ວ​ໂມງ</string>
+<string name="mute_eight_hours">8 ຊົ່ວ​ໂມງ</string>
+<string name="save_chat_history_failed">ບັນທຶກບໍ່ສໍາເລັດ</string>
+<string name="send_chat_history_failed">ສົ່ງອີ​ເມວ​ບໍ່​ສຳ​ເລັດ</string>
+<string name="actionbar_sms_setting">ການຕັ້ງຄ່າ SMS</string>
+<string name="actionbar_mms_setting">ການຕັ້ງຄ່າ MMS</string>
+<string name="actionbar_notification_setting">ການຕັ້ງຄ່າການ​ແຈ້ງ​ເຕືອນ</string>
+<string name="actionbar_general_setting">ການຕັ້ງຄ່າທົ່ວ​ໄປ</string>
+<string name="save_history_file">ບັນທຶກເປັນ</string>
+<string name="no_sdcard_suggestion">ບໍ່​ມີແຜ່ນ SD</string>
+<string name="save_wallpaper_success">ພາບ​ພື້ນ​ຫຼັງ​ປ່ຽ​ນ​ແປງ​ແລ້ວ.</string>
+<string name="save_wallpaper_fail">ບໍ່​ສາ​ມາດ​ປ່ຽນ​ພາບ​ພື້ນ​ຫຼັງ​ໄດ້.</string>
+<string name="adding_wallpaper_title">ກຳ​ລັງບັນ​ທຶກ​ພາບ​ພື້ນ​ຫຼັງ…</string>
+<string name="ip_message_delete_important">ລວມ​ເອົາ​ຂໍ້​ຄວາມ​ໃສ່​ທຸງ​ໄວ້​ວ່າ​ສຳ​ຄັນ</string>
+<string name="str_ipmsg_spam_empty">ທ່ານ​ບໍ່​ມີການ​ສົນ​ທະ​ນາ​ສະ​ແປມ​ໃດ.\nSPAM ເກັບ​ເອົາ​ທຸກ​ການ​ສົນ​ທະ​ນາ​ທີ່​ຖືກ​ໝາຍ​ວ່າ​ເປັນ​ສະ​ແປມ. ການ​ແຈ້ງ​ເຕືອນ​ຈະ​ຖືກ​ປິດ​ໂດຍ​ມາດ​ຕະ​ຖານ. ອັນ​ນີ້​ຫຼີກ​ເວັ້ນ​ທ່ານ​ຈາກ​ການ​ລົບ​ກວນ​ທີ່​ບໍ່​ຈຳ​ເປັນ.\n\nທ່ານ​ສາ​ມາດ​ໝາຍ​ຜູ້​ສົ່ງ​ເປັນ​ສະ​ແປມ​ໂດຍ​ການ​ສຳ​ຜັດ ແລະ ການ​ຮັກ​ສາ​ການ​ສົນ​ທະ​ນາ ແລະ ການ​ເລືອກ​ໄອ​ຄອນ​ໝາຍ​ເປັນ​ສະ​ແປມ. ເມື່ອ​ການ​ສົນ​ທະ​ນາ​ຖືກ​ໝາຍ​ເປັນ​ສະ​ແປມ, ໄອ​ຄອນ​ປິດ​ການ​ແຈ້ງ​ເຕືອນ​ຈະ​ສະ​ແດງ​ຂຶ້ນ​ອັດ​ຕະ​ໂນ​ມັດ ແລະ ການ​ສົນ​ທະ​ນາ​ຈະ​ມີ​ຂຶ້ນ​ທີ່​ນີ້.</string>
+<string name="str_ipmsg_spam_example_subject">ນີ້ແມ່ນຕົວຢ່າງຂອງ​ຂໍ້​ຄວາມ​ສະ​ແປມ.</string>
+<string name="str_ipmsg_groupchat_empty">ທ່ານ​ບໍ່​ມີຂໍ້​ຄວາມ​ການ​ແຊັດ​ເປັນ​ກຸ່ມ​ໃດ.\nການ​ແຊັດ​ເປັນ​ກຸ່ມ​ເກັບ​ເອົາ​ທຸກ​ຂໍ້​ຄວາມ​ການ​ແຊັດ​ເປັນ​ກຸ່ມ​ທີ່​​​ສ້າງ​ຂຶ້ນ ແລະ ທ່ານ​ເຂົ້າ​ຮ່ວມ. ອັນ​ນີ້​ອະ​ນຸ​ຍາດ​ໃຫ້​ທ່ານ​ຊອກ​ຫາ ແລະ ຈັດ​ການ​ການ​ແຊັດ​ເປັນ​ກຸ່ມ​ຂອງ​ທ່ານ​ໄດ້​ງ່າຍໆ.\n\nເພື່ອ​ສ້າງ​ການ​ແຊັດ​ເປັນ​ກຸ່ມ, ທ່ານ​ສາ​ມາດ​ສຳ​ຜັດ​ສ້າງ​ປຸ່ມ​ການ​ແຊັດ​ເປັນ​ກຸ່ມ​ໄດ້​ຢູ່​ທີ່​ດ້ານ​ລຸ່ມ​ຂອງ​ໜ້າ​ຈໍ​ນີ້ ແລະ ເຊີນ​ໝູ່​ຂອງ​ທ່ານ​ເຂົ້າ​ຮ່ວມ​ກຸ່ມ.</string>
+<string name="str_ipmsg_group_example_from">ຊື່ກຸ່ມ</string>
+<string name="str_ipmsg_group_example_subject">ໝູ່​ຂອງ​ທ່ານ:\nຂ້ອຍ​ມັກ​ຟີ​ເຈີການແຊັດເປັນກຸ່ມ!</string>
+<string name="str_ipmsg_important_empty">ທ່ານ​ບໍ່​ມີຂໍ້​ຄວາມສຳ​ຄັນ​ໃດ.\nສິ່ງ​ສຳ​ຄັນ ເກັບ​ເອົາ​ທຸກ​ຂໍ້​ຄວາມ​ທີ່​ຖືກໃສ່​ທຸງວ່າ​ສຳ​ຄັນ. ອັນ​ນີ້​ອະ​ນຸ​ຍາດ​ໃຫ້​ທ່ານ​ຊອກ​ຫາ​ຂໍ້​ຄວາມ​ສຳ​ຄັນ​ໄດ້​ງ່າຍໆ.\n\nທ່ານ​ສາ​ມາດໃສ່​ທຸງ​​ຂໍ້​ຄວາມ​ເປັນສິ່ງ​ສຳ​ຄັນ​ໂດຍ​ການສຳ​ຜັດ ແລະ ການ​ຮັກ​ສາຂໍ້​ຄວາມ ແລະ ການ​ເລືອກທຸງ​ເປັນ​ສຳ​ຄັນ​ຈາກ​ເມ​ນູ​ທາງ​ເລືອກ. ​ເມື່ອ​ຂໍ້​ຄວາມ​ຖືກ​ໃສ່​ທຸງ​ເປັນ​ສຳ​ຄັນ, ທ່ານ​ຈະ​ເຫັນ​ໄອ​ຄັນ​ທຸງ​ສີ​ແດງ​ຕາມ​ລຸ່ມ​ນີ້.</string>
+<string name="str_ipmsg_important_example_title">ນີ້ແມ່ນຕົວຢ່າງຂອງ​ຂໍ້​ຄວາມໃສ່​ທຸງ​ໄວ້​ວ່າ​ສຳ​ຄັນ. ທຸງ​ສີ​ແດງ​ຈະ​ປະ​ກົດ​ຂຶ້ນ.</string>
+<string name="str_ipmsg_important_example_time">10:55 ໂມງ​ເຊົ້າ</string>
+<string name="str_ipmsg_allchat_empty">ບໍ່​ມີການສົນທະນາ</string>
+<string name="str_ipmsg_empty_activate_content">ເພື່ອ​ໃຊ້​ຟີ​ເຈີ​ນີ້, ທ່ານ​ຈະ​ຕ້ອງ​ເປີດ​ນຳ​ໃຊ້​ການ​ບໍ​ລິ​ການ iSMS ກ່ອນ: ຢ່າ​ກັງ​ວົນ - ຖ້າ​ທ່ານ​ບໍ່​ມັກ​ການ​ບໍ​ລິ​ການ, ທ່ານ​ສາ​ມາດ​ປິດ​ມັນ​ໄວ້ໄດ້​ສະ​ເໝີ​ຈາກ​ການ​ຕັ້ງ​ຄ່າ. ລອງ​ໃຊ້​ມັນ​ເບິ່ງ​ດຽວ​ນີ້!</string>
+<string name="str_ipmsg_empty_activate_title">ເປີດ​ນຳໃຊ້ iSMS</string>
+<string name="str_ipmsg_service_title">​ສູນ​ບໍ​ລິ​ການ iSMS</string>
+<string name="str_ipmsg_introduction">ດ້ວຍ iSMS, ທ່ານ​ສາ​ມາດ​ສົ່ງ​ຂໍ້​ຄວາມ​ຟ​ຣີ​ໄດ້​ທັນ​ທີ, ແລະ ຮັ​ກ​ສາ​ປະ​ຫວັດ​ການ​ແຊັດ​ຂອງ​ທ່ານໄວ້ຢູ່​ບ່ອນ​ດຽວ​ໄດ້. ສຳ​ຜັດປຸ່ມ​​ດ່ຽວ ເພື່ອຮັບ​ເອົາ​ປະ​ສົບ​ການ​ໃໝ່!</string>
+<string name="time_now">"ດຽວ​ນີ້​ເອງ"</string>
+<string name="str_ipmsg_active">ເປີດ​ນຳໃຊ້ iSMS</string>
+<string name="str_ipmsg_welcome_active">ຍິນ​ດີ​ຕ້ອນ​ຮັບ​ສູ່ iSMS</string>
+<string name="str_ipmsg_term_warn_welcome">ການ​ບໍ​ລິ​ການ iSMS ອະ​ນຸ​ຍາດ​ໃຫ້​ທ່ານ​ແຊັດ ແລະ ແບ່ງ​ປັນ​ໄຟ​ລ໌​ມັ​ລ​ຕິ​ມີ​ເດຍ​ກັບ​ໝູ່​ຂອງ​ທ່ານ​ໄດ້​ທຸກ​ທີ່​ທຸກ​ເວ​ລາ​ຜ່ານ Wi-Fi ການ​ເຊື່ອມ​ຕໍ່​ຂໍ້​ມູນ​ມື​ຖື.\n\nຕ້ອງ​ການ​ພຽງ​ແຕ່ 3 ຂັ້ນ​ຕອນ​ ເພື່ອ​ທຳ​ການ​ເປີດ​ໃຊ້​ໃຫ້​ສຳ​ເລັດ!\n\nຂໍ້ກໍານົດ ແລະເງື່ອນໄຂ\n</string>
+<string name="str_ipmsg_term_warn_activate">ຟີ​ເຈີ​ນີ້​ຮອງ​ຮັບ​ພຽ​ງ​ແຕ່​ໂດຍ​ການ​ບໍ​ລິ​ການ iSMS ເທົ່າ​ນັ້ນ.\n\nການ​ບໍ​ລິ​ການ iSMS ອະ​ນຸ​ຍາດ​ໃຫ້​ທ່ານ​ແຊັດ ແລະ ແບ່ງ​ປັນ​ໄຟ​ລ໌​ມັ​ລ​ຕິ​ມີ​ເດຍ​ກັບ​ໝູ່​ຂອງ​ທ່ານ​ໄດ້​ທຸກ​ທີ່​ທຸກ​ເວ​ລາ​ຜ່ານ Wi-Fi ການ​ເຊື່ອມ​ຕໍ່​ຂໍ້​ມູນ.\n\nຂໍ້ກໍານົດ ແລະ ເງື່ອນໄຂ</string>
+<string name="str_ipmsg_term_key">ຂໍ້ກໍານົດ ແລະ ເງື່ອນໄຂ</string>
+<string name="str_ipmsg_agree_and_continue">ເຫັນດີນໍາ</string>
+<string name="no_sim_card">ບໍ່ພົບແຜ່ນ SIM.</string>
+<string name="ip_message_activate_title">ເປີດ​ນຳໃຊ້ iSMS</string>
+<string name="ip_message_current_sim_enabled">ການ​ບໍ​ລິ​ການ​ເປີດ​ໃຊ້​ງານ​ຢູ່​ໃນ​ແຜ່ນ SIM ປະ​ຈຸ​ບັນ​ແລ້ວ.</string>
+<string name="sim_selected_dialog_title_for_activate">ເລືອກ SIM ສຳ​ລັບ​ເປີດ​ນຳ​ໃຊ້ iSMS</string>
+<string name="ip_message_activate_message">ຟີ​ເຈີ​ນີ້​ຮອງ​ຮັບ​ພຽ​ງ​ແຕ່​ໂດຍ​ການ​ບໍ​ລິ​ການ iSMS ເທົ່າ​ນັ້ນ. ເປີດ​ນຳ​ໃຊ້​ບັນ​ຊີ iSMS ຂອງ​ທ່ານ​ດຽວ​ນີ້​ບໍ?</string>
+<string name="typing">ກຳ​ລັງ​ພິມ…</string>
+<string name="ip_message_enable_title">ເປີດ​ໃຊ້​ງານ iSMS</string>
+<string name="ip_message_enable_message">ຟີ​ເຈີ​ນີ້​ຮອງ​ຮັບ​ພຽ​ງ​ແຕ່​ໂດຍ​ການ​ບໍ​ລິ​ການ iSMS ເທົ່າ​ນັ້ນ. ເປີດ​ໃຊ້​ງານບັນ​ຊີ iSMS ຂອງ​ທ່ານ​ດຽວ​ນີ້​ບໍ?</string>
+<string name="sim_selected_dialog_title_for_enable">ເລືອກ SIM ສຳ​ລັບ​ເປີດ​​ໃຊ້ງານ iSMS</string>
+<string name="ip_message_switch_sim_title">ສະ​ຫຼັບ SIM</string>
+<string name="ip_message_switch_sim_message">SIM ປະ​ຈຸ​ບັນ​ບໍ່​ຮອງ​ຮັບ iSMS. ສະ​ຫຼັບໄປ​ຫາ SIM ອື່ນ​ບໍ?</string>
+<string name="ip_message_switch_sim_button">ສະ​ຫຼັບ</string>
+<string name="ip_message_switch_sim_successfully">ສະ​ຫຼັບ SIM ແລ້ວ.</string>
+<string name="close">ປິດ</string>
+<string name="nointernet">ບໍ່​ພົບ​ການ​ເຊື່ອມ​ຕໍ່​ອິນ​ເຕີ​ເນັດ​ທີ່​ເຮັດ​ວຽກ​ຢູ່. ກະລຸນາລອງອີກພາຍຫຼັງ.</string>
+<string name="ipmsg_reject">ປະ​ຕິ​ເສດ</string>
+<string name="ipmsg_accept">ຍອມຮັບ</string>
+<string name="ipmsg_resend">ສົ່ງໃໝ່</string>
+<string name="ipmsg_resend_discard_message">ເພື່ອ​ສົ່ງ​ຂໍ້​ຄວາມ​ຄືນ​ໃໝ່, ການ​ສ້າງ​ຂໍ້​ຄວາມປະ​ຈຸ​ບັນ​ຂອງ​ທ່ານ​ຈະ​ຖືກ​ລຶບ​ຖິ້ມ.</string>
+<plurals name="deleted_conversations">
+<item quantity="one">ໜຶ່ງການ​ສົນ​ທະ​ນາຖືກ​ລຶບ​ໄປ​ແລ້ວ</item>
+<item quantity="other">
+<xliff:g example="15" id="number">%1$s</xliff:g> ການ​ສົນ​ທະ​ນາຖືກ​ລຶບ​ໄປ​ແລ້ວ</item>
+</plurals>
+<string name="discard_mms_title">ລຶບ MMS ຖິ້ມ</string>
+<string name="discard_mms_content">ທຸກ MMS ຢູ່​ໃນ​ຂໍ້​ຄວາມສົ່ງ​ຕໍ່​ຫຼາຍ​ຂໍ້​ຄວາມ​ຂອງ​ທ່ານ​ຈະ​ຖືກ​ລຶບ​ຖິ້ມ</string>
+<string name="toast_sms_forward">ບໍ່​ມີ SMS ຖືກ​ສົ່ງ​ຕໍ່​ໄປ</string>
+<string name="dialog_continue">ສືບຕໍ່</string>
+<string name="sms_size_limit">ຮອດ​ຂີດ​ຈຳ​ກັດຂະ​ໜາດ​ແລ້ວ</string>
+<string name="dialog_sms_limit">ຮອດ​ຂີດ​ຈຳ​ກັດຂະ​ໜາດຂໍ້​ຄວາມ​ແລ້ວ. ​ຂໍ້​ຄວາມເກີນ​ຈະ​ຖືກ​ລຶບ​ຖິ້ມ</string>
+<string name="forward_tips_title">ລຶບການ​ແຈ້ງ​ເຕືອນ MMS ຖິ້ມ</string>
+<string name="forward_tips_body">ການ​ແຈ້ງ​ເຕືອນ MMS ບໍ່​ສາ​ມາດ​ສົ່ງໄປ​ຕໍ່​ໄດ້ ແລະ ​ຈະ​ຖືກ​ລຶບ​ຖິ້ມ.</string>
+<string name="type_to_quick_text">ປ້ອນຂໍ້​ຄວາມດ່ວນ​ເຂົ້າ</string>
+<string name="menu_wappush">ຂໍ້​ຄວາມພຸ​ຊ​ WAP</string>
+<string name="visit_website">ເຂົ້າ​ເບິ່ງເວັບໄຊທ໌</string>
+<string name="meet_emoticon_limit">ຮອດຂີດ​ຈຳ​ກັດ​ອີ​ໂມ​ຕິ​ຄອນແລ້ວ</string>
+<string name="view_mms_notification">ບໍ່​ສາ​ມາດ​ເບິ່ງ​ການ​ແຈ້ງ​ເຕືອນ MMS ນີ້​ໄດ້</string>
+<string name="ipmsg_multi_forward_tips_content">ເພື່ອ​ເຮັດ​ການ​ສົ່ງ​ຫຼາຍ​ອັນ, ບາງ​ຂໍ້​ຄວາມ iSMS ຈຳ​ເປັນ​ຕ້ອງ​ໄດ້​ຮັບ​ການ​ດາວ​ໂ​ຫຼດ​ກ່ອນ.</string>
+<string name="multi_forward_failed_all">ດາວ​ໂຫຼດ​ບໍ່​ສຳ​ເລັດ. ​ຂໍ້​ຄວາມສົ່ງ​​ຕໍ່​ຫຼາຍ​ຂໍ້​ຄວາມ​ຈະ​ຖືກ​ລຶບ​ຖິ້ມ.</string>
+<string name="ipmsg_multi_forward_failed_part">ສົ່ງຕໍ່​ບາງຂໍ້​ຄວາມ​ບໍ່​ສຳ​ເລັດ</string>
+<string name="sum_search_networks">ຊອກ​ຫາ​ທຸກ​ເຄືອ​ຂ່າຍ​ທີ່​ມີ​ຢູ່</string>
+<string name="confirm_delete_allwappush">ລຶບ​ທຸກຂໍ້​ຄວາມພຸ​ຊ​ WAP ບໍ?</string>
+<string name="confirm_delete_selected_wappush">ລຶບຂໍ້​ຄວາມພຸ​ຊ​ WAP ທີ່​ເລືອກ​ໄວ້ບໍ?</string>
+<string name="menu_delete_allwappush">ລຶບທັງໝົດ</string>
+<string name="duplicated_recipient">ຜູ້​ຮັບ​ຊ້ຳ</string>
+<string name="sms_not_ready">ບໍ່​ສາ​ມາດ​ເອົາ​ເບີ​ສູນ​ບໍ​ລິ​ການ SMS ໄດ້.</string>
+<string name="label_full_name">ຊື່</string>
+<string name="label_phone">ໂທລະສັບ</string>
+<string name="label_email">ອີເມວ</string>
+<string name="label_postal">ທີ່ຢູ່</string>
+<string name="label_organization">​ອົງການ​ຈັດ​ຕັ້ງ</string>
+<string name="label_im">IM</string>
+<string name="label_website">ເວັບໄຊທ໌</string>
+<string name="label_sip_address">ໂທອິນ​ເຕີ​ເນັດ</string>
+<string name="label_nick_name">ຊື່ຫຼິ້ນ</string>
+<string name="label_notes">ບັນ​ທຶກ</string>
+<string name="label_event">ເຫດການ</string>
+<string name="search_time_period_label">ໄລ​ຍະ​ເວ​ລາ</string>
+<string name="done_text">"ແລ້ວໆ"</string>
+<string name="mwi_title">​ຂໍ້​ຄວາມສຽງ</string>
+<string name="type_voice_msg">​ຂໍ້​ຄວາມສຽງ</string>
+<string name="type_video_msg">ຂໍ້ຄວາມວິ​ດີ​ໂອ</string>
+<string name="type_fax_msg">ຂໍ້ຄວາມແຟັກ</string>
+<string name="type_text_msg">ຂໍ້ຄວາມໜັງ​ສື</string>
+<string name="priority_urgent">ດ່ວນ</string>
+<string name="date_label">ວັນ​ທີ:\u0020</string>
+<string name="message_id_label">ID ຂໍ້​ຄວາມ:\u0020</string>
+<string name="voice_message_count_notification">
+<xliff:g example="3" id="number">%1$s</xliff:g> ຂໍ້​ຄວາມ​ສຽງ​ໃໝ່</string>
+<string name="confirm_delete_allmwi">ທຸກ​ຂໍ້​ຄວາມສຽງຈະຖືກລຶບ.</string>
+<string name="confirm_delete_selected_mwi">ຂໍ້​ຄວາມສຽງທີ່ເລືອກໄວ້​ຈະ​ຖືກ​ລຶບ.</string>
+<string name="sms_priority_setting">ບຸ​ລິ​ມະ​ສິດ UIM</string>
+<string name="sms_priority_Interactive">ດຳ​ເນີນ​ຕໍ່​ກັນ</string>
+<string name="sms_priority_Urgent">ດ່ວນ</string>
+<string name="sms_priority_Emergency">ສຸກເສີນ</string>
+<string name="empty_sim_name">ຊ່ອງ​ໃສ່ SIM <xliff:g example="2" id="subId">%1$d</xliff:g>
+</string>
+<string name="drm_not_support">ເນື້ອ​ໃນ​ມີ​ລິ​ຂະ​ສິດ​ປົກ​ປ້ອງ​​ແມ່ນ MMS ບໍ່​ຮອງ​ຮັບ.</string>
+<string name="add_duplicate_recipients">ຜູ້​ຮັບ​ຊ້ຳ</string>
+<string name="user_has_no_premission">ຜູ້​ໃຊ້​ນີ້​ບໍ່​ໄດ້​ຮັບ​ອະ​ນຸ​ຍາດ​ໃຫ້​ໃຊ້ SMS</string>
+<string name="wfc_no_cellular_network">ບໍ່ມີເຄືອຂ່າຍເຊວ​ລູ​ລາ​</string>
+<string name="wfc_connect_to_available_wifi">ເຊື່ອມ​ຕໍ່​ກັບ Wi-Fi ທີ່​ມີ​ຢູ່​ສຳ​ລັບ​ການ​ສົ່ງ​ຂໍ້​ຄວາມ.</string>
+<string name="wfc_notification_title">ເຊື່ອມ​ຕໍ່​ກັບ Wi-Fi ສຳ​ລັບ​ການ​ສົ່ງ​ຂໍ້​ຄວາມ</string>
+</resources>

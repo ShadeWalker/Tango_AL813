@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">ပက္ေက့ခ်္သြင္းစက္</string>
+    <string name="next">ေရွ႕သို႔</string>
+    <string name="install">သြင္းပါ</string>
+    <string name="done">ၿပီးၿပီ</string>
+    <string name="security_settings_desc">ဤပ႐ိုဂရမ္အား ခြင့္ျပဳမည္-</string>
+    <string name="cancel">မလုပ္ပါ</string>
+    <string name="unknown">မသိေသာ</string>
+    <string name="installing">သြင္းေနဆဲ\u2026</string>
+    <string name="install_done">ပ႐ိုဂရမ္သြင္းျပီး</string>
+    <string name="install_confirm_question">ဤပ႐ိုဂရမ္သြင္းမလား။ ယင္းက ေအာက္ပါ အေၾကာင္းအရာမ်ားထံသို႔ ဝင္ေရာက္ခြင့္ ရယူလိမ့္မည္-</string>
+    <string name="install_confirm_question_no_perms">ဤပ႐ိုဂရမ္အား သြင္းမလား။ ယင္းက မည္သည့္ အထူးဝင္ေရာက္ခြင့္မွ မလိုအပ္ေပ။</string>
+    <string name="install_confirm_question_update">ဤလက္ရွိပ႐ိုဂရမ္သို႔ အဆင့္ျမႇင့္တင္ခ်က္ သြင္းမလား။ သင့္လက္ရွိ အခ်က္အလက္အား ဆံုး႐ံႈးလိမ့္မည္မဟုတ္ပါ။ ဤအဆင့္ျမႇင့္တင္ျပီး ပ႐ိုဂရမ္က ေအာက္ပါ အေၾကာင္းအရာမ်ား ထံသို႔ ဝင္ေရာက္ခြင့္ ရယူလိမ့္မည္-</string>
+    <string name="install_confirm_question_update_system">ဤတြဲလ်က္ပါရွိသည့္ ပ႐ိုဂရမ္သို႔ အဆင့္ျမႇင့္တင္ခ်က္အား သြင္းမလား။ သင့္လက္ရွိ အခ်က္အလက္အား ဆံုးရံႈးလိမ့္မည္မဟုတ္ပါ။ ဤအဆင့္ျမႇင့္တင္ျပီး ပ႐ိုဂရမ္က ေအာက္ပါ အေၾကာင္းအရာမ်ား ထံသို႔ ဝင္ေရာက္ခြင့္ ရယူလိမ့္မည္-</string>
+    <string name="install_confirm_question_update_no_perms">ဤလက္ရွိပ႐ိုဂရမ္သို႔ အဆင့္ျမႇင့္တင္ခ်က္ သြင္းမလား။ သင့္လက္ရွိ အခ်က္အလက္အား ဆံုးရံႈးလိမ့္မည္မဟုတ္ပါ။ ယင္းက မည္သည့္ အထူး ဝင္ေရာက္ခြင့္မွ မလိုအပ္ေပ။</string>
+    <string name="install_confirm_question_update_system_no_perms">ဤတြဲလ်က္ပါရွိသည့္ ပ႐ိုဂရမ္သို႔ အဆင့္ျမႇင့္တင္ခ်က္ သြင္းမလား။ သင့္လက္ရွိ အခ်က္အလက္အား ဆံုးရံႈးလိမ့္မည္မဟုတ္ပါ။ ယင္းက မည္သည့္ အထူးဝင္ေရာက္ခြင့္မွ မလိုအပ္ေပ။</string>
+    <string name="install_failed">ပ႐ိုဂရမ္မသြင္းရေသးပါ</string>
+    <string name="install_failed_invalid_apk">ပက္ေက့ခ်္ ပ်က္စီးသြားျပီဟု ထင္ရသည္</string>
+    <string name="install_failed_inconsistent_certificates">လက္မွတ္ဆိုင္ရာ ျပႆနာရွိသည့္ အမည္တူ တည္ရွိေနေသာ ပက္ေက့ခ်္မွာ သြင္းျပီးျပီျဖစ္သည္။</string>
+    <string name="install_failed_older_sdk">ပက္ေက့ခ်္မွာ Android ၏ ဗားရွင္း အသစ္မ်ားတြင္သာ အလုပ္လုပ္သည္။</string>
+    <string name="install_failed_cpu_abi_incompatible" product="tablet">ဤပ႐ိုဂရမ္မွာ သင့္တက္ဘလက္ႏွင့္ အဆင္မေျပပါ။</string>
+    <string name="install_failed_cpu_abi_incompatible" product="tv">ဤအက္ပ္သည္ သင့္ TV ႏွင့္ မကိုက္ညီပါ။</string>
+    <string name="install_failed_cpu_abi_incompatible" product="default">ဤပ႐ိုဂရမ္မွာ သင့္ဖုန္းႏွင့္ အဆင္မေျပပါ။</string>
+    <string name="install_failed_file_not_found">သြင္းျခင္းမျပီးဆံုးမီ အထူးျပဳထားသည့္ ပက္ေက့ခ်္အား ဖ်က္ျပီးျဖစ္သည္။</string>
+    <string name="install_failed_verify_failed">ပက္ေက့ခ်္အား မွန္ကန္ေၾကာင္း အတည္ျပဳျခင္း မေအာင္ျမင္ပါသျဖင့္ သြင္း၍မရပါ။</string>
+    <string name="install_failed_verify_timeout">ဤပက္ေက့ခ်္အား မွန္ကန္ေၾကာင္း အတည္ျပဳရာတြင္ တုန္႔ျပန္ခ်က္မရွိသျဖင့္ ျဖတ္ေတာက္ျခင္း ျဖစ္ေပၚသြားသည္။ ေနာက္တစ္ၾကိမ္ ျပန္သြင္းရန္ ႀကိဳးစားပါ။</string>
+    <string name="install_failed_msg" product="tablet">  <xliff:g id="app_name">%1$s</xliff:g> အား သင့္တက္ဘလက္တြင္ သြင္း၍မရပါ။ </string>
+    <string name="install_failed_msg" product="tv">
+<xliff:g id="app_name">%1$s</xliff:g> ကို သင့္ TV တြင္ အင္စေတာ မလုပ္ႏိုင္ပါ။</string>
+    <string name="install_failed_msg" product="default">  <xliff:g id="app_name">%1$s</xliff:g> အား သင့္ဖုန္းတြင္ သြင္း၍မရပါ။ </string>
+    <string name="launch">ဖြင့္ပါ</string>
+    <string name="unknown_apps_dlg_title">သြင္းျခင္းကို ပိတ္ထားသည္</string>
+    <string name="unknown_apps_dlg_text" product="tablet">လံုျခံဳေရးအတြက္ သင့္တက္ဘလက္အား အမည္မသိ ရင္းျမစ္မ်ားမွ ရရွိေသာ ပ႐ိုဂရမ္မ်ား သြင္းျခင္းအား ပိတ္ထားမည္ျဖစ္သည္။</string>
+    <string name="unknown_apps_dlg_text" product="TV">လံုျခံဳေရးအတြက္ သင့္ TV ကို မသိေသာ ရင္းျမစ္မ်ားမွ အက္ပ္မ်ား အင္စေတာမလုပ္ေစရန္ သတ္မွတ္ထားသည္။</string>
+    <string name="unknown_apps_dlg_text" product="default">လံုျခံဳေရးအတြက္ သင့္ဖုန္းအား အမည္မသိ ရင္းျမစ္မ်ားမွ ရရွိေသာ ပ႐ိုဂရမ္မ်ား သြင္းျခင္းအား ပိတ္ထားမည္ျဖစ္သည္။</string>
+    <string name="unknown_apps_admin_dlg_text">သင္၏စီမံခန္႔ခြဲသူသည္ မသိေသာ ရင္းျမစ္မ်ားမွ ရရွိေသာ အက္ပ္မ်ား အင္စေတာျပဳလုပ္ျခင္းကိ ခြင့္မျပဳပါ။</string>
+    <string name="ok">အိုေက</string>
+    <string name="settings">အျပင္အဆင္မ်ား</string>
+    <string name="allow_source_dlg_title">ပ႐ိုဂရမ္မ်ားအတြက္ ရင္းျမစ္အသစ္မ်ား</string>
+    <string name="allow_source_dlg_text">  <xliff:g id="app_name">%1$s</xliff:g> က အျခားပ႐ိုဂရမ္အား သြင္းလိုသည္။ \n\n၎အား ယခုႏွင့္ ေနာင္တြင္ ခြင့္ျပဳမလား။</string>
+    <string name="manage_applications">ပ႐ိုဂရမ္မ်ားကို စီစဥ္ပါ</string>
+    <string name="dlg_app_replacement_title">ပ႐ိုဂရမ္ကို အစားထိုးမလား။</string>
+    <string name="dlg_app_replacement_statement">သင္သြင္းေနေသာ ပ႐ိုဂရမ္အား အျခားပ႐ိုဂရမ္က အစားထိုးမည္ျဖစ္သည္။ \n\nယခင္ သင္၏ အသံုးျပဳသူဆိုင္ရာ အခ်က္အလက္မ်ား အားလံုးကို သိမ္းထားမည္ ျဖစ္သည္။</string>
+    <string name="dlg_sys_app_replacement_statement">ယင္းမွာစနစ္ပ႐ိုဂရမ္ျဖစ္သည္။ \n\nယခင္ သင္၏ အသံုးျပဳသူဆိုင္ရာ အခ်က္အလက္မ်ား အားလံုးကို သိမ္းထားမည္ျဖစ္သည္။</string>
+    <string name="out_of_space_dlg_title">ေနရာမလံုေလာက္ပါ</string>
+    <string name="out_of_space_dlg_text">  <xliff:g id="app_name">%1$s</xliff:g> အား မသြင္းႏိုင္ပါ။ ေနရာအခ်ဳိ႕ လြတ္ေအာင္လုပ္ျပီး ျပန္ႀကိဳးစားၾကည့္ပါ။ </string>
+    <string name="dlg_ok">အိုေက</string>
+    <string name="app_not_found_dlg_title">ပ႐ိုဂရမ္ရွာမေတြ႕ပါ</string>
+    <string name="app_not_found_dlg_text">သြင္းထားေသာ ပ႐ိုဂရမ္မ်ားစာရင္းတြင္ ပ႐ိုဂရမ္ကို ရွာမေတြ႕ပါ။</string>
+    <string name="uninstall_application_title">ပ႐ိုဂရမ္ သြင္းထားျခင္းကို ျဖဳတ္ပါ</string>
+    <string name="uninstall_update_title">အဆင့္ျမႇင့္ခ်က္ သြင္းထားျခင္းကို ျဖဳတ္ပါ</string>
+    <string name="uninstall_activity_text">  <xliff:g id="activity_name">%1$s</xliff:g> မွာ ေအာက္ပါပ႐ိုဂရမ္၏ တစ္ပိုင္းတစ္ေဒသ ျဖစ္သည္-</string>
+    <string name="uninstall_application_text">ဤပ႐ိုဂရမ္ သြင္းထားျခင္းကို ျဖဳတ္လိုပါသလား။</string>
+    <string name="uninstall_application_text_all_users">အသံုးျပဳသူမ်ား <b>အားလံုး</b>အတြက္ ဤပ႐ိုဂရမ္ကို သြင္းလိုပါသလား။ ပ႐ိုဂရမ္ႏွင့္ ၎၏ အခ်က္အလက္မ်ားကို ကိရိယာရွိ အသံုးျပဳသူမ်ား <b>အားလံုး</b>မွ ဖယ္ရွားလိမ့္မည္။</string>
+    <string name="uninstall_application_text_user">ဤအက္ပ္ကို အသံုးျပဳသူ <xliff:g id="username">%1$s</xliff:g> အတြက္ အင္စေတာ ျပန္ျဖဳတ္လိုသလား။</string>
+    <string name="uninstall_update_text">ဤပ႐ိုဂရမ္အား ဝယ္ယူစဥ္ပံုစံဗားရွင္းႏွင့္ အစားထိုးလိုပါသလား။</string>
+    <string name="uninstalling">သြင္းထားျခင္းကို ျဖဳတ္ေနဆဲ\u2026</string>
+    <string name="uninstall_done">သြင္းထားျခင္းကို ျဖဳတ္ျခင္းျပီးဆံုး</string>
+    <string name="uninstall_failed">သြင္းထားျခင္းကို ျဖဳတ္ရာမေအာင္ျမင္ပါ</string>
+    <string name="uninstall_failed_device_policy_manager">ဤပက္ေက့မွာ လုပ္ေဆာင္ဆဲ ပစၥည္း စီစဥ္ၾကီးၾကပ္ခ်က္ျဖစ္၍ သြင္းထားျခင္းကို ျဖဳတ္၍မရပါ</string>
+    <string name="uninstall_blocked_profile_owner">ဤအက္ပ္သည္ သင္၏ <xliff:g id="username">%1$s</xliff:g>ပ႐ိုဖိုင္လိုအပ္သျဖင့္ အင္စေတာ ျပန္မျဖဳတ္ႏိုင္ပါ။</string>
+    <string name="uninstall_blocked_device_owner">ဤအက္ပ္သည္ သင္၏ ကိရိယာ စီမံခန္႔ခြဲသူ လိုအပ္သျဖင့္ အင္စေတာ ျပန္မျဖဳတ္ႏိုင္ပါ။</string>
+    <string name="manage_device_administrators">ပစၥည္း၏ စီစဥ္ ၾကီးၾကပ္ခ်က္မ်ားကို စီစဥ္ပါ</string>
+    <string name="uninstall_failed_msg">  <xliff:g id="app_name">%1$s</xliff:g> အား သြင္းထားျခင္းကို ျဖဳတ္၍မရပါ </string>
+    <string name="Parse_error_dlg_title">ပိုင္းျခားစိစစ္ျခင္း အမွားျပေနသည္</string>
+    <string name="Parse_error_dlg_text">ပက္ေက့ခ်္အား ပိုင္းျခားစိစစ္ျခင္းတြင္ ျပႆနာရွိေနသည္</string>
+    <string name="newPerms">အသစ္</string>
+    <string name="allPerms">အားလံုး</string>
+    <string name="privacyPerms">ကိုယ္ေရးကိုယ္တာကိစၥ</string>
+    <string name="devicePerms">ပစၥည္းဝင္ေရာက္ခြင့္</string>
+    <string name="no_new_perms">ဤအဆင့္ျမႇင့္ျခင္းတြင္ ခြင့္ျပဳခ်က္အသစ္မ်ား မလိုအပ္ပါ</string>
+    <string name="grant_confirm_question">ေအာက္ပါ ခြင့္ျပဳခ်က္မ်ားကို ခြင့္ျပဳလိုပါသလား။ ေအာက္ပါအသံုးျပဳမ်ားကို ရလိမ့္မည္-</string>
+<string name="delete_apps_text"><xliff:g id="apps_name">%1$s</xliff:g> ထည့္သြင္းမႈပက္ေက့ခ်္ <xliff:g id="apps_size">%2$1.2f</xliff:g> MB။ ၄င္းကို ဖ်က္ပစ္မည္လား?</string>
+    <string name="delete_apps_title">အင္စေတာလုပ္ေသာ ပက္ေက့ခ်္ကို ဖ်က္ပါ</string>
+    <string name="delete">ဖ်က္ပါ</string>
+</resources>

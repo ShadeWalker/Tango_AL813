@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- AudioProfile Settings start -->
+   <string name="ring_summary">Berdering</string>
+  <string name="ring_vibrate_summary">Berdering dan bergetar</string>
+  <string name="silent_summary">Senyap sahaja</string>
+  <string name="meeting_summary">Getar sahaja</string>
+  <string name="outdoor_summary">Deringan paling kuat dan bergetar</string>
+  <string name="audio_profile_reset">Set semula</string>
+  <string name="audio_profile_add">Tambah</string>
+  <string name="audio_profile_enable">Dayakan</string>
+  <string name="audio_profile_rename">"Namakan Semula"</string>
+  <string name="audio_profile_delete">"Padam"</string>
+  <string name="audio_profile_message_reset">Semua tetapan profil audio akan diset semula ke lalai</string>
+  <string name="audio_profile_message_rename">Sila input nama profil baru</string>
+  <string name="audio_profile_message_name_error">Nama input telah wujud</string>
+  <string name="audio_profile_message_name_length_wrong">Nama mesti mengandungi sekurang-kurangnya satu aksara</string>
+  <string name="audio_profile_message_delete">Profil 
+        <xliff:g id="profile">%s</xliff:g> akan dipadam</string>
+  <string name="audio_profile_message_overflow">Anda hanya dibenarkan untuk tambah 6 profil tersuai</string>
+  <string name="audio_profile_category_custom_title">Profil pratakrif pengguna</string>
+  <string name="audio_profile_category_predefine_title">Profil pratakrif</string>
+  <string name="audio_profile_error">Ralat</string>
+  <string name="audio_profile_others">Pemberitahuan &amp; Lain-lain</string>
+  <string name="general_settings_title">"Umum"</string>
+  <string name="silent_settings_title">Senyap</string>
+  <string name="meeting_settings_title">Mesyuarat</string>
+  <string name="outdoor_settings_title">Di luar</string>
+  <string name="sound_category_feedback_title">"Sistem"</string>
+  <string name="sound_category_calls_title">Panggilan masuk</string>
+  <string name="voice_call_title">Nada dering panggilan suara</string>
+  <string name="voice_call_summary">Tetapkan nada dering panggilan suara masuk lalai</string>
+  <string name="video_call_title">Nada dering panggilan video</string>
+  <string name="video_call_summary">Tetapkan nada dering panggilan video masuk lalai</string>
+  <string name="sip_call_title">Nada dering panggilan SIP</string>
+  <string name="sip_call_summary">Tetapkan nada dering panggilan SIP lalai anda</string>
+  <string name="Phone_vibrate_summary">Telefon bergetar untuk Panggilan masuk</string>
+  <string name="vibrate_title">Getar</string>
+  <string name="audio_profile_settings_title">Profil audio</string>
+  <string name="audio_profile_bes_loudness_summary">Penggalak kelantangan untuk pembesar suara</string>
+  <string name="sound_enhancement_title">Penambahan bunyi</string>
+  <string name="music_plus_summary">Penambah audio untuk fon telinga</string>
+  <string name="lossless_title">Mod BT Tanpa Hilang</string>
+  <string name="lossless_summary">Audio BT berkualiti tinggi</string>
+  <string name="lossless_connect_summary">Wi-Fi akan terjejas dengan menghidupkan mod BT Tanpa Hilang. Anda pasti ingin mendayakannya?</string>
+  <string name="lossless_on">Mod BT Tanpa Hilang HIDUP</string>
+  <string name="lossless_playing">Memainkan muzik tanpa hilang</string>
+  <string name="lossless_toastmessage">Bunyi sistem akan dimainkan melalui pembesar suara telefon</string>
+  <string name="lossless_volume_max">Sila kekalkan kelantangan sistem kepada maksimum</string>
+  <string name="lossless_cannot_found_device">Tidak boleh menemui peranti tanpa hilang BT</string>
+  <string name="audio_profile_bes_surround_title">Bes Keliling</string>
+  <string name="audio_profile_bes_surround_summary">Bunyi Keliling Audio</string>
+  <string name="audio_profile_bes_surround_mode_movie">Mod Filem</string>
+  <string name="audio_profile_bes_surround_mode_music">Mod Muzik</string>
+  <string name="zen_mode_option_title_novoice" msgid="6680706009915204785">"Apabila pemberitahuan tiba"</string>
+  <!-- AudioProfile Settings end -->
+ 
+  <!-- MTK Wi-Fi settings start -->
+   <string name="wifi_no_cert_for_wapi">Tidak dapat menemui pensijilan untuk AP yang sedang bersambung</string>
+  <string name="sim_slot">Slot SIM</string>
+  <string name="eap_sim_slot_0">Slot Sim 1</string>
+  <string name="eap_sim_slot_1">Slot Sim 2</string>
+  <string name="eap_sim_aka_airplanemode">Sila matikan mod Pesawat untuk menggunakan EAP-SIM/AKA</string>
+  <string name="eap_sim_aka_no_sim_error">Anda mesti memasukkan kad sim untuk menggunakan EAP-SIM/AKA</string>
+  <string name="eap_sim_aka_no_sim_slot_selected">Anda mesti memilih slot sim untuk menggunakan EAP-SIM/AKA</string>
+  <string name="wifi_security_wapi_certificate">Sijil WAPI</string>
+  <string name="wapi_user_certificate">Sijil pengguna</string>
+  <string name="wapi_as_certificate">Sijil ASE</string>
+  <string name="wifi_hex_password">Kata laluan perenambelasan.</string>
+  <string name="wifi_WEP_transmit_key">"Kekunci Alir"</string>
+  <string name="wifi_WEP_secury_key">"Kekunci Selamat"</string>
+  <string name="wifi_tether_auto_disable_title">Biarkan titik panas Wi-Fi hidup</string>
+  <string name="wifi_tether_auto_channel_text">Auto</string>
+  <string name="wifi_tether_auto_channel_width_text">Auto 20/40 MHz</string>
+  <string name="wifi_channel">Saluran Pilihan</string>
+  <string name="wifi_channel_width">Lebar Saluran</string>
+  <string name="wifi_advanced_ipv4_address_title">Alamat IPv4</string>
+  <string name="wifi_advanced_ipv6_address_title">Alamat IPv6</string>
+  <string name="wifi_ipv4_address">Alamat IPv4</string>
+  <string name="wifi_ipv6_address">Alamat IPv6</string>
+  <string name="wifi_ap_auto_join_available">Sertai Auto</string>
+  <string name="wifi_ap_auto_join_available_summary">Pilih auto rangkaian Wi-Fi yang lebih baik semasa mengimbas untuk menyertai apabila bersambung</string>
+  <!-- MTK Wi-Fi settings end -->
+ 
+  <!-- Wi-Fi hotspot client start -->
+   <string name="wifi_tether_setting_title">Tetapan asas</string>
+  <string name="wifi_tether_wps_connect_title">"Sambungan WPS"</string>
+  <string name="wifi_tether_wps_connect_summary">Mod persediaan dilindungi Wi-Fi terpilih untuk meneruskan</string>
+  <string name="wifi_tether_wps_pin_error">PIN tidak sah</string>
+  <string name="wifi_tethering_title">Titik panas Wi-Fi</string>
+  <string name="wifi_ap_wps_dialog_title">"Sambungan WPS"</string>
+  <string name="wifi_ap_wps_mode_title">Mod WPS</string>
+  <string name="wifi_ap_wps_pin_title">Taipkan PIN untuk klien</string>
+  <string name="wifi_ap_reset_OOB_title">Tetapkan semula SSID rangkaian, keselamatan dan kata laluan kepada lalai (konfigurasi di luar kotak untuk WPS)</string>
+  <string name="wifi_ap_reset_OOB">Tetapkan semula OOB</string>
+  <string name="wifi_ap_max_connection_title">Sambungan maksimum</string>
+  <string name="wifi_ap_connected_title">Pengguna yang disambungkan</string>
+  <string name="wifi_ap_blocked_title">Pengguna disekat</string>
+  <string name="wifi_ap_client_block_title">Halang</string>
+  <string name="wifi_ap_client_unblock_title">Nyahsekat</string>
+  <string name="wifi_ap_client_details_title">Butiran</string>
+  <string name="wifi_ap_client_mac_label">Alamat MAC:</string>
+  <string name="wifi_ap_client_ip_label">Alamat IP:</string>
+  <string name="wifi_ap_bandwidth_title">Penggunaan lebar jalur</string>
+  <string name="wifi_ap_bandwidth_enable">Dayakan pendikitan lebar jalur</string>
+  <string name="wifi_ap_bandwidth_chart_title">Kelajuan data masa nyata</string>
+  <string name="wifi_ap_bandwidth_chart_summary">Diukur oleh telefon anda, pengiraan kelajuan data pembawa anda mungkin berbeza.</string>
+  <string name="wifi_wps_fail_error">Persediaan Wi-Fi yang dilindungi gagal, cuba lagi.</string>
+  <string name="wifi_ap_title">Statistik</string>
+  <string name="wifi_ap_time_duration">Masa tempoh: 
+        <xliff:g id="time">%1$s</xliff:g></string>
+  <string name="wifi_ap_total_data">Jumlah data yang digunakan:
+        <xliff:g id="time">%1$s</xliff:g></string>
+  <string name="wifi_ap_no_connected">0 pengguna yang disambungkan</string>
+  <string name="wifi_ap_no_blocked">0 pengguna disekat</string>
+  <!-- Wi-Fi hotspot client end -->
+ 
+  <!-- MTK Beam plus start -->
+   <string name="beam_mgmt_tab_download_title">Panggilan diterima</string>
+  <string name="beam_mgmt_tab_upload_title">"3. Klik tab perkongsian dan pilih 'Benarkan pengguna rangkaian lain untuk bersambung melalui sambungan internet komputer ini'(pilih rangkaian yang baru ditambah yang mewakili internet USB jika 'Sambungan perangkaian rumah' muncul)."</string>
+  <string name="beam_share_mgmt_notification_ticker">Sejarah perkongsian Beam</string>
+  <string name="beam_share_mgmt_notification_title">Sejarah perkongsian Beam</string>
+  <string name="beam_share_mgmt_notification_message">"Pilih untuk melihat sejarah perkongsian Beam."</string>
+  <string name="beam_share_mgmt_tab_menu_clear">Buang semua tetapan laman web?</string>
+  <string name="beam_share_open_file_dialog_title">Tidak dapat membuka fail.</string>
+  <string name="beam_share_open_file_unsupported_message">Tidak dapat membuka fail.</string>
+  <string name="beam_share_open_file_not_found_message">"Fail tidak ditemui: <xliff:g id="file_name">%1$s</xliff:g></string>
+  <string name="beam_share_transfer_fail_dialog_title">"Beam gagal"</string>
+  <string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> tidak berjaya dihantar."</string>
+  <string name="beam_share_resend_dialog_ok_button">"Cuba lagi"</string>
+  <string name="beam_share_show_received_files_menu">"Tunjukkan fail yang diterima"</string>
+  <string name="beam_share_history_title">Sejarah perkongsian Beam</string>
+  <string name="beam_share_clear_confirm_dialog_title">Buang semua</string>
+  <string name="beam_share_clear_confirm_dialog_message">Kosongkan semua sejarah?</string>
+  <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> tidak berjaya diterima."</string>
+  <string name="beam_share_clear_item_dailog_title">"Padam"</string>
+  <string name="beam_share_clear_item_dailog_message">Item akan dipadamkan.</string>
+  <!-- MTK Beam plus end -->
+ 
+  <!-- MTK NFC settings start -->
+   <string name="nfc_p2p_mode">Mod P2P</string>
+  <string name="nfc_p2p_mode_summary">Hantar atau terima kandungan App</string>
+  <string name="nfc_tag_mode_category">Mod tag</string>
+  <string name="nfc_rw_tag_title">Pembacaan &amp; penulisan tag</string>
+  <string name="nfc_rw_tag_summary">Baca dari atau tulis pada tag</string>
+  <string name="nfc_card_emulation_category_title">mod pelagakan kad</string>
+  <string name="nfc_card_emulation">Pelagakan kad</string>
+  <string name="card_emulation_settings_category_title">elemen keselamatan tersedia</string>
+  <string name="card_emulation_settings_no_element_found">Tiada elemen keselamatan tersedia</string>
+  <string name="card_emulation_settings_off_text">Untuk melihat elemen keselamatan yang tersedia, hidupkan Pelagakan kad.</string>
+  <string name="card_emulation_turning_off_text">Mematikan Pelagakan kad...</string>
+  <string name="card_emulation_turning_on_text">Menghidupkan Pelagakan kad...</string>
+  <string name="card_emulation_switch_error_title">Ralat</string>
+  <string name="card_emulation_switch_error_message">Gagal menukar ke <xliff:g id="card_mode">%1$s</xliff:g>.</string>
+  <string name="card_emulation_sim_not_supported_message"><xliff:g id="sim_description">%1$s</xliff:g> tidak menyokong fungsi pelagakan Kad NFC.</string>
+  <string name="card_emulation_two_sim_not_supported_message">SIM1, SIM2 tidak menyokong fungsi emulasi Kad NFC.</string>
+  <string name="nfc_hce_pay_summary">Menggunakan peranti untuk KETUK &amp; BAYAR sebagai Google wallet, kad kredit dan sebagainya.</string>
+  <!-- MTK NFC settings end -->
+ 
+  <!-- MTK WIFI Passpoint start -->
+   <string name="passpoint_summary">Sambung automatik ke AP yang didayakan passpoint</string>
+  <string name="passpoint_append_summary">(melalui Passpoint)</string>
+  <string name="passpoint_config_credential_type">Jenis kelayakan</string>
+  <string name="passpoint_config_eap_method">"Kaedah EAP"</string>
+  <string name="passpoint_supported">Disokong</string>
+  <string name="passpoint_username_pw">Nama Pengguna/Kata Laluan</string>
+  <string name="passpoint_certificate">Sijil</string>
+  <!-- MTK WIFI Passpoint end -->
+ 
+  <!-- MTK WFD start -->
+   <string name="wfd_change_resolution_menu_title">Tukar resolusi</string>
+  <string name="wfd_sink_summary">Boleh ditemui oleh orang lain</string>
+  <string name="wfd_device_category">SENARAI PERANTI</string>
+  <string name="wfd_sink_toast_enjoy">Nikmati pemancaran skrin daripada peranti lain</string>
+  <string name="wfd_sink_toast_disconnect">Skrin pemancaran diputuskan sambungan</string>
+  <string name="wfd_sink_disconnecting">"Memutuskan sambungan…"</string>
+  <string name="wfd_sink_guide_btn">Dapatkannya</string>
+  <string name="wfd_sink_guide_title">Bagaimana hendak keluar?</string>
+  <string name="wfd_sink_guide_content">Tekan lama selama <xliff:g id="seconds">%s</xliff:g> saat pada skrin untuk keluar daripada paparan peranti lain.</string>
+  <!-- MTK WFD end -->
+ 
+  <!-- MTK Storage Settings start -->
+   <string name="mtp_transfer_unmount_error_text">Kad SD tidak boleh dinyahlekapkan semasa pemindahan fail</string>
+  <string name="mtp_transfer_erase_error_text">Kad SD tidak boleh dipadamkan semasa pemindahan fail</string>
+  <string name="launch_error">"Tidak dapat melancarkan aplikasi!"</string>
+  <string name="dlg_confirm_unmount_usb_title" product="default">Nyahlekap storan USB?</string>
+  <string name="dlg_confirm_unmount_usb_text" product="default">Jika anda menyahlekap storan USB, sesetengah aplikasi yang anda sedang gunakan akan berhenti dan menjadi tidak tersedia sehingga anda melekapkan semula storan USB.</string>
+  <string name="dlg_error_unmount_usb_text" product="default">Tidak boleh menyahlekap storan USB. Cuba sebentar lagi.</string>
+  <string name="unmount_usb_inform_text" product="default">Storan USB akan dinyahlekap.</string>
+  <string name="sd_eject_usbstorage" product="default">"Menyahlekap storan USB"</string>
+  <string name="sd_eject_usbstorage_summary" product="default">"Nyahlekap storan USB dalaman"</string>
+  <string name="sd_mount_usbstorage" product="default">"Lekap storan USB"</string>
+  <string name="sd_insert_usb_summary" product="default">"Sisip strn USB utk dilekp"</string>
+  <string name="usb_ums_title">"Storan USB"</string>
+  <string name="usb_ums_summary">"XP disyorkan. Membolehkan anda memindahkan fail di antara komputer anda dan storan USB Android anda."</string>
+  <string name="usb_charge_title">Cas sahaja</string>
+  <string name="usb_connect_as_cdrom_category">"Sambung sebagai CD-ROM"</string>
+  <string name="usb_charge_summary">Hentikan semua fungsi USB. Membolehkan anda mempercepatkan pengecasan USB dan mengurangkan penggunaan kuasa.</string>
+  <string name="akp_installer_settings_title">Pemasang APK</string>
+  <string name="akp_installer_settings_summary">Pasang APK anda dari storan Telefon dan kad SD</string>
+  <string name="usb_bicr_title">CD-ROM terbina dalam</string>
+  <string name="usb_bicr_summary">Tunjukkan CD-ROM maya yang mengandungi beberapa perisian berguna.</string>
+  <string name="select_memory">Cakera tulis lalai</string>
+  <string name="dlg_mount_external_sd_title" product="default">Lekapkan kad SD?</string>
+  <string name="dlg_mount_external_sd_summary" product="default">Jika anda melekapkan kad sd, sesetengah aplikasi yang anda gunakan akan dihentikan.</string>
+  <!-- MTK Storage Settings end -->
+ 
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">Tetapan HDMI</string>
+  <string name="hdmi_settings_summary">Klik untuk mengkonfigurasi HDMI</string>
+  <string name="hdmi_audio_toggler">"Audio"</string>
+  <string name="hdmi_video_toggler">"Video"</string>
+  <string name="hdmi_video_resolution">Resolusi video</string>
+  <string name="hdmi_auto">Auto</string>
+  <string name="hdmi_scale_control">Tetapan skala video</string>
+  <string name="hdmi_scale_no_scale">Tiada penskalaan</string>
+  <string name="hdmi_scale_scale_down">Kecilkan <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">Output audio</string>
+  <string name="hdmi_audio_output_stereo">Stereo</string>
+  <string name="hdmi_audio_output_multi_channel">Berbilang Saluran</string>
+  <!-- MTK HDMI end -->
+ 
+  <!-- MTK Display Settings start -->
+   <string name="landscape_launcher_title">Pelancar Landskap</string>
+  <string name="landscape_launcher_none">"Tiada"</string>
+  <string name="display_settings_scences_title">Pemandangan</string>
+  <string name="default_name">Lalai</string>
+  <string name="custom_theme_name">Baru [%1$s]</string>
+  <string name="loading">Memuatkan...</string>
+  <string name="auto_backlight_title">Lampu latar yang menjimatkan</string>
+  <string name="auto_backlight_summary">Sesuaikan lampu latar secara automatik untuk menjimatkan tenaga</string>
+  <string name="display_personalize">Peribadikan</string>
+  <string name="display_default">"Paparan"</string>
+  <string name="clear_motion_summary">Peningkat kelancaran video</string>
+  <string name="on_text">"hidup"</string>
+  <string name="off_text">"mati"</string>
+  <string name="mira_vision_summary">Pembekal kesan visual terbaik</string>
+  <!-- MTK Display Settings end -->
+ 
+  <!--MTK Security Settings start -->
+   <string name="voice_unlock_backup_info_summary">Semasa Buka Kunci Suara tidak dapat mengenali suara anda, bagaimanakah anda hendak membuka kunci?</string>
+  <string name="unlock_set_unlock_mode_voice_weak">Buka Kunci Suara</string>
+  <string name="mtk_lock_screen_notifications_title">Pemberitahuan skrin kunci</string>
+  <string name="lock_screen_notifications_summary">Tunjukkan pemberitahuan pada skrin kunci</string>
+  <string name="lock_screen_style_title">Gaya skrin kunci</string>
+  <string name="current_suffix">"(Semasa)"</string>
+  <string name="lockscreen_style_default_desc">"Akses pantas ke aplikasi dalam skrin kunci"</string>
+  <string name="security_not_set">Keselamatan tidak ditetapkan</string>
+  <string name="voice_ui_title">Kawalan suara</string>
+  <!--MTK Security Settings end -->
+ 
+  <!-- MTK Wireless settings start -->
+   <string name="pch_toggle_title">Keutamaan pngilan</string>
+  <string name="pch_data_prefer_summary_off">Keutamaan data</string>
+  <string name="pch_call_prefer_summary_on">Keutamaan pngilan</string>
+  <string name="pch_warning_message">Kadar transmisi data akan menurun.</string>
+  <string name="tethered_ipv6_title">Tetapan penambatan &amp; titik panas</string>
+  <string name="tethered_ipv4v6">(IPv6 tersedia)</string>
+  <string name="tethered_ipv6">(Hanya IPv6 tersedia)</string>
+  <string name="tethered_ipv4">(IPv6 tidak tersedia)</string>
+  <string name="tethering_apn_settings_title">Tetapan APN</string>
+  <string name="tethering_apn_settings_summary">Konfigurasi APN untuk penambatan</string>
+  <string name="usb_tether_type_title">Jenis penambatan USB</string>
+  <string name="usb_tethering_select_version">Pilih versi sistem PC</string>
+  <string name="apn_port_warning">Nilai port mesti antara 1-65535!</string>
+  <string name="apn_predefine_change_dialog_notice">Adakah anda pasti mahu menyimpan? Pengubahsuaian kepada APN lalai boleh menyebabkan masalah sambungan!</string>
+  <string name="lockdown_vpn_already_connected">VPN sentiasa hidup telah didayakan untuk sambungan.</string>
+  <!-- MTK Wireless settings end -->
+ 
+  <!-- MTK Feature MISC start -->
+   <string name="schedule_power_on_off_settings_title">Jadualkan kuasa hidup/mati</string>
+  <string name="ipo_title">But cepat</string>
+  <string name="ipo_summary_on">Nyahdayakan but cepat</string>
+  <string name="ipo_summary_off">Dayakan but cepat</string>
+  <string name="hotknot_explained_description">Benarkan pertukaran data semasa skrin bersentuhan dengan peranti lain</string>
+  <string name="mouse_primary_button_title">Tukar butang utama dan sekunder</string>
+  <string name="mouse_primary_button_dialog_title">Tukar butang utama</string>
+  <string name="double_click_title">Kelajuan dwiklik</string>
+  <string name="test_area">KAWASAN UJIAN:</string>
+  <string name="double_click_tip">Dwiklik di sini</string>
+  <!-- MTK Feature MISC end -->
+ 
+  <!-- MTK Bluetooth Settings start -->
+   <string name="bluetooth_advanced_settings">"Tetapan lanjutan Bluetooth"</string>
+  <string name="bluetooth_profile_ftp">Pemindahan fail</string>
+  <string name="bluetooth_ftp_profile_summary_use_for">Gunakan untuk pemindahan fail</string>
+  <string name="bluetooth_ftp_profile_summary_connected">"Disambungkan kepada pemindahan fail"</string>
+  <!-- MTK Bluetooth Settings end -->
+ 
+  <!--MTK DateTime start-->
+   <string name="gps_time_sync_attention_gps_on">Ia akan mengambil masa paling lama selama 1 minit untuk mendapatkan penetapan GPS. Selain itu, GPS mungkin gagal memberikan waktu disebabkan oleh isyarat persekitaran yang lemah.\n\nAdakah anda pasti mahu menggunakan waktu yang diberikan oleh GPS?</string>
+  <string name="gps_time_sync_attention_gps_off">Untuk menggunakan waktu yang diberikan oleh GPS, anda mesti mendayakan GPS terlebih dahulu. Ia kemudiannya akan mengambil masa paling lama selama 1 minit untuk mendapatkan penetapan GPS. Selain itu, GPS mungkin gagal memberikan waktu disebabkan oleh isyarat persekitaran yang lemah. \n\nAdakah anda pasti mahu mendayakan GPS sekarang dan menunggu waktu yang diberikan oleh GPS?</string>
+  <!--MTK DateTime end-->
+ 
+  <!--MTK DRM settings start -->
+   <string name="drm_settings_title">Penetapan semula DRM</string>
+  <string name="drm_settings_summary">Memadamkan semua lesen DRM</string>
+  <string name="drm_reset_dialog_msg">Operasi ini akan memadamkan semua lesen pada peranti ini. Teruskan?</string>
+  <string name="drm_reset_toast_msg">Lesen telah berjaya dipadamkan.</string>
+  <!--MTK DRM settings end -->
+ 
+  <!-- MTK APPS settings start -->
+   <string name="launch_main_label">Lancar aplikasi</string>
+  <string name="launch_main">Lancar aplikasi menggunakan aktiviti utama</string>
+  <string name="launch_activitie">Lancar</string>
+  <string name="move_app_to_where">Alihkan ke 
+        <xliff:g id="location">%s</xliff:g></string>
+  <!-- MTK APPS settings end -->
+ 
+  <!-- MTK Battery MISC start -->
+   <string name="bg_power_saving_title">Penjimatan kuasa pintar tunggu sedia</string>
+  <!-- MTK Battery MISC end -->
+ 
+  <!-- MTK  Datausage  start -->
+   <string name="mtk_datausage_overview_tab">Gambaran keseluruhan</string>
+  <string name="mtk_datausage_overview_wifi_today">Hari ini</string>
+  <string name="mtk_datausage_overview_wifi_total">"Jumlah"</string>
+  <string name="mtk_datausage_overview_mobile_title">MUDAH ALIH</string>
+  <string name="mtk_datausage_overview_mobile_usage"><xliff:g id="actual">%s</xliff:g> daripada 
+        <xliff:g id="limit">%s</xliff:g></string>
+  <string name="mtk_datausage_overview_mobile_usage_warning">Di luar had <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%s</xliff:g></string>
+  <string name="data_saving_title">Penjimatan Data</string>
+  <!-- MTK  Dtausage  end -->
+ 
+  <!-- MTK About phone start -->
+   <string name="status_imei_slot1">IMEI(Slot1)</string>
+  <string name="status_imei_slot2">IMEI(Slot2)</string>
+  <string name="custom_build_version">"Versi Binaan Tersuai"</string>
+  <string name="mota_system_update_summary">"Semak kemas kini sistem pada pelayan"</string>
+  <string name="software_updates_more_title">Kemas kini perisian</string>
+  <string name="software_updates_more_summary">Semak perisian versi baru</string>
+  <!-- MTK About phone end -->
+ 
+  <!-- MTK sim cards start -->
+   <string name="sim_cards_celluar_data_dialog_title">Pilih SIM untuk digunakan bagi data selular</string>
+  <string name="sim_cards_data_sms_dialog_title">Pilih SIM untuk digunakan bagi mesej SMS</string>
+  <string name="sim_cards_calls_dialog_title">Pilih akaun untuk digunakan bagi panggilan telefon</string>
+  <string name="sim_cards_other_calls_dialog_title">Pilih akaun lain</string>
+  <string name="sim_cards_other_calls_item_title">Akaun lain</string>
+  <string name="data_connection_progress_message">"Penukaran SIM akan mengambil masa kira-kira 10 saat untuk dilengkapkan. Sila tunggu…"</string>
+  <string name="gemini_sim_mode_progress_activating_message">Mengaktifkan\u2026</string>
+  <string name="gemini_sim_mode_progress_deactivating_message">Menyahaktifkan\u2026</string>
+  <string name="simui_intenet_call">Panggilan internet</string>
+  <!-- MTK sim cards end -->
+ 
+  <!-- MTK SIM Status start -->
+   <string name="imei_information_title">Maklumat IMEI</string>
+  <string name="imei_information_summary">Maklumat relatif IMEI</string>
+  <string name="sim_info_editor_color">Warna latar belakang</string>
+  <string name="sim_cards_notify_title">"Kad SIM telah berubah"</string>
+  <string name="sim_cards_notify_summary">Ketik untuk menetapkan keutamaan.</string>
+  <string name="no_sim_cards_notify_title">Tiada kad SIM dipasang masuk</string>
+  <string name="cellular_data_notify_title">"Data selular tidak tersedia"</string>
+  <string name="cellular_data_notify_summary">Ketik untuk menetapkan SIM data.</string>
+  <!-- MTK SIM Status end -->
+ 
+  <!-- IMS/SMS Settings start -->
+   <string name="ims_toggle_summary">Menyediakan perkhidmatan Subsistem Multimedia IP</string>
+  <string name="sms_vibrate_summary">getarkan peranti untuk sms</string>
+  <!-- IMS/SMS Settings end -->
+  
+  <string name="slot_number">(Slot<xliff:g id="slot_num">%1$d</xliff:g>)</string>
+    <string name="default_data_switch_err_msg1">Tidak boleh menukar data selular pada SIM pilihan semasa dalam panggilan.</string>
+  <string name="two_cdma_dialog_msg">Slot 1 dan slot 2 tidak boleh menyokong CDMA secara serentak.</string>
+  <string name="hetcom_setting_title">Muat turun Turbo</string>
+</resources>

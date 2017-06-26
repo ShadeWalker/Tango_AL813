@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dm_lock">DM قفل شد</string>
+    <string name="dm_unlock">باز کردن DM</string>
+    <string name="start_record">شروع ضبط</string>
+    <string name="stop_record">توقف ضبط</string>
+    <string name="str_db_playlist_name">ضبط های من</string>
+    <string name="alert_device_error">در دستگاه صوتی خطا رخ داد</string>
+    <string name="ext_media_badremoval_notification_title">کارت SD ناگهان برداشته شد</string>
+    <string name="error_sdcard_access">دسترسی به کارت SD ممکن نيست</string>
+    <string name="confirm_device_info_full">فضای کارت SD کم است؛ مورد ضبط شده ذخيره شد.</string>
+    <string name="confirm_save_info_saved">مورد ضبط شده ذخيره شد.</string>
+    <string name="confirm_save_info_saved_to">ضبط ذخیره شده است در</string>
+    <string name="recording_saved_sd_full">فضای کارت SD کم است؛ مورد ضبط شده ذخيره شد.</string>
+    <string name="sd_not_enough">فضای کارت SD\nکم است</string>
+    <string name="alert_dialog_dismiss">غیرفعال </string>
+    <string name="change_my_pic">تغيير</string>
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">قطع کردن همه</string>
+    <string name="onscreenHangupHolding">قطع کردن انتظار</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">قطع فعال، پاسخ در حال انتظار</string>
+    <string name="menu_ect">انتقال</string>
+    <string name="respond_via_sms_confirmation_format">"پیام به 
+        <xliff:g id="PHONE_NUMBER">%s</xliff:g> ارسال شد."
+    </string>
+    <string name="volte_add_conference_member_title">افزودن به کنفرانس</string>
+    <string name="add_member_msg">شماره یا نام را وارد کنید</string>
+    <string name="card_title_incoming_conference">دعوت به کنفرانس</string>
+    <string name="addConferenceMemeberText">افزودن عضو</string>
+    <string name="add_conference_member_limit">در هر نوبت امکان افزودن فقط یک شماره وجود دارد.</string>
+    <string name="conference_member_join">
+<xliff:g id="member_name">%s</xliff:g> به کنفرانس پیوست.</string>
+    <string name="conference_member_leave">
+<xliff:g id="member_name">%s</xliff:g> کنفرانس را ترک کرد.</string>
+    <string name="conference_member_adding">در حال افزودن <xliff:g id="member_name">%s</xliff:g> ...</string>
+    <string name="conference_member_add_fail">در روند افزودن <xliff:g id="member_name">%s</xliff:g> مشکلی پیش آمد.</string>
+    <string name="removeMember">"حذف"</string>
+    <string name="memberStatus">"وضعیت"</string>
+    <string name="volte_call_waiting_indication_text">طرف دیگر در حال مکالمه است، لطفاً صبر کنید...</string>
+    <string name="volte_conf_member_reach_max">تعداد اعضای کنفرانس به حداکثر تعداد مجاز رسیده است.</string>
+    <string name="add_multi_conference_member_limit">فعلاً حداکثر می توانید <xliff:g id="max_number">%s</xliff:g> عضو اضافه کنید.</string>
+    <string name="multi_conference_member_adding">در حال افزودن عضو...</string>
+<string name="ok">"تأیید"</string>
+<string name="two_incoming_calls">دو تماس ورودی</string>
+<string name="wifi_title">تماس Wi-Fi و دقایق </string>
+<string name="call_drop">ممکن است تماس شما قطع شود</string>
+<string name="call_drop_message">تقریباً در خارج از پوشش Wi-Fi قرار دارید</string>
+<string name="view_networks">مشاهده شبکه‌ها</string>
+<string name="wfc_wifi_call_drop_summary">اوه! احتمالاً در هنگام مکالمه از شبکه Wi-Fi خود خارج شده‌اید.‪‎\n \n‬برای اتمام تماس خود، شبکه Wi-Fi خود را مجدداً وصل می‌کنید؟</string>
+</resources>

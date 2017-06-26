@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/menu_refocus_share"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:showAsAction="always"
+        android:enabled="false"
+        android:visible="true"
+        android:title="@string/share"/>
+    <item
+        android:id="@+id/action_setas"
+        android:title="@string/set_image"/>
+    
+    <item android:id="@+id/action_hotknot"
+            android:icon="@drawable/m_ic_hotknot"
+            android:showAsAction="always"
+            android:title="@string/hotknot"
+            android:visible="true"/>
+</menu>
+

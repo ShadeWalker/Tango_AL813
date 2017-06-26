@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="permlab_bluetoothShareManager">ေဒါင္းလုဒ္မန္ေနဂ်ာသို႔ ဝင္ေရာက္ပါ။</string>
+    <string name="permdesc_bluetoothShareManager">ပ႐ိုဂရမ္အား ဘလူးတုသ္ေဝမွ်ခ်က္ မန္ေနဂ်ာသို႔ ဝင္ေရာက္ၿပီး ၎ကို အသံုးျပဳ၍ ဖိုင္မ်ားေပးပို႔ရန္ ခြင့္ျပဳပါ။</string>
+    <string name="permlab_bluetoothWhitelist">အမည္ေကာင္း ဘလူးတုသ္ အသံုးျပဳမႈ။</string>
+    <string name="permdesc_bluetoothWhitelist">ပ႐ိုဂရမ္အား ဘလူးတုသ္ပစၥည္းကို ယာယီခြင့္ျပဳခ်က္ စာရင္းတြင္ ထည့္ရန္ ခြင့္ျပဳပါ၊ ၎ပစၥည္းအား ခြင့္ျပဳျခင္းျဖင့္ အသံုးျပဳသူ၏ အတည္ျပဳခ်က္မယူဘဲ ဤပစၥည္းသို႔ ဖိုင္မ်ားေပးပို႔မည္။</string>
+    <string name="permlab_handoverStatus">ဘလူးတုသ္ျဖင့္ လႊဲေျပာင္းပို႔ေသာ ထုတ္လႊင့္ခ်က္မ်ားကို လက္ခံပါ။</string>
+    <string name="permdesc_handoverStatus">ဘလူးတုသ္မွ အေျခအေနျပသတင္းအခ်က္အလက္မ်ားကို လႊဲေျပာင္းျခင္းကို လက္ခံရယူရန္ ခြင့္ျပဳပါ။</string>
+    <string name="bt_share_picker_label">ဘလူးတုသ္</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknownNumber">မသိေသာ</string>
+    <string name="airplane_error_title">ေလယာဥ္စီးစဥ္ပံုစံ</string>
+    <string name="airplane_error_msg">ေလယာဥ္ပ်ံသန္းစဥ္ ပံုစံတြင္ ဘလူးတုသ္ကို မသံုးႏိုင္ပါ။</string>
+    <string name="bt_enable_title"/>
+    <string name="bt_enable_line1">ဘလူးတုသ္ဝန္ေဆာင္မႈမ်ားအသံုးျပဳရန္ ဘလူးတုသ္ကို အရင္ဖြင့္ပါ။</string>
+    <string name="bt_enable_line2">ဘလူးတုသ္ကို ယခုဖြင့္မလား။</string>
+    <string name="bt_enable_cancel">ဖ်က္သိမ္း </string>
+    <string name="bt_enable_ok">ဖြင့္ပါ</string>
+    <string name="incoming_file_confirm_title">ဖိုင္ေျပာင္းျခင္း</string>
+    <string name="incoming_file_confirm_content">ဝင္လာသည့္ ဖိုင္ကို လက္ခံမလား?</string> 
+    <string name="incoming_file_confirm_cancel">ပယ္ခ်ပါ</string>
+    <string name="incoming_file_confirm_ok">လက္ခံသည္</string>
+    <string name="incoming_file_confirm_timeout_ok">အိုေက</string>
+    <string name="incoming_file_confirm_timeout_content">\u0022<xliff:g id="sender">%1$s</xliff:g>\u0022 မွ အဝင္ဖိုင္ကို လက္ခံစဥ္ တုန္႔ျပန္ခ်က္မရွိသျဖင့္ ျဖတ္ခ်ပစ္လိုက္သည္။</string>
+    <string name="incoming_file_confirm_Notification_title">ဘလူးတုသ္ေဝမွ်ခ်က္- အဝင္ဖိုင္</string>
+    <string name="incoming_file_confirm_Notification_caption">ဤဖိုင္ကို လက္ခံရယူ လိုပါသလား။</string>
+    <string name="incoming_file_toast_msg">အျခားပစၥည္းမွ အဝင္ဖိုင္။ ဤဖိုင္ကို သင္လက္ခံရယူ လိုေၾကာင္း အတည္ျပဳပါ။</string>
+    <string name="notification_receiving">ဘလူးတုသ္ေဝမွ်ခ်က္: <xliff:g id="file">%1$s</xliff:g> ကို လက္ခံရယူေနဆဲ</string>
+    <string name="notification_received">ဘလူးတုသ္ေဝမွ်ခ်က္: <xliff:g id="file">%1$s</xliff:g> ကို လက္ခံရရွိၿပီး</string>
+    <string name="notification_received_fail">ဘလူးတုသ္ေဝမွ်ခ်က္: ဖိုင္ <xliff:g id="file">%1$s</xliff:g> မရရွိပါ</string>
+    <string name="notification_sending">ဘလူးတုသ္ေဝမွ်ခ်က္: <xliff:g id="file">%1$s</xliff:g> ကို ေပးပို႔ဆဲ</string>
+    <string name="notification_sent">ဘလူးတုသ္ေဝမွ်ခ်က္- <xliff:g id="file">%1$s</xliff:g> ကို ေပးပို႔ၿပီး</string> 
+    <string name="notification_sent_complete">100% ၿပီးဆံုး</string>
+    <string name="notification_sent_fail">ဘလူးတုသ္ေဝမွ်ခ်က္- ဖိုင္ <xliff:g id="file">%1$s</xliff:g> မေပးပို႔ရေသးပါ</string>
+    <string name="download_title">ဖိုင္ေျပာင္းျခင္း</string>
+    <string name="download_line1">မွ- \u0022<xliff:g id="sender">%1$s</xliff:g>\u0022</string>
+    <string name="download_line2">ဖိုင္: <xliff:g id="file">%1$s</xliff:g>
+</string>
+    <string name="download_line3">ဖိုင္အရြယ္အစား- <xliff:g id="size">%1$s</xliff:g>
+</string>
+    <string name="download_line4"/>
+    <string name="download_line5">ဖိုင္လက္ခံရယူေနဆဲ | ၿပီးၿပီ</string>
+    <string name="download_cancel">ရပ္ပါ</string>
+    <string name="download_ok">ေဖ်ာက္ထားပါ</string>
+    <string name="download_fail_line1">ဖိုင္မရရွိပါ</string>
+    <string name="download_fail_line2">ဖိုင္: <xliff:g id="file">%1$s</xliff:g>
+</string>
+    <string name="download_fail_line3">အေၾကာင္းရင္း- <xliff:g id="reason">%1$s</xliff:g>
+</string>
+    <string name="download_fail_ok">အိုေက</string>
+    <string name="download_succ_line5">ဖိုင္လက္ခံရရွိၿပီး</string>
+    <string name="download_succ_ok">ဖြင့္ပါ</string>
+    <string name="upload_line1">သို႔- \u0022<xliff:g id="recipient">%1$s</xliff:g>\u0022</string>
+    <string name="upload_line3">ဖိုင္အမ်ိုးအစား: <xliff:g id="type">%1$s</xliff:g> (<xliff:g id="size">%2$s</xliff:g>)</string>
+    <string name="upload_line5">ဖိုင္ပို႔ေနသည္ | ၿပီးၿပီ</string>
+    <string name="upload_succ_line5">ဖိုင္ေပးပို႔ဆဲ</string>
+    <string name="upload_succ_ok">အိုေက</string>
+    <string name="upload_fail_line1">ဖိုင္ကို \u0022<xliff:g id="recipient">%1$s</xliff:g>\u0022 သို႔ မပို႔ခဲ့ပါ။</string>
+    <string name="upload_fail_line1_2">ဖိုင္: <xliff:g id="file">%1$s</xliff:g>
+</string>
+    <string name="upload_fail_ok">ျပန္ႀကိဳးစားၾကည့္ပါ</string>
+    <string name="upload_fail_cancel">ပိတ္ပါ</string>
+    <string name="bt_error_btn_ok">အိုေက</string>
+    <string name="unknown_file">အမည္မသိဖိုင္</string>
+    <string name="unknown_file_desc">ဤဖိုင္အမ်ဳိးအစားကို ကိုင္တြယ္ႏိုင္ေသာ ပ႐ိုဂရမ္မရွိပါ။\n</string>
+    <string name="not_exist_file">ဖိုင္မရွိပါ</string>
+    <string name="not_exist_file_desc">ဖိုင္မရွိေနပါ။\n</string>
+    <string name="enabling_progress_title">ေစာင့္ဆိုင္းပါ\u2026</string>
+    <string name="enabling_progress_content">ဘလူးတုသ္ဖြင့္ေနဆဲ\u2026</string>
+    <string name="bt_toast_1">ဖိုင္လက္ခံရရွိမည္ ျဖစ္သည္။ အခ်က္ေပးခ်က္မ်ား မ်က္ႏွာျပင္တြင္ အေျခအေန တိုးတက္မႈကို စစ္ေဆးပါ။</string>
+    <string name="bt_toast_2">ဖိုင္ကို လက္မခံႏိုင္ပါ။</string>
+    <string name="bt_toast_3">\u0022<xliff:g id="sender">%1$s</xliff:g>\u0022 မွ ဖိုင္လက္ခံရယူျခင္းကို ရပ္ၿပီး</string>
+    <string name="bt_toast_4">\u0022<xliff:g id="recipient">%1$s</xliff:g>\u0022 သို႔ ဖိုင္ေပးပို႔ဆဲ</string>
+    <string name="bt_toast_5">\u0022<xliff:g id="recipient">%2$s</xliff:g>\u0022 သို႔ ဖိုင္ <xliff:g id="number">%1$s</xliff:g> ခု ေပးပို႔ဆဲ</string>
+    <string name="bt_toast_6">\u0022<xliff:g id="recipient">%1$s</xliff:g>\u0022 သို႔ ဖိုင္ေပးပို႔ျခင္းရပ္ၿပီး</string>
+    <string name="bt_sm_2_1" product="nosdcard">\u0022<xliff:g id="sender">%1$s</xliff:g>\u0022 မွ ဖိုင္ကို သိမ္းရန္ USB သိမ္းဆည္းမႈတြင္ ေနရာအလံုအေလာက္ မရွိပါ။</string>
+    <string name="bt_sm_2_1" product="default">\u0022<xliff:g id="sender">%1$s</xliff:g>\u0022 မွ ဖိုင္ကို သိမ္းရန္ SD ကတ္တြင္ ေနရာ အလံုအေလာက္ မရွိပါ။</string>
+    <string name="bt_sm_2_2">ေနရာလိုအပ္ခ်က္-<xliff:g id="size">%1$s</xliff:g>
+</string>
+    <string name="ErrorTooManyRequests">မ်ားျပားလွသည့္ ေတာင္းဆိုခ်က္မ်ားအား လုပ္ေဆာင္ေနဆဲ ျဖစ္သည္။ ေနာက္မွတစ္ဖန္ ျပန္ႀကိဳးစားၾကည့္ပါ။</string>
+    <string name="status_pending">ဖိုင္ေပးပို႔မႈ မစတင္ရေသးပါ။</string>
+    <string name="status_running">ဖိုင္ေပးပို႔မႈ ဆက္လက္ လုပ္ေဆာင္ေနဆဲ ျဖစ္သည္။</string>
+    <string name="status_success">ဖိုင္ေပးပို႔မႈ ေအာင္ျမင္စြာၿပီးဆံုး။</string>
+    <string name="status_not_accept">ပါဝင္မႈကို အေထာက္အပံ့ မေပးပါ။</string>
+    <string name="status_forbidden">လက္ခံမည့္ပစၥည္းမွ ေပးပို႔ခ်က္ကို တားျမစ္ထားသည္။ </string>
+    <string name="status_canceled">အသံုးျပဳသူက ေပးပို႔ခ်က္ကို ပယ္ဖ်က္ထားသည္။</string>
+    <string name="status_file_error">သိမ္းဆည္းမႈ အခက္အခဲ</string>
+    <string name="status_no_sd_card" product="nosdcard">USB သိမ္းဆည္းမႈမရွိပါ။</string>
+    <string name="status_no_sd_card" product="default">SD ကတ္မရွိပါ။ ေပးပို႔သည့္ ဖိုင္မ်ားကို သိမ္းဆည္းရန္ SD ကတ္ကို ထည့္သြင္းပါ။</string>
+    <string name="status_connection_error">ခ်ိတ္ဆက္မႈ မေအာင္ျမင္ပါ။</string>
+    <string name="status_protocol_error">ေတာင္းဆိုခ်က္ကို မွန္ကန္စြာ မေဆာင္ရြက္ႏိုင္ပါ။</string>
+    <string name="status_unknown_error">မသိေသာ အမွား။</string>
+    <string name="btopp_live_folder">ဘလူးတုသ္ လက္ခံရရွိၿပီး</string>
+    <string name="download_success">
+<xliff:g id="file_size">%1$s</xliff:g> လက္ခံရရွိခ်က္ၿပီးဆံုး။</string>
+    <string name="upload_success">
+<xliff:g id="file_size">%1$s</xliff:g> ေပးပို႔ခ်က္ၿပီးဆံုး။</string>
+    <string name="inbound_history_title">အတြင္း အခ်က္အလက္ ေပးပို႔မႈမ်ား</string>
+    <string name="outbound_history_title">ျပင္ပ အခ်က္အလက္ ေပးပို႔မႈမ်ား</string>
+    <string name="no_transfers">ေပးပို႔ျခင္းမွတ္တမ္းတြင္ ဘာမွမရွိပါ။</string>
+    <string name="transfer_clear_dlg_msg">အေၾကာင္းအရာ အားလံုးကို စာရင္းမွ ရွင္းလင္းမည္ျဖစ္သည္။</string>
+    <string name="outbound_noti_title">ဘလူးတုသ္ေဝမွ်ခ်က္- ေပးပို႔ၿပီးေသာဖိုင္မ်ား</string>
+    <string name="inbound_noti_title">ဘလူးတုသ္ေဝမွ်ခ်က္- လက္ခံရရွိၿပီးေသာ ဖိုင္မ်ား</string>
+    <string name="noti_caption">
+<xliff:g id="successful_number">%1$s</xliff:g> ေအာင္ျမင္၊ <xliff:g id="unsuccessful_number">%2$s</xliff:g> မေအာင္ျမင္။</string>
+    <string name="transfer_menu_clear_all">စာရင္းကို ရွင္းလင္းပါ</string>
+    <string name="transfer_menu_open">ဖြင့္ပါ</string>
+    <string name="transfer_menu_clear">စာရင္းမွ ရွင္းလင္းပါ</string>
+    <string name="transfer_clear_dlg_title">ရွင္းလင္းပါ</string>
+    <string name="bluetooth_share_file_name" translate="false">bluetooth_content_share</string>
+    <string name="sharedUserId" translate="false">
+<xliff:g id="x"/>
+</string>
+    <string name="process" translate="false">
+<xliff:g id="x"/>
+</string>
+    <string name="bluetooth_map_email_settings_save">သိမ္းဆည္းပါ</string>
+    <string name="bluetooth_map_email_settings_cancel">မလုပ္ပါ</string>
+    <string name="bluetooth_map_email_settings_intro">ဘလူးတုမွတဆင့္ သင္ေဝမွ်လိုေသာ အီးေမးလ္အေကာင္းမ်ားကို ေရြးပါ။ ခ်ိတ္ဆက္ေနခ်ိန္တြင္ အေကာင့္မ်ားသို႔ အသံုးျပဳမႈ လက္ခံရမည္။</string>
+    <string name="bluetooth_map_email_settings_count">က်န္ေသးေသာ ကတ္အထိုင္မ်ား-</string>
+    <string name="bluetooth_map_email_settings_app_icon">အပလီေကးရွင္း အိုင္ကြန္</string>
+    <string name="bluetooth_map_email_settings_title">ဘလူးတု မက္ေဆ့ခ်္ ေဝမွ်ျခင္း ဆက္တင္မ်ား</string>
+    <string name="bluetooth_map_email_settings_no_account_slots_left">အေကာင့္ကို မေရြးႏိုင္ပါ။ ကတ္အထိုင္ မက်န္ေတာ့ပါ။</string>
+    <string name="incoming_line1">မွ</string>
+    <string name="incoming_line2">ဖိုင္အမည္</string>
+    <string name="incoming_line3">Size</string>
+    <string name="incoming_file_confirm_content1">\u0022<xliff:g id="sender">%1$s</xliff:g>\u0022 က သင့္အား <xliff:g id="file">%2$s</xliff:g> (<xliff:g id="size">%3$s</xliff:g>) ကို ေပးပို႔လိုသည္။ \n\n ဖိုင္ကို ခြင့္ျပဳမလား။</string><!--add by lihaizhou for HQ01488268 at 20151109-->
+</resources>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/hints"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal" >
+        <TextView
+            android:id="@+id/total_status"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:maxLines="2"
+            android:gravity="center" />
+        <View
+            android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="3dip"
+            android:background="#55555555" />
+        <TextView
+            android:id="@+id/title_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/SameNameTitleStyle"
+            android:text="@string/join_title_total" />
+        <View
+            android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:layout_marginTop="3dip"
+            android:layout_marginBottom="8dip"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+            <ImageView
+                android:id="@+id/join_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:src="@drawable/status_unstarted" />
+            <TextView
+                android:id="@+id/join_status"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:maxLines="2"
+                android:layout_weight="1"
+                android:layout_marginLeft="6dp"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            style="?android:attr/progressBarStyleHorizontal" />
+        <View
+            android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dip"
+            android:layout_marginBottom="3dip"
+            android:background="#55555555" />
+        <TextView
+            android:id="@+id/title_join"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/SameNameTitleStyle"
+            android:text="@string/join_title_single" />
+        <View
+            android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:layout_marginTop="3dip"
+            android:layout_marginBottom="8dip"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+            <ImageView
+                android:id="@+id/check_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:src="@drawable/status_unstarted" />
+            <TextView
+                android:id="@+id/check_status"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:maxLines="2"
+                android:layout_weight="1"
+                android:layout_marginLeft="6dp"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        <ProgressBar
+            android:id="@+id/progress_single"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            style="?android:attr/progressBarStyleHorizontal" />
+        <View
+            android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dip"
+            android:layout_marginBottom="3dip"
+            android:background="#55555555" />
+        <TextView
+            android:id="@+id/help_hint"
+            android:layout_width="match_parent"
+            android:padding="6dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:textColor="#aa000000"
+            android:text="@string/same_name_join_hint" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/actions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/same_name_join_button"
+                android:text="@android:string/cancel"
+                />
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="6dp"
+                android:background="@drawable/same_name_join_button"
+                android:text="@string/join_action_start"
+                />
+        </LinearLayout>
+    </LinearLayout>
+ </LinearLayout>

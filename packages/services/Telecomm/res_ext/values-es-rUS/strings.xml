@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="str_db_playlist_name">"Mis grabaciones"</string>
+    <string name="alert_device_error">Ocurrió un error en el dispositivo de audio</string>
+    <string name="ext_media_badremoval_notification_title">"Tarjeta SD extraíada de forma imprevista"</string>
+    <string name="error_sdcard_access">No se puede acceder a la tarjeta SD</string>
+    <string name="confirm_device_info_full">Tarjeta SD sin espacio, se ha guardado la grabación.</string>
+    <string name="confirm_save_info_saved">Se ha guardado la grabación.</string>
+    <string name="confirm_save_info_saved_to">Se ha guardado la grabación en</string>
+    <string name="select_account_dialog_title">"Seleccionar cuenta"</string>
+    <string name="reminder">Recordatorio</string>
+    <string name="enable_ims_dialog_message">Llamada IMS está desactivada, ¿le gustaría de activarla?</string>
+    <string name="ip_dial_error_for_sip_call">Función de discado de IP no aplicable a la llamada de Internet.</string>
+    <string name="call_duration_title">"Llamada finalizada"</string>
+    <string name="call_duration_format">"<xliff:g id="HOURS">%1$s</xliff:g> horas <xliff:g id="MINUTES">%2$s</xliff:g> minutos <xliff:g id="SECONDS">%3$s</xliff:g> segundos"</string>
+    <string name="volte_ss_not_avaliable_tips">Para completar la operación, es necesario abrir conexión de datos.</string>
+    <string name="outgoing_call_failed">"Llamada no enviada."</string>
+    <string name="volte_ss_not_available_tips">Para completar la operación, es necesario abrir conexión de datos de <xliff:g id="sub_name">%s</xliff:g>.</string>
+    <string name="call_waiting_indication">El receptor está en una llamada, espere…</string>
+    <!--add by yulifeng for HQ01518230-->
+    <string name="call_waiting_indication_east">El número al que está llamando está ocupado; espere.</string>
+</resources>

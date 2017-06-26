@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sip_settings">এসআইপি সেটিং</string>
+    <string name="sip_accounts">এসপিআই একাউন্ট</string>
+    <string name="sip_accounts_title">অ্যাকাউন্ট</string>
+    <string name="sip_receive_calls">ইনকামিং কল গ্রহণ করা</string>
+    <string name="sip_receive_calls_summary">ব্যাটারির আয়ু বেশি ব্যবহার করে</string>
+    <string name="sip_call_options_title">এসআইপি কলিং ব্যবহার করুন</string>
+    <string name="sip_call_options_wifi_only_title">এসআইপি কলিং ব্যবহার করুন (কেবল ওয়াই-ফাই)</string>
+    <string name="sip_call_options_entry_1">যখন ডাটা নেটওয়ার্ক পাওয়া যায় তখন সব কলের জন্য</string>
+    <string name="sip_call_options_entry_2">কেবল এসআইপি কলের জন্য</string>
+    <string name="sip_call_options_wifi_only_entry_1">সব কলের জন্য</string>
+    <string name="pick_outgoing_call_phone_type">কল করুন</string>
+    <string name="pick_outgoing_sip_phone">এসআইপি একাউন্ট ব্যবহার করুন:</string>
+    <string name="remember_my_choice">এসআইপি কল করতে সবসময় ব্যবহার করুন</string>
+    <string name="reset_my_choice_hint">ডিফল্ট হিসেবে কোন এসআইপি একাউন্ট আপনি ব্যবহার করবেন তা পরিবর্তন করতে পারেন ফোন &gt; সেটিং &gt;এসআইপি কল সেটিং &gt; একাউন্ট স্ক্রিন।  </string>
+    <string name="pstn_phone">সেল ফোন কল</string>
+    <string name="internet_phone">ইন্টারনেট কল</string>
+    <string name="no_sip_account_found_title">কোনো এসআইপি একাউন্ট নেই</string>
+    <string name="no_sip_account_found">এই ফোনে কোনো এসআইপি একাউন্ট নেই। আপনি কি এখন যোগ করতে চান?</string>
+    <string name="sip_menu_add">যোগ করুন</string>
+    <string name="add_sip_account">একাউন্ট যোগ করুন</string>
+    <string name="remove_sip_account">একাউন্ট সরিয়ে ফেলুন</string>
+    <string name="sip_account_list">এসপিআই একাউন্ট</string>
+    <string name="saving_account">একাউন্ট সংরক্ষণ করা হচ্ছে...</string>
+    <string name="removing_account">একাউন্ট মুছে ফেলা হচ্ছে...</string>
+    <string name="sip_menu_save">সংরক্ষণ করুন</string>
+    <string name="sip_menu_discard">বাতিল করুন</string>
+    <string name="alert_dialog_close"> প্রোফাইল বন্ধ করুন</string>
+    <string name="alert_dialog_ok">ঠিক আছে</string>
+    <string name="close_profile">বন্ধ করুন</string>
+    <string name="registration_status_checking_status">স্ট্যাটাস চেক করা হচ্ছে...</string>
+    <string name="registration_status_registering">নিবন্ধিত হচ্ছে...</string>
+    <string name="registration_status_still_trying">এখনো চেষ্টা করছে...</string>
+    <string name="registration_status_not_receiving">কল ধরছে না</string>
+    <string name="registration_status_no_data">একাউন্ট নিবন্ধন বন্ধ হয়ে গেছে কেননা কোন ইন্টারনেট সংযোগ নেই</string>
+    <string name="registration_status_no_wifi_data">একাউন্ট নিবন্ধন বন্ধ হয়ে গেছে কেননা কোন ওয়াই-ফাই সংযোগ নেই</string>
+    <string name="registration_status_not_running">একাউন্ট নিবন্ধন ব্যর্থ হয়েছে</string>
+    <string name="registration_status_done">কল ধরছে </string>
+    <string name="registration_status_failed_try_later">একাউন্ট নিবন্ধন ব্যর্থ হয়েছে:(<xliff:g id="registration_error_message" example="timedout">%s</xliff:g>); আবারও চেষ্টা করবে</string>
+    <string name="registration_status_invalid_credentials">একাউন্ট নিবন্ধন ব্যর্থ হয়েছে: ব্যবহারকারী নাম ও পাসওয়ার্ড  ভুল </string>
+    <string name="registration_status_server_unreachable">একাউন্ট নিবন্ধন ব্যর্থ হয়েছে: সার্ভার নাম চেক করুন</string>
+    <string name="third_party_account_summary"><xliff:g id="account_owner" example="GoogleTalk">%s</xliff:g> অ্যাপ্লিকেশন বর্তমানে এই একাউন্টটি ব্যবহার করছে</string>
+    <string name="sip_edit_title">এসআইপি একাউন্টের বিস্তারিত তথ্য</string>
+    <string name="sip_edit_new_title">এসআইপি একাউন্টের বিস্তারিত তথ্য</string>
+    <string name="domain_address_title">প্রোফাইল নির্বাচনকারী</string>
+    <string name="username_title">ব্যবহারকারীনাম</string>
+    <string name="password_title">পাসওয়ার্ড</string>
+    <string name="display_name_title">নাম প্রদর্শন করুন</string>
+    <string name="proxy_address_title">আউটবাউন্ড প্রক্সি ঠিকানা</string>
+    <string name="port_title">পোর্ট নম্বর</string>
+    <string name="transport_title">ট্রান্সপোর্টের ধরন</string>
+    <string name="send_keepalive_title">কিপ-এলাইভ পাঠান</string>
+    <string name="advanced_settings">ঐচ্ছিক সেটিং</string>
+    <string name="auth_username_title">সত্যপ্রতিপাদন ব্যবহারকারী নাম</string>
+    <string name="auth_username_summary">সত্যপ্রতিপাদনের জন্য ব্যবহৃত ব্যবহারকারী নাম</string>
+    <string name="default_preference_summary">&lt;সেট করা হয়নি&gt;</string>
+    <string name="display_name_summary">&lt;ব্যবহারকারী নামের মতই&gt;</string>
+    <string name="optional_summary">ঐচ্ছিক সেটিং</string>
+    <string name="advanced_settings_show">সব দেখাতে স্পর্শ করুন</string>
+    <string name="advanced_settings_hide">সব লুকাতে স্পর্শ করুন</string>
+    <string name="empty_alert"><xliff:g id="input_field_name" example="Username,Password...">%s</xliff:g>আবশ্যক, খালি রাখা যাবে না</string>
+    <string name="not_a_valid_port">পোর্ট নম্বর ১০০০ থেকে ৬৫৫৩৪-এর মধ্যে হতে হবে</string>
+    <string name="no_internet_available_title"> কোন ইন্টারনেট সংযোগ নেই</string>
+    <string name="no_wifi_available_title"> কোন ওয়াই-ফাই সংযোগ নেই</string>
+    <string name="no_internet_available">এসআইপি কল করতে, প্রথমে ইন্টারনেট সংযোগ চেক করুন।</string>
+    <string name="no_wifi_available">এসআইপি কলের জন্য আপনাকে ওয়াই-ফাই নেটওয়ার্কে সংযুক্ত হতে হবে (ব্যবহার করুন ওয়্যারলেস ও নেটওয়ার্ক সেটিং)।</string>
+    <string name="no_voip">এসআইপি কল সমর্থন করে না</string>
+    <string translatable="true" name="sip_system_decide">স্বয়ংক্রিয়</string>
+    <string translatable="true" name="sip_always_send_keepalive">সবসময়ই পাঠান</string>
+    <string name="sip_connection_service_label">বিল্ট-ইন এসআইপি কলিং</string>
+</resources>

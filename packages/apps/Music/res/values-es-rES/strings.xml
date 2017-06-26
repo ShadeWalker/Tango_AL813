@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="onesong">"1 canción"</string>
+<plurals name="Nsongs">
+<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> canciones"</item>
+</plurals>
+<plurals name="Nsongscomp">
+<item quantity="other">"<xliff:g id="COUNT_FOR_ARTIST">%2$d</xliff:g> de <xliff:g id="TOTAL_COUNT">%1$d</xliff:g> canciones"</item>
+</plurals>
+<plurals name="Nalbums">
+<item quantity="one">"1 álbum"</item>
+<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> álbumes"</item>
+</plurals>
+<string name="goto_start">"Biblioteca"</string>
+<string name="party_shuffle">"Sesión aleatoria"</string>
+<string name="party_shuffle_off">"Desactivar sesión aleatoria"</string>
+<string name="delete_item">"Eliminar"</string>
+<string name="shuffle_all">"Todo aleatoriamente"</string>
+<string name="play_all">"Reproducir todo"</string>
+<string name="delete_artist_desc">Se eliminarán todas las canciones de <xliff:g id="artist">%s</xliff:g> se eliminará.</string>
+<string name="delete_artist_desc_nosdcard">"¿Eliminar todas las canciones de <xliff:g id="ARTIST">%s</xliff:g> del almacenamiento USB de forma permanente?"</string>
+<string name="delete_album_desc">Se eliminará el álbum completo \"<xliff:g id="album">%s</xliff:g>\".</string>
+<string name="delete_album_desc_nosdcard">"¿Eliminar todo el álbum \"<xliff:g id="ALBUM">%s</xliff:g>\" del almacenamiento USB de forma permanente?"</string>
+<string name="delete_song_desc">Se eliminará \"<xliff:g id="song">%s</xliff:g>\" de la tarjeta SD.</string>
+<string name="delete_song_desc_nosdcard">"¿Eliminar \"<xliff:g id="SONG">%s</xliff:g>\" del almacenamiento USB de forma permanente?"</string>
+<string name="delete_confirm_button_text">"Aceptar"</string>
+<plurals name="NNNtracksdeleted">
+<item quantity="one">"Se ha eliminado una canción."</item>
+<item quantity="other">"Se han eliminado <xliff:g id="SONGS_TO_DELETE">%d</xliff:g> canciones."</item>
+</plurals>
+<string name="scanning">"Examinando tarjeta SD…"</string>
+<string name="scanning_nosdcard">"Analizando almacenamiento USB…"</string>
+<string name="nowplaying_title">"Reproduciendo"</string>
+<string name="partyshuffle_title">"Sesión aleatoria"</string>
+<string name="artists_title">"Artistas"</string>
+<string name="albums_menu">"Álbumes"</string>
+<string name="albums_title">"Álbumes"</string>
+<string name="tracks_menu">"Canciones"</string>
+<string name="tracks_title">"Canciones"</string>
+<string name="playlists_menu">"Listas"</string>
+<string name="playlists_title">"Listas"</string>
+<string name="videos_title">"Vídeos"</string>
+<string name="all_title">"Todos los medios"</string>
+<string name="browse_menu">"Artistas"</string>
+<string name="search_title">"Buscar"</string>
+<string name="no_tracks_title">"Ninguna canción"</string>
+<string name="no_videos_title">"Ningún vídeo"</string>
+<string name="no_playlists_title">"Ninguna lista de reproducción"</string>
+<string name="delete_playlist_menu">"Eliminar"</string>
+<string name="edit_playlist_menu">"Editar"</string>
+<string name="rename_playlist_menu">"Cambiar nombre"</string>
+<string name="playlist_deleted_message">"Se ha eliminado la lista de reproducción."</string>
+<string name="playlist_renamed_message">"Se ha cambiado el nombre de la lista."</string>
+<string name="recentlyadded">"Añadido recientemente"</string>
+<string name="recentlyadded_title">"Añadido recientemente"</string>
+<string name="podcasts_listitem">"Podcasts"</string>
+<string name="podcasts_title">"Podcasts"</string>
+<string name="sdcard_missing_title">"Falta la tarjeta SD"</string>
+<string name="sdcard_missing_title_nosdcard">"Sin almacenamiento USB"</string>
+<string name="sdcard_missing_message">"Falta la tarjeta SD en el teléfono"</string>
+<string name="sdcard_missing_message_nosdcard">"Tu teléfono no tiene almacenamiento USB."</string>
+<string name="sdcard_busy_title">"Tarjeta SD no disponible"</string>
+<string name="sdcard_busy_title_nosdcard">"Almacenamiento USB no disponible"</string>
+<string name="sdcard_busy_message">"El almacenamiento multimedia está ocupado."</string>
+<string name="sdcard_busy_message_nosdcard">"El almacenamiento USB está ocupado."</string>
+<string name="sdcard_error_title">"Error de tarjeta SD"</string>
+<string name="sdcard_error_title_nosdcard">"Error de almacenamiento USB"</string>
+<string name="sdcard_error_message">"Se ha producido un error al acceder a la tarjeta SD."</string>
+<string name="sdcard_error_message_nosdcard">"Se ha producido un error al acceder al almacenamiento USB."</string>
+<string name="unknown_artist_name">"Artista desconocido"</string>
+<string name="unknown_album_name">"Álbum desconocido"</string>
+<string name="shuffle_on_notif">"La reproducción aleatoria está activada."</string>
+<string name="shuffle_off_notif">"La reproducción aleatoria está desactivada."</string>
+<string name="repeat_off_notif">"La repetición está desactivada."</string>
+<string name="repeat_current_notif">"Se repetirá la canción actual."</string>
+<string name="repeat_all_notif">"Se repetirán todas las canciones."</string>
+<string name="ringtone_menu">"Usar como tono"</string>
+<string name="ringtone_menu_short">"Usar como tono de llamada"</string>
+<string name="ringtone_set">"Se ha establecido \" 
+        <xliff:g id="NAME">%s</xliff:g>\" como tono del teléfono."
+    </string>
+<string name="play_selection">"Reproducir"</string>
+<string name="add_to_playlist">"Añadir a lista"</string>
+<string name="queue">"Lista de reproducción actual"</string>
+<string name="new_playlist">"Nuevo"</string>
+<string name="new_playlist_name_template">"Lista <xliff:g id="NUMBER">%d</xliff:g>"</string>
+<plurals name="NNNtrackstoplaylist">
+<item quantity="one">"Se ha añadido una canción a la lista de reproducción."</item>
+<item quantity="other">"Se han añadido 
+            <xliff:g id="NUMBER">%d</xliff:g> canciones a la lista de reproducción."
+        </item>
+</plurals>
+<string name="emptyplaylist">"La lista de reproducción seleccionada está vacía."</string>
+<string name="create_playlist_create_text">"Guardar"</string>
+<string name="create_playlist_overwrite_text">"Sobrescribir"</string>
+<string name="service_start_error_title">"Problema de reproducción"</string>
+<string name="service_start_error_msg">"No se ha podido reproducir la canción."</string>
+<string name="service_start_error_button">"Aceptar"</string>
+<string-array name="weeklist">
+<item>"1 semana"</item>
+<item>"2 semanas"</item>
+<item>"3 semanas"</item>
+<item>"4 semanas"</item>
+<item>"5 semanas"</item>
+<item>"6 semanas"</item>
+<item>"7 semanas"</item>
+<item>"8 semanas"</item>
+<item>"9 semanas"</item>
+<item>"10 semanas"</item>
+<item>"11 semanas"</item>
+<item>"12 semanas"</item>
+</string-array>
+<string name="weekpicker_set">"Listo"</string>
+<string name="weekpicker_title">"Establecer período"</string>
+<string name="save_as_playlist">"Guardar como lista de reproducción"</string>
+<string name="clear_playlist">"Borrar lista de reproducción"</string>
+<string name="musicbrowserlabel">"Música"</string>
+<string name="musicshortcutlabel">"Lista de reproducción de música"</string>
+<string name="mediaplaybacklabel">"Música"</string>
+<string name="videobrowserlabel">"Vídeos"</string>
+<string name="mediapickerlabel">"Música"</string>
+<string name="playback_failed">Lo sentimos, no se pudo abrir el archivo.</string>
+<string name="cancel">"Cancelar"</string>
+<string name="remove_from_playlist">"Quitar de la lista de reproducción"</string>
+<string name="streamloadingtext">"Estableciendo conexión con <xliff:g id="HOST">%s</xliff:g>..."</string>
+<string name="mediasearch">"Buscar 
+        <xliff:g id="TERM">%s</xliff:g> con:"
+    </string>
+<string name="working_artists">"Artistas…"</string>
+<string name="working_albums">"Álbumes…"</string>
+<string name="working_songs">"Canciones…"</string>
+<string name="working_playlists">"Listas de reproducción…"</string>
+<string name="loading">"Cargando..."</string>
+<string name="sort_by_track">"Canciones"</string>
+<string name="sort_by_album">"Álbumes"</string>
+<string name="sort_by_artist">"Artistas"</string>
+<string name="music_picker_title">"Seleccionar canción"</string>
+<string name="search_settings_description">"Artistas, álbumes y canciones"</string>
+<string name="search_hint">"Buscar música"</string>
+<string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+<string name="widget_initial_text">"Toca para seleccionar música."</string>
+<string name="effectspanel">"Efectos sonido"</string>
+</resources>

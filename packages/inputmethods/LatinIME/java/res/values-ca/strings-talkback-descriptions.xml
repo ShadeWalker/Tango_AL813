@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- 
+/*
+**
+** Copyright 2014, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4313642710742229868" name="spoken_use_headphones">"Connecta un auricular per escoltar les claus de la contrasenya en veu alta."</string>
+    <string msgid="4240549866156675799" name="spoken_current_text_is">"El text actual és %s"</string>
+    <string msgid="1711276837961785646" name="spoken_no_text_entered">"No s\'ha introduït cap text"</string>
+    <string msgid="8989324692167993804" name="spoken_auto_correct">"<xliff:g id="KEY_NAME">%1$s</xliff:g> corregeix <xliff:g id="ORIGINAL_WORD">%2$s</xliff:g> per <xliff:g id="CORRECTED_WORD">%3$s</xliff:g>."</string>
+    <string msgid="7769449372355268412" name="spoken_auto_correct_obscured">"<xliff:g id="KEY_NAME">%1$s</xliff:g> executa la correcció automàtica."</string>
+    <string msgid="5139930082759824442" name="spoken_description_unknown">"Caràcter desconegut"</string>
+    <string msgid="7209798151676638728" name="spoken_description_shift">"Maj"</string>
+    <string msgid="3483198879916435717" name="spoken_description_symbols_shift">"Més símbols"</string>
+    <string msgid="3122704922642232605" name="spoken_description_shift_shifted">"Maj"</string>
+    <string msgid="5179175466878186081" name="spoken_description_symbols_shift_shifted">"Símbols"</string>
+    <string msgid="1224851412185975036" name="spoken_description_caps_lock">"Maj"</string>
+    <string msgid="3878902286264983302" name="spoken_description_delete">"Supr"</string>
+    <string msgid="8244903740201126590" name="spoken_description_to_symbol">"Símbols"</string>
+    <string msgid="4081215210530031950" name="spoken_description_to_alpha">"Lletres"</string>
+    <string msgid="4560261331530795682" name="spoken_description_to_numeric">"Números"</string>
+    <string msgid="7281251004003143204" name="spoken_description_settings">"Configuració"</string>
+    <string msgid="8210782459446866716" name="spoken_description_tab">"Pestanya"</string>
+    <string msgid="5908716896642059145" name="spoken_description_space">"Espai"</string>
+    <string msgid="6153138783813452464" name="spoken_description_mic">"Entrada de veu"</string>
+    <string msgid="7990051553008088470" name="spoken_description_emoji">"Emoji"</string>
+    <string msgid="3183692287397645708" name="spoken_description_return">"Retorn"</string>
+    <string msgid="5099937658231911288" name="spoken_description_search">"Cerca"</string>
+    <string msgid="5644176501632325560" name="spoken_description_dot">"Punt"</string>
+    <string msgid="6818666779313544553" name="spoken_description_language_switch">"Canvia l\'idioma"</string>
+    <string msgid="431761808119616962" name="spoken_description_action_next">"Següent"</string>
+    <string msgid="2919072174697865110" name="spoken_description_action_previous">"Anterior"</string>
+    <string msgid="5107180516341258979" name="spoken_description_shiftmode_on">"Maj activat"</string>
+    <string msgid="7307477738053606881" name="spoken_description_shiftmode_locked">"Bloq Maj activat"</string>
+    <string msgid="111186851131446691" name="spoken_description_mode_symbol">"Mode de símbols"</string>
+    <string msgid="4305607977537665389" name="spoken_description_mode_symbol_shift">"Mode de més símbols"</string>
+    <string msgid="4676004119618778911" name="spoken_description_mode_alpha">"Mode de lletres"</string>
+    <string msgid="2061220553756692903" name="spoken_description_mode_phone">"Mode de telèfon"</string>
+    <string msgid="7879963803547701090" name="spoken_description_mode_phone_shift">"Mode de símbols de telèfon"</string>
+    <string msgid="2313574218950517779" name="announce_keyboard_hidden">"Teclat amagat"</string>
+    <string msgid="6698257917367823205" name="announce_keyboard_mode">"Es mostra el teclat per a <xliff:g id="KEYBOARD_MODE">%s</xliff:g>."</string>
+    <string msgid="6597407244976713364" name="keyboard_mode_date">"data"</string>
+    <string msgid="3642804408726668808" name="keyboard_mode_date_time">"data i hora"</string>
+    <string msgid="1239682082047693644" name="keyboard_mode_email">"correu electrònic"</string>
+    <string msgid="3812086215529493501" name="keyboard_mode_im">"missatgeria"</string>
+    <string msgid="5395042245837996809" name="keyboard_mode_number">"número"</string>
+    <string msgid="2486230278064523665" name="keyboard_mode_phone">"telèfon"</string>
+    <string msgid="9138789594969187494" name="keyboard_mode_text">"text"</string>
+    <string msgid="8558297845514402675" name="keyboard_mode_time">"hora"</string>
+    <string msgid="8072011652949962550" name="keyboard_mode_url">"URL"</string>
+    <string msgid="4185344945205590692" name="spoken_descrption_emoji_category_recents">"Recents"</string>
+    <string msgid="8414196269847492817" name="spoken_descrption_emoji_category_people">"Persones"</string>
+    <string msgid="6116297906606195278" name="spoken_descrption_emoji_category_objects">"Objectes"</string>
+    <string msgid="5018340512472354640" name="spoken_descrption_emoji_category_nature">"Natura"</string>
+    <string msgid="1163315840948545317" name="spoken_descrption_emoji_category_places">"Llocs"</string>
+    <string msgid="474680659024880601" name="spoken_descrption_emoji_category_symbols">"Símbols"</string>
+    <string msgid="456737544787823539" name="spoken_descrption_emoji_category_emoticons">"Emoticones"</string>
+    <string msgid="4904835255229433916" name="spoken_description_upper_case">"<xliff:g id="LOWER_LETTER">%s</xliff:g> majúscula"</string>
+    <string msgid="4743162182646977944" name="spoken_letter_0049">"I majúscula"</string>
+    <string msgid="4766619646231612274" name="spoken_letter_0130">"I majúscula, punt superior"</string>
+    <string msgid="717298227061173706" name="spoken_symbol_unknown">"Símbol desconegut"</string>
+    <string msgid="5981009928135394306" name="spoken_emoji_unknown">"Emoji desconegut"</string>
+    <string msgid="6832897688371903747" name="spoken_open_more_keys_keyboard">"Hi ha caràcters alternatius disponibles."</string>
+    <string msgid="3524914657934712026" name="spoken_close_more_keys_keyboard">"Els caràcters alternatius s\'ignoren."</string>
+    <string msgid="4231720702882969760" name="spoken_open_more_suggestions">"Hi ha suggeriments alternatius disponibles."</string>
+    <string msgid="9118455416075032839" name="spoken_close_more_suggestions">"Els suggeriments alternatius s\'ignoren."</string>
+</resources>

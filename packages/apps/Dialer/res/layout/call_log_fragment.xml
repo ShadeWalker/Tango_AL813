@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- Layout parameters are set programmatically. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:divider="?android:attr/dividerHorizontal"
+    android:showDividers="end"
+    android:background="@color/contact_browser_background">
+
+    <TextView android:id="@+id/notice_text"
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/calllog_auto_rejected_cluster_height"
+         android:singleLine="true"
+         android:gravity="center_vertical"
+         android:layout_marginStart="@dimen/calllog_list_margin_left"
+         android:textColor="@android:color/holo_blue_light"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:visibility="gone"/>
+ 
+    <View android:id="@+id/notice_text_divider"
+         android:layout_width="match_parent"
+         android:layout_height="1dip"
+         android:layout_marginStart="@dimen/calllog_list_margin_left"
+         android:layout_marginEnd="@dimen/calllog_list_margin_right"
+         android:background="@android:color/holo_blue_light"
+         android:visibility="gone"/>
+
+    <FrameLayout
+        android:id="@+id/voicemail_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <include layout="@layout/call_log_voicemail_status"
+    />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/filter_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ContactListSeparatorTextViewStyle"
+            android:layout_marginStart="@dimen/call_log_outer_margin"
+            android:layout_marginEnd="@dimen/call_log_outer_margin"
+            android:paddingTop="@dimen/call_log_inner_margin"
+            android:paddingBottom="@dimen/call_log_inner_margin"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone"
+            />
+        <View
+            android:id="@+id/call_log_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginStart="@dimen/call_log_outer_margin"
+            android:layout_marginEnd="@dimen/call_log_outer_margin"
+            android:layout_gravity="bottom"
+            android:background="#55ffffff"
+            />
+    </FrameLayout>
+
+    <!-- modified by guofeiyao for HQ01301732 begin-->
+    <!-- add -->
+    <LinearLayout
+        android:id="@+id/ll_emergency_alert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:singleLine="true"
+        android:gravity="center"
+        android:text="@string/emergency_only"
+        android:textSize="11sp"
+        android:textColor="#F68463"
+    />
+       <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#cfcfcf" >
+        </View>
+   </LinearLayout>
+    
+    
+    <!-- end -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <!-- clipChildren=false is required to ensure shadows drawn
+            within list items aren't clipped by the list item bounds. -->
+     <RelativeLayout
+        android:id="@+id/rl_call_container"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    	<View
+            android:id="@+id/time_line_view"
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:layout_marginTop="30dip"
+            android:layout_marginEnd="10dip"
+            android:layout_marginStart="88px"
+            android:background="#cfcfcf" >
+        </View>
+            
+        <ListView android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadingEdge="none"
+            android:scrollbarStyle="outsideOverlay"
+            android:background="@null"
+            android:divider="@null"
+            android:nestedScrollingEnabled="true"
+            android:clipChildren="false"
+        />
+
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/empty_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/empty_list_view"
+            android:visibility="gone"/>
+
+    </FrameLayout>
+
+    <Space
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/fabs_height"
+         />
+    <!-- modified by guofeiyao for HQ01301732 end-->
+</LinearLayout>

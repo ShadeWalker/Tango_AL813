@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="menu_print">මුද්‍රණය කරන්න</string>
+<string name="printContact">හරහා සබඳතාවය මුද්‍රණය කරන්න</string>
+<string name="no_way_to_print">සබඳතාවය මුද්‍රණය කිරීමට යෙදුමක් ලද නොහැක.</string>
+<string name="no_sdcard_title" product="nosdcard">ගබඩාව ලද නොහැක</string>
+<string name="no_sdcard_title" product="default">SD කාඩ්පත නොමැත</string>
+<string name="selected_item_count">
+<xliff:g id="count">%d</xliff:g> තෝරා ඇත</string>
+<string name="recentCalls_delete">මකා දමන්න</string>
+<string name="menu_selectAll">"සියල්ල තෝරන්න"</string>
+<string name="menu_clearAll">"සියල්ලේ තේරීම ඉවත් කරන්න"</string>
+<string name="all_resources">සියළුම සම්පත්</string>
+<string name="choose_resources_header">සම්පත් තෝරන්න</string>
+<string name="all_tab_label1">සියල්ල</string>
+<string name="call_log_item_count">(<xliff:g id="count">%1$d</xliff:g>)</string>
+<string name="call_sipcall">අන්තර්ජාල ඇමතුම</string>
+<string name="call_pin_dialog_title">SIM කාඩ්පත තෝරන්න</string>
+<string name="call_people">සබඳතා</string>
+<string name="call_ip_dial">IP ඩයල්</string>
+<string name="call_speed_dial">වේග ඩයල්</string>
+<string name="send_message">"පණිවිඩය යවන්න"</string>
+<string name="call_video_call">වීඩියෝ ඇමතුම</string>
+<string name="add_speed_dial">වේග ඩයල් කිරීම එක් කිරීමට තට්ටු කරන්න</string>
+<string name="speed_dial_added">
+<xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) වේග ඩයල් වෙත එක් කෙරිණි <xliff:g id="key">%3$s</xliff:g>
+</string>
+<string name="speed_dial_added2">
+<xliff:g id="contact_name">%1$s</xliff:g> වේග ඩයල් වෙත එක් කෙරිණි <xliff:g id="key">%2$s</xliff:g>
+</string>
+<string name="remove_speed_dial">ඉවත්කරන්න</string>
+<string name="remove_sd_confirm_1">ඔබට <xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) වේග ඩයල් <xliff:g id="key">%3$s</xliff:g>වෙතින් ඉවත් කිරීමට අවශ්‍ය බවට විශ්වාසද?</string>
+<string name="remove_sd_confirm_2">ඔබට <xliff:g id="contact_name">%1$s</xliff:g> වේග ඩයල් <xliff:g id="key">%2$s</xliff:g>වෙතින් ඉවත් කිරීමට අවශ්‍ය බවට විශ්වාසද?</string>
+<string name="emergencycall">හදිසි ඇමතුම් අංකය</string>
+<string name="imei_invalid">වැරදි</string>
+<string name="call_log_filter_all_resources">සියළුම සම්පත්</string>
+<string name="turn_on_3g_service_message">3G සේවාව දැන් ඕෆ් කර ඇත, එය ඔන් කිරීමට ඔබට අවශ්‍යයද?</string>
+<string name="associate_sim_missing_message">"%1$s ලද නොහැකිය. %2$s හරහා ඇමතුම ලබාගැනීමට ඔබ කැමතිද"</string>
+<string name="associate_sim_missing_other">වෙනත්</string>
+<string name="sim_manage_call_via">හරහා අමතන්න</string>
+<string name="callFailed_simError">SIM නැත, නැතොත් SIM දෝෂයකි</string>
+<string name="ip_dial_error_toast_for_no_ip_prefix_number">කරුණාකර හඬ ඇමතුම් සැකසුම් තුළ පලමුව IP උපසර්ග අංකය ඇතුල් කරන්න.</string>
+<string name="ip_dial_error_toast_for_sip_call_selected">අන්තර්ජාල ඇමතුමට IP ඩයල් කිරීමේ කාර්‍යය අදාල නොවේ.</string>
+<string name="sd_add">එක් කරන්න</string>
+<string name="reselect_number">අංකය වේග ඩයල් යතුරකට දැනටමත් ලබා දී ඇත, කරුණාකර වෙනත් අංකයක් තෝරන්න.</string>
+<string name="calllog_today">අද</string>
+<string name="calllog_yesterday">ඊයේ</string>
+<string name="menu_association">සම්බන්ධිත කාඩ්පත</string>
+<string name="menu_remove_association">කාඩ්පත් සම්බන්ධය ඉවත් කරන්න</string>
+<string name="remove_association_message">මෙම අංකයට කාඩ්පතේ සම්බන්ධය ඉවත් කිරීමට අවශ්‍ය බව ඔබට විශ්වාසද?</string>
+<string name="remove_number_title">ඉවත්කරන්න</string>
+<string name="warning_detail">කාඩ්පත සම්බන්ධතාවය සබඳතා දුරකථනයට ආයාත කරනු ඇත. කාඩ්පත් සම්බන්ධය ඉදිරියට ගෙන යාමට ඔබ කැමැතිද? </string>
+<string name="block_incoming_call">පැමිණෙන ඇමතුම් අවහිර කරන්න</string>
+<string name="block_video_incoming_call">පැමිණෙන වීඩියෝ ඇමතුම් ඍජුවම අවහිර කරන්න</string>
+<string name="menu_actionbar_selected_items">
+<xliff:g id="name">%s</xliff:g> තෝරා ඇත</string>
+<string name="has_double_phone_number">එකම ආකාරයේ අංකයක් දෙවරක් සුරැකිය නොහැක, කරුණාකර එය පරික්ෂා කරන්න.</string>
+<string name="phone_book_busy">දුරකථන පොත දැන් කාර්‍යබහුලය, කරුණාකර පසුව උත්සාහ කරන්න.</string>
+<string name="sim_invalid">කාඩ්පත වැරදි වූ විට සබඳතාවය සුරැකිය නොහැක.</string>
+<string name="cannot_insert_null_number">සබඳතාවයේ අංකය හිස්ව ඇති විට සුරැකිය නොහැක.</string>
+<string name="AirPlane_mode_on">ගුවන් යානා මාදිලිය ඔන් කර ඇති විට සබඳතාවය සුරැකිය නොහැක.</string>
+<string name="FDNEnabled">FDN සක්‍රිය කර ඇති ඉට සබඳතා සුරැකිය නොහැක.</string>
+<string name="sim_invalid_number">වැරදි අංකයක් සුරැකිය නොහැක.</string>
+<string name="email_invalid">වැරදි ඊමේල සුරැකිය නොහැක.</string>
+<string name="email_2g_invalid">2G SIM වෙත ඊමේල් සුරැකිය නොහැක, කරුණාකර සුරැකීමට 3G SIM තෝරන්න. </string>
+<string name="sim_invalid_fix_number">වැරදි ස්ථිර අංකයක් සුරැකිය නොහැක.</string>
+<string name="AirPlane_mode_on_edit">ගුවන් යානා මාදිලිය ඔන් කර ඇති විට සබඳතාවය සංස්කරණය කළ නොහැක.</string>
+<string name="msg_loading_sim_contacts_toast">"පසුබිමින් SIM සබඳතා පැටවෙමින්, කරුණාකර මොහොතක් රැඳී සිටින්න."</string>
+<string name="fix_number_too_long">"ස්ථිර අංකය දිගු වැඩිය."</string>
+<string name="name_too_long">"නම දිගු වැඩිය."</string>
+<string name="storage_full">ගබඩාව පිරී ඇත.</string>
+<string name="number_too_long">"අංකය දිගු වැඩිය."</string>
+<string name="generic_failure">ප්‍රජාතීය අසමත්වීම.</string>
+<string name="email_too_long">ඊමේල් දිගු වැඩිය</string>
+<string name="send_groupsms_no_number_more">"%1$s හා තවත් සබඳතා %2$s ට වලංගු දුරකථන අංකයක් නැත."</string>
+<string name="send_groupsms_no_number_1">"%1$s ට වලංගු දුරකථන අංකයක් නැත."</string>
+<string name="send_groupsms_no_number_2">"%1$s හා %2$s ට වලංගු දුරකථන අංකයක් නැත."</string>
+<string name="account_type_sim" product="default">SIM ගිණුම</string>
+<string name="account_type_usim" product="default">USIM ගිණුම</string>
+<string name="account_type_local_phone" product="default">දුරකථන දේශීය ගිණුම</string>
+<string name="local_account_type" product="default">දේශීය ගිණුම</string>
+<string name="local_account_label" product="default">දේශීය ගිණුම</string>
+<string name="account_type_sim_label" product="default">SIM-පමණයි, සමමුහුර්ත නොකළ</string>
+<string name="account_type_usim_label" product="default">USIM-පමණයි, සමමුහුර්ත නොකළ</string>
+<string name="please_wait">"කරුණාකර රැඳී සිටින්න"</string>
+<string name="move_contacts_to">වෙත සබඳතා විතැන් කරන්න</string>
+<string name="menu_move_group">සාමාජිකයන් ඉවත් කරන්න</string>
+<string name="menu_message_group">"කණ්ඩායම් පණිවුඩය යවන්න"</string>
+<string name="menu_email_group">"කණ්ඩායම් ඊමේලය යවන්න"</string>
+<string name="moving_group_members">"කණ්ඩායම් සාමාජිකයන් විතැන් කරමින්\u2026"</string>
+<string name="removing_group_members_sucess">"සාර්ථකව කණ්ඩායම් සාමාජිකයන් ඉවත් කරන්න"</string>
+<string name="moving_group_members_sucess">"සාර්ථකව කණ්ඩායම් සාමාජිකයන් විතැන් කරන්න"</string>
+<string name="moving_group_members_fail">"කණ්ඩායම් සාමාජිකයන් විතැන් කිරීමට අසමත් විය"</string>
+<string name="no_valid_number_in_group">මෙම කණ්ඩායමට වලංගු දුරකථන අංකයක් ඇති සබඳතා නොමැත.</string>
+<string name="no_valid_email_in_group">මෙම කණ්ඩායමට ඊමේල් ඇති සබඳතා නොමැත.</string>
+<string name="email_error">ඔබ ඊමේල් යෙදුම් ස්ථාපනය කළ යුතුය, නැතහොත් ඔබගේ ගිණුම වින්‍යාසගත කළ යුතුය!</string>
+<string name="usim_group_name_exceed_limit">කණ්ඩායම් නම දිගු වැඩිය. කණ්ඩායම SIM කාඩ්පතට සුරැකිය නොහැක.</string>
+<string name="usim_group_count_exceed_limit">ඔබගේ SIM කාඩ්පතට තවත් නව කණ්ඩායම් සුරැකිය නොහැක.</string>
+<string name="name_needed">නම අවශ්‍ය නොවේ</string>
+<string name="save_group_fail">කණ්ඩායම සුරැකීම අසමත් විය.</string>
+<string name="group_name_exists">කණ්ඩායම් නම දැනටමත් පවතී.</string>
+<string name="group_discard_member">ඉවත දමන්න</string>
+<string name="group_discard_member_reason">කණ්ඩායම් නම වැරදි නිසා දැනුම්දීම් ඉවත දමනු ඇත.</string>
+<string name="import_export_title">ආයාත කරන්න/ නිර්‍යාත කරන්න</string>
+<string name="next">ඊළඟ</string>
+<string name="imexport_bridge_sd_card">SD කාඩ්පත</string>
+<string name="tips_source">වෙතින් සබඳතා පිටපත් කරන්න</string>
+<string name="tips_target">වෙත සබඳතා පිටපත් කරන්න</string>
+<string name="back">ආපසු</string>
+<string name="imexport_title">සබඳතා ආයාත කරන්න/ නිර්‍යාත කරන්න</string>
+<string name="xport_error_one_account">"සබඳතා ආයාත/නිර්‍යාත කිරීමට SIM කාඩ්පතක් හෝ SD කාඩ්පතක් ඇතුල් කරන්න."</string>
+<string name="store_contact_to">ගිණුම තෝරන්න</string>
+<string name="menu_delete_contact">සබඳතාවය මකන්න</string>
+<string name="menu_conference_call">සමුළු ඇමතුම</string>
+<string name="notifier_finish_delete_title">සබඳතා සාර්ථකව මකා දැමිණ</string>
+<string name="notifier_finish_delete_content">සබඳතා මකා දැමිණි: <xliff:g id="total">%d</xliff:g>
+</string>
+<string name="notifier_finish_copy_title">සබඳතා සාර්ථකව පිටපත් කෙරිණි</string>
+<string name="notifier_finish_copy_content">සබඳතා <xliff:g id="total">%d</xliff:g> පිටපත් කෙරිණි</string>
+<string name="notifier_multichoice_process_report">සම්පූර්ණ කළ: <xliff:g id="items">%d</xliff:g>\nඅසම්පූර්ණ: <xliff:g id="items">%d</xliff:g>
+</string>
+<string name="notifier_failure_by_sim_full">SIM ගබඩාව පිරීමෙන් ඇති වූ අසමත්වීම\nසම්පූර්ණ කෙරිණ: <xliff:g id="items">%d</xliff:g>\nඅසම්පූර්ණ: <xliff:g id="items">%d</xliff:g>
+</string>
+<string name="notifier_failure_sim_notready">SIM සූදානම් නොවීමෙන් ඇති වූ අසමත්වීම\nසම්පූර්ණ කෙරිණ: <xliff:g id="items">%d</xliff:g>\nඅසම්පූර්ණ: <xliff:g id="items">%d</xliff:g>
+</string>
+<string name="notifier_cancel_delete_title">සබඳතා මකාදැමීම අවලංගු කෙරිණ</string>
+<string name="notifier_fail_delete_title">සබඳතා මකාදැමීම අසමත්වීම</string>
+<string name="notifier_cancel_copy_title">සබඳතා පිටපත් කිරීම අවලංගු කෙරිණ</string>
+<string name="notifier_fail_copy_title">සබඳතා පිටපත් කිරීම අසමත් වීම</string>
+<string name="notifier_progress__delete_will_start_message">සුළු මොහොතකින් සබඳතා (ව) මකා දැමෙනු ඇත.</string>
+<string name="notifier_progress_delete_message">
+<xliff:g id="current_number">%s</xliff:g>/<xliff:g id="total_number">%s</xliff:g>මකමින්: <xliff:g example="Joe Due" id="name">%s</xliff:g>
+</string>
+<string name="notifier_progress_delete_description">මකමින් <xliff:g example="Joe Due" id="name">%s</xliff:g>
+</string>
+<string name="notifier_progress__copy_will_start_message">සුළු මොහොතකින් සබඳතා (ව) පිටපත් කෙරෙනු ඇත.</string>
+<string name="notifier_progress_copy_message">පිටපත් කරමින් <xliff:g id="current_number">%s</xliff:g>/<xliff:g id="total_number">%s</xliff:g>: <xliff:g example="Joe Due" id="name">%s</xliff:g>
+</string>
+<string name="notifier_progress_copy_description">පිටපත් කරමින් <xliff:g example="Joe Due" id="name">%s</xliff:g>
+</string>
+<string name="multichoice_confirmation_title_delete">සබඳතා මකා දැමීම අවලංගු කරමින්</string>
+<string name="multichoice_confirmation_message_delete">සබඳතා මැකිමට අවලංගු කරන්නද?</string>
+<string name="multichoice_confirmation_title_copy">සබඳතා පිටපත් කිරීම අවලංගු කරමින්</string>
+<string name="multichoice_confirmation_message_copy">සබඳතා පිටපත් කිරීමට අවලංගු කරන්නද?</string>
+<string name="multichoice_no_select_alert">"කිසිදු අයිතමයක් තෝරා නැත."</string>
+<string name="multichoice_delete_confirm_message">"තේරූ සබඳතා මැකිය යුතු බවට ඔබට විශ්වාසද?"</string>
+<string name="multichoice_delete_confirm_title">සබඳතා(ව) මකන්නද?</string>
+<string name="multichoice_contacts_limit">සබඳතා <xliff:g id="count">%d</xliff:g> ට නොවැඩි සංඛ්‍යාවක් තේරිය හැකිය</string>
+<string name="phone_storage_full_create">දුරකථන ගබඩාව පිරී ඇත, ඔබට නව සබඳතාවයක් තැනිය නොහැක.</string>
+<string name="phone_storage_full_edit">දුරකථන ගබඩාව පිරී ඇත, ඔබට සබඳතාවය සංස්කරණය කළ නොහැක.</string>
+<string name="add_SIP_to_sim">කාඩ්පත් සබඳතාවයට SIP අංක එක් කළ නොහැක.</string>
+<string name="already_has_SIP">ඔබට ඉදිරියට යාමට අවශ්‍ය නම් සබඳතාවයට SIP අංක දෙකක් එක් කළ නොහැක. කරුණාකර පළමුව පැරණි SIP අංක මකන්න.</string>
+<plurals name="searchFoundCalllogs">
+<item quantity="one">ඇමතුම් විස්තර 1</item>
+<item quantity="other">ඇමතුම් වාර්තා: <xliff:g id="count">%d</xliff:g>
+</item>
+</plurals>
+<string name="search_results_for">සඳහා සෙවුම් ප්‍රතිඵල: <xliff:g id="query">%s</xliff:g>
+</string>
+<string name="listFoundAllCalllogZero">ඇමතුම් විස්තර සොයා නොගැණින</string>
+<string name="calllogList">ඇමතුම් ඉතිහාසය</string>
+<string name="calllogHint">ඇමතුම් විස්තර සොයන්න</string>
+<string name="calllog_description">පැමිණෙන, පිටතට යන හා මග හැරුණු ඇමතුම්</string>
+<string name="noMatchingCalllogs">ගැලපෙන ඇමතුම් විස්තර සොයා ගැණින.</string>
+<string name="menu_videocallNumber">වීඩියෝ ඇමතුම <xliff:g id="name">%s</xliff:g>
+</string>
+<string name="menu_ipcallNumber">IP ඇමතුම <xliff:g id="name">%s</xliff:g>
+</string>
+<string name="deleting_call_log">ඇමතුම් විස්තර මකා දමමින්…</string>
+<string name="no_vm_number">"හඬ තැපැල් අංකය නැත"</string>
+<string name="no_vm_number_msg">කාඩ්පත තුළ හඬතැපැල් අංක ගබඩා කර නැත.</string>
+<string name="add_vm_number_str">"අංකයක් එක් කරන්න"</string>
+<string name="reminder">සටහන</string>
+<string name="enable_sip_dialog_message">අන්තර්ජාල ඇමතුම අක්‍රිය කර ඇත, එය සක්‍රිය කිරීමට ඔබට අවශ්‍යද?</string>
+<string name="share_contacts_limit">"තෝරාගත් බෙදාගැනීම් සබඳතා "<xliff:g id="count">%d</xliff:g>" ට වඩා නොවැඩි විය යුතුය. "</string>
+<string name="contact_delete_all_tips">"සබඳතා මකා දැමීම ක්‍රියාත්මක වේ, මෙම කාර්‍යය සිදු කළ නොහැක."</string>
+<string name="sum_search_networks">ලද හැකි සියළුම ජාලයන් සොයන්න</string>
+<string name="deleteCallLogConfirmation_title">ඇමතුම් විස්තර(ය) මකන්නද?</string>
+<string name="deleteCallLogConfirmation_message">තේරූ ඇමතුම් විස්තර මැකිය යුතු බවට ඔබට විශ්වාසද?</string>
+<string name="file_already_on_sd_card">ගොනුව දැනටමත් SD කාඩ්පත තුළ ඇත.</string>
+<string name="send_file_sms_error">ගොනුව SMS මගින් බෙදාගත නොහැක, කරුණාකර MMS භාවිතා කරන්න.</string>
+<string name="user_profile_cannot_sd_card">මෙම ක්‍රමයෙන් අන්තර්ගතය බෙදා ගත නොහැක.</string>
+<string name="error_save_usim_contact_email_lost">ඔබගේ SIM කාඩ්පතේ ඊමේල් ගබඩාව පිරී ඇත. ඊමේල් ලිපිනය සුරැකීම අසමත් විය.</string>
+<string name="error_import_usim_contact_email_lost">ඊමේල් සඳහා ගබඩාව පිරී ඇති හෙයින් සමහර සබඳතාවල ඊමේල් ලිපින නිර්‍යාත කිරීම අසමත් විය.\nසම්පූර්ණ කළ: <xliff:g id="items">%d</xliff:g>\nඅවසන් නොකළ: <xliff:g id="items">%d</xliff:g>
+</string>
+<string name="type_ip_outgoing">පිටතට යන IP ඇමතුම (<xliff:g id="name">%s</xliff:g>)</string>
+<string name="call_sms">පණිවිඩ යැවීම</string>
+<string name="delete_group_failure">කණ්ඩායම මැකීමට අසමත් විය.</string>
+<string name="account_type_uim_label" product="default">UIM-පමණයි, සමමුහුර්ත නොකළ</string>
+<string name="call_log_auto_rejected_label">ස්වයංක්‍රීයව ප්‍රතික්ෂේපිත ඇමතුම්</string>
+<string name="import_no_vcard_dialog_text">හි vCard ගොනු සොයා නොගැණින <xliff:g id="storage_name">%s</xliff:g>
+</string>
+<string name="look_simstorage">SIM කාඩ්පත් ධාරිතාව පෙන්වන්න</string>
+<string name="dlg_simstorage_content">දුරකථන අංක ගබඩා ධාරිතාව: <xliff:g id="items">%d</xliff:g>. භාවිතා කළ දුරකථන අංක ගබඩා ධාරිතාව: <xliff:g id="items">%d</xliff:g>.</string>
+<string name="contact_group_list_title">"ඉලක්ක කණ්ඩායම තෝරන්න"</string>
+<string name="send_groupemail_no_number_more">"%1$s හා තවත් සබඳතා %2$s ට වලංගු ඊ මේල් නැත."</string>
+<string name="send_groupemail_no_number_1">"%1$s ට වලංගු ඊමේල් නැත."</string>
+<string name="send_groupemail_no_number_2">"%1$s හා %2$s ට වලංගු ඊ මේල් නැත."</string>
+<string name="add_contact_dlg_title">සබඳතාවයක් එක් කරන්න</string>
+<string name="deleteConfirmation_title">සබඳතාවයක් මකන්න</string>
+<string name="dialog_phone_call_prohibited_title">ඇමතුම නොයැවිණ.</string>
+<string name="dialog_voicemail_not_ready_title">හඬ තැපැල් අංකය ලද නොහැක</string>
+<string name="scanning_sdcard_failed_title" product="nosdcard">ගබඩාව ස්කෑන් කළ නොහැකි විය</string>
+<string name="scanning_sdcard_failed_title" product="default">SD කාඩ් පත ස්කෑන් කළ නොහැකි විය</string>
+<string name="nickname_too_long">"කෙටිනම දිගු වැඩිය."</string>
+<string name="pick_new_photo_from_gallery">නව ඡායාරූපය තෝරන්න</string>
+<string name="copy_text_to_dialer">ඩයලර් වෙත පිටපත් කරන්න</string>
+<string name="contact_detail_group_list_title">කණ්ඩායම්</string>
+<string name="contact_detail_group_not_assigned">පවරා නැත</string>
+<string name="contact_detail_group_list_nogroups">"පවතින කණ්ඩායම් නැත. ඔබට නව කණ්ඩායමක් තැනීමට අවශ්‍යද?"</string>
+<string name="recents">මෑත කාලීන</string>
+<string name="contact_no_recents">මෑතකාලීන නැත</string>
+<string name="contact_detail_ip_call">IP ඇමතුම</string>
+<string name="contact_detail_history_mms_received_time">"ලැබුණු වේලාව %1$s"</string>
+<string name="contact_detail_history_mms_received_from">"%1$s වෙතින් ලැබිණ"</string>
+<string name="contact_detail_history_mms_sent_time">"යැවූ වේලාව %1$s"</string>
+<string name="contact_detail_history_mms_sent_to">"%1$s වෙත යැවිණ"</string>
+<string name="contact_detail_history_calllog">ඇමතුම් ඉතිහාසය</string>
+<string name="contact_detail_history_mms">පණිවුඩ</string>
+<string name="contact_detail_history_duration">කාලය: </string>
+<string name="contact_detail_history_ismms">"බහුමාධ්‍ය පණිවුඩය"</string>
+<string name="contact_detail_history_empty_calllog">"ඇමතුම් ඉතිහාසය හිස් ය "</string>
+<string name="contact_detail_history_empty_message">පණිවුඩ නැත</string>
+<string name="contact_detail_history_empty">"ඇමතුම්, පණිවුඩ සඳහා ඉතිහාසය නැත"</string>
+<string name="contact_recent_number_limit">"සබඳතා %1$s පමණක් ලද හැකිය"</string>
+<string name="contact_recent_group_label">"කණ්ඩායම"</string>
+<string name="call_pin_dialog_title_ct">UIM/SIM කාඩ්පත තෝරන්න</string>
+<string name="callFailed_simError_ct">UIM/SIM නැත, නැතොත් UIM/SIM දෝෂයකි</string>
+<string name="msg_loading_sim_contacts_toast_ct">"පසුබිමින් UIM/SIM සබඳතා පැටවෙමින්, කරුණාකර මොහොතක් රැඳී සිටින්න."</string>
+<string name="xport_error_one_account_ct">"සබඳතා ආයාත/නිර්‍යාත කිරීමට UIM/SIM කාඩ්පතක් හෝ SD කාඩ්පතක් ඇතුල් කරන්න."</string>
+<string name="notifier_failure_by_sim_full_ct">UIM/SIM ගබඩාව පිරීමෙන් ඇති වූ අසමත්වීම\nසම්පූර්ණ කෙරිණ: <xliff:g id="items">%d</xliff:g>\nඅසම්පූර්ණ: <xliff:g id="items">%d</xliff:g>
+</string>
+<string name="notifier_failure_sim_notready_ct">UIM/SIM සූදානම් නොවීමෙන් ඇති වූ අසමත්වීම\nසම්පූර්ණ කෙරිණ: <xliff:g id="items">%d</xliff:g>\nඅසම්පූර්ණ: <xliff:g id="items">%d</xliff:g>
+</string>
+<string name="look_simstorage_ct">UIM/SIM කාඩ්පත් ධාරිතාව පෙන්වන්න</string>
+<string name="callFailed_cdma_notEmergency">හදිසි අවස්ථා ඇමතුම් පමණක් ගත හැකිය.</string>
+<string name="international_dialing_title">ජාත්‍යන්තර ඩයල් කිරීමේ සහය</string>
+<string name="international_dialing_select_country">ඔබ ජාත්‍යන්තර ඇමතුමක් ගන්නා බවට හඳුනාගෙන ඇත. කරුණාකර ඔබගේ ඉලක්ක ස්ථානය තෝරන්න.</string>
+<string name="international_dialing_add_country_code">ඔබ <xliff:g id="country_name">%s</xliff:g> අංකයක් ඩයල් කරන බවට හඳුනාගෙන ඇත. ඔබට රටේ කේතය එක් කිරීමට අවශ්‍යයද (+<xliff:g id="country_code">%s</xliff:g>)?</string>
+<string name="international_dialing_add_country_code_and_area_code">ඔබ <xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g>හි අංකයක් ඩයල් කරන බවට හඳුනාගෙන ඇත. ඔබට රටේ කේතය හා ප්‍රාදේශීය කේතය එක් කිරීමට අවශ්‍යයද (+<xliff:g id="prefix">%3$s</xliff:g>)?</string>
+<string name="international_dialing_change_country_prefix">ඔබ <xliff:g id="country_name">%s</xliff:g>වෙතින් ඩයල් කරන බවට හඳුනාගෙන ඇත. ජාත්‍යන්තර ඇමතුම් උපසර්ගය \'+\' වෙත වෙනස් කරන්නද?</string>
+<string name="international_dialing_add_country_code_input_area_code">ඔබ <xliff:g id="country_name">%s</xliff:g>හි අංකයක් ඩයල් කරන බවට හඳුනාගෙන ඇත. එසේ නම් කරුණාකර ප්‍රාදේශීය කේතය ඇතුල් කරන්න.</string>
+<string name="international_dialing_add_country_code_default_input_area_code">ඔබ <xliff:g id="country_name">%s</xliff:g>හි අංකයක් ඩයල් කරන බවට හඳුනාගෙන ඇත. ඔබගේ ඉලක්ක නගරය <xliff:g id="area_name">%s</xliff:g>නොවේ නම්, කරුණාකර ප්‍රාදේශීය කේතය ඇතුල් කරන්න.</string>
+<string name="international_dialing_need_area_code">ඇමතුම සඳහා ඔබගේ ඉලක්ක නගරයේ ප්‍රාදේශීය කේතය අවශ්‍ය වේ.</string>
+<string name="international_dialing_input_area_code">ප්‍රාදේශිය කේතය මෙතැන ආදාන කරන්න</string>
+<string name="international_dialing_dialed_number">ඩයල් කරන අංකය:</string>
+<string name="international_dialing_confirm_area_code">ඔබගේ ඉලක්ක නගරය <xliff:g id="area_name">%s</xliff:g>නොවේ නම්, කරුණාකර ඔබගේ ඉලක්ක නගරයේ ප්‍රාදේශීය කේතය පහත ආදාන කරන්න.</string>
+<string name="international_dialing_click_below_button">රටේ කේත අංකය වෙනස් කිරීමට පහත බොත්තම ක්ලික් කරන්න.</string>
+<string name="international_dialing_yes">ඔව් පහත අංකය භාවිතා කරන්න:</string>
+<string name="international_dialing_no">නැත. මුල් අංකය භාවිතා කරන්න:</string>
+<string name="international_dialing_call_button">ඇමතුම</string>
+<string name="international_dialing_area_code">ප්‍රාදේශීය කේතය</string>
+<string name="international_dialing_invalid_number">අංකය වැරදිය. කෙසේ වෙතත් ඩයල් කිරීම අඛණ්ඩව කරගෙන යාමට ඔබට අවශ්‍යද?</string>
+<string name="international_dialing_add_country_code_and_area_code_without_prefix">ඔබට රටේ කේතය හා ප්‍රාදේශීය කේතය එක් කිරීමට අවශ්‍යයද ?</string>
+<string name="no_search_result">සෙවුම් ප්‍රතිඵල නැත</string>
+<string name="account_phone_only" product="default">දුරකතන සබඳතාව</string>
+<string name="no_match_call_log">"ගැලපෙන අයිතම නැත"</string>
+<string name="no_call_log">"ඇමතුම් විස්තර නැත"</string>
+<string name="share_too_large">සමස්ත දත්ත ඉහළ සීමාව ඉක්මවා ඇත, කරුණාකර අයිතමයන් කිහිපයක තේරීම ඉවත් කර නැවත උත්සාහ කරන්න.</string>
+<string name="err_icc_no_phone_book">සබඳතා ගබඩා කිරීමට %1$s හට නොහැකිය</string>
+<string name="titleJoinContactDataWith">සබඳතා හා සම්බන්ධ වන්න</string>
+<string name="menu_select_all">"සියල්ල තෝරන්න"</string>
+<string name="list_filter_custom">ගැලපුම්</string>
+<string name="add_contact_dlg_message_fmt">"සම්බන්ධතා වලට \"<xliff:g id="EMAIL">%s</xliff:g>\" එක් කරන්නද?"</string>
+<string name="locale_change_in_progress">භාෂාවේ වෙනස් වීම පෙන්වීමට සබඳතා ලැයිස්තුව යාවත්කාලීන වෙමින් පවතී.</string>
+<string name="noFavoritesHelpText">"ඔබට කිසිදු ප්‍රියතම දේ නොමැත.\n\nඔබේ ප්‍රියතම ලයිස්තුවට සබඳතාවක් එක් කිරීම සඳහා:\n
+        <li>මෙම <b>සබඳතා</b> ටැබය ස්පර්ෂ කරන්න\n</li>
+        \n<li>ඔබේ ප්‍රියතම ලයිස්තුවට එක් කිරීමට අවශ්‍ය සබඳතාවය ස්පර්ෂ කරන්න\n</li>
+        \n<li>සබඳතා නාමය අසල ඇති තරුව ස්පර්ශ කරන්න\n</li>"
+    </string>
+<string name="non_phone_caption">දුරකථන අංකය</string>
+<string name="menu_select_none">"සියල්ලේ තේරීම ඉවත් කරන්න"</string>
+<string name="find_call_logs">ඇමතුම් විස්තර සොයන්න</string>
+<string name="call_log_via_sim_name_notice">\"<xliff:g id="sim_name">%s</xliff:g>\" හරහා ඇමතුම් විස්තර</string>
+<string name="mtk_contact_list_loading">පැටවෙමින්\u2026 </string>
+<string name="vcard_import_failed_v2">ආයාත කළ නොහැකි විය </string>
+<string name="quickcontact_missing_app">"මෙම ක්‍රියාව හැසිරවීමට යෙදුමක් සොයාගත්තේ නැත"</string>
+<string name="call_speed_dial_title">වේග ඩයල්</string>
+<string name="dialog_no_speed_dial_number_message">වේග ඩයල් අංකය ලද නොහැක. දැන් සකසන්නද?</string>
+<string name="icc_phone_book_invalid">සබඳතා යෙදුම දැන් ලද නොහැක. කරුණාකර පසුව නැවත උත්සාහ කරන්න.</string>
+<string name="error_edit_join_group">මෙය ඒකාබද්ධ සබඳතාවයකි. ඔබට කණ්ඩායම් තොරතුරු සංස්කරණ මාදිලිය තුළින් සංස්කරණය කළ හැකිය.</string>
+<string name="local_phone_account" product="default">දුරකථනය</string>
+<string name="vcs_menu_voice_contacts_search" product="default">හඬ සබඳතා සෙවුම</string>
+<string name="vcs_msg_no_voice_contacts">ඕ, සබඳතාවය සොයාගත නොහැකිය.</string>
+<string name="imsCallLabelsGroup">IMS ඇමතුම</string>
+<string name="sip_url">SIP URL</string>
+<string name="ims_call_disabled">IMS ඇමතුම ලද නොහැක</string>
+<string name="contact_import_export_tips">සබඳතා ආයාත හෝ නිර්‍යාත කරමින්… කරුණාකර පසුව නැවත උත්සාහ කරන්න</string>
+<string name="can_not_switch_account_during_call">ඇමතුමක් අතරදී ඇමතුම් සඳහා වඩා කැමති SIM කාඩ්පතක් වෙත මාරු වීමට නොහැකිය.</string>
+<string name="can_not_switch_account_temporarily">තාවකාලිකව ඇමතුම් සඳහා වඩා කැමති SIM කාඩ්පතක් වෙත මාරු වීමට නොහැකිය.</string>
+<string name="location_permission_title">ආරක්ෂක අනතුරු ඇඟවීම</string>
+<string name="location_permission_summary">සබඳතා විසින් ඔබගේ වත්මන් ස්ථානය ලබාගැනීමට උත්සාහ කරයි.\n(තත්පර <xliff:g id="time_sec">%1$s</xliff:g> කට පසු ස්වයංක්‍රීයවම ප්‍රතික්ෂේප කරන්න)</string>
+<string name="location_permission_allow">ඉඩ දෙන්න</string>
+<string name="location_permission_deny">ප්‍රතික්ෂේප කරන්න</string>
+</resources>

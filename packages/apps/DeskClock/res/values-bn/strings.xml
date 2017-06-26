@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">ঘড়ি</string>
+    <string name="alarm_list_title">এলার্ম</string>
+    <string name="add_alarm">এলার্ম যোগ করুন</string>
+    <string name="alarm_timeline_title_text">পরবর্তী এলার্ম</string>
+    <string name="menu_desk_clock">ডেস্ক ঘড়ি</string>
+    <string name="menu_edit_alarm"> এলার্ম সম্পাদনা করুন</string>
+    <string name="delete_alarm">এলার্ম মুছে ফেলুন</string>
+    <string name="enable_alarm">এলার্ম চালু করুন</string>
+    <string name="disable_alarm">এলার্ম বন্ধ করুন</string>
+    <string name="delete_alarm_confirm">এই এলার্মটি মুছে ফেলা হবে।</string>
+    <string name="show_clock">ঘড়ি দেখান</string>
+    <string name="hide_clock">ঘড়ি লুকান</string>
+    <string name="label">লেবেল</string>
+    <string name="default_label">অ্যালার্ম</string>
+    <string name="set_alarm">এলার্ম সেট করুন</string>
+    <string name="alarm_vibrate">ভাইব্রেট করুন</string>
+    <string name="alarm_repeat">পুনরাবৃত্তি করুন</string>
+    <string name="alert">রিংটোন</string>
+    <string name="ringtone">রিংটোন</string>
+    <string name="time">সময়</string>
+    <string name="alarm_alert_dismiss_text">"বাতিল করুন"</string>
+    <string name="alarm_alert_dismiss_now_text">এখনই বাতিল করুন</string>
+    <string name="alarm_missed_title">ব্যর্থ এলার্ম</string>
+    <string name="alarm_missed_text"><xliff:g id="alarm_time">%s</xliff:g> - <xliff:g id="alarm_label">%s</xliff:g></string>
+    <string name="alarm_alert_snooze_text">কিছু নয়</string>
+    <plurals name="alarm_alert_snooze_set">
+        <item quantity="one">১ মিনিটের জন্য</item>
+        <item quantity="other"> <xliff:g id="minutes">%d</xliff:g> মিনিট ধরে স্নুজ হবে।</item>
+    </plurals>
+    <string name="alarm_alert_snooze_until">স্নুজিং চলবে <xliff:g id="time">%s</xliff:g> পর্যন্ত</string>
+    <string name="alarm_alert_predismiss_title">আসন্ন এলার্ম</string>
+    <string name="missed_alarm_has_been_deleted">আপনার ব্যর্থ এলার্মটি মুছে ফেলা হয়েছে</string>
+    <string-array name="timer_notifications">
+        <item>এক মিনিটের চেয়েও কম বাকি</item>
+        <item><xliff:g id="HOURS" example="2hours">%1$s</xliff:g> <xliff:g id="MINUTES" example="2minutes">%2$s</xliff:g> বাকি</item>
+        <item><xliff:g id="MINUTES" example="2minutes">%2$s</xliff:g> বাকি</item>
+        <item><xliff:g id="HOURS" example="2hours">%1$s</xliff:g> <xliff:g id="MINUTES" example="2minutes">%2$s</xliff:g> বাকি</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>এই এলার্ম এখন থেকে ১ মিনিটের কম সময়ের জন্য সেট করা হয়েছে।</item>
+        <item>এই এলার্ম সেট করা হয়েছে এখন থেকে <xliff:g id="DAYS" example="2days">%1$s</xliff:g> এবং <xliff:g id="HOURS" example="2hours">%2$s</xliff:g> জন্য।</item>
+        <item>এই এলার্ম সেট করা হয়েছে এখন থেকে <xliff:g id="DAYS" example="2days">%1$s</xliff:g> এবং <xliff:g id="HOURS" example="2hours">%2$s</xliff:g> জন্য।</item>
+        <item>এই এলার্ম সেট করা হয়েছে এখন থেকে <xliff:g id="DAYS" example="2days">%1$s</xliff:g> এবং <xliff:g id="HOURS" example="2hours">%2$s</xliff:g> জন্য।</item>
+        <item>এই এলার্ম সেট করা হয়েছে এখন থেকে<xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g>জন্য।</item>
+        <item>এই এলার্ম সেট করা হয়েছে এখন থেকে <xliff:g id="DAYS" example="2days">%1$s</xliff:g> এবং <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g>জন্য।</item>
+        <item>এই এলার্ম সেট করা হয়েছে এখন থেকে<xliff:g id="DAYS" example="2days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>, এবং <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> জন্য।</item>
+        <item>এই এলার্ম সেট করা হয়েছে এখন থেকে<xliff:g id="DAYS" example="2days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>, এবং <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> জন্য।</item>
+    </string-array>
+    <string name="day">"১ দিন"</string>
+    <string name="days">"  <xliff:g id="days">%s</xliff:g> days" </string>
+    <string name="hour">১ ঘণ্টা</string>
+    <string name="hours">  <xliff:g id="hours">%s</xliff:g> ঘণ্টা </string>
+    <string name="minute">"১ মিনিট"</string>
+    <string name="minutes">"  <xliff:g id="minutes">%s</xliff:g> মিনিট" </string>
+    <string name="every_day">প্রতিদিন</string>
+    <string name="never">কখনও না</string>
+    <string name="day_concat">", "</string>
+    <string name="clock_instructions">প্রদর্শনের জন্য একটি ঘড়ি নির্বাচন করুন</string>
+    <string name="analog_gadget">এনালগ ঘড়ি</string>
+    <string name="help">সাহায্য</string>
+    <string name="settings">সেটিং</string>
+    <string name="snooze_duration_title">স্নুজের ব্যাপ্তিকাল</string>
+    <plurals name="snooze_duration">
+        <item quantity="one">১ মিনিট</item>
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> মিনিট</item>
+    </plurals>
+    <plurals name="snooze_picker_label">
+        <item quantity="one">মিনিট</item>
+        <item quantity="other">মিনিট</item>
+    </plurals>
+    <string name="auto_silence_title">স্বয়ংক্রিয়-নীরবতা</string>
+    <string name="auto_silence_summary">অ্যালার্ম  <xliff:g id="minutes">%d</xliff:g> মিনিট পর নীরব হয়ে যাবে। </string>
+    <string name="auto_silence_never">কখনও না</string>
+    <string-array name="auto_silence_entries">
+      <item>৫ মিনিট</item>
+      <item>১০ মিনিট</item>
+      <item>১০ মিনিট</item>
+      <item>১৫ মিনিট</item>
+      <item>২০ মিনিট</item>
+      <item>৩০ মিনিট</item>
+      <item>কখনও না</item>
+      </string-array>
+    <string name="done">সম্পন্ন</string>
+    <string name="revert">প্রত্যাবর্তন করুন</string>
+    <string name="delete">পরিচিতজন মুছুন</string>
+    <string name="alarm_volume_title">অ্যালার্ম ভলিউম</string>
+    <string name="silent_alarm_summary">নিঃশব্দ</string>
+    <string name="alarm_notify_text">এই এলার্ম স্নুজ বা বাতিল করতে নির্বাচন করুন। </string>
+    <string name="alarm_notify_snooze_label"><xliff:g id="label">%s</xliff:g> (স্নুজ হয়েছে)</string>
+    <string name="alarm_notify_snooze_text"><xliff:g id="time">%s</xliff:g>এর জন্য এলার্ম সেট করা হয়েছে। বাতিলের জন্য নির্বাচন করা হয়েছে। </string>
+    <string name="volume_button_setting_title">ভলিউম এবং ক্যামেরা</string>
+    <string name="volume_button_dialog_title">বাটন ইফেক্ট</string>
+    <string-array name="volume_button_setting_entries">
+      <item>কিছু নয়</item>
+      <item>"বাতিল করুন"</item>
+      <item>বাতিল</item>
+      </string-array>
+    <string name="default_ringtone_setting_title">ডিফল্ট রিংটোন হিসেবে সেট করুন</string>
+
+    <string name="alarm_button_description">এলার্ম</string>
+    <string name="gallery_button_description">গ্যালারি</string>
+    <string name="music_button_description">গান</string>
+    <string name="nightmode_button_description">ডিম</string>
+    <string name="home_button_description">লঞ্চার</string>
+    <string name="desk_clock_button_description">ঘড়ি প্রদর্শন</string>
+    <string name="label_description">লেবেল</string>
+    <string name="ringtone_description">রিংটোন</string>
+    <string name="battery_charging_level"><xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+    <string name="weather_fetch_failure">আবহওয়ার তথ্য বর্তমানে পাওয়া যাচ্ছে না।</string>
+    <string name="alarm_klaxon_service_desc">ডেস্কঘড়িতে সেট করা এলার্মের জন্য শব্দ প্লেব্যাক সেবা।</string>
+    <string name="loading_ringtone">রিংটোন লোড হচ্ছে \u2026</string>
+    <string name="timer_ring_service_desc">ঘড়িতে টাইমার ঠিক করার জন্য সাউন্ড প্লেব্যাক সেবা।</string>
+    <string name="control_set_alarm">এলার্ম সেট করুন</string>
+    <string name="menu_alarm">অ্যালার্ম</string>
+    <string name="menu_timer">টাইমার</string>
+    <string name="menu_clock">ঘড়ি</string>
+    <string name="menu_stopwatch">স্টপওয়াচ</string>
+    <string name="button_alarms">এলার্ম</string>
+    <string name="button_cities">শহর</string>
+    <string name="button_menu">আরও বিকল্প</string>
+    <string name="menu_item_settings">সেটিং</string>
+    <string name="menu_item_help">সাহায্য</string>
+    <string name="menu_item_night_mode">রাতের মোড</string>
+    <string name="menu_item_sort_by_gmt_offset">সময়ের মাধ্যমে সাজান</string>
+    <string name="menu_item_sort_by_name">নাম অনুসারে সাজান</string>
+    <string name="selected_cities_label">নির্বাচিত শহরগুলো</string>
+    <string name="sw_resume_button">পুনরায় শুরু করুন</string>
+    <string name="sw_start_button">শুরু </string>
+    <string name="sw_stop_button">বন্ধ করুন</string>
+    <string name="sw_lap_button">ল্যাপ</string>
+    <string name="sw_reset_button">পুনরায় সেট করুন</string>
+    <string name="sw_share_button">শেয়ার করুন</string>
+    <string name="hours_label">h</string>
+    <string name="minutes_label">ম.</string>
+    <string name="seconds_label">সে.</string>
+    <string name="hours_label_description">ঘণ্টা</string>
+    <string name="minutes_label_description">মিনিট</string>
+    <string name="seconds_label_description">সেকেন্ড</string>
+    <string name="sw_share_main">আমার সময় <xliff:g id="time">%s</xliff:g></string>
+    <string name="sw_share_laps">ল্যাপ সময়:</string>
+    <string name="sw_notification_lap_number">ল্যাপ <xliff:g id="number">%d</xliff:g></string>
+    <plurals name="Nhours_description">
+        <item quantity="one">১ ঘণ্টা</item>
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> ঘণ্টা</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <item quantity="one">১ মিনিট</item>
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> মিনিট</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <item quantity="one">১ সেকেন্ড</item>
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> সেকেন্ড</item>
+    </plurals>
+    <string name="timer_add_timer">টাইমার যোগ করুন</string>
+    <string name="timer_start">শুরু </string>
+    <string name="timer_delete">পরিচিতজন মুছুন</string>
+    <string name="timer_plus_one">১ মিনিট যোগ করুন</string>
+    <string name="timer_plus_1_min">১ মিনিট যোগ করুন</string>
+    <string name="timer_stop">বন্ধ করুন</string>
+    <string name="timer_done">সম্পন্ন</string>
+    <string name="timer_reset">পুনরায় সেট করুন</string>
+    <string name="timer_cancel">বাতিল করুন</string>
+    <string name="timer_times_up">সময় শেষ</string>
+    <string name="timer_notification_label">টাইমার</string>
+    <string-array name="sw_share_strings" translatable="true">
+        <item>আপনি তো দুর্দান্ত স্পিড।</item>
+        <item>আপনার পরিশ্রমের ফল উপভোগ করুন।</item>
+        <item>এনড্রয়েডকে দ্রুতগতিসম্পন্ন বলে আমরা জানি, কিন্তু আপনার চেয়ে দ্রুতগতিসম্পন্ন নয়!</item>
+        <item>ফিউ।</item>
+        <item>এল৩৩ সময়।</item>
+        <item>এত বিশাল গতি।</item>
+        <item>আসুন আবার টাইম ওয়ার্প করি।</item>
+        <item>বাম দিকে একটি লাফ দিন।</item>
+        <item>আপনার তাড়াহুড়ার একটা প্রবণতা আছে।</item>
+        <item>ফটোনিক গতি।</item>
+    </string-array>
+    <plurals name="timers_num">
+        <item quantity="one">১ মিনিট</item>
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> টাইমার</item>
+    </plurals>
+    <string name="home_label">হোম স্ক্রিন</string>
+    <string name="cities_activity_title">শহর</string>
+    <string name="clock_settings">ঘড়ি</string>
+    <string name="clock_style">স্টাইল</string>
+    <string-array name="clock_style_entries">
+      <item>অ্যানালগ</item>
+      <item>ডিজিটাল</item>
+    </string-array>
+    <string name="automatic_home_clock">স্বয়ংক্রিয় বাড়ির ঘড়ি</string>
+    <string name="automatic_home_clock_summary">আপনি এমন কোন এলাকায় ভ্রমণ করছেন যেখানে সময় ভিন্ন সেজন্য বাড়ির সময়ের জন্য একটি ঘড়ি যোগ করুন</string>
+    <string name="home_time_zone">স্বাগতিক সময় অঞ্চল</string>
+    <string name="home_time_zone_title">স্বাগতিক সময় অঞ্চল</string>
+    <string name="time_picker_cancel">বাতিল করুন</string>
+    <string name="time_picker_set">ঠিক আছে</string>
+    <string-array name="timezone_labels">
+        <item>"মার্শাল দ্বীপপুঞ্জ"</item>
+        <item>"মিডওয়ে দ্বীপ"</item>
+        <item>"হাওয়াই"</item>
+        <item>অ্যাংকোরেইজ (আলাস্কা)</item>
+        <item>"প্রশান্ত মহাসাগরীয় সময়"</item>
+        <item>"তিজুয়ানা"</item>
+        <item>"অ্যারিজোনা"</item>
+        <item>চিহুয়াহুয়া</item>
+        <item>"পার্বত্য সময়"</item>
+        <item>" মধ্য আমেরিকা"</item>
+        <item>"মধ্য সময়"</item>
+        <item>"মেক্সিকো সিটি"</item>
+        <item>"সাসকেচুয়ান"</item>
+        <item>বগোটা</item>
+        <item>"পূর্বাঞ্চলীয় সময়"</item>
+        <item>ভেনিজুয়েলা </item>
+        <item>"আটলাণ্টিক সময় (বার্বাডোজ)"</item>
+        <item>"আটলাণ্টিক সময় (কানাডা)"</item>
+        <item>"মানাস"</item>
+        <item>সান্টিয়াগো</item>
+        <item>"নিউফাউন্ডল্যান্ড"</item>
+        <item>ব্রাসিলিয়া</item>
+        <item>বুয়েন্স আয়ার্স</item>
+        <item>"গ্রিনল্যান্ড"</item>
+        <item>মন্টেভিডিও</item>
+        <item>"মধ্য-আটলাণ্টিক"</item>
+        <item>"অ্যারোজ"</item>
+        <item>"কেপ ভার্দে দ্বীপপুঞ্জ"</item>
+        <item>কাসাব্লাংকা</item>
+        <item>"লন্ডন, ডাবলিন"</item>
+        <item>"আমস্টারডাম, বার্লিন"</item>
+        <item>বেলগ্রেড</item>
+        <item>ব্রাসেলস</item>
+        <item>"সারায়েভো"</item>
+        <item>"উইন্ডহোক"</item>
+        <item>"পশ্চিম আফ্রিকা সময়"</item>
+        <item>" আম্মান, জর্ডান"</item>
+        <item>"এথেন্স, ইস্তাম্বুল"</item>
+        <item>"বৈরুত, লেবানন"</item>
+        <item>কায়রো</item>
+        <item>হেলসিংকি</item>
+        <item>জেরুজালেম</item>
+        <item>মিনস্ক</item>
+        <item>হারারে</item>
+        <item>বাগদাদ</item>
+        <item>মস্কো</item>
+        <item>কুয়েত সিটি</item>
+        <item>নাইরোবি</item>
+        <item>তেহরান</item>
+        <item>বাকু</item>
+        <item>"তিবলিসি"</item>
+        <item>"ইয়েরেভান"</item>
+        <item>"দুবাই"</item>
+        <item>কাবুল</item>
+        <item>"ইসলামাবাদ, করাচি"</item>
+        <item>"ইউরাস্ক"</item>
+        <item>"ইয়েকাটেরিনবার্গ"</item>
+        <item>কোলকাতা</item>
+        <item>"শ্রীলংকা"</item>
+        <item>কাঠমুন্ডু</item>
+        <item>"আস্তানা"</item>
+        <item>"ইয়াঙ্গুন"</item>
+        <item>"ক্রাসনোইয়াস্ক"</item>
+        <item>ব্যাংকক</item>
+        <item>বেইজিং</item>
+        <item>হংকং</item>
+        <item>"ইরকুটস্ক"</item>
+        <item>কুয়ালালামপুর</item>
+        <item>পার্থ</item>
+        <item>তাইপে</item>
+        <item>সিউল</item>
+        <item>"টোকিও, ওসাকা"</item>
+        <item>"ইয়াকুটস্ক"</item>
+        <item>"অ্যাডেলেইড"</item>
+        <item>ডারউইন</item>
+        <item>ব্রিসবেন</item>
+        <item>"হোবার্ট"</item>
+        <item>"সিডনি, ক্যানবেরা"</item>
+        <item>ভ্লাদিভোসটোক</item>
+        <item>"গুয়াম"</item>
+        <item>"মাগাডান"</item>
+        <item>"অকল্যান্ড"</item>
+        <item>"ফিজি"</item>
+        <item>"টোংগা"</item>
+        <item>ডিজাকার্তা (জার্কাতা)</item>
+    </string-array>
+     <string name="alarm_settings">এলার্ম</string>
+     <string name="see_all">সব দেখুন</string>
+     <string name="stopwatch_service_desc">নোটিফিকেশন চালানোর জন্য স্টপওয়াচ সেবা।</string>
+     <string name="swn_stopped">থেমেছে</string>
+    <string name="description_direction_right">বাতিল করার জন্য ডানে স্লাইড করুন</string>
+    <string name="description_direction_left">স্নুজের জন্য বামে স্লাইড করুন</string>
+    <string name="description_direction_up">বাতিল করার জন্য ওপরে স্লাইড করুন</string>
+    <string name="description_direction_down">স্নুজের জন্য নিচে স্লাইড</string>
+    <string name="timer_stopped">টাইমার থেমেছে</string>
+    <string name="timers_stopped"><xliff:g id="number" example="7">%d</xliff:g> টাইমার থেমেছে</string>
+    <string name="all_timers_stopped_notif">আপনার টাইমার দেখার জন্য স্পর্শ করুন</string>
+    <string name="timers_in_use"><xliff:g id="number" example="7">%d</xliff:g> টাইমার</string>
+    <string name="next_timer_notif">পরবর্তী টাইমার: <xliff:g id="time_remaining" example="2minutesremaining">%s</xliff:g></string>
+    <string name="screensaver_settings">স্বপ্ন সেটিং</string>
+    <string name="night_mode_title">রাতের মোড</string>
+    <string name="night_mode_summary">খুবই অনুজ্জ্বল প্রদর্শন (অন্ধকার কক্ষের জন্য)</string>
+    <string name="expand_alarm">অ্যালার্ম প্রসারিত করুন</string>
+    <string name="collapse_alarm">অ্যালার্ম সংকীর্ণ করুন</string>
+    <string name="alarm_undo">আনডু</string>
+    <string name="alarm_deleted">অ্যালার্ম মুছে ফেলা হয়েছে।</string>
+    <string name="next_alarm_description">পরবর্তী অ্যালার্ম: <xliff:g id="alarm_time" example="Wed8:00am">%s</xliff:g></string>
+    <string name="alarms_selected"><xliff:g id="alarms">%d</xliff:g> বাছাই করা হয়েছে</string>
+    <string name="deleted_message">মুছে ফেলা হয়েছে</string>
+    <plurals name="alarm_delete_confirmation">
+        <item quantity="one">বাছাইকৃত অ্যালার্ম মুছে ফেলবেন?</item>
+        <item quantity="other">বাছাইকৃত অ্যালার্ম মুছে ফেলবেন?</item>
+    </plurals>
+    <string name="timer_delete_confirmation">এই টাইমার মুছে ফেলবেন?</string>
+    <string name="city_delete_confirmation">এই শহর মুছে ফেলবেন?</string>
+    <string name="digital_gadget">ডিজিটাল ঘড়ি</string>
+    <string name="no_alarms">কোন এলার্ম নেই</string>
+    <string name="no_upcoming_alarms">কোন আসন্ন এলার্ম নেই</string>
+
+    <string name="zero">0</string>
+	<string name="slash">"/"</string>
+	<string name="world_day_of_week_label">"/ <xliff:g id="LABEL">%s</xliff:g>"</string>
+	<string name="label_unlabeled"></string>
+    <string name="time_picker_time_seperator">":"</string>
+    <string name="time_picker_ampm_label">"--"</string>
+    <string name="time_picker_00_label">":00"</string>
+    <string name="time_picker_30_label">":30"</string>
+    <string name="alarm_tomorrow">আগামীকাল</string>
+    <string name="alarm_alert_off_action_text">বন্ধ করুন</string>
+    <plurals name="alarm_alert_snooze_duration">
+        <item quantity="one">১ মিনিট</item>
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> মিনিট</item>
+    </plurals>
+    <string name="alarm_today">আজ</string>
+    <string name="alarm_alert_wake_up">জাগান \u0021</string>
+    <string name="alarm_alert_snoozed_text">স্নুজকৃত</string>
+    <string name="alarm_alert_off_text">অ্যালার্ম বন্ধ</string>
+    <string name="timers_max_count_reached">সর্বোচ্চ ৪ টাইমার</string>
+    <string name="no_alarms_set">কোনো অ্যালার্ম সেট নেই</string>
+    <string name="swipe_dismiss_instruction">বাতিল করার জন্য ডানে স্লাইড করুন</string>
+    <string name="swipe_snooze_instruction">স্নুজের জন্য বামে স্লাইড করুন</string>
+</resources>

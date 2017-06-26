@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (C) 2014 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">Geräteversorger</string>
+  <string name="provisioning_error_title">Oops!</string>
+  <string name="setup_work_space">Richten Sie Ihr Profil ein</string>
+  <string name="company_controls_workspace">Ihre Organisation verwaltet ihr Profil und sorgt für Sicherheit Sie verwalten alles andere auf Ihrem Gerät.</string>
+  <string name="the_following_is_your_mdm">Die folgende App muss auf das Profil zugreifen:</string>
+  <string name="set_up">Einrichten</string>
+  <string name="setting_up_workspace">Ihr Arbeitsprofil wird eingerichtet...</string>
+  <string name="admin_has_ability_to_monitor_profile">Ihr Administrator kann Einstellungen, Firmenzugriff, Apps und Daten des Profils, einschl. Netzwerkaktivitäten und Ihre Geräteposition überwachen und verwalten.</string>
+  <string name="admin_has_ability_to_monitor_device">Ihr Administrator kann zu diesem Profil gehörende Einstellungen, Firmenzugriff, Apps und Daten des Profils, einschl. Netzwerkaktivitäten und die Geräteposition überwachen und verwalten.</string>
+  <string name="contact_your_admin_for_more_info">Wenden Sie sich an Ihren Administrator, um weitere Informationen, auch zu den Datenschutzrichlinien, zu erhalten.</string>
+  <string name="learn_more_link">Erfahren Sie mehr.</string>
+  <string name="cancel_setup">Abbrechen</string>
+  <string name="ok_setup">OK</string>
+  <string name="default_managed_profile_name">Arbeitsprofil</string>
+  <string name="managed_profile_already_present">Auf Ihrem Gerät befindet sich bereits ein Arbeitsprofil. Wollen Sie es löschen?</string>
+  <string name="sure_you_want_to_delete_profile">Wollen Sie dieses Arbeitsprofil wirklich löschen? Alle zugehörigen Daten werden gelöscht.</string>
+  <string name="delete_profile">Entfernen</string>
+  <string name="cancel_delete_profile">Abbrechen</string>
+  <string name="encrypt_device_text">Wollen Sie mit der Einrichtung Ihres Arbeitsprofils fortfahren, müssen Sie Ihr Gerät verschlüsseln. Dies kann einige Zeit dauern.</string>
+  <string name="encrypt_device_cancel">Abbrechen</string>
+  <string name="encrypt_device_launch_settings">Verschlüsseln</string>
+  <string name="continue_provisioning_notify_title">Verschlüsselung beendet</string>
+  <string name="continue_provisioning_notify_text">Antippen, um mit der Einrichtung Ihres Arbeitsprofils fortzufahren</string>
+  <string name="managed_provisioning_error_text">Kann Ihr Arbeitsprofil nicht einrichten. Wenden Sie sich an Ihre IT-Abteilung oder versuchen Sie es später erneut.</string>
+  <string name="managed_provisioning_not_supported">Ihr Gerät unterstützt keine Arbeitsprofile.</string>
+  <string name="user_is_not_owner">Arbeitsprofile müssen vom Verwender des Geräts eingerichtet werden</string>
+  <string name="managed_provisioning_not_supported_by_launcher">Ihr Arbeitsprofil wird von der Start-App nicht unterstützt. Wechseln Sie zu einer Start.App, die kompatibel ist.</string>
+  <string name="cancel_provisioning">Abbrechen</string>
+  <string name="pick_launcher">OK</string>
+  <string name="default_owned_device_username">Benutzer des Geräts</string>
+  <string name="setup_device">Richten Sie Ihr Gerät ein</string>
+  <string name="progress_data_process">Setup-Daten werden verarbeitet…</string>
+  <string name="progress_connect_to_wifi">Verbinde mit Wi-Fi…</string>
+  <string name="progress_download">Admin-App wird heruntergeladen…</string>
+  <string name="progress_install">Admin-App wird installiert…</string>
+  <string name="progress_set_owner">Gerätebenutzer wird eingerichtet…</string>
+  <string name="device_owner_cancel_title">Einrichtung stoppen?</string>
+  <string name="device_owner_cancel_message">Wollen Sie wirklich die Einrichtung stoppen und alle Daten auf dem Gerät löschen?</string>
+  <string name="device_owner_cancel_cancel">Abbrechen</string>
+  <string name="device_owner_error_ok">OK</string>
+  <string name="device_owner_error_reset">Zurücksetzen</string>
+  <string name="device_owner_error_general">Kann Ihr Gerät nicht einrichten. Wenden Sie sich an Ihre IT-Abteilung.</string>
+  <string name="device_owner_error_already_provisioned">Dieses Gerät ist bereits eingerichtet</string>
+  <string name="device_owner_error_wifi">Kann nicht mit Wi-Fi verbinden.</string>
+  <string name="device_owner_error_hash_mismatch">Kann die Admin-App aufgrund eines Prüfsummenfehlers nicht verwenden. Wenden Sie sich an Ihre IT-Abteilung.</string>
+  <string name="device_owner_error_download_failed">Kann die Admin-App nicht herunterladen</string>
+  <string name="device_owner_error_package_invalid">Kann die Admin-App nicht verwenden. Es fehlen Komponenten oder sie ist beschädigt. Wenden Sie sich an Ihre IT-Abteilung.</string>
+  <string name="device_owner_error_installation_failed">Kann die Admin-App nicht installieren</string>
+  <string name="device_owner_error_package_not_installed">Die Admin-App ist auf Ihrem Gerät nicht installiert</string>
+  <string name="profile_owner_cancel_title">Einrichtung stoppen?</string>
+  <string name="profile_owner_cancel_message">Wollen Sie das Einrichten wirklich abbrechen?</string>
+  <string name="profile_owner_cancel_cancel">Nein</string>
+  <string name="profile_owner_cancel_ok">Ja</string>
+  <string name="profile_owner_cancelling">Wird abgebrochen...</string>
+</resources>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="311492132450338925" name="permlab_bluetoothShareManager">"Pristup menadžeru preuzimanja."</string>
+    <string msgid="8930572979123190223" name="permdesc_bluetoothShareManager">"Omogućava aplikaciji da pristupa menadžeru za deljenje preko Bluetooth-a i da ga koristi za prenos datoteka."</string>
+    <string msgid="7091552898592306386" name="permlab_bluetoothWhitelist">"Приступ Bluetooth уређаја са беле листе."</string>
+    <string msgid="5494513855192170109" name="permdesc_bluetoothWhitelist">"Dozvoljava aplikaciji da privremeno stavi Bluetooth uređaj na belu listu, što omogućava tom uređaju da šalje datoteke ovom uređaju bez potvrde korisnika."</string>
+    <string msgid="6268100924487046932" name="bt_share_picker_label">"Bluetooth"</string>
+    <string msgid="9221903979877041009" name="unknown_device">"Nepoznati uređaj"</string>
+    <string msgid="4994750948072751566" name="unknownNumber">"Nepoznato"</string>
+    <string msgid="2683839635115739939" name="airplane_error_title">"Režim rada u avionu"</string>
+    <string msgid="8698965595254137230" name="airplane_error_msg">"Ne možete da koristite Bluetooth u režimu rada u avionu."</string>
+    <string msgid="8657832550503456572" name="bt_enable_title"/>
+    <string msgid="7203551583048149" name="bt_enable_line1">Da biste koristili Bluetooth usluge, prvo morate da uključite Bluetooth.</string>
+    <string msgid="4341936569415937994" name="bt_enable_line2">Uključiti Bluetooth sada?</string>
+    <string msgid="1988832367505151727" name="bt_enable_cancel">"Otkaži"</string>
+    <string msgid="3432462749994538265" name="bt_enable_ok">"Uključi"</string>
+    <string msgid="8139874248612182627" name="incoming_file_confirm_title">"Prenos datoteke"</string>
+    <string msgid="2752605552743148036" name="incoming_file_confirm_content">"Желите ли да прихватите долазну датотеку?"</string>
+    <string msgid="2973321832477704805" name="incoming_file_confirm_cancel">"Odbij"</string>
+    <string msgid="281462442932231475" name="incoming_file_confirm_ok">"Prihvati"</string>
+    <string msgid="1414676773249857278" name="incoming_file_confirm_timeout_ok">"Potvrdi"</string>
+    <string msgid="172779756093975981" name="incoming_file_confirm_timeout_content">"Došlo je do vremenskog ograničenja tokom prijema dolazne datoteke od „<xliff:g id="SENDER">%1$s</xliff:g>“"</string>
+    <string msgid="2958227698135117210" name="incoming_file_confirm_Notification_title">"Bluetooth deljenje: dolazna dat."</string>
+    <string msgid="6671081128475981157" name="incoming_file_confirm_Notification_caption">"Da li želite da primite ovu datoteku?"</string>
+    <string msgid="1733710749992901811" name="incoming_file_toast_msg">"Dolazna datoteka sa drugog uređaja. Potvrdite da želite da je primite."</string>
+    <string msgid="4674648179652543984" name="notification_receiving">"Bluetooth deljenje: prijem <xliff:g id="FILE">%1$s</xliff:g>"</string>
+    <string msgid="3324588019186687985" name="notification_received">"Bluetooth deljenje: primljeno <xliff:g id="FILE">%1$s</xliff:g>"</string>
+    <string msgid="3619350997285714746" name="notification_received_fail">Bluetooth deljenje: datoteka <xliff:g id="FILE">%1$s</xliff:g> nije primljena</string>
+    <string msgid="3035748958534983833" name="notification_sending">"Bluetooth deljenje: slanje 
+        <xliff:g id="FILE">%1$s</xliff:g>"
+    </string>
+    <string msgid="9218710861333027778" name="notification_sent">"Bluetooth deljenje: poslato 
+        <xliff:g id="FILE">%1$s</xliff:g>"
+    </string>
+    <string msgid="302943281067557969" name="notification_sent_complete">"Dovršeno je 100%"</string>
+    <string msgid="6696082233774569445" name="notification_sent_fail">"Bluetooth deljenje: datoteka 
+        <xliff:g id="FILE">%1$s</xliff:g> nije poslata"
+    </string>
+    <string msgid="3353228219772092586" name="download_title">"Prenos datoteke"</string>
+    <string msgid="4926604799202134144" name="download_line1">"Od: „ 
+        <xliff:g id="SENDER">%1$s</xliff:g>“"
+    </string>
+    <string msgid="5876973543019417712" name="download_line2">"Datoteka: 
+        <xliff:g id="FILE">%1$s</xliff:g>"
+    </string>
+    <string msgid="4384821622908676061" name="download_line3">"Veličina datoteke: 
+        <xliff:g id="SIZE">%1$s</xliff:g>"
+    </string>
+    <string msgid="8535996869722666525" name="download_line4"/>
+    <string msgid="3069560415845295386" name="download_line5">"Primanje datoteke..."</string>
+    <string msgid="9177305996747500768" name="download_cancel">"Zaustavi"</string>
+    <string msgid="5000360731674466039" name="download_ok">"Sakrij"</string>
+    <string msgid="2127419875681087545" name="incoming_line1">"Од"</string>
+    <string msgid="3348994249285315873" name="incoming_line2">"Назив датотеке"</string>
+    <string msgid="7954237069667474024" name="incoming_line3">"Величина"</string>
+    <string msgid="3846450148862894552" name="download_fail_line1">"Datoteka nije primljena"</string>
+    <string msgid="8950394574689971071" name="download_fail_line2">"Datoteka: 
+        <xliff:g id="FILE">%1$s</xliff:g>"
+    </string>
+    <string msgid="3451040656154861722" name="download_fail_line3">"Razlog: 
+        <xliff:g id="REASON">%1$s</xliff:g>"
+    </string>
+    <string msgid="1521733664438320300" name="download_fail_ok">"Potvrdi"</string>
+    <string msgid="4509944688281573595" name="download_succ_line5">"Datoteka je primljena"</string>
+    <string msgid="7053688246357050216" name="download_succ_ok">"Otvori"</string>
+    <string msgid="2055952074059709052" name="upload_line1">"Kome: „ 
+        <xliff:g id="RECIPIENT">%1$s</xliff:g>“"
+    </string>
+    <string msgid="4920689672457037437" name="upload_line3">"Tip datoteke: 
+        <xliff:g id="TYPE">%1$s</xliff:g> ( 
+        <xliff:g id="SIZE">%2$s</xliff:g>)"
+    </string>
+    <string msgid="7759322537674229752" name="upload_line5">"Slanje datoteke..."</string>
+    <string msgid="5687317197463383601" name="upload_succ_line5">"Datoteka je poslata"</string>
+    <string msgid="7705428476405478828" name="upload_succ_ok">"U redu"</string>
+    <string msgid="7899394672421491701" name="upload_fail_line1">"Datoteka nije poslata primaocu „ 
+        <xliff:g id="RECIPIENT">%1$s</xliff:g>“."
+    </string>
+    <string msgid="2108129204050841798" name="upload_fail_line1_2">"Datoteka: 
+        <xliff:g id="FILE">%1$s</xliff:g>"
+    </string>
+    <string msgid="5807702461606714296" name="upload_fail_ok">"Pokušaj ponovo"</string>
+    <string msgid="9118496285835687125" name="upload_fail_cancel">"Zatvori"</string>
+    <string msgid="5965151173011534240" name="bt_error_btn_ok">"Potvrdi"</string>
+    <string msgid="6092727753965095366" name="unknown_file">"Nepoznata datoteka"</string>
+    <string msgid="480434281415453287" name="unknown_file_desc">"Nema aplikacija za obradu ovog tipa datoteke. "\n</string>
+    <string msgid="3489434189599716133" name="not_exist_file">"Nema datoteke"</string>
+    <string msgid="4059531573790529229" name="not_exist_file_desc">"Datoteka ne postoji. "\n</string>
+    <string msgid="436157952334723406" name="enabling_progress_title">"Sačekajte…"</string>
+    <string msgid="4601542238119927904" name="enabling_progress_content">"Uključivanje Bluetooth-a…"</string>
+    <string msgid="972182708034353383" name="bt_toast_1">"Datoteka će biti primljena. Pratite napredovanje na traci za Obaveštenja."</string>
+    <string msgid="8602553334099066582" name="bt_toast_2">"Nije moguće primiti datoteku."</string>
+    <string msgid="6707884165086862518" name="bt_toast_3">"Zaustavljen prijem datoteke od pošiljaoca „ 
+        <xliff:g id="SENDER">%1$s</xliff:g>“"
+    </string>
+    <string msgid="4678812947604395649" name="bt_toast_4">"Slanje datoteke primaocu „ 
+        <xliff:g id="RECIPIENT">%1$s</xliff:g>“"
+    </string>
+    <string msgid="2846870992823019494" name="bt_toast_5">"Slanje 
+        <xliff:g id="NUMBER">%1$s</xliff:g> datoteka primaocu „ 
+        <xliff:g id="RECIPIENT">%2$s</xliff:g>“"
+    </string>
+    <string msgid="1855266596936622458" name="bt_toast_6">"Zaustavljeno slanje primaocu „ 
+        <xliff:g id="RECIPIENT">%1$s</xliff:g>“"
+    </string>
+    <string msgid="352165168004521000" name="bt_sm_2_1" product="nosdcard">"Nema dovoljno prostora u USB memoriji da bi se sačuvala datoteka pošiljaoca „ 
+        <xliff:g id="SENDER">%1$s</xliff:g>“"
+    </string>
+    <string msgid="1989018443456803630" name="bt_sm_2_1" product="default">"Nema dovoljno prostora na SD kartici da bi se sačuvala datoteka pošiljaoca „ 
+        <xliff:g id="SENDER">%1$s</xliff:g>“"
+    </string>
+    <string msgid="2965243265852680543" name="bt_sm_2_2">"Potreban prostor: 
+        <xliff:g id="SIZE">%1$s</xliff:g>"
+    </string>
+    <string msgid="8578277541472944529" name="ErrorTooManyRequests">"Previše zahteva se obrađuje. Pokušajte ponovo kasnije."</string>
+    <string msgid="2503691772030877944" name="status_pending">"Prenos datoteke još nije počeo."</string>
+    <string msgid="6562808920311008696" name="status_running">"Prenos datoteke je u toku."</string>
+    <string msgid="239573225847565868" name="status_success">"Prenos datoteke je dovršen."</string>
+    <string msgid="1695082417193780738" name="status_not_accept">"Sadržaj nije podržan."</string>
+    <string msgid="613956401054050725" name="status_forbidden">"Ciljni uređaj je zabranio prenos."</string>
+    <string msgid="6664490318773098285" name="status_canceled">"Korisnik je otkazao prenos."</string>
+    <string msgid="3671917770630165299" name="status_file_error">"Problem sa skladištem."</string>
+    <string msgid="1112125377088421469" name="status_no_sd_card" product="nosdcard">"Nema SD kartice. Umetnite SD karticu da biste sačuvali prenete datoteke."</string>
+    <string msgid="5760944071743325592" name="status_no_sd_card" product="default">"Nema SD kartice. Umetnite SD karticu da biste sačuvali prenete datoteke."</string>
+    <string msgid="947681831523219891" name="status_connection_error">"Povezivanje nije uspelo."</string>
+    <string msgid="3245444473429269539" name="status_protocol_error">"Nije moguće ispravno obraditi zahtev."</string>
+    <string msgid="8156660554237824912" name="status_unknown_error">"Nepoznata greška."</string>
+    <string msgid="7967791481444474554" name="btopp_live_folder">"Primljeno preko Bluetooth-a"</string>
+    <string msgid="7036160438766730871" name="download_success">" 
+        <xliff:g id="FILE_SIZE">%1$s</xliff:g> Primljeno u celosti."
+    </string>
+    <string msgid="4014469387779648949" name="upload_success">" 
+        <xliff:g id="FILE_SIZE">%1$s</xliff:g> Slanje je dovršeno."
+    </string>
+    <string msgid="6940914942271327563" name="inbound_history_title">"Dolazni prenosi"</string>
+    <string msgid="4279418703178140526" name="outbound_history_title">"Odlazni prenosi"</string>
+    <string msgid="3482965619151865672" name="no_transfers">"Istorija prenosa je prazna."</string>
+    <string msgid="1712376797268438075" name="transfer_clear_dlg_msg">"Sve stavke biće izbrisane sa liste."</string>
+    <string msgid="8051906709452260849" name="outbound_noti_title">"Bluetooth deljenje: poslate dat."</string>
+    <string msgid="4143352641953027595" name="inbound_noti_title">"Bluetooth deljenje: primljene dat."</string>
+    <string msgid="7508708288885707365" name="noti_caption">"Uspešno: 
+        <xliff:g id="SUCCESSFUL_NUMBER_0">%1$s</xliff:g>; neuspešno: 
+        <xliff:g id="UNSUCCESSFUL_NUMBER">%2$s</xliff:g>."
+    </string>
+    <string msgid="790017462957873132" name="transfer_menu_clear_all">"Obriši listu"</string>
+    <string msgid="3368984869083107200" name="transfer_menu_open">"Otvori"</string>
+    <string msgid="5854038118831427492" name="transfer_menu_clear">"Obriši sa liste"</string>
+    <string msgid="2953444575556460386" name="transfer_clear_dlg_title">"Obriši"</string>
+    <string msgid="5349902976213455385" name="bluetooth_map_email_settings_save">"Сачувај"</string>
+    <string msgid="5019472404940038118" name="bluetooth_map_email_settings_cancel">"Откажи"</string>
+    <string msgid="6219461401455143988" name="bluetooth_map_email_settings_intro">"Изаберите имејл налоге које желите да делите преко Bluetooth-а. И даље морате да прихватите било какав приступ налозима при повезивању."</string>
+    <string msgid="8884933619108905375" name="bluetooth_map_email_settings_count">"Преосталих места:"</string>
+    <string msgid="6905622365985483669" name="bluetooth_map_email_settings_app_icon">"Икона апликације"</string>
+    <string msgid="2181388147513118336" name="bluetooth_map_email_settings_title">"Подешавања Bluetooth дељења порука"</string>
+    <string msgid="5989596869950397488" name="bluetooth_map_email_settings_no_account_slots_left">"Није могуће изабрати налог. Нема преосталих места"</string>
+    <string name="incoming_file_confirm_content1" msgid="6673812334377911289">"„<xliff:g id="SENDER">%1$s</xliff:g>“ жели да вам пошаље <xliff:g id="FILE">%2$s</xliff:g> (<xliff:g id="SIZE">%3$s</xliff:g>). \n\n Желите ли да прихватите датотеку?"</string><!--add by lihaizhou for HQ01488268 at 20151109-->
+</resources>

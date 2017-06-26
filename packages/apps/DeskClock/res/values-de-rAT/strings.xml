@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    
+    
+    <string name="app_label">Uhr</string>
+
+    
+    
+    <string name="alarm_list_title">Alarme</string>
+
+    
+    <string name="add_alarm">Alarm zufügen</string>
+
+    
+    <string name="alarm_timeline_title_text">NÄCHSTE ALARME</string>
+
+    
+    <string name="menu_desk_clock">Tischuhr</string>
+
+    
+    <string name="menu_edit_alarm">Alarm bearbeiten</string>
+
+    
+    <string name="delete_alarm">Alarm löschen</string>
+
+    
+    <string name="enable_alarm">Alarm einschalten</string>
+
+    
+    <string name="disable_alarm">Alarm ausschalten</string>
+
+    
+    <string name="delete_alarm_confirm">Diesen Alarm löschen?</string>
+
+    
+    <string name="show_clock">Uhr anzeigen</string>
+
+    
+    <string name="hide_clock">Uhr verbergen</string>
+
+    
+    <string name="label">Bezeichnung</string>
+
+    
+    <string name="default_label">Alarme</string>
+
+    
+    
+    <string name="set_alarm">Alarm einstellen</string>
+
+    
+    <string name="alarm_vibrate">Vibrieren</string>
+
+    
+    <string name="alarm_repeat">Wiederholen</string>
+
+    
+    <string name="alert">Alarmklingelton</string>
+
+    
+    <string name="ringtone">Klingelton</string>
+
+    
+    <string name="time">Uhrzeit</string>
+
+    
+    <string name="alarm_alert_dismiss_text">Bestätigen</string>
+
+    
+    <string name="alarm_alert_dismiss_now_text">Jetzt bestätigen</string>
+
+    
+    <string name="alarm_missed_title">Verpasster Alarm</string>
+    <string name="alarm_missed_text"><xliff:g id="alarm_time">%s</xliff:g> - <xliff:g id="alarm_label">%s</xliff:g></string>
+
+    
+    <string name="alarm_alert_snooze_text">Schlummern</string>
+
+    
+    <string name="alarm_alert_snooze_set"><xliff:g id="minutes">%d</xliff:g> Minuten schlummern.</string>
+
+    
+    <string name="alarm_alert_snooze_until">Schlummern bis <xliff:g id="time">%s</xliff:g></string>
+
+    
+    <string name="alarm_alert_predismiss_title">Kommender Alarm</string>
+
+    
+    <string name="missed_alarm_has_been_deleted">Ihr verpasster Alarm wurde gelöscht</string>
+
+    <skip/>
+
+    
+    <string-array name="timer_notifications">
+        <item>Weniger als eine Minute verbleibt</item>
+        <item><xliff:g id="HOURS" example="2hours">%1$s</xliff:g> verbleiben</item>
+        <item><xliff:g id="MINUTES" example="2minutes">%2$s</xliff:g> verbleiben</item>
+        <item><xliff:g id="HOURS" example="2hours">%1$s</xliff:g> <xliff:g id="MINUTES" example="2minutes">%2$s</xliff:g> verbleiben</item>
+    </string-array>
+
+    
+    <string-array name="alarm_set">
+        <item>Alarm wird in weniger als einer Minute ausgelöst</item>
+        <item>Alarm auf <xliff:g id="DAYS" example="2days">%1$s</xliff:g> ab jetzt eingestellt.</item>
+        <item>Alarm auf <xliff:g id="HOURS" example="2hours">%2$s</xliff:g> ab jetzt eingestellt.</item>
+        <item>Alarm auf <xliff:g id="DAYS" example="2days">%1$s</xliff:g> und <xliff:g id="HOURS" example="2hours">%2$s</xliff:g> ab jetzt eingestellt.</item>
+        <item>Alarm auf <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> ab jetzt eingestellt.</item>
+        <item>Alarm auf <xliff:g id="DAYS" example="2days">%1$s</xliff:g> und <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> ab jetzt eingestellt.</item>
+        <item>Alarm auf <xliff:g id="HOURS" example="2hours">%2$s</xliff:g> und <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> ab jetzt eingestellt.</item>
+        <item>Alarm auf <xliff:g id="DAYS" example="2days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2hours">%2$s</xliff:g> und <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> ab jetzt eingestellt.</item>
+    </string-array>
+
+    
+    <string name="day">"1 Tag"</string>
+
+    
+    <string name="days">"<xliff:g id="days">%s</xliff:g> Tage"</string>
+
+    
+    <string name="hour">1 Stunde</string>
+
+    
+    <string name="hours"><xliff:g id="hours">%s</xliff:g> Stunden</string>
+
+    
+    <string name="minute">"1 Minute"</string>
+
+    
+    <string name="minutes">"<xliff:g id="minutes">%s</xliff:g> Minuten"</string>
+
+    
+    <string name="every_day">Täglich</string>
+
+    
+    <string name="never">Nie</string>
+
+    
+    <string name="day_concat">", "</string>
+
+    
+    <string name="clock_instructions">Wählen Sie eine Uhr</string>
+
+    
+    <string name="analog_gadget">Analoguhr</string>
+
+    
+    <string name="help">Hilfe</string>
+
+    
+    
+    <string name="settings">Einstellungen</string>
+
+    
+    <string name="snooze_duration_title">Schlummerdauer</string>
+
+    <plurals name="snooze_duration">
+        
+        <item quantity="one">1 Minute</item>
+        
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> Minuten</item>
+    </plurals>
+
+    <plurals name="snooze_picker_label">
+        
+        <item quantity="one">Minute</item>
+        
+        <item quantity="other">Minuten</item>
+    </plurals>
+
+    
+    <string name="auto_silence_title">Ruhe nach</string>
+
+    
+    <string name="auto_silence_summary"><xliff:g id="minutes">%d</xliff:g> Minuten</string>
+
+    
+    <string name="auto_silence_never">Nie</string>
+
+    
+    <string-array name="auto_silence_entries">
+      <item>5 Minuten</item>
+      <item>10 Minuten</item>
+      <item>15 Minuten</item>
+      <item>20 Minuten</item>
+      <item>25 Minuten</item>
+      <item>30 Minuten</item>
+      <item>Nie</item>
+      </string-array>
+
+    
+    
+
+    
+    <string name="done">Fertig</string>
+
+    
+    <string name="revert">Standardvorgaben</string>
+
+    
+    <string name="delete">Löschen</string>
+
+    
+    <string name="alarm_volume_title">Alarmlautstärke</string>
+
+    
+    <string name="silent_alarm_summary">Lautlos</string>
+
+    
+    <string name="alarm_notify_text">Schlummer oder Alarm abstellen.</string>
+
+    
+    <string name="alarm_notify_snooze_label"><xliff:g id="label">%s</xliff:g> (Schlummer)</string>
+
+    
+    <string name="alarm_notify_snooze_text">Alarm auf <xliff:g id="time">%s</xliff:g> eingestellt. Zum Abbrechen antippen.</string>
+
+    
+    <string name="volume_button_setting_title">Lautstärketasten</string>
+
+    
+    <string name="volume_button_dialog_title">Tasteneffekt</string>
+
+    
+    <string-array name="volume_button_setting_entries">
+      <item>Schlummer</item>
+      <item>Bestätigen</item>
+      <item>Nichts tun</item>
+      </string-array>
+
+    
+    
+
+    
+    <string name="default_ringtone_setting_title">Standardklingelton festlegen</string>
+
+    <skip/>
+    <string name="alarm_button_description">Alarme</string>
+    <string name="gallery_button_description">Galerie</string>
+    <string name="music_button_description">Musik</string>
+    <string name="nightmode_button_description">Abdunkeln</string>
+    <string name="home_button_description">Launcher</string>
+    <string name="desk_clock_button_description">Uhrzeitanzeige</string>
+
+    
+    <string name="label_description">Bezeichnung</string>
+    <string name="ringtone_description">Klingelton</string>
+
+    
+    <string name="battery_charging_level"><xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+
+    
+    <string name="weather_fetch_failure">Derzeit keine Wetterdaten verfügbar.</string>
+
+    
+    <string name="alarm_klaxon_service_desc">Tonwiedergabe bei in der Uhr eingestellten Alarmen.</string>
+
+    
+    <string name="loading_ringtone">Klingelton laden\u2026</string>
+
+    
+    <string name="timer_ring_service_desc">Tonwiedergabe bei in der Uhr eingestellten Timern.</string>
+
+    
+    <string name="control_set_alarm">Alarm einstellen</string>
+
+    
+
+    
+    
+    <string name="menu_alarm">Alarm</string>
+    
+    <string name="menu_timer">Timer</string>
+    
+    <string name="menu_clock">Uhr</string>
+    
+    <string name="menu_stopwatch">Stoppuhr</string>
+
+    
+    
+    <string name="button_alarms">Alarme</string>
+    
+    <string name="button_cities">Städte</string>
+    
+    <string name="button_menu">Mehr Optionen</string>
+    
+    <string name="menu_item_settings">Einstellungen</string>
+    
+    <string name="menu_item_help">Hilfe</string>
+    
+    <string name="menu_item_night_mode">Nachtmodus</string>
+    
+    <string name="menu_item_sort_by_gmt_offset">Nach Zeit sortieren</string>
+    
+    <string name="menu_item_sort_by_name">Nach Name sortieren</string>
+
+    
+    <string name="selected_cities_label">Ausgewählte Städte</string>
+
+    
+    
+    <string name="sw_resume_button">Fortsetzen</string>
+    
+    <string name="sw_start_button">Start</string>
+    
+    <string name="sw_stop_button">Stopp</string>
+    
+    <string name="sw_lap_button">Zwischenzeit</string>
+    
+    <string name="sw_reset_button">Rücksetzen</string>
+    
+    <string name="sw_share_button">Teilen</string>
+
+    
+    <string name="hours_label">S </string>
+    
+    <string name="minutes_label">M</string>
+    
+    <string name="seconds_label">s</string>
+    
+    <string name="hours_label_description">Stunden</string>
+    <string name="minutes_label_description">Minuten</string>
+    <string name="seconds_label_description">Sekunden</string>
+
+    <string name="zero">0</string>
+
+    
+    
+    <string name="sw_share_main">Meine Uhrzeit: <xliff:g id="time">%s</xliff:g></string>
+    
+    <string name="sw_share_laps">Zwischenzeiten:</string>
+    
+    <string name="sw_notification_lap_number">Zwischenzeit <xliff:g id="number">%d</xliff:g></string>
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    <plurals name="Nhours_description">
+        
+        <item quantity="one">1 Stunde</item>
+        
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> Stunden</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        
+        <item quantity="one">1 Minute</item>
+        
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> Minuten</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        
+        <item quantity="one">1 Sekunden</item>
+        
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> Sekunden</item>
+    </plurals>
+
+    
+    
+    <string name="timer_add_timer">Timer zufügen</string>
+    
+    <string name="timer_start">Start</string>
+    
+    <string name="timer_delete">Löschen</string>
+    
+    <string name="timer_plus_one">1 Minute hinzu</string>
+    
+    <string name="timer_plus_1_min">1 Minute hinzu</string>
+    
+    <string name="timer_stop">Stopp</string>
+    
+    <string name="timer_done">Fertig</string>
+    
+    <string name="timer_reset">Rücksetzen</string>
+    
+    <string name="timer_cancel">Abbrechen</string>
+    
+    <string name="timer_times_up">Zeit abgelaufen</string>
+    
+    <string name="timer_notification_label">Timer</string>
+
+    
+    <string-array name="sw_share_strings" translatable="true">
+        <item>Sie geben ein ordentliches Tempo vor.</item>
+        <item>Genießen Sie die Früchte Ihrer Arbeit.</item>
+        <item>Androiden sind bekanntlich flott, aber nicht so schnell wie Sie!</item>
+        <item>Uff...</item>
+        <item>L33t Zeiten.</item>
+        <item>Gottgleiche Geschwindigkeit.</item>
+        <item>Noch einmal durch die Schallmauer.</item>
+        <item>Nur ein kleiner Schritt für mich.</item>
+        <item>Sie haben einen Hang zur Eile.</item>
+        <item>Lichtgeschwindigkeit.</item>
+    </string-array>
+
+    <plurals name="timers_num">
+        
+        <item quantity="one">1 Minute</item>
+        
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> Timer</item>
+    </plurals>
+
+    
+    <string name="home_label">Startseite</string>
+    
+    <string name="cities_activity_title">Städte</string>
+
+    
+    
+    <string name="clock_settings">UHR</string>
+    
+    <string name="clock_style">Stil</string>
+
+    
+    <string-array name="clock_style_entries">
+      <item>Analog</item>
+      <item>Digital</item>
+    </string-array>
+
+    
+    
+
+    
+    <string name="automatic_home_clock">Automatische Heimatuhrzeit</string>
+    
+    <string name="automatic_home_clock_summary">Wenn Sie in andere Zeitzonen reisen, fügen Sie eine Uhr mit Ihrer Heimatuhrzeit hinzu</string>
+    
+    <string name="home_time_zone">Heimatzeitzone</string>
+    
+    <string name="home_time_zone_title">Heimatzeitzone</string>
+
+    
+    <string name="time_picker_cancel">Abbrechen</string>
+    
+    <string name="time_picker_set">OK</string>
+    <string name="time_picker_time_seperator">:</string>
+    
+    <string name="time_picker_ampm_label">--</string>
+    
+    <string name="time_picker_00_label">:00</string>
+    
+    <string name="time_picker_30_label">:30</string>
+
+    
+    <string-array name="timezone_labels">
+        <item>"Marshall-Inseln"</item>
+        <item>"Midway-Insel"</item>
+        <item>"Hawaii"</item>
+        <item>"Alaska"</item>
+        <item>"Pazifische Zeit"</item>
+        <item>"Tijuana"</item>
+        <item>"Arizona"</item>
+        <item>"Chihuahua"</item>
+        <item>"Mountain-Zeit"</item>
+        <item>"Zentralamerika"</item>
+        <item>"Central-Zeit"</item>
+        <item>"Mexiko-Stadt"</item>
+        <item>"Saskatchewan"</item>
+        <item>"Bogota"</item>
+        <item>"Eastern-Zeit"</item>
+        <item>"Venezuela"</item>
+        <item>"Atlantic-Zeit (Barbardos)"</item>
+        <item>"Atlantic-Zeit (Kanada)"</item>
+        <item>"Manaus"</item>
+        <item>"Santiago"</item>
+        <item>"Neufundland"</item>
+        <item>"Brasilia"</item>
+        <item>"Buenos Aires"</item>
+        <item>"Grönland"</item>
+        <item>"Montevideo"</item>
+        <item>"Mittelatlantik"</item>
+        <item>"Azoren"</item>
+        <item>"Kapverdische Inseln"</item>
+        <item>"Casablanca"</item>
+        <item>"London, Dublin"</item>
+        <item>"Amsterdam, Berlin"</item>
+        <item>"Belgrad"</item>
+        <item>"Brüssel"</item>
+        <item>"Sarajevo"</item>
+        <item>"Windhoek"</item>
+        <item>"Westafrikazeit"</item>
+        <item>"Amman, Jordan"</item>
+        <item>"Athens, Istanbul"</item>
+        <item>"Beirut, Libanon"</item>
+        <item>"Kairo"</item>
+        <item>"Helsinki"</item>
+        <item>"Jerusalem"</item>
+        <item>"Minsk"</item>
+        <item>"Harare"</item>
+        <item>"Bagdad"</item>
+        <item>"Moskau"</item>
+        <item>"Kuwait"</item>
+        <item>"Nairobi"</item>
+        <item>"Teheran"</item>
+        <item>"Baku"</item>
+        <item>"Tiflis"</item>
+        <item>"Yerevan"</item>
+        <item>"Dubai"</item>
+        <item>"Kabul"</item>
+        <item>"Islamabad, Karatschi"</item>
+        <item>"Ural\'sk"</item>
+        <item>"Jekaterinburg"</item>
+        <item>"Kolkata"</item>
+        <item>"Sri Lanka"</item>
+        <item>"Kathmandu"</item>
+        <item>"Astana"</item>
+        <item>"Yangon"</item>
+        <item>"Krasnojarsk"</item>
+        <item>"Bangkok"</item>
+        <item>"Peking"</item>
+        <item>"Hongkong"</item>
+        <item>"Irkutsk"</item>
+        <item>"Kuala Lumpur"</item>
+        <item>"Perth"</item>
+        <item>"Taipeh"</item>
+        <item>"Seoul"</item>
+        <item>"Tokio, Osaka"</item>
+        <item>"Jakutsk"</item>
+        <item>"Adelaide"</item>
+        <item>"Darwin"</item>
+        <item>"Brisbane"</item>
+        <item>"Hobart"</item>
+        <item>"Sydney, Canberra"</item>
+        <item>"Wladiwostok"</item>
+        <item>"Guam"</item>
+        <item>"Magadan"</item>
+        <item>"Auckland"</item>
+        <item>"Fidschi"</item>
+        <item>"Tonga"</item>
+        <item>"Jakarta"</item>
+    </string-array>
+
+    
+
+    
+
+     
+     <string name="alarm_settings">ALARME</string>
+     
+     <string name="see_all">See all…</string>
+     
+     
+     <string name="stopwatch_service_desc">Benachrichtigung per Stoppuhr.</string>
+     
+     <string name="swn_stopped">Gestoppt</string>
+
+    
+    <string name="description_direction_right">Zum Bestätigen nach rechts wischen</string>
+    
+    <string name="description_direction_left">Zum Schlummern nach links wischen</string>
+    
+    <string name="description_direction_up">Zum Bestätigen nach oben wischen</string>
+    
+    <string name="description_direction_down">Zum Schlummern nach unten wischen</string>
+
+    
+    <string name="timer_stopped">Timer gestoppt</string>
+    
+    <string name="timers_stopped"><xliff:g id="number" example="7">%d</xliff:g> Timer gestoppt</string>
+    
+    <string name="all_timers_stopped_notif">Zum Anzeigen Ihrer Timer berühren</string>
+    
+    <string name="timers_in_use"><xliff:g id="number" example="7">%d</xliff:g> Timer</string>
+    
+    <string name="next_timer_notif">Nächster Timer: <xliff:g id="time_remaining" example="2minutesremaining">%s</xliff:g></string>
+
+    
+    
+    <string name="screensaver_settings">Traumeinstellungen</string>
+    
+    <string name="night_mode_title">Nachtmodus</string>
+    
+    <string name="night_mode_summary">Sehr dunkles Display (für dunkle Räume)</string>
+
+    
+    <string name="expand_alarm">Alarm aufklappen</string>
+    
+    <string name="collapse_alarm">Alarm zuklappen</string>
+
+    
+    <string name="alarm_undo">Rückgängig</string>
+    
+    <string name="alarm_deleted">Alarm gelöscht.</string>
+    
+    <string name="slash"> / </string>
+    
+    <string name="world_day_of_week_label">/ <xliff:g id="label">%s</xliff:g></string>
+    
+    <string name="next_alarm_description">Nächster Alarm: <xliff:g id="alarm_time" example="Wed8:00am">%s</xliff:g></string>
+    <string name="label_unlabeled"/>
+
+    
+    <string name="alarms_selected"><xliff:g id="alarms">%d</xliff:g> ausgewählt</string>
+
+    
+    <string name="deleted_message">Gelöscht</string>
+
+    
+    <plurals name="alarm_delete_confirmation">
+        
+        <item quantity="one">Ausgewählten Alarm löschen?</item>
+        
+        <item quantity="other">Ausgewählte Alarme löschen?</item>
+    </plurals>
+
+    
+    <string name="timer_delete_confirmation">Diesen Timer löschen?</string>
+
+    
+    <string name="city_delete_confirmation">Diese Stadt entfernen?</string>
+
+    
+    <string name="digital_gadget">Digitaluhr</string>
+    <string name="no_alarms">Keine Alarme</string>
+    
+    <string name="no_upcoming_alarms">KEINE KOMMENDEN ALARME</string>
+    <string name="alarm_tomorrow">"morgen"</string>
+    <string name="alarm_alert_off_action_text">Off</string>
+    <plurals name="alarm_alert_snooze_duration">
+        <item quantity="one">1 Min</item>
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> min</item>
+    </plurals>
+    <plurals name="alarm_alert_snooze_set">
+        <item quantity="other"><xliff:g id="minutes">%d</xliff:g> Minuten schlummern.</item>
+        <item quantity="one">Schlummern für 1 Minute</item>
+    </plurals>
+    <string name="alarm_today">Heute</string>
+    <string name="alarm_alert_wake_up">Wecken\u0021</string>
+    <string name="alarm_alert_snoozed_text">Schlummern</string>
+    <string name="alarm_alert_off_text">Wecker aus</string>
+    <string name="timers_max_count_reached">Maximal 4-mal </string>
+    <string name="no_alarms_set">Kein Wecker eingestellt</string>
+    <string name="swipe_dismiss_instruction">Zum Bestätigen nach rechts wischen</string>
+    <string name="swipe_snooze_instruction">Zum Schlummern nach links wischen</string>
+</resources>

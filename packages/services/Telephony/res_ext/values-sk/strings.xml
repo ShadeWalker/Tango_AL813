@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">Redukcia šumu</string>
+    <string name="dual_mic_summary">Počas hovoru potláča šum pozadia</string>
+    <string name="anc_title">Aktívna redukcia šumu</string>
+    <string name="anc_on">ANC je zapnutá</string>
+    <string name="anc_off">ANC je vypnutá</string>
+    <string name="ip_prefix_setting">Predčíslie IP</string>
+    <string name="ip_prefix_setting_lable">Predčíslie IP (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">Nastavenia predčíslia IP</string>
+    <string name="enter_ip_prefix_number">Zadajte predčíslie</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">V nastaveniach hlasového hovoru najskôr zadajte predčíslie IP.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">Funkciu vytáčania IP nemožno použiť pre internetový hovor.</string>
+    <string name="ip_prefix_edit_default_sum">Pre vytáčanie IP zadajte predčíslie</string>
+    <string name="lable_call_barring">"Blokovanie hovorov"</string>
+    <string name="title_call_barring">Blokovanie hovorov (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">Všetky odchádzajúce hovory</string>
+    <string name="lable_all_outgoing_international">Odchádzajúce medzinárodné hovory</string>
+    <string name="lable_all_out_except">Odchádzajúce medzinárodné hovory okrem domácich PLMN</string>
+    <string name="lable_all_incoming">Všetky prichádzajúce hovory</string>
+    <string name="lable_incoming_calls_except">Prichádzajúce videohovory počas roamingu</string>
+    <string name="deactivate_all">Zrušiť všetky</string>
+    <string name="change_password">Zmeniť heslo pre blokovanie</string>
+    <string name="call_barring_sum">Nastavenia blokovania videohovoru</string>
+    <string name="lable_disable">"Zakázané"</string>
+    <string name="lable_enable">"Povolené"</string>
+    <string name="old_password_label">Staré heslo (4 čísla)</string>
+    <string name="new_password_label">Nové heslo (4 čísla)</string>
+    <string name="invalid_password">Zadajte 4-číselné heslo.</string>
+    <string name="confirm_password_label">Potvrďte nové heslo</string>
+    <string name="mismatch_password">Zadané heslo sa nezhoduje. Skúste prosím znova.</string>
+    <string name="password_changed">Heslo bolo úspešne zmenené</string>
+    <string name="enter_callbarring_password">Zadajte heslo pre blokovanie hovoru (4 čísla)</string>
+    <string name="wrong_password">Chybné heslo</string>
+    <string name="error_title">"Chyba"</string>
+    <string name="cell_broadcast">Mobilné vysielanie</string>
+    <string name="cell_broadcast_settings">Nastavenia mobilného vysielania</string>
+    <string name="cb_menu_language">"Jazyk"</string>
+    <string name="cb_menu_add_channel">Pridať kanál</string>
+    <string name="cb_menu_channel_list">Zoznam kanálov</string>
+    <string name="cb_dialog_title_language_choice">Vybrať jazyk</string>
+    <string name="cb_channel_dialog_channel_name">Názov kanála (0 až 10 znakov)</string>
+    <string name="cb_channel_dialog_channel_number">Číslo kanála (0 až 65534)</string>
+    <string name="cb_channel_dialog_channel_state">Zapnúť kanál</string>
+    <string name="cb_channel_dialog_edit_channel">Upraviť kanál</string>
+    <string name="cb_menu_edit">"Upraviť"</string>
+    <string name="cb_menu_delete">"Odstrániť"</string>
+    <string name="cb_error_channel_num">Zadajte číslo kanála (0 až 65534)</string>
+    <string name="cb_error_channel_name">Nesprávna dĺžka názvu kanála (1 až 10 znakov).</string>
+    <string name="cb_error_language_select">Vyberte prosím aspoň jeden jazyk.</string>
+    <string name="cb_error_channel_id_exist">Tento kanál už existuje</string>
+    <string name="cb_all_languages">"Všetky jazyky"</string>
+    <string name="cb_default_new_channel_name">Nový kanál</string>
+    <string name="fdn_errorcode_unknown_info">Nepodarilo sa. Došlo k neznámej chybe. Skúste prosím neskôr.</string>
+    <string name="fdn_errorcode_number_info">Nepodarilo sa. Číslo kontaktu je príliš dlhé.</string>
+    <string name="fdn_errorcode_name_info">Nepodarilo sa. Meno kontaktu je príliš dlhé.</string>
+    <string name="fdn_errorcode_storage_info">Nepodarilo sa. Pamäť je plná.</string>
+    <string name="fdn_errorcode_phb_info">Nepodarilo sa. Telefónny zoznam teraz nie je pripravený. Skúste prosím neskôr.</string>
+    <string name="fdn_errorcode_pin2_info">Nepodarilo sa. Neplatný PIN2</string>
+    <string name="net_or_simcard_busy">Sieť alebo karta SIM je zaneprázdnená. Skúste prosím neskôr.</string>
+    <string name="plmn_list_setting_title">Uprednostňované siete</string>
+    <string name="network_id">ID siete</string>
+    <string name="plmn_list_setting_add_plmn">Nové PLMN</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">"Hľadať..."</string>
+    <string name="sum_search_femtocell_networks">Femtocell vyberte ručne</string>
+    <string name="register_femtocell_point_wait_tip">Prebieha registrácia <xliff:g id="femto_cell_info">%s</xliff:g> …</string>
+    <string name="register_femtocell_point_result_fail_tip">Teraz sa nemožno pripojiť k tejto sieti. Skúste znova neskôr.</string>
+    <string name="network_type">Typ siete</string>
+    <string name="gsm_umts_network_preferences_title">"Režim siete"</string>
+    <string name="gsm_umts_network_preferneces_summary">Zatiaľ nie je vykonaný!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"Režim siete"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G (autom.)</item>
+        <item>Iba 3G</item>
+        <item>Iba 2G</item>
+    </string-array>
+    <string name="notification_voicemail_text">Ak chcete zobraziť hlasovú poštu, vyberte toto nastavenie</string>
+    <string name="notification_network_selection_without_operator">Vybratá sieť nie je k dispozícii</string>
+    <string name="network_setting_all_forbidden_dialog">Žiadne dostupné siete.</string>
+    <string name="network_forbidden">zakázaná</string>
+    <string name="fdn_contact_number_invalid">Neplatné číslo kontaktu.</string>
+    <string name="fdn_puk_need_tips">PIN2 je zablokovaný. Zmeňte PIN2 a skúste znova. </string>
+    <string name="fdn_phone_book_busy">Telefónny zoznam je teraz zaneprázdnený. Skúste prosím neskôr.</string>
+    <string name="one_retry_left">Zostáva 1 opakovanie</string>
+    <string name="retries_left">Zostáva <xliff:g id="number">%d</xliff:g> opakovaní</string>
+    <string name="pin_length_indicate">(4 až 8 číslic)</string>
+    <string name="puk_length_indicate">(8 číslic)</string>
+    <string name="unblock_pin2">Odblokovať PIN2</string>
+    <string name="sim_permanently_locked">Nesprávny kód PUK2 bol zadaný viac ako 10-krát. Karta SIM je natrvalo zablokovaná</string>
+    <string name="magi_conference_title">Magický konferenčný hovor</string>
+    <string name="magi_conference_summary">Ak viac ľudí telefonuje s príjemcom na druhom konci linky, zlepšuje kvalitu hlasu.</string>
+    <string name="volte_is_adding_participants">Pridávajú sa členovia konferencie, čakajte prosím ...</string>
+    <string name="volte_fail_to_invit_participants">Všetkých členov sa nepodarilo pridať ku konferencii.</string>
+    <string name="voicemail_lable">Hlasová schránka (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">Na dokončenie operácie musíte otvoriť pripojenie údajov <xliff:g id="sub_name">%s</xliff:g>.</string>
+    <string name="cdma_labelCFU">"Trvalé presmerovanie"</string>
+    <string name="cdma_labelCFB">"Presmerovať – obsadené"</string>
+    <string name="cdma_labelCFNRy">"Presmerovať – neprijatý hovor"</string>
+    <string name="cdma_labelCFNRc">"Presmerovať v prípade nedostupnosti"</string>
+    <string name="cdma_labelCFC">Zrušiť všetky presmerovania</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">Vypnúť obmedzenie identifikačného čísla volajúceho</string> 
+    <string name="cdma_cnir_turnon">Zapnúť obmedzenie identifikačného čísla volajúceho</string>
+    <string name="lte_data_only_prompt">Túto funkciu nemožno použiť z dôvodu iba režimu údajov 4G. Chcete ukončiť iba režim údajov 4G?</string>
+    <string name="lte_data_only_timeout">Vo vašej aktuálnej polohe nie je k dispozícii sieť iba pre údaje 4G. Chcete ukončiť a vyhľadať pre inú sieť?  </string>
+    <string name="lte_only_dialog_button_yes">"ÁNO"</string>
+    <string name="lte_only_dialog_button_no">"NIE"</string>
+    <string name="lte_only_dialog_title_prompt">Výzva</string>
+    <string name="enable_4G_data">Povoliť údaje 4G</string>
+    <string name="enable_4G_data_summary">4G poskytuje lepší a rýchlejší prístup k internetu</string>
+    <string name="only_use_LTE_data">Použiť iba údaje LTE</string>
+    <string name="only_use_LTE_data_summary">Ak chcete povoliť použitie iba jedného údaja, táto funkcia nebude môcť použiť telefonický hovor a textové správy</string>
+    <string name="network_current">Registrovať</string>
+    <string name="network_unkown">neznáme</string>
+    <string name="network_available">K dispozícii</string>
+</resources>

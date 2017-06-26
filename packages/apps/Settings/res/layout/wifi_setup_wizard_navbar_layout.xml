@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal"
+    android:paddingTop="50dip"
+    android:paddingEnd="24dp"
+    android:paddingStart="24dp" >
+
+    <Button
+        android:id="@+id/setup_wizard_navbar_back"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dip"
+        android:layout_weight="1"
+        android:text="@string/wifi_setup_back" />
+
+    <Button
+        android:id="@+id/setup_wizard_navbar_next"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_weight="1"
+        android:text="@string/wifi_setup_skip" />
+</LinearLayout>

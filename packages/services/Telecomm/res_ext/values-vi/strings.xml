@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="str_db_playlist_name">Bản ghi âm riêng</string>
+    <string name="alert_device_error">Xảy ra lỗi trên thiết bị âm thanh</string>
+    <string name="ext_media_badremoval_notification_title">"Thẻ SD bị tháo đột ngột"</string>
+    <string name="error_sdcard_access">"Không thể truy cập thẻ SD"</string>
+    <string name="confirm_device_info_full">Thẻ SD hết dung lượng lưu trữ, bản ghi âm đã được lưu lại.</string>
+    <string name="confirm_save_info_saved">Bản ghi âm đã được lưu lại</string>
+    <string name="confirm_save_info_saved_to">Mục ghi đã được lưu vào</string>
+    <string name="select_account_dialog_title">"Chọn tài khoản"</string>
+    <string name="reminder">Báo nhắc</string>
+    <string name="enable_ims_dialog_message">Đã tắt cuộc gọi IMS, bạn có muốn bật nó?</string>
+    <string name="ip_dial_error_for_sip_call">Chức năng gọi IP sẽ không áp dụng cho cuộc gọi qua internet.</string>
+    <string name="call_duration_title">"Cuộc gọi đã kết thúc"</string>
+    <string name="call_duration_format">"<xliff:g id="HOURS">%1$s</xliff:g> giờ <xliff:g id="MINUTES">%2$s</xliff:g> phút <xliff:g id="SECONDS">%3$s</xliff:g> giây"</string>
+    <string name="volte_ss_not_avaliable_tips">Để hoàn tất thao tác, bạn cần mở kết nối dữ liệu.</string>
+    <string name="outgoing_call_failed">"Cuộc gọi không được gửi đi."</string>
+    <string name="volte_ss_not_available_tips">Để hoàn tất thao tác, bạn cần mở kết nối dữ liệu <xliff:g id="sub_name">%s</xliff:g>.</string>
+    <string name="call_waiting_indication">Người nghe đang bận máy, vui lòng đợi…</string>
+    <!-- HQ_fengsimin add for HQ00055994 start -->
+    <string name="call_waiting_indication_east">Số điện thoại bạn đang cố liên lạc đang bận, hãy giữ máy.</string>
+    <!-- HQ_fengsimin add for HQ00055994 end -->
+</resources>

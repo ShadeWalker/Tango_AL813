@@ -1,0 +1,15 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+                  android:title="@string/fingerprint_list">
+    <PreferenceCategory android:key="fingerprint_list_category"
+            android:title="@string/fingerprint_list_one"
+            android:persistent="false">
+        <Preference android:key="fingerprint_one"
+                android:title="@string/settings_null"
+                android:persistent="false"/>
+        <Preference android:key="new_fingerprint"
+                android:title="@string/new_fingerprint"
+                android:persistent="false"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

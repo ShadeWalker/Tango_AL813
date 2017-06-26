@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2006 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
+    <string name="menu_print">Prindi</string>
+    <string name="printContact">Prindi kontaktteave</string>
+    <string name="no_way_to_print">Kontaktteabe printimiseks puuduvad rakendused.</string>
+    <string name="no_sdcard_title" product="nosdcard">microSD-kaart puudub</string>
+    <string name="no_sdcard_title" product="default">Mäluseade pole saadaval.</string>
+    <string name="recentCalls_delete">Kustuta</string>
+    <string name="menu_selectAll">"Vali kõik"</string>
+    <string name="menu_clearAll">"Tühista kogu valik"</string>
+    <string name="all_resources">Kõik allikad</string>
+    <string name="choose_resources_header">Vali allikad</string>
+    <string name="all_tab_label1">Kõik</string>
+    <string name="call_log_item_count">(<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="call_sipcall">"Interneti-kõne"</string>
+    <string name="call_pin_dialog_title">Vali SIM-kaart</string>
+    <string name="call_people">"Inimesed"</string>
+    <string name="call_ip_dial">IP valimine</string>
+    <string name="call_speed_dial">Kiirvalimine</string>
+    <string name="send_message">Saada sõnum</string>
+    <string name="call_video_call">Videokõne</string>
+    <string name="add_speed_dial">Puudutage kiirvalimise lisamiseks</string>
+    <string name="speed_dial_added"> 
+        <xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) lisati kiirvalimisse 
+        <xliff:g id="key">%3$s</xliff:g> 
+    </string>
+    <string name="speed_dial_added2"> 
+        <xliff:g id="contact_name">%1$s</xliff:g> lisati kiirvalimisse 
+        <xliff:g id="key">%2$s</xliff:g> 
+    </string>
+    <string name="remove_speed_dial">Eemalda</string>
+    <string name="remove_sd_confirm_1">Kas olete kindel, et tahate eemaldada kontakti 
+        <xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) kiirvalimisest 
+        <xliff:g id="key">%3$s</xliff:g>?
+    </string>
+    <string name="remove_sd_confirm_2">Kas olete kindel, et tahate eemaldada kontakti 
+        <xliff:g id="contact_name">%1$s</xliff:g> kiirvalimisest 
+        <xliff:g id="key">%2$s</xliff:g>?
+    </string>
+    <string name="emergencycall">Hädaabikõne</string>
+    <string name="imei_invalid">Kehtetu</string>
+    <string name="call_log_filter_all_resources">Kõik allikad</string>
+    <string name="turn_on_3g_service_message">"3G-teenus on välja lülitatud, soovite seda sisse lülitada?"</string>
+    <string name="associate_sim_missing_message">"%1$s pole saadaval. Kas soovite helistamiseks kasutada järgmist: %2$s?"</string>
+    <string name="associate_sim_missing_other">"Muud"</string>
+    <string name="sim_manage_call_via">"Helista järgmise kaudu:"</string>
+    <string name="callFailed_simError">"SIM-kaarti pole või SIM-kaardi tõrge"</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">"Esmalt sisestage IP-eesliite number kõneseadetes."</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">"IP-valimise funktsioon ei kehti internetikõnele."</string>
+    <string name="sd_add">Lisa</string>
+    <string name="reselect_number">Numbrile on juba määratud kiirvalimise klahv, valige muu number.</string>
+    <string name="calllog_today">Täna</string>
+    <string name="calllog_yesterday">Eile</string>
+    <string name="menu_association">Seosta kaart</string>
+    <string name="menu_remove_association">Eemalda kaardilt</string>
+    <string name="remove_association_message">See number eemaldatakse kaardilt.</string>
+    <string name="remove_number_title">Eemalda</string>  
+    <string name="warning_detail">Kaardiga seostamisel imporditakse kontakt telefoni. Kas soovite siiski jätkata?</string>
+    <string name="block_incoming_call">Blokeeri sissetulevad kõned</string>
+    <string name="block_video_incoming_call">Keeldu automaatselt videokõnedest</string>
+    <string name="menu_actionbar_selected_items">
+<xliff:g id="name">%s</xliff:g> valitud</string>
+    <string name="has_double_phone_number">Kahte sama tüüpi numbrit ei saa salvestada.</string>
+    <string name="phone_book_busy">Telefoniraamat on hetkel hõivatud. Proovige hiljem uuesti.</string>
+    <string name="sim_invalid">Kaart on kehtetu. Kontakte ei saa salvestada.</string>
+    <string name="cannot_insert_null_number">Ei saa salvestada kontakti, kel pole numbrit.</string>
+    <string name="AirPlane_mode_on">Kontakte ei saa lennurežiimis salvestada.</string>
+    <string name="FDNEnabled">Kui kõnepiirang on lubatud, ei saa kontakte salvestada.</string>
+    <string name="sim_invalid_number">Kehtetuid numbreid ei saa salvestada.</string>
+    <string name="email_invalid">Kehtetuid e-posti aadresse ei saa salvestada.</string>
+    <string name="email_2g_invalid">E-maile ei saa salvestada 2G SIM-kaardile. Salvestage 3G SIM-kaardile.</string>
+    <string name="sim_invalid_fix_number">Kehtetuid fiksnumbreid ei saa salvestada.</string>
+    <string name="AirPlane_mode_on_edit">Kontakte ei saa lennurežiimis muuta.</string>
+    <string name="msg_loading_sim_contacts_toast">SIM-kaardi kontaktide laadimine taustal... Palun oodake.</string>
+    <string name="fix_number_too_long">"Fiksnumber on liiga pikk."</string>
+    <string name="name_too_long">"Nimi on liiga pikk."</string>
+    <string name="storage_full">"Mälu on täis."</string>
+    <string name="number_too_long">"Number on liiga pikk."</string>
+    <string name="generic_failure">"Üldtõrge."</string>
+    <string name="email_too_long">E-posti aadress on liiga pikk.</string>
+    <string name="send_groupsms_no_number_more">"Kontaktil %1$s ja veel %2$s kontaktil on kehtetud telefoninumbrid."</string>
+    <string name="send_groupsms_no_number_1">"Kontaktil %1$s pole kehtivat telefoninumbrit."</string>
+    <string name="send_groupsms_no_number_2">"Kontaktidel %1$s ja %2$s on kehtetud telefoninumbrid."</string>    
+    <string name="account_type_sim" product="tablet">SIM-konto</string>
+    <string name="account_type_sim" product="default">SIM-konto</string>
+    <string name="account_type_usim" product="tablet">USIM-konto</string>
+    <string name="account_type_usim" product="default">USIM-konto</string>
+    <string name="account_type_local_phone" product="tablet">Kohalik Telefonikonto</string>
+    <string name="account_type_local_phone" product="default">Telefoni kohalik konto</string>
+    <string name="local_account_type" product="tablet">Kohalik Konto</string>
+    <string name="local_account_type" product="default">Kohalik Konto</string>
+    <string name="local_account_label" product="tablet">Kohalik Konto</string>
+    <string name="local_account_label" product="default">Kohalik Konto</string>
+    <string name="account_type_sim_label" product="tablet">Ainult SIM, sünkroonimata</string>
+    <string name="account_type_sim_label" product="default">Ainult SIM, sünkroonimata</string>
+    <string name="account_type_usim_label" product="tablet">Ainult USIM, sünkroonimata</string>
+    <string name="account_type_usim_label" product="default">Ainult USIM, sünkroonimata</string>
+    <string name="move_contacts_to">Teisalda kontaktid üksusesse</string>
+    <string name="menu_move_group">"Teisalda rühmaliikmed üksusesse"</string> 
+    <string name="menu_message_group">"Saada rühmasõnum"</string>
+    <string name="menu_email_group">"Saada rühma e-kiri"</string>    
+    <string name="moving_group_members">"Teisaldan grupiliikmed üksusesse\u2026"</string>
+    <string name="removing_group_members_sucess">Rühmaliikmed eemaldatud.</string>
+    <string name="moving_group_members_sucess">Rühmaliikmed teisaldatud.</string>
+    <string name="moving_group_members_fail">Rühmaliikmete teisaldamine nurjus.</string>
+    <string name="no_valid_number_in_group">Selle rühma kontaktidel pole kehtivaid telefoninumbreid.</string>
+    <string name="no_valid_email_in_group">Selle rühma kontaktidel pole kehtivaid e-posti aadresse.</string>
+    <string name="email_error">Installige e-posti rakendus või seadistage oma kontot.</string>
+    <string name="usim_group_name_exceed_limit">"Rühma nimi on salvestamiseks liiga pikk."</string>
+    <string name="usim_group_count_exceed_limit">"Rohkem uusi rühmasid ei saa salvestada."</string>
+    <string name="name_needed">Sisestage nimi.</string>
+    <string name="save_group_fail">Rühma salvestamine nurjus.</string>
+    <string name="group_name_exists">Rühma nimi on juba olemas.</string>
+    <string name="group_discard_member">Loobu</string>
+    <string name="group_discard_member_reason">Rühma nimi ei sobi. Muudatused hüljatakse.</string>
+    <string name="import_export_title">Impordi/Ekspordi</string>
+    <string name="next">"Järgmine"</string>
+    <string name="imexport_bridge_sd_card">microSD-kaart</string>
+    <string name="tips_source">Kopeeri kontaktid kohast:</string>
+    <string name="tips_target">Kopeeri kontaktid kohta:</string>
+    <string name="back">"Tagasi"</string>
+    <string name="imexport_title">Impordi/Ekspordi Kontaktid</string>
+    <string name="xport_error_one_account">"Kontaktide importimiseks/eksportimiseks sisestage SIM-kaart või SD-kaart."</string>
+    <string name="store_contact_to">Salvesta kontaktid üksusesse</string>
+    <string name="menu_delete_contact">Kustuta kontakt</string>
+    <string name="menu_conference_call">"Konverentskõne"</string>
+    <string name="notifier_finish_delete_title">Kontaktid kustutatud.</string>
+    <string name="notifier_finish_delete_content">Kustutatud kontaktid: 
+        <xliff:g id="total">%d</xliff:g> 
+    </string>
+    <string name="notifier_finish_copy_title">Kontaktid kopeeritud.</string>
+    <string name="notifier_finish_copy_content">Kopeeritud kontaktid: 
+        <xliff:g id="total">%d</xliff:g> 
+    </string>
+    <string name="notifier_multichoice_process_report">Lõpetatud: 
+        <xliff:g id="items">%d</xliff:g>\nLõpetamata: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+    <string name="notifier_failure_by_sim_full">Tõrke põhjustas SIM-kaardi mälu, mis on täis\nLõpule viidud: 
+        <xliff:g id="items">%d</xliff:g>\nLõpule viimata: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+    <string name="notifier_failure_sim_notready">Tõrke põhjustas SIM-kaart, mis pole valmis\nLõpule viidud: 
+        <xliff:g id="items">%d</xliff:g>\nLõpule viimata: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+    <string name="notifier_cancel_delete_title">Kontaktide kustutamine tühistatud.</string>
+    <string name="notifier_fail_delete_title">Kontaktide kustutamine nurjus.</string>
+    <string name="notifier_cancel_copy_title">Kontaktide kustutamine nurjus.</string>
+    <string name="notifier_fail_copy_title">Kontaktide kopeerimine nurjus.</string>
+    <string name="notifier_progress__delete_will_start_message">Kontaktid kustutatakse.</string>
+    <string name="notifier_progress_delete_message">Kontaktide 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g> kustutamine: 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> 
+    </string>
+    <string name="notifier_progress_delete_description">Kontakti 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> kustutamine
+    </string>
+    <string name="notifier_progress__copy_will_start_message">Kontaktid kopeeritakse.</string>
+    <string name="notifier_progress_copy_message">Kontaktide 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g> kopeerimine: 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> 
+    </string>
+    <string name="notifier_progress_copy_description">Kontakti 
+        <xliff:g example="JoeDue" id="name">%s</xliff:g> kopeerimine
+    </string>
+    <string name="multichoice_confirmation_title_delete">Kontakti kustutamise tühistamine...</string>
+    <string name="multichoice_confirmation_message_delete">Tühistan kontakti kustutamise?</string>
+    <string name="multichoice_confirmation_title_copy">Kontakti kustutamise tühistamine</string>
+    <string name="multichoice_confirmation_message_copy">Tühistan kontakti kopeerimise?</string>
+    <string name="multichoice_no_select_alert">Üksusi pole valitud.</string>
+    <string name="multichoice_delete_confirm_message">Valitud kontaktid kustutatakse.</string>
+    <string name="multichoice_delete_confirm_title">Kustuta kontaktid?</string>
+    <string name="multichoice_contacts_limit">"Valitud kontakte ei tohi olla rohkem kui "<xliff:g id="count">%d</xliff:g>" "</string>
+    <string name="phone_storage_full_create">Kui telefoni mälu on täis, ei saa kontakte luua.</string>
+    <string name="phone_storage_full_edit">Kui telefoni mälu on täis, ei saa kontakte muuta.</string>
+	<string name="add_SIP_to_sim">Kaardi kontaktidele ei saa SIP-numbrit lisada.</string>
+	<string name="already_has_SIP">Ühele kontaktile ei saa kahte SIP-numbrit lisada. Jätkamiseks kustutage esmalt vana SIP-number.</string>
+    <plurals name="searchFoundCalllogs">
+        <item quantity="one">1 kõnekirje</item>
+        <item quantity="other"> 
+            <xliff:g id="count">%d</xliff:g> kõnekirjet
+        </item>
+    </plurals>
+    <string name="search_results_for">Otsingu 
+        <xliff:g id="query">%s</xliff:g> tulemused
+    </string>
+    <string name="listFoundAllCalllogZero">Kõnekirjeid pole</string>
+    <string name="calllogList">Kõne ajalugu</string>
+    <string name="calllogHint">Otsi kõnelogisid</string>
+    <string name="calllog_description">Vastuvõetud, valitud ja vastamata kõned</string>
+    <string name="noMatchingCalllogs">Kattuvaid kõnekirjeid ei leitud.</string>
+    <string name="menu_videocallNumber">Videokõne 
+        <xliff:g id="name">%s</xliff:g> 
+    </string>
+    <string name="menu_ipcallNumber">IP-kõne 
+        <xliff:g id="name">%s</xliff:g> 
+    </string>
+    <string name="deleting_call_log">Kõnekirjete kustutamine...</string>
+    <string name="no_vm_number">"Kõnepostinumbrit pole"</string>
+    <string name="no_vm_number_msg">"SIM-kaardile pole salvestatud ühtegi kõnepostinumbrit."</string>
+    <string name="add_vm_number_str">"Lisa number"</string>
+    <string name="reminder">"Meeldetuletus"</string>
+    <string name="enable_sip_dialog_message">"Internetikõne on keelatud, kas tahate seda lubada?"</string>
+    <string name="share_contacts_limit">Saate valida kuni 
+        <xliff:g id="count">%d</xliff:g> kontakti.
+    </string>
+    <string name="contact_delete_all_tips">"Toimingut ei saa kontaktide kustutamise ajal teostada."</string>
+    <string name="sum_search_networks">"Otsi kõik saadaolevad võrgud"</string>
+    <string name="deleteCallLogConfirmation_title">Kustutan kõnelogid?</string>
+    <string name="deleteCallLogConfirmation_message">Valitud kõnekirjed kustutatakse.</string>
+    <string name="file_already_on_sd_card">"Fail on juba SD-kaardil."</string>
+    <string name="send_file_sms_error">Faili ei saa SMS-i abil jagada. Valige MMS.</string>
+    <string name="user_profile_cannot_sd_card">"Sisu ei saa sel viisil jagada."</string>
+    <string name="error_save_usim_contact_email_lost">"E-posti aadressi salvestamine ebaõnnestus, kuna postkasti mäluruum on täis."</string>
+    <string name="error_import_usim_contact_email_lost">"Mõne kontakti e-posti aadressi importimine ebaõnnestus, kuna postkasti mäluruum on täis.\nLõpetatud: <xliff:g id="items">%d</xliff:g>\nLõpetamata: <xliff:g id="items">%d</xliff:g>"</string>
+    <string name="type_ip_outgoing">Väljaminev IP-kõne ( 
+        <xliff:g id="name">%s</xliff:g>)
+    </string>
+    <string name="call_sms">SMS</string>
+    <string name="delete_group_failure">Rühma kustutamine nurjus.</string>
+    <string name="account_type_uim_label" product="tablet">Ainult UIM, sünkroonimata</string>
+    <string name="account_type_uim_label" product="default">Ainult UIM-kaart, sünkroonimata</string>
+    <string name="call_log_auto_rejected_label">Automaatselt eiratud kõned</string>
+    <string name="import_no_vcard_dialog_text">Üksuses 
+        <xliff:g id="storage_name">%s</xliff:g> ei leitud vCard\'i faile.
+    </string>
+    <string name="look_simstorage">Vaata SIM-kaardi mahutavust</string>
+    <string name="contact_group_list_title">Vali rühm</string>
+    <string name="send_groupemail_no_number_more">Kontaktil %1$s ja veel %2$s kontaktil on kehtetud e-posti aadressid.</string>
+    <string name="send_groupemail_no_number_1">Kontaktil %1$s on kehtetu e-posti aadress.</string>
+    <string name="send_groupemail_no_number_2">Kontaktidel %1$s ja %2$s on kehtetud e-posti aadressid.</string>
+    <string name="add_contact_dlg_title">Lisa kontakt</string>
+    <string name="deleteConfirmation_title">Kustuta kontakt?</string>
+    <string msgid="4313552620858880999" name="dialog_phone_call_prohibited_title">Kõne ei ole välja saadetud</string>
+    <string name="dialog_voicemail_not_ready_title">Kõneposti number pole saadaval</string>
+    <string name="scanning_sdcard_failed_title" product="nosdcard">SD-kaardi skannimine nurjus.</string>
+    <string name="scanning_sdcard_failed_title" product="default">SD-kaardi skannimine nurjus.</string>
+    <string name="nickname_too_long">Hüüdnimi on liiga pikk.</string>
+    <string name="pick_new_photo_from_gallery">Vali uus foto</string>
+    <string name="copy_text_to_dialer">Kopeeri valijale</string>
+    <string name="contact_detail_group_list_title">Rühmad</string>
+    <string name="contact_detail_group_not_assigned">Pole määratud</string>
+    <string name="contact_detail_group_list_nogroups">Rühmi pole. Loon uue?</string>
+    <string name="recents">Viimased kontaktid</string>
+    <string name="contact_no_recents">Viimased kontaktid puuduvad</string>
+    <string name="contact_detail_ip_call">IP-kõne</string>
+    <string name="contact_detail_history_mms_received_time">"Vastuvõtmise aeg: %1$s"</string>
+    <string name="contact_detail_history_mms_received_from">"Saatja: %1$s"</string>
+    <string name="contact_detail_history_mms_sent_time">"Saatmise aeg: %1$s"</string>
+    <string name="contact_detail_history_mms_sent_to">"Adressaat: %1$s"</string>
+    <string name="contact_detail_history_calllog">KÕNE AJALUGU</string>
+    <string name="contact_detail_history_mms">SÕNUMID</string>
+    <string name="contact_detail_history_duration">Kestus:</string>
+    <string name="contact_detail_history_ismms">"Multimeediumsõnum"</string>
+    <string name="contact_detail_history_empty_calllog">Kõne ajalugu on tühi</string>
+    <string name="contact_detail_history_empty_message">Sõnumeid pole</string>
+    <string name="contact_detail_history_empty">Kõnede või sõnumite ajalugu puudub</string>
+    <string name="contact_recent_number_limit">Saadaval ainult %1$s kontakti</string>
+    <string name="call_pin_dialog_title_ct">Vali UIM-/SIM-kaart</string>
+    <string name="callFailed_simError_ct">UIM-/SIM-kaart puudub või UIM-/SIM-kaardi viga</string>
+    <string name="msg_loading_sim_contacts_toast_ct">UIM-/SIM-kaardi kontaktide laadimine taustal... Palun oodake.</string>
+    <string name="xport_error_one_account_ct">Kontaktide importimiseks/eksportimiseks sisestage UIM-/SIM-kaart või microSD-kaart.</string>
+    <string name="notifier_failure_by_sim_full_ct">UIM-/SIM-kaardi mälu täis\nLõpule viidud: 
+        <xliff:g id="items">%d</xliff:g>\nLõpule viimata: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+    <string name="notifier_failure_sim_notready_ct">UIM-/SIM-kaart pole valmis\nLõpule viidud: 
+        <xliff:g id="items">%d</xliff:g>\nLõpule viimata: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+    <string name="look_simstorage_ct">Vaata UIM-/SIM-kaardi mahutavust</string>
+    <string name="callFailed_cdma_notEmergency">"Helistada saab ainult hädaabitelefonile."</string>
+    <string name="international_dialing_title">"Rahvusvaheliste kõnede abi"</string>
+    <string name="international_dialing_select_country">"Olete valimas kõnet välisriiki. Valige sihtkoht."</string>
+    <string name="international_dialing_add_country_code">Valite numbrit, mille asukoht on 
+        <xliff:g id="country_name">%s</xliff:g>. Kas soovite lisada maa koodi (+ 
+        <xliff:g id="country_code">%s</xliff:g>)?
+    </string>
+    <string name="international_dialing_add_country_code_and_area_code">Koht, kus praegu numbrit valite, on 
+        <xliff:g id="area_name">%1$s</xliff:g>, 
+        <xliff:g id="country_name">%2$s</xliff:g>. Kas soovite lisada maa koodi ja piirkonnakoodi (+ 
+        <xliff:g id="prefix">%3$s</xliff:g>)?
+    </string>
+    <string name="international_dialing_change_country_prefix">Riik, kus praegu numbrit valite, on 
+        <xliff:g id="country_name">%s</xliff:g>. Kas soovite kasutada rahvusvahelise kõne eesliidet \'+\'?
+    </string>
+    <string name="international_dialing_add_country_code_input_area_code">Riik, kus praegu numbrit valite, on 
+        <xliff:g id="country_name">%s</xliff:g>. Kui see on nii, sisestage piirkonnakood.
+    </string>
+    <string name="international_dialing_add_country_code_default_input_area_code">Riik, kus praegu numbrit valite, on 
+        <xliff:g id="country_name">%s</xliff:g>. Kui sihtkoht ei ole 
+        <xliff:g id="area_name">%s</xliff:g>, sisestage piirkonnakood.
+    </string>
+    <string name="international_dialing_need_area_code">"Helistamiseks on vajalik sihtkoha suunakood."</string>
+    <string name="international_dialing_input_area_code">"Sisestage suunakood siia"</string>
+    <string name="international_dialing_dialed_number">"Valitud number:"</string>
+    <string name="international_dialing_confirm_area_code">Kui sinu sihtlinn ei ole 
+        <xliff:g id="area_name">%s</xliff:g>, siis sisesta allpool oma sihtlinna suunakood.
+    </string>
+    <string name="international_dialing_click_below_button">"Klõpsake allolevale nupule riigikoodi muutmiseks."</string>
+    <string name="international_dialing_yes">"Jah. Kasuta allolevat numbrit:"</string>
+    <string name="international_dialing_no">"Ei. Kasuta esialgset numbrit:"</string>
+    <string name="international_dialing_call_button">"Kõne"</string>
+    <string name="international_dialing_area_code">"suunakood"</string>
+    <string name="international_dialing_invalid_number">"Number on kehtetu Kas tahate valimist jätkata?"</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">"Kas soovite lisada riigi- ja suunakoodi?"</string>
+    <string name="no_search_result">"Otsingutulemused puuduvad"</string>
+    <string name="account_phone_only" product="tablet">"tahvelarvuti"</string>
+    <string name="account_phone_only" product="default">Telefonikontakt</string>
+    <string name="no_match_call_log">"Kattuvad üksused puuduvad"</string>
+    <string name="no_call_log">"Kõnelogid puuduvad"</string>
+    <string name="share_too_large">Liiga palju andmeid. Tühistage mõnede üksuste valik ja proovige uuesti.</string>
+    <string name="err_icc_no_phone_book">%1$s ei saa kontakte salvestada.</string>
+    <string name="titleJoinContactDataWith">"Ühenda kontaktid"</string>
+    <string name="menu_select_all">"Vali kõik"</string>
+    <string name="list_filter_custom">"Kohandatud"</string>
+    <string name="add_contact_dlg_message_fmt">"Kas lisada „<xliff:g id="EMAIL">%s</xliff:g>” kontaktidesse?"
+    </string>
+    <string name="locale_change_in_progress">"Kontaktiloendit värskendatakse keele muutmise kajastamiseks."</string>
+    <string name="noFavoritesHelpText">"Teil ei ole ühtegi lemmikut.\n\nKontakti lisamiseks lemmikute loendisse tehke järgmist.\n 
+        <li>Puudutage vahekaarti 
+            <b>Kontaktid</b> \n
+        </li> \n 
+        <li>Puudutage kontakti, kelle soovite lemmikute hulka lisada\n</li> \n 
+        <li>Puudutage tärni kontakti nime kõrval\n</li>"
+    </string>
+    <string name="menu_select_none">"Tühista kõikide valik"</string>
+    <string name="find_call_logs">Otsi kõnelogisid</string>
+    <string name="call_log_via_sim_name_notice">KÕNELOGID: \"<xliff:g id="sim_name">%s</xliff:g>\"</string>
+    <string name="mtk_contact_list_loading">Laadimine\u2026</string>
+    <string name="vcard_import_failed_v2">Ei saa importida</string>
+    <string name="quickcontact_missing_app">"Selle toimingu käsitsemiseks ei leitud ühtegi rakendust."</string>
+    <string name="call_speed_dial_title">Kiirvalimine</string>
+    <string name="icc_phone_book_invalid">Telefoniraamat ei ole praegu kättesaadav, proovige hiljem uuesti.</string>
+    <string name="error_edit_join_group">See on ühendatud kontakt. Rühmateavet saate muuta muutmisrežiimis.</string>
+    <string name="local_phone_account" product="tablet">Installimise ajal ei saa tahvlit kasutada ega teha hädaabikõnesid. Palun ärge eemaldage akut ega SD-kaarti või lülitage tahvlit välja.</string>
+    <string name="local_phone_account" product="default">Telefon</string>
+    <string name="vcs_menu_voice_contacts_search" product="default">Häälkontaktide otsimine</string>
+    <string name="vcs_msg_no_voice_contacts">Kahjuks kontakti ei leitud.</string>
+    <string name="imsCallLabelsGroup">IMS kõne</string>
+    <string name="sip_url">SIP-i URL</string>
+    <string name="ims_call_disabled">IMS kõne pole kasutatav</string>
+    <string name="contact_import_export_tips">Kontaktide importimine/eksportimine, proovi hiljem uuesti</string>
+    
+    <string name="please_wait">"Palun oodake"</string>
+    <string name="dlg_simstorage_content">Phone number book Storage Capacity 
+        <xliff:g id="items">%d</xliff:g>，has been used 
+        <xliff:g id="items">%d</xliff:g>.
+    </string>
+    <string name="contact_recent_group_label">"Rühm"</string>
+    <string name="non_phone_caption">"Telefoninumber"</string>
+    <string name="dialog_no_speed_dial_number_message">Ühtegi kiirvalimisnumbrit ei ole praegu määratud?</string>
+    
+    <string name="selected_item_count">Valitud 
+        <xliff:g id="count">%d</xliff:g> 
+    </string>
+<string name="can_not_switch_account_during_call">Kõne ajal ei saa vahetada ümber eelistatud SIM-ile kõnede jaoks.</string>
+<string name="can_not_switch_account_temporarily">Eelistatud SIM-ile kõnede jaoks ei saa ajutiselt vahetada.</string>
+<string name="location_permission_title">Turvahoiatus</string>
+<string name="location_permission_summary">Kontaktid püüavad hankida teie praegust asukohta.\n(Keela automaatselt pärast <xliff:g id="time_sec">%1$s</xliff:g> sekundit)</string>
+<string name="location_permission_allow">Luba</string>
+<string name="location_permission_deny">Keela</string>
+</resources>

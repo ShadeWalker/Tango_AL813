@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="1107073389495104784" name="phoneAppLabel" product="tablet">"Data Seluler"</string>
+    <string msgid="906161039445636857" name="phoneAppLabel" product="default">"Ponsel"</string>
+    <string msgid="7812140032168171053" name="emergencyDialerIconLabel">"Aplikasi Telepon Darurat"</string>
+    <string msgid="2331230813161304895" name="phoneIconLabel">"Telepon"</string>
+    <string msgid="8630418672279521003" name="fdnListLabel">"Daftar FDN"</string>
+    <string msgid="6878797917991465859" name="unknown">"Tidak diketahui"</string>
+    <string msgid="6713286113000232309" name="private_num">"Nomor pribadi"</string>
+    <string msgid="4793877574636445118" name="payphone">"Telepon Umum"</string>
+    <string msgid="9035493194749959955" name="onHold">"Ditangguhkan"</string>
+    <string msgid="6347869857061147003" name="mmiStarted">"Kode MMI dimulai"</string>
+    <string msgid="485588686340541690" name="ussdRunning">"Kode USSD sedang berjalan…"</string>
+    <string msgid="2771923949751842276" name="mmiCancelled">"Kode MMI dibatalkan"</string>
+    <string msgid="5044513931633602634" name="cancel">"Batal"</string>
+    <string msgid="1810529547726803893" name="enter_input">"Pesan USSD harus antara <xliff:g id="MIN_LEN">%d</xliff:g> dan <xliff:g id="MAX_LEN">%d</xliff:g> karakter. Coba lagi."</string>
+    <string msgid="4691922394301969053" name="manageConferenceLabel">"Kelola penggilan telewicara"</string>
+    <string msgid="3811371167865772377" name="ok">"Oke"</string>
+    <string msgid="27649582100085266" name="audio_mode_speaker">"Speaker"</string>
+    <string msgid="4156527186373869107" name="audio_mode_earpiece">"Earpiece handset"</string>
+    <string msgid="1465350758489175975" name="audio_mode_wired_headset">"Headset berkabel"</string>
+    <string msgid="3047641300848211128" name="audio_mode_bluetooth">"Bluetooth"</string>
+    <string msgid="7601815427707856238" name="wait_prompt_str">"Kirimkan nada berikut?\n"</string>
+    <string msgid="1789964702154314806" name="pause_prompt_str">"Mengirimkan nada\n"</string>
+    <string msgid="4106860097497818751" name="send_button">"Kirimkan"</string>
+    <string msgid="3564467212025151797" name="pause_prompt_yes">"Ya"</string>
+    <string msgid="6686238803236884877" name="pause_prompt_no">"Tidak"</string>
+    <string msgid="5543521676355533577" name="wild_prompt_str">"Ganti karakter acak dengan"</string>
+    <string msgid="4164780423805688336" name="no_vm_number">"Nomor kotak pesan hilang"</string>
+    <string msgid="1300729501030053828" name="no_vm_number_msg">"Tidak ada nomor kotak pesan tersimpan pada kartu SIM."</string>
+    <string msgid="4676479471644687453" name="add_vm_number_str">"Tambahkan nomor"</string>
+    <string msgid="2284912838477558454" name="puk_unlocked">"Kartu SIM Anda tidak lagi dicekal. Ponsel Anda sedang dibuka kuncinya..."</string>
+    <string msgid="780479633159517250" name="label_ndp">"PIN pembuka kunci jaringan SIM"</string>
+    <string msgid="683628237760543009" name="sim_ndp_unlock_text">"Buka kunci"</string>
+    <string msgid="1604823375752456947" name="sim_ndp_dismiss_text">"Tutup"</string>
+    <string msgid="6412629401033249351" name="requesting_unlock">"Meminta membuka jaringan..."</string>
+    <string msgid="6490531697031504225" name="unlock_failed">"Permintaan buka kunci jaringan gagal."</string>
+    <string msgid="6770085622238180152" name="unlock_success">"Jaringan berhasil dibuka."</string>
+    <string msgid="3831911315358856062" name="mobile_network_settings_not_available">"Setelan jaringan seluler tidak tersedia bagi pengguna ini"</string>
+    <string msgid="5930842194056092106" name="labelGSMMore">"Setelan panggilan GSM"</string>
+    <string msgid="1630676740428229339" name="labelCDMAMore">"Setelan panggilan CDMA"</string>
+    <string msgid="9043423184895642077" name="apn_settings">"Nama Titik Akses"</string>
+    <string msgid="3876743539816984008" name="settings_label">"Setelan jaringan"</string>
+    <string msgid="6376603393888116364" name="phone_accounts">"Akun yang menelepon"</string>
+    <string msgid="1969188078933152231" name="phone_accounts_make_calls_with">"Lakukan panggilan dengan"</string>
+    <string msgid="4677789312053828493" name="phone_accounts_make_sip_calls_with">"Lakukan panggilan SIP dengan"</string>
+    <string msgid="4346499067149985702" name="phone_accounts_ask_every_time">"Tanyakan terlebih dahulu"</string>
+    <string msgid="4141710640883261094" name="phone_accounts_settings_header">"Setelan"</string>
+    <string msgid="5232948804226424002" name="phone_accounts_choose_accounts">"Pilih akun"</string>
+    <string msgid="1365215726106915865" name="phone_accounts_selection_header">"Akun ponsel"</string>
+    <string msgid="2023821743341923271" name="phone_accounts_add_sip_account">"Tambahkan akun SIP"</string>
+    <string msgid="1361715069911607109" name="phone_accounts_configure_account_settings">"Mengonfigurasi setelan akun"</string>
+    <string msgid="1840272538233414629" name="phone_account_wifi_calling">"Panggilan Wi-Fi"</string>
+    <string msgid="7491443219113013323" name="wifi_calling_do_not_use">"Jangan gunakan panggilan Wi-Fi"</string>
+    <string msgid="5420257095556091770" name="wifi_calling_do_not_use_call_assistant">"Jangan gunakan asisten panggilan telepon"</string>
+    <string msgid="6283702349285593683" name="wifi_calling_call_assistant_none">"Tidak ada"</string>
+    <string msgid="229102032881680320" name="wifi_calling_call_assistant">"Asisten panggilan telepon"</string>
+    <string msgid="8460024827012666199" name="wifi_calling_use_call_assistant">"Gunakan asisten panggilan telepon"</string>
+    <string msgid="9296558058772293" name="wifi_calling_select_call_assistant">"Pilih asisten panggilan telepon"</string>
+    <string msgid="164985727137156474" name="wifi_calling_select_call_assistant_summary">"Kelola jaringan yang digunakan untuk panggilan telepon"</string>
+    <string msgid="6599987137133339698" name="wifi_calling_use_call_assistant_summary">"Izinkan aplikasi atau layanan mengelola jaringan yang digunakan untuk panggilan telepon"</string>
+    <string msgid="1092639708949670031" name="wifi_calling_call_assistant_configure">"Konfigurasi"</string>
+    <string msgid="1498481943805913754" name="connection_service_default_label">"Layanan sambungan di dalamnya"</string>
+    <string msgid="8693759337917898954" name="voicemail">"Kotak Pesan"</string>
+    <string msgid="2215592488517217448" name="voicemail_abbreviated">"VM:"</string>
+    <string msgid="8873030692174541976" name="networks">"Operator jaringan"</string>
+    <string msgid="8740238216690502563" name="cell_broadcast_settings">"Siaran darurat"</string>
+    <string msgid="6112441768261754562" name="call_settings">"Setelan panggilan"</string>
+    <string msgid="1391795981938800617" name="additional_gsm_call_settings">"Setelan tambahan"</string>
+    <string msgid="1385241520708457376" name="additional_gsm_call_settings_with_label">"Setelan tambahan (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string msgid="4076647190996778012" name="sum_gsm_call_settings">"Setelan panggilan khusus GSM tambahan"</string>
+    <string msgid="8628958775721886909" name="additional_cdma_call_settings">"Setelan panggilan CDMA tambahan"</string>
+    <string msgid="284753265979035549" name="sum_cdma_call_settings">"Setelan panggilan khusus CDMA tambahan"</string>
+    <string msgid="4699970172021870983" name="labelNwService">"Setelan layanan jaringan"</string>
+    <string msgid="3888899447379069198" name="labelCallerId">"Nomor Penelepon"</string>
+    <string msgid="1826692909391168620" name="sum_loading_settings">"Memuat setelan..."</string>
+    <string msgid="1071407020290873782" name="sum_hide_caller_id">"Nomor disembunyikan selama panggilan keluar"</string>
+    <string msgid="6768534125447290401" name="sum_show_caller_id">"Nomor ditampilkan selama panggilan keluar"</string>
+    <string msgid="1954518825510901365" name="sum_default_caller_id">"Gunakan setelan operator default untuk menampilkan nomor saya pada panggilan keluar"</string>
+    <string msgid="6120513814915920200" name="labelCW">"Nada tunggu"</string>
+    <string msgid="8083061901633671397" name="sum_cw_enabled">"Selama panggilan, beritahukan panggilan masuk kepada saya"</string>
+    <string msgid="3648693907300104575" name="sum_cw_disabled">"Selama panggilan, beritahukan panggilan masuk kepada saya"</string>
+    <string msgid="3378927671091537173" name="call_forwarding_settings">"Setelan penerusan panggilan"</string>
+    <string msgid="8569489414006897127" name="call_forwarding_settings_with_label">"Setelan penerusan panggilan (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string msgid="2574386948026924737" name="labelCF">"Penerusan panggilan"</string>
+    <string msgid="8147177368148660600" name="labelCFU">"Selalu teruskan"</string>
+    <string msgid="3560082430662923687" name="messageCFU">"Selalu gunakan nomor ini"</string>
+    <string msgid="4014187342724130197" name="sum_cfu_enabled_indicator">"Meneruskan semua panggilan"</string>
+    <string msgid="2450052502198827927" name="sum_cfu_enabled">"Meneruskan semua panggilan ke <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string msgid="6591985777096823616" name="sum_cfu_enabled_no_number">"Nomor tidak tersedia"</string>
+    <string msgid="8384177689501334080" name="sum_cfu_disabled">"Nonaktif"</string>
+    <string msgid="6139853033106283172" name="labelCFB">"Saat sibuk"</string>
+    <string msgid="3711089705936187129" name="messageCFB">"Nomor ketika sibuk"</string>
+    <string msgid="5984198104833116690" name="sum_cfb_enabled">"Meneruskan ke <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string msgid="4913145177320506827" name="sum_cfb_disabled">"Nonaktif"</string>
+    <string msgid="3506984333877998061" name="disable_cfb_forbidden">"Operator Anda tidak mendukung penonaktifan penerusan panggilan ketika ponsel sibuk."</string>
+    <string msgid="1736067178393744351" name="labelCFNRy">"Jika tidak dijawab"</string>
+    <string msgid="672317899884380374" name="messageCFNRy">"Nomor ketika tidak dapat dihubungi"</string>
+    <string msgid="6955775691317662910" name="sum_cfnry_enabled">"Meneruskan ke <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string msgid="3884684060443538097" name="sum_cfnry_disabled">"Nonaktif"</string>
+    <string msgid="4308233959150658058" name="disable_cfnry_forbidden">"Operator Anda tidak mendukung penonaktifan penerusan panggilan ketika ponsel tidak menjawab panggilan."</string>
+    <string msgid="2614827454402079766" name="labelCFNRc">"Saat tidak dapat dijangkau"</string>
+    <string msgid="6380695421020295119" name="messageCFNRc">"Nomor ketika tidak dapat dihubungi"</string>
+    <string msgid="7010898346095497421" name="sum_cfnrc_enabled">"Meneruskan ke <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string msgid="7222141261321276464" name="sum_cfnrc_disabled">"Dinonaktifkan"</string>
+    <string msgid="5646361343094064333" name="disable_cfnrc_forbidden">"Operator Anda tidak mendukung penonaktifan penerusan panggilan ketika ponsel tidak dapat dijangkau."</string>
+    <string msgid="6146755386174019046" name="updating_title">"Setelan panggilan"</string>
+    <string msgid="5679923943740900965" name="call_settings_primary_user_only">"Setelan panggilan telepon hanya dapat diubah oleh pengguna utama."</string>
+    <string msgid="89359812614544532" name="call_settings_with_label">"Setelan panggilan telepon (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string msgid="7970259216988931777" name="error_updating_title">"Kesalahan setelan panggilan"</string>
+    <string msgid="1920291699287055284" name="reading_settings">"Membaca setelan…"</string>
+    <string msgid="8171225533884883252" name="updating_settings">"Memperbarui setelan…"</string>
+    <string msgid="4752151682666912828" name="reverting_settings">"Mengembalikan setelan..."</string>
+    <string msgid="6674110501330139405" name="response_error">"Tanggapan tak terduga dari jaringan."</string>
+    <string msgid="7027667130619518211" name="exception_error">"Kesalahan jaringan atau kartu SIM."</string>
+    <string msgid="18200614306525434" name="fdn_check_failure">"Setelan Nomor Panggilan Tetap aplikasi Ponsel Anda diaktifkan. Akibatnya, beberapa fitur yang terkait dengan panggilan tidak bekerja."</string>
+    <string msgid="2304459933248513376" name="radio_off_error">"Keluar dari mode pesawat sebelum melihat setelan ini."</string>
+    <string msgid="2365884406356986917" name="close_dialog">"Oke"</string>
+    <string msgid="7248657275000173526" name="enable">"Aktifkan"</string>
+    <string msgid="4678348128118573672" name="disable">"Nonaktifkan"</string>
+    <string msgid="239476305819844391" name="change_num">"Perbarui"</string>
+  <string-array name="clir_display_values">
+    <item msgid="5560134294467334594">"Setelan default jaringan"</item>
+    <item msgid="7876195870037833661">"Sembunyikan nomor"</item>
+    <item msgid="1108394741608734023">"Tampilkan nomor"</item>
+  </string-array>
+    <string msgid="380744030726254139" name="vm_changed">"Nomor kotak pesan berubah."</string>
+    <string msgid="3352934863246208918" name="vm_change_failed">"Tidak dapat mengubah nomor pesan suara.\nHubungi operator Anda jika masalah ini terus berlanjut."</string>
+    <string msgid="5298103228470214665" name="fw_change_failed">"Tidak dapat mengubah nomor penerusan.\nHubungi operator Anda jika masalah ini terus berlanjut."</string>
+    <string msgid="8862896836093833973" name="fw_get_in_vm_failed">"Tidak dapat mengambil dan menyimpan setelan nomor telepon penerusan saat ini.\nTetap beralih ke operator baru?"</string>
+    <string msgid="3186040086622435212" name="no_change">"Tidak ada perubahan yang dilakukan."</string>
+    <string msgid="59911196126278922" name="sum_voicemail_choose_provider">"Pilih layanan kotak pesan"</string>
+    <string msgid="2001233554889016880" name="voicemail_default">"Operator Anda"</string>
+    <string msgid="2843854043339307375" name="mobile_networks">"Setelan jaringan seluler"</string>
+    <string msgid="1181658289009300430" name="label_available">"Jaringan yang tersedia"</string>
+    <string msgid="5230707536168902952" name="load_networks_progress">"Menelusuri…"</string>
+    <string msgid="4249426905018815316" name="empty_networks_list">"Jaringan tidak ditemukan."</string>
+    <string msgid="1601136049300882441" name="search_networks">"Telusuri jaringan"</string>
+    <string msgid="6828516148953325006" name="network_query_error">"Kesalahan ketika menelusuri jaringan."</string>
+    <string msgid="9055203954040805084" name="register_on_network">"Mendaftarkan pada <xliff:g id="NETWORK">%s</xliff:g>…"</string>
+    <string msgid="5613353860205691579" name="not_allowed">"Kartu SIM Anda tidak mengizinkan sambungan ke jaringan ini."</string>
+    <string msgid="2308119155752343975" name="connect_later">"Tidak dapat terhubung ke jaringan ini sekarang. Coba lagi nanti."</string>
+    <string msgid="495135664535876612" name="registration_done">"Terdaftar pada jaringan."</string>
+    <string msgid="3494252551249882718" name="sum_carrier_select">"Pilih operator jaringan"</string>
+    <string msgid="2921092249873272715" name="sum_search_networks">"Telusuri semua jaringan yang tersedia"</string>
+    <string msgid="5628402124471810174" name="select_automatically">"Pilih otomatis"</string>
+    <string msgid="5614890115123292400" name="sum_select_automatically">"Memilih jaringan yang disukai secara otomatis"</string>
+    <string msgid="6017849844573519637" name="register_automatically">"Pendaftaran otomatis..."</string>
+    <string msgid="2336624679902659306" name="preferred_network_mode_title">"Jenis jaringan yang dipilih"</string>
+    <string msgid="1434820673166126609" name="preferred_network_mode_summary">"Ubah mode pengoperasian jaringan"</string>
+    <string msgid="4048082093347807230" name="preferred_network_mode_dialogtitle">"Jenis jaringan yang dipilih"</string>
+    <string msgid="8521677230113533809" name="preferred_network_mode_wcdma_perf_summary">"Mode jaringan pilihan: WCDMA lebih disukai"</string>
+    <string msgid="3352445413437453511" name="preferred_network_mode_gsm_only_summary">"Mode jaringan pilihan: GSM saja"</string>
+    <string msgid="2836897236221063413" name="preferred_network_mode_wcdma_only_summary">"Mode jaringan pilihan: WCDMA saja"</string>
+    <string msgid="3161255745326408587" name="preferred_network_mode_gsm_wcdma_summary">"Mode jaringan pilihan: GSM / WCDMA"</string>
+    <string msgid="3175690187294334241" name="preferred_network_mode_cdma_summary">"Mode jaringan yang disukai: CDMA"</string>
+    <string msgid="8332063064712726618" name="preferred_network_mode_cdma_evdo_summary">"Mode jaringan yang disukai: : CDMA / EvDo"</string>
+    <string msgid="1309770926198634150" name="preferred_network_mode_cdma_only_summary">"Mode jaringan pilihan: CDMA saja"</string>
+    <string msgid="8472220691721269155" name="preferred_network_mode_evdo_only_summary">"Mode jaringan pilihan: EvDo saja"</string>
+    <string msgid="4726682079415227330" name="preferred_network_mode_cdma_evdo_gsm_wcdma_summary">"Mode jaringan yang disukai: CDMA/EvDo/GSM/WCDMA"</string>
+    <string msgid="574752287596469136" name="preferred_network_mode_lte_summary">"Mode jaringan yang disukai: LTE"</string>
+    <string msgid="8455358514068283935" name="preferred_network_mode_lte_gsm_wcdma_summary">"Mode jaringan yang disukai: GSM/WCDMA/LTE"</string>
+    <string msgid="228702246343742853" name="preferred_network_mode_lte_cdma_evdo_summary">"Mode jaringan yang disukai: CDMA+LTE/EVDO"</string>
+    <string msgid="1633134285545730364" name="preferred_network_mode_global_summary">"Mode jaringan yang disukai: Global"</string>
+    <string msgid="9180775701594742750" name="preferred_network_mode_lte_wcdma_summary">"Mode jaringan yang disukai: LTE / WCDMA"</string>
+    <string msgid="633315028976225026" name="preferred_network_mode_lte_gsm_umts_summary">"Mode jaringan pilihan: LTE / GSM / UMTS"</string>
+    <string msgid="3722647806454528426" name="preferred_network_mode_lte_cdma_summary">"Mode jaringan pilihan: LTE / CDMA"</string>
+  <string-array name="preferred_network_mode_choices">
+    <item msgid="7886739962255042385">"LTE / WCDMA"</item>
+    <item msgid="577652050447385699">"LTE"</item>
+    <item msgid="6813597571293773656">"Global"</item>
+    <item msgid="127064712132619032">"GSM/WCDMA/LTE"</item>
+    <item msgid="1126767511633425977">"CDMA + LTE/EvDo"</item>
+    <item msgid="6389676313771670660">"CDMA/EvDo/GSM/WCDMA"</item>
+    <item msgid="545430093607698090">"EvDo saja"</item>
+    <item msgid="1508557726283094448">"CDMA tanpa EvDo"</item>
+    <item msgid="4341433122263841224">"CDMA/EvDo otomatis"</item>
+    <item msgid="5958053792390386668">"GSM/WCDMA otomatis"</item>
+    <item msgid="7913148405605373434">"WCDMA saja"</item>
+    <item msgid="1524224863879435516">"GSM saja"</item>
+    <item msgid="3817924849415716259">"GSM/WCDMA lebih disukai"</item>
+  </string-array>
+    <string msgid="522191650223239171" name="enhanced_4g_lte_mode_title">"Mode LTE 4G yang Ditingkatkan"</string>
+    <string msgid="2332175070522125850" name="enhanced_4g_lte_mode_summary">"Gunakan layanan LTE untuk menyempurnakan suara dan komunikasi lainnya (disarankan)"</string>
+    <string msgid="5972538663568715366" name="data_enabled">"Data diaktifkan"</string>
+    <string msgid="2382798156640007971" name="data_enable_summary">"Izinkan penggunaan data"</string>
+    <string msgid="8871412572928323707" name="roaming">"Roaming data"</string>
+    <string msgid="7331106985174381987" name="roaming_enable">"Sambungkan ke layanan data ketika roaming"</string>
+    <string msgid="1843417228755568110" name="roaming_disable">"Sambungkan ke layanan data ketika roaming"</string>
+    <string msgid="8913735676127858115" name="roaming_reenable_message">"Anda telah kehilangan konektivitas data karena meninggalkan jaringan asal dalam keadaan roaming data dimatikan."</string>
+    <string msgid="7126227198294007907" name="roaming_warning">"Izinkan penggunaan data saat roaming? Tagihan signifikan mungkin berlaku."</string>
+    <string msgid="6538311689850981686" name="gsm_umts_options">"Opsi GSM//UMTS"</string>
+    <string msgid="4016822858172249884" name="cdma_options">"Opsi CDMA"</string>
+    <string msgid="3715677828160555808" name="throttle_data_usage">"Penggunaan data"</string>
+    <string msgid="8762280193043815361" name="throttle_current_usage">"Data yang digunakan dalam periode saat ini"</string>
+    <string msgid="1915198770363734685" name="throttle_time_frame">"Periode penggunaan data"</string>
+    <string msgid="4710388992676803508" name="throttle_rate">"Kebijakan kecepatan data"</string>
+    <string msgid="243651091785169900" name="throttle_help">"Pelajari lebih lanjut"</string>
+    <string msgid="1657318943142085170" name="throttle_status_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪) dari <xliff:g id="USED_2">%3$s</xliff:g> maksimum periode \nPeriode berikutnya dimulai dalam <xliff:g id="USED_3">%4$d</xliff:g> hari (<xliff:g id="USED_4">%5$s</xliff:g>)"</string>
+    <string msgid="6029276011123694701" name="throttle_data_usage_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪) dari <xliff:g id="USED_2">%3$s</xliff:g> maksimum periode"</string>
+    <string msgid="7492763592720107737" name="throttle_data_rate_reduced_subtext">"Melebihi batas maksimum <xliff:g id="USED_0">%1$s</xliff:g>\nKecepatan data dikurangi hingga <xliff:g id="USED_1">%2$d</xliff:g> Kb/s"</string>
+    <string msgid="7732763021560399960" name="throttle_time_frame_subtext">"<xliff:g id="USED_0">%1$d</xliff:g>٪ dari siklus yang berlalu\nPeriode berikutnya dimulai dalam <xliff:g id="USED_1">%2$d</xliff:g> hari (<xliff:g id="USED_2">%3$s</xliff:g>)"</string>
+    <string msgid="2149102656120726855" name="throttle_rate_subtext">"Kecepatan data dikurangi menjadi <xliff:g id="USED">%1$d</xliff:g> Kb/s jika penggunaan data melebihi batas"</string>
+    <string msgid="3633091498168446044" name="throttle_help_subtext">"Informasi selengkapnya tentang kebijakan penggunaan data jaringan seluler operator Anda"</string>
+    <string msgid="5584192824053625842" name="cell_broadcast_sms">"SMS Siaran Sel"</string>
+    <string msgid="4851147873691392255" name="enable_disable_cell_bc_sms">"SMS Siaran Sel"</string>
+    <string msgid="6441688565738921084" name="cell_bc_sms_enable">"Setelan SMS Siaran Sel diaktifkan"</string>
+    <string msgid="3398365088309408749" name="cell_bc_sms_disable">"SMS Siaran Sel dinonaktifkan"</string>
+    <string msgid="651715019785107312" name="cb_sms_settings">"Setelan SMS Siaran Sel"</string>
+    <string msgid="2157014609041245335" name="enable_disable_emergency_broadcast">"Siaran Darurat"</string>
+    <string msgid="2645980025414010211" name="emergency_broadcast_enable">"Siaran Darurat diaktifkan"</string>
+    <string msgid="3665199821267569426" name="emergency_broadcast_disable">"Siaran Darurat dinonaktifkan"</string>
+    <string msgid="6501582322182059412" name="enable_disable_administrative">"Administratif"</string>
+    <string msgid="1750086122962032235" name="administrative_enable">"Administratif diaktifkan"</string>
+    <string msgid="8433273857248698539" name="administrative_disable">"Administratif dinonaktifkan"</string>
+    <string msgid="1819693083025106678" name="enable_disable_maintenance">"Pemeliharaan"</string>
+    <string msgid="8566636458770971189" name="maintenance_enable">"Pemeliharaan diaktifkan"</string>
+    <string msgid="7340189100885066077" name="maintenance_disable">"Perawatan dinonaktifkan"</string>
+    <string msgid="4968779723948432978" name="general_news_settings">"Berita Umum"</string>
+    <string msgid="3935593091894685267" name="bf_news_settings">"Bisnis dan Berita Keuangan"</string>
+    <string msgid="7649399631270052835" name="sports_news_settings">"Berita Olahraga"</string>
+    <string msgid="5051153952959405035" name="entertainment_news_settings">"Berita Hiburan"</string>
+    <string msgid="7890281063123416120" name="enable_disable_local">"Lokal"</string>
+    <string msgid="6370463247609136359" name="local_enable">"Berita Lokal diaktifkan"</string>
+    <string msgid="4405691986943795798" name="local_disable">"Berita lokal dinonakifkan"</string>
+    <string msgid="4905652414535565872" name="enable_disable_regional">"Regional"</string>
+    <string msgid="4434680415437834759" name="regional_enable">"Berita Regional diaktifkan"</string>
+    <string msgid="5359325527213850077" name="regional_disable">"Berita Regional dinonakifkan"</string>
+    <string msgid="236278090206880734" name="enable_disable_national">"Nasional"</string>
+    <string msgid="1172443648912246952" name="national_enable">"Berita nasional diaktifkan"</string>
+    <string msgid="326018148178601166" name="national_disable">"Berita nasional dinonaktifkan"</string>
+    <string msgid="7535348799604565592" name="enable_disable_international">"Internasional"</string>
+    <string msgid="5855356769925044927" name="international_enable">"Berita internasional diaktifkan"</string>
+    <string msgid="2850648591041088931" name="international_disable">"Berita internasional dinonakifkan"</string>
+    <string msgid="2841683501919760043" name="list_language_title">"Bahasa"</string>
+    <string msgid="8109546531071241601" name="list_language_summary">"Pilih bahasa berita"</string>
+  <string-array name="list_language_entries">
+    <item msgid="6137851079727305485">"Inggris"</item>
+    <item msgid="1151988412809572526">"Prancis"</item>
+    <item msgid="577840534704312665">"Spanyol"</item>
+    <item msgid="8385712091143148180">"Jepang"</item>
+    <item msgid="1858401628368130638">"Korea"</item>
+    <item msgid="1933212028684529632">"Bahasa China"</item>
+    <item msgid="1908428006803639064">"Ibrani"</item>
+  </string-array>
+  <string-array name="list_language_values">
+    <item msgid="1804908636436467150">"1"</item>
+    <item msgid="289708030346890334">"2"</item>
+    <item msgid="1121469729692402684">"3"</item>
+    <item msgid="2614093115912897722">"4"</item>
+    <item msgid="2411164639857960614">"5"</item>
+    <item msgid="5884448729274543324">"6"</item>
+    <item msgid="5511864807618312598">"7"</item>
+  </string-array>
+    <string msgid="5442908726538951934" name="list_language_dtitle">"Bahasa"</string>
+    <string msgid="986967454867219114" name="enable_disable_local_weather">"Cuaca Lokal"</string>
+    <string msgid="6199315114382448922" name="local_weather_enable">"Cuaca Lokal diaktifkan"</string>
+    <string msgid="2510158089142626480" name="local_weather_disable">"Cuaca Lokal dinonakifkan"</string>
+    <string msgid="8339572391278872343" name="enable_disable_atr">"Laporan Lalu Lintas Daerah"</string>
+    <string msgid="5541757457789181799" name="atr_enable">"Laporan Lalu Lintas Daerah diaktifkan"</string>
+    <string msgid="7085558154727596455" name="atr_disable">"Laporan Lalu Lintas Daerah dinonaktifkan"</string>
+    <string msgid="668189073721277199" name="enable_disable_lafs">"Jadwal Penerbangan Bandara Lokal"</string>
+    <string msgid="2791978667205137052" name="lafs_enable">"Jadwal Penerbangan Bandara Lokal diaktifkan"</string>
+    <string msgid="2391212397725495350" name="lafs_disable">"Jadwal Penerbangan Bandara Lokal dinonaktifkan"</string>
+    <string msgid="6240381945336814024" name="enable_disable_restaurants">"Restoran"</string>
+    <string msgid="5137657479469118847" name="restaurants_enable">"Restoran diaktifkan"</string>
+    <string msgid="3678480270938424092" name="restaurants_disable">"Restoran dinonaktifkan"</string>
+    <string msgid="1822029172658551202" name="enable_disable_lodgings">"Penginapan"</string>
+    <string msgid="3230042508992850322" name="lodgings_enable">"Penginapan diaktifkan"</string>
+    <string msgid="3387879742320682391" name="lodgings_disable">"Penginapan dinonaktifkan"</string>
+    <string msgid="1357809784475660303" name="enable_disable_retail_directory">"Direktori Pengecer"</string>
+    <string msgid="3280626290436111496" name="retail_directory_enable">"Direktori Pengecer diaktifkan"</string>
+    <string msgid="6479739816662879027" name="retail_directory_disable">"Direktori Pengecer dinonaktifkan"</string>
+    <string msgid="5999495926176182128" name="enable_disable_advertisements">"Iklan"</string>
+    <string msgid="2050305021264683786" name="advertisements_enable">"Iklan diaktifkan"</string>
+    <string msgid="8350985908788707935" name="advertisements_disable">"Iklan dinonaktifkan"</string>
+    <string msgid="6397810445293533603" name="enable_disable_stock_quotes">"Kutipan Saham"</string>
+    <string msgid="4384802470887170543" name="stock_quotes_enable">"Kutipan Saham diaktifkan"</string>
+    <string msgid="4781450084565594998" name="stock_quotes_disable">"Kutipan Saham dinonaktifkan"</string>
+    <string msgid="4863043263443942494" name="enable_disable_eo">"Peluang Kerja"</string>
+    <string msgid="8623559062015685813" name="eo_enable">"Peluang Kerja diaktifkan"</string>
+    <string msgid="3863812478090907609" name="eo_disable">"Peluang Kerja dinonaktifkan"</string>
+    <string msgid="908214593528968522" name="enable_disable_mhh">"Medis, Kesehatan, dan Rumah Sakit"</string>
+    <string msgid="5544500632306446815" name="mhh_enable">"Medis, Kesehatan, dan Rumah Sakit diaktifkan"</string>
+    <string msgid="8998210550117117437" name="mhh_disable">"Medis, Kesehatan, dan Rumah Sakit dinonaktifkan"</string>
+    <string msgid="3517184627114999149" name="enable_disable_technology_news">"Berita Teknologi"</string>
+    <string msgid="7995209394210455181" name="technology_news_enable">"Berita Teknologi diaktifkan"</string>
+    <string msgid="5483490380561851946" name="technology_news_disable">"Berita Teknologi dinonaktifkan"</string>
+    <string msgid="626771003122899280" name="enable_disable_multi_category">"Multi-kategori"</string>
+    <string msgid="1179299804641721768" name="multi_category_enable">"Multi-kategori diaktifkan"</string>
+    <string msgid="880104702904139505" name="multi_category_disable">"Multi-kategori dinonaktifkan"</string>
+    <string msgid="7702681952521375754" name="network_lte">"LTE (disarankan)"</string>
+    <string msgid="2723512640529983138" name="network_4G">"4G (disarankan)"</string>
+    <string msgid="1323190488685355309" name="network_global">"Global"</string>
+    <string msgid="5757657769327732833" name="cdma_system_select_title">"Pilih sistem"</string>
+    <string msgid="60460043745797517" name="cdma_system_select_summary">"Ubah mode roaming CDMA"</string>
+    <string msgid="6083355415165359075" name="cdma_system_select_dialogtitle">"Pilih sistem"</string>
+  <string-array name="cdma_system_select_choices">
+    <item msgid="176474317493999285">"Utama saja"</item>
+    <item msgid="1205664026446156265">"Otomatis"</item>
+  </string-array>
+    <string msgid="1162564010076763284" name="cdma_subscription_title">"Langganan CDMA"</string>
+    <string msgid="2530890766115781140" name="cdma_subscription_summary">"Ubah antara RUIM/SIM dan NV"</string>
+    <string msgid="2699527950523333110" name="cdma_subscription_dialogtitle">"langganan"</string>
+  <string-array name="cdma_subscription_choices">
+    <item msgid="2258014151300708431">"RUIM//SIM"</item>
+    <item msgid="5127722015571873880">"NV"</item>
+  </string-array>
+  <string-array name="cdma_subscription_values">
+    <item msgid="7494167883478914080">"0"</item>
+    <item msgid="6043847456049107742">"1"</item>
+  </string-array>
+    <string msgid="3793805892364814518" name="cdma_activate_device">"Aktifkan perangkat"</string>
+    <string msgid="4255018217292548962" name="cdma_lte_data_service">"Siapkan layanan data"</string>
+    <string msgid="9028166176523012300" name="carrier_settings_title">"Setelan operator"</string>
+    <string msgid="7878832555095183202" name="fdn">"Nomor Panggilan Tetap"</string>
+    <string msgid="187084204115493366" name="fdn_with_label">"Nomor Panggilan Tetap (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string msgid="8777755791892122369" name="manage_fdn_list">"Daftar FDN"</string>
+    <string msgid="7437232552210469217" name="fdn_list_with_label">"Daftar NPT (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string msgid="2156479741307463576" name="fdn_activation">"Aktivasi FDN"</string>
+    <string msgid="5238109009915521240" name="fdn_enabled">"Nomor Panggilan Tetap diaktifkan"</string>
+    <string msgid="4700049736675368279" name="fdn_disabled">"Nomor Panggilan Tetap dinonaktifkan"</string>
+    <string msgid="3740191529180493851" name="enable_fdn">"Aktifkan FDN"</string>
+    <string msgid="7944020890722540616" name="disable_fdn">"Nonaktifkan FDN"</string>
+    <string msgid="2153563695382176676" name="change_pin2">"Ubah PIN2"</string>
+    <string msgid="7215588870329688132" name="enable_fdn_ok">"Nonaktifkan FDN"</string>
+    <string msgid="5727046928930740173" name="disable_fdn_ok">"Aktifkan FDN"</string>
+    <string msgid="1959399454900272878" name="sum_fdn">"Kelola Nomor Panggilan Tetap"</string>
+    <string msgid="6666549734792827932" name="sum_fdn_change_pin">"Ubah PIN untuk akses FDN"</string>
+    <string msgid="8431088265332628316" name="sum_fdn_manage_list">"Kelola daftar nomor telepon"</string>
+    <string msgid="3776841382844614716" name="voice_privacy">"Privasi suara"</string>
+    <string msgid="3159383389833516214" name="voice_privacy_summary">"Aktifkan mode privasi yang ditingkatkan"</string>
+    <string msgid="9033098925144434669" name="tty_mode_option_title">"Mode TTY"</string>
+    <string msgid="1073835131534808732" name="tty_mode_option_summary">"Setel Mode TTY"</string>
+    <string msgid="4073265511427813322" name="auto_retry_mode_title">"Coba lagi otomatis"</string>
+    <string msgid="4973886004067532288" name="auto_retry_mode_summary">"Aktifkan mode Coba lagi otomatis"</string>
+    <string msgid="1882023737425114762" name="menu_add">"Tambahkan kontak"</string>
+    <string msgid="7143003705504672374" name="menu_edit">"Edit kontak"</string>
+    <string msgid="3977150783449642851" name="menu_delete">"Hapus kontak"</string>
+    <string msgid="8204677063922225311" name="get_pin2">"Ketik PIN2"</string>
+    <string msgid="7329028332786872378" name="name">"Nama"</string>
+    <string msgid="7905950798349903858" name="number">"Nomor"</string>
+    <string msgid="4094274636321939086" name="save">"Simpan"</string>
+    <string msgid="2481915899633353976" name="add_fdn_contact">"Tambahkan nomor panggilan tetap"</string>
+    <string msgid="7627379633721940991" name="adding_fdn_contact">"Menambahkan nomor panggilan tetap..."</string>
+    <string msgid="7458335758501736665" name="fdn_contact_added">"Nomor panggilan tetap ditambahkan."</string>
+    <string msgid="7976936035587081480" name="edit_fdn_contact">"Edit nomor panggilan tetap"</string>
+    <string msgid="8370929876849803600" name="updating_fdn_contact">"Memperbarui nomor panggilan tetap..."</string>
+    <string msgid="5497828782609005017" name="fdn_contact_updated">"Nomor panggilan tetap diperbarui."</string>
+    <string msgid="6668958073074151717" name="delete_fdn_contact">"Hapus nomor panggilan tetap"</string>
+    <string msgid="5669163206349319969" name="deleting_fdn_contact">"Menghapus nomor panggilan tetap..."</string>
+    <string msgid="7154162327112259569" name="fdn_contact_deleted">"Nomor panggilan tetap dihapus."</string>
+    <string msgid="5470854099230755944" name="pin2_invalid">"FDN tidak diperbarui karena Anda memasukkan PIN yang salah."</string>
+    <string msgid="1494755047900009147" name="fdn_invalid_number">"FDN tidak diperbarui karena nomor tersebut tidak boleh melebihi 20 digit."</string>
+    <string msgid="6025144083384701197" name="pin2_or_fdn_invalid">"FDN tidak diperbarui. PIN2 salah, atau nomor telepon ditolak."</string>
+    <string msgid="540018079008319747" name="fdn_failed">"Operasi FDN gagal."</string>
+    <string msgid="2203331234764498011" name="simContacts_emptyLoading">"Membaca dari kartu SIM…"</string>
+    <string msgid="5270660846489561932" name="simContacts_empty">"Tidak ada kontak pada Kartu SIM."</string>
+    <string msgid="1861472842524839921" name="simContacts_title">"Pilih kontak untuk diimpor"</string>
+    <string msgid="1846161429087789936" name="simContacts_airplaneMode">"Untuk mengimpor kontak dari kartu SIM, pertama-tama matikan mode Pesawat."</string>
+    <string msgid="5422767284133234860" name="enable_pin">"Aktifkan/nonaktifkan PIN SIM"</string>
+    <string msgid="9174186126330785343" name="change_pin">"Ubah PIN SIM"</string>
+    <string msgid="8532615714751931951" name="enter_pin_text">"PIN SIM:"</string>
+    <string msgid="5287773661246368314" name="oldPinLabel">"PIN lama"</string>
+    <string msgid="207488227285336897" name="newPinLabel">"PIN Baru"</string>
+    <string msgid="257597715098070206" name="confirmPinLabel">"Konfirmasi PIN baru"</string>
+    <string msgid="8955102849303984935" name="badPin">"PIN lama yang Anda masukkan salah. Coba lagi."</string>
+    <string msgid="5923253370683071889" name="mismatchPin">"PIN yang Anda masukkan tidak cocok. Coba lagi."</string>
+    <string msgid="5981171102258684792" name="invalidPin">"Ketikkan PIN berupa 4 sampai 8 angka."</string>
+    <string msgid="3419351358300716472" name="disable_sim_pin">"Hapus PIN SIM"</string>
+    <string msgid="4845145659651484248" name="enable_sim_pin">"Setel PIN SIM"</string>
+    <string msgid="3417917024688497010" name="enable_in_progress">"Menyetel PIN…"</string>
+    <string msgid="2918545971413270063" name="enable_pin_ok">"PIN disetel"</string>
+    <string msgid="2109571368635883688" name="disable_pin_ok">"PIN dihapus"</string>
+    <string msgid="5644377896213584760" name="pin_failed">"PIN salah"</string>
+    <string msgid="4455736268023261662" name="pin_changed">"PIN diperbarui"</string>
+    <string msgid="5921393215789090200" name="puk_requested">"Sandi salah. PIN kini diblokir. PUK diperlukan."</string>
+    <string msgid="8339444124477720345" name="enter_pin2_text">"PIN2"</string>
+    <string msgid="8559146795026261502" name="oldPin2Label">"PIN2 yang lama"</string>
+    <string msgid="4573956902204349054" name="newPin2Label">"PIN2 Baru"</string>
+    <string msgid="8100319484454787708" name="confirmPin2Label">"Konfirmasi PIN2 baru"</string>
+    <string msgid="7910064009531541708" name="badPuk2">"PUK2 salah. Coba lagi."</string>
+    <string msgid="6646896629970023109" name="badPin2">"PIN2 lama salah. Coba lagi."</string>
+    <string msgid="4177967478551851117" name="mismatchPin2">"PIN2 tidak cocok. Coba lagi."</string>
+    <string msgid="1757045131429105595" name="invalidPin2">"Masukkan PIN2 berisi 4 hingga 8 angka."</string>
+    <string msgid="7059081153334815973" name="invalidPuk2">"Masukkan PUK2 berisi 8 angka."</string>
+    <string msgid="3724522579945610956" name="pin2_changed">"PIN2 diperbarui"</string>
+    <string msgid="4688069961795341948" name="label_puk2_code">"Masukkan kode PUK2"</string>
+    <string msgid="4991074891459554705" name="fdn_enable_puk2_requested">"Sandi salah. PIN2 kini Diblokir. Untuk mencoba lagi, ubah PIN 2."</string>
+    <string msgid="5831015200030161434" name="puk2_requested">"Sandi salah. SIM kini dikunci. Masukkan PUK2."</string>
+    <string msgid="3150263853077280049" name="puk2_blocked">"PUK2 diblokir selamanya."</string>
+    <string msgid="720736232885011507" name="pin2_attempts">\n"Tersisa <xliff:g id="NUMBER">%d</xliff:g> upaya lagi."</string>
+    <string msgid="7791600368153469078" name="pin2_unblocked">"PIN2 tidak lagi diblokir"</string>
+    <string msgid="2859593360997984240" name="doneButton">"Selesai"</string>
+    <string msgid="8524164258691887790" name="voicemail_settings_number_label">"Nomor kotak pesan"</string>
+    <string msgid="5769417478498348054" name="card_title_dialing">"Memanggil"</string>
+    <string msgid="8253487008234167266" name="card_title_redialing">"Memanggil ulang"</string>
+    <string msgid="1162980346189744501" name="card_title_conf_call">"Telewicara"</string>
+    <string msgid="7364539451234646909" name="card_title_incoming_call">"Panggilan masuk"</string>
+    <string msgid="5544730338889702298" name="card_title_call_ended">"Panggilan diakhiri"</string>
+    <string msgid="821463117892339942" name="card_title_on_hold">"Ditangguhkan"</string>
+    <string msgid="3999101620995182450" name="card_title_hanging_up">"Menutup panggilan"</string>
+    <string msgid="6346543933068225205" name="card_title_in_call">"Sedang dalam panggilan"</string>
+    <string msgid="2107666444937350731" name="notification_dialing">"Memanggil"</string>
+    <string msgid="7554385905572364535" name="notification_missedCallTitle">"Panggilan tak terjawab"</string>
+    <string msgid="1361677948941502522" name="notification_missedCallsTitle">"Panggilan tak terjawab"</string>
+    <string msgid="4575787816055205600" name="notification_missedCallsMsg">"<xliff:g id="NUM_MISSED_CALLS">%s</xliff:g> panggilan tak terjawab"</string>
+    <string msgid="504686252427747209" name="notification_missedCallTicker">"Panggilan tak terjawab dari <xliff:g id="MISSED_CALL_FROM">%s</xliff:g>"</string>
+    <string msgid="7068688957273482989" name="notification_ongoing_call">"Panggilan yang sedang berlangsung"</string>
+    <string msgid="3480694969511790465" name="notification_on_hold">"Ditangguhkan"</string>
+    <string msgid="2820429205043529642" name="notification_incoming_call">"Panggilan masuk"</string>
+    <string msgid="8933468752045550523" name="notification_voicemail_title">"Kotak pesan baru"</string>
+    <string msgid="4366360747660929916" name="notification_voicemail_title_count">"Kotak pesan baru (<xliff:g id="COUNT">%d</xliff:g>)"</string>
+    <string msgid="4447323569453981685" name="notification_voicemail_text_format">"Telepon <xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g>"</string>
+    <string msgid="760963466895609716" name="notification_voicemail_no_vm_number">"Nomor kotak pesan tidak dikenal"</string>
+    <string msgid="4224455487793492772" name="notification_network_selection_title">"Tidak ada layanan"</string>
+    <string msgid="2607085729661923269" name="notification_network_selection_text">"Jaringan yang dipilih (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) tidak tersedia"</string>
+    <string msgid="6069460915123531620" name="notification_action_end_call">"Akhiri"</string>
+    <string msgid="2684890353590890187" name="notification_missedCall_call_back">"Hubungi kembali"</string>
+    <string msgid="3049928912736917988" name="notification_missedCall_message">"Pesan"</string>
+    <string msgid="6550191216405193368" name="incall_error_power_off">"Untuk melakukan panggilan, pertama-tama matikan mode Pesawat."</string>
+    <string msgid="4678640422710818317" name="incall_error_emergency_only">"Tidak terdaftar pada jaringan."</string>
+    <string msgid="4100065333878929223" name="incall_error_out_of_service">"Jaringan seluler tidak tersedia."</string>
+    <string msgid="1150414018684246528" name="incall_error_no_phone_number_supplied">"Untuk melakukan panggilan telepon, masukkan nomor yang valid."</string>
+    <string msgid="6302746943230078197" name="incall_error_call_failed">"Tidak dapat menelepon."</string>
+    <string msgid="3672498861336189563" name="incall_status_dialed_mmi">"Memulai urutan MMI..."</string>
+    <string msgid="655570339115407698" name="incall_error_supp_service_unknown">"Layanan tidak didukung"</string>
+    <string msgid="5237002176899962862" name="incall_error_supp_service_switch">"Tidak dapat berganti panggilan telepon."</string>
+    <string msgid="7224393405134545246" name="incall_error_supp_service_separate">"Tidak dapat memisahkan panggilan telepon."</string>
+    <string msgid="7235952238189391438" name="incall_error_supp_service_transfer">"Tidak dapat mentransfer."</string>
+    <string msgid="2505727299596357312" name="incall_error_supp_service_conference">"Tidak dapat melakukan telewicara."</string>
+    <string msgid="8998568661508655638" name="incall_error_supp_service_reject">"Tidak dapat menolak panggilan telepon."</string>
+    <string msgid="7434513517153834426" name="incall_error_supp_service_hangup">"Tidak dapat melepas panggilan telepon."</string>
+    <string msgid="4627849966634578257" name="emergency_enable_radio_dialog_title">"Panggilan darurat"</string>
+    <string msgid="207613549344420291" name="emergency_enable_radio_dialog_message">"Menghidupkan radio..."</string>
+    <string msgid="5960061579996526883" name="emergency_enable_radio_dialog_retry">"Tidak ada layanan. Mencoba lagi…"</string>
+    <string msgid="1509085166367420355" name="dial_emergency_error">"Tidak dapat menelepon. <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> bukan nomor darurat."</string>
+    <string msgid="9130194953830414638" name="dial_emergency_empty_error">"Tidak dapat menelepon. Panggil nomor darurat."</string>
+    <string msgid="9192914825413747792" name="dialerKeyboardHintText">"Gunakan keyboard untuk memanggil"</string>
+    <string msgid="2285258239691145872" name="onscreenHoldText">"Tahan"</string>
+    <string msgid="4403855834875398585" name="onscreenEndCallText">"Akhiri"</string>
+    <string msgid="8561805492659639893" name="onscreenShowDialpadText">"Dialpad"</string>
+    <string msgid="5011369181754261374" name="onscreenMuteText">"Bisukan"</string>
+    <string msgid="5140385634712287403" name="onscreenAddCallText">"Tambahkan panggilan"</string>
+    <string msgid="6640195098064538950" name="onscreenMergeCallsText">"Gabungkan panggilan"</string>
+    <string msgid="1602990689244030047" name="onscreenSwapCallsText">"Tukar"</string>
+    <string msgid="5473231160123254154" name="onscreenManageCallsText">"Kelola panggilan"</string>
+    <string msgid="6485935856534311346" name="onscreenManageConferenceText">"Kelola konferensi"</string>
+    <string msgid="1710087112800041743" name="onscreenAudioText">"Audio"</string>
+    <string msgid="4800924186056115442" name="onscreenVideoCallText">"Video call"</string>
+    <string msgid="6614358325359736031" name="importSimEntry">"Impor"</string>
+    <string msgid="1503181169636198673" name="importAllSimEntries">"Impor semua"</string>
+    <string msgid="7374056215462575769" name="importingSimContacts">"Mengimpor kontak dari SIM"</string>
+    <string msgid="2130620207013368580" name="importToFDNfromContacts">"Impor dari kontak"</string>
+    <string msgid="8740268574688743289" name="hac_mode_title">"Alat bantu dengar"</string>
+    <string msgid="6833851160514929341" name="hac_mode_summary">"Hidupkan kompatibilitas alat bantu dengar"</string>
+  <string-array name="tty_mode_entries">
+    <item msgid="512950011423868021">"TTY Mati"</item>
+    <item msgid="3971695875449640648">"TTY Penuh"</item>
+    <item msgid="1937509904407445684">"TTY HCO"</item>
+    <item msgid="5644925873488772224">"TTY VCO"</item>
+  </string-array>
+    <string msgid="5163153771291340803" name="dtmf_tones_title">"Nada DTMF"</string>
+    <string msgid="3351820372864020331" name="dtmf_tones_summary">"Setel panjang nada DTMF"</string>
+  <string-array name="dtmf_tone_entries">
+    <item msgid="899650777817315681">"Normal"</item>
+    <item msgid="2883365539347850535">"Jauh"</item>
+  </string-array>
+    <string msgid="7738596060242881930" name="network_info_message">"Pesan jaringan"</string>
+    <string msgid="3394780436230411413" name="network_error_message">"Pesan kesalahan"</string>
+    <string msgid="8616918561356194398" name="ota_title_activate">"Aktifkan ponsel Anda"</string>
+    <string msgid="6553212803262586244" name="ota_touch_activate">"Perlu dilakukan panggilan khusus untuk mengaktifkan layanan ponsel Anda. \n\nSetelah menekan “Aktifkan”, dengarkan instruksi yang diberikan untuk mengaktifkan ponsel."</string>
+    <string msgid="2234246934160473981" name="ota_hfa_activation_title">"Mengaktifkan..."</string>
+    <string msgid="8092479227918463415" name="ota_hfa_activation_dialog_message">"Ponsel mengaktifkan layanan data seluler Anda.\n\nIni dapat memakan waktu sampai 5 menit."</string>
+    <string msgid="2943366608272261306" name="ota_skip_activation_dialog_title">"Lewati aktivasi?"</string>
+    <string msgid="2440770373498870550" name="ota_skip_activation_dialog_message">"Jika Anda mengabaikan aktivasi, Anda tidak dapat melakukan panggilan atau menyambung ke jaringan data seluler (walaupun dapat menyambung ke jaringan Wi-Fi). Sampai ponsel diaktifkan, Anda akan diminta mengaktifkannya setiap kali ponsel dihidupkan."</string>
+    <string msgid="3458532775091563208" name="ota_skip_activation_dialog_skip_label">"Lewati"</string>
+    <string msgid="1368528132525626264" name="ota_activate">"Aktifkan"</string>
+    <string msgid="6570240212263372046" name="ota_title_activate_success">"Ponsel telah aktif."</string>
+    <string msgid="7095824491970084367" name="ota_title_problem_with_activation">"Masalah dengan aktivasi"</string>
+    <string msgid="162923839877584937" name="ota_listen">"Ikuti instruksi lisan sampai Anda mendengar aktivasi telah selesai."</string>
+    <string msgid="6904589278542719647" name="ota_speaker">"Pengeras Suara"</string>
+    <string msgid="460876637828044519" name="ota_progress">"Memprogram ponsel…"</string>
+    <string msgid="7713756181204620397" name="ota_failure">"Tidak dapat memprogram ponsel"</string>
+    <string msgid="1880780692887077407" name="ota_successful">"Ponsel Anda sekarang diaktifkan. Mungkin dibutuhkan waktu hingga 15 menit sampai layanan dimulai."</string>
+    <string msgid="8072141612635635357" name="ota_unsuccessful">"Ponsel Anda tidak aktif. \nAnda mungkin perlu menemukan area dengan cakupan yang lebih baik (di dekat jendela atau di luar). \n\nCoba lagi atau hubungi layanan pelanggan untuk opsi lainnya."</string>
+    <string msgid="3909983542575030796" name="ota_spc_failure">"KEGAGALAN SPC BERLEBIH"</string>
+    <string msgid="4537279738134612388" name="ota_call_end">"Kembali"</string>
+    <string msgid="7685477206465902290" name="ota_try_again">"Coba lagi"</string>
+    <string msgid="3904945374358235910" name="ota_next">"Berikutnya"</string>
+    <string msgid="4448531867763097533" name="ecm_exit_dialog">"EcmExitDialog"</string>
+    <string msgid="6266424252578731203" name="phone_entered_ecm_text">"Masukkan Mode Teleponan Balik Darurat"</string>
+    <string msgid="3226896828951687085" name="phone_in_ecm_notification_title">"Mode Panggilan Balik Darurat"</string>
+    <string msgid="4611608947314729773" name="phone_in_ecm_call_notification_text">"Sambungan data dinonaktifkan"</string>
+  <plurals name="phone_in_ecm_notification_time">
+    <item msgid="4866221796252472622" quantity="one">"Tidak ada sambungan data selama <xliff:g id="COUNT">%s</xliff:g> menit"</item>
+    <item msgid="3122217344579273583" quantity="other">"Tidak ada sambungan data selama <xliff:g id="COUNT">%s</xliff:g> menit"</item>
+  </plurals>
+  <plurals name="alert_dialog_exit_ecm">
+    <item msgid="8060210887681426682" quantity="one">"Ponsel akan berada dalam mode Telepon Balik Darurat selama <xliff:g id="COUNT">%s</xliff:g> menit. Selama dalam mode ini, aplikasi yang menggunakan sambungan data tidak dapat dipakai. Apakah Anda ingin keluar sekarang?"</item>
+    <item msgid="8617116564023933114" quantity="other">"Ponsel akan berada dalam mode Telepon Balik Darurat selama <xliff:g id="COUNT">%s</xliff:g> menit. Selama dalam mode ini, aplikasi yang menggunakan sambungan data tidak dapat dipakai. Apakah Anda ingin keluar sekarang?"</item>
+  </plurals>
+  <plurals name="alert_dialog_not_avaialble_in_ecm">
+    <item msgid="2585506997024726599" quantity="one">"Tindakan yang dipilih tidak tersedia saat berada dalam mode Telepon Balik Darurat. Ponsel akan berada dalam mode ini selama <xliff:g id="COUNT">%s</xliff:g> menit. Apakah Anda ingin keluar sekarang?"</item>
+    <item msgid="6115622137771382224" quantity="other">"Tindakan yang dipilih tidak tersedia saat berada dalam mode Telepon Balik Darurat. Ponsel akan berada dalam mode ini untuk <xliff:g id="COUNT">%s</xliff:g> menit. Apakah Anda ingin keluar sekarang?"</item>
+  </plurals>
+    <string msgid="1886723687211887104" name="alert_dialog_in_ecm_call">"Tindakan yang dipilih tidak tersedia ketika dalam panggilan darurat."</string>
+    <string msgid="4835734101617817074" name="progress_dialog_exiting_ecm">"Keluar dari mode Teleponan Balik Darurat"</string>
+    <string msgid="6674268047820703974" name="alert_dialog_yes">"Ya"</string>
+    <string msgid="1476091437797628703" name="alert_dialog_no">"Tidak"</string>
+    <string msgid="2491494287075907171" name="alert_dialog_dismiss">"Tutup"</string>
+    <string msgid="5135942703327136909" name="voicemail_provider">"Layanan"</string>
+    <string msgid="72448049107749316" name="voicemail_settings">"Penyiapan"</string>
+    <string msgid="6724904736891087856" name="voicemail_number_not_set">"&lt;Tidak disetel&gt;"</string>
+    <string msgid="3672912580359716394" name="other_settings">"Setelan panggilan lainnya"</string>
+    <string msgid="4839419581866928142" name="calling_via_template">"Memanggil via <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
+    <string msgid="4713193418046639466" name="contactPhoto">"foto kontak"</string>
+    <string msgid="865837794424530980" name="goPrivate">"aktifkan pribadi"</string>
+    <string msgid="781975788478987237" name="selectContact">"pilih kontak"</string>
+    <string msgid="2739898841461577811" name="not_voice_capable">"Panggilan suara tidak didukung"</string>
+    <string msgid="7459705245418435351" name="description_dial_button">"panggil"</string>
+    <string msgid="8361970092063604886" name="voicemail_notification_vibrate_when_title">"Getar"</string>
+    <string msgid="5739583146522136440" name="voicemail_notification_vibarte_when_dialog_title">"Getar"</string>
+    <string msgid="2609519527849101590" name="voicemail_notification_ringtone_title">"Suara"</string>
+    <string msgid="7683489952557536398" name="dial_pad_autocomplete">"Pelengkapan otomatis tombol nomor"</string>
+    <string msgid="5197960752529332721" name="preference_category_ringtone">"Nada dering &amp; Getar"</string>
+    <string msgid="1743245930577325900" name="pstn_connection_service_label">"Kartu SIM internal"</string>
+    <string msgid="7237253660669000899" name="enable_video_calling_title">"Aktifkan video call"</string>
+    <string msgid="8948186136957417948" name="enable_video_calling_dialog_msg">"Untuk mengaktifkan video call, Anda perlu mengaktifkan Mode LTE 4G yang Ditingkatkan di setelan jaringan."</string>
+    <string msgid="576528473599603249" name="enable_video_calling_dialog_settings">"Setelan jaringan"</string>
+    <string msgid="7411471282167927991" name="enable_video_calling_dialog_close">"Tutup"</string>
+    <string msgid="4847699229529306397" name="sim_label_emergency_calls">"Panggilan darurat"</string>
+    <string msgid="7535215397212301562" name="sim_description_emergency_calls">"Hanya untuk panggilan darurat"</string>
+    <string msgid="4778679519938775515" name="sim_description_default">"SIM <xliff:g id="SLOT_ID">%s</xliff:g>"</string>
+<!-- HQ_qianwei 2015-09-24 add for HQ01395135 begin -->
+    <string name="network_lte_wcdma_gsm_auto">LTE/WCDMA/GSM mode otomatis</string>
+    <string name="network_wcdma_gsm_auto">WCDMA/GSM mode otomatis</string>
+    <string name="network_wcdma_only">WCDMA saja</string>
+    <string name="network_gsm_only">GSM saja</string>
+    <string name="sim_card_settings">Pengaturan kartu SIM</string>
+<string name="data_usage_disable_mobile">"Nonaktifkan data seluler?"</string>
+<string name="fdn_limited">Kontak tidak dapat disisipkan, batas tercapai.</string>
+<string name="voicemail_settings_summary">Pengaturan operator saya</string>
+<string name="wlan_connect_disconnect">Jika Wi-Fi tidak tersedia</string>
+<string name="not_resume_data">Jangan pakai data seluler</string>
+<string name="auto_resume_data">Pakai data seluler</string>
+<string name="reminde_resume_data">Tanyakan apakah akan memakai data seluler</string>
+    <string name="cellular_data_always_on_title">Aktifkan data bergerak selalu-hidup</string>
+    <string name="network_always_on">Aktifkan data bergerak selalu-hidup</string>
+    <string name="network_always_on_disable">Lebih hemat daya pada sebagian jaringan seluler</string>
+    <string name="network_always_on_enable">Gunakan daya lebih pada sebagian jaringan telepon bergerak</string>
+    <string name="network_always_on_warning">Menonaktifkan data bergerak selalu-hidup akan menyebabkan masalah sambungan pada sebagian aplikasi. Gunakan fitur pembaruan manual pada aplikasi untuk memperbaharui data online.</string>
+<!-- HQ_fengsimin add for HQ00055994 start -->
+<string name="cellular_data_title">Data Seluler</string>
+    <string name="cellular_data_summary">Operator dapat mengenakan biaya penggunaan data yang berlaku jika diaktifkan</string>
+<string  name="sim_change_data_title">"Ubah SIM data?"</string>
+    <string  name="sim_change_data_message">"Gunakan <xliff:g id="NEW_SIM">%1$s</xliff:g> daripada <xliff:g id="OLD_SIM">%2$s</xliff:g> untuk data seluler?"</string>
+<string name="wlan_data_use_reminder">Pengingat pindah Wi-Fi/Data seluler</string>
+<string name="remind_whether_switch">Tanyakan apakah akan melanjutkan dengan sambungan data seluler ketika Wi-Fi terputus</string>
+<string name="slot_1">SIM 1</string>
+    <string name="slot_2">SIM 2</string>
+<!-- HQ_fengsimin add for HQ00055994 end -->
+
+</resources>

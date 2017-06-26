@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/dialog_fullscreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cc000000" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+
+        <TextView
+            android:id="@+id/wfd_sink_countdown_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:textColor="#ffffff"
+            android:textSize="72sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/wfd_sink_countdown_num"
+            android:layout_alignTop="@+id/wfd_sink_countdown_num"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@+id/wfd_sink_countdown_num"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/wfd_sink_countdown_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:text="@string/wifi_display_settings_title"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/wfd_sink_countdown_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wfd_sink_countdown_title1"
+                android:layout_marginTop="12dp"
+                android:ellipsize="marquee"
+                android:text="@string/wfd_sink_disconnecting"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

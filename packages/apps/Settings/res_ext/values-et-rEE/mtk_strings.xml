@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- AudioProfile Settings start -->
+   <string name="ring_summary">Helin</string>
+  <string name="ring_vibrate_summary">Helin ja vibreerimine</string>
+  <string name="silent_summary">Ainult hääletu</string>
+  <string name="meeting_summary">Ainult vibreerimine</string>
+  <string name="outdoor_summary">Kõige tugevam helin ja vibreerimine</string>
+  <string name="audio_profile_reset">"Lähtesta"</string>
+  <string name="audio_profile_add">"Lisa"</string>
+  <string name="audio_profile_enable">"Luba"</string>
+  <string name="audio_profile_rename">"Nimeta ümber"</string>
+  <string name="audio_profile_delete">"Kustuta"</string>
+  <string name="audio_profile_message_reset">Kõik heliprofiili seaded lähtestatakse vaikeväärtustele</string>
+  <string name="audio_profile_message_rename">Sisesta uus profiili nimi</string>
+  <string name="audio_profile_message_name_error">Sisestatud nimi on juba olemas</string>
+  <string name="audio_profile_message_name_length_wrong">Nimi peab sisaldama vähemalt ühte märki</string>
+  <string name="audio_profile_message_delete">Profiil <xliff:g id="profile">%s</xliff:g> kustutatakse</string>
+  <string name="audio_profile_message_overflow">Sul on lubatud lisada vaid 6 kohandatud profiili</string>
+  <string name="audio_profile_category_custom_title">Kasutaja määratletud profiilid</string>
+  <string name="audio_profile_category_predefine_title">Eelmääratletud profiilid</string>
+  <string name="audio_profile_error">"Viga"</string>
+  <string name="audio_profile_others">Teated ja muu</string>
+  <string name="general_settings_title">"Üldine"</string>
+  <string name="silent_settings_title">"Hääletu"</string>
+  <string name="meeting_settings_title">Koosolek</string>
+  <string name="outdoor_settings_title">Õues</string>
+  <string name="sound_category_feedback_title">"Süsteem"</string>
+  <string name="sound_category_calls_title">"Sissetulevad kõned"</string>
+  <string name="voice_call_title">Häälkõne helin</string>
+  <string name="voice_call_summary">"Määra häälkõnede vaikehelin"</string>
+  <string name="video_call_title">Videokõne helin</string>
+  <string name="video_call_summary">Määra oma videokõnede vaikehelin</string>
+  <string name="sip_call_title">SIP-kõne helin</string>
+  <string name="sip_call_summary">Määra oma SIP-kõnede vaikehelin</string>
+  <string name="Phone_vibrate_summary">Vibreerimine sissetulevate kõnede korral</string>
+  <string name="vibrate_title">Värin</string>
+  <string name="audio_profile_settings_title">Heliprofiiid</string>
+  <string name="audio_profile_bes_loudness_summary">Kõlari helitugevuse võimendaja</string>
+  <string name="sound_enhancement_title">Heliparendus</string>
+  <string name="music_plus_summary">Heliparandaja kõrvaklappide jaoks</string>
+  <string name="lossless_title">Režiim Lossless BT (Kadudeta BT)</string>
+  <string name="lossless_summary">Kõrgkvaliteetne BT heli</string>
+  <string name="lossless_connect_summary">Režiimi Lossless BT (Kadudeta BT) sisselülitamine mõjutab WiFi-ühendust. Kas soovite kindlasti selle lubada?</string>
+  <string name="lossless_on">Kadudeta BT režiim SEES</string>
+  <string name="lossless_playing">Muusika kadudeta esitus</string>
+  <string name="lossless_toastmessage">Süsteemi helid esitatakse telefoni kõlari kaudu</string>
+  <string name="lossless_volume_max">Palun hoidke süsteemi helitugevus maksimumil</string>
+  <string name="lossless_cannot_found_device">Ei leia lossless-BT seadet</string>
+  <string name="audio_profile_bes_surround_title">BesSurround</string>
+  <string name="audio_profile_bes_surround_summary">Ruumiline heli</string>
+  <string name="audio_profile_bes_surround_mode_movie">Filmirežiim</string>
+  <string name="audio_profile_bes_surround_mode_music">Muusika-režiim</string>
+  <string msgid="6680706009915204785" name="zen_mode_option_title_novoice">"Märguannete saabumisel"</string>
+  <!-- AudioProfile Settings end -->
+ 
+  <!-- MTK Wi-Fi settings start -->
+   <string name="wifi_no_cert_for_wapi">Praeguse ühenduse AP jaoks ei leitud sertifikaati.</string>
+  <string name="sim_slot">SIM-Pesa</string>
+  <string name="eap_sim_slot_0">SIM-Pesa 1</string>
+  <string name="eap_sim_slot_1">SIM-Pesa 2</string>
+  <string name="eap_sim_aka_airplanemode">EAP-SIM/AKA kasutamiseks lülita lennurežiim välja</string>
+  <string name="eap_sim_aka_no_sim_error">EAP-SIM/AKA kasutamiseks pead sisestama SIM-kaardi</string>
+  <string name="eap_sim_aka_no_sim_slot_selected">EAP-SIM/AKA kasutamiseks pead valima SIM-pesa</string>
+  <string name="wifi_security_wapi_certificate">WAPI sertifikaat</string>
+  <string name="wapi_user_certificate">Kasutaja sertifikaat</string>
+  <string name="wapi_as_certificate">ASE sertifikaat</string>
+  <string name="wifi_hex_password">Kuuteistkümnendsüsteemi parool.</string>
+  <string name="wifi_WEP_transmit_key">Edastusvõti</string>
+  <string name="wifi_WEP_secury_key">Turvavõti</string>
+  <string name="wifi_tether_auto_disable_title">Hoia WiFi pääsupunkt sees</string>
+  <string name="wifi_tether_auto_channel_text">"automaatne"</string>
+  <string name="wifi_tether_auto_channel_width_text">Automaatne 20/40 MHz</string>
+  <string name="wifi_channel">Eelistatud kanal</string>
+  <string name="wifi_channel_width">Kanali laius</string>
+  <string name="wifi_advanced_ipv4_address_title">IPv4 aadress</string>
+  <string name="wifi_advanced_ipv6_address_title">IPv6 aadress</string>
+  <string name="wifi_ipv4_address">IPv4 aadress</string>
+  <string name="wifi_ipv6_address">IPv6 aadress</string>
+  <string name="wifi_ap_auto_join_available">Automaatne liitumine</string>
+  <string name="wifi_ap_auto_join_available_summary">Vali skaneerimisel automaatselt parem WiFi võrk, et liituda ühenduse loomisel</string>
+  <!-- MTK Wi-Fi settings end -->
+ 
+  <!-- Wi-Fi hotspot client start -->
+   <string name="wifi_tether_setting_title">Põhiseaded</string>
+  <string name="wifi_tether_wps_connect_title">WPS-ühendus</string>
+  <string name="wifi_tether_wps_connect_summary">Jätkamiseks on valitud WiFi kaitstud seadistusrežiim</string>
+  <string name="wifi_tether_wps_pin_error">Vale PIN</string>
+  <string name="wifi_tethering_title">WiFi pääsupunkt</string>
+  <string name="wifi_ap_wps_dialog_title">WPS-ühendus</string>
+  <string name="wifi_ap_wps_mode_title">WPS-režiim</string>
+  <string name="wifi_ap_wps_pin_title">Sisesta PIN-kood kliendilt</string>
+  <string name="wifi_ap_reset_OOB_title">Lähtesta võrgu SSID, turvalisus ja parool vaikeväärtustele (tehasekonfiguratsioon WPS-i jaoks)</string>
+  <string name="wifi_ap_reset_OOB">Lähtesta OOB</string>
+  <string name="wifi_ap_max_connection_title">Maksimaalselt ühendusi</string>
+  <string name="wifi_ap_connected_title">Ühendatud kasutajad</string>
+  <string name="wifi_ap_blocked_title">Blokeeritud kasutajad</string>
+  <string name="wifi_ap_client_block_title">"Blokeeri"</string>
+  <string name="wifi_ap_client_unblock_title">Vabasta</string>
+  <string name="wifi_ap_client_details_title">"Üksikasjad"</string>
+  <string name="wifi_ap_client_mac_label">MAC aadress:</string>
+  <string name="wifi_ap_client_ip_label">IP-aadress:</string>
+  <string name="wifi_ap_bandwidth_title">Ribalaiuse kasutus</string>
+  <string name="wifi_ap_bandwidth_enable">Luba ribalaiuse drosseldus</string>
+  <string name="wifi_ap_bandwidth_chart_title">Andmesidekiirus reaalajas</string>
+  <string name="wifi_ap_bandwidth_chart_summary">Mõõdetuna sinu telefoniga; sinu teenusepakkuja andmesidekiirus võib olla erinev.</string>
+  <string name="wifi_wps_fail_error">WiFi kaitstud seadistamine ebaõnnestus, proovi uuesti.</string>
+  <string name="wifi_ap_title">Statistika</string>
+  <string name="wifi_ap_time_duration">Kestus:<xliff:g id="time">%1$s</xliff:g>
+</string>
+  <string name="wifi_ap_total_data">Andmekasutus kokku:<xliff:g id="time">%1$s</xliff:g>
+</string>
+  <string name="wifi_ap_no_connected">0 ühendatud kasutajat</string>
+  <string name="wifi_ap_no_blocked">0 blokeeritud kasutaja</string>
+  <!-- Wi-Fi hotspot client end -->
+ 
+  <!-- MTK Beam plus start -->
+   <string name="beam_mgmt_tab_download_title">Käivita vastu võetud teenuse laadimine (SL) sõnum automaatselt</string>
+  <string name="beam_mgmt_tab_upload_title">"Nii kogutakse teavet teie seadme praeguse oleku kohta, et saata see meilisõnumina. Enne kui saate veaaruande ära saata, võtab selle loomine natuke aega; varuge kannatust."</string>
+  <string name="beam_share_mgmt_notification_ticker">Sisujagamise ajalugu</string>
+  <string name="beam_share_mgmt_notification_title">Sisujagamise ajalugu</string>
+  <string name="beam_share_mgmt_notification_message">"Vali, et kuvada kiirega sisujagamise ajalugu."</string>
+  <string name="beam_share_mgmt_tab_menu_clear">"Kustuta kõik teatised."</string>
+  <string name="beam_share_open_file_dialog_title">Ei saa faili avada</string>
+  <string name="beam_share_open_file_unsupported_message">Failivormingut ei toetata.</string>
+  <string name="beam_share_open_file_not_found_message">"Faili ei leitud: <xliff:g id="file_name">%1$s</xliff:g>
+</string>
+  <string name="beam_share_transfer_fail_dialog_title">"Kiirega edastamine ebaõnnestus"</string>
+  <string name="beam_share_resend_dialog_message">Faili "<xliff:g id="file_name">%1$s</xliff:g> saatmine ebaõnnestus."</string>
+  <string name="beam_share_resend_dialog_ok_button">"Proovige uuesti"</string>
+  <string name="beam_share_show_received_files_menu">"Näita vastuvõetud faile"</string>
+  <string name="beam_share_history_title">Sisujagamise ajalugu</string>
+  <string name="beam_share_clear_confirm_dialog_title">"Kustuta kõik"</string>
+  <string name="beam_share_clear_confirm_dialog_message">Kustutan kogu ajaloo?</string>
+  <string name="beam_share_receive_fail_dialog_message">Faili "<xliff:g id="file_name">%1$s</xliff:g> vastuvõtmine ebaõnnestus."</string>
+  <string name="beam_share_clear_item_dailog_title">"Kustuta"</string>
+  <string name="beam_share_clear_item_dailog_message">See üksus kustutatakse.</string>
+  <!-- MTK Beam plus end -->
+ 
+  <!-- MTK NFC settings start -->
+   <string name="nfc_p2p_mode">P2P režiim</string>
+  <string name="nfc_p2p_mode_summary">Saada või võta vastu rakenduse sisu</string>
+  <string name="nfc_tag_mode_category">Sildi režiim</string>
+  <string name="nfc_rw_tag_title">Sildi lugemine ja kirjutamine</string>
+  <string name="nfc_rw_tag_summary">Loe sildilt või kirjuta sildile</string>
+  <string name="nfc_card_emulation_category_title">kaardi emuleerimisrežiim</string>
+  <string name="nfc_card_emulation">Kaardi emuleerimine</string>
+  <string name="card_emulation_settings_category_title">saadaolev turvaelement</string>
+  <string name="card_emulation_settings_no_element_found">Turvaelement pole saadaval.</string>
+  <string name="card_emulation_settings_off_text">Saadavalolevate turvaelementide kuvamiseks lülita sisse funktsioon Kaardi emuleerimine.</string>
+  <string name="card_emulation_turning_off_text">Kaardi emuleerimise välja lülitamine...</string>
+  <string name="card_emulation_turning_on_text">Kaardi emuleerimise sisse lülitamine...</string>
+  <string name="card_emulation_switch_error_title">"Viga"</string>
+  <string name="card_emulation_switch_error_message">Ei õnnestunud lülituda režiimile <xliff:g id="card_mode">%1$s</xliff:g>.</string>
+  <string name="card_emulation_sim_not_supported_message">
+<xliff:g id="sim_description">%1$s</xliff:g> ei toeta NFC kaardi emuleerimisfunktsiooni.</string>
+  <string name="card_emulation_two_sim_not_supported_message">SIM1, SIM2 ei toeta NFC kaardi emuleerimisfunktsiooni.</string>
+  <string name="nfc_hce_pay_summary">"Seadme kasutamine funktsiooni KOPUTA JA MAKSA rakendamiseks, nt Google'i rahakott, krediitkaart jne."</string>
+  <!-- MTK NFC settings end -->
+ 
+  <!-- MTK WIFI Passpoint start -->
+   <string name="passpoint_summary">Ühendu automaatselt pääsupunkti toetavate AP-dega</string>
+  <string name="passpoint_append_summary">(pääsupunkti kaudu)</string>
+  <string name="passpoint_config_credential_type">Volituste tüüp</string>
+  <string name="passpoint_config_eap_method">"EAP meetod"</string>
+  <string name="passpoint_supported">Toetatud</string>
+  <string name="passpoint_username_pw">Kasutajanimi/parool</string>
+  <string name="passpoint_certificate">Sertifikaat</string>
+  <!-- MTK WIFI Passpoint end -->
+ 
+  <!-- MTK WFD start -->
+   <string name="wfd_change_resolution_menu_title">Muuda eraldusvõimet</string>
+  <string name="wfd_sink_summary">Teiste poolt tuvastatav</string>
+  <string name="wfd_device_category">SEADMETE LOEND</string>
+  <string name="wfd_sink_toast_enjoy">Nautige ekraanisalvestust teiselt seadmelt.</string>
+  <string name="wfd_sink_toast_disconnect">Ekraanisalvestus katkestatud</string>
+  <string name="wfd_sink_disconnecting">Ühenduse katkestamine ...</string>
+  <string name="wfd_sink_guide_btn">Hangi see</string>
+  <string name="wfd_sink_guide_title">Kuidas väljuda?</string>
+  <string name="wfd_sink_guide_content">Pikk vajutus <xliff:g id="seconds">%s</xliff:g> sekundit ekraanil, et väljuda teise seadme ekraanilt.</string>
+  <!-- MTK WFD end -->
+ 
+  <!-- MTK Storage Settings start -->
+   <string name="mtp_transfer_unmount_error_text">SD kaarti ei saa failiedastuse ajal eemaldada</string>
+  <string name="mtp_transfer_erase_error_text">SD kaarti ei saa failiedastuse ajal kustutada</string>
+  <string name="launch_error">"Ei saanud rakendust käivitada!"</string>
+  <string name="dlg_confirm_unmount_usb_title" product="default">Lahutan USB mäluseadme?</string>
+  <string name="dlg_confirm_unmount_usb_text" product="default">USB mäluseadme lahutamisel peatuvad mõned kasutatavad rakendused ega pruugi olla saadaval enne, kui USB mäluseadme uuesti paigaldad.</string>
+  <string name="dlg_error_unmount_usb_text" product="default">Ei saanud lahutada USB mäluseadet. Proovi hiljem uuesti.</string>
+  <string name="unmount_usb_inform_text" product="default">USB mäluseade lahutatakse.</string>
+  <string name="sd_eject_usbstorage" product="default">"Lahuta USB-mäluseade"</string>
+  <string name="sd_eject_usbstorage_summary" product="default">Lahuta USB mäluseade turvaliselt</string>
+  <string name="sd_mount_usbstorage" product="default">"Paigalda USB-mäluseade"</string>
+  <string name="sd_insert_usb_summary" product="default">"USB sisest. paigaldam.-ks"</string>
+  <string name="usb_ums_title">"USB-mäluseade"</string>
+  <string name="usb_ums_summary">"XP on soovitatav. See võimaldab edastada faile sinu arvuti ja Android-seadme vahel."</string>
+  <string name="usb_charge_title">Ainult laadimine</string>
+  <string name="usb_connect_as_cdrom_category">"Ühenda CD-ROM-ina"</string>
+  <string name="usb_charge_summary">Peata kõik USB funktsioonid. Võimaldab kiirendada USB laadimist ja vähendada energiatarvet.</string>
+  <string name="akp_installer_settings_title">"APK-installer"</string>
+  <string name="akp_installer_settings_summary">Installi APK telefoni mälust ja SD kaardilt</string>
+  <string name="usb_bicr_title">Sisemine CD-ROM</string>
+  <string name="usb_bicr_summary">Kuva kasulikku tarkvara sisaldav virtuaalne CD-ROM.</string>
+  <string name="select_memory">Vaikimisi kasutatav kirjutatav ketas</string>
+  <string name="dlg_mount_external_sd_title" product="default">Kas paigaldada SD kaart?</string>
+  <string name="dlg_mount_external_sd_summary" product="default">Kui paigaldad SD kaardi, katkestavad töötamise mõned sinu poolt kasutatavad rakendused.</string>
+  <!-- MTK Storage Settings end -->
+ 
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">HDMI seaded</string>
+  <string name="hdmi_settings_summary">Klõpsa HDMI konfigureerimiseks</string>
+  <string name="hdmi_audio_toggler">"Heli"</string>
+  <string name="hdmi_video_toggler">Video</string>
+  <string name="hdmi_video_resolution">Video eraldusvõime</string>
+  <string name="hdmi_auto">"automaatne"</string>
+  <string name="hdmi_scale_control">Video skaleerimise sätted</string>
+  <string name="hdmi_scale_no_scale">Skaleerimiseta</string>
+  <string name="hdmi_scale_scale_down">Skaleeri alla <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">Heliväljund</string>
+  <string name="hdmi_audio_output_stereo">Stereo</string>
+  <string name="hdmi_audio_output_multi_channel">Multikanal</string>
+  <!-- MTK HDMI end -->
+ 
+  <!-- MTK Display Settings start -->
+   <string name="landscape_launcher_title">Landscape Launcher</string>
+  <string name="landscape_launcher_none">"Puudub"</string>
+  <string name="display_settings_scences_title">Stseenid</string>
+  <string name="default_name">"Vaikimisi"</string>
+  <string name="custom_theme_name">Uus [%1$s]</string>
+  <string name="loading">Laadimine...</string>
+  <string name="auto_backlight_title">Ökonoomne tagantvalgustus</string>
+  <string name="auto_backlight_summary">Kohanda automaatselt tagantvalgustust, et säästa akutoidet</string>
+  <string name="display_personalize">Isikupärasta</string>
+  <string name="display_default">"Kuva"</string>
+  <string name="clear_motion_summary">Video sujuvuse täiustaja</string>
+  <string name="on_text">"sees"</string>
+  <string name="off_text">"väljas"</string>
+  <string name="mira_vision_summary">Pakub parimaid visuaalseid efekte</string>
+  <!-- MTK Display Settings end -->
+ 
+  <!--MTK Security Settings start -->
+   <string name="voice_unlock_backup_info_summary">Kuidas soovid lukustust eemaldada, kui funktsioon Eemalda lukustus häälkäsklusega ei suuda sind tuvastada?</string>
+  <string name="unlock_set_unlock_mode_voice_weak">Eemalda lukustus häälkäsklusega</string>
+  <string name="mtk_lock_screen_notifications_title">Lukustusekraani teated</string>
+  <string name="lock_screen_notifications_summary">Kuva teated lukustusekraanil</string>
+  <string name="lock_screen_style_title">Lukustusekraani laad</string>
+  <string name="current_suffix">"(Praegune)"</string>
+  <string name="lockscreen_style_default_desc">"Kiire juurdepääs rakendustele lukustusekraanil"</string>
+  <string name="security_not_set">Turvalisus ei ole seatud</string>
+  <string name="voice_ui_title">Hääljuhtimine</string>
+  <!--MTK Security Settings end -->
+ 
+  <!-- MTK Wireless settings start -->
+   <string name="pch_toggle_title">GPRS-edastuse eelistatud režiim</string>
+  <string name="pch_data_prefer_summary_off">Andmeside eelistused</string>
+  <string name="pch_call_prefer_summary_on">Kõne-eelistused</string>
+  <string name="pch_warning_message">Andmeedastuse kiirus langeb.</string>
+  <string name="tethered_ipv6_title">Kuumkoha ja jagamise seaded</string>
+  <string name="tethered_ipv4v6">(IPv6 saadaval)</string>
+  <string name="tethered_ipv6">(Saadaval on ainult IPv6)</string>
+  <string name="tethered_ipv4">(IPv6 kättesaamatu)</string>
+  <string name="tethering_apn_settings_title">APN-i seaded</string>
+  <string name="tethering_apn_settings_summary">Konfigureeri APN-i jagamiseks</string>
+  <string name="usb_tether_type_title">USB jagamise tüüp</string>
+  <string name="usb_tethering_select_version">Vali PC-süsteemi versioon</string>
+  <string name="apn_port_warning">Pordi väärtus peab olema vahemikus 1-65535!</string>
+  <string name="apn_predefine_change_dialog_notice">Kas soovid kindlasti salvestada? Muudatused vaike-APN-is võivad põhjustada ühendusprobleeme!"</string>
+  <string name="lockdown_vpn_already_connected">Funktsioon Alati VPN-is on juba ühenduseks lubatud.</string>
+  <!-- MTK Wireless settings end -->
+ 
+  <!-- MTK Feature MISC start -->
+   <string name="schedule_power_on_off_settings_title">Planeeritud toite sisse ja välja lülitamine</string>
+  <string name="ipo_title">Kiire taaskäivitus</string>
+  <string name="ipo_summary_on">Keela kiire taaskäivitus</string>
+  <string name="ipo_summary_off">Luba kiire taaskäivitus</string>
+  <string name="hotknot_explained_description">Luba andmevahetus, kui ekraan puudutab teist seadet</string>
+  <string name="mouse_primary_button_title">Ümberlülitus esmaste ja sekundaarsete nuppude vahel</string>
+  <string name="mouse_primary_button_dialog_title">Ümberlülitus esmasele nupule</string>
+  <string name="double_click_title">Topeltklõpsu kiirus</string>
+  <string name="test_area">TESTIALA:</string>
+  <string name="double_click_tip">Topeltklõpsake siin</string>
+  <!-- MTK Feature MISC end -->
+ 
+  <!-- MTK Bluetooth Settings start -->
+   <string name="bluetooth_advanced_settings">"Täpsemad seaded"</string>
+  <string name="bluetooth_profile_ftp">"Failiedastus"</string>
+  <string name="bluetooth_ftp_profile_summary_use_for">Kasuta failiedastuseks</string>
+  <string name="bluetooth_ftp_profile_summary_connected">"Ühendatud failiedastuseks"</string>
+  <!-- MTK Bluetooth Settings end -->
+ 
+  <!--MTK DateTime start-->
+   <string name="gps_time_sync_attention_gps_on">GPS-asukoha määramine võtab kõige rohkem 1 minuti. GPS võib ebaõnnestuda kellaaja määramisel, kui signaal on ümbritseva keskkonna tõttu nõrk.\n\nKas soovid kindlasti kasutada GPS-aega?</string>
+  <string name="gps_time_sync_attention_gps_off">GPS-aja kasutamiseks pead esmalt lubama GPS-i. Seejärel võtab GPS-asukoha määramine kõige rohkem 1 minuti. GPS võib ebaõnnestuda kellaaja määramisel, kui signaal on ümbritseva keskkonna tõttu nõrk. \n\nKas soovid kindlasti lubada GPS-i praegu ja oodata GPS-aega?</string>
+  <!--MTK DateTime end-->
+ 
+  <!--MTK DRM settings start -->
+   <string name="drm_settings_title">DRM-i lähtestamine</string>
+  <string name="drm_settings_summary">Kustutab kõik DRM litsentsid</string>
+  <string name="drm_reset_dialog_msg">See toiming kustutab kõik litsentsid seadmetel. Jätkan?</string>
+  <string name="drm_reset_toast_msg">Litsentsid on edukalt kustutatud.</string>
+  <!--MTK DRM settings end -->
+ 
+  <!-- MTK APPS settings start -->
+   <string name="launch_main_label">Käivita rakendus</string>
+  <string name="launch_main">Käivita rakendus põhitoiminguga</string>
+  <string name="launch_activitie">Käivita</string>
+  <string name="move_app_to_where">Teisalda asukohta <xliff:g id="location">%s</xliff:g>
+</string>
+  <!-- MTK APPS settings end -->
+ 
+  <!-- MTK Battery MISC start -->
+   <string name="bg_power_saving_title">Intelligentne energiasääst taustal</string>
+  <!-- MTK Battery MISC end -->
+ 
+  <!-- MTK  Datausage  start -->
+   <string name="mtk_datausage_overview_tab">Ülevaade</string>
+  <string name="mtk_datausage_overview_wifi_today">"Täna"</string>
+  <string name="mtk_datausage_overview_wifi_total">Kokku</string>
+  <string name="mtk_datausage_overview_mobile_title">"Mobiil"</string>
+  <string name="mtk_datausage_overview_mobile_usage">
+<xliff:g id="actual">%s</xliff:g>/<xliff:g id="limit">%s</xliff:g>
+</string>
+  <string name="mtk_datausage_overview_mobile_usage_warning">Üle piirmäära <xliff:g>%s</xliff:g>
+</string>
+  <string name="data_saving_title">Andmete salvestamine</string>
+  <!-- MTK  Dtausage  end -->
+ 
+  <!-- MTK About phone start -->
+   <string name="status_imei_slot1">IMEI (Pesa1)</string>
+  <string name="status_imei_slot2">IMEI (Pesa2)</string>
+  <string name="custom_build_version">Kohandatud versioon</string>
+  <string name="mota_system_update_summary">"Kontrolli süsteemivärskendusi serveris"</string>
+  <string name="software_updates_more_title">Tarkvaravärskendused</string>
+  <string name="software_updates_more_summary">Vaata uusi tarkvaraversioone</string>
+  <!-- MTK About phone end -->
+ 
+  <!-- MTK sim cards start -->
+   <string name="sim_cards_celluar_data_dialog_title">Valige SIM-kaart mobiilandmeside kasutamiseks</string>
+  <string name="sim_cards_data_sms_dialog_title">Valige SIM-kaart SMS-sõnumite jaoks</string>
+  <string name="sim_cards_calls_dialog_title">Valige kontod telefonikõnede jaoks</string>
+  <string name="sim_cards_other_calls_dialog_title">Valige teine konto</string>
+  <string name="sim_cards_other_calls_item_title">Teine konto</string>
+  <string name="data_connection_progress_message">SIM kaardi vahetamine võtab ligikaudu 10 sekundit. Palun oota...</string>
+  <string name="gemini_sim_mode_progress_activating_message">Aktiveerimine\u2026</string>
+  <string name="gemini_sim_mode_progress_deactivating_message">Deaktiveerimine\u2026</string>
+  <string name="simui_intenet_call">"Interneti-kõne"</string>
+  <!-- MTK sim cards end -->
+ 
+  <!-- MTK SIM Status start -->
+   <string name="imei_information_title">"IMEI teave"</string>
+  <string name="imei_information_summary">"IMEI suhteline teave"</string>
+  <string name="slot_number">"(<xliff:g id="SLOT_NUM">%1$d</xliff:g>. pesa)"</string>
+  <string name="sim_info_editor_color">"Taustavärv"</string>
+  <string name="sim_cards_notify_title">"SIM-kaardid on muutunud"</string>
+  <string name="sim_cards_notify_summary">Koputage eelistuste seadmiseks.</string>
+  <string name="no_sim_cards_notify_title">SIM-kaart ei ole ühendatud</string>
+  <string name="cellular_data_notify_title">"Mobiilne andmeside pole saadaval"</string>
+  <string name="cellular_data_notify_summary">Koputage data SIM-kaardi seadmiseks.</string>
+  <!-- MTK SIM Status end -->
+ 
+  <!-- IMS/SMS Settings start -->
+   <string name="ims_toggle_summary">IP Multimedia Subsystem teenuste pakkumine</string>
+  <string name="sms_vibrate_summary">anna vibratsiooniga märku, kui saabub SMS</string>
+  <!-- IMS/SMS Settings end -->
+    <string name="default_data_switch_err_msg1">Ei saa helistamise ajal lülituda eelistatud mobiilandmeside SIM-ile.</string>
+  <string name="two_cdma_dialog_msg">Pesa 1 ja pesa 2 ei suuda toetada CDMA võrku samaaegselt.</string>
+  <string name="hetcom_setting_title">Turbo-allalaadimine</string>
+<string name="voice_call_sim2_title">SIM 2 kõneposti helin</string>
+<string name="ringtone_sim2_title">SIM 2 telefonihelin</string>
+<string name="wfc_quick_toggle_title">Wi-Fi kõne</string>
+<string name="Help">Abi</string>
+<string name="Tutorials">Juhend</string>
+<string name="Top_questions">Sagedaseimad küsimused</string>
+<string name="Wifi_wfc_dialog_title">Wi-Fi kõne</string>
+<string name="Wifi_wfc_dialog_top_wording">Te olete nüüd ühendatud WLAN-võrku.</string>
+<string name="Wifi_wfc_dialog_bottom_wording">See sümbol teie ekraani ülaosas näitab, et te olete ühendatud Wi-Fi võrku. Te saate helistada ja sõnumeid saata Wi-Fi kaudu.</string>
+<string name="Skip">Eira</string>
+<string name="Learn_more">Lugege veel</string>
+<string name="Next">Järgmine</string>
+<string name="Switch_not_in_use_string">Ümberlülitus on ajutiselt mittekasutatav. Palun proovige hiljem uuesti.</string>
+<string name="Done">Valmis</string>
+<string name="Wfc_questions">Wi-Fi helistab abi saamiseks</string>
+<string name="Wfc_off_summary">Keelatud</string>
+<string name="wfc_on_summary">Wi-Fi kõne sees</string>
+<string name="connection_preference">Eelistatud ühendused</string>
+<string name="WiFi_preferred">Wi-Fi eelistatud</string>
+<string name="Cellular_network_preferred">Mobiilsidevõrk eelistatud</string>
+<string name="Never_use_cellular_network">Ära kunagi kasuta mobiilsidevõrku</string>
+<string name="WiFi_preferred_summary">Kasuta helistamiseks Wi-Fi. Kui Wi-Fi pole kättesaadav, kasuta mobiilsidevõrku (vaikimisi).</string>
+<string name="Cellular_network_preferred_summary">Kasuta helistamiseks mobiilsidevõrku. Kasuta Wi-Fi-t, kui mobiilsidevõrk pole kättesaadav.</string>
+<string name="Never_use_cellular_network_summary">Kasuta helistamiseks ainult Wi-Fi-t. Ära kasuta mobiilsidevõrku, isegi kui see on kättesaadav.</string>
+<string name="no_sim_present_error">SIM-kaart puudub</string>
+<string name="inavlid_sim_error">Viga 05: kehtetu SIM</string>
+<string name="airplane_mode_on">Lennurežiim on sisse lülitatud</string>
+<string name="cellular_prefered_summary">Mobiilside on teie eelistatud ühendusrežiim</string>
+<string name="wifi_off_summary">Wi-Fi on välja lülitatud</string>
+<string name="not_connected_to_wifi_summary">Ei ole Wi-Fi-ga ühendatud</string>
+<string name="poor_wifi_signal_summary">Kehv Wi-Fi signaal</string>
+<string name="wfc_enabling_summary">Lubamine...</string>
+<string name="wfc_disabling_summary">Keelamine...</string>
+<string name="wfc_ready_for_calls_summary">Kõnedeks valmis</string>
+<string name="wfc_unknown_error_summary">Tundmatu viga</string>
+<string name="wfc_tutorial_heading">Õppige Wi-Fi kõne kohta</string>
+<string name="wfc_tutorial_content_second_page_part1">Kui te näete Wi-Fi kõne ikooni olekuribal, on teie telefon valmis Wi-Fi kõneks.</string>
+<string name="wfc_tutorial_content_second_page_part2">Wi-Fi kõne jätkamiseks jääge Wi-Fi võrgu kattealasse. Te kuulete piiksu ja saate ekraanile teate, mis ütleb teile, kui kõne on katkenud, kuna te olete kattealast väljunud.</string>
+<string name="wfc_incorrect_sim_alert_title">Viga 05: kehtetu SIM-kaart</string>
+<string name="wfc_invalid_sim_alert_message">Tähtis teade\nTeie SIM-kaarti tuleb värskendada ühilduvuseks Wi-Fi kõneteenusega. Palun minge T-Mobile poodi või valige oma telefonil 611, et saada ühendust klienditeenindusega.</string>
+<string name="ok_string">OK</string>
+<string name="wifi_ap_help_title">Spikker</string>
+<string name="help_document">1. Seadet saab kaasaskantava Wi-Fi-tööpunkti rakenduse kaudu kasutada interneti pääsupunktina. Välisseadmed saavad luua ühenduse teie seadmega ja pääseda internetti teie mobiilse andmesideühenduse kaudu.\n2. Enne kaasaskantava Wi-Fi-tööpunkti kasutamist lülitage mobiilne andmeside sisse. Rakenduda võivad kehtivad andmetasud.\n3. Kaasaskantava Wi-Fi-tööpunkti funktsioon tarbib rohkem energiat.</string>
+<string name="bg_power_percent_title">Kuva aku laetuse protsenti</string>
+<string name="bg_power_percent_summary">Kuva olekuribal aku laetuse järelejäänud protsenti</string>
+<string name="wfc_tutorial_content_first_page">Wi-Fi-ühenduse kaudu helistamine võimaldab teil vältida ebaühtlast levi. Wi-Fi-ühenduse kaudu helistamisega saate Wi-Fi-võrgu kaudu saata ja vastu võttu sõnumeid, kasutades oma olemasolevat T-Mobile\'i plaani. Wi-Fi-ühenduse kaudu helistamiseks pole vaja mingit erilist häälestust. Avage sätete menüüst Raadioside ja võrgud ning looge alustamiseks ühendus Wi-Fi-võrguga.</string>
+<string name="storage_internal_storage_title">Sisemälu</string>
+<string name="storage_cleaner_preference_title">Mäluruumi puhastaja</string>
+</resources>

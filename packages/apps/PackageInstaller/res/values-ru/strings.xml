@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="2738748390251381682" name="app_name">"Программа установки пакета"</string>
+    <string msgid="3057143178373252333" name="next">"Далее"</string>
+    <string msgid="5896438203900042068" name="install">"Установить"</string>
+    <string msgid="3889387558374211719" name="done">"Готово"</string>
+    <string msgid="2706691034244052604" name="security_settings_desc">"Список разрешений:"</string>
+    <string msgid="8360346460165114585" name="cancel">Отмена</string>
+    <string msgid="4742479012767208045" name="unknown">"Неизвестно"</string>
+    <string msgid="8613631001631998372" name="installing">"Установка..."</string>
+    <string msgid="3682715442154357097" name="install_done">"Приложение установлено."</string>
+    <string msgid="7295206719219043890" name="install_confirm_question">"Хотите ли вы установить это приложение? Оно получит следующие разрешения:"</string>
+    <string msgid="5918305641302873520" name="install_confirm_question_no_perms">"Это приложение не требует специальных разрешений. Установить его?"</string>
+    <string msgid="4624159567361487964" name="install_confirm_question_update">"Хотите установить обновление для этого приложения? После обновления оно сможет выполнять следующие действия:"</string>
+    <string msgid="1302330093676416336" name="install_confirm_question_update_system">"Хотите установить обновление для этого приложения? После обновления оно сможет выполнять следующие действия:"</string>
+    <string msgid="4885928136844618944" name="install_confirm_question_update_no_perms">"Установить обновление этого приложения? На текущих данных это никак не отразится. Специальных прав доступа не требуется."</string>
+    <string msgid="7676593512694724374" name="install_confirm_question_update_system_no_perms">"Установить обновление этого встроенного приложения? На текущих данных это никак не отразится. Специальных прав доступа не требуется."</string>
+    <string msgid="6579998651498970899" name="install_failed">"Приложение не установлено."</string>
+    <string msgid="1287935707565682604" name="install_failed_invalid_apk">"Похоже, пакет поврежден."</string>
+    <string msgid="1517751954440692054" name="install_failed_inconsistent_certificates">"Пакет с таким названием уже установлен и имеет конфликтующую подпись."</string>
+    <string msgid="7947925824732917665" name="install_failed_older_sdk">"Этот пакет поддерживается только в системе Android более поздних версий."</string>
+    <string msgid="7098684468842750800" name="install_failed_cpu_abi_incompatible" product="tablet">"Приложение несовместимо с вашим устройством."</string>
+    <string msgid="1309625657882930450" name="install_failed_cpu_abi_incompatible" product="tv">"Это приложение несовместимо с вашим телевизором."</string>
+    <string msgid="4433316303249711331" name="install_failed_cpu_abi_incompatible" product="default">"Приложение несовместимо с вашим устройством."</string>
+    <string msgid="1958430133396322619" name="install_failed_file_not_found">"Указанный пакет удален до завершения установки."</string>
+    <string msgid="5567372439890440205" name="install_failed_verify_failed">"Пакет не проверен и не может быть установлен."</string>
+    <string msgid="7083090219270140373" name="install_failed_verify_timeout">"Не удалось проверить пакет. Попробуйте установить его позже."</string>
+    <string msgid="8368835262605608787" name="install_failed_msg" product="tablet">"Не удалось установить приложение \"<xliff:g id="APP_NAME">%1$s</xliff:g>\"."</string>
+    <string msgid="3990457938384021566" name="install_failed_msg" product="tv">"Приложение \"<xliff:g id="APP_NAME">%1$s</xliff:g>\" нельзя установить на ваш телевизор."</string>
+    <string msgid="8554909560982962052" name="install_failed_msg" product="default">"Не удалось установить приложение \"<xliff:g id="APP_NAME">%1$s</xliff:g>\"."</string>
+    <string msgid="4826921505917605463" name="launch">"Открыть"</string>
+    <string msgid="2855558586206583032" name="unknown_apps_dlg_title">"Установка заблокирована"</string>
+    <string msgid="7504186369474734767" name="unknown_apps_dlg_text" product="tablet">"В целях безопасности на устройстве заблокирована установка приложений из неизвестных источников."</string>
+    <string msgid="7195713985140602351" name="unknown_apps_dlg_text" product="tv">"В целях безопасности ваш телевизор блокирует установку приложений из неизвестных источников."</string>
+    <string msgid="133213135679009316" name="unknown_apps_dlg_text" product="default">В целях безопасности на телефоне заблокирована установка приложений, загруженных не из официальных источников Huawei. Вы можете установить любое приложение, но при этом Ваши личные данные и данные телефона будут уязвимы для атак приложений из неизвестных источников. Вы соглашаетесь с тем, что несете полную ответственность за любой ущерб, нанесенный телефону, и потерю данных, связанные с использованием этих приложений.
+       \nЭту настройку можно изменить в разделе Настройки > Безопасность > Неизвестные источники.</string>
+    <string msgid="1189146324736698462" name="unknown_apps_admin_dlg_text">"Ваш администратор запретил устанавливать приложения из неизвестных источников."</string>
+    <string msgid="3468756155452870475" name="ok">"ОК"</string>
+    <string msgid="6743583734099755409" name="settings">Разрешить установку</string>
+    <string msgid="7568985073502399415" name="allow_source_dlg_title">"Новый источник для приложений"</string>
+    <string msgid="3927580956764099076" name="allow_source_dlg_text">"<xliff:g id="APP_NAME">%1$s</xliff:g> хочет установить другие приложения.\n\nРазрешить и запомнить выбор?"</string>
+    <string msgid="4033876279091996596" name="manage_applications">"Управление приложениями"</string>
+    <string msgid="1232230739563820951" name="dlg_app_replacement_title">"Заменить приложение?"</string>
+    <string msgid="2992911899989907492" name="dlg_app_replacement_statement">"Данное приложение заменит другую программу.\n\nВсе пользовательские данные будут сохранены."</string>
+    <string msgid="1900046590819605929" name="dlg_sys_app_replacement_statement">"Это системное приложение.\n\nВсе пользовательские данные будут сохранены."</string>
+    <string msgid="7843674437613797326" name="out_of_space_dlg_title">"Недостаточно места"</string>
+    <string msgid="4774775404294282216" name="out_of_space_dlg_text">"Не удалось установить приложение \"<xliff:g id="APP_NAME">%1$s</xliff:g>\". Освободите место и повторите попытку."</string>
+    <string msgid="6944357727705699232" name="dlg_ok">"ОК"</string>
+    <string msgid="2692335460569505484" name="app_not_found_dlg_title">"Приложение не найдено"</string>
+    <string msgid="6107465056055095930" name="app_not_found_dlg_text">"Приложения нет в списке установленных."</string>
+    <string msgid="1860074100811653963" name="uninstall_application_title">"Удаление приложения"</string>
+    <string msgid="4146940097553335390" name="uninstall_update_title">"Удаление обновления"</string>
+    <string msgid="6680688689803932550" name="uninstall_activity_text">"<xliff:g id="ACTIVITY_NAME">%1$s</xliff:g> – часть следующего приложения:"</string>
+    <string msgid="6691975835951187030" name="uninstall_application_text">"Удалить приложение?"</string>
+    <string msgid="5574704453233525222" name="uninstall_application_text_all_users">"Удалить это приложение для "<b>"всех"</b>" пользователей? После этого "<b>"ни один"</b>" пользователь устройства не будет иметь доступа к приложению и связанным с ним данным."</string>
+    <string msgid="8766882355635485733" name="uninstall_application_text_user">"Удалить это приложение из профиля <xliff:g id="USERNAME">%1$s</xliff:g>?"</string>
+    <string msgid="2056387942084605027" name="uninstall_update_text">"Установить исходную версию приложения?"</string>
+    <string msgid="5556217435895938250" name="uninstalling">"Удаление..."</string>
+    <string msgid="3792487853420281888" name="uninstall_done">"Удаление завершено."</string>
+    <string msgid="631122574306299512" name="uninstall_failed">"Ошибка при удалении."</string>
+    <string msgid="3493789239037852035" name="uninstall_failed_device_policy_manager">"Невозможно удалить пакет, т. к. он выбран для администрирования устройства."</string>
+    <string msgid="5006234166226562439" name="uninstall_blocked_profile_owner">"Это приложение необходимо для вашего профиля <xliff:g id="USERNAME">%1$s</xliff:g>. Его нельзя удалить."</string>
+    <string msgid="7074175526413453063" name="uninstall_blocked_device_owner">"Это приложение указано администратором как обязательное. Его нельзя удалить."</string>
+    <string msgid="891392489300312370" name="manage_device_administrators">"Настройки администрирования"</string>
+    <string msgid="8969754702803951175" name="uninstall_failed_msg">"Не удалось удалить приложение \"<xliff:g id="APP_NAME">%1$s</xliff:g>\"."</string>
+    <string msgid="6079580916889596257" name="Parse_error_dlg_title">"Синтаксическая ошибка"</string>
+    <string msgid="7623286983621067011" name="Parse_error_dlg_text">"Ошибка при синтаксическом анализе пакета."</string>
+    <string msgid="6039428254474104210" name="newPerms">"Новые"</string>
+    <string msgid="1024385515840703981" name="allPerms">"Все"</string>
+    <string msgid="1850527049572617" name="privacyPerms">"Личные данные"</string>
+    <string msgid="6733560207731294504" name="devicePerms">"Доступ к устройству"</string>
+    <string msgid="6657813692169565975" name="no_new_perms">"Установка этого обновления не требует новых разрешений."</string>
+    <string msgid="4690289297029223742" name="grant_confirm_question">"Предоставить следующие разрешения? Вот к чему будет получен доступ:"</string>
+    <string name="delete_apps_text">Размер установочного пакета приложения <xliff:g id="apps_name">%1$s</xliff:g> - <xliff:g id="apps_size">%2$1.2f</xliff:g> МБ. Удалить?</string>
+    <string name="delete_apps_title" msgid="8360346460165114585">Удалить установочный пакет</string>
+</resources>

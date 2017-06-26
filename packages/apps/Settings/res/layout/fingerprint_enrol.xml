@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"> 
+<LinearLayout 
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/settings_null"
+	android:gravity="center"
+	android:textSize="15pt"
+	/>
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/enter_fingerprint_success"
+	android:gravity="center"
+	android:textSize="9pt"
+	/>
+	<TextView
+	android:id="@+id/fingerprint_id_state"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:gravity="center"
+	android:textSize="6pt"
+	/>
+	<TextView
+	android:id="@+id/fingerprint_childmode_state"	
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:textColor="#FF0000" 
+	android:text="@string/settings_null"
+	android:gravity="center"
+	android:textSize="11pt"
+	/>
+</LinearLayout>
+<LinearLayout
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<ImageView 
+	android:id="@+id/imageview"
+        android:layout_width="300px"
+	android:layout_height="450px"
+	android:layout_gravity="center"
+	android:src="@drawable/fingerprint_six" />
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/settings_null"
+	android:gravity="center"
+	android:textSize="10pt"
+	/>
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/settings_null"
+	android:gravity="center"
+	android:textSize="10pt"
+	/>
+</LinearLayout>
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"   
+ 	android:layout_gravity="center_horizontal"  
+        android:paddingLeft="20dp"  
+        android:paddingRight="20dp">  
+	<Button
+	android:id="@+id/rename"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/fingerprint_rename"
+	android:textSize="6pt"
+	android:layout_weight="1.0"/>
+		<!--android:background="@drawable/button_border_clickable"-->
+	<Button
+	android:id="@+id/nextstep"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/dlg_ok"
+	android:textSize="6pt"
+	android:layout_weight="1.0"/>
+</LinearLayout>
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"   
+ 	android:layout_gravity="center_horizontal"  
+        android:paddingLeft="20dp"  
+        android:paddingRight="20dp">  
+	<!-- <Button
+	android:id="@+id/set_child"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/fingerprint_set_childmode"
+	android:textSize="6pt"
+	android:layout_weight="1.0"/>
+	-->
+</LinearLayout>
+</LinearLayout>

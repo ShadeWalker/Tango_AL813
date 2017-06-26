@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- 
+  ~ Copyright (C) 2013 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+   --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="906161039445636857" name="phoneAppLabel" product="default">"Telefon"</string>
+    <string msgid="9035493194749959955" name="onHold">"Přidržený hovor"</string>
+    <string msgid="6878797917991465859" name="unknown">neznámé</string>
+    <string msgid="6713286113000232309" name="private_num">"Soukromé číslo"</string>
+    <string msgid="4793877574636445118" name="payphone">"Telefonní automat"</string>
+    <string msgid="1904840547188336828" name="confCall">"Konferenční hovor"</string>
+    <string msgid="6183862117003999578" name="call_lost">"Volání zrušeno"</string>
+    <string msgid="27649582100085266" name="audio_mode_speaker">"Reproduktor"</string>
+    <string msgid="4156527186373869107" name="audio_mode_earpiece">"Sluchátko"</string>
+    <string msgid="1465350758489175975" name="audio_mode_wired_headset">"Kabelová náhlavní soupr."</string>
+    <string msgid="3047641300848211128" name="audio_mode_bluetooth">"Bluetooth"</string>
+    <string msgid="7601815427707856238" name="wait_prompt_str">"Odeslat následující tóny?\n"</string>
+    <string msgid="1789964702154314806" name="pause_prompt_str">"Odesílání tónů\n"</string>
+    <string msgid="4106860097497818751" name="send_button">"Odeslat"</string>
+    <string msgid="3564467212025151797" name="pause_prompt_yes">"Ano"</string>
+    <string msgid="6686238803236884877" name="pause_prompt_no">"Ne"</string>
+    <string msgid="5543521676355533577" name="wild_prompt_str">"Nahradit zástupné znaky jinými znaky"</string>
+    <string msgid="3231519674734638786" name="caller_manage_header">"Konferenční hovor <xliff:g id="CONF_CALL_TIME">%s</xliff:g>"</string>
+    <string msgid="8524164258691887790" name="voicemail_settings_number_label">"Číslo hlasové schránky"</string>
+    <string msgid="5769417478498348054" name="card_title_dialing">"Vytáčení"</string>
+    <string msgid="8253487008234167266" name="card_title_redialing">"Opakované vytáčení"</string>
+    <string msgid="1162980346189744501" name="card_title_conf_call">"Konferenční hovor"</string>
+    <string msgid="7364539451234646909" name="card_title_incoming_call">"Příchozí hovor"</string>
+    <string msgid="5544730338889702298" name="card_title_call_ended">"Hovor ukončen "</string>
+    <string msgid="821463117892339942" name="card_title_on_hold">"Přidržený hovor"</string>
+    <string msgid="3999101620995182450" name="card_title_hanging_up">"Zavěšování"</string>
+    <string msgid="6346543933068225205" name="card_title_in_call">"Probíhá hovor"</string>
+    <string msgid="112428362494434191" name="card_title_my_phone_number">"Moje číslo je 
+        <xliff:g id="MY_PHONE_NUMBER">%s</xliff:g>"
+    </string>
+    <string msgid="297586766381973954" name="card_title_video_call_connecting">"Navazování spojení pro video"</string>
+    <string msgid="5898636679563320218" name="card_title_video_call">"Videohovor"</string>
+    <string msgid="4587504939739340937" name="card_title_video_call_requesting">"Požadování videa"</string>
+    <string msgid="9000555878389539225" name="card_title_video_call_error">"Videohovor nelze zahájit"</string>
+    <string msgid="7307938207564217293" name="card_title_callback_number">"Vaše číslo pro zpětné volání\n <xliff:g id="DARK_NUMBER">%1$s</xliff:g>"</string>
+    <string msgid="8634765419223426754" name="card_title_callback_number_emergency">"Vaše číslo pro tísňové zpětné volání\n <xliff:g id="DARK_NUMBER">%1$s</xliff:g>"</string>
+    <string msgid="2107666444937350731" name="notification_dialing">"Vytáčení"</string>
+    <string msgid="7554385905572364535" name="notification_missedCallTitle">"Zmeškaný hovor"</string>
+    <string msgid="1361677948941502522" name="notification_missedCallsTitle">"Zmeškané hovory"</string>
+    <string msgid="4575787816055205600" name="notification_missedCallsMsg">"Zmeškané hovory: 
+        <xliff:g id="NUM_MISSED_CALLS">%s</xliff:g>."
+    </string>
+    <string msgid="504686252427747209" name="notification_missedCallTicker">"Zmeškaný hovor od volajícího 
+        <xliff:g id="MISSED_CALL_FROM">%s</xliff:g>."
+    </string>
+    <string msgid="7068688957273482989" name="notification_ongoing_call">"Probíhající hovor"</string>
+    <string msgid="3480694969511790465" name="notification_on_hold">"Přidržený hovor"</string>
+    <string msgid="2820429205043529642" name="notification_incoming_call">"Příchozí hovor"</string>
+    <string msgid="7356836933934464805" name="notification_incoming_video_call">"Příchozí videohovor"</string>
+    <string msgid="1405576812892369451" name="notification_requesting_video_call">"Příchozí žádost o videohovor"</string>
+    <string msgid="8933468752045550523" name="notification_voicemail_title">"Nová hlasová zpráva"</string>
+    <string msgid="4366360747660929916" name="notification_voicemail_title_count">"Nová hlasová zpráva ( 
+        <xliff:g id="COUNT">%d</xliff:g>)"
+    </string>
+    <string msgid="4447323569453981685" name="notification_voicemail_text_format">"Volat hlasovou schránku 
+        <xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g>"
+    </string>
+    <string msgid="760963466895609716" name="notification_voicemail_no_vm_number">"Číslo hlasové schránky je neznámé."</string>
+    <string msgid="4224455487793492772" name="notification_network_selection_title">"Žádný signál"</string>
+    <string msgid="2607085729661923269" name="notification_network_selection_text">"Vybraná síť ( 
+        <xliff:g id="OPERATOR_NAME">%s</xliff:g>) není k dispozici"
+    </string>
+    <string msgid="6700362365135365143" name="notification_action_answer">"Přijmout"</string>
+    <string msgid="6069460915123531620" name="notification_action_end_call">"Zavěsit"</string>
+    <string msgid="7809271910870211729" name="notification_action_answer_video">"Video"</string>
+    <string msgid="1770796916369437773" name="notification_action_answer_voice">"Hlasový hovor"</string>
+    <string msgid="2898609801209468429" name="notification_action_accept">"Přijmout"</string>
+    <string msgid="2679969397930852858" name="notification_action_dismiss">"Zavřít"</string>
+    <string msgid="2684890353590890187" name="notification_missedCall_call_back">"Zavolat zpět"</string>
+    <string msgid="3049928912736917988" name="notification_missedCall_message">"Zpráva"</string>
+    <string msgid="6550191216405193368" name="incall_error_power_off">"Chcete-li telefonovat, vypněte nejprve režim V letadle."</string>
+    <string msgid="4678640422710818317" name="incall_error_emergency_only">"Přihlášení k síti nebylo úspěšné."</string>
+    <string msgid="4100065333878929223" name="incall_error_out_of_service">"Mobilní síť je nedostupná."</string>
+    <string msgid="1150414018684246528" name="incall_error_no_phone_number_supplied">"Chcete-li uskutečnit hovor, zadejte platné telefonní číslo."</string>
+    <string msgid="6302746943230078197" name="incall_error_call_failed">"Hovor nelze uskutečnit."</string>
+    <string msgid="3672498861336189563" name="incall_status_dialed_mmi">"Spouštění sekvence MMI..."</string>
+    <string msgid="323435289607131929" name="incall_error_supp_service_unknown">"Služba není podporována."</string>
+    <string msgid="5237002176899962862" name="incall_error_supp_service_switch">"Hovory nelze přepnout."</string>
+    <string msgid="7224393405134545246" name="incall_error_supp_service_separate">"Hovor nelze rozdělit."</string>
+    <string msgid="7235952238189391438" name="incall_error_supp_service_transfer">"Hovor nelze předat."</string>
+    <string msgid="7010354362202271726" name="incall_error_supp_service_conference">"Konferenční hovor nelze uskutečnit."</string>
+    <string msgid="8998568661508655638" name="incall_error_supp_service_reject">"Hovor nelze odmítnout."</string>
+    <string msgid="7434513517153834426" name="incall_error_supp_service_hangup">"Hovor nelze ukončit."</string>
+    <string msgid="4931428719494190371" name="incall_call_type_label_sip">"Volání SIP"</string>
+    <string msgid="4627849966634578257" name="emergency_enable_radio_dialog_title">"Tísňové volání"</string>
+    <string msgid="207613549344420291" name="emergency_enable_radio_dialog_message">"Zapínání rádia..."</string>
+    <string msgid="5960061579996526883" name="emergency_enable_radio_dialog_retry">"Služba je nedostupná. Probíhá další pokus…"</string>
+    <string msgid="1509085166367420355" name="dial_emergency_error">"Hovor nelze uskutečnit. <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> není číslo tísňového volání."</string>
+    <string msgid="9130194953830414638" name="dial_emergency_empty_error">"Hovor nelze uskutečnit. Vytočte číslo tísňového volání."</string>
+    <string msgid="9192914825413747792" name="dialerKeyboardHintText">"Číslo vytočíte pomocí klávesnice."</string>
+    <string msgid="7382457697092158039" name="overflowHoldMenuItemText">"Podržet hovor"</string>
+    <string msgid="8826360006222366843" name="overflowResumeMenuItemText">"Obnovit hovor"</string>
+    <string msgid="5605615101930811453" name="overflowAddMenuItemText">"Přidat hovor"</string>
+    <string msgid="6305762210377655389" name="overflowMergeMenuItemText">"Spojit hovory"</string>
+    <string msgid="6603717809137071603" name="overflowSwapMenuItemText">"Přepnout hovory"</string>
+    <string msgid="2285258239691145872" name="onscreenHoldText">"Přidržet"</string>
+    <string msgid="4403855834875398585" name="onscreenEndCallText">"Ukončit"</string>
+    <string msgid="8561805492659639893" name="onscreenShowDialpadText">"Číselník"</string>
+    <string msgid="5011369181754261374" name="onscreenMuteText">"Ztlumit"</string>
+    <string msgid="5140385634712287403" name="onscreenAddCallText">"Přidat hovor"</string>
+    <string msgid="6640195098064538950" name="onscreenMergeCallsText">"Spojit hovory"</string>
+    <string msgid="1602990689244030047" name="onscreenSwapCallsText">"Zaměnit"</string>
+    <string msgid="5473231160123254154" name="onscreenManageCallsText">"Spravovat hovory"</string>
+    <string msgid="6801708317570467407" name="onscreenManageConferenceText">"Správa konf. hovoru"</string>
+    <string msgid="1710087112800041743" name="onscreenAudioText">"Zvuk"</string>
+    <string msgid="4800924186056115442" name="onscreenVideoCallText">"Videohovor"</string>
+    <string msgid="5311407863653867937" name="onscreenChangeToVoiceText">"Změnit na hlasové volání"</string>
+    <string msgid="5324543493442787798" name="onscreenSwitchCameraText">"Přepnout fotoaparát"</string>
+    <string msgid="5663965924921429203" name="onscreenPauseVideoText">"Pozastavit video"</string>
+    <string msgid="2702376562345723132" name="onscreenOverflowText">"Další možnosti"</string>
+    <string msgid="5135942703327136909" name="voicemail_provider">"Služba"</string>
+    <string msgid="72448049107749316" name="voicemail_settings">"Konfigurace"</string>
+    <string msgid="6724904736891087856" name="voicemail_number_not_set">"</string>
+    <string msgid="3672912580359716394" name="other_settings">"Další nastavení hovorů"</string>
+    <string msgid="4839419581866928142" name="calling_via_template">"Volání prostřednictvím poskytovatele 
+        <xliff:g id="PROVIDER_NAME">%s</xliff:g>"
+    </string>
+    <string msgid="1696993226115570960" name="incoming_via_template">"Příchozí hovor přes poskytovatele <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
+    <string msgid="4713193418046639466" name="contactPhoto">"fotografie kontaktu"</string>
+    <string msgid="865837794424530980" name="goPrivate">"přepnout na soukromé"</string>
+    <string msgid="781975788478987237" name="selectContact">"vybrat kontakt"</string>
+    <string msgid="6158880869935281078" name="respond_via_sms_custom_message">"Napsat vlastní odpověď..."</string>
+    <string msgid="7516406059429609296" name="custom_message_cancel">"Zrušit"</string>
+    <string msgid="5795754217085747742" name="custom_message_send">"Odeslat"</string>
+    <string msgid="7205604197797472471" name="description_target_answer">"Odpověď"</string>
+    <string msgid="2098326025587950144" name="description_target_send_sms">"Odeslat SMS"</string>
+    <string msgid="4789834364389731957" name="description_target_decline">"Odmítnout"</string>
+    <string msgid="3495965588512395026" name="description_target_answer_video_call">"Přijmout jako videohovor"</string>
+    <string msgid="8396296303320994450" name="description_target_answer_audio_call">"Přijmout jako hlasový hovor"</string>
+    <string msgid="2894072808324604062" name="description_target_accept_upgrade_to_video_request">"Přijmout žádost o videhovor"</string>
+    <string msgid="4093888612888538776" name="description_target_decline_upgrade_to_video_request">"Odmítnout žádost o videohovor"</string>
+    <string msgid="4441409581444516690" name="description_direction_up">"Přejeďte prstem nahoru: 
+        <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>"
+    </string>
+    <string msgid="7129873384376533287" name="description_direction_left">"Přejeďte prstem doleva: 
+        <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>"
+    </string>
+    <string msgid="2122584234531957308" name="description_direction_right">"Přejeďte prstem doprava: 
+        <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>"
+    </string>
+    <string msgid="4317245625565166742" name="description_direction_down">"Přejeďte prstem dolů: <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>"</string>
+    <string msgid="8361970092063604886" name="voicemail_notification_vibrate_when_title">"Vibrace"</string>
+    <string msgid="5739583146522136440" name="voicemail_notification_vibarte_when_dialog_title">"Vibrace"</string>
+    <string msgid="2609519527849101590" name="voicemail_notification_ringtone_title">"Zvuk"</string>
+    <string msgid="78174796906240970" name="default_notification_description">"Výchozí zvuk ( 
+        <xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"
+    </string>
+    <string msgid="6374978286202084684" name="ringtone_title">"Vyzváněcí tón telefonu"</string>
+    <string msgid="9197564612065258960" name="vibrate_on_ring_title">"Vibrace při vyzvánění"</string>
+    <string msgid="7683489952557536398" name="dial_pad_autocomplete">"Aut. doplňování číselníku"</string>
+    <string msgid="5197960752529332721" name="preference_category_ringtone">"Vyzvánění a vibrace"</string>
+    <string msgid="4691922394301969053" name="manageConferenceLabel">"Spravovat konferenční hovor"</string>
+    <string msgid="8373041754188879871" name="emergency_call_dialog_number_for_display">"Číslo tísňové linky"</string>
+    <string name="accept_incoming_and_disconnect_current">Přijetím tohoto volání bude ukončeno aktuální volání.</string>
+    <string name="add_voicemail_number">Přidat číslo vm</string>
+    <string name="start_record">Zahájit záznam</string>
+    <string name="stop_record">Zastavit záznam</string>
+<string name="call_status_online">Online</string>
+<string name="call_status_onhold">Přidrženo</string>
+<string name="call_status_dialing">Vytáčení</string>
+<string name="call_status_disconnecting">Odpojování…</string>
+<string name="call_status_disconnected">Hovor dokončen</string>
+<string name="card_title_communicate">Probíhá hovor</string>
+    <string name="voicemail_call_dialog_number_for_display">hlasová schránka</string>
+<!--add by zhaizhanfeng for HQ01482481 at 151104-->
+    <string name="notification_voice_mail">"Hlasová schránka"</string>
+<!--add by zhaizhanfeng for HQ01482481 at 151104-->
+<string name="strange_number">Neznámé číslo</string>
+<string name="onscreenMoreMenuText">Další</string>
+<string name="recording_time_text">Záznam</string>
+<string name="record_hw">Záznam</string>
+<string name="hold_hw">Přidržet</string>
+<string name="note_hw">Poznámkový blok</string>
+<string name="addcall_hw">Přidat hovor</string>
+<string name="merge_hw">Spojit hovory</string>
+<string name="mute_hw">Ztišit</string>
+<string name="calendar_hw">"Kalendář"</string>
+<string name="contact_hw">Kontakty</string>
+<string name="swap_hw">Zaměnit hovory</string>
+<string name="only_call_ecc">Jen tísňová volání</string>
+<string name="strange_operator">Neznámé</string>
+<string name="locator_province">Provincie</string>
+<string name="locator_city">Město</string>
+       <string name="waitingDialogTitle">Aktuální hovor</string>
+       <string name="waitingDialogContextFirst">Přidržet aktuální hovor a odpovědět</string>
+       <string name="waitingDialogContextSecond">Ukončit aktuální hovor a odpovědět</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dm_lock">DM लॉक है</string>
+    <string name="dm_unlock">DM अनलॉक करें</string>
+    <string name="start_record">रिकॉर्डिंग आरंभ करें</string>
+    <string name="stop_record">रिकॉर्डिंग रोकें</string>
+    <string name="str_db_playlist_name">मेरी रिकॉर्डिंग</string>
+    <string name="alert_device_error">ऑडियो डिवाइस पर त्रुटि हुई</string>
+    <string name="ext_media_badremoval_notification_title">"SD कार्ड को अनपेक्षित रूप से निकाल दिया गया"</string>
+    <string name="error_sdcard_access">यूएसबी स्‍टोरेज तक एक्‍सेस करने में अक्षम</string>
+    <string name="confirm_device_info_full">SD कार्ड में जगह खत्म हो गई है, रिकॉर्ड सहेज लिया गया है</string>
+    <string name="confirm_save_info_saved">रिकॉर्ड सहेज दिया गया है</string>
+    <string name="confirm_save_info_saved_to">रिकॉर्डिंग निम्न में सहेज ली गई है</string>
+    <string name="recording_saved_sd_full">SD कार्ड में जगह खत्म हो गई है, रिकॉर्ड सहेज लिया गया है</string>
+    <string name="sd_not_enough">SD कार्ड में जगह खत्म हो रही है</string>
+    <string name="alert_dialog_dismiss">ख़ारिज करें</string>
+    <string name="change_my_pic">बदलें</string>
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">सभी फ़ोन काटें</string>
+    <string name="onscreenHangupHolding">होल्ड किए गए फ़ोन को काटें</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">चालू फ़ोन को काटें, प्रतीक्षा कर रहे का उत्तर दें</string>
+    <string name="menu_ect">स्थानांतरण</string>
+    <string name="respond_via_sms_confirmation_format">"<xliff:g id="PHONE_NUMBER">%s</xliff:g> को संदेश भेजा गया."</string>
+    <string name="volte_add_conference_member_title">कॉन्फ़्रेंस में जोड़ें</string>
+    <string name="add_member_msg">नंबर या नाम टाइप करें</string>
+    <string name="card_title_incoming_conference">कॉन्फ़्रेंस आमंत्रण</string>
+    <string name="addConferenceMemeberText">सदस्य जोड़ें</string>
+    <string name="add_conference_member_limit">एक समय में एक ही नंबर जोड़ सकता है।</string>
+    <string name="conference_member_join">
+<xliff:g id="member_name">%s</xliff:g> कॉन्फ़्रेंस में शामिल हुए।</string>
+    <string name="conference_member_leave">
+<xliff:g id="member_name">%s</xliff:g> ने कॉन्फ़्रेंस छोड़ा।</string>
+    <string name="conference_member_adding">
+<xliff:g id="member_name">%s</xliff:g> को जोड़ रहा है...</string>
+    <string name="conference_member_add_fail">
+<xliff:g id="member_name">%s</xliff:g> को जोड़ने में असफल।</string>
+    <string name="removeMember">"निकालें"</string>
+    <string name="memberStatus">"स्थिति"</string>
+    <string name="volte_call_waiting_indication_text">दूसरा पक्ष कॉल में है, कृपया प्रतीक्षा करें...</string>
+    <string name="volte_conf_member_reach_max">कॉन्फ़्रेंस में अधिकतम सदस्यों की संख्या पहले ही पहुँच चुकी है।</string>
+    <string name="add_multi_conference_member_limit">अभी के लिए अधिकतम <xliff:g id="max_number">%s</xliff:g> सदस्य ही जोड़ सकते हैं।</string>
+    <string name="multi_conference_member_adding">सदस्य जोड़े जा रहे हैं...</string>
+<string name="two_incoming_calls">दो आवक कॉल्स</string>
+<string name="wifi_title">Wi-Fi कॉल और मिनट </string>
+<string name="call_drop">आपका कॉल डिस्कनेक्ट किया जा सकता है</string>
+<string name="call_drop_message">आप लगभग Wi-Fi कवरेज सीमा के बाहर हैं</string>
+<string name="view_networks">नेटवर्क देखें</string>
+<string name="wfc_wifi_call_drop_summary">ओह! आप कॉल के दौरान आवश्यक रूप से अपने Wi-Fi नेटवर्क से बाहर निकल गए होंगे।\n \nअपने कॉल को समाप्त करने के लिए अपने Wi-Fi नेटवर्क से पुन: कनेक्ट करें?</string>
+</resources>

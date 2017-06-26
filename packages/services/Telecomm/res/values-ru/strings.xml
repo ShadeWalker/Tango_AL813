@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="telecommAppLabel" product="default" msgid="3477737022166975496">"Телефон"</string>
+    <string name="unknown" msgid="6878797917991465859">"Неизвестный абонент"</string>
+    <string name="notification_missedCallTitle" msgid="7554385905572364535">"Пропущенный вызов"</string>
+    <string name="notification_missedCallsTitle" msgid="1361677948941502522">"Пропущенные вызовы"</string>
+    <string name="notification_missedCallsMsg" msgid="4575787816055205600">"Пропущенных вызовов: <xliff:g id="NUM_MISSED_CALLS">%s</xliff:g>"</string>
+    <string name="notification_missedCallTicker" msgid="504686252427747209">"Пропущенные вызовы от абонента <xliff:g id="MISSED_CALL_FROM">%s</xliff:g>"</string>
+    <string name="notification_missedCall_call_back" msgid="2684890353590890187">"Позвонить"</string>
+    <string name="notification_missedCall_message" msgid="3049928912736917988">"Написать"</string>
+    <string name="accessibility_call_muted" msgid="2776111226185342220">"Звук выключен."</string>
+    <string name="accessibility_speakerphone_enabled" msgid="1988512040421036359">"Громкая связь включена."</string>
+    <string name="respond_via_sms_canned_response_1" msgid="2461606462788380215">"Не могу говорить. Что случилось?"</string>
+    <string name="respond_via_sms_canned_response_2" msgid="4074450431532859214">"Я сейчас вам перезвоню."</string>
+    <string name="respond_via_sms_canned_response_3" msgid="3496079065723960450">"Я перезвоню вам позже."</string>
+    <string name="respond_via_sms_canned_response_4" msgid="1698989243040062190">"Не могу говорить. Позвоните позже."</string>
+    <string name="respond_via_sms_setting_title" msgid="3754000371039709383">"Быстрые ответы"</string>
+    <string name="respond_via_sms_setting_title_2" msgid="6104662227299493906">"Изменить быстрые ответы"</string>
+    <string name="respond_via_sms_setting_summary" msgid="9150281183930613065"></string>
+    <string name="respond_via_sms_edittext_dialog_title" msgid="20379890418289778">"Быстрый ответ"</string>
+    <string name="respond_via_sms_confirmation_format" msgid="7229149977515784269">"Сообщение отправлено на номер <xliff:g id="PHONE_NUMBER">%s</xliff:g>."</string>
+    <string name="outgoing_call_not_allowed" msgid="1435394568102165287">"Владелец устройства разрешил только экстренные вызовы"</string>
+    <string name="outgoing_call_error_no_phone_number_supplied" msgid="1940125199802007505">"Недействительный номер."</string>
+    <string name="duplicate_video_call_not_allowed" msgid="3749211605014548386">"Невозможно позвонить в данный момент"</string>
+    <string name="no_vm_number" msgid="4164780423805688336">"Не указан номер голосовой почты"</string>
+    <string name="no_vm_number_msg" msgid="1300729501030053828">"На SIM-карте нет ни одного номера голосовой почты."</string>
+    <string name="add_vm_number_str" msgid="4676479471644687453">"Добавить номер"</string>
+    <string name="outgoing_call_error_limit_exceeded">Вызов не отправлен, превышен лимит.</string>
+    <string name="handle_restricted">"доступ ограничен"</string>
+    <string name="incall_error_supp_service_unknown" msgid="2991054870745666038">"Услуга не поддерживается."</string>
+    <string name="incall_error_supp_service_switch" msgid="3503552565745872241">"Не удается переключить вызовы."</string>
+    <string name="incall_error_supp_service_separate" msgid="914362338192301746">"Не удалось разделить вызов."</string>
+    <string name="incall_error_supp_service_transfer" msgid="2509871374644921632">"Не удалось перевести вызов."</string>
+    <string name="incall_error_supp_service_conference" msgid="2505727299596357312">"Не удается создать конференц-вызов."</string>
+    <string name="incall_error_supp_service_reject" msgid="7055164130563826216">"Невозможно отклонить вызов."</string>
+    <string name="incall_error_supp_service_hangup" msgid="7417583238334762737">"Не удается разъединить абонентов."</string>
+    <string name="mo_code_unconditional_cf_active">Безусловная активация\nпереадресации вызова</string>
+    <string name="mo_code_some_cf_active">Условная\nпереадресация вызова</string>
+    <string name="mo_code_call_forwarded">Вызов переадресован</string>
+    <string name="mo_code_call_is_waiting">Ожидание вызова</string>
+    <string name="mo_code_cug_call">Закрытая группа пользователей</string>
+    <string name="mo_code_outgoing_calls_barred">Исходящий вызов запрещен</string>
+    <string name="mo_code_incoming_calls_barred">Входящий вызов запрещен вызываемым абонентом</string>
+    <string name="mo_code_clir_suppression_rejected">Служба проверки ID абонента</string>
+    <string name="mo_code_call_deflected">вызов Вызов передан</string>
+    <string name="mt_code_forwarded_call">Это переадресованный вызов</string>
+    <string name="mt_code_cug_call">Закрытая группа пользователей</string>
+    <string name="mt_code_call_on_hold">Вызов удержан</string>
+    <string name="mt_code_call_retrieved">Вызов восстановлен</string>
+    <string name="mt_code_multi_party_call">Конференц-связь</string>
+    <string name="mt_code_on_hold_call_released">Удерживаемый вызов освобожден</string>
+    <string name="mt_code_forward_check_received">Получено SS-сообщение проверки переадресации</string>
+    <string name="mt_code_call_connecting_ect">Передача вызова</string>
+    <string name="mt_code_call_connected_ect">Передача вызова активна</string>
+    <string name="mt_code_deflected_call">Это отклоненный вызов</string>
+    <string name="mt_code_additional_call_forwarded">Переадресован дополнительный входящий вызов</string>
+    <string name="mt_code_forwarded_cf">Вызов переадресован</string>
+    <string name="mt_code_forwarded_cf_uncond">Безусловная переадресация вызова</string>
+    <string name="mt_code_forwarded_cf_cond">Условная переадресация вызова</string>
+    <string name="mt_code_forwarded_cf_busy">Переадресованный вызов, когда занято</string>
+    <string name="mt_code_forwarded_cf_no_reply">Переадресованный вызов, когда нет ответа</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Переадресованный вызов недоступен</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.android.settings.SmartEarphoneTutorialPreference
+        android:key="smart_earphone_control_tutorial"
+        android:layout="@layout/preference_smart_earphone_control"
+        android:summary="@string/smart_earphone_control_tutorial_text" />
+
+    <SwitchPreference
+        android:key="smart_earphone_control_switch"
+        android:persistent="true"
+        android:title="@string/smart_earphone_control_title" />
+
+</PreferenceScreen>

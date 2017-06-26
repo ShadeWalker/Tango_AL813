@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">مواد کا ذخیرہ</string>
+    <string name="provider_label">روابط</string>
+    <string name="upgrade_msg">رابطوں کا ڈیٹابیس اپ گریڈ کیا جارہا ہے۔</string>
+    <string name="upgrade_out_of_memory_notification_ticker">رابطوں کو اپ گریڈ کرنے کیلئے مزید میموری درکار ہے۔</string>
+    <string name="upgrade_out_of_memory_notification_title">رابطوں کیلئے ذخیرہ اپ گریڈ کیا جارہا ہے</string>
+    <string name="upgrade_out_of_memory_notification_text">اپ گریڈ مکمل کرنے کیلئے چھوئیں۔</string>
+    <string name="default_directory">روابط</string>
+    <string name="local_invisible_directory">دیگر</string>
+    <string name="read_write_all_voicemail_label">سبھی وائس میلز تک رسائی کریں</string>
+    <string name="read_write_all_voicemail_description">اطلاق کو ان سبھی صوتی میلز کو ذخیرہ اور اس کی بازیافت کرنے کی اجازت دیں جسے یہ آلہ استعمال کرسکتا ہو۔</string>
+    <string name="voicemail_from_column">آپ کے پاس<xliff:g id="voicemail_sim_display_name">%s</xliff:g>کی طرف سے نئی وائس میل ہے۔ کیا آپ اسے ابھی حاصل کرنا چاہتے ہيں؟</string>
+    <string name="debug_dump_title">رابطوں کا ڈیٹابیس کاپی کریں</string>
+    <string name="debug_dump_database_message">آپ 1) اپنے ڈیٹابیس کی ایک کاپی جس میں رابطوں سے متعلق سبھی معلومات اور داخلی اسٹوریج میں کال کی سبھی روداد شامل ہے، بنانے والے اور 2) اسے ای میل کرنے والے ہیں۔ آپ اسے کامیابی کے ساتھ کاپی کرلینے پر حتی الامکان جلد سے جلد آلے سے یا ای میل موصول ہوجانے پر حذف کرنا یاد رکھیں۔</string>
+    <string name="debug_dump_delete_button">ابھی حذف کریں</string>
+    <string name="debug_dump_email_sender_picker">اپنی فائل بھیجنے کیلئے ایک پروگرام چنیں</string>
+    <string name="debug_dump_email_subject">رابطوں کا Db منسلک ہوگیا</string>
+    <string name="debug_dump_email_body">میرے رابطوں کا ڈیٹابیس نیز میرے سبھی رابطوں کی معلومات منسلک ہے۔ احتیاط برتیں۔</string>
+    
+    <string name="sharedUserLabel">Android Core ایپس</string>
+    <string name="debug_dump_start_button">شروع</string>
+</resources>

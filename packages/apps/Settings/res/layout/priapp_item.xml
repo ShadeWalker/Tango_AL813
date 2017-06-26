@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="2.0dip"
+    android:paddingTop="5.0dip" >
+
+    <FrameLayout
+        android:id="@+id/applock_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:id="@+id/applock_image"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            android:maxHeight="70.0dip"
+            android:maxWidth="70.0dip"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:id="@+id/applock_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right|center"
+            android:paddingRight="2.0dip"
+            android:paddingTop="3.0dip"
+            android:src="@drawable/app_limit_checked"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/applock_text"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/applist_text_color"
+        android:textSize="13.0dip" />
+
+</LinearLayout>

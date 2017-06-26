@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:src="@drawable/linegray" />
+
+    <RelativeLayout
+        android:id="@+id/LifeService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/headview_bg"
+        android:paddingLeft="14sp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_centerVertical="true"
+            android:text="@string/HQ_MyGroup"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/leftclick" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:src="@drawable/linegray" />
+
+    <RelativeLayout
+        android:id="@+id/MyGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/headview_bg"
+
+        android:paddingLeft="14sp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_centerVertical="true"
+            android:text="@string/HQ_MyGroup"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/rightclick" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:src="@drawable/linegray" />
+
+    <TextView
+        android:id="@+id/contactsToDisplay_tv"
+        android:layout_width="match_parent"
+        android:layout_height="35dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="#eaeaea"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dip"
+        android:text="@string/HQ_ContactsToDisplay"
+        android:textColor="#747474"
+        android:textSize="14sp" />
+
+</LinearLayout>

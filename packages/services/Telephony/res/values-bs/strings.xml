@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="network_lte_wcdma_gsm_auto">LTE/WCDMA/GSM automatski</string>
+    <string name="network_wcdma_gsm_auto">WCDMA/GSM automatski</string>
+    <string name="network_wcdma_only">Samo WCDMA</string>
+    <string name="network_gsm_only">Samo GSM</string>
+    <string name="cellular_data_always_on_title">Omogući uvijek aktivne mobilne podatke</string>
+    <string name="network_always_on">Omogući uvijek aktivne mobilne podatke</string>
+    <string name="network_always_on_disable">Koristi manje energije na nekim mobilnim mrežama</string>
+    <string name="network_always_on_enable">Koristi više energije na nekim mobilnim mrežama</string>
+    <string name="network_always_on_warning">Onemogućavanje uvijek aktivnih mobilnih podataka izazvat će probleme sa povezivošću u nekim aplikacijama. Koristite osobinu ručnog osvježavanja u aplikacijama za ažuriranje podataka na mreži.</string>
+    <string name="preferred_network_mode_dialogtitle">Željeni način rada mreže</string>
+    <string name="unknown">Nepoznato</string>
+    <string name="notification_missedCallTitle">Propušteni pozivi</string>
+    <string name="notification_missedCallsTitle">Propušteni pozivi</string>
+    <string name="notification_missedCall_call_back">Uzvrati poziv</string>
+    <string name="notification_missedCall_message">Poruka</string>
+    <string name="phone_accounts_settings_header">Postavke poziva</string>
+    <string name="sim_card_settings">Postavke SIM kartice</string>
+    <string name="call_settings_with_label">Postavke SIM kartice (<xliff:g id="subscriptionlabel" example="Verizon">%s</xliff:g>)</string>
+    <string name="error_updating_title">Greška u postavkama poziva</string>
+    <string name="reading_settings">Čitanje postavki\u2026</string>
+    <string name="updating_settings">Ažuriranje postavki\u2026</string>
+    <string name="reverting_settings">Vraćanje postavki\u2026</string>
+    <string name="exception_error">Greška mreže ili SIM kartice.</string>
+    <string name="labelCallerId">ID pozivatelja</string>
+    <string name="labelCW">Poziv na čekanju</string>
+    <string name="voicemail_provider">Usluge</string>
+    <string name="voicemail_default">moja Karijera</string>
+    <string name="voicemail_settings">Postavljanje</string>
+    <string name="voicemail_settings_summary">Postavke za moja Karijera</string>
+    <string name="voicemail_notification_vibrate_when_title">Vibracija</string>
+    <string name="voicemail_notification_vibarte_when_dialog_title">Vibracija</string>
+    <string name="voicemail_notification_ringtone_title">Postavke zvuka</string>
+    <string name="voicemail">Govorna pošta Postavke</string>
+    <string name="voicemail_abbreviated">VM:</string>
+    <string name="call_forwarding_settings">Preusmjeravanje poziva</string>
+    <string name="call_forwarding_settings_with_label">Postavke Preusmjeravanje poziva (<xliff:g id="subscriptionlabel" example="Verizon">%s</xliff:g>)</string>
+    <string name="labelCF">Preusmjeravanje poziva</string>
+    <string name="labelCFU">Uvijek proslijedi</string>
+    <string name="sum_cfu_disabled">Onemogućeno</string>
+    <string name="labelCFB">Proslijedi kada je zauzeto</string>
+    <string name="sum_cfb_disabled">Onemogućeno</string>
+    <string name="labelCFNRy">Proslijedi kada nije odgovoreno</string>
+    <string name="sum_cfnry_disabled">Onemogućeno</string>
+    <string name="labelCFNRc">Proslijedi kada je nedostupno</string>
+    <string name="sum_cfnrc_disabled">Onemogućeno</string>
+    <string name="fdn">brojeve za fiksno biranje</string>
+    <string name="fdn_with_label">brojeve za fiksno biranje (<xliff:g id="subscriptionlabel" example="Verizon">%s</xliff:g>)</string>
+    <string name="fdn_enabled">Omogućeno brojeve za fiksno biranje</string>
+    <string name="fdn_disabled">Onemogućeno brojeve za fiksno biranje</string>
+    <string name="enable_fdn">Omogući FDN</string>
+    <string name="disable_fdn">Onemogući FDN</string>
+    <string name="change_pin2">Promijeni PIN2</string>
+    <string name="enable_fdn_ok">Onemogući FDN</string>
+    <string name="disable_fdn_ok">Omogući FDN</string>
+    <string name="additional_gsm_call_settings">Više</string>
+    <string name="oldPinLabel">Stari PIN</string>
+    <string name="newPinLabel">Novi PIN</string>
+    <string name="enter_pin2_text">PIN2</string>
+    <string name="oldPin2Label">Stari PIN2</string>
+    <string name="newPin2Label">Novi PIN2</string>
+    <string name="emergency_enable_radio_dialog_title">Hitni poziv</string>
+    <string name="emergency_enable_radio_dialog_message">Uključivanje radija\u2026</string>
+    <string name="emergency_enable_radio_dialog_retry">Nema usluge. Pokušavam ponovno\u2026</string>
+    <string name="manageConferenceLabel">Upravljanje konferencijskim pozivom</string>
+    <string name="data_usage_disable_mobile">Isključiti mobilni podatkovni promet?</string>
+    <string name="cancel">Otkaži</string>
+    <string name="onscreenAudioText">Zvuk</string>
+    <string name="mobile_networks">postavki za  mobilne mreže</string>
+    <string name="slot_1">karticu 1</string>
+    <string name="slot_2">karticu 2</string>
+    <string name="cf_card_title">karticu\u0020</string>
+    <string name="cellular_data_title">Preb. pod.</string>
+    <string name="cellular_data_summary">Operater može obračunati korištenje podataka ako je omogućeno</string>
+    <string name="roaming">Roaming podataka</string>
+    <string name="roaming_enable">Poveži se s podatkovnim uslugama u roamingu</string>
+    <string name="roaming_disable">Poveži se s podatkovnim uslugama u roamingu</string>
+    <string name="preferred_network_mode_title">Preferirani tip mreže</string>
+    <string name="apn_settings">Nazivi pristupne tačke</string>
+    <string name="networks">Mrežni operateri</string>
+    <string name="sum_carrier_select">Izaberite mrežnog operatera</string>
+    <string name="call_settings">Postavke poziva</string>
+    <string name="updating_title">Postavke poziva</string>
+    <string name="sim_change_data_title">Promijeni podatkovni SIM</string>
+    <string name="sim_change_data_message">Koristi <xliff:g id="new_sim">%1$s</xliff:g> umjesto <xliff:g id="old_sim">%2$s</xliff:g> za mobilni podatkovni promet?</string>
+ 
+</resources>

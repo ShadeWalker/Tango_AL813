@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- MTK WIFI Settings start -->
+    <string-array name="wifi_security_wfa" translatable="false">
+        <item>@string/wifi_security_none</item>
+        <item>WEP</item>
+        <item>WPA PSK</item>
+        <item>WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>WAPI PSK</item>
+        <item>@string/wifi_security_wapi_certificate</item>
+    </string-array>
+
+    <string-array name="wifi_ap_channel_width" translatable="false">
+        <item>20 MHz</item>
+        <item>Auto 20/40 MHz</item>
+    </string-array>
+
+    <string-array name="wpa_security" translatable="false">
+        <item>@string/wifi_security_none</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+
+    <string-array name="wpa_security_wfa" translatable="false">
+        <item>@string/wifi_security_none</item>
+        <item>WEP</item>
+        <item>WPA PSK</item>
+        <item>WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+
+    <string-array name="wapi_security" translatable="false">
+        <item>@string/wifi_security_none</item>
+        <item>WAPI PSK</item>
+        <item>@string/wifi_security_wapi_certificate</item>
+    </string-array>
+
+    <string-array name="wifi_eap_method_sim_aka" translatable="false">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+        <item>SIM</item>
+        <item>AKA</item>
+    </string-array>
+
+    <string-array name="wifi_eap_method_fast" translatable="false">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+        <item>FAST</item>
+    </string-array>
+
+    <string-array name="wifi_eap_method_fast_sim_aka" translatable="false">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+        <item>FAST</item>
+        <item>SIM</item>
+        <item>AKA</item>
+    </string-array>
+
+    <string-array name="sim_slot">
+        <item>(neodređeno)</item>
+        <item>SIM utor 1</item>
+        <item>SIM utor 2</item>
+    </string-array>
+
+   <string-array name="wifi_WEP_index" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+   <string-array name="wifi_WEP_security_type">
+        <item>"AUTOM."</item>
+        <!-- Do not translate. -->
+        <item translatable="false">WEP heksadecimalni</item>
+        <item>WEP hexadecimal</item>
+    </string-array>
+
+    <string-array name="wifi_hotspot_disable_policy_entries">
+        <item>Uvijek</item>
+        <item>Isključi kad miruje 5 minuta</item>
+        <item>Isključi kad miruje 10 minuta</item>
+    </string-array>
+
+    <string-array name="wifi_hotspot_disable_policy_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="wifi_ap_wps_mode_entries">
+        <item>Dugme Push</item>
+        <item>PIN klijenta</item>
+    </string-array>
+
+    <string-array name="wifi_ap_wps_mode_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="wifi_ap_max_connection_entries">
+        <item>1 korisnik</item>
+        <item>2 korisnika</item>
+        <item>3 korisnika</item>
+        <item>4 korisnika</item>
+        <item>5 korisnika</item>
+        <item>6 korisnika</item>
+        <item>7 korisnika</item>
+        <item>8 korisnika</item>
+    </string-array>
+
+    <string-array name="pin_security" translatable="false">
+        <item>@string/wifi_security_none</item>
+        <item>WPA2PSK/AES</item>
+    </string-array>
+
+    <string-array name="passpoint_eap_method" translatable="false">
+        <item>EAP-TTLS/</item>
+        <item>EAP-SIM/</item>
+        <item>EAP-TLS/</item>
+    </string-array>
+
+    <string-array name="passpoint_credential_type" translatable="false">
+        <item>@string/passpoint_username_pw</item>
+        <item>SIM</item>
+        <item>@string/passpoint_certificate</item>
+    </string-array>
+    <!-- MTK WIFI Settings end -->
+
+
+    <!-- MTK HDMI Settings start[SKIP COMMENT] -->
+    <string-array name="hdmi_video_resolution_entries" translatable="false">
+        <item>480p</item>
+        <item>576p</item>
+        <item>720p_60Hz</item>
+        <item>720p_50Hz</item>
+        <item>1080i_60Hz</item>
+        <item>1080i_50Hz</item>
+        <item>1080p_30Hz</item>
+        <item>1080p_25Hz</item>
+        <item>1080p_24Hz</item>
+        <item>1080p_23Hz</item>
+        <item>1080p_29Hz</item>
+        <item>1080p_60Hz</item>
+        <item>1080p_50Hz</item>
+        <item>720p3d_60Hz</item>
+        <item>720p3d_50Hz</item>
+        <item>1080i3d_60Hz</item>
+        <item>1080i3d_50Hz</item>
+        <item>1080p3d_24Hz</item>
+        <item>1080p3d_23Hz</item>
+    </string-array>
+
+    <string-array name="hdmi_video_resolution_entry_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+
+    <string-array name="hdmi_video_scale_entries" translatable="false">
+        <item>@string/hdmi_scale_no_scale</item>
+        <item>@string/hdmi_scale_scale_down</item>
+        <item>@string/hdmi_scale_scale_down</item>
+    </string-array>
+
+    <string-array name="hdmi_video_scale_entry_values" translatable="false">
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="hdmi_audio_output_entries" translatable="false">
+        <item>@string/hdmi_audio_output_stereo</item>
+        <item>@string/hdmi_audio_output_multi_channel</item>
+    </string-array>
+    <string-array name="hdmi_audio_output_entry_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <!-- MTK HDMI Settings end[SKIP COMMENT] -->
+
+
+    <!-- MTK WFD Settings start -->
+    <string-array name="wfd_720p_resolution_entry">
+        <item>720p (60 fps)</item>
+        <item>720 p (30 okvira/s)</item>
+    </string-array>
+
+    <string-array name="wfd_1080p_resolution_entry">
+        <item>1080p (30 fps)</item>
+        <item>720p (60 fps)</item>
+        <item>720p (30 fps)</item>
+    </string-array>
+
+    <string-array name="wfd_resolution_entry">
+        <item>﻿1080p FHD (za videozapise)</item>
+        <item>720p HD (za igre)</item>
+    </string-array>
+    <!-- MTK WFD Settings end -->
+
+
+
+
+    <string-array name="ext_mvno_type_entries" translatable="false">
+        <item>@string/landscape_launcher_none</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+        <item>PNN</item>
+    </string-array>
+
+    <string-array name="ext_mvno_type_values" translatable="false">
+        <item>""</item>
+        <item>spn</item>
+        <item>imsi</item>
+        <item>gid</item>
+        <item>pnn</item>
+    </string-array>
+    <!-- MTK APN Settings end[SKIP COMMENT] -->
+
+
+    <!-- MTK Tethering Settings start[SKIP COMMENT] -->
+    <string-array name="tethered_ipv6_entries" translatable="false">
+        <item>IPv4</item>
+        <item>IPv4 &amp; IPv6</item>
+    </string-array>
+
+    <string-array name="tethered_ipv6_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="usb_tether_type_entries" translatable="false">
+        <item>Windows(RNDIS)</item>
+        <item>Linux(EEM)</item>
+    </string-array>
+
+    <string-array name="usb_tether_type_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <!-- MTK Tethering Settings end[SKIP COMMENT] -->
+
+
+    <!-- Smart book settings start -->
+    <string-array name="mouse_primary_button_titles">
+        <item>Miš za dešnjake</item>
+        <item>Miš za ljevake</item>
+    </string-array>
+
+    <string-array name="mouse_primary_button_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <!-- Smart book settings end -->
+
+    <!-- MTK Feature MISC start -->
+    <string-array name="auto_time_entries">
+        <item>Koristi vrijednosti dobivene od mreže</item>
+        <item>Koristi vrijeme sa GPS-a</item>
+        <item>"ISKLJ"</item>
+    </string-array>
+
+    <string-array name="apk_install_location_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <!-- MTK Feature MISC end -->
+
+	<!-- MTK WFC start -->
+	<string-array name="user_wfc_preference">
+        <item>Preferira se Wi-Fi</item>
+        <item>Preferira se mobilna mreža</item>
+        <item>Nikad ne koristi mobilnu mrežu</item>
+    </string-array>
+	<!-- MTK WFC end -->
+	
+</resources>

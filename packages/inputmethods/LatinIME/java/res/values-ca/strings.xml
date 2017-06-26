@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- 
+/*
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="3909945612939668554" name="english_ime_input_options">"Opcions d\'entrada"</string>
+    <string msgid="5374120998125353898" name="use_contacts_for_spellchecking_option_title">"Cerca noms de contactes"</string>
+    <string msgid="8754413382543307713" name="use_contacts_for_spellchecking_option_summary">"El corrector ortogràfic utilitza entrades de la llista de contactes"</string>
+    <string msgid="5258079494276955460" name="vibrate_on_keypress">"Vibra en prémer tecles"</string>
+    <string msgid="6093592297198243644" name="sound_on_keypress">"So en prémer una tecla"</string>
+    <string msgid="123894815723512944" name="popup_on_keypress">"Finestra emergent en prémer un botó"</string>
+    <string msgid="2696713156722014624" name="settings_screen_preferences">"Preferències"</string>
+    <string msgid="9153102634339912029" name="settings_screen_appearance">"Aparença i dissenys"</string>
+    <string msgid="1391301621464509659" name="settings_screen_multilingual">"Opcions de diversos idiomes"</string>
+    <string msgid="8826372746901183556" name="settings_screen_gesture">"Escriptura gestual"</string>
+    <string msgid="1616818407747682955" name="settings_screen_correction">"Correcció de textos"</string>
+    <string msgid="7472408607625972994" name="settings_screen_advanced">"Avançat"</string>
+    <string msgid="2137262503543943871" name="settings_screen_theme">"Tema"</string>
+    <string msgid="4533689960308565519" name="include_other_imes_in_language_switch_list">"Canvia mètode d\'entrada"</string>
+    <string msgid="840637129103317635" name="include_other_imes_in_language_switch_list_summary">"La tecla de canvi d\'idioma serveix també per a altres mètodes d\'entrada"</string>
+    <string msgid="5915478828318774384" name="show_language_switch_key">"Tecla de canvi d\'idioma"</string>
+    <string msgid="7343403647474265713" name="show_language_switch_key_summary">"Mostra-la quan hi hagi diversos idiomes d\'entrada activats"</string>
+    <string msgid="6213164897443068248" name="key_preview_popup_dismiss_delay">"Retard omiss. fin. em. tecla"</string>
+    <string msgid="2096123151571458064" name="key_preview_popup_dismiss_no_delay">"Sense retard"</string>
+    <string msgid="2166964333903906734" name="key_preview_popup_dismiss_default_delay">"Predeterminat"</string>
+    <string msgid="8700286094028323363" name="abbreviation_unit_milliseconds">" 
+        <xliff:g id="MILLISECONDS">%s</xliff:g> ms"
+    </string>
+    <string msgid="6268225104743331821" name="settings_system_default">"Predeterm. del sist."</string>
+    <string msgid="4435317977804180815" name="use_contacts_dict">"Suggereix noms contactes"</string>
+    <string msgid="6599983334507879959" name="use_contacts_dict_summary">"Utilitza els noms de Contactes per a suggeriments i correccions"</string>
+    <string msgid="5167396352105467626" name="use_personalized_dicts">"Suggeriments personalitz."</string>
+    <string msgid="5506372337118822837" name="enable_metrics_logging">"Millora <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string msgid="8781529969425082860" name="use_double_space_period">"Punt amb doble espai"</string>
+    <string msgid="6532892187247952799" name="use_double_space_period_summary">"Picar dues vegades la barra d\'espai insereix punt i espai blanc"</string>
+    <string msgid="1719746674854628252" name="auto_cap">"Majúscules automàtiques"</string>
+    <string msgid="7934452761022946874" name="auto_cap_summary">"Posa en majúscula la primera paraula de cada frase"</string>
+    <string msgid="3996910038952940420" name="edit_personal_dictionary">"Diccionari personal"</string>
+    <string msgid="4238652338556902049" name="configure_dictionaries_title">"Diccionaris complementaris"</string>
+    <string msgid="4798763781818361168" name="main_dictionary">"Diccionari principal"</string>
+    <string msgid="8026799663445531637" name="prefs_show_suggestions">"Mostra els suggeriments de correcció"</string>
+    <string msgid="1583132279498502825" name="prefs_show_suggestions_summary">"Mostra paraules suggerides mentre s\'escriu"</string>
+    <string msgid="5078480071057408934" name="prefs_block_potentially_offensive_title">"Bloqueja paraules ofensives"</string>
+    <string msgid="2371835479734991364" name="prefs_block_potentially_offensive_summary">"No suggereixis paraules potencialment ofensives"</string>
+    <string msgid="7630720885194996950" name="auto_correction">"Autocorrecció"</string>
+    <string msgid="5625751551134658006" name="auto_correction_summary">"Prémer tecla d\'espai o punt. per corregir errors"</string>
+    <string msgid="8470882665417944026" name="auto_correction_threshold_mode_off">"Desactivat"</string>
+    <string msgid="8788366690620799097" name="auto_correction_threshold_mode_modest">"Moderada"</string>
+    <string msgid="7319007299148899623" name="auto_correction_threshold_mode_aggressive">"Agressiu"</string>
+    <string msgid="1853309024129480416" name="auto_correction_threshold_mode_very_aggressive">"Molt agressiu"</string>
+    <string msgid="1084449187723948550" name="bigram_prediction">"Suggeriments de paraula següent"</string>
+    <string msgid="3896362682751109677" name="bigram_prediction_summary">"Utilitza la paraula anterior a l\'hora de fer suggeriments"</string>
+    <string msgid="826951152254563827" name="gesture_input">"Activa l\'escriptura per gestos"</string>
+    <string msgid="9180350639305731231" name="gesture_input_summary">"Escriu una paraula fent lliscar el dit per les lletres"</string>
+    <string msgid="3802333369335722221" name="gesture_preview_trail">"Mostra el recorregut del gest"</string>
+    <string msgid="4443240334739381053" name="gesture_floating_preview_text">"Previs. text flotant dinàmic"</string>
+    <string msgid="4472696213996203533" name="gesture_floating_preview_text_summary">"Consulta la paraula suggerida mentre fas el gest"</string>
+    <string msgid="2078291600664682496" name="gesture_space_aware">"Formula el gest"</string>
+    <string msgid="4371385818348528538" name="gesture_space_aware_summary">"Per afegir espais als gestos, apropa el dit a la tecla d\'espai."</string>
+    <string msgid="3583258583521397548" name="voice_input">"Clau de l\'entrada de veu"</string>
+    <string msgid="8141750303464726129" name="voice_input_disabled_summary">"No hi ha cap mètode d\'introducció activat. Comprova la configuració d\'Idioma i introducció de text."</string>
+    <string msgid="373356270290742459" name="configure_input_method">"Configura mètodes d\'entrada"</string>
+    <string msgid="3666971864764478269" name="language_selection_title">"Idiomes"</string>
+    <string msgid="5328219371839879161" name="help_and_feedback">"Ajuda i suggeriments"</string>
+    <string msgid="5709487854987078367" name="select_language">"Idiomes"</string>
+    <string msgid="573678656946085380" name="hint_add_to_dictionary">"Torna a tocar per desar"</string>
+    <string msgid="3040385779511255101" name="hint_add_to_dictionary_without_word">"Toca aquí per desar."</string>
+    <string msgid="6071847973466625007" name="has_dictionary">"Diccionari disponible"</string>
+    <string msgid="8451164783510487501" name="keyboard_layout">"Tema del teclat"</string>
+    <string msgid="88170601942311355" name="subtype_en_GB">"Anglès (Regne Unit)"</string>
+    <string msgid="6160452336634534239" name="subtype_en_US">"Anglès (EUA)"</string>
+    <string msgid="5583145191430180200" name="subtype_es_US">"Espanyol (EUA)"</string>
+    <string msgid="1931018968641592304" name="subtype_with_layout_en_GB">"Anglès (Regne Unit) (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string msgid="8809311287529805422" name="subtype_with_layout_en_US">"Anglès (EUA) (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string msgid="510930471167541338" name="subtype_with_layout_es_US">"Espanyol (EUA) (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string msgid="8584594350973800586" name="subtype_generic_traditional">"<xliff:g id="LANGUAGE_NAME">%s</xliff:g> (tradicional)"</string>
+    <string msgid="7486451947618138947" name="subtype_generic_cyrillic">"<xliff:g id="LANGUAGE_NAME">%s</xliff:g> (ciríl·lic)"</string>
+    <string msgid="9128716486310604145" name="subtype_generic_latin">"<xliff:g id="LANGUAGE_NAME">%s</xliff:g> (llatí)"</string>
+    <string msgid="7137390094240139495" name="subtype_no_language">"Cap idioma (alfabet)"</string>
+    <string msgid="244337630616742604" name="subtype_no_language_qwerty">"Alfabet (QWERTY)"</string>
+    <string msgid="443066912507547976" name="subtype_no_language_qwertz">"Alfabet (QWERTZ)"</string>
+    <string msgid="8144348527575640087" name="subtype_no_language_azerty">"Alfabet (AZERTY)"</string>
+    <string msgid="1564494667584718094" name="subtype_no_language_dvorak">"Alfabet (Dvorak)"</string>
+    <string msgid="5837418400010302623" name="subtype_no_language_colemak">"Alfabet (Colemak)"</string>
+    <string msgid="5354918232046200018" name="subtype_no_language_pcqwerty">"Alfabet (PC)"</string>
+    <string msgid="7483586578074549196" name="subtype_emoji">"Emoji"</string>
+    <string msgid="4909551808526178852" name="keyboard_theme">"Tema del teclat"</string>
+    <string msgid="8429952441821251512" name="custom_input_styles_title">"Estils d\'entrada pers."</string>
+    <string msgid="6163126614514489951" name="add_style">"Afeg. estil"</string>
+    <string msgid="8299699805688017798" name="add">"Afegeix"</string>
+    <string msgid="4486081658752944606" name="remove">"Elimina"</string>
+    <string msgid="7646738597196767214" name="save">"Desa"</string>
+    <string msgid="8576443440738143764" name="subtype_locale">"Idioma"</string>
+    <string msgid="4309233698194565609" name="keyboard_layout_set">"Disseny"</string>
+    <string msgid="8826731320846363423" name="custom_input_style_note_message">"El teu estil d\'entrada personalitzat ha d\'estar activat per poder fer-lo servir. Vols activar-lo ara?"</string>
+    <string msgid="5031294444630523247" name="enable">"Activa"</string>
+    <string msgid="6172462888202790482" name="not_now">"Ara no"</string>
+    <string msgid="8008728952215449707" name="custom_input_style_already_exists">"Ja existeix aquest estil d\'entrada: <xliff:g id="INPUT_STYLE_NAME">%s</xliff:g>"</string>
+    <string msgid="7918341459947439226" name="prefs_keypress_vibration_duration_settings">"Durada vibració en prémer"</string>
+    <string msgid="6027007337036891623" name="prefs_keypress_sound_volume_settings">"Volum del so en prémer tecles"</string>
+    <string msgid="3988017840431881491" name="button_default">"Predeterminat"</string>
+    <string msgid="6112821709832031715" name="setup_welcome_title">"Et donem la benvinguda a <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string msgid="8150252008545768953" name="setup_welcome_additional_description">"amb Escriptura gestual"</string>
+    <string msgid="8936036460897347708" name="setup_start_action">"Comença"</string>
+    <string msgid="371821437915144603" name="setup_next_action">"Pas següent"</string>
+    <string msgid="6400373034871816182" name="setup_steps_title">"S\'està configurant <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string msgid="3147967630253462315" name="setup_step1_title">"Activa <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string msgid="2578631936624637241" name="setup_step1_instruction">"Selecciona \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" a la configuració d\'Idioma i introducció de text perquè es pugui executar al teu dispositiu."</string>
+    <string msgid="10761482004957994" name="setup_step1_finished_instruction">"L\'aplicació <xliff:g id="APPLICATION_NAME">%s</xliff:g> ja està activada per a la teva Configuració d\'idioma i d\'introducció de text. Pots passar al següent."</string>
+    <string msgid="4366513534999901728" name="setup_step1_action">"Activa a la configuració"</string>
+    <string msgid="6860725447906690594" name="setup_step2_title">"Canvi a <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string msgid="9141481964870023336" name="setup_step2_instruction">"A continuació, selecciona \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" com a mètode d\'introducció de text actiu."</string>
+    <string msgid="1660330307159824337" name="setup_step2_action">"Canvia els mètodes d\'introducció"</string>
+    <string msgid="3154757183631490281" name="setup_step3_title">"Enhorabona, ja has acabat!"</string>
+    <string msgid="8025981829605426000" name="setup_step3_instruction">"Ara ja pots escriure en totes les teves aplicacions preferides amb <xliff:g id="APPLICATION_NAME">%s</xliff:g>."</string>
+    <string msgid="600879797256942259" name="setup_step3_action">"Configura altres idiomes"</string>
+    <string msgid="276559243409465389" name="setup_finish_action">"Finalitzat"</string>
+    <string msgid="5008028590593710830" name="show_setup_wizard_icon">"Mostra la icona de l\'aplicació"</string>
+    <string msgid="4119998322536880213" name="show_setup_wizard_icon_summary">"Mostra la icona de l\'aplicació al menú d\'aplicacions"</string>
+    <string msgid="6320102637491234792" name="app_name">"Proveïdor de diccionaris"</string>
+    <string msgid="3027315045397363079" name="dictionary_provider_name">"Proveïdor de diccionaris"</string>
+    <string msgid="6237472350693511448" name="dictionary_service_name">"Servei de diccionari"</string>
+    <string msgid="6014835283119198591" name="download_description">"Informació d\'actualització del diccionari"</string>
+    <string msgid="8091417676045693313" name="dictionary_settings_title">"Diccionaris complementaris"</string>
+    <string msgid="3587517870006332980" name="dictionary_install_over_metered_network_prompt">"Diccionari disponible"</string>
+    <string msgid="5305694987799824349" name="dictionary_settings_summary">"Configuració dels diccionaris"</string>
+    <string msgid="3582332055892252845" name="user_dictionaries">"Diccionaris de l\'usuari"</string>
+    <string msgid="1625055720489280530" name="default_user_dict_pref_name">"Diccionari de l\'usuari"</string>
+    <string msgid="4728975345815214218" name="dictionary_available">"Diccionari disponible"</string>
+    <string msgid="2982650524622620983" name="dictionary_downloading">"S\'està baixant"</string>
+    <string msgid="8081558343559342962" name="dictionary_installed">"Instal·lat"</string>
+    <string msgid="8950383219564621762" name="dictionary_disabled">"Instal·lat, desactivat"</string>
+    <string msgid="9216933695765732398" name="cannot_connect_to_dict_service">"Error en connectar amb el diccionari"</string>
+    <string msgid="8039920716566132611" name="no_dictionaries_available">"Cap diccion. dispon."</string>
+    <string msgid="8087688440916388581" name="check_for_updates_now">"Actualitza"</string>
+    <string msgid="730467549913588780" name="last_update">"Última actualització"</string>
+    <string msgid="4457761393932375219" name="message_updating">"S\'està comprovant si hi ha actualitzacions"</string>
+    <string msgid="5638680861387748936" name="message_loading">"S\'està carregant..."</string>
+    <string msgid="3072821352793492143" name="main_dict_description">"Diccionari principal"</string>
+    <string msgid="6830980399865683324" name="cancel">"Cancel·la"</string>
+    <string msgid="3876892339342569259" name="go_to_settings">"Configuració"</string>
+    <string msgid="180852772562189365" name="install_dict">"Instal·la"</string>
+    <string msgid="7843340278507019303" name="cancel_download_dict">"Cancel·la"</string>
+    <string msgid="756853268088330054" name="delete_dict">"Suprimeix"</string>
+    <string msgid="1583881200688185508" name="should_download_over_metered_prompt">"Hi ha un diccionari disponible per a l\'idioma seleccionat al teu dispositiu mòbil.&lt;br/&gt; Et recomanem que &lt;b&gt;baixis&lt;/b&gt; el diccionari per a <xliff:g id="LANGUAGE_NAME">%1$s</xliff:g> per millorar la teva experiència d\'escriptura.&lt;br/&gt; &lt;br/&gt; La baixada pot trigar un parell de minuts en xarxes 3G. Si no tens un &lt;b&gt;pla de dades il·limitat&lt;/b&gt;,&lt;br/&gt; és possible que s\'apliquin càrrecs. Si no estàs segur de les característiques del teu pla de dades, et recomanem que cerquis una connexió Wi-Fi per iniciar la baixada automàticament.&lt;br/&gt; &lt;br/&gt;Consell: Pots baixar i suprimir diccionaris a la secció &lt;b&gt;Idioma i introducció de text&lt;/b&gt; del menú &lt;b&gt;Configuració&lt;/b&gt; del dispositiu mòbil."</string>
+    <string msgid="1643065851159409546" name="download_over_metered">"Baixa ara ( 
+        <xliff:g id="SIZE_IN_MEGABYTES">%1$.1f</xliff:g> MB)"
+    </string>
+    <string msgid="2176209579313941583" name="do_not_download_over_metered">"Baixa mitjançant Wi-Fi"</string>
+    <string msgid="4583842811218581658" name="dict_available_notification_title">"Hi ha disponible un diccionari per a <xliff:g id="LANGUAGE_NAME">%1$s</xliff:g>."</string>
+    <string msgid="1075194169443163487" name="dict_available_notification_description">"Prem per revisar-lo i per baixar-lo"</string>
+    <string msgid="6128155879830851739" name="toast_downloading_suggestions">"Baixada: els suggeriments per a <xliff:g id="LANGUAGE_NAME">%1$s</xliff:g> estaran disponibles ben aviat."</string>
+    <string msgid="2715354215568469385" name="version_text">"Versió 
+        <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"
+    </string>
+    <string msgid="1254195365689387076" name="user_dict_settings_add_menu_title">"Afegeix"</string>
+    <string msgid="4096700390211748168" name="user_dict_settings_add_dialog_title">"Addició al diccionari"</string>
+    <string msgid="5818914331629278758" name="user_dict_settings_add_screen_title">"Frase"</string>
+    <string msgid="5671682004887093112" name="user_dict_settings_add_dialog_more_options">"Més opcions"</string>
+    <string msgid="2716586567241724126" name="user_dict_settings_add_dialog_less_options">"Menys opcions"</string>
+    <string msgid="4703129507388332950" name="user_dict_settings_add_dialog_confirm">"D\'acord"</string>
+    <string msgid="6665558053408962865" name="user_dict_settings_add_word_option_name">"Paraula:"</string>
+    <string msgid="3094731590655523777" name="user_dict_settings_add_shortcut_option_name">"Drecera:"</string>
+    <string msgid="4738643440987277705" name="user_dict_settings_add_locale_option_name">"Idioma:"</string>
+    <string msgid="4902434148985906707" name="user_dict_settings_add_word_hint">"Escriu una paraula"</string>
+    <string msgid="2265453012555060178" name="user_dict_settings_add_shortcut_hint">"Drecera opcional"</string>
+    <string msgid="3765774633869590352" name="user_dict_settings_edit_dialog_title">"Edició de la paraula"</string>
+    <string msgid="6812255903472456302" name="user_dict_settings_context_menu_edit_title">"Edita"</string>
+    <string msgid="8142932447689461181" name="user_dict_settings_context_menu_delete_title">"Suprimeix"</string>
+    <string msgid="558499587532668203" name="user_dict_settings_empty_text">"No tens cap paraula al diccionari de l\'usuari. Per afegir una paraula toca el botó Afegeix ( + )"</string>
+    <string msgid="8276126583216298886" name="user_dict_settings_all_languages">"Per a tots els idiomes"</string>
+    <string msgid="7131268499685180461" name="user_dict_settings_more_languages">"Més idiomes..."</string>
+    <string msgid="110413335187193859" name="user_dict_settings_delete">"Suprimeix"</string>
+    <string msgid="5431919401558285473" name="user_dict_fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+</resources>

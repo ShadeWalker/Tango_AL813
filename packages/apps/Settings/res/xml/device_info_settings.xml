@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/about_settings">
+
+	   <!--EMUI version -->
+	   <!-- HQ_xupeixin at 2015-09-19 modified about delete this Preference begin -->
+	   <!--
+	    <PreferenceScreen
+	            android:key="emui_version"
+	            android:title="@string/emui_version_title"
+	            android:summary="@string/emui_version_summary" >
+	    </PreferenceScreen>
+	    -->
+        <!-- HQ_xupeixin at 2015-09-19 modified end -->
+        <PreferenceScreen android:key="additional_system_update_settings"
+                          android:title="@string/additional_system_update_settings_list_item_title">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="@string/additional_system_update"
+                    android:targetClass="@string/additional_system_update_menu" />
+        </PreferenceScreen>
+
+	<!--///M: MTK_SYSTEM_UPDATE -->
+	<PreferenceScreen
+	     android:key="mtk_system_update">
+	</PreferenceScreen>
+
+	<!--///M: MTK_SYSTEM_UPDATE_SUPPORT -->
+	<PreferenceScreen
+	     android:key="mtk_software_update"
+	     android:title="@string/software_updates_more_title" 
+	     android:summary="@string/software_updates_more_summary" >
+	</PreferenceScreen>
+
+
+        <PreferenceScreen
+                android:key="regulatory_info"
+                android:title="@string/regulatory_information">
+            <intent android:action="android.settings.SHOW_REGULATORY_INFO" />
+        </PreferenceScreen>
+
+        <!-- Feedback on the device -->
+        <PreferenceScreen android:key="device_feedback"
+                android:title="@string/device_feedback">
+        </PreferenceScreen>
+
+        <!-- Device hardware model -->
+        <Preference android:key="device_model" 
+                android:title="@string/model_number"
+                android:summary="@string/device_info_default"/>
+
+        <!-- Detailed build version -->
+        <Preference android:key="build_number"
+                android:title="@string/build_number"
+                android:summary="@string/device_info_default"/>
+
+        <!--CPU Information-->
+	    <PreferenceScreen
+	            android:key="cpu_information"
+	            android:title="@string/cpu_title"
+	            android:summary="@string/eight_core" >
+	    </PreferenceScreen>
+        <!--Running out of memory-->
+	    <PreferenceScreen
+	            android:key="Running_memory"
+	            android:title="@string/memory"
+	            android:summary="@string/memory_value" >
+	    </PreferenceScreen>        
+        <!--Phone memory-->
+	    <PreferenceScreen
+	            android:key="Phone_memory"
+	            android:title="@string/phone_storage"
+	            android:summary="@string/device_info_default" >
+	    </PreferenceScreen>   	    
+	    <!--Resolution-->
+	    <PreferenceScreen
+	            android:key="Resolution"
+	            android:title="@string/resolution_title"
+	            android:summary="@string/resolution_value" >
+	    </PreferenceScreen>      
+	    
+	    
+        <!-- Device FCC equipment id -->
+        <Preference android:key="fcc_equipment_id"
+                android:title="@string/fcc_equipment_id"
+                android:summary="@string/device_info_default"/>
+
+        <!-- Detailed hardware build version -->
+        <Preference android:key="hw_build_version"
+                android:title="@string/hw_build_version"
+                android:summary="@string/device_info_default"/>
+
+        <!-- Device firmware version -->
+        <Preference android:key="firmware_version"
+                android:title="@string/firmware_version"
+                android:summary="@string/device_info_default"/>
+        <!-- Device Kernel version -->
+        <Preference android:key="kernel_version" 
+                android:title="@string/kernel_version"
+                android:summary="@string/device_info_default"/>
+
+        <!-- SELinux status information -->
+        <Preference android:key="selinux_status"
+                android:title="@string/selinux_status"
+                android:summary="@string/selinux_status_enforcing"/>
+
+        <!-- ///M: Custom build version -->
+        <!-- HQ_xupeixin at 2015-09-19 modified about delete this Preference begin -->
+        <!--
+        <Preference android:key="custom_build_version"
+                android:title="@string/custom_build_version"
+                android:summary="@string/device_info_default" />
+         -->
+         <!-- HQ_xupeixin at 2015-09-19 modified end -->
+         <!-- ///M: System build version -->
+        <Preference android:key="System_build_version"
+                android:title="@string/emotion_ui_version"
+                android:summary="@string/emotion_ui_version_value" />
+        
+                <!-- Device status - launches activity -->
+        <PreferenceScreen android:key="status_info"
+                android:title="@string/device_status" 
+                android:summary="@string/device_status_summary"
+                android:widgetLayout="@layout/arrow_img_layout">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.android.settings"
+                    android:targetClass="com.android.settings.deviceinfo.Status" />
+        </PreferenceScreen>
+
+        <!-- Legal Information -->
+        <PreferenceScreen
+                android:key="container"
+                android:title="@string/legal_information"
+                android:widgetLayout="@layout/arrow_img_layout">
+                    
+            <!-- Note: The titles given here probably won't be used.  Instead, we programmatically
+                       fill the title with the label of the activity with the corresponding action.
+                       If there is not an activity for an action, the item will be removed from the
+                       list. -->
+
+            <!-- Copyright information -->
+            <PreferenceScreen
+                    android:key="copyright"
+                    android:title="@string/copyright_title"
+                    android:widgetLayout="@layout/arrow_img_layout">
+                <intent android:action="android.settings.COPYRIGHT" />
+            </PreferenceScreen>
+
+
+            <!-- xujunyong add for Huawei Device End User Software Licensing Agreement and Huawei Privacy Policy 2013-09-03 -->
+            <PreferenceScreen
+                    android:key="huaweiprivacy"
+                    android:title="@string/settings_huawei_privacy_title"
+                    android:widgetLayout="@layout/arrow_img_layout">
+                <intent android:action="com.android.settings.HuaweiPrivacyPolicyActivity" />
+            </PreferenceScreen>
+            <PreferenceScreen
+                    android:key="huaweilicense"
+                    android:title="@string/settings_huawei_license_title"
+                    android:widgetLayout="@layout/arrow_img_layout">
+                <intent android:action="android.settings.HUAWEI_LICENSE" />
+            </PreferenceScreen>
+            <!-- end xujunyong -->
+
+            <!-- HQ_zhangpeng5 2015-10-13 modified for change default sort HQ01389163 begin-->
+            <!-- License information -->
+            <PreferenceScreen
+                    android:key="license"
+                    android:title="@string/license_title"
+                    android:widgetLayout="@layout/arrow_img_layout">
+                <intent android:action="android.settings.LICENSE" />
+            </PreferenceScreen>
+            <!-- HQ_zhangpeng5 2015-10-13 modified for change default sort HQ01389163 begin-->
+
+            <!-- Terms and conditions -->
+            <PreferenceScreen
+                    android:key="terms"
+                    android:title="@string/terms_title"
+                    android:widgetLayout="@layout/arrow_img_layout">
+                <intent android:action="android.settings.TERMS" />
+            </PreferenceScreen>
+
+            <!-- HQ_zhangpeng5 2015-10-13 modified for delete webviewlicense HQ01389201 begin-->
+            <!-- System WebView License information -->
+            <!--<PreferenceScreen
+                    android:key="webview_license"
+                    android:title="@string/webview_license_title"
+                    android:widgetLayout="@layout/arrow_img_layout">
+                <intent android:action="android.settings.WEBVIEW_LICENSE" />
+            </PreferenceScreen>
+            -->
+            <!-- HQ_zhangpeng5 2015-10-13 modified for delete webviewlicense HQ01389201 end-->
+            <!-- HQ_hushunli 2015-11-03 add SUTEL Certification for HQ01311623 begin-->
+            <Preference
+                    android:key="sutel_certification"
+                    android:title="@string/certification"
+                    android:summary="@string/sutel_certification_number"
+                    />
+            <!-- HQ_hushunli 2015-11-03 add SUTEL Certification for HQ01311623 end-->
+            <Preference
+                    android:key="wallpaper_attributions"
+                    android:title="@string/wallpaper_attributions"
+                    android:summary="@string/wallpaper_attributions_values"
+                    />
+
+        </PreferenceScreen>
+        <!-- HQ_hushunli 2015-09-28 add Certification for HQ01308764 begin-->
+        <PreferenceScreen android:key="certification"
+                android:title="@string/certification">
+            <intent android:action="com.android.settings.Certification" />
+        </PreferenceScreen>
+        <!-- HQ_hushunli 2015-09-28 add Certification for HQ01308764 end-->
+
+<!-- Security patch level -->
+        <Preference android:key="security_patch"
+                android:title="@string/security_patch"
+                android:summary="@string/device_info_default"/>
+
+</PreferenceScreen>

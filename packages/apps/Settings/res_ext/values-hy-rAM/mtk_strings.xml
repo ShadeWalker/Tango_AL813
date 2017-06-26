@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- AudioProfile Settings start -->
+   <string name="ring_summary">Զանգել</string>
+  <string name="ring_vibrate_summary">Զանգել և թրթռալ</string>
+  <string name="silent_summary">Միայն լուռ</string>
+  <string name="meeting_summary">Միայն թրթռում</string>
+  <string name="outdoor_summary">Ամենաբարձր զանգ և թրթռում</string>
+  <string name="audio_profile_reset">"Վերակայել"</string>
+  <string name="audio_profile_add">"Ավելացնել"</string>
+  <string name="audio_profile_enable">"Միացնել"</string>
+  <string name="audio_profile_rename">"Վերանվանել"</string>
+  <string name="audio_profile_delete">"Ջնջել"</string>
+  <string name="audio_profile_message_reset">Ձայնահատկագրի բոլոր կարգավորումները կվերակայվեն սկզբնադիրի</string>
+  <string name="audio_profile_message_rename">Խնդրում ենք ներածել հատկագրի նոր անուն</string>
+  <string name="audio_profile_message_name_error">Ներածված անունն արդեն գոյություն ունի</string>
+  <string name="audio_profile_message_name_length_wrong">Անունը պետք է պարունակի առնվազն մեկ գրանշան</string>
+  <string name="audio_profile_message_delete">Հատկագիրը <xliff:g id="profile">%s</xliff:g> կջնջվի</string>
+  <string name="audio_profile_message_overflow">Ձեզ միայն թույլատրվում է հավելել 6 հարմարեցրած հատկագիր</string>
+  <string name="audio_profile_category_custom_title">Օգտվողի կողմից սահմանված հատկագրեր</string>
+  <string name="audio_profile_category_predefine_title">Նախասահմանված հատկագրեր</string>
+  <string name="audio_profile_error">"Սխալ"</string>
+  <string name="audio_profile_others">Ծանուցումներ և այլք</string>
+  <string name="general_settings_title">"Ընդհանուր"</string>
+  <string name="silent_settings_title">"Լուռ"</string>
+  <string name="meeting_settings_title">Ժողով</string>
+  <string name="outdoor_settings_title">Դուրս</string>
+  <string name="sound_category_feedback_title">"Համակարգ"</string>
+  <string name="sound_category_calls_title">"Մուտքային զանգեր"</string>
+  <string name="voice_call_title">Ձայնականչի զանգի ազդանշան</string>
+  <string name="voice_call_summary">"Կայել ձեր սկզբնադիր ձայնականչերի զանգի ազդանշանը"</string>
+  <string name="video_call_title">Տեսականչի զանգի ազդանշան</string>
+  <string name="video_call_summary">Կայել ձեր սկզբնադիր տեսականչերի զանգի ազդանշանը</string>
+  <string name="sip_call_title">SIP կանչի զանգի ազդանշան</string>
+  <string name="sip_call_summary">Կայել ձեր սկզբնադիր SIP կանչերի զանգի ազդանշանը</string>
+  <string name="Phone_vibrate_summary">Թրթռացնել սարքերը մտից կանչերի դեպքում</string>
+  <string name="vibrate_title">Թրթռալ</string>
+  <string name="audio_profile_settings_title">Ձայնային պրոֆիլներ</string>
+  <string name="audio_profile_bes_loudness_summary">Բարձրախոսի հնչողության բարձրացուցիչ</string>
+  <string name="sound_enhancement_title">Ձայնի բարելավում</string>
+  <string name="music_plus_summary">Ձայնաբարելավիչ ականջակալի համար ականջակալի համար</string>
+  <string name="lossless_title">Առանց կորստի BT ռեժիմ</string>
+  <string name="lossless_summary">Բարձրորակ BT աուդիո</string>
+  <string name="lossless_connect_summary">Wi-Fi-ի վրա կազդի Առանց կորստի BT ռեժիմը միացնելը: Համոզվա՞ծ եք, որ ցանկանում եք միացնել այն:</string>
+  <string name="lossless_on">Առանց կորստի BT ռեժիմը ՄԻԱՑՎԱԾ Է</string>
+  <string name="lossless_playing">Նվագարկվում է առանց կորստի երաժշտություն</string>
+  <string name="lossless_toastmessage">Համակարգի ձայները նվագարկվելու են հեռախոսի բարձրախոսի միջոցով</string>
+  <string name="lossless_volume_max">Համակարգի ձայնի ուժգնությունը պահեք առավելագույնի վրա</string>
+  <string name="lossless_cannot_found_device">Չհաջողվեց գտնել առանց կորստի BT սարքը</string>
+  <string name="audio_profile_bes_surround_title">BesSurround</string>
+  <string name="audio_profile_bes_surround_summary">Ձայնի շրջապատում</string>
+  <string name="audio_profile_bes_surround_mode_movie">Կինոնկարների ռեժիմ</string>
+  <string name="audio_profile_bes_surround_mode_music">Երաժշտության ռեժիմ</string>
+  <string name="zen_mode_option_title_novoice" msgid="6680706009915204785">"Ծանուցումներ ստանալիս"</string>
+  <!-- AudioProfile Settings end -->
+ 
+  <!-- MTK Wi-Fi settings start -->
+   <string name="wifi_no_cert_for_wapi">Հնարավոր չեղավ հայտնաբերել վկայագրումը ընթացիկ կապակցվող AP-ի համար</string>
+  <string name="sim_slot">SIM փորակ</string>
+  <string name="eap_sim_slot_0">Sim փորակ 1</string>
+  <string name="eap_sim_slot_1">Sim փորակ 2</string>
+  <string name="eap_sim_aka_airplanemode">Խնդրում ենք անջատել Ինքնաթիռի ռեժիմը՝ օգտագործելու համար EAP-SIM/AKA</string>
+  <string name="eap_sim_aka_no_sim_error">Դուք պետք է զետեղեք sim քարտը, որպեսզի օգտագործեք EAP-SIM/AKA</string>
+  <string name="eap_sim_aka_no_sim_slot_selected">Դուք պետք է ընտրեք sim փորակը, որպեսզի օգտագործեք EAP-SIM/AKA</string>
+  <string name="wifi_security_wapi_certificate">WAPI վկայագիր</string>
+  <string name="wapi_user_certificate">Օգտագործել վկայագիրը</string>
+  <string name="wapi_as_certificate">ASE վկայագիր</string>
+  <string name="wifi_hex_password">Տասնվեցական գաղտնաբառ:</string>
+  <string name="wifi_WEP_transmit_key">Փոխանցման բանալի</string>
+  <string name="wifi_WEP_secury_key">Անվտանգության բանալի</string>
+  <string name="wifi_tether_auto_disable_title">Շարունակել պահել Wi-Fi մատչելիության տարածքը գործուն վիճակում</string>
+  <string name="wifi_tether_auto_channel_text">"ինքնաշխատ"</string>
+  <string name="wifi_tether_auto_channel_width_text">Ինքնաշխատ 20/40 MHz</string>
+  <string name="wifi_channel">Նախընտրելի կապուղի</string>
+  <string name="wifi_channel_width">Կապուղու լայնություն</string>
+  <string name="wifi_advanced_ipv4_address_title">IPv4 հասցե</string>
+  <string name="wifi_advanced_ipv6_address_title">IPv6 հասցե</string>
+  <string name="wifi_ipv4_address">IPv4 հասցե</string>
+  <string name="wifi_ipv6_address">IPv6 հասցե</string>
+  <string name="wifi_ap_auto_join_available">Ինքնաբար միացում</string>
+  <string name="wifi_ap_auto_join_available_summary">Ինքնաբար ընտրել ավելի լավ Wi-Fi ցանց, կապակցված վիճակում այլ ցանցերի սկանավորման ժամանակ</string>
+  <!-- MTK Wi-Fi settings end -->
+ 
+  <!-- Wi-Fi hotspot client start -->
+   <string name="wifi_tether_setting_title">Հիմնական կարգավորումներ</string>
+  <string name="wifi_tether_wps_connect_title">WPS կապակցում</string>
+  <string name="wifi_tether_wps_connect_summary">Ընտրված է Wi-Fi պաշտպանված տեղակայման ռեժիմը շարունակելու համար</string>
+  <string name="wifi_tether_wps_pin_error">Անվավեր PIN</string>
+  <string name="wifi_tethering_title">Wi-Fi մատչելիության տարածք</string>
+  <string name="wifi_ap_wps_dialog_title">WPS կապակցում</string>
+  <string name="wifi_ap_wps_mode_title">WPS ռեժիմ</string>
+  <string name="wifi_ap_wps_pin_title">Մուտքագրել PIN սպասառուից</string>
+  <string name="wifi_ap_reset_OOB_title">Վերակայել ցանցի SSID-ն, անվտանգությունը և գաղտնաբառը սկզբնադիր ռեժիմի (պատրաստի կազմաձևում WPS-ի համար )</string>
+  <string name="wifi_ap_reset_OOB">Վերակայել OOB</string>
+  <string name="wifi_ap_max_connection_title">Առավելագույն կապակցումներ</string>
+  <string name="wifi_ap_connected_title">Կապակցված օգտվողներ</string>
+  <string name="wifi_ap_blocked_title">Արգելափակված օգտվողներ</string>
+  <string name="wifi_ap_client_block_title">Արգելափակել</string>
+  <string name="wifi_ap_client_unblock_title">Արգելաբացել</string>
+  <string name="wifi_ap_client_details_title">"Մանրամասներ"</string>
+  <string name="wifi_ap_client_mac_label">MAC հասցե՝</string>
+  <string name="wifi_ap_client_ip_label">IP հասցե՝</string>
+  <string name="wifi_ap_bandwidth_title">Թողունակության օգտագործում</string>
+  <string name="wifi_ap_bandwidth_enable">Միացնել թողունակության կանոնավորումը</string>
+  <string name="wifi_ap_bandwidth_chart_title">Իրական ժամանակով տվյալների փոխանցման արագություն</string>
+  <string name="wifi_ap_bandwidth_chart_summary">Չափված է ձեր հեռախոսի կողմից, ձեր օպերատորի տվյալների փոխանցման արագության հաշվառումը կարող է տարբերվել:</string>
+  <string name="wifi_wps_fail_error">Wi-Fi պաշտպանված տեղակայումը ձախողվեց, կրկին փորձեք:</string>
+  <string name="wifi_ap_title">Վիճակագրություն</string>
+  <string name="wifi_ap_time_duration">Տևողության ժամանակը՝<xliff:g id="time">%1$s</xliff:g></string>
+  <string name="wifi_ap_total_data">Օգտագործված տվյալների ընդհանուր քանակը՝<xliff:g id="time">%1$s</xliff:g></string>
+  <string name="wifi_ap_no_connected">0 կապակցված օգտվող</string>
+  <string name="wifi_ap_no_blocked">0 արգելափակված օգտվող</string>
+  <!-- Wi-Fi hotspot client end -->
+ 
+  <!-- MTK Beam plus start -->
+   <string name="beam_mgmt_tab_download_title">Ավտոմատ կերպով գործարկել ծառայության բեռնելու (SL) հաղորդագրությունը, երբ այն ստացվի</string>
+  <string name="beam_mgmt_tab_upload_title">"Սա տեղեկություններ կհավաքագրի ձեր սարքի առկա կարգավիճակի մասին և կուղարկի այն էլեկտրոնային նամակով: Որոշակի ժամանակ կպահանջվի վրիպակի մասին զեկուցելու պահից սկսած մինչ ուղարկելը: Խնդրում ենք փոքր-ինչ համբերատար լինել:"</string>
+  <string name="beam_share_mgmt_notification_ticker">Հեռարձակման համօգտագործման պատմություն</string>
+  <string name="beam_share_mgmt_notification_title">Հեռարձակման համօգտագործման պատմություն</string>
+  <string name="beam_share_mgmt_notification_message">"Ընտրել դիտելու համար Հեռարձակման համօգտագործման պատմությունը:"</string>
+  <string name="beam_share_mgmt_tab_menu_clear">"Մաքրել բոլոր ծանուցումները:"</string>
+  <string name="beam_share_open_file_dialog_title">Հնարավոր չէ բացել ֆայլը</string>
+  <string name="beam_share_open_file_unsupported_message">Ֆայլի ձևաչափը չի աջակցվում</string>
+  <string name="beam_share_open_file_not_found_message">"Ֆայլը հայտնաբերված չէ՝ <xliff:g id="file_name">%1$s</xliff:g></string>
+  <string name="beam_share_transfer_fail_dialog_title">"Հեռարձակումը ձախողվեց"</string>
+  <string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> հաջող չի ուղարկվել:"</string>
+  <string name="beam_share_resend_dialog_ok_button">"Կրկին փորձեք"</string>
+  <string name="beam_share_show_received_files_menu">"Ցուցադրել ստացված ֆայլերը"</string>
+  <string name="beam_share_history_title">Հեռարձակման համօգտագործման պատմություն</string>
+  <string name="beam_share_clear_confirm_dialog_title">Մաքրել բոլորը</string>
+  <string name="beam_share_clear_confirm_dialog_message">Մաքրե՞լ ամբողջ պատմությունը:</string>
+  <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> հաջող չի ստացվել:"</string>
+  <string name="beam_share_clear_item_dailog_title">"Ջնջել"</string>
+  <string name="beam_share_clear_item_dailog_message">Միավորը կջնջվի:</string>
+  <!-- MTK Beam plus end -->
+ 
+  <!-- MTK NFC settings start -->
+   <string name="nfc_p2p_mode">P2P ռեժիմ</string>
+  <string name="nfc_p2p_mode_summary">Ուղարկել կամ ստանալ Ծրագրի բովանդակությունը</string>
+  <string name="nfc_tag_mode_category">Հատկորոշման ռեժիմ</string>
+  <string name="nfc_rw_tag_title">Հատկորոշչի կարդում և գրում</string>
+  <string name="nfc_rw_tag_summary">Կարդալ հատկորոշիչից կամ գրել հատկորոշիչի վրա</string>
+  <string name="nfc_card_emulation_category_title">Քարտի նմանեցման ռեժիմ</string>
+  <string name="nfc_card_emulation">Քարտի նմանեցում</string>
+  <string name="card_emulation_settings_category_title">անվտանգության մատչելի տարր</string>
+  <string name="card_emulation_settings_no_element_found">Անվտանգության որևէ մատչելի տարր չկա:</string>
+  <string name="card_emulation_settings_off_text">Անվտանգության մատչելի տարրերը տեսնելու համար, միացրեք Քարտի նմանեցումը:</string>
+  <string name="card_emulation_turning_off_text">Քարտի նմանեցումն անջատվում է...</string>
+  <string name="card_emulation_turning_on_text">Քարտի նմանեցումը միացվում է...</string>
+  <string name="card_emulation_switch_error_title">"Սխալ"</string>
+  <string name="card_emulation_switch_error_message">Փոխարկումը <xliff:g id="card_mode">%1$s</xliff:g>-ին ձախողվեց:</string>
+  <string name="card_emulation_sim_not_supported_message"><xliff:g id="sim_description">%1$s</xliff:g> չի աջակցում NFC Քարտի նմանեցման գործառույթը:</string>
+  <string name="card_emulation_two_sim_not_supported_message">SIM1,SIM2-ը չեն աջակցում NFC Քարտի նմանակման գործառույթ:</string>
+  <string name="nfc_hce_pay_summary">Սարքի օգտագործում ՀՊԻՐ ԵՎ ՎՃԱՐԻՐ-ի համար, ինչպես օրինակ` Google-ի դրամապանակով, կրեդիտ քարտով և այլն:</string>
+  <!-- MTK NFC settings end -->
+ 
+  <!-- MTK WIFI Passpoint start -->
+   <string name="passpoint_summary">Ավտոմատ կապակցվել passpoint-ով մատչման կետերին</string>
+  <string name="passpoint_append_summary">(Passpoint-ի միջոցով)</string>
+  <string name="passpoint_config_credential_type">Հավատարմագրի տեսակ</string>
+  <string name="passpoint_config_eap_method">"EAP եղանակ"</string>
+  <string name="passpoint_supported">Աջակցվում է</string>
+  <string name="passpoint_username_pw">Օգտվողի անուն/Գաղտնաբառ</string>
+  <string name="passpoint_certificate">Վկայական</string>
+  <!-- MTK WIFI Passpoint end -->
+ 
+  <!-- MTK WFD start -->
+   <string name="wfd_change_resolution_menu_title">Փոխել տարլուծումը</string>
+  <string name="wfd_sink_summary">Հայտնաբերելի այլ սարքերի համար</string>
+  <string name="wfd_device_category">ՍԱՐՔԵՐԻ ՑՈՒՑԱԿ</string>
+  <string name="wfd_sink_toast_enjoy">Օգտվեք այլ սարքի հեռակա էկրանից:</string>
+  <string name="wfd_sink_toast_disconnect">Էկրանի հեռարձակումն անջատված է</string>
+  <string name="wfd_sink_disconnecting">Անջատվում է...</string>
+  <string name="wfd_sink_guide_btn">Ստանալ այն՛</string>
+  <string name="wfd_sink_guide_title">Ինչպե՞ս դուրս գալ:</string>
+  <string name="wfd_sink_guide_content">Երկար սեղմեք էկրանը <xliff:g id="seconds">%s</xliff:g> վայրկյանի ընթացքում՝ այլ սարքի ցուցադրիչից դուրս գալու համար:</string>
+  <!-- MTK WFD end -->
+ 
+  <!-- MTK Storage Settings start -->
+   <string name="mtp_transfer_unmount_error_text">SD քարտը հնարավոր չէ անջատել ֆայլի փոխանցման ժամանակ</string>
+  <string name="mtp_transfer_erase_error_text">SD քարտը հնարավոր չէ ջնջել փոխանցման ժամանակ</string>
+  <string name="launch_error">"Հնարավոր չեղավ թողարկել ծրագիրը"</string>
+  <string name="dlg_confirm_unmount_usb_title" product="default">Անջատե՞լ USB հիշողությունը:</string>
+  <string name="dlg_confirm_unmount_usb_text" product="default">Եթե դուք անջատեք USB հիշողությունը, որոշ ծրագրեր, որոնք օգտագործում եք, կանգ կառնեն և հնարավոր է դառնան անհասանելի, մինչև դուք կրկին կմիացնեք USB հիշողությունը:</string>
+  <string name="dlg_error_unmount_usb_text" product="default">Հնարավոր չեղավ անջատել USB հիշողությունը: Փորձեք կրկին ավելի ուշ:</string>
+  <string name="unmount_usb_inform_text" product="default">USB հիշողությունը կանջատվի:</string>
+  <string name="sd_eject_usbstorage" product="default">"Անջատել USB կրիչը"</string>
+  <string name="sd_eject_usbstorage_summary" product="default">Անջատեք USB հիշողությունը, որպեսզի կարողանաք ապահով հեռացնել այն</string>
+  <string name="sd_mount_usbstorage" product="default">"Տեղադրեք USB կրիչը"</string>
+  <string name="sd_insert_usb_summary" product="default">"Ներմուծեք USB կրիչը՝ միացնելու համար"</string>
+  <string name="usb_ums_title">"USB կրիչ"</string>
+  <string name="usb_ums_summary">"Խորհուրդ է տրվում XP-ն: Թույլ կտա ձեզ փոխանցել ֆայլեր ձեր համակարգչի և Android սարքի միջև:"</string>
+  <string name="usb_charge_title">Միայն լիցքավորում</string>
+  <string name="usb_connect_as_cdrom_category">"Կապակցել  որպես CD-ROM"</string>
+  <string name="usb_charge_summary">Կանգնեցնել բոլոր USB գործառույթները: Թույլ է տալիս ձեզ արագացնել USB լիցքավորումը և նվազեցնել հոսանքի սպառումը:</string>
+  <string name="akp_installer_settings_title">APK տեղադրիչ</string>
+  <string name="akp_installer_settings_summary">Տեղադրեք ձեր APK-ն հեռախոսի հիշողությունից և SD քարտից</string>
+  <string name="usb_bicr_title">Ներկառուցված CD-ROM</string>
+  <string name="usb_bicr_summary">Ցուցադրել վիրտուալ CD-ROM, որը պարունակում է որոշ օգտակար ծրագրաշար:</string>
+  <string name="select_memory">Սկզբնադիր գրելու սկավառակ</string>
+  <string name="dlg_mount_external_sd_title" product="default">Միացնե՞լ SD քարտը:</string>
+  <string name="dlg_mount_external_sd_summary" product="default">Եթե դուք միացնեք sd քարտը, որոշ ծրագրեր, որոնք օգտագործում եք, կկանգնեն:</string>
+  <!-- MTK Storage Settings end -->
+ 
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">HDMI կարգավորումներ</string>
+  <string name="hdmi_settings_summary">Կտտացնել HDMI-ը կազմաձևելու համար</string>
+  <string name="hdmi_audio_toggler">"Աուդիո"</string>
+  <string name="hdmi_video_toggler">Տեսանյութ</string>
+  <string name="hdmi_video_resolution">Տեսատարլուծում</string>
+  <string name="hdmi_auto">"ինքնաշխատ"</string>
+  <string name="hdmi_scale_control">Վիդեո մասշտաբի կարգավորումներ</string>
+  <string name="hdmi_scale_no_scale">Առանց մասշտաբավորման</string>
+  <string name="hdmi_scale_scale_down">Մասշտաբն իջեցնել <xliff:g id="scale_percent">%s</xliff:g>%%-ով</string>
+  <string name="hdmi_audio_output">Ձայնի արտածում</string>
+  <string name="hdmi_audio_output_stereo">Ստերեո</string>
+  <string name="hdmi_audio_output_multi_channel">Բազմալիք</string>
+  <!-- MTK HDMI end -->
+ 
+  <!-- MTK Display Settings start -->
+   <string name="landscape_launcher_title">Հորիզոնական թողարկիչ</string>
+  <string name="landscape_launcher_none">"Ոչ մեկը"</string>
+  <string name="display_settings_scences_title">Տեսարաններ</string>
+  <string name="default_name">"Լռելյայն"</string>
+  <string name="custom_theme_name">Նոր [%1$s]</string>
+  <string name="loading">Բեռնում է...</string>
+  <string name="auto_backlight_title">Տնտեսող խորքային լույս</string>
+  <string name="auto_backlight_summary">Ինքնաշխատ ընտելացնել խորքային լույսը հոսանքը խնայելու նպատակով</string>
+  <string name="display_personalize">Անհատականացնել</string>
+  <string name="display_default">"Ցուցադրիչ"</string>
+  <string name="clear_motion_summary">Վիդեոյի սահունության բարձրացուցիչ</string>
+  <string name="on_text">"միացված"</string>
+  <string name="off_text">"անջատված է"</string>
+  <string name="mira_vision_summary">Լավագույն տեսողական էֆեկտների տրամադրող</string>
+  <!-- MTK Display Settings end -->
+ 
+  <!--MTK Security Settings start -->
+   <string name="voice_unlock_backup_info_summary">Երբ Ձայնի ապակողպումը չի կարողանում ճանաչել ձեզ, ինչպե՞ս եք ցանկանում ապակողպել:</string>
+  <string name="unlock_set_unlock_mode_voice_weak">Ձայնային ապակողպում</string>
+  <string name="mtk_lock_screen_notifications_title">Կողպէկրանի ծանուցումներ</string>
+  <string name="lock_screen_notifications_summary">Ցուցադրել ծանուցումները կողպէկրանին</string>
+  <string name="lock_screen_style_title">Կողպէկրանի ոճ</string>
+  <string name="current_suffix">"(Ընթացիկ)"</string>
+  <string name="lockscreen_style_default_desc">"Արագ մատչում ծրագրերին կողպէկրանում"</string>
+  <string name="security_not_set">Անվտանգությունը կայված չէ</string>
+  <string name="voice_ui_title">Ձայնային կառավարում</string>
+  <!--MTK Security Settings end -->
+ 
+  <!-- MTK Wireless settings start -->
+   <string name="pch_toggle_title">GPRS փոխանցման նախընտրելի ռեժիմը</string>
+  <string name="pch_data_prefer_summary_off">Տվյալների նախընտրություն</string>
+  <string name="pch_call_prefer_summary_on">Կանչերի նախընտրություն</string>
+  <string name="pch_warning_message">Տվյալների փոխանցման արագությունը կմերժվի:</string>
+  <string name="tethered_ipv6_title">Կարգավորումներ մատչելիության տարածքի և համացանց բջջային հեռախոսի միջոցով մուտքի համար</string>
+  <string name="tethered_ipv4v6">(IPv6 մատչելի)</string>
+  <string name="tethered_ipv6">(Միայն IPv6 մատչելի)</string>
+  <string name="tethered_ipv4">(IPv6 անմատչելի)</string>
+  <string name="tethering_apn_settings_title">APN կարգավորումներ</string>
+  <string name="tethering_apn_settings_summary">Կազմաձևել APN-ը համացանց բջջային հեռախոսի միջոցով մուտքի համար</string>
+  <string name="usb_tether_type_title">USB մալուխով համացանց բջջային հեռախոսի միջոցով մուտք գործելու տեսակ</string>
+  <string name="usb_tethering_select_version">Ընտրել ԱՀ համակարգի տարբերակը</string>
+  <string name="apn_port_warning">Միացքի արժեքը պետք է լինի 1-65535:</string>
+  <string name="apn_predefine_change_dialog_notice">Դուք վստա՞հ եք, որ ցանկանում եք պահել: Սկզբնադիր APN-ների կերպափոխումները կարող են հանգեցնել կապակցման խնդիրների:"</string>
+  <string name="lockdown_vpn_already_connected">"Միշտ միացված VPN" ռեժիմն արդեն միացված էր կապակցման համար:</string>
+  <!-- MTK Wireless settings end -->
+ 
+  <!-- MTK Feature MISC start -->
+   <string name="schedule_power_on_off_settings_title">Հոսանքի հերթագրված միացում և անջատում</string>
+  <string name="ipo_title">Արագ սկզբնաբեռնում</string>
+  <string name="ipo_summary_on">Անջատել արագ սկզբնաբեռնումը</string>
+  <string name="ipo_summary_off">Միացնել արագ սկզբնաբեռնումը</string>
+  <string name="hotknot_explained_description">Թույլարտել տվյալների փոխանակում, երբ էկրանը հպվում է այլ սարքի</string>
+  <string name="mouse_primary_button_title">Փոխարկել առաջնային և երկրորդային ստեղները</string>
+  <string name="mouse_primary_button_dialog_title">Փոխարկել առաջնային ստեղնը</string>
+  <string name="double_click_title">Երկկտտացման արագություն</string>
+  <string name="test_area">ՓՈՐՁԱԿԱՆ ԴԱՇՏ.</string>
+  <string name="double_click_tip">Երկկտտացնել այստեղ</string>
+  <!-- MTK Feature MISC end -->
+ 
+  <!-- MTK Bluetooth Settings start -->
+   <string name="bluetooth_advanced_settings">"Ընդլայնված կարգավորումներ"</string>
+  <string name="bluetooth_profile_ftp">"Ֆայլերի փոխանցում"</string>
+  <string name="bluetooth_ftp_profile_summary_use_for">Օգտագործել ֆայլի տեղափոխման համար</string>
+  <string name="bluetooth_ftp_profile_summary_connected">"Կապակցված է ֆայլի փոխանցման համար"</string>
+  <!-- MTK Bluetooth Settings end -->
+ 
+  <!--MTK DateTime start-->
+   <string name="gps_time_sync_attention_gps_on">Կտևի առավելագույնը 1 րոպե GPS շտկումը ստանալու համար: Դրանից բացի, GPS-ը հնարավոր է չկարողանա տրամադրել ժամանակը միջավայրի թույլ ազդանշանի պատճառով:\n\nԴուք վստա՞հ եք, որ ցանկանում եք օգտագործել GPS տրամադրած ժամը:</string>
+  <string name="gps_time_sync_attention_gps_off">GPS-ի տրամադրած ժամանակն օգտագործելու համար ձեզ հարկավոր է սկզբում միացնել GPS-ը: Հետո պահանջվում է առավելագույնը 1 րոպե GPS շտկումը ստանալու համար: Դրանից բացի, GPS-ը հնարավոր է չկարողանա տրամադրել ժամանակը միջավայրի թույլ ազդանշանի պատճառով:\n\nԴուք վստա՞հ եք, որ ցանկանում եք միացնել GPS-ն այժմ և սպասել GPS-ի տրամադրած ժամին:</string>
+  <!--MTK DateTime end-->
+ 
+  <!--MTK DRM settings start -->
+   <string name="drm_settings_title">DRM-ի վերակայում</string>
+  <string name="drm_settings_summary">Ջնջում է բոլոր DRM լիցենզիաները</string>
+  <string name="drm_reset_dialog_msg">Այս գործողությունը կջնջի այս սարքի վրայի բոլոր լիցենզիաները: Շարունակե՞լ:</string>
+  <string name="drm_reset_toast_msg">Լիցենզիաները հաջող ջնջվել են:</string>
+  <!--MTK DRM settings end -->
+ 
+  <!-- MTK APPS settings start -->
+   <string name="launch_main_label">Թողարկել ծրագիրը</string>
+  <string name="launch_main">Թողարկել ծրագիրը հիմնական գործողությամբ</string>
+  <string name="launch_activitie">Թողարկել</string>
+  <string name="move_app_to_where">Տեղափոխել դեպի <xliff:g id="location">%s</xliff:g></string>
+  <!-- MTK APPS settings end -->
+ 
+  <!-- MTK Battery MISC start -->
+   <string name="bg_power_saving_title">Հոսանքի խելացի տնտեսում ետնաշերտում</string>
+  <!-- MTK Battery MISC end -->
+ 
+  <!-- MTK  Datausage  start -->
+   <string name="mtk_datausage_overview_tab">Համատեսքը</string>
+  <string name="mtk_datausage_overview_wifi_today">"Այսօր"</string>
+  <string name="mtk_datausage_overview_wifi_total">"Ընդհանուր"</string>
+  <string name="mtk_datausage_overview_mobile_title">"Բջջային"</string>
+  <string name="mtk_datausage_overview_mobile_usage"><xliff:g id="limit">%s</xliff:g>-ից <xliff:g id="actual">%s</xliff:g>-ը</string>
+  <string name="mtk_datausage_overview_mobile_usage_warning">Սահմանաչափից դուրս <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%s</xliff:g></string>
+  <string name="data_saving_title">Տվյալների պահում</string>
+  <!-- MTK  Dtausage  end -->
+ 
+  <!-- MTK About phone start -->
+   <string name="status_imei_slot1">IMEI(փորակ1)</string>
+  <string name="status_imei_slot2">IMEI(փորակ2)</string>
+  <string name="custom_build_version">Հարմարեցրած կազմման տարբերակ</string>
+  <string name="mota_system_update_summary">"Ստուգել համակարգի արդիացումը սպասարկչի վրա"</string>
+  <string name="software_updates_more_title">Ծրագրաշարի արդիացումներ</string>
+  <string name="software_updates_more_summary">Ստուգել ծրագրաշարի նոր տարբերակի առկայությունը</string>
+  <!-- MTK About phone end -->
+ 
+  <!-- MTK sim cards start -->
+   <string name="sim_cards_celluar_data_dialog_title">Ընտրեք SIM` բջջային տվյալների համար</string>
+  <string name="sim_cards_data_sms_dialog_title">Ընտրեք SIM` SMS հաղորդագրությունների համար</string>
+  <string name="sim_cards_calls_dialog_title">Ընտրեք հաշիվ` հեռախոսազանգերի համար</string>
+  <string name="sim_cards_other_calls_dialog_title">Ընտրեք այլ հաշիվ</string>
+  <string name="sim_cards_other_calls_item_title">Այլ հաշիվ</string>
+  <string name="data_connection_progress_message">SIM-ի փոխարկումը կտևի մոտավորապես 10 վայրկյան: Խնդրում ենք սպասել...</string>
+  <string name="gemini_sim_mode_progress_activating_message">Գործունացվում է\u2026</string>
+  <string name="gemini_sim_mode_progress_deactivating_message">Ապագործունացվում է\u2026</string>
+  <string name="simui_intenet_call">"Ինտերնետային զանգ"</string>
+  <!-- MTK sim cards end -->
+ 
+  <!-- MTK SIM Status start -->
+   <string name="imei_information_title">"IMEI-ի վերաբերյալ տվյալներ"</string>
+  <string name="imei_information_summary">"IMEI-ին վերաբերող տվյալներ"</string>
+  <string name="slot_number">"(Սլոտ<xliff:g id="SLOT_NUM">%1$d</xliff:g>)"</string>
+  <string name="sim_info_editor_color">"Հետնաշերտի գույնը"</string>
+  <string name="sim_cards_notify_title">"SIM քարտերը փոխվեցին"</string>
+  <string name="sim_cards_notify_summary">Հպեք` նախապատվությունները կայելու համար:</string>
+  <string name="no_sim_cards_notify_title">Միացված SIM քարտ չկա</string>
+  <string name="cellular_data_notify_title">"Բջջային տվյալների կապն անհասանելի է"</string>
+  <string name="cellular_data_notify_summary">Հպեք` տվյալների SIM կայելու համար:</string>
+  <!-- MTK SIM Status end -->
+ 
+  <!-- IMS/SMS Settings start -->
+   <string name="ims_toggle_summary">IP մուլտիմեդիա ենթահամակարգի ծառայությունների տրամադրում</string>
+  <string name="sms_vibrate_summary">թրթռացնել սարքերը sms-ի ժամանակ</string>
+  <!-- IMS/SMS Settings end -->
+    <string name="default_data_switch_err_msg1">Զանգի ընթացքում հնարավոր չէ փոխարկել բջջային տվյալների համար նախընտրած SIM քարտը:</string>
+  <string name="two_cdma_dialog_msg">Փորակ 1-ը և փորակ 2-ը չեն կարող միաժամանակ աջակցել CDMA:</string>
+  <string name="hetcom_setting_title">Տուրբո ներբեռնում</string>
+</resources>

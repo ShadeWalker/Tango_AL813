@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="str_db_playlist_name">"マイ録音"</string>
+    <string name="alert_device_error">音声機器にエラーが発生しました</string>
+    <string name="ext_media_badremoval_notification_title">"SDカードが予期せず取り外されました"</string>
+    <string name="error_sdcard_access">SDカードにアクセスできません</string>
+    <string name="confirm_device_info_full">SDカードに空き容量がありません。録音は保存されました。</string>
+    <string name="confirm_save_info_saved">記録は保存されました</string>
+    <string name="confirm_save_info_saved_to">この記録は以下へ保存されました</string>
+    <string name="select_account_dialog_title">"アカウントの選択"</string>
+    <string name="reminder">通知</string>
+    <string name="enable_ims_dialog_message">IMSコールは無効です。有効にしますか？</string>
+    <string name="ip_dial_error_for_sip_call">IPダイヤル機能はインターネット通話には適用されません。</string>
+    <string name="call_duration_title">"通話終了"</string>
+    <string name="call_duration_format">"<xliff:g id="HOURS">%1$s</xliff:g>時間<xliff:g id="MINUTES">%2$s</xliff:g>分<xliff:g id="SECONDS">%3$s</xliff:g>秒"</string>
+    <string name="volte_ss_not_avaliable_tips">操作を完了するには、データ接続を開く必要があります。</string>
+    <string name="outgoing_call_failed">"発信できません。"</string>
+    <string name="volte_ss_not_available_tips">操作を完了するには、<xliff:g id="sub_name">%s</xliff:g>のデータ接続を開く必要があります。</string>
+    <string name="call_waiting_indication">相手が通話中です。お待ちください。</string>
+</resources>

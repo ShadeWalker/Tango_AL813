@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources>
+    
+    <string name="title_activity_filter_show">চিত্র সম্পাদক</string>
+
+    
+    <string name="cannot_load_image">ছবিটি লোড করা যাবে না!</string>
+    
+    <string name="cannot_edit_original">মূলটা সম্পাদনা করতে পারবে না</string>
+    
+    
+    
+    <string name="setting_wallpaper">ওয়ালপেপার সেট করা</string>
+
+    
+
+
+    
+    <string name="download_failure">ছবি ডাউনলোড করতে পারেনি। নেটওয়ার্ক নেই।</string>
+    
+    <string name="original">মূল</string>
+    
+    <string name="borders" msgid="4461692156695893616">সীমানা</string>
+    
+    <string name="custom_border">কাস্টম</string>
+
+    
+
+    
+    <string name="filtershow_undo">আনডু</string>
+    
+    <string name="filtershow_redo">পুনরায় করুন</string>
+    
+    <string name="show_imagestate_panel">প্রয়োগকৃত এফেক্ট দেখান</string>
+    
+    <string name="hide_imagestate_panel">প্রয়োগকৃত এফেক্ট লুকান</string>
+    
+    <string name="export_image">রপ্তানি করুন</string>
+    
+    <string name="print_image">প্রিন্ট করুন</string>
+
+    
+
+    
+    <string name="export_flattened">সমান হয়ে যাওয়া ছবি রপ্তানি করুন</string>
+    
+    <string name="select_output_settings">রপ্তানিকৃত ছবির একটি কপি থাকবে, ইতিহাস ছাড়া।</string>
+    
+    <string name="quality">গুণগতমান</string>
+    
+    <string name="size">আয়তন</string>
+    
+    <string name="x">x</string>
+
+    
+    <string name="menu_settings">সেটিং</string>
+
+    
+
+    
+    <string name="unsaved">এই ছবির পরিবর্তন অসংরক্ষিত আছে।</string>
+    
+    <string name="save_before_exit">বের হওয়ার আগে আপনি কি সংরক্ষণ করতে চান?</string>
+    
+    <string name="save_and_exit">সংরক্ষণ করে বের হন</string>
+    
+    <string name="save_and_processing">পূর্ণাঙ্গ রেজ্যুলুশনের ছবি প্রক্রিয়া হচ্ছে...</string>
+    
+    <string name="exit">প্রস্থান</string>
+
+    
+
+    
+    <string name="history">ইতিহাস</string>
+    
+    <string name="reset">পুনরায় সেট করুন</string>
+    
+    
+
+    
+
+    
+    <string name="imageState">প্রয়োগকৃত এফেক্ট</string>
+
+    
+
+    
+    <string name="compare_original">তুলনা করুন </string>
+    
+    <string name="apply_effect">প্রয়োগ করুন</string>
+    
+    <string name="reset_effect">পুনরায় সেট করুন</string>
+    
+    <string name="aspect">দিক</string>
+    
+    <string name="aspect1to1_effect">1:1</string>
+    
+    <string name="aspect4to3_effect">4:3</string>
+    
+    <string name="aspect3to4_effect">3:4</string>
+    
+    <string name="aspect4to6_effect">4:6</string>
+    
+    <string name="aspect5to7_effect">5:7</string>
+    
+    <string name="aspect7to5_effect">7:5</string>
+    
+    <string name="aspect9to16_effect">16:9</string>
+    
+    <string name="aspectNone_effect">কখনও নয়</string>
+    
+    
+    
+    <string name="Fixed">নির্ধারিত</string>
+    
+    <string name="tinyplanet">ক্ষুদ্র গ্রহ</string>
+
+    
+
+    
+    <string name="exposure" msgid="1229093066434614811">এক্সপোজার</string>
+    
+    <string name="sharpness">তীব্রতা</string>
+    
+    <string name="contrast">বৈপরীত্য</string>
+    
+    <string name="vibrance">কম্পন</string>
+    
+    <string name="saturation">পরিপৃক্তি</string>
+    
+    <string name="bwfilter">বিডাব্লিউ ফিল্টার</string>
+    
+    <string name="wbalance">স্বয়ংক্রিয়-রং</string>
+    
+    <string name="hue">রং</string>
+    
+    <string name="shadow_recovery">ছায়া</string>
+    
+    <string name="highlight_recovery">হাইলাইটস</string>
+    
+    <string name="curvesRGB">কার্ভ</string>
+    
+    <string name="vignette">ভিগনেট</string>
+    
+    <string name="vignette_main">ভিগনেট</string>
+    
+    <string name="vignette_exposure">এক্সপোজার</string>
+    
+    <string name="vignette_saturation">পরিপৃক্তি</string>
+    
+    <string name="vignette_contrast">বৈপরীত্য</string>
+    
+    <string name="vignette_falloff">পড়ে যাওয়া</string>
+
+    
+    <string name="redeye">রেড আই</string>
+    
+    <string name="imageDraw">ড্র</string>
+    
+    <string name="straighten" msgid="5217801513491493491">স্ট্রেইটেন</string>
+    
+    <string name="crop" msgid="5584000454518174632">ক্রপ করুন</string>
+    
+    <string name="rotate" msgid="460017689320955494">ঘোরানো</string>
+    
+    <string name="mirror">আয়না</string>
+    
+    <string name="negative">নেগেটিভ</string>
+    
+    <string name="none" msgid="3601545724573307541">কখনও নয়</string>
+    
+    <string name="edge">প্রান্ত</string>
+    
+    <string name="kmeans">পোস্টারাইজ</string>
+    
+    <string name="downsample">ডাউনস্যাম্পল</string>
+    
+    <string name="grad">গ্রাজুয়েট হয়েছে</string>
+    
+    <string name="editor_grad_brightness">উজ্জ্বলতা</string>
+    
+    <string name="editor_grad_contrast">বৈপরীত্য</string>
+    
+    <string name="editor_grad_saturation">পরিপৃক্তি</string>
+    
+    <string name="editor_chan_sat_main">প্রধান</string>
+    
+    <string name="editor_chan_sat_red">লাল</string>
+    
+    <string name="editor_chan_sat_yellow">হলুদ</string>
+    
+    <string name="editor_chan_sat_green">সবুজ</string>
+    
+    <string name="editor_chan_sat_cyan">সাইয়ান</string>
+    
+    <string name="editor_chan_sat_blue">নীল</string>
+    
+    <string name="editor_chan_sat_magenta">ম্যাজেন্টা</string>
+    
+    <string name="editor_grad_style">স্টাইল</string>
+    
+    <string name="editor_grad_new">নতুন</string>
+
+
+    
+
+    
+    <string name="curves_channel_rgb">আরজিবি</string>
+    
+    <string name="curves_channel_red">লাল</string>
+    
+    <string name="curves_channel_green">সবুজ</string>
+    
+    <string name="curves_channel_blue">নীল</string>
+
+    
+    <string name="draw_style">স্টাইল</string>
+    
+    <string name="draw_size">আয়তন</string>
+    
+    <string name="draw_hue">রং</string>
+    
+    <string name="draw_saturation">পরিপৃক্তি</string>
+    
+    <string name="draw_value">উজ্জ্বলতা</string>
+    
+    <string name="draw_color">রং</string>
+    
+    <string name="draw_style_line">লাইন</string>
+    
+    <string name="draw_style_brush_spatter">মার্কার</string>
+    
+    <string name="draw_style_brush_marker">স্পাটার</string>
+    
+    <string name="draw_clear">মুছুন</string>
+
+
+    
+    <string name="color_border_size">পুরত্ব</string>
+    
+    <string name="color_border_corner_size">কোণার আয়তন</string>
+    
+    <string name="color_border_color">রং</string>
+     
+    <string name="color_border_clear">মুছুন</string>
+
+    
+    <string name="color_pick_select">নিজের মত রং বেছে নিন</string>
+    
+    <string name="color_pick_title">রং নির্বাচন করুন</string>
+    
+    <string name="draw_size_title">আয়তন নির্বাচন করুন</string>
+    
+    <string name="draw_size_accept">ক্রপ করুন</string>
+
+    
+    <string name="state_panel_original">মূল</string>
+
+    
+    <string name="state_panel_result">ফলাফল</string>
+
+    
+    <string name="filtershow_notification_label">ছবি সংরক্ষণ করা হচ্ছে</string>
+    
+    <string name="filtershow_notification_message">প্রক্রিয়া করা হচ্ছে...</string>
+
+    
+    <string name="filtershow_save_preset">বর্তমান প্রিসেট সংরক্ষণ করুন</string>
+    
+    <string name="filtershow_manage_preset">ব্যবহারকারী প্রিসেট ম্যানেজ করুন</string>
+    
+    <string name="filtershow_new_preset">নতুন প্রিসেট</string>
+    
+    <string name="filtershow_preset_name">প্রিসেটকৃত নাম</string>
+
+    
+    <string name="filtershow_show_info_panel">তথ্য</string>
+    
+    <string name="filtershow_show_info_panel_name">ছবির নাম</string>
+    
+    <string name="filtershow_show_info_panel_size">ছবির আয়তন</string>
+    
+    <string name="filtershow_show_info_panel_histogram">হিসটোগ্রাম</string>
+    
+    <string name="filtershow_show_info_panel_exif">এক্সিফ ডাটা</string>
+
+    
+    <string name="filtershow_add_button_looks">প্রিসেট</string>
+    
+    <string name="filtershow_add_button_versions">সংস্করণ</string>
+    
+    <string name="filtershow_version_original">মূল</string>
+    
+    <string name="filtershow_version_current">বর্তমান</string>
+
+    
+    <string name="filtershow_exif_model">মডেল</string>
+    
+    <string name="filtershow_exif_aperture">অ্যাপারচার</string>
+    
+    <string name="filtershow_exif_focal_length">ফোকাল দৈর্ঘ্য</string>
+    
+    <string name="filtershow_exif_iso">ISO</string>
+    
+    <string name="filtershow_exif_subject_distance">বিষয়বস্তুর দূরত্ব</string>
+    
+    <string name="filtershow_exif_date">তোলার তারিখ</string>
+    
+    <string name="filtershow_exif_f_stop">এফ স্টপ</string>
+    
+    <string name="filtershow_exif_exposure_time">এক্সপোজার টাইম</string>
+    
+    <string name="filtershow_exif_copyright">কপিরাইট</string>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:persistent="false"
+    android:orderingFromXml="true">
+    
+    <Preference
+        android:key="wfc_preference_list"
+        android:title="Preference"
+        android:summary="%s"/>
+    
+    <PreferenceCategory
+        android:title="@string/Help"/>
+        <Preference 
+            android:key="Tutorials" 
+            android:title="@string/Tutorials"
+            android:fragment="com.mediatek.wfc.WfcTutorialFirstFragment"/>
+        <Preference
+            android:key="Top_questions"
+            android:title="@string/Top_questions" 
+            android:fragment="com.mediatek.wfc.WfcQuestionsAnswers"/> 
+    
+</PreferenceScreen>
+

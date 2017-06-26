@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="mtk_notification_string">Додирните за приказ детаљних подешавања</string>
+    <string name="mtk_beam_cancel_title">Откажи пренос</string>    
+    <string name="mtk_beam_cancel">Да ли сте сигурни да желите да откажете долазни пренос?</string>
+    <string name="mtk_yes">"Да"</string>
+    <string name="mtk_no">"Не"</string>
+    <string name="mtk_se_sim1">SIM1</string>
+    <string name="mtk_se_sim2">SIM2</string>
+    <string name="mtk_se_ssd">Паметна SD картица</string>
+    <string name="mtk_se_ese">Уграђена SE</string>
+    <string name="mtk_se_na">"'Нема безбедних сигурносних елемената. Емулација NFC картице ће се искључити.''"</string>
+    <string name="mtk_se_alt">"' није доступно. Да ли желите да пређете на ''"</string>
+    <string name="mtk_nfc_card_emulation">Емулација NFC картице</string>
+    <string name="mtk_disallow_in_wfd">Ова операција не може бити извршена за време бежичног приказа</string>
+    <string name="mtk_disallow_in_wfd_KK">Ова операција не може бити извршена за време снимка догађаја на екрану</string>    
+    <string name="mtk_landing_wps_connect_AP_confirm_title">"Повежи са мрежом"</string>
+    <string name="mtk_landing_wps_connect_AP_confirm_context">Покушавате да се повежете са:</string>
+    <string name="mtk_landing_wps_connect_AP_confirm_default_network">"Мрежа"</string>
+    <string name="mtk_landing_wps_connect_AP_confirm_positive">"Повежи"</string>
+    <string name="mtk_landing_wps_connect_AP_confirm_negative">"Откажи"</string>
+    <string name="mtk_landing_wps_connect_AP_confirm_already_connected">Већ сте повезани са\n<xliff:g id="connected">%1$s</xliff:g></string>
+    <string name="mtk_landing_wfa_p2p_turn_wifi_on">Укључивање Wi-Fi-ја...</string>  
+    <string name="mtk_landing_HotSpot_exclusive">Није доступно зато што је омогућен Wi-Fi хотспот.</string>      
+    <string name="mtk_wfa_activity_title">NFC WFA одашиљање у предњем плану</string>
+    <string name="mtk_wfa_user_indication">Поставите уређај у близину NDEF ознаке/P2P уређаја</string>
+    <string name="mtk_wfa_sigma_activity_title">NFC Sigma одашиљање у предњем плану</string>
+    <string name="mtk_wfa_sigma_user_indication">Поставите уређај у близину NDEF ознаке</string>    
+</resources>

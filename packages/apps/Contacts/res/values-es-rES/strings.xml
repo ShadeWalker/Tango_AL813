@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="mms_tab_label">Mensajes</string><!--modify by wangjing3 for HQ01823167 20160325-->
+<string name="contactsList">"Contactos"</string>
+<string name="shortcutContact">"Contacto"</string>
+<string name="shortcutDialContact">"Llamada directa"</string>
+<string name="shortcutMessageContact">"Mensaje directo"</string>
+<string name="shortcutActivityTitle">"Seleccionar un acceso directo"</string>
+<string name="callShortcutActivityTitle">"Seleccionar un número para la llamada"</string>
+<string name="messageShortcutActivityTitle">"Seleccionar un número para el mensaje"</string>
+<string name="contactPickerActivityTitle">"Seleccionar un contacto"</string>
+<string name="starredList">"Destacados"</string>
+<string name="frequentList">"Frecuentes"</string>
+<string name="strequentList">"Favoritos"</string>
+<string name="viewContactTitle">"Detalles del contacto"</string>
+<string name="editContactDescription">"Editar contacto"</string>
+<string name="insertContactDescription">"Crear contacto"</string>
+<string name="editGroupDescription">"Editar grupo"</string>
+<string name="insertGroupDescription">"Crear grupo"</string>
+<string name="contactDetailAbout">"Información"</string>
+<string name="contactDetailUpdates">"Actividad"</string>
+<string name="searchHint">"Buscar contactos"</string>
+<string name="menu_viewContact">"Ver contacto"</string>
+<string name="menu_addStar">Añadir a favoritos</string>
+<string name="menu_removeStar">"Eliminar de Favoritos"</string>
+<string name="menu_editContact">Editar</string>
+<string name="menu_deleteContact">"Eliminar"</string>
+<string name="menu_create_contact_shortcut">Crear acceso directo</string>
+<string name="menu_call">"Llamar al contacto"</string>
+<string name="menu_sendSMS">"Enviar SMS al contacto"</string>
+<string name="menu_splitAggregate">"Separar"</string>
+<string name="menu_editGroup">Editar</string>
+<string name="menu_deleteGroup">"Eliminar"</string>
+<string name="menu_new_contact_action_bar">"Añadir contacto"</string>
+<string name="menu_new_group_action_bar">"Añadir grupo"</string>
+<string name="splitConfirmation_title">"¿Dividir contacto?"</string>
+<string name="splitConfirmation">"Este contacto se dividirá en varios."</string>
+<string name="menu_joinAggregate">"Unir"</string>
+<string name="titleJoinContactDataWith">"Unir contactos"</string>
+<string name="blurbJoinContactDataWith">"Seleccione el nombre del contacto que desea unir con <xliff:g id="name">%s</xliff:g>:"</string>
+<string name="showAllContactsJoinItem">"Mostrar todos los contactos"</string>
+<string name="separatorJoinAggregateSuggestions">"Contactos sugeridos"</string>
+<string name="separatorJoinAggregateAll">"Todos los contactos"</string>
+<string name="contactsJoinedMessage">"Contactos unidos"</string>
+<string name="menu_set_ring_tone">"Configurar tono"</string>
+<string name="menu_redirect_calls_to_vm">"Al buzón de voz"</string>
+<string name="readOnlyContactWarning">"No se pueden eliminar contactos de las cuentas de solo lectura, pero se pueden ocultar en las listas de contactos."</string>
+<string name="readOnlyContactDeleteConfirmation">"Este contacto contiene información de varias cuentas. La información de las cuentas de solo lectura se ocultará en las listas de contactos, pero no se eliminará."</string>
+<string name="multipleContactDeleteConfirmation">"Si se elimina este contacto, se eliminará la información de varias cuentas."</string>
+<string name="deleteConfirmation">"El contacto se eliminará."</string>
+<string name="invalidContactMessage">"Este contacto no existe."</string>
+<string name="createContactShortcutSuccessful">"El widget de contactos se ha añadido a la pantalla de inicio."</string>
+<string name="pickerNewContactHeader">"Crear contacto nuevo"</string>
+<string name="pickerNewContactText">"Crear contacto nuevo"</string>
+<string-array name="otherLabels">
+<item>"Organización"</item>
+<item>"Nota"</item>
+</string-array>
+<string name="photoPickerNotFoundText" product="default">"No hay ninguna imagen disponible en el teléfono."</string>
+<string name="attach_photo_dialog_title">"Foto de contacto"</string>
+<string name="customLabelPickerTitle">"Nombre de etiqueta personalizada"</string>
+<string name="send_to_voicemail_checkbox">"Enviar llamadas directamente al buzón de voz"</string>
+<string name="removePhoto">"Eliminar foto"</string>
+<string name="noContacts">"No hay ningún contacto."</string>
+<string name="noGroups">"No hay grupos"</string>
+<string name="noAccounts">"Para crear grupos, se necesita una cuenta."</string>
+<string name="emptyGroup">"Este grupo está vacío."</string>
+<string name="addPeopleToGroup">"Para añadir contactos al grupo, edítelo."</string>
+<string name="savingContact">"Guardando contacto…"</string>
+<string name="contactSavedToast">"Contacto guardado."</string>
+<string name="contactSavedErrorToast">"No se han guardado los cambios del contacto."</string>
+<string name="groupSavedToast">"Grupo guardado"</string>
+<string name="groupSavedErrorToast">"No se han guardado los cambios del grupo."</string>
+<plurals name="listTotalPhoneContacts">
+<item quantity="one">"Un (1) contacto con número de teléfono"</item>
+<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> contactos con números de teléfono"</item>
+</plurals>
+<string name="listTotalPhoneContactsZero">"Ningún contacto con número de teléfono"</string>
+<plurals name="listFoundAllContacts">
+<item quantity="one">"1 encontrado"</item>
+<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> encontrados"</item>
+</plurals>
+<string name="listFoundAllContactsZero">"No hay contactos."</string>
+<plurals name="searchFoundContacts">
+<item quantity="one">"1 encontrado"</item>
+<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> encontrados"</item>
+</plurals>
+<string name="callBack">"Llamar"</string>
+<string name="callAgain">"Volver a llamar"</string>
+<string name="returnCall">"Devolver llamada"</string>
+<string name="add_contact_dlg_message_fmt">"¿Añadir \"<xliff:g id="email">%s</xliff:g>\" a los contactos?"</string>
+<string name="description_contact_photo">"foto de contacto"</string>
+<string name="description_plus_button">"más"</string>
+<string name="exporting_contact_list_progress">"<xliff:g id="CURRENT_NUMBER">%s</xliff:g> de <xliff:g id="TOTAL_NUMBER">%s</xliff:g> contactos"</string>
+<string name="search_settings_description">"Nombres de contactos"</string>
+<string name="quickcontact_missing_app">"No se ha detectado ninguna aplicación que pueda hacer esta acción."</string>
+<string name="menu_share">Compartir contactos</string>
+<string name="share_via">"Compartir contacto(s) a través de"</string>
+<string name="dialog_new_group_account">"Crear grupo en cuenta"</string>
+<string name="audio_chat">"Chat de voz"</string>
+<string name="video_chat">"Chat de vídeo"</string>
+<string name="connections">"Conexiones"</string>
+<string name="add_connection_button">"Añadir conexión"</string>
+<string name="recent">"Recientes"</string>
+<string name="recent_updates">"Actualiz recientes"</string>
+<string name="account_type_format">"Contacto de 
+        <xliff:g id="SOURCE">%1$s</xliff:g>"
+    </string>
+<string name="contact_read_only">"No se puede editar desde la aplicación."</string>
+<string name="group_read_only">"No se puede editar en este dispositivo."</string>
+<string name="take_photo">"Hacer foto"</string>
+<string name="take_new_photo">"Hacer nueva foto"</string>
+<string name="locale_change_in_progress">"La lista de contactos se está actualizando para reflejar el cambio de idioma."</string>
+<string name="upgrade_in_progress">"La lista de contactos se está actualizando."</string>
+<string name="upgrade_out_of_memory">"La actualización de los contactos está en proceso. "\n\n"Este proceso requiere aproximadamente <xliff:g id="size_in_megabytes">%s</xliff:g> MB de almacenamiento interno."\n\n"Seleccionar una de las siguientes opciones:"</string>
+<string name="upgrade_out_of_memory_uninstall">"Desinstalar algunas aplicaciones"</string>
+<string name="upgrade_out_of_memory_retry">"Reintentar actualización"</string>
+<string name="search_results_searching">"Buscando\u2026"</string>
+<string name="menu_display_selected">"Mostrar seleccionados"</string>
+<string name="menu_display_all">"Mostrar todos"</string>
+<string name="menu_select_all">"Seleccionar todo"</string>
+<string name="menu_select_none">"Deseleccionar todo"</string>
+<string name="add_new_entry_for_section">"Añadir nuevo"</string>
+<string name="add_organization">"Añadir organización"</string>
+<string name="event_edit_field_hint_text">"Fecha"</string>
+<string name="group_edit_field_hint_text">"Nombre de grupo"</string>
+<string name="description_star">"favoritos"</string>
+<string name="edit_contact">"Editar contacto"</string>
+<plurals name="merge_info">
+<item quantity="one">"sin fusionar"</item>
+<item quantity="other">"fusionados desde <xliff:g id="COUNT">%0$d</xliff:g> fuentes"</item>
+</plurals>
+<string name="aggregation_suggestion_join_dialog_message">"¿Unir contacto actual con contacto seleccionado?"</string>
+<string name="aggregation_suggestion_edit_dialog_message">"¿Quieres editar el contacto seleccionado? Se copiará la información que hayas introducido hasta el momento."</string>
+<string name="menu_copyContact">"Copiar en mis contactos"</string>
+<string name="add_to_my_contacts">"Añadir a Mis contactos"</string>
+<string name="contact_directory_description">"Directorio 
+        <xliff:g id="TYPE">%1$s</xliff:g>"
+    </string>
+<string name="list_filter_custom">"Personalizar"</string>
+<string name="activity_title_settings">"Ajustes"</string>
+<string name="menu_settings">"Ajustes"</string>
+<string name="menu_help">"Ayuda"</string>
+<string name="preference_displayOptions">"Opciones de visualización"</string>
+<string name="organization_company_and_title">" 
+        <xliff:g id="COMPANY_0">%2$s</xliff:g>, 
+        <xliff:g id="COMPANY_1">%1$s</xliff:g>"
+    </string>
+<string name="non_phone_caption">"Número de teléfono"</string>
+<string name="non_phone_add_to_contacts">"Añadir a contactos"</string>
+<string name="activity_title_confirm_add_detail">"Agregar a contactos"</string>
+<string name="non_phone_close">"Cerrar"</string>
+<string name="widget_name_and_phonetic">" 
+        <xliff:g id="DISPLAY_NAME">%1$s</xliff:g> ( 
+        <xliff:g id="PHONETIC_NAME">%2$s</xliff:g>)"
+    </string>
+<string name="date_year_toggle">"Introducir año"</string>
+<string name="social_widget_label">"Contacto"</string>
+<string name="social_widget_loading">"Cargando..."</string>
+<string name="contacts_unavailable_create_contact">"Crear contacto nuevo"</string>
+<string name="contacts_unavailable_add_account">"Acceder a una cuenta"</string>
+<string name="contacts_unavailable_import_contacts">"Importar contactos"</string>
+<string name="create_group_dialog_title">"Crear grupo nuevo"</string>
+<string name="create_group_item_label">"Crear grupo nuevo"</string>
+<plurals name="num_groups_in_account">
+<item quantity="one">"Un grupo"</item>
+<item quantity="other">"<xliff:g id="COUNT">%0$d</xliff:g> grupos"</item>
+</plurals>
+<string name="delete_group_dialog_message">"¿Seguro que quieres eliminar el grupo \" 
+        <xliff:g id="GROUP_LABEL">%1$s</xliff:g>\"? Los contactos no se eliminarán."
+    </string>
+<plurals name="num_contacts_in_group">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> persona de <xliff:g id="account_type">%2$s</xliff:g>"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> personas de <xliff:g id="account_type">%2$s</xliff:g>"</item>
+</plurals>
+<plurals name="group_list_num_contacts_in_group">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> persona"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> personas"</item>
+</plurals>
+<string name="toast_join_with_empty_contact">"Para agrupar el contacto, debes introducir el nombre del otro contacto."</string>
+<string name="copy_text">"Copiar en portapapeles"</string>
+<string name="set_default">"Establecer como predeterminado"</string>
+<string name="clear_default">"Eliminar predeterminado"</string>
+<string name="toast_text_copied">"Texto copiado"</string>
+<string name="cancel_confirmation_dialog_message">"¿Descartar los cambios?"</string>
+<string name="call_type_and_date">" 
+        <xliff:g id="CALL_TYPE">%1$s</xliff:g>  
+        <xliff:g id="CALL_SHORT_DATE">%2$s</xliff:g>"
+    </string>
+<string name="profile_display_name">"Configurar mi perfil"</string>
+<string name="enter_contact_name">"Escribir nombre de persona"</string>
+<string name="group_name_hint">"Nombre del grupo"</string>
+<string name="local_profile_title">"Mi perfil local"</string>
+<string name="external_profile_title">"Mi perfil de <xliff:g id="external_source">%1$s</xliff:g>"</string>
+<string name="toast_displaying_all_contacts">"Mostrando todos los contactos"</string>
+<string name="generic_no_account_prompt">"Mantén tus contactos a salvo aunque pierdas el teléfono: sincronízalos con un servicio online."</string>
+<string name="generic_no_account_prompt_title">"Añadir una cuenta"</string>
+<string name="contact_editor_prompt_zero_accounts">"No se hará una copia de seguridad del nuevo contacto. ¿Desea añadir una cuenta para hacer copias de seguridad online de los contactos?"</string>
+<string name="contact_editor_prompt_one_account">"El nuevo contacto se sincronizará con <xliff:g id="account_name">%1$s</xliff:g>."</string>
+<string name="contact_editor_prompt_multiple_accounts">"Puedes sincronizar tu nuevo contacto con una de las siguientes cuentas. ¿Cuál quieres usar?"</string>
+<string name="keep_local">"Guardar localmente"</string>
+<string name="add_account">"Añadir una cuenta"</string>
+<string name="add_new_account">"Añadir una cuenta nueva"</string>
+<string name="menu_export_database">"Exportar archivos de base de datos"</string>
+<string name="applicationLabel">"Contactos"</string>
+<string name="launcherActivityLabel">"Contactos"</string>
+<string name="contactInsertOrEditActivityTitle">"Añadir al contacto"</string>
+<string name="header_entry_contact_list_adapter_header_title">"Crear nuevo contacto"</string>
+<string name="description_action_menu_remove_star">"Eliminado de favoritos"</string>
+<string name="description_action_menu_add_star">"Añadido a favoritos"</string>
+<string name="menu_discard">"Descartar cambios"</string>
+<string name="all_contacts_tab_label">"Todos los contactos"</string>
+<string name="favorites_tab_label">"Favoritos"</string>
+<string name="quickcontact_transparent_view_description">"Haz clic para volver a la pantalla anterior"</string>
+<string name="quickcontact_add_phone_number">"Añadir número de teléfono"</string>
+<string name="quickcontact_add_email">"Añadir correo electrónico"</string>
+<string name="missing_app">"No se ha detectado ninguna aplicación que pueda hacer esta acción."</string>
+<string name="menu_add_contact">"Añadir a contactos"</string>
+<string name="pick_photo">"Elegir foto"</string>
+<string name="pick_new_photo">"Seleccionar nueva foto"</string>
+<string name="change_photo">"Cambiar"</string>
+<string name="primary_photo">"Foto principal"</string>
+<string name="no_account_prompt">"La aplicación Contactos funciona mejor con una cuenta de Google.\n\n• Accede a tu lista de contactos desde cualquier navegador web.\n• Haz copias de seguridad de tus contactos de forma segura."</string>
+<string name="contact_editor_title_new_contact">"Añadir nuevo contacto"</string>
+<string name="contact_editor_title_existing_contact">"Editar contacto"</string>
+<string name="action_menu_add_new_contact_button">"añadir nuevo contacto"</string>
+<string name="expanding_entry_card_view_see_more">"Ver más"</string>
+<string name="expanding_entry_card_view_see_less">"Ver menos"</string>
+<string name="expanding_entry_card_view_see_all">"Ver todo"</string>
+<string name="recent_card_title">"Recientes"</string>
+<string name="about_card_title">"Información"</string>
+<string name="send_message">Mandar mensaje</string>
+<string name="toast_making_personal_copy">"Creando una copia personal..."</string>
+<string name="yesterday">"Ayer"</string>
+<string name="tomorrow">"Mañana"</string>
+<string name="today">"Hoy"</string>
+<string name="today_at_time_fmt">"Hoy a las <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+<string name="tomorrow_at_time_fmt">"Mañana a las <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+<string name="date_time_fmt">"<xliff:g id="DATE">%s</xliff:g>, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+<string name="untitled_event">"(Evento sin título)"</string>
+<string name="date_time_set">"Establecer"</string>
+<string name="header_im_entry">"MI"</string>
+<string name="header_organization_entry">"Organización"</string>
+<string name="header_nickname_entry">"Sobrenombre"</string>
+<string name="header_note_entry">"Nota"</string>
+<string name="header_website_entry">"Sitio web"</string>
+<string name="header_event_entry">"Evento"</string>
+<string name="header_relation_entry">"Relación"</string>
+<string name="header_account_entry">"Cuenta"</string>
+<string name="header_name_entry">"Nombre"</string>
+<string name="header_email_entry">"Correo electrónico"</string>
+<string name="header_phone_entry">"Teléfono"</string>
+<string name="header_photo_entry">"Foto"</string>
+<string name="content_description_expand_editor">"Haz clic para ampliar el editor de contactos."</string>
+<string name="content_description_collapse_editor">"Haz clic para contraer el editor de contactos."</string>
+<string name="content_description_directions">"indicaciones para llegar a la ubicación"</string>
+<string name="content_description_recent_sms">"sms reciente. <xliff:g id="MESSAGE_BODY">%s</xliff:g>. <xliff:g id="PHONE_NUMBER">%s</xliff:g>. <xliff:g id="DATE">%s</xliff:g>. haz clic para responder"</string>
+<string name="content_description_recent_call_type_incoming">"recibida"</string>
+<string name="content_description_recent_call_type_outgoing">"realizada"</string>
+<string name="content_description_recent_call_type_missed">"perdida"</string>
+<string name="content_description_recent_call">"llamada reciente. <xliff:g id="CALL_TYPE">%s</xliff:g>. <xliff:g id="PHONE_NUMBER">%s</xliff:g>. <xliff:g id="DATE">%s</xliff:g>. haz clic para devolver la llamada"</string>
+<string name="message_from_you_prefix">"Tú: <xliff:g id="SMS_BODY">%s</xliff:g>"</string>
+<string name="contact_editor_hangouts_im_alert">"Hangouts funciona mejor si se introduce el identificador de Hangouts de la persona en el campo del correo electrónico o en el campo del teléfono."</string>
+<string name="dial_tab_label">Teléfono</string>
+<string name="launcherActivityLabelForPhone">Teléfono</string>
+<string name="join_same_name">Unir contactos</string>
+<string name="same_name_join_hint">&lt;li&gt;Pulse Comenzar para unir contactos que aparecen con el mismo nombre.&lt;/li&gt;\n&lt;li&gt;Pulse Cancelar para interrumpir la operación.&lt;/li&gt;\n&lt;li&gt;El proceso toma unos minutos.&lt;/li&gt;</string>
+<string name="join_action_start">Iniciar</string>
+<string name="join_title_total">Total</string>
+<string name="join_title_single">Actual</string>
+<string name="join_status_unstarted">Listo</string>
+<string name="join_status_waiting">Esperando...</string>
+<string name="join_status_checking">Verificando... Espere</string>
+<string name="join_status_join_start">Uniendo...</string>
+<string name="join_status_join_progress">Grupos unidos: %1$s. Total de grupos: %2$s.</string>
+<string name="join_status_joining">Unión\n</string>
+<string name="join_status_single_joining">Unión: %1$s\n Total con el mismo nombre: %2$s.</string>
+<string name="join_status_canceled">cancelada</string>
+<string name="join_cancel_confirm_msg">Detener unión</string>
+<string name="menu_done">Listo</string>
+<string name="cancel">cancelada</string>
+<string name="ok">Aceptar</string>
+<string name="dial_keypad">Marcar</string>
+<string name="dial_menu">Menú</string>
+<string name="dial_delete">Borrar</string>
+<string name="dataservice_title">Servicio de datos</string>
+<string name="open_dataservice_confirm">"La conexión de datos del dispositivo está desactivada. Para obtener una mejor experiencia, recomendamos activar la conexión de datos.\n\nCuando la conexión de datos está activada, se pueden usar las tarjetas SIM para acceder a Internet. ¿Activar la conexión de datos?"</string>
+<string name="open_confirm">Activar</string>
+<string name="open_cancel">Cancelar</string>
+<string name="dial_emergency">Llamadas de emergencia</string>
+<string name="emergency_only">Solo llamadas de emergencia</string>
+<string name="flight_mode_turned_on">Modo avión activado</string>
+<string name="no_service">Sin servicio</string>
+<string name="hour_hw">hh</string>
+<string name="minute_hw">mm</string>
+<string name="seconds_hw">ss</string>
+<string name="call_type_hw">Ver tipo de llamada</string>
+<string name="cancel_hw">Cancelar</string>
+<string name="confirm_hw">Aceptar</string>
+<string name="black_list_manager_exception">Administrador del teléfono no encontrado. Instálelo antes de usar esta función.</string>
+<string name="sim_log_hw">Registro de SIM</string>
+<string name="sim_all_hw">SIM 1 y SIM 2</string>
+<string name="sim_one_hw">SIM 1</string>
+<string name="sim_two_hw">SIM 2</string>
+<string name="call_type">Tipo de llamada</string>
+<string name="all_call_hw">Todas las llamadas</string>
+<string name="miss_call_hw">Llamadas perdidas</string>
+<string name="answer_call_hw">Llamadas respondidas</string>
+<string name="dialer_call_hw">Llamadas realizadas</string>
+<string name="date_format_year">Año</string>
+<string name="date_format_month">Mes</string>
+<string name="outgoing_calltype">Llamada saliente&#160;</string>
+<string name="incoming_type">Llamada entrante&#160;</string>
+<string name="missed_type">Llamada perdida&#160;</string>
+<string name="send_sms">Mandar mensaje</string>
+<string name="am_time">a. m.</string>
+<string name="pm_time">p. m.</string>
+<string name="chubaoMessage">1. Los servicios de identificación inteligente y páginas amarillas pueden requerir acceso a Internet, por lo que es posible que se apliquen tarifas por uso de datos.\n2. El servicio lo presta TouchPal Contacts, quien será responsable de la precisión y la fiabilidad de todos los datos relacionados.\n3. La información relacionada con los números marcados será cargada al servidor.\n4.Este servicio accederá a su información de ubicación.\nSi pulsa Aceptar, significa que acepta la información precedente. Si pulsa Cancelar, el servicio no tendrá acceso a Internet ni obtendrá su información de ubicación.</string>
+<string name="user_aggreement">Contrato del usuario</string>
+<string name="menu_add_to_black_list">Añadir a lista negra</string>
+<string name="add_to_black_list">Se ha añadido a la lista negra</string>
+<string name="menu_remove_from_black_list">Eliminar de la lista negra</string>
+<string name="remove_from_black_list">Se ha eliminado de la lista negra</string>
+<string name="menu_send_number">Enviar número</string>
+<string name="menu_delete_call_log">Eliminar entrada de registro de llamadas</string>
+<string name="hotline_name">Línea directa</string>
+<string name="hotline_phone">4008308300</string>
+<string name="hotline_email">mobile@huawei.com</string>
+<string name="hq_sim_slot_position_1">SIM 1</string>
+<string name="hq_sim_slot_position_2">SIM 2</string>
+<string name="menu_copy_number">Copiar número</string>
+<string name="cootek_dlg_no_show_again">No volver a recordarme</string>
+<string name="stared_contacts">Favoritos</string>
+<string name="discard_change_contacts">Descartar</string>
+<string name="save_change_contacts">Guardar</string>
+<string name="exit_sameNumber_contacts">El número ya existe, ¿Guardar?</string>
+<string name="exit_sameName_contacts">El nombre ya existe, ¿Guardar?</string>
+<string name="menu_actionbar_not_selected_items">No seleccionado</string>
+   <string name="contacts_setting_Advanced">Avanzada</string>
+   <string name="merge_duplicate_contacts">Combinar contactos duplicados</string>
+   <string name="set_up_my_profile">Configurar mi perfil</string>
+   <string name="mem_status">Estado de Memoria</string>
+   <string name="phone_local">Teléfono</string>
+   <string name="howManyContacts">Contacto(s)</string>
+<string-array name="phone_contact_menu">
+        <item>Llamadas</item>
+        <item>Enviar mensaje</item>
+        <item>Enviar correo</item>
+        <item>Editar</item>
+        <item>Eliminar</item>
+        <item>Compartir</item>
+        <item>Agregar a favoritos</item>
+        <item>Agregar a la lista negra</item>
+        <item>Colocar en pantalla principal</item>
+    </string-array>
+
+    <string-array name="sim_contact_menu">
+        <item>Llamar</item>
+        <item>Mandar mensaje</item>
+        <item>Editar</item>
+        <item>Borrar</item>
+        <item>Compartir contactos</item>
+        <item>Añadir a favoritos</item>
+        <item>Añadir a lista negra</item>
+        <item>Crear acceso directo</item>
+    </string-array>
+
+   <string-array name="Portugal_Sdn_contact_menu">
+        <item>Llamadas</item>
+        <item>Enviar mensaje</item>
+        <item>Enviar correo</item>
+        <item>Compartir</item>
+        <item>Agregar a favoritos</item>
+        <item>Agregar a la lista negra</item>
+        <item>Colocar en pantalla principal</item>
+    </string-array>
+<string name="contact_editor_account_selection_title">"Seleccionar cuenta"</string>
+    <string name="menu_copyContactsToPhone">Copiar a Teléfono</string>
+    <string name="menu_copyContactsToCard1">Copiar a Tarjeta1</string>
+    <string name="menu_copyContactsToCard2">Copiar a Tarjeta2</string>
+<string name="menu_copyContactsToSIM">Guardar en tarjeta SIM</string>
+</resources>

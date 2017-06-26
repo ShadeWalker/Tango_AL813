@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- AudioProfile Settings start -->
+   <string name="ring_summary">घंटी</string>
+  <string name="ring_vibrate_summary">घंटी और कंपन</string>
+  <string name="silent_summary">केवल मौन</string>
+  <string name="meeting_summary">केवल कंपन</string>
+  <string name="outdoor_summary">तीव्रतम घंटी और कंपन</string>
+  <string name="audio_profile_reset">रीसेट</string>
+  <string name="audio_profile_add">जोड़ें</string>
+  <string name="audio_profile_enable">सक्षम करें</string>
+  <string name="audio_profile_rename">पुनर्नाम</string>
+  <string name="audio_profile_delete">हटाएँ</string>
+  <string name="audio_profile_message_reset">सभी ऑडियो प्रोफ़ाइल सेटिंग्स डिफाल्ट पर रीसेट हो जाएँगी</string>
+  <string name="audio_profile_message_rename">कृपया नया प्रोफ़ाइल नाम इनपुट करें</string>
+  <string name="audio_profile_message_name_error">नाम इनपुट पहले से ही मौजूद है</string>
+  <string name="audio_profile_message_name_length_wrong">नाम में कम से कम एक अक्षर मौजूद होना होगा</string>
+  <string name="audio_profile_message_delete">प्रोफ़ाइल 
+        <xliff:g id="प्रोफ़ाइल">%s</xliff:g> हटाई जाएँगी</string>
+  <string name="audio_profile_message_overflow">आपके पास केवल 6 कस्टम प्रोफ़ाइल जोड़ने की अनुमति है</string>
+  <string name="audio_profile_category_custom_title">उपयोगकर्ता परिभाषित प्रोफ़ाइल</string>
+  <string name="audio_profile_category_predefine_title">पूर्वपरिभाषित प्रोफ़ाइल</string>
+  <string name="audio_profile_error">त्रुटि</string>
+  <string name="audio_profile_others">सूचनाएँ एवं अन्य</string>
+  <string name="general_settings_title">"सामान्य"</string>
+  <string name="silent_settings_title">मौन</string>
+  <string name="meeting_settings_title">बैठक</string>
+  <string name="outdoor_settings_title">आउटडोर</string>
+  <string name="sound_category_feedback_title">"सिस्‍टम"</string>
+  <string name="sound_category_calls_title">आने वाली कॉल</string>
+  <string name="voice_call_title">वॉयस कॉल रिंगटोन</string>
+  <string name="voice_call_summary">"अपना डिफॉल्ट वॉयस कॉल रिंगटोन सेट करें"</string>
+  <string name="video_call_title">वीडियो कॉल रिंगटोन</string>
+  <string name="video_call_summary">अपनी डिफॉल्‍ट वीडियो कॉल रिंगटोन सेट करें</string>
+  <string name="sip_call_title">SIP कॉल रिंगटोन</string>
+  <string name="sip_call_summary">अपना डिफ़ॉल्ट SIP कॉल रिंगटोन सेट करें</string>
+  <string name="Phone_vibrate_summary">इनकमिंग कॉल के लिए फोन वाइब्रेट करें</string>
+  <string name="vibrate_title">कंपन</string>
+  <string name="audio_profile_settings_title">ऑडियो प्रोफाइल</string>
+  <string name="audio_profile_bes_loudness_summary">स्पीकर के लिए वॉल्यूम बूस्टर</string>
+  <string name="sound_enhancement_title">ध्वनि में वृद्धि</string>
+  <string name="music_plus_summary">इयरफ़ोन के लिए ऑडियो तेज़ करने वाला</string>
+  <string name="lossless_title">दोषरहित BT मोड</string>
+  <string name="lossless_summary">उच्च गुणवत्ता BT ऑडियो</string>
+  <string name="lossless_connect_summary">दोषरहित BT मोड चालू करने से Wi-Fi प्रभावित होगा। क्या आप वाकई सक्षम करना चाहते हैं?</string>
+  <string name="lossless_on">दोषरहित BT मोड चालू</string>
+  <string name="lossless_playing">दोषरहित संगीत बजाना</string>
+  <string name="lossless_toastmessage">सिस्टम साउंड फ़ोन स्पीकर के माध्यम से बजाया जाएगा</string>
+  <string name="lossless_volume_max">कृपया सिस्टम वॉल्यूम को अधिकतम रखें</string>
+  <string name="lossless_cannot_found_device">दोषरहित BT डिवाइस नहीं खोज सकते</string>
+  <string name="audio_profile_bes_surround_title">BesSurround</string>
+  <string name="audio_profile_bes_surround_summary">सराउंड ऑडियो</string>
+  <string name="audio_profile_bes_surround_mode_movie">मूवी मोड</string>
+  <string name="audio_profile_bes_surround_mode_music">म्यूज़िक मोड</string>
+  <string msgid="6680706009915204785" name="zen_mode_option_title_novoice">"नोटिफिकेशन आने पर"</string>
+  <!-- AudioProfile Settings end -->
+ 
+  <!-- MTK Wi-Fi settings start -->
+   <string name="wifi_no_cert_for_wapi">वर्तमान में कनेक्ट हो रहे AP के लिए प्रमाणपत्र नहीं खोज सके</string>
+  <string name="sim_slot">सिम स्लॉट</string>
+  <string name="eap_sim_slot_0">सिम स्लॉट 1</string>
+  <string name="eap_sim_slot_1">सिम स्लॉट 2</string>
+  <string name="eap_sim_aka_airplanemode">कृपया EAP-SIM/AKA का उपयोग करने के लिए एयर प्लेन मोड बंद कर दें</string>
+  <string name="eap_sim_aka_no_sim_error">EAP-SIM/AKA का उपयोग करने के लिए आपको एक सिम कार्ड प्रविष्ट करना पड़ेगा</string>
+  <string name="eap_sim_aka_no_sim_slot_selected">EAP-SIM/AKA का उपयोग करने के लिए आपको एक सिम स्लॉट का चयन करना पड़ेगा</string>
+  <string name="wifi_security_wapi_certificate">WAPI प्रमाणपत्र</string>
+  <string name="wapi_user_certificate">उपयोगकर्ता प्रमाणपत्र</string>
+  <string name="wapi_as_certificate">ASE प्रमाणपत्र</string>
+  <string name="wifi_hex_password">हेक्साडेसिमल पासवर्ड।</string>
+  <string name="wifi_WEP_transmit_key">ट्रांसमिट कुंजी</string>
+  <string name="wifi_WEP_secury_key">सुरक्षा कुंजी</string>
+  <string name="wifi_tether_auto_disable_title">Wi-Fi हॉटस्पॉट चालू रखें</string>
+  <string name="wifi_tether_auto_channel_text">स्वचालित</string>
+  <string name="wifi_tether_auto_channel_width_text">स्वतः 20/40 मेगाहर्ट्ज</string>
+  <string name="wifi_channel">पसंदीदा चैनल</string>
+  <string name="wifi_channel_width">चैनल की चौड़ाई</string>
+  <string name="wifi_advanced_ipv4_address_title">IPv4 पता</string>
+  <string name="wifi_advanced_ipv6_address_title">IPv6 पता</string>
+  <string name="wifi_ipv4_address">IPv4 पता</string>
+  <string name="wifi_ipv6_address">IPv6 पता</string>
+  <string name="wifi_ap_auto_join_available">स्वतः शामिल हों</string>
+  <string name="wifi_ap_auto_join_available_summary">नेटवर्क से कनेक्ट रहने के दौरान डिवाइस बेहतर Wi-Fi नेटवर्क के लिए स्कैन करता रहेगा ताकि उससे जुड़ सके</string>
+  <!-- MTK Wi-Fi settings end -->
+ 
+  <!-- Wi-Fi hotspot client start -->
+   <string name="wifi_tether_setting_title">मूल सेटिंग</string>
+  <string name="wifi_tether_wps_connect_title">डब्‍ल्‍यूपीएस कनेक्‍ट</string>
+  <string name="wifi_tether_wps_connect_summary">आगे बढ़ने के लिए Wi-Fi सुरक्षित सेटअप मोड का चयन किया गया</string>
+  <string name="wifi_tether_wps_pin_error">अमान्य पिन</string>
+  <string name="wifi_tethering_title">Wi-Fi हॉटस्पॉट</string>
+  <string name="wifi_ap_wps_dialog_title">डब्‍ल्‍यूपीएस कनेक्‍ट</string>
+  <string name="wifi_ap_wps_mode_title">WPS मोड</string>
+  <string name="wifi_ap_wps_pin_title">क्लाइंट से पिन टाइप करें</string>
+  <string name="wifi_ap_reset_OOB_title">नेटवर्क SSID, सुरक्षा और पासवर्ड को डिफ़ॉल्ट पर रिसेट करें ( WPS के लिए आउट-ऑफ़-बॉक्स कॉन्फ़िगरेशन)</string>
+  <string name="wifi_ap_reset_OOB">OOB रिसेट करें</string>
+  <string name="wifi_ap_max_connection_title">अधिकतम कनेक्शन</string>
+  <string name="wifi_ap_connected_title">जुड़े उपयोगकर्ता</string>
+  <string name="wifi_ap_blocked_title">अवरुद्ध उपयोगकर्ता</string>
+  <string name="wifi_ap_client_block_title">ब्लॉक</string>
+  <string name="wifi_ap_client_unblock_title">अवरोध हटाएँ</string>
+  <string name="wifi_ap_client_details_title">विवरण</string>
+  <string name="wifi_ap_client_mac_label">MAC पता:</string>
+  <string name="wifi_ap_client_ip_label">IP पता:</string>
+  <string name="wifi_ap_bandwidth_title">बैंडविड्थ उपयोग</string>
+  <string name="wifi_ap_bandwidth_enable">बैंडविड्थ थ्रॉटलिंग सक्षम करें</string>
+  <string name="wifi_ap_bandwidth_chart_title">वास्तविक समय डेटा गति</string>
+  <string name="wifi_ap_bandwidth_chart_summary">आपके फ़ोन द्वारा मापा गया, आपके कैरियर की डेटा गति की गणना अलग हो सकती है।</string>
+  <string name="wifi_wps_fail_error">Wi-Fi सुरक्षित सेटअप असफल, दोबारा प्रयास करें।</string>
+  <string name="wifi_ap_title">आंकड़े</string>
+  <string name="wifi_ap_time_duration">समयावधि: 
+        <xliff:g id="time">%1$s</xliff:g>
+</string>
+  <string name="wifi_ap_total_data">कुल प्रयुक्त डेटा:
+        <xliff:g id="time">%1$s</xliff:g>
+</string>
+  <string name="wifi_ap_no_connected">0 जुड़े उपयोगकर्ता</string>
+  <string name="wifi_ap_no_blocked">0 अवरुद्ध उपयोगकर्ता</string>
+  <!-- Wi-Fi hotspot client end -->
+ 
+  <!-- MTK Beam plus start -->
+   <string name="beam_mgmt_tab_download_title">प्राप्‍त कॉल</string>
+  <string name="beam_mgmt_tab_upload_title">"3. साझाकरण टैब क्लिक करें, और 'अन्य नेटवर्क उपयोगकर्ताओं को इस कंप्यूटर के इंटरनेट कनेक्शन के माध्यम से कनेक्ट होने दें' चुनें ('होम नेटवर्किंग कनेक्शन' दिखाई पड़ने पर USB इंटरनेट का प्रतिनिधित्व करने वाले नए-नए जुड़े नेटवर्क का चयन करें)।"</string>
+  <string name="beam_share_mgmt_notification_ticker">बीम साझा इतिहास</string>
+  <string name="beam_share_mgmt_notification_title">बीम साझा इतिहास</string>
+  <string name="beam_share_mgmt_notification_message">"बीम साझा इतिहास देखने के लिए चुनें।"</string>
+  <string name="beam_share_mgmt_tab_menu_clear">क्‍या वेबसाइट की समस्‍त सेटिंग हटाएं?</string>
+  <string name="beam_share_open_file_dialog_title">फाइल नहीं खोला जा सकता।</string>
+  <string name="beam_share_open_file_unsupported_message">फाइल नहीं खोला जा सकता।</string>
+  <string name="beam_share_open_file_not_found_message">"फ़ाइल नहीं मिला: <xliff:g id="file_name">%1$s</xliff:g>
+</string>
+  <string name="beam_share_transfer_fail_dialog_title">"बीम असफल"</string>
+  <string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> सफलतापूर्वक नहीं भेजा गया।"</string>
+  <string name="beam_share_resend_dialog_ok_button">"पुन: प्रयास करें"</string>
+  <string name="beam_share_show_received_files_menu">"प्राप्त फ़ाइलें दिखाएं"</string>
+  <string name="beam_share_history_title">बीम साझा इतिहास</string>
+  <string name="beam_share_clear_confirm_dialog_title">सबकुछ हटाएं</string>
+  <string name="beam_share_clear_confirm_dialog_message">पूरा इतिहास खाली करें?</string>
+  <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> सफलतापूर्वक प्राप्त नहीं हुआ।"</string>
+  <string name="beam_share_clear_item_dailog_title">"हटाएं"</string>
+  <string name="beam_share_clear_item_dailog_message">आइटम हटा दिया जाएगा।</string>
+  <!-- MTK Beam plus end -->
+ 
+  <!-- MTK NFC settings start -->
+   <string name="nfc_p2p_mode">P2P मोड</string>
+  <string name="nfc_p2p_mode_summary">एप्लिकेशन सामग्री भेजें या प्राप्त करें</string>
+  <string name="nfc_tag_mode_category">टैग मोड</string>
+  <string name="nfc_rw_tag_title">टैग पठन एवं लेखन</string>
+  <string name="nfc_rw_tag_summary">टैग से पढ़ें या उसमें लिखें</string>
+  <string name="nfc_card_emulation_category_title">कार्ड अनुकरण मोड</string>
+  <string name="nfc_card_emulation">कार्ड अनुकरण</string>
+  <string name="card_emulation_settings_category_title">उपलब्ध सुरक्षा तत्व</string>
+  <string name="card_emulation_settings_no_element_found">कोई सुरक्षा तत्व उपलब्ध नहीं है</string>
+  <string name="card_emulation_settings_off_text">उपलब्ध सुरक्षा तत्वों को देखने के लिए, कार्ड अनुकरण ऑन करें।</string>
+  <string name="card_emulation_turning_off_text">कार्ड अनुकरण ऑफ़ किया जा रहा है...</string>
+  <string name="card_emulation_turning_on_text">कार्ड अनुकरण ऑन किया जा रहा है...</string>
+  <string name="card_emulation_switch_error_title">त्रुटि</string>
+  <string name="card_emulation_switch_error_message">
+<xliff:g id="card_mode">%1$s</xliff:g> में परिवर्तित होने में असफल।</string>
+  <string name="card_emulation_sim_not_supported_message">
+<xliff:g id="sim_description">%1$s</xliff:g> NFC कार्ड अनुकरण प्रकार्य का समर्थन नहीं करता है।</string>
+  <string name="card_emulation_two_sim_not_supported_message">सिम1, सिम2 NFC कार्ड बराबरी प्रकार्य का समर्थन नहीं करते हैं।</string>
+  <string name="nfc_hce_pay_summary">उपकरण का उपयोग करके टैप करना और Google बटुआ, क्रेडिट कार्ड, इत्यादि के रूप में भुगतान करना।</string>
+  <!-- MTK NFC settings end -->
+ 
+  <!-- MTK WIFI Passpoint start -->
+   <string name="passpoint_summary">Passpoint-सक्षम Aps से स्वतः कनेक्ट करना</string>
+  <string name="passpoint_append_summary">(Passpoint द्वारा)</string>
+  <string name="passpoint_config_credential_type">प्रमाण-पत्र प्रकार</string>
+  <string name="passpoint_config_eap_method">"EAP विधि"</string>
+  <string name="passpoint_supported">समर्थित</string>
+  <string name="passpoint_username_pw">उपयोगकर्ता नाम/पासवर्ड</string>
+  <string name="passpoint_certificate">प्रमाण-पत्र</string>
+  <!-- MTK WIFI Passpoint end -->
+ 
+  <!-- MTK WFD start -->
+   <string name="wfd_change_resolution_menu_title">रेज़ॉल्युशन बदलें</string>
+  <string name="wfd_sink_summary">अन्यों द्वारा खोजने योग्य</string>
+  <string name="wfd_device_category">उपकरण सूची</string>
+  <string name="wfd_sink_toast_enjoy">दूसरे उपकरण से स्क्रीन कास्टिंग का आनंद लें</string>
+  <string name="wfd_sink_toast_disconnect">कास्ट स्क्रीन डिस्कनेक्ट हुआ</string>
+  <string name="wfd_sink_disconnecting">डिस्‍कनेक्‍ट कर रहा है...</string>
+  <string name="wfd_sink_guide_btn">यह पाएँ</string>
+  <string name="wfd_sink_guide_title">किस प्रकार छोड़ें?</string>
+  <string name="wfd_sink_guide_content">दूसरे उपकरण के डिस्प्ले को छोड़ने के लिए स्क्रीन पर <xliff:g id="seconds">%s</xliff:g> सेकेंड तक दबाएँ।</string>
+  <!-- MTK WFD end -->
+ 
+  <!-- MTK Storage Settings start -->
+   <string name="mtp_transfer_unmount_error_text">फ़ाइल स्थानांतरण के दौरान SD कार्ड अनमाउंट नहीं किया जा सकता</string>
+  <string name="mtp_transfer_erase_error_text">फ़ाइल स्थानांतरण के दौरान SD कार्ड मिटाया नहीं जा सकता</string>
+  <string name="launch_error">"एप्लिकेशन आरंभ नहीं किया जा सका!"</string>
+  <string name="dlg_confirm_unmount_usb_title" product="default">USB भंडारण अनमाउंट करें?</string>
+  <string name="dlg_confirm_unmount_usb_text" product="default">यदि आप USB भंडारण अनमाउंट करते हैं, तो आपके द्वारा उपयोग हो रहे कुछ एप्लिकेशन रूक सकते हैं और USB भंडारण के दोबारा माउंट होने तक अनुपलब्ध हो सकते हैं।</string>
+  <string name="dlg_error_unmount_usb_text" product="default">USB भंडारण को अनमाउंट नहीं कर सके। बाद में पुनः प्रयास करें।</string>
+  <string name="unmount_usb_inform_text" product="default">USB भंडारण अनमाउंट कर दिया जाएगा।</string>
+  <string name="sd_eject_usbstorage" product="default">"USB संग्रहण अनमाउंट करें"</string>
+  <string name="sd_eject_usbstorage_summary" product="default">"आंतरिक USB संग्रहण अनमाउंट करें"</string>
+  <string name="sd_mount_usbstorage" product="default">"USB संग्रहण माउंट करें"</string>
+  <string name="sd_insert_usb_summary" product="default">"माउंट करने के लिए USB संग्रहण लगाएं"</string>
+  <string name="usb_ums_title">USB भंडारण</string>
+  <string name="usb_ums_summary">"XP की अनुशंसा की जाती है। आपको अपने कंप्यूटर और अपने Android के USB भंडारण के बीच फ़ाइलें स्थानांतरित करने देता है।"</string>
+  <string name="usb_charge_title">केवल चार्ज</string>
+  <string name="usb_connect_as_cdrom_category">"इस रूप में कनेक्ट करें CD-ROM"</string>
+  <string name="usb_charge_summary">सभी USB फ़ंक्शन को रोकें। आपको USB चार्जिंग को तेज और पॉवर उपभोग को कम करने देता है।</string>
+  <string name="akp_installer_settings_title">APK इंस्टॉलर</string>
+  <string name="akp_installer_settings_summary">फ़ोन भंडारण और SD कार्ड से अपना APK स्थापित करें</string>
+  <string name="usb_bicr_title">अंतर्निहित CD-ROM</string>
+  <string name="usb_bicr_summary">कुछ उपयोगी सॉफ़्टवेयर समाविष्ट करने वाला एक आभासी CD-ROM दिखाएँ।</string>
+  <string name="select_memory">डिफ़ॉल्ट लेखन डिस्क</string>
+  <string name="dlg_mount_external_sd_title" product="default">SD कार्ड माउंट करें?</string>
+  <string name="dlg_mount_external_sd_summary" product="default">अगर आप sd कार्ड को माउंट करते हैं तो आपके द्वारा उपयोग किए जा रहे कुछ एप्लिकेशन बंद हो जाएंगे।</string>
+  <!-- MTK Storage Settings end -->
+ 
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">HDMI सेटिंग्स</string>
+  <string name="hdmi_settings_summary">HDMI कॉन्फ़िगर करने के लिए क्लिक करें</string>
+  <string name="hdmi_audio_toggler">ऑडियो</string>
+  <string name="hdmi_video_toggler">वीडियो</string>
+  <string name="hdmi_video_resolution">वीडियो रेज़ॉल्युशन</string>
+  <string name="hdmi_auto">स्वचालित</string>
+  <string name="hdmi_scale_control">वीडियो परिमाण सेटिंग</string>
+  <string name="hdmi_scale_no_scale">कोई परिमाण परिवर्तन नहीं</string>
+  <string name="hdmi_scale_scale_down">
+<xliff:g id="scale_percent">%s</xliff:g>%% परिमाण कम करें</string>
+  <string name="hdmi_audio_output">ऑडियो आउटपुट</string>
+  <string name="hdmi_audio_output_stereo">स्टीरियो</string>
+  <string name="hdmi_audio_output_multi_channel">मल्टी चैनल</string>
+  <!-- MTK HDMI end -->
+ 
+  <!-- MTK Display Settings start -->
+   <string name="landscape_launcher_title">लैंडस्केप लॉन्चर</string>
+  <string name="landscape_launcher_none">कोई नहीं</string>
+  <string name="display_settings_scences_title">दृश्य</string>
+  <string name="default_name">डिफ़ॉल्ट</string>
+  <string name="custom_theme_name">नया [%1$s]</string>
+  <string name="loading">लोड हो रहा है...</string>
+  <string name="auto_backlight_title">किफायती बैकलाइट</string>
+  <string name="auto_backlight_summary">पावर बचाने के लिए स्वचालित रूप से बैकलाइट समायोजित करें</string>
+  <string name="display_personalize">व्यक्तिगत बनाएँ</string>
+  <string name="display_default">"प्रदर्शन"</string>
+  <string name="clear_motion_summary">वीडियो प्रवाह आवर्धक</string>
+  <string name="on_text">"चालू"</string>
+  <string name="off_text">"बंद"</string>
+  <string name="mira_vision_summary">सर्वोत्तम दृश्य प्रभाव प्रदान करता है</string>
+  <!-- MTK Display Settings end -->
+ 
+  <!--MTK Security Settings start -->
+   <string name="voice_unlock_backup_info_summary">वॉयस अनलॉक आपकी पहचान नहीं कर सका, आप किस प्रकार अनलॉक करना चाहते हैं?</string>
+  <string name="unlock_set_unlock_mode_voice_weak">वॉयस अनलॉक</string>
+  <string name="mtk_lock_screen_notifications_title">लॉक स्क्रीन सूचनाएँ</string>
+  <string name="lock_screen_notifications_summary">लॉक स्क्रीन पर सूचना दिखाएँ</string>
+  <string name="lock_screen_style_title">लॉक स्क्रीन स्टाइल</string>
+  <string name="current_suffix">"(वर्तमान)"</string>
+  <string name="lockscreen_style_default_desc">"लॉक स्क्रीन से एप्लिकेशंस तक तेज़ पहुंच"</string>
+  <string name="security_not_set">सुरक्षा सेट नहीं है</string>
+  <string name="voice_ui_title">आवाज़ द्वारा नियंत्रण</string>
+  <!--MTK Security Settings end -->
+ 
+  <!-- MTK Wireless settings start -->
+   <string name="pch_toggle_title">जीपीआरएस ट्रांसफर वरीयता।</string>
+  <string name="pch_data_prefer_summary_off">डेटा वरीयता</string>
+  <string name="pch_call_prefer_summary_on">कॉल वरीयता</string>
+  <string name="pch_warning_message">डेटा ट्रांसमिशन रेट कम हो जाएगी।</string>
+  <string name="tethered_ipv6_title">हॉटस्पॉट एवं परिसीमन सेटिंग्स</string>
+  <string name="tethered_ipv4v6">(IPv6 उपलब्ध)</string>
+  <string name="tethered_ipv6">(केवल IPv6 उपलब्ध)</string>
+  <string name="tethered_ipv4">(IPv6 अनुपलब्ध)</string>
+  <string name="tethering_apn_settings_title">APN सेटिंग्स</string>
+  <string name="tethering_apn_settings_summary">APN को परिसीमन के लिए कन्फ़िगर करें</string>
+  <string name="usb_tether_type_title">USB परिसीमन प्रकार</string>
+  <string name="usb_tethering_select_version">पीसी प्रणाली संस्करण चुनें</string>
+  <string name="apn_port_warning">पोर्ट मान 1-65535 होना चाहिए!</string>
+  <string name="apn_predefine_change_dialog_notice">क्या आप सचमुच सहेजना चाहते हैं? डिफॉल्ट APN में संशोधन कनेक्शन समस्या पैदा कर सकती है!</string>
+  <string name="lockdown_vpn_already_connected">कनेक्शन के लिए हमेशा VPN पर पहले से ही सक्षम कर दिया गया है.</string>
+  <!-- MTK Wireless settings end -->
+ 
+  <!-- MTK Feature MISC start -->
+   <string name="schedule_power_on_off_settings_title">पॉवर चालू/बंद निर्धारित करें</string>
+  <string name="ipo_title">त्वरित बूट</string>
+  <string name="ipo_summary_on">त्वरित बूट अक्षम करें</string>
+  <string name="ipo_summary_off">त्वरित बूट सक्षम करें</string>
+  <string name="hotknot_explained_description">स्क्रीन के दूसरे उपकरण को छूने पर डेटा आदान-प्रदान की अनुमति दें</string>
+  <string name="mouse_primary_button_title">प्राथमिक और द्वितीयक बटनों के बीच स्विच करें</string>
+  <string name="mouse_primary_button_dialog_title">प्राथमिक बटन में स्विच करें</string>
+  <string name="double_click_title">गति पर डबल क्लिक करें</string>
+  <string name="test_area">जाँच क्षेत्र:</string>
+  <string name="double_click_tip">यहाँ डबल क्लिक करें</string>
+  <!-- MTK Feature MISC end -->
+ 
+  <!-- MTK Bluetooth Settings start -->
+   <string name="bluetooth_advanced_settings">ब्लूटूथ उन्नत सेटिंग्स</string>
+  <string name="bluetooth_profile_ftp">फ़ाइल स्थानांतरण</string>
+  <string name="bluetooth_ftp_profile_summary_use_for">फ़ाइल स्थानांतरण के लिए उपयोग करें</string>
+  <string name="bluetooth_ftp_profile_summary_connected">"फ़ाइल स्थानांतरण से कनेक्‍टेड है"</string>
+  <!-- MTK Bluetooth Settings end -->
+ 
+  <!--MTK DateTime start-->
+   <string name="gps_time_sync_attention_gps_on">इसे GPS फ़िक्स प्राप्त करने में अधिकतम 1 मिनट का समय लग सकता है। इसके अतिरिक्त, GPS खराब परिवेशी सिग्नल के कारण समय प्रदान में विफल हो सकता है।\n\nक्या आप वाकई GPS द्वारा प्रदान समय का उपयोग करना चाहते हैं?</string>
+  <string name="gps_time_sync_attention_gps_off">GPS द्वारा प्रदान समय का उपयोग करने के लिए, आपको पहले GPS सक्षम करना पड़ेगा। फिर इसे GPS फ़िक्स प्राप्त करने के लिए अधिकतम 1 मिनट का समय लेता है। इसके अतिरिक्त, GPS खराब परिवेशी सिग्नल के कारण समय प्रदान करने में विफल हो सकता है। \n\nक्या आप वाकई अब GPS सक्षम करना और GPS द्वारा प्रदान समय की प्रतीक्षा करना चाहते हैं?</string>
+  <!--MTK DateTime end-->
+ 
+  <!--MTK DRM settings start -->
+   <string name="drm_settings_title">DRM रिसेट</string>
+  <string name="drm_settings_summary">सभी DRM लाइसेंस हटाएँ</string>
+  <string name="drm_reset_dialog_msg">यह कार्रवाई इस डिवाइस के सभी लाइसेंस को हटा देगा। जारी रखें?</string>
+  <string name="drm_reset_toast_msg">लाइसेंस सफलतापूर्वक हटाए गए।</string>
+  <!--MTK DRM settings end -->
+ 
+  <!-- MTK APPS settings start -->
+   <string name="launch_main_label">लॉन्च अनुप्रयोग</string>
+  <string name="launch_main">मुख्य गतिविधि द्वारा अनुप्रयोग लॉन्च करें</string>
+  <string name="launch_activitie">लॉन्च</string>
+  <string name="move_app_to_where">
+<xliff:g id="location">%s</xliff:g> पर जाएँ</string>
+  <!-- MTK APPS settings end -->
+ 
+  <!-- MTK Battery MISC start -->
+   <string name="bg_power_saving_title">स्टैंडबाई कुशल पावर रक्षण</string>
+  <!-- MTK Battery MISC end -->
+ 
+  <!-- MTK  Datausage  start -->
+   <string name="mtk_datausage_overview_tab">विवरण</string>
+  <string name="mtk_datausage_overview_wifi_today">आज</string>
+  <string name="mtk_datausage_overview_wifi_total">"कुल"</string>
+  <string name="mtk_datausage_overview_mobile_title">मोबाइल</string>
+  <string name="mtk_datausage_overview_mobile_usage">
+<xliff:g id="limit">%s</xliff:g> में से 
+        <xliff:g id="actual">%s</xliff:g>
+</string>
+  <string name="mtk_datausage_overview_mobile_usage_warning">
+<xliff:g>%s</xliff:g> सीमा से बाहर</string>
+  <string name="data_saving_title">डेटा बचत</string>
+  <!-- MTK  Dtausage  end -->
+ 
+  <!-- MTK About phone start -->
+   <string name="status_imei_slot1">IMEI(स्लॉट1)</string>
+  <string name="status_imei_slot2">IMEI(स्लॉट2)</string>
+  <string name="custom_build_version">आवश्यकता अनुसार बनाया गया संस्करण</string>
+  <string name="mota_system_update_summary">"सर्वर पर सिस्टम अपडेट जाँचें"</string>
+  <string name="software_updates_more_title">सॉफ़्टवेयर अपडेट</string>
+  <string name="software_updates_more_summary">सॉफ़्टवेयर के नए संस्करण की खोज करें</string>
+  <!-- MTK About phone end -->
+ 
+  <!-- MTK sim cards start -->
+   <string name="sim_cards_celluar_data_dialog_title">सेलुलर डेटा के लिए उपयोग होने वाला सिम चुनें</string>
+  <string name="sim_cards_data_sms_dialog_title">एसएमएस संदेशों के लिए उपयोग होने वाला सिम चुनें</string>
+  <string name="sim_cards_calls_dialog_title">फ़ोन कॉल के लिए उपयोग होने वाला खाता चुनें</string>
+  <string name="sim_cards_other_calls_dialog_title">कोई अन्य खाता चुनें</string>
+  <string name="sim_cards_other_calls_item_title">अन्य खाता</string>
+  <string name="data_connection_progress_message">"SIM स्विचिंग पूरा करने में करीब 10 सेकंड लगेंगे. कृपया प्रतिक्षा करें... "</string>
+  <string name="gemini_sim_mode_progress_activating_message">सक्रिय हो रहा है\u2026</string>
+  <string name="gemini_sim_mode_progress_deactivating_message">निष्क्रिय हो रहा है\u2026</string>
+  <string name="simui_intenet_call">इंटरनेट कॉल</string>
+  <!-- MTK sim cards end -->
+ 
+  <!-- MTK SIM Status start -->
+   <string name="imei_information_title">"IMEI जानकारी"</string>
+  <string name="imei_information_summary">"IMEI संबंधी जानकारी"</string>
+  <string name="slot_number">"(स्लॉट<xliff:g id="SLOT_NUM">%1$d</xliff:g>)"</string>
+  <string name="sim_info_editor_color">"पृष्ठभूमि का रंग"</string>
+  <string name="sim_cards_notify_title">"सिम कार्ड बदल गए हैं"</string>
+  <string name="sim_cards_notify_summary">प्राथमिकताएं सेट करने के लिए टैप करें।</string>
+  <string name="no_sim_cards_notify_title">कोई सिम कार्ड लगा नहीं है</string>
+  <string name="cellular_data_notify_title">"सेल्युलर डेटा अनुपलब्ध है"</string>
+  <string name="cellular_data_notify_summary">डेटा सिम सेट करने के लिए टैप करें।</string>
+  <!-- MTK SIM Status end -->
+ 
+  <!-- IMS/SMS Settings start -->
+   <string name="ims_toggle_summary">आईपी मल्टीमीडिया सब सिस्टम सेवाएँ प्रदान की जा रही हैं</string>
+  <string name="sms_vibrate_summary">एसएमएस के लिए डिवाइस कंपन करे</string>
+  <!-- IMS/SMS Settings end -->
+    <string name="default_data_switch_err_msg1">कॉल के दौरान सेलुलर डेटा के लिए पसंदीदा सिम पर स्विच नहीं कर सकता है।</string>
+  <string name="two_cdma_dialog_msg">स्लॉट 1 और स्लॉट 2 एक साथ CDMA का समर्थन नहीं कर सकते हैं।</string>
+  <string name="hetcom_setting_title">टर्बो डाउनलोड</string>
+<string name="voice_call_sim2_title">SIM 2 ध्वनि कॉल रिंगटोन</string>
+<string name="ringtone_sim2_title">SIM 2 फ़ोन रिंगटोन</string>
+<string name="wfc_quick_toggle_title">Wi-Fi कॉल</string>
+<string name="Help">सहायता</string>
+<string name="Tutorials">ट्यूटोरियल</string>
+<string name="Top_questions">शीर्ष प्रश्न</string>
+<string name="Wifi_wfc_dialog_title">Wi-Fi कॉल</string>
+<string name="Wifi_wfc_dialog_top_wording">आप अब WLAN नेटवर्क से कनेक्ट हो गए हैं</string>
+<string name="Wifi_wfc_dialog_bottom_wording">आपकी स्क्रीन के शीर्ष पर यह प्रतीक इंगित करता है कि आप Wi-Fi नेटवर्क से कनेक्ट हैं। आप Wi-Fi पर कॉल कर सकते हैं या संदेश भेज सकते हैं।</string>
+<string name="Skip">छोड़ें</string>
+<string name="Learn_more">अधिक जानें</string>
+<string name="Next">अगला</string>
+<string name="Switch_not_in_use_string">स्विच अस्थायी रूप से अनुपलब्ध है। कृपया बाद में पुन: प्रयास करें।</string>
+<string name="Done">संपन्न</string>
+<string name="Wfc_questions">Wi-Fi कॉलिंग सहायता</string>
+<string name="Wfc_off_summary">अक्षम</string>
+<string name="wfc_on_summary">Wi-Fi कॉल चालू है</string>
+<string name="connection_preference">कनेक्शन प्राथमिकताएँ</string>
+<string name="WiFi_preferred">Wi-Fi को वरीयता दी जाती है</string>
+<string name="Cellular_network_preferred">सेलुलर नेटवर्क को वरीयता दी जाती है</string>
+<string name="Never_use_cellular_network">सेलुलर नेटवर्क का उपयोग कभी न करें।</string>
+<string name="WiFi_preferred_summary">कॉल के लिए Wi-Fi का उपयोग करें। यदि Wi-Fi अनुपलब्ध हो, तो सेलुलर नेटवर्क (डिफ़ॉल्ट) का उपयोग करें।</string>
+<string name="Cellular_network_preferred_summary">कॉल के लिए सेलुलर नेटवर्क का उपयोग करें। यदि सेलुलर नेटवर्क अनुपलब्ध है, तो Wi-Fi का उपयोग करें।</string>
+<string name="Never_use_cellular_network_summary">कॉल के लिए केवल Wi-Fi का उपयोग करें। सेलुलर नेटवर्क का उपयोग न करें, भले ही वह उपलब्ध हो।</string>
+<string name="no_sim_present_error">कोई भी SIM नहीं है </string>
+<string name="inavlid_sim_error">त्रुटि 05: अमान्य SIM</string>
+<string name="airplane_mode_on">विमान मोड चालू है</string>
+<string name="cellular_prefered_summary">सेलुलर आपका पसंदीदा कनेक्शन मोड है</string>
+<string name="wifi_off_summary">Wi-Fi बंद किया दिया</string>
+<string name="not_connected_to_wifi_summary">Wi-Fi से कनेक्ट नहीं किया गया है</string>
+<string name="poor_wifi_signal_summary">खराब Wi-Fi सिग्नल</string>
+<string name="wfc_enabling_summary">सक्षम कर रहा है…</string>
+<string name="wfc_disabling_summary">अक्षम कर रहा है…</string>
+<string name="wfc_ready_for_calls_summary">कॉल के लिए तैयार</string>
+<string name="wfc_unknown_error_summary">अज्ञात त्रुटि</string>
+<string name="wfc_tutorial_heading">Wi-Fi कॉल के बारे में सभी कुछ जानें</string>
+<string name="wfc_tutorial_content_second_page_part1">स्थिति बार पर Wi-Fi आइकन के प्रकट होने पर, आपका फ़ोन Wi-Fi कॉल के लिए तैयार हो जाता है।</string>
+<string name="wfc_tutorial_content_second_page_part2">Wi-Fi कॉल पर बने रहने के लिए, Wi-Fi नेटवर्क की सीमा में रहें। आपको एक श्रव्य बीप सुनाई देगी और एक स्क्रीन संदेश प्राप्त होगा जो आपको बताएगा कि आपके द्वारा सीमा से बाहर जाने के कारण कॉल समाप्त हो गई है।</string>
+<string name="wfc_incorrect_sim_alert_title">त्रुटि 05: अमान्य SIM कार्ड</string>
+<string name="wfc_invalid_sim_alert_message">महत्वपूर्ण सूचना\nWi-Fi कॉलिंग सेवा संगतता के लिए आपके SIM कार्ड का अद्यतन किए जाने की आवश्यकता है। ग्राहक सेवा से संपर्क करने के लिए कृपया अपने फ़ोन से T-मोबाइल स्टोर पर जाएँ या 611 डायल करें।</string>
+<string name="ok_string">ठीक</string>
+<string name="wifi_ap_help_title">सहायता</string>
+<string name="help_document">1 पोर्टेबल Wi-Fi हॉटस्पॉट सुविधा द्वारा आपके डिवाइस का उपयोग इंटरनेट पहुँच बिंदु के रूप में किया जा सकता है। पेरिफ़ेरल डिवाइस आपके डिवाइस से कनेक्ट हो सकते हैं और आपके मोबाइल डेटा कनेक्शन पर इंटरनेट पर पहुँच प्राप्त कर सकते हैं।\n2. पोर्टेबल Wi-Fi हॉटस्पॉट सुविधा का उपयोग करने से पहले, मोबाइल डेटा सक्षम करें। उचित डेटा उपयोग शुल्क लागू हो सकता है।\n3. पोर्टेबल Wi-Fi हॉटस्पॉट सुविधा का उपयोग करने से अधिक पॉवर की खपत हो सकती है।</string>
+<string name="bg_power_percent_title">बैटरी प्रतिशत दिखाएँ</string>
+<string name="bg_power_percent_summary">स्थिति बार में बैटरी का शेष प्रतिशत दिखाएँ</string>
+<string name="wfc_tutorial_content_first_page">Wi-Fi कॉलिंग द्वारा आप असमान कवरेज को अलविदा कह सकते हैं। Wi-Fi कॉलिंग के साथ आप अपने मौजूदा T-मोबाइल प्लान का उपयोग कर Wi-Fi नेटवर्क पर कॉल और संदेश भेज और प्राप्त कर सकते हैं। Wi-Fi कॉलिंग के लिए किसी विशेष सेटअप की आवश्यकता नहीं होती है। सेटिंग्स मेनू से, वायरलेस और नेटवर्क पर जाएँ और प्रारंभ करने के लिए Wi-Fi नेटवर्क से कनेक्ट करें।</string>
+<string name="storage_internal_storage_title">आंतरिक संग्रहण</string>
+<string name="storage_cleaner_preference_title">संग्रहण क्लीनर</string>
+<string name="mira_vision_title">प्रदर्शन प्रभाव</string>
+</resources>

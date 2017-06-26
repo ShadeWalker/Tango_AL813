@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dm_lock">DM zamknuto</string>
+    <string name="dm_unlock">DM odemknout</string>
+    <string name="start_record">Zahájit záznam</string>
+    <string name="stop_record">Zastavit záznam</string>
+    <string name="str_db_playlist_name">Moje záznamy</string>
+    <string name="alert_device_error">Na zvukovém zařízení došlo k chybě</string>
+    <string name="ext_media_badremoval_notification_title">Karta SD neočekávaně vyjmuta</string>
+    <string name="error_sdcard_access">"Nelze získat přístup ke kartě SD"</string>
+    <string name="confirm_device_info_full">Na kartě SD není místo, záznam byl uložen.</string>
+    <string name="confirm_save_info_saved">Záznam byl uložen</string>
+    <string name="confirm_save_info_saved_to">Záznam byl uložen do</string>
+    <string name="recording_saved_sd_full">Na kartě SD není místo, záznam byl uložen.</string>
+    <string name="sd_not_enough">Na kartě SD\ndochází místo</string>
+    <string name="alert_dialog_dismiss">"Zavřít"</string>
+    <string name="change_my_pic">Změnit</string>
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">Zavěsit vše</string>
+    <string name="onscreenHangupHolding">Zavěsit přidržené</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Zavěsit aktivní, čekání na odpověď</string>
+    <string name="menu_ect">Přenést</string>
+    <string name="respond_via_sms_confirmation_format">"Zpráva byla odeslána na číslo 
+        <xliff:g id="PHONE_NUMBER">%s</xliff:g>."
+    </string>
+    <string name="volte_add_conference_member_title">Přidat do konference</string>
+    <string name="add_member_msg">Zadejte číslo nebo jméno</string>
+    <string name="card_title_incoming_conference">Pozvánka do konference</string>
+    <string name="addConferenceMemeberText">Přidat člena</string>
+    <string name="add_conference_member_limit">Lze přidat pouze jedno číslo najednou.</string>
+    <string name="conference_member_join">
+<xliff:g id="member_name">%s</xliff:g> se připoji/a do konference.</string>
+    <string name="conference_member_leave">
+<xliff:g id="member_name">%s</xliff:g> opustil/a konferenci.</string>
+    <string name="conference_member_adding">Přidávání <xliff:g id="member_name">%s</xliff:g> ...</string>
+    <string name="conference_member_add_fail">Nepodařilo se přidat <xliff:g id="member_name">%s</xliff:g> .</string>
+    <string name="removeMember">"Odstranit"</string>
+    <string name="memberStatus">"Stav"</string>
+    <string name="volte_call_waiting_indication_text">Druhá strana volá, počkejte prosím...</string>
+    <string name="volte_conf_member_reach_max">Byl dosažen maximální počet účastníků konference.</string>
+    <string name="add_multi_conference_member_limit">Nyní můžete přidat maximálně pouze <xliff:g id="max_number">%s</xliff:g> člena(ů).</string>
+    <string name="multi_conference_member_adding">Přidávání člena(ů)...</string>
+<string name="ok">"OK"</string>
+<string name="two_incoming_calls">Dva příchozí hovory</string>
+<string name="wifi_title">Volání přes Wi-Fi a minuty </string>
+<string name="call_drop">Váš hovor může být odpojen</string>
+<string name="call_drop_message">Jste téměř mimo dosah pokrytí Wi-Fi</string>
+<string name="view_networks">Zobrazit sítě</string>
+<string name="wfc_wifi_call_drop_summary">Ale ne! Pravděpodobně jste se během hovoru přesunuli mimo dosah sítě Wi-Fi.\n\nPřipojit znovu k Wi-Fi a dokončit hovor?</string>
+</resources>

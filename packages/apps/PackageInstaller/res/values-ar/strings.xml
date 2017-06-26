@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="2738748390251381682" name="app_name">"أداة تثبيت الحزم"</string>
+    <string msgid="3057143178373252333" name="next">"التالي"</string>
+    <string msgid="5896438203900042068" name="install">"تثبيت"</string>
+    <string msgid="3889387558374211719" name="done">"تم"</string>
+    <string msgid="2706691034244052604" name="security_settings_desc">"السماح لهذا التطبيق بـ:"</string>
+    <string msgid="8360346460165114585" name="cancel">"إلغاء"</string>
+    <string msgid="8360346460165114585" name="delete">حذف</string>
+    <string msgid="4742479012767208045" name="unknown">"غير معروف"</string>
+    <string msgid="8613631001631998372" name="installing">"جارٍ التثبيت..."</string>
+    <string msgid="3682715442154357097" name="install_done">"تم تثبيت التطبيق."</string>
+    <string msgid="7295206719219043890" name="install_confirm_question">"هل تريد تثبيت هذا التطبيق؟ سيكون بإمكانه الدخول إلى:"</string>
+    <string msgid="5918305641302873520" name="install_confirm_question_no_perms">"هل تريد تثبيت هذا التطبيق؟ إنه لا يتطلب أي دخول خاص."</string>
+    <string msgid="4624159567361487964" name="install_confirm_question_update">"هل تريد تثبيت تحديث لهذا التطبيق الحالي؟ لن تفقد بياناتك الحالية. سيكون بإمكان التطبيق المحدّث الدخول إلى:"</string>
+    <string msgid="1302330093676416336" name="install_confirm_question_update_system">"هل تريد تثبيت تحديث لهذا التطبيق المضمن؟ لن تفقد بياناتك الحالية. سيكون بإمكان التطبيق المحدّث الدخول إلى:"</string>
+    <string msgid="4885928136844618944" name="install_confirm_question_update_no_perms">"هل تريد تثبيت تحديث لهذا التطبيق الحالي؟ لن يتم فقد بياناتك الحالية. كما أنه لا يتطلب أي دخول خاص."</string>
+    <string msgid="7676593512694724374" name="install_confirm_question_update_system_no_perms">"هل تريد تثبيت تحديث لهذا التطبيق المضمن؟ لن يتم فقد بياناتك الحالية. كما أنه لا يتطلب أي دخول خاص."</string>
+    <string msgid="6579998651498970899" name="install_failed">"التطبيق ليس مثبتًا."</string>
+    <string msgid="1287935707565682604" name="install_failed_invalid_apk">"يبدو أن الحزمة تالفة."</string>
+    <string msgid="1517751954440692054" name="install_failed_inconsistent_certificates">"هناك حزمة حالية ذات توقيع متضارب، تم تثبيتها من قبل بالاسم نفسه."</string>
+    <string msgid="7947925824732917665" name="install_failed_older_sdk">"‏تعمل الحزمة فقط على إصدارات أحدث من Android."</string>
+    <string msgid="7098684468842750800" name="install_failed_cpu_abi_incompatible" product="tablet">"هذا التطبيق ليس متوافقًا مع جهازك اللوحي."</string>
+    <string msgid="1309625657882930450" name="install_failed_cpu_abi_incompatible" product="tv">"هذا التطبيق لا يتوافق مع جهاز التلفزيون."</string>
+    <string msgid="4433316303249711331" name="install_failed_cpu_abi_incompatible" product="default">"لا يتوافق هذا التطبيق مع هاتفك."</string>
+    <string msgid="1958430133396322619" name="install_failed_file_not_found">"تم حذف الحزمة المحددة قبل اكتمال عملية التثبيت."</string>
+    <string msgid="5567372439890440205" name="install_failed_verify_failed">"لم تتجاوز هذه الحزمة عملية التحقق ولا يمكن تثبيتها."</string>
+    <string msgid="7083090219270140373" name="install_failed_verify_timeout">"حدثت مهلة أثناء محاولة التحقق من هذه الحزمة. الرجاء محاولة إعادة تثبيتها لاحقًا."</string>
+    <string msgid="8368835262605608787" name="install_failed_msg" product="tablet">"تعذر تثبيت <xliff:g id="APP_NAME">%1$s</xliff:g> على جهازك اللوحي."</string>
+    <string msgid="3990457938384021566" name="install_failed_msg" product="tv">"تعذر تثبيت <xliff:g id="APP_NAME">%1$s</xliff:g> على جهاز التلفزيون."</string>
+    <string msgid="8554909560982962052" name="install_failed_msg" product="default">"تعذر تثبيت <xliff:g id="APP_NAME">%1$s</xliff:g> على هاتفك."</string>
+    <string msgid="4826921505917605463" name="launch">"فتح"</string>
+    <string msgid="2855558586206583032" name="unknown_apps_dlg_title">"التثبيت محظور"</string>
+    <string msgid="7504186369474734767" name="unknown_apps_dlg_text" product="tablet">"لدواعي الأمان، تم تعيين جهازك اللوحي لحظر تثبيت التطبيقات التي تم الحصول عليها من مصادر غير معروفة."</string>
+    <string msgid="7195713985140602351" name="unknown_apps_dlg_text" product="tv">"لأغراض الأمان، تم تعيين التلفزيون على حظر تثبيت التطبيقات التي يتم الحصول عليها من مصادر غير معروفة."</string>
+    <string msgid="133213135679009316" name="unknown_apps_dlg_text" product="default">"لدواعي الأمان، تم تعيين هاتفك على حظر تثبيت التطبيقات التي تم الحصول عليها من مصادر غير معروفة."</string>
+    <string msgid="1189146324736698462" name="unknown_apps_admin_dlg_text">"لا يسمح المشرف بتثبيت التطبيقات التي يتم الحصول عليها من مصادر غير معروفة."</string>
+    <string msgid="3468756155452870475" name="ok">"موافق"</string>
+    <string msgid="6743583734099755409" name="settings">"الإعدادات"</string>
+    <string msgid="7568985073502399415" name="allow_source_dlg_title">"مصدر جديد للتطبيقات"</string>
+    <string msgid="3927580956764099076" name="allow_source_dlg_text">"يريد <xliff:g id="APP_NAME">%1$s</xliff:g> تثبيت تطبيق آخر.\n\nهل تريد السماح بذلك الآن وفي المستقبل؟"</string>
+    <string msgid="4033876279091996596" name="manage_applications">"إدارة التطبيقات"</string>
+    <string msgid="1232230739563820951" name="dlg_app_replacement_title">"هل تريد استبدال التطبيق؟"</string>
+    <string msgid="2992911899989907492" name="dlg_app_replacement_statement">"سيحل التطبيق الذي تثبته الآن محل تطبيق آخر.\n\nسيتم حفظ جميع بيانات المستخدم السابقة."</string>
+    <string msgid="1900046590819605929" name="dlg_sys_app_replacement_statement">"هذا تطبيق نظام.\n\nسيتم حفظ جميع بيانات المستخدم السابقة."</string>
+    <string msgid="7843674437613797326" name="out_of_space_dlg_title">"نفدت مساحة التخزين"</string>
+    <string msgid="4774775404294282216" name="out_of_space_dlg_text">"تعذر تثبيت <xliff:g id="APP_NAME">%1$s</xliff:g> الرجاء تحرير بعض المساحة والمحاولة مرة أخرى."</string>
+    <string msgid="6944357727705699232" name="dlg_ok">"موافق"</string>
+    <string msgid="2692335460569505484" name="app_not_found_dlg_title">"لم يتم العثور على التطبيق"</string>
+    <string msgid="6107465056055095930" name="app_not_found_dlg_text">"لم يتم العثور على التطبيق في قائمة التطبيقات المثبتة."</string>
+    <string msgid="1860074100811653963" name="uninstall_application_title">"إزالة التطبيق"</string>
+    <string msgid="4146940097553335390" name="uninstall_update_title">"إزالة التحديث"</string>
+    <string msgid="6680688689803932550" name="uninstall_activity_text">"<xliff:g id="ACTIVITY_NAME">%1$s</xliff:g> هو جزء من التطبيق التالي:"</string>
+    <string msgid="6691975835951187030" name="uninstall_application_text">"هل تريد إزالة هذا التطبيق؟"</string>
+    <string msgid="5574704453233525222" name="uninstall_application_text_all_users">"هل تريد إزالة هذا التطبيق "<b>"لكل"</b>" المستخدمين؟ ستتم إزالة التطبيق وبياناته من "<b>"كل"</b>" المستخدمين على هذا الجهاز."</string>
+    <string msgid="8766882355635485733" name="uninstall_application_text_user">"هل تريد إزالة هذا التطبيق للمستخدم <xliff:g id="USERNAME">%1$s</xliff:g>؟"</string>
+    <string msgid="2056387942084605027" name="uninstall_update_text">"هل تريد استبدال هذا التطبيق بإصدار المصنع؟"</string>
+    <string msgid="5556217435895938250" name="uninstalling">"جارٍ الإزالة..."</string>
+    <string msgid="3792487853420281888" name="uninstall_done">"انتهت الإزالة."</string>
+    <string msgid="631122574306299512" name="uninstall_failed">"أخفقت الإزالة."</string>
+    <string msgid="3493789239037852035" name="uninstall_failed_device_policy_manager">"تتعذر الإزالة نظرًا لأن هذه الحزمة تمثل مشرفًا نشطًا للجهاز."</string>
+    <string msgid="5006234166226562439" name="uninstall_blocked_profile_owner">"هذا التطبيق مطلوب لملفك الشخصي في <xliff:g id="USERNAME">%1$s</xliff:g> ولا يمكن إزالته."</string>
+    <string msgid="7074175526413453063" name="uninstall_blocked_device_owner">"مشرف الجهاز يحتاج إلى هذا التطبيق ولا يمكن إزالته."</string>
+    <string msgid="891392489300312370" name="manage_device_administrators">"إدارة مشرفي الجهاز"</string>
+    <string msgid="8969754702803951175" name="uninstall_failed_msg">"تعذرت إزالة <xliff:g id="APP_NAME">%1$s</xliff:g>."</string>
+    <string msgid="6079580916889596257" name="Parse_error_dlg_title">"خطأ في التحليل"</string>
+    <string msgid="7623286983621067011" name="Parse_error_dlg_text">"حدثت مشكلة أثناء تحليل الحزمة."</string>
+    <string msgid="6039428254474104210" name="newPerms">"جديد"</string>
+    <string msgid="1024385515840703981" name="allPerms">"الكل"</string>
+    <string msgid="1850527049572617" name="privacyPerms">"الخصوصية"</string>
+    <string msgid="6733560207731294504" name="devicePerms">"الدخول إلى الجهاز"</string>
+    <string msgid="6657813692169565975" name="no_new_perms">"لا يتطلب هذا التحديث أي أذونات جديدة."</string>
+    <string msgid="4690289297029223742" name="grant_confirm_question">"هل ترغب في منح الأذونات التالية؟ علمًا بأنها تتيح الدخول إلى:"</string>
+<string name="delete_apps_text">حجم حزمة تثبيت تطبيق <xliff:g id="apps_name">%1$s</xliff:g> هو <xliff:g id="apps_size">%2$1.2f</xliff:g> م.ب. هل تريد حذفها؟</string>
+<string name="delete_apps_title" msgid="8360346460165114585">حذف حزمة التثبيت</string>
+</resources>

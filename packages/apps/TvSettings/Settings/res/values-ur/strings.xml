@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_app_name">ترتیبات</string>
+    <string name="launcher_settings_app_name">ترتیبات</string>
+    <string name="launcher_network_app_name">"نیٹ ورک"</string>
+    <string name="launcher_restricted_profile_app_name">"محدود پروفائل"</string>
+    <skip/>
+    <string name="header_category_device">"آلہ"</string>
+    <string name="header_category_preferences">"ترجیحات"</string>
+    <string name="header_category_accessories">ریموٹ اور لوازمات</string>
+    <string name="header_category_personal">"ذاتی"</string>
+    <skip/>
+    <string name="add_account">"اکاؤنٹ شامل کریں"</string>
+    <string name="account_header_sync">"مطابقت پذیر بنائیں"</string>
+    <string name="account_header_remove_account">"اکاؤنٹ ہٹائیں"</string>
+    <string name="search_title">"تلاش کریں"</string>
+    <string name="account_sync">مطابقت پذیر ایپس چنیں</string>
+    <string name="sync_now">"ابھی مطابقت پذیری کریں"</string>
+    <string name="sync_cancel">"مطابقت پذیری منسوخ کریں"</string>
+    <string name="sync_in_progress">"ابھی مطابقت پذیر بنا رہا ہے…"</string>
+    <string name="last_synced">آخری بار مطابقت <xliff:g id="time">%1s</xliff:g></string>
+    <string name="sync_disabled">غیرفعال</string>
+    <string name="sync_is_failing">مطابقت پذیری ابھی کام نہیں کررہی ہے۔ یہ جلد ہی واپس آجائے گی۔</string>
+    <string name="account_remove">"اکاؤنٹ ہٹائیں"</string>
+    <string name="account_remove_failed">اکاؤنٹ نہیں ہٹا سکتا</string>
+    <string-array name="account_detail_settings">
+        <item>نام</item>
+        <item>تصویر</item>
+        <item>سلامتی</item>
+        <item>"Google Wallet"</item>
+        <item>خرید کی سرگزشت</item>
+        <item>"اکاؤنٹ ہٹائیں"</item>
+    </string-array>
+    <skip/>
+    <string name="connectivity_network">"نیٹ ورک"</string>
+    <string name="connectivity_wifi">Wi-Fi</string>
+    <string name="connectivity_ethernet">"ایتھرنیٹ"</string>
+    <skip/>
+    <string name="device_daydream">"Daydream"</string>
+    <string name="device_display">"ڈسپلے"</string>
+    <string name="device_sound_effects">سسٹم کی آوازیں</string>
+    <string name="device_apps">"ایپس"</string>
+    <string name="device_storage_reset">اسٹوریج اور ری سیٹ</string>
+    <string name="device_storage">"اسٹوریج"</string>
+    <string name="device_backup_restore">"بیک اپ لیں اور بحال کریں"</string>
+    <string name="device_reset">"فیکٹری ڈیٹا ری سیٹ"</string>
+    <string name="device_calibration">پیمانہ بندی</string>
+    <string name="apps_downloaded">ڈاؤن لوڈ شدہ ایپس</string>
+    <string name="apps_system">سسٹم کا اطلاق</string>
+    <string name="apps_running">چل رہے ایپس</string>
+    <skip/>
+    <string name="accessories_remote">ریموٹ</string>
+    <string name="accessories_camera">"کیمرا"</string>
+    <string name="accessories_add">لوازم شامل کریں</string>
+    <string name="accessories_wifi_display">Wi-Fi ڈسپلے</string>
+    <string name="accessory_state_pairing">جوڑی بنارہا ہے\u2026</string>
+    <string name="accessory_state_connecting">متصل کررہا ہے\u2026</string>
+    <string name="accessory_state_error">مربوط نہیں کرسکتا</string>
+    <string name="accessory_state_canceled">منسوخ ہوگیا</string>
+    <string name="accessory_state_paired">مربوط</string>
+    <string name="accessory_options">لوازمہ</string>
+    <string name="accessory_rename">"نام تبدیل کریں"</string>
+    <string name="accessory_unpair">"جوڑا ختم کریں"</string>
+
+    <string name="accessory_connected">"مربوط ہو گیا"</string>
+    <skip/>
+
+    <string name="accessories_add_bluetooth_inst">اپنے بلیوٹوتھ آلات کو مربوط کرنے سے قبل، یہ یقینی بنائیں کہ آپ مربوط کرنے کے موڈ میں ہیں</string>
+    <string name="accessories_autopair_msg">ایک آلہ ملا تھا اور <xliff:g id="countdown">%1$s</xliff:g> سیکنڈ میں خود بخود مربوط ہو جائے گا</string>
+    <string name="accessories_add_title_multiple">متعدد آلات جات ملے ہیں</string>
+    <string name="accessories_add_multiple">ایک مختلف آلہ چننے کے لیے، اس آلے پر مربوط کریں والا بٹن دبائیں</string>
+
+    <string name="error_action_not_supported">یہ عمل تعاون یافتہ نہیں ہے</string>
+    <string name="bluetooth_pairing_request">"بلوٹوتھ جوڑا بنانے کی درخواست"</string>
+    <string name="bluetooth_confirm_passkey_msg">اس سے مربوط کرنے کے لیے: <b><xliff:g id="device_name">%1$s</xliff:g></b>، یہ یقینی بنائیں کہ یہ اس پاس کلید کو دکھارہا ہے: <b><xliff:g id="passkey">%2$s</xliff:g></b></string>
+    <string name="bluetooth_incoming_pairing_msg">منجانب: <b><xliff:g id="device_name">%1$s</xliff:g></b>&lt;br&gt;اس آلے سے مربوط ہوں؟</string>
+    <string name="bluetooth_display_passkey_pin_msg">اس سے مربوط کرنے کے لیے: <b><xliff:g id="device_name">%1$s</xliff:g></b><br/>اس پر ٹائپ کریں: <b><xliff:g id="passkey">%2$s</xliff:g></b>, پھر ریٹرن یا انٹر دبائیں۔</string>
+    <string name="bluetooth_enter_pin_msg">اس سے مربوط کرنے کے لیے: id="device_name"&gt;%1$s&lt;/xliff:g&gt;&lt;/b&gt;, &lt;br&gt;آلے کا مطلوبہ PIN ٹائپ کریں:&lt;/b&gt;, &lt;br&gt;آلے کا مطلوبہ PIN ٹائپ کریں:, &lt;br&gt;آلے کا مطلوبہ PIN ٹائپ کریں:</string>
+    <string name="bluetooth_enter_passkey_msg">اس سے مربوط کرنے کے لیے: <b><xliff:g id="device_name">%1$s</xliff:g></b>, &lt;br&gt;آلے کا مطلوبہ پاس کلید ٹائپ کریں:</string>
+    <string name="bluetooth_pin_values_hint">"عام طور پر 0000 یا 1234"</string>
+    <string name="bluetooth_pair">"جوڑا بنائیں"</string>
+    <string name="bluetooth_cancel">"منسوخ کریں"</string>
+    <skip/>
+    <string name="system_cast">گوگل کاسٹ</string>
+    <string name="system_date_time">"تاریخ اور وقت"</string>
+    <string name="system_language">"زبان"</string>
+    <string name="system_keyboard">"کی بورڈ"</string>
+    <string name="system_search">"تلاش کریں"</string>
+    <string name="system_security">سلامتی اور پابندیاں</string>
+    <string name="system_speech">"اسپیچ"</string>
+    <string name="system_inputs">اندراجات</string>
+    <string name="system_accessibility">"Accessibility"</string>
+    <string name="system_developer_options">"ڈویلپر کے اختیارات"</string>
+    <string name="accessibility_none">"کوئی نہیں"</string>
+    <skip/>
+    <string name="about_system_update">سسٹم اپ ڈیٹ</string>
+    <string name="about_preference">"تفصیل"</string>
+    <string name="device_name">"آلہ کا نام"</string>
+    <string name="about_legal_info">"قانونی معلومات"</string>
+    <string name="about_warranty">وارنٹی</string>
+    <string name="about_legal_license">"اوپن سورس لائسنسز"</string>
+    <string name="about_terms_of_service">سروس کی شرائط دیکھیں</string>
+    <string name="about_privacy_policy">رازداری پالیسی دیکھیں</string>
+    <string name="about_additional_terms">اضافی شرائط دیکھیں</string>
+    <string name="about_license_activity_unavailable">لائسنس ڈیٹا دستیاب نہیں ہے</string>
+    <string name="about_model">ماڈل</string>
+    <string name="about_version">ورژن</string>
+    <string name="about_serial">"سیریل نمبر"</string>
+    <string name="about_build">ساخت</string>
+    <plurals name="show_dev_countdown">
+        <item quantity="one">اب آپ ایک ڈیولپر بننے سے <xliff:g id="step_count">%1$d</xliff:g> قدم دور ہیں</item>
+        <item quantity="other">اب آپ ایک ڈیولپر بننے سے <xliff:g id="step_count">%1$d</xliff:g> قدم دور ہیں</item>
+    </plurals>
+    <string name="about_ads">اشتہارات</string>
+    <string name="show_dev_on">"اب آپ ایک ڈیولپر ہیں!"</string>
+    <string name="show_dev_already">کوئی ضرورت نہیں، آپ پہلے سے ہی ڈیولپر ہیں</string>
+    <skip/>
+    <string name="wifi_security_none">"کوئی نہیں"</string>
+    <string name="wifi_remembered">"محفوظ کردیا گیا"</string>
+    <string name="wifi_disabled_generic">غیرفعال</string>
+    <string name="wifi_disabled_network_failure">"خراب انٹرنیٹ کنکشن سے اجتناب کیا"</string>
+    <string name="wifi_disabled_password_failure">"توثیق کا مسئلہ"</string>
+    <string name="wifi_not_in_range">"رینج میں نہیں ہے"</string>
+    <string name="wifi_wps_available_first_item">"‏WPS دستیاب ہے"</string>
+    <string name="wifi_wps_available_second_item">" ‏ (WPS دستیاب ہے)"</string>
+    <string name="wifi_secured_first_item">  <xliff:g id="wifi_security_short">%1$s</xliff:g> کے ذریعے محفوظ کردہ </string>
+    <string name="wifi_secured_second_item">  <xliff:g id="wifi_security_short">%1$s</xliff:g> کے ذریعے محفوظ کردہ </string>
+    <string-array name="wifi_signal_strength">
+        <item>"ناقص"</item>
+        <item>"معقول"</item>
+        <item>"اچھی"</item>
+        <item>"بہترین"</item>
+    </string-array>
+    <string name="title_mac_address">"‏MAC پتہ"</string>
+    <string name="title_signal_strength">"سگنل کی قوت"</string>
+    <string name="title_ip_address">"‏IP پتہ"</string>
+    <string name="title_ssid">Wi-Fi نیٹ ورک کا نام درج کریں</string>
+    <string name="title_internet_connection">"انٹرنیٹ کنکشن"</string>
+    <string name="connected">"مربوط ہو گیا"</string>
+    <string name="not_connected">"مربوط نہیں ہے"</string>
+    <string name="wifi_setting_header_available_networks">Wi-Fi</string>
+    <string name="wifi_setting_header_other_options">"دوسرے اختیارات"</string>
+    <string name="wifi_setting_see_all">"سبھی دیکھیں"</string>
+    <string name="wifi_setting_available_networks">دستیاب نیٹورک</string>
+    <string name="wifi_setting_other_options_wps">WPS کے ذریعہ جڑیں</string>
+    <string name="wifi_setting_other_options_add_network">ایک نیا نیٹ ورک شامل کریں</string>
+    <string name="add_network">"نیٹ ورک شامل کریں"</string>
+    <string name="network_ssid">"‏نیٹ ورک SSID"</string>
+    <string name="security_type">سیکیورٹی کی قسم</string>
+    <string name="password">"پاس ورڈ"</string>
+    <string name="wps_network">WPS کے ذریعہ جڑیں</string>
+    <string name="other_network">دیگر نیٹ ورکس\u2026</string>
+    <string name="skip_network">"نظر انداز کریں"</string>
+    <string name="wifi_security_type_none">"کوئی نہیں"</string>
+    <string name="wifi_security_type_wep">WEP</string>
+    <string name="wifi_security_type_wpa">WPA/WPA2 PSK</string>
+    <string name="wifi_security_type_eap">802.1x EAP</string>
+    <string name="title_wifi_no_networks_available">اسکین کر رہا ہے\u2026</string>
+    <string name="title_wifi_could_not_save"><xliff:g id="ssid">%1$s</xliff:g> کے لیے کنفیگریشن محفوظ نہیں کرسکتا</string>
+    <string name="title_wifi_could_not_connect"><xliff:g id="ssid">%1$s</xliff:g> سے نہیں جڑسکتا</string>
+    <string name="title_wifi_could_not_connect_timeout"><xliff:g id="ssid">%1$s</xliff:g> تلاش نہیں کرسکتا</string>
+    <string name="title_wifi_could_not_connect_authentication_failure">Wi-Fi پاسورڈ درست نہیں ہے</string>
+    <string name="title_wifi_could_not_connect_ap_reject">Wi-Fi نیٹ ورک نے کنکشن قبول نہیں کیا</string>
+    <string name="title_wifi_advanced_options"><xliff:g id="ssid">%1$s</xliff:g> پراکسی اور IP سیٹنگز ترتیب دیں؟</string>
+    <string name="title_wifi_proxy_settings">"پراکسی ترتیبات"</string>
+    <string name="title_wifi_proxy_hostname">پراکسی کا میزبان نام:</string>
+    <string name="title_wifi_proxy_port">پراکسی پورٹ:</string>
+    <string name="title_wifi_proxy_bypass">بائی پاس پراکسی برائے:</string>
+    <string name="title_wifi_ip_settings">"‏IP ترتیبات"</string>
+    <string name="title_wifi_ip_address">IP پتہ:</string>
+    <string name="title_wifi_gateway">گیٹ وے:</string>
+    <string name="title_wifi_network_prefix_length">نیٹ ورک سابقہ کی لمبائی:</string>
+    <string name="title_wifi_dns1">DNS 1:</string>
+    <string name="title_wifi_dns2">DNS 2:</string>
+    <string name="title_wifi_proxy_settings_invalid">پراکسی سیٹنگز درست نہیں ہے</string>
+    <string name="title_wifi_ip_settings_invalid">IP سیٹنگز درست نہیں ہے</string>
+    <string name="title_wifi_known_network"><xliff:g id="ssid">%1$s</xliff:g> ایک محفوظ کردہ نیٹ ورک ہے</string>
+    <string name="wifi_action_try_again">دوبارہ کوشش کریں</string>
+    <string name="wifi_action_view_available_networks">دستیاب نیٹ ورکس دیکھیں</string>
+    <string name="wifi_connecting"><xliff:g id="ssid">%1$s</xliff:g> سے جڑ رہا ہے</string>
+    <string name="wifi_saving"><xliff:g id="ssid">%1$s</xliff:g> کے لیے کنفیگریشن محفوظ کررہا ہے</string>
+    <string name="wifi_connect">"مربوط کریں"</string>
+    <string name="wifi_forget_network">"نیٹ ورک بھول جائیں"</string>
+    <string name="wifi_forget_network_description">یہ اس نیٹ ورک سے جڑنے کے لیے استعمال کردہ معلومات، بشمول محفوظ کردہ پاسورڈ کو صاف کردیتا ہے</string>
+    <string name="wifi_action_ok">"ٹھیک ہے"</string>
+    <string name="wifi_action_change_network">تبدیل کریں</string>
+    <string name="wifi_action_dont_change_network">تبدیل نہ کریں</string>
+    <string name="wifi_action_advanced_yes">"ٹھیک ہے"</string>
+    <string name="wifi_action_advanced_no">نہیں (تجویز کردہ)</string>
+    <string name="wifi_action_proxy_none">"کوئی نہیں"</string>
+    <string name="wifi_action_proxy_manual">"مینوئل"</string>
+    <string name="wifi_action_dhcp">"DHCP"</string>
+    <string name="wifi_action_save">"محفوظ کریں"</string>
+    <string name="wifi_action_static">"جامد"</string>
+    <string name="wifi_action_status_info">حالت کی معلومات</string>
+    <string name="wifi_action_advanced_options_title">"جدید ترین اختیارات"</string>
+    <string name="wifi_action_advanced_options_description"><xliff:g id="proxy_settings_summary">%1$s</xliff:g>, <xliff:g id="ip_settings_summary">%2$s</xliff:g></string>
+    <string name="wifi_ip_settings_invalid_ip_address">ایک درست IP پتہ درج کریں</string>
+    <string name="wifi_ip_settings_invalid_gateway">ایک درست گیٹ وے پتہ درج کریں</string>
+    <string name="wifi_ip_settings_invalid_dns">ایک درست DNS پتہ درج کریں</string>
+    <string name="wifi_ip_settings_invalid_network_prefix_length">0 اور 32 کے درمیان طوالت والا نیٹ ورک سابقہ درج کریں</string>
+    <string name="wifi_ip_address_hint">ایک درست IP پتہ درج کریں۔\nمثال: 192.168.1.128</string>
+    <string name="wifi_dns1_hint">ایک درست IP پتہ درج کریں یا خالی چھوڑ دیں۔\nمثال: 8.8.8.8</string>
+    <string name="wifi_dns2_hint">ایک درست IP پتہ درج کریں یا خالی چھوڑ دیں۔\nمثال: 8.8.4.4</string>
+    <string name="wifi_gateway_hint">ایک درست IP پتہ درج کریں یا خالی چھوڑ دیں۔\nمثال: 192.168.1.1</string>
+    <string name="wifi_network_prefix_length_hint">ایک درست نیٹ ورک سابقہ کی طوالت درج کریں یا خالی چھوڑ دیں۔\nمثال: 24</string>
+    <string name="proxy_error_invalid_host">میزبان نام درست نہیں ہے</string>
+
+    <string name="proxy_error_empty_port">پورٹ کا خانہ خالی نہيں ہوسکتا ہے</string>
+    <string name="proxy_error_empty_host_set_port">اگر میزبان والا فیلڈ خالی ہے تو، پورٹ فیلڈ کو خالی چھوڑ دیں</string>
+    <string name="proxy_error_invalid_port">پورٹ درست نہیں ہے</string>
+    <string name="proxy_warning_limited_support">براؤزر کے ذریعہ HTTP پراکسی استعمال کی گئی ہے لیکن ممکن ہے اسے دیگر ایپس استعمال نہ کریں</string>
+    <string name="proxy_port_hint">ایک درست پورٹ درج کریں۔\nمثال: 8080</string>
+    <string name="proxy_exclusionlist_hint">خارج کردہ ڈومینز کی ایک کوما سے جدا کردہ فہرست درج کریں یا خالی چھوڑ دیں۔\n مثال:example.com,mycomp.test.com,localhost</string>
+    <string name="proxy_hostname_hint">ایک درست میزبان نام درج کریں۔\nمثال: proxy.example.com</string>
+    <string name="wifi_summary_title_connected">جڑا ہوا نیٹ ورک</string>
+    <string name="wifi_summary_title_not_connected">نیٹ ورک جڑا ہوا نہیں ہے</string>
+    <string name="wifi_summary_description_connected_to_wifi_network"><xliff:g id="ssid">%1$s</xliff:g> سے پہلے سے ہی جڑا ہوا ہے۔ مختلف نیٹ ورک سے جڑیں؟</string>
+    <string name="wifi_summary_unknown_network">ایک نامعلوم نیٹ ورک</string>
+    <string name="connectivity_advanced_options">"جدید ترین اختیارات"</string>
+    <string name="connectivity_advanced_options_description"><xliff:g id="ssid">%1$s</xliff:g>, <xliff:g id="ssid">%2$s</xliff:g></string>
+    <string name="title_ip_settings">"‏IP ترتیبات"</string>
+    <string name="title_test_connection">کنکشن کی جانچ کریں</string>
+    <string name="dhcp">"DHCP"</string>
+    <string name="title_static">"جامد"</string>
+    <string name="gateway">"گیٹ وے"</string>
+    <string name="title_network_prefix_length">"نیٹ ورک کے سابقہ کی لمبائی"</string>
+    <string name="title_dns_1">"DNS 1"</string>
+    <string name="title_dns_2">"DNS 2"</string>
+    <string name="title_ok">"ٹھیک ہے"</string>
+    <string name="title_cancel">"منسوخ کریں"</string>
+    <string name="rename_device">"آلہ کا نام تبدیل کریں"</string>
+    <string name="storage_title">"اسٹوریج"</string>
+    <string name="storage_available">"دستیاب"</string>
+    <string name="storage_size">کل جگہ: <xliff:g id="total_space">%1$s</xliff:g></string>
+    <string name="storage_calculating_size">"حساب لگایا جا رہا ہے…"</string>
+    <string name="storage_apps_usage">"ایپس"</string>
+    <string name="storage_downloads_usage">"ڈاؤن لوڈز"</string>
+    <string name="storage_dcim_usage">تصویریں اور ویڈیوز</string>
+    <string name="storage_music_usage">"آڈیو"</string>
+    <string name="storage_media_misc_usage">"متفرقات"</string>
+    <string name="storage_media_cache_usage">"کیشڈ ڈیٹا"</string>
+    <string name="wifi_wps_cancel_scan">"منسوخ کریں"</string>
+    <string name="wifi_wps_retry_scan">"دوبارہ کوشش کریں"</string>
+    <string name="wifi_wps_title">WPS راؤٹر کی تلاش ہورہی ہے\u2026</string>
+    <string name="wifi_wps_instructions">اپنے راؤٹر پر Wi-Fi سے تحفظ یافتہ سیٹ اپ بٹن دبائیں۔\n ممکن ہے اسے \"WPS\" کہا جاتا ہو یا اس میں بائیں جانب ایک علامت ہو سکتی ہے۔</string>
+    <string name="wifi_wps_onstart_pin">اپنے Wi-Fi راؤٹر پر PIN <xliff:g id="number">%1$s</xliff:g> درج کریں</string>
+    <string name="wifi_wps_onstart_pin_description">PIN درج کرنے کے بعد، سیٹ اپ مکمل ہونے میں 2 منٹ تک کا وقت لگ سکتا ہے</string>
+    <string name="wifi_wps_in_progress">WPS کی پیشرفت جاری ہے اور مکمل ہونے میں 2 منٹ تک کا وقت لگ سکتا ہے</string>
+    <string name="wifi_wps_failed_generic">Wi-Fi راؤٹر نہیں مل سکا</string>
+    <string name="wifi_wps_failed_wep">Wi-Fi راؤٹر کی حفاظتی سیٹنگز(WEP) تعاون یافتہ نہیں ہے۔</string>
+    <string name="wifi_wps_failed_tkip">Wi-Fi راؤٹر کی حفاظتی سیٹنگز(TKIP) تعاون یافتہ نہیں ہے۔</string>
+    <string name="wifi_wps_failed_overlap">دوسرے WPS سیشن کی پیشرفت جاری ہے۔ چند منٹ میں دوبارہ کوشش کریں۔</string>
+    <string name="system_date">"تاریخ"</string>
+    <string name="system_time">"وقت"</string>
+    <string name="system_set_date">"تاریخ سیٹ کریں"</string>
+    <string name="system_choose_date_format">"تاریخ کا فارمیٹ منتخب کریں"</string>
+    <string name="system_set_time">"وقت سیٹ کریں"</string>
+    <string name="system_set_time_zone">"ٹائم زون سیٹ کریں"</string>
+    <string name="system_set_time_format">"24 گھنٹے کا فارمیٹ استعمال کریں"</string>
+    <string name="system_auto_date_time">"خود کار تاریخ اور وقت"</string>
+    <string name="desc_auto_date_time">"نیٹ ورک کے ذریعے فراہم کردہ وقت استعمال کریں"</string>
+    <string name="system_location">"مقام"</string>
+    <string name="system_desc_location">"جن ایپس نے آپ کی اجازت طلب کی ہے انہیں اپنے مقام کی معلومات استعمال کرنے کی اجازت دیں"</string>
+    <string name="system_network_location">Wi-Fi نیٹ ورک کا مقام</string>
+    <string name="system_desc_network_location">گوگل کو مقام کے تعین میں ایپس کی مدد کرنے دیں۔ اس کا مطلب ہے گوگل کو گمنام ڈیٹا بھیجنا، اس وقت بھی جب کوئی ایپس نہ چل رہے ہوں۔</string>
+    <string name="system_network_location_confirm">مقام کی منظوری</string>
+    <string name="system_desc_network_location_confirm">گوگل کی مقام والی سروس کو مقام کا گمنام ڈیٹا حاصل کرنے کی اجازت دیں۔ کچھ ڈیٹا آپ کے آلے میں ذخیرہ ہوسکتا ہے۔ جمع کرنے کا عمل اس وقت بھی چل سکتا ہے جب کوئی ایپس نہ چل رہے ہوں۔</string>
+    <string name="location_title">"میرا مقام"</string>
+    <string name="header_category_system">"سسٹم"</string>
+    <string name="location_mode_title">"وضع"</string>
+    <string name="location_category_recent_location_requests">"حالیہ مقام کی درخواستیں"</string>
+    <string name="location_no_recent_apps">"حال میں کسی ایپس نے مقام کی درخواست نہیں کی ہے"</string>
+    <string name="location_high_battery_use">"بیٹری کا زیادہ استعمال"</string>
+    <string name="location_low_battery_use">"بیٹری کا کم استعمال"</string>
+    <string name="location_mode_wifi_description">اپنے مقام کا اندازہ کرنے کیلئے Wi\u2011Fi استعمال کریں۔</string>
+    <string name="location_status">مقام کی صورتحال</string>
+    <string name="location_services">"مقام کی سروسز"</string>
+    <string name="on">"آن"</string>
+    <string name="off">بند</string>
+    <string name="google_location_services_title">گوگل کی مقام والی سروسز</string>
+    <string name="third_party_location_services_title">تیسرے فریق کی مقام والی سروسز</string>
+    <string name="location_reporting">مقام کی اطلاع دہی</string>
+    <string name="location_history">مقام کی سرگزشت</string>
+    <string name="location_reporting_desc">گوگل اس خصوصیت کا استعمال گوگل ناؤ اور گوگل میپس جیسے پروڈکٹس میں کرتا ہے۔ مقام کی اطلاع دہی کو چالو کرنے سے گوگل کے کسی بھی ایسے پروڈکٹ کو، جو اس خصوصیت کا استعمال کرتا ہو، آپ کے گوگل اکاؤنٹ کے سلسلے میں آپ کے آلے کے حالیہ ترین مقام کا ڈیٹا حاصل کرنے کی اجازت دیتا ہے۔</string>
+    <string name="location_history_desc">جب اس اکاؤنٹ کے لیے مقام کی سرگزشت چالو ہوتی ہے تو، گوگل آپ کے ایپس کے ذریعہ آپ کے آلے کے مقام کا ڈیٹا استعمال کرنے کے لیے ذخیرہ کرسکتا ہے۔\n\nمثال کے طور پر، گوگل میپس آپ کو سمتیں بتا سکتا ہے اور گوگل ناؤ آپ کو رواں ٹریفک کے بارے میں اطلاع دے سکتا ہے۔\n\nآپ کسی بھی وقت مقام کی سرگزشت بند کرسکتے ہیں، لیکن ایسا کرنے سے یہ حذف نہیں ہوگا۔ اپنے مقام کی سرگزشت دیکھنے اور اس کا نظم کرنے کے لیے، maps.google.com/locationhistory ملاحظہ کریں۔</string>
+    <string name="delete_location_history_title">مقام کی سرگزشت حذف کریں</string>
+    <string name="delete_location_history_desc">یہ اس آلے سے اس گوگل اکاؤنٹ کے لیے ذخیرہ کردہ مقام کی تمام سرگزشت کو حذف کردے گا۔ آپ اس حذف کو رد نہیں کرسکتے۔ کچھ ایپس، بشمول گوگل ناؤ، کام کرنا بند کردیں گے۔</string>
+    <string name="system_services">"سروسز"</string>
+    <string name="accessibility_service_settings">سروس کی سیٹنگز</string>
+    <string name="accessibility_captions">"کیپشنز"</string>
+    <string name="accessibility_captions_description">ویڈیو پر حاوی ہوجانے والے قریبی سرخیوں والے متن کے لیے سیٹنگز</string>
+    <string name="captions_display">"ڈسپلے"</string>
+    <string name="captions_display_on">"آن"</string>
+    <string name="captions_display_off">بند</string>
+    <string name="display_options">ڈسپلے کے اختیارات</string>
+    <string name="captions_configure">"ترتیب دیں"</string>
+    <string name="captions_lanaguage">"زبان"</string>
+    <string name="captions_textsize">"متن کا سائز"</string>
+    <string name="captions_captionstyle">"کیپشن کا طرز"</string>
+    <string name="captions_customoptions">"حسب ضرورت اختیارات"</string>
+    <string name="captions_fontfamily">"فونٹ فیملی"</string>
+    <string name="captions_textcolor">"متن کا رنگ"</string>
+    <string name="captions_edgetype">"کنارے کی قسم"</string>
+    <string name="captions_edgecolor">"کنارے کا رنگ"</string>
+    <string name="captions_backgroundcolor">"پس منظر کا رنگ"</string>
+    <string name="captions_backgroundopacity">"پس منظر کا دھندلا پن"</string>
+    <string name="captioning_preview_text">"کیپشنز اس طرح دکھائی دیں گی"</string>
+    <string name="captions_textopacity">"متن کا دھندلا پن"</string>
+    <string name="captions_windowcolor">ونڈو کا رنگ</string>
+    <string name="captions_windowopacity">ونڈو کا دھندلاپن</string>
+    <string name="color_none">"کوئی نہیں"</string>
+    <string name="color_white">"سفید"</string>
+    <string name="color_gray">"سلیٹی"</string>
+    <string name="color_black">"سیاہ"</string>
+    <string name="color_red">"سرخ"</string>
+    <string name="color_green">"سبز"</string>
+    <string name="color_blue">"نیلا"</string>
+    <string name="color_cyan">"سبزی مائل نیلا"</string>
+    <string name="color_yellow">"پیلا"</string>
+    <string name="color_magenta">"قرمزی"</string>
+    <string name="system_accessibility_status">"ریاست"</string>
+    <string name="system_accessibility_config">تشکیل</string>
+    <string name="system_accessibility_service_on_confirm_title">"<xliff:g id="SERVICE">%1$s</xliff:g> کا استعمال کریں؟"</string>
+    <string name="system_accessibility_service_on_confirm_desc"><xliff:g id="service" example="TalkBack">%1$s</xliff:g> آپ کے ٹائپ کردہ تمام متن کو حاصل کرسکتا ہے، ماسوا پاسورڈز کے۔ اس میں ذاتی ڈیٹا جیسے کہ کریڈٹ کارڈ نمبرز بھی شامل ہیں۔</string>
+    <string name="system_accessibility_service_off_confirm_title">"<xliff:g id="SERVICE">%1$s</xliff:g> روکیں؟"</string>
+    <string name="system_accessibility_service_off_confirm_desc">اوکے کو منتخب کرنا <xliff:g id="service" example="TalkBack">%1$s</xliff:g> کو روک دے گا۔</string>
+    <string name="system_accessibility_tts_output">متن سے تقریر</string>
+    <string name="system_speak_passwords">"پاس ورڈز بولیں"</string>
+    <string name="system_preferred_engine">"ترجیحی انجن"</string>
+    <string name="system_speech_rate">"اسپیچ کی شرح"</string>
+    <string name="system_play_sample">نمونہ چلائیں</string>
+    <string name="system_install_voice_data">"صوتی ڈیٹا انسٹال کریں"</string>
+    <string name="system_general">"عمومی"</string>
+    <string name="system_debugging">"ڈیبگ کرنا"</string>
+    <string name="system_input">"ان پٹ"</string>
+    <string name="system_drawing">"ڈرائنگ"</string>
+    <string name="system_monitoring">"مانیٹر کرنا"</string>
+    <string name="system_apps">"ایپس"</string>
+    <string name="system_take_bug_report">"بگ کی اطلاع لیں"</string>
+    <string name="system_backup_password">بیک اپ پاسورڈ</string>
+    <string name="system_stay_awake">"بیدار رکھیں"</string>
+    <string name="system_hdcp_checking">"‏HDCP چیکنگ"</string>
+    <string name="system_hdmi_optimization">HDMI کی بیش کارکردگی</string>
+    <string name="system_reboot_confirm">اب پھر سے چالو کریں؟</string>
+    <string name="system_desc_reboot_confirm">اس سیٹنگ کی تجدید کے لیے، آپ کے آلے کو پھر سے چالو ہونے کی ضرورت ہے</string>
+    <string name="system_never_check">"کبھی چیک نہ کریں"</string>
+    <string name="system_check_for_drm_content_only">"‏صرف DRM مواد چیک کریں"</string>
+    <string name="system_always_check">"ہمیشہ چیک کریں"</string>
+    <string name="system_bt_hci_log">بلیوٹوتھ HCI لاگنگ</string>
+    <string name="system_email_address">ای میل پتہ</string>
+    <string name="system_usb_debugging">"‏USB ڈیبگ کرنا"</string>
+    <string name="system_allow_mock_locations">"فرضی مقامات کی اجازت دیں"</string>
+    <string name="system_select_debug_app">"ڈیبگ ایپ منتخب کریں"</string>
+    <string name="system_wait_for_debugger">"ڈیبگر کا انتظار کریں"</string>
+    <string name="system_verify_apps_over_usb">"‏USB پر ایپس کی توثیق کریں"</string>
+    <string name="system_desc_verify_apps_over_usb">مضر برتاؤ کے لئے ADB/ADT کے ذریعہ نصب کردہ ایپس کی پڑتال کریں</string>
+    <string name="system_wifi_verbose_logging">Wi-Fi کی طویل لاگنگ</string>
+    <string name="system_desc_wifi_verbose_logging">Wi-Fi کی طویل لاگنگ فعال کریں</string>
+    <string name="system_show_touches">"ٹچز دکھائیں"</string>
+    <string name="system_pointer_location">"پوائنٹر مقام"</string>
+    <string name="system_show_layout_bounds">"لے آؤٹ کی حدیں دکھائیں"</string>
+    <string name="system_show_gpu_view_updates">"‏GPU منظر اپ ڈیٹس دکھائیں"</string>
+    <string name="system_show_hardware_layer">ہارڈویئر کی سطح دکھائیں</string>
+    <string name="system_show_gpu_overdraw">GPU اوور ڈرا دکھائیں</string>
+    <string name="system_show_surface_updates">"سطح کے اپ ڈیٹس دکھائیں"</string>
+    <string name="system_window_animation_scale">"ونڈو اینیمیشن اسکیل"</string>
+    <string name="system_transition_animation_scale">"منتقلی اینیمیشن اسکیل"</string>
+    <string name="system_animator_duration_scale">"اینیمیٹر دورانیے کا پیمانہ"</string>
+    <string name="system_strict_mode_enabled">"سخت وضع فعال ہے"</string>
+    <string name="system_show_cpu_usage">"‏CPU استعمال دکھائیں"</string>
+    <string name="system_profile_gpu_rendering">"‏پروفائل GPU رینڈرنگ"</string>
+    <string name="system_enable_traces">تعاقب فعال کریں</string>
+    <string name="system_dont_keep_activities">سرگرمیاں نہ رکھیں</string>
+    <string name="system_background_process_limit">"پس منظر پروسیس کی حد"</string>
+    <string name="system_show_all_anrs">"‏سبھی ANRs کو دکھائیں"</string>
+    <string name="system_desc_take_bug_report">ای میل پتے پر رپورٹ بھیجیں</string>
+    <string name="system_desc_backup_password">ڈیسک ٹاپ کے مکمل بیک اپس کو تحفظ دیں</string>
+    <string name="system_desc_stay_awake">سلیپ غیر فعال کریں</string>
+    <string name="system_desc_hdcp_checking">صرف DRM مواد کے لیے استعمال کریں</string>
+    <string name="system_desc_hdmi_optimization">زیادہ سے زیادہ ریزولیوشن یا زیادہ سے زیادہ فریم ریٹ کے لیے ڈسپلے کو بہتر بنائیں۔ یہ صرف Ultra HD ڈسپلے کو متاثر کرتا ہے۔ اس سیٹنگ کو تبدیل کرنے سے آپ کا آلہ ری اسٹارٹ ہوجائے گا۔</string>
+    <string name="system_desc_bt_hci_log">بلیوٹوتھ HCI اسنوپ لاگنگ فعال کریں</string>
+    <string name="system_desc_usb_debugging">جب USB جڑا ہو تو موڈ کو ڈی بگ کریں</string>
+    <string name="system_desc_wait_for_debugger">"ڈیبگ کردہ ایپلیکیشن کاروائی سے پہلے ڈیبگر کے منسلک ہونے کا انتظار کرتی ہے"</string>
+    <string name="system_desc_show_layout_bounds">"کلپ باؤنڈز، حاشیے وغیرہ دکھائیں"</string>
+    <string name="system_desc_show_gpu_view_updates">"‏GPU کے ساتھ تیار ہونے پر ملاحظات ونڈوز کے اندر جھلملائیں"</string>
+    <string name="system_desc_show_hardware_layer">"ہارڈویئر پرتیں اپ ڈیٹ ہونے پر سبز رنگ میں جھلملائیں"</string>
+    <string name="system_desc_show_gpu_overdraw">بہترین سے انتہائی تک: نیلا، ہرا، ہلکا لال، لال</string>
+    <string name="system_desc_show_surface_updates">"اپ ڈیٹ ہونے پر ونڈو کی پوری سطحیں جھلملائیں"</string>
+    <string name="system_desc_strict_mode_enabled">"ایپس کے اصل تھریڈ پر طویل اعمال انجام دیتے وقت اسکرین کو فلیش کریں"</string>
+    <string name="system_desc_show_cpu_usage">"‏موجودہ CPU استعمال دکھانے والا اسکرین اوورلے"</string>
+    <string name="system_desc_profile_gpu_rendering">adb shell dumpsys gfxinfo میں فراہمی کی وقت کی پیمائش کریں</string>
+    <string name="normal_date_format">"علاقائی (<xliff:g id="DATE">%s</xliff:g>)"</string>
+    <skip/>
+    <string name="action_on_title">"آن"</string>
+    <string name="action_off_title">بند</string>
+    <string name="action_on_description">"آن"</string>
+    <string name="action_off_description">بند</string>
+    <string name="agree">متفق</string>
+    <string name="disagree">غیر متفق</string>
+    <skip/>
+    <string name="security_unknown_sources_title">"نامعلوم ذرائع"</string>
+    <string name="security_unknown_sources_desc">پلے اسٹور کے علاوہ دیگر ذرائع سے ایپس نصب کرنے کی اجازت دیں</string>
+    <string name="security_unknown_sources_confirm_desc">آپ کا آلے اور ذاتی ڈیٹا پر نامعلوم ذرائع سے ایپس کے حملے کا زیادہ خطرہ ہوتا ہے۔ آپ اس بات سے اتفاق کرتے ہیں کہ آپ اپنے آلے کو کسی طرح کا نقصان پہنچنے یا ڈیٹا کے ضیاع کیلئے ذمہ دار ہیں جو ان ایپس کے استعمال کی وجہ سے ہوسکتے ہیں۔</string>
+    <string name="security_verify_apps_title">اطلاقات کی توثیق کریں</string>
+    <string name="security_verify_apps_desc">نقصان کا باعث ہوسکنے والے اطلاقات کی تنصیب کی اجازت نہ دیں یا اس سے پہلے متنبہ کریں</string>
+    <string-array name="hdcp_checking_summaries">
+        <item>"کبھی نہیں"</item>
+        <item>DRM مواد کے لیے</item>
+        <item>"ہمیشہ"</item>
+    </string-array>
+    <string name="no_application">"کچھ نہیں"</string>
+    <string-array name="enable_opengl_traces_entries">
+        <item>"کوئی نہیں"</item>
+        <item>"Logcat"</item>
+        <item>"‏Systrace (گرافکس)"</item>
+        <item>"‏glGetError پر کال کا انبار"</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>"انیمیشن آف ہے"</item>
+        <item>"‏انیمیشن اسکیل 5x."</item>
+        <item>"‏انیمیشن اسکیل 1x"</item>
+        <item>"‏انیمیشن اسکیل 1.5x"</item>
+        <item>"‏انیمیشن اسکیل 2x"</item>
+        <item>"‏اینیمیشن اسکیل 5x"</item>
+        <item>"‏انیمیشن اسکیل 10x"</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>"انیمیشن آف ہے"</item>
+        <item>"‏انیمیشن اسکیل 5x."</item>
+        <item>"‏انیمیشن اسکیل 1x"</item>
+        <item>"‏انیمیشن اسکیل 1.5x"</item>
+        <item>"‏انیمیشن اسکیل 2x"</item>
+        <item>"‏اینیمیشن اسکیل 5x"</item>
+        <item>"‏انیمیشن اسکیل 10x"</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>"انیمیشن آف ہے"</item>
+        <item>"‏انیمیشن اسکیل 5x."</item>
+        <item>"‏انیمیشن اسکیل 1x"</item>
+        <item>"‏انیمیشن اسکیل 1.5x"</item>
+        <item>"‏انیمیشن اسکیل 2x"</item>
+        <item>"‏اینیمیشن اسکیل 5x"</item>
+        <item>"‏انیمیشن اسکیل 10x"</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>بند</item>
+        <item>"بارز کے بطور اسکرین پر"</item>
+        <item>"‏adb shell dumpsys gfxinfo میں"</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>"معیاری حد"</item>
+        <item>"کوئی پس منظر والے پروسیسز نہیں ہیں"</item>
+        <item>"زیادہ سے زیادہ 1 پروسیس"</item>
+        <item>"زیادہ سے زیادہ 2 پروسیسز"</item>
+        <item>"زیادہ سے زیادہ 3 پروسیسز"</item>
+        <item>"زیادہ سے زیادہ 4 پروسیسز"</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>"بہت سست"</item>
+        <item>"سست"</item>
+        <item>"عام"</item>
+        <item>"تیز"</item>
+        <item>"بہت تیز"</item>
+    </string-array>
+    <string name="choose_account_type_title">اکاؤنٹ قسم منتخب کریں</string>
+    <string name="choose_account_title">"اکاؤنٹ منتخب کریں"</string>
+    <string name="add_account_button_label">نئے اکاؤنٹ کا اضافہ کریں</string>
+    <string name="title_current_keyboard">"حالیہ کی بورڈ"</string>
+    <string name="title_configure">"ترتیب دیں"</string>
+    <string name="desc_configure_keyboard">کی بورڈ کے اختیارات</string>
+    <string name="computing_size">"حساب کتاب کر رہا ہے…"</string>
+    <string name="title_select_wifi_network">اپنا Wi-Fi نیٹ ورک منتخب کریں</string>
+    <string name="accessories_wifi_display_rename_device">"نام تبدیل کریں"</string>
+    <string name="accessories_wifi_display_enable">Wi-Fi ڈسپلے</string>
+    <string name="accessories_wifi_display_pin_required">PIN درکار ہے</string>
+    <string name="accessories_remote_list_title">ریموٹ معلومات: <xliff:g id="serialnumber">%1$s</xliff:g></string>
+    <skip/>
+    <string name="system_collecting_bug_report">بَگ رپورٹ جمع کررہا ہے!\nرپورٹ تیار ہونے کے بعد ہم آپ سے مزید معلومات طلب کریں گے۔</string>
+    <string name="system_collecting_bug_report_error">بَگ رپورٹ جمع نہیں کرسکتا!\nبراہ کرم بعد میں دوبارہ کوشش کریں۔</string>
+    <string name="whichApplication">"اس کا استعمال کرکے کارروائی مکمل کریں"</string>
+    <string name="alwaysUseQuestion">اس عمل کے لیے ہمیشہ اس اختیار کا استعمال کریں؟</string>
+    <string name="alwaysUseOption">ہمیشہ استعمال کریں</string>
+    <string name="justOnceOption">"بس ایک مرتبہ"</string>
+    <string name="noApplications">"کوئی ایپس یہ کارروائی نہیں کر سکتی ہیں۔"</string>
+    <string name="noAppsGoBack">واپس</string>
+    <string name="inputs_inputs">اندراجات</string>
+    <string name="inputs_header_cec">کنزیومر الکٹرانک کنٹرول (CEC)</string>
+    <string name="inputs_cec_settings">آلہ کے کنٹرول کی سیٹنگز</string>
+    <string name="inputs_blu_ray">بلیو- رے</string>
+    <string name="inputs_cable">کیبل</string>
+    <string name="inputs_dvd">"Dvd"</string>
+    <string name="inputs_game">گیم کونسول</string>
+    <string name="inputs_aux">Aux</string>
+    <string name="inputs_custom_name">حسب ضرورت نام</string>
+    <string name="inputs_hide">پوشیدہ</string>
+    <string name="inputs_hide_desc">ان پٹس تبدیل کرتے وقت نہیں دکھایا گیا</string>
+    <string name="inputs_custom_title">حسب ضرورت نام:</string>
+    <string name="inputs_hdmi_control">HDMI کنٹرول</string>
+    <string name="inputs_hdmi_control_desc">TV کو HDMI آلات کو کنٹرول کرنے کی اجازت دیں</string>
+    <string name="inputs_device_auto_off">آلے کا خودکار پاور آف</string>
+    <string name="inputs_device_auto_off_desc">TV کے ساتھ HDMI آلات کا پاور آف کریں</string>
+    <string name="inputs_tv_auto_on">TV کا خودکار پاور آن</string>
+    <string name="inputs_tv_auto_on_desc">TV کے ساتھ HDMI آلے کا پاور آن کریں</string>
+    <plurals name="inputs_header_connected_input">
+        <item quantity="one">جڑا ہوا اندراج</item>
+        <item quantity="other">جڑے ہوئے اندراجات</item>
+    </plurals>
+    <plurals name="inputs_header_standby_input">
+        <item quantity="one">اسٹینڈ بائی اندراج</item>
+        <item quantity="other">اسٹینڈ بائی اندراجات</item>
+    </plurals>
+    <plurals name="inputs_header_disconnected_input">
+        <item quantity="one">بغیر جڑا ہوا اندراج</item>
+        <item quantity="other">بغیر جڑے ہوا اندراجات</item>
+    </plurals>
+    <string name="inputs_state_connected">"مربوط ہو گیا"</string>
+    <string name="inputs_state_connected_standby">اسٹینڈ بائی</string>
+    <string name="inputs_state_disconnected">"منقطع"</string>
+    <string name="user_add_profile_item_summary">اپنے اکاؤنٹ میں ایپس اور دیگر مواد تک رسائی کو روکیں</string>
+    <string name="user_new_profile_name">"محدود پروفائل"</string>
+    <string name="user_restrictions_title">"ایپ اور مواد تک رسائی"</string>
+    <string name="user_restrictions_controlled_by">"کنٹرول کردہ بذریعہ <xliff:g id="APP">%1$s</xliff:g>"</string>
+    <string name="app_not_supported_in_limited">"یہ ایپ محدود پروفائلز میں تعاون یافتہ نہیں ہے"</string>
+    <string name="app_sees_restricted_accounts">"یہ ایپ آپ کے اکاؤنٹس تک رسائی حاصل کر سکتی ہے"</string>
+    <string name="restriction_location_enable_title">"مقام"</string>
+    <string name="restriction_location_enable_summary">"ایپس کو اپنے مقام کی معلومات کا استعمال کرنے دیں"</string>
+    <string name="restricted_profile_create">ممنوع صارف تخلیق کریں</string>
+    <string name="restricted_profile_switch_to">ممنوع پروفائل درج کریں</string>
+    <string name="restricted_profile_switch_out">ممنوع پروفائل سے باہر نکلیں</string>
+    <string name="restricted_profile_delete_title">ممنوع پروفائل حذف کریں</string>
+    <string name="restricted_profile_configure_title">ترتیبات</string>
+    <string name="restricted_profile_configure_apps_title">اجازت یافتہ ایپس</string>
+    <plurals name="restricted_profile_configure_apps_description">
+        <item quantity="one">1 ایپ کی اجازت ہے</item>
+        <item quantity="other">%d ایپس کی اجازت ہے</item>
+    </plurals>
+    <string name="restricted_profile_allowed">مجاز</string>
+    <string name="restricted_profile_not_allowed">اجازت نہيں ہے</string>
+    <string name="restricted_profile_customize_restrictions">پابندیاں حسب ضرورت بنائیں</string>
+    <string name="restricted_profile_configure_apps_description_loading">ایک لمحہ\u2026</string>
+    <string name="restricted_profile_change_password_title">"‏PIN تبدیل کریں"</string>
+    <string name="restricted_profile_set_password">ممنوع پروفائل سے باہر نکلنے کے لیے استعمال کردہ نیا PIN کوڈ سیٹ کریں</string>
+    <string name="restricted_profile_confirm_password">ممنوع پروفائل سے باہر نکلنے کے لیے استعمال کردہ PIN کوڈ کی تصدیق کریں</string>
+    <string name="restricted_profile_enter_password">ممنوع پروفائل سے باہر نکلنے کے لیےPIN کوڈ درج کریں</string>
+    <string name="restricted_profile_delete_dialog_title">ممنوع صارف کو ہٹائیں؟</string>
+    <string name="restriction_description"><xliff:g id="description">%1$s</xliff:g>\n<xliff:g id="value">%2$s</xliff:g></string>
+    <eat-comment/>
+    <string name="pin_enter_unlock_channel">اس چینل کو دیکھنے کے لیے PIN درج کریں</string>
+    <string name="pin_enter_unlock_program">اس پروگرام کو دیکھنے کے لیے PIN درج کریں</string>
+    <string name="pin_enter_pin">"‏PIN درج کریں"</string>
+    <string name="pin_enter_new_pin">ایک نیا PIN سیٹ کریں</string>
+    <string name="pin_enter_again">نیا PIN دوبارہ درج کریں</string>
+    <string name="pin_enter_old_pin">پرانا PIN درج کریں</string>
+    <string name="pin_enter_wrong">آپ نے 5 بار غلط PIN درج کیا ہے۔\nدوبارہ کوشش کریں <xliff:g id="relative_time_span" example="in60seconds">%1$s</xliff:g>۔</string>
+    <string name="pin_button_done">"ہوگیا"</string>
+    <string name="pin_button_cancel">"منسوخ کریں"</string>
+    <string name="pin_toast_wrong">غلط PIN، دوبارہ کوشش کریں</string>
+    <string name="pin_toast_not_match">دوبارہ کوشش کریں، PIN مماثل نہیں ہے</string>
+    <string name="accessory_unpairing">آلے کے منقطع کررہا ہے…</string>
+    <string name="accessories_add_title">لوازمات کی تلاش کررہا ہے…</string>
+    <string name="accessories_add_multiple_select">منتخب آلے کے ساتھ جڑنے کے لیے، اس آلے کے پیئرنگ والے بٹن کو 5 سیکنڈ تک دبا کر رکھیں</string>
+    <string name="proxy_error_invalid_exclusion_list">اخراج کی فہرست درست نہیں ہے۔ خارج کردہ ڈومینز کا ایک کوما سے الگ کردہ فہرست درج کریں۔</string>
+</resources>

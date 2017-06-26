@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/child_mode">
+
+    <PreferenceCategory
+            android:key="password_category"
+            android:title="@string/password_category_title">
+
+    <PreferenceScreen android:key="modify_password"
+                android:title="@string/modify_password"
+                android:summary="@string/modify_password_summary"
+                android:widgetLayout="@layout/arrow_img_layout">
+
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="application_restrictions"
+            android:title="@string/application_restrictions_title">
+        <com.android.settings.accessibility.BlacklistPreference
+        android:key="application_restrictions_blacklist"
+        android:title="@string/application_restrictions_blacklist"
+        android:summary="@string/application_restrictions_blacklist_summary"
+        android:persistent="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+            android:key="shut_out_settings"
+            android:title="@string/shut_out_settings_title">
+
+        <com.android.settings.accessibility.WebsiteAccessRestrictionPreference
+        android:key="website_access_restrictions_preference"
+        android:title="@string/website_access_restrictions_title"
+        android:summary="@string/website_access_restrictions_summary"
+        android:persistent="false"/>
+
+        <com.android.settings.accessibility.CheckExEditorPreference
+        android:title="@string/internet_time_settings_title"
+        android:key="network_limit_time"
+        android:summary="@string/internet_time_settings_summary" />
+        <com.android.settings.accessibility.CheckExEditorPreference
+        android:title="@string/internet_traffic_limits_title"
+        android:key="network_limit_traffic"
+        android:summary="@string/internet_traffic_limits_summary" />
+
+    </PreferenceCategory>
+    <!-- HQ_daiwenqiang 20151224 modify for HQ01588720 start-->
+    <!--
+    <PreferenceCategory
+            android:key="touch_proof_settings"
+            android:title="@string/touch_proof_settings_title">
+        <CheckBoxPreference
+        android:key="prohibit_send_smsmms_preference"
+        android:title="@string/prohibit_send_smsmms_title"
+        android:summary="@string/prohibit_send_smsmms_summary"
+        android:persistent="false"/>
+        <CheckBoxPreference
+        android:key="prohibit_call_preference"
+        android:title="@string/prohibit_call_title"
+        android:summary="@string/prohibit_call_summary"
+        android:persistent="false"/>
+        <CheckBoxPreference
+        android:key="prohibit_data_services_preference"
+        android:title="@string/prohibit_data_services_title"
+        android:summary="@string/prohibit_data_services_summary"
+        android:persistent="false"/>
+        <CheckBoxPreference
+        android:key="prohibit_wlan_preference"
+        android:title="@string/prohibit_wlan_title"
+        android:summary="@string/prohibit_wlan_summary"
+        android:persistent="false"/>
+        <CheckBoxPreference
+        android:key="prohibit_delete_smsmms_preference"
+        android:title="@string/prohibit_delete_smsmms_title"
+        android:summary="@string/prohibit_delete_smsmms_summary"
+        android:persistent="false"/>
+        <CheckBoxPreference
+        android:key="prohibit_install_application_preference"
+        android:title="@string/prohibit_install_application_title"
+        android:summary="@string/prohibit_install_application_summary"
+        android:persistent="false"/>
+        <CheckBoxPreference
+        android:key="prohibit_delete_application_preference"
+        android:title="@string/prohibit_delete_application_title"
+        android:summary="@string/prohibit_delete_application_summary"
+        android:persistent="false"/>
+    </PreferenceCategory>
+    -->
+<!-- HQ_daiwenqiang 20151224 modify for HQ01588720 start-->
+    <PreferenceScreen android:key="childmode_help"
+                android:title="@string/childmode_help"
+                android:widgetLayout="@layout/arrow_img_layout">
+        <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.android.settings"
+                    android:targetClass="com.android.settings.accessibility.ChildmodeHelp" />
+        </PreferenceScreen>
+
+</PreferenceScreen>

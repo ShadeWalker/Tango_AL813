@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string-array name="sim_slot">
+    <item>"(지정되지 않음)"</item>
+    <item>Sim 슬롯 1</item>
+    <item>Sim 슬롯 2</item>
+  </string-array>
+  <string-array name="wifi_WEP_security_type">
+    <item>자동</item>
+    <item>WEP ASCII</item>
+    <item>WEP 16진수</item>
+  </string-array>
+  <string-array name="wifi_hotspot_disable_policy_entries">
+    <item>항상</item>
+    <item>5분 유휴 시 끄기</item>
+    <item>10 유휴 시 끄기</item>
+  </string-array>
+  <string-array name="wifi_ap_wps_mode_entries">
+    <item>푸시 버튼</item>
+    <item>클라이언트의 PIN</item>
+  </string-array>
+  <string-array name="wifi_ap_max_connection_entries">
+    <item>1명의 사용자</item>
+    <item>2명의 사용자</item>
+    <item>3명의 사용자</item>
+    <item>4명의 사용자</item>
+    <item>5명의 사용자</item>
+    <item>6명의 사용자</item>
+    <item>7명의 사용자</item>
+    <item>8명의 사용자</item>
+  </string-array>
+  <string-array name="wfd_720p_resolution_entry">
+    <item>720p(60프레임/초)</item>
+    <item>﻿720p (30프레임/초)</item>
+  </string-array>
+  <string-array name="wfd_1080p_resolution_entry">
+    <item>1080p(30프레임/초)</item>
+    <item>720p(60프레임/초)</item>
+    <item>720p(30프레임/초)</item>
+  </string-array>
+  <string-array name="wfd_resolution_entry">
+    <item>1080p FHD(동영상용)</item>
+    <item>720p HD(게임용)</item>
+  </string-array>
+  <string-array name="mouse_primary_button_titles">
+    <item>오른손잡이 마우스</item>
+    <item>왼손잡이 마우스</item>
+  </string-array>
+  <string-array name="auto_time_entries">
+    <item>네트워크 제공 시간 사용</item>
+    <item>GPS 제공 시간 사용</item>
+    <item>끄기</item>
+  </string-array>
+<string-array name="user_wfc_preference">
+<item>Wi-Fi 선호</item>
+<item>셀룰러 네트워크 선호</item>
+<item>셀룰러 네트워크 사용 안 함</item>
+</string-array>
+</resources>

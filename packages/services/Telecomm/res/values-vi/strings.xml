@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="telecommAppLabel" product="default" msgid="3477737022166975496">"Điện thoại"</string>
+    <string name="unknown" msgid="6878797917991465859">"Không xác định"</string>
+    <string name="notification_missedCallTitle" msgid="7554385905572364535">"Cuộc gọi nhỡ"</string>
+    <string name="notification_missedCallsTitle" msgid="1361677948941502522">"Cuộc gọi nhỡ"</string>
+    <string name="notification_missedCallsMsg" msgid="4575787816055205600">"<xliff:g id="NUM_MISSED_CALLS">%s</xliff:g> cuộc gọi nhỡ"</string>
+    <string name="notification_missedCallTicker" msgid="504686252427747209">"Cuộc gọi nhỡ từ <xliff:g id="MISSED_CALL_FROM">%s</xliff:g>"</string>
+    <string name="notification_missedCall_call_back" msgid="2684890353590890187">"Gọi lại"</string>
+    <string name="notification_missedCall_message" msgid="3049928912736917988">"Tin nhắn"</string>
+    <string name="accessibility_call_muted" msgid="2776111226185342220">"Đã tắt tiếng cuộc gọi."</string>
+    <string name="accessibility_speakerphone_enabled" msgid="1988512040421036359">"Đã bật loa ngoài."</string>
+    <string name="respond_via_sms_canned_response_1" msgid="2461606462788380215">"Giờ tôi ko thể nói chuyện. Gì vậy?"</string>
+    <string name="respond_via_sms_canned_response_2" msgid="4074450431532859214">"Tôi sẽ gọi lại ngay."</string>
+    <string name="respond_via_sms_canned_response_3" msgid="3496079065723960450">"Tôi sẽ gọi lại sau."</string>
+    <string name="respond_via_sms_canned_response_4" msgid="1698989243040062190">"Giờ tôi ko thể nói chuyện. Gọi sau nhé?"</string>
+    <string name="respond_via_sms_setting_title" msgid="3754000371039709383">"Trả lời nhanh"</string>
+    <string name="respond_via_sms_setting_title_2" msgid="6104662227299493906">"Chỉnh sửa trả lời nhanh"</string>
+    <string name="respond_via_sms_setting_summary" msgid="9150281183930613065"></string>
+    <string name="respond_via_sms_edittext_dialog_title" msgid="20379890418289778">"Trả lời nhanh"</string>
+    <string name="respond_via_sms_confirmation_format" msgid="7229149977515784269">"Đã gửi tin nhắn tới <xliff:g id="PHONE_NUMBER">%s</xliff:g>."</string>
+    <string name="outgoing_call_not_allowed" msgid="1435394568102165287">"Chỉ chủ sở hữu thiết bị mới được phép thực hiện cuộc gọi khẩn cấp"</string>
+    <string name="outgoing_call_error_no_phone_number_supplied" msgid="1940125199802007505">"Để thực hiện cuộc gọi, hãy nhập một số hợp lệ."</string>
+    <string name="duplicate_video_call_not_allowed" msgid="3749211605014548386">"Không thể thêm cuộc gọi tại thời điểm này."</string>
+    <string name="no_vm_number" msgid="4164780423805688336">"Thiếu số thư thoại"</string>
+    <string name="no_vm_number_msg" msgid="1300729501030053828">"Không có số thư thoại nào được lưu trữ trên thẻ SIM."</string>
+    <string name="add_vm_number_str" msgid="4676479471644687453">"Thêm số điện thoại"</string>
+    <string name="outgoing_call_error_limit_exceeded">Không thể gọi, quá giới hạn.</string>
+    <string name="handle_restricted">"bị hạn chế"</string>
+    <string name="incall_error_supp_service_unknown" msgid="2991054870745666038">"Dịch vụ không được hỗ trợ."</string>
+    <string name="incall_error_supp_service_switch" msgid="3503552565745872241">"Không thể chuyển đổi cuộc gọi."</string>
+    <string name="incall_error_supp_service_separate" msgid="914362338192301746">"Không thể tách cuộc gọi."</string>
+    <string name="incall_error_supp_service_transfer" msgid="2509871374644921632">"Không thể chuyển cuộc gọi."</string>
+    <string name="incall_error_supp_service_conference" msgid="2505727299596357312">"Không thể thực hiện cuộc gọi hội nghị."</string>
+    <string name="incall_error_supp_service_reject" msgid="7055164130563826216">"Không thể từ chối cuộc gọi."</string>
+    <string name="incall_error_supp_service_hangup" msgid="7417583238334762737">"Không thể thực hiện cuộc gọi."</string>
+    <string name="mo_code_unconditional_cf_active">Chuyển tiếp c.gọi\nđã kích hoạt vô điều kiện</string>
+    <string name="mo_code_some_cf_active">Chuyển cuộc gọi có điều kiện</string>
+    <string name="mo_code_call_forwarded">Đã chuyển c.gọi</string>
+    <string name="mo_code_call_is_waiting">Đang chờ c.gọi</string>
+    <string name="mo_code_cug_call">Nhóm ng.dùng cố định</string>
+    <string name="mo_code_outgoing_calls_barred">Đã chặn cuộc gọi đi</string>
+    <string name="mo_code_incoming_calls_barred">Cuộc gọi đến bị chặn ở đầu bên kia</string>
+    <string name="mo_code_clir_suppression_rejected">Kiểm tra d.vụ gửi số người gọi</string>
+    <string name="mo_code_call_deflected">Đã chuyển c.gọi</string>
+    <string name="mt_code_forwarded_call">Đây là c.gọi bị lỗi</string>
+    <string name="mt_code_cug_call">Nhóm ng.dùng cố định</string>
+    <string name="mt_code_call_on_hold">C.gọi giữ</string>
+    <string name="mt_code_call_retrieved">Đã p.hồi c.gọi</string>
+    <string name="mt_code_multi_party_call">C.gọi hội nghị</string>
+    <string name="mt_code_on_hold_call_released">Đã thả c.gọi giữ</string>
+    <string name="mt_code_forward_check_received">Đã nhận ch.tiếp t.nhắn k.tra d.vụ bổ sung</string>
+    <string name="mt_code_call_connecting_ect">Đang chuyển c.gọi</string>
+    <string name="mt_code_call_connected_ect">Chuyển c.gọi đang bật</string>
+    <string name="mt_code_deflected_call">Đây là c.gọi bị lỗi</string>
+    <string name="mt_code_additional_call_forwarded">Đã chuyển cuộc gọi đến bổ sung</string>
+    <string name="mt_code_forwarded_cf">Đã chuyển c.gọi</string>
+    <string name="mt_code_forwarded_cf_uncond">Đã chuyển c.gọi vô điều kiện</string>
+    <string name="mt_code_forwarded_cf_cond">Đã chuyển c.gọi có điều kiện</string>
+    <string name="mt_code_forwarded_cf_busy">Đã chuyển c.gọi khi bận</string>
+    <string name="mt_code_forwarded_cf_no_reply">Đã chuyển c.gọi khi không trả lời</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Đã chuyển c.gọi khi ngoài v.p.sóng</string>
+<string name="respond_via_sms_setting_title_summary">Tùy chỉnh các tin nhắn thường dùng khi từ chối một cuộc gọi</string>
+</resources>

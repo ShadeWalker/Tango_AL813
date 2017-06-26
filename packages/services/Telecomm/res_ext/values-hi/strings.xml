@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="str_db_playlist_name">मेरी रिकॉर्डिंग</string>
+    <string name="alert_device_error">ऑडियो डिवाइस पर त्रुटि हुई</string>
+    <string name="ext_media_badremoval_notification_title">"SD कार्ड को अनपेक्षित रूप से निकाल दिया गया"</string>
+    <string name="error_sdcard_access">यूएसबी स्‍टोरेज तक एक्‍सेस करने में अक्षम</string>
+    <string name="confirm_device_info_full">SD कार्ड में जगह खत्म हो गई है, रिकॉर्ड सहेज लिया गया है</string>
+    <string name="confirm_save_info_saved">रिकॉर्ड सहेज दिया गया है</string>
+    <string name="confirm_save_info_saved_to">रिकॉर्डिंग निम्न में सहेज ली गई है</string>
+    <string name="select_account_dialog_title">"खाता चुनें"</string>
+    <string name="reminder">अनुस्मारक</string>
+    <string name="enable_ims_dialog_message">IMS कॉल अक्षम है, क्या आप इसे सक्षम करना चाहेंगे?</string>
+    <string name="ip_dial_error_for_sip_call">IP डायल फंक्शन इन्टेन्ट कॉल पर लागू नहीं होता है.</string>
+    <string name="call_duration_title">"कॉल समाप्त"</string>
+    <string name="call_duration_format">"<xliff:g id="HOURS">%1$s</xliff:g> घंटा <xliff:g id="MINUTES">%2$s</xliff:g> मिनट <xliff:g id="SECONDS">%3$s</xliff:g> सेकंड"</string>
+    <string name="volte_ss_not_avaliable_tips">कार्यवाही पूरी करने के लिए, आपको डेटा कनेक्शन चालू करने की जरूरत है।</string>
+    <string name="outgoing_call_failed">"कॉल नहीं भेजी गई."</string>
+    <string name="volte_ss_not_available_tips">कार्यवाही पूरी करने के लिए, आपको <xliff:g id="sub_name">%s</xliff:g> का डेटा कनेक्शन चालू करने की जरूरत है।</string>
+    <string name="call_waiting_indication">दूसरा पक्ष कॉल में है, कृपया प्रतीक्षा करें...</string>
+    <!-- HQ_fengsimin add for HQ00055994 start -->
+    <string name="call_waiting_indication_east">आप जिस नंबर तक पहुँचने का प्रयास कर रहे हैं, व्यस्त है, कृपया होल्ड करें।</string>
+    <!-- HQ_fengsimin add for HQ00055994 end -->
+</resources>

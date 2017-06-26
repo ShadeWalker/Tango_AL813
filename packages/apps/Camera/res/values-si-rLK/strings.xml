@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="camera_error_title">කැමරා දෝෂය</string>
+<string name="cannot_connect_camera">කැමරාවට සම්බන්ධ කළ නොහැක.</string>
+<string name="camera_disabled">ආරක්ෂක ප්‍රතිපත්ති නිසා කැමරාව අක්‍රිය කර ඇත.</string>
+<string name="camera_label">කැමරාව</string>
+<string name="video_camera_label">කැම්කෝඩය</string>
+<string name="gallery_camera_bucket_name">කැමරා පින්තූරය</string>
+<string name="gallery_camera_videos_bucket_name">කැමරා වීඩියෝ</string>
+<string name="wait">කරුණාකර රැඳී සිටින්න\u2026 </string>
+<string name="no_storage" product="nosdcard">කැමරාව භාවිතා කිරීමට පෙර USB ගබඩාව මවුන්ට් කරන්න.</string>
+<string name="no_storage" product="default">කැමරාව භාවිතා කිරීමට SD කාඩ්පත ඇතුල් කරන්න.</string>
+<string name="not_enough_space" product="nosdcard">ඔබගේ USB ගබඩාව පිරී ඇත.</string>
+<string name="not_enough_space" product="default">ඔබගේ SD ගබඩාව පිරී ඇත.</string>
+<string name="preparing_sd" product="nosdcard">USB ගබඩාව සූදානම් කරමින්\u2026 </string>
+<string name="preparing_sd" product="default">SD කාඩ්පත සූදානම් කරමින්\u2026 </string>
+<string name="access_sd_fail" product="nosdcard">USB ගබඩාවට පිවිසිය නොහැකි විය.</string>
+<string name="access_sd_fail" product="default">SD කාඩ්පත වෙත පිවිසිය නොහැකි විය.</string>
+<string name="confirm_restore_message">ඔබට කැමරා පෙරනිමි සැකසුම් පුනරුත්තාපනය කිරීමට අවශ්‍යද?</string>
+<string name="review_play">වාදනය කරන්න</string>
+<string name="review_cancel">අවලංගු කරන්න</string>
+<string name="review_ok">ඉටු කරන ලදී </string>
+<string name="review_retake">නැවත ගන්න</string>
+<string name="camera_gallery_photos_text">ගැලරිය</string>
+<string name="time_lapse_title">කාල අන්තර පටිගත කිරීම </string>
+<string name="pref_camera_id_title">කැමරාව තෝරන්න </string>
+<string name="pref_camera_id_entry_back">ආපසු</string>
+<string name="pref_camera_id_entry_front">ඉදිරිපස</string>
+<string name="pref_camera_recordlocation_title">GPS පිහිටීම් තොරතුරු</string>
+<string name="pref_camera_recordlocation_entry_off">ඕෆ්</string>
+<string name="pref_camera_recordlocation_entry_on">ඔන්</string>
+<string name="pref_video_quality_title">වීඩියෝ ගුණාත්මක බව</string>
+<string name="pref_video_time_lapse_frame_interval_title">කාල අන්තර විරාමය</string>
+<string name="pref_camera_settings_category">කැමරා සැකසුම්</string>
+<string name="pref_camcorder_settings_category">කැම්කෝඩ සැකසුම්</string>
+<string name="pref_camera_picturesize_title">පින්තූර විශාලත්වය</string>
+<string name="pref_camera_picturesize_entry_2592x1936">පික්සල් 5M</string>
+<string name="pref_camera_picturesize_entry_2048x1536">පික්සල් 3M</string>
+<string name="pref_camera_picturesize_entry_1600x1200">පික්සල් 2M</string>
+<string name="pref_camera_picturesize_entry_1280x960">පික්සල් 1.3M</string>
+<string name="pref_camera_picturesize_entry_1024x768">පික්සල් 1M</string>
+<string name="pref_camera_picturesize_entry_640x480">VGA</string>
+<string name="pref_camera_picturesize_entry_320x240">QVGA</string>
+<string name="pref_camera_focusmode_title">කේන්ද්‍ර මාදිලිය</string>
+<string name="pref_camera_focusmode_entry_auto">ස්වයංක්‍රීය</string>
+<string name="pref_camera_focusmode_entry_infinity">අපරිමිතය</string>
+<string name="pref_camera_focusmode_entry_macro">මැක්‍රෝ</string>
+<string name="pref_camera_flashmode_title">ෆ්ලෑෂ් මාදිලිය</string>
+<string name="pref_camera_flashmode_entry_auto">ස්වයංක්‍රීය</string>
+<string name="pref_camera_flashmode_entry_on">ඔන්</string>
+<string name="pref_camera_flashmode_entry_off">ඕෆ්</string>
+<string name="pref_camera_whitebalance_title">ධවල ශේෂය</string>
+<string name="pref_camera_whitebalance_entry_auto">ස්වයංක්‍රීය</string>
+<string name="pref_camera_whitebalance_entry_incandescent">තාපදීප්ත</string>
+<string name="pref_camera_whitebalance_entry_daylight">දිවා ආලෝකය</string>
+<string name="pref_camera_whitebalance_entry_fluorescent">ප්‍රතිදීප්ත</string>
+<string name="pref_camera_whitebalance_entry_cloudy">වළාකුළු සහිත</string>
+<string name="pref_camera_scenemode_title">දර්ශන මාදිලිය</string>
+<string name="pref_camera_scenemode_entry_auto">ස්වයංක්‍රීය</string>
+<string name="pref_camera_scenemode_entry_action">ක්‍රියාව</string>
+<string name="pref_camera_scenemode_entry_night">රාත්‍රිය</string>
+<string name="pref_camera_scenemode_entry_sunset">හිරු බැසීම</string>
+<string name="pref_camera_scenemode_entry_party">සාදය</string>
+<string name="not_selectable_in_scene_mode">දර්ශන මාදිලිය තුළ තේරිය නොහැක.</string>
+<string name="pref_restore_title">කැමරා සැකසුම්</string>
+<string name="pref_restore_detail">පෙරනිමි පුනරුත්තාපනය කරන්න</string>
+<string name="pref_exposure_title">නිරාවරණය</string>
+<string name="dialog_ok">හරි</string>
+<string name="spaceIsLow_content" product="nosdcard">ඔබගේ USB ගබඩාව තුළ ඉඩ නැතිවෙමින් යයි. ගුණාත්මක සැකසුම් වෙනස් කරන්න නැතහොත් රූප හෝ වෙනත් ගොනු කිහිපයක් මකන්න.</string>
+<string name="spaceIsLow_content" product="default">ඔබගේ SD කාඩ්පත තුළ ඉඩ නැතිවෙමින් යයි. ගුණාත්මක සැකසුම් වෙනස් කරන්න නැතහොත් රූප හෝ වෙනත් ගොනු කිහිපයක් මකන්න.</string>
+<string name="video_reach_size_limit">ප්‍රමාණ විශාලත්වයට ළඟා වී ඇත.</string>
+<string name="share_picture_via">හරහා පින්තූරය හුවමාරු කරන්න</string>
+<string name="share_video_via">හරහා වීඩියෝව හුවමාරු කරන්න</string>
+<string name="no_picture_to_share">හුවමාරු කිරීමට පින්තූර නැත.</string>
+<string name="no_video_to_share">හුවමාරු කිරීමට වීඩියෝ නැත.</string>
+<string name="pano_too_fast_prompt">වේගය වැඩිය</string>
+<string name="pano_dialog_prepare_preview">පරිදර්ශනය සූදානම් කරමින්</string>
+<string name="pano_dialog_panorama_failed">පරිදර්ශනය සුරැකිය නොහැක.</string>
+<string name="pano_dialog_title">පරිදර්ශනය</string>
+<string name="pano_capture_indication">පරිදර්ශන ග්‍රහණය කරගනිමින්</string>
+<string name="pano_dialog_waiting_previous">පෙර පරිදර්ශනය සඳහා රැඳී සිටිමින්</string>
+<string name="pano_review_saving_indication_str">සුරකිමින්\u2026 </string>
+<string name="tap_to_focus">කේන්ද්‍රගත කිරීමට ස්පර්ශ කරන්න.</string>
+<string name="pref_video_effect_title">ප්‍රයෝග</string>
+<string name="effect_none">කිසිවක් නැත</string>
+<string name="effect_goofy_face_squeeze">මිරිකන්න</string>
+<string name="effect_goofy_face_big_eyes">විශාල ඇස්</string>
+<string name="effect_goofy_face_big_mouth">විශාල කට</string>
+<string name="effect_goofy_face_small_mouth">කුඩා කට</string>
+<string name="effect_goofy_face_big_nose">විශාල නහය</string>
+<string name="effect_goofy_face_small_eyes">කුඩා ඇස්</string>
+<string name="effect_backdropper_space">අභ්‍යවකාශයේ</string>
+<string name="effect_backdropper_sunset">හිරු බැසීම</string>
+<string name="effect_backdropper_gallery">ඔබගේ වීඩියෝව</string>
+<string name="not_selectable_in_effect">ප්‍රයෝග ඔන් වී තිබියදී තේරිය නොහැක.</string>
+<string name="video_snapshot_hint">පටිගත කරන අතර ඡායාරූප ගැනීමට ස්පර්ශ කරන්න.</string>
+<string name="disable_video_snapshot_hint">විශේෂ ප්‍රයෝග ඔන් කර නොමැති විට වීඩියෝ ස්නැප්ෂොට් අක්‍රිය කෙරේ.</string>
+<string name="clear_effects">පැහැදිලි ප්‍රයෝග</string>
+<string name="effect_silly_faces">විකාර මුහුණු</string>
+<string name="effect_background">පසුබිම</string>
+<string name="accessibility_shutter_button">ෂටර බොත්තම</string>
+<string name="accessibility_review_thumbnail">මෑතකාලීනම ඡායාරූපය</string>
+<string name="accessibility_camera_picker">ඉදිරිපස හා පසුපස කැමරා ස්විච්චය</string>
+<string name="accessibility_mode_picker">කැමරා, වීඩියෝ හෝ පරිදර්ශන තෝරනය</string>
+<string name="accessibility_second_level_indicators">තවත් සැකසුම් පාලන</string>
+<string name="accessibility_back_to_first_level">සැකසුම් පාලන වසන්න</string>
+<string name="accessibility_zoom_control">විශාලන පාලන</string>
+<string name="accessibility_decrement">%1$s අඩු කරන්න</string>
+<string name="accessibility_increment">%1$s වැඩි කරන්න</string>
+<string name="accessibility_switch">%1$s ස්විච්චය</string>
+</resources>

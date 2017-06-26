@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialer_item_0">Paste</string>
+    <string name="dialer_item_1">Delete call log</string>
+    <string name="dialer_item_2">View by</string>
+    <string name="dialer_item_3">Speed dial settings</string>
+    <string name="dialer_item_4">Harassment filter</string>
+    <string name="dialer_item_5">Call settings</string>
+
+    <string-array name="menuItems">
+        <item>Contacts to display</item>
+        <item>Import/Export</item>
+        <item>Accounts</item>
+        <item>Delete contact</item>
+        <item>Settings</item>
+    </string-array>
+    
+    
+    <string-array name="items_menu_one">
+	    <item>@string/dialer_item_0</item>
+	    <item>@string/dialer_item_1</item>
+	    <item>@string/dialer_item_2</item>
+	    <item>@string/dialer_item_3</item>
+	    <item>@string/dialer_item_4</item>
+	    <item>@string/dialer_item_5</item>
+    </string-array>
+
+    <string-array name="items_menu_two">
+        <item>@string/dialer_item_1</item>
+        <item>@string/dialer_item_2</item>
+        <item>@string/dialer_item_3</item>
+        <item>@string/dialer_item_4</item>
+        <item>@string/dialer_item_5</item>
+    </string-array>
+
+    <string-array name="items_menu_three">
+        <item>@string/dialer_item_0</item>
+        <item>@string/dialer_item_2</item>
+        <item>@string/dialer_item_3</item>
+        <item>@string/dialer_item_4</item>
+        <item>@string/dialer_item_5</item>
+    </string-array>
+
+    <string-array name="items_menu_four">
+        <item>@string/dialer_item_2</item>
+        <item>@string/dialer_item_3</item>
+        <item>@string/dialer_item_4</item>
+        <item>@string/dialer_item_5</item>
+    </string-array>
+    <string-array name="items_menu">
+	    <item>Paste</item>
+	    <item>Delete entry</item>
+	    <item>View by</item>
+	    <item>Harassment filter</item>
+	    <item>Call settings</item>
+    </string-array>
+
+    <string-array name="items_menu2">
+	    <item>Delete entry</item>
+	    <item>View by</item>
+	    <item>Harassment filter</item>
+	    <item>Call settings</item>
+    </string-array>
+
+    <string-array name="items_menu3">
+        <item>Paste</item>
+	    <item>View by</item>
+	    <item>Harassment filter</item>
+	    <item>Call settings</item>
+    </string-array>
+
+    <string-array name="items_menu4">
+        <item>View by</item>
+	    <item>Harassment filter</item>
+	    <item>Call settings</item>
+    </string-array>
+
+    <string-array name="items_call_type_menu">
+             <item>All calls</item>
+	    <item>Missed calls</item>
+	    <item>Dialed calls</item>
+	    <item>Received calls</item>
+    </string-array>
+</resources>

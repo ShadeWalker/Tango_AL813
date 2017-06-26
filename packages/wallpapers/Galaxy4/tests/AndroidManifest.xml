@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.android.galaxy4.test">
+    <uses-permission android:name="android.permission.INJECT_EVENTS"/>
+
+    <!-- The Test Runner is for FPS auto performance check for Galaxy4 Wallpaper-->
+    <instrumentation android:name="com.android.galaxy4.test.Galaxy4FpsTestRunner"
+                     android:targetPackage="com.android.galaxy4"
+                     android:label="Galaxy4 Wallpaper FPS TestRunner"/>
+
+    <!--
+    <instrumentation android:name="Galaxy4TestRunner"
+        android:targetPackage="com.android.galaxy4" 
+        android:label="Galaxy4 wallpaper Test">
+    </instrumentation>
+    -->
+
+    <instrumentation android:name="com.zutubi.android.junitreport.JUnitReportTestRunner"
+        android:targetPackage="com.android.galaxy4" 
+        android:label="Galaxy4 wallpaper Test">
+    </instrumentation>
+
+    <instrumentation android:name="com.android.galaxy4.test.Galaxy4LaunchPerformance"
+        android:targetPackage="com.android.galaxy4"
+        android:label="Galaxy4 Wallpaper Launch Performance">
+    </instrumentation>
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <!-- used for testcase to make sure the LiveWallpapers could be launched  -->
+    <activity
+        android:name=".PreviewStubActivity"
+        android:theme="@style/Preview"
+        android:configChanges="orientation|screenSize">
+    </activity>
+       
+</manifest>

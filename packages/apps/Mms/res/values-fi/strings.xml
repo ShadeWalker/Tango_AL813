@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- 
+/*
+ * Copyright (C) 2007-2008 Esmertec AG.
+ * Copyright (C) 2007-2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- add by liujia5 for mms 7bit menu -->
+    <string name="sms_seven_bit">"7-bittinen optimointi"</string>
+    <string name="sms_seven_bit_summary">"Muunna 7-bittiseksi koodaukseksi, jotta yhdessä viestissä voi olla enintään 160 merkkiä"</string>
+    <!-- add by liujia5 for mms 7bit menu -->
+    <string msgid="1503967887341230795" name="app_label">"Viestit"</string>
+    <string msgid="1530369762346003973" name="new_message">"Uusi viesti"</string>
+    <string msgid="7538482331117914146" name="menu_call_back">"Soita henkilölle 
+        <xliff:g id="NAME">%s</xliff:g>"
+    </string>
+    <string msgid="671366308915241664" name="menu_send_email">"Lähetä sähköpostia henkilölle 
+        <xliff:g id="NAME">%s</xliff:g>"
+    </string>
+    <string msgid="3763437973691046238" name="menu_compose_new">"Kirjoita"</string>
+    <string msgid="4693148116114749414" name="menu_preferences">"Asetukset"</string>
+    <string msgid="8013282802147375764" name="menu_add_address_to_contacts">"Lisää 
+        <xliff:g id="CONTACTEMAILORNUMBER">%s</xliff:g> kontakteihin"
+    </string>
+    <string msgid="5877123227307074690" name="menu_call">"Soita"</string>
+    <string msgid="2289469305728821360" name="menu_search">"Haku"</string>
+    <string msgid="808729454898114735" name="menu_delete_all">"Poista kaikki keskustelut"</string>
+    <string msgid="1851666911396479006" name="menu_delete">"Poista viestiketju"</string>
+    <string msgid="7448852683948080108" name="menu_view">"Näytä viestiketju"</string>
+    <string msgid="6855869130206549643" name="menu_debug_dump">"DEBUG DUMP"</string>
+    <string msgid="987335057871404222" name="refreshing">"Päivitetään..."</string>
+    <string msgid="5646161375983084660" name="menu_cell_broadcasts">"Cell Broadcast -lähetykset"</string>
+    <string msgid="2487465595514636160" name="has_draft">"Luonnos"</string>
+    <string msgid="7795086723069563537" name="no_subject_view">"(Ei aihetta)"</string>
+    <string msgid="3579016854116401602" name="messagelist_sender_self">"Minä"</string>
+    <string msgid="4990460971211388453" name="view_slideshow">"Näytä diaesitys"</string>
+    <string msgid="7613457646645796831" name="view_message_details">"Näytä tiedot"</string>
+    <string msgid="8219095994071575215" name="view_delivery_report">"Näytä raportti"</string>
+    <string msgid="6442394955910357234" name="delete_message">"Poista"</string>
+    <string msgid="4436268382742593921" name="expire_on">"Vanhenee: 
+        <xliff:g id="DATE">%s</xliff:g>"
+    </string>
+    <string msgid="534782148965716631" name="kilobyte">"kt"</string>
+    <string msgid="7479433403599785755" name="undelivered_msg_dialog_title">"Toimittamaton viesti"</string>
+    <string msgid="4789268239627694551" name="undelivered_msg_dialog_body">"Viestin lähettäminen epäonnistui.\nYritettiin: 
+        <xliff:g id="MESSAGE">%s</xliff:g>."
+    </string>
+    <string msgid="4203703285563450868" name="undelivered_sms_dialog_body">"Viestin lähettäminen epäonnistui."</string>
+    <string msgid="757258847736632791" name="delete_thread">"Poista viestiketju"</string>
+    <string msgid="9026858380050046756" name="menu_forward">"Lähetä edelleen"</string>
+    <string msgid="4488877642230207631" name="download">"Lataa"</string>
+    <string msgid="1779557575565350637" name="downloading">"Ladataan"</string>
+    <string msgid="4057621785274119260" name="inline_subject">&lt;Aihe: <xliff:g id="SUBJECT">%s</xliff:g>&gt;</string>
+    <string msgid="1396394157870730742" name="drm_protected_text">"* DRM-suojattu teksti *"</string>
+    <string msgid="6989074725969164383" name="insufficient_drm_rights">"Riittämättömät DRM-oikeudet."</string>
+    <string msgid="4296252229544252834" name="copy_message_text">"Kopioi teksti"</string>
+    <string msgid="6838806653341967550" name="message_options">"Viestiasetukset"</string>
+    <string msgid="3501759384739796431" name="slideshow_options">"Diaesityksen asetukset"</string>
+    <string msgid="7307578107431739359" name="move_up">"Siirrä ylöspäin"</string>
+    <string msgid="6356509518429479053" name="move_down">"Siirrä alaspäin"</string>
+    <string msgid="2225604354024914900" name="remove_slide">"Poista dia"</string>
+    <string msgid="9140721399423564187" name="add_slide">"Lisää dia"</string>
+    <string msgid="563319570849475501" name="add_slide_hint">"Luo uusi dia valitsemalla tämä."</string>
+    <string msgid="5054239124146413609" name="discard_slideshow">"Hylkää diaesitys"</string>
+    <string msgid="5077675385448696846" name="slide_show_part">"Osa 
+        <xliff:g id="PART">%1$s</xliff:g>/ 
+        <xliff:g id="TOTAL">%2$s</xliff:g>"
+    </string>
+    <string msgid="2164068850029476539" name="remove_text">"Poista tekstiä"</string>
+    <string msgid="7819574884962571479" name="add_picture">"Lisää kuva"</string>
+    <string msgid="6378701749074289096" name="remove_picture">"Poista kuva"</string>
+    <string msgid="3827442822987116233" name="add_music">"Lisää musiikkia"</string>
+    <string msgid="858889733416015223" name="remove_music">"Poista musiikki"</string>
+    <string msgid="7816866867806595144" name="add_video">"Lisää video"</string>
+    <string msgid="5258603891528497799" name="remove_video">"Poista video"</string>
+    <string msgid="224029549150332986" name="to_hint">"Vastaanottaja"</string>
+    <string msgid="4296714962311604126" name="subject_hint">"Aihe"</string>
+    <string msgid="7103751293360532684" name="add_attachment">"Liitä"</string>
+    <string msgid="7616134948428265870" name="add_subject">"Lisää aihe"</string>
+    <string msgid="1624800293064498479" name="discard">"Hylkää"</string>
+    <string msgid="7929667761715467136" name="view">"Näytä"</string>
+    <string msgid="7587904998114459388" name="replace">"Vaihda"</string>
+    <string msgid="4625444913256213175" name="remove">"Poista"</string>
+    <string msgid="4589898724889248486" name="send">"Lähetä"</string>
+    <string msgid="1587631213714914559" name="mms">"Multimediaviesti"</string>
+    <string msgid="2933162044872550662" name="send_mms">"Lähetä multimediaviesti"</string>
+    <string msgid="2663426830306307194" name="all_threads">"Kaikki viestiketjut"</string>
+    <string msgid="3539985471008581265" name="type_to_compose_text_enter_to_send">"Kirjoita viesti"</string>
+    <string msgid="7860109685511253191" name="open_keyboard_to_compose_message">"Avaa näppäimistö ja kirjoita viesti"</string>
+    <string msgid="6685337318181265136" name="sending_disabled_not_default_app">"Lähetys ei käytössä"</string>
+    <string msgid="1838175321052707875" name="compose_disabled_toast">"Tekstiviestiä ei voi kirjoittaa. Ei oletussovellus."</string>
+    <string msgid="1961357529661045180" name="compressing">"Liian suuri kuva. Pakataan..."</string>
+    <string msgid="5037111178813903722" name="unsupported_media_format">"Tukematon 
+        <xliff:g id="NAME">%1$s</xliff:g>-muoto"
+    </string>
+    <string msgid="7573116916321879964" name="select_different_media">"Valitse eri 
+        <xliff:g id="NAME">%1$s</xliff:g>."
+    </string>
+    <string msgid="6027753647094742437" name="exceed_message_size_limitation">"Viestin kokorajoitus saavutettu."</string>
+    <string msgid="2639367545165352543" name="message_too_big_for_video">"Viesti on liian suuri, videota ei voi liittää."</string>
+    <string msgid="8272471485019037446" name="failed_to_add_media">"Kohdetta 
+        <xliff:g id="NAME">%1$s</xliff:g> ei voi lisätä viestiin."
+    </string>
+    <string msgid="5608354151631833669" name="failed_to_resize_image">"Kuvan kokoa ei muutettu."</string>
+    <string msgid="4897031754321114959" name="resize_image_error_information">"Kuva on edelleen liian suuri lähetettäväksi, vaikka sen kokoa muutettiin."</string>
+    <string msgid="276280492803486464" name="forward_prefix">"Vl: "</string>
+    <string msgid="6078326880056142781" name="discard_message">"Hylkää"</string>
+    <string msgid="2667664943003796133" name="discard_message_reason">"Viesti hylätään, koska sillä ei ole kelvollisia vastaanottajia."</string>
+    <string msgid="1485388396900997383" name="has_invalid_recipient">&lt;<xliff:g id="NAME">%1$s</xliff:g>&gt;</string>
+    <string msgid="4573835601024786416" name="invalid_destination">"Virheellinen kohdeosoite."</string>
+    <string msgid="9178218144019626176" name="service_not_activated">"Palvelua ei ole aktivoitu verkossa."</string>
+    <string msgid="1908877102600048515" name="service_message_not_found">"Viesti vanhentunut tai ei käytettävissä."</string>
+    <string msgid="5418984934499160536" name="service_network_problem">"Verkkovirhe."</string>
+    <string msgid="7315539322634238519" name="invalid_recipient_message">"Korjaa vastaanottaja(t) tai he eivät saa viestiä."</string>
+    <string msgid="3918913277571649400" name="cannot_send_message">"Viestin lähettäminen epäonnistui"</string>
+    <string msgid="8745080126044054343" name="cannot_send_message_reason">"Viestillä ei ole kelvollisia vastaanottajia."</string>
+    <string msgid="84606990079390099" name="cannot_forward_drm_obj">"Viestissä olevaa DRM-kohdetta ei voi lähettää eteenpäin."</string>
+    <string msgid="2980023239017588627" name="converting_to_picture_message">"Muunnetaan multimediaviestiksi…"</string>
+    <string msgid="6374423235426015422" name="converting_to_text_message">"Muunnetaan tekstiviestiksi…"</string>
+    <string msgid="8437666385579890987" name="cannot_add_slide_anymore">"Ei voi lisätä enempää dioja."</string>
+    <string msgid="4721981351130823908" name="cannot_add_picture_and_video">"Samaan diaan ei voi lisätä sekä videota että kuvaa."</string>
+    <string msgid="5026354972915392301" name="cannot_save_message">"Viestiä ei voi tallentaa."</string>
+    <string msgid="2503018972659880692" name="message_saved_as_draft">"Viesti tallennettu luonnoksena."</string>
+    <string msgid="4239709214735078881" name="too_many_recipients">"Viestillä on liikaa vastaanottajia ( 
+        <xliff:g id="CURRENTCOUNT">%1$s</xliff:g>). Voit lisätä korkeintaan 
+        <xliff:g id="MAXLIMIT">%2$s</xliff:g> vastaanottajaa."
+    </string>
+    <string msgid="3774037894899750070" name="too_many_attachments">"Liitteitä voi lisätä vain 
+        <xliff:g id="MAXLIMIT">%1$s</xliff:g>. Vain ensimmäiset 
+        <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> liitettä lisätään."
+    </string>
+    <string msgid="2034535554212405529" name="adding_attachments_title">"Lisätään liitteitä"</string>
+    <string msgid="5871373105122355632" name="adding_attachments">"Odota, että kohteet lisätään diaesitykseen."</string>
+    <string msgid="1232338692400726385" name="building_slideshow_title">"Luodaan diaesitystä"</string>
+    <string msgid="253920977253666735" name="cannot_play_audio">"Ääntä ei voi toistaa."</string>
+    <string msgid="5438149136136446756" name="preview">"Esikatselu"</string>
+    <string msgid="6824095909448728427" name="preview_slideshow">"Esikatselu"</string>
+    <string msgid="3171240952601443619" name="replace_image">"Vaihda kuva"</string>
+    <string msgid="6617032324007824096" name="duration_sec">"Kesto ( 
+        <xliff:g id="DURATION">%s</xliff:g> s)"
+    </string>
+    <string msgid="5981097971537625852" name="duration_selector_title">"Dian kesto "</string>
+    <string msgid="7344600117972450771" name="layout_selector_title">"Diaesityksen asettelu "</string>
+    <string msgid="6811021650398972346" name="layout_top">"Asettelu (yläreunassa)"</string>
+    <string msgid="5822765871095491843" name="layout_bottom">"Asettelu (alareunassa)"</string>
+    <string msgid="7769792471457574059" name="type_to_compose_text_or_leave_blank">"Kirjoita viesti tai jätä tyhjäksi"</string>
+    <string msgid="8005480904677546322" name="duration_not_a_number">"Keston tulee olla numero"</string>
+    <string msgid="109945354056393575" name="duration_zero">"Keston oltava pidempi kuin nolla sekuntia"</string>
+    <string msgid="6886003523109967972" name="secs">"sek"</string>
+  <string-array name="select_dialog_items">
+    <item msgid="4840183714016984112">"1 sekunti"</item>
+    <item msgid="3734955613666864447">"2 sekuntia"</item>
+    <item msgid="6032232473048379828">"3 sekuntia"</item>
+    <item msgid="5978471781525927827">"4 sekuntia"</item>
+    <item msgid="4888440297621208402">"5 sekuntia"</item>
+    <item msgid="6047246213264166841">"6 sekuntia"</item>
+    <item msgid="2327501250056533797">"7 sekuntia"</item>
+    <item msgid="3400770414689795703">"8 sekuntia"</item>
+    <item msgid="4358760614161107970">"9 sekuntia"</item>
+    <item msgid="2618179407176906471">"10 sekuntia"</item>
+    <item msgid="6238597861937337981">"Muu…"</item>
+  </string-array>
+    <string msgid="1414670584423909451" name="menu_view_contact">"Näytä yhteystieto"</string>
+    <string msgid="2978074583938544513" name="menu_add_to_contacts">"Lisää yhteystietoihin"</string>
+    <string msgid="2776075636669924968" name="hidden_sender_address">"Piilotettu lähettäjän osoite"</string>
+    <string msgid="3246158147503160811" name="yes">"OK"</string>
+    <string msgid="4289742508556913860" name="no">"Peruuta"</string>
+    <string msgid="4642365398263275979" name="set">"Aseta"</string>
+    <string msgid="1888432400937785115" name="play">"Toista"</string>
+    <string msgid="5912118407791492696" name="edit">"Muokkaa"</string>
+    <string msgid="1996751738286080976" name="try_to_send">"Yritä lähettää"</string>
+    <string msgid="6650089610332670157" name="preferences_title">"Asetukset"</string>
+    <string msgid="7165341506551155053" name="restore_default">"Palauta oletusasetukset"</string>
+    <string msgid="4860726154770053004" name="pref_notification_settings_title">"Ilmoitusasetukset"</string>
+    <string msgid="2573616208360684392" name="pref_mms_settings_title">"Multimediaviestiasetukset (MMS)"</string>
+    <string msgid="9088516111717417514" name="pref_sms_settings_title">"Tekstiviestiasetukset (SMS)"</string>
+    <string msgid="2531726671883516470" name="pref_sms_storage_title">"Tallennustila-asetukset"</string>
+    <string msgid="1441894740130104326" name="pref_title_sms_disabled">"SMS pois käytöstä"</string>
+    <string msgid="8975773722051230744" name="pref_summary_sms_disabled">"Valitse Messaging oletustekstiviestisovellukseksi koskettamalla"</string>
+    <string msgid="1857849790200375277" name="pref_title_sms_enabled">"SMS käytössä"</string>
+    <string msgid="2106125420361911250" name="pref_summary_sms_enabled">"Vaihda oletustekstiviestisovellus koskettamalla"</string>
+    <string msgid="4141349892597640864" name="pref_summary_manage_sim_messages">"Hallinnoi SIM-kortilla olevia viestejä"</string>
+    <string msgid="4874657984217756112" name="pref_summary_mms_delivery_reports">"Pyydä lähetystiedot kaikista lähettämistäsi viesteistä"</string>
+    <string msgid="2748323864008907440" name="pref_summary_mms_read_reports">"Pyydä lukemistiedot kaikista lähettämistäsi viesteistä"</string>
+    <string msgid="5852207702358546129" name="pref_summary_sms_delivery_reports">"Pyydä lähetystiedot kaikista lähettämistäsi viesteistä"</string>
+    <string msgid="7719538116486177613" name="pref_summary_auto_delete">"Poista vanhat viestit, kun rajoitukset tulevat vastaan"</string>
+    <string msgid="597128041393045216" name="pref_summary_delete_limit">" 
+        <xliff:g id="COUNT">%1$s</xliff:g> viestiä keskustelussa"
+    </string>
+    <string msgid="2266928687440696745" name="pref_summary_mms_group_mms">"Lähetä yksi viesti useille vastaanottajille käyttämällä multimediaviestiä"</string>
+    <string msgid="7820895261757881177" name="pref_title_manage_sim_messages">"Hallinnoi SIM-kortilla olevia viestejä"</string>
+    <string msgid="6666857926679451910" name="pref_title_mms_delivery_reports">"Lähetystiedot"</string>
+    <string msgid="1251698526583908432" name="pref_title_mms_group_mms">"Ryhmäviestit"</string>
+    <string msgid="4882179829495828541" name="pref_title_mms_read_reports">"Luetut raportit"</string>
+    <string msgid="876064208254451038" name="pref_title_sms_delivery_reports">"Lähetystiedot"</string>
+    <string msgid="7227835692631701134" name="pref_title_auto_delete">"Poista vanhat viestit"</string>
+    <string msgid="6890538316799296878" name="pref_title_sms_delete">"Tekstiviestirajoitus"</string>
+    <string msgid="7265878070847351664" name="pref_title_mms_delete">"Multimediaviestirajoitus"</string>
+    <string msgid="9118792213953729414" name="pref_title_notification_enabled">"Ilmoitukset"</string>
+    <string msgid="4251208067092761057" name="pref_title_notification_vibrateWhen">"Värinä"</string>
+    <string msgid="8667533917574559659" name="pref_title_notification_ringtone">"Ääni"</string>
+    <string msgid="3202539743892934926" name="pref_messages_to_save">"Aseta tallennettavien viestien lukumäärä"</string>
+    <string msgid="7981237991326592780" name="silent_ringtone">"Äänetön"</string>
+    <string msgid="4021878285474431355" name="pref_title_mms_auto_retrieval">Automaattinouto</string>
+    <string msgid="925163257363757048" name="pref_summary_mms_auto_retrieval">Noutaa viestit automaattisesti</string>
+    <string msgid="6016227402731817804" name="pref_title_mms_retrieval_during_roaming">"Automaattinouto verkkovierailu tilassa"</string>
+    <string msgid="2427892806582531020" name="pref_summary_mms_retrieval_during_roaming">"Nouda viestit automaattisesti verkkovierailu tilassa"</string>
+    <string msgid="5810813994465120375" name="confirm_dialog_title">"Poista"</string>
+    <string msgid="8179085718150932242" name="confirm_dialog_locked_title">"Poistetaanko lukittu viesti?"</string>
+  <plurals name="confirm_delete_conversation">
+    <item msgid="350118636090800360" quantity="one">"Yksi keskustelu poistetaan"</item>
+    <item msgid="6918094955792544014" quantity="other">" 
+            <xliff:g id="NUMBER">%1$s</xliff:g> keskustelua poistetaan"
+        </item>
+  </plurals>
+    <string msgid="6115966687389279855" name="confirm_delete_conversation">"Koko viestiketju poistetaan."</string>
+    <string msgid="9036166685235092757" name="confirm_delete_all_conversations">"Kaikki viestiketjut poistetaan."</string>
+    <string msgid="9121480656609809591" name="confirm_delete_message">"Viesti poistetaan."</string>
+    <string msgid="5863578342246077057" name="confirm_delete_locked_message">"Haluatko varmasti poistaa tämän lukitun viestin?"</string>
+    <string msgid="65701806463341097" name="confirm_delete_all_SIM_messages">"Kaikki viestit poistetaan SIM-kortilta."</string>
+    <string msgid="767624259182679915" name="confirm_delete_SIM_message">"Viesti poistetaan SIM-kortilta."</string>
+    <string msgid="7545321606698162261" name="delete_unlocked">"Poista lukitut viestit"</string>
+    <string msgid="1409973060081564612" name="delete">"Poista"</string>
+    <string msgid="5754828781497722394" name="select_conversations">"Valitse keskustelu"</string>
+    <string msgid="2095684444005566703" name="no_conversations">"Ei keskusteluja"</string>
+    <string msgid="6493664168168047746" name="cannot_get_details">"Tietoja ei löydy"</string>
+    <string msgid="9223295113731634528" name="message_details_title">"Viestin tiedot"</string>
+    <string msgid="7975373966795945566" name="message_type_label">"Tyyppi: "</string>
+    <string msgid="8196464345251877972" name="text_message">"Tekstiviesti"</string>
+    <string msgid="1512644521083533071" name="multimedia_message">"Multimediaviesti"</string>
+    <string msgid="4124031788554972308" name="multimedia_notification">"Multimediaviesti-ilmoitus"</string>
+    <string msgid="2055117571548171397" name="from_label">"Lähettäjä: "</string>
+    <string msgid="5837363600471845801" name="to_address_label">"Vastaanottaja: "</string>
+    <string msgid="530867161453958774" name="bcc_label">"Piilokopio: "</string>
+    <string msgid="2722190650145251584" name="sent_label">"Lähetetty: "</string>
+    <string msgid="8618029024731693906" name="received_label">"Vastaanotettu: "</string>
+    <string msgid="4183160415593488207" name="saved_label">"Tallennettu: "</string>
+    <string msgid="8721241914144101631" name="subject_label">"Aihe: "</string>
+    <string msgid="4698016210013319786" name="message_size_label">"Viestin koko: "</string>
+    <string msgid="7397600367853359607" name="priority_label">"Tärkeys: "</string>
+    <string msgid="5627897207952009214" name="priority_high">Korkea</string>
+    <string msgid="5715227727384683550" name="priority_normal">"Normaali"</string>
+    <string msgid="8928782666023373987" name="priority_low">Matala</string>
+    <string msgid="5115748690481550562" name="message_class_label">"Viestin luokka: "</string>
+    <string msgid="5810068247647058769" name="error_code_label">"Virhekoodi: "</string>
+    <string msgid="3056513240155967777" name="menu_edit">"Muokkaa"</string>
+    <string msgid="2610286783513247420" name="menu_delete_messages">"Poista viestejä"</string>
+    <string msgid="7603793126077557472" name="menu_lock">"Lukitse"</string>
+    <string msgid="6662865558677424039" name="menu_unlock">"Poista lukitus"</string>
+    <string msgid="3721000641648594602" name="sim_copy_to_phone_memory" product="tablet">"Kopioi tablet-laitteen muistiin"</string>
+    <string msgid="5895767417844881971" name="sim_copy_to_phone_memory" product="default">"Kopioi puhelimen muistiin"</string>
+    <string msgid="610790510655316922" name="sim_delete">"Poista"</string>
+    <string msgid="3989147182100584333" name="sim_manage_messages_title">"SIM-kortilla olevat tekstiviestit"</string>
+    <string msgid="1997173541766393706" name="sim_view">"Näytä"</string>
+    <string msgid="1763174398613486328" name="sim_empty">"SIM-kortilla ei ole viestejä."</string>
+    <string msgid="5361719578869045764" name="delivery_header_title">"Raportti"</string>
+    <string msgid="8253075950774894961" name="status_none">"(Ei mitään)"</string>
+    <string msgid="2739860824607984892" name="status_pending">"Odottaa"</string>
+    <string msgid="7576195253780627332" name="status_read">"Luettu"</string>
+    <string msgid="7264334589461906965" name="status_received">"Vastaanotettu"</string>
+    <string msgid="1998776666856593544" name="status_failed">"Epäonnistui"</string>
+    <string msgid="8555305495998700198" name="status_unread">"Lukematon"</string>
+    <string msgid="2613641949065942678" name="status_rejected">"Hylätty"</string>
+    <string msgid="3922667485312634446" name="recipient_label">"Vastaanottaja: "</string>
+    <string msgid="7283375460919181660" name="status_label">"Tila: "</string>
+    <string msgid="3514011729156932928" name="delivered_label">"Toimitettu: "</string>
+    <string msgid="6439985727687107742" name="attach_image">"Kuvat"</string>
+    <string msgid="4280601313184373837" name="attach_take_photo">"Ota kuva"</string>
+    <string msgid="4264272693501538294" name="attach_video">"Videot"</string>
+    <string msgid="3099814114743078615" name="attach_record_video">"Tallenna videota"</string>
+    <string msgid="3149325985970669609" name="attach_sound">"Ääni"</string>
+    <string msgid="6011431304469858929" name="attach_record_sound">"Tallenna ääntä"</string>
+    <string msgid="3497422151091037063" name="attach_slideshow">"Diaesitys"</string>
+    <string msgid="4201966447623311931" name="select_bottom_text">"Teksti alareunassa"</string>
+    <string msgid="6734183477539197815" name="select_top_text">"Teksti yläreunassa"</string>
+    <string msgid="4478305651728684364" name="delivery_toast_body">"%s vastaanotti viestin"</string>
+    <string msgid="7684007285202109490" name="notification_multiple">"<xliff:g id="COUNT">%s</xliff:g> lukematonta viestiä."</string>
+    <string msgid="332602028959557541" name="notification_multiple_title">"Uusia viestejä"</string>
+    <string msgid="4081781748475686236" name="notification_failed_multiple">" 
+        <xliff:g id="COUNT">%s</xliff:g> viestin lähettäminen epäonnistui."
+    </string>
+    <string msgid="1112032024904397126" name="notification_failed_multiple_title">"Viestejä ei lähetetty"</string>
+    <string msgid="1809829051697702810" name="sim_full_title">"SIM-kortti täynnä"</string>
+    <string msgid="6241664980790322925" name="sim_full_body">"Tee tilaa uusille viesteille poistamalla vanhoja viestejä."</string>
+    <string msgid="6041287140125011854" name="sms_full_title">"Tekstiviestimuisti täynnä"</string>
+    <string msgid="7757490997215434514" name="sms_full_body">"Saapuva viesti hylätty: muisti on täynnä. Poista vanhoja viestejä."</string>
+    <string msgid="8548394922491529811" name="sms_rejected_title">"Tekstiviesti hylätty"</string>
+    <string msgid="7187754586609631934" name="sms_rejected_body">"Saapuva viesti hylätty tuntemattomasta syystä."</string>
+    <string msgid="3842064092332309756" name="type_audio">"Ääni"</string>
+    <string msgid="4091928975383609443" name="type_picture">"Kuva"</string>
+    <string msgid="8521556159545168441" name="type_video">"Video"</string>
+    <string msgid="3155110885840591914" name="confirm">NA_NoTranslation</string>
+    <string msgid="6997117678914261250" name="message_send_read_report">"Lukemistiedot lähetetään."</string>
+    <string msgid="8869479754825264671" name="message_queued">"Viestiä ei voi tällä hetkellä lähettää. Se lähetetään, kun palvelu tulee käytettäviin."</string>
+    <string msgid="7880740763778173551" name="fdn_check_failure">"Voit lähettää viestejä vain sallittujen puheluiden numeroihin."</string>
+    <string msgid="4168963736134552285" name="no_subject">"(Ei aihetta)"</string>
+    <string msgid="4929330613278853635" name="unknown_sender">"Tuntematon lähettäjä"</string>
+    <string msgid="2457080452886498701" name="dl_failure_notification">"Viestin 
+        <xliff:g id="SUBJECT">%1$s</xliff:g> lataaminen kohteesta 
+        <xliff:g id="FROM">%2$s</xliff:g> epäonnistui."
+    </string>
+    <string msgid="1347801608211628177" name="rate_limit_surpassed">"Vahvista"</string>
+    <string msgid="234228299751243067" name="confirm_rate_limit">"Olet lähettämässä useita multimediaviestejä. Haluatko jatkaa?"</string>
+    <string msgid="5722226064394767921" name="message_download_failed_title">"Viestiä ei ladattu"</string>
+    <string msgid="3469894907399046372" name="message_send_failed_title">"Viestiä ei lähetetty"</string>
+    <string msgid="2740907094762116644" name="message_failed_body">"Tarkista viesti ja yritä uudelleen valitsemalla tämä."</string>
+    <string msgid="4486286146421650880" name="download_later">"Lataaminen ei tällä hetkellä onnistu. Yritä myöhemmin uudelleen."</string>
+    <string msgid="505932916503312015" name="no_apn">"Laitteen APN-määritys puuttuu."</string>
+    <string msgid="3120822451872772124" name="select_audio">"Valitse ääni"</string>
+    <string msgid="757028609638184856" name="copy_to_sdcard">"Tallenna liite"</string>
+    <string msgid="6940309183311068648" name="copy_to_sdcard_success">"Liite tallennettu"</string>
+    <string msgid="4209780336940754675" name="copy_to_sdcard_fail">"Liitteen tallentaminen epäonnistui"</string>
+    <string msgid="2310157075045201051" name="save_ringtone">"Tallenna soittoäänenä"</string>
+    <string msgid="6616730290861857836" name="saved_ringtone">"Soittoääni tallennettu"</string>
+    <string msgid="5447210504935083544" name="saved_ringtone_fail">"Soittoäänen tallentaminen epäonnistui"</string>
+    <string msgid="4964504393061025071" name="menu_insert_smiley">"Lisää hymiö"</string>
+    <string msgid="4288356090262299071" name="menu_group_participants">"Ryhmän jäsenet"</string>
+    <string msgid="600168208731216059" name="select_link_title">"Valitse toiminto"</string>
+    <string msgid="1923958526266726635" name="slide_number">"Dia 
+        <xliff:g id="NUMBER">%s</xliff:g>"
+    </string>
+  <plurals name="slide_duration">
+    <item msgid="1654101988340583935" quantity="one">" 
+            <xliff:g id="NUMBER">%s</xliff:g> s"
+        </item>
+    <item msgid="7887190171856293871" quantity="few">" 
+            <xliff:g id="NUMBER">%s</xliff:g> sekuntia"
+        </item>
+    <item msgid="3736425355579939863" quantity="other">" 
+            <xliff:g id="NUMBER">%s</xliff:g> sekuntia"
+        </item>
+  </plurals>
+    <string msgid="2957463094232916364" name="delivery_report_activity">"Lähetystiedot"</string>
+    <string msgid="8810530813311077716" name="storage_limits_activity">"Tallennusrajoitukset"</string>
+    <string msgid="7048606979485031693" name="change_duration_activity">"Vaihda kestoa"</string>
+    <string msgid="8751493388760050529" name="edit_slideshow_activity">"Muokkaa diaesitystä"</string>
+    <string msgid="1254938236543727019" name="recipient_list_activity">"Ryhmän jäsenet"</string>
+    <string msgid="8752829671778696983" name="edit_slide_activity">"Muokkaa diaa"</string>
+    <string msgid="5658249461317434432" name="slideshow_activity">"Diaesitys"</string>
+    <string msgid="8474176218999130627" name="class_0_message_activity">"Luokan 0 viesti"</string>
+    <string msgid="6042598929386174964" name="search_label">"Viestit"</string>
+    <string msgid="7183732852849365466" name="search_hint">"Viestihaku"</string>
+    <string msgid="7560238620274735199" name="search">"Viestit"</string>
+    <string msgid="4104004595086437572" name="search_setting_description">"Viestien teksti"</string>
+    <string msgid="645052646985297065" name="search_empty">"Ei osumia"</string>
+  <plurals name="search_results_title">
+    <item msgid="4657073733087431350" quantity="one">" 
+            <xliff:g id="NUMBER">%1$s</xliff:g> tulos haulla 
+            <xliff:g id="SEARCH">%2$s</xliff:g>"
+        </item>
+    <item msgid="6196382287749539209" quantity="other">" 
+            <xliff:g id="NUMBER">%1$s</xliff:g> tulosta haulla 
+            <xliff:g id="SEARCH">%2$s</xliff:g>"
+        </item>
+  </plurals>
+    <string msgid="4127805495662693154" name="search_history">" 
+        <xliff:g id="COUNT">%1$s</xliff:g> tulosta haulla 
+        <xliff:g id="SEARCH">%2$s</xliff:g>"
+    </string>
+    <string msgid="8510295993632032904" name="confirm_clear_search_title">"Tyhjennä"</string>
+    <string msgid="8731877031837077478" name="confirm_clear_search_text">"Hakuhistoria tyhjennetään."</string>
+    <string msgid="6159758850628148164" name="pref_mms_clear_search_history_title">"Tyhjennä hakuhistoria"</string>
+    <string msgid="7960005384066460035" name="pref_mms_clear_search_history_summary">"Tyhjennä edelliset hakukentässä näkyvät viestihaut"</string>
+    <string msgid="6847069284991531310" name="save">"Tallenna"</string>
+    <string msgid="7074684882530693016" name="storage_limits_title">"Viestirajoitukset"</string>
+    <string msgid="8729608389698270388" name="storage_limits_message">"Haluatko rajoittaa keskustelua kohti tallentamiasi viestejä?"</string>
+    <string msgid="4952781049308537373" name="storage_limits_setting">"Aseta rajoitukset"</string>
+    <string msgid="1433841310158458034" name="storage_limits_setting_dismiss">"Ei rajoituksia"</string>
+    <string msgid="8005932837414848242" name="too_many_unsent_mms">"Viestiä ei voi lähettää juuri nyt. Liikaa lähettämättömiä multimediaviestejä."</string>
+    <string msgid="2054406576361149715" name="sending_message">"LÄHETETÄÄN..."</string>
+    <string msgid="650087588867628044" name="pick_too_many_recipients">"Liian monta vastaanottajaa"</string>
+    <string msgid="2962810172527532357" name="adding_recipients">"Lisätään vastaanottajia..."</string>
+    <string msgid="5402575086540243019" name="draft_separator">", "</string>
+    <string msgid="4434763220590778012" name="message_count_format">"  
+        <xliff:g id="NUMBER">%1$s</xliff:g>"
+    </string>
+    <string msgid="3629968600032690007" name="message_count_notification">" 
+        <xliff:g id="NUMBER">%1$s</xliff:g> uutta viestiä"
+    </string>
+  <plurals name="message_count_notification_overflow">
+    <item msgid="3340591167508150806" quantity="one">"+ 
+            <xliff:g id="NUMBER">%1$s</xliff:g> muu viesti"
+        </item>
+    <item msgid="1393002799298501480" quantity="other">"+ 
+            <xliff:g id="NUMBER">%1$s</xliff:g> muuta viestiä"
+        </item>
+  </plurals>
+    <string msgid="5177386717626893507" name="error_state">"Epäyhteensopiva tila"</string>
+    <string msgid="7918866106335387710" name="error_state_text">"Viestiketjujen ja vastaanottajien tila ei täsmää. Tallenna virheraportti ja lähetä se osoitteessa http://go/droidanizer"</string>
+  <plurals name="recipient_count">
+    <item msgid="7338580381574463136" quantity="other">"<xliff:g id="NUMBER">%1$s</xliff:g> vastaanottajaa"</item>
+  </plurals>
+    <string msgid="7275920132410734671" name="view_more_conversations">"Näytä lisää keskusteluita"</string>
+    <string msgid="2867960243300539143" name="attachment_audio">"Ääni"</string>
+    <string msgid="5867689101881763318" name="attachment_slideshow">"Diaesitys"</string>
+    <string msgid="4252062022156694591" name="attachment_video">"Video"</string>
+    <string msgid="3709286281567284296" name="attachment_picture">"Kuva"</string>
+    <string msgid="2334673105226536422" name="notification_separator">" "</string>
+    <string msgid="213598026698964628" name="enumeration_comma">", "</string>
+    <string msgid="4188999027493614617" name="message_timestamp_format">" 
+        <xliff:g id="STRING_0">%1$s</xliff:g> - 
+        <xliff:g id="STRING_1">%2$s</xliff:g>"
+    </string>
+    <string msgid="7124740686325942375" name="storage_warning_title">"Puhelimesi tallennustila on täynnä"</string>
+    <string msgid="1100367816649962354" name="storage_warning_content">"Et saa enää teksti- tai multimediaviestejä"</string>
+    <string msgid="3395185162973061099" name="label_mms_send_outbox_msg">"MMS-heräte"</string>
+    <string msgid="1837156781311437148" name="desc_mms_send_outbox_msg">"Lähettää kaikki lähtevät multimediaviestit verkkoon"</string>
+    <string msgid="510014388581481569" name="banner_sms_promo_title_initial">"Messaging ei ole tekstiviestisovelluksesi"</string>
+    <string msgid="8123569785369713254" name="banner_sms_promo_title_application">" 
+        <xliff:g id="APPNAME">%s</xliff:g> on tekstiviestisovelluksesi"
+    </string>
+    <string msgid="3536714414252763826" name="banner_sms_promo_message">"Voit muuttaa tätä valitsemalla Asetukset"</string>
+<string name="prefDialogTitle_vibrateWhen">"Värinä"</string>
+    <string name="loading_conversations">"Ladataan keskusteluja."</string>
+    <string name="menu_delete_all_messages">Poista kaikki viestit</string>
+    <plurals name="notification_multiple">
+     <item quantity="one">%d lukematon viesti.</item>
+     <item quantity="other">%d lukematonta viestiä.</item>
+   </plurals>
+    <string name="cell_broadcast">"Solun yleislähetys"</string><!--modify by liujia5 for HQ01823169 20160427-->
+    <string name="cell_broadcast_title">"Mobiili ilmoitusasetukset"</string>
+    <string name="cell_broadcast_settings">"SIM-kortin mobiili ilmoitusasetukset"</string>
+    <string name="menu_insert_quick_text">"Liitä pikateksti"</string>
+    <string name="select_quick_text">"Valitse pikateksti"</string>
+    <string name="add">"Lisää"</string>
+    <string name="quick_text_editor">"Muokkaa pikatekstiä"</string>
+    <string name="modify_successful">Mukauttaminen onnistui</string>
+    <string name="modify_unsuccessful">Mukauttaminen epäonnistui!</string>
+    <string name="delete_successful">Poistaminen onnistui</string>
+    <string name="delete_unsuccessful">Poistaminen epäonnistui!</string>
+    <string name="add_quick_text_successful">Pikatekstin lisääminen epäonnistui</string>
+    <string name="already_have_quick_text">Sinulla on jo tämä pikateksti!</string>
+    <string name="file_attachment_common_name">Monitiedosto ( 
+        <xliff:g id="text">%s</xliff:g>)
+    </string>
+    <string name="file_attachment_contains">sisältää</string>
+    <string name="file_attachment_files">"tiedostoa"</string>
+    <string name="save_attachment">"Tallenna liite"</string>
+    <string name="save_multi_attachment_notes">Monitiedosto sisältää useita tiedostoja. Tarkistetaanko ja tallennetaanko ne?</string>
+    <string name="save_single_attachment_notes">Se on multimediaviestissä tukematon tiedostomuoto. Tallennetaanko se Tiedostonhallintaan?</string>
+    <string name="multi_files">Monitiedostot</string>
+    <string name="save_single_supportformat_attachment_notes">Tallennetaanko se Tiedostonhallintaan?</string>
+    <string name="exceed_editor_size_limitation">Tekstin kokoraja saavutettu.</string>
+    <string name="add_top_slide">Lisää dia päällimmäiseksi</string>
+    <string name="add_bottom_slide">Lisää dia alimmaiseksi</string>
+    <string name="pref_sms_signature">Allekirjoitus</string>
+<string name="pref_sms_enable_signature">Ota allekirjoitus käyttöön</string>
+<string name="pref_sms_enable_signature_summary">Lisää viesteihisi henkilökohtainen allekirjoitus</string>
+<string name="pref_sms_personal_signature">Muokkaa allekirjoitusta</string>
+<string name="pref_sms_personal_signature_summary">Allekirjoituksen sisältö</string>
+<string name="dialog_signatrue_title">Syötä allekirjoituksesi</string>
+<string name="default_signature">Lähetetty Huawei -laitteesta</string>
+<string name="menu_resend">Lähetä uudelleen</string>
+<string name="menu_slect_all">Valitse kaikki</string>
+<string name="sim_no_service">Katvealue</string>
+<string name="Prohibit_Send">Viestien lähettämistä on rajoitettu lapsitilassa</string>
+<string name="Prohibit_delete">Viestien poistamista on rajoitettu lapsitilassa</string>
+<string name="mms_deliver_failed">Multimediaviestin lähetys epäonnistui. Tarkista verkon asetukset tai vastaanottajan numero</string>
+<string name="send_empty_message_title">Lähetä viesti </string>
+<string name="send_empty_message_alert">Lähetetäänkö tyhjä viesti? </string>
+<string name="send_empty_message_yes">OK </string>
+<string name="send_empty_message_no">Peruuta </string>
+<string name="menu_blacklist">Häirinnänestosuodatin</string>
+<string name="black_list_manager_exception">Puhelimen hallintaa ei löytynyt. Asenna se ennen tämän ominaisuuden käyttämistä.</string>
+<string name="more_menu">Valikko</string>
+<string name="vcard_text">Teksti</string>
+<string name="vcard_mms">MMS vCard</string>
+<string name="attach_subjects">Aihe</string>
+<string name="attach_common_phrases">Yleiset lauseet</string>
+<string name="btn_call">Puhelu</string>
+<string name="menu_add_to_black_list">Lisää mustaan listaan</string>
+<string name="add_to_black_list">Lisätty mustaan listaan</string>
+<string name="menu_remove_from_black_list">Poista mustalta listalta</string>
+<string name="remove_from_black_list">Poistettu mustalta listalta</string>
+<string name="system_notification_tone">Järjestelmän ilmoitusääni</string>
+<string name="signatrue_limit_toast">Tekstin raja saavutettu.</string>
+<string name="invalid_recipient">"Epäkelpo vastaanottaja:&lt;<xliff:g id="NAME">%1$s</xliff:g>&gt;"</string>
+    <string name="menu_actionbar_not_selected_items">Ei valittu</string>
+    <string name="message_has_sent_success">Lähetetyt</string>
+    <string name="message_has_been_received">Toimitettu</string>
+</resources>

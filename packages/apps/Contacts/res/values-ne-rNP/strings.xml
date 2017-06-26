@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="3906689777043645443" name="applicationLabel">"सम्पर्कहरू"</string>
+    <string msgid="6497230399032392417" name="launcherActivityLabel">"सम्पर्कहरू"</string>
+    <string msgid="8661624236494819731" name="contactsList">"सम्पर्क"</string>
+    <string msgid="749243779392912958" name="shortcutContact">"ठेगाना"</string>
+    <string msgid="746622101599186779" name="shortcutDialContact">"सिधा डायल गर्नुहोस्"</string>
+    <string msgid="2460337253595976198" name="shortcutMessageContact">"सिधा सन्देश"</string>
+    <string msgid="6642877210643565436" name="shortcutActivityTitle">"सम्पर्क सर्टकट छान्नुहोस्"</string>
+    <string msgid="6065749861423648991" name="callShortcutActivityTitle">"कल गर्नका लागि एउटा नम्बर छान्नुहोस्"</string>
+    <string msgid="3084542316620335911" name="messageShortcutActivityTitle">"सन्देश पठाउनका लागि एउटा नम्बर छान्नुहोस्"</string>
+    <string msgid="6527505405325862674" name="contactInsertOrEditActivityTitle">"सम्पर्कमा थप्नुहोस्"</string>
+    <string msgid="4301062192337417640" name="contactPickerActivityTitle">"एउटा सम्पर्क छान्नुहोस्"</string>
+    <string msgid="2436981165830115659" name="header_entry_contact_list_adapter_header_title">"नयाँ सम्पर्क सिर्जना गर्नुहोस्"</string>
+    <string msgid="4817256136413959463" name="starredList">"ताराङ्कित"</string>
+    <string msgid="7154768136473953056" name="frequentList">"कहिले कहीँ"</string>
+    <string msgid="5640192862059373511" name="strequentList">"मनपर्नेहरू"</string>
+    <string msgid="7989394521836644384" name="viewContactTitle">"विवरणहरूलाई सम्पर्क गर्नुहोस्"</string>
+    <string msgid="2947202828256214947" name="editContactDescription">"सम्पर्क सम्पादन गर्नुहोस्"</string>
+    <string msgid="4709878105452681987" name="insertContactDescription">"ठेगाना बनाउनुहोस्"</string>
+    <string msgid="6321161304201540561" name="editGroupDescription">"समूह सम्पादन गर्नुहोस्"</string>
+    <string msgid="5658512271662210139" name="insertGroupDescription">"समूह सिर्जना गर्नुहोस्"</string>
+    <string msgid="5430408883907061400" name="contactDetailAbout">"बारेमा"</string>
+    <string msgid="3780588624763446941" name="contactDetailUpdates">"अद्यावधिकहरू"</string>
+    <string msgid="8482945356247760701" name="searchHint">"सम्पर्कहरू खोज्नुहोस्"</string>
+    <string msgid="2795575601596468581" name="menu_viewContact">"सम्पर्क हेर्नुहोस्"</string>
+    <string msgid="2908478235715404876" name="menu_addStar">"मनपर्नेहरूमा थप्नुहोस्"</string>
+    <string msgid="5844227078364227030" name="menu_removeStar">"मनपर्नेहरूबाट हटाउनुहोस्"</string>
+    <string msgid="4699640108012265178" name="description_action_menu_remove_star">"मनपर्नेहरूबाट हटाइयो"</string>
+    <string msgid="3327186327234177456" name="description_action_menu_add_star">"मनपर्नेमा थपियो"</string>
+    <string msgid="9042415603857662633" name="menu_editContact">"सम्पादन गर्नुहोस्"</string>
+    <string msgid="6788644058868189393" name="menu_deleteContact">"मेट्नुहोस्"</string>
+    <string msgid="1217971915748509640" name="menu_create_contact_shortcut">"होम स्क्रिनमा राख्नुहोस्"</string>
+    <string msgid="3992595586042260618" name="menu_call">"सम्पर्कलाई कल गर्नुहोस्"</string>
+    <string msgid="5535886767547006515" name="menu_sendSMS">"पाठ सम्पर्क"</string>
+    <string msgid="8368636463748691868" name="menu_splitAggregate">"छुट्याउनुहोस्"</string>
+    <string msgid="5062005185370983720" name="menu_editGroup">"सम्पादन गर्नुहोस्"</string>
+    <string msgid="3486380004411482874" name="menu_deleteGroup">"मेट्नुहोस्"</string>
+    <string msgid="7263362129442119188" name="menu_new_contact_action_bar">"सम्पर्क थप्नुहोस्"</string>
+    <string msgid="3520232877587377175" name="menu_new_group_action_bar">"समूह थप्नुहोस्"</string>
+    <string msgid="633640935430370530" name="splitConfirmation_title">"सम्पर्क अलग गर्ने हो?"</string>
+    <string msgid="740190210499587175" name="splitConfirmation">"यो सम्पर्क अनेक सम्पर्कहरूमा अलग गरिने छ।"</string>
+    <string msgid="5027981918265667970" name="menu_joinAggregate">"सामेल हुनुहोस्"</string>
+    <string msgid="7684875775798635354" name="titleJoinContactDataWith">"सम्पर्कहरू जोड्नुहोस्"</string>
+    <string msgid="8736488417422708236" name="blurbJoinContactDataWith">"तपाईँले सहभागी हुन चाहनु भएको सम्पर्क <xliff:g id="NAME">%s</xliff:g>: चयन गर्नुहोस्"</string>
+    <string msgid="2189695051430392383" name="showAllContactsJoinItem">"सबै सम्पर्कहरू देखाउनुहोस्"</string>
+    <string msgid="2831414448851313345" name="separatorJoinAggregateSuggestions">"सुझाव गरिएका सम्पर्कहरू"</string>
+    <string msgid="7939932265026181043" name="separatorJoinAggregateAll">"सबै सम्पर्कहरू"</string>
+    <string msgid="7208148163607047389" name="contactsJoinedMessage">"सहभागी भएका सम्पर्कहरू"</string>
+    <string msgid="8728345772068064946" name="menu_set_ring_tone">"रिङ्टोन मिलाउनुहोस्"</string>
+    <string msgid="4181789196416396656" name="menu_redirect_calls_to_vm">"भ्वाइसमेलमा सम्पूर्ण कल"</string>
+    <string msgid="7808825687289848259" name="readOnlyContactWarning">"तपाईँले पढ्ने-मात्र खाताबाट सम्पर्कहरू हटाउन सक्नु हुन्न, तर तपाईँको सम्पर्क सूचीहरूबाट लुकाउन सक्नु हुन्छ।"</string>
+    <string msgid="2137170726670196909" name="readOnlyContactDeleteConfirmation">"यो सम्पर्कमा जानकारीहरू धेरै खाताहरूबाट उपलब्ध छन्। पढ्ने-मात्र खातामा भएका जानकारीहरू तपाईँको सम्पर्क सूचीमा लुकेका हुने छन्, हटाइने छैन।"</string>
+    <string msgid="938900978442960800" name="multipleContactDeleteConfirmation">"यो सम्पर्कलाइ हटाउनाले धेरै खाताहरूबाट जानकारीहरू नष्ट गर्ने छ।"</string>
+    <string msgid="811706994761610640" name="deleteConfirmation">"यो सम्पर्क हटाइने छ।"</string>
+    <string msgid="6854657936970228164" name="menu_discard">"परिवर्तनहरू रद्द गर्नुहोस्"</string>
+    <string msgid="8215051456181842274" name="invalidContactMessage">"सम्पर्क उपलब्ध छैन।"</string>
+    <string msgid="7874133287558150877" name="createContactShortcutSuccessful">"सम्पर्क विजेट होम स्क्रिनमा थपियो।"</string>
+    <string msgid="7750705279843568147" name="pickerNewContactHeader">"नयाँ सम्पर्क सिर्जना गर्नुहोस्"</string>
+    <string msgid="6166997164401048211" name="pickerNewContactText">"नयाँ सम्पर्क सिर्जना गर्नुहोस्"</string>
+  <string-array name="otherLabels">
+    <item msgid="8287841928119937597">"संगठन"</item>
+    <item msgid="7196592230748086755">"नोट"</item>
+  </string-array>
+    <string msgid="6247290728908599701" name="photoPickerNotFoundText" product="tablet">"ट्याब्लेटमा कुनै पनि तस्वीरहरू उपलव्ध छैनन्।"</string>
+    <string msgid="431331662154342581" name="photoPickerNotFoundText" product="default">"कुनै पनि चित्रहरू फोनमा उपलब्ध छैनन्।"</string>
+    <string msgid="5599827035558557169" name="attach_photo_dialog_title">"सम्पर्क फोटो"</string>
+    <string msgid="1081475101983255212" name="customLabelPickerTitle">"कस्टम लेबल नाम"</string>
+    <string msgid="9001686764070676353" name="send_to_voicemail_checkbox">"कलहरू सिधै भ्वाइसमेलमा पठाउनुहोस्"</string>
+    <string msgid="4898105274130284565" name="removePhoto">"फोटो मेट्नुहोस्"</string>
+    <string msgid="8579310973261953559" name="noContacts">"कुनै सम्पर्क छैन।"</string>
+    <string msgid="8614664663561385253" name="noGroups">"कुनै समूहहरू छैनन्।"</string>
+    <string msgid="7768267764545265909" name="noAccounts">"समूह बनाउनका लागि एउटा खाताको आवश्यक्ता हुन्छ।"</string>
+    <string msgid="7502116218697177370" name="emptyGroup">"यो समूहमा कोही छैन।"</string>
+    <string msgid="7879585947222263516" name="addPeopleToGroup">"केही थपनका लागि, समुह सम्पादन गर्नुहोस्।"</string>
+    <string msgid="4075751076741924939" name="savingContact">"सम्पर्क बचत गर्दै..."</string>
+    <string msgid="7152589189385441091" name="contactSavedToast">"सम्पर्क बचत गरियो।"</string>
+    <string msgid="3207250533172944892" name="contactSavedErrorToast">"सम्पर्क परिवर्तनहरू सुरक्षित गर्न सकेन।"</string>
+    <string msgid="1168756874239833756" name="groupSavedToast">"समूह बचत गरियो।"</string>
+    <string msgid="7984466936615304740" name="groupSavedErrorToast">"समूह परिवर्तनहरू बचत गर्न सकेन।"</string>
+  <plurals name="listTotalPhoneContacts">
+    <item msgid="3015357862286673986" quantity="one">"फोन नम्बरसहित १ सम्पर्क"</item>
+    <item msgid="3299954047880968205" quantity="other">"<xliff:g id="COUNT">%d</xliff:g> फोन नम्बरसहित सम्पर्कहरू"</item>
+  </plurals>
+    <string msgid="6968813857632984319" name="listTotalPhoneContactsZero">"फोन नम्बर भएका कुनै सम्पर्कहरू छैनन्"</string>
+  <plurals name="listFoundAllContacts">
+    <item msgid="5517063038754171134" quantity="one">"१ भेटियो"</item>
+    <item msgid="3852668542926965042" quantity="other">"<xliff:g id="COUNT">%d</xliff:g> भेट्टियो"</item>
+  </plurals>
+    <string msgid="922980883593159444" name="listFoundAllContactsZero">"कुनै सम्पर्कहरू छैनन्।"</string>
+  <plurals name="searchFoundContacts">
+    <item msgid="4826918429708286628" quantity="one">"१ भेट्टाइयो"</item>
+    <item msgid="7988132539476575389" quantity="other">"<xliff:g id="COUNT">%d</xliff:g> भेटाइयो"</item>
+  </plurals>
+    <string msgid="6250372293594147703" name="all_contacts_tab_label">"सबै सम्पर्कहरू"</string>
+    <string msgid="1524869648904016414" name="favorites_tab_label">"मनपर्ने"</string>
+    <string msgid="5498224409038809224" name="callBack">"कल फर्काउने"</string>
+    <string msgid="3197312117049874778" name="callAgain">"फेरि कल गर्नुहोस्"</string>
+    <string msgid="8171961914203617813" name="returnCall">"कल फर्काउनुहोस्"</string>
+    <string msgid="7986472669444326576" name="add_contact_dlg_message_fmt">"\"<xliff:g id="EMAIL">%s</xliff:g>\" लाई सम्पर्कमा थप्ने?"</string>
+    <string msgid="3387458082667894062" name="description_contact_photo">"फोटो सम्पर्क गर्नुहोस्"</string>
+    <string msgid="515164827856229880" name="description_plus_button">"जोड"</string>
+    <string msgid="560522409559101193" name="exporting_contact_list_progress">"<xliff:g id="CURRENT_NUMBER">%s</xliff:g>को <xliff:g id="TOTAL_NUMBER">%s</xliff:g> सम्पर्क"</string>
+    <string msgid="2675223022992445813" name="search_settings_description">"तपाईँका सम्पर्कहरूका नामहरू"</string>
+    <string msgid="358168575340921552" name="quickcontact_missing_app">"यो कार्य सम्हाल्न कुनै पनि अनुप्रयोग पाइएन।"</string>
+    <string msgid="987959416759562455" name="quickcontact_transparent_view_description">"अघिल्लो पर्दामा फर्कनको लागि क्लिक गर्नुहोस्"</string>
+    <string msgid="731665835910658965" name="quickcontact_add_phone_number">"फोन नम्बर थप्नुहोस्"</string>
+    <string msgid="739298028384348482" name="quickcontact_add_email">"इमेल थप्नुहोस्"</string>
+    <string msgid="1466111003546611387" name="missing_app">"यो कार्य सम्हाल्न कुनै पनि अनुप्रयोग पाइएन।"</string>
+    <string msgid="943789700636542260" name="menu_share">"साझेदारी गर्नुहोस्"</string>
+    <string msgid="3198704337220892684" name="menu_add_contact">"सम्पर्कहरूमा थप्नुहोस्"</string>
+    <string msgid="563121028023030093" name="share_via">"मार्फत सम्पर्क ‍साझेदारी गर्नुहोस्"</string>
+    <string msgid="2318032089273496830" name="dialog_new_group_account">"खाता अन्तर्गत समूह बनाउनुहोस्"</string>
+    <string msgid="2535716629358298691" name="audio_chat">"भ्वाइस च्याट"</string>
+    <string msgid="1872255818640336072" name="video_chat">"भिडियो च्याट"</string>
+    <string msgid="8098440723172028350" name="connections">"जडानहरू"</string>
+    <string msgid="4861308615789601727" name="add_connection_button">"जडान थप्नुहोस्"</string>
+    <string msgid="2659189233141493004" name="recent">"हालैको"</string>
+    <string msgid="4267258535615860710" name="recent_updates">"हालसालैका अद्यावधिकहरू"</string>
+    <string msgid="718948015590343010" name="account_type_format">"<xliff:g id="SOURCE">%1$s</xliff:g> सम्पर्क"</string>
+    <!-- no translation found for from_account_format (4469138575127580203) -->
+    <skip/>
+    <string msgid="7421346527289472273" name="contact_read_only">"यो अनुप्रयोगबाट सम्पादन गर्न नमिल्ने।"</string>
+    <string msgid="1061762906115697637" name="group_read_only">"यस उपकरणमा सम्पादनयोग्य छैन।"</string>
+    <string msgid="7496128293167402354" name="take_photo">"तस्वीर लिनुहोस्"</string>
+    <string msgid="7341354729436576304" name="take_new_photo">"नयाँ फोटो खिच्नुहोस्"</string>
+    <string msgid="2129509985223564942" name="pick_photo">"फोटो छान्नुहोस्"</string>
+    <string msgid="9122450996263688237" name="pick_new_photo">"नयाँ तस्बिर चयन गर्नुहोस्"</string>
+    <string msgid="7583992153091537467" name="locale_change_in_progress">"भाषा परिवर्तन प्रतिबिम्बित गर्नका लागि सम्पर्क सूची अद्यावधिक गरिदैं छ।"</string>
+    <string msgid="474511436863451061" name="upgrade_in_progress">"सम्पर्क सूची अद्यावधिक हुदै छ।"</string>
+    <string msgid="1209994418877625940" name="upgrade_out_of_memory">"सम्पर्कहरू अद्यावधिक हुने प्रक्रियामा छन्।  \n \n अद्यावधिक प्रक्रिया लगभग  <xliff:g id="SIZE_IN_MEGABYTES">%s</xliff:g> आन्तरिक भण्डारण  MB आवश्यकता पर्छ ।  \n \n निम्न विकल्पहरू मध्ये कुनै छान्नुहोस्:"</string>
+    <string msgid="1721798828992091432" name="upgrade_out_of_memory_uninstall">"केही अनुप्रयोगहरू हटाउनुहोस्"</string>
+    <string msgid="8431289830472724609" name="upgrade_out_of_memory_retry">"अद्यावधिक गर्न पुनःप्रयास गर्नुहोस्"</string>
+    <string msgid="3984833028938569930" name="search_results_searching">"खोजी कार्य गर्दै..."</string>
+    <string msgid="6470001164297969034" name="menu_display_selected">"चयनित देखाउनुहोस्"</string>
+    <string msgid="8887488642609786198" name="menu_display_all">"सबै देखाउनुहोस्"</string>
+    <string msgid="621719255150713545" name="menu_select_all">"सबैलाई चयन गर्नुहोस्"</string>
+    <string msgid="7093222469852132345" name="menu_select_none">"सबैलाई अचयन गर्नुहोस्"</string>
+    <string msgid="5223080690667565044" name="add_new_entry_for_section">"नयाँ खाता थप्नुहोस्"</string>
+    <string msgid="7311893231158291197" name="add_organization">"संगठन थप्नुहोस्"</string>
+    <string msgid="5794424930242630477" name="event_edit_field_hint_text">"मिति"</string>
+    <string msgid="3966441850870457808" name="group_edit_field_hint_text">"समूह नाम"</string>
+    <string msgid="8530597935483526383" name="change_photo">"परिवर्तन गर्नुहोस्"</string>
+    <string msgid="8517942231868516999" name="primary_photo">"प्राथमिक तस्बिर"</string>
+    <string msgid="2605854427360036550" name="description_star">"मनपर्ने"</string>
+    <string msgid="7529281274005689512" name="edit_contact">"सम्पर्क सम्पादन गर्नुहोस्"</string>
+  <plurals name="merge_info">
+    <item msgid="148365587896371969" quantity="one">"मर्ज गरिएको छैन"</item>
+    <item msgid="425683718017380845" quantity="other">"<xliff:g id="COUNT">%0$d</xliff:g> स्रोतबाट मिसाइएको"</item>
+  </plurals>
+    <string msgid="3842757977671434836" name="aggregation_suggestion_join_dialog_message">"हालको सम्पर्कलाई चयनित सम्पर्कसँग जोड्ने हो?"</string>
+    <string msgid="6549585283910518095" name="aggregation_suggestion_edit_dialog_message">"चयनित सम्पर्कको सम्पादन गर्नका लागि स्विच गर्ने हो? तपाईँले अहिलेसम्म प्रविष्टि गरिएका जानकारीहरू प्रतिलिप हुने छन्।"</string>
+    <string msgid="1573960845106822639" name="menu_copyContact">"मेरा सम्पर्कहरूमा प्रतिलिपि गर्नुहोस्"</string>
+    <string msgid="1068274916793627723" name="add_to_my_contacts">"मेरो सम्पर्कहरूमा थप्नुहोस्"</string>
+    <string msgid="683398073603909119" name="contact_directory_description">"निर्देशिका<xliff:g id="TYPE">%1$s</xliff:g>"</string>
+    <string msgid="8910173055702057002" name="list_filter_custom">"अनुकूलन"</string>
+    <string msgid="5464130076132770781" name="activity_title_settings">"सेटिङहरू"</string>
+    <string msgid="377929915873428211" name="menu_settings">"सेटिङहरू"</string>
+    <string msgid="5123887102216637725" name="menu_help">"मद्दत"</string>
+    <string msgid="1341720270148252393" name="preference_displayOptions">"विकल्पहरू प्रदर्शन गर्नुहोस्"</string>
+    <string msgid="6718207751363732025" name="organization_company_and_title">"<xliff:g id="COMPANY_0">%2$s</xliff:g> , <xliff:g id="COMPANY_1">%1$s</xliff:g>"</string>
+    <string msgid="1541655052330027380" name="non_phone_caption">"फोन नम्बर"</string>
+    <string msgid="6590985286250471169" name="non_phone_add_to_contacts">"सम्पर्कहरूमा जोड्नुहोस्"</string>
+    <string msgid="4065089866210730616" name="activity_title_confirm_add_detail">"सम्पर्कमा थप्नुहोस्"</string>
+    <string msgid="7608506439725515667" name="non_phone_close">"बन्द गर्नुहोस्"</string>
+    <string msgid="8739586586600099979" name="widget_name_and_phonetic">"<xliff:g id="DISPLAY_NAME">%1$s</xliff:g> ( <xliff:g id="PHONETIC_NAME">%2$s</xliff:g> )"</string>
+    <string msgid="7356532842767854606" name="date_year_toggle">"एउटा वर्ष प्रदान गर्नुहोस्"</string>
+    <string msgid="6378905543028924592" name="social_widget_label">"ठेगाना"</string>
+    <string msgid="5327336597364074608" name="social_widget_loading">"लोड हुँदै..."</string>
+    <string msgid="7014525713871959208" name="contacts_unavailable_create_contact">"एउटा नयाँ सम्पर्क बनाउनुहोस्"</string>
+    <string msgid="7911101713860139754" name="contacts_unavailable_add_account">"एउटा खातामा साइन इन गर्नुहोस्"</string>
+    <string msgid="4957393255392437529" name="contacts_unavailable_import_contacts">"सम्पर्क आयात गर्नुहोस्"</string>
+    <string msgid="6874527142828424475" name="create_group_dialog_title">"नयाँ समूह बनाउनुहोस्"</string>
+    <string msgid="4411981763169654825" name="create_group_item_label">"नयाँ समूह बनाउनुहोस्"</string>
+  <plurals name="num_groups_in_account">
+    <item msgid="2944819210288517794" quantity="one">"१ समूह"</item>
+    <item msgid="1276758425904917367" quantity="other">"<xliff:g id="COUNT">%0$d</xliff:g> समूहहरू"</item>
+  </plurals>
+    <string msgid="7586856514337560529" name="delete_group_dialog_message">"\"<xliff:g id="GROUP_LABEL">%1$s</xliff:g>\" समूह हटाउने हो? (सम्पर्कहरू आफैँ हट्दैनन्।)"</string>
+  <plurals name="num_contacts_in_group">
+    <item msgid="1352418549951013448" quantity="one">"<xliff:g id="COUNT_0">%1$d</xliff:g> व्यक्ति <xliff:g id="ACCOUNT_TYPE">%2$s</xliff:g> बाट"</item>
+    <item msgid="8146027769011086349" quantity="other">"<xliff:g id="COUNT_0">%1$d</xliff:g> मानिसहरू <xliff:g id="ACCOUNT_TYPE">%2$s</xliff:g> बाट"</item>
+  </plurals>
+  <plurals name="group_list_num_contacts_in_group">
+    <item msgid="3323065321661972446" quantity="one">"<xliff:g id="COUNT">%1$d</xliff:g> व्यक्ति"</item>
+    <item msgid="6251996206137048525" quantity="other">"<xliff:g id="COUNT">%1$d</xliff:g> मानिसहरू"</item>
+  </plurals>
+    <string msgid="2238581529864542985" name="toast_join_with_empty_contact">"अर्कोसँग सामेल हुनुअघि सम्पर्क नाम टाइप गर्नुहोस्।"</string>
+    <string msgid="3257145021583508761" name="copy_text">"क्लिपबोर्डमा प्रतिलिपि गर्नुहोस्"</string>
+    <string msgid="4417505153468300351" name="set_default">"पूर्वनिर्धारित मिलाउनुहोस्"</string>
+    <string msgid="7193185801596678067" name="clear_default">"पूर्वनिर्धारित हटाउनुहोस्"</string>
+    <string msgid="5143776250008541719" name="toast_text_copied">"पाठको प्रतिलिपि  गरियो"</string>
+    <string msgid="5885724679874403115" name="cancel_confirmation_dialog_message">"तपाईँका परिवर्तनहरू रद्द गर्ने?"</string>
+    <string msgid="747163730039311423" name="call_type_and_date">"<xliff:g id="CALL_TYPE">%1$s</xliff:g> <xliff:g id="CALL_SHORT_DATE">%2$s</xliff:g>"</string>
+    <string msgid="4127389543625918771" name="profile_display_name">"मेरो प्रोफाइल मिलाउनुहोस्"</string>
+    <string msgid="1738391320566349924" name="enter_contact_name">"व्यक्तिको नाम टाइप गर्नुहोस्"</string>
+    <string msgid="238359485263401293" name="group_name_hint">"समूहको नाम"</string>
+    <string msgid="2021416826991393684" name="local_profile_title">"मेरो स्थानीय प्रोफाइल"</string>
+    <string msgid="8034998767621359438" name="external_profile_title">"मेरो <xliff:g id="EXTERNAL_SOURCE">%1$s</xliff:g> प्रोफाइल"</string>
+    <string msgid="2737388783898593875" name="toast_displaying_all_contacts">"सबै सम्पर्कहरू प्रदर्शन गरिदै"</string>
+    <string msgid="6424883302325061025" name="no_account_prompt">"Google खाता साथमा सम्पर्कले राम्रो काम गर्छ।\n\n• कुनै पनि वेब ब्राउजरबाट पहुँच गर्न सकिन्छ।\n• तपाईँका सम्पर्कहरू सुरक्षित रूपमा जगेडा गर्नुहोस्।"</string>
+    <string msgid="7218827704367325460" name="generic_no_account_prompt">"तपाईँले फोन नै हराउनु भएको अवस्थामा पनि आफ्ना सम्पर्कहरूलाई सुरक्षित राख्नुहोस्: कुनै अनलाइन सेवासँग सिन्क्रोनाइज गर्नुहोस्।"</string>
+    <string msgid="753783911899054860" name="generic_no_account_prompt_title">"एउटा खाता थप्नुहोस्"</string>
+    <string msgid="1785345895691886499" name="contact_editor_prompt_zero_accounts">"तपाईँको नयाँ सम्पर्क अद्यावधि गरिने छैन। अनलाइन अद्यावधिक गर्ने एउटा खाता थप्ने हो?"</string>
+    <string msgid="8669032699767375976" name="contact_editor_prompt_one_account">"<xliff:g id="ACCOUNT_NAME">%1$s</xliff:g>सँग तपाईँको नयाँ सम्पर्क सिन्क्रोनाइज गरिने छ।"</string>
+    <string msgid="611828200100438242" name="contact_editor_prompt_multiple_accounts">"तपाईँले आफ्ना सम्पर्कहरू निम्न मध्ये कुनै एउटा खातासँग सिन्क्रोनाइज गर्न सक्नु हुन्छ। कुन चाहिँ प्रयोग गर्न चाहनु हुन्छ ?"</string>
+    <string msgid="7192223018128934940" name="contact_editor_title_new_contact">"नयाँ सम्पर्क थप्ने"</string>
+    <string msgid="4898475703683187798" name="contact_editor_title_existing_contact">"सम्पर्क सम्पादन"</string>
+    <string msgid="1258761699192993322" name="keep_local">"स्थानीय राख्नुहोस्"</string>
+    <string msgid="8201790677994503186" name="add_account">"खाता थप गर्नुहोस्"</string>
+    <string msgid="5748627740680940264" name="add_new_account">"नयाँ खाता थप्नुहोस्"</string>
+    <string msgid="2659719297530170820" name="menu_export_database">"डेटाबेस फाइलहरू निर्यात गर्नुहोस्"</string>
+    <string msgid="3180222523336380017" name="action_menu_add_new_contact_button">"नयाँ सम्पर्क थप्नुहोस्"</string>
+    <string msgid="3779194067124758079" name="expanding_entry_card_view_see_more">"थप हेर्नुहोस्"</string>
+    <string msgid="5344160551629714168" name="expanding_entry_card_view_see_less">"कम हेर्नुहोस्"</string>
+    <string msgid="3845258737661412627" name="expanding_entry_card_view_see_all">"सबै हेर्नुहोस्"</string>
+    <string msgid="8982782042698001695" name="recent_card_title">"हालैको"</string>
+    <string msgid="2920942314212825637" name="about_card_title">"बारेमा"</string>
+    <string msgid="8938418965550543196" name="send_message">"सन्देश पठाउनुहोस्"</string>
+    <string msgid="6137651078366797938" name="toast_making_personal_copy">"व्यक्तिगत प्रतिलिपि बनाउँदै..."</string>
+    <string msgid="6840858548955018569" name="yesterday">"हिजो"</string>
+    <string msgid="6241969467795308581" name="tomorrow">"भोली"</string>
+    <string msgid="8041090779381781781" name="today">"आज"</string>
+    <string msgid="605665249491030460" name="today_at_time_fmt">"<xliff:g id="TIME_INTERVAL">%s</xliff:g>मा आज"</string>
+    <string msgid="4856497969617819421" name="tomorrow_at_time_fmt">"<xliff:g id="TIME_INTERVAL">%s</xliff:g>मा भोली"</string>
+    <string msgid="5053178726906863812" name="date_time_fmt">"<xliff:g id="DATE">%s</xliff:g>, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string msgid="3484859385405939366" name="untitled_event">"(शीर्षकविहीन घटना)"</string>
+    <string msgid="4761419824439606690" name="date_time_set">"सेट गर्नुहोस्"</string>
+    <string msgid="3581720979640225615" name="header_im_entry">"IM"</string>
+    <string msgid="8515394955666265406" name="header_organization_entry">"संगठन"</string>
+    <string msgid="6743561883967451485" name="header_nickname_entry">"उपनाम"</string>
+    <string msgid="4320190426480612344" name="header_note_entry">"टिप्पणी"</string>
+    <string msgid="1411467850000824745" name="header_website_entry">"वेबसाइट"</string>
+    <string msgid="6738250422744401460" name="header_event_entry">"घटना"</string>
+    <string msgid="1520292958088146460" name="header_relation_entry">"सम्बन्ध"</string>
+    <string msgid="2684318506427891827" name="header_account_entry">"खाता"</string>
+    <string msgid="1592791008096288306" name="header_name_entry">"नाम"</string>
+    <string msgid="8666093061171624478" name="header_email_entry">"इमेल"</string>
+    <string msgid="8450980572274173570" name="header_phone_entry">"फोन"</string>
+    <string msgid="4438023151411853238" name="header_photo_entry">"फोटो"</string>
+    <string msgid="1111381475901897470" name="content_description_expand_editor">"सम्पर्क सम्पादक विस्तार गर्न क्लिक गर्नुहोस्।"</string>
+    <string msgid="7598061318022977825" name="content_description_collapse_editor">"सम्पर्क सम्पादक समाप्त गर्न क्लिक गर्नुहोस्।"</string>
+    <string msgid="2686791825798189335" name="content_description_directions">"स्थानको लागि निर्देशनहरू"</string>
+    <string msgid="1666389577263317445" name="content_description_recent_sms">"हालैको एसएमएस। <xliff:g id="MESSAGE_BODY">%s</xliff:g>. <xliff:g id="PHONE_NUMBER">%s</xliff:g>. <xliff:g id="DATE">%s</xliff:g>. प्रतिक्रियाको लागि क्लिक गर्नुहोस्"</string>
+    <string msgid="5210739096863511410" name="content_description_recent_call_type_incoming">"आगमन"</string>
+    <string msgid="5156553338985232744" name="content_description_recent_call_type_outgoing">"बहिर्गमन"</string>
+    <string msgid="7371810920196048204" name="content_description_recent_call_type_missed">"छुटेको"</string>
+    <string msgid="5183800406316723676" name="content_description_recent_call">"हालैको कल। <xliff:g id="CALL_TYPE">%s</xliff:g>. <xliff:g id="PHONE_NUMBER">%s</xliff:g>. <xliff:g id="DATE">%s</xliff:g>. कल फिर्ता गर्न क्लिक गर्नुहोस्"</string>
+    <string msgid="7180706529908434482" name="message_from_you_prefix">"तपाईँ: <xliff:g id="SMS_BODY">%s</xliff:g>"</string>
+    <string msgid="114855385615225735" name="contact_editor_hangouts_im_alert">"तपाईंले इमेल क्षेत्र वा फोन क्षेत्रमा व्यक्तिको Hangouts परिचायक प्रविष्ट गर्नु हुँदा Hangouts राम्रो काम गर्दछ।"</string>
+    <string name="emergency_only">आकस्मिक कलहरू मात्र</string>
+    <string name="flight_mode_turned_on">विमान मोडलाई अन गरियो</string>
+     <string name="discard_change_contacts">रद्द</string>
+     <string name="save_change_contacts">सेव</string>
+<string name="dial_tab_label">डायल गर्नुहोस्</string>
+<string name="mms_tab_label">"सन्देश"</string><!--modify by wangjing3 for HQ01823167 20160325-->
+<string name="launcherActivityLabelForPhone">डायल गर्नुहोस्</string>
+<string name="join_same_name">सम्पर्कहरू मर्ज गर्नुहोस्</string>
+<string name="same_name_join_hint">&lt;li&gt;एउटै नाम भएका सम्पर्कहरूलाई मर्ज गर्न सुरू गर्नुहोस् टच गर्नुहोस्।&lt;/li&gt;\n&lt;li&gt;मर्ज गर्न रोक्न रद्द गर्नुहोस् छुनुहोस्।&lt;/li&gt;\n&lt;li&gt;यो प्रक्रियाको लागि केही समय लाग्नेछ।&lt;/li&gt;</string>
+<string name="join_action_start">सुरू गर्नुहोस्</string>
+<string name="join_title_total">जम्मा</string>
+<string name="join_title_single">हाल</string>
+<string name="join_status_unstarted">तयार</string>
+<string name="join_status_waiting">प्रतीक्षा गर्दै...</string>
+<string name="join_status_checking">जाँच्दै… कृपया पर्खनुहोस्</string>
+<string name="join_status_join_start">मर्ज गर्दै...</string>
+<string name="join_status_join_progress">समूहहरूलाई मर्ज गरियो: %1$s। जम्मा समूह: %2$s </string>
+<string name="join_status_joining">मर्ज गर्दै\n</string>
+<string name="join_status_single_joining">मर्ज गर्दै: %1$s\n एउटै नाम भएका जम्मा: %2$s </string>
+<string name="join_status_canceled">रद्द गरियो</string>
+<string name="join_cancel_confirm_msg">मर्ज गर्न रोक्नुहोस्</string>
+<string name="menu_done">सम्पन्न भयो</string>
+<string name="cancel">रद्द गरियो</string>
+<string name="ok">ओके</string>
+<string name="dial_keypad">डायल गर्नुहोस्</string>
+<string name="dial_menu">मेनु</string>
+<string name="dial_delete">मेट्नुहोस्</string>
+<string name="dial_emergency">आकस्मिक कलहरू</string>
+<string name="no_service">सेवा छैन</string>
+<string name="dataservice_title">डाटा सेवा</string>
+<string name="open_dataservice_confirm">"तपाईंको यन्त्रको लागि डाटा जडान अफ गरिएको छ। अझ राम्रो अनुभवको लागि, हामी तपाईंलाई डाटा जडान अन गर्न सिफारिस गर्छौँ।\n\nडाटा जडानलाई अन गरेपछि, तपाईंले आफ्ना SIM कार्डहरूलाई इन्टरनेट पहुँचका लागि प्रयोग गर्न सक्नुहुन्छ। डाटा जडान अन गर्ने?"</string>
+<string name="open_confirm">अन गर्नुहोस्</string>
+<string name="open_cancel">रद्द गर्नुहोस्</string>
+<string name="hour_hw">घण्टा</string>
+<string name="minute_hw">मिनेट</string>
+<string name="seconds_hw">सेकेन्ड</string>
+<string name="call_type_hw">कल प्रकार हेर्नुहोस्</string>
+<string name="cancel_hw">रद्द गर्नुहोस्</string>
+<string name="confirm_hw">ओके</string>
+<string name="black_list_manager_exception">फोन व्यवस्थापक फेला परेन। यो सुविधालाई प्रयोग गर्नु अघि कृपया यसलाई स्थापना गर्नुहोस्।</string>
+<string name="sim_log_hw">SIM लग</string>
+<string name="sim_all_hw">SIM 1 र SIM 2</string>
+<string name="sim_one_hw">SIM 1</string>
+<string name="sim_two_hw">SIM 2</string>
+<string name="call_type">कल प्रकार</string>
+<string name="all_call_hw">सबै कलहरू</string>
+<string name="miss_call_hw">छुटेका कलहरू</string>
+<string name="answer_call_hw">उठाइएका कलहरू</string>
+<string name="dialer_call_hw">डायल गरिएका कलहरू</string>
+<string name="date_format_year">वर्ष</string>
+<string name="date_format_month">महिना</string>
+<string name="outgoing_calltype">आउटगोइङ कलहरू</string>
+<string name="incoming_type">आगमन कलहरू</string>
+<string name="send_sms">सन्देश पठाउनुहोस्</string>
+<string name="am_time">AM</string>
+<string name="pm_time">PM</string>
+<string name="chubaoMessage">1. स्मार्ट पहिचान र यलो पेज सेवाहरूको लागि इन्टरनेटको पहुँच आवश्यक पर्न सक्छ, र प्रचलित डाटा प्रयोग शुल्क लाग्न सक्छ।\n2. यो सेवा TouchPal Contacts प्रदान गर्दछ, र सबै सम्बन्धित डाटाको शुद्धता र विश्वसनीयताका लागि उनीहरू जिम्मेवार हुनेछन्।\n3. तपाईंले चिन्हित गर्नुभएको नम्बरहरूसँग सम्बन्धित जानकारीलाई सर्भरमा अपलोड गरिनेछ।\n4.यो सेवाले तपाईंको स्थान जानकारीको पहुँच गर्नेछ।\nतपाईंले सहमतमा टच गर्नुभयो भणे, त्यसको मतलब तपाई माथीखो जानकारी स्वीकार्नुहुन्छ, र रद्द गर्नुहोस् मा टच गर्नुभयो भने, यो सेवाले इन्टरनेट पहुँच प्राप्त गर्न वा तपाईंको स्थान जानकारी हासिल गर्न सक्नेछैन।</string>
+<string name="user_aggreement">प्रयोगकर्ता सम्झौता</string>
+<string name="menu_add_to_black_list">ब्ल्याकलिस्टमा थप्नुहोस्</string>
+<string name="add_to_black_list">ब्ल्याकलिस्टमा थपियो</string>
+<string name="menu_remove_from_black_list">ब्ल्याकलिस्टबाट हटाउनुहोस्</string>
+<string name="remove_from_black_list">ब्य्याकलिस्टबाट हटाइयो</string>
+<string name="menu_send_number">नम्बर पठाउनुहोस्</string>
+<string name="menu_delete_call_log">कल लग प्रविष्टि मेट्नुहोस्</string>
+<string name="hotline_name">हटलाइन</string>
+<string name="hotline_phone">4008308300</string>
+<string name="hotline_email">mobile@huawei.com</string>
+<string name="hq_sim_slot_position_1">SIM 1</string>
+<string name="hq_sim_slot_position_2">SIM 2</string>
+<string name="menu_copy_number">नम्बर प्रतिलिपि गर्नुहोस्</string>
+<string name="cootek_dlg_no_show_again">फेरि नसम्झाउनुहोस्</string>
+<string name="contacts_setting_Advanced">उन्नत</string>
+<string name="merge_duplicate_contacts">प्रतिलिपि सम्पर्कहरूलाई मर्ज गर्नुहोस्</string>
+<string name="set_up_my_profile">मेरो प्रोफाइल सेट अप गर्ने</string>
+<string name="mem_status">मेमोरी स्थिति</string>
+<string name="phone_local">फोन</string>
+<string name="howManyContacts"> (सम्पर्कहरूको सङ्ख्या)</string>
+<string name="sar_mobile_phone_title">मोबाइल फोन SAR</string>
+<string name="sar_mobile_phone_heading">Huawei मोबाइल फोन</string>
+<string name="sar_mobile_phone_review">निश्चित अवशोषण दर जानकारी</string>
+<string name="sar_mobile_phone_contents">यो यन्त्रले रेडियो तरङ्हको सम्पर्कमा आउने मार्गदर्शनहरू पूर्ति गर्छ। तपाईंको यन्त्र कम पावरको रेडियो ट्रान्समिटर र रिसिभर हो। अन्तर्राष्ट्रिय मार्गदर्शनहरूद्वारा सिफारिस गरिए अनुसार, यो यन्त्रलाई रेडियो तरङ्गहरूको सम्पर्कमा आउने सीमा ननाघ्ने गरी डिजाइन गरिएको छ। यी मार्गदर्शनहरू इन्टरनेसनल कमिटी अन नन-आयोनाइजिङ रेडिएसन प्रोटेक्सन (ICNIRP) नाम गरेको स्वतन्त्र वैज्ञानिक संगठनद्वारा तयार गरिएका हुन् र यसमा उमेर र स्वास्थ्यलाई ध्यानमा नराखिकन, सबै प्रयोगकर्ताहरूको सुरक्षा सुनिश्चित गर्नेगरि बनाइएका सुरक्षा उपायहरू सम्मिलित छन्।\n\nभारतद्वारा अपनाइएको SAR सीमा औसतमा एक ग्राम भन्दा अलि बढी टुशू बराबर 1.6 बाट/किलोग्राम (W/kg) हो। यो यन्त्रको लागि सबैभन्दा उच्च SAR मान 1.0 W/kg हो।</string>
+<string-array name="phone_contact_menu">
+<item>कल गर्नुहोस्</item>
+<item>सन्देश पठाउनुहोस्</item>
+<item>इमेल पठाउनुहोस्</item>
+<item>सम्पादन</item>
+<item>मेट्नुहोस्</item>
+<item>साझा गर्नुहोस्</item>
+<item>मनपर्नेहरूमा थप्नुहोस्</item>
+<item>ब्ल्याकलिस्टमा थप्नुहोस्</item>
+<item>गृहपृष्ठ स्क्रिनमा राख्नुहोस्</item>
+</string-array>
+<string-array name="sim_contact_menu">
+<item>कल गर्नुहोस्</item>
+<item>सन्देश पठाउनुहोस्</item>
+<item>सम्पादन</item>
+<item>मेट्नुहोस्</item>
+<item>साझा गर्नुहोस्</item>
+<item>ब्ल्याकलिस्टमा थप्नुहोस्</item>
+<item>गृहपृष्ठ स्क्रिनमा राख्नुहोस्</item>
+</string-array>
+<string name="menu_copyContactsToCard1">सम्पर्कलाई कार्ड 1 मा प्रतिलिपि गर्नुहोस्</string>
+<string name="menu_copyContactsToCard2">सम्पर्कलाई कार्ड 2 मा प्रतिलिपि गर्नुहोस्</string>
+<string name="menu_copyContactsToPhone">सम्पर्कलाई फोनमा प्रतिलिपि गर्नुहोस्</string>
+<string name="stared_contacts">मनपर्नेहरू</string>
+<string name="stared_contacts_counts"> (मानिसहरूको सङ्ख्या)</string>
+<string name="select_sim">कृपया एउटा SIM कार्ड चयन गर्नुहोस्</string>
+<string name="menu_sdnlist">SDN सूची</string>
+<string name="simContacts_emptyLoading_ex">%s बाट सम्पर्कहरू पढ्दै\u2026</string>
+<string name="simContacts_emptyLoading">SIM कार्डबाट पढ्दै\u2026</string>
+<string name="sim1Contacts_emptyLoading">SIM1 बाट सम्पर्कहरू पढ्दै\u2026</string>
+<string name="sim2Contacts_emptyLoading">SIM2 बाट सम्पर्कहरू पढ्दै\u2026</string>
+<string name="simContacts_empty">तपाईंको SIM कार्डमा कुनै सम्पर्क छैन।</string>
+<string name="sdn_list_title">नम्बेहरू</string>
+<string name="no_contact_to_display">कुनै प्रतिलिपि सम्पर्क छैन</string>
+<string name="no_contacts_query">कुनै सम्पर्क फेला परेन।</string>
+<string name="contact_editor_account_selection_title">खाता चयन गर्नुहोस्</string>
+    <string name="delete_group_dialog_title">समूह मेट्नुहोस्</string>
+    <string name="menu_actionbar_not_selected_items">चयन गरिएको छैन</string>
+    <string name="dialer_item_3">स्पिड डायल सेटिङहरू</string>
+<string name="menu_copyContactsToSIM">सन्देशलाई SIM कार्डमा बचत गर्नुहोस्</string>
+</resources>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="all_images">সব ছবি</string>
+    <string name="all_videos">সব ভিডিও</string>
+    <string name="camera_label">ক্যামেরা</string>
+    <string name="gallery_picker_label">গ্যালারি</string>
+    <string name="gallery_label">গ্যালারি</string>
+    <string name="gallery_camera_bucket_name">ক্যামেরার ছবি</string>
+    <string name="gallery_camera_videos_bucket_name">ক্যামেরার ভিডিও</string>
+    <string name="gallery_camera_media_bucket_name">ক্যামেরা মিডিয়া</string>
+    <string name="crop_label">ছবি ক্রপ করুন</string>
+    <string name="view_label">ছবি দেখুন</string>
+    <string name="preferences_label">ক্যামেরা সেটিং</string>
+    <string name="wait">"অপেক্ষা করুন\u2026"</string>
+    <string name="no_storage" product="nosdcard">ক্যামেরা ব্যবহারের পূর্বে আপনাকে শেয়ারকৃত স্টোরেজ মাউন্ট করতে হবে।</string>
+    <string name="no_storage" product="default">ক্যামেরা ব্যবহারের পূর্বে আপনাকে একটি এসডি কার্ড প্রবেশ করাতে হবে।</string>
+    <string name="not_enough_space" product="nosdcard">আপনার শেয়ারকৃত স্টোরেজ পূর্ণ।</string>
+    <string name="not_enough_space" product="default">আপনার এসডি কার্ড স্টোরেজ পূর্ণ।</string>
+
+    <string name="preparing_sd" product="default">এসডি কার্ড প্রস্তুত করা হচ্ছে\u2026</string>
+    <string name="wallpaper">ওয়ালপেপার সেট হচ্ছে\u2026</string>
+    <string name="savingImage">ছবি সংরক্ষণ করা হচ্ছে\u2026</string>
+    <string name="runningFaceDetection">"অপেক্ষা করুন\u2026"</string>
+    <string name="view">দেখুন</string>
+    <string name="details">বিস্তারিত</string>
+    <string name="show_on_map">মানচিত্রে দেখান</string>
+    <string name="rotate">ঘোরানো</string>
+    <string name="rotate_left">বাঁদিক দিয়ে ঘুরান</string>
+    <string name="rotate_right">ডানদিক দিয়ে ঘুরান</string>
+    <string name="slide_show">স্লাইডশো </string>
+    <string name="multiselect">মাল্টিসিলেক্ট</string>
+    <string name="capture_picture">ছবি তুলুন</string>
+    <string name="capture_video">ভিডিও ধারণ করুন</string>
+    <string name="crop_save_text">সংরক্ষণ করুন</string>
+    <string name="crop_discard_text">বাতিল করুন</string>
+    <string name="confirm_delete_title">পরিচিতজন মুছুন</string>
+    <string name="confirm_delete_message">এই ছবিটি মুছে ফেলবেন?</string>
+    <string name="confirm_delete_video_message">এই ভিডিওটি মুছে ফেলবেন?</string>
+    <string name="confirm_delete_multiple_message">এই ফাইলগুলো মুছে ফেলবেন?</string>
+    <string name="camera_toss">পরিচিতজন মুছুন</string>
+    <string name="camera_share">শেয়ার করুন</string>
+    <string name="camera_set">সেট করুন</string>
+    <string name="camera_play">বাজান</string>
+    <string name="camera_attach">সংযুক্তি</string>
+    <string name="camera_cancel">বাতিল করুন</string>
+    <string name="camera_crop">ক্রপ করুন</string>
+
+    <string name="video_play">বাজান</string>
+    <string name="camera_pick_wallpaper">ছবি</string>
+    <string name="camera_setas_wallpaper">ওয়ালপেপার</string>
+    <string name="pref_gallery_category">সাধারণ সেটিং</string>
+    <string name="pref_slideshow_category">স্লাইড শো সেটিং</string>
+    <string name="pref_gallery_size_title">প্রদর্শনের আয়তন</string>
+    <string name="pref_gallery_size_summary">ভিডিও ও ছবি প্রদর্শনের আকার বাছাই করুন</string>
+    <string name="pref_gallery_size_dialogtitle">ছবির সাইজ</string>
+    <string-array name="pref_gallery_size_choices">
+        <item>বড়</item>
+        <item>ছোট</item>
+    </string-array>
+    <string name="pref_gallery_sort_title">সাজান</string>
+    <string name="pref_gallery_sort_summary">ছবি এবং ভিডিও সাজানোর ক্রম বাছাই করুন</string>
+    <string name="pref_gallery_sort_dialogtitle">ছবি সাজানো</string>
+    <string-array name="pref_gallery_sort_choices">
+        <item>সবচেয়ে নতুন</item>
+        <item>সবচেয়ে পুরাতন</item>
+    </string-array>
+    <string name="pref_gallery_slideshow_interval_title">স্লাইড শো-তে বিরতি</string>
+    <string name="pref_gallery_slideshow_interval_summary">শোতে প্রত্যেকটি স্লাইড কতক্ষণ ধরে প্রদর্শিত হবে তা বাছাই করুন।</string>
+    <string name="pref_gallery_slideshow_interval_dialogtitle">স্লাইড শো-তে বিরতি</string>
+    <string-array name="pref_gallery_slideshow_interval_choices">
+        <item>২ সেকেন্ড</item>
+        <item>৩ সেকেন্ড</item>
+        <item>৪ সেকেন্ড</item>
+    </string-array>
+    <string name="pref_gallery_slideshow_transition_title">স্লাইড শো ট্রানজিশন</string>
+    <string name="pref_gallery_slideshow_transition_summary">একটি স্লাইড থেকে পরবর্তী স্লাইডে যাবার সময় কোন ইফেক্ট ব্যবহৃত হবে তা বাছাই করুন</string>
+    <string name="pref_gallery_slideshow_transition_dialogtitle">স্লাইড শো ট্রানজিশন</string>
+    <string-array name="pref_gallery_slideshow_transition_choices">
+        <item>ফেইড ইন &amp; আউট</item>
+        <item>স্লাইড বাম- ডানে</item>
+        <item>স্লাইড ওপর-নিচে</item>
+        <item>দৈব নির্বাচন</item>
+    </string-array>
+    <string name="pref_gallery_slideshow_repeat_title">স্লাইড শো’র পুনরাবৃত্তি করুন</string>
+    <string name="pref_gallery_slideshow_repeat_summary">একাধিকবার স্লাইড শো দেখান</string>
+    <string name="pref_gallery_slideshow_shuffle_title">স্লাইডগুলো অদলবদল করুন</string>
+    <string name="pref_gallery_slideshow_shuffle_summary">ছবিগুলো দৈব পদ্ধতিতে দেখান</string>
+    <string name="camerasettings">সেটিং</string>
+    <string name="image_gallery_NoImageView_text">কোন মিডিয়া পাওয়া যায়নি।</string>
+    <string name="pref_gallery_confirm_delete_title">মুছে ফেলা নিশ্চিতকরণ</string>
+    <string name="pref_gallery_confirm_delete_summary">কোন ছবি বা ভিডিও মুছে ফেলার আগে নিশ্চিত হওয়া দেখান</string>
+
+    <string name="details_panel_title">বিস্তারিত</string>
+    <string name="details_file_size">ফাইলের আয়তন:</string>
+    <string name="details_image_resolution">রেজ্যুলুশন:</string>
+    <string name="details_image_make">প্রস্তুতকারক:</string>
+    <string name="details_image_model">মডেল:</string>
+    <string name="details_image_whitebalance">হোয়াইট ব্যালেন্স</string>
+    <string name="details_image_latitude">জিপিএস অক্ষরেখা:</string>
+    <string name="details_image_longitude">জিপিএস দ্রাঘিমারেখা:</string>
+    <string name="details_image_location">লোকেশন:</string>
+    <string name="details_duration">ব্যপ্তি:</string>
+    <string name="details_date_taken">তোলার তারিখ:</string>
+    <string name="details_frame_rate">ফ্রেম রেট:</string>
+    <string name="details_bit_rate">বিট রেট:</string>
+    <string name="details_codec">কোডেক:</string>
+    <string name="details_format">ফরম্যাট:</string>
+
+    <string name="details_ms"><xliff:g id="minutes" example="1">%1$02d</xliff:g>:<xliff:g id="seconds" example="23">%2$02d</xliff:g></string>
+    <string name="details_hms"><xliff:g id="hours" example="1">%1$d</xliff:g>:<xliff:g id="minutes" example="43">%2$02d</xliff:g>:<xliff:g id="seconds" example="33">%3$02d</xliff:g></string>
+
+    <string name="details_ok">ঠিক আছে</string>
+    <string name="context_menu_header">ছবি বিকল্প</string>
+    <string name="video_context_menu_header">ভিডিও বিকল্প</string>
+    <string name="multiface_crop_help">শুরু করার জন্য একটি ফেস স্পর্শ করুন।</string>
+    <string name="photos_gallery_title">গ্যালারি</string>
+    <string name="pick_photos_gallery_title">ছবি বাছাই করুন</string>
+    <string name="videos_gallery_title">গ্যালারি</string>
+    <string name="pick_videos_gallery_title">ভিডিও বাছাই করুন</string>
+    <string name="sendImage">ছবি শেয়ার করুন</string>
+    <string name="setImage">ছবি যেভাবে সেট করবেন</string>
+    <string name="sendVideo">ভিডিও শেয়ার করুন</string>
+    <string name="send_media_files">মাধ্যমে মিডিয়া ফাইল শেয়ার করুন</string>
+    <string name="movieviewlabel">চলচ্চিত্র</string>
+    <string name="loading_video">ভিডিও লোড হচ্ছে\u2026</string>
+    <string name="resume_playing_title">ভিডিও পুনরায় চালু করা</string>
+
+    <string name="resume_playing_resume">প্লে পুনরায় চালু করা</string>
+    <string name="resume_playing_restart">চালু করা</string>
+    <string name="gadget_title">ছবির ফ্রেম</string>
+    <string name="file_info_title">ফাইলের তথ্য:</string>
+    <string name="video_exceed_mms_limit">আপনি যে ভিডিওটি রেকর্ড করেছেন তা অনেক বড়। এমএমএস-এর মাধ্যমে পাঠানোর মত নয়। আরো ছোট ভিডিও রেকর্ডের চেষ্টা করুন।</string>
+    <string name="multiselect_share">শেয়ার করুন</string>
+    <string name="multiselect_delete">পরিচিতজন মুছুন</string>
+    <string name="multiselect_cancel">বাতিল করুন</string>
+
+    <string name="no_way_to_share_image">এই ছবিটি শেয়ার করার মত কোন অ্যাপ নেই।</string>
+    <string name="no_way_to_share_video">এই ভিডিওটি শেয়ার করার মত কোন অ্যাপ নেই।</string>
+    <string name="no_way_to_share">মিডিয়া ফাইলটি শেয়ার করার মত কোন অ্যাপ নেই।</string>
+    <string name="no_location_image">এই ছবিতে লোকেশন সংক্রান্ত কোন তথ্য সংরক্ষণ করা নেই।</string>
+    <string name="resume_playing_message"><xliff:g id="duration" example="5:30">%s</xliff:g> থেকে আবার ভিডিওটি চালাতে শুরু করবেন?</string>
+    <string name="delete_images_message">ছবিগুলো মুছে ফেলা হচ্ছে\u2026</string>
+
+    <string name="details_dimension_x"><xliff:g id="width" example="640">%1$d</xliff:g> x <xliff:g id="height" example="480">%2$d</xliff:g></string>
+    <string name="details_fps"><xliff:g id="frames" example="30">%1$d</xliff:g> fps</string>
+    <string name="details_kbps"><xliff:g id="speed" example="192">%1$d</xliff:g> Kbps</string>
+    <string name="details_mbps"><xliff:g id="speed" example="2.3">%1$g</xliff:g> Mbps</string>
+    <string name="preparing_sd" product="nosdcard">শেয়ারকৃত স্টোরেজ প্রস্তুত করা হচ্ছে\u2026</string>
+</resources>

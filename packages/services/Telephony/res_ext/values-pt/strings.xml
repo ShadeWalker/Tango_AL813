@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dual_mic_title">Redução de ruído</string>
+    <string name="dual_mic_summary">Suprima seus ruídos de fundo durante chamadas</string>
+    <string name="anc_title">Redução de Ruido Ativa</string>
+    <string name="anc_on">ANC ligado</string>
+    <string name="anc_off">ANC desligado</string>
+    <string name="ip_prefix_setting">Número de prefixo do IP</string>
+    <string name="ip_prefix_setting_lable">Número de prefixo do IP (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="ip_prefix_setting_sum">Configurações do número de prefixo do IP</string>
+    <string name="enter_ip_prefix_number">Digitar número de prefixo</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Digite o número de prefixo do IP primeiro nas configurações de chamada de Voz.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">A função de discagem por IP não é aplicável para chamada intencional.</string>
+    <string name="ip_prefix_edit_default_sum">Digitar número de prefixo para discagem de IP</string>
+    <string name="lable_call_barring">"Bloqueio de chamadas"</string>
+    <string name="title_call_barring">Bloqueio de chamadas (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="lable_all_outgoing">Todas as chamadas de saída</string>
+    <string name="lable_all_outgoing_international">Chamadas internacionais efetuadas</string>
+    <string name="lable_all_out_except">Chamadas internacionais efetuadas exceto para PLMN de casa</string>
+    <string name="lable_all_incoming">Todas as chamadas de entrada</string>
+    <string name="lable_incoming_calls_except">Chamadas recebidas em deslocamento</string>
+    <string name="deactivate_all">Cancelar tudo</string>
+    <string name="change_password">Trocar senha de barramento</string>
+    <string name="call_barring_sum">Configurações de baramento de chamada de voz</string>
+    <string name="lable_disable">Desabilitado</string>
+    <string name="lable_enable">"Ativado"</string>
+    <string name="old_password_label">Senha antiga(4 números)</string>
+    <string name="new_password_label">Senha nova(4 números)</string>
+    <string name="invalid_password">Digite uma senha com 4 números.</string>
+    <string name="confirm_password_label">Confirmar senha nova</string>
+    <string name="mismatch_password">As senhas digitadas não coincidem. Tente novamente.</string>
+    <string name="password_changed">Senha alterada com sucesso</string>
+    <string name="enter_callbarring_password">Digitar senha de barramento de chamada(4 números)</string>
+    <string name="wrong_password">Erro de senha</string>
+    <string name="error_title">"Erro"</string>
+    <string name="cell_broadcast">Transmissão celular</string>
+    <string name="cell_broadcast_settings">Configurações da transmissão celular</string>
+    <string name="cb_menu_language">"Idioma"</string>
+    <string name="cb_menu_add_channel">Adicionar Canal</string>
+    <string name="cb_menu_channel_list">Canais</string>
+    <string name="cb_dialog_title_language_choice">Selecione o idioma</string>
+    <string name="cb_channel_dialog_channel_name">Nome do canal (0-10 caracteres)</string>
+    <string name="cb_channel_dialog_channel_number">Número do canal (0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">Habilitar o canal</string>
+    <string name="cb_channel_dialog_edit_channel">Editar canal</string>
+    <string name="cb_menu_edit">"Editar"</string>
+    <string name="cb_menu_delete">"Excluir"</string>
+    <string name="cb_error_channel_num">Informar número do canal (0-65534).</string>
+    <string name="cb_error_channel_name">O comprimento do nome do Canal não está correto(1-10caracteres).</string>
+    <string name="cb_error_language_select">Selecione pelo menos um idioma.</string>
+    <string name="cb_error_channel_id_exist">O id do canal existe.</string>
+    <string name="cb_all_languages">Todos os idiomas</string>
+    <string name="cb_default_new_channel_name">Novo canal</string>
+    <string name="fdn_errorcode_unknown_info">Falha,erro desconhecido,tente mais tarde.</string>
+    <string name="fdn_errorcode_number_info">Falha,comrpimento do número do contato muito longo.</string>
+    <string name="fdn_errorcode_name_info">Falha,comrpimento do nome do contato muito longo.</string>
+    <string name="fdn_errorcode_storage_info">Falha,armazenamento cheio.</string>
+    <string name="fdn_errorcode_phb_info">Falha,Agenda não está pronta,tente mais tarde.</string>
+    <string name="fdn_errorcode_pin2_info">Falha,PIN2 inválido.</string>
+    <string name="net_or_simcard_busy">Rede ou cartão SIM ocupado,tente mais tarde.</string>
+    <string name="plmn_list_setting_title">Preferências</string>
+    <string name="network_id">ID da rede</string>
+    <string name="plmn_list_setting_add_plmn">Adicionar novo PLMN</string>
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">Buscar...</string>
+    <string name="sum_search_femtocell_networks">Selecionar femtocell manualmente</string>
+    <string name="register_femtocell_point_wait_tip">Registrando <xliff:g id="femto_cell_info">%s</xliff:g> ...</string>
+    <string name="register_femtocell_point_result_fail_tip">Impossível conectar a esta rede agora. Tente mais tarde.</string>
+    <string name="network_type">Tipo de rede</string>
+    <string name="gsm_umts_network_preferences_title">"Modo de rede"</string>
+    <string name="gsm_umts_network_preferneces_summary">Ainda não implementado!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"Modo de rede"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>"2G/3G (modo automático)"</item>
+        <item>Somente 3G</item>
+        <item>Somente 2G</item>
+    </string-array>
+    <string name="notification_voicemail_text">Selecionar para ver correios de voz</string>
+    <string name="notification_network_selection_without_operator">Rede seelcionada indisponível</string>
+    <string name="network_setting_all_forbidden_dialog">Sem redes disponíveis.</string>
+    <string name="network_forbidden">Desabilitar</string>
+    <string name="fdn_contact_number_invalid">Nome de contato inválido.</string>
+    <string name="fdn_puk_need_tips">PIN2 Bloqueado. Altere PIN2 e tente novamente!</string>
+    <string name="fdn_phone_book_busy">﻿﻿A lista de FDN está sendo carregad</string>
+    <string name="one_retry_left">"1 tentativa ainda"</string>
+    <string name="retries_left"><xliff:g id="number">%d</xliff:g> tentativas restantes</string>
+    <string name="pin_length_indicate">"(4 a 8 dígitos)"</string>
+    <string name="puk_length_indicate">"(8 dígitos)"</string>
+    <string name="unblock_pin2">"Desbloquear PIN2"</string>
+    <string name="sim_permanently_locked">Introdução do código PUK2 incorreto mais de 10 vezes, o cartão SIM foi bloqueado permanentemente</string>
+    <string name="magi_conference_title">MagiConferência</string>
+    <string name="magi_conference_summary">Melhora a qualidade da voz quando várias pessioas usam o telefone para falar com o outro lado.</string>
+    <string name="volte_is_adding_participants">Adicioando membro(s) à conferência, aguarde...</string>
+    <string name="volte_fail_to_invit_participants">Falha ao adicionar todos os membros à conferência.</string>
+    <string name="voicemail_lable">Correio de voz (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
+    <string name="volte_ss_not_available_tips">Para completar a operação, você precisa abrir a conexão de dados de <xliff:g id="sub_name">%s</xliff:g>.</string>
+    <string name="cdma_labelCFU">"Sempre encaminhar"</string>
+    <string name="cdma_labelCFB">"Enc. quando ocupado"</string>
+    <string name="cdma_labelCFNRy">"Enc. se não atendido"</string>
+    <string name="cdma_labelCFNRc">"Enc. se não acessível"</string>
+    <string name="cdma_labelCFC">Cancelar todos os envios</string>
+    <string name="cdma_cnir_title">CNIR</string> 
+    <string name="cdma_cnir_turnoff">Desabilitar restrição de identificação de número de chamada</string> 
+    <string name="cdma_cnir_turnon">Habilitar restrição de identificação de número de chamada</string>
+    <string name="lte_data_only_prompt">Impossível usar este recurso devido dados apenas em modo 4G.Deseja sair do modo de dados 4G apenas?</string>
+    <string name="lte_data_only_timeout">Nenhuma rede de dados 4G disponível em seu local atual. Deseja sair e pesquisar outras redes?</string>
+    <string name="lte_only_dialog_button_yes">"SIM"</string>
+    <string name="lte_only_dialog_button_no">"NÃO"</string>
+    <string name="lte_only_dialog_title_prompt">Aviso</string>
+    <string name="enable_4G_data">Ativar dados 4G</string>
+    <string name="enable_4G_data_summary">4G pode fornecer acersso melhor e mais rápido à Internet</string>
+    <string name="only_use_LTE_data">Usar Apenas Dados LTE</string>
+    <string name="only_use_LTE_data_summary">Para ativar uso de dados únicos apenas, a função não será vapaz de usar chamara de Telefone e mensagens de texto.</string>
+</resources>
