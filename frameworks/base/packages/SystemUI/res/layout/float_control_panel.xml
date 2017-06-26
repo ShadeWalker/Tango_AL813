@@ -1,0 +1,49 @@
+<!-- M: Add for multi-window -->
+<com.android.systemui.floatpanel.FloatPanelView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/extent_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dip"
+        android:background="@drawable/float_panel_background"
+        android:orientation="vertical" >
+
+        <com.android.systemui.floatpanel.DragSortGridView
+            android:id="@+id/extent_grid"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/gridview_more_height"
+            android:layout_marginTop="8dip"
+            android:columnWidth="@dimen/gridview_column_width"
+            android:gravity="center_horizontal"
+            android:horizontalSpacing="@dimen/gridview_horizontal_spacing"
+            android:numColumns="@integer/float_panel_num_columns"
+            android:stretchMode="spacingWidth"
+            android:verticalSpacing="@dimen/gridview_vertical_spacing" />
+    </LinearLayout>
+
+    <com.android.systemui.floatpanel.CustomizedHorizontalScrollView
+        android:id="@+id/resident_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/float_panel_background">
+
+        <com.android.systemui.floatpanel.DragSortGridView
+            android:id="@+id/resident_grid"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:columnWidth="@dimen/gridview_column_width"
+            android:gravity="center_horizontal"
+            android:horizontalSpacing="@dimen/gridview_horizontal_spacing"
+            android:minWidth="@dimen/float_bottom_min_width"
+            android:numColumns="auto_fit"
+            android:stretchMode="none"
+            android:paddingTop = "20dip"
+            android:paddingBottom = "5dip" >
+        </com.android.systemui.floatpanel.DragSortGridView>
+    </com.android.systemui.floatpanel.CustomizedHorizontalScrollView>
+
+</com.android.systemui.floatpanel.FloatPanelView>

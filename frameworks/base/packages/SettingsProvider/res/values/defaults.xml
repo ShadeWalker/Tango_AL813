@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources>
+    <bool name="def_dim_screen">true</bool>
+    <integer name="def_screen_off_timeout">30000</integer>           <!--   hanchao change  HQ01432247 -->
+    <integer name="def_tigo_screen_off_timeout">10000</integer>      <!--   hushunli add  HQ01453041 -->
+    <integer name="def_sleep_timeout">-1</integer>
+    <bool name="def_airplane_mode_on">false</bool>
+    <bool name="def_theater_mode_on">false</bool>
+
+    <!-- don't show huawei unlock -->
+    <integer name="def_show_hwlock_first">1</integer>
+
+    <!-- Comma-separated list of bluetooth, wifi, and cell. -->
+    <string name="def_airplane_mode_radios" translatable="false">cell,bluetooth,wifi,nfc,wimax</string>
+    <string name="airplane_mode_toggleable_radios" translatable="false">bluetooth,wifi,nfc</string>
+    <bool name="def_auto_time">true</bool>
+    <bool name="def_auto_time_zone">true</bool>
+    <bool name="def_accelerometer_rotation">true</bool>
+    <!-- Default screen brightness, from 0 to 255.  153 is 60%. -->
+    <integer name="def_screen_brightness">153</integer>
+    <bool name="def_screen_brightness_automatic_mode">true</bool><!--modified by jiangchao 20151008 HQ01432195-->
+    <fraction name="def_window_animation_scale">100%</fraction>
+    <fraction name="def_window_transition_scale">100%</fraction>
+    <bool name="def_haptic_feedback">false</bool>                     <!--  hanchao change  HQ01432132 -->
+
+    <bool name="def_bluetooth_on">false</bool>
+    <bool name="def_wifi_display_on">false</bool>
+    <bool name="def_install_non_market_apps">false</bool>
+    <bool name="def_package_verifier_enable">true</bool>
+    <!-- Comma-separated list of location providers.
+         Network location is off by default because it requires
+         user opt-in via Setup Wizard or Settings.
+    -->
+    <string name="def_location_providers_allowed" translatable="false"></string>
+    <bool name="assisted_gps_enabled">true</bool>
+    <bool name="def_netstats_enabled">true</bool>
+    <bool name="def_usb_mass_storage_enabled">true</bool>
+    <bool name="def_wifi_on">false</bool>
+    <!-- 0 == never, 1 == only when plugged in, 2 == always modify by wanghui for al812 default settings-->
+    <integer name="def_wifi_sleep_policy">2</integer>
+    <bool name="def_networks_available_notification_on">true</bool>
+
+    <bool name="def_backup_enabled">false</bool>
+    <!--string name="def_backup_transport" translatable="false">android/com.android.internal.backup.LocalTransport</string-->
+    <string name="def_backup_transport" translatable="false">com.google.android.backup/.BackupTransportService</string>
+
+    <!-- Default value for whether or not to pulse the notification LED when there is a
+         pending notification -->
+    <bool name="def_notification_pulse">true</bool>
+
+    <bool name="def_mount_play_notification_snd">true</bool>
+    <bool name="def_mount_ums_autostart">false</bool>
+    <bool name="def_mount_ums_prompt">true</bool>
+    <bool name="def_mount_ums_notify_enabled">true</bool>
+
+    <!-- user interface sound effects -->
+    <integer name="def_power_sounds_enabled">1</integer>
+    <string name="def_low_battery_sound" translatable="false">/system/media/audio/ui/LowBattery.ogg</string>
+    <integer name="def_dock_sounds_enabled">0</integer>
+    <string name="def_desk_dock_sound" translatable="false">/system/media/audio/ui/Dock.ogg</string>
+    <string name="def_desk_undock_sound" translatable="false">/system/media/audio/ui/Undock.ogg</string>
+    <string name="def_car_dock_sound" translatable="false">/system/media/audio/ui/Dock.ogg</string>
+    <string name="def_car_undock_sound" translatable="false">/system/media/audio/ui/Undock.ogg</string>
+    <integer name="def_lockscreen_sounds_enabled">1</integer>
+    <string name="def_lock_sound" translatable="false">/system/media/audio/ui/Lock.ogg</string>
+    <string name="def_unlock_sound" translatable="false">/system/media/audio/ui/Unlock.ogg</string>
+    <string name="def_trusted_sound" translatable="false">/system/media/audio/ui/Trusted.ogg</string>
+    <string name="def_wireless_charging_started_sound" translatable="false">/system/media/audio/ui/WirelessChargingStarted.ogg</string>
+
+    <bool name="def_lockscreen_disabled">false</bool>
+    <bool name="def_device_provisioned">false</bool>
+    <integer name="def_dock_audio_media_enabled">1</integer>
+
+    <!-- Notifications use ringer volume -->
+    <bool name="def_notifications_use_ring_volume">true</bool>
+
+    <!-- Default for Settings.System.VIBRATE_IN_SILENT -->
+    <bool name="def_vibrate_in_silent">true</bool>
+
+    <!-- Default for Settings.Secure.ACCESSIBILITY_SCRIPT_INJECTION -->
+    <bool name="def_accessibility_script_injection">false</bool>
+
+    <!-- Default for Settings.Secure.ACCESSIBILITY_SPEAK_PASSWORD -->
+    <bool name="def_accessibility_speak_password">false</bool>
+
+    <!-- Default for Settings.Secure.ACCESSIBILITY_WEB_CONTENT_KEY_BINDINGS -->
+    <string name="def_accessibility_web_content_key_bindings" translatable="false">
+            <!-- DPAD/Trackball UP - traverse previous on current axis and send an event. -->
+            0x13=0x01000100;
+            <!-- DPAD/Trackball DOWN - traverse next on current axis and send an event. -->
+            0x14=0x01010100;
+            <!-- DPAD/Trackball LEFT - traverse previous on the character navigation axis and send event. -->
+            0x15=0x02000001;
+            <!-- DPAD/Trackball RIGHT - traverse next on the character navigation axis end send event. -->
+            0x16=0x02010001;
+            <!-- Alt+DPAD/Trackball UP - go to the top of the document. -->
+            0x200000013=0x02000601;
+            <!-- Alt+DPAD/Trackball DOWN - go to the bottom of the document. -->
+            0x200000014=0x02010601;
+            <!-- Alt+DPAD/Trackball LEFT - transition from an axis to another and sends an event.-->
+            <!-- Axis transitions: 2 -> 1; -->
+            0x200000015=0x03020101;
+            <!-- Alt+DPAD/Trackball RIGHT - transition from an axis to another and sends an event. -->
+            <!-- Axis transitions:  1 -> 2; -->
+            0x200000016=0x03010201;
+            <!-- Alt+g - go to the previous heading and send an event. -->
+            0x200000023=0x02000301;
+            <!-- Alt+h - go to the next heading and send an event. -->
+            0x200000024=0x02010301;
+            <!-- Alt+COMMA - transition to sentence navigation axis and send an event. -->
+            <!-- Axis transitions:  7 -> 2; -->
+            0x200000037=0x03070201;
+            <!-- Alt+PERIOD - transition to default web view behavior axis and send an event. -->
+            <!-- Axis transitions:  0 -> 7; 1 - > 7; 2 -> 7; -->
+            0x200000038=0x03000701:0x03010701:0x03020701;
+    </string>
+
+    <!-- Default for Settings.Secure.ACCESSIBILITY_SCRIPT_INJECTION_URL -->
+    <string name="def_accessibility_screen_reader_url" translatable="false">
+        https://ssl.gstatic.com/accessibility/javascript/android/AndroidVox_v1.js
+    </string>
+
+    <!-- Default for Settings.Secure.TOUCH_EXPLORATION_ENABLED -->
+    <bool name="def_touch_exploration_enabled">false</bool>
+
+    <!-- Default value for Settings.Secure.ACCESSIBILITY_DISPLAY_MAGNIFICATION_SCALE -->
+    <fraction name="def_accessibility_display_magnification_scale">200%</fraction>
+
+    <!-- Default value for Settings.Secure.ACCESSIBILITY_DISPLAY_MAGNIFICATION_ENABLED -->
+    <bool name="def_accessibility_display_magnification_enabled">false</bool>
+
+    <!-- Default value for Settings.Secure.ACCESSIBILITY_DISPLAY_MAGNIFICATION_AUTO_UPDATE -->
+    <bool name="def_accessibility_display_magnification_auto_update">true</bool>
+
+    <!-- Default for Settings.System.USER_ROTATION -->
+    <integer name="def_user_rotation">0</integer>
+
+	<integer name="fingerprint_phone_switch">0</integer>
+	<integer name="fingerprint_camera_switch">1</integer>
+	<integer name="fingerprint_alarmclock_switch">0</integer>
+	<integer name="fingerprint_keyguard_switch">0</integer>
+	<integer name="fingerprint_security_switch">0</integer>
+	<integer name="fingerprint_applock_switch">0</integer>
+
+    <!--Default for Settings.System.TOUCH_DISABLE_MODE 0 is off -->
+    <integer name="touch_disable_mode">1</integer>
+    <integer name="touch_enable_mode">0</integer>
+	 
+    <!-- Default for Settings.Secure.DOWNLOAD_MAX_BYTES_OVER_MOBILE. <=0 if no limit -->
+    <integer name="def_download_manager_max_bytes_over_mobile">-1</integer>
+    <!-- Default for Settings.Secure.DOWNLOAD_RECOMMENDED_MAX_BYTES_OVER_MOBILE. <=0 if no limit -->
+    <integer name="def_download_manager_recommended_max_bytes_over_mobile">-1</integer>
+
+    <!-- Default for Settings.Secure.LONG_PRESS_TIMEOUT_MILLIS -->
+    <integer name="def_long_press_timeout_millis">500</integer>
+
+    <!-- Default for Settings.System.POINTER_SPEED -->
+    <integer name="def_pointer_speed">0</integer>
+
+    <!-- Default for DTMF tones enabled -->
+    <bool name="def_dtmf_tones_enabled">true</bool>
+    <!-- M: Default for UI touch sounds disabled ,google defaulit is enable -->
+    <bool name="def_sound_effects_enabled">false</bool>
+
+    <!-- Development settings -->
+    <bool name="def_stay_on_while_plugged_in">false</bool>
+
+    <!-- Number of retries for connecting to DHCP.
+         Value here is the same as WifiStateMachine.DEFAULT_MAX_DHCP_RETRIES -->
+    <integer name="def_max_dhcp_retries">9</integer>
+
+    <!-- Default for Settings.Secure.USER_SETUP_COMPLETE -->
+    <bool name="def_user_setup_complete">false</bool>
+
+    <!-- Default for Settings.Global.LOW_BATTERY_SOUND_TIMEOUT.
+         0 means no timeout; battery sounds will always play
+         >0 is milliseconds of screen-off time after which battery sounds will not play -->
+    <integer name="def_low_battery_sound_timeout">0</integer>
+    <!-- default for keylock gestures add by wuhuihui-->
+    <integer name="keylock_gestures_switch">0</integer>
+    <integer name="keylock_gestures_c">0</integer>
+    <integer name="keylock_gestures_e">0</integer>
+    <integer name="keylock_gestures_w">0</integer>
+    <integer name="keylock_gestures_m">0</integer>
+    <integer name="keylock_gestures_doubleclick">0</integer>
+    <!--add for font style-->
+    <string name="def_hide_font_style">true</string>
+    <string name="def_hide_online_font">true</string>
+    <!-- default for keylock gestures add by wuhuihui end-->
+
+    <integer name="isShow_NetworkType">0</integer>
+
+	 <string name="default_same_calendar_value" translatable="false">/system/media/audio/notifications/Bongo.ogg</string>
+
+      <!--add by lihaizhou for disable 3rdBrowser in ChildMode by begin-->  
+    <string name="browser_packages" translatable="false">"com.UCMobile;com.baidu.browser.apps;com.baidu.searchbox;com.mx.browser;com.tencent.mtt;com.android.chrome"</string>  
+    <!--add by lihaizhou for disable 3rdBrowser in ChildMode by end-->
+    <!--HQ_zhangteng added for Smart Earphone Control at 2015-09-07 begin-->
+    <integer name="smart_earphone_control">0</integer>
+    <!--HQ_zhangteng added for Smart Earphone Control at 2015-09-07 end-->
+    <!--HQ_zhangteng added for HQ01544181 at 2015-12-07 begin-->
+    <string name="hw_cust_display_search_engine" translatable="false">google</string>
+    <!--HQ_zhangteng added for HQ01544181 at 2015-12-07 end-->
+    <!-- default for keylock gestures package and class name string add by majian-->
+    <string name="keylock_gestures_c_pkg" translatable="false">"com.huawei.camera;com.huawei.camera"</string>
+    <string name="keylock_gestures_e_pkg" translatable="false">"com.android.chrome;com.google.android.apps.chrome.Main"</string><!-- HQ_hushunli 2016-08-16 modify for HQ02050710 -->
+    <string name="keylock_gestures_w_pkg" translatable="false">"com.huawei.android.totemweather;com.huawei.android.totemweather.WeatherHome"</string>
+    <string name="keylock_gestures_m_pkg" translatable="false">"com.android.mediacenter;com.android.mediacenter.PageActivity"</string>
+    <!-- default for keylock gestures add by majian end-->
+    
+    <!-- Initial value for the Settings.Secure.IMMERSIVE_MODE_CONFIRMATIONS setting,
+         which is a comma separated list of packages that no longer need confirmation
+         for immersive mode.
+         Override to disable immersive mode confirmation for certain packages. -->
+    <string name="def_immersive_mode_confirmations" translatable="false"></string>
+
+    <!-- Default for Settings.Global.WIFI_SCAN_ALWAYS_AVAILABLE -->
+    <integer name="def_wifi_scan_always_available">0</integer>
+
+    <!-- Default for Settings.Secure.LOCK_SCREEN_SHOW_NOTIFICATIONS, 1==on -->
+    <integer name="def_lock_screen_show_notifications">1</integer>
+
+    <!-- Default for Settings.Secure.LOCK_SCREEN_ALLOW_PRIVATE_NOTIFICATIONS -->
+    <bool name="def_lock_screen_allow_private_notifications">true</bool>
+
+    <!-- Default for Settings.Global.HEADS_UP_NOTIFICATIONS_ENABLED, 1==on -->
+    <integer name="def_heads_up_enabled">1</integer>
+
+    <!-- Default for Settings.Global.DEVICE_NAME $1=MANUFACTURER $2=MODEL-->
+    <string name="def_device_name">%1$s %2$s</string>
+
+    <!-- Default for Settings.Global.DEVICE_NAME $1=MODEL-->
+    <string name="def_device_name_simple">%1$s</string>
+
+    <!-- Default for Settings.Secure.WAKE_GESTURE_ENABLED -->
+    <bool name="def_wake_gesture_enabled">true</bool>
+
+    <!-- Default for Settings.Global.GUEST_USER_ENABLED -->
+    <bool name="def_guest_user_enabled">true</bool>
+    <!-- Default for Settings.System.FLIP_PHONE_SWITCH, wangmeihua add  -->
+    <bool name="def_flip_phone_switch">true</bool>
+    
+    <!-- Default for Settings.System.FLIP_PHONE_VALUE, wangmeihua add -->
+    <integer name="def_flip_phone_value">0</integer>
+
+    <!-- Default for Settings.System.TEXT_SHOW_PASSWORD, 1==on -->
+    <integer name="def_text_show_pwd">1</integer><!-- HQ_zhouyoukun 2016-01-23 add for HQ01688111 -->
+
+
+    <!-- HQ_liugang add for set default theme 20150821 -->
+    <string name="def_hw_theme" translatable="false">"/system/themes/Default.hwt"</string>
+	<!-- Deault for email signature add by gaoyuhao for 813-->
+	<integer name="email_signature_with_productname">1</integer>
+	<!-- Deault for browser bookmarks add by gaoyuhao for 813-->
+	<integer name="custom_bookmark_homepage">1</integer>
+	<!-- Deault for browser bookmarks add by wangmingyue for 813-->
+	<integer name="change_bookmark_by_mcc">1</integer>
+    <!-- Deault for clock hide_jerusalem add by gaoyuhao for 813-->
+    <integer name="is_hide_jerusalem">1</integer>
+    <!-- Deault for at&t calendar add by zhangpeng5 for 813-->
+    <integer name="first_day_of_week">1</integer>
+	<!-- Deault for is_show_gps_error_toast add by gaoyuhao for 813-->
+    <bool name="is_show_gps_error_toast">false</bool>
+    <!--HQ_yulifeng for roaming default,HQ01308722,20151028-->
+    <bool name="def_first_international_roaming_sim1">false</bool>
+    <bool name="def_first_international_roaming_sim2">false</bool>
+    <bool name="def_first_international_roam_state_sim1">false</bool>
+    <bool name="def_first_international_roam_state_sim2">false</bool>
+    <!--Default for calander vibrate add by gaoyuhao  813 HQ01487644 -->
+	<integer name="vibrate_on_calendar">1</integer>
+    <!--HQ_yulifeng for systemui  HQ01453039,20151109 -->
+    <integer name="no_show_type_out_data">0</integer>
+    <!--HQ_yanqing for data always on -->
+	<integer name="def_cellular_data_always_on">0</integer>
+	<!--add byg gaoyuho for claroemail HQ01453223-->
+	<string name="use_extra_emaillist">true</string>
+	<integer name="exchange_position_custom">1</integer>
+	<string name="domain_for_30min_check">"@iclaro.com.co"</string>
+	<string name="hw_email_hit_domain">"@iclaro.com.gt,@iclaro.com.hn,@iclaro.com.sv,@iclaro.com.ni,@iclaro.cr,@claro.net.pa,@claro.net.do,@claropr.com,@iclaro.com.pe,@iclaro.com.ar,@iclaro.com.py,@iclaro.com.uy"</string>
+    <string name="icon_4g_claro">"72207;73404;74002;74001;740010;722310;72234;722341;732101;732123;732130;732187;732142;732002;73299;71204;71201;71202;"</string>
+    <string name="icon_lte_claro">"33805;33818;34002;34008;34020;34260;34492;34614;34817;34877;35203;35211;35486;35611;35805;35811;36007;36011;36251;36269;36278;36291;36301;36302;36320;36439;36584;36611;36801;37001;37002;37004;37201;37202;37203;37412;37413;37635;53703;53988;54105;54202;70804;71401;71402;71403;71404;73801;74602;74603;74604;330110;330120;338050;338180;340020;342600;342750;344030;344920;344930;346140;348170;348570;348770;350000;350010;352030;352110;354860;356110;358050;358110;360070;360110;363020;364390;365840;366020;366110;374120;374129;374130;376350;376360;714010;714020;714040;714041;738002;70401;70402;704020;70403;704030;70601;70602;706020;70603;70604;706040;708001;70802;708020;71021;71073;71030;710300;732103;732111;73401;73402;73403;334090;74000;71606;74810;74801;71203;71610;71201;71204;71202;"</string>
+
+    <string name="icon_4g_only_for_claro">"72207;73404;74002;74001;740010;722310;72234;722341;732101;732123;732130;732187;732142;732002;73299;71204;71201;71202;71610;"</string>
+    <string name="icon_lte_only_for_claro">"33805;33818;34002;34008;34020;34260;34492;34614;34817;34877;35203;35211;35486;35611;35805;35811;36007;36011;36251;36269;36278;36291;36301;36302;36320;36439;36584;36611;36801;37001;37002;37004;37201;37202;37203;37412;37413;37635;53703;53988;54105;54202;70804;71401;71402;71403;71404;73801;74602;74603;74604;330110;330120;338050;338180;340020;342600;342750;344030;344920;344930;346140;348170;348570;348770;350000;350010;352030;352110;354860;356110;358050;358110;360070;360110;363020;364390;365840;366020;366110;374120;374129;374130;376350;376360;714010;714020;714040;714041;738002;70401;70402;704020;70403;704030;70601;70602;706020;70603;70604;706040;708001;70802;708020;71021;71073;71030;710300;732103;732111;73401;73402;73403;334090;74000;71606;74810;74801;71203;71201;71204;71202;"</string>
+
+    <string name="icon_4g_movistar">"71203;73003;72207;74002;722310;72234;722341;732101;732123;732130;732187;732142;732002;73299;71204;71201;71202;"</string>
+    <string name="icon_lte_movistar">"73404;33403;334030;74810;71610;74402;330110;74001;740010;71403；33805;33818;34002;34008;34020;34260;34492;34614;34817;34877;35203;35211;35486;35611;35805;35811;36007;36011;36251;36269;36278;36291;36301;36302;36320;36439;36584;36611;36801;37001;37002;37004;37201;37202;37203;37412;37413;37635;53703;53988;54105;54202;70804;71401;71402;71404;73801;74602;74603;74604;330120;338050;338180;340020;342600;342750;344030;344920;344930;346140;348170;348570;348770;350000;350010;352030;352110;354860;356110;358050;358110;360070;360110;363020;364390;365840;366020;366110;374120;374129;374130;376350;376360;714010;714020;714040;714041;738002;70401;70402;704020;70403;704030;70601;70602;706020;70603;70604;706040;708001;70802;708020;71021;71073;71030;710300;732103;732111;73401;73402;73403;334090;74000;71606;74801;71201;71204;71202;"</string>
+</resources>

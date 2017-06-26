@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- M: Add for multi-window -->
+<residentpackages
+	xmlns:systemui="http://schemas.android.com/apk/res-auto">
+	<app systemui:residentPackageName="com.android.mms"
+		systemui:residentClassName="com.android.mms.ui.BootActivity"
+		systemui:residentOrder="0" />
+
+	<app systemui:residentPackageName="com.android.gallery3d"
+		systemui:residentClassName="com.android.gallery3d.app.GalleryActivity"
+		systemui:residentOrder="1" />
+
+	<app systemui:residentPackageName="com.android.browser"
+		systemui:residentClassName="com.android.browser.BrowserActivity"
+		systemui:residentOrder="2" />
+
+	<app systemui:residentPackageName="com.android.email"
+		systemui:residentClassName="com.android.email.activity.Welcome"
+		systemui:residentOrder="3" />
+
+	<app systemui:residentPackageName="com.android.calculator2"
+		systemui:residentClassName="com.android.calculator2.Calculator"
+		systemui:residentOrder="4" />
+	<app systemui:residentPackageName="com.android.calendar"
+		systemui:residentClassName="com.android.calendar.AllInOneActivity"
+		systemui:residentOrder="5" />
+	<app systemui:residentPackageName="com.android.music"
+		systemui:residentClassName="com.android.music.MusicBrowserActivity"
+		systemui:residentOrder="6" />
+	<app systemui:residentPackageName="com.mediatek.videoplayer"
+		systemui:residentClassName="com.mediatek.videoplayer.BootActivity"
+		systemui:residentOrder="7" />
+</residentpackages>
+
